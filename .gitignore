@@ -1,0 +1,11 @@
+# OS and editor junk
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Personal Claude settings (shared settings stay in .claude/settings.json)
+.claude/settings.local.json
