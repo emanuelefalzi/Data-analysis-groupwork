@@ -1,0 +1,35 @@
+{
+  "id_fonte": "yu2020",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Model of accelerator feedback plus about 900 accelerator companies (13 accelerators) matched to about 900 non-accelerator companies (AngelList/Crunchbase-type data); logit, Cox hazard and OLS on closure, funding, web traffic and acquisition; extra sample of rejected applicants.",
+  "righe": [
+    {
+      "riga": "2.5__yu2020",
+      "firma": "dfcb984385",
+      "esito": "da riformulare",
+      "estrazione": "Yu models accelerators as a source of feedback that tells founders about their probability of success, and finds that accelerator companies close down earlier and more often and raise less money conditional on closing than matched non-accelerator companies. The author concludes that these results suggest accelerators help resolve uncertainty around company quality sooner. Uncertainty resolution is inferred from closure and funding outcomes, not measured directly, and the wording is hedged (suggest, appear).",
+      "citazione": "These results suggest that accelerators help resolve uncertainty around company quality sooner, allowing founders to make funding and exit decisions accordingly.",
+      "posizione": "Abstract",
+      "frase_paper": "Yu (2020) finds that accelerator companies close down earlier and more often than matched non-accelerator companies, and reads this as suggesting that accelerators help resolve uncertainty about company quality sooner.",
+      "frase_slide": "Accelerator startups close earlier and more often, suggesting accelerators resolve quality uncertainty sooner (Yu, 2020)",
+      "forza": "shows",
+      "numero_chiave": "Odds of closing 150% higher for accelerator companies than matched non-accelerator companies (Table 10 text, logit on closure).",
+      "limiti_vs_noi": "Accelerator participation versus matched non-participants, not VC round timing; closure rather than exit; sample from about 13 accelerators, not PitchBook 2012-2019 US VC-backed firms.",
+      "note": "Shared tesi with hallen2020 and gonzalezuribe2018; judged on Yu only. The txt says 'suggest', so the tesi must carry the hedge and say 'about company quality' and that evidence is on closure."
+    },
+    {
+      "riga": "5.5__yu2020",
+      "firma": "edb42a1714",
+      "esito": "non verificabile",
+      "estrazione": "The tesi 'control-sign comparisons' does not state any claim that can be checked against the txt. The only control Yu reports is FounderExp (founder entrepreneurial experience), plus year and industry fixed effects, in Tables 10-13; its coefficient is mostly not significant and its sign varies across outcomes (for example -0.130 on closure in Table 10 column 1, +0.0405 on log funding in Table 11 column 1). Yu does not discuss these control signs or compare them with other studies, and does not use accelerator controls such as ours. Without a stated sign claim, no verdict beyond 'not verifiable' is possible.",
+      "citazione": "controlling for founder experience in addition to year effects to control for macroeconomic conditions and industry effects to control for differences across industries",
+      "posizione": "6.3. Main Results",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "",
+      "numero_chiave": "",
+      "limiti_vs_noi": "",
+      "note": "Tesi too vague to test. If the group means a specific sign (e.g. prior experience goes with less closure), Yu reports FounderExp = -0.130, not significant (Table 10 column 1), so it would not support a sign claim."
+    }
+  ]
+}

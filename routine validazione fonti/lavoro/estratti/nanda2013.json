@@ -1,0 +1,49 @@
+{
+  "id_fonte": "nanda2013",
+  "tipo_studio": "empirical",
+  "dati_metodo": "12,285 US VC-backed startups with first Seed/Series A financing 1985-2004 (Dow Jones Venture Source), outcomes to end-2010; OLS and IV (buyout fund-raising instrument) at startup and investor-startup level; patents and citations for IPO firms",
+  "righe": [
+    {
+      "riga": "1__nanda2013",
+      "firma": "323386869b",
+      "esito": "da riformulare",
+      "estrazione": "The txt finds that US VC-backed startups first funded in active (hot) quarters are more likely to go bankrupt and, conditional on going public, are valued higher at IPO and have more patents and citations. Failure is measured as bankruptcy (27% baseline), and the innovation evidence (patents, citations) covers only firms that had an IPO. The authors call it a robust association, with a causal reading offered only for the IV part.",
+      "citazione": "markets are more likely to go bankrupt, but conditional on going public, are valued higher",
+      "posizione": "Abstract",
+      "frase_paper": "Nanda and Rhodes-Kropf (2013) find that US VC-backed startups first funded in hot markets are more likely to go bankrupt but, conditional on an IPO, are valued higher and have more patents and citations.",
+      "frase_slide": "Hot-market startups go bankrupt more often but, if they IPO, have more patents and higher valuations (Nanda & Rhodes-Kropf, 2013).",
+      "forza": "shows",
+      "numero_chiave": "27%: share of startups that went bankrupt in the sample of 12,285 US startups",
+      "limiti_vs_noi": "Sample is first financings 1985-2004, not 2012-2019; failure is bankruptcy, not our exit-within-5-years outcome; innovation measured only for IPO firms; hot market is quarterly VC activity, not our sector-year VC share z-score.",
+      "note": "The tesi says 'fail' and 'when they succeed' generally; the txt specifies bankruptcy and, for innovation, IPO firms (valuation also for acquisitions above $50M)."
+    },
+    {
+      "riga": "2.3__nanda2013",
+      "firma": "57ff7baa2e",
+      "esito": "da riformulare",
+      "estrazione": "The txt documents that startups funded in hot periods are more likely to go bankrupt and, if they go public, show higher IPO valuations, more patents and more citations. The finding is for first financings 1985-2004 and the innovation part rests on IPO firms only. 'Cohorts' is shorthand: the txt compares startups by the activity level of the quarter of first funding.",
+      "citazione": "markets are more likely to go bankrupt, but conditional on going public, are valued higher",
+      "posizione": "Abstract",
+      "frase_paper": "Nanda and Rhodes-Kropf (2013) find that startups first funded in hot markets are more likely to go bankrupt but, conditional on going public, are valued higher and patent more.",
+      "frase_slide": "Hot-market startups fail more but, if they IPO, are valued higher and patent more (Nanda & Rhodes-Kropf, 2013).",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Different period (1985-2004), failure = bankruptcy, innovation only for IPO firms, hot defined by quarterly VC activity.",
+      "note": "Same evidence as row 1; the tesi's 'innovate more' needs the IPO condition."
+    },
+    {
+      "riga": "5.5__nanda2013",
+      "firma": "3d1e5cd7cf",
+      "esito": "da riformulare",
+      "estrazione": "The tesi is vague and does not state a claim. The txt gives a hot-market reading: abundant capital lowers financing risk, so investors worry less about follow-on funding and fund riskier, more novel startups. This is argued via Nanda and Rhodes-Kropf (2012) and is consistent with, not proof of, the IV results. The txt says nothing on the time between rounds or on any gap-by-hype interaction, so it cannot support H2 itself.",
+      "citazione": "when investors are less concerned about the difficulty in",
+      "posizione": "5.1. Ex ante differences",
+      "frase_paper": "Nanda and Rhodes-Kropf (2013) argue that in hot markets investors worry less about obtaining follow-on funding and are therefore willing to fund riskier, more novel startups.",
+      "frase_slide": "In hot markets investors worry less about follow-on funding and back riskier startups (Nanda & Rhodes-Kropf, 2013).",
+      "forza": "mentions",
+      "numero_chiave": "",
+      "limiti_vs_noi": "No data on round timing or gaps; supports only the general hot-market mechanism, not an interaction with the gap between round 1 and round 2.",
+      "note": "Shared tesi with gompers2000; only the hot-market part can come from this source. The follow-on-funding rationale is attributed to Nanda and Rhodes-Kropf (2012), which this txt cites rather than tests (the syndicate-size result is only consistent with it)."
+    }
+  ]
+}

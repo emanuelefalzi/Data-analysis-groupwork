@@ -1,0 +1,35 @@
+{
+  "id_fonte": "pastor2005",
+  "tipo_studio": "theory",
+  "dati_metodo": "Real-options model of optimal IPO timing calibrated and simulated, tested with US IPO volume, market returns, profitability and M/B data, 1960-2002",
+  "righe": [
+    {
+      "riga": "2.3__pastor2005",
+      "firma": "16f87f4571",
+      "esito": "usabile",
+      "estrazione": "The paper argues that the number of firms going public changes over time in response to time variation in market conditions (expected market return, expected aggregate profitability, prior uncertainty). It models this and finds empirical support in US data: IPO waves tend to be preceded by high market returns and followed by low ones.",
+      "citazione": "We argue that the number of firms going public changes over time in response to time variation in market conditions.",
+      "posizione": "Abstract",
+      "frase_paper": "Pástor & Veronesi (2005) argue and show, with a model of optimal IPO timing tested on US data, that IPO volume changes over time in response to market conditions.",
+      "frase_slide": "IPO volume moves with market conditions (Pástor & Veronesi, 2005)",
+      "forza": "shows",
+      "numero_chiave": "845 US IPOs in 1996 vs 87 in 2002 (IPO counts, from the introduction)",
+      "limiti_vs_noi": "Theory plus tests on US IPO volume 1960-2002; concerns IPOs only, not VC rounds or startup exits within five years, and not 2012-2019.",
+      "note": "Tesi is short and matches the abstract. Waves are the aggregate number of IPOs, not individual firm outcomes."
+    },
+    {
+      "riga": "2.5__pastor2005",
+      "firma": "7a7e63e866",
+      "esito": "da riformulare",
+      "estrazione": "The paper does not use the idea of IPO windows opening and closing. It models firms as holding an option to go public and waiting for better market conditions; when conditions improve sufficiently many go public at once, creating a wave. This supports that IPO timing responds to market conditions, not an explicit window that opens and closes.",
+      "citazione": "When market conditions improve sufficiently, many inventors exercise their options to go public, thus creating a cluster of IPOs, or an “IPO wave.”",
+      "posizione": "Introduction",
+      "frase_paper": "Pástor & Veronesi (2005) model firms as waiting for favourable market conditions and going public in clusters when conditions improve sufficiently, creating IPO waves.",
+      "frase_slide": "Firms wait for better conditions, then go public in waves (Pástor & Veronesi, 2005)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory of IPO timing by firms with a real option; not VC-backed startups and not a test of windows closing.",
+      "note": "The word window appears in the txt only in a reference title. Shared tesi with lerner1994: this source supports the waiting-and-clustering part, not window language. Closing of the window is not shown beyond waves ending when conditions worsen."
+    }
+  ]
+}

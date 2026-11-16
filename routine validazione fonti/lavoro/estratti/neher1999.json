@@ -1,0 +1,21 @@
+{
+  "id_fonte": "neher1999",
+  "tipo_studio": "theory",
+  "dati_metodo": "Deterministic, symmetric-information model of an entrepreneur who cannot commit not to renegotiate (hold-up, inalienable human capital); derives the optimal staged investment path; no data, only qualitative consistency with VC evidence from other studies.",
+  "righe": [
+    {
+      "riga": "2.1__neher1999",
+      "firma": "5b5ac0da52",
+      "esito": "usabile",
+      "estrazione": "The paper models staging as the answer to an agency problem between entrepreneur and venture capitalist, framed as a commitment/hold-up problem: the entrepreneur cannot commit not to renegotiate the investor's claim once the money is sunk. Staging keeps each round small and lets early rounds build collateral, so later rounds are protected. It stresses that this is a symmetric-information model, different from Gompers' asymmetric-information and monitoring view, and from real-option views.",
+      "citazione": "rather than the outcome of the agency problem that exists between the entrepreneur and the venture capitalist",
+      "posizione": "1. Introduction (p. 256)",
+      "frase_paper": "Neher (1999) models staged financing as a response to the agency problem between entrepreneur and investor, namely the entrepreneur's inability to commit not to renegotiate the investor's claim (hold-up), under symmetric information.",
+      "frase_slide": "Staging mitigates the entrepreneur's hold-up problem towards the investor (Neher, 1999)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Pure theory with perfect certainty and symmetric information; no data, no exit outcomes and no timing of the second round. It explains why financing is staged, not how long the gap should be.",
+      "note": "The agency problem is hold-up/commitment, not asymmetric information or monitoring; the tesi should not be read as the monitoring story (that is Gompers, per Neher's own text)."
+    }
+  ]
+}

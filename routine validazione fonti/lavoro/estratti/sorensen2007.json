@@ -1,0 +1,49 @@
+{
+  "id_fonte": "sorensen2007",
+  "tipo_studio": "empirical",
+  "dati_metodo": "1,666 first VC investments by 75 lead investors in CA and MA companies, 1982-1995 (SDC data); structural two-sided matching model estimated by Bayesian (Gibbs) methods; outcome is IPO",
+  "righe": [
+    {
+      "riga": "2.5__sorensen2007",
+      "firma": "10ec54c629",
+      "esito": "da riformulare",
+      "estrazione": "The abstract and introduction say sorting is almost twice as important as influence for the difference in IPO rates across VC investors. A worked example in Section F gives influence about one-third and sorting about two-thirds when moving from the least to the most experienced investor. The text says 'almost twice', not 'about twice', and the outcome is IPO, not exit in general.",
+      "citazione": "with sorting appearing almost twice as important as inf luence for explaining the observed differences in IPO rates across VC investors",
+      "posizione": "Introduction",
+      "frase_paper": "Sørensen (2007) finds that sorting of better companies to more experienced VCs is almost twice as important as the VCs' influence in explaining differences in IPO rates, in a sample of 1,666 first VC investments in California and Massachusetts, 1982-1995.",
+      "frase_slide": "Sorting is almost twice as important as influence for IPO-rate differences across VCs (Sørensen, 2007)",
+      "forza": "shows",
+      "numero_chiave": "almost 2x: sorting vs influence in explaining IPO-rate differences across VC investors; roughly two-thirds sorting vs one-third influence for least vs most experienced investor",
+      "limiti_vs_noi": "Outcome is IPO only; CA and MA only; first investments 1982-1995; investor experience is the treatment, not the round gap; our setting is US 2012-2019 with exit within five years.",
+      "note": "Wording 'about twice' (v4) is slightly stronger than 'almost twice'; the 'per v4' part cannot be checked in this txt."
+    },
+    {
+      "riga": "5.5__sorensen2007",
+      "firma": "257eac56e3",
+      "esito": "usabile",
+      "estrazione": "The paper separates two reasons why experienced VCs have more IPOs: influence (they add value) and sorting (they invest in better companies). It builds a structural matching model to identify the two. The tesi is a bare label and the txt covers it fully; the comparison of the two is only for IPO and VC experience.",
+      "citazione": "influence, which means that experienced VCs add more value and bring companies public at a higher rate, and sorting, which means that more experienced VCs invest in better companies",
+      "posizione": "Introduction",
+      "frase_paper": "Sørensen (2007) models the distinction between influence, where experienced VCs add value, and sorting, where they select better companies, and estimates both in a matching model.",
+      "frase_slide": "Better outcomes can reflect VC influence or selection of better companies (Sørensen, 2007)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Treatment is investor experience, outcome is IPO, 1982-1995 CA and MA; no round gap or hype.",
+      "note": "Shared tesi with gompers2020: only the selection vs influence distinction is judged here for Sørensen."
+    },
+    {
+      "riga": "6.1__sorensen2007",
+      "firma": "9663cc9674",
+      "esito": "usabile",
+      "estrazione": "Both effects are significant, but sorting is larger: almost twice as important as influence for IPO-rate differences. In the numerical decomposition sorting accounts for about two-thirds. The influence estimate is flagged as sensitive to the error structure. The claim holds for investor experience and IPO outcomes.",
+      "citazione": "Both effects are found to be significant, with sorting almost twice as important as inf luence for the difference in IPO rates.",
+      "posizione": "Abstract",
+      "frase_paper": "Sørensen (2007) finds that sorting of companies to more experienced VCs outweighs the VCs' influence in explaining differences in IPO rates.",
+      "frase_slide": "Sorting of better companies to experienced VCs outweighs influence on IPO rates (Sørensen, 2007)",
+      "forza": "shows",
+      "numero_chiave": "almost 2x: sorting vs influence for IPO-rate differences",
+      "limiti_vs_noi": "IPO only; CA and MA, 1982-1995; experience of the lead investor, not funding gap.",
+      "note": "The tesi says 'better ventures to better investors'; the txt defines better investors as more experienced VCs."
+    }
+  ]
+}

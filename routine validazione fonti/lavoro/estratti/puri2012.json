@@ -1,0 +1,35 @@
+{
+ "id_fonte": "puri2012",
+ "tipo_studio": "empirical",
+ "dati_metodo": "US Census Longitudinal Business Database, new firms 1981-2005, VC-financed vs one-to-one matched non-VC firms (10,349 pairs); cumulative exit rates and multinomial logit of fail/acquired/IPO.",
+ "righe": [
+  {
+   "riga": "2.2__puri2012",
+   "firma": "1a0c8a07bb",
+   "esito": "usabile",
+   "estrazione": "The paper compares VC-financed and matched non-VC-financed US firms and finds that timing differs for failure: the lower cumulative failure rate of VC firms comes from much lower failure in the first few years after VC, then the gap tapers off. For acquisitions, the probability of being acquired rises each year after first VC relative to non-VC firms (positive VC x TimefromMatch), and the authors suggest VC firms exit earlier via acquisition or IPO.",
+   "citazione": "we see that the probability that a VC-financed firm is acquired increases each year after the firm first receives VC-financing relative to non-VC-financed firms",
+   "posizione": "Section III.B, Timing of Exits (p. 2274)",
+   "frase_paper": "Puri and Zarutskie (2012) find that VC-financed firms differ from matched non-VC-financed firms in the timing of exits: failure is much less likely in the first years after VC, and the probability of acquisition rises each year after first VC relative to non-VC firms.",
+   "frase_slide": "VC-backed firms fail less in the first years and are increasingly likely to be acquired over time (Puri & Zarutskie, 2012)",
+   "forza": "shows",
+   "numero_chiave": "Matched sample, 2 years after VC: marginal failure probability 7.9% for VC-financed vs 12.3% for non-VC firms (4.4 pp difference, 1% significance).",
+   "limiti_vs_noi": "US Census data on all new firms 1981-2005, with matched non-VC firms as comparison; we study only VC-backed startups, 2012-2019, and compare gaps between rounds.",
+   "note": "Compound tesi (failure and acquisition). Failure timing is shown directly (Table VI, VII); acquisition timing is shown through the VC x TimefromMatch interaction, while the 'earlier exit' reading is described as 'perhaps'. Association, not causal."
+  },
+  {
+   "riga": "6.3__puri2012",
+   "firma": "6868d64f91",
+   "esito": "usabile",
+   "estrazione": "The txt shows that for VC-financed firms the failure risk is concentrated in a pattern over the life cycle: the lower cumulative failure rate of VC firms is driven by a much lower likelihood of failing in the first few years after receiving VC, and the difference then tapers off and loses significance. The tesi is a fragment about the timing of failure over the life cycle, which the paper does examine.",
+   "citazione": "We find that the lower cumulative failure rate of VC-financed firms is driven by a much lower likelihood of failing in the first few years after initially receiving VC.",
+   "posizione": "Introduction (p. 2249)",
+   "frase_paper": "Puri and Zarutskie (2012) find that the lower cumulative failure rate of VC-financed firms is driven by a much lower likelihood of failing in the first few years after first receiving VC, after which the difference tapers off.",
+   "frase_slide": "VC-backed firms' lower failure is concentrated in the first years after funding, then fades (Puri & Zarutskie, 2012)",
+   "forza": "shows",
+   "numero_chiave": "Matched sample: marginal failure probability 2 years after VC 7.9% (VC) vs 12.3% (non-VC); by 6 years 1.9% vs 2.3%.",
+   "limiti_vs_noi": "Compares VC vs non-VC firms from first VC receipt, not the gap between round 1 and round 2; US Census data 1981-2005.",
+   "note": "The tesi is a fragment with no explicit claim; judged as 'the source examines timing of failure over the life cycle'."
+  }
+ ]
+}

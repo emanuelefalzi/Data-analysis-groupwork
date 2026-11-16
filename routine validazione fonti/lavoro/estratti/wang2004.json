@@ -1,0 +1,35 @@
+{
+  "id_fonte": "wang2004",
+  "tipo_studio": "theory",
+  "dati_metodo": "Two-period principal-agent model of a VC and an entrepreneur with double moral hazard and a random output shock; closed-form solutions with parametric functions, staged vs upfront financing, with and without renegotiation; no data.",
+  "righe": [
+    {
+      "riga": "2.1__wang2004",
+      "firma": "9d9609493e",
+      "esito": "non usabile",
+      "estrazione": "Contradicts the tesi: in the model without renegotiation, staged financing gives higher social welfare than upfront financing only when moral hazard is weak (b above a threshold). When moral hazard is serious (small b) the VC's preference for staging weakens and upfront financing is better for welfare. With renegotiation, staged financing is better for any b > 1, so there is no result that staging is worth more as moral hazard rises. Only the risk half appears, as an introductory remark that the exit option is worth more when the project is riskier, not as a model result.",
+      "citazione": "It suggests that when the moral hazard is serious (with a small b), upfront financing is",
+      "posizione": "Section 4, discussion of Proposition 2 and Fig. 3",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "",
+      "numero_chiave": "",
+      "limiti_vs_noi": "",
+      "note": "Compound tesi (moral hazard and risk): the moral-hazard part decided the verdict, since the model points the other way for social welfare without renegotiation. The risk part is only stated in the introduction (higher risk, higher value of the option to quit), not derived. The VC's own preference for staging and the higher effort under staging (Proposition 3) are different claims from 'worth more when moral hazard is high'."
+    },
+    {
+      "riga": "6.1__wang2004",
+      "firma": "39f900f0ea",
+      "esito": "usabile",
+      "estrazione": "The model presents staged financing as a mechanism that the VC uses to control risk and to mitigate moral hazard. In the model the VC provides less early investment under moral hazard and uses the investment pattern to control moral hazard, and staging induces higher entrepreneurial effort. The risk role is stated through the exit option and the reduction of risk through late investment. All of this is theory, not evidence on actual VC behaviour.",
+      "citazione": "Finally, the VC is inclined to provide less early investment under moral hazard.",
+      "posizione": "Section 4, closing paragraph before 5. Concluding remarks",
+      "frase_paper": "Wang and Zhou (2004) model staged financing as a tool that a VC uses to control risk and to mitigate moral hazard, with the VC providing less early investment when moral hazard is present.",
+      "frase_slide": "In theory, VCs stage capital to control risk and moral hazard (Wang & Zhou, 2004)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory with two periods and no data; it says nothing on the time between rounds, on exit probability, or on hot versus cold markets, which are our setting.",
+      "note": "The tesi is generic and fits the abstract and conclusion (two roles: control risk and mitigate moral hazard). The risk part is clearer in the model's rationale (option to abandon) than in a comparative-statics result; 'responds' should not be read as an empirical finding."
+    }
+  ]
+}
