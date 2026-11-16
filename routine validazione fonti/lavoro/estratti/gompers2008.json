@@ -1,0 +1,35 @@
+{
+  "id_fonte": "gompers2008",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Over 30,000 VC investment decisions (Thomson Venture Economics), US, 1975-1998; regressions of VC firm investment counts on lagged industry Tobin's Q or VC-backed IPO activity, interacted with VC experience; success (acquired, merged, in registration for IPO or IPO by end-2003) as deal-level outcome",
+  "righe": [
+    {
+      "riga": "2.3__gompers2008",
+      "firma": "bde6e1e44d",
+      "esito": "da riformulare",
+      "estrazione": "The paper finds that VC firms with the most industry experience raise their investments most when public market signals (industry Q) improve, more than less experienced firms. Success rates are slightly lower in hot markets overall, but the difference is small and not statistically significant, and experienced firms show much less decline (2% vs 11% for low-experience firms). At industry level, investment responds to Q but shows no significant pattern with IPO activity, so 'responds to public-market signals' holds for Q, not for both signals. 'Without lower success' is stronger than 'no real degradation' / 'not adversely to a significant extent'.",
+      "citazione": "increase their investments during market booms with no real degradation in their performance",
+      "posizione": "4. Conclusions",
+      "frase_paper": "Gompers et al. (2008) find that VC firms with the most industry experience increase their investments most when public market signals (industry Q) improve, with no significant degradation in success, in US VC deals from 1975 to 1998.",
+      "frase_slide": "Industry-experienced VCs invest most when public markets heat up, with no real drop in success (Gompers et al., 2008)",
+      "forza": "shows",
+      "numero_chiave": "Success probability falls by 2% for an industry-experienced VC (75th percentile) moving from low to high Q, vs 11% for a VC with little industry experience",
+      "limiti_vs_noi": "US VC deals 1975-1998 (ends before 1999-2000 boom); unit is the VC firm's investment, not the startup's gap; success includes acquisitions and IPO registration; hot market measured by industry Q or IPO count, not VC dollar share.",
+      "note": "Compound tesi: the 'without lower success' part decided the esito; overall success is somewhat lower in hot markets (insignificant). The 'responds to public-market signals' part holds for Q; IPO activity is not significant at industry level."
+    },
+    {
+      "riga": "5.5__gompers2008",
+      "firma": "dc906ecd58",
+      "esito": "da riformulare",
+      "estrazione": "The paper concludes it is hard to argue that experienced VCs' greater responsiveness to Q and IPO activity comes at the expense of performance: their success probability falls only slightly in hot markets. Success is defined as acquisition, merger, registration for an IPO or IPO by end-2003, not exit through public markets. The paper only mentions that IPOs are the most important and profitable exit route; it does not show that exit depends on public markets.",
+      "citazione": "Based on the results in Tables 8 and 9, it would be hard to argue that the greater responsiveness of experienced venture capital",
+      "posizione": "3.2. The determinants of investment success",
+      "frase_paper": "Gompers et al. (2008) find that the higher investment of industry-experienced VC firms in hot markets does not come with a significant fall in the success of those deals (acquisition, merger or IPO), in US data from 1975 to 1998.",
+      "frase_slide": "Experienced VCs' hot-market deals show little loss in success (Gompers et al., 2008)",
+      "forza": "shows",
+      "numero_chiave": "Success probability falls by 2% for an industry-experienced VC when moving from low to high Q, vs 11% for low-experience VCs; baseline success rate 55%",
+      "limiti_vs_noi": "US 1975-1998, success measured at deal level by end-2003 and includes acquisitions; our outcome is exit within five years for 2012-2019 first rounds.",
+      "note": "Compound tesi: 'exit depends on public markets' is not shown by the txt (IPOs are only mentioned as the main exit route, Section 2); that part decided the esito. 'Not less successful' should read 'little or no significant degradation'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "id_fonte": "dahiya2012",
+ "tipo_studio": "theory",
+ "dati_metodo": "Two-stage model of a risk-neutral VC and an entrepreneur with a milestone after stage 1; predictions tested on US VC financing rounds from VentureXpert (Thomson Financial).",
+ "righe": [
+  {
+   "riga": "2.1__dahiya2012",
+   "firma": "31ae484b75",
+   "esito": "usabile",
+   "estrazione": "In the model, the interim evaluation gives the option to abandon the project if early returns are low; the VC continues only if the expected value of continuing exceeds the outside options. The abstract says staging lets investors abandon ventures with low early returns and so sorts good projects from bad.",
+   "citazione": "The main reason to conduct an evaluation halfway through a project is that it provides the option to abandon the project if the early returns are low.",
+   "posizione": "2.2. Efficiency of staging investments",
+   "frase_paper": "Dahiya and Ray (2012) model staging as giving the VC the option to abandon a venture after weak early returns, which sorts good projects from bad.",
+   "frase_slide": "Staging lets investors drop ventures with low early returns (Dahiya & Ray, 2012)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Theory model (two stages, risk-neutral VC) tested on VentureXpert US financing rounds on the ratio of early to late investment; it does not test abandonment rates or exits, and is not a 2012-2019 PitchBook exit_5y design.",
+   "note": "Theory result; the empirical test concerns the early-to-late investment ratio, not the screening itself."
+  },
+  {
+   "riga": "2.2__dahiya2012",
+   "firma": "3b1577f6ea",
+   "esito": "da riformulare",
+   "estrazione": "The txt speaks of abandoning or terminating projects after the first stage when early returns fall below a milestone; it also proposes the share of firms abandoned at the interim stage as an empirical proxy for the milestone. It does not use the term stalled ventures, and abandonment is driven by low early output, not by stalling in time.",
+   "citazione": "The main reason to conduct an evaluation halfway through a project is that it provides the option to abandon the project if the early returns are low.",
+   "posizione": "2.2. Efficiency of staging investments",
+   "frase_paper": "Dahiya and Ray (2012) model the abandonment of ventures whose first-stage returns fall below a milestone.",
+   "frase_slide": "Ventures with low early returns are abandoned at the interim stage (Dahiya & Ray, 2012)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Theory model (two stages, risk-neutral VC) tested on VentureXpert US financing rounds on the ratio of early to late investment; it does not test abandonment rates or exits, and is not a 2012-2019 PitchBook exit_5y design.",
+   "note": "Shared tesi with bergemann2005: only the abandonment part is judged here. 'Stalled' is narrowed to 'low early returns'."
+  }
+ ]
+}

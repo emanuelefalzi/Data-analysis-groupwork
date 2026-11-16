@@ -1,0 +1,21 @@
+{
+  "id_fonte": "bernstein2016",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US VC-portfolio company pairs (22,986 companies), patents to 2006; difference-in-differences on new airline routes cutting VC travel time, plus a survey of 306 VCs",
+  "righe": [
+    {
+      "riga": "2.5__bernstein2016",
+      "firma": "dec25ff3be",
+      "esito": "usabile",
+      "estrazione": "The paper uses new airline routes that cut travel time between VCs and their existing portfolio companies as an exogenous reduction in monitoring costs. In a difference-in-differences design, treatment raises patent counts (3.1%), citations per patent (5.8%), the probability of IPO (1.0%) and of a successful exit via IPO or acquisition (1.4%). The authors interpret this as VC involvement increasing innovation and exit success.",
+      "citazione": "the treatment increases the probability of going public by 1.0% and the probability of having a successful exit (via IPO or acquisition) by 1.4%",
+      "posizione": "Introduction",
+      "frase_paper": "Bernstein et al. (2016) find that exogenous reductions in VC travel time to portfolio companies, which proxy for closer monitoring, raise patenting and citations per patent and the probability of an IPO or successful exit, in US VC-backed companies.",
+      "frase_slide": "Closer VC monitoring raises innovation and IPO/exit probability (Bernstein et al., 2016)",
+      "forza": "shows",
+      "numero_chiave": "+1.0% probability of going public, +1.4% probability of a successful exit (IPO or acquisition), after a new direct flight route",
+      "limiti_vs_noi": "Monitoring is proxied by travel-time cuts from new airline routes, not by round timing; sample is VC-portfolio company pairs with patent data to 2006, not 2012-2019; outcomes are yearly indicators, not exit within five years.",
+      "note": "Causal wording is supported by the paper's quasi-experimental design; the source does not study the gap between rounds. Innovation measured by patents and citations."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id_fonte": "bergemann2005",
+  "tipo_studio": "theory",
+  "dati_metodo": "Dynamic principal-agent model of staged R&D financing with unknown project quality, Bayesian updating of beliefs, relationship vs arm's-length financing; no data.",
+  "righe": [
+    {
+      "riga": "2.1__bergemann2005",
+      "firma": "3e6e94f6a5",
+      "esito": "da riformulare",
+      "estrazione": "In the model the posterior belief that the project is good falls in every period in which no success arrives (Bayes' rule). The model has only success or no success, not 'good news' as a graded signal. The decline is slower when beliefs are already near 0 or 1.",
+      "citazione": "The posterior belief at decreases over time if success doesn't arise.",
+      "posizione": "Section 2, The model (after equation 1)",
+      "frase_paper": "Bergemann and Hege (2005) model a project whose success probability is unknown and show that, with Bayesian updating, the investor's belief that the project is good falls in each period without success.",
+      "frase_slide": "Each period without success lowers the investor's belief about the project (Bergemann & Hege, 2005).",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory with no data; the signal is success vs no success, not startup rounds; the model does not talk about the time between funding rounds.",
+      "note": "Tesi says 'without good news'; the txt speaks of 'no success' (success ends the project). Wording narrowed accordingly."
+    },
+    {
+      "riga": "2.2__bergemann2005",
+      "firma": "3b1577f6ea",
+      "esito": "usabile",
+      "estrazione": "The model has a project that ends with a success or is eventually abandoned after persistent negative news; equilibrium funding stops too early relative to the efficient stopping time. The paper says information over time shows whether the project should be abandoned due to poor results.",
+      "citazione": "or should be abandoned due to poor results.",
+      "posizione": "1. Introduction, Motivation",
+      "frase_paper": "Bergemann and Hege (2005) model R&D financing in which a project without success is eventually abandoned, and funding stops too early relative to the efficient stopping time.",
+      "frase_slide": "Projects without success are eventually abandoned, too early vs efficiency (Bergemann & Hege, 2005).",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory; 'stalled' is not a term of the paper (it speaks of no success and persistent negative news); no data on startups.",
+      "note": "Shared with dahiya2012: judged only on this source. Wording 'stalled ventures' is loose but the abandonment point is shown by the model."
+    },
+    {
+      "riga": "5.5__bergemann2005",
+      "firma": "9fbbb3e862",
+      "esito": "non usabile",
+      "estrazione": "The txt does not say that refinancing happens only after good-enough news. In the model there is no intermediate good news: success ends the game, and without success funding continues at a rate that slows as the belief falls, until abandonment. The txt does not state that uncertainty falls over time either: no-success is most informative when beliefs are diffuse, and beliefs move slowly when close to 0 or 1.",
+      "citazione": "the posterior belief decreases, the slowdown in funding becomes more serious, and funding",
+      "posizione": "1. Introduction, Analysis",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "mentions",
+      "numero_chiave": "",
+      "limiti_vs_noi": "",
+      "note": "Compound tesi: both parts unsupported; the second part (refinancing only after good news) decided. Not a literal contradiction, but the model's mechanism is a gradual slowdown of funding, not a threshold of good news."
+    }
+  ]
+}

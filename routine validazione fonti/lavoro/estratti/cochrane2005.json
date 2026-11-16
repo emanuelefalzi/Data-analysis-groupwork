@@ -1,0 +1,91 @@
+{
+ "id_fonte": "cochrane2005",
+ "tipo_studio": "empirical",
+ "dati_metodo": "VentureOne data on US VC-backed projects (rounds, IPOs, acquisitions); maximum likelihood estimate of return distribution correcting for selection bias",
+ "righe": [
+  {
+   "riga": "1__cochrane2005",
+   "firma": "f685521eaf",
+   "esito": "usabile",
+   "estrazione": "Valuations/returns of VC-backed projects are observed only at IPO, acquisition or new financing, and projects are more likely to get new financing when value has risen. Mean returns of financed projects are therefore an upward-biased estimate of underlying returns.",
+   "citazione": "We observe valuations only when a ﬁrm goes public, receives new ﬁnancing, or is acquired. These events are more likely when the ﬁrm has experienced a good return.",
+   "posizione": "1. Introduction",
+   "frase_paper": "Cochrane (2005) argues that valuations of VC-backed firms are observed only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed returns are biased upward.",
+   "frase_slide": "Valuations are seen only at financing events, favouring winners, so observed returns are biased up (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": "Shared tesi with korteweg2010; this source supports it for VC-backed projects (not all private firms)."
+  },
+  {
+   "riga": "2.2__cochrane2005",
+   "firma": "752cfa8c7d",
+   "esito": "usabile",
+   "estrazione": "Cochrane states that valuations are observed only when a firm goes public, receives new financing or is acquired, and that overcoming the resulting selection bias is the central hurdle in evaluating VC.",
+   "citazione": "We observe valuations only when a ﬁrm goes public, receives new ﬁnancing, or is acquired.",
+   "posizione": "1. Introduction",
+   "frase_paper": "Cochrane (2005) shows that VC valuations are observed only at IPO, acquisition or new financing, which creates selection bias.",
+   "frase_slide": "VC valuations are observed only at financing, IPO or acquisition events (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": ""
+  },
+  {
+   "riga": "2.4__cochrane2005",
+   "firma": "e8b2dbef45",
+   "esito": "usabile",
+   "estrazione": "Projects are more likely to get new financing when their value has risen, so mean returns of projects that get additional financing are an upward-biased estimate of the underlying mean return; volatility is biased downward.",
+   "citazione": "the mean returns to projects that get additional ﬁnancing are an upward-biased estimate of the underlying mean return.",
+   "posizione": "3. Overcoming selection bias",
+   "frase_paper": "Cochrane (2005) argues that valuations of VC-backed firms are observed only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed returns are biased upward.",
+   "frase_slide": "Valuations are seen only at financing events, favouring winners, so observed returns are biased up (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": "Shared with korteweg2010. Source says 'returns to projects that get additional financing', which covers round-to-round returns."
+  },
+  {
+   "riga": "5.5__cochrane2005",
+   "firma": "309d014f21",
+   "esito": "usabile",
+   "estrazione": "Refinancing (new round) is one of the events at which returns are observed; its probability rises with project value, so observed refinancing returns are selected. Cochrane models the probability of new financing as increasing in value.",
+   "citazione": "projects are more likely to get new ﬁnancing, and especially to go public, when their value has risen.",
+   "posizione": "3. Overcoming selection bias",
+   "frase_paper": "Cochrane (2005) argues that valuations of VC-backed firms are observed only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed returns are biased upward.",
+   "frase_slide": "Valuations are seen only at financing events, favouring winners, so observed returns are biased up (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": "Shared with korteweg2010. Tesi is terse; read as selection of observed returns at refinancing."
+  },
+  {
+   "riga": "5.6__cochrane2005",
+   "firma": "8e6917538f",
+   "esito": "usabile",
+   "estrazione": "Valuations are observable only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed valuations are selected.",
+   "citazione": "We observe valuations only when a ﬁrm goes public, receives new ﬁnancing, or is acquired.",
+   "posizione": "1. Introduction",
+   "frase_paper": "Cochrane (2005) argues that valuations of VC-backed firms are observed only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed returns are biased upward.",
+   "frase_slide": "Valuations are seen only at financing events, favouring winners, so observed returns are biased up (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": ""
+  },
+  {
+   "riga": "6.3__cochrane2005",
+   "firma": "8ca05f15bd",
+   "esito": "usabile",
+   "estrazione": "Returns are observed only at new financing, IPO or acquisition, and the probability of these rises with value, so observed outcomes are selected. The txt concerns returns/valuations, not exit or failure outcomes in general.",
+   "citazione": "projects are more likely to get new ﬁnancing, and especially to go public, when their value has risen.",
+   "posizione": "3. Overcoming selection bias",
+   "frase_paper": "Cochrane (2005) argues that valuations of VC-backed firms are observed only at IPO, acquisition or new financing, and these events are more likely after good returns, so observed returns are biased upward.",
+   "frase_slide": "Valuations are seen only at financing events, favouring winners, so observed returns are biased up (Cochrane, 2005)",
+   "forza": "shows",
+   "numero_chiave": "Selection-bias correction cuts mean arithmetic return from 698% to 59% (abstract)",
+   "limiti_vs_noi": "Individual VC projects, VentureOne data to 2000 (dot-com era); returns, not exit probabilities; selection concerns valuations, not our exit outcome.",
+   "note": "Shared with korteweg2010. 'Outcomes' read as returns/valuations only; wider reading (exit, failure) not supported."
+  }
+ ]
+}

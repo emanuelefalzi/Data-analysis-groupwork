@@ -1,0 +1,21 @@
+{
+  "id_fonte": "gonzalezuribe2018",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Start-Up Chile applicants (ecosystem accelerator, Chile), regression discontinuity design on the selection threshold, comparing schooling plus basic services against basic services alone, effect on venture performance.",
+  "righe": [
+    {
+      "riga": "2.5__gonzalezuribe2018",
+      "firma": "dfcb984385",
+      "esito": "da riformulare",
+      "estrazione": "The paper does not test whether accelerators resolve uncertainty early. In its literature review it reports that Yu (2016) and Smith and Hannigan (2015) argue accelerators can speed up success or failure by resolving uncertainty about a start-up's potential more quickly. Its own finding is that schooling bundled with basic services raises performance, while basic services alone show no apparent effect; it offers the speed-up-of-outcomes story only as one possible explanation for that null (Section 5.2).",
+      "citazione": "Yu (2016) and Smith and Hannigan (2015) argue that accelerators can help to speed up success or failure by resolving the uncertainty about the inherent potential of the start-up more quickly.",
+      "posizione": "1. Introduction, literature review (page 1570)",
+      "frase_paper": "Gonzalez-Uribe and Leatherbee (2018) note, citing Yu (2016) and Smith and Hannigan (2015), that accelerators are argued to speed up success or failure by resolving uncertainty about a start-up's potential more quickly.",
+      "frase_slide": "Accelerators are argued to speed up success or failure by resolving uncertainty (Gonzalez-Uribe & Leatherbee, 2018, citing Yu; Smith & Hannigan).",
+      "forza": "mentions",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Setting is Start-Up Chile, an ecosystem accelerator for young early-stage founders, with a regression discontinuity design; not US VC-backed startups, and the uncertainty-resolution claim is reported from others, not tested.",
+      "note": "Shared tesi with yu2020 and hallen2020; judged only for this source. The claim belongs to Yu (2016) and Smith and Hannigan (2015), not tested here. The tesi's 'help ventures resolve uncertainty early' drops the 'success or failure' part: resolution can mean faster failure. Section 5.2 also offers it only as a possible explanation of a null result for basic services."
+    }
+  ]
+}

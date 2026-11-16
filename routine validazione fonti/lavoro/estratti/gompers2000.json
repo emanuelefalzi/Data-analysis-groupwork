@@ -1,0 +1,63 @@
+{
+ "id_fonte": "gompers2000",
+ "tipo_studio": "empirical",
+ "dati_metodo": "Over 4000 US VentureOne venture financings 1987-1995 plus fund inflow data; hedonic valuation regressions, first differences, Heckman selection, IV with LBO fund inflows.",
+ "righe": [
+  {
+   "riga": "1__gompers2000",
+   "firma": "e63f42c22f",
+   "esito": "usabile",
+   "estrazione": "The abstract states that inflows of capital into venture funds increase the valuation of the funds' new investments, robust to controls, first differences and an instrumental variable (LBO fund inflows). The conclusion says inflows have a substantial impact on pricing and that demand pressure drives prices up. Section 5.6 admits that inflows are treated as exogenous and that a causal reading is open to question.",
+   "citazione": "We show that in#ows of capital into venture funds increase the valuation of these funds' new investments.",
+   "posizione": "Abstract",
+   "frase_paper": "Gompers & Lerner (2000) show that inflows of capital into venture funds are followed by higher valuations of the funds' new investments, in a sample of US venture financings from 1987 to 1995.",
+   "frase_slide": "Capital inflows into VC funds raise valuations of new deals (Gompers & Lerner, 2000)",
+   "forza": "shows",
+   "numero_chiave": "A doubling of inflows into venture funds led to a 7% to 21% increase in valuation levels (valuation of venture investments).",
+   "limiti_vs_noi": "Theory/data from 1987-1995 VentureOne valuations and fund inflows; our setting is 2012-2019 PitchBook and the outcome is exit within five years, not valuation.",
+   "note": "Tesi says 'private deals' generally; txt covers venture capital deals only. Causal wording rests on IV and the exogeneity assumption discussed in 5.6."
+  },
+  {
+   "riga": "2.3__gompers2000",
+   "firma": "1fcb613c08",
+   "esito": "usabile",
+   "estrazione": "The paper shows that venture fund inflows increase the valuation of new venture investments, using over 4000 VentureOne financings, 1987-1995, with a hedonic regression. The conclusion extends this to 'private equity investments' while the data are venture capital only.",
+   "citazione": "in#ows to venture capital funds have had a substantial impact on the pricing of private equity investments.",
+   "posizione": "6. Conclusions",
+   "frase_paper": "Gompers & Lerner (2000) show that inflows into venture funds raise the valuation of new venture investments, using US venture financings from 1987 to 1995.",
+   "frase_slide": "Fund inflows push up valuations of new venture investments (Gompers & Lerner, 2000)",
+   "forza": "shows",
+   "numero_chiave": "A doubling of inflows led to a 7% to 21% increase in valuation levels.",
+   "limiti_vs_noi": "Theory/data from 1987-1995 VentureOne valuations and fund inflows; our setting is 2012-2019 PitchBook and the outcome is exit within five years, not valuation.",
+   "note": "Tesi says 'private-equity deal valuations'; data and tests are venture capital only (LBO inflows used only as instrument). Wording kept to venture."
+  },
+  {
+   "riga": "2.4__gompers2000",
+   "firma": "ab4534e141",
+   "esito": "usabile",
+   "estrazione": "Results show a strong positive relation between the valuation of venture investments and capital inflows; a doubling of inflows led to a 7% to 21% rise in valuation levels. The tesi as an association is supported.",
+   "citazione": "A doubling of in#ows into venture funds led to between a 7% and 21% increase in valuation levels.",
+   "posizione": "1. Introduction",
+   "frase_paper": "Gompers & Lerner (2000) find a strong positive relation between inflows into venture funds and the valuation of new venture investments.",
+   "frase_slide": "Valuations rise with venture fund inflows (Gompers & Lerner, 2000)",
+   "forza": "shows",
+   "numero_chiave": "Doubling of inflows: +7% to +21% valuation levels.",
+   "limiti_vs_noi": "Theory/data from 1987-1995 VentureOne valuations and fund inflows; our setting is 2012-2019 PitchBook and the outcome is exit within five years, not valuation.",
+   "note": "Tesi is 'prices'; the txt measures valuations of new venture investments."
+  },
+  {
+   "riga": "5.5__gompers2000",
+   "firma": "3d1e5cd7cf",
+   "esito": "da riformulare",
+   "estrazione": "The txt finds that valuations rise in periods of high fund inflows ('hot' fundraising periods) and argues this reflects demand pressure (competition for a limited number of deals) rather than better prospects, since success rates in hot and cold periods do not differ significantly. It says nothing about the timing between rounds or exit probability, so it supports only the price side of a hot-market reading, not H2 itself.",
+   "citazione": "demand pressure drives prices up during high in#ow periods.",
+   "posizione": "6. Conclusions",
+   "frase_paper": "Gompers & Lerner (2000) argue that demand pressure from fund inflows drives venture valuations up in hot fundraising periods, since success rates do not differ significantly between hot and cold periods.",
+   "frase_slide": "Hot fundraising periods raise prices through demand pressure, not better prospects (Gompers & Lerner, 2000)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Theory/data from 1987-1995 VentureOne valuations and fund inflows; our setting is 2012-2019 PitchBook and the outcome is exit within five years, not valuation. 'Hot' here means high fund inflows, whereas our heat is a sector's share of VC dollars z-scored within sector.",
+   "note": "Tesi 'the hot-market reading behind H2' is vague; the txt supports only the valuation/demand-pressure reading of hot markets, not a link to round gaps or exit. Shared with nanda2013; judged alone. Causal 'drives' is the authors' inference, with ambiguities acknowledged."
+  }
+ ]
+}

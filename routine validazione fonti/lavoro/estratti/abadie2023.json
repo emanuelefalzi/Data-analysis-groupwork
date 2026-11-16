@@ -1,0 +1,35 @@
+{
+ "id_fonte": "abadie2023",
+ "tipo_studio": "methods",
+ "dati_metodo": "Theory of finite-population variance of OLS/FE treatment-effect estimators under clustered sampling and assignment, with proposed CCV and TSCB estimators and simulations/applications.",
+ "righe": [
+  {
+   "riga": "2.5__abadie2023",
+   "firma": "638b8ab98e",
+   "esito": "da riformulare",
+   "estrazione": "The paper argues that, when sampling is not clustered, standard errors should be clustered at the treatment assignment level; with clustered assignment one clusters at the level of the assignment. Clustering is also warranted by clustered sampling, and when sampling and assignment are both random clustering is not appropriate. The framework concerns treatment assignment, not regressors in general.",
+   "citazione": "If sampling is not clustered, standard errors should be clustered at the treatment assignment level",
+   "posizione": "VIII. Conclusion",
+   "frase_paper": "Abadie et al. (2023) show that, in a framework with treatment effects, standard errors should be clustered at the level of treatment assignment when sampling is not clustered, and that clustered sampling is a further reason to cluster.",
+   "frase_slide": "Cluster at the treatment-assignment level when sampling is not clustered; clustered sampling is another reason (Abadie et al., 2023)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "The paper is about treatment effects with sampling and assignment processes (experiments, difference-in-differences); our heat and gap regressors are observational, not assigned by a known mechanism, and clusters are sector x year.",
+   "note": "Tesi says 'regressor is assigned'; the source speaks of treatment assignment and conditions the rule on sampling not being clustered. Applying it to a continuous observational regressor such as heat is our extension."
+  },
+  {
+   "riga": "4.1__abadie2023",
+   "firma": "3de2b3de6a",
+   "esito": "da riformulare",
+   "estrazione": "The paper argues that, when sampling is not clustered, standard errors should be clustered at the treatment assignment level; with clustered assignment one clusters at the level of the assignment. Clustering is also warranted by clustered sampling, and when sampling and assignment are both random clustering is not appropriate. The framework concerns treatment assignment, not regressors in general.",
+   "citazione": "With clustered assignment, one should cluster the standard errors at the level of the assignment.",
+   "posizione": "Section VII, discussion of clustered assignment (difference-in-differences setting)",
+   "frase_paper": "Abadie et al. (2023) show that, in a framework with treatment effects, standard errors should be clustered at the level of treatment assignment when sampling is not clustered, and that clustered sampling is a further reason to cluster.",
+   "frase_slide": "Cluster at the treatment-assignment level when sampling is not clustered; clustered sampling is another reason (Abadie et al., 2023)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "The paper is about treatment effects with sampling and assignment processes (experiments, difference-in-differences); our heat and gap regressors are observational, not assigned by a known mechanism, and clusters are sector x year.",
+   "note": "Source adds conditions: sampling not clustered, and clustering is not appropriate when sampling and assignment are both random. Unconditional wording overstates it."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id_fonte": "gompers2020",
+ "tipo_studio": "survey of practitioners",
+ "dati_metodo": "Survey of 885 institutional VCs at 681 firms (plus interviews), asking how they source, select, structure and support deals; checked against VentureSource exit data; published 2020.",
+ "righe": [
+  {
+   "riga": "2.5__gompers2020",
+   "firma": "0889672616",
+   "esito": "da riformulare",
+   "estrazione": "In a survey, VCs rank the management team as the most important selection factor: 95% mention it as important and 47% rank it most important, against 37% for the business-related factors taken together. The abstract calls the team 'somewhat more important' than business characteristics, with variation by stage and industry (business matters more for late-stage and healthcare). On value creation, VCs rate deal selection as the most important of sourcing, selection and value-add (49% rank it first, value-add 27%), but this is what VCs perceive, not an estimate from data.",
+   "citazione": "In selecting investments, VCs see the management team as somewhat more impor",
+   "posizione": "Abstract (and Section 3.2, Table 5; Section 6.1, Table 13)",
+   "frase_paper": "Gompers et al. (2020), in a survey of 885 venture capitalists, find that VCs rank the management team as the most important factor in selecting deals, and that they perceive deal selection as more important for value creation than post-investment value-added.",
+   "frase_slide": "Surveyed VCs rank the team first in selection and selection above value-add (Gompers et al., 2020)",
+   "forza": "shows",
+   "numero_chiave": "47% of VCs rank the team as the most important selection factor (95% mention it); 49% rank deal selection most important for value creation vs 27% for value-add",
+   "limiti_vs_noi": "Self-reported perceptions of VC professionals, not outcomes; not restricted to US startups in 2012-2019; no exit or timing analysis.",
+   "note": "Compound tesi. 'Mainly on the team' is stronger than the txt ('somewhat more important', business factors cited as top by 37%); 'selection matters more than value added' holds only as VCs' perception. Both parts decide the narrowing."
+  },
+  {
+   "riga": "5.5__gompers2020",
+   "firma": "257eac56e3",
+   "esito": "da riformulare",
+   "estrazione": "The txt compares deal sourcing, selection and VC value-add as perceived contributors to value creation: selection is ranked most important by 49% of VCs, value-add by 27%, deal flow by 23%. Authors say the result is qualitatively similar to Sorensen (2007), who estimates 40% for value-add and 60% for sourcing and selection combined; that estimate is Sorensen's, not this paper's. The txt reports perceptions from a survey and does not identify selection versus influence with data.",
+   "citazione": "that deal selection emerges as the most important of the",
+   "posizione": "Section 6.1, Relative importance of deal sourcing, investment selection, and value-add (Table 13)",
+   "frase_paper": "Gompers et al. (2020) report that, in a survey of venture capitalists, deal selection is perceived as the most important of sourcing, selection and value-add for value creation, though most VCs consider all three important.",
+   "frase_slide": "VCs perceive selection as more important than value-add, though both matter (Gompers et al., 2020)",
+   "forza": "shows",
+   "numero_chiave": "49% rank selection most important, 27% value-add, 23% deal flow (Table 13); about 85% rate selection and value-add as important",
+   "limiti_vs_noi": "Survey perceptions, not an estimate of selection versus influence on outcomes; no data on exits.",
+   "note": "Shared with sorensen2007; the 40%/60% split belongs to Sorensen, the txt only cites it. The tesi is terse ('selection vs influence'); judged as the selection versus value-add comparison."
+  },
+  {
+   "riga": "6.1__gompers2020",
+   "firma": "a4d0039837",
+   "esito": "da riformulare",
+   "estrazione": "VCs rank the management team as the most important selection factor (47% rank it first, 95% mention it) and as the top driver of success (56%) and failure. The txt frames this as 'somewhat more important' than business factors, with business matching the team for late-stage VCs and mattering more in healthcare. 'Mainly' overstates a margin the paper itself calls modest.",
+   "citazione": "team or jockey is important for success for 96% of the VCs",
+   "posizione": "Section 6.2, Sources of success and failure (Table 14); see also Section 3.2, Table 5",
+   "frase_paper": "Gompers et al. (2020) find that surveyed VCs name the management team as the single most important factor in selecting investments, somewhat ahead of business-related factors, with the gap varying by stage and industry.",
+   "frase_slide": "Surveyed VCs put the team first in selection, somewhat ahead of the business (Gompers et al., 2020)",
+   "forza": "shows",
+   "numero_chiave": "47% of VCs rank the team most important in selection (95% mention it); business factors together 37%",
+   "limiti_vs_noi": "Stated preferences of VCs, not observed selection; not specific to US startups 2012-2019.",
+   "note": "Narrowed because 'mainly' is stronger than 'somewhat more important' (abstract)."
+  }
+ ]
+}

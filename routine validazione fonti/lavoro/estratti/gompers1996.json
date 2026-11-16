@@ -1,0 +1,49 @@
+{
+ "id_fonte": "gompers1996",
+ "tipo_studio": "empirical",
+ "dati_metodo": "433 US venture-backed IPOs, 1978-1987, plus first IPOs of 62 VC funds 1983-1993; regressions on IPO age, underpricing, equity stakes and fund-raising timing, young vs old VC firms",
+ "righe": [
+  {
+   "riga": "2.5__gompers1996",
+   "firma": "ae9d87ac59",
+   "esito": "da riformulare",
+   "estrazione": "The paper argues and tests that young VC firms bring companies public earlier than older firms to establish a reputation and raise new funds. The evidence concerns IPOs only (not exits in general) and is described as consistent with the grandstanding hypothesis, not as proof of intent.",
+   "citazione": "young venture capital firms bring companies public earlier than older venture capital firms in an effort to establish a reputation and successfully raise capital for new funds",
+   "posizione": "1. Introduction",
+   "frase_paper": "Gompers (1996) argues and finds evidence consistent with young VC firms taking companies public earlier than established firms in order to build a reputation and raise new funds, in a sample of US venture-backed IPOs.",
+   "frase_slide": "Young VCs take companies public earlier to build reputation and raise funds (Gompers, 1996)",
+   "forza": "shows",
+   "numero_chiave": "Companies backed by young VCs are nearly two years younger at IPO (433 IPOs, 1978-1987)",
+   "limiti_vs_noi": "Sample is 433 US venture-backed IPOs 1978-1987 (plus 62 funds, 1983-1993); only IPO exits, no acquisitions, no other period; our data are 2012-2019 startups with exit within five years.",
+   "note": "Tesi says 'early exits'; txt covers IPOs only. 'Push' (intent) is the paper's hypothesis, supported as consistent evidence."
+  },
+  {
+   "riga": "4.3__gompers1996",
+   "firma": "878906d540",
+   "esito": "usabile",
+   "estrazione": "The paper classifies firms by the age of the lead VC at IPO (age as proxy for reputation) and finds reputational concerns drive IPO timing of young VC firms, with companies of young VCs younger at IPO. This supports motivating a young-lead control.",
+   "citazione": "Companies backed by new venture capital firms are younger at IPO than those backed by established venture capital firms",
+   "posizione": "5. Conclusion",
+   "frase_paper": "Gompers (1996) finds that companies backed by young venture capital firms are younger at IPO than those backed by established firms, consistent with grandstanding.",
+   "frase_slide": "Companies with young VC backers go public younger (Gompers, 1996)",
+   "forza": "shows",
+   "numero_chiave": "Average age at IPO is 56 months for young-VC-backed vs 80 months for old-VC-backed companies",
+   "limiti_vs_noi": "Sample is 433 US venture-backed IPOs 1978-1987 (plus 62 funds, 1983-1993); only IPO exits, no acquisitions, no other period; our data are 2012-2019 startups with exit within five years.",
+   "note": "The tesi is vague; the txt supports the link between young lead/VC firm and grandstanding. That it motivates a control is the group's choice."
+  },
+  {
+   "riga": "5.4__gompers1996",
+   "firma": "e29f85a343",
+   "esito": "da riformulare",
+   "estrazione": "The prediction in the txt is that young VC firms bring companies to IPO earlier, to build reputation. It is a prediction about IPO timing among IPO-backed firms, not about the probability of exit within five years. Whether our coefficient contradicts it is our result, not the source's.",
+   "citazione": "Reputational concerns affect the IPO timing decisions of young venture capital fund managers",
+   "posizione": "5. Conclusion",
+   "frase_paper": "Gompers (1996) predicts and finds, in a sample of US venture-backed IPOs, that young VC firms bring companies public earlier.",
+   "frase_slide": "Grandstanding: young VCs bring companies to IPO earlier (Gompers, 1996)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Sample is 433 US venture-backed IPOs 1978-1987 (plus 62 funds, 1983-1993); only IPO exits, no acquisitions, no other period; our data are 2012-2019 startups with exit within five years. The prediction concerns IPO timing, not exit probability.",
+   "note": "Only the prediction can be cited; the contradiction with our coefficient is ours."
+  }
+ ]
+}

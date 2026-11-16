@@ -1,0 +1,21 @@
+{
+  "id_fonte": "chen2010",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US VC firms and VC-backed portfolio companies, investments 1975-2005, firm locations from Pratt's Guide; localization measures (C(3), location quotient, spatial Gini), OLS regressions on office location and on investment success by VC-center status and distance/locality.",
+  "righe": [
+    {
+      "riga": "2.5__chen2010",
+      "firma": "1c6662cd81",
+      "esito": "non usabile",
+      "estrazione": "Contradicts the tesi: the paper shows that VC firms and VC-backed companies are geographically concentrated (three metro areas hold over half of VC offices and 49% of US VC-backed companies), but it also finds that most investments (57%) are made by VC firms outside their home CSA. It does not estimate how the probability or volume of investment falls with distance; distance enters only in analysing success/outperformance, where non-local investments outperform local ones. A narrower point the txt does support: VC firms and VC-backed companies are highly clustered geographically.",
+      "citazione": "Overall, most investments (57%) are made by venture capital firms outside of their home CSA.",
+      "posizione": "5. Geography of venture capital-backed portfolio companies",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "",
+      "numero_chiave": "57%: share of investments made by VC firms outside their home CSA; 49%: share of US VC-backed companies located in San Francisco, Boston and New York",
+      "limiti_vs_noi": "Investments 1975-2005, not 2012-2019; the unit is VC firm office location and outperformance by distance, not round timing or exit within five years.",
+      "note": "Compound tesi: 'is local' is contradicted by the 57% non-local share (though concentration of VC is shown); 'falls with distance' is not shown for investment. Shared with sorenson2001; judged only on this txt. If the group wants to keep the citation, narrow the tesi to geographic clustering of VC firms and companies."
+    }
+  ]
+}

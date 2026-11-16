@@ -1,0 +1,21 @@
+{
+  "id_fonte": "ai2003",
+  "tipo_studio": "methods",
+  "dati_metodo": "Econometric derivation for nonlinear models (probit, logit, general F(x,b)); delta-method standard errors; illustrated with a logit of HMO enrolment on survey data.",
+  "righe": [
+    {
+      "riga": "4.1__ai2003",
+      "firma": "97b4646d7e",
+      "esito": "usabile",
+      "estrazione": "In nonlinear models the interaction effect is the cross derivative (or cross difference) of the expected outcome, not the coefficient on the interaction term or its marginal effect. It can be nonzero when the interaction coefficient is zero, it depends on the covariates, it can have different signs across observations, so the sign and t-test of the interaction coefficient do not give it. The formulas are stated to apply to logit and probit; the worked example is a logit.",
+      "citazione": "The key point of this paper is that the interaction effect is found by computing cross derivatives (or differences), not by just looking at the coefficient on the interaction term.",
+      "posizione": "2. Estimation",
+      "frase_paper": "Ai and Norton (2003) show that in logit and probit models the interaction effect is the cross derivative of the predicted probability, not the coefficient on the interaction term, and that its sign and significance can differ from those of that coefficient.",
+      "frase_slide": "In logit, the interaction effect is not the interaction coefficient (Ai & Norton, 2003)",
+      "forza": "shows",
+      "numero_chiave": "72 articles (1980-1999, 13 economics journals) used interaction terms in nonlinear models; none interpreted the coefficient correctly",
+      "limiti_vs_noi": "Methods paper; derives the correct interaction effect and its standard errors for a single interaction, with no startup or VC data. Our model has two interactions (two_rounds x heat, log_gap_r2 x heat), which the paper covers only as 'analogous'.",
+      "note": "Derivation is shown for probit; logit is covered by the general formulas and the logit example. Tesi is not compound and not causal."
+    }
+  ]
+}

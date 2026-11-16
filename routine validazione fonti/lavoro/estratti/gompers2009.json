@@ -1,0 +1,21 @@
+{
+  "id_fonte": "gompers2009",
+  "tipo_studio": "empirical",
+  "dati_metodo": "VentureSource data, 11,297 VC-backed companies and 24,331 VC-company observations (nine broad industries); panel regressions of VC firm/person success (exit via IPO, registration for IPO, acquisition or merger) on firm and person specialisation (Herfindahl), with year, industry and round fixed effects",
+  "righe": [
+    {
+      "riga": "2.5__gompers2009",
+      "firma": "04b9c8db16",
+      "esito": "non usabile",
+      "estrazione": "The txt studies how the specialisation of VC firms and individual VCs relates to the success of their investments, within and across industries. It takes industry success rates as varying by industry and year (used to build the Mix and Industry Alpha measures) and controls for industry and year fixed effects. It does not show or argue that industries differ permanently in exit rates or in VC specialisation: no test of persistence over time is reported, so the tesi is not supported.",
+      "citazione": "We define abnormal performance as the difference between the firm’s investment success and the average investment success in that industry in that year.",
+      "posizione": "Section 3, success measures (before Table IV)",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "assumes",
+      "numero_chiave": "",
+      "limiti_vs_noi": "VentureSource data on VC-backed companies; success includes IPO, registration for IPO, acquisition or merger; the unit of analysis is the VC firm, not the industry.",
+      "note": "Compound tesi (permanent industry differences in exit rates; permanent differences in specialisation). The part on permanence, for either, is not in the txt, which decided the esito. The txt uses industry-year average success rates, which vary by year, and industry fixed effects as controls. This is not a contradiction, only the absence of the claim. Shared with lerner2020, judged here on Gompers et al. (2009) alone."
+    }
+  ]
+}

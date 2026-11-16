@@ -1,0 +1,35 @@
+{
+ "id_fonte": "chemmanur2014",
+ "tipo_studio": "empirical",
+ "dati_metodo": "US VC-backed entrepreneurial firms (IPO firms for the baseline, plus the universe of VC-backed firms in a difference-in-differences), patent counts and citations 1976-2006 patent data; regressions, propensity score matching and diff-in-diff, CVC vs independent VC.",
+ "righe": [
+  {
+   "riga": "2.5__chemmanur2014",
+   "firma": "209b5fa782",
+   "esito": "usabile",
+   "estrazione": "The paper finds that CVC-backed entrepreneurial firms are more innovative than IVC-backed ones, measured by patenting outcomes (quantity and citations per patent), even though they are younger, riskier and less profitable. The result holds in a propensity score matching analysis of IPO firms and in a difference-in-differences analysis of the universe of VC-backed firms. The evidence is empirical, but the authors flag possible selection and treat it as association-type evidence on patenting.",
+   "citazione": "We find that CVC-backed firms are more innovative, as measured by their patenting outcome, although they are younger, riskier, and less profitable than IVC-backed firms.",
+   "posizione": "Abstract",
+   "frase_paper": "Chemmanur et al. (2014) find that CVC-backed firms are more innovative, as measured by patenting, than IVC-backed firms, in a sample of US VC-backed firms.",
+   "frase_slide": "CVC-backed firms patent more than independent-VC-backed firms (Chemmanur et al., 2014)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Innovation measured by patents, baseline on IPO firms only (survivors); period up to 2006, not 2012-2019; compares CVC vs IVC, not round timing or exit.",
+   "note": "Innovativeness is patent-based; the tesi should keep that qualifier if used in the paper."
+  },
+  {
+   "riga": "5.5__chemmanur2014",
+   "firma": "edb42a1714",
+   "esito": "non usabile",
+   "estrazione": "The tesi is too vague to match anything the txt shows, and the txt reports no comparison of control-variable signs. On the contrary, the authors state that they draw no inferences from the coefficients of the control variables because of look-ahead bias, and suppress control coefficients in most tables. Nothing in the txt supports using it for control-sign comparisons.",
+   "citazione": "we do not draw any inferences based on these control variables’ coefficient estimates.",
+   "posizione": "Section 3 (baseline results, note after Table 4: pre-IPO innovation analysis)",
+   "frase_paper": "",
+   "frase_slide": "",
+   "forza": "mentions",
+   "numero_chiave": "",
+   "limiti_vs_noi": "",
+   "note": "Shared tesi with hochberg2007, yu2020, kerrlerner2014, haltiwanger2013; judged only for this source. The txt explicitly declines to interpret control coefficients, so it cannot back a sign comparison. Tesi wording is also unclear."
+  }
+ ]
+}

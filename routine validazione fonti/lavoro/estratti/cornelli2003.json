@@ -1,0 +1,21 @@
+{
+  "id_fonte": "cornelli2003",
+  "tipo_studio": "theory",
+  "dati_metodo": "Theoretical model of a venture capitalist financing an entrepreneur in two stages, with an interim signal, window dressing and convertible debt versus debt plus equity; no data.",
+  "righe": [
+    {
+      "riga": "2.1__cornelli2003",
+      "firma": "2810a0edb4",
+      "esito": "da riformulare",
+      "estrazione": "The paper states that stage financing gives the venture capitalist the option to abandon the venture when the project's forward-looking value is negative. Its model shows that this option induces the entrepreneur to engage in window dressing, biasing the interim signal to reduce the probability of liquidation. Convertible securities are shown to deter this behaviour, because window dressing also raises the probability that the VC converts. The contribution is that convertibles dominate debt-plus-equity within staging, not that convertibles are what keeps the option to stop.",
+      "citazione": "The venture capitalist retains the option to abandon the venture whenever the forward looking net present value of the project is negative.",
+      "posizione": "1. Introduction",
+      "frase_paper": "Cornelli and Yosha (2003) model stage financing as giving the venture capitalist the option to abandon the project, and show that convertible securities reduce the entrepreneur's incentive to window-dress interim performance to avoid liquidation.",
+      "frase_slide": "Staging lets the VC abandon a project; convertibles curb window dressing that blunts this option (Cornelli & Yosha, 2003)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Pure theory with no data; it concerns contract design (convertible debt or warrants) and not the timing of rounds, the gap between rounds or exit outcomes.",
+      "note": "The tesi as worded attributes the option to stop to 'staging with convertible securities'. In the txt the option comes from staging itself (introduction); convertibles protect the quality of the signal on which the stop decision rests. The first part (staging gives the option to stop) is supported; the link to convertibles keeping the option is not worded this way."
+    }
+  ]
+}

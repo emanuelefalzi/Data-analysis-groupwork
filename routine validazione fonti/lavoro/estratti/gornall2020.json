@@ -1,0 +1,35 @@
+{
+ "id_fonte": "gornall2020",
+ "tipo_studio": "empirical",
+ "dati_metodo": "135 US unicorns (post-money above $1 billion), contingent-claims valuation model using contract terms from certificates of incorporation, rounds up to about 2017",
+ "righe": [
+  {
+   "riga": "2.4__gornall2020",
+   "firma": "1e138902bc",
+   "estrazione": "The txt values 135 US unicorns with a contingent-claims model using contract terms from legal filings. Reported post-money valuations average 48% above fair value (median 37%), and overstate value in all cases, from 5% to 188%. The result is for unicorns only; 'about half' is a rounding of 48%.",
+   "frase_paper": "Gornall and Strebulaev (2020) find that, for 135 US unicorns, reported post-money valuations average 48% above model-based fair value.",
+   "frase_slide": "Unicorn post-money valuations average 48% above fair value (Gornall & Strebulaev, 2020)",
+   "note": "Number: tesi says 'about half'; txt says 48%, so the exact figure must be used. Scope limited to unicorns.",
+   "esito": "da riformulare",
+   "citazione": "valuations average 48% above fair value, with 14 being more than 100% above.",
+   "posizione": "Abstract",
+   "forza": "shows",
+   "numero_chiave": "48%: average amount by which reported post-money valuations exceed fair value, 135 US unicorns (median 37%, range 5% to 188%)",
+   "limiti_vs_noi": "Only 135 US unicorns (valuations above $1 billion) as of their most recent round, valued with a contingent-claims model on terms from charters; our sample is all US startups with a first VC round in 2012-2019 and mostly small post-money valuations."
+  },
+  {
+   "riga": "5.6__gornall2020",
+   "firma": "61e3e30f6d",
+   "estrazione": "The txt shows post-money valuations overstate fair value in all 135 US unicorns studied, because the post-money formula treats all shares as equal to the latest preferred shares. It does not test this for VC-backed companies in general, so the tesi is wider than the txt.",
+   "frase_paper": "Gornall and Strebulaev (2020) find that post-money valuations overstate fair value for all 135 US unicorns they study, by 48% on average.",
+   "frase_slide": "Post-money overstates fair value for 135 US unicorns, 48% on average (Gornall & Strebulaev, 2020)",
+   "note": "Tesi has no scope; txt covers unicorns only, as of the most recent round.",
+   "esito": "da riformulare",
+   "citazione": "valuations average 48% above fair value, with 14 being more than 100% above.",
+   "posizione": "Abstract",
+   "forza": "shows",
+   "numero_chiave": "48%: average amount by which reported post-money valuations exceed fair value, 135 US unicorns (median 37%, range 5% to 188%)",
+   "limiti_vs_noi": "Only 135 US unicorns (valuations above $1 billion) as of their most recent round, valued with a contingent-claims model on terms from charters; our sample is all US startups with a first VC round in 2012-2019 and mostly small post-money valuations."
+  }
+ ]
+}
