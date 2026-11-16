@@ -1,0 +1,2296 @@
+Syndication Networks and the Spatial Distribution of Venture Capital Investments
+Author(s): Olav Sorenson and Toby E. Stuart
+Source: American Journal of Sociology , Vol. 106, No. 6 (May 2001), pp. 1546-1588
+Published by: The University of Chicago Press
+Stable URL: https://www.jstor.org/stable/10.1086/321301
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            The University of Chicago Press is collaborating with JSTOR to digitize, preserve and extend access
+            to American Journal of Sociology
+
+
+
+
+                                                      This content downloaded from
+                                    193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                                              All use subject to https://about.jstor.org/terms
+Syndication Networks and the Spatial
+Distribution of Venture Capital Investments1
+Olav Sorenson
+University of California, Los Angeles
+
+Toby E. Stuart
+University of Chicago
+
+
+
+       Sociological investigations of economic exchange reveal how insti-
+       tutions and social structures shape transaction patterns among ec-
+       onomic actors. This article explores how interfirm networks in the
+       U.S. venture capital (VC) market affect spatial patterns of exchange.
+       Evidence suggests that information about potential investment op-
+       portunities generally circulates within geographic and industry
+       spaces. In turn, the circumscribed flow of information within these
+       spaces contributes to the geographic- and industry-localization of
+       VC investments. Empirical analyses demonstrate that the social net-
+       works in the VC community—built up through the industry’s ex-
+       tensive use of syndicated investing—diffuse information across
+       boundaries and therefore expand the spatial radius of exchange.
+       Venture capitalists that build axial positions in the industry’s coin-
+       vestment network invest more frequently in spatially distant com-
+       panies. Thus, variation in actors’ positioning within the structure
+       of the market appears to differentiate market participants’ ability
+       to overcome boundaries that otherwise would curtail exchange.
+
+INTRODUCTION
+The role played by geography and social topography in structuring in-
+teraction has long interested sociologists. Beginning with Bossard (1932),
+many studies have investigated the importance of propinquity in deter-
+
+1
+  Both authors contributed equally to this work. The University of Chicago Graduate
+School of Business and a grant from the Center for Entrepreneurial Leadership at the
+Ewing Marion Kauffman Foundation, Kansas City, supported this research. Discus-
+sions with Jesper Sørensen contributed to the development of the paper, but the authors
+retain responsibility for any remaining faults. Direct correspondence to Olav Sorenson,
+Anderson School of Management. University of California, 110 Westwood Plaza, Suite
+420, Los Angeles, California 90095-1481. E-mail: olav.sorenson@anderson.ucla.edu
+
+䉷 2001 by The University of Chicago. All rights reserved.
+0002-9602/2001/10606-0002$02.50
+
+1546      AJS Volume 106 Number 6 (May 2001): 1546–88
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                   Distribution of Venture Capital
+
+mining the likelihood of friendship and marriage. These studies consis-
+tently find that the probability of a relationship increases sharply when
+two individuals live near one another. A parallel line of research estab-
+lishes that the likelihood of forming a social relationship declines as a
+function of distance in social space (Lazarsfeld and Merton 1954; Blau
+1977; Blau and Schwartz 1984). The similar findings relating social and
+physical distance to the likelihood of a relationship reflect the fact that
+both operate by influencing the probability of random interaction. To
+form a relation, two individuals typically must meet in space and time.
+Because both physical and social locations strongly influence people’s
+activities, proximity on these dimensions increases the likelihood of a
+chance encounter (Blau 1977). Although the research on geographic pro-
+pinquity and homophily has focused primarily on the formation of friend-
+ships and marriages, the same processes that localize these forms of in-
+teraction may also structure economic exchange relations in physical and
+social space.
+   The literature documents the decline in interpersonal interaction with
+an increase in geographic and social distance, but it has offered few ex-
+planations for heterogeneity in the salience of these dimensions over time
+and across actors. The effect of geographic distance on the likelihood of
+interaction varies from actor to actor. Similarly, demographic character-
+istics differ in the degree to which they structure interaction (Blau and
+Schwartz 1984; McPherson, Popielarz, and Drobnic 1992). In the latter
+case, two factors might explain this variation. First, individuals’ prefer-
+ences for interacting with similar others might produce homophily (La-
+zarsfeld and Merton 1954; Rogers and Kincaid 1981). According to this
+view, differences in the extent to which we observe homophily on so-
+ciodemographic characteristics derive from the underlying preference dis-
+tribution for similarity. Alternatively, others argue that homophily stems
+primarily from the structure of opportunity (Blau 1977). In this perspec-
+tive, sociodemographic dimensions vary in the degree to which they gen-
+erate homophilous interactions based on the salience of these dimensions
+in the arrangement of daily activities.
+   Consistent with the second view, we argue that differences in the in-
+fluence of propinquity and homophily in economic exchange systems stem
+from variation across actors in their opportunities to trade. We explore
+this idea in a market context by investigating empirically patterns of
+exchange in the U.S. venture capital (VC) industry from 1986 to 1998.
+Our analyses first demonstrate the prevalence of localized exchange by
+showing that the likelihood that a venture capitalist invests in a new
+venture (“target”) declines sharply with the distance between venture cap-
+italist and target. The data reveal strong evidence of localized exchange
+both in terms of the physical and “industry” distance between the venture
+
+                                                                             1547
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+capital organization and the potential investment target, where the latter
+quantity represents the level of dissimilarity between the VC firm’s pre-
+vious investment experiences and the industry classification of a given
+target company. We then show that certain characteristics of a venture
+capitalist’s position in the industry’s information network influence the
+degree of localization in its exchange patterns. Thus, we investigate the
+social structural factors that determine variation in the extent to which
+VC investments are “homophilous” (i.e., localized) with respect to geog-
+raphy and industry.
+   We contend that the structure of relationships in the VC community
+contours the movement of capital for at least two reasons. First, investors
+must be aware of investment opportunities before they may capitalize on
+them. In the public financial markets, many organizations disseminate
+information about potential investments; however, young, private entre-
+preneurial ventures typically fall outside the scope of these organizations’
+activities. In the absence of public information about early stage com-
+panies, personal and professional relationships provide one of the primary
+vehicles for disseminating timely and reliable information about promising
+new ventures. Second, investors carefully evaluate the quality of an in-
+vestment opportunity before determining to support it. New ventures
+typically represent risky organizational propositions (Stinchcombe 1965).
+Not only do they face liabilities of newness and smallness, but also they
+often operate under unproven business models and in inchoate markets.
+In turn, the lack of a performance history upon which to base quality
+assessments tremendously increases the importance of trust—which we
+know to be built through repeated interaction—in the VC investment
+relation. Both information and trust require social interaction, yet the
+likelihood of this interaction varies across actors. The sociological liter-
+ature on patterns of affiliation consistently finds that two factors, pro-
+pinquity and homophily, influence the likelihood of interaction.
+   Because useful information regarding exchange opportunities travels
+across private networks, geographic and industrial spaces—areas within
+which interpersonal ties concentrate—represent spatial dimensions that
+contain the transmission of information about potential investments. We
+conjecture that the relatively more modest flow of information across
+geographic and industrial spaces deters geographically and industrially
+distant investments. Nevertheless, we argue that interfirm relationships
+in the venture capital community effectively reduce spatial limitations on
+the flow of information. Our empirical analyses focus on how the network
+connecting the members of the VC community—built up through the
+industry’s widespread use of syndicated investing—facilitates the diffu-
+sion of information across spatial boundaries, thereby decreasing the
+space-based constraints on economic exchange. Investors that build cen-
+
+1548
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                                                   Distribution of Venture Capital
+
+tral positions in the syndication network concomitantly extend their access
+to information about spatially distant targets and expand the radius of
+their investment activity. Therefore, consistent with the sociologist’s gen-
+eral view of economic transactions, the social structure of the market
+determines the ability of participants to overcome the informational con-
+straints that would otherwise restrict market exchange.
+   The analyses presented in this article establish a series of findings that
+contribute to the literature in economic sociology. First, the article rep-
+resents the beginning of a sociological explanation of the spatial organi-
+zation of economic activity. Economic geographers studying the spatial
+concentration of industry frequently call attention to the conundrum that
+production activity often concentrates in high technology industries even
+though the primary production input—knowledge—can be inexpensively
+transported across large distances. In the absence of physical or economic
+constraints on the mobilization of resources through space, contemporary
+economic explanations of spatial concentration generally emphasize pos-
+itive feedback processes that, for example, result from the geographic
+spillover of knowledge across firm boundaries but within small areas
+(Arthur 1990; Krugman 1991). According to this view, a sequential entry
+process leads new firms to locate near existing firms of the same type to
+establish local markets for scarce inputs (such as skilled labor) or to gain
+early exposure to knowledge produced by nearby firms. As we discuss in
+the conclusion, we believe that the spatial clustering of social and pro-
+fessional relations offers an alternative explanation for the spatial con-
+centration of industry.
+   We also believe that the article’s findings have implications for regional
+economic development policies. VC firms now play an important role in
+the U.S. economy. In the first half of 1999 alone, VC funds invested more
+than $12.5 billion in early-stage companies. As the industry amasses ever-
+larger pools of capital to dispense, venture capitalists expand their influ-
+ence in determining who receives funding to pursue their entrepreneurial
+visions. To the extent that these spells of entrepreneurship affect socio-
+economic trajectories, venture capitalists become agents for social strat-
+ification. Similarly, VC firms have been critical catalysts in the devel-
+opment of many new high-technology industries. Because young
+companies in these areas make large investments in technology devel-
+opment significantly in advance of their ability to generate the cash flows
+to finance these investments, they must rely on capital infusions from
+venture capitalists and other investors. As these industries become im-
+portant engines for economic growth and wealth creation, access to ven-
+ture capital funding might significantly affect the macroeconomic health
+of regions and nations.
+
+                                                                             1549
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+THE PATTERN OF EXCHANGE IN THE VENTURE CAPITAL
+MARKET
+
+In the last three decades, a new organizational form, the VC firm, has
+emerged as a substantial contributor to the financing of fledging com-
+mercial enterprises. VC firms broker the relationship between investors
+and entrepreneurs. Using funds raised primarily from institutional in-
+vestors and wealthy individuals, they search out promising, yet risky,
+investment opportunities. In this search, one might expect that firms
+would benefit by evaluating the broadest possible set of potential in-
+vestments; on average, the best five investments from a set of a thousand
+possibilities should outperform the top five investments from a set of 10
+candidates. Despite the incentives for choosing from a broad array of
+opportunities, however, venture capitalists exhibit highly localized in-
+vestment patterns in both physical and industry space (Gupta and Sap-
+ienza 1992; Norton and Tenenbaum 1993).
+   Two types of explanations can account for these insular investing strat-
+egies. One set focuses on the preinvestment activities of the venture cap-
+italist, in particular the conditions that favor opportunity identification
+and evaluation. The second set of explanations addresses the postinvest-
+ment role of the VC firm, specifically the ease of monitoring the new
+venture and the facility with which the VC firm can provide value-added
+services.
+
+
+The Preinvestment Role: Opportunity Identification and Appraisal
+
+Finding investment targets entails two important tasks. First, venture
+capitalists must acquire information about the existence and character-
+istics of investment opportunities. Second, they must assess the quality
+of these opportunities. Because each of these tasks becomes increasingly
+difficult at a distance, we believe that even passive investors—those who
+invest without intending to play an active role in managing the new
+venture—will likely invest locally. Interpersonal relations act as primary
+pathways structuring the transmission of information within communities
+of actors. This observation underpins diverse sociological literatures; for
+example, the network-based explanations of the diffusion of innovations
+(Coleman, Katz, and Menzel 1966) and the more general sociological re-
+search on interpersonal influence processes (e.g., Friedkin 1998) reflect
+this fact. The capacity of networks to disseminate reliable information
+also underlies sociological investigations of economic markets. For ex-
+ample, Granovetter’s (1973) seminal article on the strength of weak ties
+motivated a number of studies of how network shapes determine the
+transmission of transaction-relevant information across the participants
+
+1550
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                                                    Distribution of Venture Capital
+
+in a market. Many subsequent studies specifically elaborate the mecha-
+nisms through which ties among actors affect both the patterns and gov-
+ernance of economic exchanges (e.g., Raub and Weesie 1990; Granovetter
+1985).
+   Following this rationale, the structure of social and professional rela-
+tions likely influences which actors in the VC business become aware of
+promising, early-stage investment opportunities. The majority of invest-
+ment targets are small, inchoate entities. Timely information regarding
+high-quality investment opportunities in this domain often reaches a ven-
+ture capitalist through her network. Thus, as economic sociologists have
+noted in other market contexts, the circumscribed diffusion of reliable
+information across networks plays a central role in the formation of
+exchange relations in venture capital.
+   The importance of networks in generating investment leads affects the
+spatial distribution of investment activity because social relations tend to
+cluster in both geographic and social spaces. Since the writings of Park
+(1926), studies have found that social actors form ties more frequently
+when they occupy proximate positions in physical space. In human ecol-
+ogy, the law of distance interaction states that the probability of interaction
+between social elements declines as a multiplicative function of the dis-
+tance between them (Hawley 1971). Sociologists believe this law arises in
+large part because the costs of interacting—including finding and screen-
+ing exchange partners and maintaining relationships—increase with dis-
+tance (Zipf 1949). The seminal studies of Festinger, Schacter, and Back,
+(1950) and the work of the human ecologists have refined these insights
+by showing an increased interaction frequency when actors meet in “func-
+tional” space (e.g., when the tenants in an apartment complex meet in the
+laundry room).
+   Although only a small body of literature examines how location affects
+the functioning of markets and the organization of economic activity, these
+studies reveal strong spatial effects (cf. Bothner 2000). In an analysis of
+the geographic diffusion of labor unions in Sweden, Hedström (1994)
+demonstrates that the geographic configuration of communication net-
+works in the Swedish population can explain the spatial contagion in the
+establishment of these organizations. Research on interlocks among cor-
+porate boards created by overlapping memberships shows that spatially
+proximate companies are more likely to share directors (Mintz and
+Schwartz 1985; Kono, Palmer, Friedland, and Zafonte 1998). Studies of
+communication patterns within organizations observe that employees in-
+teract more frequently with coworkers in nearby offices (Allen 1977).
+Baker’s (1984) study of price volatility in an options exchange importantly
+shows that the structure of interaction influences the transmission of in-
+formation in a market context even in a very small physical space: the
+
+                                                                              1551
+
+
+
+
+                              This content downloaded from
+            193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                      All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+trading floor of a commodities exchange. Quoting an options trader, Baker
+(1984, p. 783) states, “Noise, static. The errors increase as an inverse square
+of the distance between brokers. . . . You trade with people in close
+proximity to reduce this risk.” A growing empirical literature therefore
+establishes that individuals activate geographically localized social net-
+works when they engage in economic exchange. Assuming this holds in
+the VC industry, geographic propinquity should facilitate the first task of
+the venture capitalist: learning about private investment opportunities.
+   A parallel line of research, beginning with Lazarsfeld and Merton (1954)
+but most extensively developed by Blau (1977), shows that social space
+also structures the likelihood of interaction. In social space, differentiation
+along sociodemographic dimensions operates as the equivalent to distance
+in geographic space (Milgram 1967). Relations cluster among similar peo-
+ple because individuals’ sociodemographic attributes determine what they
+do and where they do it. Sociodemographic dimensions act so strongly
+on the structure of interaction that homophily explains most of the social
+structural variation in the 1985 General Social Survey (Marsden 1988;
+Yamaguchi 1990). Many other studies also find proximity in social space
+a salient factor in explaining who interacts with whom (for a review, see
+McPherson and Smith-Lovin [1987]). In our analysis of relationships and
+the spatial pattern of economic exchange in venture capital, the social
+space argument suggests that a venture capitalist’s prior experience in a
+particular industry should affect the extensiveness of the venture capi-
+talist’s personal contact network among entrepreneurs and other investors
+in that industry. Having many contacts in turn facilitates the identification
+of new investment opportunities. Thus, experience in an industry may
+lead to specialization among venture capitalists along this dimension.2
+   In addition to identifying investment opportunities, venture capitalists
+with deep contact networks in an industry or a geographic area can often
+better assess the veracity of the information they receive about the quality
+of an investment opportunity. As the economics and practitioner litera-
+tures on venture capital often note, information asymmetries make op-
+portunity appraisal essential in this context. Information asymmetries exist
+because entrepreneurs know more than venture capitalists about the op-
+portunities they seek funding to pursue. Moreover, venture capitalists
+cannot simply rely upon entrepreneurs for accurate information about the
+quality of their business plans; this information may be tainted because
+
+
+2
+  The value of industry-specific knowledge in evaluating investment opportunities of-
+fers an obvious alternative explanation for industry specialization among VC firms.
+Because our primary interest lies in the factors that differentiate the degree of industrial
+specialization across firms, we make no attempt to discriminate among competing
+explanations for the “main effect” of industry specialization.
+
+1552
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+entrepreneurs sometimes overstate the attractiveness of their proposals to
+secure funding and to obtain high valuations for their incipient companies.
+Thus, venture capitalists must guard against the hazard that entrepre-
+neurs might try to sell them a “lemon” (Amit, Glosten, and Muller 1990).3
+   At least two dimensions of a venture capitalist’s contact network con-
+tribute to the localization of investments by influencing the venture cap-
+italist’s ability to appraise investment opportunities under asymmetric
+information. First, individuals have greater confidence in information
+collected from trusted parties. Consistent with this disposition, reports on
+the VC industry indicate that venture capitalists repeatedly finance in-
+vestments that they learn about through referrals from close contacts,
+including entrepreneurs that the capitalist previously financed, fellow ven-
+ture capitalists, family members, or friends (Fried and Hisrich 1994).
+These individuals have an interest in conveying accurate information and
+bringing high-quality investment opportunities to the attention of the
+venture capitalist because they typically wish to maintain an ongoing
+relationship with the venture capitalist.4 Second, lacking a strong tie,
+multiple and corresponding sources of information might offer the venture
+capitalist some assurance regarding the quality of a potential investment.
+   The density of strong and redundant ties likely declines particularly
+sharply in distance. Almost by definition, maintaining strong ties requires
+frequent interaction. The likelihood of this interaction decreases rapidly
+with distance—indeed, much more rapidly than the dissipation of weak
+ties that require less time and energy to maintain. Similarly, redundant
+ties imply the existence of multiple and duplicate information sources.
+Assuming, as we do, spatial constraints on tie formation and maintenance,
+the likelihood of receiving information about a potential entrepreneur
+from two or more sources will decrease even more rapidly in distance
+than the likelihood of having a single information path.
+
+
+The Postinvestment Role: Monitoring and Advising New Ventures
+After investing in a startup, venture capitalists perform two important
+functions. First, they monitor their investments. Because venture capi-
+talists make substantial investments in young companies with managers
+
+3
+  Akerlof (1970) first posed the lemons problem using the used car market as an example.
+Amit et al. (1990) extend this logic to venture capital investing.
+4
+  Among others, Blau (1964), Coleman (1990), and Burt (1992) offer general discussions
+of the social structural underpinnings of referral processes. Coleman (1990, pp. 180–l88),
+e.g., describes “intermediaries in trust” as individuals who certify the trustworthiness
+of one individual to another. Accordingly, “The advisor’s only stock of trade is the
+credibility of his advice, and if his advice proves incorrect, his loss is in the trust-
+worthiness of his judgment in the eyes of those he has advised” (p. 181).
+
+                                                                                    1553
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+whose interests may conflict with the venture capitalists’ objectives, ven-
+ture capitalists actively monitor their investments to mitigate agency prob-
+lems. Meanwhile, the survey-based and ethnographic accounts of entre-
+preneurship scholars, as well as the business press and writings of
+practitioners, emphasize the value that venture capitalists add to early-
+stage companies by providing expertise and social capital.
+   A substantial body of (primarily theoretical) work in corporate finance
+concerns the optimal design of contracts between venture capitalists and
+target companies to attenuate the agency problems inherent in providing
+capital to new ventures (for a review, see Kaplan and Strömberg [1999]).
+Venture capitalists must contend with the possibility that entrepreneurs
+might pursue their own interests or reduce effort once they receive cash
+from their financiers (Jensen 1986). Several aspects of the contracts be-
+tween venture capitalists and the entrepreneurs they fund, such as staged
+financing (Amit et al. 1990; Gompers 1995; Bergemann and Hege 1998)
+and the allocation of control rights (Hellman 1998),5 help mitigate this
+concern. Although these contracts reduce the need for monitoring, they
+do not eliminate it. Thus, monitoring the managers of their portfolio
+companies remains an important postinvestment activity for the venture
+capitalist.
+   Practitioner accounts tend to emphasize the services venture capitalists
+provide to the companies they support. According to an oft-repeated in-
+dustry adage: It isn’t getting the money, it’s who the money comes from.
+This statement refers to the value-added services that venture capitalists
+offer and the endorsement value derived from having high status financial
+backers. Obviously, VC firms provide financial expertise; they also rou-
+tinely act as general management consultants, providing advice on stra-
+tegic and operational issues (Bygrave and Timmons 1992). Many venture
+capitalists successfully started and ran their own companies before en-
+tering the industry. Thus, they have experience in many of the manage-
+ment and strategic issues confronting the entrepreneurs they back. In
+addition, because of their present and past financing activities and prior
+business experiences, venture capitalists hold abundant social capital that
+they can make available to the companies in which they invest (Stuart,
+Hoang, and Hybels 1999).
+   Spatial proximity to the target facilitates the execution of both of the
+venture capitalists’ postinvestment roles. Monitoring requires frequent
+visits to company operations. As Gorman and Sahlman (1989) report,
+
+5
+  Venture capitalists secure several contractually specified control rights when they
+invest in early-stage companies. For example, they typically receive board seats and
+the power to replace the venture’s management team if it fails to meet financial or
+other performance-based milestones.
+
+1554
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                   Distribution of Venture Capital
+
+venture capitalists spend an average of four to five hours per month on
+site at each of the companies in which they play a lead role. Even when
+another VC firm leads the investing, a venture capitalist will still typically
+visit the company at least once per quarter. In total, monitoring and
+advising occupies about half of the venture capitalist’s time (Gorman and
+Sahlman 1989). Obviously, time spent in transit reduces the number of
+companies that an individual can monitor; thus, geographic proximity
+reduces the time costs of monitoring. Venture capitalists with limited past
+experience in the target’s industry also find monitoring more challenging.
+Knowledge regarding the target company’s industry allows the venture
+capitalist to oversee investments more efficiently and more effectively, in
+part because industry experience enhances the venture capitalist’s ability
+to recognize signs of trouble at an early stage.
+   Similarly, the advisory function becomes more difficult, and may be
+less valuable, when venture capitalists are separated from targets by large
+physical or industry distances. Venture capitalists can offer more assis-
+tance to targets when they interact with startups’ management frequently
+and in person. Familiarity with the business issues confronting new ven-
+tures requires continual interaction, so spatial propinquity also facilitates
+advising. Similarly, the more extensive the venture capitalist’s past ex-
+perience in the target firm’s industry, the more industry-specific expertise
+and the greater the industry-specific social capital the venture capitalist
+can provide.
+   Because both the preinvestment activities (opportunity identification
+and appraisal) and the postinvestment roles (monitoring and the provision
+of value-added services) favor local investing, we anticipate finding this
+pattern in the data. Nevertheless, because most industry participants
+would expect to observe this phenomenon and because of the range of
+potential explanations for it, the limited spatial reach of exchange in the
+venture capital investing relation does not, in and of itself, constitute a
+particularly significant finding. This pattern could result from boundaries
+around the flow of information about investment opportunities, from a
+rational response to the costs of monitoring even with perfect information,
+or simply from satisficing behavior that engenders local search. Given the
+obstacles to discriminating among the multiplicity of factors that all pre-
+dict local investing patterns, we focus instead on the factors that influence
+the sensitivity of venture capitalists’ investments to target company prox-
+imity. In other words, we investigate the factors that lead venture capi-
+talists to extend the reach of their investments beyond their surrounding
+geographic and industrial neighborhoods. Fortunately, the determinants
+of the spatial sensitivity of venture capitalist’s also provide some purchase
+for discriminating between competing explanations for the localization of
+investments.
+
+                                                                             1555
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+Determinants of the Spatial Reach of VC Investments
+
+Having established the reasons to expect localized investment patterns,
+we now develop specific predictions relating attributes of VC firms, char-
+acteristics of their information network, and features of specific VC-target
+pairings to the probability that a venture capitalist will invest in a geo-
+graphically distant target or one in an industry in which the venture
+capitalist has had little prior investment experience. Although our data
+provide strong evidence of local exchanges, VC firms vary significantly
+in their proclivity to invest in proximate targets. We begin by proposing
+VC age and investment experience as factors explaining this variance,
+but we intend to show that tenure in the industry and experience proxy
+for the expansion of a venture capitalist’s contact network and the growth
+of its reputation, which develop through time and the accrual of an in-
+vestment track record. If our conjecture holds, the effects of tenure and
+experience should attenuate when we account explicitly for this network
+development.
+   VC age.—The age of a venture capital organization captures at least
+four dimensions of tenure in the industry. First, as firms age, their members
+probably extend their networks both within the venture capital com-
+munity and among entrepreneurs in a range of industries. Second, even
+without forming new ties, the spatial reach of a venture capitalist’s contact
+network likely increases over time as geographic and social mobility pro-
+duce spatial dispersion among the contacts in their network. Third, as
+they age, venture capitalists also accumulate experience in evaluating
+business proposals and entrepreneurs that could improve the venture cap-
+italist’s ability to perform these tasks at a distance. Fourth, long-tenured
+firms in the industry often become widely known, increasing the likelihood
+that other VC firms will bring good investment opportunities to them. As
+our argument develops, we hope to disentangle the effects of networks
+and experience captured by firm age, but age might pick up residual
+effects from these processes. Thus, we anticipate, older VC firms will fund
+distant targets more frequently than young VC firms.
+   VC experience.—As the discussion of VC age implies, age captures the
+combined effects of a number of processes that produce systematic changes
+in organizations as they mature (Hannan 1998). One accompaniment of
+age is the accumulation of experience. Over time, the experience that
+venture capitalists accrue can alter the influence of distance in the in-
+vestment decision in at least three ways. First, experience might reduce
+the costs of monitoring at a distance as venture capitalists become more
+adept at this task. Similarly, as they gain confidence in their ability to
+evaluate investment opportunities and entrepreneurs, they might grow
+less dependent on trustworthy or redundant information sources to ap-
+
+1556
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+praise the quality of investment candidates. Finally and most relevant to
+our argument, in the course of their investments, venture capitalists de-
+velop relationships with other VC firms and with experts and entrepre-
+neurs in the industries in which they repeatedly invest. These networks
+provide privileged access to information about promising investments.
+Let us consider each of these in detail.
+   A substantial literature on organizational learning suggests that past
+experience influences organizational behavior (March 1988). As venture
+capitalists gain experience monitoring their investments, they develop
+competence in activities such as writing effective contracts to minimize
+agency problems and recognizing the signs that forewarn of problems at
+the companies in which they invest. Effective monitoring also requires
+insight into the link between effort and outcome, which practice cultivates.
+An improvement in the efficiency of performing these activities reduces
+the time that the venture capitalist must spend monitoring, which should
+in turn enable the venture capitalist to invest in more distant firms because
+of a reduction in the time costs of monitoring at a distance.
+   In addition to improving their monitoring ability, experience also hones
+venture capitalists’ ability to appraise potential investments. As they eval-
+uate more business plans and directly observe more early-stage companies,
+venture capitalists may gain a better understanding of the factors that
+lead to success and failure in general and within a particular industry.
+As venture capitalists improve their acumen in evaluating investment
+opportunities, they might become more willing to invest based on infor-
+mation acquired from nonredundant and weak ties.6 Although weakly
+affiliated actors may lack the incentive to refer only high quality invest-
+ments (Fried and Hisrich 1994), venture capitalists might compensate by
+relying more heavily on their ability to discern quality differences among
+entrepreneurs and their business plans. Since venture capitalists likely
+have only nonredundant and indirect ties to informants on the quality of
+geographically distant targets or those in industries in which they lack
+previous investment experience, this shift toward a reliance on internal
+(rather than network-based) evaluation techniques disproportionately fa-
+vors the consideration of far away targets. Therefore, venture capitalists
+may become less sensitive to distance as they accrue investment
+experience.
+   Beyond the changing character and quality of the information venture
+
+6
+  The decision-making literature counsels that a change in the willingness to rely on
+one’s own judgment does not necessarily constitute a rational shift in behavior. Re-
+search shows that individuals become more comfortable engaging in an activity simply
+by doing it (Bandura 1986), especially when the feedback regarding success lies chron-
+ologically distant from the activity. Thus, venture capitalists might judge themselves
+to be better investors regardless of any real improvement in their selection ability.
+
+                                                                                1557
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+capitalists will consider in evaluating potential investments, the accrual
+of prior experience also expands a venture capitalist’s access to infor-
+mation. For many reasons, each investment extends the venture capi-
+talist’s information network. First, the employees of previously funded
+companies occasionally launch new startups, since entrepreneurs in a
+particular industry tend to emerge from the rosters of organizations al-
+ready operating in that industry (Sorenson and Audia 2000). Also, the
+executives and employees at funded companies may forward potential
+investment opportunities that they learn about through friends, relatives
+and coworkers. To the degree that entrepreneurial activity forms a salient
+dimension in structuring social interaction, entrepreneurs will know other
+entrepreneurs, and thus they will be fecund sources for referrals. The
+contacts emerging from the associations generated by past financing re-
+lationships also offer another potential information advantage to venture
+capitalists: when investing within the same industry, these contacts offer
+privileged access to expert advice. Hence, we expect, prior investment
+experience in an industry increases the geographic reach of investments
+within the industry.
+   Although we expect stronger experience effects when venture capitalists
+consider investments within the same industries as their prior investments,
+each of the aforementioned arguments could affect a VC firm’s invest-
+ments even outside of the industries in which it has accumulated expe-
+rience. For example, some aspects of monitoring require knowledge spe-
+cific to a particular industry, but others should apply generically to the
+monitoring of any business venture. Similarly, a portion of the evaluation
+of any entrepreneurial venture involves aspects of the business plan and
+the capabilities of the founding team not specific to any particular industry.
+Moreover, entrepreneurs at the target companies in which a venture cap-
+italist invests may forward referrals that extend beyond the industries in
+which they work. Therefore, we anticipate, venture capitalists with ex-
+tensive investment experience will more likely invest in both distant in-
+dustries and locations.
+   Target company stage.—The difficulty of opportunity appraisal and the
+importance of monitoring vary with the target company’s development
+stage. Evaluating extremely early-stage companies proves difficult be-
+cause they lack track records for making informed quality assessments.
+In contrast, venture capitalists can judge the quality of the management
+team in light of its performance on a number of different performance
+metrics in later stage companies. In addition to offering more data to
+inform the due diligence process, later stage companies might also require
+less intensive monitoring. As organizational routines and policies evolve
+and management becomes better established, new ventures typically op-
+erate with greater reliability (Stinchcombe 1965; Hannan and Freeman
+
+1558
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+1984). Both of these observations suggest, more mature target companies
+receive investments from geographically or industrially distant VC firms
+more ofen than early-stage ventures.
+   Syndicate networks in venture capital.—New ventures frequently ob-
+tain funding from syndicates of investors, implying that they receive fi-
+nancing from more than one VC firm, often garnering multiple investors
+even in the same financing round.7 Many factors justify this practice:
+syndicates diversify risk by enabling venture capitalists to invest smaller
+amounts in a greater number of companies (Wilson 1968), they mitigate
+the information asymmetries between the initial investor and later round
+investors (Admati and Pfleiderer 1994), and they leverage investment eval-
+uation skills across coalitions of firms (Sah and Stiglitz 1986; Lerner 1994).
+Lerner (1994) also suggests that syndication might allow venture capi-
+talists to “window dress” the results they present to their investors, which
+they accomplish by gaining late-stage access to “hot” firms even though
+much of the capital appreciation in these companies has already occurred.
+This allows venture capitalists to report that they funded star companies
+when they attempt to raise future pools of capital.
+   Regardless of the particular motives for syndicating investments, the
+frequent reliance on investment coalitions to fund target companies creates
+a dense interfirm network that expands the distance that information
+travels through the venture capital community. Each time a VC firm
+enters a syndicate, it develops new associations with, or strengthens ex-
+isting relations with, other VC organizations. Thus, the practice of syn-
+dication creates a network of relations within the VC community that
+structures the flow of information across market participants. Likewise,
+repeated transactions with previous syndicate partners build trust be-
+tween the focal venture capitalist and other VC organizations. As the
+relations between the reference firm and other members of the VC com-
+munity strengthen and broaden, so too does (a) the chance that the ref-
+erence venture capitalist will be invited to join future syndicates, and (b)
+the trust that it places in the monitoring and due diligence capabilities
+of fellow syndicate members. Thus, these connections enable a focal ven-
+ture capitalist to rely upon the opportunity recognition and monitoring
+capabilities of colleagues. We therefore expect: VC firms will more likely
+fund a spatially distant target if they have previously coinvested with
+another firm that invested in the target company.
+   From the venture capitalist’s vantage point, having a previous
+
+7
+  Syndicates financed slightly more than two-thirds of the 7,590 VC-backed firms in
+the data we analyze. The average target received investments from 5.3 venture cap-
+italists. Thus, the typical investment leads to an association between a reference venture
+capitalists and 4.3 other VC firms.
+
+                                                                                    1559
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+exchange partner in an investment syndicate increases the reference ven-
+ture capitalist’s probability of investing over a significant distance most
+when the exchange partner lies in close spatial proximity to the target. If
+a venture capitalist trusts another member in a syndicate and its well-
+regarded colleague resides near to the target, the venture capitalist can
+rely on the due diligence, monitoring, and advisory capabilities of its
+trusted partner.8 This suggests, VC firms will more likely fund a spatially
+distant target when a previous coinvestment partner belongs to the syn-
+dicate for the target and is located near to the target in geographic or
+industrial space.
+   Finally, the centrality of the venture capitalist’s position in the in-
+dustry’s coinvestment network could affect its sensitivity to target firm
+distance for several reasons. First, assuming that information about in-
+vestment opportunities flows through the ties in the syndication network,
+venture capitalists with large numbers of coinvestment relations with
+other organizations will have access to a significant amount of information
+about investment opportunities, particularly if they associate with other
+central actors (Bonacich 1987). This implies that central venture capitalists
+will be most aware of investment opportunities outside of their immediate
+geographic region and industrial foci. Second, centrally positioned actors
+enjoy high status because they occupy prominent structural positions in
+the community’s syndication network (Podolny 1993). High-status venture
+capitalists likely receive many invitations to join investment syndicates
+because of the legitimacy they confer on the VC firms and the targets
+with whom they associate (Freeman 1999). The visibility bestowed by
+high-status venture capitalists through the investment relation particu-
+larly benefits early-stage companies that lack a proven performance track
+record and a strong identity among potential investors (Stuart, Hoang,
+and Hybels 1999). Thus, we posit, VC firms centrally positioned in the
+VC community’s coinvestment network will more likely fund spatially
+distant targets.
+   To recapitulate, we begin our empirical analyses by establishing that
+VC firms typically invest locally. Then, we show that well-established
+and highly experienced venture capitalists exhibit more dispersed in-
+vestment patterns. Finally, we examine how the position of VC firms in
+the industry’s evolving coinvestment network affects the proclivity to
+invest in spatially distant targets.
+
+8
+  The frequent appearance of serial syndicate partners in the data (the same pairs of
+VC firms investing together in multiple transactions) suggests the operation of an active
+norm of reciprocity in the industry, in which venture capitalists build relationships by
+sharing high-quality deals with established exchange partners. It also suggests the need
+for studies that compare network extension strategies against relationship strengthening
+strategies.
+
+1560
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+EMPIRICAL STRATEGY
+Our analysis addresses the determinants of financing relations between
+venture capitalists and startup companies. In essence, the empirical com-
+ponent is a network study of tie formation; we model the probability that
+a particular VC firm invests in a given target company. Many studies of
+tie formation analyze every possible dyad and use logistic regression to
+estimate the effects of a covariate vector on the likelihood of a tie (e.g.,
+Podolny 1994; Gulati 1995; Stuart 1998). This strategy creates two prob-
+lems. Methodologically, it does not correctly account for nonindependence
+across cases, as each firm enters the analysis many, many times.9 The
+large number of repeat occurrences of each firm can lead to systematic
+underestimation of the standard errors for firm attributes that do not
+change from dyad to dyad. Pragmatically, this strategy presents a second
+obstacle; the observation of all possible dyads can prove burdensome
+computationally, especially for large networks. For example, consideration
+of all potential dyads in our data would require us to create a matrix
+with more than 6 million cells. Since many of our variables require cell
+# cell calculation, this would result in a nearly hundredfold increase in
+the time required for variable construction.
+   Sampling randomly from the set of potential VC-target dyads offers
+one potential solution to these issues. Nevertheless, this approach falls
+short of the ideal because it ignores the fact that the realized ties provide
+most of the information for the estimation of the factors that affect tie
+likelihood (Coslett 1981; Imbens 1992; Lancaster and Imbens 1996). Thus,
+we include all cases of funding relations that actually appear in the data.
+For comparison, we then create a matched sample of potential ties that
+did not occur. To control for temporal variation in the supply of and
+demand for venture capital, we create the matched sample by pairing
+each VC firm that funded a startup in a given quarter of a calendar year
+with a startup funded by a different venture capitalist in that same quar-
+ter.10 This approach substantially reduces the problems associated with
+multiple firm observations; the average VC firm now enters the analyzed
+data matrix 78 times, as opposed to more than 6,000 times in the matrix
+of all potential funding relations. To address the fact that venture capi-
+talists enter the data more than once, we report robust standard errors
+
+
+9
+  Doreian (1981), Lincoln (1984), Krackhardt (1988), and Mizruchi (1989) discuss var-
+ious approaches for addressing the nonindependence problem.
+10
+   Using target firms that received funding from different venture capital organizations
+as the sampling frame for the comparison set eliminates the issue of potential quality
+differences between the funding relationships that exist and those that never materi-
+alize, as all target companies in the data (by definition of the sampling criterion) pass
+the quality threshold necessary to receive venture funding.
+
+                                                                                   1561
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+estimated without the assumption of independence across observations
+on the same VC firm.
+   The use of a matched sample introduces one new problem. Logistic
+regression can yield biased estimates when the proportion of positive
+outcomes in the sample does not match the proportion of positive out-
+comes in the population. Because logistic regression is a multiplicative
+model, this bias does not simply affect the intercept term. Rather, bias
+can affect all coefficient estimates. In particular, uncorrected logistic re-
+gression using a matched sample tends to produce underestimates of the
+factors that predict a positive outcome (King and Zeng 2001). Large sam-
+ples do not necessarily alleviate this problem. To correct for this potential
+bias, we adjust the coefficient estimates using the method proposed by
+King and Zeng (2001) for the logistic regression of rare events.
+   The traditional logistic regression model considers the dichotomous out-
+come variable to be a Bernoulli probability function that takes a value
+“1” with the probability p:
+
+                                              1
+                                    pi p              ,
+                                           1 ⫹ e⫺Xi b
+
+where X is a vector of covariates and b is a vector of parameters. Re-
+searchers typically use maximum-likelihood methods to estimate b. King
+and Zeng (2001) prove that the following weighted least squares expres-
+sion estimates the bias in b generated by oversampling rare events:
+
+                                 ˆ p (X WX)⫺1X Wy,
+                            bias(b)
+
+where y p 0.5Qii [(1 ⫹ w1 )pˆ i ⫺ w1 ], the Q are the diagonal elements of
+Q p X(X WX)⫺1X , W p diag{pˆ i (1 ⫺ pˆ i )wi }, and w1 represents the fraction
+of ones (events) in the sample relative to the fraction in the population.
+Essentially, the user regresses the independent variables on the residuals
+using W as the weighting factor. Tomz implements this method in the
+relogit Stata procedure.11
+
+
+Data Sources
+Using the Venture Economics database from the Securities Data Cor-
+poration (SDC), we developed a comprehensive data set of venture capital
+
+
+
+11
+   See Michael Tomz’s “Relogit: Rare Events Logistic Regression” for the Stata ado
+file. Posted October 1999 at http://gking.harvard.edu/stats.html.
+
+1562
+
+
+
+
+                              This content downloaded from
+            193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                      All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+investments from 1986 to 1998.12 This database purports to record all VC
+firm investments in domestic, private companies. Because each venture
+capitalist’s investment in a target generates a unique record in the da-
+tabase, we know the full history of VC investments in each target. Using
+this information, we create a matched sample by randomly pairing each
+VC firm that made an investment in a particular quarter with a target
+company that it did not fund (i.e. we create a potential but unrealized
+dyad). The matched sample includes 80,406 cases involving 1,025 VC
+firms and 7,590 target companies. Although exactly 50% of the cases form
+investment ties, the population as a whole actually realizes ties in 0.72%
+of the potential dyads.
+   From these numbers, one can readily see that each target company
+enters the data more than once. Three factors explain this fact. First, the
+method used for creating the matched sample implies that, on average,
+a target enters the data twice for each VC investment it actually receives.
+Second, most target companies experience more than one financing event
+because venture-backed companies typically receive funding in a sequence
+of capital infusions, known as “rounds.” Each time a company undergoes
+a financing round, venture capitalists subject it to a thorough evaluation.
+Typically, venture capitalists provide small amounts of funding in early
+rounds because they prefer not to make large financial commitments to
+young companies about which they lack a sufficient understanding of
+quality (Gompers 1995). As they learn more about the company, venture
+capitalists then decide to terminate, maintain, or increase their funding
+level. Finally, for the reasons noted above, many startups receive financing
+through syndicates. As a result, each target enters the data an average of
+10.6 times.
+
+
+Independent Variables
+   Geographic distance.—We measure geographic distance by calculating
+the number of miles between the venture capitalist’s main office and the
+location of the target company.13 Practically, we calculate this measure by
+12
+   SDC’s new ventures database reports venture capital investments dating back to
+the early 1970s. However, we must allow for the passage of time to observe the buildup
+of the syndication networks. Thus, we restrict the cases analyzed to the period from
+1986 to 1998, though we use all information in the database to construct the inde-
+pendent variables.
+13
+   Unfortunately, our data sources do not include information on when or if VC firms
+open satellite offices. Therefore, in some instances—when the VC firm has a second
+office nearer to the target than its head office—the distance that we compute under-
+estimates the actual distance between the VC firm and target. The exclusion of this
+information should add measurement error, making our tests of geographic effects less
+precise.
+
+                                                                                1563
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+
+
+
+   Fig. 1.—Geographic distance spline: the dotted line shows a 20-piece linear spline of the
+likelihood of investment, while the solid line displays the implied relationship of the logged
+functional form.
+
+
+assigning the longitude and latitude at the center of the zip code in which
+they reside to both venture capitalists and targets. Using spherical ge-
+ometry, we calculate the distance between the two points, i and j, as
+                dij p C {arccos [sin (lat i ) sin (latj )
+
+                       ⫹ cos (lat i ) cos (lat j ) cos (Flong i ⫺ long jF)]},
+where latitude (lat) and longitude (long) are measured in radians and C
+represents a constant based on the radius of the sphere that converts the
+result into linear units of measure. To convert the result to miles on the
+surface of the Earth, we use C p 3,437.14
+   In the models, we log geographic distance to account for the fact that
+transportation costs, both in terms of time and money, do not increase
+linearly over geographic space. Rather, as distance increases, actors sub-
+stitute technologies to improve the efficiency of transportation and com-
+munication. For example, a person will drive to visit someone 30 miles
+away, but he or she will fly to see a contact 3,000 miles away. Since this
+specification imposes a strict functional form on the relationship between
+distance and tie formation, we fit a spline to the data to check the validity
+of this assumption. Figure 1 presents the predicted relationship between
+
+14
+   The scaling (i.e., miles vs. tens of miles vs. kilometers) matters only to calibrate the
+relative importance of being located within the same zip code vs. being located in a
+neighboring zip code (Sorenson and Audia 2000).
+
+1564
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+geographic distance and tie likelihood using both the natural log of dis-
+tance and a 20-piece linear spline.15 The logged functional form fits the
+relationship between distance and investment likelihood quite well. Nev-
+ertheless, the graph appears to show two deviations between the para-
+metric and nonparametric estimates. First, the logged functional form
+declines somewhat more rapidly over the first 60 miles than the actual
+relationship between distance and financing. Presumably, at such short
+distances, little opportunity exists for technology substitution. Thus, trans-
+port costs should relate linearly to distance over this short span. Second,
+the data show a slight bicoastal effect. We believe that the distribution
+of VC firms explains this effect and will elaborate on this contention when
+discussing the results.
+   Industry distance.—In addition to the factors that impact VC firms’
+investments in geographically distant targets, we also explore the deter-
+minants of the “industry distance” between venture capitalists and targets.
+Because entrepreneurs at previously funded startups and contacts gen-
+erated from working in an industry represent important sources for the
+identification of new investment opportunities, industry represents an-
+other dimension that delimits the flow of information. Moreover, venture
+capitalists typically perform due diligence and monitoring more expedi-
+tiously and successfully when they have prior investment experience in
+the target’s industry. To minimize assumptions, we define industry dis-
+tance as the similarity between the industry profile of the venture capi-
+talist’s prior investments and industry of the target firm. Ideally, this
+measure would weight actual differences in the production processes and
+market dynamics of different industries to capture the transferability of
+knowledge across domains, but the construction of any such measure
+would require a host of arbitrary assumptions. To avoid such suppositions,
+we opt to define industry distance as the percentage of previous invest-
+ments that the venture capitalist has made in industries other than the
+one in which the target firm operates:
+                                                           冘p
+                                                          pnm
+                             industry distanceij p
+                                                           冘p ,
+where i indexes VC firms, m denotes the industry of the startup j, and p
+represents an array of all prior investments in any industry. Thus, industry
+distance ranges from “0,” when all of a venture capitalist’s prior invest-
+ments fall in the target’s industry, to “1,” when the venture capitalist has
+no previous investments in the target’s industry. In assigning firms to
+
+15
+   We split the data into 20 equal proportion pieces. Thus, each of the 20 pieces rep-
+resents 5% of the total cases.
+
+                                                                                1565
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+industries, we use the Venture Economics one-digit industry taxonomy
+(this eight-category classification scheme divides firms into the following
+industries: biotechnology, computers, communication, consumer, energy,
+industrial, medical, and other).
+   Firm age.—To measure changes in investment patterns as venture cap-
+italists mature, we calculate an age term based on the number of years
+from the VC firm’s founding date to the quarter of the investment. The
+Venture Economics database lacks valid founding dates for VC firms in
+6% of the cases. To avoid dropping these cases from the analysis, we
+assign a founding date to these firms of one year prior to the first in-
+vestment recorded by SDC.16
+   Experience.—Two variables capture the effects of experience in fi-
+nancing. General experience counts the number of companies in which
+the venture capitalist has invested prior to the current quarter. Industry
+experience tallies the number of startups in the same industry as the target
+in which the venture capitalist has invested previously.
+   Network position.—We compute three variables to capture different
+aspects of a firm’s position in the network linking venture capitalists
+through previous, joint (syndicated) investments in startups. One can
+construe this syndication network as an actor-event network; venture
+capitalists intersect in the target “event” when more than one VC firm
+contributes funding to the same target. The syndicated investment thus
+provides the precipitating event leading to interaction among the venture
+capitalists that jointly finance a target.
+   The first variable gauges the degree to which the reference VC organ-
+ization has an established relationship with the other VC firms that have
+also invested in the target. To construct this variable, we first create a
+count of the number of startups in which the focal VC firm has coinvested
+with each of the other VC investors in the target. Then, we average this
+score across all other investors in the target. The equation defines mean
+affiliation for VC firm i in investment target j:
+                                                  冘冘 x x x x
+                                                   k   p
+                                                           ij   kj   ip   kp
+                      mean affiliation ij p
+                                                      冘x   k
+                                                             ,
+                                                                kj
+
+
+
+where k indexes all VC firms other than i, p indexes all previous invest-
+ment rounds in all target companies, and x takes the value of one when
+an investing relation exists and zero when it does not. The resulting
+
+16
+   An analysis of all firms with valid founding dates revealed that the first investment
+occurred 366 days after the founding of the VC firm, on average. We also ran all
+models excluding cases that lack valid founding dates. Excluding these cases does not
+qualitatively change the results.
+
+1566
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                      Distribution of Venture Capital
+
+quantity captures the average strength of relations between the focal ven-
+ture capitalist and the other members of the investment syndicate for a
+particular target.17
+   The second variable, affiliate distance, captures the possibility that ven-
+ture capitalists might feel that their trusted colleagues can successfully
+monitor and evaluate investments only when they lie close to the target.
+We create two variables to capture the distance between the target firm
+and the closest trusted affiliate in the investment syndicate. First, we create
+a variable that records the geographic distance of the closest syndicate
+partner to the target with whom the reference VC firm has previously
+coinvested. Using the inverse of this distance measure allows us to assign
+a “0” to investment options where the venture capitalist does not have a
+prior affiliate invested in the target.18 For firm i’s consideration of target
+j, this measure can be defined as follows:
+                                                           1
+                            affiliate distanceij p                ,
+                                                        min (dkj)
+where d is the distance metric between venture capitalist k and the target
+j when xij p 1 and 冘 xij xjk xip xkp 1 0, where x again denotes the existence
+                     j
+of a relationship between two actors. Second, we generate a parallel mea-
+sure to capture the industry distance of the closest prior affiliate in the
+syndicate. This measure has a natural upper bound of one, so we do not
+need to invert it. For firm i’s consideration of target j, this measure can
+be defined as follows:
+                            affiliate distanceij p min (dkj) ,
+where d is the distance metric between venture capitalist k and the target
+j when xij p 1 and 冘 xij xjk xip xkp 1 0, where x again denotes the existence
+                     j
+of a relationship between two actors.
+
+17
+   This measure assumes the average strength of the relation between a reference
+venture capitalist and the other syndicate members to be important, but several rea-
+sonable variants of this measure exist. For example, the sum of prior coinvestment
+events captures the degree to which having multiple trusted partners matters. Likewise,
+the maximum number of times the reference venture capitalist has coinvested with
+another member of the syndicate measures the degree to which the one most trusted
+partner influences investment patterns. We constructed these alternative specifications.
+Since the variables correlate highly and all produce the same pattern of effects in the
+models, we only report results using average relationship strength.
+18
+   Without inverting the affiliate distance measure, nonexistent affiliates (i.e., when
+there is no k in the syndicate for target j with whom VC firm i has a previous
+relationship) should lie infinitely distant from the target. Practically, this would require
+us to assign some arbitrary large number to these cases. Thus, we invert the measure
+to eliminate the possibility that an arbitrary assumption in the coding of these cases
+generates the effects.
+
+                                                                                      1567
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+  The third variable, centrality, captures the reach of a focal venture
+capitalist’s information network. We compute the centrality of each ven-
+ture capitalist in the syndication network as a measure of the information
+gathering capability of the focal venture capitalist. Because ties to actors
+who occupy central positions themselves increase the reach of a venture
+capitalist’s network more than ties to peripheral players, we compute
+Bonacich’s (1987) two-parameter centrality measure:
+
+                               ci (a,b) p   冘(
+                                             n
+
+
+                                            kp1
+                                                  a ⫹ bck) rik ,
+
+where c is the centrality score, r indicates a relationship (coinvestment)
+between i and k, a scales the measure, and b weights alters’ centralities.
+When the parameter b takes a positive value (as in the present case), each
+venture capitalist’s centrality increases as a function of the centralities of
+the VC firms with which it shares coinvestment ties (when b p 0 , Bon-
+acich’s centrality measure correlates perfectly with the variable we label
+“general experience”). We assume that information travels between VC
+firms and, therefore, the amount of information available to the reference
+firm increases as a function of the centralities of those with whom it shares
+relations. In other words, ties to central firms increase the radius of the
+reference firm’s information network. Practically, one solves for centrality
+scores by taking the eigenvector associated with the largest eigenvalue of
+the relationship matrix. Since the designation of b is arbitrary, we follow
+the example of earlier researchers and set it equal to three-quarters of the
+reciprocal of the largest eigenvalue (e.g., Podolny 1993). To allow com-
+parison across networks of different size, we set a such that the mean
+centrality score in each period equals “1” (Bonacich 1987).19
+   Because we wish to document the factors that alter the spatial range
+of investments, we interact the measures of VC age, experience, and net-
+work position with the industry and geographic distance between VC firm
+and target in the models of the probability of an investment. Although
+our primary interest lies in the direction of the effects on the interaction
+terms, we must include the main effects of all the variables to adjust for
+the impact those factors might have on the intercept (Greene 1993).
+
+
+19
+  The parameter a is set so that the mean centrality score across all venture capitalists
+is “1,” but the mean value of the centrality measure in the analyzed dataset exceeds
+one because the highly central venture capitalists do more deals on average than do
+the less central players. Also, we use all coinvestment relations in the preceding five
+years to form the relationship matrix used to compute Bonacich centrality. By only
+using five years of coinvestment data, we allow for the fact that relationships erode
+over time. If two firms have not coinvested within a five-year period, it seems unlikely
+that their members remain close confidants.
+
+1568
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+Control Variables
+    Prior investment.—For a variety of reasons, venture capitalists tend
+to continue to invest in companies in which they already own equity.
+Bergemann and Hege (1998) argue that maintaining a constant proportion
+of equity provides an optimal solution to the agency problems in the VC-
+target relationship. Thus, one might expect rational firms to participate
+in all subsequent financing rounds to preserve their investment level.
+Psychological forces could also compel venture capitalists to invest re-
+peatedly. Prior investments represent a commitment to the target com-
+pany, and as Staw (1976) shows in a similar context, an unwillingness to
+act upon negative information can result in an escalation of the VC firm’s
+commitment to the target. To control for these factors, we include a
+dummy variable that indicates whether the venture capitalist has pre-
+viously invested in the target.20
+   Investment stage.—The forces that drive venture capitalists to make
+local investments may operate most strongly in early investment rounds.
+The earlier the developmental stage of the company, the shorter the track
+record of the new venture and the less information available to potential
+investors to assess the startup’s quality. Thus, monitoring and network-
+based evaluation strategies might be more important early in the target’s
+life. We create a dummy variable that indicates whether Venture Eco-
+nomics classified the investment as an early stage.21
+   Supply of active venture capitalists.—Figures 2 and 3 display the lo-
+cation of all active VC firms and active targets in the United States in
+1998. Since neither VC firms nor targets distribute evenly across regions
+or industries in the United States, the local supply of potential investors
+and investment opportunities varies tremendously both by region and
+market. We construct two control variables to control for this heteroge-
+neity. The first variable measures the richness of the local supply of ven-
+ture capital with respect to a focal target firm. We create a localized
+venture capital density, vcdens, for target j at time t, which we calculate
+using the following equation:
+
+
+20
+   The social psychological reasons for continuing investment seem to imply that the
+likelihood of future investment should increase with the number of prior investment
+rounds. To test this possibility, we also tried including a second term for the number
+of prior investments beyond the first. This count did not significantly affect the like-
+lihood of investment in any of the models.
+21
+   We defined the following financing types as early-stage investments: early stage, first
+stage, other early, R&D early stage, seed, and startup. We also generated a second
+dummy variable that indicated whether the investment was the first round of funding
+for a particular company recorded by SDC. The results behave similarly, so we only
+report the models using the early-stage dummy variable.
+
+                                                                                    1569
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+
+
+
+   Fig. 2.—Geographic distribution of venture capital investments. Larger circles (propor-
+tionate to the square root of the number of target companies in a zip code) indicate the
+presence of more targets.
+
+
+
+                                vcdensjt p     冘( v )
+                                                   i
+                                                          cit
+                                                       1 ⫹ dij
+                                                               ,
+
+where i indexes all venture capital organizations, vc is the number of
+investments that firm i made in period t, and dij is the distance between
+target j and venture capitalist i. This variable sums the inverse distances
+between target j and all active VC firms (see Sorenson and Audia [2000]
+for a more lengthy discussion of geographically weighted density varia-
+bles). The analogous variable for the industry-specific supply of venture
+capital simply sums the proportion of VC investments in the target’s
+industry prior to the current period:
+                   vcinddensjt p      冘(i
+                                            1 ⫺ industry distanceij) ,
+
+where i indexes all venture capital organizations.
+   Supply of active targets.—We construct parallel measures to capture
+heterogeneity in the demand for venture capital across regions and in-
+dustries. We calculate a localized target density, tdens, around any VC
+firm i at time t using the following equation:
+
+                                tdensit p     冘(
+                                               i
+                                                         fjt
+                                                       1 ⫹ dij)
+                                                                ,
+
+where j indexes all targets, f takes a value of “1” if firm j received financing
+in period t or “0” otherwise, and dij denotes the distance between the
+venture capitalist i and the target j. This variable sums the inverse dis-
+tances between VC firm i and all active targets. The complementary
+measure for variation in industry-specific demand for venture capital
+
+1570
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                       Distribution of Venture Capital
+
+
+
+
+   Fig. 3.—Geographic distribution of VC firms. Larger diamonds (proportionate to the
+square root of the number of venture capitalists in a zip code) indicate the presence of a
+larger number of venture capitalists.
+
+weights, from the standpoint of a focal VC firm i, the number of active
+targets in each industry according to i’s past industry investment profile:
+
+
+                                tinddensit p      冘m
+                                                       rm Nm ,
+
+where r denotes the proportion of venture capitalist i’s prior investments
+in industry m and N represents a count of targets in the current quarter
+in industry m.
+   Prior state experience.—Venture capitalists may develop new relation-
+ships in a geographic region when they invest in companies in it. If this
+occurs, then an initial investment in a locale should increase the likelihood
+of subsequent investment. We operationalize this idea by including a
+variable that indicates whether the venture capitalist has previously in-
+vested in the same state as the target. To avoid simply picking up prox-
+imity to the venture capitalist’s office, we also include a dummy variable
+that marks whether the target lies in the same state as the venture cap-
+italist. The parallel term for industry distance would essentially dichot-
+omize the industry experience variable, so we do not need to include an
+additional measure in the industry distance models to capture this effect.
+(Table 1 provides the means and standard deviations of all variables used
+in the analysis.)
+
+
+RESULTS
+Table 2 reports the results of the rare events logit models for geographic
+distance. Model 1 provides baseline estimates of the probability of a tie
+
+                                                                                    1571
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+                                                              TABLE 1
+                                                        Descriptive Statistics
+
+                                      Variable                                             Mean      SD
+       VC density . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               .58      .23
+       Target density . . . . . . . . . . . . . . . . . . . . . . . . . . .                   .81      .35
+       VC industry density . . . . . . . . . . . . . . . . . . . . .                        36.19    29.57
+       Target industry density . . . . . . . . . . . . . . . . .                            61.81    38.93
+       Early stage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              .15      .35
+       Prior . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      .28      .45
+       ln (distance) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             5.75     2.06
+       Industry distance . . . . . . . . . . . . . . . . . . . . . . . .                      .77      .24
+       VC age . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         12.64     9.21
+       General experience . . . . . . . . . . . . . . . . . . . . . .                      162.53   211.24
+       Industry experience . . . . . . . . . . . . . . . . . . . . .                        34.77    63.36
+       Mean affiliation . . . . . . . . . . . . . . . . . . . . . . . . .                    4.89     6.35
+       Bonacich power . . . . . . . . . . . . . . . . . . . . . . . . .                      1.28     1.83
+       min (affiliate geographical distance) . . .                                            .37      .42
+       min (affiliate industy distance) . . . . . . . . .                                     .37      .34
+       Same state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               .28      .45
+       Prior state experience dummy . . . . . . . . .                                         .75      .44
+
+
+
+
+using the local density of VC firms around a target (VC density), the local
+density of active targets around a venture capitalist (target density),
+dummy variables indicating whether the target represents an early-stage
+investment and whether the venture capitalist has made a prior invest-
+ment in the target, the measures of the geographic and industry distance
+separating the venture capitalist from the target, and an interaction be-
+tween the early-stage dummy and the distance of the venture capitalist
+from the target. Consistent with the baseline expectation, the coefficients
+on the two distance variables indicate sharply lower investment proba-
+bilities as the distance between the VC firm and target increases; the
+likelihood that a venture capitalist invests in a target drops sharply as
+the target recedes from the venture capitalist in either geographic or in-
+dustrial space. Thus, the main effect of distance operates as expected.
+The coefficient on the investment stage # distance interaction term sug-
+gests that, as we anticipated, geographic distance reduces the likelihood
+of investment even more precipitously if the focal target is at the seed or
+startup stage. Not surprisingly, the baseline also shows that the probability
+of an investment increases substantially if a venture capitalist has invested
+in the target in a previous round.
+   Model 2 adds the age of the venture capitalist and an interaction term
+between VC age and the geographic distance between venture capitalist
+
+1572
+
+
+
+
+                                   This content downloaded from
+                 193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                           All use subject to https://about.jstor.org/terms
+                                                      Distribution of Venture Capital
+
+and target.22 The positive and significant coefficient on the age # distance
+interaction term suggests that older venture capitalists more frequently
+make investments in geographically distant targets; the magnitude of the
+negative effect of distance on the probability of investment declines with
+the age of the venture capitalist. Thus, the geographic scope of investment
+activities increases with tenure in the industry. In model 3, we begin to
+disentangle the concurrent processes that lie behind the age-distance in-
+teraction by adding the experience variables. The interactions between
+the two VC firm experience variables and the geographic distance between
+the target and venture capitalist both increase tie likelihood, demonstrat-
+ing that the negative effect of distance on the probability of an investment
+attenuates with experience. Model 3 shows that general investing expe-
+rience captures a larger share of the influence of the maturation process
+on the spatial reach of investments than does industry-specific experience.
+Contrary to our expectation, general investment experience extends the
+geographic scope of investment more substantially than past investment
+experience in the target’s industry.23
+   Model 4 incorporates the network-based measures derived from the
+quarterly coinvestment matrices. After the regressions account for inter-
+actions between distance with (a) the strength of the relationship between
+a reference VC firm and the other members of the investment syndicate
+in a target and (b) the centrality of the VC firm in the coinvestment
+network, the interactions between distance and the age and experience
+variables no longer significantly affect the likelihood of investment. Thus,
+experience primarily influences the geographic scope of investing through
+the development of one’s network through syndication; general experience
+proxies well for the development of a venture capitalist’s network, but
+
+22
+   Because of the matched sample methodology, caution should be exercised when
+interpreting the main effects of VC firm attributes (as opposed to dyadic properties)
+on the probability of a tie. For example, it appears in model 3 that the probability
+that a venture capitalist will make an investment in a target declines with experience.
+Since the probability of an investment remains relatively constant in each year of the
+data, variables such as age and experience that increase over time will appear to have
+negative effects on the probability of a tie. These terms should primarily be understood
+as intercepts for the interaction effects. In fact, in unreported models in which we
+include dummy variables for every calendar quarter, the reported results remain un-
+changed and most of the main effects fall to zero.
+23
+   The strong general experience interaction might stem from its relationship to the
+size of the VC firm (past deal count, which is the measure of general experience, also
+happens to provide the best measure of VC firm size available to us). As we noted
+above, in some instances—when the VC firm has a second office nearer to the target
+than its head office—our measure of geographic distance underestimates the actual
+distance between the VC firm and target since we do not know the location(s) of
+satellite offices. Assuming that larger firms more likely have satellite offices, this might
+explain the greater tendency of more experienced firms to invest in distant targets.
+
+                                                                                      1573
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+                  This content downloaded from
+                                                                                                                                                                       TABLE 2
+                                                                                                                                               Rare Event Logit Models of Geographic Scope Determinants
+
+                                                                                                  Variable                                            Model 1       Model 2       Model 3       Model 4       Model 5       Model 6
+                                                                                                                                                      ⫺47.79**      ⫺64.90**      ⫺72.45**      ⫺37.54**      ⫺30.49**       ⫺2.303**
+
+
+
+193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                                                                    Intercept . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                                                                                                                                       (17.32)       (17.32)       (14.99)       (15.29)       (15.63)         (.2034)
+                                                                    VC density . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                .0963         .0296       ⫺.2045        ⫺.3119        ⫺.3349*       ⫺.3955*
+                                                                                                                                                         (.1928)       (.1740)       (.1563)       (.1611)       (.1588)       (.1605)
+                                                             1574   Target density . . . . . . . . . . . . . . . . . . . . . . . . . .                  ⫺.5858**      ⫺.5109**      ⫺.3682**      ⫺.3972**      ⫺.4202**      ⫺.4690**
+                                                                                                                                                         (.1529)       (.1378)       (.1245)       (.1216)       (.1224)       (.1286)
+                                                                    Early stage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               .4391**       .4317**       .3808**       .3661**       .4065**       .4217**
+
+
+
+          All use subject to https://about.jstor.org/terms
+                                                                                                                                                         (.0594)       (.0600)       (.0620)       (.0593)       (.0570)       (.0573)
+                                                                    Prior . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      4.017**       4.057**       4.299**       4.512**       4.370**      4.247**
+                                                                                                                                                         (.0936)       (.0865)       (.0866)       (.0685)       (.0662)       (.0660)
+                                                                    VC age . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        ⫺.0475**        .0143         .0002       ⫺.0007        ⫺.0009
+                                                                                                                                                                       (.0151)       (.0086)       (.0095)       (.0093)       (.0089)
+                                                                    General experience . . . . . . . . . . . . . . . . . . . . .                                                    ⫺.0031**        .0013         .0013         .0014
+                                                                                                                                                                                     (.0007)       (.0007)       (.0008)       (.0008)
+                                                                    Industry experience . . . . . . . . . . . . . . . . . . . .                                                     ⫺.0058**      ⫺.0041*       ⫺.0039*       ⫺.0038*
+                                                                                                                                                                                     (.0020)       (.0020)       (.0019)       (.0018)
+                                                                    Mean affiliation . . . . . . . . . . . . . . . . . . . . . . . . .                                                            ⫺.1245**      ⫺.1244**      ⫺.1162**
+                                                                                                                                                                                                   (.0203)       (.0201)       (.0192)
+                                                                    Bonacich power . . . . . . . . . . . . . . . . . . . . . . . .                                                                ⫺.2974**      ⫺.2997**      ⫺.3088**
+                                                                                                                                                                                                   (.0586)       (.0559)       (.0545)
+                                                                    ln (distance) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    ⫺.1563**         ⫺.2313**          ⫺.2375**          ⫺.2927**          ⫺.2756**         ⫺.2685**
+                                                                                                                                                (.0179)          (.0297)           (.0230)           (.0247)           (.0244)          (.0257)
+                                                                    Industry distance . . . . . . . . . . . . . . . . . . . . . . .           ⫺1.076**         ⫺1.018**          ⫺1.157**          ⫺1.084**           ⫺.9830**        ⫺1.083**
+                                                                                                                                                (.1089)          (.1136)           (.0802)           (.0835)           (.0827)          (.0879)
+                                                                    VC age # ln(distance) . . . . . . . . . . . . . . . . .                                       .0057**         ⫺.0011              .0006             .0008            .0007
+
+
+
+
+                  This content downloaded from
+                                                                                                                                                                 (.0019)           (.0012)           (.0015)           (.0014)          (.0014)
+                                                                    General experience # ln(distance) . . . .                                                                       .0003**         ⫺.0002            ⫺.0002           ⫺.0002
+                                                                                                                                                                                   (.0001)           (.0002)           (.0002)          (.0001)
+                                                                    Industry experience # ln(distance) . . .                                                                        .0005             .0003             .0003            .0003
+                                                                                                                                                                                   (.0003)           (.0003)           (.0003)          (.0002)
+                                                                    Mean affiliation # ln(distance) . . . . . . .                                                                                     .0120**           .0123**          .0111**
+
+
+
+
+193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                                                                                                                                                                                                     (.0033)           (.0035)          (.0032)
+                                                                    Bonacich power # ln(distance) . . . . . . .                                                                                       .0307**           .0282**          .0270**
+                                                                                                                                                                                                     (.0077)           (.0075)          (.0074)
+                                                                    min (affiliate distance) . . . . . . . . . . . . . . . . .                                                                                        ⫺.1361**         ⫺.1413**
+                                                             1575                                                                                                                                                      (.0138)          (.0143)
+                                                                    Same state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                                             ⫺.1040
+
+
+
+
+          All use subject to https://about.jstor.org/terms
+                                                                                                                                                                                                                                        (.0957)
+                                                                    Prior state experience . . . . . . . . . . . . . . . . . .                                                                                                           .5022**
+                                                                                                                                                                                                                                        (.0470)
+                                                                    Log likelihood . . . . . . . . . . . . . . . . . . . . . . . . . . ⫺35,881.01         ⫺35,863.83        ⫺35,590.63        ⫺35,231.96        ⫺35,214.84        ⫺35,086.46
+                                                                                                                                                               34.36 (2)        546.4 (4)         717.3 (4)          34.2 (1)         256.8 (2)
+                                                                       Note.—The models are based on matched sample analysis of 40,203 realized ties.
+                                                                       * P ! .05.
+                                                                       ** P ! .01.
+American Journal of Sociology
+
+
+
+
+  Fig. 4.—Investment likelihood by centrality and distance. The solid line indicates the
+impact of distance on the probability of investment for a venture capitalist of average
+centrality, whereas the dotted lines depict the importance of distance for venture capitalists
+1 SD above and below the mean centrality level.
+
+
+has no net effect when we directly include the network-based variables
+in the models. The interactions in model 4 indicate that a venture capitalist
+more likely invests in a far off target when it has previously co-invested
+with other members of the syndicate financing that target. At a minimum,
+having other trusted partners in a syndicate augments a venture capi-
+talist’s confidence in the quality of a deal.
+   The coefficient on the Bonacich centrality # distance interaction in
+model 4 demonstrates a substantial increase in the geographic range of
+investments among central VC firms. Thus, model 4 reveals that increas-
+ing geographic distance has less of a negative effect on the probability of
+a tie for highly central VC firms. Figure 4 depicts the relationship between
+centrality, geographic distance, and the likelihood that a venture capitalist
+invests in a target. The figure clearly illustrates that the decline in the
+probability of an investment as geographic distance increases is sharpest
+among peripheral (i.e., noncentral) firms. As we discuss in more detail
+below, this finding may stem from either central VC firms’ ability to learn
+about distant targets from their relatively dispersed network or the higher
+status and visibility of central VC firms, leading other venture capitalists
+and entrepreneurs with attractive business plans to seek these same firms
+out for investments.
+   Model 5 further demonstrates the importance of the composition of the
+
+1576
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+                                                   Distribution of Venture Capital
+
+syndicate for explaining spatial investment patterns. This model includes
+a separate term that represents the inverse of the geographic distance
+between a “trusted” member of a syndicate and the target, where a pre-
+vious coinvestment relation between the venture capitalist in a dyad and
+another member of the syndicate indicates trust. Thus, this variable mea-
+sures the distance between the target and the closest member of the syn-
+dicate with whom the reference venture capitalist has an established re-
+lationship. The results demonstrate that the probability of an investment
+decreases sharply when the closest member of the syndicate with whom
+the venture capitalist has prior experience recedes from the target (recall
+that this variable codes the inverse distance, so an increase in the variable
+implies a decline in the distance between the trusted syndicate member
+and the target). Thus, the likelihood of a reference venture capitalist
+entering a deal increases considerably when it has a trusted colleague both
+in the syndicate and geographically near to the target. We believe that
+venture capitalists’ willingness to rely on the monitoring and advisory
+capabilities of other VC firms when they know them explains this result.
+Hence, VC firms appear to utilize trusted colleagues to identify, screen,
+and monitor potential investments in distant locations.
+   The final model in table 2—model 6—introduces two variables: a prior
+state experience dummy (an indicator of whether VC firm i has previously
+invested in the same state as target j) and a dummy indicating whether
+the VC firm and target are located in the same state. We include these
+measures to capture unobserved heterogeneity in VC firms’ geographic
+investment patterns. Not surprisingly, the results show that the likelihood
+of a venture capitalist’s funding a company in a state increases when the
+venture capitalist has previously funded a firm in the state. As the inclu-
+sion of the same state variable shows, location in the same state as the
+venture capitalist does not improve the likelihood of investment beyond
+the effects of geographic distance, thereby increasing our confidence in
+the specification of distance. Moreover, the inclusion of these control var-
+iables does not affect any of the coefficients of substantive interest.
+   Table 3 reports the estimates for the models using “industry distance”
+as the measure of distance between the VC firm and target in each dyad.
+Here, we report the same series of distance # age, experience, and net-
+work position interactions, but define distance in terms of the dissimilarity
+of the venture capitalist’s industry investment profile from the industry
+of the target. Model 7 in this table forms the baseline and differs from
+model 1 in table 2 only in that it controls for heterogeneity in the supply
+of venture capital and of targets by industry, rather than by geography.
+Model 8 enters the VC age variable and an interaction between age and
+industry distance. Once again, the positive coefficient on the age # dis-
+tance interaction in the regressions shows that the negative effect of in-
+
+                                                                             1577
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                  This content downloaded from
+                                                                                                                                                             TABLE 3
+                                                                                                                                       Rare Event Logit Models of Industry Scope Determinants
+
+                                                                                                         Variable                                                   Model 7       Model 8       Model 9       Model 10      Model 11
+                                                                                                                                                                    ⫺21.69        ⫺36.19**      ⫺54.68**      ⫺26.70         ⫺7.735
+
+
+
+193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                                                                    Intercept . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                                                                                                                                                     (16.93)       (17.50)       (15.54)       (16.09)       (15.62)
+                                                                    VC industry density . . . . . . . . . . . . . . . . . . . . . . . . . .                             .0080**       .0069**       .0030       ⫺.0003          .0012
+                                                                                                                                                                       (.0024)       (.0024)       (.0023)       (.0022)       (.0021)
+                                                             1578   Target industry density . . . . . . . . . . . . . . . . . . . . . . .                             ⫺.0060**      ⫺.0052**      ⫺.0031**      ⫺.0018        ⫺.0031
+                                                                                                                                                                       (.0012)       (.0012)       (.0011)       (.0011)       (.0011)
+                                                                    Early stage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               .4228**       .4195**       .3954**       .3846**       .3951**
+
+
+
+          All use subject to https://about.jstor.org/terms
+                                                                                                                                                                       (.0604)       (.0604)       (.0627)       (.0592)       (.0544)
+                                                                    Prior . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      4.019**       4.059**       4.300**       4.554**       4.222**
+                                                                                                                                                                       (.0943)       (.0879)       (.0883)       (.0697)       (.0673)
+                                                                    VC age . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        ⫺.0266          .0071         .0032         .0070
+                                                                                                                                                                                     (.0141)       (.0056)       (.0057)       (.0051)
+                                                                    General experience . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                    ⫺.5207**      ⫺.9122**      ⫺.9917**
+                                                                                                                                                                                                   (.1869)       (.1955)       (.1843)
+                                                                    Industry experience . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                       .5098**       .9050**       .9875**
+                                                                                                                                                                                                   (.1863)       (.1962)       (.1851)
+                                                                    Mean affiliation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                              ⫺.0818**      ⫺.0854**
+                                                                                                                                                                                                                 (.0341)       (.0294)
+                                                                    Bonacich power . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                                ⫺.3401**      ⫺.3288**
+                                                                                                                                                                                                                 (.0696)       (.0600)
+                                                                    ln (distance) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    ⫺.1375**         ⫺.1400**          ⫺.1579**          ⫺.1625**         ⫺.1677**
+                                                                                                                                                              (.0174)          (.0167)           (.0163)           (.0168)          (.0167)
+                                                                    Industry distance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           ⫺1.473**         ⫺1.493**          ⫺1.363**          ⫺1.422**          ⫺.9934**
+                                                                                                                                                              (.0892)          (.1064)           (.0870)           (.0895)          (.0885)
+                                                                    VC age # industry distance . . . . . . . . . . . . . . . . .                                                .0177**           .0024             .0018            .0000
+
+
+
+
+                  This content downloaded from
+                                                                                                                                                                               (.0015)           (.0070)           (.0071)          (.0065)
+                                                                    General experience # industry distance . . . .                                                                                .5183**           .9112**          .9906**
+                                                                                                                                                                                                 (.1869)           (.1955)          (.1843)
+                                                                    Industry experience # industry distance . . .                                                                                 .0138             .0150*           .0010
+                                                                                                                                                                                                 (.0071)           (.0070)          (.0060)
+                                                                    Mean affiliation # industry distance . . . . . . .                                                                                              .214**           .0450
+
+
+
+
+193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                                                                                                                                                                                                                   (.0435)          (.0371)
+                                                                    Bonacich power # industry distance . . . . . . .                                                                                                .2889**          .2773**
+                                                                                                                                                                                                                   (.0899)          (.0823)
+                                                                    min (affiliate industry distance) . . . . . . . . . . . . . .                                                                                                 ⫺1.973**
+                                                             1579                                                                                                                                                                   (.0888)
+                                                                    Log likelihood . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⫺35,756.77         ⫺35,753.38        ⫺35,473.05        ⫺35,252.50        ⫺34,701.17
+                                                                    x2 (df) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+          All use subject to https://about.jstor.org/terms
+                                                                                                                                                                              6.78 (2)        560.7 (4)         441.1 (2)           1,103 (1)
+                                                                       Note.—The models are based on matched sample analysis of 40,203 realized ties.
+                                                                       * P ! .05.
+                                                                       ** P ! .01.
+American Journal of Sociology
+
+dustry distance on the probability of an investment attenuates for older
+VC firms. In model 9, we include the terms for investing experience. As
+we found in the geography models, the previous investment experience
+variables appear to explain much of the variation in the maturation pro-
+cess with respect to the moderation of distance on the probability of an
+investment: the effect of the age # industry distance variable dissipates
+when we include the investment experience # industry distance
+interactions.
+   Model 10 includes the VC network variables and their interactions with
+industry distance, which again behave as anticipated. First, highly central
+VC firms and those that have previous investment experience with other
+members of a syndicate invest in targets at a greater industry distance.
+These results again coincide with the claim that venture capitalists exploit
+their contact network to gain access to deals in new areas. Past syndicate
+partners provide information about new deals and also augment a focal
+venture capitalist’s confidence in the quality of investment candidates.
+However, unlike in the geography models, the experience terms remain
+significant predictors of the industry distance of investments. In model
+11, the addition of a term for the industry distance between the target
+company and the nearest affiliated syndicate partner allows us to inves-
+tigate the importance of syndication in more detail. Again, following the
+same pattern as the geography analysis, the likelihood of investment in-
+creases when a syndicate partner with whom the reference venture cap-
+italist has prior experience lies near to the target in industry space (i.e.
+specialize in the target’s industry). Thus, the findings on how industrial
+distance influences the probability that a venture capitalist invests in a
+target almost perfectly parallel the effects in the models that explore the
+influence of geographic distance.
+   The control variables generally behave as expected. Prior investment
+in a target has a very large effect on the likelihood of subsequent in-
+vestment. In the industry distance models, a prior investment increases
+the likelihood of future investment in a target by a factor of 50, while in
+the geographic distance models a prior investment increases the proba-
+bility by a factor of 75.24 The supply and demand variables have incon-
+sistent and generally weak effects, but this should not surprise us because
+the matched sampling design itself substantially controls for these factors.
+The fact that ties appear more likely in early-stage investments merely
+reflects a somewhat lower draw of early-stage investments in the matched
+sample.
+
+24
+   Given the strength of this effect, we also estimated the models only using the first
+financing round of each target in the data. Qualitatively, the results of models limited
+to the initial formation of a tie match the final models presented here identically.
+
+1580
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                     Distribution of Venture Capital
+
+   All models show that VC firms invest locally both in geographic and
+industrial space. Figure 5 depicts the likelihood of a venture capitalist
+investing in a target company as a function of both distance measures
+(using coefficients from model 6). One can readily observe that the like-
+lihood of an investment decreases rapidly. For example, venture capitalists
+invest in companies 10 miles from their offices at twice the rate of ones
+situated 100 miles away. Similarly, the probability of a financing rela-
+tionship declines quickly with industry distance. A venture capitalist that
+specializes exclusively in the same industry in which the target company
+operates (i.e., it has no prior investments outside the target’s industry) is
+nearly six times more likely to invest in that target than a VC firm that
+has never before invested in the target’s industry.
+   Because a variety of factors can explain the locality of investment, these
+results come as no surprise (other than perhaps the substantial magnitudes
+of the effects). Yet, the results also show that certain positional charac-
+teristics clearly affect venture capitalists’ likelihood of investing outside
+of their local industrial and geographic neighborhoods. The Bonacich
+centrality measure has the strongest effect in the models. Given the in-
+herent covariation between network centrality and actor prestige in com-
+munications networks, two subtly different processes probably combine
+to produce the overall result. On the one hand, central VC firms can
+deploy the extensive reach of their networks to identify and evaluate
+distant investment opportunities. Thus, highly central venture capitalists
+have the capacity to activate the search and screening process over large
+distances. On the other hand, other VC firms and entrepreneurs, who
+hope to build relations with prestigious venture capitalists, solicit the
+participation of high status VC firms in investment syndicates. Podolny
+(1993), Stuart (1998), and others discuss at length the value implicit in
+connections to highly central actors that, in this context, include enhanced
+legitimacy, quality certification, and access to the extensive social capital
+of central players.25
+   Venture capitalists also look farther afield geographically and in in-
+dustry space when they have prior experience investing with the other
+
+25
+  As one example, prominent VC firms typically have ongoing relations with presti-
+gious investment banks. As several studies in finance document, “underpricing” in
+initial public offerings—the amount by which the closing price of a newly issued stock
+on the first day of public trading exceeds the price at which institutional investors buy
+the stock—typically declines when prestigious investment banks underwrite the IPO.
+Since underpricing lowers the amount of money raised in the IPO, the new venture
+typically benefits when prestigious investment banks underwrite its IPO. In addition,
+Stuart et al. (1999) show that startups with ties to high-status firms experience higher
+rates of IPO. Likewise, Podolny and Castellucci (1999) show that high-status VC firms
+can negotiate privileged access to investing in the later rounds of the best deals because
+of the many benefits they bring to the syndicate.
+
+                                                                                    1581
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+
+
+
+  Fig. 5.—Investment likelihood by geographic and industry distance. The lines show the
+importance of geographic distance from the target on tie likelihood at different levels of
+industry distance, from an industry specialist (thin solid line) to an industry novice (thick
+solid line).
+
+
+
+members of the syndicate. Two related factors—trust and reciproc-
+ity—account for this effect. First, conditional on a willingness to invest
+together in the future, prior coinvesting experience indicates both per-
+ceptions of trust and high competence between two VC organizations.
+Trust plays an important role in loosening localization constraints because
+it allows a venture capitalist firm to rely on the evaluations of another
+investor closer to the target in industrial or physical space. Second, the
+frequent appearance of repeated investments among the same sets of VC
+firms probably reflects an active norm of reciprocity in the VC community.
+VC firms build relationships with one another and then routinely “invite”
+trusted colleagues into new deals. Before the investing firm establishes
+itself in the venture capital community at large, however, it will probably
+not receive invitations from distant venture capitalists unaware of its
+existence or unsure about its competence. Only when a newly established
+venture capitalist identifies promising deals in its local community can it
+begin to establish a position in the industry network by inviting coin-
+vestors into the deal, assuming that it can convince potential investors of
+the investment’s attractiveness.
+   The results also establish that venture capitalists care not simply
+whether their coinvestors include trusted associates, but also that a trusted
+
+1582
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+                                                      Distribution of Venture Capital
+
+
+
+
+   Fig. 6.—Investment likelihood by affiliate location. The line depicts the multiplier of tie
+likelihood given the affiliates geographic distance (in miles) from the prospective target.
+
+
+
+associate lies in close geographic proximity to the target company. Figure
+6 shows the relationship between the probability of an investment and
+the distance of a target from the venture capitalist and the nearest syn-
+dicate partner with whom the venture capitalist has experience. From the
+figure, one can clearly observe the preference of venture capitalists to
+enter deals when a trusted party can conveniently monitor the target.
+From a policy perspective, this finding suggests that regions that lack a
+VC community might have difficulty accessing venture capital. Although
+venture capitalists expand the radii of their active investment spaces over
+time, this expansion appears to occur primarily through joining syndicates
+with lead venture capitalists in distant communities. This links the ven-
+ture capital communities within the United States and possibly diversifies
+the risk specific to regional economic cycles.26 Nevertheless, it does not
+open access to venture funding to those communities and potential en-
+trepreneurs that lie distant from venture capitalists’ offices.
+
+
+
+
+26
+   This factor probably explains the bicoastal effect we observed in fig. 1 (a spike in
+the probability of investment in the 2,200–2,400 mile range). In the United States, the
+heaviest concentrations of VC firms lie in the coastal regions (in particular, Silicon
+Valley, San Francisco, New York, and Boston). The linkages among these firms created
+by coinvestment facilitate joint investments by East and West Coast VC firms. Our
+findings suggest that syndicates of East and West Coast firms occurs most often when
+one of the members lies in close proximity to the target and has had previous dealings
+with its counterparts on the opposite Coast.
+
+                                                                                       1583
+
+
+
+
+                                This content downloaded from
+              193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                        All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+CONCLUSION
+
+Observers of economic geography often note that advances in commu-
+nications media and methods of transportation paradoxically have done
+little to efface the spatial concentration of many industries: from film
+production and textiles to semiconductor chips and biotechnology, pro-
+duction concentrates in particular regions. Despite these communication
+advances, we believe that inherent boundaries around the flow of timely,
+reliable, and high-quality information produce localized patterns of
+exchange. These boundaries exist because interpersonal social relations
+concentrate within industries and regions more often than they bridge
+industrial and regional boundaries. This observation reflects the simple
+fact that people converge in space and time more frequently when they
+live near one another and have occasion to meet in the course of work
+and play. Although the mass media and weak interpersonal ties routinely
+carry information across regional and community boundaries, we believe
+that the VC relation and other forms of exchange critical to the entre-
+preneurial process depend upon strong and embedded relations among
+the relevant actors. Because high uncertainty and significant information
+imbalances between market participants characterize this domain of ac-
+tivity, close and dense relationships among the relevant parties provide
+a critical catalyst to the process of mobilizing resources to build
+organizations.
+   Whenever personal and professional networks play a central role in
+economic activity, we will likely observe spatial patterns in the unfolding
+of that activity. We have demonstrated the existence of these spatial pat-
+terns in the investments venture capitalists make. We have also shown
+that the evolution of interfirm relationships in the VC community appears
+to provide the mechanism for the erosion of geographic and industrial
+boundaries in the dispensation of a venture capitalist’s funds. VC firms
+with a history of provincial investment patterns and those without central
+positions in the industry’s coinvestment network tend to invest locally;
+those who have established many and dispersed relationships with other
+VC firms invest across geographic and industrial spaces more frequently.
+More generally, we believe that institutions supported by broad partici-
+pation among market incumbents must precede the expansion of the spa-
+tial range of exchange in markets that rely on private information or
+require a high degree of trust for transactions to occur. In venture capital,
+the industrywide coinvestment network provides this institutional
+infrastructure.
+   We believe that the exploration of when and how the local character
+of relationships intervenes in the functioning of markets offers an im-
+portant avenue for further research. For example, anecdotal evidence
+
+1584
+
+
+
+
+                             This content downloaded from
+           193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                     All use subject to https://about.jstor.org/terms
+                                                    Distribution of Venture Capital
+
+suggests that the founders of early-stage companies employ network-based
+recruiting strategies to staff their fledgling enterprises. Indeed, one need
+look no further than the semiconductor industry in Silicon Valley, in which
+dozens of firms including Intel can trace their origins to the departure of
+key technologists from an established company (Fairchild Semiconductor)
+and whose founders then recruited friends and former colleagues to staff
+their new ventures. If founders’ networks concentrate in space, then the
+reliance on network-based recruiting strategies may partially account for
+the geographic clustering of high-technology industries.
+   Before concluding, we wish to highlight again that the positional char-
+acteristics have virtually identical effects in moderating the influence of
+the two measures of distance—geographic and industrial—on the prob-
+ability of an investment in a VC firm-target dyad. The similarity of the
+findings stems from the underlying correspondence of the two measures
+of distance: both influence the likelihood that the two parties are embed-
+ded in a network of secondary relationships. Although a variety of factors
+can explain homophilous patterns of interaction, we believe that our find-
+ings provide substantial support for an opportunity-based theory of mar-
+ket exchange. Accounts that would attribute localized interaction patterns
+to preferences would suggest that the spatial range of investments should
+not expand over time unless firm preferences evolve. A change in the cost
+of investing at a distance as an investor gains experience seems to offer
+the most likely cause of such a preference shift. Although we do in fact
+show that the spatial reach of VC firms expands as they mature, we also
+decompose this effect by demonstrating that the development of a set of
+trusted colleagues throughout the investment community drives this ex-
+pansion. Though we suspect that rational preferences for localized in-
+vesting continue to operate, deviations in the salience of geographic and
+industrial proximity appear to stem from the underlying social structure
+of the investing community, rather than from shifts in the preference
+distribution for propinquity and homophily in exchange.
+
+
+REFERENCES
+Admati, Anat R., and Paul Pfleiderer. 1994. “Robust Financial Contracting and the
+  Role of Venture Capitalists.” Journal of Finance 49:371–402.
+Akerlof, George A. 1970. “The Market for ‘Lemons’: Qualitative Uncertainty and the
+  Market Mechanism.” Quarterly Journal of Economics 84:488–500.
+Allen, Thomas J. 1977. Managing the Flow of Technology: Technology Transfer and
+  the Dissemination of Technological Information within the R&D Organization.
+  Cambridge, Mass.: MIT Press.
+Amit, Raphael, Lawrence Glosten, and Eitan Muller. 1990. “Entrepreneurial Ability,
+  Venture Investments, and Risk Sharing.” Management Science 36:1232–1245.
+Arthur, Brian. 1990. “Positive Feedback in the Economy.” Scientific American
+  (February): 92–99.
+
+                                                                              1585
+
+
+
+
+                              This content downloaded from
+            193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                      All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+Baker, Wayne. 1984. “The Social Structure of a National Securities Market.” American
+  Journal of Sociology 89:775–811.
+Bandura, Alfred. 1986. Social Foundations of Thought and Action: A Social Cognitive
+  Theory. Englewood Cliffs, NJ: Prentice Hall.
+Bergemann, Dirk, and Ulrich Hege. 1998. “Venture Capital Financing, Moral Hazard,
+  and Learning.” Journal of Banking and Finance 22:703–35.
+Blau, Peter M. 1964. Exchange and Power in Social Life. New York: Wiley.
+———. 1977. Inequality and Heterogeneity. New York: Free Press.
+Blau, Peter M., and Joseph E. Schwartz. 1984. Crosscutting Social Circles: Testing a
+  Macrostructural Theory of Intergroup Relations. Orlando, Fla. : Academic Press.
+Bonacich, Phillip. 1987. “Power and Centrality: A Family of Measures.” American
+  Journal of Sociology 92:1170–82.
+Bossard, James S. 1932. “Residential Propinquity as a Factor in Marriage Selection.”
+  American Journal of Sociology 38:219–24.
+Bothner, Matthew S. 2000. “Structure, Scale, and Scope in the Worldwide Computer
+  Industry.” Working paper. University of Chicago, Graduate School of Business.
+Burt, Ronald S. 1992. Structural Holes. Cambridge, Mass.: Harvard University Press.
+Bygrave, William B., and Jeffrey A. Timmons. 1992. Venture Capital at the Crossroads.
+  Boston: Harvard Business School Press.
+Coleman, James S. 1990. Foundations of Social Theory. Cambridge, Mass.: Belknap
+  Press.
+Coleman, James S., Eliyahu Katz, and Herbert Menzel. 1966. Medical Innovation: A
+  Diffusion Study. Indianapolis: Bobbs-Merrill.
+Coslett, Stephen R. 1981. “Maximum likelihood Estimator for Choice-Based Samples.”
+  Econometrica 49:1289–1316.
+Doreian, Patrick. 1981. “Estimating Linear Models with Spatially Distributed Data.”
+  Pp. 359–88 in Sociological Methodology 1981, edited by Samuel Leinhardt.. San
+  Francisco: Jossey-Bass.
+Festinger, Leon, Stanley Schacter, and Kurt W. Back. 1950. Social Pressure in Informal
+  Groups. New York: Harper.
+Freeman, John H. 1999. “Venture Capital as an Economy of Time.” Pp. 460–82 in
+  Corporate Social Capital, edited by R. Leenders and S. Gabbay. Boston: Kluwer
+  Academic Publishers.
+Fried, Vance H., and Robert D. Hisrich. 1994. “Toward a Model of Venture Capital
+  Investment Decision Making.” Financial Management 23:28–37.
+Friedkin, Noah E. 1998. A Structural Theory of Social Influence. Cambridge:
+  Cambridge University Press.
+Gompers, Paul A. 1995. “Optimal Investment, Monitoring, and the Staging of Venture
+  Capital.” Journal of Finance 50:1461–89.
+Gorman, Michael, and William Sahlman. 1989. “What Do Venture Capitalists Do?”
+  Journal of Business Venturing 4:231–48.
+Granovetter, Mark S. 1973. “The Strength of Weak Ties.” American Journal of
+  Sociology 78:1360–80.
+———. 1985. “Economic Action and Social Structure: The Problem of Embeddedness.”
+  American Journal of Sociology 91:481–510.
+Greene, William H. 1993. Econometric Analysis, 2d ed. New York: Macmillan.
+Gulati, Ranjay. 1995. “Social Structure and Alliance Formation Patterns: A
+  Longitudinal Analysis.” Administrative Science Quarterly 40:619–52.
+Gupta, Anil K., and Harry J. Sapienza. 1992. “Determinants of Capital Firms’
+  Preferences Regarding the Industry Diversity and Geographic Scope of Their
+  Investments.” Journal of Business Venturing 7:347–62.
+Hannan, Michael T. 1998. “Rethinking Age Dependence in Organizational Mortality:
+  Logical Formalizations.” American Journal of Sociology 104:85–23.
+
+1586
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+                                                    Distribution of Venture Capital
+
+Hannan, Michael T., and John H. Freeman. 1984. “Structural Inertia and
+  Organizational Change.” American Sociological Review 49:149–64.
+Hawley, Amos H. 1971. Urban Society. New York: Ronald.
+Hedström, Peter. 1994. “Contagious Collectives: On the Spatial Diffusion of Swedish
+  Trade Unions, 1860–1940.” American Journal of Sociology 99:1157–79.
+Hellman, Thomas. 1998. “The Allocation of Control Rights in Venture Capital
+  Contracts.” RAND Journal of Economics 29:57–76.
+Imbens, Guido. 1992. “An Efficient Method of Moments Estimator or Discrete Choice
+  Models with Choice-Based Sampling.” Econometrica 60:1187–1214.
+Jensen, Michael. 1986. “Agency Cost of Free Cash Flow, Corporate Finance and
+  Takeovers.” American Economic Review Papers and Proceedings 76:323–29.
+Kaplan, Steve, and Per Strömberg. 1999. “Financial Contracting Theory Meets the
+  Real World: An Empirical Analysis of Venture Capital Contracts.” Working paper.
+  University of Chicago, Graduate School of Business.
+King, Gary, and Langche Zeng. 2001. “Logistic Regression in Rare Events Data.”
+  Political Analysis, in press.
+Kono, Clifford, Donald Palmer, Roger Friedland, and Matthew Zafonte. 1998. “Lost
+  in Space: The Geography of Corporate Interlocking Directorates.” American Journal
+  of Sociology 103:863–911.
+Krackhardt, David. 1988. “Predicting with Networks: Nonparametric Multiple
+  Regression Analyses of Dyadic Data.” Social Networks 10:359–82.
+Krugman, Paul. 1991. “Increasing Returns and Economic Geography.” Journal of
+  Political Economy 99:483–99.
+Lancaster, Tony, and Guido Imbens. 1996. “Efficient Estimation and Stratified
+  Sampling.” Journal of Econometrics 74:289–318.
+Lazarsfeld, Paul F., and Robert K. Merton. 1954. “Friendship as a Social Process: A
+  Substantive and Methodological Analysis.” Pp. 18–66 in Freedom and Control in
+  Modern Society, edited by Monroe Berger, Theodore Abel, and Charles H. Page.
+  New York: Van Nostrand.
+Lerner, Josh. 1994. “The Syndication of Venture Capital Investments.” Financial
+  Management 23:16–27.
+Lincoln, James R. 1984. “Analyzing Relations in Dyads: Problems, Models, and an
+  Application to Interorganizational Research.” Sociological Methods and Research
+  13:45–76.
+March, James G. 1988. Decisions and Organizations. Cambridge, Mass.: Basil-
+  Blackwell.
+Marsden, Peter V. 1988. “Homogeneity in Confiding Relations.” Social Networks 10:
+  57–76.
+McPherson, J. Miller, and Lynn Smith-Lovin. 1987. “Homophily in Voluntary
+  Organizations: Status Distance and the Composition of Face to Face Groups.”
+  American Sociological Review 52:370–79.
+McPherson, J. Miller, Pamela A. Popielarz, and Sonja Drobnic. 1992. “Social Networks
+  and Organizational Dynamics.” American Sociological Review 57:153–70.
+Milgram, Stanley. 1967. “The Small World Problem.” Psychology Today 1:62–67.
+Mintz, Beth, and Michael Schwartz. 1985. The Power Structure of American Business.
+  Chicago: University of Chicago Press.
+Mizruchi, Mark S. 1989. “Similarity of Political Behavior among Large American
+  Corporations.” American Journal of Sociology 95:401–424.
+Norton, Edgar, and Bernard H. Tenenbaum. 1993. “Specialization versus
+  Diversification as a Venture Capital Investment Strategy.” Journal of Business
+  Venturing 8:431–42.
+Park, Robert E. 1926. “The Urban Community as a Spatial Pattern and a Moral
+  Order.” Pp. 3–18 in The Urban Community, edited by E. W. Burgess. Chicago:
+  University of Chicago Press.
+
+                                                                              1587
+
+
+
+
+                              This content downloaded from
+            193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                      All use subject to https://about.jstor.org/terms
+American Journal of Sociology
+
+Podolny, Joel M. 1993. “A Status-Based Model of Market Competition.” American
+  Journal of Sociology 98:829–72.
+———. 1994. “Market Uncertainty and the Social Character of Economic Exchange.”
+  Administrative Science Quarterly 39:458–83.
+Podolny, Joel M., and Fabrizio Castellucci. 1999. “Choosing Ties from the Inside of a
+  Prism: Egocentric Uncertainty and Status in Venture Capital Markets.” Pp. 431–45
+  in Corporate Social Capital, edited by R. Leenders and S. Gabbay. Boston: Kluwer
+  Academic Publishers.
+Raub, Werner, and Jeroen Weesie. 1990. “Reputation and Efficiency in Social
+  Interactions: An Example of Network Effects.” American Journal of Sociology 96:
+  626–54.
+Rogers, Everett M., and D. Lawrence Kincaid. 1981. Communication Networks. New
+  York: Free Press.
+Sah, Raaj K., and Joseph E. Stiglitz. 1986. “The Architecture of Economic Systems:
+  Hierarchies and Polyarchies,” American Economic Review 76:716–27.
+Sorenson, Olav, and Pino G. Audia. 2000. “The Social Structure of Entrepreneurial
+  Activity: Geographic Concentration of Footwear Production in the United States,
+  1940–1989.” American Journal of Sociology 106:424–62.
+Staw, Barry. 1976. “Knee-Deep in the Big Muddy: A Study of Escalating Commitment
+  to a Chosen Course of Action.” Organizational Behavior and Human Performance
+  16:27–44.
+Stinchcombe, Arthur L. 1965. “Social Structure and Organizations.” Pp. 153–93 in
+  Handbook of Organizations, edited by J. G. March. Chicago: Rand McNally.
+Stuart, Toby E. 1998. “Network Positions and Propensities to Collaborate: An
+  Investigation of Strategic Alliance Formation in a High-Technology Industry.”
+  Administrative Science Quarterly 43:668–98.
+Stuart, Toby E., Ha Hoang, and Ralph Hybels. 1999. “Interorganizational
+  Endorsements and the Performance of Entrepreneurial Ventures.” Administrative
+  Science Quarterly 44:315–49.
+Wilson, Robert. 1968. “The Theory of Syndicates.” Econometrica 36:119–32.
+Yamaguchi, Kazuo. 1990. “Homophily and Social Distance in the Choice of Multiple
+  Friends: An Analysis Based on Conditionally Symmetric Log-Bilinear Association
+  Models.” Journal of the American Statistical Association 85:356–66.
+Zipf, G. K. 1949. Human Behavior and the Principle of Least Effort. Reading, Mass.:
+  Addison-Wesley.
+
+
+
+
+1588
+
+
+
+
+                               This content downloaded from
+             193.205.21.160 on Mon, 16 Nov 2026 14:14:12 UTC
+                       All use subject to https://about.jstor.org/terms
+

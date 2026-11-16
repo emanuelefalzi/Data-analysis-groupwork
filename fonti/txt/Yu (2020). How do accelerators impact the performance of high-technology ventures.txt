@@ -1,0 +1,1493 @@
+                                                                                                        MANAGEMENT SCIENCE
+                                                                                                      Vol. 66, No. 2, February 2020, pp. 530–552
+http://pubsonline.informs.org/journal/mnsc                                                        ISSN 0025-1909 (print), ISSN 1526-5501 (online)
+
+
+
+
+How Do Accelerators Impact the Performance of
+High-Technology Ventures?
+Sandy Yua
+a
+  Department of Strategic Management & Entrepreneurship, Carlson School of Management, University of Minnesota, Minneapolis,
+Minnesota 55455
+Contact: sandyyu@umn.edu,     http://orcid.org/0000-0002-1317-5198 (SY)
+
+Received: June 11, 2015                        Abstract. Accelerators aim to help nascent companies reach successful outcomes by
+Revised: August 12, 2016; November 18, 2017;   providing capital, enabling industry connections, and increasing exposure to investors.
+October 30, 2018                               Critically, however, accelerators also provide informative signals to founders about the
+Accepted: November 7, 2018                     probability of success. Founders use this information to decide whether to continue or shut
+Published Online in Articles in Advance:       down. To better understand these issues, I provide a model of accelerator participation and
+October 18, 2019
+                                               performance and then test empirical predictions from the model using a novel data set of
+https://doi.org/10.1287/mnsc.2018.3256         approximately 900 accelerator companies across 13 accelerators and 900 matched non-
+                                               accelerator companies. I ﬁnd that, through accelerator feedback effects, accelerator
+Copyright: © 2019 INFORMS                      companies close down earlier and more often, raise less money conditional on closing, and
+                                               appear to be more efﬁcient investments compared with non-accelerator companies. Ad-
+                                               ditional analysis using a separate sample of rejected accelerator applicants further sup-
+                                               ports these ﬁndings. These results suggest that accelerators help resolve uncertainty
+                                               around company quality sooner, allowing founders to make funding and exit decisions
+                                               accordingly.
+
+                                               History: Accepted by Ashish Arora, entrepreneurship and innovation.
+                                               Funding: Funding comes from the Ewing Marion Kauffman Foundation.
+
+Keywords: accelerators • start-ups • value of information • information provision • feedback • entrepreneurial ﬁnance
+
+
+1. Introduction                                                               Currently there are at least 200 accelerators worldwide,
+Founders of early-stage ventures are often resource-                          and their portfolio companies have raised more than
+constrained and need to make strategic decisions                              $14.5 billion in funding. Furthermore, many govern-
+based on limited data. Consequently, information                              ments are interested in using accelerators as a way to
+that can help reduce uncertainty is especially im-                            foster entrepreneurship and, in turn, stimulate the local
+portant. This information has economic value, and the                         economy (Gonzalez-Uribe and Leatherbee 2018).1
+willingness to pay will depend on the venture’s ex                            However, whether and how accelerators actually
+ante success probability (Arrow 1962, Arora and                               beneﬁt entrepreneurs are still open questions. Many
+Fosfuri 2005). Moreover, founders will invest in ac-                          news articles tout the success of accelerators by citing
+quiring this information if the probability of success is                     the aggregate amount of funding raised by portfolio
+high enough. Feedback and other types of signals are                          companies, acquisition rates, and employment num-
+just starting to be examined in the entrepreneurship                          bers, yet there is no indication that these outcomes
+literature (Hellmann and Puri 2002, Hsu 2004, Kerr                            were a direct result of accelerator participation. Ac-
+et al. 2014, Howell 2017), and accelerators are a source                      celerators have received little attention in the econo-
+of feedback that can inform founders to assess the                            mics, ﬁnance, and management literature, but there
+feasibility of their idea.                                                    is an emerging body of work examining their role
+   Accelerators are ﬁnancial organizations that invest in                     in entrepreneurship (Cohen and Hochberg 2014,
+cohorts of start-up companies, usually in exchange for                        Gonzalez-Uribe and Leatherbee 2014, Winston Smith
+equity (typically around $20,000 investment for 10% of                        and Hannigan 2015, Hallen et al. 2019). The results
+the company). After selecting a cohort of companies,                          vary because of heterogeneity in methodology and
+accelerators run limited-duration programs that offer                         sample selection. However, one consistent observa-
+mentorship from industry experts, weekly educational                          tion is that accelerators seem to beneﬁt entrepreneurs
+programming, and coworking spaces. The ﬁrst acceler-                          through non-pecuniary channels, such as mentorship,
+ator, Y Combinator, was established in 2005, and the                          learning from peers, and credentialing. To my knowledge,
+popularity of accelerators has been boosted by famous                         this paper proposes an information channel that has not
+participants, such as Dropbox, Reddit, and Airbnb.                            been discussed in this context.
+                                                                        530
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                           531
+
+   The goal of this paper is to explore whether and how                 has prior entrepreneurial experience, it is not clear
+accelerators affect entrepreneurial ﬁrm performance,                    whether the beneﬁt of accelerator participation out-
+speciﬁcally focusing on the value of information provided               weighs the cost of ownership dilution. By constructing a
+by the accelerator. This information includes feedback                  control sample consisting of matched non-accelerator
+from the accelerator mentors that help founders realize the             companies that are of similar company age, location,
+quality and viability of their idea, which then enables                 description, founder experience, and funding as the
+strategic decisions of continuing the venture or shutting               accelerator companies, I attempt to control for the
+down. The main analysis combines both a model based                     selection bias (different types of founders or companies
+on anecdotal evidence and quantitative analysis across                  are more likely to participate in accelerators). From there,
+multiple accelerators. First, I interviewed founders, ac-               I use nonparametric analysis to establish a set of
+celerator partners, and accelerator mentors to understand               stylized facts.
+their experiences participating in or operating accelera-                  Finally, I proceed to explore these predictions with
+tors. These interviews also informed me of key perfor-                  regression analysis using the matched sample of
+mance metrics from both the founders’ and partners’                     companies. Furthermore, as an additional test of the
+perspectives and accelerator features and founder                       feedback effects predicted by the model, I restrict my
+characteristics that motivate founders to apply. I then                 analysis to a separate sample of accepted accelerator
+develop a model that characterizes the differences                      applicants and rejected applicants in the ﬁnal round.
+between accelerator and non-accelerator companies                       Consistent with the model’s predictions, I observe
+as a result of accelerator feedback effects. Founders                   that the differences in closure probability and funding
+observe a signal of quality of their idea, and as a result              efﬁciency persist.
+of this signal, founders who are more pessimistic are                      Although accelerators are a recent phenomenon,
+more likely to join an accelerator. By doing so, they                   organizations and programs that provide information,
+pay a cost—the equity, typically around 10%, given                      outreach, and extension services to ﬁrms and individuals
+to the accelerator—but the uncertainty around the                       have been well established across various industries, in-
+quality of their idea is resolved sooner. This faster                   cluding agriculture and manufacturing.2 Furthermore,
+resolution of uncertainty is a consequence of the in-                   there is a rich literature related to the provision of
+tense feedback within the accelerator environment,                      information and performance, including seminal
+which is the feedback effect. The model implies that,                   work on the diffusion of innovation, which has shown
+conditional on idea quality, accelerators provide for more              that informational constraints affect subsequent
+efﬁcient development decisions, in terms of selecting                   adoption of innovation by proﬁt-maximizing ﬁrms
+both projects to drop and the optimal amount of effort                  (Griliches 1957, Mansﬁeld 1961). For entrepreneurs
+to exert on a given project. The model has three main                   speciﬁcally, organizations such as the Small Business
+predictions. First, accelerator companies close down                    Development Centers in the United States provide
+earlier and more often because of the faster resolution                 assistance and free business consulting, and the In-
+of uncertainty around the quality of the idea. Second,                  novator’s Assistance Program in Canada provides
+conditional on closing, accelerator companies raise                     feedback on feasibility. In general, these programs
+less money because they do not raise funds beyond                       and organizations aim to increase social welfare by
+the accelerator. And third, accelerator companies                       facilitating the ﬂow of information. Although accel-
+appear to be more efﬁcient investments than non-                        erators are typically established because of ﬁnancial
+accelerator companies because more money is allo-                       incentives of investors, it appears that they may
+cated toward companies that are eventually acquired                     contribute to social welfare by enabling more intense
+than companies that eventually close and offer zero                     feedback and providing information that has eco-
+returns.                                                                nomic value to both the entrepreneurs and investors.
+   To test the empirical implications of the model,                        This paper has several contributions. First, I present
+I then construct a novel data set of approximately 900                  both qualitative and quantitative data to document
+accelerator companies from 13 different accelerators                    how accelerators operate. Second, I investigate ac-
+that are then matched to the same number of non-                        celerators as a source of valuable information for
+accelerator companies based on pre-accelerator charac-                  founders, using both theoretical and empirical ana-
+teristics. In the sample, the accelerator companies tend                lyses. There have been various industry reports and
+to be young (17 months on average), raising their ﬁrst                  news articles about accelerators, but most focus on
+round of ﬁnancing, operate in consumer web/software/                    overall portfolio performance of a select few accel-
+e-commerce, and have founders who are starting new                      erators and individual founder stories. By documenting
+ventures for the ﬁrst time. Many factors, such as the                   and analyzing whether and how accelerators affect new
+experience of the founder, can impact ﬁrm performance                   venture performance, I provide empirical evidence of
+(Chatterji 2009, Roberts et al. 2011) and inﬂuence the                  the information-provision role of accelerators in re-
+decision to apply to an accelerator. For a founder who                  solving uncertainty around company quality. Third, to
+                                                     Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+532                                                                Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+my knowledge, I have created the largest sample of              In Figure 1, differences between accelerators and
+accelerator companies across 13 different accelerators,       other sources of information are highlighted along the
+which allows me to conduct cross-cohort and cross-            dimensions of mentorship and price of equity in terms
+accelerator analysis. Finally, by examining the effect of     of amount of funding received for equity given up. In
+accelerator participation on new venture performance          other words, the price of equity is also what the founder is
+and the relevant mechanisms, I provide insight into the       paying for access to mentorship and feedback. Venture
+efﬁciency of accelerator investments, which has im-           capital ﬁrms are relatively hands off compared with ac-
+plications for policy aimed toward fostering innovation       celerators but offer the most funding. Angel investors tend
+and building entrepreneurial communities. This paper          to offer some mentorship and invest less money than
+seeks to bridge a gap in the literature by understanding      venture capital ﬁrms (and more than accelerators). Some
+an important industry and shedding light on crucial           angel investors take a personal interest in the founders,
+strategic concerns of founders: managing uncertainty          and others may provide less mentoring than venture
+and growth.                                                   capitalists. Relative to venture capitalists and angel in-
+                                                              vestors, accelerators offer the highest degree of involve-
+2. Institutional Setting                                      ment in terms of developing the company at an early stage
+There are numerous sources of information and                 but are also the most expensive—small amount of ﬁ-
+feedback for a start-up company, and founders decide          nancial investment for a relatively large amount of
+which sources to pursue based on factors such as the          equity. Companies at different stages and industries
+stage of the company, cost of access, and quality of the      require varying amounts of mentoring; therefore, the
+information. Mentorship and feedback can be value-            optimal source of information is not “one size ﬁts all”
+added beneﬁts of funding sources, so it is common for         for every company. However, it seems that by choosing
+founders to seek information through investors. In            accelerators, a founder is prioritizing mentorship over the
+addition to accelerators, other sources of information        price of equity, which may be appropriate for earlier-stage
+may include friends and family, grants, angel in-             companies.
+vestors, crowdfunding, and venture capital ﬁrms.
+Each source of information comes with different               2.1. Application Process
+trade-offs, but here I focus on the trade-off between         Given that educational programming and mentor-
+mentorship and the cost of access and comparisons             ship are large components of an accelerator program,
+with angel investors and venture capital ﬁrms. First,         it is ﬁtting that the application process for accelerators
+instead of investing in companies on an ad-hoc and            is very similar to the college application process. An
+ongoing basis, as do angel investors and venture              accelerator posts the application online with ques-
+capitalists, accelerators select cohorts of companies         tions related to the founder team, previous projects,
+through an application process once or twice during a         product idea, and funding status and often requests
+year. Second, the magnitude of investment is on the           videos or links to a prototype. After an initial screening,
+order of tens of thousands of dollars for anywhere
+between 2% and 10% equity stake instead of the                Figure 1. Comparison of Sources of Finance Along the
+hundreds of thousands or even millions of dollars that        Dimensions of Mentorship and Price of Equity
+would be expected from institutional investors. Third,
+a highly attractive characteristic of being funded by an
+accelerator is access to mentors, strategic connections,
+and the accelerator alumni network. Although angel
+investors and venture capitalists also offer advice and
+introductions to their networks, the magnitude and
+frequency of mentorship are much higher in an ac-
+celerator. Based on conversations with investors and
+entrepreneurs, there is a strong sense of “paying it
+forward” within the entrepreneurial community. Many
+mentor–mentee relationships even become investor–
+investee after the accelerator program ends. Alumni
+mentors are yet an additional source of advice and
+encouragement. As one participant of 500 Startups
+states, “The whole 500 Startups network is the real
+value.” Finally, accelerators often provide physical          Notes. From the entrepreneur’s perspective, accelerators offer the
+                                                              highest intensity of mentorship. However, relative to venture capitalists
+ofﬁce space for the companies, and this setting allows
+                                                              and angel investors, accelerators require more equity relative to the
+companies in the same cohort to work within close             low amount of ﬁnancial input. Therefore, the price of equity taken is
+proximity of each other.                                      also highest.
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                          533
+
+there are one or multiple rounds of phone and face-to-face              sources of information and funding, interviews were
+interviews with the accelerator partners. Then a ﬁnal                   conducted with 12 accelerator partners, industry
+decision is made, and the founders will usually be re-                  mentors, and founders, and a survey was distributed
+quired to move to the city in which the accelerator is                  to founders (with more than 70 respondents) asking
+located for the duration of the program. Because of the                 speciﬁc questions about the decision to apply to an
+popularity of accelerators, the number of applicants has                accelerator, what the perceived and realized beneﬁts
+increased, and there is even a “common application,”                    were, and details of their ventures. The survey results
+the Uniﬁed Seed Accelerator Application, which al-                      were helpful for data collection, but more important,
+lows founders to apply to multiple accelerators with a                  they revealed which accelerator characteristics were
+single form.3 Even though there are many options for                    most valuable to the founders and informed the
+founders who want to participate in an accelerator,                     model.
+many founders aim for a select few prominent ac-
+celerators. The acceptance rate for the most selective                  3.1. Mechanisms
+accelerators is very low and continues to decrease, and                 Here, I highlight the intuition and mechanism behind
+because of the large number of applicants, founders may                 the model. The timing of the model and further
+not get feedback on why their applications were rejec-                  mathematical details are included in Appendix B.
+ted.4 It seems that, especially for founders who make it                When founders choose to participate in an accelera-
+to the ﬁnal interview round, it is difﬁcult to explain                  tor, they do so only if the signal about the quality of
+why they were eventually rejected. The following quote                  their idea is below a certain threshold. During the
+from Paul Graham, founding partner of Y Combinator,                     program, the main mechanism is an accelerator feedback
+suggests that companies in the ﬁnal round are very                      effect, by which the resolution of uncertainty around
+similar, at least based on observable characteristics: “So              the quality of the idea is faster because of feedback
+why don’t we tell people why we didn’t invite them to                   within the accelerator.
+interview? Because, paradoxical as it sounds, there                        Initially, founders must pay a cost to participate in
+often is no reason.” In this paper, I focus on companies                an accelerator. This cost is the equity a founder must
+that applied to and participated in accelerators and                    give up, but it can also be seen as the opportunity cost
+similar companies that could have applied.                              of joining the accelerator. These costs are higher for
+                                                                        founders with better-quality ideas. Anecdotal evi-
+2.2. Demo Day                                                           dence from founders supports this. For example, one
+The most unique characteristic of accelerators is demo                  accelerator company founder said that “if your
+day, which is essentially the graduation ceremony of                    company fails, that 6%–10% you gave out [to the
+the program. More important, it is a chance for all the                 accelerator] won’t be useful,” suggesting that the cost
+companies in the cohort to showcase their products to                   of participation is lower for founders with low-
+a large audience of investors. Founders take turns                      quality ideas. By contrast, when asked about the de-
+pitching their companies, and they also specify the                     cision not to apply to an accelerator, a non-accelerator
+amount of money they are aiming to raise. After the                     company founder stated that the founders “didn’t
+pitches, investors have time to talk with companies in                  want to give up equity on unfavorable terms.” In other
+which they are interested, and funding deals can be                     words, the founders thought they had a promising idea
+closed in the following weeks. From the perspective of                  and were not willing to dilute the company for a $21,000
+the investors, even if they do not invest in the com-                   accelerator investment. Therefore, founders with rela-
+panies immediately, they are aware of accelerator                       tively lower-quality ideas will apply to participate in
+companies and can track their developments for a                        accelerators, whereas founders with the highest-quality
+future ﬁnancing round.                                                  ideas may pursue other sources of ﬁnancing or in-
+   Given the large number of new accelerators being                     formation. This means that there are founders with good
+created in recent years, this paper analyzes participants               ideas who are willing to exchange equity for the potential
+of 13 more-established accelerators that ﬁt speciﬁc cri-                beneﬁts that accelerators offer. Put differently, one ad-
+teria further explained in Section 4. These accelerators                vantage of joining an accelerator is that you buy a real
+have been in operation for four years on average, run                   option: instead of investing more resources in the dark,
+14-week programs, and invested $20,846 in 15 com-                       you do so with knowledge of the true quality of the idea,
+panies for each cohort. In terms of network size, they have,            thus having the option of shutting down and cutting
+on average, 102 alumni and 62 mentors who are afﬁliated                 losses short. In this model, I assume that all founders who
+with the accelerator at the time of data collection.                    apply to the accelerator are accepted.
+                                                                           Conditional on a founder choosing to participate in
+3. Theory                                                               an accelerator, there is an accelerator effect resulting
+To understand how accelerators operate and a founder’s                  from the intense feedback during the accelerator
+motivation for choosing accelerators over alternative                   program. Accelerator company founders meet with
+                                                         Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+534                                                                   Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+accelerator partners and mentors frequently and also              previously invested in alumni companies. Even though
+have daily interactions with other founders in their              the mentors are not compensated ﬁnancially, they
+cohort. This allows founders to iterate more quickly              commit to spending time with the accelerator company
+and resolve uncertainty around the feasibility of an              founders to share their experiences, keep current with
+idea at a faster pace. In fact, in my survey of more than         start-up trends, and foster relationships. Although
+70 founders, “access to industry mentors” was listed              non-accelerator company founders may have other
+as the most important reason for applying to an                   sources of mentorship, the frequency and intensity of
+accelerator, and one accelerator company founder                  mentorship are unlikely to be higher than in an ac-
+stated that the biggest gain of participating in an               celerator environment. The frequency of the meetings
+accelerator was “coworking with other founders.                   varies, but founders can spend numerous hours weekly
+People were very open and helpful.” In contrast,                  or even daily meeting with mentors. There is an ex-
+non-accelerator company founders receive very little              pectation for accelerator mentors to be available or in-
+and less frequent feedback during the same time                   volved to a certain degree, and sometimes the meetings
+period of the accelerator program, so there is still              are organized by the accelerator directly. For example,
+uncertainty around the quality of the idea when                   according to the Techstars website, “About two or
+founders need to decide whether to invest further.                three nights a week, we’ll organize informal educa-
+Consequently, founders of lower-quality accelerator               tional sessions with our mentors. We also expect
+companies know when to cut losses and do not at-                  many of the mentors to drop into Techstars at vari-
+tempt to raise more money, whereas founders of                    ous times throughout the program.” In addition to
+lower-quality non-accelerator companies will con-                 having more frequent interactions with a given
+tinue to raise money, essentially paying for additional           mentor, accelerator company founders will also be
+information until the uncertainty is resolved. There-             exposed to more mentors because of the large net-
+fore, accelerator companies shut down more often and              work associated with the accelerator. The alumni
+do so sooner rather than later. In addition, at the time          network consists of all previous participants of the
+of shutting down, accelerator companies will have                 same accelerator, and it grows consistently with each
+raised less money, on average.                                    cohort. The founders can tap into a wealth of knowl-
+   To summarize, the model characterizes the dif-                 edge from alumni who had the same experiences and
+ferences between accelerator companies and non-                   faced similar challenges. In addition to mentors and
+accelerator companies as a result of self-selection and           alumni, cohort-mates can serve as another source of
+accelerator feedback effects. Founders who observe                feedback. Founders in the same cohort spend a sig-
+low-quality signals choose to pay the equity cost of              niﬁcant amount of time together and develop into a
+joining an accelerator in favor of a better signal of the         tight-knit community. They can then benchmark their
+true quality of the idea. This better signal, in turn,            own quality against the progress and quality of other
+provides the feedback effect of accelerator partici-              companies in their cohort and assess their likelihood of
+pation. It implies that, conditional on idea quality,             raising follow-on funding, getting acquired, or going
+accelerators provide for more efﬁcient development                out of business.5
+decisions, in terms of selecting both projects to drop               Based on the feedback during the accelerator pro-
+and the optimal amount of effort to put into a given              gram, uncertainty around the quality of the idea is
+project.                                                          resolved much faster for accelerator companies, so
+                                                                  founders are able to make exit decisions sooner rather
+3.2. Empirical Implications                                       than later. In particular, lower-quality companies
+The model derives the following testable implications.            realize that their ideas may not be sustainable in the
+                                                                  long term and choose to go out of business altogether
+Hypothesis 1. Accelerator companies go out of business            instead of trying to fund-raise later. In contrast, because
+earlier and more often than non-accelerator companies.            of the lack of frequent feedback, this uncertainty
+                                                                  is still unresolved for all non-accelerator companies
+Hypothesis 2. Conditional on going out of business, ac-           during the same time frame. Therefore, founders con-
+celerator companies receive less funding than non-accelerator     tinue to operate and fund-raise until the uncertainty is
+companies.                                                        resolved later. Therefore, Hypothesis 1 follows. As a
+  Hypotheses 1 and 2 are both consequences of the                 result, for many accelerator companies, the last round
+intense feedback environment during the accelerator               of funding will be from the accelerator, which, on
+program. Accelerators enable founders to have direct              average, is only $21,000. Consequently, conditional
+and frequent access to mentors who offer advice and               on closing, accelerator companies will raise less
+feedback. Mentors are usually industry experts, serial            money, and Hypothesis 2 follows.
+entrepreneurs, or venture capitalists who want to                    An additional prediction of the model considers
+give back to the entrepreneurial community or have                accelerator companies as a portfolio: speciﬁcally,
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                                 535
+
+outcomes of investing in all accelerator companies.                              focuses on participants of accelerators that satisfy
+Here I propose a “funding ratio,” deﬁned as FR ≡                                 the following criteria: (1) located in the United States,
+(Average Funding|Closed)/(Average Funding|Acquired).                             (2) have invested in at least 30 companies across two
+Using an acquisition as a successful outcome, the                                cohorts, (3) take equity in exchange for investment,
+funding ratio is a measure of whether companies                                  and (4) are not afﬁliated with a university or sponsored
+that eventually succeed receive more funding than                                by a corporation. Imposing these criteria ensures that
+companies that eventually shut down. If the funding                              the accelerators in the sample face similar legal and
+ratio is small (<1), investors are making better in-                             country-speciﬁc geographic constraints, have some
+vestments (higher probability of a return) than if the                           baseline experience investing in companies, accept
+funding ratio is large. Because of faster exit deci-                             applications from anyone, and focus on ﬁnancial in-
+sions, conditional on quality, the model predicts the                            centives (rather than promoting academic entrepre-
+following:                                                                       neurship or speciﬁc technology platforms). According
+                                                                                 to Seed-DB, a popular website tracking accelerator
+Hypothesis 3. The funding ratio                                                  activities, there are 172 active accelerators worldwide
+                                                                                 that have accelerated 2,921 companies.6 After im-
+                        Average Funding|Closed                                   posing the selection criteria, I retain 13 accelerators
+                FR ≡
+                       Average Funding|Acquired                                  and record the location and founding year of the
+is smaller for accelerator companies than for non-accelerator                    accelerator, details of the program structure (in-
+companies.                                                                       cluding program length and funding terms), the
+                                                                                 number of afﬁliated mentors, and its complete in-
+  This is closely related to Hypothesis 2 because ac-                            vestment history with cohort information. These ac-
+celerator companies that eventually close do not raise                           celerator characteristics are summarized in Table 1.
+additional development funding. Furthermore,                                     The resulting sample consists of 1,311 accelerator
+FRaccelerator < FRnon-accelerator indicates that investing in                    companies from 13 accelerators.
+accelerator companies as a whole may be an efﬁcient
+use of money because the funding allocated to acquired                           4.2. Accelerator Companies
+companies is larger than funding allocated to compa-                             For each of the accelerator companies, I gather the
+nies that shut down.                                                             founders’ names, employment history, founding date,
+                                                                                 founding location, funding dates and amounts, in-
+4. Data and Summary Statistics                                                   dustry, description, and operational status. The main
+This paper presents both qualitative and quantitative                            data source is Crunchbase, which is an open-source
+data to document the accelerator phenomenon. To                                  database maintained by TechCrunch, the leading
+test predictions of the model and investigate the effect                         technology news site Crunchbase contains proﬁles of
+of accelerators on their portfolio companies, it is                              companies, people, and investors and is regarded as
+necessary to obtain data on companies that have                                  one of the best resources for technology companies
+participated in accelerators (accelerator companies)                             and transactions. It has partnerships with more than
+and similar companies that have not participated in                              400 venture capital ﬁrms, accelerators, incubators,
+accelerators (non-accelerator companies). This sam-                              and angel groups to ensure the accuracy of the data.
+ple is constructed by identifying a set of accelerator                           Crunchbase tends to have more early-stage trans-
+companies and then matching non-accelerator com-                                 actions than similar databases (such as CB Insights,
+panies to accelerator companies based on observable                              Dow Jones VentureSource, PitchBook, and PwC
+characteristics.                                                                 MoneyTree), which makes it ideal for the companies
+                                                                                 in the sample.7 Most important, existing company
+4.1. Accelerator Selection                                                       entries cannot be deleted from Crunchbase, so there is
+Given the heterogeneity in deﬁnition and the rate                                no survivalship bias. This is particularly important
+of new accelerators being established, this paper                                because many companies (about half in the sample)
+
+                     Table 1. Accelerator Summary Statistics
+
+                     Accelerator attributes         Observations        Mean      Standard deviation   Minimum   Maximum
+
+                     Accelerator age, years               13              3.92            2.06           1.00       8.00
+                     Investment amount, $US               13            20,846           5,505         18,000     38,000
+                     Program length, weeks                13             13.69            2.81          10.00      20.00
+                     Cohort size                          82             14.94           13.59           5.00      84.00
+                     Number of mentors                    13             62.12           59.99           1.00     182.00
+                     Size of alumni network               13            101.62          143.12          30.00     566.00
+                                                                 Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+536                                                                           Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+Table 2. Summary of Financing Round in Which                              Table 4. Summary of Accelerator Company Industries
+Accelerator Invested in Accelerator Companies                             (Self-Reported on Crunchbase)
+
+Accelerator round                Frequency                Percentage      Industry                                                     Percentage
+
+Round 1                             1,078                     95.31       Web                                                             24.32
+Round 2                                40                      3.54       Software                                                        10.81
+Round 3                                10                      0.88       E-commerce                                                      10.42
+Rounds 4–6                              3                      0.27       Mobile                                                          10.04
+Total                               1,311                    100.00       Games/video                                                      8.11
+                                                                          Enterprise                                                       5.41
+Note. Only publicly announced funding activity is included.               Advertising                                                      4.25
+                                                                          Messaging                                                        3.86
+are recorded in Crunchbase but never report any                           Analytics                                                        3.09
+external funding rounds, which is another indicator                       Other                                                           19.69
+                                                                          Total                                                          100.00
+that Crunchbase captures a wide range of companies
+and not just well-funded and well-publicized ones.
+One caveat to point out is that only external funding is                  used to see if a founder is associated with multiple
+reported. In other words, funding from friends and                        ventures. When there are discrepancies in founding
+family or the individual wealth of the founders is not                    or funding information across the different sources,
+reﬂected in Crunchbase. However, according to in-                         I defer to the company website or whichever source
+terviews and surveys with the founders, ﬁnancing                          has been most recently updated.
+constraints are not the main reason for applying to                          Tables 2–4 contain summary statistics for the ac-
+an accelerator, so the possibility of founder wealth                      celerator companies. From Table 2, we see that the
+driving accelerator participation is not a huge concern.                  seed investment from the accelerator was the ﬁrst
+In addition to Crunchbase, AngelList and CapitalIQ                        round of capital raised for 95.3% of the companies. In
+are used to supplement and validate company infor-                        other words, the majority of the accelerator compa-
+mation, and LinkedIn is used to collect past founding                     nies had no funding beyond their own money or from
+experience of the entrepreneurs. AngelList is a platform                  friends and family at the time of acceptance. Less than
+for new venture fund raising and often includes infor-                    5% of the accelerator companies had raised at least
+mation about founders and funding history. CapitalIQ                      one round of funding prior to acceptance into the
+is a division of Standard & Poors (S&P) and contains                      accelerator. In fact, the average company age at the
+ﬁnancial transaction data for both private and public                     time of acceptance into an accelerator is 17 months.
+companies. CapitalIQ obtains information from a                           These numbers indicate that accelerator compaines
+variety of sources, including press releases, media                       are generally young and are at the early stages of
+mentions, and regulatory ﬁlings, which makes it com-                      product development. Table 3 shows that, location-
+plementary to the data from Crunchbase and AngelList.                     wise, more than half the companies are located in
+One of the challenges of working with early-stage                         Silicon Valley (including San Francisco, California) and
+companies is that company names appear in differ-                         New York, New York. The ﬁve regions with the most
+ent forms, so extra care has been taken to reconcile                      companies also highly correlate with where the accel-
+company and product names to ensure consistency.8                         erators are headquartered. In terms of industries, the
+To determine a founder’s employment history, a                            ﬁrst column of Table 4 shows that software-related
+combination of founder proﬁles in Crunchbase and                          industries still dominate, accounting for more than
+LinkedIn cross-checked with other data sources is                         half the companies. Regarding founder characteris-
+                                                                          tics, accelerator company founders are, on average,
+                                                                          28.6 years old, and 78.8% hold bachelor’s degrees in
+Table 3. Summary of Geographic Dispersion of Accelerator
+Companies                                                                 science or engineering. Furthermore, 28.3% have ad-
+                                                                          vanced degrees, including 7.8% holding a master’s in
+Region                                      Frequency     Percentage      business administration.
+Silicon Valley, California                     542            54.69
+New York, New York                             130            13.12       4.3. Matched Sample
+Boston/Cambridge, Massachusetts                 64             6.46
+                                                                          The second half of the sample consists of companies that
+Boulder, Colorado                               60             6.05
+Philadelphia, Pennsylvania                      46             4.64       did not participate in accelerators, “non-accelerator com-
+Canada, Europe, Russia                          24             2.42       panies,” which are matched to accelerator companies
+Other                                          125            12.61       based on founding year, founding location, company
+Total                                          991           100.00       description, founder experience, and “pre-accelerator”
+Note. The total number is less than 1,311 because location information    funding (based on when the corresponding acceler-
+could not be conﬁrmed for 320 companies.                                  ator company applied to an accelerator). The goal
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                               537
+
+here is to control for the type and quality of company                         to company B, a non-accelerator company, which was
+such that the matched pairs look identical right before                        founded in Palo Alto, California, in 2011 and describes
+the accelerator company enters the accelerator. The                            itself as “technology services that help e-commerce
+counterfactual is companies that could have partici-                           businesses detect and ﬁght fraud.” The founders of
+pated in accelerator programs but did not. Both                                company B were all new founders, and they also did
+company characteristics and founder background can                             not raise any money pre-accelerator. Checking both
+have an impact on how companies evolve and per-                                company websites (see Appendix A for screenshots)
+form (Roberts et al. 2011). Selecting investment tar-                          further conﬁrms that the companies are similar based
+gets is a complex process that is difﬁcult to codify, and                      on observable characteristics, and therefore, company
+even the accelerator partners may not be able to ar-                           A and company B would be considered a perfect match.
+ticulate why one company was accepted and not the                              If a perfect match cannot be found, the matching criteria
+other. Because of the high degree of variation in business                     are relaxed, in turn, until a lesser match can be found.
+descriptions within the same industry, matching on in-                         The quality of the match is recorded, and accelerator
+dustry alone is insufﬁcient. For example, a company that                       companies with no matches are also recorded. The exact
+“analyzes and synthesizes social conversations in real                         algorithm for matching is included in Appendix A. One
+time” and a company that “instruments and monitors                             caveat here is that founders ﬁll out lengthy applica-
+your application’s performance” are both categorized                           tions and may disclose information, such as alumni
+as “software” companies but represent very different                           recommendations and links to product demos, that
+businesses. Propensity score matching would only                               can be pertinent to the accelerator’s selection process.
+allow matching on the industry level and be insuf-                             These selection criteria are private and unobservable
+ﬁcient for precise matches. Therefore, matches are                             to the econometrician and are therefore not accounted
+identiﬁed by hand via two coders. The project details                          for in the matching process.
+were not disclosed to the coders, and they were given                             Once the list of non-accelerator companies is iden-
+detailed instructions for the matching algorithm and                           tiﬁed, company details are gathered in the same
+examples of different types of matches.9 At a high                             manner as company details for accelerator compa-
+level, the matching procedure is the following: the                            nies, and the two samples are combined. After ex-
+universe of companies in Crunchbase is ﬁrst ﬁltered                            cluding accelerator companies with no appropriate
+based on founding year and location; then each of the                          matches and accelerator companies that participated
+remaining companies is examined to determine the best                          in multiple accelerators, the ﬁnal matched sample
+ﬁt based on the description of the company. Then the                           consists of 1,796 companies, including 898 accelerator
+entrepreneurial experience of the founders is compared.                        companies matched to 898 non-accelerator compa-
+After this ﬁrst-stage matching, a second-stage match is                        nies. Comparisons of matched company character-
+completed based on cumulative funding raised right                             istics between accelerator companies and non-
+before a company enters an accelerator (based on cohort                        accelerator companies are presented in Tables 5–7. In
+date to a quarter precision). For instance, if an accel-                       Table 5, we see that the average founding year is
+erator company participates in an accelerator in year                          between 2009 and 2010, and both accelerator and non-
+2.25 (the ninth quarter) with $20,000 in funding, the                          accelerator company founders are inexperienced. To
+matched non-accelerator comany has also raised the                             control for these slight differences, founder experi-
+same amount by year 2.25. The second-stage matching                            ence is used as an additional control in the empirical
+is particularly useful for comparing funding patterns                          analysis. The pre-accelerator funding is not statisti-
+post-accelerator. An example of a perfectly matched                            cally different between the accelerator and non-
+pair is the following: company A, an accelerator com-                          accelerator companies, indicating that the quality of
+pany, was founded in San Francisco, California, in 2011                        the matched companies is similar. In terms of geo-
+and specializes in “fraud technology for e-commerce                            graphic distribution in Table 6, companies are also
+stores.” The founders of company A have no prior                               mostly clustered in Silicon Valley, New York, and
+founding experience, and company A had zero funding                            Boston with similar representation across accelera-
+at the time of accelerator application. It is matched                          tor and non-accelerator companies. Although the
+
+
+                     Table 5. Comparison of Accelerator and Non-accelerator Companies Preaccelerator
+
+                     Company characteristics        Observations        Accelerator    Non-accelerator   Difference in p-value
+
+                     Founding year                       898            2010 (1.89)    2009.33 (1.79)           <0.05
+                     Founder experience                  898            0.21 (0.41)       0.13 (0.34)           <0.05
+                     Pre-accelerator funding             898            0.63 (0.016)      0.64 (0.016)           0.77
+
+                     Note. Mean, standard deviation in parentheses.
+                                                               Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+538                                                                         Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+Table 6. Geographic Composition in Matched Sample                       matched sample on the following dimensions: funding
+                                                                        amount, closure rate, and acquisition rate. Figure 2
+Founding location        Accelerator (%)     Non-accelerator (%)
+                                                                        shows a comparison of funding trends between the
+Alabama                      0 (0)                  2 (0.2)             accelerator and non-accelerator companies, focusing on
+Arizona                      1 (0.1)                5 (0.6)             the median funding amount. Pre-accelerator, both types
+California                 482 (53.7)             467 (52.9)            of companies have zero funding. There is a clear sep-
+Colorado                    46 (5.1)               39 (4.4)
+                                                                        aration between the companies over time, and we see
+District of Columbia         5 (0.6)                6 (0.7)
+Delaware                     1 (0.1)                1 (0.1)             that the non-accelerator companies raise more money
+Florida                      2 (0.2)                4 (0.5)             than accelerator companies. In the data, this funding
+Georgia                      4 (0.4)                6 (0.7)             gap persists for the 75th percentile and outliers in the
+Hawaii                       1 (0.1)                1 (0.1)             95th and 99th percentiles. At these levels, the difference
+Iowa                         0 (0)                  1 (0.1)
+                                                                        in funding between non-accelerator and accelerator
+Idaho                        1 (0.1)                1 (0.1)
+Illinois                     8 (0.9)                5 (0.6)             companies is even wider. For the outliers that raise
+Indiana                      1 (0.1)                0 (0)               minimum funds, non-accelerator companies raise
+Kentucky                     1 (0.1)                1 (0.1)             zero dollars compared with accelerator companies
+Louisiana                    1 (0.1)                1 (0.1)             that only receive initial funding from the accelerator.
+Massachusetts               64 (7.1)               82 (9.3)
+                                                                        These patterns illustrate that there may be self-selection
+Maryland                     4 (0.4)                3 (0.3)
+Maine                        0 (0)                  2 (0.2)             into accelerators based on initial quality. One caveat is
+Michigan                     3 (0.3)                3 (0.3)             that the funding amounts alone without the equity terms
+Minnesota                    3 (0.3)                2 (0.2)             only give us approximations of the company value.
+Missouri                     1 (0.1)                2 (0.2)                Turning to the companies that close down, in the
+Montana                      0 (0)                  1 (0.1)
+                                                                        ﬁrst set of results in Table 8, we see that accelerator
+North Carolina               1 (0.1)                2 (0.2)
+New Jersey                   3 (0.3)                4 (0.5)             companies go out of business 11.4% of the time
+Nevada                       2 (0.2)                4 (0.5)             compared with 4.34% of the time for non-accelerator
+New York                   113 (12.6)             119 (13.5)            companies. In addition, when accelerator companies
+Oklahoma                     0 (0)                  2 (0.2)             shut down, they have only raised around $0.13 mil-
+Oregon                       2 (0.2)                3 (0.3)
+                                                                        lion dollars in funding compared with $1.81 million
+Pennsylvania                59 (6.6)               46 (5.2)
+Rhode Island                34 (3.8)               17 (1.9)             for non-accelerator companies. In addition, there is a
+Tennessee                    0 (0)                  1 (0.1)             spike in closures within one year after graduation, as
+Texas                        4 (0.4)                6 (0.7)
+Virginia                     2 (0.2)                4 (0.5)
+Washington                  25 (2.8)               22 (2.5)             Table 7. Industry Composition in Matched Sample
+Wisconsin                    2 (0.2)                2 (0.2)
+Australia                    1 (0.1)                0 (0)               Industry                 Accelerator (%)           Non-accelerator (%)
+Brazil                       2 (0.2)                1 (0.1)
+Canada                       6 (0.7)                5 (0.6)             Advertising                  39 (4.3)                    40 (4.5)
+France                       1 (0.1)                2 (0.2)             Analytics                    31 (3.5)                    40 (4.5)
+Germany                      2 (0.2)                1 (0.1)             Biotech                       7 (0.8)                    14 (1.6)
+Great Britain                6 (0.7)                4 (0.5)             E-commerce                   53 (5.9)                    52 (5.8)
+Hong Kong                    1 (0.1)                1 (0.1)             Education                    19 (2.1)                    19 (2.1)
+India                        1 (0.1)                1 (0.1)             Enterprise                   55 (6.1)                    77 (8.6)
+Ireland                      1 (0.1)                1 (0.1)             Fashion                      11 (1.2)                     7 (0.8)
+Israel                       1 (0.1)                0 (0)               Finance                      14 (1.6)                    16 (1.8)
+Total                      898 (100)              883 (100)             Games/video                  43 (4.8)                    38 (4.2)
+                                                                        Hardware                     22 (2.4)                    15 (1.7)
+Note. The location for 15 non-accelerator companies could not be        Health                       39 (4.3)                    35 (3.9)
+conﬁrmed.                                                               Hospitality                   7 (0.8)                     6 (0.7)
+                                                                        Medical                       7 (0.8)                    11 (1.2)
+companies are matched based on business de-                             Messaging                    19 (2.1)                    18 (2)
+                                                                        Mobile                       97 (10.8)                  101 (11.2)
+scriptions, Table 7 illustrates the broader trends and
+                                                                        Network hosting               8 (0.9)                     7 (0.8)
+consistency of industries across the matched pairs.                     Other                        56 (6.2)                    47 (5.2)
+Overall, the extensive matching algorithm builds                        Public relations             10 (1.1)                     6 (0.7)
+samples of accelerator and non-accelerator compa-                       Real estate                  10 (1.1)                     5 (0.6)
+nies that look very similar based on observable                         Search                       10 (1.1)                    10 (1.1)
+                                                                        Security                      5 (0.6)                     6 (0.7)
+characteristics.
+                                                                        Social                       24 (2.7)                    21 (2.3)
+                                                                        Software                    106 (11.8)                  100 (11.1)
+5. Nonparametric Analysis                                               Travel                       11 (1.2)                     7 (0.8)
+Several patterns emerge from comparing the accel-                       Web                         195 (21.7)                  200 (22.3)
+                                                                        Total                       898 (100)                   898 (100)
+erator and non-accelerator companies within the
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                             539
+
+Figure 2. (Color online) Funding Comparison for                              an early stage or the founders are being acquired for
+Accelerator and Non-accelerator Companies                                    their talent.
+
+
+                                                                             6. Empirical Analysis
+                                                                             There are three parts for the empirical analysis. The
+                                                                             ﬁrst is testing the predictions of the model using the
+                                                                             matched sample, the second is providing additional
+                                                                             evidence using a separate sample of rejected accel-
+                                                                             erator applicants, and the third includes additional
+                                                                             robustness checks. To isolate the effect of the accel-
+                                                                             erator, I compare the outcomes of accelerator com-
+                                                                             panies with those of non-accelerator companies, so
+                                                                             identiﬁcation comes from variation across matched
+                                                                             pairs. The necessary assumption on the accelerator
+Notes. This ﬁgure highlights the differences between the median              and non-accelerator companies is that, conditional on
+accelerator and non-accelerator companies. Accelerator companies             observable characteristics, the prior likelihood of ac-
+receive initial funding from accelerators, but over time, non-accelerator
+companies raise more money.                                                  ceptance into an accelerator is identical. The matched
+                                                                             sample consists of 1,796 companies, including 898
+seen in Figure 3. In fact, the majority of accelerator                       non-accelerator companies that are matched to 898
+companies (77%) have less than $50,000 at the time of                        accelerator companies.
+closure, which suggests that most of these companies                            The main empirical challenge is selection bias in the
+are young and of lower quality and likely go out of                          sense that certain types of founders might be more
+business to cut losses early. This can actually be seen                      likely to apply and participate in accelerators. In
+as a beneﬁt of accelerator participation in the sense                        particular, founders with more experience, better
+that accelerator companies learn about their own                             ideas, or existing investor connections may not think
+quality during the program and know when to close                            it is worth giving up equity and moving to a new city
+down instead of investing more money into an idea                            just to participate in an accelerator. To alleviate this
+that will eventually fail.                                                   concern, I use a founder’s entrepreneurial experience
+  In the second set of results in Table 8, we see that                       as a proxy for the type of founder that may be in-
+13.3% of accelerator companies have been acquired,                           terested in applying to an accelerator. There might
+compared with 10.7% of non-accelerator companies,                            also be selection in the types of companies that are
+and that, at the time of acquisition, accelerator                            more likely to be accepted into an accelerator. To
+companies have only raised $1.99 million compared                            control for observable characteristics that appear on
+with $7.86 million for the non-accelerator companies.                        the application, the non-accelerator companies are
+Furthermore, in Figure 4, the kernel density graph                           matched to accelerator companies based on founding
+indicates that accelerator companies tend to get ac-                         year, founding location, company description, and
+quired within two years after the accelerator. Taking                        pre-accelerator funding in addition to founder ex-
+into account the low funding numbers, these ﬁgures                           perience. The founding year and location control for
+suggest that the accelerator companies get acquired                          macroeconomic conditions, geographic advantages,
+early on instead of raising additional funding. It is                        and the company age (which may proxy for the stage
+plausible that the product is either very promising at                       of the business). More important, the company
+
+                     Table 8. Acquisition and Closure Rate Comparison for Accelerator and Non-accelerator
+                     Companies
+
+                                                                            Accelerator (N = 898)   Non-accelerator (N = 898)
+
+                     Closures
+                       Number of companies closed                               102 (11.4%)                 39 (4.34%)
+                       Average funding at time of closure ($MM)                    0.13                        1.81
+                     Acquisitions
+                       Number of companies acquired                             119 (13.3%)                 96 (10.7%)
+                       Average funding at time of acquisition ($MM)                1.99                        7.86
+
+                     Notes. The number of acquisitions for non-accelerator companies includes three companies that have
+                     gone public. At the time of data collection, none of the accelerator companies are public or have ﬁled for
+                     an initial public offering. The average funding at time of acquisition for non-accelerator companies,
+                     excluding public companies, is $5.47MM.
+                                                                Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+540                                                                           Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+Figure 3. (Color online) Kernel Density Graph of Closure                 for founding year, founder experience, and industry
+Time Post-accelerator                                                    ﬁxed effects. Thus,
+
+                                                                             log(1 + Fundingi |Closed)
+                                                                              β0 + β1 AcceleratorCompanyi
+                                                                                                                                               (2)
+                                                                               + FounderExpi + FoundingYeari + Industryi
+                                                                                + ξi .
+
+                                                                         To test Hypothesis 3, I calculate the funding ratio of
+                                                                         the matched sample directly. In Table 14, we see that,
+                                                                         in the matched sample, FRaccelerator  0.07 < 0.34 
+                                                                         FRnon-accelerator , which is consistent with the pre-
+                                                                         dictions of the model, and Hypothesis 3 is supported.
+
+                                                                         6.2. Variables
+                                                                         In the model, the performance of companies is ex-
+                                                                         amined through ﬁrm survival as measured by the
+Note. The Epanechnikov kernel is used to calculate the kernel density
+                                                                         probability of closure. In addition, the data enables
+estimate for when companies go out of business.                          further investigation on (1) external ﬁnancing, (2)
+                                                                         venture growth, and (3) acquisitions. Closures con-
+description accounts for the type of business that                       cern the survival status and duration of the compa-
+the accelerator partners are interested in funding.                      nies. Closed is a binary variable with 1 indicating that a
+The preaccelerator funding is a proxy for company                        company is no longer active and 0 indicating that a
+quality. Taking these factors into consideration, the                    company is still operational. A company is coded as
+matched non-accelerator companies should resem-                          inactive if (1) it is indicated as “closed” on any of
+ble the accelerator companies at the time of applica-                    the data sources, (2) the company website cannot be
+tion. However, accelerator partners may choose                           found, or (3) the company social media accounts
+companies in which to invest based on unobserv-                          (e.g., Twitter) or any traces of presence on the internet
+able characteristics—impressive demos, charis-                           have not been updated in a year. All other companies
+matic founders, recommendations from accelerator                         are coded as active, including companies that have
+alumni—but the accelerator and non-accelerator                           been acquired even if the original product or team
+companies are only matched based on observable                           no longer exists after the acquisition. It is plausible
+characteristics. Although it is difﬁcult to completely                   that an acquired company might have gone out of
+control for the selection bias in the matched sample,                    business if it had not been acquired, but there is no
+one of the ways I alleviate this concern is by restricting               evidence of this in the sample. Prior research also
+the accelerator and non-accelerator companies to
+subsamples that have achieved certain funding                            Figure 4. (Color online) Kernel Density Graph of
+thresholds. Furthermore, the analysis in Section 6.4                     Acquisition Time Post-accelerator
+uses a separate sample of accelerator applicants to
+address this issue.
+
+6.1. Empirical Speciﬁcations
+To test Hypothesis 1, I use the following logit model to
+regress a closure event on an accelerator company
+dummy variable and controls for founder experience,
+year, and industry ﬁxed effects:
+                    (
+  P(Closedi  1)  P β0 + β1 AcceleratorCompanyi
+                       + FounderExpi + FoundingYeari             (1)
+                                           )
+                       + Industryi + wi ≥ 0 .
+
+To test Hypothesis 2, I use ordinary least squares to
+regress the log of funding amount for Companyi ,
+conditional on the company shutting down, on an                          Note. The Epanechnikov kernel is used to calculate the kernel density
+accelerator company dummy variable, and controls                         estimate for when companies get acquired.
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                                 541
+
+suggests that companies that are acquired are more                             their portfolio companies, it is clear that it is an im-
+appropriately characterized as successful rather than                          portant metric of success to track. Acquired is a binary
+unsuccessful outcomes (Coleman et al. 2013). For                               variable with 1 indicating that a company has been
+companies with explicit closing dates reported in any                          acquired and 0 indicating that a company has not
+of the databases, an additional variable, time-to-close,                       been acquired. Note that initial public offerings are
+is calculated as the company age when it goes out of                           not used as a metric here because all the accelerator
+business.                                                                      companies in the sample are still private (as of May
+   In addition to closures, I also measure performance                         2015). Without seeing the actual terms of the acqui-
+via external ﬁnancing, web trafﬁc, and acquisition out-                        sition, it is difﬁcult to evaluate whether it is successful
+comes. External ﬁnancing is based on the funding                               from a ﬁnancial standpoint. However, additional
+amount obtained by the companies in U.S. dollars.                              details of the acquisition are collected from company
+Funding is disclosed on company websites, Crunchbase,                          press releases to gain insight into the conditions
+or through press releases. Therefore, if this information                      under which a company was acquired. These mea-
+becomes public, it is observed in at least one of the data                     sures include binary variables for whether there are
+sources, and the funding details are further cross-                            plans to shut down the initial product, whether it is an
+checked for accuracy. When no funding information is                           explicit “acqui-hire” for a small group of employees,
+found, it is assumed that the company has not raised any                       and the count of employees at the time of the ac-
+money. In this sample, all accelerator companies receive                       quisition. These variables are coded only if speciﬁc
+funding from the accelerators, and non-accelerator                             plans or numbers are explicitly stated in press releases
+companies that have not raised any money vary across                           or related articles. Summary statistics for the main
+age, location, and industry, alleviating concerns that only                    outcome variables are presented in Table 9.
+speciﬁc types of companies are represented.
+   Web trafﬁc data are collected via Alexa (www.Alexa                          6.3. Main Results
+.com) to capture whether users are engaged with the                            The regression results of accelerator participation on
+company websites. The ﬁrst measure compares the                                closures are presented in Table 10 with robust standard
+log ratio of web views per million between August 1                            errors to address concerns with heteroskedasticity.
+of the ﬁrst and third years after the company was                              Column (1) provides estimates of the probability of
+founded, and the second measure is a binary indicator                          closing down associated with participating in an ac-
+for whether the views increased at all at the end of the                       celerator, controlling for founder experience in addition
+two-year period. To account for potentially large                              to year effects to control for macroeconomic conditions
+within-industry variations in website use, the website                         and industry effects to control for differences across
+rank in the United States is also collected, and anal-                         industries. We see that accelerator companies are
+ogous measures are constructed (Kerr et al. 2014).                             positively and signiﬁcantly more likely to shut down
+   To analyze performance from the perspective of                              than non-accelerator companies. Speciﬁcally, the odds
+acquisitions, several acquisition-related measures are                         of going out of business for accelerator companies
+created. Given that acquisition statistics are often                           over non-accelerator companies are 150% higher. Even
+cited when accelerators speak to the performance of                            when controlling for lower quality by conditioning on
+
+Table 9. Summary Statistics for Performance Outcome Variables
+
+Variable                                     Observations               Mean          Standard deviation      Minimum           Maximum
+
+Pr(Closed)                                       1,796                     0.08                 0.27                  0.00             1.00
+Total funding if closed ($MM)                      142                     0.59                 1.52                  0.00            11.30
+Time-to-close (days)                                42                   935.00               535.63                212.00         2,191.00
+Pr(Closed if total funding ≤ $100k)                857                     0.12                 0.32                  0.00             1.00
+Total funding ($MM)                              1,796                     4.47                18.70                  0.00           486.20
+Total funding if funding rds > 1                   745                     9.33                27.64                  0.15           486.20
+Total funding if funding ≥ $1MM                    690                    11.45                28.84                  1.00           486.20
+Different page views per million                   802                     2.17                38.24                −10.36         1,067.74
+Diff rank                                          802              −230,245.60           526,686.90         −3,781,337.00     1,436,984.00
+Pr(Improved page views per million)              1,796                     0.80                 0.40                  0.00             1.00
+Pr(Improved rank)                                1,796                     0.67                 0.47                  0.00             1.00
+Pr(Acquired)                                     1,796                     0.12                 0.32                  0.00             1.00
+Total funding if acquired ($MM)                    211                     3.54                 8.27                  0.00            55.35
+Pr(Product shut down)                              207                     0.34                 0.48                  0.00             1.00
+Pr(Acqui-hire)                                     210                     0.10                 0.31                  0.00             1.00
+Number of employees at acquisition                  71                    15.15                32.84                  2.00           250.00
+Pr(Acquired if funding ≥ $1MM)                     939                     0.13                 0.34                  0.00             1.00
+                                                                      Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+542                                                                                    Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+Table 10. Analysis of Accelerator Participation and Closures for Matched Sample
+
+                                      (1)                               (2)                             (3)                               (4)
+                                     Logit                            Logit                         Cox hazard                          OLS
+Variables                            Closed                  Closed if raised ≤$100k                Time-to-close            log(Funding if closed) ($MM)
+
+AcceleratorCompany                  0.921***                         1.417***                          1.856***                         −0.649***
+                                   (0.205)                          (0.305)                           (0.48)                            (0.146)
+FounderExp                        −0.130                           −0.0185                           −0.645                             −0.142
+                                  (0.261)                          (0.333)                           (0.532)                            (0.120)
+Year ﬁxed effects                    Yes                              Yes                              Yes                                 Yes
+Industry ﬁxed effects                Yes                              Yes                              Yes                                 Yes
+Constant                          −2.787**                         −2.772**                                                                0.733***
+                                  (1.084)                          (1.228)                                                                (0.104)
+Observations                        1,681                             762                              1,696                                 142
+R2                                                                                                                                          0.456
+
+Note. Robust standard errors in parentheses.
+  ***p < 0.01; **p < 0.05; *p < 0.1.
+
+raising at most $100,000 of funding in column (2), the                            industries, such as hardware, may be more difﬁcult
+coefﬁcient is still positive and signiﬁcant. In terms                             to shut down than companies in software, but the
+of how quickly companies go out of business, results                              probability of closure and time-to-close are compared
+from a Cox proportional hazards model are presented                               between matched companies in the same industry.
+in column (3). The coefﬁcient is positive and signiﬁ-                             Next, focusing on companies that shut down even-
+cant, which indicates that accelerator companies have                             tually, we see in column (4) that closed accelerator
+a faster time-to-close. Furthermore, a randomly se-                               companies receive less funding than closed non-
+lected accelerator company will be 6.4 times as likely to                         accelerator companies. In other words, when lower-
+close than a non-accelerator company. These results                               quality accelerator companies go out of business,
+suggest that accelerators may help resolve uncertainty                            they have raised less funding than lower-quality non-
+around company quality, and consequently, acceler-                                accelerator companies that go out of business. By
+ator companies cease to operate rather than continue to                           combining the results in columns (1), (3), and (4),
+operate at a loss. An additional assumption here is that                          Hypotheses 1 and 2 are supported.
+a founder’s decision to participate in an accelerator is                            Three additional measures of performance—funding,
+not correlated with the ability to shut down a com-                               web trafﬁc, and acquisitions—are examined in Tables
+pany sooner. This is a reasonable assumption given                                11 and 12. Column (1) of Table 11 provides estimates
+that founders of accelerator and non-accelerator                                  of the changes associated with participating in an
+companies have similar entrepreneurial experience                                 accelerator on the amount of log funding raised (in
+and are matched based on characteristics that could                               millions), controlling for founder experience, year,
+inﬂuence how easy it is to close down the company.                                and industry ﬁxed effects. The funding amount is
+For instance, companies in more capital-intensive                                 logged in the main analysis to account for skewness
+
+Table 11. Analysis of Accelerator Participation and Additional Performance Outcomes for Matched Sample
+
+                             (1)                     (2)               (3)                  (4)                  (5)              (6)                   (7)
+                            OLS                     OLS               OLS                 OLS                   OLS              Logit                 Logit
+                        log(Funding)          log(Funding if     log(Funding if     log(Ratio views per     log(Ratio web    Improved views           Improved
+Variables                  ($MM)               raised one rd)    raised $1MM)              mm)                  rank)           per mm                web rank
+
+AcceleratorCompany       −0.497***              −1.049***           −0.393***            −0.438*                   0.0650       −0.410***              0.099
+                          (0.0496)               (0.0848)           (0.0740)             (0.224)                  (0.0837)      (0.130)               (0.113)
+FounderExp                 0.0405                 0.0836             0.132                 0.288               −0.248**         −0.0744                0.192
+                          (0.0661)               (0.107)            (0.0929)              (0.306)              (0.123)          (0.164)               (0.144)
+Year ﬁxed effects           Yes                    Yes                Yes                   Yes                     Yes           Yes                   Yes
+Industry ﬁxed effects       Yes                    Yes                Yes                   Yes                     Yes           Yes                   Yes
+Constant                   1.800 *                3.547***           5.072***              1.149               −0.991***          0.735***            −0.861***
+                          (1.374)                (0.325)            (0.202)               (0.192)
+Observations               1,796                   746                690                   802                    802            1,649                1,649
+R2                         0.142                  0.288              0.188                 0.067                  0.071
+
+Note. Robust standard errors in parentheses.
+  ***p < 0.01; **p < 0.05; *p < 0.1.
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                                      543
+
+Table 12. Analysis of Accelerator Participation and Acquisition Outcomes for Matched Sample
+
+                                                                             (3)                                                (6)
+                          (1)                    (2)                      OLS log              (4)             (5)         Neg binomial
+                         Logit                 Logit                     (Funding             Logit           Logit      Number of employees
+Variables               Acquired    Acquired if funding ≥$100k          if acquired)    Product shut down   Acqui-hire     when acquired
+
+AcceleratorCompany       0.0742                0.351*                   −0.510***             0.630*        −0.0157           −0.998***
+                        (0.153)               (0.212)                   (0.146)              (0.329)        (0.550)           (0.378)
+FounderExp             −0.222                  0.149                      0.287*              0.659           0.400           -0.499*
+                       (0.223)                (0.310)                    (0.170)             (0.493)         (0.724)          (0.261)
+Year ﬁxed effects         Yes                   Yes                        Yes                Yes              Yes              Yes
+Industry ﬁxed             Yes                   Yes                        Yes                Yes              Yes              Yes
+  effects
+Constant               −3.538***             −4.052***                    5.387***          −1.473          −1.637**           0.729
+                       (0.451)               (0.747)                     (0.411)            (1.146)         (0.778)           (1.452)
+Observations             1,745                  925                       0.405               197              146               71
+R2                                                                        0.333
+
+Note. Robust standard errors in parentheses.
+  ***p < 0.01; **p < 0.05; *p < 0.1.
+
+
+
+in the distribution. The estimated coefﬁcient on funding                          year effects, and industry effects. Although the co-
+is negative and statistically signiﬁcant for accelerator                          efﬁcient on accelerator companies is not signiﬁcant
+companies. Note that because the matched company                                  in column (1), after conditioning on the quality of the
+pairs belong to different cohorts and the funding amount                          company using funding as a proxy, the coefﬁcient is
+is measured at the end of the sampling period, this                               positive and signiﬁcant in column (2). In column (3),
+translates to $9 million dollars less funding across an                           we see that, conditional on being acquired, acceler-
+average of three years after graduating from an accel-                            ator companies also raise less money. To gain insight
+erator. In columns (2) and (3), the number of funding                             into the conditions under which companies are ac-
+rounds and existing amounts of funding are used as                                quired, I regress accelerator participation on addi-
+proxies for company quality. The sample is limited to                             tional acquisition characteristics. In columns (4)–(6),
+companies that have raised at least one round of funding                          we see that acquisitions of accelerator companies
+and companies that have raised at least $1 million dol-                           are more likely to involve shutting down the initial
+lars, respectively. In both regressions, participating in an                      product, and there is a negative and statistically
+accelerator contributes negatively and signiﬁcantly to-                           signiﬁcant effect on the number of employees at the
+ward total funding raised, indicating that differences in                         time of acquisition. These results indicate that ac-
+fund-raising are robust to additional restrictions on                             quisitions involving accelerator companies are less
+company quality. It is worth noting that there may be                             likely motivated by the technology itself and more
+heterogeneous effects given the wide dispersion of fund                           likely for the talent of employees.
+raising amounts within the sample. However, based on
+patterns we observe for outlier companies that have the                           6.4. Additional Evidence: Rejected Applicants
+most funding in either group, these results may be                                The prediction from the model is that the main
+conservative estimates for the best-performing com-                               ﬁndings related to the feedback effects should be
+panies. In columns (4) and (5), I use log changes in web                          present when comparing accepted accelerator ap-
+trafﬁc and web ranking in the United States, and the                              plicants and rejected applicants in the ﬁnal round.
+results show that accelerator participation contrib-                              Anecdotal evidence from interviews suggests that the
+utes to decreases in web trafﬁc between the ﬁrst and                              ﬁnal selection is not very different from a coin toss,
+third years of company operation. It does not have a                              which, in turn, implies that the statistical comparison
+signiﬁcant effect on changes in web ranking, though.                              is very close to a randomized experiment. To further
+Regression results using binary measures tracking                                 test the predictions of the model, a separate applicant
+any improvements are presented in columns (6) and                                 sample consisting of rejected applicants and accepted
+(7). Similar to ﬁndings using actual differences in web                           applicants (accelerator companies) was constructed.
+trafﬁc and web rank, we see that accelerators have a                              Because of the low acceptance rates and lack of
+negative and signiﬁcant effect on the probability that                            feedback for rejected applicants, many founders turn to
+web trafﬁc increases over a two-year period.                                      online forums to solicit feedback on their applications
+   In Table 12, I examine the probability of acquisition                          and interviews. Applicants rejected by Y Combinator
+using accelerator participation, founder experience,                              are particularly vocal, and one applicant even started
+                                                       Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+544                                                                 Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+an accelerator speciﬁcally for fellow rejects.10 Through        Table 13. Analysis of Accelerator Participation and Venture
+Y Combinator’s own news forum, web searches, and                Performance for Accelerator Companies and Rejected
+interviews, I was able to identify a group of applicants        Applicants
+to Y Combinator that was rejected in the ﬁnal round
+                                                                                                (1)                       (2)
+of interviews.11 After excluding applicants that even-                                         Logit                     Logit
+tually participated in any accelerator, remaining appli-        Variables                      Closed         Closed if funding ≤$100k
+cants are then matched back to accepted Y Combinator
+                                                                Accelerator Company            0.474                     0.857
+accelerator companies based on cohort applied to and
+                                                                                              (1.030)                   (1.092)
+business descriptions, resulting in a sample of 34 com-
+                                                                Constant                      −2.015**                 −1.705**
+panies.12 Further company details, including funding                                          (0.801)                  (0.832)
+milestones and operational status, are then collected.          Observations                     34                       23
+Because of the small sample size and availability of data,      R2
+such as the date of closure, a subset of the analysis from      Note. Robust standard errors in parentheses.
+Table 10 is replicated with the applicant sample.                 ***p < 0.01; **p < 0.05; *p < 0.1.
+  Given that the accepted and rejected applicants all
+made it to the ﬁnal round and should be of similar
+quality from the perspective of the accelerator, we             Table 14. Comparison of Funding Ratio Between
+                                                                Accelerator and Non-accelerator Companies
+would expect that (1) the closure rate is higher for
+accepted applicants than for rejected applicants, and                                        Accelerator            Non-accelerator
+(2) the funding ratio is lower for accepted applicants
+than for rejected applicants. If there are no differences       Matched sample                  0.07                       0.34
+between the rejected and accepted applicants, this              Applicant sample      (Accepted applicants)       (Rejected applicants)
+                                                                                              0.004                        0.02
+would suggest that the accelerator effect is entirely
+one of selection. In other words, accelerators may              Notes. The funding ratio is deﬁned as
+have an effect on founders, but such effect is not re-
+                                                                                           Average Funding|Closed
+ﬂected in funding, acquisitions, or closures. The re-                              FR ≡                            .
+                                                                                          Average Funding|Acquired
+gression results of performance outcomes of the
+applicant sample are reported in Table 13. The results          The analytical results derived from the model are that FR < 1 for
+show that accepted applicants are more likely to close          accelerator companies and FR≈1 for non-accelerator companies.
+down with or without a funding threshold, but the
+coefﬁcients are not statistically signiﬁcant. Note that         there were varying degrees of the quality of the match.
+year and industry ﬁxed effects are not included to              To account for this, Table 15 includes analysis in
+leverage the available data with a smaller sample size.         which the observations are weighted by the quality of
+Because the accepted and rejected applicants in the             the match. The signs on the coefﬁcient for accelerator
+ﬁnal round are already matched by the cohort to                 participation are consistent with the main results
+which they applied and the business description, they           from Table 10, and the effect size actually increases
+are similar from the perspective of the accelerator,            for the probability of closing down. There is also the
+and omitted variable bias becomes less of a concern. In         question of outliers and to what extent they are driving
+terms of the funding ratio, FRaccepted  0.004 < 0.02          the results given that we would expect accelerators and
+FRrejected in Table 14, which is a ratio of 5. Although the     founders to “swing for the fences.” The lowest and
+coefﬁcient on closure rate is not statistically signiﬁ-         highest decile companies are excluded for this anal-
+cant, it is directionally consistent and may indicate           ysis, and the results are presented in Table 16. With-
+heterogeneous effects within the accelerator compa-             out the worst and best companies, the qualitative
+nies. These results support the main ﬁndings and                ﬁndings still hold, but the magnitude of the effect
+help alleviate concerns about selection bias in the             has decreased. The third robustness check relates to
+matched sample. If accelerators are able to screen              clustered standard errors. In the main speciﬁcation,
+for quality, it seems that screening precisely is difﬁ-         robust standard errors are reported, but it is plausible
+cult, and even the marginal applicant that is of good           that the observations could be correlated within co-
+quality experiences the feedback effect of shutting             horts. In Table 17, the standard errors are clustered
+down sooner.                                                    at the cohort level (with non-accelerator companies
+                                                                in one cluster), addressing potential deﬂation of
+6.5. Robustness Checks                                          standard errors from within-cohort correlation. We
+To test the robustness of the main results, the baseline        see that the precision of the estimates actually in-
+regressions in Table 10, columns (1), (3), and (4), are         creases for the funding-related regressions. The
+extended with four alternative speciﬁcations. Even              fourth set of robustness tests is shown in Table 18 in
+though an extensive matching algorithm was used,                which year × industry ﬁxed effects, accelerator ﬁxed
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                          545
+
+                     Table 15. Analysis of Accelerator Participation and Venture Performance Where Sample Is
+                     Weighted by Quality of Match
+
+                                                          (1)               (2)                        (3)
+                                                         Logit          Cox hazard                   OLS
+                     Variables                           Closed         Time-to-close     log(Funding if closed) ($MM)
+
+                     AcceleratorCompany                  0.950***          1.788***                −0.659***
+                                                        (0.225)           (0.507)                  (0.160)
+                     FounderExp                         −0.0870          −0.368                    −0.178
+                                                        (0.273)          (0.568)                   (0.117)
+                     Year ﬁxed effects                    Yes               Yes                      Yes
+                     Industry ﬁxed effects                Yes               Yes                      Yes
+                     Constant                           −3.102***                                    0.603**
+                                                        (1.069)                                     (0.246)
+                     Observations                         1,681            1,696                      142
+                     R2                                                                              0.487
+
+                     Note. Robust standard errors in parentheses.
+                       ***p < 0.01; **p < 0.05; *p < 0.1.
+
+
+effects, and cohort ﬁxed effects are added. In columns                    7. Discussion
+(1)–(3), we see that the results are robust to addi-                      The recent popularity of accelerators has prompted
+tional year × industry effects, which is consistent                       both founders and investors to scrutinize the bene-
+with expectations, because companies are matched by                       ﬁt of accelerators. This paper proposes a model
+founding year and business descriptions. To account for                   motivated by a founder’s decision process of accel-
+additional variation across 13 accelerators in the sample,                erator participation and tests the predictions using a
+columns (4)–(6) replicate the main regressions using                      matched sample of accelerator and non-accelerator
+accelerator ﬁxed effects. The signs and signiﬁcance of                    companies to investigate the effect of accelerators on
+the coefﬁcients are robust to this speciﬁcation. The                      performance. There are three sets of results. The ﬁrst is
+                                                                          that accelerator companies close earlier and at a higher
+introduction of cohort ﬁxed effects in columns (7)–(9)
+                                                                          rate. Second, conditional on closing, accelerator com-
+actually strengthens the results. This may indicate the
+                                                                          panies raise less money than non-accelerator compa-
+presence of additional benchmarking information
+                                                                          nies. These results suggest that accelerators help
+within cohorts that helps founders decide whether to                      resolve uncertainty around company quality faster
+shut down. Overall, the results from these robustness                     and that accelerator companies learn to cut losses
+tests increase the conﬁdence in the matched sample                        earlier and shut down accordingly. Third, even though
+and rule out the possibility that outliers or hetero-                     accelerator companies raise less money, on average, the
+geneous characteristics of accelerators or cohorts are                    funding ratio is lower, meaning that more money is
+driving the main ﬁndings.                                                 invested in companies that eventually get acquired
+
+
+                     Table 16. Analysis of Accelerator Participation and Venture Performance Excluding First
+                     and Tenth Decile Companies
+
+                                                          (1)               (2)                        (3)
+                                                         Logit          Cox hazard                   OLS
+                     Variables                           Closed         Time-to-close     log(Funding if closed) ($MM)
+
+                     AcceleratorCompany                  0.529**          1.595***                 −0.663***
+                                                        (0.228)          (0.547)                   (0.144)
+                     FounderExp                         −0.152           −0.664                    −0.0883
+                                                        (0.278)          (0.562)                   (0.119)
+                     Year ﬁxed effects                    Yes               Yes                      Yes
+                     Industry ﬁxed effects                Yes               Yes                      Yes
+                     Constant                           −3.366***                                    0.720***
+                                                        (0.515)                                     (0.101)
+                     Observations                         1,306            1,308                       136
+                     R2                                                                               0.496
+
+                     Note. Robust standard errors in parentheses.
+                       ***p < 0.01; **p < 0.05; *p < 0.1.
+                                                                   Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+546                                                                                Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+                     Table 17. Robustness Checks of Main Analysis with Clustering
+
+                                                         (1)                  (2)                                  (3)
+                                                        Logit             Cox hazard                             OLS
+                     Variables                          Closed            Time-to-close               log(Funding if closed) ($MM)
+
+                     AcceleratorCompany                 0.924***             1.595***                          −0.649***
+                                                       (0.139)              (0.547)                            (0.0395)
+                     FounderExp                       −0.130               −0.664                              −0.142**
+                                                      (0.222)              (0.562)                             (0.0572)
+                     Year ﬁxed effects                  Yes                   Yes                                Yes
+                     Industry ﬁxed effects              Yes                   Yes                                Yes
+                     Constant                         −2.720***                                                  0.542***
+                                                      (0.433)                                                   (0.104)
+                     Observations                       1,681                 1,308                                142
+                     R2                                                                                          0.456
+
+                     Note. Robust standard errors clustered by cohort in parentheses.
+                       ***p < 0.01; **p < 0.05; *p < 0.1.
+
+than in companies that eventually close. Furthermore,                       sample of rejected applicants instead of matched non-
+it seems that accelerators provide an environment such                      accelerator companies.
+that would-be entrepreneurs can experiment with new                           This paper provides evidence that there are feed-
+ideas in a low-cost way. These results are further                          back effects from accelerators. In particular, acceler-
+supported when the analysis is restricted to matched                        ators provide better signals of the idea quality and,
+accelerator and non-accelerator companies achieving                         thus, allow for quicker exits and better funding efﬁ-
+certain funding thresholds and when using a separate                        ciencies. The mechanism here is that accelerators
+
+Table 18. Robustness Checks of Main Analysis Using Additional Fixed Effects
+
+                                     (1)            (2)                   (3)                      (4)         (5)                   (6)
+                                    Logit       Cox hazard               OLS                      Logit    Cox hazard               OLS
+Variables                           Closed      Time-to-close log(Funding if closed) ($MM)        Closed   Time-to-close log(Funding if closed) ($MM)
+
+AcceleratorCompany                   0.869***      1.669***            −0.604***               0.920***       1.839***               −0.684***
+                                    (0.224)       (0.494)              (0.201)                (0.209)        (0.488)                 (0.141)
+FounderExp                      −0.113           −0.361                −0.210                −0.126          −0.506                  −0.170
+                                (0.283)          (0.595)               (0.145)               (0.264)         (0.592)                 (0.116)
+Year and industry ﬁxed effects    Yes               Yes                   Yes                   Yes             Yes                    Yes
+Year × industry ﬁxed effects      Yes               Yes                   Yes                   No              No                      No
+Accelerator ﬁxed effects          No                No                    No                    Yes             Yes                    Yes
+Cohort ﬁxed effects               No                No                    No                    No              No                      No
+Constant                       −30.40                                   0.179                −2.929***                               −0.603
+                                                                       (0.201)               (1.006)                                 (0.370)
+Observations                        1,192          1,696                  142                  1,681           1,696                    142
+R2                                                                      0.626                 0.159                                   0.534
+
+                                                         (7)                              (8)                                            (9)
+                                                        Logit                         Cox hazard                                       OLS
+Variables                                               Closed                        Time-to-close                         log(Funding if closed) ($MM)
+
+AcceleratorCompany                                      1.129***                         2.339***                                    −0.777***
+                                                       (0.222)                          (0.589)                                      (0.200)
+FounderExp                                              0.0735                           0.957                                       −0.174
+                                                       (0.291)                          (0.887)                                      (0.172)
+Year and industry ﬁxed effects                            Yes                              Yes                                          Yes
+Year × industry ﬁxed effects                              No                               No                                           No
+Accelerator ﬁxed effects                                  No                               No                                           No
+Cohort ﬁxed effects                                       Yes                              Yes                                          Yes
+Constant                                              −3.254***                                                                        0.406
+                                                      (1.216)                                                                         (0.553)
+Observations                                            1,313                             1,696                                          142
+R2                                                                                                                                     0.678
+
+Note. Robust standard errors in parentheses.
+  ***p < 0.01; **p < 0.05; *p < 0.1.
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                          547
+
+provide information that can inform the exit decisions                  is that there are efﬁciency gains from investing in accel-
+of founders. In this context, the decision to exit and                  erator companies because the quality of the companies
+shut down the company sooner rather than later is                       is observed sooner and the risk of investment is miti-
+due to the realization that there is a low probability                  gated. Although accelerator participation has various
+of success. This has parallels to the cash-out mech-                    performance implications, on an aggregate level, its role
+anism proposed in Arora and Nandkumar (2011),                           as an intermediary resolving uncertainty seems beneﬁcial.
+in which the decision to exit either via acquisition                       Although the empirical evidence from the matched
+or closure is inﬂuenced by the opportunity cost                         sample is consistent with the theoretical predic-
+faced by founders. Speciﬁcally, high-opportunity-                       tions and allows us to investigate the overall effect of
+cost founders are more likely to invest heavily and                     accelerators, the main limitation is that it is difﬁcult to
+increase the chances of both cash-outs and failures. It is              disentangle mechanisms such as network access and
+plausible that a high-opportunity-cost founder may                      cohort effects. Furthermore, non-accelerator com-
+choose to participate in accelerators precisely to learn                pany founders may access capital, ﬁnd mentors, and
+information about the quality of the idea, but if this is               try to expand their network outside of an accelerator.
+the case, we should see more variance in funding out-                   Although this paper does not address network or
+comes of accelerator companies and a higher proba-                      cohort effects directly, we are able to gain some clarity
+bility of acquisition compared with non-accelerator                     on feedback mechanisms by leveraging the data on
+companies. Furthermore, the funding terms of typical                    funding and mentorship combined with anecdotal
+accelerators require a ﬁxed percentage of equity, which                 evidence from founders. It is worth noting that positive
+does not incentivize high-quality and, therefore, high-                 network effects and cohort-mates as additional sources
+opportunity-cost founders to participate.                               of feedback have been documented in other studies
+   Accelerators can ﬁll a unique role of providing                      and are consistent with the main ﬁndings here (Hasan
+information on quality and reducing uncertainty for                     and Koning 2019). Isolating the network effects and
+founders quickly such that additional resources are                     investigating cohort dynamics require different sets of
+not wasted on ideas that will eventually fail. Other                    data and are certainly topics for future work. There are
+entrepreneurial support programs, such as Canada’s                      also questions related to the design of accelerators that
+Innovator’s Assistance Program, also emphasize pro-                     may have implications for performance outcomes. For
+viding information rather than ﬁnancing (Astebro and                    example, the accelerator investment terms typically re-
+Gerchak 2001). More broadly, although government                        quire founders to give up equity to participate, resulting
+programs may offer business consulting and share                        in selection from the bottom of the quality distribution.
+best practices, these programs seem better suited for                   If accelerators charge a ﬁxed fee instead, the highest
+industries such as agriculture and manufacturing that                   quality founders would have more incentives to join
+require longer-term investments and generate large                      because the cost would be relatively low if the idea
+public returns. In contrast, the institutional setup of                 has high potential.
+accelerators is well-aligned with the incentives of                        The number of accelerators is still growing, and a
+founders who are likely optimizing for private ﬁnancial                 topic for further research is whether accelerators have
+returns. We see in the data that accelerator companies                  an impact on regional economies and social welfare.
+tend to be very early stage, have ﬁrst-time founders, and               In addition to providing a source of information and
+operate in software and related industries that are less                ﬁnancing for new ventures, can accelerators facilitate
+capital intensive and unlikely to hold patents. These are               allocation of labor, increase innovative activities, or
+precisely the types of companies that are riskier in-                   promote economic growth? Furthermore, is the in-
+vestments, and consequently, accelerators are incen-                    crease in accelerators beneﬁcial or detrimental to the
+tivized to cut losses short and position companies for                  entrepreneurial ecosystem? One explanation is that
+a quick exit. Furthermore, given the potential for large                more accelerators are beneﬁcial because they can
+private returns, accelerators are motivated to give rapid               share mentor resources and investor networks and
+feedback and supply information to founders in their                    encourage more start-ups. An alternative explanation
+portfolio to optimize performance. The presence of                      is that mentor resources are limited in a given region,
+mentors and cohort-mates that provide feedback can                      so the average quality of accelerators decreases as
+encourage faster iteration of ideas, prototyping, and                   the number of accelerators increases. Consequently,
+consumer testing. Consistent with the spirit of the Lean                there are accelerators who take equity without delivering
+Startup method, participating in an accelerator can help                value and instead hinder progress. These are just several
+founders learn when and how to fail. In addition, it                    questions to be answered as the industry develops and
+demonstrates that there is value in experimentation to                  matures. Moreover, there is great potential for future
+produce optimal outcomes even when that outcome is to                   work in areas related to university- and corporation-
+shut down the company. Moreover, based on the higher                    afﬁliated accelerators, accelerators outside the United
+funding ratio of accelerator companies, the implication                 States, and peer effects within accelerator cohorts.
+                                                         Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+548                                                                   Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+Acknowledgments                                                   of Minnesota, University of Pennsylvania, University of
+The author is grateful to Luı́s Cabral, Adam Brandenburger,       Utah, as well as participants at the Roundtable for Engi-
+John Asker, Robert Seamans, April Franco, Bill Kerr, Hong         neering Entrepreneurship Research and Social Enterprise
+Luo, Scott Stern, as well as the department editor, associate     @ Goizueta Research Colloquium. The author is also ap-
+editor, and three anonymous referees. The author also thanks      preciative of the entrepreneurs, accelerator partners, ac-
+seminar audiences at Columbia Business School, Duke               celerator mentors, and investors who were interviewed,
+University, Georgetown University, Georgia Institute of           and the Crunchbase team for providing database assis-
+Technology, Harvard Business School, New York University,         tance. This research was funded by the Ewing Marion
+University of British Columbia, University of California at       Kauffman Foundation. All errors are the responsibility of
+Berkeley, University of California at Los Angeles, University     the author.
+
+Appendix A. Matched Sample Example and Algorithm
+A.1. Example of Matched Accelerator Company and Non-accelerator Company
+
+Figure A.1. (Color online) Screenshot of Company A Home Page
+
+
+
+
+A.2. Company Matching Algorithm                                      • Go to the company website and get a sense for what the
+                                                                  company does. Suppose that the accelerator company offers
+Figure A.2. (Color online) Screenshot of Company B Home           “an enterprise solution for threat detection and analytics.”
+Page                                                                 Step 2: Find a subset of potential matches based on the
+                                                                  location and founding year of the accelerator company.
+                                                                     • Using the existing data set, ﬁlter companies according to
+                                                                  founding location and founding year of the accelerated company.
+                                                                     • If no matches are found, look in the S&P data set.
+                                                                     • If there are still no matches, relax the restrictions in the
+                                                                  following order to create a new subset:
+                                                                       ◦ Allow for companies founded in plus or minus one
+                                                                  year (2010–2012 in this example).
+                                                                       ◦ Search for companies located within a radius of 50,
+                                                                  100, and 150 miles, and then expand to the entire state (e.g.,
+                                                                  Mountain View, California; San Francisco, California; state of
+                                                                  California).
+                                                                     Step 3: Research the company description and founder ex-
+                                                                  perience of each potential match, and identify the closest match.
+                                                                     • Go to each company’s website to learn what it does,
+The following is an overview of the matching procedure:           and based on the descriptions, identify one or several
+  Step 1: Identify the company description of the accelerator     matches to the accelerator company.
+company to be matched.                                               • Verify that the matched companies have not partici-
+  • For this example, suppose that the accelerator com-           pated in an accelerator, and eliminate any matches that have
+pany was founded in San Jose, California, on June 1, 2011.        received accelerator investment.
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                                     549
+
+   • For the remaining companies, ﬁnd and record the names                 If the founder does not join an accelerator, then nothing
+of the founders, research the founders’ backgrounds, and                happens during this period. In other words, a founder of a
+record whether the founders have entrepreneurial experience             non-accelerator company continues to pursue the idea, but
+(have founded companies before).                                        the uncertainty about the idea quality is not resolved. For
+   • Based on the description and founder experience,                   simplicity of the model, I assume the extreme case that
+identify a best match to the accelerator company. If there              non-accelerator founders receive no feedback during this
+are multiple best matches, record all candidates.                       time. This assumption can be relaxed to reﬂect that nonac-
+   • If there is no match based on both the company de-                 celerator founders may have other sources of feedback, but the
+scription and founder experience, relax the founder experi-             frequency and intensity of the feedback will still be lower
+ence criteria.                                                          outside the accelerator environment. Therefore, there will still
+   • If there is still no match and neither the location nor            be uncertainty around the quality of the idea. In terms of cal-
+founding year restriction has been relaxed previously, go               endar time, this second period corresponds to about four
+back to Step 2 and relax the restrictions in the following order        months, the average time a founder spends at an accelerator.16
+to ﬁnd a new subset of potential matches:
+     ◦ Allow for companies founded in plus or minus one                 B.1.3. Stage 3 Stage 3 corresponds to a development stage.
+year (2010–2012 in this example).                                       Let x be the level of development to which the founder’s
+     ◦ Search for companies located within a radius of 50,              idea is subject. The eventual value of the project is given by
+100, or 150 miles, and then expand to the entire state (e.g.,           x θ, so better ideas are worth greater effort. I assume that
+Mountain View, California; San Francisco, California; state of          effort requires funding C(x), which has the properties that
+California).                                                            C (0) > 0, C0(0) > 0, and limx→0+ C(x) > 0. In other words,
+   • If there is no match, even with the relaxed criteria of            there is a ﬁxed cost of developing an idea, and the cost of
+founding year and location, ﬁnd companies that are in the               additional development is increasing and convex.
+same industry instead of an exact match on the description.                For accelerator companies, the value of θ is known, so
+   • If a match is found, record the closeness of the match             x  x* (θ). If θ < 0, then it is optimal not to develop the idea
+(perfect match, location nonmatch, founding year nonmatch,              any further (that is, x* (θ)  0) and close down the com-
+description nonmatch, founder experience nonmatch).                     pany.17 For non-accelerator companies, only the value of s is
+   • If, at this point, no match is found, record that the              known, so x  x* (s).
+company could not be matched.
+   Step 4: Search for company details for the matched                   B.1.4. Stage 4 The results from venture development as well
+company, and record ﬁndings.                                            as the value of θ (for non-accelerator companies) are ob-
+   Using a combination of Crunchbase, the S&P data set,                 served. Surviving accelerator companies get acquired. Non-
+and internet searches (media mentions, company LinkedIn                 accelerator companies with θ > 0 get acquired, whereas
+proﬁle, SEC Form D, and investor websites), ﬁnd company                 non-accelerator companies with θ < 0 go out of business.18
+details including number of employees, industry, total
+funding, dates and amounts of individual rounds of                      B.2. Solving the Model
+funding, investors in each round, and operational status.               Consider the development-stage decision for an accelerator
+                                                                        company (case A). By now, the value of θ is known. If θ < 0,
+Appendix B. Model Timing and Proofs                                     then the project is terminated. If θ > 0, then the founder
+B.1. Timing                                                             chooses development effort x given by
+A founder’s decision to participate in an accelerator and its
+consequences evolve over four stages.                                                       x* (θ)  arg max x θ − C(x).
+                                                                                                            x
+                                                                        This results in a value of
+B.1.1. Stage 1 In stage 1, which roughly corresponds to the
+ﬁrst year of a new founder’s life, nature generates the value                                vA2 (θ)  x* (θ) θ − C[x* (θ)].
+of θ, the quality of the founder’s idea. In this model,
+θ captures a composite quality of both the founder and                  Let f (θ; s) be the belief about θ following the signal s  θ + .
+the idea itself. The founder obtains initial funding α and              Before joining the accelerator (i.e., before knowing the value of
+observes a signal s  θ + , where  is independent of θ and            θ), the expected value from joining the accelerator is given by
+                                                                                            ∫ ∞
+E()  0. I assume that θ,  (and, thus, s) have full support
+                                                                                vA1 (s)  δ     (x* (θ) θ − C(x* (θ))) f (θ; s) dθ.  (B.1)
+(the real line). For the time being, I assume that α is ex-                                  0
+ogenously given and the same for all founders.13
+                                                                        Consider now the development-stage decision for a non-
+                                                                        accelerator company (case B). The value of θ is not known,
+B.1.2. Stage 2 In stage 2, the founder must decide whether
+                                                                        only the value of s. When deciding on development effort,
+to join an accelerator or not. For simplicity, I assume that all
+                                                                        the founder chooses
+applicants are accepted.14 If the founder decides to join an                                         ∫ ∞
+accelerator, the founder gives up (1 − δ) of the company,                         x* (s)  arg max x     θ f (θ; s) dθ − C(x).
+retaining δ ownership. During the accelerator program, the                                       x              0
+founder undergoes a process of passive learning (Jovanovic              The expected optimal value is given by
+1982), whereby interaction with other founders in the same                                              ∫ ∞
+cohort, accelerator alumni, and feedback from mentors                        vB1 (s)  vB2 (s)  x* (s)     θ f (θ; s) dθ − C(x* (s)),   (B.2)
+allow the founders to learn the true value of θ.15                                                      0
+                                                                  Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+550                                                                            Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+where the equality vB1 (s)  vB2 (s) results from the fact that no            Although Propositions B.1 and B.2 are limited to regions
+news is received by non-accelerator companies during stage 2.              of the parameter space, together they provide credence to
+                                                                           the more general conjecture that equilibrium has the nature
+B.3. Equilibrium Characterization                                          of a threshold strategy.19
+The main point about equilibrium characterization is                       B.4. Proofs for Predictions of the Model
+ﬁnding the rule whereby a founder chooses path A (ac-
+celerator) or path B (non-accelerator). Intuitively, option A              Hypothesis 1. Accelerator companies go out of business earlier
+trades off higher dilution (loss of a 1 − δ fraction of ﬁrm                and more often than non-accelerator companies.
+value) in favor of a better signal of ﬁrm value (speciﬁcally,
+knowledge of θ). If θ < 0, then knowledge of the value of θ                Proof. The prediction that accelerator companies go out of
+has economic value because it saves development costs x* (s)               business earlier is by construction (the extensive form con-
+that are invested if s is the only information available.                  sidered). To show that accelerator companies close more often
+Because a low s implies that a negative θ is more likely to                than non-accelerator companies, suppose that σ  0. Then
+occur, I expect that the real option value of an accelerator is            the initial signal s provides an exact estimate of θ. Let s̄ be the
+higher when s is lower. The following results conﬁrm this                  lowest value of s such that vB1 (s)  0. (By Proposition B.2, we
+intuition.                                                                 know that vB1 (s) is strictly increasing for high enough s, so s̄
+                                                                           exists.) Because σ  0, in equilibrium, the founder chooses
+Proposition B.1. There exists an s̄ such that if s < s̄, then the          an accelerator if and only if s < s̄. Moreover, no accelerator
+founder chooses an accelerator.                                            company gets funded. By continuity, as I consider inﬁni-
+                                                                           tesimally small values of σ  0, I get that accelerator com-
+Proof. If s is sufﬁciently small, then x* (s)  0. It follows that         panies get funded with an inﬁnitesimally small probability.
+vB1 (s)  0. By contrast, because f (θ; s) > 0 for all s, vA1 (s) is       Non-accelerator companies, by contrast, are funded with
+strictly positive for all s. □                                             probability 1 and at amounts that exceed x* (s̄), which is
+   Proposition B.1 only provides a partial equilibrium                     strictly positive. In other words, as σ → 0, the amount of
+characterization; however, it provides a lot of intuition. By              funding received by accelerator companies converges to 0,
+choosing path A and observing the value of θ, the founder                  whereas the amount of funding received by non-accelerator
+and investors are able to make a more efﬁcient funding                     companies is bounded away from 0. Furthermore, as σ → 0,
+decision. This is particularly helpful if s is small so that the           the probability that accelerator companies close down
+probability that θ < 0 is signiﬁcant. To put it differently, one           converges to 1, whereas the probability that non-accelerator
+advantage of joining an accelerator is that you buy a real                 companies close down converges to 0. □
+option: instead of investing x (development effort) in the
+dark, you do so with knowledge of θ, thus having the option                Hypothesis 2. Conditional on closing down, accelerator com-
+of shutting down and cutting losses short.                                 panies receive less funding than non-accelerator companies.
+   The complete equilibrium characterization requires knowl-
+edge of the optimal choice for any value of s. Proposition B.1             Proof. Conditional on closing down, accelerator companies
+suggests that there is a threshold of the initial signal that              receive funding of α, whereas non-accelerator companies
+separates founders between the accelerator and the alter-                  receive
+                                                                                                  ∫ ∞
+native path, that is, a threshold value of s such that vA1 > vB1 if
+                                                                                              α+       x* (s) g(s) ds,
+and only if the initial signal is sufﬁciently bad. The fol-                                              s̄
+lowing two results provide conditions such that this is the
+case.                                                                      where g(s) is the unconditional distribution of s. The result
+                                                                           follows. □
+Proposition B.2. There exists a δ̄ ∈ (0, 1) such that if δ < δ̄, then
+there exists a s̄ such that the founder chooses an accelerator if and      Hypothesis 3. The funding ratio
+only if s < s̄.
+                                                                                                   AverageFunding|Closed
+                                                                                           FR ≡                           ,
+Proof. By the envelope theorem,                                                                   AverageFunding|Acquired
+
+                                                                           is smaller for accelerator companies than for non-accelerator
+                         dvB1 (s) ∂̃
+                                   vB (s, x)                               companies.
+                                  1
+                           ds        ∂s
+                                                                           Proof. If σ is sufﬁciently large, then
+and because s  θ + , it follows that if s0 > s , then f (θ; s0)
+                                                                                                        x* (s) ≈ x̄* .
+dominates f (θ; s ) in s in the sense of ﬁrst-order stochastic
+dominance. Because there is a ﬁxed cost of effort x, there                 It follows that all non-accelerator companies received ap-
+exists an s̄ such that x* (s)  0 for s < s̄ and x* (s) > 0 for s > s̄.    proximately the same amount of funding. As a result, FR for
+For s > s̄, f (θ; s) multiplies a strictly increasing function             non-accelerator companies is approximately 1. By contrast,
+of θ in the integral that deﬁnes ̃      vB1 (s, x). I thus conclude        for accelerator companies,
+that dvB1 (s)/ds is strictly increasing in s for s > s̄ (Milgrom                                           α
+1981).                                                                                    FR ≈                           < 1,
+                                                                                                α + E(x* (θ)|x* (θ) > 0)
+  If δ  0, then vA1 (s)  0 and dvA1 (s)/ds  0. This implies, in
+the neighborhood of δ  0, vA1 (s) > vB1 (s) if and only if s < s̄. □      The result follows.      □
+Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS                                                                                       551
+
+Appendix C. Additional Regression Results
+
+Table C.1. Main Analysis (Table 10) Replicated with Absolute Levels of Funding
+
+                                (1)                  (2)                   (3)                               (5)                                      (7)
+                               OLS                  OLS                   OLS             (4)               Logit                (6)                 OLS
+                              Funding             Funding               Funding          Logit             Closed if         Cox hazard           Funding if
+Variables                     ($MM)           if raised one rd     if raised $1MM        Closed        funding ≤ $100k       Time-to-close      closed ($MM)
+
+AcceleratorCompany           −5.062***          −11.77***             −5.902***          0.921***            1.417***             1.856***        −1.828***
+                             (0.853)             (2.140)              (2.231)           (0.205)             (0.305)              (0.48)           −0.494
+FounderExp                   −0.259              −1.809               −0.865           −0.130              −0.0185              −0.645            −0.42
+                             (0.830)             (1.947)              (2.036)          (0.261)             (0.333)              (0.532)           −0.328
+Year ﬁxed effects               Yes                 Yes                   Yes            Yes                 Yes                  Yes
+Industry ﬁxed effects           Yes                 Yes                   Yes            Yes                 Yes                  Yes
+Constant                      27.38               49.96***               3.957         −2.787**            −2.772**                                1.367***
+                             (18.53)              (4.876)               (2.879)        (1.084)             (1.228)                                −0.296
+Observations                   1,798                748                  691              1,681               762                 1696                142
+R2                             0.079               0.138                0.126                                                                       0.401
+
+Note. Robust standard errors in parentheses.
+  ***p < 0.01; **p < 0.05; *p < 0.1.
+
+                                                                                  9
+Endnotes                                                                           Within the overlapped subsample between the two coders, both
+1
+ Another example is “NYC SeedStart Enterprise 2013,” in which                     coders identiﬁed the exact same match or a match of the same quality
+the New York City Regional Economic Development Council                           for 70% of the subsample (17 accelerator companies were matched to
+has invested in six accelerator programs (https://cdn.esd.ny.gov/                 different companies).
+                                                                                  10
+newsroom/Data/2013/04242013_NYCREDC_SeedStart_PR.pdf).                               YC Rejects (http://www.forbes.com/sites/tomiogeron/2011/04/11/
+2
+ In agriculture, agricultural advisory services have beneﬁted farmers by          start-ups-rejected-by-y-combinator-and-investors-ﬂock-to-yc-rejects/).
+                                                                                  11
+disseminating information to help improve productivity (Feder and                  Sources include but are not limited to Hacker News and YC
+Slade 1984, Feder et al. 1985, Birkhaeuser et al. 1991); in manufacturing,        Universe.
+policies speciﬁcally built to transfer knowledge have been implemented            12
+                                                                                    All companies in this sample applied to Y Combinator across
+to provide access to best practices and increase cost-effectiveness.              several different cohorts, and consequently, they were not necessarily
+3                                                                                 evaluated by the same judges. However, applicants are evaluated by
+ The Uniﬁed Seed Accelerator Application is used by 25 different ac-
+celerators (as of May 2014).                                                      multiple judges in each round, which alleviates the concern that one
+4
+ According to press releases, the acceptance rate in 2012 for                     particular judge may bias the results.
+                                                                                  13
+Y Combinator was 2% (http://techcrunch.com/2012/05/22/                               The base model assumes that founders do not know how noisy their
+ycombinator-80-strong/) and as low as 0.6% in 2013 for Tech-                      signal is; that is, they do not differ in their ability to interpret the
+Stars NYC (http://www.techstars.com/techstars-nyc-2013-class/).                   quality signal. If we assume that founders are aware of how noisy
+5                                                                                 their signal is and suppose that more experienced founders receive
+ Most accelerator company founders do not have prior entrepreneurial
+                                                                                  less noisy signals (higher degrees of faith) and less experienced
+experience, so they are unlikely to give advice related to fund-raising, go-
+                                                                                  founders receive more noisy signals (lower degrees of faith), the
+to-marketstrategies,orcustomeracquisitionasmentorswould.However,
+                                                                                  model would predict that, given the same quality signal, founders
+because the founders spend considerable time together and the sense of
+                                                                                  with more (less) noisy signals would be more (less) likely to par-
+community enables information sharing, cohort-mates can brainstorm
+                                                                                  ticipate in accelerators. This also means that more experienced
+solutions to similar problems, serve as beta testers, or provide emotional
+                                                                                  founders are more likely to sort correctly into accelerator and non-
+support. Although the cohort effect is not the focus of this paper, an
+                                                                                  accelerator, whereas less experienced founders (realizing their signal
+additional way cohort-mates can help resolve uncertainty about
+                                                                                  is noisy) will be even more likely to participate in accelerators.
+venture quality is to provide a benchmark for the founders. More
+                                                                                  Therefore, high-quality ideas may still end up in accelerators and
+speciﬁcally, the relative quality within the cohort may be resolved.              explain outliers, such as Dropbox and Airbnb. The degree to which
+For example, if a founder sees that performance milestones are lag-               the average funding for accelerator companies changes depends on
+ging behind those of other cohort-mates, the founder may interpret                how much noisier the signals are, but we would at least expect the
+that their own venture is low quality (even though the absolute                   number of outliers to increase in the accelerator companies.
+quality may be high).                                                             14
+6
+                                                                                    We can extend the model to assume some noise in the system, which,
+  As of October 2013. Seed-DB is an open-source accelerator database              in turn, would be consistent with allowing accelerators to reject ap-
+built on CrunchBase data. The data can be accessed at http://www                  plicants based on a cutoff signal. If the cutoff signal for being admitted to
+.seed-db.com/.                                                                    an accelerator is sufﬁciently high, the average funding amount for
+7
+ A detailed comparison between Crunchbase and other indus-                        accelerator companies may increase, the likelihood of closure may
+try sources, including a spreadsheet with raw numbers, was featured               decrease, and the amount of funding conditional on closure may in-
+on TechCrunch and can be accessed at http://techcrunch.com/2013/                  crease as well. The qualitative results will hold if we consider non-
+07/23/how-crunchbase-data-compares-to-other-industry-sources/.                    accelerator companies separately from rejected applicants.
+8
+ For example, a company listed as “ABCStartup” in one source                      15
+                                                                                     In a more general version of the model, there is possibility of active
+might appear as “ABCStartup.com,” “ABCStartup.com Inc.,” or                       learning, whereby the value of the founder’s idea changes from θ to
+“123Startup (formerly ABCStartup)” in other sources.                              θ  θ + λ, where λ is either a scalar or a random variable.
+                                                                    Yu: How Do Accelerators Impact the Performance of High-Technology Ventures?
+552                                                                               Management Science, 2020, vol. 66, no. 2, pp. 530–552, © 2019 INFORMS
+
+
+16
+   In addition to equity as a cost of participation, high opportunity        Cohen S, Hochberg YV (2014) Accelerating startups the seed acceler-
+costs may also prevent a founder from joining an accelerator. At the              ator phenomenon. SSRN working paper, University of Georgia,
+same time, founders with higher opportunity costs may derive extra                Athens, http://ssrn.com/abstract=2418000.
+beneﬁt from rapid feedback. If the founders with the highest or lowest       Coleman S, Cotei C, Farhat J (2013) A resource-based view of new
+opportunity costs opt to participate in accelerators, then the main               ﬁrm survival: New perspectives on the role of industry and exit
+ﬁndings will hold if we believe that idea quality is not correlated with          route. J. Developmental Entrepreneurship 18(1):1350002.
+founder opportunity costs. However, if we assume that better ideas           Feder G, Slade R (1984) The acquisition of information and the
+come from more founders with higher opportunity costs, higher-                    adoption of new technology. Amer. J. Agricultural Econom. 66(3):
+quality companies may participate in accelerators, increasing the                 312–320.
+average funding for the accelerator sample. Empirically, how a               Feder G, Just R, Zilberman D (1985) Adoption of agricultural in-
+founder’s educational background factors into the decision to par-                novations in developing countries: A survey. Econom. Develop-
+ticipate in accelerators is an open question for future work.                     ment Cultural Change 33(2):255–298.
+17
+   Strictly speaking, the value of the company is zero. However, by          Gonzalez-Uribe J, Leatherbee M (2018) The effects of business ac-
+assuming even an inﬁnitesimal cost of keeping the company alive, the              celerators on venture performance: Evidence from Start-Up
+optimal decision is strictly to close down.                                       Chile. Rev. Financial Stud. 31(4):1566–1603.
+18
+  Given the vast network of alumni, investors, and mentors afﬁliated         Griliches Z (1957) Hybrid corn: An exploration in the economics of
+with the accelerator, it is possible that the network effects contribute          technological change. Econometrica 25(4):501–522.
+to the probability of acquisition. If we extend the model to account for     Hallen B, Bingham C, Cohen S (2019) Do accelerators accelerate? If
+network effects in this stage, the model would predict that accelerator           so, how? Organ. Sci. Forthcoming.
+companies have a higher likelihood of acquisition, conditional on            Hasan S, Koning R (2019) Prior ties and the limits of peer effects
+quality. This prediction is supported by the matched sample as well.              on startup team performance. Strategic Management J. 40(9):
+19
+  The reason why the result is not obvious is that the value of knowing           1394–1416.
+θ is not simply the real option of shutting down when θ < 0. Even if         Hellmann T, Puri M (2002) Venture capital and the professionali-
+θ > 0 (and, thus, development is the optimal strategy), the optimal               zation of start-up ﬁrms: Empirical evidence. J. Finance 57(1):
+value of x depends on θ, and thus, knowledge of θ has value. In fact, the         169–197.
+information value regarding the choice of x may be increasing in s,          Howell S (2017) Reducing information frictions in venture capital:
+which goes against the conjectured “single-crossing” property.                    The role of new venture competitions. NBER Working Pa-
+                                                                                  per No. 23874, National Bureau of Economic Research, Cam-
+References                                                                        bridge, MA.
+Arora A, Fosfuri A (2005) Pricing diagnostic information. Management         Hsu DH (2004) What do entrepreneurs pay for venture capital af-
+    Sci. 51(7):1092–1100.                                                         ﬁliation? J. Finance 59(4):1805–1844.
+Arora A, Nandkumar A (2011) Cash-out or ﬂameout! Opportunity                 Jovanovic B (1982) Selection and the evolution of industry. Econo-
+    cost and entrepreneurial strategy: Theory, and evidence from the              metrica 50(3):649–670.
+    information security industry. Management Sci. 57(10):1844–1860.         Kerr WR, Lerner J, Schoar A (2014) The consequences of entrepre-
+Arrow KJ (1962) Economic welfare and the allocation of resources for              neurial ﬁnance: Evidence from angel ﬁnancings. Rev. Financial
+    inventions. R. Nelson, ed. The Rate and Direction of Inventive                Stud. 27(1):20–55.
+    Activity: Economic and Social Factors (Princeton University Press,       Mansﬁeld E (1961) Technical change and the rate of imitation.
+    Princeton, NJ), 609–626.                                                      Econometrica 29(4):741–766.
+Astebro T, Gerchak Y (2001) Proﬁtable advice: The value of in-               Milgrom P (1981) Good news and bad news: Representation theo-
+    formation provided by Canada’s inventor’s assistance program.                 rems and applications. Bell J. Econom. 12(2):380–391.
+    Econom. Innovation New Tech. 10(1):45–72.                                Roberts PW, Klepper S, Haywardy S (2011) Founder backgrounds
+Birkhaeuser D, Evenson RE, Feder G (1991) The economic impact of                  and the evolution of ﬁrm size. Indust. Corporate Change 20(6):
+    agricultural extension: A review. Econom. Development Cultural                1515–1538.
+    Change 39(3):607–650.                                                    Winston Smith S, Hannigan TJ (2015) Swinging for the fences:
+Chatterji AK (2009) Spawned with a silver spoon? Entrepreneurial                  How do top accelerators impact the trajectories of new ven-
+    performance and innovation in the medical device industry.                    tures? Working paper, BI Norwegian Business School, Oslo,
+    Strategic Management J. 30(2):185–206.                                        Norway.
+Copyright 2020, by INFORMS, all rights reserved. Copyright of Management Science is the
+property of INFORMS: Institute for Operations Research and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written
+permission. However, users may print, download, or email articles for individual use.
+

@@ -1,0 +1,2515 @@
+THE JOURNAL OF FINANCE • VOL. LX, NO. 4 • AUGUST 2005
+
+
+
+
+                              Rational IPO Waves
+
+                        ĽUBOŠ PÁSTOR and PIETRO VERONESI∗
+
+
+                                           ABSTRACT
+      We argue that the number of firms going public changes over time in response to time
+      variation in market conditions. We develop a model of optimal initial public offering
+      (IPO) timing in which IPO waves are caused by declines in expected market return,
+      increases in expected aggregate profitability, or increases in prior uncertainty about
+      the average future profitability of IPOs. We test and find support for the model’s
+      empirical predictions. For example, we find that IPO waves tend to be preceded by
+      high market returns and followed by low market returns.
+
+
+
+
+THE NUMBER OF INITIAL PUBLIC OFFERINGS (IPOS) changes dramatically over time,
+as shown in Figure 1. For example, 845 firms went public in the United States
+in 1996, but there were only 87 IPOs in 2002. Although the f luctuation in IPO
+volume is well known (e.g., Ibbotson and Jaffe (1975)), its underlying causes
+are not well understood. Many researchers attribute time variation in IPO
+volume to market inefficiency, arguing that IPO volume is high when shares are
+“overvalued.”1 Such an argument assumes that the periodic market mispricing
+can somehow be detected by the owners of the firms going public, but not by
+the investors providing IPO funds. In contrast, we present a model in which
+f luctuation in IPO volume arises in the absence of any mispricing, and in which
+IPO volume is more closely related to recent changes in stock prices than to the
+level of stock prices.
+
+
+
+   ∗Ľuboš Pástor and Pietro Veronesi are at the Graduate School of Business, University of Chicago.
+Both authors are also affiliated with the CEPR and NBER. Helpful comments were gratefully
+received from Malcolm Baker, John Campbell, John Cochrane, George Constantinides, Doug Di-
+amond, Frank Diebold, Gene Fama, John Heaton, Jean Helwege, Steve Kaplan, Jason Karceski,
+Martin Lettau, Deborah Lucas, Robert Novy-Marx, Michal Pakoš, Jay Ritter, Tano Santos, Rob
+Stambaugh, Per Strömberg, René Stulz, Lucian Taylor, Dick Thaler, Luigi Zingales; an anonymous
+referee; seminar participants at Bocconi University, Comenius University, Duke University, Federal
+Reserve Bank of Chicago, HEC Montreal, INSEAD, London Business School, MIT Sloan, Rice Uni-
+versity, University of Brescia, University of Chicago, University of Illinois at Urbana-Champaign,
+University of Pennsylvania, University of Southern California, Vanderbilt University; and the con-
+ference participants at the Fall 2003 NBER Asset Pricing Meeting and the 2004 Western Finance
+Association Meetings. Huafeng Chen, Karl Diether, Lukasz Pomorski, and Anand Surelia provided
+expert research assistance. This paper previously circulated under the title “Stock Prices and IPO
+Waves.”
+   1
+     See Ritter (1991), Loughran, Ritter, and Rydqvist (1994), Loughran and Ritter (1995), Rajan
+and Servaes (1997, 2003), Pagano, Panetta, and Zingales (1998), Baker and Wurgler (2000), and
+Lowry (2003).
+
+                                                1713
+                                                                                                  15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1714                                            The Journal of Finance
+
+                          140
+
+
+
+
+                          120
+
+
+
+
+                          100
+
+
+
+
+         Number of IPOs
+                           80
+
+
+
+
+                           60
+
+
+
+
+                           40
+
+
+
+
+                           20
+
+
+
+
+                           0
+                           1960   1965   1970     1975   1980      1985   1990   1995   2000
+                                                            Year
+
+
+Figure 1. IPO volume. The figure plots the number of IPOs in each month between January
+1960 and December 2002. The data are obtained from Jay Ritter’s website.
+
+
+   We develop a model of optimal IPO timing in which IPO volume f luctuates
+due to time variation in market conditions. We define market conditions as hav-
+ing three dimensions: expected market return; expected aggregate profitability;
+and prior uncertainty about the post-IPO average profitability in excess of mar-
+ket profitability, henceforth referred to as “prior uncertainty.” Market condi-
+tions indeed appear to vary in these dimensions. Time variation in expected
+market return is consistent with empirical evidence on return predictability.2
+Time variation in expected aggregate profitability is related to business cycles.
+Time variation in prior uncertainty seems plausible as well. For example, tech-
+nological revolutions are likely to be accompanied by high prior uncertainty
+because they make the prospects of new firms highly uncertain. We show, the-
+oretically and empirically, that IPO volume responds to time variation in all
+three dimensions of market conditions. Moreover, we note that market condi-
+tions are related not only to IPO volume but also to stock prices, as represented
+
+  2
+      See, for example, Keim and Stambaugh (1986), Campbell (1987), and Fama and French (1988).
+                                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Rational IPO Waves                                      1715
+
+by the firms’ ratios of market to book value of equity (M/B). IPO volume is then
+naturally related to stock prices as well.
+   Our model considers a special class of agents, “inventors,” who invent new
+ideas that can lead to abnormal profits. Inventors patent each idea and start a
+private firm that owns the patent. Inventors possess a real option to take their
+firms public, invest part of the IPO proceeds, and begin producing. They choose
+the best time to exercise this option. When market conditions are constant, it
+is optimal to go public as soon as the patent is secured. When market condi-
+tions vary over time, however, inventors may prefer to postpone their IPO in
+anticipation of more favorable market conditions.
+   We solve for the optimal time to go public and show that private firms are
+attracted to capital markets especially when market conditions are favorable
+in the sense that expected market return is low, expected aggregate profitabil-
+ity is high, and prior uncertainty is high. At any point in time, private firms
+are waiting for an improvement in market conditions; that is, for a decline in
+expected market return or for an increase in expected aggregate profitability or
+prior uncertainty. When market conditions improve sufficiently, many inven-
+tors exercise their options to go public, thus creating a cluster of IPOs, or an
+“IPO wave.”
+   To analyze the properties of IPO waves in our model, we calibrate the model
+to match some key features of the data on asset prices, profitability, and con-
+sumption, and simulate it over a long period of time. In the simulation, one idea
+is invented each period, so that IPO waves do not develop from the clustering of
+technological inventions in time. Instead, IPO waves are the result of clustering
+in the inventors’ optimal IPO timing decisions.
+   Our model makes many empirical predictions. IPO waves caused by a de-
+cline in expected market return should be preceded by high market returns
+because prices rise when expected return falls, and followed by low market re-
+turns because expected return has fallen.3 IPO waves caused by an increase
+in expected aggregate profitability should also be preceded by high market re-
+turns because prices rise as cash f low expectations go up, and followed by high
+profitability because expected profitability has risen. IPO waves caused by an
+increase in prior uncertainty should be preceded by increased disparity between
+newly listed firms and seasoned firms in terms of their valuations and return
+volatilities.
+   We test the model’s implications by using data between 1960 and 2002. Our
+results support all three channels (discount rate, cash f low, and uncertainty)
+through which IPO waves are created in our model. We find that IPO volume
+is positively related to recent market returns, which suggests that many firms
+go public after expected market return declines or after expected aggregate
+profitability increases. This result is consistent with both the discount rate and
+
+   3
+     Schultz (2003) argues that equity issuers time the market ex post but not ex ante, so that IPO
+volume is correlated with future returns ex post but not ex ante. In contrast, in our model, firms
+go public after declines in expected market return, so that high IPO volume predicts low market
+returns also ex ante.
+                                                                                                        15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1716                               The Journal of Finance
+
+cash f low channels. Additional support for the discount rate channel is provided
+by the findings that IPO volume is negatively related to future market returns
+and to recent changes in market return volatility. The cash f low channel is
+further supported by the fact that IPO volume is positively related to changes
+in aggregate profitability and to revisions in analysts’ forecasts of long-term
+earnings growth. IPO volume is also positively related to recent changes in two
+empirical proxies for prior uncertainty.
+   Another testable implication of our model is that IPO volume is more closely
+related to recent changes in stock prices than to the level of stock prices.
+The relation between IPO volume and recent changes in prices is due to the
+endogeneity of IPO timing: firms are induced to go public by improvements in
+market conditions, and these improvements lift stock prices at the same time.
+IPO volume is also positively related to the level of stock prices, as represented
+by the aggregate M/B ratio, but that relation is weaker. IPO volume is not
+necessarily high when the level of stock prices is high because the high price
+level is a result of cumulative improvements in market conditions, and many
+private firms that had been waiting for such improvements went public while
+prices were rising. Consistent with these arguments, we find that IPO volume
+is significantly related to recent market returns, but unrelated to the level of
+the aggregate M/B ratio.
+   The evidence of no relation between the level of M/B and IPO volume does
+not support the behavioral story in which IPO waves arise when shares are
+overvalued. This story also does not predict our findings that IPO volume is
+negatively related to changes in market return volatility, and positively related
+to changes in aggregate profitability and to changes in the difference between
+the return volatilities of new and old firms. These findings do not disprove the
+behavioral story, but they suggest that our explanation for IPO waves, which
+predicts all of these facts, provides a plausible alternative to the mispricing
+story.
+   This paper is related to many earlier studies. Apart from the literature on
+market mispricing, cited earlier, this paper is related to the studies that link
+the volume of equity issuance to the asymmetry of information resulting from
+the adverse selection costs of issuing equity (e.g., Myers and Majluf (1984)).4
+Also related is the literature that focuses on the corporate control aspect of an
+IPO (e.g., Zingales (1995)).5 This paper abstracts from both of these important
+corporate finance issues and shows that IPO volume can f luctuate also in the
+absence of asymmetric information and private benefits of control.
+
+
+   4
+     See, for example, Lucas and McDonald (1990), Choe, Masulis, and Nanda (1993), Bayless and
+Chaplinsky (1996), Hoffmann-Burchardi (2001), and Lowry (2003). For other information-based
+models, see Persons and Warther (1997), Chemmanur and Fulghieri (1999), Subrahmanyam and
+Titman (1999), Stoughton, Wong, and Zechner (2001), Lowry and Schwert (2002), Benveniste,
+Busaba, and Wilhelm (2002), and Alti (2003).
+   5
+     For example, Benninga, Helmantel, and Sarig (2005) model the trade-off between private ben-
+efits of control and the diversification benefit of going public, and derive implications for optimal
+IPO timing.
+                                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Rational IPO Waves                                      1717
+
+  This paper is also related to the literature on irreversible investment under
+uncertainty.6 In our model, the capital raised in the IPO is immediately in-
+vested, as it is in the model of Jovanovic and Rousseau (2001). In their model,
+the option to delay an IPO is valuable because waiting allows a private firm to
+learn about its own production function. In our model, this option is valuable
+due to time variation in market conditions. Finally, Boehmer and Ljungqvist
+(2004) find empirical support for our model in German data.
+  The paper is organized as follows. Section I describes the setting in which IPO
+decisions are made. Section II discusses the decision to go public and analyzes
+some properties of optimal IPO timing. Section III uses a simulated sample
+to investigate the properties of IPO waves in our model. Section IV tests the
+model’s predictions empirically. Section V examines the relation between IPOs
+and investment. Section VI concludes.
+
+
+                                           I. Model
+   There are two classes of agents, inventors and investors, who have identical
+information and preferences but different endowments. Investors are endowed
+with a stream of consumption good. Inventors are endowed with the ability to
+invent patentable ideas that can deliver abnormal profits. When an inventor
+patents his idea, he starts a private firm that owns the patent but produces no
+revenue. Any time before the patent expires, the inventor can decide to make the
+investment that initiates production. To finance this investment, the private
+firm issues equity to investors in an IPO.
+   In this section, we describe the economic environment in which IPO decisions
+take place. This environment features time-varying market conditions, whose
+three dimensions are described in the next three subsections. We then solve
+for the market value of a firm, which is an essential input to the optimal IPO
+timing problem analyzed in Section II.
+
+
+A. Time-Varying Profitability
+   After the IPO, firm i’s profits are protected by a patent until time Ti . Let
+ρti = Yti /Bit denote the firm’s instantaneous profitability at time t, where Y it is the
+earnings rate and Bit is the book value of equity. Motivated by empirical evidence
+(e.g., Fama and French (2000)), we assume that firm profitability follows a
+mean-reverting process between the IPO and Ti :
+                                           
+                      dρti = φ i ρ̄ it − ρti dt + σi,0 dW 0,t + σi,i dW i,t ,          (1)
+
+where W 0,t and W i,t are uncorrelated Wiener processes that capture systematic
+(W 0,t ) and firm-specific (W i,t ) components of the random shocks that drive the
+
+   6
+     See, for example, Cukierman (1980), Bernanke (1983), Brennan and Schwartz (1985), McDon-
+ald and Siegel (1986), Ingersoll and Ross (1992), Dixit (1989), Abel, Dixit, and Eberly (1996), and
+Berk (1999). See also Shleifer (1986), Berk, Green, and Naik (1999), Gomes, Kogan, and Zhang
+(2003), and Novy-Marx (2003).
+                                                                                                           15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1718                                The Journal of Finance
+
+firm’s profitability. We also assume that the firm’s average profitability ρ̄ it can
+be decomposed as
+
+                                           ρ̄ it = ψ̄ i + ρ̄ t .                                    (2)
+
+The firm-specific component ψ̄ i , which we refer to as the firm’s average ex-
+cess profitability, ref lects the firm’s ability to capitalize on its patent, and is
+assumed to be constant over time. The common component ρ̄ t , which we refer
+to as expected aggregate profitability, is assumed to exhibit mean-reverting
+variation:
+
+                     dρ̄ t = k L (ρ̄ L − ρ̄ t ) dt + σ L,0 dW 0,t + σ L, L dW L,t ,                 (3)
+
+where W 0,t and W L,t are uncorrelated. Mean reversion in expected aggregate
+profitability ref lects business cycles in the aggregate economy.
+
+B. Time-Varying Prior Uncertainty
+  Average excess profitability ψ̄ i is unobservable. For any firm i that goes public
+at time t, all inventors and investors have the same prior belief about ψ̄ i . Their
+prior uncertainty, σ̂t , is assumed to be the same for all firms going public at
+time t, for simplicity. It seems plausible for prior uncertainty σ̂t to vary over
+time. For example, uncertainty about the ψ̄ i ’s of new firms is greater when
+the economy experiences technological advances whose long-term impact is
+uncertain. To model time variation in σ̂t , we assume that σ̂t takes values in the
+discrete set V ={v1 , . . . , vn } and that it switches from one value to another in
+each infinitesimal interval  according to the transition probabilities λhk  =
+Pr(σ̂t+ = vk | σ̂t = vh ).
+  Both inventors and investors begin learning about ψ̄ i as soon as firm i begins
+producing at its IPO. Both learn by observing realized profitability ρti , as well
+                                     j
+as ρ̄ t , ct (defined below), and ρt for all firms j that are alive at time t. The prior
+distribution of ψ̄ is assumed to be normal, so the posterior of ψ̄ i is also normal,
+                     i
+
+with mean ψ̂ti and variance σ̂i,t    2
+                                       . The dynamics of the posterior moments are
+given in Lemma 1 in the Appendix. Agents can observe ρ̄ t .7
+
+C. Time-Varying Expected Market Return
+   Let µt denote expected market return at time t. To generate time-varying µt ,
+we work with a framework similar to that of Campbell and Cochrane (1999).
+In this framework, µt varies over time due to the time-varying risk aversion
+of the representative investor. All inventors and investors, indexed by k, have
+habit utility over consumption:
+
+
+    7
+      Unobservable ρ̄ t can be incorporated at the cost of a significant increase in complexity but with
+little benefit given the objectives of this paper. It can be shown that higher uncertainty about ρ̄ t
+increases expected cash f low but also increases the discount rate, resulting in a relatively small
+net effect on prices. Veronesi (2000) discusses these effects in a different framework.
+                                                                                        15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                  Rational IPO Waves                             1719
+                                                k       1−γ
+                           k              −ηt Ct − X t
+                         U Ct , X t , t = e                   ,                   (4)
+                                                   1−γ
+where Xt is an external habit index, γ regulates the local curvature of the utility
+             η is a time discount parameter.
+function, and
+   Let Ct = k Ctk denote aggregate consumption, ct = log (Ct ), and St = (Ct −
+Xt )/Ct denote the surplus consumption ratio. Campbell and Cochrane assume
+that st = log (St ) follows a mean-reverting process with time-varying volatility
+and perfect correlation with unexpected consumption growth. This specification
+allows Campbell and Cochrane to solve for market prices numerically. To obtain
+analytical solutions for prices, we assume that
+
+                            st ≡ s( y t ) = a0 + a1 y t + a2 y t2 ,               (5)
+
+where yt is a state variable driven by the following mean-reverting process:
+
+                           dyt = k y ( ȳ − y t ) dt + σ y dW 0,t .               (6)
+
+Time variation in yt generates time variation in both components of µt , the
+equity premium and the real risk-free rate. As shown in the Appendix, high yt
+implies a low equity premium and a low risk-free rate in the plausible range.
+We show that time variation in either the equity premium or the risk-free rate
+leads to time variation in IPO volume.
+   We assume that markets are dynamically complete, in that shocks to the
+aggregate state variables yt , ρ̄ t , and σ̂t can be hedged using contingent claims.
+No contingent claims can hedge firm-specific shocks dW i,t , but those shocks
+can be hedged using firm equity. Since markets are complete, inventors and in-
+vestors can perfectly insure each other’s consumption. Assuming that their ini-
+tial endowments are equally valuable, inventors and investors choose identical
+consumption plans, thus justifying the existence of a representative agent with
+preferences given in equation (4). The stochastic discount factor (SDF) π t is
+then unique:
+
+                 πt = UC (Ct , X t , t) = e−ηt (Ct St )−γ = e−ηt−γ (ct +st ) .    (7)
+
+  In equilibrium, aggregate consumption is given by the sum of all endowments
+and net payouts in the economy. Computing this sum is complicated because the
+payouts depend on the inventors’ optimal IPO timing. Instead, for tractability,
+we assume that ct follows
+
+                           dct = (b0 + b1 ρ̄ t ) dt + σc dW 0,t .                 (8)
+
+As in other recent studies, we assume that consumption is financed mostly by
+income that is outside our model, and the resulting process is given in equation
+(8). Consumption growth is allowed to depend on ρ̄ t because such a link is
+plausible ex ante, but none of our results rely on this link. The data-implied
+value of b1 turns out to be small, and b1 = 0 leads to the same conclusions
+throughout.
+                                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1720                              The Journal of Finance
+
+D. The Market Value of a Firm
+   This subsection discusses a closed-form solution for the market value of a
+firm in the environment described above. Our pricing analysis extends the
+model of Pástor and Veronesi (2003a) to allow for time variation in market
+conditions.
+   After its IPO, firm i earns abnormal profits (ψ̄ i ) until its patent expires
+at time Ti . We assume that any abnormal earnings after Ti are eliminated
+by competitive market forces, so that the firm’s market value at Ti equals
+its book value, M Ti i = BTi i . The firm is assumed to pay no dividends, to be fi-
+nanced only by equity, and to issue no new equity.8 The firm’s market value at
+any time t after the IPO but before Ti is M ti = Et [(πTi /πt )BTi i ], with π t given
+in equation (7). An analytical formula for Mit is provided in Proposition 1 in
+the Appendix, together with expressions for the firm’s expected return and
+volatility.
+   The intuition behind the pricing formula is as follows. A firm’s M/B is high if
+  (1) the firm’s expected profitability is high;
+  (2) the firm’s discount rate is low;
+  (3) uncertainty about the firm’s average future profitability is high.
+In (1), M/B increases with three cash-f low-related quantities: expected aggre-
+gate profitability, ρ̄ t ; expected excess profitability, ψ̂ti ; and current profitability,
+ρti . In (2), we find numerically that M/B increases with the state variable yt
+in the calibrated model. Since high yt implies a low risk aversion of the repre-
+sentative investor, it also implies a low expected market return and high M/B.
+In (3), M/B increases with σ̂i,t , uncertainty about ψ̄ i , as shown by Pástor and
+Veronesi (2003a). For more details on the pricing formula, see the Appendix.
+    Throughout, we say that market conditions improve (worsen) when expected
+market return falls (rises), expected aggregate profitability rises (falls), or prior
+uncertainty rises (falls). We note that improvements in market conditions raise
+M/B and vice versa.
+
+
+                                II. Optimal IPO Timing
+     This section analyzes the IPO decision. Figure 2 summarizes the sequence
+of events. At time ti , a new idea is patented by an inventor.9 Until the patent
+expires at time Ti , it enables the owner to earn average excess profitability
+ψ̄ i . Production requires capital Bti , which is raised in an IPO. At some time
+τ i , ti ≤ τi ≤ Ti , the inventor may decide to go public and file the IPO. The IPO
+itself takes place at time τi + , where the lag ref lects the time required by the
+underwriter to conduct the “road show.” In the IPO, the inventor sells the firm to
+
+   8
+     These assumptions are made mostly for analytical convenience; relaxing them would add com-
+plexity with no obvious new insights. Given these assumptions, the clean surplus relation implies
+that book equity grows at the rate equal to the firm’s profitability: dBit = Yti dt = ρti Bit dt.
+   9
+     The patent need not be interpreted literally; it can be thought of as a competitive advantage.
+                                                                                                        15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Rational IPO Waves                                       1721
+
+                                                                   h i = time to expiration
+
+  ti                        τ        τ + l                    t                                T
+                                i     i                                                             i
+idea is               decision to      IPO time                                           patent
+patented              go public is                                                        expires
+                      taken
+
+Figure 2. The timing of events in our model. At time ti , an idea is patented by an inventor.
+The patent expires at time Ti . The inventor chooses whether to go public, and if so, when. If the
+inventor decides to go public at time τ i , the IPO takes place at time τi + .
+
+
+investors for its fair market value, M τii + , and pays a proportional underwriting
+fee, f . Part of the IPO proceeds, Bti , are immediately invested by the inventor
+and the production begins, generating the profits described in equation (1).
+Once the investment Bti is made, it is irreversible in that the project cannot be
+abandoned. The inventor’s payoff from going public is M τii + (1 − f ) − Bti , the
+market value of the patent net of fees.
+  The inventor chooses the time to go public to maximize the value of his patent
+because doing so allows him to maximize his lifetime expected utility from con-
+sumption given in equation (4). Given market completeness, standard results
+(Cox and Huang (1989)) imply that the maximization problem of inventor i can
+be written in its static form as
+                                             i       1−γ 
+                                       ∞
+                                           −ηt Ct − X t
+                        max E0           e                  dt                   (9)
+                        {Cti ,τi }   0            1−γ
+
+subject to the budget constraint
+                                                                  
+                     ∞
+                       πt i             πτi +  i                   
+              E0          Ct d t ≤ E0          M τi + (1 − f ) − Bti .                        (10)
+                   0   π0                π0
+
+The budget constraint states that the present value of the inventor’s lifetime
+consumption cannot exceed the present value of his endowment, which is as-
+sumed to be positive. It is clearly optimal for the inventor to choose τ i to maxi-
+mize the value of his endowment; that is, to maximize the market value of the
+patent:
+                                                              
+                                 πτi +  i                   
+                      max E0            M τi + (1 − f ) − Bti .                (11)
+                        τi        π0
+   This problem is analogous to computing the optimal exercise time of a call
+option. By securing a patent, the inventor acquires a real option to raise capital
+in an IPO and invest it in the patented technology. This option is American, as
+it can be exercised at any time before the patent expires. When deciding when
+to exercise the option, the inventor faces a trade-off. On one hand, delaying
+the IPO is costly because delay forfeits abnormal profits that can be earned
+only until the patent’s expiration. On the other hand, going public eliminates
+                                                                                             15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1722                               The Journal of Finance
+
+the time value of the option. This value is always positive because market
+conditions vary over time. In principle, market conditions can worsen so much
+after the IPO that the firm’s cash f low does not provide a fair rate of return
+on the initial investment Bti . Retaining the option by delaying the IPO offers
+protection against such a scenario, which is why the option increases the market
+value of the patent.
+   Let τ ∗i denote the optimal time to exercise the option in equation (11). We solve
+for τ ∗i numerically. The market value of the patent at any time t, ti ≤ t ≤ τi∗ + ,
+is
+
+                                                   πτi∗ +  i                    
+              V (ρ̄ t , y t , σ̂t , Ti − t) = Et           M τi∗ + (1 − f ) − Bti .   (12)
+                                                    πt
+
+The value of the patent, V, depends only on the aggregate quantities ρ̄ t , yt ,
+and σ̂t . Given market completeness, V can be replicated by trading in exist-
+ing securities before the IPO. As a result, V must satisfy the standard Euler
+equation Et [d(πt Vt )] = 0. This condition translates into a system of partial dif-
+ferential equations, one for each possible uncertainty state σ̂t ∈ V ={v1 , . . . , vn }.
+Using the final condition that the patent is worthless at Ti , we work backward
+to compute Vt for each combination of the state variables on a fine grid. The
+optimal stopping time τ ∗i is then chosen to maximize the patent value.
+   We note that the inventor faces no idiosyncratic risk before the IPO because
+the value of his patent, V, depends only on aggregate risks (ρ̄ t , y t , σ̂t ) that can
+be fully hedged. The contingent-claims portfolio that replicates V is shorted by
+the inventor to finance his pre-IPO consumption. Since the inventor is hedged,
+he has no need to sell the patent. However, as soon as Bti is invested, new
+idiosyncratic risk is introduced in the economy, and the only way the inventor
+can hedge this risk is by selling the patent in an IPO.
+   According to this logic, the fact that the capital necessary for investment
+is raised in an IPO rather than by borrowing is a result, not an assumption.
+The inventor issues equity because he has a strong incentive to diversify. If he
+instead borrowed and began producing, his entire wealth would be driven by
+idiosyncratic shocks (W i,t in equation (1)) that could not be hedged with existing
+securities, which is clearly suboptimal. The only security that can hedge this
+idiosyncratic risk is a share of the firm’s equity, which is not traded before the
+IPO. Then, standard risk-sharing arguments imply that the inventor issues
+some equity in an IPO. It can be proved formally that it is optimal for the
+inventor to sell all of his ownership, as assumed above, but it is also easy to
+show that the model’s implications are identical if the inventor retains any
+fraction of ownership after the IPO.
+   Finally, private firms in our model do not produce before their IPO, but many
+real-world IPOs are undertaken by mature firms that have produced for years
+before going public. Producing before the IPO is suboptimal in our model be-
+cause it exposes the inventor to unhedgeable idiosyncratic risk, as explained
+above. Less strictly, this model envisions a private firm whose pre-IPO produc-
+tion is small-scale relative to its post-IPO production.
+                                                                                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                   Rational IPO Waves                                                                         1723
+
+A. When Do Firms Go Public?
+  The optimal timing of a private firm’s IPO is driven by the firm’s market
+value, as shown in equation (11), and this value depends crucially on market
+conditions, as shown in equation (12). It follows that market conditions are a
+key factor in the decision to go public. To analyze the dependence of the IPO
+decision on market conditions, we solve the IPO timing problem numerically,
+using the parameters from Section III.A.
+  Figure 3 plots the pairs of expected market return µt and expected aggregate
+profitability ρ̄ t for which the inventor optimally decides to go public. Each line
+denotes the locus of points that trigger the IPO decision, or the “entry boundary.”
+Firms go public when µt and ρ̄ t lie inside the “entry region” northwest of the
+entry boundary. If the idea is invented when µt and ρ̄ t are inside the entry
+region, an IPO is filed immediately. Otherwise, the inventor waits until market
+
+
+                                               Panel A. T = 15, ψ = 0                                                            Panel B. T = 15, σ = 0
+                                  0.2                                                                               0.2
+                                            σ=0                                                                               ψ=–.04
+                                            σ=.05                                                                             ψ=0
+
+
+
+
+Exp. agg. profitability ( ρt )                                                    Exp. agg. profitability ( ρt )
+                                 0.18                                                                              0.18
+    |                                                                                 |
+                                            σ=.1                                                                              ψ=.04
+                                 0.16                                                                              0.16
+
+                                 0.14                                                                              0.14
+
+                                 0.12                                                                              0.12
+
+                                  0.1                                                                               0.1
+
+                                 0.08                                                                              0.08
+
+                                 0.06                                                                              0.06
+                                        0   0.05      0.1      0.15         0.2                                           0   0.05      0.1      0.15          0.2
+
+                                               Panel C. ψ = 0, σ = 0                                                             Panel D. ψ = 0, σ = 0
+                                  0.2                                                                               0.2
+                                            T=15                                                                              T=2
+                                            T=10                                                                              T=1.5
+
+
+
+
+Exp. agg. profitability ( ρt )                                                    Exp. agg. profitability ( ρt )
+                                 0.18                                                                              0.18
+    |                                       T=5                                       |                                       T=1
+                                 0.16                                                                              0.16
+
+                                 0.14                                                                              0.14
+
+                                 0.12                                                                              0.12
+
+                                  0.1                                                                               0.1
+
+                                 0.08                                                                              0.08
+
+                                 0.06                                                                              0.06
+                                        0   0.05     0.1      0.15       0.2                                              0   0.05     0.1      0.15       0.2
+                                            Expected market return ( µ )                                                      Expected market return ( µ )
+                                                                        t                                                                                 t
+
+
+Figure 3. Optimal IPO timing. Each panel plots the entry boundary; that is, the set of pairs
+of expected market return (horizontal axis) and expected aggregate profitability (vertical axis)
+that trigger the decision to go public. An IPO takes place in the parameter region northwest of
+each boundary. The entry boundaries are reported for three levels of prior uncertainty σ̂t per year
+(Panel A), firm-specific excess profitability ψ̂ per year (Panel B), and time to the patent’s expiration
+in years (Panels C and D).
+                                                                                                          15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1724                                The Journal of Finance
+
+conditions improve and files an IPO as soon as the entry boundary is reached.
+If the boundary is not reached before the patent expires, the firm never goes
+public.
+   Panel A considers a firm with ψ̂ti = 0 and a patent with T = 15 years to
+expiration.10 The entry boundary is upward sloping, so if µt increases, ρ̄ t must
+also increase to trigger entry. The entry boundary moves southeast as prior
+uncertainty σ̂t increases. Both effects are intuitive. At any point in time, the
+inventor compares the option value of delaying the IPO with the value of the
+profits given up by waiting. He files an IPO when market conditions improve
+(i.e., µt decreases, ρ̄ t increases, or σ̂t increases) sufficiently so that the option
+to wait is no longer valuable enough to delay the IPO.
+   Panel B plots the entry boundaries for three different values of expected
+excess profitability ψ̂ti , with σ̂t = 0. Higher values of ψ̂ti expand the entry region
+by shifting the entry boundary southeast, which is intuitive because a more
+profitable patent has a higher opportunity cost of waiting for an improvement
+in market conditions.
+   Panels C and D focus on time to the patent’s expiration, T. As time passes
+and T declines from 15 to 5 years, the entry boundary in Panel C moves south-
+east, lowering the hurdle for entry. Intuitively, the option to wait becomes less
+valuable as the patent’s expiration approaches. However, this effect is reversed
+close to the patent’s expiration, as shown in Panel D. The reason is the under-
+writing fee, f . As T declines toward 0, M/B at the IPO declines to 1. When M/B
+is sufficiently close to 1, the inventor does not exercise his option because his
+payoff net of fees would be negative. As a result, when T is sufficiently small,
+the hurdle for entry actually increases as time passes.
+   The endogeneity of IPO timing implies that the M/B ratios of IPOs tend to
+be high in our model, and also that these ratios typically decline after the IPO.
+IPOs take place when µt is low enough and ρ̄ t is high enough to be in the entry
+region (Figure 3). Low µt and high ρ̄ t help increase the M/B ratios of all firms,
+including IPOs. More often than not, µt is below and ρ̄ t above their long-term
+averages at the time of the IPO. As these mean-reverting variables move toward
+their central tendencies, the M/B ratios decline.
+   Prior uncertainty about ψ̄ i gives a second reason why M/B tends to decline
+after the IPO. As soon as the firm begins generating observable profits, the
+market begins learning about ψ̄ i . This learning reduces posterior uncertainty,
+which leads to a gradual decline in M/B over the lifetime of a typical firm, as
+discussed by Pástor and Veronesi (2003a). Despite their projected decline, the
+high IPO valuations are perfectly rational, because IPOs are expected to earn
+a fair positive rate of return. The M/B ratios of IPOs do not fall because M is
+
+
+   10
+      This choice of T seems reasonable. According to the U.S. law, patents issued before June 8,
+1995 typically last for 17 years from the date of issuance, while patents granted after June 8,
+1995 last for 20 years from the date of filing. The effective life of a patent is often shorter than 20
+years because some products such as drugs require various regulatory approvals before coming to
+the market, but patent extensions can frequently be obtained to compensate for the time lost in
+regulatory review (see Schwartz (2001)).
+                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                              Rational IPO Waves                             1725
+
+expected to go down, but because B is expected to go up faster than M, loosely
+speaking.
+
+
+
+                                III. IPO Waves
+   This section extends the single-firm analysis of Section II to multiple firms.
+The main result here is that IPO waves develop naturally as a result of optimal
+IPO timing in time-varying market conditions. IPO waves can obviously also
+arise if technological inventions cluster in time. To preclude such an effect, we
+assume that the pace of technological innovation is constant, so that exactly
+one new idea is invented each month. We assume that inventors compete for
+ideas, so that each idea is patented as soon as it is invented. Inventors also
+immediately start a new private firm that owns the patent.
+   Private firms go public when market conditions improve sufficiently to reach
+the entry region in Figure 3. Recall the trade-off: delaying the IPO forfeits
+profits, but it preserves the option to wait. Improvements in market conditions
+weaken the incentive to delay an IPO for two reasons. First, they reduce the
+value of the option to wait for better market conditions because those conditions
+are mean-reverting. Second, they raise the opportunity cost of delaying the IPO
+by raising the value of the profits given up by waiting.
+   The premise of this paper is that IPO waves are caused by sufficiently large
+improvements in market conditions. Most of the time, there is a “backlog” of
+private firms waiting for market conditions to improve. After a sufficiently large
+improvement, many of these firms go public. The resulting IPO waves typically
+last several months, as all private firms rarely go public at exactly the same
+time because they differ in the time to expiration on their patents as well as in
+their firm-specific profitability.
+   The rest of this section analyzes the properties of IPO waves in a simulated en-
+vironment, in which changes in market conditions are conveniently observable.
+We calibrate the model and simulate a long sample from it, allowing private
+firms to time their IPOs optimally. We then analyze the relation between IPO
+waves and market conditions in simulated data.
+
+
+
+A. Calibration
+  This subsection describes the parameters chosen to calibrate the model so
+that it matches some key features of the data on asset prices, profitability,
+and consumption. All parameters are summarized in Table I, together with
+some implied aggregate quantities. We use data on quarterly real aggregate
+consumption and aggregate profitability between 1966Q1 and 2002Q1 to es-
+timate the parameters for ct in equation (8) and for ρ̄ t in equation (3). Both
+series are described in the Appendix. We apply the Kalman filter to the dis-
+cretized versions of the processes. The estimated parameters imply expected
+consumption growth of 2.37% and volatility of 0.94% per year. For profitability,
+                                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1726                                      The Journal of Finance
+
+                                                     Table I
+                        Parameter Values in the Calibrated Model
+The table reports the parameter values used to calibrate our model. The parameters of the processes
+for expected aggregate profitability and consumption growth are estimated from the consumption
+and aggregate profitability data using the Kalman filter. The value of σ L,0 is restricted to 0 to elim-
+inate correlation across the three state variables (ρ̄ t , yt , and σ̂t ). The parameters of the individual
+profitability process are calibrated to the median firm in our sample. The utility parameters (η and
+γ ), the parameters defining the log surplus consumption ratio s(y) = a0 + a1 yt + a2 y2t , and those
+characterizing the state variable yt are calibrated to match the observed levels of the equity pre-
+mium, market volatility, aggregate M/B, and the interest rate. The transition probabilities λi,i±1
+that characterize the uncertainty process σ̂t on the grid V = {0, 0.1, . . . , 0.12} are chosen to obtain
+plausible dynamics for σ̂t . The transition probability at the boundaries of the grid is denoted by λb .
+All entries are annualized.
+
+               Panel A: Parameters of Aggregate Profitability, Consumption Growth,
+                                   and Individual Profitability
+
+kL            ρ̄ L        σ LL         σ L,0         b0          b1       σc        φi         σ i,0      σ i,i
+0.1412      12.16%       0.64%           0         1.40%       0.0812   0.94%     0.3968      4.79%      6.82%
+
+Panel B: Parameters of the Utility Function, Surplus Consumption Ratio, and Prior Uncertainty
+η              γ           ky            ȳ          σy        a0         a1        a2        λi,i±1      λb
+0.0475        3.70       0.073        −0.0017      0.5156    −2.8779    0.2132    −0.0198     10%        20%
+
+                         Panel C: Unconditional Moments from the Calibration
+E [Rmkt
+    t   ]   σ (Rmkt
+                t   )    E [rf ,t ]   σ (rf ,t )   E [M/B]   σ (M/B)    E[σ̂t ]    σ (σ̂t )   E[ρ̄ t ]   σ (ρ̄ t )
+6.8%          15%         3.3%         3.9%          1.7      0.614     6.11%      3.5%       12.1%      1.2%
+
+
+
+
+we obtain ρ̄ L = 12.16% per year, kL = 0.1412, and σLL = 0.64% per year.11 We
+set σ L,0 equal to 0, very close to the unconstrained estimate, which implies 0
+correlation between ρ̄ t and yt . As a result, all three state variables that drive
+IPO volume (ρ̄ t , yt , and σ̂t ) are independent of each other.
+   The agents’ preferences are characterized by the processes for st in equation
+(5), yt in equation (6), and by the utility parameters η and γ . The parameters are
+chosen to match some basic empirical properties of the market portfolio. Since
+newly listed firms comprise a small fraction of the market (e.g., Lamont (2002)),
+we represent the market by a “long-lived firm” with instantaneous profitability
+of ρ̄ t . The formulas for the long-lived firm’s M/B ratio (Mtm /Bm    t ), expected return
+(µmR  ),  and volatility (σ m
+                            R ) are  given  in the  Appendix.  The preference   parameters
+are chosen to calibrate µm       R , σR
+                                       m
+                                         , and  M m
+                                                  t /B m
+                                                       t to their empirical  values for the
+market, while producing reasonable properties for the real risk-free rate. Our
+values for ȳ and σ y imply the average equity premium of 6.8% and market
+volatility of 15% per year. The speed of mean reversion ky implies a half-life
+of 9.5 years for yt . The long-lived firm’s ratio of dividends to book equity is set
+   11
+      The speed of mean reversion kL implies a half-life of about 4.9 years. That is, given any starting
+value ρ̄ 0 , it takes on average 4.9 years for ρ̄ t to cover half the distance between ρ̄ 0 and its central
+tendency ρ̄ L .
+                                                                                                       15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Rational IPO Waves                                      1727
+
+to 10% per year, which produces an average aggregate M/B of 1.7, equal to the
+time-series average in the data. The average risk-free rate is 3.3% per year. The
+volatility of the risk-free rate is 3.9%, which is slightly higher than in the data
+(as is common in models with habit utility), but still reasonable.
+    The parameters for individual firm profitability ρti in equation (1) are chosen
+to match the median firm in the data. We use φ i = 0.3968, estimated by Pástor
+and Veronesi (2003a), who also report an 8.34% per year median volatility of the
+AR(1) residuals for individual firm profitability. We decompose this volatility
+into σi,0 = 4.79% and σ i,i = 6.82% per year, which implies a M/B of 1.7 for a firm
+with 15 years to patent expiration and ψ̂ti = 0 when σ̂t = 0, y t = ȳ, and ρti =
+ρ̄ t = ρ̄ L . Finally, prior uncertainty σ̂t moves along the grid V = 0, 1, . . . , 12 %
+per year. The transition probabilities are such that there is 10% probability in
+any given month of σ̂t moving up or down to an adjacent value in the grid. If σ̂t
+hits the boundary of the grid, there is a 20% probability of moving away from
+the boundary.
+    The parameters of the IPO timing model are specified as follows. The pro-
+portional underwriting fee is set equal to f = 0.07.12 The lag between the IPO
+filing and the IPO itself is set equal to = 3 months.13 The capital required
+for production is assumed to be proportional to the book value of the long-lived
+firm, Bti = q Btmi , with q = 0.0235%.14
+
+
+B. Simulation Evidence around IPO Waves
+  Using the parameters from the previous subsection, we simulate our model
+over a period of 10,000 years (120,000 months). One new idea is patented
+each month, with excess profitability ψ̂ti drawn randomly from the set
+{−6, −4, . . . , 4, 6} % per year with equal probabilities. Each patent has T =
+15 years to expiration.
+  We define IPO waves as follows. Following Helwege and Liang (2004), we
+calculate 3-month centered moving averages in which the number of IPOs
+in each month is averaged with the numbers of IPOs in the months imme-
+diately preceding and following that month. We define “hot markets” as those
+months in which the moving average falls into the top quartile across the whole
+simulated sample. We then define IPO waves as all sequences of consecutive
+
+   12
+      Chen and Ritter (2000) find that in 91% of the U.S. IPOs raising between $20 and $80 million
+(and in 77% of all IPOs) between 1995 and 1998, the gross spreads received by underwriters were
+exactly 7%. IPO underpricing can also be incorporated by using a bigger f without affecting our
+qualitative results.
+   13
+      Lowry and Schwert (2002) report that the average time between the IPO filing and offer dates
+between 1985 and 1997 is 72 days. The median is 63 days, the minimum 11 days, and the maximum
+624 days.
+   14
+      Every month between January 1960 and December 2002, the book value of new lists (ordinary
+common shares that first appear on CRSP in that month) is divided by the total book value of
+equity. The time-series average of the monthly ratios is 0.0235%, excluding the spikes in July 1962
+and December 1972 when Amex and Nasdaq were added to CRSP. The exact value of q is not
+important for any of our conclusions. As long as q is reasonably small, the long-lived firm accounts
+for the bulk of the market portfolio.
+                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1728                              The Journal of Finance
+
+hot-market months.15 In our simulated sample, there are 4,116 IPO waves
+whose length ranges from 1 to 17 months, with a median of 3 months. The
+maximum number of IPOs in any given month is 51, the median is 1, and the
+average is 0.9.
+   Since we assume a 3-month lag between an IPO filing and the IPO itself, we
+also define an IPO “pre-wave” as an IPO wave that is shifted back in time by 3
+months. Each IPO wave in our model is driven by state variable changes that
+occur in the respective prewave. We let “b” denote the last month before the
+wave begins, and “e” denote the last month of the wave. An IPO wave begins
+at the end of month b and ends at the end of month e. A prewave begins at the
+end of month b − 3 and ends at the end of month e − 3.
+   Table II reports the averages of selected variables around IPO waves. Given
+the size of the simulated sample, we can treat all averages as population val-
+ues, so no p-values are shown. Column 1 of Panel A reports the average change
+in the given variable during a prewave. First, IPO waves tend to be preceded
+by prewave declines in expected market return µt , in which the average pre-
+wave change is −0.99% per year. This decline is due to both components of µt ,
+expected excess return (−0.46%) and the risk-free rate (−0.53%). Second, ex-
+pected aggregate profitability ρ̄ t rises by 0.06% per year during a prewave, on
+average. Third, IPO waves are preceded by increases in prior uncertainty σ̂t , in
+which the average prewave change is 0.33% per year. Table II thus illustrates
+the importance of all three channels (discount rate, cash f low, and uncertainty)
+in generating IPO waves.
+   The weakest of the three channels in Table II seems to be the cash f low
+channel, for two reasons. First, ρ̄ t exhibits relatively little variation because
+aggregate profitability data that are used to calibrate the process for ρ̄ t is rela-
+tively stable over time. Second, ρ̄ t reverts to its mean relatively fast (e.g., faster
+than the variable yt that drives µt ), so changes in ρ̄ t are perceived as short-
+lived. The inventor’s option to wait for an increase in ρ̄ t is thus less valuable,
+and ρ̄ t has a weaker effect on IPO volume than µt and σ̂t do.
+   IPO waves in our model are caused by changes in market conditions, not
+levels. Table II shows that market conditions are typically only slightly more
+favorable during the waves than outside the waves. The level of market condi-
+tions is ref lected in the aggregate M/B, defined as the sum of earnings divided
+by the sum of book values across all firms. M/B rises during the prewaves by
+0.11 on average, which is consistent with IPO waves being produced by im-
+provements in market conditions. However, the level of M/B during the waves
+is only slightly higher than it is outside the waves (1.78 vs. 1.76, on average).
+The reason is that there is an interesting path dependence in IPO volume. Im-
+provements in market conditions induce IPOs, thus depleting the backlog of
+private firms waiting to go public. After sufficiently large improvements, there
+is no backlog left, and IPO volume cannot exceed 1 per month when M/B is
+
+   15
+      Rarely, a month with zero IPOs can be designated as the first or last month of a wave if the
+large IPO volume in the neighboring month inf lates the moving average. Such months are excluded
+from the wave.
+                                                                                                                                                                                                 Table II
+                                                                                                                                                Simulation Evidence around IPO Waves
+                                                 The table reports averages of selected variables and market returns around simulated IPO waves. “b” stands for the beginning of an IPO wave, that
+                                                 is, the end of the last month before the wave begins. “e” stands for the end of the wave’s last month. “b(e) ± n” denotes n months before or after the
+                                                 beginning (end) of a wave. A prewave is defined as the period that begins at the end of month b − 3 and ends at the end of month e − 3. Expected
+                                                 excess and total returns are computed for the market portfolio, the value-weighted portfolio of all existing simulated firms. Expected profitability
+                                                 stands for ρ̄, and prior uncertainty stands for σ̂ . The variable MVOL is market return volatility, RF is the risk-free rate, M/B is the aggregate M/B
+                                                 ratio, NEWVOL is the difference between the return volatility of a new firm and market volatility, and NEWMB is the log difference between the M/B
+                                                 of a new firm and the M/B of the market. All variables except for M/B and NEWMB are expressed in percent per year.
+
+                                                                                                                                                                           Before Wave                                                               Wave                                            After Wave
+                                                                                                               Avg. Change                                                                                                                                                                                                                        Outside
+                                                                                                               in Prewave                              b−6                        b−3                            b                    b + 1: e                          e                     e+3                        e+6                       Wave
+
+                                                                                                                                                            Panel A: Averages of First-Column Variables
+                                                 Expected total return                                               −0.99                             10.50                      10.03                      9.23                        8.75                       9.27                      9.31                       9.33                         9.93
+                                                 Expected profitability                                               0.06                             12.12                      12.14                     12.18                       12.21                      12.17                     12.17                      12.17                        12.16
+                                                 Prior uncertainty                                                    0.33                              5.10                       5.12                      5.41                        5.52                       5.41                      5.44                       5.43                         5.73
+                                                 Expected excess return                                              −0.46                              7.45                       7.26                      6.88                        6.66                       6.90                      6.90                       6.90                         6.79
+                                                 RF                                                                  −0.53                              3.05                       2.77                      2.34                        2.08                       2.37                      2.40                       2.43                         3.15
+                                                 M/B                                                                  0.11                              1.59                       1.64                      1.73                        1.78                       1.73                      1.72                       1.72                         1.76
+                                                                                                                                                                                                                                                                                                                                                                          Rational IPO Waves
+
+                                                 MVOL                                                                −0.47                             16.22                      16.06                     15.67                       15.45                      15.69                     15.68                      15.66                        15.22
+                                                 NEWVOL                                                               2.34                             43.62                      43.30                     45.46                       46.18                      45.48                     45.77                      45.74                        48.73
+                                                 NEWMB                                                                0.07                              0.22                       0.24                      0.30                        0.33                       0.30                      0.30                       0.30                         0.29
+
+                                                                                                                                                                                  Before Wave                                                                                            After Wave
+                                                                                              Prewave                              Outside                                                                                              Wave                                                                                                     Outside
+                                                                                             b−2:e−3                               Prewave                        b−5:b−3                                b−2:b                         b+1:e                         e+1:e+3                               e+4:e+6                                Wave
+
+                                                                                                                                                             Panel B: Average Realized Market Returns
+                                                 Total return                                      40.30                                 7.05                            21.99                             32.38                            8.99                              9.10                                  9.59                            10.27
+                                                 Excess return                                     37.97                                 3.92                            18.99                             29.84                            6.91                              6.72                                  7.18                             7.12
+
+
+                                                                                                                                                                                                                                                                                                                                                                          1729
+
+
+
+
+15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                          15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1730                                        The Journal of Finance
+
+                                               Panel A. Simulated IPO Volume
+                   35
+
+                   30
+
+
+
+
+  Number of IPOs
+                   25
+
+                   20
+
+                   15
+
+                   10
+
+                    5
+
+                    0
+                        0   10   20       30        40       50        60       70        80   90   100
+
+                                      Panel B. Simulated Aggregate Market-to-Book Ratio
+               2.5
+
+
+                    2
+
+
+ M/B           1.5
+
+
+                    1
+
+
+               0.5
+                        0   10   20       30        40       50        60       70        80   90   100
+                                                            Year
+
+Figure 4. Simulated IPO waves. The figure plots the monthly number of IPOs and the aggregate
+M/B ratio in a randomly selected 100-year segment of our simulated data. All IPOs are optimally
+timed in the sense of Section II. The aggregate M/B ratio is defined as the sum of earnings divided
+by the sum of book values across all firms in the simulation.
+
+
+
+high. Similarly, the backlog of private firms builds up as market conditions get
+worse, and an improvement in unfavorable market conditions can induce much
+of the large backlog to go public when M/B is low.
+   The relation between IPO volume and M/B is illustrated in Figure 4 on a
+randomly selected 100-year segment of the simulated data. The figure shows
+dramatic variation in IPO volume: there are periods as long as 6 years in which
+no IPOs take place, but also months of feverish IPO activity, with over 30 IPOs
+per month.16 IPO waves invariably occur after increases in M/B, but not neces-
+sarily when M/B is high. Similarly, periods when no firms go public tend to be
+preceded by severe drops in M/B.
+
+
+   16
+      Since new ideas arrive at the rate of one per month, the average number of IPOs in our
+simulations is just under one per month (because some patents never go public). In the data, the
+number of IPOs between January 1960 and December 2002 averages 28.78 per month. Thus, to
+convert IPO volume in the simulation into a comparable number in the data, one must multiply it
+roughly by a factor of 30.
+                                                                                                         15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Rational IPO Waves                                        1731
+
+                    B.1. Proxies for Changes in Market Conditions
+    Changes in market conditions can be observed in our simulated environment,
+but not in the data. Therefore, we must construct observable proxies for our
+empirical analysis.
+    One key quantity that is unobservable in the data is the expected mar-
+ket return µt . Its risk-free rate component is observable, but the equity pre-
+mium is not. One proxy for the equity premium is market return volatility
+(MVOL). This volatility is highly correlated with the equity premium in our
+model because both variables decrease with yt in the plausible range. Based
+on our long simulated time series, the correlation between MVOL and the eq-
+uity premium is 0.90, whereas MVOL’s correlations with ρ̄ t and σ̂t are 0.05
+and 0, respectively. All correlations are computed for first differences because
+those are used in the empirical work. The second proxy for changes in µt
+is realized market return, motivated by the fact (e.g., Campbell (1991)) that
+market returns seem to respond more to news about discount rates than to
+news about cash f lows. High realized market returns thus likely ref lect de-
+clines in expected market return, and vice versa. In our simulation, real-
+ized market returns are indeed highly negatively correlated with changes in
+µt (−0.94).
+    Prior uncertainty σ̂t is also unobservable in the data. Both the M/B and the
+return volatility of IPOs are strongly positively related to σ̂t , but neither the
+M/B nor the volatility of the long-lived firm depends on σ̂t . This distinction
+                                                          ipo
+suggests two proxies for σ̂t . One proxy, NEWVOLt = σR,t − σR,t   m
+                                                                    , compares the
+return volatilities of IPOs and the long-lived firm. The second proxy compares
+                                       ipo  ipo
+their M/B ratios: NEWMBt = log(Mt /Bt ) − log (Mtm /Bm      t ). The intuition that
+both NEWVOL and NEWMB should increase with σ̂t is confirmed in our long
+simulated sample. Both proxies have high positive correlations (0.80 and 0.59)
+with σ̂t , but their correlations with the other two state variables are much
+lower: 0.09 with µt and zero with ρ̄ t for NEWVOL, −0.29 with µt and 0.09 with
+ρ̄ t for NEWMB. Thus, our proxies for changes in market conditions have solid
+theoretical motivation.
+    Table II examines the variation of these proxies around simulated IPO waves.
+MVOL declines during the prewaves by an average of 0.47% per year, which
+ref lects a prewave decline in expected market return. NEWVOL and NEWMB
+both increase during the prewaves by 2.34% per year and 0.07, respectively,
+which ref lects a prewave increase in prior uncertainty.17 Realized market re-
+turns should be unusually high before IPO waves, especially due to declines
+in expected market return. Indeed, Panel B shows that average return is
+
+   17
+      Computing NEWVOL and NEWMB requires at least one IPO in the given month. Since only
+one idea is invented each month, our simulated sample includes many months with zero IPOs,
+especially before IPO waves. To avoid missing observations in the months with the biggest im-
+provements in market conditions, we assume that one firm with T = 15 and ψ̂ti = 0 is born in any
+month t into the current market conditions summarized by yt , ρ̄ t , and σ̂t . This assumption is made
+for the purpose of constructing NEWVOL and NEWMB only, and it provides a cleaner assessment
+of these proxies for σ̂t than any obvious alternatives.
+                                                                                       15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1732                         The Journal of Finance
+
+significantly higher during the prewaves than outside: 40.30% compared to
+7.05% per year. Market returns during IPO waves and in the first three post-
+wave months are relatively low, about 9% for total returns, which is less than the
+10.27% average outside a wave. There are two reasons behind the lower mar-
+ket returns. First, these returns are expected to be low if the wave is caused
+by a prewave decline in expected return. Second, market conditions typically
+begin deteriorating during the wave because of the endogeneity of IPO timing.
+If market conditions continued to get better, the wave would likely continue as
+well.
+
+
+C. Regression Analysis
+  Table III analyzes the determinants of IPO volume in a regression framework.
+Each column reports the coefficients from a regression of the number of IPOs
+on the variables listed in the first column. All variables are simulated from our
+calibrated model. Although the model is simulated at a monthly frequency, all
+variables are cumulated to the quarterly frequency so that Table III matches its
+empirical counterparts, Tables VI and VII. We do not report any p-values. All
+coefficients are highly statistically significant because the simulated sample is
+so large (40,000 quarters).
+  We first examine the discount rate channel. As shown in column 1 of
+Table III, IPO volume increases after declines in expected market return over
+the previous two quarters. Column 6 shows that IPO volume also increases
+after declines in the risk-free rate. Column 5 shows that declines in MVOL
+tend to be followed by more IPOs. The results in column 4 also support the
+discount rate channel: IPO volume is positively related to past market re-
+turns, but negatively related to future and current returns. Realized returns
+are high while the expected market return drops, but they are low after the drop
+stops.
+  The cash f low and uncertainty channels are also supported by Table III.
+Column 2 shows that IPO volume is high after increases in ρ̄ t . IPO volume is
+also high after increases in prior uncertainty σ̂t , as shown in column 3, as well
+as after increases in NEWMB and NEWVOL (columns 8 and 9), both of which
+proxy for σ̂t in our empirical work. Moreover, IPO volume is positively related to
+the level of M/B in the previous quarter. This relation is significant statistically
+but not economically, as shown in Table II.
+  To be consistent with the subsequent empirical regressions, all regressions
+in Table III include a lag of IPO volume on the right-hand side. This lag is
+always significant, but its removal does not alter any of the relations noted
+above. When we compare the R2 ’s in the first three columns, the discount rate
+channel seems the strongest, and the cash f low channel the weakest. The R2 ’s
+are relatively low, between 0.04 and 0.12, because the true relations between
+IPO volume and the given variables are complex and nonlinear. We run linear
+regressions to be consistent with our empirical regressions, and also because
+they suffice to demonstrate the presence of all three channels that produce IPO
+waves in our model.
+                                                                                                          15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                      Rational IPO Waves                                        1733
+
+                                               Table III
+               Simulation Evidence: Regressions of IPO Volume
+                            on Selected Variables
+Each column represents a quarterly regression of IPO volume on the variables listed in the first
+column. All variables are taken from a 10,000-year-long sample simulated from our calibrated
+model. No t-statistics are given because all reported numbers are highly significant. The notation
+“” denotes changes (first differences), and “−n” (“+n”) denotes quarterly lags (leads). The notation
+ER denotes expected total market return, MKT is realized market return, MVOL is market return
+volatility, RF is the risk-free rate, M/B is the aggregate M/B ratio, NEWMB is the log difference
+between the M/B of a new firm and the M/B of the market, NEWVOL is the difference between
+the return volatility of a new firm and market volatility, and IPO is the number of firms that went
+public this quarter. The units are chosen to ensure some significant digits for all coefficients in the
+table: MKT is measured in decimals per month, and all other variables except for the unitless M/B
+and NEWMB are in percent per year.
+
+                     (1)      (2)       (3)       (4)       (5)      (6)      (7)       (8)       (9)
+
+Intercept           2.25      2.21     2.22       2.03      2.22     2.23     0.69     2.22      2.22
+ER − 2            −0.24
+ER − 1            −0.65
+ρ̄ − 2                       0.05
+ρ̄ − 1                       0.46
+σ̂ − 2                                0.08
+σ̂ − 1                                0.34
+MKT − 2                                          4.30
+MKT − 1                                          9.92
+MKT                                             −1.50
+MKT + 1                                         −1.78
+MKT + 2                                         −1.53
+MVOL − 2                                                  −0.15
+MVOL − 1                                                  −0.98
+RF − 2                                                             −0.25
+RF − 1                                                             −0.87
+M/B − 1                                                                       0.93
+NEWMB − 2                                                                             0.07
+NEWMB − 1                                                                             6.54
+NEWVOL − 2                                                                                      0.00
+NEWVOL − 1                                                                                      0.03
+IPO(t − 1)           0.19     0.20     0.20       0.18      0.20     0.20     0.16     0.20      0.20
+T                  40,000   40,000    40,000    40,000     40,000   40,000   40,000   40,000   40,000
+R2                   0.11    0.04      0.05       0.12       0.08     0.10    0.07     0.08     0.04
+
+
+
+
+D. Robustness to Pre-IPO Idiosyncratic Risk
+   In our model, a private firm’s IPO timing decision is driven by the firm’s
+market value, which varies only with market conditions and with the passage
+of time (equations (11) and (12)). The firm’s value does not depend on firm-
+specific risk because there is no production or learning before the IPO. In reality,
+though, private firms usually do face idiosyncratic risk, which creates firm-
+specific reasons for going public. This section explains why the main predictions
+of our model obtain also in the presence of pre-IPO idiosyncratic risk.
+                                                                                                    15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1734                              The Journal of Finance
+
+   In general, a private firm’s decision to go public depends on the firm’s own
+expected return, its own expected profitability, and its own prior uncertainty.
+We refer to these three elements as “firm conditions.” Firm conditions clearly
+depend on market conditions. For example, if expected market return drops,
+expected individual stock returns must also drop, on average. In our model,
+firm conditions for private firms are in fact perfectly correlated with mar-
+ket conditions because there is no pre-IPO idiosyncratic risk. The correla-
+tion is lower if such risk is present, which raises the question of whether
+firm conditions move together sufficiently to cause IPO waves. Measuring
+this comovement is difficult because firm conditions are unobservable. Re-
+lated evidence is provided by Vuolteenaho (2002), who finds that changes in
+expected returns are highly correlated across firms and concludes that these
+changes are “predominantly driven by systematic, marketwide components.”
+More generally, the comovement in firm conditions must be significant be-
+cause stock prices change if and only if firm conditions change, and stock
+prices do exhibit significant comovement. For example, of the 17,832 firms
+with more than 3 years of data on CRSP between January 1926 and December
+2002, 96.2% have positive estimated market betas, and 74.2% of those betas
+are statistically significant. The average R2 from the corresponding monthly
+market model regressions is 0.13. Note that for changes in market condi-
+tions to affect IPO volume, most of the variation in firm conditions does not
+need to be common; it is sufficient if a significant part of this variation is
+common.
+   To analyze theoretically how idiosyncratic risk affects IPO waves, we solve a
+modified version of our model in which private firms face idiosyncratic risk due
+to pre-IPO learning. We assume that agents observe signals about ψ̄ i before
+the IPO, so that the perception of ψ̄ i exhibits firm-specific pre-IPO variation.
+We simulate the modified model with signal precision chosen to make idiosyn-
+cratic risk more important than in the data.18 As expected, the IPO volume
+in the simulation is less volatile than in our original model. This deviation
+from our model is realistic because IPO volume is more volatile in our model
+than it is in the data (cf. Figures 1 and 4). More important, the IPO waves
+observed in the simulation have properties very similar to those obtained in
+our model. The discount rate and cash f low channels remain highly significant
+in the simulated regressions; only the uncertainty channel is weaker because
+higher uncertainty about pre-IPO signals increases the value of the option to
+wait (Cukierman (1980)). Therefore, our conclusions also hold in the presence of
+pre-IPO idiosyncratic risk. We focus on the simpler framework without pre-IPO
+learning because the modified framework is significantly more complicated and
+computationally challenging without adding any substantial new insights into
+the time variation in IPO volume.
+
+
+   18
+      We simulate the modified model in the same way as our basic model, and run market model
+regressions using private firm returns and market returns computed in the simulation. The average
+R2 is just under 0.10, which is below the 0.13 value obtained in the data.
+                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Rational IPO Waves                                     1735
+
+                                 IV. Empirical Analysis
+    This section empirically investigates the three channels (discount rate, cash
+f low, and uncertainty) through which time-varying IPO volume is created in
+our model.
+
+
+A. Data
+   The data on the number of IPOs, obtained from Jay Ritter’s website, cover
+the period January 1960 through December 2002. To avoid potential concerns
+about nonstationarity (see Lowry (2003)), we def late the number of IPOs by the
+number of public firms at the end of the previous month.19 In the rest of the
+paper, “the number of IPOs” and “IPO volume” both refer to the def lated series,
+whose values range from 0% to 2.1% per month, with an average of 0.5%. The
+pattern of time variation in the def lated series looks very similar to the pattern
+in the raw series plotted in Figure 1.
+   The data on our proxies for changes in market conditions are also constructed
+monthly for January 1960 through December 2002, unless specified otherwise.
+We use all data available to us. Market returns (MKT) are total returns on the
+value-weighted portfolio of all NYSE, Amex, and Nasdaq stocks, extracted from
+CRSP. Market volatility (MVOL) is computed each month after July 1962 as
+standard deviation of daily market returns within the month. The aggregate
+M/B ratio (M/B), plotted in Figure 5, is the sum of market values of equity
+across all ordinary common shares divided by the sum of the most recent book
+values of equity. The real risk-free rate (RF) is the yield on a 1-month T-bill in
+excess of expected inf lation, where the latter is the fitted value from an AR(12)
+process applied to the monthly series of log changes in CPI from the Bureau of
+Labor Statistics. Aggregate profitability, measured as return on equity (ROE),
+is computed quarterly for 1966Q1 through 2002Q1 using the Compustat data,
+as described in the Appendix. This measure of profitability follows the defi-
+nition of ρti in Section I.A. Another measure of cash f low expectations is the
+I/B/E/S summary data on equity analysts’ forecasts of long-term earnings
+growth. These forecasts have horizons of 5 years or more, which makes them
+suitable, given the relatively long-term nature of ρ̄ t . For each firm and each
+month, the average forecast of long-term earnings growth is computed across
+all analysts covering the firm. The forecast of average earnings growth (IBES)
+is then computed by averaging the average forecasts across all ordinary com-
+mon shares. The resulting series is available for November 1981 through March
+2002.
+
+   19
+      All individual stock price data are obtained from the Center for Research in Security Prices
+(CRSP) at the University of Chicago. We define public firms as ordinary common shares (CRSP
+sharecodes 10 or 11) with positive market values. The number of CRSP-listed firms jumps in July
+1962 and December 1972 due to the addition of Amex and Nasdaq firms. Following Lowry (2003),
+we use the actual number of public firms after December 1972, but estimate the number of public
+firms prior to that by assuming that this number grew at the compounded growth rate of 0.45%
+per year before December 1972.
+                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1736                               The Journal of Finance
+
+              4
+
+
+
+
+             3.5
+
+
+
+
+              3
+
+
+
+
+             2.5
+
+
+       M/B
+
+
+              2
+
+
+
+
+             1.5
+
+
+
+
+              1
+
+
+
+
+             0.5
+              1960   1965   1970     1975      1980     1985     1990     1995     2000
+
+
+Figure 5. Monthly time series of the aggregate market-to-book ratio. Each month, the
+aggregate market-to-book ratio (M/B) is computed as the sum of market values of equity across all
+firms divided by the sum of the most recent book values of equity.
+
+
+  The proxies for prior uncertainty are constructed as follows. New firm excess
+volatility (NEWVOL) in a given month is computed by subtracting market re-
+turn volatility from the median return volatility across all new firms, which
+are defined as those firms whose first appearance in the CRSP daily file oc-
+curred in the previous month. A given firm’s return volatility in each month is
+the standard deviation of daily stock returns within the month. The variable
+NEWVOL has 464 valid monthly observations in the 486-month period between
+July 1962 and December 2002. New firm excess M/B ratio (NEWMB) is com-
+puted for each month between January 1950 and March 2002 as follows. First,
+we compute the median M/B across all new firms, which are defined as firms
+that appeared in the CRSP monthly file in the previous year.20 The variable
+
+  20
+     This definition of new firms ensures availability of their valid M/B ratios. Few firms have
+valid M/B ratios in the first few months after listing because M/B is computed using lagged book
+equity, which is often available only on an annual basis and generally available only after market
+equity becomes available. For both NEWMB and NEWVOL, we require at least three new firms to
+compute a valid median.
+                                                                                                              15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                  Rational IPO Waves                                   1737
+
+                                              Panel A. New Firm Excess Volatility (NEWVOL)
+                         10
+
+
+                          8
+
+
+
+
+             % per day
+                          6
+
+
+                          4
+
+
+                          2
+
+
+                         0
+                         1960   1965   1970        1975       1980       1985       1990     1995   2000
+
+                                                Panel B. New Firm Excess M/B (NEWMB)
+                          2
+
+
+                     1.5
+
+
+
+
+ Log difference
+                          1
+
+
+                     0.5
+
+
+                          0
+
+
+                  –0.5
+                    1960        1965   1970        1975       1980       1985       1990     1995   2000
+                                                                 Year
+
+Figure 6. Monthly time series of proxies for prior uncertainty. Panel A plots NEWVOL,
+the median return volatility (standard deviation of daily returns) across all newly listed firms in
+excess of market return volatility. The values of NEWVOL are available between July 1962 and
+December 2002. Panel B plots NEWMB, the log median M/B across all newly listed firms in excess
+of the log median M/B across all firms. The values of NEWMB are available between January 1960
+and March 2002.
+
+
+
+NEWMB is computed as the natural logarithm of that median minus the log of
+the median M/B across all firms. The construction of M/B for individual firms
+is described in the Appendix. The variable NEWMB has eight missing values
+between January 1960 and March 2002. The monthly time series of NEWVOL
+and NEWMB are plotted in Figure 6.
+   Figure 6 shows that both NEWMB and NEWVOL rise sharply in the late
+1990s and decline after 2000. The variable NEWVOL exhibits a remarkable
+pattern: in 1998, it triples from about 2% per day to about 6%, it remains
+around 6% through the end of 2000, and then it drops back to about 2% after
+2000. Prior uncertainty was apparently unusually high in 1998 through 2000.
+                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1738                        The Journal of Finance
+
+This fact is not surprising, since long-term prospects of new firms are par-
+ticularly uncertain when new paradigms are being embraced. The high prior
+uncertainty may have induced many firms to go public in the late 1990s, and
+it might also have contributed to the high valuations of many IPOs at that
+time.
+
+
+
+B. Empirical Evidence around IPO Waves
+   Between January 1960 and December 2002, there are 16 IPO waves. Their
+lengths range from 1 to 21 months, with a median of 5 months. Some summary
+statistics for the 16 waves are shown in Tables IV and V. All variables except
+for the unitless M/B and NEWMB are in percent per year. In Table IV, all but
+three waves are preceded by above-average market returns during the prewave,
+as predicted by the model. Only one (1-month) wave is preceded by a negative
+return. For all but two waves, MVOL declines during the prewave, which is
+consistent with a prewave decline in expected market return. The wave that
+begins in 1993 appears to be due to the cash f low channel. The waves in 1991,
+1992, and especially 1999 are preceded by increases in both NEWVOL and
+NEWMB, suggesting that these waves may have been caused at least in part
+by increases in prior uncertainty.
+   Table V reports variable averages across the 16 waves. The t-statistics, given
+in parentheses, measure the significance of the difference between the aver-
+ages within and outside the given period. For example, the t-statistic for av-
+erage MVOL during a wave (−3.18) is computed by regressing MVOL on a
+dummy variable equal to 1 if the month is part of an IPO wave, and 0 oth-
+erwise. A positive (negative) t-statistic indicates that the variable’s average
+in the given period is bigger (smaller) than the average in the rest of the
+sample.
+   The average prewave change in MVOL is significantly negative at −2.81%
+(t = −2.27), which is consistent with IPO waves being caused by declines in
+expected market return. The values of M/B, ROE, and IBES all increase before
+the waves, as the model predicts, but these increases are statistically insignifi-
+cant. The value of NEWVOL increases significantly during prewaves (t = 2.27),
+consistent with the uncertainty channel, but the value of NEWMB does not. The
+value of RF increases insignificantly during prewaves, contrary to our model,
+which predicts a prewave decrease. Panel B shows that average market returns
+are high before IPO waves (e.g., 31.17% annualized with t = 2.77 two quarters
+before a wave), as predicted by the model. Market returns are low during and
+especially after IPO waves, but they are not significantly lower than in the
+rest of the sample. The return pattern is similar to the model-predicted pattern
+observed in Table II.
+   Since the averages in Table V are computed across only 16 IPO waves, only
+a few relations are statistically significant. More detailed empirical analysis
+is therefore performed in the following section, which focuses on IPO volume
+rather than on IPO waves alone.
+                                                                                                                                                                                                Table IV
+                                                                                                                                                           IPO Waves Observed in the Data
+                                                 The table reports some summary statistics for the 16 IPO waves observed in our sample period of January 1960 through December 2002. “Avg
+                                                 prewave market return” for a given wave denotes the average monthly total market return during the respective prewave. The variable MVOL is
+                                                 market return volatility, M/B is the aggregate M/B ratio, RF is the risk-free rate, ROE is aggregate profitability (return on equity), IBES is the
+                                                 average analyst forecast of long-term earnings growth, NEWVOL is the difference between the median return volatility of new firms and market
+                                                 volatility, and NEWMB is the log difference between the median M/B of new firms and the median M/B across all firms. All variables except for M/B
+                                                 and NEWMB are expressed in percent per year.
+
+                                                                                                                                                                                                                                                            Prewave Change in
+                                                                Beginning                        End                     Number                     Avg. Prewave
+                                                                 of Wave                       of Wave                   of IPOs                    Market Return                              MVOL                       M/B                    RF                   ROE                  IBES                  NEWVOL                        NEWMB
+
+                                                 1                  196108                      196205                        480                            10.56                             n/a                        0.02                  0.22                  n/a                   n/a                      n/a                            0.33
+                                                 2                  196810                      197002                      1,061                             0.07                            −1.33                      −0.26                 −0.37                  0.34                  n/a                     11.90                          −0.07
+                                                 3                  197110                      197207                        488                            13.47                            −4.21                       0.11                  0.64                  0.36                  n/a                      3.40                          −0.15
+                                                 4                  197209                      197209                         32                            −2.70                            −4.09                      −0.04                  0.10                  0.00                  n/a                     24.32                          −0.12
+                                                 5                  197211                      197211                         40                            19.02                            −1.19                       0.06                 −0.08                  0.00                  n/a                     −7.98                          −0.02
+                                                 6                  198103                      198107                        245                            16.16                            −7.72                      −0.06                  2.81                 −3.45                  n/a                     31.90                          −0.51
+                                                 7                  198302                      198407                      1,223                            22.72                           −17.14                       0.15                  1.45                  0.48                  1.71                     0.38                          −0.18
+                                                                                                                                                                                                                                                                                                                                                                          Rational IPO Waves
+                                                 8                  198507                      198511                        249                            12.78                            −1.39                       0.01                 −0.15                 −0.96                 −0.29                    −0.82                          −0.19
+                                                 9                  198601                      198709                      1,517                            27.69                            −0.58                       0.57                 −2.22                 −1.82                 −0.75                     6.11                          −0.13
+                                                 10                 199111                      199112                         93                            25.04                            −2.65                       0.03                 −0.42                  0.00                  0.26                     9.88                           0.05
+                                                 11                 199202                      199205                        206                            23.86                            −0.30                       0.17                  0.74                  3.83                  0.19                    22.81                           0.46
+                                                 12                 199304                      199406                        828                             6.85                             3.88                      −0.02                 −1.02                  6.33                  0.79                     0.64                          −0.54
+                                                 13                 199507                      199507                         50                            31.20                            −1.99                      −0.01                  0.79                 −0.12                 −0.05                    −3.66                           0.01
+                                                 14                 199510                      199612                      1,068                            22.15                            −0.80                       0.34                 −0.09                 −0.01                  2.21                    −3.06                           0.23
+                                                 15                 199710                      199711                        145                            33.76                             1.52                       0.03                 −0.31                 −1.17                 −0.11                    −1.93                          −0.14
+                                                 16                 199906                      199907                        122                            19.60                            −4.16                       0.26                  0.11                  0.91                 −0.08                    54.14                           0.21
+
+                                                The values that are not available due to missing data are denoted by “n/a.”
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                          1739
+
+
+
+
+15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                                                                                                                  Table V
+                                                                                                                                                      Empirical Evidence around IPO Waves                                                                                                                                                                                 1740
+                                                 The table reports averages of selected variables and market returns around IPO waves. “b” stands for the beginning of an IPO wave; that is, the end of the last month
+                                                 before the wave begins. “e” stands for the end of the wave’s last month. “b(e) ± n” denotes n months before or after the beginning (end) of a wave. A prewave is defined
+                                                 as the period that begins at the end of month b − 3 and ends at the end of month e − 3. The variable MVOL is market return volatility, M/B is the aggregate M/B
+                                                 ratio, RF is the risk-free rate, ROE is aggregate profitability (return on equity), IBES is the average analyst forecast of long-term earnings growth, NEWVOL is the
+                                                 difference between the median return volatility of new firms and market volatility, and NEWMB is the log difference between the median M/B of new firms and the
+                                                 median M/B across all firms. All variables except for M/B and NEWMB are expressed in percent per year.
+
+                                                                                                                                                       Before Wave                                                                        Wave                                                     After Wave
+                                                                                     Avg. Change                                                                                                                                                                                                                                                   Outside
+                                                                                     in Prewave                               b−6                            b−3                                b                       b+1:e                                 e                          e+3                            e+6                         Wave
+
+                                                                                                                                                                     Panel A: Averages of Selected Variables
+
+                                                 MVOL                                     −2.81                             12.36                          13.66                          12.70                          12.67                          12.73                          15.63                          15.00                          15.24
+                                                                                         (−2.27)                           (−1.14)                        (−0.48)                        (−0.97)                        (−3.18)                        (−0.96)                          (0.54)                         (0.21)                         (3.18)
+                                                 M/B                                        0.08                              1.78                           1.87                           1.94                           1.81                           1.93                           1.90                           1.97                           1.78
+                                                                                           (1.79)                          (−0.06)                          (0.50)                         (0.96)                         (0.50)                         (0.89)                         (0.72)                         (1.15)                       (−0.50)
+                                                 RF                                         0.14                              1.46                           1.55                           1.77                           2.22                           2.37                           1.95                           2.06                           1.17
+                                                                                           (0.50)                            (0.05)                         (0.22)                         (0.65)                         (5.13)                         (1.84)                         (1.02)                         (1.23)                       (−5.13)
+                                                 ROE                                        0.32                            11.69                          11.59                          11.71                          12.24                          12.11                          13.10                          12.02                          12.57
+                                                                                           (0.54)                          (−1.02)                        (−1.15)                        (−1.00)                        (−1.01)                        (−0.48)                          (0.81)                       (−0.60)                          (1.01)
+                                                 IBES                                       0.39                            16.93                          16.88                          16.86                          16.81                          17.45                          17.58                          17.57                          17.83
+                                                                                           (1.32)                          (−0.66)                        (−0.72)                        (−0.74)                        (−2.90)                        (−0.03)                          (0.12)                         (0.12)                         (2.90)
+                                                 NEWVOL                                     9.87                            46.92                          42.26                          47.65                          44.82                          47.19                          50.12                          49.87                          49.46
+                                                                                                                                                                                                                                                                                                                                                                          The Journal of Finance
+
+                                                                                           (2.27)                          (−0.24)                        (−1.06)                        (−0.11)                        (−1.97)                        (−0.19)                          (0.34)                         (0.28)                         (1.97)
+                                                  NEWMB                                   −0.05                               0.44                           0.56                           0.55                           0.55                           0.46                           0.49                           0.46                           0.51
+                                                                                         (−0.69)                           (−0.91)                          (0.50)                         (0.41)                         (1.18)                       (−0.67)                        (−0.31)                        (−0.74)                        (−1.18)
+
+                                                                                                                                                                                 Before Wave                                                                                               After Wave
+                                                                                             Prewave                               Outside                                                                                               Wave                                                                                                      Outside
+                                                                                            b−2:e−3                                Prewave                        b−5:b−3                                b−2:b                          b+1:e                          e+1:e+3                               e+4:e+6                                Wave
+
+                                                                                                                                                                 Panel B: Average Realized Market Returns
+
+                                                 Total return                                     15.20                              9.13                               31.17                              21.45                          9.51                              0.49                                   18.86                              11.03
+                                                                                                  (1.11)                           (−1.11)                              (2.77)                             (1.45)                       (−0.28)                           (−1.35)                                  (1.09)                             (0.28)
+                                                 Excess return                                     9.54                              3.44                               25.83                              15.74                          3.83                             −5.35                                   13.42                               5.35
+                                                                                                  (1.12)                           (−1.12)                              (2.81)                             (1.44)                       (−0.28)                           (−1.36)                                  (1.12)                             (0.28)
+
+                                                The t-statistics, reported in parentheses, assess the significance of the difference between the given variable’s averages in the given period and outside that period.
+
+
+
+
+15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Rational IPO Waves                                     1741
+
+                                            Table VI
+Empirical Evidence: Regressions of IPO Volume on Selected Variables
+Each column represents a quarterly regression of IPO volume on the variables listed in the first
+column. The notation “” denotes changes (first differences), and “−n” (“+n”) denotes quarterly
+lags (leads). The variable MKT is realized market return, MVOL is market return volatility, RF is
+the real risk-free rate, M/B is the aggregate M/B ratio, and IPO is scaled IPO volume. The units
+are chosen to ensure some significant digits for all coefficients in the table: IPO is measured in
+percent per month, MKT in decimals per month, MVOL in percent per day, and RF in percent per
+month.
+
+                         (1)              (2)              (3)              (4)             (5)
+
+Intercept                0.23             0.31             0.33             0.33             0.28
+                        (3.03)           (4.48)           (4.76)           (2.51)           (2.02)
+MKT − 2                  1.67                                                                1.68
+                        (3.25)                                                              (3.23)
+MKT − 1                  2.09                                                                2.11
+                        (3.34)                                                              (3.27)
+MKT                      2.06                                                                2.03
+                        (4.51)                                                              (4.50)
+MKT + 1                −0.95                                                               −0.98
+                      (−2.23)                                                             (−2.25)
+MKT + 2                −0.49                                                               −0.52
+                      (−0.74)                                                             (−0.77)
+MVOL − 2                               −0.31
+                                       (−1.91)
+MVOL − 1                               −0.63
+                                       (−3.59)
+MVOL                                   −0.60
+                                       (−4.41)
+RF − 2                                                    1.10
+                                                          (3.10)
+RF − 1                                                    0.28
+                                                          (1.21)
+RF                                                        0.91
+                                                          (2.53)
+M/B − 1                                                                     0.01           −0.03
+                                                                           (0.12)         (−0.44)
+IPO(t − 1)               0.84             0.87             0.84             0.84             0.84
+                       (23.09)          (21.47)          (20.37)          (19.21)          (22.75)
+Q1 Dummy               −0.48            −0.42            −0.38            −0.42            −0.43
+                      (−4.92)          (−4.52)          (−4.04)          (−4.91)          (−4.28)
+T                       169              159              171              169              157
+R2                      0.78             0.75             0.73             0.72             0.79
+
+The t-statistics, given in parentheses, are computed using standard errors that are robust to het-
+eroskedasticity and serial correlation of residuals (Newey–West with five lags).
+
+
+C. Regression Analysis
+  Each column in Tables VI and VII corresponds to a separate regression, in
+which the number of IPOs in the current quarter is regressed on proxies for
+changes in market conditions. Lagged IPO volume is included on the right-
+hand side to capture persistence in IPO volume that is unexplained due to any
+                                                                                                           15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1742                                 The Journal of Finance
+
+                                              Table VII
+Empirical Evidence: Regressions of IPO Volume on Selected Variables
+Each column represents a quarterly regression of IPO volume on the variables listed in the first
+column. The notation “” denotes changes (first differences), and “−n” (“+n”) denotes quarterly
+lags (leads). The variable ROE is aggregate profitability (return on equity), IBES is the average
+analyst forecast of long-term earnings growth, NEWVOL is the difference between the median
+return volatility of new firms and market volatility, NEWMB is the log difference between the
+median M/B of new firms and the median M/B across all firms, and IPO is scaled IPO volume. The
+units are chosen to ensure some significant digits for all coefficients in the table: IPO is measured in
+percent per month, ROE in percent per month, IBES in percent per year, and NEWVOL in percent
+per day.
+
+                             (1)              (2)               (3)              (4)              (5)
+
+Intercept                    0.34             0.57              0.31             0.37             0.37
+                            (3.92)           (5.04)            (4.33)           (4.67)           (3.77)
+ROE                         0.90                                                                 0.19
+                            (2.50)                                                               (0.46)
+ROE + 1                     0.55                                                                 0.31
+                            (1.43)                                                               (0.76)
+ROE + 2                     0.64                                                                 1.00
+                            (1.90)                                                               (2.40)
+IBES − 2                                   −0.16
+                                           (−0.87)
+IBES − 1                                   −0.43
+                                           (−1.37)
+IBES                                         0.78
+                                             (5.07)
+NEWMB − 2                                                      0.46                               0.48
+                                                               (2.35)                             (2.28)
+NEWMB − 1                                                      0.52                               0.62
+                                                               (3.18)                             (2.78)
+NEWMB                                                          0.11                             −0.11
+                                                               (0.59)                           (−0.49)
+NEWVOL − 2                                                                      0.12              0.12
+                                                                                (2.23)            (2.87)
+NEWVOL − 1                                                                      0.03            −0.00
+                                                                                (0.57)          (−0.09)
+NEWVOL                                                                          0.01            −0.04
+                                                                                (0.19)          (−0.94)
+IPO(t − 1)                   0.84             0.79              0.87             0.84              0.86
+                           (18.30)          (11.16)           (19.79)          (18.75)           (16.56)
+Q1 Dummy                   −0.26            −0.67             −0.51            −0.43             −0.46
+                          (−2.22)          (−4.59)           (−5.40)          (−4.42)           (−3.26)
+T                           142                79              136              144              105
+R2                          0.72              0.70             0.76             0.71             0.77
+
+The t-statistics, given in parentheses, are computed using standard errors that are robust to
+heteroskedasticity and serial correlation of residuals (Newey–West with five lags).
+
+potential misspecification in the regressions. Lowry (2003) also includes lagged
+IPO volume on the right-hand side of her regressions. She also always includes
+a first-quarter dummy that captures the apparent seasonality in IPO volume,
+and we follow her treatment. Both variables are significant in each regression.
+                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                              Rational IPO Waves                             1743
+
+    First, we test the discount rate channel, in which IPOs are triggered by de-
+clines in expected market return. Column 1 of Table VI shows that IPO volume
+is positively related to total market returns over the previous two quarters
+(t = 3.34 and 3.25), which is consistent with both the discount rate and cash
+f low channels. Moreover, IPO volume is negatively related to market returns
+in the subsequent quarter (t = −2.23), which is consistent with the discount
+rate channel. This negative relation is also reported by Lamont (2002), Schultz
+(2003), and Lowry (2003). The relation with current returns is positive, not
+negative as in Table III, but this difference does not contradict the model. IPO
+waves in the data tend to last longer than our simulated IPO waves, so the ac-
+tual IPO waves have more overlap than the simulated waves with the declines
+in expected market return that caused the waves and, therefore, also with high
+realized returns. Column 2 shows that IPO volume is negatively related to cur-
+rent (t = −4.41) as well as past (t = −3.59) changes in market volatility, which
+is again consistent with the discount rate channel. In column 3, changes in
+the risk-free rate are positively related to future IPO volume, not negatively as
+the model predicts. Combined with the results in columns 1 and 2, this posi-
+tive relation suggests that IPO volume is strongly negatively related to recent
+changes in the equity premium.
+    Second, the cash f low channel is also supported by the data. Column 1 of
+Table VII shows that IPO volume is positively related to current (t = 2.50) as
+well as future changes in aggregate profitability, which suggests that firms
+go public when cash f low expectations improve. Column 2 reaches the same
+conclusion. IPO volume is higher (t = 5.07) when equity analysts upgrade their
+forecasts of long-term earnings growth.
+    Third, prior uncertainty also seems to go up before firms go public. In columns
+3 and 4 of Table VII, IPO volume is positively related to recent changes in the
+excess M/B ratio of new firms (t = 3.18 and 2.35), as well as to recent changes
+in the excess volatility of new firms (t = 2.23), both of which comove with prior
+uncertainty in our model.
+    Some of the proxies for changes in market conditions lose their statistical
+significance when realized market returns are included in the regression. The
+reason goes beyond the simple lost-degrees-of-freedom effect. In reasonably
+efficient markets, prices ref lect much of the available information, and realized
+market returns are the best proxy for changes in market conditions; that is,
+when market conditions improve, prices go up, and vice versa. Thus, it is not
+surprising that including market returns drives some of the weaker proxies
+below the threshold of significance. The role of these other proxies is only to
+provide additional evidence on the likely causes of the observed price changes.
+    The regressors in Tables VI and VII represent changes in market conditions,
+whereas the regressand is the level of IPO volume. Regressing levels on changes
+is appropriate because the level of IPO volume is driven by changes in market
+conditions in our model. Lowry (2003), who uses the same dependent variable
+as we do, also suggests using changes in the number of IPOs as a way of avoiding
+nonstationarity. Using this redefined dependent variable leads to results that
+are almost identical to those reported here.
+                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1744                              The Journal of Finance
+
+D. Rational versus Irrational IPO Waves
+   Many recent studies blame time-varying IPO volume on market inefficiency,
+arguing that IPO volume is high when shares are overvalued. In this section,
+we examine the extent to which our empirical evidence is consistent with the
+simple behavioral story in which firms go public to take advantage of irrational
+overpricing.
+   In the mispricing story, IPO volume is high when the market is overval-
+ued. Under the common behavioral assumption that misvaluation is ref lected
+in M/B, this story predicts a positive relation between IPO volume and the
+level of aggregate M/B. Our rational model also predicts a positive relation (see
+Table III), but a weak one (see Table II), because IPO volume in our model is
+driven mainly by changes in market conditions, not levels. Column 4 of Table VI
+shows that IPO volume is not significantly related to the level of aggregate M/B
+at the end of the previous quarter.21 Column 5 presents a horse race between
+the levels and changes, in that IPO volume is regressed on M/B as well as on
+market returns. In this regression, market returns remain highly significant
+and M/B remains insignificant. That is, IPO volume is high after a run-up in
+stock prices, but not necessarily when the level of prices is high. This evidence,
+which fits the intuition described in Section III, provides additional support for
+our model, but not for the overvaluation story.
+   Neither can our evidence related to the cash f low channel be easily explained
+by the mispricing story. One of our proxies for expected cash f low, IBES, might
+be subject to behavioral biases if analyst forecasts are biased. However, consider
+our second proxy, aggregate profitability (ROE). Column 1 of Table VII shows
+that IPO volume is positively related to current and future changes in ROE.
+This relation is not predicted by the mispricing story, in which IPO decisions
+do not ref lect rational expectations of future cash f lows.
+   The mispricing story also cannot fully explain our results related to the un-
+certainty channel. One proxy for prior uncertainty, NEWMB, can be subject to
+behavioral biases if we accept the idea that new firms can be more overvalued
+than seasoned firms. However, it is not obvious how the mispricing story could
+justify our result that IPO volume is positively related to changes in our second
+proxy, NEWVOL. Mispricing might affect the price level, but it is not clear why
+it should affect the return volatility of new firms.
+   Nor can the mispricing story account for all of our evidence related to the
+discount rate channel. One of our proxies for changes in expected market return,
+MKT, might be biased due to mispricing, but it is not clear why our second
+proxy, MVOL, should be biased. In the mispricing story, expected market return
+is driven by investor sentiment, and there is no obvious reason for market
+volatility to be related to investor sentiment. Therefore, the mispricing story
+does not explain why IPO volume is significantly related to changes in MVOL in
+column 2 of Table VI. In summary, four of our empirical findings are consistent
+with our rational model, but they are not predicted by the mispricing story.
+  21
+     Lowry (2003) finds a relation on the border of significance using a different measure of M/B,
+the equal-weighted average of M/Bs of individual firms.
+                                                                                                           15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                      Rational IPO Waves                                         1745
+
+                                  V. IPOs and Investment
+   This section examines the important role of investment in our model. The
+model features a link between a firm’s decisions to go public and to invest.
+We discuss the plausibility of such a link, pointing to firm-level evidence on
+the extent to which IPO proceeds are invested, as well as to some evidence on
+the relation between IPO volume and investment in aggregate. We also discuss
+the relation between aggregate investment and market conditions.
+   The main purpose of an IPO in our model is to raise capital for investment.
+This description applies only to a subset of the observed IPOs, because many
+real-world IPOs happen for reasons other than investment, such as refinanc-
+ing. However, as long as some firms go public to raise funds for investment,
+IPO volume should be affected by market conditions. Many firms indeed ap-
+pear to invest their IPO proceeds. Mikkelson, Partch, and Shah (1997) report
+that 64% of the firms going public state in their offering prospectus that the
+reason for their IPO is to finance capital expenditures. Moreover, Jain and Kini
+(1994) report that the capital expenditures of IPOs grow by 142% in the 2 years
+around the IPO, on average, which significantly exceeds the contemporaneous
+investment growth for industry-matched seasoned firms. In fact, the industry-
+adjusted growth rate in the capital expenditures of firms going public is as large
+as 109% over the 2-year period. Therefore, a link between the decisions to go
+public and to invest seems reasonable.22
+   The link between IPOs and investment seems present also in the aggregate
+data. Using data on real private nonresidential fixed investment between 1947
+and 2002, obtained from the Bureau of Economic Analysis (BEA), we find that
+aggregate investment growth is significantly positively correlated with IPO
+volume. Lowry (2003) finds private firms’ demands for capital to be a key em-
+pirical determinant of IPO volume, further supporting the link between IPOs
+and investment. Lowry also reports that the total amount raised in the IPOs
+is more volatile than the total amount invested, which is precisely what our
+model predicts. In our model, the firm invests only part of the IPO proceeds;
+the rest goes to the inventor as compensation for the patent, to pay for the
+inventor’s pre-IPO consumption. The variation in IPO proceeds therefore ex-
+ceeds the variation in the amount invested. The IPO decision is often delinked
+from the investment decision in the leading explanations for IPO volume, such
+as market mispricing and asymmetric information, but the link is essential to
+obtaining the relation between IPO volume and market conditions documented
+in this paper.
+   Our focus is on IPO waves, but our model can also address a broader issue of
+cyclicality of investment. A public firm solving for the optimal time to make an
+    22
+       Pagano et al. (1998) find that Italian firms tend to invest especially before their IPOs. Pre-IPO
+investment can be easily obtained in our model if we allow for “time to build.” Instead of investing
+at time τ i + (at the IPO), suppose the inventor invests at time τ i (when he decides to go public)
+using borrowed money. The loan is repaid from the IPO proceeds at time τ i + . Also suppose that
+it takes months to build the production technology, so that production does not begin until time
+τ i + . This modified model produces results identical to ours, except that investment precedes the
+IPO by months.
+                                                                                    15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1746                        The Journal of Finance
+
+irreversible investment is considering trade-offs similar to those of our inven-
+tor, and “investment waves” might develop after market conditions improve.
+Consistent with this idea, several studies (e.g., Barro (1990), and Baker, Stein,
+and Wurgler (2003)) report a positive relation between investment and stock
+prices. Using the BEA data, we find that investment growth is positively re-
+lated to recent market returns and negatively related to future market returns.
+Investment growth is also positively related to current and future changes in
+aggregate ROE. We conclude that aggregate investment is related to changes
+in market conditions, similar to IPO volume.
+   These results suggest that our model makes useful predictions not only for
+IPO volume, but also for aggregate investment. At the same time, we believe
+that our model is better suited for studying investment by new firms than for
+examining investment by public firms, for several reasons. First, public firms
+often invest simply to maintain a competitive stock of physical capital, rather
+than to embark on new projects with uncertain and perishable abnormal prof-
+its. This fact makes some features of our framework, such as prior uncertainty,
+less relevant for public firms. Indeed, aggregate investment growth seems un-
+related to our proxies for prior uncertainty in the data. Second, the investment
+decisions of public firms may be affected by the firms’ existing projects, a com-
+plication that is absent from our model in which inventors have only one project
+at a time. Third, we assume that learning about ψ̄ i starts when the production
+begins, which seems to better describe IPOs of start-up companies than in-
+vestment by public firms. Learning about a public firm’s new project can take
+place before the production begins because investors can observe the firm’s
+other projects, whose payoffs are presumably correlated with the new project’s
+payoffs.
+   In addition, focusing on IPOs rather than on aggregate investment preserves
+market completeness. New projects introduce new idiosyncratic risk (W i,t ) in
+the economy. This risk is not spanned by the existing securities, so markets
+become incomplete unless a new security is issued that can perfectly hedge
+the new risk. Markets are dynamically complete in our model because each
+new project is accompanied by an issue of a claim on the project’s cash f low.
+This issue has a natural interpretation as an IPO of a start-up company. The
+equity issued in the IPO provides a perfect hedge for the new project because
+it is a claim on that project only. In contrast, investments by public firms are
+not accompanied by issues of equity that would provide a perfect hedge. For
+example, the equity issued in an SEO is a claim to all projects of this public
+firm, not just the new project. Due to market incompleteness in that case, the
+SDF may not be unique, which could complicate the analysis.
+
+                               VI. Conclusion
+   In their survey of the IPO literature, Ritter and Welch (2002) conclude that
+“market conditions are the most important factor in the decision to go pub-
+lic.” We agree, and we point out three dimensions of market conditions that
+appear especially relevant. Ritter and Welch also state that “perhaps the most
+important unanswered question is why issuing volume drops so precipitously
+                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                              Rational IPO Waves                            1747
+
+following stock market drops.” Our paper provides a simple answer. When mar-
+ket conditions worsen, stock prices drop and IPO volume declines because pri-
+vate firms choose to wait for more favorable market conditions before going
+public.
+   This answer is only one of many testable implications of our model of optimal
+IPO timing. We show by simulation that the model also implies that IPO waves
+should be preceded by high market returns, followed by low market returns,
+and accompanied by increases in aggregate profitability. In addition, IPO waves
+should be preceded by an increased disparity between new firms and old firms in
+terms of their valuations and return volatilities. IPO volume should be related
+to changes in stock prices, but less so to their levels. All of these implications
+are confirmed in the data.
+   Some implications of our model, such as the low postwave market returns, are
+also consistent with the behavioral story in which firms go public in response
+to market overvaluation. However, several of our empirical findings are not
+predicted by this behavioral story. For example, this story does not predict that
+IPO volume should be related to recent changes in market return volatility or
+positively related to changes in aggregate profitability.
+   Behavioral biases have also been blamed for the high IPO valuations ob-
+served in the late 1990s, but those valuations need not have been irrational.
+IPO valuations in our model tend to be relatively high, partly because IPO tim-
+ing is endogenous and partly due to prior uncertainty about the average future
+profitability of IPOs. According to its proxies, prior uncertainty was unusually
+high in the late 1990s. This high prior uncertainty may have attracted many
+firms to go public, and it might also have contributed to the high valuations of
+many IPOs at that time.
+   Many IPOs in the 1990s happened in technology-related industries. Indus-
+try clustering of IPOs obtains in a minor extension of our model. Instead of
+assuming that prior uncertainty is the same for all firms, we can assume that
+this uncertainty is more similar for firms in the same industry. Average ex-
+cess profitability is also likely to be more correlated across firms in the same
+industry. Increases in industry-specific prior uncertainty or industry-specific
+excess profitability can lead to IPO waves concentrated in the given industry,
+without triggering IPOs in other industries. These implications can be tested
+empirically in future work.
+   Future research can also endogenize the innovation process. We assume that
+new ideas arrive at a constant pace, but if capital must be raised to produce
+an idea, then low cost of capital might accelerate innovation, leading to more
+ideas and more IPOs. High expected aggregate profitability might also speed
+up innovation and produce more IPOs. These effects, if present, would link
+IPO volume more closely to the level of market conditions, and they would also
+amplify the variation in IPO volume obtained in our model.
+
+                      Appendix A: Data Construction
+   Aggregate quarterly consumption data are obtained from NIPA. Consump-
+tion is defined as real per capita consumption expenditures on nondurables
+                                                                                          15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1748                           The Journal of Finance
+
+plus services, seasonally adjusted. The series is def lated by the personal con-
+sumption expenditure def lator (PCE), also taken from NIPA.
+   The following data are obtained from the CRSP and Compustat. Quarterly
+aggregate profitability (ROE) is computed as the sum across stocks of earn-
+ings in the current quarter divided by the sum of book values of equity at the
+end of the previous quarter. Quarterly earnings, which are generally available
+from 1966Q1, denote income before extraordinary items available for common
+(Compustat item 25) plus deferred taxes from the income account (item 35, if
+available). If either value is indicated as .A (annual) or .S (semiannual) in the
+quarterly file, these values are divided by four (if .A) or two (if .S). When quar-
+terly book equity is missing, it is replaced with the most recent annual book
+equity. Following Fama and French (1993), annual book equity is constructed
+as stockholders’ equity plus balance sheet deferred taxes and investment tax
+credit (item 35) minus the book value of preferred stock. Depending on avail-
+ability, stockholder’s equity is computed as Compustat item 216, or 60 + 130, or
+6 − 181, in that order, and preferred stock is computed as item 56, or 10, or 130,
+in that order. Quarterly book equity, which is generally available from 1972Q1,
+is constructed analogously. Stockholders’ equity is item 60, or 59 + 55, or 44
+− 54, preferred stock is item 55, and deferred taxes and tax credit is item 52.
+If the quarterly values are indicated as .A (annual) or .S (semiannual) in the
+SAS datafile, the respective annual or semiannual values are used. Monthly
+ROE values are interpolated from quarterly values. Market equity is computed
+monthly by multiplying the common stock price by common shares outstand-
+ing, both obtained from CRSP. M/B ratio is computed as market equity divided
+by book equity from the most recent quarter. We eliminate the values of market
+equity and book equity smaller than $1 million, as well as M/B ratios smaller
+than 0.01 and larger than 100. All variables that require the Compustat data
+(e.g., ROE, M/B) are constructed through the end of 2002Q1.
+
+
+     Appendix B: Preferences and the Stochastic Discount Factor
+   This Appendix describes the properties of the process of log surplus consump-
+tion
+
+                     log(St ) ≡ st ≡ s( y t ) = a0 + a1 y t + a2 y t2 .           (B1)
+
+The process for yt implies a normal unconditional distribution for yt with mean
+ ȳ and variance σy2 /2ky . Let y D = ȳ − 4σ y / 2k y and yU = ȳ + 4σ y / 2k y be the
+boundaries between which yt lies 99.9% of the time. To ensure that log surplus
+st conforms to the economic intuition of a habit formation model, we impose
+the following parametric restrictions: a2 < 0, a1 > −2a2 yU and a0 < 1/4(a21 /a2 ).
+These restrictions ensure that for all t, st < 0, and thus St ∈ (0, 1), and that s(y)
+is increasing in y for all y ∈ [yD , yU ]. Log surplus follows the process
+
+                           d st = µs ( y) d t + σs ( y) d W0,t ,                  (B2)
+                                                                                                15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                  Rational IPO Waves                                     1749
+
+whose parameters are given by
+                       µs ( y) = k y ( ȳ − y t )(a1 + 2a2 y) + a2 σ y2 ,
+                        σs ( y) = (a1 + 2a2 y)σ y .
+The restrictions above imply that σs (y) is positive and decreasing in y, for all
+y ∈ [yD , yU ]. Since s increases with y in the relevant range, surplus is per-
+fectly correlated with innovations to aggregate consumption, and its volatility
+is higher for low surplus levels.
+   Given the dynamics of consumption in equation (8) and surplus in equa-
+tion (B2), the process for the stochastic discount factor πt = UC (Ct , X t , t) =
+e−ηt (Ct St )−γ = e−ηt−γ (ct +st ) is given by
+                             d πt = −rt πt dt − πt σπ,t dW 0,t ,                         (B3)
+where
+                           rt = R0 + R1 ρ̄ t + R2 y t + R3 y t2                          (B4)
+with
+                                        1 2 2          1
+        R0 = η + γ b0 + γ a1 k y ȳ −     γ σc + γ a2 − γ 2 a12 σ y2 − γ 2 a1 σc σ y ,
+                                        2              2
+        R1 = γ b1 ,
+                                                          
+        R2 = γ 2a2 k y ȳ − a1 k y − γ a2 2σc σ y + 2a1 σ y2 ,
+                                   
+        R3 = 2a2 γ − k y − γ a2 σ y2 ,
+
+and
+                             σπ,t = γ (σc + (a1 + 2a2 y t ) σ y ).                       (B5)
+The parameter restrictions imposed earlier imply that σπ,t decreases as yt (and
+hence also the surplus St ) increases. As a result, expected returns and return
+volatility are low when yt is high.
+
+
+                               Appendix C: Learning
+LEMMA 1: Suppose the prior of ψ̄ i at time t0 is normal, ψ̄ i ∼ N (ψ̂ti0 , σ̂t20 ), and
+the priors are uncorrelated across firms. Let It denote the set of firms that are
+alive at time t. Then the posterior of ψ̄ i at any time t > t0 conditional on Ft =
+    j
+{(ρs , cs , ρ̄ s ) : t0 ≤ s ≤ t, j ∈ It } is also normal, ψ̄ i |Ft ∼ N (ψ̂ti , σ̂i,t
+                                                                                  2
+                                                                                     ), where
+  1. The mean squared error σ̂i,t
+                               2
+                                  = E[(ψ̄ i − ψ̂ti )2 | Ft ] is nonstochastic and given
+     by
+                                                      1
+                                   σ̂i,t
+                                      2
+                                         =            i 2
+                                                                 .                       (C1)
+                                              1     (φ )
+                                                   + 2 (t − t0 )
+                                             σ̂t20   σi,i
+                                                                                                                     15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1750                                The Journal of Finance
+
+     We note that the uncertainty about ψ̄ i declines deterministically over time
+     due to learning.
+  2. The conditional mean ψ̂ti = E[ψ̄ti | Ft ] evolves according to the process
+
+                                                         φi
+                                        d ψ̂ti = σ̂i,t
+                                                    2
+                                                              d W̃i,t ,                                       (C2)
+                                                         σi,i
+
+       where W̃i,t is the idiosyncratic component of the Wiener process capturing
+       the agents’ perceived expectation errors (see equation (C3) below).
+
+Proof : Consider the vector Zt = (ct , ρ̄ t , ρt1 , . . . , ρtn ) of signals to identify the
+unobservable variables, stacked in another vector ψ̄ = (ψ̄ 1 , . . . , ψ̄ n ) . The as-
+sumptions in the text imply
+
+                              d Zt = (A + BZt + Cψ̄) dt + b d Wt ,
+
+where Wt = (W0,t , WL,t , W1,t , . . . , Wn,t ) and
+                                                                                  
+                                  0 b1          0               0            0
+             b0
+          k ρ̄ 
+                                0 −k L
+                                                 0               0           0 
+                                                                                
+           L L                                                               
+      A=                      0 φ         1
+                                                 −φ 1                         0 
+           ..  , B = 
+                                                                   0
+                                                                                
+           .                            .
+                                           ..                     ..            
+                                0                                   .        0 
+             0
+                                    0 φn          0               0       −φ n
+                                                                                                         
+                                            σc            0            ···       ···    ···       0
+              0       0       ···          σ L,0         σ L, L          0        ···    ···       0 
+                                                                                                      
+            0
+                     0       · · ·
+                                   
+                                           
+                                                                                                     
+             1                            σ1,0           0            σ1,1                         
+                                                                                                   
+        C = φ                     ,   b =                 ..                                       .
+                                          σ2,0             .                    σ2,2               
+                    ..                                                                             
+                         .                ..             ..                            ..          
+                                            .               .                                 .      
+                              φn
+                                             σn,0           0                                      σn,n
+
+  From Liptser and Shiryayev (1977), the posterior of ψ̄ is given by ψ̄ ∼
+                                                                                     
+N (ψ̂t , Σ̂t ), where d ψ̂t = Σ̃t d W̃t with Σ̃t = Σ̂t C (b )−1 , ddΣ̂t t = −Σ̃t Σ̃t , and
+
+         d W̃t = b−1 {d Zt − E[d Zt | Ft ]} = b−1 {d Zt − [A + BZt + Cψ̂t ] dt}                               (C3)
+
+is a Brownian motion with respect to Ft . The claim is proved using the fact that
+Σ̃t is diagonal; see Pástor and Veronesi (2003b). Q.E.D.
+
+
+                                    Appendix D: Pricing
+LEMMA 2: Let b̃t follow the process
+                                                      
+                           db̃t = ζ0 ρ̄ t + ζ1 ρti − ζ2 dt,
+                                                                                                                15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                         Rational IPO Waves                                              1751
+
+where ρti and ρ̄ t follow the processes in equations (1) and (3), and ζ i are constants.
+We define Yt = (vb̃t − γ ct , y t , ρ̄ t , ρti , ψ̂ti ) and g (YT ) = eY 1,T −γ a1 Y 2,T −γ a2 Y 2,T , where
+                                                                                                  2
+
+
+v is a constant, Yi,t denotes the ith element of Yt , and γ , a1 , and a2 are taken
+from equations (4) and (5). Then,
+
+                                                                    
+               Et e−η(T −t) g (YT ) ≡ H(Yt , t) = e K 0 (t;T )+K(t;T ) ·Yt +K 6 (t;T )Y 2,t ,
+                                                                                        2
+                                                                                                         (D1)
+
+where K0 (t; T), K(t; T) = (K1 (t; T), . . . , K5 (t; T)) , and K6 (t; T) satisfy a system of
+ordinary differential equations (ODE)
+
+                dK 6 (t; T )
+                             = −2K 62 (t; T )σ y2 + 2K 6 (t; T )k y                                      (D2)
+                   dt
+                            
+              d K(t; T )
+                                = −K(t; T ) · [BY + 2K 6 (t; T )[       Y ,t
+                                                                                  
+                                                                                  Y ,t ]2 e2 ]
+                 dt
+                                   − 2K 6 (t; T )k y ȳe2                                                (D3)
+                dK 0 (t; T )
+                             = η − K(t; T ) · AY
+                    dt
+                                 1
+                               − K(t; T ) ΣY ,t ΣY ,t K(t; T ) − K 6 (t; T )σ y2                       (D4)
+                                 2
+
+subject to the final condition K6 (T; T) = −γ a2 , K(T; T) = (1, −γ a1 , 0, 0, 0), and
+K0 (T; T) = 0. In the above, e2 = (0, 1, 0, . . . , 0) and
+                                                                                                  
+                −γ b0 − vζ2                        0 0              −γ b1 + vζ0           vζ1    0
+                                                                                                
+                  k y ȳ                       0 −k y                 0                  0    0
+                                                                                                
+              
+         AY =  k L ρ̄ L    ;              BY =                      −k L                      0
+                                                0  0                                     0       ;
+                                                                                               i
+                    0                          0  0                    φ   i
+                                                                                          −φ i   φ
+                     0                                0      0            0                 0    0
+                                              
+                    −γ σc         0        0
+                σ                0        0      
+                y                                
+                                                 
+       ΣY ,t =  σ              σ L, L       0 .
+                L,0                              
+                σ
+                i,0              0        σi,i  
+                                         φi 2
+                       0          0          σ̂
+                                         σi,i i,t
+
+
+
+
+Proof : From the definition of the vector Yt , we have
+
+                                d Yt = (AY + BY Yt ) d t + ΣY ,t d W̃t .
+                                                                                                                         15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1752                                      The Journal of Finance
+
+The Feynman–Kac theorem implies that H(Yt , t) from (D1) solves the partial
+differential equation
+
+     ∂H    ∂H
+           5                           5
+                                    1 5    ∂2 H
+        +          [AY + BY Yt ]i +                      [ΣY ,t ΣY ,t ]i j = ηH                                  (D5)
+     ∂t   i=1
+              ∂Y i                  2 i=1 j =1
+                                               ∂Y i ∂Y j
+
+
+subject to the boundary condition
+
+                                              H(YT , T ) = g (YT ).                                               (D6)
+
+It is easy to verify that the exponential quadratic function (D1) indeed satisfies
+(D5) subject to (D6), as long as K0 (t; T), K(t; T) , and K 6 (t; T) are the solutions
+to the system of ODEs in (D2)–(D4) under the final conditions presented in the
+claim of the lemma. Q.E.D.
+PROPOSITION 1: Let hi = Ti − t be the time to expiration of the patent of public
+firm i. Then,
+
+  1. The firm’s ratio of market value of equity to book value of equity is given by
+
+                       M ti                                                             
+                            = Z i y t , ρ̄ t , ρti , ψ̂ti , hi = e Q 0 (hi ;σ̂i,t )+Q(hi ) ·Nt +Q 5 (hi ) yt ,
+                                                                               2                           2
+
+                        i
+                                                                                                                  (D7)
+                       Bt
+
+     where Nt = ( y t , ρ̄ t , ρti , ψ̂ti ) is the vector of state variables characterizing
+     firm i, Q 0 (hi ; σ̂i,t
+                          2
+                             ) = K 0 (Ti − hi ; Ti ), Q1 (hi ) = K2 (Ti − hi ; Ti ) + γ a1 , Qi (hi ) =
+     Ki+1 (Ti − hi ; Ti ) for i = 2, . . . , 4, Q5 (hi ) = K6 (Ti − hi ; Ti ) + γ a2 , and
+     Ki (·; Ti ) are given in Lemma 2 for the parameterization ζ0 = ζ2 = 0 and
+     ζ1 = v = 1. Analytical, although rather complicated, formulas for these
+     functions are available in Pástor and Veronesi (2003b).
+  2. The firm’s excess stock returns follow the process
+
+                              dRit = µiR ( y t , hi ) d t + σ R,0
+                                                              i
+                                                                  ( y t , hi ) d W̃0,t
+
+                                         + σ R,
+                                             i
+                                                L (hi ) d W̃ L,t + σ R,i (σ̂i,t , hi ) d W̃i,t ,
+                                                                     i
+                                                                                                                  (D8)
+
+       where d W̃ j ,t ’s are the Wiener processes given in equation (C3), and
+         µiR ( y t , hi ) = σ R,0
+                              i
+                                  ( y t , hi ) σπ,t ,                                                             (D9)
+       σ R,0
+         i
+             ( y t , hi ) = Q 3 (hi )σi,0 + Q 2 (hi ) σ L,0 + (Q 1 (hi ) + 2Q 5 (hi ) y t ) σ y ,                (D10)
+            σ R,
+              i
+                 L (hi ) = Q 2 (hi ) σ L, L ,                                                                    (D11)
+                                                            φi 2
+       σ R,i
+         i
+             (σ̂i,t , hi ) = Q 3 (hi ) σi,i + Q 5 (hi )         σ̂ .                                             (D12)
+                                                            σi,i i,t
+Note. It can be shown that the firm’s M/B is increasing in σ̂i,t
+                                                              2
+                                                                 . Inspection of the
+ODEs in equations (D2)–(D4) shows that σ̂i,t enters only the ODE defining K 0
+                                            2
+
+and hence only Q0 and no other Qi ’s. Q0 is increasing in σ̂i,t
+                                                             2
+                                                                , so that the firm’s
+                                                                                                                                15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                             Rational IPO Waves                                                         1753
+
+M/B is increasing in σ̂i,t
+                        2
+                           as well. This fact is shown more explicitly in Pástor
+and Veronesi (2003b).
+Proof : From the pricing formula and Lemma 2:
+                                                                                                   2 
+      M ti = πt−1 Et πTi BTi i = eγ ct +γ a1 yt +γ a2 yt Et e−η(Ti −t) ebTi −γ cTi −γ a1 y Ti −γ a2 y Ti
+                                                       2                 i
+
+
+
+                                        = eγ ct +γ a1 yt +γ a2 yt H(Yt , t).
+                                                                2
+
+
+
+
+Since BY has only 0’s in its first column, we have [K(t; Ti ) · BY ]1 = 0 in equa-
+tion (D3). This implies d K 1d(t;T
+                               t
+                                  i)
+                                     = 0 and thus K1 (t; Ti ) = 1 for t ≤ Ti . By substi-
+tuting in H(Yt , t), we obtain
+
+                M ti = eγ ct +γ a1 yt +γ a2 yt × H(Yt , t)
+                                                  2
+
+
+                                                                       5
+                      = Bti × eγ a1 yt +γ a2 yt × e K 0 (t;Ti )+           i=2 K i (t;Ti )Y i,t +K 6 (t;Ti )Y 2,t
+                                                      2                                                       2
+                                                                                                                    .
+
+This expression leads immediately to claim (1) on redefinition of variables. The
+proof of claim (2) follows from an application of Ito’s lemma to Mit , and the
+equilibrium condition µ R = −cov(d M ti /M ti , d πt /πt ). See Pástor and Veronesi
+(2003b) for more details. Q.E.D.
+   The Long-Lived Firm: Let Bm   t denote the long-lived firm’s book value and Dt
+                                                                                  m
+
+its dividends at time t. The firm’s dividend yield, c = Dt /Bt , is constant,
+                                                                   m m m
+
+and its instantaneous profitability is ρ̄ t . The firm’s market value is M tm =
+      ∞
+Et [ t πs /πt Dsm ds]. Since Et [πs Dms ] = c Et [πs Bs ], Fubini’s theorem, Lemma
+                                             m            m
+
+2, and the same argument as in the proof of Proposition 1 yield the pricing
+formula:
+                                        ∞
+                           M tm
+                                ≡  c m
+                                            Z m (s, ρ̄ t , y t ) ds,           (D13)
+                           Btm           0
+
+
+where Z m (s, ρ̄ t , y t ) = e Q 0 (s)+Q 1 (s) yt +Q 2 (s)ρ̄ t +Q 3 (s) yt , and Qm
+                                    m         m           m            m     2
+                                                                                  0 (s) = K0 (0; s), Q1 (s) =
+                                                                                                      m
+
+K2 (0; s) + γ a1 , Q2 (s) = K3 (0; s), and Q3 = K6 (0; s) + γ a2 . Here, Ki (0; s)’s are as
+                     m                                 m
+
+in Lemma 2 for the parameterization ζ0 = ζ2 = v = 1, and ζ1 = 0. Pástor and
+Veronesi (2003b) provide analytical, although complicated, formulas for these
+coefficients. Excess returns of the long-lived firm follow
+
+           d Rtm = µm
+                    R ( y t , ρ̄ t ) d t + σ R,0 ( y t , ρ̄ t ) d W̃0,t + σ R, L ( y t , ρ̄ t ) d W̃ L,t ,
+                                             m                              m
+                                                                                                                        (D14)
+
+where
+
+                      µm
+                       R ( y t , ρ̄ t ) = σ R,0 ( y t , ρ̄ t )σπ,t ,
+                                            m
+
+                                                            m                       
+                    σ R,0
+                      m
+                          ( y t , ρ̄ t ) = Fρ̄m (t) σ L,0 + F y,1 (t) + F y,2
+                                                                          m
+                                                                              (t) y t σ y ,
+
+                    σ R, L ( y t , ρ̄ t ) = Fρ̄ (t) σ L, L .
+                      m                       m
+                                                                                                                       15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1754                                 The Journal of Finance
+
+In the above,
+                                           ∞
+                                                   2 (s)Z (s, ρ̄ t , y t ) ds
+                                                  Qm     m
+
+                            Fρ̄m (t) =      0
+                                                 ∞                                    ,
+                                                         Z m (s, ρ̄ t , y t ) ds
+                                                 0
+                                           ∞
+                                                   1 (s)Z (s, ρ̄ t , y t ) ds
+                                                  Qm     m
+                            m
+                          F y,1 (t) =       0
+                                                 ∞                                    ,
+                                                         Z (s, ρ̄ t , y t ) ds
+                                                             m
+                                                 0
+                                             ∞
+                                                      3 (s)Z (s, ρ̄ t , y t ) ds
+                                                     Qm     m
+                            m
+                          F y,2 (t) = 2 0  ∞                                              .
+                                                             Z m (s, ρ̄ t , y t ) ds
+                                                     0
+
+
+
+
+                         Appendix E: Payoff Computation
+  When the IPO decision is made at time τ , the expected payoff at time τ + is
+                                       πτ +  i                   
+               EPayiτ,τ + = Eτ               M τ + (1 − f ) − Bti
+                                        πτ
+                                                                                                     
+                                             πτ + M τi +                                       πτ +
+                            = Bti (1 − f )Eτ                                     − Eτ                  .      (E1)
+                                              πτ Bti                                            πτ
+
+Using equation (D7) with h̃ = T − (τ + ), we have
+                                                                     
+                         M τi + = Bti e Q 0 (h̃i ;σ̂τ + )+Q(h̃i ) ·Nτ + +Q 5 (h̃i ) yτ + .
+                                                         2                             2
+
+
+
+
+The initial profitability at the time of the IPO is unknown at τ , so we assume
+it equal to its unconditional expectation ρτi + = ρ̄ t+ + ψ̂τi + . Then,
+
+            M τi +                                                                   
+                     = e(Q 3 (h̃)+Q 4 (h̃))ψ̂τ + × e−ητ −γ a0 × Eτ e Q 0 (h̃i ;σ̂t+ )
+                                             i                                   2
+ E τ πτ +
+             Bti
+                                                                                                              2 
+                        × Eτ e−η e−γ cτ + +(Q 2 (h̃)+Q 3 (h̃))ρ̄ τ + +(Q 1 (h̃)−γ a1 ) yτ + +(Q 5 (h̃)−γ a2 ) yτ + .
+                                                                                                              (E2)
+
+The term e(Q 3 (h̃)+Q 4 (h̃))ψ̂τ + can be taken out of the expectation because agents
+                             i
+
+
+are assumed to know their prior mean ψ̂τi + at time τ . Prior uncertainty is
+stochastic between τ and τ + , but it is independent of everything else, so
+Eτ [e Q 0 (h̃i ;σ̂τ + ) ] can be computed separately. Since σ̂t2 follows a continuous-time
+                  2
+
+
+Markov chain process, we have Eτ [e Q 0 (h̃i ;σ̂τ + ) | σ̂τ2 = v2j ] = [Λ( )] j E(v), where
+                                                       2
+                                                                                                                        15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                           Rational IPO Waves                                                    1755
+
+Λ( ) = W−1 diag(eω j ) W, [E(v)]i = e Q 0 (h̃i ;vi ) , ωj are the eigenvalues of the in-
+                                                               2
+
+
+finitesimal transition matrix Λ, and W is the matrix of corresponding eigen-
+vectors.
+   The last term in equation (E2) can be written as Eτ (e−η g̃ (Yτ + )) with
+
+           g̃ (Yτ + ) = eY 1,τ + +(Q 1 (h̃)−γ a1 )Y 2,τ + +(Q 2 (h̃)+Q 3 (h̃))Y 3,τ + +(Q 5 (h̃)−γ a2 )Y 2,τ +
+                                                                                                          2
+                                                                                                                 (E3)
+
+and v = 0 in Lemma 2. Thus, Lemma 2 provides us with a solution of this
+expectation. The only difference is that the final conditions of the functions
+Ki are given by K 6 (τ + ; τ + ) = (Q 5 (h̃) − γ a2 ), K(τ + ; τ + ) = (1, Q 1 (h̃) −
+γ a1 , Q 2 (h̃) + Q 3 (h̃), 0, 0), K0 (τ + ; τ + ) = 0. Pástor and Veronesi (2003b) re-
+port analytical, although complex, formulas for these functions.
+   Finally, we can compute Eτ ( ππτ +τ ) immediately from Lemma 2, under the as-
+sumption ν = 0. Q.E.D.
+
+
+                                              REFERENCES
+Abel, Andrew B., Avinash K. Dixit, Janice C. Eberly, and Robert S. Pindyck, 1996, Options, the
+     value of capital, and investment, Quarterly Journal of Economics 111, 753–777.
+Alti, Aydogan, 2003, IPO market timing, Working paper, University of Texas.
+Baker, Malcolm, Jeremy C. Stein, and Jeffrey Wurgler, 2003, When does the market matter? Stock
+     prices and the investment of equity-dependent firms, Quarterly Journal of Economics 118,
+     969–1106.
+Baker, Malcolm, and Jeffrey Wurgler, 2000, The equity share in new issues and aggregate stock
+     returns, Journal of Finance 55, 2219–2257.
+Barro, Robert J., 1990, The stock market and investment, Review of Financial Studies 3, 115–132.
+Bayless, Mark, and Susan Chaplinsky, 1996, Is there a window of opportunity for seasoned equity
+     issuance? Journal of Finance 51, 253–278.
+Benninga, Simon, Mark Helmantel, and Oded Sarig, 2005, The timing of initial public offerings,
+     Journal of Financial Economics 75, 1, 115–132.
+Benveniste, Lawrence M., Walid Y. Busaba, and William J. Wilhelm, Jr., 2002, Information exter-
+     nalities and the role of underwriters in primary equity markets, Journal of Financial Interme-
+     diation 11, 87–121.
+Berk, Jonathan B., 1999, A simple approach for deciding when to invest, American Economic Review
+     89, 1319–1326.
+Berk, Jonathan B., Richard C. Green, and Vasant Naik, 1999, Optimal investment, growth options,
+     and security returns, Journal of Finance 54, 1553–1607.
+Bernanke, Ben S., 1983, Irreversibility, uncertainty, and cyclical investment, Quarterly Journal of
+     Economics 98, 85–106.
+Boehmer, Ekkehart, and Alexander Ljungqvist, 2004, On the decision to go public: Evidence from
+     privately-held firms, Working paper, New York University.
+Brennan, Michael J., and Eduardo S. Schwartz, 1985, Evaluating natural resource investments,
+     Journal of Business 58, 135–137.
+Campbell, John Y., 1987, Stock returns and the term structure, Journal of Financial Economics
+     18, 373–399.
+Campbell, John Y., 1991, A variance decomposition for stock returns, The Economic Journal 101,
+     157–179.
+Campbell, John Y., and John H. Cochrane, 1999, By force of habit: A consumption-based explanation
+     of aggregate stock market behavior, Journal of Political Economy 107, 205–251.
+Chemmanur, Thomas J., and Paolo Fulghieri, 1999, A theory of the going-public decision, Review
+     of Financial Studies 12, 249–279.
+                                                                                                      15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1756                              The Journal of Finance
+
+Chen, Hsuan-Chi, and Jay R. Ritter, 2000, The seven percent solution, Journal of Finance 55,
+    1105–1131.
+Choe, Hyuk, Ronald W. Masulis, and Vikram Nanda, 1993, Common stock offerings across the
+    business cycle: Theory and evidence, Journal of Empirical Finance 1, 3–31.
+Cox, John C., and Chi-Fu Huang, 1989, Optimal consumption and portfolio policies when asset
+    prices follow a diffusion process, Journal of Economic Theory 49, 33–83.
+Cukierman, Alex, 1980, The effects of uncertainty on investment under risk neutrality with en-
+    dogenous information, Journal of Political Economy 88, 462–475.
+Dixit, Avinash K., 1989, Entry and exit decisions under uncertainty, Journal of Political Economy
+    97, 620–638.
+Fama, Eugene F., and Kenneth R. French, 1988, Permanent and temporary components of stock
+    prices, Journal of Political Economy 96, 246–273.
+Fama, Eugene F., and Kenneth R. French, 1993, Common risk factors in the returns on stocks and
+    bonds, Journal of Financial Economics 33, 3–56.
+Fama, Eugene F., and Kenneth R. French, 2000, Forecasting profitability and earnings, Journal of
+    Business 73, 161–175.
+Gomes, Joao, Leonid Kogan, and Lu Zhang, 2003, Equilibrium cross-section of returns, Journal of
+    Political Economy 111, 4, 693–732.
+Helwege, Jean, and Nellie Liang, 2004, Initial public offerings in hot and cold markets, Journal of
+    Financial and Quantitative Analysis 39, 3, 541–560.
+Hoffmann-Burchardi, Ulrike, 2001, Clustering of initial public offerings, information revelation,
+    and underpricing, European Economic Review 45, 353–383.
+Ibbotson, Roger G., and Jeffrey F. Jaffe, 1975, Hot issue markets, Journal of Finance 30, 1027–
+    1042.
+Ingersoll, Jonathan E., Jr., and Stephen A. Ross, 1992, Waiting to invest: Investment and uncer-
+    tainty, Journal of Business 65, 1–29.
+Jain, Bharat A., and Omesh Kini, 1994, The post-issue operating performance of IPO firms, Journal
+    of Finance 49, 1699–1726.
+Jovanovic, Boyan, and Peter L. Rousseau, 2001, Why wait? A century of life before IPO, American
+    Economic Review 91, 2, 336–341.
+Keim, Donald B., and Robert F. Stambaugh, 1986, Predicting returns in the stock and bond markets,
+    Journal of Financial Economics 17, 357–390.
+Lamont, Owen A., 2002, Evaluating value weighting: Corporate events and market timing, Working
+    paper no. 9049, NBER.
+Liptser, Robert S., and Albert N. Shiryayev, 1977, Statistics of Random Processes: I, II (Springer-
+    Verlag, New York).
+Loughran, Tim, and Jay R. Ritter, 1995, The new issues puzzle, Journal of Finance 50, 23–51.
+Loughran, Tim, Jay R. Ritter, and Kristian Rydqvist, 1994, Initial public offerings: International
+    insights, Pacific-Basin Finance Journal 2, 165–199.
+Lowry, Michelle, 2003, Why does IPO volume f luctuate so much? Journal of Financial Economics
+    67, 3–40.
+Lowry, Michelle, and G. William Schwert, 2002, IPO market cycles: Bubbles or sequential learning?
+    Journal of Finance 57, 1171–1198.
+Lucas, Deborah J., and Robert L. McDonald, 1990, Equity issues and stock price dynamics, Journal
+    of Finance 45, 1019–1043.
+McDonald, Robert L., and Daniel Siegel, 1986, The value of waiting to invest, Quarterly Journal of
+    Economics 101, 707–728.
+Mikkelson, Wayne H., M. Megan Partch, and Kshitij Shah, 1997, Ownership and operating perfor-
+    mance of companies that go public, Journal of Financial Economics 44, 281–307.
+Myers, Stewart C., and Nicholas Majluf, 1984, Corporate financing and investment decisions when
+    firms have information the investors do not have, Journal of Financial Economics 13, 187–221.
+Novy-Marx, Robert, 2003, An equilibrium model of investment under uncertainty, Working paper,
+    University of Chicago.
+Pagano, Marco, Fabio Panetta, and Luigi Zingales, 1998, Why do companies go public? An empirical
+    analysis, Journal of Finance 53, 27–64.
+                                                                                                          15406261, 2005, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2005.00778.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                      Rational IPO Waves                                        1757
+
+Pástor, Ľuboš, and Pietro Veronesi, 2003a, Stock valuation and learning about profitability, Journal
+     of Finance 58, 1749–1789.
+Pástor, Ľuboš, and Pietro Veronesi, 2003b, Stock prices and IPO waves, Working paper no. 985,
+     NBER.
+Persons, John C., and Vincent A. Warther, 1997, Boom and bust patterns in the adoption of financial
+     innovations, Review of Financial Studies 10, 939–967.
+Rajan, Raghuram, and Henri Servaes, 1997, Analyst following of initial public offerings, Journal
+     of Finance 52, 507–529.
+Rajan, Raghuram, and Henri Servaes, 2003, The effect of market conditions on initial public offer-
+     ings, in J. McCahery and L. Rennebog, eds.: Venture Capital Contracting and the Valuation of
+     High-Tech Firms (Oxford University Press, Oxford).
+Ritter, Jay R., 1991, The long-run performance of initial public offerings, Journal of Finance 46,
+     3–27.
+Ritter, Jay R., and Ivo Welch, 2002, A review of IPO activity, pricing, and allocations, Journal of
+     Finance 57, 1795–1828.
+Schultz, Paul, 2003, Pseudo market timing and the long-run underperformance of IPOs, Journal
+     of Finance 58, 483–517.
+Schwartz, Eduardo S., 2001, Patents and R&D as real options, Working paper, UCLA.
+Shleifer, Andrei, 1986, Implementation cycles, Journal of Political Economy 94, 1163–1190.
+Stoughton, Neal M., Kit Pong Wong, and Josef Zechner, 2001, IPOs and product quality, Journal
+     of Business 74, 375–408.
+Subrahmanyam, Avanidhar, and Sheridan Titman, 1999, The going public decision and the devel-
+     opment of financial markets, Journal of Finance 54, 1045–1082.
+Veronesi, Pietro, 2000, How does information quality affect stock returns? Journal of Finance 55,
+     807–837.
+Vuolteenaho, Tuomo, 2002, What drives firm-level stock returns? Journal of Finance 57, 233–264.
+Zingales, Luigi, 1995, Insider ownership and the decision to go public, Review of Economic Studies
+     62, 425–448.
+

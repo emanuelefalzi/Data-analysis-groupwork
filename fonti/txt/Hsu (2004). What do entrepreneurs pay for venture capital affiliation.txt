@@ -1,0 +1,1935 @@
+THE JOURNAL OF FINANCE • VOL. LIX, NO. 4 • AUGUST 2004
+
+
+
+
+         What Do Entrepreneurs Pay for Venture
+                  Capital Affiliation?
+
+                                         DAVID H. HSU∗
+
+
+                                           ABSTRACT
+      This study empirically evaluates the certification and value-added roles of reputable
+      venture capitalists (VCs). Using a novel sample of entrepreneurial start-ups with
+      multiple financing offers, I analyze financing offers made by competing VCs at the
+      first professional round of start-up funding, holding characteristics of the start-up
+      fixed. Offers made by VCs with a high reputation are three times more likely to
+      be accepted, and high-reputation VCs acquire start-up equity at a 10–14% discount.
+      The evidence suggests that VCs’ “extra-financial” value may be more distinctive than
+      their functionally equivalent financial capital. These extra-financial services can have
+      financial consequences.
+
+
+
+
+A CENTRAL ISSUE for early-stage high-tech entrepreneurs is obtaining external
+resources when the assets of their start-up are intangible and knowledge-based.
+Particularly for entrepreneurs without an established reputation, convincing
+external resource providers such as venture capitalists (VCs) to provide finan-
+cial capital may be challenging. The literature contains two main lines of re-
+search for overcoming this problem. One research stream has concentrated
+on designing institutional structures to permit financing early-stage ventures.
+This contractual- and monitoring-based approach is aimed at solving poten-
+tial agency problems between investors and entrepreneurs (e.g., Admati and
+Pf leiderer (1994), Lerner (1995), Hellmann (1998), and Kaplan and Strömberg
+(2001, 2002, 2003)). A second research stream has suggested that when the
+quality of a start-up cannot be directly observed, external actors rely on the
+quality of the start-up’s affiliates as a signal of the start-up’s own quality
+
+
+   ∗ The Wharton School, University of Pennsylvania. Respondents to the MIT Sloan Financing
+New High-Tech Ventures Survey made this project possible. I would like to thank Diane Burton,
+Joshua Gans, Rick Green (the editor), Thomas Hellmann, Steve Kaplan, Augustin Landier, Josh
+Lerner, Ken Morse, Ed Roberts and especially Scott Stern and an anonymous referee, for supplying
+helpful comments and suggestions. I thank seminar participants at Boston University, Carnegie
+Mellon, Case Western, Columbia, Harvard, INSEAD, University of Maryland, the MIT Organiza-
+tional Economics lunch, Michigan, the NBER Productivity lunch, National University of Singapore,
+New York University, Stanford, University of Toronto, University of Texas, Washington University,
+Wharton, and the 2002 Yale Conference on Entrepreneurship, Venture Capital and Initial Pub-
+lic Offerings for interesting comments and discussions. Jaimie Lien provided excellent research
+assistance. Funding for this project from the Wharton Management Department, the MIT En-
+trepreneurship Center and the MIT Center for Innovation in Product Development through NSF
+Cooperative Agreement EEC-9529140 is gratefully acknowledged.
+
+                                                1805
+                                                                                                         15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1806                               The Journal of Finance
+
+(e.g., Megginson and Weiss (1991), Biglaiser (1993), and Stuart, Hoang, and
+Hybels (1999)). This certification-based approach may help legitimate start-
+ups and entrepreneurs without a prior track record.
+   While the first research stream emphasizes the VC’s problem (designing the
+appropriate mechanisms), the second highlights the entrepreneur’s problem
+more directly (affiliating with highly reputable partners), and serves as an an-
+tecedent to this study. VC certification value, together with their value-added
+services such as recruiting executive managers (Hellmann and Puri (2002)),
+have led analysts in the descriptive literature to write: “It is far more important
+whose money you get [as an entrepreneur] than how much you get or how much
+you pay for it” (Bygrave and Timmons (1992, p. 208)) and “From whom you raise
+capital is often more important than the terms” (Sahlman (1997, p. 107)). These
+views clearly indicate that VCs have different value-added potential and that
+VC represents more than strict financial capital to entrepreneurs. In contrast,
+the extant academic literature has not emphasized VC heterogeneity, implic-
+itly treating VCs as one uniform class so that reputation differences among
+VCs are obscured (see Gompers (1996) and Kaplan and Schoar (2003) for ex-
+ceptions). As well, whereas much of the previous literature has concentrated
+on the benefits to certification (e.g., Megginson and Weiss (1991) and Stuart et
+al. (1999)), the costs of affiliating with prominent actors have not been system-
+atically analyzed empirically. For example, the prescriptive advice to start-up
+entrepreneurs of affiliating with the highest status partner possible (Stuart
+et al. (1999)) seems strong given that calculations of returns to such action
+that do not take into account the costs of affiliation may be overstated. Indeed,
+demand for affiliation with reputable actors is likely to vary with the cost of
+such association. More generally, because affiliation with reputable partners
+confers performance benefits, such association cannot be freely accessed, for
+otherwise certification agents would not have incentives to invest in acquiring
+a reputation in the first place (Shapiro (1983)).1
+   Consequently, this paper explores two interlinked questions: Is there a mar-
+ket for affiliation with reputable partners? If so, what are the prices for such
+affiliation? Entrepreneurial demand for affiliation with VCs provides an ex-
+cellent empirical setting to explore these questions for two reasons. First, be-
+cause VCs can certify and start-ups need to be certified, the exchange nature of
+the relationship provides a natural marketplace for affiliation. Second, due to
+the tremendous increase in the supply of venture capital in the second half of
+the 1990s,2 the situation of “money chasing deals” makes observing a menu of
+
+   1
+     The extant research on the market for certification has only established general bounds. State-
+ments on the supply of certification have generally been limited to an acknowledgment that such
+suppliers will not want to provide affiliation to entities that will damage their reputations (Podolny
+(1993)). Likewise, on the demand side, screening theories would argue that only those organiza-
+tions that will benefit most from certification will accept the terms of a stringent supply contract
+(e.g., Kaplan and Strömberg (2001, 2003)).
+   2
+     Disbursements to start-ups from VCs, which totaled just $665 million in 1980 and $2.3 billion
+in 1990, skyrocketed to over $100 billion in 2000 (National Venture Capital Association Yearbook
+(2001)).
+                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+          What Do Entrepreneurs Pay for Venture Capital Affiliation?          1807
+
+price offers by VCs with varying reputation more likely—a necessary condition
+for identifying the market for affiliation.
+   The empirical analysis investigates proxies for VC reputation which explain
+the variation in offers accepted and valuations offered to start-ups at a point in
+time, while holding start-up characteristics fixed. To implement this method-
+ology, I developed a novel, hand-collected data set of 148 financing offers (both
+those accepted and declined) made to a group of 51 early-stage high-tech start-
+ups. The estimated effects are both statistically and economically significant.
+A financing offer from a high-reputation VC is approximately three times more
+likely to be accepted by an entrepreneur. As well, highly reputable VCs acquire
+start-up equity at a 10–14% discount.
+   The empirical results suggest that entrepreneurs are willing to forego offers
+with higher valuations in order to affiliate with more reputable VCs. These
+results are consistent with the idea that VCs act as more than strict financial
+intermediaries, placing funds from investors to capital-constrained start-ups.
+If this were not the case, we might expect entry by suppliers of entrepreneurial
+finance to equilibrate prices for start-up equity across offers to a given firm.
+However, if VCs differed in the bundle of services and certification they provide
+to their portfolio companies, which might be thought of as “extra-financial” VC
+functions, then prices for affiliation might differ. This implies that the VC infor-
+mation network and its certification value may be more distinctive than their
+financial capital, and so these extra-financial VC functions can have financial
+consequences, namely, the price at which VCs are able to acquire equity in a
+given start-up. Indeed, this view is consistent with the stylized fact that VCs ex-
+perience substantial interindustry variation in financial performance (Kaplan
+and Schoar (2003)). Consequently, future research exploring variation within
+the VC industry, especially as it relates to organizational performance, would
+be interesting.
+   The remainder of this paper is organized as follows: Section I discusses the
+relevant prior literature and derives hypotheses about the entrepreneurial mar-
+ket for VC affiliation. Section II describes the methodology and data used to
+test these hypotheses. Empirical results are discussed in Section III, while a
+final section concludes with a discussion of the implications and limitations of
+the study.
+
+
+                I. Literature and Hypothesis Development
+  This section starts with a discussion of reputation as an economic good, de-
+velops the notion of a market for affiliation, and concludes with hypotheses
+about the demand for VC affiliation by early-stage start-ups.
+
+
+A. Reputation and Affiliation as Economic Goods
+  Reputation, which results from prior experience and performance, has been
+identified as an economically important asset that can generate future rents
+when information among actors is asymmetric (e.g., Shapiro (1983) and
+                                                                                      15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1808                         The Journal of Finance
+
+Biglaiser (1993)). Starting with Spence (1974), there has been a sizeable the-
+oretical literature on the phenomenon of actors without an established rep-
+utation signaling quality to the external market. For example, Bagwell and
+Bernheim (1996) present a theory of Veblen effects in which people engage in
+conspicuous consumption because material displays of relative wealth signal
+social status.
+   A related strand of research suggests that performance benefits can be re-
+alized by the reputable producer’s affiliates through a process of certification.
+This phenomenon has been examined in the context of reputable investment
+banks and VCs and the pricing of initial public offerings (Beatty and Ritter
+(1986) and Megginson and Weiss (1991)). These agents can credibly stake their
+reputations on the claim that the IPOs they back are not overpriced as a result
+of their repeated interactions with external parties.
+   More generally, for a certification to be effective, it must fulfill three con-
+ditions: (1) the certifying agent must have reputational capital at stake that
+would be compromised with an invalid certification; (2) the certifying agent’s
+reputational capital must exceed the largest one-time wealth transfer from a
+miscertification; and (3) the certified target must face a cost of leasing the rep-
+utational capital of the certifying agent (Booth and Smith (1986)). This final
+condition is an important one for insuring that the certifying agent would have
+the proper incentives to invest in its own reputation. Unfortunately, it has not
+received much empirical attention; consequently it is this market for “leasing”
+reputational capital (and the associated prices for doing so) that forms the core
+of the empirical analysis in this paper.
+   Venture capitalists meet the three previously stated criteria of certifying
+agents and can therefore be suppliers of certification (Megginson and Weiss
+(1991)). Start-ups, especially those in the early stages, often do not have an es-
+tablished reputation, and may therefore demand certification. Individual start-
+ups do not have repeated interactions with organizations associated with exit-
+ing an investment (e.g., acquiring firms or investment bankers), and therefore
+do not build a reputation in this community. In the market for affiliation, the
+supply of financial capital (and attention) from reputable VCs is limited. Fur-
+thermore, there is heterogeneity in the demand for such association because
+entrepreneurs have both different initial endowments of resources and reputa-
+tion, as well as different expectations of the marginal benefit of affiliation.
+   The market for affiliation is ref lected in prices offered by VCs and accepted
+by entrepreneurs in the exchange of start-up equity for venture capital. More-
+over, the price that VCs pay to acquire start-up equity is important to both en-
+trepreneurs and VCs. For entrepreneurs, the valuation they receive at a round
+of financing determines how much equity is sold for a given capital infusion,
+and may have corporate control implications. VCs also care about price. In a liq-
+uidity event, VCs earn the difference between the share price at that time and
+the price they paid to acquire the start-up’s equity. Interestingly, Megginson
+and Weiss put forward the notion that entrepreneurs may have to compromise
+valuation to “pay” for VC certification: “one of the services that entrepreneurial
+firms purchase with VC funding is easier access to capital markets and the
+ability of venture capitalists to reduce asymmetrical information in the offering
+                                                                                    15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?        1809
+
+process” (1991, p. 883; emphasis added). Left unanswered, however, is the pur-
+chase price start-ups pay to access reputable VCs. The next section therefore
+addresses the question of what makes a VC reputable.
+
+
+B. What Makes VCs Reputable?
+  The business press and descriptive literature have characterized simple mon-
+etary capital infusion as commodity-like in the early-stage start-up process, and
+VCs have sought to differentiate themselves by the quality of business services
+and reputational capital they bring to their portfolio companies (e.g., New York
+Times (2000)). Some VCs argue that while start-ups might give up a larger
+equity stake in their company for a given capital infusion by a more experi-
+enced VC, the entrepreneur’s remaining stake in his company is more valuable
+ex post as a result of the venture capitalist’s value-added services. These ser-
+vices include business referrals, extensive mentoring, and financial assistance
+(MacMillan, Kulow, and Khoylian (1989)), which may be particularly impor-
+tant for early-stage start-ups (Roberts (1991)). Entrepreneurs seem to accept
+the reasoning that there is value in being associated with experienced and
+connected VCs:
+  Venture funding is available from many sources. Entrepreneurs choose
+  a lead venture partner to tap into practical experience, contacts, and
+  reputations. “The money is all the same,” says Louis Volpe, president of
+  Arrowpoint Communications. “But what type of additional value do you
+  get? With Matrix Ventures, you get experienced people and a good net-
+  work in telecom.” Those intangibles can make the difference in landing
+  a key early customer, attracting top caliber employees, and lining up the
+  best IPO underwriters. The experience can make a real difference driv-
+  ing a brand new company in the right direction fast (Boston Globe (2000,
+  p. D1)).
+   Therefore, as a VC gains more investment experience in a particular indus-
+trial sector, he or she is more likely to acquire the expertise needed to help
+start-ups in their portfolio acquire resources for successful development, which
+is a powerful contributor to VC reputation. Investment experience also accords
+with Gompers’ (1996) age proxy for VC reputation. Each additional invest-
+ment extends the VC’s information network, either acquiring important social
+contacts and/or gaining experience in effectively structuring deals or monitor-
+ing entrepreneurs in the industrial sector (Sorenson and Stuart (2001)). For
+example, Kleiner Perkins Caufield & Byers, a prominent venture capital firm,
+claims to facilitate interorganizational cooperation among its network of portfo-
+lio companies by “brokering” strategically important information among them.
+As evidence, the firm claims that there are over 100 strategic alliances among
+its portfolio companies, and the firm’s web site (www.kpcb.com) notes:
+  We borrow the term “keiretsu” from Japan’s powerful networks of com-
+  panies. However, unlike Japan, Kleiner’s keiretsu is a particularly west-
+  ern, entrepreneurial, loosely coupled web of relationships. Kleiner doesn’t
+                                                                                                      15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1810                              The Journal of Finance
+
+   control any ventures: they’re each independent, run by strong, outstanding
+   entrepreneurs. There’s no central controlling bank, or interlocking board
+   of directors. But the executives in the KPCB Keiretsu often share expe-
+   riences, insight, knowledge, and information. This network, comprised
+   of more than 175 companies and thousands of executives, has proven to
+   be an invaluable tool to entrepreneurs in both emerging and developing
+   companies.
+  Lindsey (2002) provides empirical support for this VC “keiretsu” phenome-
+non. Indeed, the VC information brokerage role can be particularly important
+to start-up development since these early-stage private firms face imperfect
+markets for information (Aoki (2000)). Thin markets for information arise both
+because start-ups are secretive in order to protect their competitive position,
+and because there may be few alternate channels outside of a trusted third
+party for information dissemination.
+  In addition, VCs acting as information brokers may assist a start-up in busi-
+ness development in different ways depending on the stage of the enterprise. In
+the earlier stages, VCs may help in recruiting senior executive officers (Gorman
+and Sahlman (1989) and Hellmann and Puri (2002)) and in striking strategic
+alliances (Stuart et al. (1999)). In the later stages of start-up development, VCs
+may help assemble additional funds and/or achieve liquidity. This may be done
+through hiring talented investment bankers (Barry et al. (1990) and Megginson
+and Weiss (1991)) or in locating merger or acquisition partners (Gans, Hsu, and
+Stern (2002)). Because these resources are reinforced by the VC’s investment
+experience in the start-up’s industrial sector, entrepreneurial demand for VC
+affiliation should be increasing in the VC’s industry deal experience. The dual
+hypotheses to be tested are therefore: (1) offers made by more reputable VCs are
+more likely to be accepted, and (2) the price that entrepreneurs pay in the market
+for affiliation is inversely associated with VC reputation.
+
+
+                               II. Methodology and Data
+A. Methodology
+   To test these hypotheses, I use a method drawn from Stern (2000) in collect-
+ing data on the bundle of offers—both accepted and declined—made to start-
+ups for financing the first professional round. This methodology, by taking an
+offer as the unit of analysis, is well suited to studying the market for affili-
+ation because examining multiple price observations associated with VCs of
+varying reputation for a given start-up in effect traces out a demand curve for
+affiliation.3 Start-up firm effects can be held constant in examining valuation
+
+   3
+     To my knowledge, the incidence of start-ups receiving multiple financing offers has been in-
+vestigated only by Smith (1999) who reports that 71% of the responding companies in his survey
+received more than one financing offer. While the rate of multiple offers is interesting in its own
+right, the current study instead uses multiple financing offer events to identify the market for
+affiliation.
+                                                                                     15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?         1811
+
+differences across financing offers, thus mitigating the problem of unobserved
+heterogeneity. Consequently, the empirical focus can shift to examining the role
+of differences in VC characteristics.
+   The empirical models estimate two equations using a financing offer from
+the multiple-offers data set as the unit of analysis. The likelihood that an offer
+is accepted is modeled as
+
+      Pr (Offer accepted = 1) = F (VC Reputation, Valuation, Controls).        (1)
+
+This offer acceptance equation is estimated using fixed-effects logit models. The
+valuation equation is modeled as follows, and is estimated using fixed-effects
+OLS regressions:
+
+                   Valuation = F (VC Reputation, Controls).                    (2)
+
+  In implementing this method, it is important to study early-stage financ-
+ing rounds. Early-stage investors can weigh heavily in shaping the identity of
+subsequent investors (often through referrals or by virtue of their reputation).
+As well, earlier rounds of financing are usually associated with more techni-
+cal and demand uncertainty. As a result, conventional valuation methods are
+difficult to apply to young firms with intangible assets, and so valuations of
+early-stage start-ups are subject to a great deal of negotiation (rather than
+straightforward calculation). The resulting heterogeneity in prices for associ-
+ation with disparate VCs (which themselves vary in reputation) is an impor-
+tant feature of early-stage funding rounds that help identify the market for
+affiliation.
+  This section describes both the details of the data collection process and the
+data used to test the key hypothesis. Before doing so, however, it is useful to
+address two issues: (1) potential biases resulting from a simple cross-sectional
+analysis, and (2) data collection challenges associated with employing the pro-
+posed methodology. Regarding the first issue, unobserved, or mismeasured
+start-up qualities correlated with the price VCs pay for equity, such as differ-
+ences in the demand for affiliation with reputable VCs, may bias cross-sectional
+estimates. Furthermore, there may be unobserved selection processes matching
+start-ups with VCs. Without detailed controls for such processes, cross-sectional
+estimates may be biased in a way sensitive to the sampling scheme.
+  To collect data on a start-up’s financing offers is a challenge in itself, since
+early-stage entrepreneurs are typically (and rightfully) reluctant to disclose in-
+formation that might compromise their strategic position (Gompers and Lerner
+(1999) and Hellmann and Puri (2000)). In addition, VC market consulting com-
+panies do not collect data on the bundle of financing offers received by start-
+ups. Consequently, obtaining the set of declined financing offers (rather than
+assembling a matched comparable, for example) requires asking entrepreneurs
+themselves for the sensitive information. I do so through a survey instrument.
+While designing and administering the survey was a labor-intensive process,
+few substitutes exist to gather detailed information about (1) the founding and
+organization of the start-up, (2) the VCs offering to invest in the start-up, and
+                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1812                         The Journal of Finance
+
+(3) the prices that were offered. A brief section describing institutional details
+about the sampled start-ups precedes a discussion about the data.
+
+
+                         A.1. The MIT E-Lab Program
+  The MIT Entrepreneurship Program offers a semester-long class, “Entrepre-
+neurship Laboratory” (“E-Lab”), which assembles teams of MIT and Harvard
+graduate students to study specific business-related issues at actual start-
+ups. In exchange for a complimentary business development analysis done
+by graduate students, the E-Lab firms’ senior executive officers commit to
+allocating a certain amount of time and effort to interacting with the stu-
+dents. E-Lab began in 1995 and approximately 300 start-up companies had
+applied to participate in the program by the summer of 2000. Far more com-
+panies apply for the program, however, than the supply of student teams can
+accommodate.
+  In order to qualify for E-Lab, the start-up has to meet two criteria: (1) its head
+count must be less than approximately 35 at the time of entering the program,
+and (2) it must have completed a Series A round of investment. This group
+of start-ups is an attractive one to survey for two reasons. First, the sample
+includes funded, early-stage start-ups that were not selected for any qualities
+related to the price that VCs paid for their equity. Second, because of the MIT
+Entrepreneurship Program affiliation, they may be more inclined to participate
+in this research study.
+
+
+B. Data
+   The empirical approach requires measures of VC reputation from firms offer-
+ing to invest in the sample of E-Lab firms, as well as information about the offers
+themselves. The survey instrument (see the Appendix) collects this information
+using a variety of measures, such as the entrepreneur’s perceived reputation
+ranking of investors from which it received a financing offer. More objective data
+about the VC’s reputation (e.g., investment experience in each high-tech indus-
+trial segment) were collected from the Venture Economics database through
+Securities Data Corporation/Thomson Financial.
+
+
+             B.1. The Financing New High-Tech Ventures Survey
+  After pre-testing the survey with entrepreneurs (both those contemporane-
+ously undergoing the Series A financing process and those who had already
+gone through it), VCs, academics, and intellectual property attorneys, I mailed
+the survey to the population of approximately 300 E-Lab companies. I then
+placed telephone calls to follow up with informants. The data were collected
+over the phone over 5 months starting July 15, 2000. Respondents to the sur-
+vey were typically a founder and/or a person who knew the details of a firm’s
+start-up and financing history (frequently this was one of the following senior
+executive officers: a CEO, CTO, and/or CFO).
+                                                                                     15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?         1813
+
+   Nearly half of the companies in the E-Lab population responded to the sur-
+vey. Nonrespondents seemed randomly mixed between those without time to
+participate in the survey and those (to a lesser extent) unwilling to participate
+in the study. Formal tests of differences between observables on the two sam-
+ples are difficult, however, due to the data constraints on the firms not in the
+sample. Indeed, many of the firms in the E-Lab population were not yet listed
+in venture capital industry consulting firm databases.
+   The survey responses yielded a total of 246 offers to 149 start-ups. While 98
+of these start-ups received a single financing offer, 51 of them received more
+than one offer for financing their first professional round. The average start-up
+receiving multiple offers averaged almost three offers each, resulting in 148
+offers made to this set of companies.
+   As an overview of the entire sample, Table I (Panels A and B) reports the
+age distribution of start-ups in the sample, together with the distribution of
+offers received by the sample of E-Lab start-ups. The empirical puzzle in these
+data is that only 43% of the start-ups among those receiving multiple offers
+accepted their best financial offer. Moreover, the start-ups not accepting their
+most generous financial offer left a considerable amount of value “on the ta-
+ble,” amounting to $173.9 million in aggregate pre-money valuation. This was
+calculated as the sum of the differences between their best financial offer and
+the accepted offer. For the group of multiple-offer firms declining their best fi-
+nancial offer, the foregone pre-money value as a fraction of the accepted offer
+ranged from a low of 3.6% to a high of 217%, with an average of 33.2% for the
+sample. This descriptive interpretation of the data, of course, would be different
+if the overall sample of single and multiple offers were considered, as shown in
+Table I.
+   Panel B of Table I also describes the means of a wide range of start-up char-
+acteristics, broken out by the number of offers received. These characteristics
+include: start-up founding year; Series A financing year; number of employees
+prior to Series A funding; revenues from first year operations; patent applica-
+tions and grants; industrial representation; and geographic location. The av-
+erage start-up was founded in the first half of 1997 and received its Series A
+funding just 14 months later (over 80% of the start-ups in the data set re-
+ceived Series A funding between 1998 and 2000). Prior to receiving this fund-
+ing round, the average start-up in the sample employed 10 people and had
+about $0.27 million in revenues from first year operations. As well, by the
+end of 2000, the typical start-up had applied for 5.4 patents and had received
+1.2 patent grants. A high proportion of the start-ups, 74%, were located in
+Massachusetts, which may not be surprising given the nature of the E-Lab pro-
+gram (by comparison, 53% of the accepted VC offers were from Massachusetts-
+based VC firms). Additionally, 13% of the start-ups in the sample were lo-
+cated in California (15% of the accepted VC offers were from California-based
+VC firms).
+   The industrial representation of the E-Lab start-ups in the sample is fairly
+typical of the broader set of industries funded by VCs over the same time period
+(the average E-Lab firm in the sample received Series A funding in the middle
+                                                                                                                                                                                                                                                                                                                                                                          1814
+
+
+                                                                                                                                                                                                  Table I
+                                                                                                                                                       Description of the Overall Data Set
+                                                 This table describes the overall sample of Series A round financing offers to start-ups. Panel A describes the distribution of start-ups by year of
+                                                 incorporation. Panel B describes the overall sample, together with the distribution of offers and characteristics of the start-ups. For the sample of
+                                                 single and multiple offers, 80.5% of the 149 firms accepted their best (and sometimes only) financing offer. Of the 51 firms receiving multiple offers,
+                                                 57% did not accept their best financial offer, leaving $173.9 million “on the table,” the sum of the differences between the best financial offer and
+                                                 the accepted offer. For the group of firms receiving multiple offers and declining their best financial offer, this amount represents an average of
+                                                 33.2% pre-money valuation discount as a fraction of their accepted offers. For the overall sample of single and multiple offers, this statistic is 12.5%.
+                                                 The measure internet industry includes services, infrastructure, retail, or other; computer industry includes software and hardware; health industry
+                                                 includes medical devices and biotechnology. The measure high industry deal experience is a dummy variable equal to 1 if the number of deals the VC
+                                                 has previously funded in the target start-up’s industrial segment places the VC above the sample median. The measure high-normalized funds raised
+                                                 is a dummy variable equal to 1 if the number of prior funds (excluding buyout funds) the VC has raised per years of operation places the VC above the
+                                                 sample median. The measure high network resources rating is a dummy equal to 1 if a VC firm received the maximum Likert-scale measure (of 5) in
+                                                 at least one of the following entrepreneur-rated VC network resources: recruiting resources, contacts with customers and suppliers, or contacts with
+                                                 investment bankers. The measure corporate VC is a dummy equal to 1 if the VC is a corporate VC. The measure angel investor is a dummy variable
+                                                 equal to 1 if a financing offer is from an angel investor or angel group. The measure financing offered is the amount of capital offered (in $ million) by
+                                                 the investor. The measure equity taken threshold is a dummy variable equal to 1 if the investor receives at least 30% of start-up equity (the median of
+                                                 the sample) as a result of the Series A financing offer. Panels C and D report the conditional means of start-up and VC characteristics, respectively,
+                                                                                                                                                                                                                                                                                                                                                                          The Journal of Finance
+
+                                                 for the single-offer and multiple-offer subsamples of the data set. The t-tests of equal means between these subsamples are also reported.
+
+                                                                                                                                  Panel A: Distribution of Number of Start-ups by Year of Incorporation
+                                                                      1984                     1989                     1990                     1992                     1993                     1994                     1995                    1996                     1997                     1998                     1999                     2000
+
+                                                 No                       1                        1                        1                        2                       5                        5                       13                       14                       19                       27                      39                       22
+
+
+
+
+15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                                               Panel B: Description of Start-ups and VCs by Number of Offers Received
+                                                                                                                                                                                                                                Number of Offers Received
+                                                 Start-up characteristics                                                                                     1                          2                           3                          4                          5                   6                    7                     Sum/Avg.
+
+                                                 Number of start-up firms                                                                                 98                         21                          20                         6                            3                     0                  1                       149
+                                                 No. of firms accepting best financial offer                                                              98                          9                          11                         1                            1                    NA                  0                       120
+                                                 No. of firms declining best financial offer                                                               0                         12                           9                         5                            2                    NA                  1                        29
+                                                 Percent of firms accepting best financial offer                                                         100                         42.9                        55                        16.7                         33.3                  NA                  0                        80.5%
+                                                 $ Million “left on table”                                                                                 0                         56.5                        50.8                      42.5                          8.8                  NA                 15.3                  $174 million
+                                                 Accepted pre-money value                                                                                869.4                      147.3                        74.2                     256.5                         11.3                  NA                 34.7                  1,393 million
+                                                 Foregone value as a percent of accepted                                                                   0                         38.4                        68.5                      16.6                         77.9                  NA                 44.1                      12.5%
+                                                   pre-money value
+                                                 Year start-up founded                                                                                1997.2                     1998.1                     1997.6                      1997.2                     1998.3                     NA            1995.0                        1997.4
+                                                 Year of Series A funding                                                                             1998.5                     1998.8                     1998.8                      1999.0                     1999.3                     NA            1999.0                        1998.6
+                                                 Pre-money valuation ($ million)                                                                         8.9                       11.3                       15.4                        48.6                       10.9                     NA              34.7                          11.9
+                                                 Pre-Series A employment                                                                                 9.3                        9.4                        9.7                        23.0                       15.7                     NA              15.0                          10.1
+                                                 First year revenues ($ million)                                                                         0.2                        0.3                        0.3                         0.8                        0.1                     NA               0.0                           0.3
+                                                 No. of patent app. as of 12/31/2000                                                                     4.9                        3.8                        7.8                        12.2                        3.0                     NA               2.0                           5.4
+                                                 No. of patent grants as of 12/31/2000                                                                   1.2                        0.5                        2.0                         0.7                        1.0                     NA               2.0                           1.2
+                                                 Internet industry                                                                                       0.5                        0.5                        0.6                         0.8                        1.0                     NA               1.0                           0.5
+                                                 Computer industry                                                                                       0.2                        0.3                        0.2                         0.2                        0.0                     NA               0.0                           0.2
+                                                 Health industry                                                                                         0.1                        0.1                        0.2                         0.0                        0.0                     NA               0.0                           0.1
+                                                 Communications industry                                                                                 0.1                        0.1                        0.2                         0.0                        0.0                     NA               0.0                           0.1
+                                                 Massachusetts-based start-up                                                                            0.7                        0.8                        0.8                         0.8                        0.7                     NA               1.0                           0.7
+                                                 California-based start-up                                                                               0.1                        0.1                        0.2                         0.0                        0.3                     NA               0.0                           0.1
+                                                 VC Characteristics                                                                                           1                          2                          3                          4                          5                     6                  7                      Sum/Avg.
+                                                 High industry deal experience                                                                                0.2                        0.5                        0.5                      0.5                          0.7                 NA                  1.0                             0.3
+                                                 High normalized funds raised                                                                                 0.6                        0.7                        0.7                      0.5                          1.0                 NA                  1.0                             0.7
+                                                 High network resources rating                                                                                0.4                        0.5                        0.5                      0.7                          0.7                 NA                  1.0                             0.4
+                                                                                                                                                                                                                                                                                                                                                                          What Do Entrepreneurs Pay for Venture Capital Affiliation?
+
+
+
+
+                                                 Corporate VC                                                                                                 0.1                        0.0                        0.1                      0.0                          0.0                 NA                  0.0                             0.0
+                                                 Angel investor                                                                                               0.2                        0.1                        0.2                      0.0                          0.0                 NA                  0.0                             0.2
+                                                 Financing offered ($ million)                                                                                4.3                        6.3                        6.0                     14.3                          6.0                 NA                 13.7                             5.3
+                                                 Equity taken threshold                                                                                       0.5                        0.7                        0.5                      0.7                          0.7                 NA                  0.0                             0.6
+                                                                                                                                                                                                                                                                                                                                                                          1815
+
+
+
+
+15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                                                                                                                                                                                                                                                                                          1816
+                                                                                                                                                                                     Table I—Continued
+
+                                                                                                                   Panel C. Comparison of Start-up Characteristics across Offers Received Subsamples
+                                                 Variables                                                                                                             Single Offer Mean                                                  Multiple Offer Mean                                                      t-Stat for Equal Means
+
+                                                 Year start-up founded                                                                                                           1997.19                                                               1997.77                                                                   −1.36
+                                                 Year of Series A financing                                                                                                      1998.53                                                               1998.86                                                                   −1.18
+                                                 Pre-Series A employment                                                                                                            9.32                                                                 11.59                                                                   −1.31
+                                                 First year revenues ($ million)                                                                                                    0.23                                                                  0.35                                                                   −0.86
+                                                 No. of patent applications as of 12/31/2000                                                                                        4.94                                                                  6.28                                                                   −0.62
+                                                 No. of patent grants as of 12/31/2000                                                                                              1.21                                                                  1.14                                                                    0.11
+                                                 Internet industry                                                                                                                  0.48                                                                  0.59                                                                   −1.26
+                                                 Computer industry                                                                                                                  0.24                                                                  0.20                                                                    0.54
+                                                 Health industry                                                                                                                    0.09                                                                  0.10                                                                   −0.12
+                                                 Communications industry                                                                                                            0.11                                                                  0.10                                                                    0.26
+                                                 Massachusetts-based start-up                                                                                                       0.72                                                                  0.78                                                                   −0.79
+                                                 California-based start-up                                                                                                          0.13                                                                  0.12                                                                    0.26
+
+                                                                                                                        Panel D. Comparison of VC Characteristics across Offers Received Subsamples
+                                                 Variables                                                                                                             Single Offer Mean                                                  Multiple Offer Mean                                                      t-Stat for Equal Means
+                                                                                                                                                                                                                                                                                                                                                                          The Journal of Finance
+
+                                                 Pre-money valuation ($ million)                                                                                                         8.87                                                               17.73                                                                −2.75∗∗∗
+                                                 High industry deal experience                                                                                                           0.25                                                                0.51                                                                −3.35∗∗∗
+                                                 High normalized funds                                                                                                                   0.64                                                                0.67                                                                −0.29
+                                                 High network resources rating                                                                                                           0.39                                                                0.55                                                                −1.89∗
+                                                 Corporate VC                                                                                                                            0.05                                                                0.02                                                                −2.93∗∗∗
+                                                 Angel investor                                                                                                                          0.22                                                                0.08                                                                 2.25∗∗
+                                                 Financing offered ($ million)                                                                                                           4.33                                                                7.27                                                                −2.43∗∗
+                                                 Equity taken threshold                                                                                                                  0.53                                                                0.61                                                                −0.90
+                                                 ∗ , ∗∗ , ∗∗∗ indicate statistical significance at the 10%, 5%, or 1% level, respectively.
+
+
+
+
+15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                     15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?         1817
+
+of 1998). Of the sampled companies, 26% are in Internet services, 17% are in
+Internet infrastructure, and 5% are in Internet retailing. The software sector
+comprises about 16% of the sample, while computer hardware represents 6%
+of the sample. Communications and health sciences (biotechnology and medi-
+cal devices) each comprise 10% of the sample, respectively. This distribution of
+firms seems to mirror the overall financing trends by VCs from 1997 to 2000.
+For example, according to Venture Economics, in 1999, 43% of VC disburse-
+ments went to Internet-based start-ups, and 57% of VC funds in the first three
+quarters of 2000 were invested in that sector.
+   While Panel B of Table I presents the conditional means of the observable
+start-up characteristics by the number of offers received, it is difficult to tell
+whether statistical differences exist. Panel C therefore compares sampled start-
+ups receiving single offers with those receiving multiple offers via t-tests of
+equality of means. The results reveal that the start-ups’ qualities between the
+single- versus multiple-offers subsamples were statistically the same between
+the groups.
+   Panel D presents similar tests for the subsamples of VC characteristics. While
+these figures ref lect accepted offers and are likely the result of a bargaining
+process between entrepreneurs and VCs, it is likely that the multiple-offers
+subsample contains the better deals (with higher pre-money valuations, more
+funding offered, and greater interest from more experienced VCs).
+   In order to use the start-up fixed-effects methodology previously described,
+only the set of firms receiving multiple financing offers is analyzed in the re-
+maining empirical tables. While selection issues as a result of this empirical
+strategy may be of concern, the finding that start-up characteristics are sta-
+tistically the same across recipients of single- and multiple-financing offers is
+reassuring. As well, tests of result robustness using Heckman’s (1979) selection-
+adjusted estimators employing the full data set are presented at the conclusion
+of the empirical analysis. While there are some potential costs to relying on
+the multiple-offers subsample (selection issues), the benefits are in identifying
+the affiliation effect, a result that will become clear by comparing the results
+using the multiple-offers methodology (Tables IV through VIII) with “cross-
+sectional” results based on realized financing outcomes of the entire E-Lab
+sample (Table IX). In addition, because the multiple-offers subsample likely
+contains better deals, this bias may actually make it more difficult to find an
+affiliation effect, since the most promising ventures would potentially have the
+least to gain from VC affiliation.
+
+
+              B.2. Variable Definitions and Summary Statistics
+   Table II reports variable definitions and summary statistics for the multiple-
+offers sample in which the unit of analysis is an offer to a start-up, while
+Table III contains the correlation matrix for these variables.
+   Two measures of price are used in the empirical analysis. Pre-money val-
+uation, the product of the number of shares outstanding before the Series A
+financing round and the offered per-unit share price (mean = $20.6 million),
+                                                                                                        15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1818                               The Journal of Finance
+
+                                              Table II
+            Descriptive Statistics of the Multiple Offers Sample
+This table provides descriptive statistics of variables used in Tables III through VIII. The measure
+VC offer accepted is a dummy equal to 1 if an offer was accepted by the entrepreneur. The measure
+pre-money valuation is the product of the number of outstanding shares before the Series A round
+and the share price before the financing round (in $ million). The measure relative valuation offered
+is the offered pre-money valuation to a start-up relative to the highest offered valuation received
+by that start-up. The measure high industry deal experience is a dummy variable equal to 1 if the
+number of deals the VC has previously funded in the target start-up’s industrial segment places
+the VC above the sample median. The measure industry reputation rank is the rank (a ranking
+of 7 being first best, with lower values indicating lower reputation) of VC reputation among offers
+received, as rated by the entrepreneur. The measure high-normalized funds raised is a dummy
+variable equal to 1 if the number of prior funds (excluding buyout funds) the VC has raised per
+years of operation places the VC above the sample median. The measure high network resources
+rating is a dummy equal to 1 if a VC firm received the maximum Likert-scale measure (of 5)
+in at least one of the following entrepreneur-rated VC network resources: recruiting resources,
+contacts with customers and suppliers, or contacts with investment bankers. The measure boards
+per general partner is the number of boards of directors per general venture capital partner. The
+measure corporate VC is a dummy equal to 1 if the VC is a corporate VC. The measure angel
+investor is a dummy variable equal to 1 if a financing offer is from an angel investor or angel
+group. The measure financing offered is the amount of capital offered (in $ million) by the investor.
+The measure equity taken threshold is a dummy variable equal to 1 if the investor receives at
+least 30% of start-up equity (the median of the sample) as a result of the Series A financing
+offer.
+
+Variable                                     Mean               SD                     Source
+
+Dependent Variables
+ VC offer accepted                           0.345             0.477            MIT Survey
+ Pre-money valuation                        20.589            32.935            MIT Survey
+ Relative valuation offered                  0.826             0.215            MIT Survey
+VC Reputation Measures
+ High industry deal experience               0.439             0.498            Venture Economics
+ Industry reputation rank                    5.905             1.163            MIT Survey
+ High normalized funds raised                0.568             0.497            Venture Economics
+ High network resources rating               0.432             0.497            MIT Survey
+ Boards per general partner                  4.198             2.405            Venture Economics
+VC- and Financing-Term Controls
+ Corporate VC                                0.048             0.214            Corporate web sites
+ Angel investor                              0.068             0.253            MIT Survey
+ Financing offered                           7.863             8.944            MIT Survey
+ Equity taken threshold                      0.520             0.501            MIT Survey
+
+
+
+
+has become a standard measure in the literature (Gompers and Lerner (2000)).
+Relative valuation offered is the offered pre-money valuation to a start-up rel-
+ative to the highest offered valuation received by that start-up (mean = 0.83).
+Note that because many of these financing rounds took place during the late
+1990s, the inf lated valuations characterizing the “Internet bubble” are likely
+ref lected here. Two additional factors may also be ref lected in these valuations:
+(1) several of the companies had prior informal funding rounds—such as “angel”
+and/or “friends and family” rounds before their first professional round, and (2)
+                                                                                                                                                                                                Table III
+                                                                                                                                                                 Pairwise Correlation Matrix
+                                                 This table provides a pairwise correlation matrix of the variables used in the empirical analysis. The measure VC offer accepted is a dummy equal to
+                                                 1 if an offer was accepted by the entrepreneur. The measure pre-money valuation is the product of the number of outstanding shares before the Series
+                                                 A round and the share price before the financing round (in $ million). The measure relative valuation offered is the offered pre-money valuation to
+                                                 a start-up relative to the highest offered valuation received by that start-up. The measure high industry deal experience is a dummy variable equal
+                                                 to 1 if the number of deals the VC has previously funded in the target start-up’s industrial segment places the VC above the sample median. The
+                                                 measure industry reputation rank is the rank (a ranking of 7 being first best, with lower values indicating lower reputation) of VC reputation among
+                                                 offers received, as rated by the entrepreneur. The measure high normalized funds raised is a dummy variable equal to 1 if the number of prior funds
+                                                 (excluding buyout funds) the VC has raised per years of operation places the VC above the sample median. The measure high network resources rating
+                                                 is a dummy equal to 1 if a VC firm received the maximum Likert-scale measure (of 5) in at least one of the following entrepreneur-rated VC network
+                                                 resources: recruiting resources, contacts with customers and suppliers, or contacts with investment bankers. The measure boards per general partner
+                                                 is the number of boards of directors per general venture capital partner. The measure corporate VC is a dummy equal to 1 if the VC is a corporate
+                                                 VC. The measure angel investor is a dummy variable equal to 1 if a financing offer is from an angel investor or angel group. The measure financing
+                                                 offered is the level of capital offered (in $ million) by the investor. The measure equity taken threshold is a dummy variable equal to 1 if the investor
+                                                 receives at least 30% of start-up equity (the median of the sample) as a result of the Series A financing offer.
+
+                                                                                                                           (1)                  (2)                   (3)                   (4)                  (5)                   (6)                  (7)                   (8)                 (9)               (10)                (11)          (12)
+
+                                                 VC offer accepted                                                     1
+                                                 Pre-money valuation                                                  −0.05                  1
+                                                 Relative valuation offered                                            0.05                  0.40∗                 1
+                                                 High industry deal exp.                                               0.13                  0.26∗                 0.03                 1
+                                                 Industry rep. rank                                                    0.43∗                −0.22∗                −0.04                 0.12                  1
+                                                 High-normalized funds raised                                          0.15                 −0.25∗                −0.03                −0.21∗                 0.06                  1
+                                                 High network res. rating                                              0.17∗                 0.27∗                −0.09                 0.08                  0.07                 −0.06                 1
+                                                 Boards per gen. partner                                               0.12                  0.10                 −0.06                 0.46∗                 0.25∗                 0.01                 0.05                  1
+                                                 Corporate VC                                                         −0.32∗                 0.02                  0.02                −0.07                 −0.06                 −0.06                −0.07                 −0.23∗              1
+                                                 Angel investor                                                       −0.10                 −0.17∗                −0.04                −0.24∗                −0.05                  0.24∗               −0.02                 −0.21              −0.06                1
+                                                 Financing offered                                                    −0.05                  0.73∗                 0.21∗                0.15                 −0.17∗                −0.26∗                0.33∗                −0.02              −0.10               −0.19∗                 1
+                                                                                                                                                                                                                                                                                                                                                                          What Do Entrepreneurs Pay for Venture Capital Affiliation?
+
+
+
+
+                                                 Equity taken threshold                                                0.13                 −0.22∗                −0.08                 0.11                  0.24∗                −0.07                 0.03                  0.17              −0.10               −0.23∗                 0.09           1
+                                                 ∗ Statistically significant at the 5% level.
+
+
+                                                                                                                                                                                                                                                                                                                                                                          1819
+
+
+
+
+15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                         15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1820                               The Journal of Finance
+
+financing offers given to start-ups with multiple offers averaged $8.9 million
+more in pre-money valuation relative to their single-offer counterparts, a sta-
+tistically significant difference. In any case, instead of focusing on the mag-
+nitude of valuation offered, the primary concern here is to explain variance
+across financing offers for a given start-up. Given these circumstances, relative
+valuation offered is the preferred measure of price throughout the empirical
+analysis (though pre-money valuation and relative valuation offered are posi-
+tively correlated at 0.40).
+   The key independent variables are correlates of VC reputation.4 In accord
+with the concept of VC reputation as expected quality based on previous ex-
+perience, several “objective” measures are employed, based on data as of
+December 31, 2000 from the Venture Economics database. They include high
+industry deal experience, a dummy variable equal to 1 if the number of invest-
+ments the VC has made in the start-up’s industrial segment places the VC above
+the sample median (mean = 0.44). This is the main measure of reputation used
+in the empirical tables, and is consistent with the concept that VC “domain
+expertise” is an important input to both VC reputation and VCs’ ability to add
+value to their portfolio companies.
+   Two measures proxy for services and resources that VCs provide for start-
+ups. The measure high network resources rating is a dummy equal to 1 if a
+VC firm received the maximum Likert-scale measure (of 5) in at least one of
+the following entrepreneur-rated VC network resources: recruiting resources,
+contacts with customers and suppliers, and contacts with investment banks
+(mean = 0.43). A second (alternative) measure of resource transfer is a proxy
+for the available time a general partner has to potentially devote to start-up
+development, boards per general partner (mean = 4.2). This measure divides the
+number of boards of directors on which a VC firm participates by the number of
+general partners in the VC firm. While the pairwise correlation between high
+network resources rating and boards per general partner is not particularly
+high (0.05), it is interesting to note that there is some degree of correlation
+between boards per general partner and high industry deal experience (0.46).
+These correlations may be due to a countervailing boards per general partner
+effect: A high ratio may proxy for network connections that may be valuable for
+start-up development.
+   Finally, two additional measures of reputation are used as robustness checks
+in the analysis. The measure high-normalized funds raised is a dummy equal
+to 1 if the number of prior funds (excluding buyout funds) the VC has raised
+per year(s) of operation places the VC above the sample median. This vari-
+able (mean = 0.57) is a measure of VC success in raising additional financial
+
+   4
+     If a start-up’s Series A round was syndicated, I used information from the lead VC, as prior
+research suggests that lead investors devote more direct resources to assisting their portfolio com-
+panies relative to syndication partners (Gorman and Sahlman (1989)). A syndicated offer is counted
+as a single offer in this study. Syndicates are common among the accepted offers (65%), a fact that
+is not surprising given the early-stage financing rounds examined. Unfortunately, my survey did
+not capture the full syndicate for offers that were not accepted, and so I am not able to test whether
+syndication has an effect on the likelihood of offer acceptance and on valuation.
+                                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+            What Do Entrepreneurs Pay for Venture Capital Affiliation?                       1821
+
+capital from limited partners, a requirement for survival in the VC industry.5
+While the internal rate of return (IRR) of past VC funds will be a nice measure
+of reputation, IRRs are usually held confidential by VC firms (Gompers and
+Lerner (1999)). Industry reputation rank (mean = 5.9) is an ordered ranking, 7
+being first best and 1 being worst, of VC reputation among offers received, as
+rated by the entrepreneur in the survey instrument (the measure has been re-
+versed from the original survey-based measure for expositional ease). Because
+this variable is based on entrepreneurial perception and measures relative ex-
+clusiveness, industry reputation rank incorporates the notion that the value
+of affiliation may depend on the VC’s hierarchical position (Frank (1985) and
+Podolny (1993)). The subjective nature of this measure warrants discussion of
+its use, however (see below); consequently this measure will be used only for
+robustness checks in the empirical analysis.
+   A group of controls for other VC characteristics is used throughout the empir-
+ical analysis. The variable corporate VC is a dummy variable (mean = 0.11) for
+whether the VC is a corporate investor, since evidence and theory suggest that
+this method of organizing entrepreneurial finance has different organizational
+and incentive implications relative to independent VCs (Gompers and Lerner
+(1999) and Hellmann (2002)). The variable angel investor is a dummy equal to 1
+if a financing offer is from an angel or angel group (mean = 0.07). The variable
+equity taken threshold is a dummy equal to 1 if the investor receives at least
+30% of start-up equity (the median of the sample) (mean = 0.52). While equity
+taken threshold may be endogenous to price, this variable may be an indicator of
+corporate control implications of an offer, and is therefore included as a control
+variable. The variable financing offered is the amount of capital offered by the
+investor in the Series A financing round (mean = $7.86 million). The previous
+two measures are meant to proxy for the fact that entrepreneurs may prefer
+offers that allow them to retain a higher stake of equity in their company. As
+well, larger financing offers may delay the need to return to VCs for additional
+funding, providing a liquidity benefit to the new venture.
+
+
+                                  III. Empirical Results
+   The empirical assignment is straightforward—to test the hypotheses that
+(1) financing offers from more reputable VCs are more likely to be accepted,
+and (2) more reputable VCs acquire start-up equity at a discount. This section
+is therefore organized around empirical tables that demonstrate these relation-
+ships in both univariate and multivariate settings.
+
+   5
+     A priori we would expect that high industry deal experience and high-normalized funds raised
+would be positively correlated. The −0.21 pairwise correlation may result because the two mea-
+sures are derived indicator variables for the top half of the deal experience and prior funds raised
+distributions. Reassuringly, the pairwise correlation between the number of prior VC deals in the
+industry sector and prior funds raised is positively correlated at 0.56. As well, the unconditioned
+pairwise correlations between high industry deal experience and high-normalized funds raised do
+not ref lect control for any other VC or start-up characteristics.
+                                                                                                           15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1822                                 The Journal of Finance
+
+                                                 Table IV
+                         Univariate Difference in Means Tests
+Panel A describes difference in means tests for accepted versus declined financing offers among
+offers received by start-ups with more than one Series A financing offer. The measure pre-money
+valuation is the product of the number of outstanding shares before the Series A round and the
+share price before the financing round (in $ million). The measure normalized industry deal ex-
+perience is a dummy variable equal to 1 if the number of deals the VC has previously funded in
+the target start-up’s industrial segment per years of operation places the VC above the sample
+median. The measure normalized funds raised is a dummy variable equal to 1 if the number of
+prior funds (excluding buyout funds) the VC has raised per number of years of operation places
+the VC above the sample median. The measure industry reputation rank is the rank (a ranking
+of seven being first best, with lower values indicating lower reputation) of VC reputation in the
+start-up’s industrial segment among received offers, as rated by the entrepreneur. The measure
+high network resources rating is a dummy equal to 1 if a VC firm received the maximum Likert-
+scale measure (of 5) in at least one of the following entrepreneur-rated VC network resources:
+recruiting resources, contacts with customers and suppliers, or contacts with investment bankers.
+Panel B describes conditional means of relative valuation offered, the offered pre-money valua-
+tion to a start-up relative to the highest offered valuation received by that start-up, and equality
+of means tests for the upper and lower halves (divided at the median) of normalized industry
+deal experience, normalized funds raised, industry reputation rank, and high network resources
+rating.
+
+                                  Panel A: Difference in Means Tests
+                                      Offer Accepted        Offer Not Accepted       t-Stat: Equal Means
+
+Pre-money valuation                       17.733                 22.090                     0.764
+Normalized industry deal exp.              3.844                  2.810                    −1.282
+Normalized funds raised                    0.667                  0.515                    −1.771∗
+Industry reputation rank                   6.588                  5.546                    −5.711∗∗∗
+High network resources rating              0.549                  0.371                    −2.093∗∗
+
+                      Panel B: Conditional Means of Relative Valuation Offered
+                                       Top Half              Bottom Half             t-Stat: Equal Means
+
+                                                        Normalized Industry Deal Exp.
+                                         0.812                0.844                            0.880
+                                                         Normalized VC Funds Raised
+Relative valuation offered               0.820                  0.834                          0.397
+                                                            Industry Reputation Rank
+                                         0.798               0.843                   1.233
+                                                       High Network Resources Rating
+                                         0.804                  0.842                          1.070
+∗ , ∗∗ , or ∗∗∗ indicate statistical significance at the 10%, 5%, or 1% level, respectively.
+
+
+
+
+  Table IV shows simple univariate comparisons of conditional means without
+controlling for fixed firm effects. Panel A describes difference in means tests for
+accepted versus declined financing offers. While the average pre-money value of
+accepted offers is $17.7 million, the declined offers averaged $22.1 million (the
+difference is not statistically significant, however). Accepted offers had higher
+                                                                                      15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+          What Do Entrepreneurs Pay for Venture Capital Affiliation?         1823
+
+values of VC reputation relative to nonaccepted offers, as measured four ways.
+The measures normalized industry deal experience (industry deal experience
+per year(s) of operation), normalized funds raised (number of funds raised per
+year(s) of operation), industry reputation rank, and high network resources rat-
+ing all have higher values for accepted offers relative to declined ones. The
+differences in means for the latter three variables are statistically significant.
+Panel B describes the conditional means of relative valuation offered for the
+upper and lower halves (divided at the median) of normalized industry deal ex-
+perience, normalized funds raised, industry reputation rank, and high network
+resources rating. Examining the conditional means of relative valuation offered
+rather than pre-money valuation in this context is preferred because the former
+measure incorporates some information about the comparative nature of the
+offers. The latter measure does not group offers by start-up firms in any way.
+While the differences in conditional means for the four reputation measures
+are not statistically significant, each of the relative means is consistent with
+the argument that more reputable VCs offer a discount to Series A valuation.
+Specifically, higher measures of VC reputation are associated with lower valua-
+tion offers. These univariate tests, while suggestive, do not control for qualities
+of the start-up, and so the remaining tables present a more systematic, multi-
+variate analysis.
+   Table V examines start-up fixed-effects logits of VC offer accepted using
+Chamberlain’s (1980) conditional likelihood method. Specification (5-1) shows
+that in the bivariate case, high industry deal experience is positively associated
+with VC offer accepted, at a statistically significant level (5%) and implies a
+2.94-fold change in the odds of offer acceptance for a discrete change in this
+measure of VC reputation. While a more systematic exploration of the robust-
+ness of the VC reputation result is found in Table VII, a similar result holds
+in the bivariate relationship between VC offer accepted and high-normalized
+funds raised. The reputation result is strengthened when a measure of val-
+uation, relative valuation offered, is included in specification (5-2). Notice the
+relative importance of the reputation effect over the valuation effect on the like-
+lihood that an offer is accepted. Specification (5-3) includes an additional mea-
+sure of VC reputation, high network resources rating, and controls for a variety
+of VC- and terms-of-financing-effects: angel investor, corporate venture capi-
+tal, financing offered, and equity taken threshold. The high network resources
+rating measure is meant to capture VC value-added effects through contacts
+and/or resources that could make an offer more attractive (and can contribute
+to VC reputation). The estimated coefficient on this variable is positive and
+statistically significant at the 1% level. The measure angel investor is meant to
+capture the fact that a knowledgeable angel investor could be a substitute for
+a reputable VC in providing certification and business development resources,
+while the corporate VC method of organizing entrepreneurial finance may have
+implications for the value they can add to portfolio firms (Gompers and Lerner
+(1999)). Higher levels of financing offered may be a VC offer feature that may
+make it more attractive, since entrepreneurs may not have to return as many
+times or as soon for further financing rounds (fund-raising is an activity that
+                                                                                                          15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1824                                The Journal of Finance
+
+                                               Table V
+                      VC Offer Acceptance Logit Regressions
+This table shows start-up fixed-effects logit regressions on a sample of 148 offers across 51 start-ups
+receiving multiple Series A financing offers. Regression coefficients are reported, with standard
+errors in parentheses below. The dependent variable, VC offer accepted equals 1 if a financing
+offer was taken and 0 otherwise. The measure high industry deal experience is a dummy variable
+equal to 1 if the number of deals the VC has previously funded in the target start-up’s industrial
+segment places the VC above the sample median. The measure relative valuation offered is the
+offered pre-money valuation to a start-up relative to the highest offered valuation received by that
+start-up. The measure high network resources rating is a dummy equal to 1 if a VC firm received
+the maximum Likert-scale measure (of 5) in at least one of the following entrepreneur-rated VC
+network resources: recruiting resources, contacts with customers and suppliers, or contacts with
+investment bankers. The measure angel investor is a dummy variable equal to 1 if a financing offer
+is from an angel investor or angel group. The measure corporate VC is a dummy equal to 1 if the
+VC is a corporate VC. The measure L financing offered is the natural logarithm of capital offered
+(in $ million) by the investor. The measure equity taken threshold is a dummy variable equal to 1
+if the investor receives at least 30% of start-up equity (the median of the sample) as a result of the
+Series A financing offer.
+
+                                                   Dependent Variable = VC Offer Accepted
+                                                           N = 148 Observations
+Independent Variables                          (5-1)                   (5-2)                 (5-3)
+
+High industry deal experience                   1.080∗∗                1.168∗∗                1.068∗∗
+                                               (0.512)                (0.532)                (0.556)
+High network resources rating                                                                 1.415∗∗∗
+                                                                                             (0.519)
+Relative valuation offered                                             0.606                  2.157
+                                                                      (0.887)                (1.425)
+Angel investor                                                                                0.558
+                                                                                             (0.799)
+Corporate VC                                                                                −0.450
+                                                                                             (0.972)
+L financing offered                                                                         −0.329
+                                                                                             (0.593)
+Equity taken threshold                                                                        1.015
+                                                                                             (0.851)
+Start-up fixed-effects                         Yes                    Yes                     Yes
+Prob > χ 2                                     0.028                  0.070                   0.016
+Log likelihood                               −49.195                −48.962                −42.974
+∗∗ or ∗∗∗ indicate statistical significance at the 5% or 1% level, respectively.
+
+
+
+
+may be quite time-consuming for start-up executives). Finally, the reputation
+result is not sensitive to the choice of a wide range of equity taken threshold
+levels between 20 and 50% of equity taken in the financing round (unreported
+regressions).
+  Notice that start-up characteristics are not included in these specifications.
+Since start-up characteristics (such as industry representation) are invariant
+across offers for a given start-up, including these qualities in the regressions
+does not affect the results. In addition, because financing offers for a given start-
+up did not span a large time window, variables on financing timing were not
+                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+          What Do Entrepreneurs Pay for Venture Capital Affiliation?          1825
+
+included in the regressions. In the pre-test of the survey, I asked respondents
+about the time window issue. It was my sense based on these interviews that
+the time window was not open for a long duration, given the start-up financing
+conditions of the late 1990s. Unfortunately, in the survey, I only noted the date of
+the realized Series A funding round, so I am unable to empirically document the
+time window length. Notwithstanding this shortcoming, the main result from
+Table V is that start-ups in this sample may not be selecting investors primarily
+on the basis of price and valuation; instead, VC reputation and affiliation effects
+may indeed be more important.
+   Table VI presents relative valuation offered start-up fixed-effects OLS re-
+gressions. The reported standard errors are robust—having been adjusted for
+clustering by start-up firm. The pairwise specification with high industry deal
+experience in (6-1) shows a negative relationship that is statistically significant
+at the 5% level. As well, the estimated coefficient implies a substantial dis-
+count, 14%, on relative valuation offered for a discrete change in the measure
+of VC reputation.
+   In (6-2), together with the measure of VC reputation, a dummy variable for
+VC offer accepted is included as a regressor. Notice that this parameter estimate,
+while positive (in both (6-2) and (6-3)), does not achieve statistical significance
+and is small in magnitude. The reputation effect persists and is of a slightly
+larger estimated magnitude relative to the previous specification. In model
+(6-3), several additional variables (parallel to those used in the prior table) are
+introduced. While the economic significance of the reputation result is slightly
+diminished in this specification, the parameter is estimated more precisely,
+achieving statistical significance at the 1% level. While the high network re-
+sources rating estimate is not statistically significant, it is estimated with a
+negative coefficient, which is consistent with the main hypothesis tested. The
+estimated coefficient on equity taken threshold is negative and significant at
+the 1% level, suggesting that larger equity stakes are associated with price dis-
+counts, though as previously mentioned, endogeneity concerns moderate the in-
+terpretation of this control variable. As well, the logarithm of financing offered
+is estimated with a positive, significant coefficient, indicating that the magni-
+tude of funding, including potential liquidity effects, is associated with higher
+valuation. While robustness checks of the valuation regressions are presented
+in Table VIII, the results presented in Table VI are consistent with the idea that
+start-up entrepreneurs pay a premium to accept financing from more reputable
+VCs.
+   Because the above-reported results may be an artifact of either the particular
+measures used or due to selection biases arising from examining the multiple-
+offers data set, Tables VII and VIII present robustness checks of the reputation
+results for the offer acceptance and valuation regressions, respectively. The
+first three columns of Table VII successively employ alternate measures of VC
+reputation in fixed-effects logits to study the robustness of the positive correla-
+tion between VC offer accepted and reputation in similar specifications to (5-3).
+Specification (7-1) substitutes high-normalized funds raised for high indus-
+try deal experience as one of the measures of reputation. While the statistical
+                                                                                                        15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1826                                The Journal of Finance
+
+                                               Table VI
+                                   Valuation Regressions
+This table shows the result of start-up fixed-effects OLS regressions on a sample of 148 offers
+across 51 start-ups receiving multiple Series A financing offers. The unit of observation is an offer
+to a start-up. Robust standard errors (adjusted for clustering by start-up firm) are reported (in
+parentheses). The dependent variable is relative valuation offered, the offered pre-money valuation
+to a start-up relative to the highest offered valuation received by that start-up. The measure high
+industry deal experience is a dummy variable equal to 1 if the number of deals the VC has previously
+funded in the target start-up’s industrial segment places the VC above the sample median. The
+measure VC offer accepted equals 1 if a financing offer was taken and 0 otherwise. The measure
+high network resources rating is a dummy equal to 1 if a VC firm received the maximum Likert-
+scale measure (of 5) in at least one of the following entrepreneur-rated VC network resources:
+Recruiting resources, contacts with customers and suppliers, or contacts with investment bankers.
+The measure angel investor is a dummy variable equal to 1 if a financing offer is from an angel
+investor or angel group. The measure corporate VC is a dummy equal to 1 if the VC is a corporate
+VC. The measure L financing offered is the natural logarithm of capital offered (in $ million) by the
+investor. The measure equity taken threshold is a dummy variable equal to 1 if the investor receives
+at least 30% of start-up equity (the median of the sample) as a result of the Series A financing
+offer.
+
+                                              Dependent Variable = Relative Valuation Offered
+                                                          N = 148 Observations
+Independent Variables                           (6-1)                   (6-2)               (6-3)
+
+High industry deal experience                 −0.135∗∗                −0.144∗∗            −0.098∗∗∗
+                                               (0.057)                 (0.060)             (0.036)
+High network resources rating                                                             −0.048
+                                                                                           (0.045)
+VC offer accepted                                                       0.026               0.041
+                                                                       (0.050)             (0.032)
+Angel investor                                                                            −0.021
+                                                                                           (0.084)
+Corporate VC                                                                                0.016
+                                                                                           (0.110)
+L financing offered                                                                         0.261∗∗∗
+                                                                                           (0.054)
+Equity taken threshold                                                                    −0.291∗∗∗
+                                                                                           (0.067)
+Start-up fixed-effects                          Yes                     Yes                Yes
+Constant                                        0.885∗∗∗                0.880∗∗∗            0.632∗∗∗
+                                               (0.025)                 (0.027)             (0.090)
+Adj. R2                                         0.098                   0.094               0.460
+∗∗ or ∗∗∗ indicate statistical significance at the 5% or 1% level, respectively.
+
+
+
+
+significance falls to the 10% level, a discrete change in the funds raised mea-
+sure corresponds to a doubling of the odds that an offer is accepted. Relative
+to specification (5-3), the estimated coefficient of high network resource rating
+is very similar in (7-1), both in magnitude and in statistical significance. In
+(7-2), industry reputation rank substitutes for high industry deal experience as
+an alternative measure of VC reputation. In this specification, both industry
+reputation rank and high network resources rating are positive and significant
+                                                                                                          15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+            What Do Entrepreneurs Pay for Venture Capital Affiliation?                          1827
+
+                                               Table VII
+                    Offer Acceptance Robustness Regressions
+This table reports robustness checks on VC offer acceptance regressions. Fixed-effects logit regres-
+sions of VC offer accepted, a dummy equal to 1 if an offer was accepted by the entrepreneur, on
+the sample of multiple offers are found in columns 1–3. The measure high industry deal experi-
+ence is a dummy variable equal to 1 if the number of deals the VC has previously funded in the
+target start-up’s industrial segment places the VC above the sample median. The measure high
+normalized funds raised is a dummy variable equal to 1 if the number of prior funds (excluding
+buyout funds) the VC has raised per years of operation places the VC above the sample median.
+The measure industry reputation rank is the rank (a ranking of 7 being first best, with lower values
+indicating lower reputation) of VC reputation among offers received, as rated by the entrepreneur.
+The measure high network resources rating is a dummy equal to 1 if a VC firm received the max-
+imum Likert-scale measure (of 5) in at least one of the following entrepreneur-rated VC network
+resources: recruiting resources, contacts with customers and suppliers, or contacts with investment
+bankers. The measure boards per general partner is the average number of boards of directors per
+general venture capital partner. The measure angel investor is a dummy variable equal to 1 if a
+financing offer is from an angel investor or angel group. The measure relative valuation offered
+is the offered pre-money valuation to a start-up relative to the highest offered valuation received
+by that start-up. The measure corporate VC is a dummy equal to 1 if the VC is a corporate VC.
+The measure L financing offered is the natural logarithm of capital offered (in $ million) by the
+investor. The measure equity taken threshold is a dummy variable equal to 1 if the investor receives
+at least 30% of start-up equity (the median of the sample) as a result of the Series A financing offer.
+Columns 4 and 5 show start-up fixed-effects Heckman sample selection probits on the entire sample
+of 246 offers across 149 start-ups receiving Series A financing offers. A first-stage selection (pro-
+bit) equation determines the likelihood that a start-up receives multiple financing offers (multiple
+offer). The estimated covariates are: L initial employees, the natural logarithm of the pre-Series
+A number of start-up employees; zero patents, a dummy equal to 1 if the start-up does not have
+assigned patents; and dummy variables equal to 1 for each of the following industrial segments:
+Internet (infrastructure, retail, and service), health sciences (biotechnology and medical devices),
+and computers (software and hardware). Dummies for years of Series A investment (1998, 1999,
+and 2000) are also included. The term rho is the correlation between error terms of the selection
+and primary equations; lambda is the inverse Mill’s ratio.
+
+                                               Dependent Variable = VC Offer Accepted
+                                               FE Logits                   FE Heckman Linear Prob.
+                                         Multiple-Offers Sample             Models, Entire Sample
+                                               (N = 148)                          (N = 246)
+Independent Variables                 (7-1)         (7-2)        (7-3)       (7-4)             (7-5)
+
+High industry deal experience                                   1.070∗∗     0.328∗∗∗          0.287∗∗
+                                                               (0.555)     (0.120)           (0.119)
+High-normalized funds raised          0.725∗
+                                     (0.437)
+Industry reputation rank                            1.097∗∗∗
+                                                   (0.312)
+High network resources rating         1.428∗∗∗      1.072∗∗∗                                  0.375∗∗∗
+                                     (0.518)       (0.547)                                   (0.104)
+Boards per general partner                                      0.000
+                                                               (0.001)
+Relative valuation offered            1.049         4.012∗∗     1.673                         0.499∗
+                                     (1.360)       (1.779)     (1.385)                       (0.277)
+Angel investor                        0.536         1.314       0.642                         0.200
+                                     (0.792)       (0.864)     (0.811)                       (0.186)
+                                                                                                            15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1828                                 The Journal of Finance
+
+                                           Table VII—Continued
+
+                                               Dependent Variable = VC Offer Accepted
+                                                FE Logits                      FE Heckman Linear Prob
+                                          Multiple-Offers Sample                Models Entire Sample
+                                                (N = 148)                            (N = 246)
+Independent Variables             (7-1)           (7-2)            (7-3)           (7-4)         (7-5)
+
+Corporate VC                    −0.614           −0.795          −0.395                          −0.051
+                                 (0.920)          (1.137)         (0.969)                         (0.186)
+L financing offered             −0.009           −1.242∗         −0.370                          −0.039
+                                 (0.574)          (0.757)         (0.600)                         (0.113)
+Equity taken threshold            0.778            1.453           1.230                           0.220
+                                 (0.840)          (1.127)         (0.800)                         (0.154)
+Log likelihood                 −43.522          −35.754         −47.197        −249.406        −240.326
+Rho                                                                              −0.000          −0.109
+                                                                                  (1.630)         (0.709)
+Lambda                                                                           −0.000          −0.046
+                                                                                  (0.735)         (0.304)
+∗ , ∗∗ , or ∗∗∗ indicate statistical significance at the 10%, 5%, or 1% level, respectively.
+
+Heckman first-stage (selection) equation (SE in parentheses): Multiple offer = −0.262 (0.356) +
+0.147 (0.108) L init. emp. − 0.461 (0.208) Zero patents + 0.663 (0.251) Internet industry + 0.278
+(0.362) Health science industry + 0.315 (0.288) Computer industry −0.199 (0.303) Year 1998 −
+0.080 (0.266) Year 1999 + 0.292 (0.262) Year 2000
+
+
+
+
+at the 1% level, though the estimated coefficient on relative valuation offered is
+much larger in comparative magnitude than the reputation measures. In (7-3),
+boards per general partner is used as an alternative measure of VC resources
+and is meant to capture the available time that partners in VC firms might have
+available in mentoring, developing, and connecting start-ups. While that vari-
+able is estimated with a nearly zero effect, the other reputation measure used
+in this specification, high industry deal experience, is estimated with quantita-
+tively similar results (statistically and economically) to those found in Table V.
+Varying the measure of valuation as a control variable from relative valuation
+offered to the log of pre-money valuation causes high industry deal experience to
+fall to the 6% level, but does not alter the economic significance of the estimate
+(unreported specification).
+   Thus far, the analysis has not taken into account the possibility of a selection
+bias as a result of only using the multiple-offers data, though descriptive data
+from Table I suggest no statistical differences in the key observable start-up
+characteristics in the subsamples of the data corresponding to single versus
+multiple offers. Had we observed the alternate option for entrepreneurs that
+factually received single offers, would the results persist? Because establish-
+ing that counterfactual is difficult, two-stage Heckman (1979) regressions are
+presented where in the first stage, a probit of the likelihood of multiple of-
+fers is estimated using qualities of the start-up. These estimates are used in
+a second-stage fixed-effects regression of VC offer accepted (in Table VII) and
+                                                                                                        15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+            What Do Entrepreneurs Pay for Venture Capital Affiliation?                        1829
+
+relative valuation offered (in Table VIII) as an adjustment for possible selection
+effects.
+   The first-stage regression in Tables VII and VIII includes start-up covariates
+of the likelihood of receiving multiple offers: the natural logarithm of the pre-
+Series A number of start-up employees, L initial employees; a dummy equal
+to 1 if the start-up does not have assigned patents, zero patents; dummy vari-
+ables for the following industry sectors: Internet industry (including infrastruc-
+ture, services, and retail subsegments); health science industry (biotechnology
+and medical devices); computer industry (software and hardware); and year of
+Series A financing dummies for Year 1998, Year 1999, and Year 2000.6 Second-
+stage fixed-effects Heckman linear probability estimates of VC offer accepted
+are reported in the final two columns of Table VII.7 While the bivariate specifi-
+cation including high industry deal experience (7-4) is estimated more precisely
+(significant at the 1% level) relative to its counterpart in (5-1), the economic
+magnitude of the estimate is diminished. Meanwhile, the fully specified model
+(7-5) yields estimates of similar statistical significance to its counterpart in
+(5-3), though again with diminished economic significance levels.
+   Table VIII explores the robustness of the valuation results. A parallel spec-
+ification structure to that used in the previous robustness table is employed.
+Specification (8-1) substitutes high-normalized funds raised as one of the mea-
+sures of VC reputation. While the high-normalized VC funds raised variable
+is estimated with a positive (though insignificant) coefficient, recall that uni-
+variate comparisons in Table IV indicate that high-normalized VC funds raised
+was negatively correlated with relative valuation offered (although the differ-
+ence was not statistically significant). In the multivariate regression, the prior
+funds variable may be picking up some countervailing effects, such that VCs
+with more prior funds raised are able to raise subsequent funds of larger sizes.8
+The resulting relaxation in VC liquidity may have a confounding effect on this
+proxy for VC reputation.
+   Specification (8-2) utilizes an alternate measure of VC reputation, industry
+reputation rank. The variable estimate is negative and statistically significant
+at the 5% level. However, an objection to using this measure of reputation is
+that it is subject to entrepreneurial recall bias and/or ex post rationalization
+
+   6
+     The omitted category for the industry variables is the communications industry. The results
+of the selection equation are found at the bottom of Tables VII and VIII. Note that the selection
+equation includes variables (start-up characteristics) that are likely to act as good instruments
+because these characteristics are not relevant in the second-stage analysis (they are absorbed by
+the start-up fixed effects).
+   7
+     Testing the robustness of VC offer accepted in the context of fixed effects Heckman selec-
+tion models presents an econometric challenge—known as the incidental parameters problem
+(Heckman (1981) and Hsiao (1986))—in that there are no consistent estimators for fixed-effects
+probits. Therefore, fixed-effect Heckman regressions using a second-stage linear probability model
+are reported. The results are robust to this estimation strategy, though the linear probability model
+is biased when predicted values fall outside of the (0, 1) range.
+   8
+     Indeed, the measure does not take into account variation in achieved VC fund size across the
+sample (e.g., a prior fund of $750 million is treated the same as a $30 million fund in the count of
+prior funds raised).
+                                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1830                               The Journal of Finance
+
+                                             Table VIII
+                         Valuation Robustness Regressions
+This table reports robustness checks on relative valuation offered, the offered pre-money valuation
+to a start-up relative to the highest offered valuation received by that start-up. Fixed-effects OLS
+analysis (with robust standard errors) on the sample of multiple offers is reported in columns 1–3.
+The measure high industry deal experience is a dummy variable equal to 1 if the number of deals
+the VC has previously funded in the target start-up’s industrial segment places the VC above the
+sample median. The term high normalized funds raised is a dummy variable equal to 1 if the
+number of prior funds (excluding buyout funds) the VC has raised per years of operation places
+the VC above the sample median. The measure industry reputation rank is the rank (a ranking
+of 7 being first best, with lower values indicating lower reputation) of VC reputation among offers
+received, as rated by the entrepreneur. The measure VC offer accepted is a dummy equal to 1 if an
+offer was accepted by the entrepreneur. The measure high network resources rating is a dummy
+equal to 1 if a VC firm received the maximum Likert-scale measure (of 5) in at least one of the
+following entrepreneur-rated VC network resources: recruiting resources, contacts with customers
+and suppliers, or contacts with investment bankers. The measure boards per general partner is the
+number of boards of directors per general venture capital partner. The measure angel investor is a
+dummy variable equal to 1 if a financing offer is from an angel investor or angel group. The measure
+corporate VC is a dummy equal to 1 if the VC is a corporate VC. The measure L financing offered
+is the natural logarithm of capital offered (in $ million) by the investor. The measure equity taken
+threshold is a dummy variable equal to 1 if the investor receives at least 30% of start-up equity
+(the median of the sample) as a result of the Series A financing offer. Columns 4 and 5 show start-
+up fixed-effects Heckman sample selection probits on the entire sample of 246 offers across 149
+start-ups receiving Series A financing offers. A first-stage selection (probit) equation determines
+the likelihood that a start-up receives multiple financing offers (multiple offer). The estimated
+covariates are: L initial employees, the natural logarithm of the pre-Series A number of start-up
+employees; zero patents, a dummy equal to 1 if the start-up does not have assigned patents; and
+dummy variables equal to 1 for each of the following industrial segments: Internet (infrastructure,
+retail, and service), health sciences (biotechnology and medical devices), and computers (software
+and hardware). Dummies for years of Series A investment (1998, 1999, 2000) are also included. The
+term rho is the correlation between error terms of the selection and primary equations; lambda is
+the inverse Mill’s ratio.
+
+                                         Dependent Variable = Relative Valuation Offered
+                                       FE OLS Regressions                    FE Heckman’s
+                                      Multiple-Offers Sample                 Entire Sample
+                                            (N = 148)                          (N = 246)
+Independent Variables                (8-1)       (8-2)        (8-3)         (8-4)          (8-5)
+
+High industry deal experience                               −0.073∗       −0.135∗∗∗      −0.098∗∗∗
+                                                             (0.039)       (0.044)        (0.034)
+High normalized funds raised        0.061
+                                   (0.042)
+Industry reputation rank                       −0.041∗∗
+                                                (0.018)
+High network resources rating     −0.056       −0.038                                    −0.048
+                                   (0.053)      (0.047)                                   (0.031)
+Boards per general partner                                  −0.000∗
+                                                             (0.000)
+VC offer accepted                   0.056        0.046∗       0.031                        0.041∗
+                                   (0.035)      (0.034)      (0.033)                      (0.024)
+Angel investor                      0.114      −0.044       −0.064                       −0.021
+                                   (0.162)      (0.083)      (0.072)                      (0.054)
+                                                                                                             15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+              What Do Entrepreneurs Pay for Venture Capital Affiliation?                           1831
+
+                                         Table VIII—Continued
+
+                                         Dependent Variable = Relative Valuation Offered
+                                          FE OLS Regressions                         FE Heckman’s
+                                         Multiple-Offers Sample                      Entire Sample
+                                               (N = 148)                               (N = 246)
+Independent Variables            (8-1)            (8-2)           (8-3)           (8-4)          (8-5)
+
+Corporate VC                     0.024            0.029         −0.014                            0.016
+                                (0.093)          (0.114)         (0.112)                         (0.055)
+L financing offered              0.355∗∗∗         0.276∗∗∗        0.287∗∗∗                        0.261∗∗∗
+                                (0.082)          (0.050)         (0.046)                         (0.028)
+Equity taken threshold         −0.290∗∗∗        −0.283∗∗∗       −0.306∗∗∗                       −0.291∗∗∗
+                                (0.074)          (0.071)         (0.065)                         (0.039)
+Constant                         0.370∗∗∗         0.793∗∗∗        0.555∗∗∗
+                                (0.132)          (0.148)         (0.071)
+Adj. R2 /LL                      0.593            0.471           0.497        −100.045        −57.314
+Rho                                                                               0.000         −0.000
+                                                                                 (0.677)         (0.960)
+Lambda                                                                            0.000         −0.000
+                                                                                 (0.111)         (0.118)
+∗ , ∗∗ , or ∗∗∗ indicate statistical significance at the 10%, 5%, or 1% level, respectively.
+
+Heckman first-stage (selection) equation (SE in parentheses): Multiple offer = −0.262 (0.356) +
+0.147 (0.108) L init. emp. − 0.461 (0.208) Zero patents + 0.663 (0.251) Internet industry + 0.278
+(0.362) Health science industry + 0.315 (0.288) Computer industry − 0.199 (0.303) Year 1998 −
+0.080 (0.266) Year 1999 + 0.292 (0.262) Year 2000
+
+
+
+by the survey respondent. As an imperfect control for these potential effects, a
+dummy variable for VC offer accepted is included in the specification because
+the accepted offer is likely to be the chief candidate for recall and retrospection
+biases. Although the reputation measure is statistically significant at conven-
+tional levels, we should interpret the result cautiously because of the limitations
+of this measure.
+   In both specifications (8-1) and (8-2), high network resources rating, a mea-
+sure of VC services to and resources for the start-up (and an important con-
+tributor to VC reputation), is estimated with a negative (though insignificant)
+coefficient, a finding consistent with the results from Table VI.9 Specification
+(8-3) varies this measure of VC resources to boards per general partner, and
+while the measure reaches statistical significance at the 10% level, the eco-
+nomic effect is insignificant. Importantly, note that the high industry deal ex-
+perience proxy for VC reputation is robust (though reduced in statistical sig-
+nificance due to some degree of collinearity with boards per general partner).
+   9
+     As well, potential effects of geographic colocation between VC and start-up in facilitating re-
+source exchange were explored. Tests were conducted to examine (1) whether geographic colocation
+of VC and start-up mattered for offer acceptance or for valuation, and (2) whether VCs located in
+California or Massachusetts were advantaged in offer acceptance or equity pricing. In both cases,
+there were no notable results. This may not be the ideal data set to test such geographic effects,
+however (most of the start-ups in the data set are based in Massachusetts).
+                                                                                                           15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1832                                The Journal of Finance
+
+In an unreported regression, the log of pre-money valuation was used as an
+alternate measure of valuation. The estimates of high industry deal experience
+were robust to this variation. As well, introducing specifications with dummy
+variables for the most frequently appearing VC firms in the sample did not
+alter the main results (unreported regressions). These indicator variables may
+be appropriate if we believe that the pricing behavior of a handful of VCs is
+driving the results (over 100 distinct VC firms are represented in the sample,
+however).
+   Finally, in (8-4) and (8-5), fixed-effects Heckman regressions are reported
+using the entire sample of single and multiple offers in an effort to address
+potential selection issues. In both the bivariate and the fully specified equations,
+the results are very similar to those reported in Table VI—while the economic
+significance of the results is unchanged, the precision of the estimates is slightly
+enhanced.10
+   A final robustness check suggested that the hypothesized affiliation effects
+could be found using within-industry variation, though these results are not
+formally reported because they are merely suggestive. With the caveat that
+the categories of “Internet” (that includes Internet infrastructure, Internet ser-
+vices, and Internet retailing) and “non-Internet” (that includes biotechnology,
+medical devices, communications, and computer software and hardware) are
+very coarse groupings, the measures of VC reputation (high industry deal expe-
+rience and high network resources rating) are positively associated with VC offer
+acceptance and negatively associated with relative valuation offered, although
+these relationships tend to hold more strongly for the non-Internet subsample
+and less so for the Internet subsample.11 These results are based on parsimo-
+nious specifications (keeping the limited sample size issue in mind); however,
+due to the nature of the data set, no conclusions about whether these results
+are due to time period effects can be made.
+   To conclude the empirical analysis, it is interesting to compare these results to
+a simple cross-sectional OLS analysis of the natural log of pre-money valuation
+on all accepted offers, done as if information on the bundle of declined offers
+were not available. The results, presented in Table IX, are striking.
+   In (9-1), a bivariate regression, high industry deal experience, is estimated
+with a positive coefficient, which is significant at the 1% level. When several
+
+   10
+      Estimates of lambda (the inverse of Mill’s ratio) and rho (the correlation between error terms
+in the first and second stage equations) in the Heckman models suggest that selection problems
+are not severe, and so these selection regressions are not reported for all specifications in the paper.
+   11
+      Because of the contemporaneous emergence of the Internet industry, high industry deal expe-
+rience may not be a good measure in this empirical setting (I thank the referee for pointing this
+out). While there is variation in this measure within the subsamples, it is doubtful that high in-
+dustry deal experience is an adequate proxy for VC knowledge and experience helpful for start-up
+development in the Internet industries. Using the industry reputation rank proxy for reputation
+yields strong results, though the problems with this measure are discussed elsewhere in the paper.
+Using high normalized funds raised yields similar results for the VC offer accepted regressions but
+rather weak results for the valuation regressions.
+                                                                                                         15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+             What Do Entrepreneurs Pay for Venture Capital Affiliation?                        1833
+
+                                               Table IX
+                               Cross-sectional Regressions
+This table reports OLS regressions, and is based on a sample of accepted Series A financing offers
+of 149 start-ups. The unit of observation is an offer to a start-up. The dependent variable is L pre-
+money valuation, the natural logarithm of the product of the number of outstanding shares before
+the Series A round and the share price before the financing round (in $ million). The measure high
+industry deal experience is a dummy variable equal to 1 if the number of deals the VC has previously
+funded in the target start-up’s industrial segment places the VC above the sample median in this
+category. The measure boards per general partner is the number of boards of directors per general
+venture capital partner. The measure angel investor is a dummy variable equal to 1 if a financing
+offer is from an angel investor or angel group. The measure corporate VC is a dummy equal to 1 if the
+VC is a corporate VC. The measure L financing offered is the natural logarithm of capital offered (in
+$ million) by the investor. The measure equity taken threshold is a dummy variable equal to 1 if the
+investor receives at least 30% of start-up equity (the median of the sample) as a result of the Series
+A financing offer. The measure L initial employees is the natural log of the number of employees
+prior to receiving the Series A round. The measure zero patents is a dummy equal to 1 if the start-up
+does not have assigned patents. The measure industry effects represents a collection of indicator
+variables for the Internet (infrastructure, retail, and service), health sciences (biotechnology and
+medical devices), and computers (software and hardware) sectors (the communications industry is
+the excluded industry segment). Years of Series A investment dummies (1998, 1999, 2000) are also
+included.
+
+                                                   Dependent Variable = L Pre-money Valuation
+Independent Variables                            (9-1)                  (9-2)                (9-3)
+
+VC characteristics
+ High industry deal experience                   0.478∗∗∗               0.425∗∗∗             0.058
+                                                (0.145)                (0.132)              (0.081)
+  Boards per general partner                                                               −0.000
+                                                                                            (0.000)
+  Angel investor                                                                             0.033
+                                                                                            (0.113)
+  Corporate VC                                                                             −0.056
+                                                                                            (0.173)
+  L financing offered                                                                        0.663∗∗∗
+                                                                                            (0.039)
+  Equity taken threshold                                                                   −0.753∗∗∗
+                                                                                            (0.072)
+Start-up characteristics
+  L initial employees                                                   0.514∗∗∗             0.189∗∗∗
+                                                                       (0.081)              (0.050)
+  Zero patents                                                        −0.223               −0.165∗∗
+                                                                       (0.154)              (0.083)
+  Industry effects                                                      Yes                 Yes
+  Year 1998                                                             0.028              −0.157
+                                                                       (0.215)              (0.116)
+  Year 1999                                                             0.263              −0.075
+                                                                       (0.194)              (0.105)
+  Year 2000                                                             0.466∗∗              0.061
+                                                                       (0.197)              (0.107)
+  Constant                                       1.959∗∗∗               0.828∗∗∗             1.563∗∗∗
+                                                (0.084)                (0.253)              (0.162)
+  R2                                             0.070                  0.338                0.820
+∗∗ or ∗∗∗ indicate statistical significance at the 5% or 1% level, respectively.
+                                                                                      15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1834                         The Journal of Finance
+
+start-up qualities are included in specification (9-2), the VC reputation result
+persists, disappearing in statistical significance only with the inclusion of VC
+characteristics (9-3), though the reputation measure is still estimated with a
+positive coefficient in that specification. As previously mentioned, problems of
+unobserved heterogeneity likely bias these estimates.
+
+
+                       IV. Conclusion and Discussion
+   I have tested and confirmed the proposition that entrepreneurs are willing to
+accept a discount on the valuation of their start-up in order to access the capital
+of VCs with better reputations. These results help deepen our understanding
+of the market for affiliation by presenting empirical evidence that affiliation
+is an ordinary economic good for which actors seeking association will face a
+price-reputation trade-off. This finding is consistent with the view that VCs’
+reputation (which in turn depends on their experience, information network,
+and direct assistance to the portfolio firms) may be more distinctive than their
+functionally equivalent financial capital. These conclusions are drawn from an
+analysis of multiple offers to a set of start-ups, which allows a high degree
+of statistical control. Because the characteristics of the start-up can be held
+constant, only differences in VC reputation across financing offers explain inter-
+offer variation in offer acceptance and price for start-up equity.
+   One may wonder why prices charged by competing VCs to acquire the equity
+in a given start-up can be differentiated in equilibrium, given free entry. VCs
+with higher reputations may be able to sustain their higher prices (rather than
+having competition equilibrate prices) as a result of investments in reputation
+being costly (Shapiro (1983) and Megginson and Weiss (1991)). Consequently,
+while financial capital per se is not a differentiated good, the reputation of VCs
+providing the financial capital can be a source of differentiation among VC orga-
+nizations. The findings in this article are consistent with Kaplan and Schoar’s
+(2003) recent evidence of substantial cross-sectional variation and persistence
+in VC fund performance.
+   Several alternate explanations to the empirical pattern have been considered
+throughout the empirical analysis. First, more savvy VC firms might have fore-
+seen the coming public market downturn and offered lower prices as a result.
+However, entrepreneurs receiving multiple offers would not necessarily have
+to accept offers from such VC firms, and so this explanation does not seem con-
+sistent with the observed empirical pattern. A second alternative hypothesis
+is that the term sheet covenants across offers for a given start-up may have
+differed. Indeed, the price VCs offer for equity may not be the only factor that
+matters when entrepreneurs select a VC firm, and other dimensions of the
+term sheet may not be “priced in” to the offered valuations. While surveyed en-
+trepreneurs were asked for a copy of their term sheet offers, very few complied
+with this request. However, Suchman (1995) provides some evidence of conver-
+gence in VC financing agreements over time as a result of using the same law
+firms. As well, while Kaplan and Strömberg (2003) find that covenants in VC
+contracts differ by stage of start-up development, the offered terms of financing
+                                                                                     15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?         1835
+
+for a given start-up across VC firms may not be as variable. Nevertheless, dif-
+ferent VCs probably prefer different terms, and offered terms are likely to vary
+even for a given start-up in a particular time period. As a result, comparing
+offers primarily on the basis of price is an inherent limitation of the present
+study.
+   Several additional issues associated with the data used for this study result
+in interpretational concerns. First, are the findings simply an artifact of the
+sample used? Although this group of companies might be of higher quality
+relative to average start-ups (assuming that the decision to be involved with
+MIT is a signal of quality), the sample, while modest at 148 offers, may represent
+a conservative test of the hypothesized effect. High quality entrepreneurs have
+their own reputations and established networks, which would tend to obviate
+the need to pay a premium to access capital from more experienced funding
+sources. In any case, employing start-up fixed effects makes this quality issue
+less important for the purposes of the empirical analysis. Indeed, the unique
+timing of the study in an environment in which many VCs were “chasing after
+deals” allowed identification of the market for affiliation—though it does not
+necessarily address the applicability of these results to other time periods or
+other relationships. It is difficult, unfortunately, to speculate on that answer.
+   A second issue is whether the results are produced from the competitive effect
+associated with studying a sample of multiple offers. This proposition is also
+hard to evaluate, however, due to the difficulty of establishing a counterfactual
+to single-offer situations. On a related note, a deeper understanding of the pro-
+cess leading to multiple offers would be desirable. The manifold processes gener-
+ating offers (some of which are unobserved, such as entrepreneurial charisma),
+as well as the disparate bargaining processes leading to offers, makes the fixed-
+effects methodology attractive in controlling for unobserved heterogeneity. Nev-
+ertheless, had I collected information about the sequencing of offers, I might
+have been able to gain some empirical insight into the process generating mul-
+tiple offers. Sequencing data may have also helped in beginning to empirically
+disentangle the pure affiliation effect from the VC value-added effect.
+   Two issues related to offers and how they might affect the interpretation of
+the results are also worth discussing. First, what if entrepreneurs “shopped”
+their deal to other VCs without receiving a formal term sheet? Unfortunately,
+I do not have the history of how many pitches entrepreneurs made to different
+VC groups without receiving formal offers. The results may be biased if (1) in-
+formal offers were leveraged to negotiate more favorable formal offers, and (2)
+VCs with a less established reputation were more willing to revise their valua-
+tions upward relative to VCs with more established reputations. Unfortunately,
+data constraints prohibit this analysis; however, survey respondents were in-
+structed to provide information on final formal term sheets only (including
+informal offers would have subjected the sample to entrepreneurial interpreta-
+tion of what constituted an informal offer). A second issue is whether some of
+the high valuation offers were withdrawn by VCs as the negotiations became
+more serious. Again, systematic data are unfortunately unavailable to address
+this question. If withdrawals came from across the full distribution of VCs, this
+                                                                                                     15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1836                              The Journal of Finance
+
+would not bias the results. If, on the other hand, withdrawals were systemat-
+ically from less-reputable VCs, the study would be biased toward finding the
+results (and the opposite would be true if reputable VCs tended to withdraw
+offers). Given the market environment (“money chasing deals”) in which these
+data were collected in the second half of 2000 and my conversations with survey
+respondents, however, I believe that offer withdrawal was not a pervasive phe-
+nomenon in this sample. However, because I cannot rule out these two issues,
+they represent caveats to the study.
+   A final issue is interpreting what start-ups are buying. For example, industry
+deal experience in the start-up’s sector can proxy for both the scope of the VC’s
+information network as well as the VC’s ability to evaluate deals. Unfortunately,
+the data in this study do not provide a clean way of disentangling these effects.
+As well, higher ability entrepreneurs may be taking a lower offer in an effort to
+signal quality (Spence (1974)). While the empirical setting and the documented
+empirical patterns make this explanation unlikely, the proposition cannot be
+ruled out.
+   Looking to the future, while this study does not test the ex post performance
+implications of selecting a particular VC, it would be interesting to do so. For ex-
+ample, did start-ups accepting funding from more reputable VCs receive higher
+step-ups in valuation in subsequent rounds? Did they achieve an IPO faster or
+deliver products to the market more quickly?12 Nevertheless, the findings in
+this study are consistent with the theory that entrepreneurs who are tied into
+more connected networks at reputable VC firms expect to come across more
+opportunities for start-up growth, but must pay a premium for such access.
+
+
+
+
+   12
+      As a preliminary analysis, I examined as of January 31, 2002 whether accepting funding from
+a more reputable VC was correlated with surviving in the post-bubble shakeout period. While
+there are issues about the appropriate lag time to examine such an effect, a substantial fraction
+of the firms in the sample are either still operating, or were acquired for an undisclosed amount,
+rendering an assessment of “success” difficult. For these reasons, these preliminary analyses were
+not illuminating.
+                                                                                              15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+         What Do Entrepreneurs Pay for Venture Capital Affiliation?                   1837
+
+                                 Appendix
+                         MIT Sloan Financing New
+                         High-Tech Ventures Survey
+Name of Firm:
+Location (city, state):
+
+Part I: Background Information
+
+A. Founding the Company
+When was your company founded (month, year)?
+When was your company incorporated (month, year)?
+
+                                                               No. of Prior
+                  Current Job             Reason for Leaving    Start-ups     Name of Prior
+Name of Founder      Title      Company     (If Applicable)     Founded        Start-ups
+
+
+
+
+If the founding team previously started other companies, which category best
+describes the average approximate internal rate of return(s) on Series A invest-
+ment for those previous venture(s)?
+<0        0–10%       11–50%      51–100%        101–500%        >500%
+   How many of those founded firm(s) were taken public?
+At the time of start-up, what did your founding team consider to be the com-
+pany’s key competitive advantage? (select the most important two)
+ Establishing a new market                   Establishing a new technology
+ Recruiting superior                         Establishing an advantageous
+  personnel                                    cost position
+ Superior positioning in the                 Maintaining superior intellectual
+  product niche                                property
+ Superior customer service                   Superior product
+  & responsiveness                             quality/reliability
+ Other:
+                                                                                            15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1838                          The Journal of Finance
+
+B. Employee Information
+Number of Employees: at the time of raising Series A financing:
+as of 7/1/2000:
+Current number of employees in each of the following functions:
+ R&D         Sales      Marketing        Manufacturing        General &        Service
+                                         or Operations         Admin.
+  ——          ——             ——              ——                 ——                 ——
+Please indicate which of the senior executive officers below was on the founding
+team. If not on the founding team, please designate from what source the execu-
+tive officer came. Please “x” out the position if it does not exist in your company,
+and draw lines connecting positions, if one person holds multiple positions.
+
+
+                                                    VP,        VP,       VP,       Other:
+                       CEO   COO     CFO   CTO    Marketing   Sales    Bus. Dev.
+
+On founding team                                                              
+Or, contact through:
+Personal friend                                                               
+Classmate                                                                     
+Co-worker                                                                     
+Investor/financier                                                            
+Recruiter                                                                     
+Advisor                                                                       
+
+
+C. Financing the Company
+Did you have a completed business plan before getting your Series A
+funding?  Yes  No
+Time from completing the business plan to receiving your first financing
+offer:    months
+Who were the participants in your company’s financing(s) to date? If a number of
+“angel investors” participated, please group them all as “Angels” in the Investor
+column. If applicable, please place an asterisk (∗) next to the lead investor.
+            Round             Date              Investor              Amount
+
+
+
+
+Total number of financing offers for the Series A round:
+                                                                                                          15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+           What Do Entrepreneurs Pay for Venture Capital Affiliation?                         1839
+
+What is the current percentage of corporate ownership held by the following
+groups:
+
+
+                 Employees &           Venture              “Angel”           Strategic
+Founders         Option Pool          Capitalists          Investors          Investors       Public
+
+    %                    %                    %                   %                %                  %
+
+
+
+For the Series A financing, which of the following areas were the subject of
+active negotiation between the parties?
+
+                                                     Not Active                     Very Active
+Pre-money valuation                            N/A        1           2       3       4           5
+Board representation                           N/A        1           2       3       4           5
+Employee option pool                           N/A        1           2       3       4           5
+Vesting schedules                              N/A        1           2       3       4           5
+Liquidation rights                             N/A        1           2       3       4           5
+Anti-dilution clauses                          N/A        1           2       3       4           5
+Other (specify:                        )       N/A        1           2       3       4           5
+Why did you select the offer you chose?
+
+
+
+
+D. Building Corporate Governance
+Number of members of the Board of Directors:
+How many directors are from: within the firm              outside the firm
+Number of board members appointed by your investors:
+Please rate the importance of the following functions of your investor-appointed
+directors:
+
+                                                             LOW                          HIGH
+Oversight and monitoring of the company              N/A       1          2        3        4         5
+Source of advice and counsel to the company          N/A       1          2        3        4         5
+Source of external business contacts                 N/A       1          2        3        4         5
+Recruiting and team building                         N/A       1          2        3        4         5
+Market validation/prestige                           N/A       1          2        3        4         5
+
+Do you have a board of advisors?    Yes  No
+Please rate the importance of the following functions of your board of advisors, if you have one:
+
+                                                             LOW                          HIGH
+Oversight and monitoring of the company              N/A       1          2        3        4         5
+Source of advice and counsel to the company          N/A       1          2        3        4         5
+Source of external business contacts                 N/A       1          2        3        4         5
+Recruiting and team building                         N/A       1          2        3        4         5
+Market validation/prestige                           N/A       1          2        3        4         5
+                                                                                                   15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1840                              The Journal of Finance
+
+E. Product, Technology, and Strategy
+Which industrial classification best describes your company:
+ Internet: Services  Internet: E-tailer  Internet: Infra.  Internet: Other
+ Software         Medical Devices         Biotech       Communications
+ Computer hardware          Other (specify:                   )
+                                            Year 1          2          3          4            5
+Actual company revenues:
+(Thousands of dollars)
+                                            Year 1          2          3          4            5
+Actual corporate profits/losses:
+Number of:       patent applications filed by your firm:               patents pending:
+                 patents issued to your company:
+Has your firm entered into any technology licensing deals?
+           Yes: licensed out            Yes: licensed in
+If your firm has licensed out, what were the terms?
+             Exclusive            Non-exclusive
+Who were the licensees?
+          Product market incumbents                         Product market entrants
+                                            Year 1          2          3          4            5
+Actual licensing revenues by yr:
+(Thousands of dollars)
+Has your firm been acquired since its inception?                   Yes       No 
+If so, by whom?
+
+
+At the time of your Series A financing, please rate the importance of each of
+the following as obstacles to the commercial success of your enterprise:
+
+                                                 Not an Obstacle       Very Important Obstacle
+
+Lack of brand name image                       N/A      1          2    3         4        5
+Lack of distribution channels/sales force      N/A      1          2    3         4        5
+Lack of servicing resources                    N/A      1          2    3         4        5
+Lack of manufacturing capability               N/A      1          2    3         4        5
+                                                                                        15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+           What Do Entrepreneurs Pay for Venture Capital Affiliation?           1841
+
+Part II: Financing Offer Characteristics
+
+Please complete one record for each term sheet you received, copying this form
+as many times as needed. If possible, please also attach a copy of the term sheet
+received from each investor organization.
+Name of Investor:
+Location (City/State):
+How did you make initial contact with this investor?
+           Sent an unsolicited business plan
+           He/she was a personal contact
+           Referred by an advisor or friend
+           Other (specify:                                              )
+If you were referred to the investor through a friend or knew the investor
+directly, how did you come to know that person?
+
+
+Does this investor host a regular conference or formal networking event for top
+managers of its portfolio companies?       Yes         No
+Does this investor have dedicated personnel to help its portfolio companies in
+the following areas:
+       Recruiting                   Yes         No
+       Finance & accounting         Yes         No
+       Business development         Yes         No
+Please rate this financing offer/investor along the following dimensions:
+                                                           LOW               HIGH
+Overall reputation of this investor                  N/A     1   2   3         4    5
+Reputation in your industrial sector                 N/A     1   2   3         4    5
+Expected availability to mentor the team             N/A     1   2   3         4    5
+“Chemistry” with this investor                       N/A     1   2   3         4    5
+Expected ability to recruit key managers             N/A     1   2   3         4    5
+Potential contacts with key customers or suppliers   N/A     1   2   3         4    5
+Potential contacts with investment banks             N/A     1   2   3         4    5
+
+What pre-money valuation did this investor assign to your company at the
+Series A round?     $                Million
+What post-money valuation did this investor assign to your company at the
+Series A round?      $               Million
+Proposed equity stake taken by this investor as a result of this financing
+offer:
+                                                                                                                                           Part III: Financing Offer Comparison Table
+                                                                                                                                                                                                                                                                                                                                                                          1842
+                                                                           Each column lists a dimension of the financing offer. Please COMPARATIVELY RANK your offers along these dimensions.
+                                                                                                                    (1 = Highest, 2 = Second Highest, etc.)
+
+                                                                                                                                               Reputation                                                                                                                                                                         Connections to
+                                                                                                                                               of Investor                                                                                                                                                                         Professional
+                                                    Name of                                                          Overall                     in Your                  “Chemistry”                                             Contacts with                       Recruiting                        Raising                    Services, eg.,
+                                                    Financing                            Pre-Money                 Reputation                  Industrial                  with This                                              Key Customers                      Managers and                      Additional                   Investment
+                                                    Entity                               Valuation                 of Investor                    Sector                    Investor                    Mentoring                  or Suppliers                       Employees                        Financing                      Banks
+
+                                                                                                                                                                EXAMPLE: Financing Offer Comparison
+
+                                                    ABC Ventures                                   2                          1                          2                           3                           3                             1                                  1                              3                              2
+
+                                                    FFAF Funds                                     3                          2                          1                           2                           2                             3                                  2                              2                              1
+
+                                                    Complex Angels                                 1                          3                          3                           1                           1                             2                                  3                              1                              3
+
+                                                                                                                                                        FINANCING OFFER COMPARISON RECORD
+                                                                                                                              Please place an asterisk (∗) next to the offers you considered most carefully
+                                                                                                                                                                                                                                                                                                                                                                          The Journal of Finance
+
+
+
+
+15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+            What Do Entrepreneurs Pay for Venture Capital Affiliation?                       1843
+
+                                       REFERENCES
+Admati, Anat R., and Paul C. Pf leiderer, 1994, Robust financial contracting and the role of venture
+    capitalists, Journal of Finance 49, 371–402.
+Aoki, Masahiko, 2000, Information and governance in the Silicon Valley model, in Xavier Vives, ed.:
+    Corporate Governance: Theoretical and Empirical Perspectives (Cambridge University Press,
+    Cambridge, UK).
+Bagwell, Laurie S., and B. Douglas Bernheim, 1996, Veblen effects in a theory of conspicuous
+    consumption, American Economic Review 86, 349–373.
+Barry, Christopher B., Chris J. Muscarella, John W. Peavy, III, and Michael R. Vetsuypens, 1990,
+    The role of venture capital in the creation of public companies: Evidence from the going-public
+    process, Journal of Financial Economics 27, 447–471.
+Beatty, Randolph P., and Jay R. Ritter, 1986, Investment banking, reputation and the underpricing
+    of initial public offerings, Journal of Financial Economics 15, 213–232.
+Biglaiser, Gary, 1993, Middlemen as experts, RAND Journal of Economics 24, 212–223.
+Booth, James R., and Richard L. Smith, II, 1986, Capital raising, underwriting and the certification
+    hypothesis, Journal of Financial Economics 15, 261–281.
+Boston Globe, 2000, The matrix, June 6, D1.
+Bygrave, William D., and Jeffrey A. Timmons, 1992, Venture Capital at the Crossroads (Harvard
+    Business School Press, Boston, MA).
+Chamberlain, Gary, 1980, Analysis of covariance with qualitative data, Review of Economics Stud-
+    ies 47, 225–238.
+Frank, Robert H., 1985, The demand for unobservable and other nonpositional goods, American
+    Economic Review 75, 101–116.
+Gans, Joshua S., David H. Hsu, and Scott Stern, 2002, When does start-up innovation spur the
+    gale of creative destruction? RAND Journal of Economics 33, 571–586.
+Gompers, Paul, 1996, Grandstanding in the venture capital industry, Journal of Financial Eco-
+    nomics 42, 133–156.
+Gompers, Paul, and Josh Lerner, 1999, The Venture Capital Cycle (MIT Press, Cambridge, MA).
+Gompers, Paul, and Josh Lerner, 2000, Money chasing deals? The impact of fund inf lows on private
+    equity valuations, Journal of Financial Economics 55, 281–325.
+Gorman, Michael, and William A. Sahlman, 1989, What do venture capitalists do? Journal of
+    Business Venturing 4, 231–248.
+Heckman, James J., 1979, Sample selection bias as a specification error, Econometrica 47, 153–161.
+Heckman, James J., 1981, The incidental parameters problem and the problem of initial conditions
+    in estimating a discrete time-discrete data stochastic process, in Charles F. Manski and Daniel
+    L. McFadden, eds.: Structural Analysis of Discrete Data with Econometric Applications (MIT
+    Press, Cambridge, MA).
+Hellmann, Thomas, 1998, The allocation of control rights in venture capital contracts, RAND
+    Journal of Economics 29, 57–76.
+Hellmann, Thomas, 2002, A theory of strategic venture investing, Journal of Financial Economics
+    64, 285–314.
+Hellmann, Thomas, and Manju Puri, 2000, The interaction between product market and financing
+    strategy: The role of venture capital, Review of Financial Studies 13, 959–984.
+Hellmann, Thomas, and Manju Puri, 2002, Venture capital and the professionalization of start-up
+    firms: Empirical evidence, Journal of Finance 57, 169–197.
+Hsiao, Cheng, 1986, Analysis of Panel Data (Cambridge University Press, Cambridge, UK).
+Kaplan, Steven, and Antoinette Schoar, 2003, Private equity performance: Returns, persistence
+    and capital, Working paper, University of Chicago Graduate School of Business.
+Kaplan, Steven, and Per Strömberg, 2001, Venture capitalists as principals: Contracting, screening,
+    and monitoring, American Economic Review 91, 426–430.
+Kaplan, Steven, and Per Strömberg, 2002, Characteristics, contracts, and actions: Evidence from
+    venture capitalist analyses, Working paper, University of Chicago Graduate School of Business.
+Kaplan, Steven, and Per Strömberg, 2003, Financial contracting theory meets the real world: An
+    empirical analysis of venture capital contracts, Review of Economic Studies 70, 281–315.
+                                                                                                       15406261, 2004, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2004.00680.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1844                               The Journal of Finance
+
+Lerner, Josh, 1995, Venture capitalists and the oversight of private firms, Journal of Finance 50,
+    301–318.
+Lindsey, Laura, 2002, The venture capital keiretsu effect: An empirical analysis of strategic al-
+    liances among portfolio firms, Working paper, Stanford University.
+MacMillan, Ian C., David M. Kulow, and Roubina Khoylian, 1989, Venture capitalists’ involvement
+    in their investments: Extent and performance, Journal of Business Venturing 4, 27–47.
+Megginson, William, and Kathleen Weiss, 1991, Venture capital certification in initial public offer-
+    ings, Journal of Finance 46, 879–903.
+National Venture Capital Association Yearbook, 2001 (Thomson Financial/Venture Economics,
+    Arlington, Virginia).
+New York Times, 2000, Venture capitalists, venturing beyond capital, October 15, C1.
+Podolny, Joel, 1993, A status-based model of market competition, American Journal of Sociology
+    98, 829–872.
+Roberts, Edward B., 1991, Entrepreneurs in High Technology: Lessons from MIT and Beyond
+    (Oxford University Press, Oxford, UK).
+Sahlman, William A., 1997, How to write a great business plan, Harvard Business Review 75,
+    98–108.
+Shapiro, Carl, 1983, Premiums for high quality products as returns to reputation, Quarterly Journal
+    of Economics 98, 659–680.
+Smith, Gordon D., 1999, How early stage entrepreneurs evaluate venture capitalists, in Frontiers
+    of Entrepreneurship Research (Babson College, Boston, MA).
+Sorenson, Olav, and Toby E. Stuart, 2001, Syndication networks and the spatial distribution of
+    venture capital investments, American Journal of Sociology 106, 1546–1586.
+Spence, Michael A., 1974, Market Signaling: Informational Transfer in Hiring and Related Screen-
+    ing Processes (Harvard University Press, Cambridge, MA).
+Stern, Scott, 2000, Do scientists pay to be scientists? NBER Working paper 7410.
+Stuart, Toby E., Ha Hoang, and Ralph Hybels, 1999, Interorganizational endorsements and the
+    performance of entrepreneurial ventures, Administrative Science Quarterly 44, 315–349.
+Suchman, Mark C., 1995, Localism and globalism in institutional analysis: The emergence of con-
+    tractual norms in venture finance, in W. Richard Scott and Søren Christensen, eds.: The Insti-
+    tutional Construction of Organizations (Sage Publications, Thousand Oaks, CA).
+

@@ -1,0 +1,1971 @@
+THE JOURNAL OF FINANCE • VOL. LXVI, NO. 5 • OCTOBER 2011
+
+
+
+
+                           Motivating Innovation
+
+                                      GUSTAVO MANSO∗
+
+
+                                           ABSTRACT
+      Motivating innovation is important in many incentive problems. This paper shows
+      that the optimal innovation-motivating incentive scheme exhibits substantial toler-
+      ance (or even reward) for early failure and reward for long-term success. Moreover,
+      commitment to a long-term compensation plan, job security, and timely feedback on
+      performance are essential to motivate innovation. In the context of managerial com-
+      pensation, the optimal innovation-motivating incentive scheme can be implemented
+      via a combination of stock options with long vesting periods, option repricing, golden
+      parachutes, and managerial entrenchment.
+
+
+
+
+BERLE AND MEANS’s (1932) seminal contribution brought to light the po-
+tential drawbacks associated with the separation of ownership and control.
+For example, in large corporations, shareholders delegate decision rights to
+a manager, who has the ability to manage resources to his own advantage.
+To alleviate possible conflicts of interest between shareholders and managers,
+incentive plans that align their interests are commonly used in practice.
+  A large literature, which includes Harris and Raviv (1978) and Holmstrom
+(1979), studies this issue using principal-agent models. In these models, the
+principal offers the agent an incentive plan that induces the agent to act in
+the principal’s best interest. Most of the papers in this literature focus on the
+problems of inducing the agent to exert effort or deterring the agent from
+tunneling resources away from the corporation.
+  Here, I study a different problem, namely, how to structure incentives when
+the principal needs to motivate the agent to be more innovative. Such a problem
+arises naturally in different situations. For instance, shareholders may want
+to motivate a CEO to pursue more innovative business strategies; managers of
+
+   ∗ Gustavo Manso is at MIT Sloan School of Management. I thank John Roberts, Anat
+
+Admati, Darrell Duffie, and Ed Lazear for valuable discussions and suggestions. I also thank
+Peter DeMarzo, Bob Gibbons, Thomas Hellman, Bengt Holmstrom, Jim March, Pedro Miranda,
+Stew Myers, Tomasz Sadzik, Maria Salgado, Yuliy Sannikov, Antoinette Schoar, Andy Skrzypacz,
+Ilya Strebulaev, Alexei Tchistyi, Jeff Zwiebel, and seminar participants at the University of
+California at Berkeley, University of Chicago, Columbia University, Duke University, Harvard
+University, London Business School, London School of Economics, Massachusetts Institute of Tech-
+nology, Northwestern University, New York University, Princeton University, Stanford University,
+University of California at Los Angeles, University of California at San Diego, University of Iowa,
+University of Oregon, and Wharton for helpful comments and Forrest Funnell for outstanding
+research assistance. Financial support from a Stanford Institute for Policy Research (SIEPR)
+Fellowship and the Lehman Brothers Fellowship for Research Excellence in Finance is gratefully
+acknowledged.
+
+                                                1823
+                                                                                                       15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1824                              The Journal of FinanceR
+
+large corporations may want to induce their employees to be more innovative;
+or regulators may want to stimulate entrepreneurship, say, through the design
+of bankruptcy laws.
+   The key contribution of the paper is to show that incentive schemes that
+motivate innovation should be structured differently from standard pay-for-
+performance schemes used to induce effort or avoid tunneling. Innovation
+involves the exploration of new untested approaches that are likely to fail.
+Therefore, standard pay-for-performance schemes that punish failures with
+low rewards and termination may in fact have adverse effects on innovation.
+In contrast, the optimal incentive scheme that motivates innovation exhibits
+substantial tolerance (or even reward) for early failure and reward for long-
+term success. Under this incentive scheme, compensation depends not only on
+total performance, but also on the path of performance; an agent who performs
+well initially but poorly later earns less than an agent who performs poorly ini-
+tially but well later or even an agent who performs poorly repeatedly. The paper
+also shows that commitment to a long-term compensation plan, job security,
+and timely feedback on performance are essential to motivate innovation.
+   In the context of executive compensation, the optimal contract that motivates
+innovation can be implemented via a combination of stock options with long
+vesting periods, option repricing, golden parachutes, and managerial entrench-
+ment. Stock options with long vesting periods combined with option repricing
+and golden parachutes bring on tolerance for early failure and reward for long-
+term success, so that compensation depends not only on total performance but
+also on the path of performance as described above. Managerial entrenchment
+gives the manager job security, since an entrenched manager may keep his job
+even if it is ex-post efficient for the shareholders of the firm to fire him.
+   In the public debate on corporate governance, critics often hold that golden
+parachutes, option repricing, and managerial entrenchment are detrimental
+because they protect or even reward the manager after poor performance, po-
+tentially undermining the incentives for the manager to exert effort. Occasion-
+ally there are proposals to adopt regulations that restrict the use of some these
+practices.1 However, as argued here, these practices may be part of an optimal
+incentive scheme that motivates innovation, in which case regulations that
+restrict their use may have an adverse effect on innovation. To assess the ac-
+tual impact of such regulations, it remains to be studied empirically the actual
+contribution of these practices to innovation.
+   To model the innovation process, I use a class of Bayesian decision mod-
+els known as bandit problems.2 In bandit problems, the agent is uncertain
+about the true distribution of the available actions’ payoffs. Innovation in
+this setting is the discovery, through experimentation and learning, of actions
+that are superior to previously known actions. I focus on the central concern
+
+   1 See, for example, Bebchuk and Fried (2004) and “Rewards for Failure,” British DTI consulta-
+
+tion, June 2003.
+   2 Berry and Fristedt (1985) provide an introduction to the statistical literature on bandit prob-
+
+lems. Bergemann and Valimaki (2006) survey the applications of bandit problems to economics.
+                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                             Motivating Innovation                          1825
+
+that arises in bandit problems: the tension between the exploration of new
+untested actions and the exploitation of well-known actions. Exploration of
+new untested actions reveals information about potentially superior actions,
+but is also likely to waste time with inferior actions. Exploitation of well-known
+actions ensures reasonable payoffs, but may prevent the discovery of superior
+actions.
+   To study the incentives for exploration and exploitation, I embed a bandit
+problem into a principal-agent framework. The principal-agent relationship
+could be between, for example, shareholders of a firm designing the compensa-
+tion package offered to a manager, the manager of a firm designing an incentive
+plan for a worker, or a venture capitalist financing an entrepreneur.
+   The model has two periods and two possible outcomes in each period (suc-
+cess or failure). In each period, the agent can choose between shirking, ex-
+ploiting a well-known approach, or exploring a novel approach that has an
+unknown probability of success. There are two important special cases. First,
+if exploration and exploitation are costless to the agent, there is no conflict
+of interest between the principal and the agent. The model then reduces to
+the two-armed bandit problem that captures the tension between exploration
+and exploitation. Second, if exploration is extremely costly to the agent, the
+agent chooses between exploitation or shirking. The model then reduces to a
+standard principal-agent model in which the principal must motivate the agent
+to exert effort. Therefore, the model developed here incorporates the tension
+between exploration and exploitation present in bandit problems, as well as
+the tension between working and shirking present in standard principal-agent
+models.
+   The optimal contracts that motivate exploitation and exploration are fun-
+damentally different from each other. Since exploitation is just the repeti-
+tion of well-known actions, the optimal contract that motivates exploitation
+is similar to standard pay-for-performance contracts used to motivate re-
+peated effort. On the other hand, since with exploration the agent is likely
+to waste time with inferior actions, the optimal contract that motivates ex-
+ploration exhibits substantial tolerance (or even reward) for early failures.
+Moreover, since exploration reveals information that is useful for future de-
+cisions, the optimal contract that motivates exploration rewards long-term
+success.
+   The threat of termination after poor performance also affects the incentives
+for exploration and exploitation. Since the threat of termination discourages
+the agent from shirking or exploring new actions, termination facilitates the
+provision of incentives for exploitation. Excessive termination may thus be
+optimal to motivate exploitation. In contrast, the effects of termination on
+the incentives for exploration are ambiguous. On the one hand, the threat of
+termination prevents the agent from shirking. On the other hand, the threat of
+termination encourages the agent to exploit conventional actions. Depending on
+which of these two effects is more important, termination may either facilitate
+or hinder the provision of incentives for exploration. Thus, either excessive
+termination or continuation may be optimal to motivate exploration.
+                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1826                       The Journal of FinanceR
+
+   The roles of feedback on performance and commitment to a long-term con-
+tract also differ depending on whether the principal wants to motivate explo-
+ration or exploitation. While not important to motivate exploitation, commit-
+ment to a long-term contract and timely feedback on performance are essential
+to motivate exploration.
+   The model produces testable empirical implications. For example, one can
+study whether incentive practices used in tasks for which motivating inno-
+vation is more (less) important resemble the incentive practices that, accord-
+ing to this paper, motivate exploration (exploitation). Moreover, one can study
+whether the adoption of incentive practices that motivate exploration (exploita-
+tion) leads to more (less) innovation. Later in the paper, I discuss how to in-
+terpret and test these predictions in the context of executive compensation,
+bankruptcy laws, and intrapreneurship in large corporations.
+   The paper is organized as follows. Section I discusses the related litera-
+ture. Section II discusses the tension between exploration and exploitaiton in
+a single-agent decision problem. Section III introduces the tension between
+exploration and exploitation to a principal-agent model. Section IV studies in-
+centives for exploration and exploitation. Section V studies implementation
+without commitment. Section VI studies the optimal termination policy of the
+principal. Section VII studies the provision of feedback. Section VIII discusses
+empirical implications and applications of the model to corporate governance
+and executive compensation, bankruptcy laws and entrepreneurship, and the
+incentives for intrapreneurship in large corporations. Section IX contains ad-
+ditional discussion and Section X concludes. All proofs are in the Appendix.
+
+
+                            I. Related Literature
+  Prior papers study the incentives for innovation from an optimal contracting
+perspective. Holmstrom (1989) proposes an alternative explanation for why in-
+centive schemes that motivate innovation must exhibit tolerance for failures.
+He argues that performance measures for innovative activities are noisier, and
+therefore to motivate innovation the principal should rely on compensation
+schemes that are less sensitive to performance. In the same vein, Aghion and
+Tirole (1994) argue that the outcomes of innovation activities are unpredictable
+and, hence, hard to contract upon ex ante. In an incomplete contract frame-
+work, they derive the optimal allocation of control rights that motivates inno-
+vation. These two papers focus on measurability and contractability aspects
+of innovation activity. In contrast, the present paper models the innovation
+process explicitly and focuses on the central trade-off that arises in innovation
+activities, the trade-off between exploration and exploitation.
+  The model of the innovation process adopted here follows a long tradition
+in the study of innovation. Schumpeter (1934) argues that innovation results
+from experimentation with “new combinations” of existing resources. Arrow
+(1969) associates innovation with the production of knowledge and proposes
+the use of Bayesian decision models to study innovation. Bandit problems
+                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                             Motivating Innovation                          1827
+
+are Bayesian decision models that allow for knowledge acquisition through
+experimentation. Weitzman (1979) applies a simple bandit problem to study the
+innovation process. March (1991) uses the terms exploration and exploitation
+to describe the fundamental tension that arises in learning through experimen-
+tation. The literature in industrial organization, including Roberts and Weitz-
+man (1981), Jensen (1982), Battacharya, Chatterjee, and Samuelson (1986),
+and Moscarini and Smith (2001), relies extensively on bandit problem and re-
+lated models of learning through experimentation to study the innovation pro-
+cess. Also, recent papers on growth theory, such as Jovanovic and Rob (1990),
+Jovanovic and Nyarko (1996), and Aghion (2002), develop detailed models of
+innovation as the result of learning from the exploration of new technologies.
+In contrast to the above papers, which study individual decision problems, I
+embed bandit problems into a principal-agent framework to study incentives
+for exploration and exploitation.
+   Other papers study principal-agent models in which the agent’s choice is not
+limited to the level of effort. Holmstrom and Milgrom (1991) develop a multitask
+principal-agent model in which the agent allocates effort across multiple tasks
+and the principal observes a performance measure for each of these tasks. They
+show that increasing compensation in one task will cause some reallocation of
+attention away from other tasks, and therefore pay-for-performance contracts
+may not be optimal. The current model resembles the multitask model in that
+the agent can choose to allocate effort to exploration or exploitation, and the
+intuition for why standard pay-for-performance is suboptimal when motivating
+innovation is related to the multitask intuition. However, even though the
+two models share some features, modeling the innovation process explicitly
+as a bandit problem and analyzing optimal incentives in that setting leads to
+richer predictions and insights about how to provide incentives for innovation.
+In particular, by examining a dynamic model, I am able to show that the
+compensation of the agent depends not only on total performance but also on the
+path of performance. Moreover, the results on lack of commitment, termination,
+and feedback are not present in multitask principal-agent models.
+   The paper is also related to the managerial short-termism literature, which
+argues that managers are biased toward short-term projects due to career
+concerns (Narayanan (1985)), takeover threats (Stein (1988)), concerns about
+near-term stock prices (Stein (1989)), the presence of noise traders (Shleifer and
+Vishny (1990)), and herding behavior (Zwiebel (1995)). In a survey of financial
+executives, Graham, Harvey, and Rajgopal (2005) find that the majority of man-
+agers would pass on a positive net present value (NPV) project to avoid miss-
+ing the current quarter’s consensus earnings forecast. Using firm-level data,
+Dechow and Sloan (1991) and Bushee (1998) find that short-termism is more
+prevalent for CEOs near retirement and in firms held by transient institutional
+investors.
+   To study the financing of innovation, Bergemann and Hege (2005) develop
+a principal-agent model in which there is learning about the quality of the
+project. The tension between exploration and exploitation does not arise in
+                                                                                        15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1828                        The Journal of FinanceR
+
+their model though, as the agent can only choose one type of project. More-
+over, their paper only considers implementation with a sequence of short-
+term contracts. Also related are Hellmann (2007) and Hellmann and Thiele
+(2009), who study incentives for innovation using a multitask principal-agent
+model.
+   Some contemporaneous papers find empirical support for a few of the results
+derived here. For example, Acharya and Subramanian (2009) find that debtor-
+friendly bankruptcy laws lead to more innovation. Acharya, Baghai-Wadji, and
+Subramanian (2009) find that stringent labor laws that restrict the dismissal
+of employees encourage firm-level innovation. Francis, Hasan, and Sharma
+(2009) show that golden parachutes, as well as long-term incentives in the
+form of vested and unvested options, have a positive and significant effect on
+patents and citations to patents. Tian and Wang (2010) find that firms backed
+by venture capitalists that tolerate failure are significantly more innovative.
+Seru (2010) provides evidence that high-level managers in conglomerates are
+more reluctant to invest in novel projects because of the threat of reallocation of
+resources by headquarters. Azoulay, Graff Zivin, and Manso (2010) show that
+funding policies with tolerance for early failure and long horizons to evaluate
+results motivate creativity in scientific research. In a laboratory experiment,
+Ederer and Manso (2010) show that compensation schemes that tolerate early
+failure and reward long-term success encourage innovation. Several empirical
+predictions remain untested, however, and are discussed in more detail in
+Section VIII.
+   More generally, the paper is related to the literature that studies the effect
+of institutions on financial organization and economic growth. Previous work
+in this literature documents the effect of the institutional environment (e.g.,
+corporate governance, investor protection, and political risk) on financial devel-
+opment (LaPorta et al. (1997)) and economic growth (King and Levine (1993),
+Rajan and Zingales (1998), Acemoglu, Johnson, and Robinson (2002), Bekaert,
+Harvey, and Lundblad (2005)). Since innovation is an essential ingredient for
+growth (Romer (1986), Aghion and Howitt (1992)), the findings of the current
+paper complement this literature and provide directions for future research on
+the topic.
+
+
+         II. The Tension between Exploration and Exploitation
+   In this section, I review the classical two-armed bandit problem with one
+known arm. This model illustrates the tension between exploration and ex-
+ploitation in a single-agent decision problem.
+   The agent lives for two periods. In each period, the agent takes an action
+i ∈ I, producing output S (success) with probability pi or output F (failure)
+with probability 1 − pi . The probability pi of success when the agent takes
+action i ∈ I may be unknown. To obtain information about pi , the agent needs
+to engage in experimentation. I let E[pi ] denote the unconditional expectation
+of pi , E[pi |S, j] denote the conditional expectation of pi given a success on
+action j, and E[pi |F, j] denote the conditional expectation of pi given a failure on
+                                                                                         15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                Motivating Innovation                           1829
+
+action j. When the agent takes action i ∈ I, he only learns about the probability
+pi , so that
+                   E[ p j ] = E[ p j |S, i] = E[ p j |F, i]   for   j = i.
+   The central concern that arises when the agent learns through experimen-
+tation is the tension between exploration of new actions and exploitation of
+well-known actions. To focus on the tension between exploration and exploita-
+tion, I assume that in each period the agent chooses between two actions.
+Action 1, the conventional work method, has a known probability p1 of success
+such that
+                       p1 = E[ p1 ] = E[ p1 |S, 1] = E[ p1 |F, 1].
+Action 2, the new work method, has an unknown probability p2 of success such
+that
+                          E[ p2 |F, 2] < E[ p2 ] < E[ p2 |S, 2].
+  I assume that the new work method is of exploratory nature. This means
+that when the agent experiments with the new work method, he is initially
+not as likely to succeed as when he conforms to the conventional work method.
+However, if the agent observes a success with the new work method, then the
+agent updates his beliefs about the probability p2 of success with the new work
+method, so that the new work method becomes perceived as better than the
+conventional work method. This is captured as follows:
+                               E[ p2 ] < p1 < E[ p2 |S, 2].                        (1)
+  The agent is risk-neutral and has a discount factor normalized to one. The
+                                       j
+agent thus chooses an action plan ik  to maximize his total expected payoff
+             j                            
+           R ik = E[ pi ]S + (1 − E[ pi ])F
+                                                                   
+                    + E[ pi ] E[ p j |S, i]S + (1 − E[ p j |S, i])F
+                                                                     
+                    + (1 − E[ pi ]) E[ pk|F, i]S + (1 − E[ pk|F, i])F ,      (2)
+where i ∈ I is the first-period action, j ∈ I is the second-period action in the
+case of success in the first period, and k ∈ I is the second-period action in the
+case of failure in the first period.
+   Two action plans need to be considered. Action plan 111 , which I call ex-
+ploitation, is just the repetition of the conventional work method. Action plan
+221 , which I call exploration, is to initially try the new work method, stick
+to the new work method in the case of success in the first period, and revert
+to the conventional work method in the case of failure in the first period. The
+total payoff R(221 ) from exploration is higher than the total payoff R(111 ) from
+exploitation if and only if
+                                           p1 (E[ p2 |S, 2] − p1 )
+                        E[ p2 ] ≥ p1 −                             .               (3)
+                                          1 + (E[ p2 |S, 2] − p1 )
+                                                                                                        15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1830                              The Journal of FinanceR
+
+  If the agent tries the new work method, he obtains information about p2 .
+This information is useful for the agent’s decision in the second period, since
+the agent can switch to the conventional work method if he learns that the
+new work method is not worth pursuing. The agent may thus be willing to
+try the new work method even though the initial expected probability E[p2 ] of
+success with the new work method is lower than the probability p1 of success
+with the conventional work method. The second term on the right-hand side of
+equation (3) represents the premium in terms of first-period payoff that the
+agent is willing to pay to obtain information about p2 .
+  The agent is willing to sacrifice more in the first period if he lives for multiple
+periods. With multiple periods, the benefits of experimenting with the new work
+method are higher, since the agent can use the information he learns from
+experimentation for a longer period of time. The same is true if the problem is
+to maximize the output of a team. In a team, the optimal action plan involves
+more sacrificing of first period output for at least one of the agents. If the
+agent discovers that the new work method is better than the conventional
+work method, the whole team benefits from his discovery.
+
+
+                          III. The Principal-Agent Problem
+   In this section, I introduce incentive problems to the classical two-armed
+bandit problem with one known arm as reviewed in the previous section.
+   The principal hires an agent to perform the task described in the previous
+section. In each period, the agent incurs private costs c1 ≥ 0 if he takes action 1,
+the conventional work method, and private costs c2 ≥ 0 if he takes action 2,
+the new work method, but can avoid these private costs by taking action 0,
+shirking.
+   The costs c1 and c2 associated with the new and conventional work methods
+will be important in determining the form of the optimal contract. When c2 is
+high relative to c1 , it is more costly for the agent to employ the new work method
+than the conventional work method, perhaps because it takes more effort for
+the agent to search and implement new ideas. When c1 is high relative to c2 ,
+it is more costly for the agent to employ the conventional work method than
+the new work method, perhaps because the agent dislikes monotonous work or
+extracts private benefits from learning new work methods.
+   Shirking has a lower probability of success than either of the two work
+methods, so that
+                                  p0 < E[ pi ]    for i = 1, 2.                                  (4)
+  I assume that the principal does not observe the actions taken by the agent.3
+As such, before the agent starts working, the principal offers the agent a
+contract w = {w F , w S , wSF , wSS , wFF , wFS } that specifies the agent’s wages
+
+  3 This assumption is important because it implies that the principal will rely on output-based
+
+pay to provide incentives to the agent. In Section IX, I discuss alternatives to the nonobservability
+assumption and the consequences of relaxing it.
+                                                                                                          15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Motivating Innovation                                         1831
+
+contingent on future performance. The agent has limited liability, meaning
+that his wages cannot be negative.
+  Both the principal and the agent are risk-neutral and have a discount factor
+of one. When the principal offers the agent a contract w and the agent takes
+              j
+action plan ik , the total expected payments from the principal to the agent
+are given by
+            j                                   
+        W w, ik = E[ pi ]w S + (1 − E[ pi ])w F
+                                                                           
+                      + E[ pi ] E[ p j |S, i]w SS + (1 − E[ p j |S, i])w SF
+                                                                              
+                      + (1 − E[ pi ]) E[ pk|F, i]w F S + (1 − E[ pk|F, i])w F F .
+                                               j
+When the agent takes action plan ik , the total expected costs incurred by the
+agent are given by
+                      j 
+                   C ik = ci + E[ pi ]c j + (1 − E[ pi ])ck.
+                                                                                              j
+ I say that w is an optimal contract that implements action plan ik  if it
+minimizes the total expected payments from the principal to the agent,
+                                    j 
+                                W w, ik ,
+
+subject to the incentive compatibility constraints,4
+                   j     j                                    
+              W w, ik − C ik ≥ W w, lnm − C lnm .                           IC lnm
+
+This is a linear program with six unknowns and 27 constraints. When more
+than one contract solves this program, I restrict attention to the contract that
+pays the agent earlier.5
+                                         j                                  j
+  The principal’s expected profit (ik ) from implementing action plan ik  is
+given by
+                          j    j        j   j 
+                        ik = R ik − W w ik , ik ,                            (5)
+              j
+where R(ik ) is the principal’s total expected revenue when the agent uses
+               j           j
+action plan ik , and w(ik ) is the optimal contract that implements action plan
+  j                                                    j                     j
+ik . The principal thus chooses the action plan ik  that maximizes (ik ).
+   Both the classical two-armed bandit problem and the standard work-shirk
+principal-agent model are special cases of this model. On the one hand, when
+c1 = c2 = 0, there is no conflict of interest between the principal and the agent.
+Therefore, the principal does not need to provide incentives to the agent, and
+hence just solves the two-armed bandit problem described in Section II. On the
+
+   4 For simplicity, I assume that the agent has zero reservation utility. The participation constraint
+
+is thus not binding, since the agent has limited liability.
+   5 The other contracts that solve the above program are similar to the contract analyzed here
+
+except that the principal acts as a bank, keeping the wages of the agent to be paid later without
+obtaining any additional benefits from doing so. The contract analyzed here is also the contract
+that arises if the agent is slightly more impatient than the principal.
+                                                                                          15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1832                          The Journal of FinanceR
+
+other hand, when c2 = ∞, it is too costly for the agent to employ the new work
+method. The agent either shirks or employs the conventional work method.
+The principal’s problem is thus just to prevent the agent from shirking, as in
+standard principal-agent models.
+   The assumptions in the principal-agent problem studied here are standard
+except that there is learning about the technology being employed. This gives
+rise to the tension between exploration and exploitation, since there is nothing
+to be learned about the conventional technology, but a lot to be learned about
+the new technology.
+
+
+             IV. Incentives for Exploration and Exploitation
+  In this section, I study the optimal contracts that implement exploration
+and exploitation. In the Internet Appendix,6 I study the principal’s choice be-
+tween exploration and exploitation and the distortions relative to the first-best
+produced by agency costs.
+  For clarity of exposition, I restrict attention to
+                           c2 /c1 ≥ (E[ p2 ] − p0 )/( p1 − p0 ).                    (6)
+
+The right-hand side of equation (6) is lower than one. Restricting attention to (6)
+thus rules out situations in which the cost of employing the new work method is
+much lower than the cost of employing the conventional work method. Similar
+results hold without this restriction. However, the analysis is more complicated
+and does not add new insights.
+
+A. Incentives for Exploitation
+   Proposition 1 derives the optimal contract that implements exploitation. Re-
+call from Section II that exploitation is given by the action plan 111 . The
+following definitions will be useful in stating Proposition 1:
+                                           c1
+                                  α1 =          ,
+                                        p1 − p0
+
+                          (E[ p2 ] − p0 ) + E[ p2 ](E[ p2 |S, 2] − p0 )
+                   β1 =                                                 .
+                                 ( p1 − p0 ) + E[ p2 ]( p1 − p0 )
+
+PROPOSITION 1:    The optimal contract w1 that implements exploitation is such
+that
+
+                                w F = w SF = w F F = 0,
+
+                                   w SS = w F S = α1 ,
+
+  6 An Internet Appendix for this article is available online at http://www.afajof.org/
+supplements.asp.
+                                                                                                         15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Motivating Innovation                                       1833
+
+                                                                        10
+
+                                                                  wSS 5
+                               10
+                                                                           0
+                           wS 5                                                0.5     1   1.5
+                                                                                     c2 /c1
+                                 0
+                                     0.5     1   1.5
+                                           c2 /c1                               wSF = 0
+
+
+                                                                        10
+
+                                                                  wF S 5
+
+                                                                           0
+                                                                               0.5     1   1.5
+                                                                                     c2 /c1
+                                      wF = 0
+                                                                               wF F = 0
+Figure 1. The optimal contract that implements exploitation under the base-case
+parameters. The contract resembles a repetition of standard pay-for-performance contracts. Total
+pay of the agent depends only on total output, except if c2 /c1 is small, in which case the agent gets
+an extra reward for early success to prevent exploration.
+
+                                                                      +
+                                      c1 (1 + E[ p2 ])        c2
+                           w S = α1 +                    β1 −              ,
+                                      ( p1 − E[ p2 ])         c1
+
+where (x)+ = max (x, 0).
+   The formal proofs of all the propositions are in the Appendix. However, the
+main intuition behind Proposition 1 is as follows. To implement exploitation,
+the principal must prevent the agent from both shirking and exploring. If c2 is
+high relative to c1 , only shirking constraints are binding, and thus the optimal
+contract that implements exploitation is similar to the optimal contract used to
+induce the agent to exert effort in a standard word-shirk principal-agent model.
+If c2 is low relative to c1 , the exploration constraint is binding. To prevent
+exploration, the principal must pay the agent an extra premium in the case of
+success in the first period. This extra premium is decreasing in c2 /c1 , since as
+c2 /c1 increases the agent becomes less inclined to explore. Figure 1 shows the
+optimal contract w1 that implements exploitation for different values of c2 /c1
+under the base-case parameters.7
+
+
+   7 The base-case parameters used in all the figures are p = 0.25, E[p ] = 0.3, p = 0.5, E[p |S, 2] =
+                                                           0            2         1           2
+0.7, and c1 = 1. From Bayes’s rule, E[p2 |F, 2] = 0.129. Each of the graphs in the figure corresponds
+to a wage paid to the agent in a particular contingency for different values of c2 /c1 . When a node
+has no graphs, it is because the wage paid to the agent in that contingency is zero.
+                                                                                                               15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1834                               The Journal of FinanceR
+
+B. Incentives for Exploration
+  Proposition 2 derives the optimal contract that implements exploration. Re-
+call from Section II that exploration is given by action plan 221 . The form
+of the optimal contract that implements exploration will depend on whether
+exploration is moderate or radical.
+DEFINITION 1.        Exploration is radical if
+                                 1 − E[ p2 ]   E[ p2 ]E[ p2 |S, 2]
+                                             ≥                     ,
+                                   1 − p1              p12
+and moderate otherwise.
+
+   Exploration is radical if the likelihood ratio between exploration and ex-
+ploitation of a failure in the first period is greater than the likelihood ratio
+between exploration and exploitation of two consecutive successes. I call this
+exploration radical because it has a high expected probability of failure in the
+first period relative to the probability of failure of the conventional action.
+   The following definitions will also be useful in stating Proposition 2:
+                            (1 + E[ p2 ])c2 − p0 cj̃               (E[ p2 ] − p0 ) p0 α1
+        α2 = max                                           +                                   ,
+               j̃ ∈{0,1} E[ p2 ]E[ p2 |S, 2] − p0 E[ pj̃ ]   E[ p2 ]E[ p2 |S, 2] − p0 E[ pj̃ ]
+
+               (E[ p2 ]E[ p2 |S, 2] − p0 p1 ) + E[ p2 ]( p1 E[ p2 |S, 2] − p0 p1 )
+        β2 =                  2                                                .
+                              p1 − p0 p1 + E[ p2 ] p12 − p0 p1
+
+
+PROPOSITION 2:        The optimal contract w2 that implements exploration is such
+that
+
+                         w F S = α1 ,     and     w S = w SF = w F F = 0.
+
+If exploration is moderate, then wF = 0 and
+                                                                                             +
+                            p1 − p0               p1 (1 + E[ p2 ])c1                c2
+       w SS = α2 +                                                                     − β2        .
+                   E[ p2 ]E[ p2 |S, 2] − p0 p1 E[ p2 ]E[ p2 |S, 2] − p12            c1
+
+If exploration is radical, then
+                                                                              +
+                                   p1 (1 + E[ p2 ])c1                c2
+                       wF =                                             − β2
+                            E[ p2 ]E[ p2 |S, 2] − p1 E[ p2 ]         c1
+and
+                                                                                                      +
+                          E[ p2 ] − p0                p1 (1 + E[ p2 ])c1                c2
+  w SS = α2 +                                                                              − β2            .
+                   E[ p2 ]E[ p2 |S, 2] − p0 p1 E[ p2 ]E[ p2 |S, 2] − p1 E[ p2 ]         c1
+  To implement exploration, the principal must prevent the agent from shirk-
+ing or exploiting. The principal does not make payments to the agent after a
+                                                                                                             15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Motivating Innovation                                     1835
+
+failure in the second period, since this only gives incentives for the agent to
+shirk. Moreover, the principal does not make payments to the agent after a
+success in the first period for two reasons. First, rewarding first-period success
+gives the agent incentives to employ the conventional work method in the first
+period, since the initial expected probability E[p2 ] of success with the new work
+method is lower than the probability p1 of success with the conventional work
+method. Second, in the case of success in the first period, additional informa-
+tion about the first-period action is provided by the second-period performance,
+since the expected probability of success with the new work method in the
+second period depends on the action taken by the agent in the first period.
+Delaying compensation to obtain this additional information is thus optimal.
+Although there are 27 incentive compatibility constraints, it is easy to see that
+only a few may bind. The relevant incentive compatibility constraints are
+                                                                                     
+                                 ( p1 − p0 )w F S ≥ c1 ,                     IC220 
+
+                             
+     E[ p2 ]E[ p2 |S, 2] − p02 w SS − (E[ p2 ] − p0 )w F − (E[ p2 ] − p0 ) p1 w F S                 
+                                                                                          IC001 
+                                                ≥ c2 + E[ p2 ](c2 − c1 ) + p0 c1 ,
+
+(E[ p2 ]E[ p2 |S, 2] − p0 p1 )w SS − (E[ p2 ] − p0 )w F − (E[ p2 ] − p0 ) p1 w F S                      
+                                                                                           IC011 
+                                                       ≥ c2 + E[ p2 ](c2 − c1 ),
+and
+                           
+   E[ p2 ]E[ p2 |S, 2] − p12 w SS + ( p1 − E[ p2 ])w F + ( p1 − E[ p2 ]) p1 w F S                   
+                                                                                       IC111 
+                                                     ≥ (1 + E[ p2 ])(c2 − c1 ).
+The first three incentive compatibility constraints are associated with shirking.
+The last incentive compatibility constraint is associated with exploitation. One
+important thing to note is that wF enters with a positive sign on the left-
+hand side of the incentive compatibility constraint associated with exploitation.
+Rewarding the agent for first-period failures may be useful to prevent the agent
+from exploiting, since the initial expected probability (1 − E[p2 ]) of failure when
+the agent employs the new work method is higher than the probability (1 − p1 )
+of failure when the agent employs the conventional work method.
+   The first incentive compatibility constraint is always binding. To prevent the
+agent from shirking in the second period after a failure in the first period, the
+principal pays the agent wFS = α 1 just as in standard principal-agent models.
+It remains to discuss how the principal uses wSS and wF to induce the agent to
+experiment with the new work method.
+   If c2 /c1 < β 2 , then exploitation is too costly for the agent. Only incentive
+compatibility constraints associated with shirking are binding. To prevent the
+agent from shirking in the first period and in the second period after a success
+in the first period, the principal pays the agent wSS = α 2 .
+   If c2 /c1 ≥ β 2 , then exploitation is not too costly for the agent. The incentive
+compatibility constraint associated with exploitation is binding. To prevent
+                                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1836                               The Journal of FinanceR
+
+                                                                    30
+
+                                                              wSS 15
+                                      wS = 0                         0
+                                                                         0.5     1   1.5
+                                                                               c2 /c1
+
+                                                                          wSF = 0
+
+
+                                                                    30
+
+                                                              wF S 15
+                              30
+                                                                     0
+                        wF 15                                            0.5     1   1.5
+                                                                               c2 /c1
+                               0
+                                    0.5     1   1.5
+                                          c2 /c1                         wF F = 0
+
+Figure 2. The optimal contract that implements exploration under the base-case
+parameters. Under this contract, an agent who succeeds early and fails later has lower total
+compensation than an agent who fails early and succeeds later or even an agent who fails twice if
+c2 /c1 is high.
+
+
+
+exploitation, the principal can either reward the agent for failure in the first
+period or reward the agent for two consecutive successes. The principal’s choice
+between these two instruments depends on whether exploration is moderate
+or radical. With moderate exploration, it is cheaper for the principal to provide
+incentives through wSS , since two consecutive successes are a stronger signal
+that the agent explored and not exploited than a failure in the first period.
+With radical exploration, it is cheaper for the principal to provide incentives
+through wF , since a failure in the first period is a stronger signal that the
+agent explored and not exploited than two consecutive successes. Rewarding
+the agent for failure, however, induces the agent to shirk in the first period. To
+prevent shirking, delayed compensation wSS must also be used.
+   Figure 2 shows the optimal contract that implements exploration for differ-
+ent values of c2 /c1 under the base-case parameters. The optimal contract that
+implements exploration rewards long-term success but not short-term success.
+On the contrary, it may even reward short-term failure. This safety net is pro-
+vided even though the agent is risk-neutral. The intuition is that if the agent
+is not protected against early failures, then the agent may prefer to exploit in
+order to avoid early failures.
+   An alternative way to interpret the optimal contract that implements ex-
+ploration is to look at how it compensates different performance paths. The
+total compensation wF + wFS when performance is FS is higher than the
+                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                            Motivating Innovation                          1837
+
+total compensation wS + wSF when performance is SF. An agent who recovers
+from failure has higher compensation than an agent who obtains short-lived
+success. Rewards are thus contingent on the performance path, and not only
+on the number of successes or failures obtained by the agent. If wF > 0, then
+the total compensation wF + wFF when performance is FF is higher than the
+total compensation wS + wSF when performance is SF. Even an agent who
+fails twice may have higher compensation than an agent who obtains short-
+lived success. Because of the risky nature of exploration, failing twice may be
+a stronger signal for the principal that the agent explored and not exploited
+than obtaining a short-lived success.
+   Some principal-agent models assume that the agent can destroy output. In a
+static setting, this assumption implies that the optimal contract is nondecreas-
+ing. In a dynamic setting, however, this is not necessarily true. For example, in
+the model developed here, setting p0 = 0 will have the same effect as allowing
+the agent to destroy output. Still, from Proposition 2, the optimal contract that
+implements exploration may have wS < wF . Under this contract, if the agent
+decides to destroy output at the end of the first period to obtain wF , the agent
+forgoes the opportunity of earning wSS in the second period.
+
+
+                          V. Lack of Commitment
+  In contrast to the previous section, I now assume that the principal cannot
+commit to a long-term contract. In practice, commitment to a long-term contract
+may be achieved through explicit contracts, such as stock options or vesting
+stock, or through implicit contracts, based on reputation. Sometimes these
+options are not available, and the principal can only offer the agent a short-
+term contract specifying the agent’s compensation contingent on the current
+period’s performance. The problem becomes similar to the one proposed in
+Section III, except that there are additional constraints to guarantee that the
+principal is willing to keep the promised wages in the second period.
+  Fudenberg, Holmstrom, and Milgrom (1990) provide conditions under which
+a sequence of short-term contracts perform just as well as the optimal long-
+term contract. The model proposed here violates two of these conditions. First,
+there may not be common knowledge of technology. With learning through
+experimentation, the agent may be better informed than the principal about
+the technology in the second period, since first-period actions affect second-
+period expected probability of success. Second, the utility frontier may not be
+downward sloping, since the agent has limited liability.
+PROPOSITION 3: The optimal contract w1 that implements exploitation, derived
+in Proposition 1, can be realized through a sequence of short-term contracts.
+
+  To implement exploitation, a sequence of short-term contracts performs just
+as well as the optimal long-term contract, because the optimal long-term con-
+tract that implements exploitation derived in Proposition 1 relies only on short-
+term incentives. Commitment is thus irrelevant to implement exploitation.
+                                                                                                15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1838                           The Journal of FinanceR
+
+  The following definition will be useful in stating Proposition 4:
+                                     (E[ p2 ] − p0 )(1 + p1 )
+                      β4 =                                        .
+                                                     E[ p2 ] − p0
+                             ( p1 − p0 ) 1 + p1
+                                                 E[ p2 |S, 2] − p0
+
+PROPOSITION 4: The optimal contract w2 that implements exploration, derived
+in Proposition 2, cannot be replicated by a sequence of short-term contracts.
+Moreover, if
+  • c2 /c1 ≥ β 4 , then exploration is not implementable via short-term contracts
+  • c2 /c1 < β 4 , then the optimal sequence of short-term contracts w4 that im-
+    plements exploration is such that
+                                         c2
+                            wS =                 − p0 w SS + p0 w F S ,
+                                    E[ p2 ] − p0
+
+                           w F = w SF = w F F = 0,
+
+                                            c2
+                           w SS =                     ,
+                                    E[ p2 |S, 2] − p0
+
+                                       c1
+                           wF S =           .
+                                    p1 − p0
+   Without commitment, the principal can only use short-term incentives to im-
+plement exploration. When c2 /c1 ≥ β 4 , short-term incentives are not enough to
+induce exploration. If the principal rewards the agent for success in the first pe-
+riod, then the agent employs the conventional work method, which is relatively
+cheaper and yields a higher probability of success than the new work method.
+If, in contrast, the principal rewards the agent for failure in the first period,
+then the agent shirks, which is cheaper and yields a higher probability of failure
+than the new work method. Therefore, if c2 /c1 ≥ β 4 , exploration cannot be imple-
+mented with a sequence of short-term contracts.8 When c2 /c1 < β 4 , short-term
+incentives may be enough to implement exploration. If the principal rewards
+the agent for success in the first period, it is too costly for the agent to employ
+the conventional work method. Exploration may thus be implementable with a
+sequence of short-term contracts. However, the cost W(w4 , 221 ) of implement-
+ing exploration with short-term contracts is higher than the cost W(w2 , 221 )
+of implementing exploration with a long-term contract. When a long-term con-
+tract is used, the principal can wait until the second period to pay the agent,
+gathering more information about the agent’s first-period action.
+
+   8 Hermalin and Katz (1991) show that an action is implementable if there does not exist a
+
+randomization over actions that induces the same density over outcomes and costs less to the
+agent. When c2 /c1 ≥ β 4 , a randomization over actions 0 and 1 induces the same density over
+first-period outcomes as action 2 and costs less to the agent.
+                                                                                                           15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Motivating Innovation                                       1839
+
+                                       15
+
+
+
+                                       10
+                      Implementation
+                           Cost
+                                        5
+
+
+
+                                        0
+                                                0.5          1          1.5
+                                                           c2 /c1
+Figure 3. Cost of implementing exploration when the principal can (solid line) and
+cannot (dashed line) commit to a long-term contract under the base-case parameters.
+Even if it is feasible to motivate exploration with a sequence of short-term contracts (low c2 /c1 ), it
+is less costly to implement exploration if the principal can commit to a long-term contract.
+
+
+   Figure 3 compares the cost of implementing exploration when the principal
+can and cannot commit to a long-term contract. Exploration is implementable
+via a sequence of short-term contracts only if c2 /c1 is low. Even if this is the case,
+the cost W(w4 , 221 ) of implementing exploration with short-term contracts is
+higher than the cost W(w2 , 221 ) of implementing exploration with a long-term
+contract.
+   This section contrasts the effect of lack of commitment on the implementa-
+tion of exploration and exploitation. To implement exploitation, a sequence of
+short-term contracts performs as well as the optimal long-term contract. On the
+other hand, to implement exploration, the optimal long-term contract performs
+better than any sequence of short-term contracts. For some parameters, it is
+even impossible to implement exploration with a sequence of short-term con-
+tracts. These results show the importance of commitment when implementing
+exploration.
+
+
+                                       VI. Termination
+   In this section, I allow the principal to terminate the agent after a failure in
+the first period. Termination can be interpreted, for example, as the decision to
+fire a manager or worker in a corporation, or the decision to interrupt funding of
+a start-up company. The principal may use termination as a screening device,
+firing the agent if it is not worthwhile to keep him in the second period. In
+addition to that, the principal may use termination as a disciplinary device to
+induce the agent to take the appropriate action in the first period.
+   I derive the optimal contracts that implement exploitation with termination
+and exploration with termination. I then study when it is optimal for the prin-
+cipal to implement exploitation with termination instead of exploitation, and
+exploration with termination instead of exploration. Exploitation with termi-
+nation is represented by action plan 11t , and exploration with termination
+                                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1840                               The Journal of FinanceR
+
+                                                                     10
+
+                                                               wSS 5
+                              10
+                                                                      0
+                         wS    5                                          0.5     1   1.5
+                                                                                c2 /c1
+                               0
+                                    0.5     1   1.5
+                                          c2 /c1                           wSF = 0
+
+
+
+
+                                     wF = 0
+Figure 4. The optimal contracts that implement exploitation (solid line) and exploita-
+tion with termination (dashed line) under the base-case parameters. With termination,
+the agent loses the rents he was able to extract in the second period after a failure in the first
+period. The threat of termination thus induces the agent to exert more effort in the first period,
+and therefore the principal needs to pay less to the agent for early success in order to implement
+exploitation.
+
+
+is represented by action plan 22t , where t means that the principal termi-
+nates the agent after a failure in the first period. For simplicity, the agent’s
+outside wages after termination are zero.9 The principal’s expected revenues
+when implementing exploration with termination and exploitation with termi-
+nation are given by R(11t ) and R(22t ), which may incorporate, for example,
+the possibility of hiring a replacement agent after termination.
+   For brevity, the results on the implementation of exploitation with termi-
+nation are derived in the Internet Appendix. Figure 4 compares the optimal
+contracts that implement exploitation and exploitation with termination for
+different values of c2 /c1 under the base-case parameters. If the agent shirks
+or employs the new work method, he is more likely to fail in the first period
+than if he employs the conventional work method. To avoid failure, and conse-
+quently termination, the agent has more incentives to employ the conventional
+work method in the first period. Therefore, the principal needs to pay the agent
+lower first-period wages to implement exploitation with termination than to
+implement exploitation.
+   This result is similar to Stiglitz and Weiss (1983), where the principal uses
+termination to induce the agent to exert effort. Because termination serves
+this additional role in providing incentives to the agent, it is optimal for the
+principal to use excessive termination when implementing exploitation.
+
+  9 In this context, implementing action plan ij  is the same as implementing action plan ij 
+                                                t                                             0
+with wFF = wFS = 0.
+                                                                                                             15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Motivating Innovation                                            1841
+
+  Proposition 5 derives the optimal contract that implements exploration with
+termination. The following definitions will be useful in stating Proposition 5:
+                         (1 + E[ p2 ])c2 − p0 cj̃
+      α5 = max                                             ,
+             j̃ ∈{0,1} E[ p2 ]E[ p2 |S, 2] − p0 E[ pj̃ ]
+
+
+             (E[ p2 ]E[ p2 |S, 2] − p0 p1 ) + E[ p2 ]( p1 E[ p2 |S, 2] − p0 E[ p2 |S, 2])
+      β5 =                         2                                                  .
+                                   p1 − p0 + E[ p2 ] p12 − p0
+
+
+PROPOSITION 5: The optimal contract w5 that implements exploration with
+termination is such that
+                                          w S = w SF = 0.
+If exploration is moderate, then wF = 0 and
+                                                                                            +
+                           p1 − p0               p1 (1 + E[ p2 ])c1                c2
+      w SS = α5 +                                                                     − β5       .
+                  E[ p2 ]E[ p2 |S, 2] − p0 p1 E[ p2 ]E[ p2 |S, 2] − p12            c1
+
+If exploration is radical, then
+                                                                              +
+                                     p1 (1 + E[ p2 ])c1              c2
+                     wF =                                               − β5
+                              E[ p2 ]E[ p2 |S, 2] − p1 E[ p2 ]       c1
+and
+                                                                                                    +
+                        E[ p2 ] − p0                p1 (1 + E[ p2 ])c1                 c2
+  w SS = α5 +                                                                             − β5           .
+                 E[ p2 ]E[ p2 |S, 2] − p0 p1 E[ p2 ]E[ p2 |S, 2] − p1 E[ p2 ]          c1
+   The effects of termination on the incentives for the agent to employ the new
+work method in the first period will depend on the relative costs c2 /c1 of the new
+and conventional work methods. If c2 /c1 ≥ β 5 , then the incentive compatibility
+constraint associated with exploitation with termination is binding. Termina-
+tion makes it harder to provide incentives for the agent to employ the new work
+method in the first period, since to avoid failure and termination, the agent has
+more incentives to employ the conventional work method in the first period. If
+c2 /c1 < β 5 , then the incentive compatibility constraint associated with shirking
+is binding. Termination makes it easier to provide incentives for the agent to
+employ the new work method in the first period, since, to avoid failure and
+termination, the agent has less incentives to shirk in the first period.
+   Figure 5 compares the optimal contracts that implement exploration and
+exploration with termination for different values of c2 /c1 under the base-case
+parameters. If c2 /c1 is high, the principal pays higher wages wF to implement
+exploration with termination than to implement exploration. If c2 /c1 is low,
+the principal pays lower wages wSS to implement exploration with termination
+than to implement exploration.
+   I now compare the total expected profits of the principal when he implements
+exploration with the total expected profits of the principal when he implements
+                                                                                                          15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1842                                 The Journal of FinanceR
+
+                                                                        30
+
+                                                                 wSS 15
+                                        wS = 0                            0
+                                                                              0.5     1   1.5
+                                                                                    c2 /c1
+
+                                                                               wSF = 0
+
+
+
+                                30
+
+                         wF     15
+
+                                 0
+                                      0.5     1   1.5
+                                            c2 /c1
+Figure 5. The optimal contract that implements exploration (solid line) and
+exploration with termination (dashed line) under the base-case parameters. With ter-
+mination, the agent loses the rents he was able to extract in the second period after a failure in the
+first period. To prevent the threat of termination from drawing the agent away from exploration
+in the first period, the principal needs to pay an additional bonus to the agent after early failure if
+c2 /c1 is high.
+
+
+
+exploration with termination. It is optimal for the principal to implement ex-
+ploration with termination instead of exploration if
+                                             
+                      R 221 − R 22t < W w2 , 221 − W w5 , 22t .
+
+  To keep the agent working in the second period after a failure in the first
+period, the expected payments from the principal to the agent are equal to
+(1 − p1 )p1 α 1 . It is thus ex post efficient for the principal to terminate the agent
+after a failure in the first period if
+                                  
+                            R 221 − R 22t < (1 − E[ p2 ]) p1 α1 .                                  (7)
+
+When (7) holds, the benefits from inducing the agent to work in the second
+period after a failure in the first period are lower than the expected payments
+that the principal must make to the agent after a failure in the first period to
+keep the agent working in the second period.
+DEFINITION 2.        There is excessive termination with exploration if
+                                     
+                      W w2 , 221 − W w5 , 22t > (1 − E[ p2 ]) p1 α1 ,
+                                                                                                   15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                   Motivating Innovation                                    1843
+
+and there is excessive continuation with exploration if
+                                   
+                  W w2 , 221 − W w5 , 22t < (1 − E[ p2 ]) p1 α1 .
+   There is excessive termination with exploration if the actual threshold for
+termination is higher than the ex post efficient threshold for termination. There
+is excessive continuation with exploration if the actual threshold for termina-
+tion is lower than the ex post efficient threshold for termination. Excessive
+continuation or termination may arise because the termination policy affects
+the incentives for the agent’s first-period action.
+   Corollary 1 investigates the conditions under which there is excessive termi-
+nation with exploration or excessive continuation with exploration. The follow-
+ing definitions will be useful in stating Corollary 1:
+                              ( p1 − E[ p2 ])(E[ p2 ]E[ p2 |S, 2] − p1 p0 )
+κm ≡                                                                                       ,
+       ( p1 − E[ p2 ])(E[ p2 ]E[ p2 |S, 2] − p1 p0 ) + E[ p2 ] − p0 E[ p2 ]E[ p2 |S, 2] − p12
+
+                         (1 − E[ p2 ])(E[ p2 ]E[ p2 |S, 2] − p0 p1 )
+κe ≡                                                                                    .
+       (1 − E[ p2 ])(E[ p2 ]E[ p2 |S, 2] − p0 p1 ) + E[ p2 ]E[ p2 |S, 2](E[ p2 ] − p0 )
+
+
+COROLLARY 1: If c2 /c1 < max (κ m , κ e )β 2 + (1 − max (κ m , κ e ))β 5 , then there is
+excessive termination with exploration. If c2 /c1 > max (κ m , κ e )β 2 + (1 − max (κ m ,
+κ e ))β 5 , then there is excessive continuation with exploration.
+
+  As shown in Proposition 5, the effects of termination on the incentives for the
+agent to employ the new work method in the first period depend on c2 /c1 . For low
+values of c2 /c1 , the agent is inclined to shirk. The threat of termination allows
+the principal to pay the agent lower wages to prevent shirking, offsetting the
+losses from excessive termination. For high values of c2 /c1 , the agent is inclined
+to exploit. Excessive continuation allows the principal to pay the agent lower
+wages in the first period, offsetting the losses from excessive continuation.
+  As shown in Corollary 1, there is excessive continuation with explo-
+ration even if exploration is moderate. This is in contrast to the results in
+Proposition 2, which say that there is reward for failure only if exploration is
+radical. With moderate exploration, the principal does not reward the agent
+for failure because it is cheaper to use rewards for long-term success to induce
+exploration. However, the surplus the agent obtains in the second period after
+a failure in the first period still provides incentives for the agent to explore
+when c2 is high relative to c1 .
+  This section contrasts the optimal termination policies when implement-
+ing exploitation and exploration. Similar to models of repeated effort, there is
+excessive termination when implementing exploitation. On the other hand, de-
+pending on which constraints are binding, there may be excessive termination
+or excessive continuation when implementing exploration. There is excessive
+termination if only shirking constraints are binding, while there is excessive
+continuation if the exploitation constraint is binding. To sum up, termination
+                                                                                       15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1844                        The Journal of FinanceR
+
+is useful to prevent shirking but it may be harmful when implementing explo-
+ration as it may induce exploitation from the agent.
+
+
+                                 VII. Feedback
+   In this section, I study what happens if the principal is better able to evaluate
+performance than the agent. This could be relevant, for example, in studying
+the relation between a venture capitalist and an entrepreneur, in which the
+venture capitalist knows more about the commercial value of the enterprise
+than the entrepreneur. Also, firms often have better information about the
+potential market performance of products being developed by their R&D em-
+ployees. The focus of the section will be on whether the principal should provide
+feedback on performance to the agent. I show that the optimal provision of feed-
+back will depend on whether the principal wants to implement exploration or
+exploitation.
+   I assume that the principal privately observes interim performance at the
+end of the first period, yet the performance path is publicly observable at the
+end of the second period. If the principal does not reveal interim performance
+realizations, then only incentive compatibility constraints ICi j  , where j = k
+                                                                     k
+need to be satisfied, since without feedback the agent cannot adjust his action
+according to the realization of first-period performance. However, for the same
+                              j
+reason, only action plans ik  with j = k can be implemented without feedback.
+Therefore, if the action plan to be implemented involves repetitive actions, then
+it is optimal for the principal not to provide feedback on performance. On the
+other hand, if the action plan to be implemented requires adjustments in action
+depending on the realized interim performance, then feedback on performance
+must be provided.
+   For brevity, the detailed analysis of the provision of feedback when the prin-
+cipal implements exploitation is presented in the Internet Appendix. Because
+exploitation involves repetitive actions, it is optimal for the principal not to
+provide feedback on performance to the agent. This result is similar to Lizzeri,
+Meyer, and Persico (2002) and Fuchs (2007), who find that in a setting where
+the principal’s problem is to induce the agent to exert repeated effort, it is
+optimal for the principal not to reveal information about performance to the
+agent.
+   In contrast, as shown by the next proposition, feedback is essential to moti-
+vate exploration, as it permits efficient experimentation.
+PROPOSITION 6: To implement exploration, the principal must provide feedback
+to the agent. The optimal contract w6 that implements exploration when the
+principal is better able to evaluate performance than the agent is the same as
+the optimal contract w2 that implements exploration derived in Proposition 2.
+
+  The function of feedback here is to provide information that improves the
+agent’s future performance. No punishment is associated with feedback. On
+the contrary, for some parameters, the agent is even rewarded in the case of
+                                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                  Motivating Innovation                                    1845
+
+failure. If the agent is not protected against failures, then the agent is inclined
+to employ the conventional work method to avoid failures.10
+  This section contrasts the feedback policy when implementing exploitation
+and exploration. It shows that, similar to repeated-effort models, the principal
+should never provide feedback on performance to the agent when implementing
+exploitation, but should always provide timely feedback on performance to the
+agent when implementing exploration.
+
+                            VIII. Empirical Implications
+   The main contribution of the paper is to contrast incentive schemes that mo-
+tivate exploration and exploitation. Motivating exploitation requires standard
+pay-for-performance schemes, excessive termination, short-term contracts, and
+no feedback on performance. In contrast, motivating exploration involves tol-
+erance (or even reward) for early failure and reward for long-term success, so
+that not only total performance but also the path of performance matters for
+compensation. Moreover, excessive continuation, commitment to a long-term
+incentive plan, and timely feedback on performance are also important to mo-
+tivate exploration.
+   Two empirical tests arise naturally. First, one can study whether incentive
+practices used in tasks for which innovation is more (less) important resem-
+ble the incentive practices that, according to this paper, motivate exploration
+(exploitation). Second, one can study whether the adoption of incentive prac-
+tices that motivate exploration (exploitation) leads to more (less) innovation.
+In the remainder of this section, I discuss the application of the results of the
+paper to different settings, providing more details about how they can be tested
+empirically.
+
+A. Executive Compensation and Corporate Governance
+   Executive compensation has increasingly been criticized as excessive and
+not related to performance. This public outcry has created pressure for regu-
+lations that limit the use of stock options, golden parachutes, entrenchment,
+and option repricing.11 We argue here that stock options, golden parachutes,
+entrenchment, and option repricing may be part of an optimal contract that mo-
+tivates innovation. Therefore, passing regulations that restrict their use may
+in some cases have an adverse effect on innovation. To assess the actual impact
+of such regulations, it remains to be studied empirically the actual contribution
+of these practices to innovation.
+   From Propositions 2 and 5, it is easy to see that the optimal compensation
+that motivates exploration with and without termination can be implemented
+   10 Other research provides alternative rationale for the provision of feedback. Ederer (2010a)
+
+shows that feedback may be useful when the agent is uncertain about his ability. Ray (2007)
+develops a model in which interim performance evaluation serves the purpose of screening bad
+projects.
+   11 See, for example, Bebchuk and Fried (2004) and “Rewards for Failure,” British DTI consulta-
+
+tion, June 2003.
+                                                                                                         15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1846                              The Journal of FinanceR
+
+via a combination of stock options with long vesting periods, option repricing,
+and golden parachutes. For simplicity, I assume that the firm does not pay
+dividends until the second period. By granting the manager stock options that
+vest and mature at the end of the second period and have a strike price of S, it
+is possible to commit to a payment of wSS to the manager after two consecutive
+successes. If the manager fails in the first period, there are two situations to
+consider. When parameters of the model are such that the manager needs to
+be fired, he may leave the firm with a payment wF , as shown in Proposition 5.
+This payment can be implemented by promising the manager a severance
+payment (e.g., in the form of a golden parachute) to be paid if the manager gets
+fired. When the manager is to stay in the firm, then the optimal contract can be
+implemented by repricing the original stock option. The option repricing needs
+to be done in a way that guarantees that the manager puts effort in the second
+period (wFS > c1 /(p1 − p0 )), and also that the manager gets an extra surplus
+(wF ) for early failures as shown in Proposition 2.12
+   Corollary 1 shows that, under the optimal contract that motivates explo-
+ration, shareholders may need to commit not to fire the manager even if it is
+ex-post efficient to do so. Managerial entrenchment can produce this desired ex-
+cessive continuation, as it makes it harder for shareholders to fire the manager.
+The appointment of a board of directors that is friendly to the manager may
+lead to managerial entrenchment. Alternatively, dispersed ownership, typical
+in large public corporations, reduces the incentives for shareholders to inter-
+vene, effectively entrenching the manager.13
+   This naturally raises the question of why a lot of the innovation in the econ-
+omy comes from firms financed by venture capital, which has concentrated
+ownership. Some of the practices adopted by venture capitalists may help mo-
+tivate innovation.14 For example, excessive continuation may be achieved by
+delegating the decision to stop a project to the general partner. The bulk of the
+compensation of the general partner is in the form of carried interest, which is
+effectively a call option on the projects being financed. This provides incentives
+for the general partner to keep projects alive beyond the point under which it
+would be efficient to terminate them. Moreover, the entrepreneur in a start-up
+company financed by a venture capitalist typically does not earn rewards for
+early successes, and most of his compensation comes in the long term, when the
+company goes through an IPO or is sold to another firm. Venture capitalists are
+also known for providing detailed feedback on performance to entrepreneurs.
+   The theory developed here suggests that stock options with long vesting
+periods, entrenchment, and golden parachutes should be more often used in
+
+   12 This extra surplus w can be paid in the first period, as in the optimal contract derived in
+                           F
+Proposition 2. Alternatively, the extra surplus wF can be paid only in the second period. Any such
+contract performs as well as the optimal long-term contract derived in Proposition 2 as long as
+after two periods an extra expected surplus wF is paid to the manager if he fails in the first period.
+   13 Burkart, Gromb, and Panunzi (1997) and Myers (2000) develop models in which dispersed
+
+ownership serves as a way to reduce intervention by shareholders.
+   14 Gompers and Lerner (2004) describe in detail the practices used in the venture capital
+
+industry.
+                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                             Motivating Innovation                          1847
+
+situations in which exploration and innovation are important. One potentially
+interesting direction of research is to study if these instruments are indeed
+more common in firms and industries involved in innovation. Francis et al.
+(2009) show that golden parachutes, as well as long-term incentives in the form
+of vested and unvested options, have a positive and significant effect on patents
+and citations to patents. Atanassov (2008) and Sapra, Subramanian, and
+Subramanian (2009) study the effects of corporate governance on innovation.
+Tian and Wang (2010) find that start-up firms financed by venture capitalists
+that are more tolerant of early failures are more innovative.
+   Previous studies such as Lambert (1986) and Feltham and Wu (2001) have
+developed static models in which the optimal compensation that encourages
+risk-taking is convex, resembling a stock option. Other studies derive optimal
+contracts that, for different reasons from that proposed here, involve golden
+parachutes, entrenchment, or option repricing. In a setting in which the man-
+ager observes a private signal about the future prospects of the firm, Inderst
+and Mueller (2010) and Diaz, Rayo, and Sapra (2009) show that stock options
+and golden parachutes may be optimal to induce the manager to reveal infor-
+mation to the board after bad outcomes. In an incomplete contracting frame-
+work, Almazan and Suarez (2003) show that a contract consisting of bonus and
+severance pay may be optimal to induce the incumbent manager to invest in
+firm-specific human capital when there is a threat that a better rival manager
+becomes available. In a setting where the only instruments available to the
+principal are at-the-money call options, Acharya, John, and Sundaram (2000)
+show that option repricing may be optimal because it motivates the agent to
+exert effort after poor performance.
+
+
+B. Bankruptcy Laws and Entrepreneurship
+   Bankruptcy laws in Europe and in the United States have recently been
+under debate. On the one hand, to encourage entrepreneurial activity, in June
+of 2000 the European Council issued the “European Charter for Small Enter-
+prises,” which states that
+  . . . failure is concomitant with responsible initiative and risk-taking and
+  must be mainly envisaged as a learning opportunity.
+The Charter declares that bankruptcy law reforms should become a clear pri-
+ority for Member States and that new bankruptcy laws should allow failed
+entrepreneurs a fresh start. On the other hand, after 8 years of discussion, in
+April of 2005, the U.S. Congress passed a new creditor-friendly bankruptcy law,
+the “Bankruptcy Abuse and Consumer Protection Act,” which makes it more
+difficult for insolvent debtors to obtain exemptions and discharge of obligations.
+  The model developed in this paper sheds light on the incentive effects of dif-
+ferent bankruptcy laws. If the entrepreneur borrows money to undertake some
+project and the project fails, then the entrepreneur will not have the funds to
+pay his debts and will be insolvent. From Propositions 1 and 2, the optimal
+contracts that motivate exploration and exploitation are quite different in the
+                                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1848                             The Journal of FinanceR
+
+way they treat insolvent debtors. The optimal contract that motivates explo-
+ration rewards the agent after failure. One can interpret this as a bankruptcy
+law based on the principle of a fresh start, as it provides the entrepreneur
+with generous exemptions and an immediate full discharge of debt, so that
+the entrepreneur keeps some surplus after failure (in a violation of the abso-
+lute priority of claims). By protecting the entrepreneur against early failure,
+these bankruptcy laws make the entrepreneur more inclined to explore. On the
+other hand, the optimal contract that implements exploitation does not reward
+the agent after failure. One can interpret this as a bankruptcy law based on
+the principle of absolute priority. The creditor seizes the goods owned by the
+entrepreneur and discharge takes several years.
+   A natural question to ask is why governments impose a single mandatory
+bankruptcy law instead of offering a menu of bankruptcy laws that contains
+the optimal law for different situations. By considering the incentives for ex-
+ploration, this paper provides a potential explanation to this question. Due to
+knowledge spillovers and imperfect protection of intellectual property rights,
+individuals involved in exploratory activities cannot fully appropriate the eco-
+nomic value generated by the knowledge they produce. As Nelson (1959) argues,
+this leads to underexploration when compared to the socially efficient level of
+exploration. One way to alleviate the underexploration problem is by imposing
+a debtor-friendly bankruptcy law.
+   There is a large literature on the design of bankruptcy laws. Based on stan-
+dard models of incentives, Jensen (1991) and Aghion, Hart, and Moore (1992)
+are strong proponents of bankruptcy laws that respect the absolute priority of
+claims. Other papers find beneficial effects of deviations from absolute priority.
+For example, Bebchuk and Picker (1993) and Berkovitch, Israel, and Zender
+(1997) show that deviations of absolute priority may encourage investments
+in firm-specific versus general human capital. Baird (1991) and Povel (1999)
+show that deviations of absolute priority induce the entrepreneur to reveal pri-
+vate information to creditors when bad outcomes occur.15 Ayotte (2007) shows
+that a mandatory debtor-friendly bankruptcy law may increase social welfare
+because it prevents the monopolist bank from extracting too much surplus
+from the entrepreneur. Acharya and Subramanian (2009) analyze the effect
+of bankruptcy laws on entrepreneurship using cross-sectional and time-series
+data of several countries, and find that debtor-friendly bankruptcy laws lead
+to more innovation.
+
+
+C. Intrapreneurship in Large Corporations
+  Managers of large corporations often claim that it is hard to motivate their
+employees to be more creative.16 One potential explanation is the difficulty
+
+   15 Landier (2002) develops a model with multiple equilibria in which the stigma of failure may
+
+prevent entrepreneurs from abandoning bad projects.
+   16 “CEO Challenge 2004: Perspectives and Analysis,” The Conference Board, Report 1353
+
+(http://www.conference-board.org/ and http://www.ceochallenge.org/).
+                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                             Motivating Innovation                          1849
+
+large corporations face in credibly promising to reward employees for their
+discoveries and to tolerate early failures. In the case of executive compensation,
+companies can overcome this problem by using stock options with long vesting
+periods, option repricing, golden parachutes, and entrenchment. For lower-
+level employees, however, these types of contracts may not be available, since,
+for example, there may be no verifiable measures of the long-term performance
+of the employee.
+   To overcome these difficulties, business consultants have argued that nur-
+turing a corporate culture that allows freedom to experiment and tolerates
+failures is essential to motivate innovation among employees of large corpo-
+rations. Farson and Keyes (2002) and Sutton (2002) provide several examples
+of innovative corporations, such as IBM and 3M, that adopt such a culture.
+As shown in Proposition 4, the ability to commit to a long-term contract is
+essential to encourage exploration. Promises made in the form of a corporate
+culture can be enforced through reputation. From Proposition 2, a corporate
+culture that tolerates early failure and rewards long-term success is optimal to
+motivate exploration.
+   Innovative organizations may also rely on explicit long-term contracts to
+overcome the commitment problem and induce exploration. For example, re-
+search departments in business or academic organizations often grant tenure
+to their researchers. Knowing that they will not lose their jobs, researchers
+are willing to explore new research directions that are likely to fail but may
+lead to breakthroughs. Even before obtaining tenure, researchers in academic
+organizations are usually given a period of time under which they cannot be
+terminated. From Corollary 1, by committing not to terminate researchers,
+research departments are able to motivate exploration. Researchers are also
+often given explicit rewards for long-term success. Lerner and Wulf (2007) find
+that more long-term incentives to the heads of research and development de-
+partments are associated with more heavily cited patents, while short-term
+incentives are unrelated to measures of innovation.
+   The way a corporation organizes its internal capital markets may also have
+an impact on innovation. Seru (2010) finds evidence that high-level managers
+in conglomerates are more reluctant to invest in novel projects because of the
+threat of relocation of resources by headquarters in the case of failure. Some-
+times a corporation is able to overcome this problem by creating a central fund
+that provides resources for experiments in different units, so that an experi-
+ment failure does not affect the budget situation of the division. Thomke (2002)
+discusses the case of Bank of America, which created a central fund to finance
+experiments and assigned 25 of its branches to be used as real-life laborato-
+ries where new products and service concepts were tested. Consistent with the
+predictions of the model developed here, the incentive scheme of the explo-
+ration team responsible for these branches is very different from the incentive
+schemes of the rest of the workers in Bank of America. Initially, the exploration
+team was assigned a target failure rate of 30%. In the first year of operation,
+the team had only 10% failure. As the leader of the exploration team explained,
+“We are trying to sell ourselves to the bank. If we have too many failures, we
+                                                                                       15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1850                        The Journal of FinanceR
+
+just won’t be accepted” (p. 9). To make it clearer that failures are welcome, the
+top executives of Bank of America were contemplating an increase in the target
+failure rate from 30% to 40%.
+
+
+                          IX. Additional Discussion
+   In the preceding sections of the paper, I assume that the agent is risk-neutral
+and has limited liability. Results similar to those above hold if the agent is risk-
+averse. The critical elements influencing the optimal contracts are the likeli-
+hood ratios between the different action plans, not the agent’s preferences.
+If the agent is risk-neutral, then the problem of finding the optimal contract
+that implements a given action plan simplifies to a linear programming prob-
+lem. This allows me to focus on incentive issues rather than on risk-sharing
+issues.
+   For tractability, I restrict the analysis to a model with two periods and two
+possible outcomes in each period. Having more periods can strengthen the re-
+sults obtained here. As I discuss in Section II, if the agent lives for multiple
+periods, the agent is willing to sacrifice even more output in the first period by
+employing the new work method, since the information learned in the first pe-
+riod can be used for a longer period of time. On the other hand, having multiple
+possible outcomes in each period may change some of the results. For example,
+if the new work method can produce a big success in the first period, then
+it is possible that the optimal contract that implements exploration rewards
+the big success in the first period. Two considerations justify the restriction to
+two possible outcomes. First, most of the studies on innovation point to a high
+rate of failure in innovative projects as the fundamental difference between
+innovative and traditional projects. If this is indeed the case, then even with
+multiple possible outcomes in each period, the principal will still rely on reward
+for early failures as it is the cheapest way to distinguish exploration from ex-
+ploitation. Second, if the agent is risk-averse, then both rewards for failure and
+rewards for big successes will be used. Since the probability of a big success in
+the first period when the agent employs the new work method is usually very
+low, in practice we will see rewards for failure more often than rewards for big
+successes.
+   Lazear (1986) makes the distinction between input-based pay, where the
+principal compensates the agent based on the action taken by the agent, and
+output-based pay, where the principal compensates the agent based on the
+output produced by the agent. I assume in this paper that the principal observes
+only the output produced by the agent, and consequently can only use output-
+based pay. Prendergast (2002) argues that, in uncertain environments, such
+as the innovation environment studied here, it is difficult for the principal to
+evaluate the different projects available to the agent and therefore the principal
+delegates responsibilities to the agent, which in turn leads to output-based
+pay. Even in such uncertain environments, however, a noisy signal about the
+action taken by the agent may be observable by the principal. One can show
+that if such a signal is available for contracting, then the principal uses both
+                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                            Motivating Innovation                          1851
+
+input-based pay and output-based pay to compensate the agent. As the signal
+about the actions taken by the agent becomes more precise, the principal relies
+more on input-based pay, but still relies on output-based pay in the form studied
+in this paper. It is only in the extreme case in which the principal perfectly
+observes the actions taken by the agent that the principal does not rely on
+output-based pay.
+   In the model, the agent chooses between a conventional technology, which
+has known probability of success, and a new technology, which has unknown
+probability of success. In a strict interpretation, the model seems to apply
+better to mature firms (with an existing business to exploit). However, if one
+interprets the agent’s choice as a choice between more innovative and less
+innovative strategies, then it is easy to see that the model can also be applied
+to start-up companies, since entrepreneurs in those companies often face this
+type of decision.
+   The paper analyzes the problem of motivating innovation as an individ-
+ual incentive problem. It is common that an individual, such as a manager
+in an organization, has to choose between more innovative or less innova-
+tive projects. Moreover, there are often performance measures associated with
+the outcome of this choice that can be used to compensate this individual.
+Therefore, modeling the problem as an individual incentive problem seems
+reasonable and produces a rich set of predictions. Since innovation is often
+produced by teams of individuals working together on a problem, it is inter-
+esting to consider the team incentive problem. Ederer (2010b) extends the
+model in this paper to allow for multiple agents and finds some new results
+that arise from the strategic interaction between members of the innovation
+team.
+
+
+                                X. Conclusion
+   This paper proposes a framework to study the incentives for innovation. In
+this framework, innovation is the result of learning through the exploration of
+untested approaches that are likely to fail. As a result, the optimal incentive
+scheme that motivates exploration is fundamentally different from standard
+pay-for-performance schemes used to motivate effort. Tolerance (or even re-
+ward) for early failure, reward for long-term success, excessive continuation,
+commitment to a long-term incentive plan, and timely feedback on performance
+are all important to motivate exploration.
+   Practices such as golden parachutes, managerial entrenchment, and debtor-
+friendly bankruptcy laws protect or even reward the agent when failure occurs.
+These practices are often criticized, because, by protecting or rewarding the
+agent after poor performance, they undermine the incentive for the agent to
+exert effort. This paper shows that these practices may arise as part of an op-
+timal incentive scheme that motivates exploration. Therefore, regulations that
+limit their use may, in some cases, have an adverse effect on innovation. To as-
+sess the actual impact of such regulations, it remains to be studied empirically
+the actual contribution of these practices to innovation.
+                                                                                                         15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1852                          The Journal of FinanceR
+
+   There are several potentially interesting extensions of the theoretical model
+proposed here. For example, if the agent has superior information about his own
+type, then contracts may be used to sort agents. This raises the question of how
+to design contracts that attract creative workers while avoiding conventional
+workers and shirkers. Answers to this problem could be relevant, for example,
+to firms trying to hire a turnaround manager or trying to attract a more creative
+workforce. Another interesting question is the effect of public versus private
+ownership on innovation. Earnings in public companies are transparent to the
+market, which may put pressure on the manager to meet short-term earnings
+expectations, and potentially reduce incentives for innovation. I leave these
+questions for future research.
+   Empirical research mentioned in the paper provides support to some of the
+results derived here. Some of the predictions of the model remain untested
+though, and additional empirical work seems warranted. For example, it would
+be interesting to investigate if the combination of stock options with long vest-
+ing periods, option repricing, golden parachutes, and managerial entrenchment
+is more prevalent in firms for which motivating innovation is important. It
+would also be interesting to study whether more feedback is provided when the
+goal is to motivate exploration. The venture capital industry may be a natu-
+ral place to test this hypothesis as venture capitalists are known to use their
+expertise to provide feedback to entrepreneurs.
+
+
+                                  Appendix: Proofs
+  The following definitions will be useful in stating the incentive compatibility
+constraints:
+                 j 
+             VS w, ik = w S + E[ p j |S, i]w SS + (1 − E[ p j |S, i])w SF ,
+                 j 
+            VF w, ik = w F + E[ pk|F, i]w F S + (1 − E[ pk|F, i])w F F .
+
+
+Proof of Proposition 1: The optimal contract w that implements action plan
+111  satisfies the following incentive compatibility constraints:
+                                           
+                ( p1 − E[ pi ]) VS w, 111 − VF w, 111
+             + E[ pi ]( p1 − E[ p j |S, i])(w SS − w SF )
+             + (1 − E[ pi ])( p1 − E[ pk|F, i])(w F S − w F F ) ≥
+                                                                                                    
+             (c1 + p1 c1 + (1 − p1 )c1 ) − (ci + E[ pi ]c j + (1 − E[ pi ])ck).           ICi j 
+                                                                                               k
+
+
+  First, I show that wF = wFF = wSF = 0. Suppose wF > 0 or wFF > 0. A contract
+w that is the same as w but has wF = 0 and w FF = 0 satisfies all ICi j  and has
+                                                                                  k
+W(w , 111 ) < W(w, 111 ). Suppose now that wSF > 0. Let the contract w be the
+same as w except that w SF = 0, wSS = wSS − wSF and wS = wS + wSF . The
+                                j
+contract w satisfies all ICik , W(w , 111 ) = W(w, 111 ), but w pays the agent
+earlier than w.
+                                                                                                         15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                 Motivating Innovation                                     1853
+
+   I now argue that some incentive compatibility constraints are redundant.
+If (i, j) = (1, 1), then it follows from IC110  and ICi j  that ICi j  are redundant. If
+                                                           1             0
+(i, k) = (1, 1), then it follows from IC101  and ICi1k  that ICi0k  are redundant. If
+  j
+ik  = 221  and either i = 2, j = 2, or k = 2, then it follows from c2 /c1 ≥ (E[p2 ] −
+p0 )/(p1 − p0 ) that ICi j  is redundant. Rewriting the incentive compatibility
+                             k
+constraints that are not redundant, we have:
+                                                                                            
+                                     ( p1 − p0 )w SS ≥ c1 ,                         IC101 
+
+                                                                                                    
+                                    ( p1 − p0 )w F S ≥ c1 ,                            IC110 
+
+                                                                                                
+               ( p1 − p0 )w S + p12 − p0 p1 w SS − p12 − p0 p1 w F S ≥ c1 ,               IC011 
+and
+                                                                          
+       ( p1 − E[ p2 ])w S + p12 − E[ p2 ]E[ p2 |S, 2] w SS − p12 − E[ p2 ] p1 w F S ≥
+                c1 − c2 +E[ p2 ](c1 − c2 ).                                          (IC 2 )  21 
+
+I now show that IC101  and IC110  are binding. If that is not the case, then either
+                                                   c1
+                                1 ≡ w SS −             >0
+                                                p1 − p0
+or
+                                                   c1
+                                2 ≡ w SF −             > 0.
+                                                p1 − p0
+Let w be the same as w except that w SS = wSS − 1 , wS = wS + p1 1 , wFS =
+wFS − 2 , and wF = wF + (1 − p1 )2 . The contract w satisfies the above
+constraints, W(w , 111 ) = W(w, 111 ), and w pays the agent earlier than w.
+The incentive compatibility constraints IC221  and IC011  then become
+                                                                                    
+                              ( p1 − p0 )w S ≥ c1                           IC011 
+
+                                                                        c1
+                   ( p1 −E[ p2 ])w S + E[ p2 ](E[ p2 |S, 2] − p1 )                                  
+                                                                     p1 − p0              IC221 
+                       ≥ c1 − c2 + E[ p2 ](c1 − c2 ).
+If c2 /c1 ≥ β 1 , then IC011  is binding. Otherwise, IC221  is binding.
+Proof of Proposition 2: The optimal contract w that implements action plan
+221  satisfies the following incentive compatibility constraints:
+                                 
+(E[ p2 ] −E[ pi ]) VS w, 221 − VF w, 221
+        + E[ pi ](E[ p2 |S, 2] − E[ p j |S, i])(w SS − w SF )
+        + (1 − E[ pi ])( p1 − E[ pk|F, i])(w F S − w F F ) ≥
+                                                                                                    
+        (c2 + E[ p2 ]c2 + (1 − E[ p2 ])c1 ) − (ci + E[ pi ]c j + (1 − E[ pi ])ck).        ICi j 
+                                                                                                k
+                                                                                                            15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1854                              The Journal of FinanceR
+
+  First, I show that wS = wSF = wFF = 0. Suppose wS > 0. Let w be the
+same as w except that w S = 0, w SS = w SS + E[ pw2 |S,2]  S
+                                                               − . There exists an  > 0
+such that the contract w satisfies all ICi j  and W(w , 221 ) < W(w, 221 ). Now
+                                                    k
+suppose wSF > 0. Let the contract w be the same as w except that w SF = 0 and
+                       p2 |S,2]
+w SS = w SS + 1−E[E[ p2 |S,2]
+                                w SF − . There exists an  > 0 such that the contract w
+satisfies all ICi j  and W(w , 221 ) < W(w, 221 ). Finally, suppose wFF > 0. If the
+                   k
+contract w is the same as w, except that wFF = 0, and wF = wF + (1 − p1 )wFF ,
+then all ICi j  are still satisfied, W(w , 221 ) = W(w, 221 ), and the contract w
+              k
+pays the agent earlier than w.
+  If follows from IC220  and ICij  that ICij  and ICij  are redundant. From
+                                          1             0            2
+
+IC220  , we have that w F S ≥ p1c−1 p0 and ICij  implies ICij  . Since c2 ≥ E[pp12−]−p0p0 c1 ,
+                                                 1               0
+ICij  implies ICij  .
+    1               2
+  Rewriting the incentive compatibility constraints that are not redundant, we
+have:
+                                                                                                 
+                              ( p1 − p0 )(w F S − w F F ) ≥ c1 ,                         IC220 
+
+
+          (E[ p2 ]E[ p2 |S, 2] − p1 E[ p j ])w SS + ( p1 − E[ p2 ])w F
+                                + ((1 − E[ p2 ]) p1 − (1 − p1 ) p0 )w F S
+                                ≥ (c2 + E[ p2 ]c2 + (1 − E[ p2 ])c1 ) − (c1 + p1 c j ), IC             
+                                                                                                   j
+                                                                                                11 
+
+
+              (E[ p2 ]E[ p2 |S, 2] − p0 E[ p j ])w SS − (E[ p2 ] − p0 )w F
+                                   + ((1 − E[ p2 ]) p1 − (1 − p0 ) p0 )w F S
+                                   ≥ (c2 + E[ p2 ]c2 + (1 − E[ p2 ])c1 ) − p0 c j ,                    
+                                                                                             IC0 j 
+                                                                                                   1
+
+
+and
+                                                                                                    
+                             (E[ p2 |S, 2] − E[ p j ])w SS ≥ c2 − c j .                     IC2 j 
+                                                                                                   1
+
+
+
+
+  The incentive compatibility constraint IC220  is binding and w F S = p1c−1 p0 . Sup-
+pose w F S > p1c−1 p0 . If the contract w is the same as w, except that w F S = p1c−1 p0 ,
+and w F = wF + (1 − p1 )(wFS − w FS ), then all ICij  are still satisfied,
+                                                                          1
+W(w , 221 ) = W(w, 221 ), and the contract w pays the agent earlier than w.
+On the other hand, the incentive compatibility constraints IC121  , IC101  , IC211  ,
+and IC201  are redundant. If c2 ≥ c1 , IC111  implies IC121  , and if c2 < c1 , IC121 
+is trivially satisfied. Also, IC011  and IC012  imply IC101  . Moreover, IC021  implies
+                               p1 −E[ p2 ]
+IC201  . Finally, IC111  + E[ p2 ]− p0
+                                           IC011  implies IC211  .
+                                                                       1 −c2
+  If c2 /c1 ≥ β 2 , then one can show that w SS ≥ p1c−1 p0 ≥ p1c−E[        p2 ]
+                                                                                . Therefore, IC011 
+implies IC001  and IC021  . Either wF > 0 and IC111  and IC011  are binding, or
+wF = 0 and IC111  is binding. When IC111  and IC011  are binding, the contract
+                                                                                                          15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Motivating Innovation                                   1855
+
+is always feasible. Comparing the promised wages in each of the two possible
+contracts one can show that when
+                                  1 − E[ p2 ]   E[ p2 ]E[ p2 |S, 2]
+                                              ≥                     ,
+                                    1 − p1              p12
+the former contract is less costly for the principal than the latter contract.
+Otherwise, the latter contract is less costly.
+  If c2 /c1 < β 2 , then the candidate for the optimal contract is such that IC0j 
+                                                                                                      1
+                                           0j1
+and IC220  are binding, wSS = w SS , and wF = 0, where
+
+                                       0j̃ 1         (1 + E[ p2 ])c2 − p0 cj̃
+                j ∈ arg max          w SS ≡
+                      j̃ ∈{0,1}                  (E[ p2 ]E[ p2 |S, 2] − p0 E[ pj̃ ])
+                                                                            c1
+                                                      (E[ p2 ] − p0 ) p0
+                                                                         p1 − p0
+                                                 +                                     .
+                                                   (E[ p2 ]E[ p2 |S, 2] − p0 E[ pj̃ ])
+I first prove that the candidate contract is feasible. For that it suffices to show
+that IC111  is satisfied. If E[p2 ]E[p2 |S, 2] ≥ p21 , then IC011  implies IC111  . If
+E[p2 ]E[p2 |S, 2] < p21 ,
+                                                                            c1
+                                                     (E[ p2 ] − p0 ) p0
+            0 j1    (1  +  E[ p2 ])β  c
+                                    2 1 −  p c
+                                            0 1                         p1 − p0
+          w SS <                                   +
+                   (E[ p2 ]E[ p2 |S, 2] − p0 p1 ) (E[ p2 ]E[ p2 |S, 2] − p0 p1 )
+                                                                                c1
+                                                         ( p1 − E[ p2 ]) p0
+                   (1 + E[ p2 ])β2 c1 − (1 + p1 )c1                          p1 − p0
+                 =                                −
+                        E[ p2 ]E[ p2 |S, 2] − p12       (E[ p2 ]E[ p2 |S, 2] − p0 p1 )
+                                                                             c1
+                                                      ( p1 − E[ p2 ]) p0
+                   (1 + E[ p2 ])c2 − (1 + p1 )c1                         p1 − p0
+                 <                              −                                 .
+                      E[ p2 ]E[ p2 |S, 2] − p12      (E[ p2 ]E[ p2 |S, 2] − p0 p1 )
+                                                                   0j1
+In addition, IC0j  is not satisfied for any wSS < w SS . Therefore, it is impossible
+                 1
+to improve on the candidate contract. 
+Proof of Proposition 3: The proof of the proposition follows from the fact that
+IC101  and IC110  are binding under the optimal long-term contract. 
+
+Proof of Proposition 4: To implement 221 , the following incentive compatibil-
+ity constraints must be satisfied:
+                              
+(E[ p2 ] −E[ pi ]) VS w, 221 − VF w, 221
+        + E[ pi ](E[ p2 |S, 2] − E[ p j |S, i])(w SS − w SF )
+        + (1 − E[ pi ])( p1 − E[ pk|F, i])(w F S − w F F )
+        ≥ (c2 + E[ p2 ]c2 + (1 − E[ p2 ])c1 ) − (ci + E[ pi ]c j + (1 − E[ pi ])ck).       (ICi j  )
+                                                                                                  k
+
+
+Moreover, for the contract to be renegotiation-proof, we must have j, k ∈ I such
+that IC2j  and IC22k  bind.
+          1
+                                                                                                      15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1856                             The Journal of FinanceR
+
+  If c2 ≥ E[ p2p|S,2]−
+                1 − p0
+                       p0
+                          c1 , from IC211  we have that
+
+                                                c2 − c1
+                                  w SS =                     ,
+                                           E[ p2 |S, 2] − p1
+
+
+                                           w SF = 0.
+                            p1 −E[ p2 ]
+This contradicts IC111  + E[ p2 ]− p0
+                                        IC011 . Therefore, 221  is not implementable
+with a sequence of short-term contracts if c2 ≥ E[ p2p|S,2]−
+                                                      1 − p0
+                                                             p0
+                                                                c1 . If c2 < E[ p2p|S,2]−
+                                                                                   1 − p0
+                                                                                          p0
+                                                                                             c1 ,
+from IC2 01  we have that
+
+                                                   c2
+                                  w SS =                     ,
+                                           E[ p2 |S, 2] − p0
+
+
+                                           w SF = 0.
+
+From IC2 2k  , k ∈ {0, 2} we have that
+
+                                                   c1
+                                       wF S =           ,
+                                                p1 − p0
+
+
+                                           w F F = 0.
+
+  Using the above equations, we can rewrite the following incentive compati-
+bility constraints:
+
+                                      c2 (1 − p0 )         c1
+                              wS ≥                 + p0         ,                       (IC021  )
+                                      E[ p2 ] − p0      p1 − p0
+
+
+                           c2 (E[ p2 |S, 2] − p0 (1 − ( p1 − E[ p2 ])))
+                  wS ≥
+                                (E[ p2 |S, 2] − p0 )(E[ p2 ] − p0 )
+                               c1 p0 (E[ p2 |S, 2] − p0 )              c1               (IC011  )
+                       −                                       + p0         ,
+                           (E[ p2 |S, 2] − p0 )(E[ p2 ] − p0 )      p1 − p0
+and
+                                                            
+                    c2 E[ p2 |S, 2] − p0 (1 + E[ p2 ]) + p02           c1
+               wS ≥                                            + p0         .           (IC00k  )
+                        (E[ p2 |S, 2] − p0 )(E[ p2 ] − p0 )         p1 − p0
+
+It is easy to show that given c2 < E[ p2p|S,2]−
+                                          1 − p0
+                                                 p0
+                                                    c1 , IC001  implies IC011  and IC021  .
+Therefore, from IC001  , our candidate for wS is
+
+                                c2               p0 c2              c1
+                  wS =                  −                   + p0         .
+                           E[ p2 ] − p0   E[ p2 |S, 2] − p0      p1 − p0
+                                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                   Motivating Innovation                                   1857
+
+It can be shown that the candidate contract satisfies all other incentive com-
+patibility constraints if and only if
+                                   (E[ p2 |S, 2] − p0 )(1 + p1 )
+                        c2 <                                          c1 .
+                                           E[ p2 |S, 2] − p0
+                               ( p1 − p0 )                   + p1
+                                             E[ p2 ] − p0
+
+In this case, the sequence of short-term contracts derived above is the optimal
+sequence of short-term contracts. 
+Proof of Proposition 5: The proof is similar to the proof of Proposition 2. 
+Proof of Corollary 1: The proof follows from comparing the costs of imple-
+menting exploration and exploration with termination from the contracts de-
+rived in Propositions 2 and 5. If c2 /c1 > max (κ m , κ e )β 2 + (1 − max (κ m , κ e ))β 5 ,
+then W(w2 , 221 ) − W(w5 , 22t ) > (1 − E[ p2 ]) p1 α2 and there is inefficient contin-
+uation with exploration. If c2 /c1 < max (κ m , κ e )β 2 + (1 − max (κ m , κ e ))β 5 , then
+W(w2 , 221 ) − W(w5 , 22t ) < (1 − E[ p2 ]) p1 α2 and there is inefficient termination
+with exploration. 
+Proof of Proposition 6: Action plan 221  can only be implemented if the prin-
+cipal provides feedback on performance to the agent. 
+
+
+                                      REFERENCES
+Acemoglu, Daron, Simon Johnson, and James Robinson, 2002, Reversal of fortune: Geography
+    and institutions in the making of the modern world income distribution, Quarterly Journal of
+    Economics 117, 1231–1294.
+Acharya, Viral, Ramin Baghai-Wadji, and Krishnamurthy Subramanian, 2009, Labor laws and
+    innovation, Working paper, London Business School.
+Acharya, Viral, Kose John, and Rangarajan Sundaram, 2000, On the optimality of resetting exec-
+    utive stock options Journal of Financial Economics 57, 65–101.
+Acharya, Viral, and Krishnamurthy Subramanian, 2009, Bankruptcy codes and innovation, Review
+    of Financial Studies 22, 4949–4988.
+Aghion, Philippe, 2002, Schumpeterian growth theory and the dynamics of income inequality,
+    Econometrica 70, 855–882.
+Aghion, Philippe, Oliver Hart, and John Moore, 1992, The economics of bankruptcy reform, Journal
+    of Law, Economics, and Organizations 8, 523–546.
+Aghion, Philippe, and Peter Howitt, 1992, A model of growth through creative destruction, Econo-
+    metrica 60, 323–352.
+Aghion, Philippe, and Jean Tirole, 1994, The management of innovation, Quarterly Journal of
+    Economics 109, 1185–1209.
+Almazan, Andres, and Javier Suarez, 2003, Entrenchment and severance pay in optimal gover-
+    nance structures, Journal of Finance 58, 519–548.
+Arrow, Kenneth, 1969, Classificatory notes on the production and diffusion of knowledge, American
+    Economic Review 59, 29–35.
+Atanassov, Julian, 2008, Quiet life or managerial myopia: Is the threat of hostile takeovers bene-
+    ficial for technological innovation? Working paper, University of Oregon.
+Ayotte, Kenneth, 2007, Bankruptcy and entrepreneurship: The value of a fresh start, Journal of
+    Law, Economics and Organization 23, 161–185.
+Azoulay, Pierre, Joshua Graff Zivin, and Gustavo Manso, 2010, Incentives and creativity: Evidence
+    from the academic life sciences, Working paper, MIT Sloan School of Management.
+                                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1858                             The Journal of FinanceR
+
+Baird, Douglas, 1991, The initiation problem in bankruptcy, International Review of Law and
+    Economics 11, 223–232.
+Battacharya, Sudipto, Kalyan Chatterjee, and Larry Samuelson, 1986, Sequential research and
+    the adoption of innovations, Oxford Economic Papers 38, 219–243.
+Bebchuk, Lucian, and Jesse Fried, 2004, Pay Without Performance (Harvard University Press,
+    Cambridge, MA).
+Bebchuk, Lucian, and Randal Picker, 1993, Bankruptcy rules, managerial entrenchment, and
+    firm-specific human capital, Working paper, Law & Economics Working Paper No. 16, The
+    University of Chicago Law School.
+Bekaert, Geert, Campbell Harvey, and Christian Lundblad, 2005, Does financial liberalization
+    spur growth? Journal of Financial Economics 77, 3–55.
+Bergemann, Dirk, and Ulrich Hege, 2005, The financing of innovation: Learning and stopping,
+    Rand Journal of Economics 36, 719–752.
+Bergemann, Dirk, and Juuso Valimaki, 2006, Bandit problems, in S. Durlauf, and L. Blume, eds.
+    The New Palgrave Dictionary of Economics (Macmillan Press, Basingstoke, UK).
+Berkovitch, Elazar, Ronen Israel, and Jaime Zender, 1997, Optimal bankruptcy law and firm-
+    specific investments, European Economic Review 41, 487–497.
+Berle, Adolph, and Gardiner Means, 1932, The Modern Corporation and Private Property (Macmil-
+    lan, New York, NY).
+Berry, Donald, and Bert Fristedt, 1985, Bandit Problems: Sequential Allocation of Experiments
+    (Chapman and Hall, New York, NY).
+Burkart, Mike, Denis Gromb, and Fausto Panunzi, 1997, Large shareholders, monitoring, and the
+    value of the firm, Quarterly Journal of Economics 112, 693–728.
+Bushee, Brian, 1998, The influence of institutional investors on myopic R&D investment behavior,
+    Accounting Review 73, 305–333.
+Dechow, Patricia, and Richard Sloan, 1991, Executive incentives and the horizon problem, Journal
+    of Accounting and Economics 14, 51–89.
+Diaz, Miguel, Luis Rayo, and Haresh Sapra, 2009, Market pressure, control rights, and innovation,
+    Working paper, University of Chicago Graduate School of Business.
+Ederer, Florian, 2010a, Feedback and motivation in dynamic tournaments, Journal of Economics
+    & Management Strategy 19, 733–769.
+Ederer, Florian, 2010b, Launching a thousand ships: Incentives for parallel innovation, Working
+    paper, UCLA.
+Ederer, Florian, and Gustavo Manso, 2010, Is pay-for-performance detrimental to innovation?
+    Working paper, MIT.
+Farson, Richard, and Ralph Keyes, 2002, Whoever Makes the Most Mistakes Wins: The Paradox of
+    Innovation (The Free Press, New York, NY).
+Feltham, Gerald, and Martin Wu, 2001, Incentive efficiency of stock versus options, Review of
+    Accounting Studies 6, 7–28.
+Francis, Bill, Iftekhar Hasan, and Zenu Sharma, 2009, Do incentives create innovation? Evidence
+    from CEO compensation contracts, Working paper, Rensselaer Polytechnic Institute.
+Fuchs, William, 2007, Contracting with repeated moral hazard and private evaluations, American
+    Economic Review 73, 1432–1448.
+Fudenberg, Drew, Bengt Holmstrom, and Paul Milgrom, 1990, Short-term contracts and long-term
+    agency relationships, Journal of Economic Theory 51, 1–31.
+Gompers, Paul, and Josh Lerner, 2004, The Venture Capital Cycle (MIT Press, Cambridge,
+    MA).
+Graham, John, Campbell Harvey, and Shiva Rajgopal, 2005, The economic implications of corporate
+    financial reporting, Journal of Accounting and Economics 40, 3–73.
+Harris, Milton, and Artur Raviv, 1978, Some results on incentive contracts with applications to
+    education, insurance, and law enforcement, American Economic Review 68, 20–30.
+Hellmann, Thomas, 2007, When do employees become entrepreneurs? Management Science 53,
+    919–933.
+Hellmann, Thomas, and Veikko Thiele, 2008, Incentives and innovation inside firms: A multi-
+    tasking approach, Working paper, University of British Columbia.
+                                                                                                     15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                  Motivating Innovation                                    1859
+
+Hermalin, Benjamin, and Michael Katz, 1991, Moral hazard and verifiability: The effects of rene-
+    gotiation in agency, Econometrica 59, 1735–1753.
+Holmstrom, Bengt, 1979, Moral hazard and observability, Bell Journal of Economics 10, 74–
+    91.
+Holmstrom, Bengt, 1989, Agency costs and innovation, Journal of Economic Behavior and Orga-
+    nization 12, 305–327.
+Holmstrom, Bengt, and Paul Milgrom, 1991, Multi-task principal-agent analysis, Journal of Law,
+    Economics, and Organizations 7, 24–52.
+Inderst, Roman, and Holger Mueller, 2010, CEO replacement under private information, Review
+    of Financial Studies 23, 2935–2969.
+Jensen, Michael, 1991, Corporate control and the politics of finance, Journal of Applied Corporate
+    Finance 4, 13–33.
+Jensen, Richard, 1982, Adoption and diffusion of an innovation of uncertain probability, Journal
+    of Economic Theory 27, 182–193.
+Jovanovic, Boyan, and Yaw Nyarko, 1996, Learning by doing and the choice of technology, Econo-
+    metrica 64, 1299–1310.
+Jovanovic, Boyan, and Rafael Rob, 1990, Long waves and short waves: Growth through intensive
+    and extensive search, Econometrica 58, 1391–1409.
+King, Robert, and Ross Levine, 1993, Finance and growth: Schumpeter might be right, Quarterly
+    Journal of Economics 108, 717–737.
+La Porta, Rafael, Florencio Lopez-de Silanes, Andrei Shleifer, and Robert Vishny, 1997, Legal
+    determinants of external finance, Journal of Finance 52, 1131–1150.
+Lambert, Richard, 1986, Executive effort and selection of risky projects, The Rand Journal of
+    Economics 17, 77–88.
+Landier, Augustin, 2002, Entrepreneurship and the stigma of failure, Working paper, University
+    of Chicago Graduate School of Business.
+Lazear, Edward, 1986, Salaries and piece rates, The Journal of Business 59, 405–431.
+Lerner, Josh, and Julie Wulf, 2007, Innnovation and incentives: Evidence from corporate R&D,
+    Review of Economics and Statistics 89, 634–644.
+Lizzeri, Alessandro, Margaret Meyer, and Nicola Persico, 2002, The incentive effects of interim
+    performance evaluations, Working paper, CARESS.
+March, James, 1991, Exploration and exploitation in organizational learning, Organization
+    Science 2, 71–87.
+Moscarini, Giuseppe, and Lones Smith, 2001, The optimal level of experimentation, Econometrica
+    69, 1629–1644.
+Myers, Stewart, 2000, Outside equity, Journal of Finance 55, 1005–1037.
+Narayanan, M. P., 1985, Managerial incentives for short-term results, Journal of Finance 15,
+    1469–1484.
+Nelson, Richard, 1959, The simple economics of basic scientific research, Journal of Political
+    Economy 67, 297–306.
+Povel, Paul, 1999, Optimal “soft” or “tough” bankruptcy procedures, Journal of Law, Economics
+    and Organization 15, 659–684.
+Prendergast, Canice, 2002, The tenuous trade off between risk and incentives, Journal of Political
+    Economy 110, 1071–1102.
+Rajan, Raghuram, and Luigi Zingales, 1998, Financial dependence and growth, American Eco-
+    nomic Review 88, 559–586.
+Ray, Korok, 2007, Performance evaluation and efficient sorting, Journal of Accounting Research
+    45, 839–882.
+Roberts, Kevin, and Martin Weitzman, 1981, Funding criteria for research, development, and
+    exploration projects, Econometrica 49, 1261–1288.
+Romer, Paul, 1986, Increasing returns and long-run growth, Journal of Political Economy 94,
+    1002–1037.
+Sapra, Haresh, Ajay Subramanian, and Krishnamurthy Subramanian, 2009, Corporate gover-
+    nance and innovation: Theory and evidence, Working paper, University of Chicago Graduate
+    School of Business.
+                                                                                                    15406261, 2011, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2011.01688.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+1860                             The Journal of FinanceR
+
+Schumpeter, Joseph, 1934, The Theory of Economic Development (Harvard University Press,
+    Cambridge, MA).
+Seru, Amit, 2010, Do conglomerates stifle innovation? Firm boundaries matter: Evidence from
+    congloneratey and R&D activity, Journal of Financial Economics, forthcoming.
+Shleifer, Andrei, and Robert Vishny, 1990, Equilibrium short horizons of investors and firms,
+    American Economic Review 80, 148–153.
+Stein, Jeremy, 1988, Takeover threats and managerial myopia, Journal of Political Economy 96,
+    61–80.
+Stein, Jeremy, 1989, Efficient capital markets, inefficient firms: A model of corporate behavior,
+    Quarterly Journal of Economics 104, 655–669.
+Stiglitz, Joseph, and Andrew Weiss, 1983, Incentive effects of termination: Applications to the
+    credit and labor markets, American Economic Review 73, 912–927.
+Sutton, Robert, 2002, Weird Ideas that Work: 11 1/2 Practices for Promoting, Managing, and
+    Sustaining Innovation (The Free Press, New York, NY).
+Thomke, Stefan, 2002, Bank of America, Harvard Business School case studies 9–603–022 and
+    9–603–023 (Harvard Business School Publishing, Boston, MA).
+Tian, Xuan, and Tracy Wang, 2010, Tolerance for failure and corporate innovation, Working paper,
+    Indiana University.
+Weitzman, Martin, 1979, Optimal search for the best alternative, Econometrica 47, 641–654.
+Zwiebel, Jeffrey, 1995, Corporate conservatism and relative compensation, Journal of Political
+    Economy 103, 1–25.
+

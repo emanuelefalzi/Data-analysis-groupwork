@@ -1,0 +1,1205 @@
+Journal   of Financial   Economics    35 (1994) 293-316.   North-Holland
+
+
+
+
+Venture capitalists                               and the decision
+to go public*
+
+Joshua       Lerner
+Harvard Business School. Boston, MA 02163. USA
+
+Received September       1992, final version   received August   1993
+
+
+
+This paper examines the timing of initial public offerings and private financings          by venture
+capitalists. Using a sample of 350 privately held venture-backed biotechnology    firms between 1978
+and 1992, I show that these companies go public when equity valuations         are high and employ
+private financings when values are lower. Seasoned venture capitalists appear to be particularly
+proficient at taking companies public near market peaks. The results are robust to a variety of
+controls and alternative explanations.
+
+Key words: Venture capital; Initial public offerings;      Financing    strategy
+JEL classification: G24; G32
+
+
+
+1. Introduction
+
+    This paper examines the ability of venture capitalists to time initial public
+offerings (IPOs) by going public when equity values are high and using private
+financings when values are lower. Venture capitalists, who specialize in provid-
+ing funds to privately held firms, generate the bulk of their profits from firms
+that go public. A Venture Economics study (1988a) finds that a $1 investment in
+a firm that goes public provides an average cash return of $1.95 beyond the
+initial investment  with an average holding period of 4.2 years. The next best
+
+Correspondence to: Joshua Lerner, Graduate School of Business Administration,         Harvard   Univer-
+sity, Morgan Hall, Soldiers Field, Boston, MA 02163, USA.
+   *I thank for their suggestions Carliss Baldwin, Gary Chamberlain.    Richard Caves, Joetta Forsyth,
+Stuart Gilson, Paul Gompers, Zvi Griliches (my dissertation      chair), Michael Jensen (the editor),
+Steven Kaplan, Lisa Meulbroek, Jay Ritter (the referee), Richard Ruback, William Sahlman, Andrei
+Shleifer, Erik Sirri, Howard Stevenson       Peter Tufano, Michael Vetsuypens,      and Karen Wruck.
+Assistance in obtaining data was provided by Jesse Reyes of Venture Economics, Mark Edwards of
+Recombinant     Capital, and Mark Dibner of the North Carolina          Biotechnology     Center, and is
+gratefully acknowledged.     Financial support was provided by the Consortium       on Competitiveness
+and Cooperation;     the Center for Science and International   Affairs, John F. Kennedy School of
+Government,     Harvard   University: and the Division of Research, Harvard        Business School. All
+errors and omissions are my own.
+
+
+0304-405X/94/$07.00      0   1994-Elsevier      Science BV. All rights reserved
+294                                J. Lerner, Vmture capitalists
+
+
+alternative,   an investment    in an acquired firm, yields a cash return of only 40
+cents over a 3.7-year mean holding period.
+   I use a sample of 350 privately held biotechnology             firms financed by venture
+capitalists between January 1978 and September 1992. I examine not only the
+timing of their IPOs, but also their private financings.                  I show that venture
+capitalists successfully time IPOs by being more likely to take companies public
+when their valuations are at their absolute and short-run peaks. I also show that
+experienced venture capitalists appear to be more proficient in timing IPOs than
+their less experienced counterparts.
+   I focus on the biotechnology        industry because the development             of a bioen-
+gineered pharmaceutical        or agricultural      product typically takes more than
+a decade. Biotechnology        firms remain in a research-and-development                 phase
+until well after going public. These firms mature slowly, and do not incur large
+up-front costs in building manufacturing           facilities. Venture capitalists provide
+funds in stages, with each financing round accompanied                   by a formal review of
+the firm’s status. Each round involves an explicit decision to go public or remain
+private. Therefore, venture investors in biotechnology               firms have the flexibility
+to try to time their IPOs according to market conditions.                   For IPOs in other
+industries, the demand for capital and the changing need for oversight by active
+investors may be more important            to the decision to go public than market
+conditions. Thus, my sample provides an opportunity                 for a more precise test of
+the ability to time IPOs.’ The analysis suggests that the positive correlation
+between IPO volume and public equity market valuations                      is due not only to
+greater financing activity when investment           opportunities       are good, but also to
+the substitution    of public for private equity.
+   Successful timing of the IPO market provides significant benefits to venture
+capitalists, even through they rarely sell shares at the time of the offering [Barry,
+Muscarella,     Peavy, and Vetsuypens         (1990)]. Taking companies           public when
+equity values are high minimizes the dilution of the venture investors’ ownership
+stake. Models of sequential stock sales [Allen and Faulhaber                  (1989) Grinblatt
+and Hwang (1989) Welch (1989)] suggest a second rationale for timing the IPO.
+The deliberate underpricing       of a new issue, which may be easier to accomplish in
+a hot market, ‘leaves a good taste’ with investors. These investors are then more
+willing to purchase shares in follow-on offerings.
+   Venture capitalists have several mechanisms             to insure that firms go public at
+times that they perceive as optimal. Venture investors usually have several
+board seats and powerful control rights, including the right to put their shares to
+the firm’s management         [Barry, Peavy, Muscarella,             and Vetsuypens      (1990)
+
+   ‘lbbotson and Jaffe (1975) and Ritter (1984) document ‘hot issue’ markets, while Ritter (1991) and
+Loughran and Ritter (1993) show that the poor long-run returns from investments in IPOs are due
+both to their poor performance relative to the market and their concentration  around equity market
+peaks. The ‘impresario hypothesis’ of Shiller (1990) and Shiller and Pound (1989) suggests that IPOs
+are subject to fads, which underwriters   exploit by rushing firms to the market.
+                                  J. Lerner.   Venture capitalists                         295
+
+
+ Sahlman (1990)]. Probably more important is their activity as informal advisors
+to managers. Since 30% of the firms backed by venture capitalists over the past
+ two decades have gone public (the remainder             are liquidated   or acquired in
+ roughly equal proportions      [Venture Economics (1988a)]), the venture investors
+ have usually experienced many more IPOs than the firm’s managers. Conse-
+ quently, the venture capitalists may take the lead in deciding when and how
+ a firm should go public.
+    The sample also enables me to isolate the impact of investor characteristics       on
+ IPO timing. The 1978-1992 period was characterized             by diverse venture inves-
+ tors. Freed by a 1979 Department            of Labor policy statement      to enter into
+ venture partnerships,   pension funds invested heavily during the sample period.
+This led to extensive entry on the part of new venture partnerships.          The pool of
+ venture capital under management           increased sixfold from 1978 to 1990 (ad-
+justed by the Gross Domestic Product deflator). The wide range of experience
+ among venture capitalists during the sample period makes it easier to identify
+ the influence of venture experience.
+    The structure of this article is as follows: section 2 describes the construction   of
+ the data set. In section 3, I present the empirical results and check their robust-
+ ness. In section 4, I examine two alternative         hypotheses. Section 5 concludes
+ the paper.
+
+
+
+2. The sample
+
+2. I. The jinancing    data set
+
+   In contrast to earlier studies of IPO timing and performance, I examine both
+public and private financings.      Information      on venture capital investments          is
+difficult to gather from public sources. Unlike mutual funds, venture capitalists
+need not reveal in public filings all their investments. Thus, the primary sources
+of public information     are the companies in which they invest. For the subset of
+venture-backed     firms that eventually go public, information        is available in IPO
+prospectuses and S-l registration       statements. Investments      in firms that do not
+go public are more difficult to uncover, since these investments            are not usually
+publicized.
+   The relative performance of venture funds is an important issue for investors.
+Venture capitalists     typically raise funds every few years; limited partners
+(wealthy individuals, endowments,        and institutional  investors) provide the bulk
+of the capital. An investment      in a venture fund is almost always for at least
+a ten-year period, and funds may only be withdrawn under extreme circumstan-
+ces. Thus, potential investors scrutinize the performance          of venture capitalists’
+past funds. While venture partnerships           present historical performance          data
+in offering documents,       the methodology       of these calculations       is frequently
+296                                  J. Lerner. Venture capitalists
+
+
+idiosyncratic.    Furthermore,   because the IPO market is so variable, potential
+investors usually look for a measure of relative, rather than absolute, perfor-
+mance.
+   Venture Economics (1991) addresses the need for information        on performance
+by confidentially     gathering data from venture funds and institutional    investors.
+The organization,       formed in 1961 to track the venture capital industry, has
+compiled two databases since 1977. One reports on the performance of venture
+funds, the other on venture investments.       I use the investment   database as the
+source for this analysis. It includes the dates of venture financings, the investors
+in each round, and the amount of funds disbursed. It includes firms that did and
+did not go public2 In a companion        paper to this [Lerner (1993)], I analyze the
+completeness     and accuracy of the Venture Economics database. I conclude that
+the database is comprehensive,        and accurately   depicts the amount of funds
+disbursed. In the case of older firms with many venture investors, however, there
+is a tendency to include multiple entries for a single venture round.
+   I confirm - and, if necessary, correct - the information           in the Venture
+Economics database, using the following procedure:
+
+
+l   Firms included in Recombinant Capital database. Recombinant               Capital (1991,
+    1992) is a San Francisco-based        firm that specializes in collecting information
+    on the biotechnology     industry. The firm compiles data on venture financings
+    from Securities and Exchange Commission             (SEC) filings by public firms and
+    state filings by private firms. In many states, privately held firms must provide
+    detailed financial data to state authorities       that becomes a part of the public
+    record. The firm publishes round-by-round          summaries of venture investments
+    in biotechnology     companies.     I compare the Venture Economics records to
+    those of Recombinant        Capital. If they are the same, I consider the Venture
+    Economics     records as corroborated.        If they conflict, and SEC filings are
+    available, I use these filings to resolve the conflict. If the databases conflict, and
+    SEC filings are not available,          I rely on company      and venture capitalist
+    contacts. If I am unable to make any contacts, I use the Venture Economics
+    data. I do not include as external financing rounds situations where founders
+    contributed    a small amount of funds (typically under $20,000) in exchange for
+    common stock, or bridge loans by venture capital providers in the six months
+    prior to the IPO, due immediately after the offering. These entries are relative-
+    ly infrequent in the Venture Economics data set.
+l   Firms with SEC$lings        not included in Recombinant Capital database. A firm
+    going public discloses its investors in its prospectus (the ‘Certain Transactions’
+    and ‘Financial    Statements’ sections) and the accompanying            S-l registration
+
+
+   ‘For firms that went public, Barry, Muscarella,   Peavy, and Vetsuypens (1990) and Megginson and
+Weiss (1991) used information   from the database    published in Venture Economics’ Venture Capital
+Journal.
+                                J. Lerner,   Venture capitalists                    297
+
+
+    statement    (the ‘Recent Sales of Non-Registered      Securities’ section and ex-
+    hibits). Detailed financial information    is often available about private firms
+    that have been acquired by public firms in the acquirers’ proxy, 10-K, or IO-Q
+    statements. Information     on firms that file for an aborted IPO is available in
+    the ultimately withdrawn registration statements. Using these records, I com-
+    pare the Venture Economics records to the SEC filings. If they conflict, I use
+    the SEC filings.
+l   Firms without SECJilings not included in Recombinant Capital database. I rely
+    on company and venture capitalist contacts to confirm the Venture Econ-
+    omics data. I can frequently identify venture capitalists through Pratt’s Guide
+    to Venture Capital Sources [Venture Economics (1992)]. This guide is in-
+    dexed by both individual and fund, so I can locate those venture capitalists
+    associated with terminated partnerships      who are still employed in the indus-
+    try. I identify companies      by using industry directories     [Corporate  (1992)
+    Mega-Type       (1992) NCBC (1990a), Ornx (1992)]. Some of the firms most
+    difficult to obtain information   about are those that failed before going public.
+    I follow a methodology      that I developed earlier [USGAO (1989)] to locate
+    managers of failed high technology businesses. If I am unable to make any
+    contacts, I use the Venture Economics data.
+
+The resulting sample, summarized         in table 1, consists of 750 financings     by
+privately held firms that had already received venture capital. These include 136
+IPOs and 614 private financings. The public financings raised a total of $3.6
+billion in 1992 dollars; the private financings raised $3.1 billion. (Both figures are
+gross amounts, before deducting expenses associated with the equity sales.)
+    The firms in this sample went public after as few as one venture financing
+round or as many as eight. The median for the 136 IPOs in the sample is three
+prior venture rounds; the mean is 3.2. The mean firm went public 4.8 years after
+being established;    the median after 4.3 years. This can be contrasted          with
+Megginson and Weiss’s sample of 320 venture-backed           IPOs between 1983 and
+1987, where the mean age was 8.6 years and the median 5.3 years.
+
+
+2.2. The biotechnology     equity index
+
+   To assess the ability of venture capitalists to time public and private finan-
+cings, I examine the equity values around these transactions.      I employ an index
+of publicly traded biotechnology     firms. This section describes the construction
+of the index.
+   Ideally, I would use publicly traded biotechnology    companies as a benchmark
+throughout    this period. Because companies dedicated to biotechnology       did not
+begin going public until the late 1970s however, I must rely on ‘comparable’
+companies in the early years. For the 1978-1982 period, I use thirteen com-
+panies identified    in the 1977 business press (primarily       the analyst reports
+298                                      J. Lerner,   Venture capitalists
+
+
+                                                      Table       1
+Distribution  of the sample. The table indicates by year the number and cumulative size (in millions
+of 1992 dollars) of public and private financings by privately held biotechnology  firms which had
+already received venture capital. The gross amount raised is reported for both public and private
+                          financings, before any deductions for offering cost.
+
+                          Public     financings (IPOs) by                         Private financings   by
+                         private     venture-backed   firms                  prtvate venture-backed     firms
+
+                         Number                       Total $                Number                    Total %
+Year                     of IPOS                       raised               of rounds                   raised
+
+1978                         0                                0                  4                         10
+1979                          1                           6                      4                         31
+1980                          1                          59                      8                        93
+1981                         4                          219                      9                         58
+1982                         4                           88                     18                       136
+1983                        18                          365                     40                       218
+1984                         2                           35                     30                       129
+1985                         2                            8                     36                       122
+1986                        17                          457                     52                       247
+1987                        12                          204                     61                       337
+1988                         1                           23                     68                       334
+1989                         6                           57                     75                       364
+1990                         4                           65                     87                       443
+1991                        34                         1103                     86                       404
+1992”                       30                          875                     36                       177
+Total                      136                         3,564                   614                     3,103
+
+  “Through   September    30 only.
+
+
+
+summarized in Wall Street Transcript, but also the Wall Street Journal, Business
+Week, and Fortune) as well-positioned      to capitalize on the then-current    devel-
+opments in biological science. Beginning January 1, 1983, I use thirteen ‘dedi-
+cated’ biotechnology       firms that went public between 1979 and 1982. The
+pre-1983 sample has the same distribution     as the dedicated biotechnology    firms:
+seven firms specialized in human pharmaceuticals         or diagnostics,  three firms
+whose products      relate to agricultural  or animal science, two producers         of
+research equipment,      and one specialty chemical producer.
+   I invest equally in the comparable firms on January 1,1978. At the end of each
+year, I rebalance the portfolio so I hold equal dollar amounts of each security.
+I do not rebalance the portfolio daily, because for many securities the spread
+between the bid and ask prices is significant relative to the share price. An index
+with daily rebalancing     would be biased upward because of the ‘bid-ask bounce’
+documented by Blume and Stambaugh (1983). On January 1,1983, I liquidate the
+investment in the comparable portfolio, and use the proceeds to buy equal dollar
+amounts     of the dedicated portfolio. As companies       are acquired or delisted,
+I add the most seasoned, publicly traded dedicated biotechnology             company
+to the index. The indices constructed       using the comparable       and dedicated
+                                     J. Lerner. Venture capitalists                                   299
+
+
+
+
+9.
+
+
+
+
+      NUtIlk
+5.
+      of Ipos
+
+
+
+O-
+                n    n nnnn n nnn           l-l                             n    nrulnnn
+
+Fig. 1. The timing of initial public offerings by privately held venture-backed      biotechnology    com-
+panies, January    1978 through September 1992. The top graph depicts an index of biotechnology
+equity, computed using the value of an investment in (between 1978 and 1982) thirteen companies
+identified in the 1977 business press as well-positioned  to capitalize on biotechnology     developments
+and (from 1983 onwards) thirteen biotechnology       companies. Acquired or delisted firms are replaced
+with the most seasoned, publicly traded biotechnology       firm. January 1, 1978 is normalized as one.
+The lower plot represents the number of biotechnology      IPOs in each month. The data are compiled
+from Venture Economics,       Recombinant    Capital, SEC filings, and company contacts, as well as
+                                                  CRSP.
+
+
+
+portfolios are highly correlated. During 1982 and 1983 (the year before and after
+the switch), the correlation   coefficient of the daily returns is over 0.96.
+    Figs, 1 and 2 display the number of IPOs and private financings in each
+month and the biotechnology      equity index. The IPOs coincide with the peaks in
+equity valuations,    while no clear pattern appears in the private financings. In
+particular, the high valuations of 1983, 1986, and 1991-92 were accompanied       by
+intense IPO activity. The level of private financing activity, however, changed
+little. These patterns suggest that venture capitalists are able to time the market,
+taking companies public at times when industry valuations          are highest.
+
+
+
+3. Empirical analysis
+
+   In this section, I examine the timing of financings by these firms. First, I look
+at financings in the entire sample. Then I compare more- with less-experienced
+venture capitalists. Finally, I check the robustness of the results through a series
+of diagnostic tests.
+                                     J. Lerner. Venture capifalists
+
+
+
+
+Fig. 2. The timing of private financings by privately held venture-backed      biotechnology  companies,
+January 1978 through September 1992. The top graph depicts an index of biotechnology              equity,
+computed using the value of an investment in (between 1978 and 1982) thirteen companies identified
+in the 1977 business press as well-positioned   to capitalize on biotechnology   developments  and (from
+ 1983 onwards) thirteen biotechnology      companies. Acquired or delisted firms are replaced with the
+most seasoned, publicly traded biotechnology       firm. January 1, 1978 is normalized as one. The lower
+plot represents the number of biotechnology    private financings in each month. The data are compiled
+from Venture Economics,      Recombinant      Capital, SEC filings, and company contacts, as well as
+                                                   CRSP.
+
+
+
+3.1. The timing ofjnancings
+
+   I first examine the timing of all external financings in the sample. Panel A of
+table 2 presents the main results. As figs. 1 and 2 suggest, IPOs are far more
+likely to occur when the equity values are high. The mean equity index at the time
+of IPOs is 4.05, as opposed to 3.05 at the time of private financings. (The index
+is normalized     as one on January     1, 1978.) Using a nonparametric      Wilcoxon
+test, panel B of table 2 shows that the difference is statistically significant at the
+1% level of confidence.
+   I repeat this test, as well as the other shown below, adjusting the index in two
+ways. The increase in the equity index is partially due to inflation, and also to
+the need to provide a return to investors in excess of inflation. I detrend the
+index by the Gross Domestic Product deflator and by inflation plus a 5%
+annual premium. The differences in the index around IPOs and private finan-
+cings remain significant. In the case of the inflation-adjusted      series, the mean
+index at the time of the IPOs is 2.10; the mean index at the time of private
+financings is 1.69. (January 1, 1978, is once again normalized as one.) In the case
+of the inflation-adjusted   series with the 5% annual premium, the mean index at
+                                     J. Lerner, Venture capitalists                                   301
+
+
+                                                Table 2
+Biotechnology     equity prices around public and private financings by privately held venture-backed
+biotechnology    companies. The sample consists of 750 IPOs and private financings between January
+1978 and September 1992 by firms that had already received venture capital. The table presents the
+level of a biotechnology    equity index” and the mean return from biotechnology   equities in the three
+months before and after the financing. The table also compares the means and medians of these
+                                                 variables.
+
+                                 Panel A: Biotechnology equity prices
+                                                                Mean raw ‘buy-and-hold’   return    from
+                                                               biotech equities around financing     date
+
+                                          Mean level of            Trading days           Trading days
+Type of financing                     biotechnology  index          - 60 to - 1              0 to 59
+
+136 initial public offerings                  4.05                      9.9%                 - 4.6%
+614 private financings                        3.05                      4.6%                   6.1%
+
+                           Panel B: Tests of differences in means and medians
+Test                                                                                            p-value
+Wilcoxon test, median equity index on date of IPO
+    = median equity index on date of private financing                                             0.00
+t-test, mean return in [ - 60, - 1] window before IPO
+    = mean return in [ - 60, - 1] window before private financing                                  0.00
+t-test, mean return in [0, 591 window after IPO
+    = mean return in [0, 593 window after private financing                                        0.00
+t-test, mean return in [ - 60, - 1] window before IPO
+    = mean return in [0, 591 window after IPO                                                      0.00
+t-test, mean return in [ - 60, - 1] window before private financing
+    = mean return in [0, 591 window after private financing                                        0.27
+
+   “The index and change in equity values are computed for the period 1978 to 1982 using thirteen
+companies identified in the 1977 business press as well-positioned   to capitalize on biotechnology
+developments    and (from 1983 onwards) thirteen biotechnology     companies.    Acquired or delisted
+firms are replaced with the most seasoned, publicly traded biotechnology          firm. The index is
+normalized to one on January 1, 1978. For the private financings where I know only the month and
+year of the transaction, I use the twelfth trading day of the month.
+
+
+
+the time of the IPOs is 1.26; the mean index at the time of private financings is
+1.03. Nonparametric     Wilcoxon tests reject in both cases the null hypotheses of
+the equality of the distributions      at the 1% level of confidence. The modified
+indices remain significant at the 1% level of confidence when used in probit
+regressions akin to that reported in table 3.
+   An IPO is also likely to coincide with a short-term maximum in equity values.
+I examine the buy-and-hold         returns from an equal-weighted     investment   in
+thirteen biotechnology     securities in the three months before and after the
+financing.  I use thirteen comparable        securities prior to 1983, and thirteen
+publicly traded dedicated firms thereafter. I extend the index back into late 1977
+and forward to the end of 1992 in order to be able to use observations       that are
+near the beginning and the end of the sample period. If a firm is acquired or
+302                             J. Lerner, Venture capitalists
+
+
+ delisted during the period, I roll over the investment           into the most seasoned,
+ publicly traded dedicated biotechnology        firm.
+    Such an investment       gains an average of 9.9% in the event window
+( - 60, - 1) before an IPO. [I choose an event window of sixty trading days so
+ I can be consistent with Mikkelson and Partch (1988) and several other studies.]
+ An identical investment    made at the close of the IPO date has lost 4.6% of its
+value by day 59. Panel B indicates that the mean returns differ significantly             at
+ the 1% level of confidence.
+    Private financings display no such differences in the months before ( + 4.6%)
+ and after ( + 6.1%) the transaction.     Panel B shows that the mean returns in the
+three months prior to the IPOs are significantly greater than in the three months
+prior to the private financings. The mean returns are also significantly lower in
+the three months after IPOs. In some older entries in the database where the
+firm did not subsequently      go public, I know only the month and year of the
+private financings. In these cases, I use the twelfth trading day of the month. The
+results are robust to alternative      approaches,    including assuming that the un-
+dated private financings took place on the first or last trading date of the month.
+They also are robust to using the changes in the index in the three months before
+and after the public and private financings, but not including the returns from
+the month of the financing.
+    I have one concern with the tests of the equality of means: their assumption          of
+independence.     The bunching of the IPOs and private financings implies that
+many of the sixty-trading-day          windows over which returns are calculated
+overlap. To address concerns about whether the bunching of returns may lead to
+an overstating of significance levels, I undertake analyses that repeat the r-tests
+in table 2 in a regression framework. I regress the return on a constant and
+a dummy variable to indicate if the observation           is from one of the two classes
+being compared: e.g., if this is an observation       of the returns in the sixty trading
+days prior to a private financing. Instead of assuming independence,              however,
+I use a Generalized    Least Squares (GLS) approach akin to that used by Hansen
+and Hodrick (1980) and Meulbroek             (1992). These authors employ in their
+analyses monthly observations         of forward and futures prices several months
+ahead. Through the use of GLS estimation, they correct their standard errors for
+the degree of overlap in the observations.       Though the overlap here arises from
+the clustering of observations    rather than the sampling procedure, I use a similar
+approach      to examine the robustness        of the results. I create a variance-
+covariance      matrix  Sz, and compute         standard       errors   from the matrix
+(X’Q- ‘X) ‘. I constrain the off-diagonal elements of the variance-covariance
+matrix Q to be zero if the sixty-trading-day     windows over which the equity index
+is calculated do not overlap, and to be proportional          to the extent of the overlap
+otherwise. In this way, nearby observations            are assigned less weight in the
+analysis. Returns in the sixty trading days before and after IPOs remain
+significantly different at the 1% level of confidence. Returns in the sixty trading
+                                     J. Lerner,    Venture capitalists                                           303
+
+
+                                                   Table 3
+Estimated probit regressions of the decision of privately held venture-backed       biotechnology firms to
+employ public or private financing. The sample consists of 750 IPOs and private financings between
+January 1978 and September 1992 by firms that had already received venture capital. The dependent
+variable is 1 for firms that went public and 0 for firms that employed private financings. Independent
+variables include three alternative measures of market timing: the level of a biotechnology         equity
+index” at the time of the financing, and the changes in equity prices in the three months before and
+                           after the financing (absolute t-statistics in brackets).
+
+                                                         Dependent    variable:    did firm go public?
+                                             Regressions       use alternative     measures   of market     timing
+
+Level of biotechnology index                      0.50    [9.33]
+Raw return from biotech equities in
+  [ - 60, - l] window                                                      0.74     [2.80]
+Raw return from biotech equities in
+  [0, 593 widow                                                                                  - 0.65   [3.64]
+Constant                                    - 2.65 [13.16]               - 0.96    C16.781       - 0.90 [16.71]
+Log-likelihood                                      - 307.55                     - 351.14                 - 348.23
+X*-statistic                                           95.00                         7.83                    13.66
+p-value                                                 0.00                         0.00                     0.00
+Number of observations                                750                          750                      750
+
+   “The index and change in equity values are computed for the period 1978 to 1982 using thirteen
+companies identified in the 1977 business press as well-positioned   to capitalize on biotechnology
+developments    and (from 1983 onwards) thirteen biotechnology     companies.    Acquired or delisted
+firms are replaced with the most seasoned, publicly traded biotechnology          firm. The index is
+normalized to one on January 1, 1978. For the private financings where I know only the month and
+year of the transaction, I use the twelfth trading day of the month.
+
+
+
+
+days prior to public and private financings           do not differ at conventional
+confidence levels. Returns in the sixty trading days after public and private
+financings differ at the 5% level of confidence. In another analysis, I detrend the
+sixty-trading-day   returns for inflation and inflation plus a 5% annual premium.
+I find these corrections make little difference.
+   I examine these patterns       using the probit regression     shown in table 3.
+I employ as observations    each financing by a privately held firm that has already
+received venture capital. The dependent variable is a dummy indicating whether
+the firm received public or private financing (where 1 denotes an IPO and
+0 a private financing):
+
+
+           IPO,, = ~lo + sr,jTIMINGijt              + nil.
+
+
+The three measures of timing are the value of the biotechnology    index at the
+time of the financing, the raw returns from an investment     in biotechnology
+securities in the three months before the financing, and the raw returns in the
+three months after the financing.
+304                               J. Lerner, Venture capitalists
+
+
+   Each of the variables is significant in explaining the decision to go public. As
+the coefficient of 0.50 suggests, a higher level of the equity index increases the
+probability   of a public financing. I assess the magnitude      of this coefficient by
+examining the effect of a 10% increase in the level of the equity index on the
+predicted probability     that a public financing is employed. At the mean of all
+independent    variables, the regression coefficients imply that the probability      of
+an IPO is 15%. A 10% increase in the level of the equity index (i.e., from the
+mean of 3.23 to 3.56) boosts the probability     of an IPO to 19%, or an increase of
+27%. Increases in biotechnology       equity values in the three months prior to the
+financing boost the chance of an IPO (the coefficient of 0.74) as do decreases in
+the three months after an IPO ( - 0.65).
+
+
+3.2. The impact of venture capitalist        experience
+
+    I next examine whether seasoned and inexperienced                venture capitalists differ
+in their proficiency in taking firms public at market peaks. To examine this,
+I repeat the analyses in tables 2 and 3. I divide up the firms into those financed
+by more or less seasoned venture capitalists.
+    I use as a proxy for venture capitalist experience the age of the oldest venture
+capital partnership       having financed the firm. My approach differs slightly from
+Barry, Muscarella,         Peavy, and Vetsuypens           (1990). Those authors used the
+venture capitalist with the largest equity stake in the firm at the time of the IPO
+to characterize      the venture investors. Since I do not always know the relative
+valuation of each round, however, I cannot always determine the largest share-
+holder. In section 3.3 below, I consider the use of alternative measures of venture
+capital experience. In point of fact, these measures show little difference. Venture
+capitalists tend to syndicate investments             either to their peers or to their less
+experienced counterparts.         They are not likely to invest in deals begun by their
+less seasoned counterparts        [Lerner (1994)]. The lead venture capitalist is usually
+the oldest one.
+   To establish that this is an economically                 meaningful    partition   of firms,
+I divide the 136 IPOs in the sample by the age of the oldest venture capital
+organization      investing in the firm. I characterize venture capital organizations
+by using several reference volumes [Clay (1987) National                       Register (1992),
+Venture Economics           (1988b, 1992)]. If the name of the venture capital fund
+recorded in the Venture Economics database does not match an entry in these
+directories of venture organizations.         then to establish a match I use an unpub-
+lished database from Venture Economics which lists venture capital funds and
+organizations.      I collect data about the IPOs from prospectuses, S-l registration
+statements, and the SDC corporate new issues database (1992).
+    IPOs divided in this manner differ in several respects. Table 4 shows that the
+reputation     of the underwriter     differs significantly at the 1% level of confidence.
+I use the Carter-Manaster            (1990) rankings        of underwriter    prestige. In this
+                                       J. Lerner. Venture capitalists                                         305
+
+
+                                                   Table 4
+Characteristics    of IPOs by venture-backed      biotechnology     firms, divided by the age of the oldest
+venture investor in the firm. The sample consists of 136 IPOs between January 1978 and September
+1992. The table compares the underwriter ranking,” the presence of a ‘Big Six’ accounting firm as the
+firm’s auditor, and the most frequently represented underwriters,          law firms, and accounting     firms.
+The remaining columns describe these offerings: the share of equity retained by employees and
+management      after the IPO,b the mean inflation-adjusted     offering size,’ the percentage of offerings in
+which units rather than common stock were sold, and the percentage change from the offering price
+to the first-day close.d The table also compares the means of these variables for firms whose oldest
+                          venture capitalist is above and below the median age.
+
+                                                             Firms divided by
+                                                  age of oldest venture capital     provider        p-value,
+                                                                                                    f-test of
+                                                                           Below or equal          difference
+Characteristics                                   Above median                to median            of means
+
+Underwriter characteristics
+  Carter-Manaster   ranking                           6.6                        4.8                   0.00
+  Most frequent firm (number)                    Hambrecht   and            D.H. Blair (14)
+                                                    Quist (6)
+Auditor characteristics
+  % of firms in ‘Big Six’                             98.5%                     96.1%                  0.56
+  Most frequent firm (number)                       Ernst and                 Ernst and
+                                                   Young (26)                Young (21)’
+Issuer’s law firm characteristics
+   Most frequent firm (number)                 Cooley, Godward,            Bachner, Tally,
+                                               Castro, Huddleston,          Polevoy, and
+                                                and Tatum (11)               Misher (5)
+Offering characteristics
+  % of equity retained by employees
+       and management                                   7.2%                    11.8%                 0.00
+  Funds raised (millions of 1992 dollars)              29.7                     22.6                  0.08
+  % of IPOs which are unit offerings                    4.4%                    25.0%                 0.00
+  Initial return                                       10.3%                    15.4%                 0.31
+
+   “Carter and Manaster’s (1990) ranking of lead underwriter prestige is employed, with 9 represent-
+ing the most prestigious underwriters       and 0 the least. If the book underwriter is not included in the
+CarterrManaster      ratings, I use the ranking of the co-managing         underwriter.   If there is no co-
+managing underwriter,       or it is also not ranked, I assign these underwriters    a rank of 0.
+   ‘This measure includes all shareholdings       by full-time managers and employees, but not venture
+capitalists or other financiers working as consultants        at the firm.
+   ‘This is the gross amount paid by the public, before allowance for direct and indirect underwriting
+fees. The Gross Domestic Product deflator is used.
+   dThe closing price, when not available, is calculated as the mean of the bid and ask.
+   ‘Includes predecessor entities Ernst and Whinney and Arthur Young.
+
+
+
+
+scheme, 9 denotes the most prestigious underwriters   and 0 the least prestigious.
+They determine these rankings through the positioning    of companies in ‘tomb-
+stones’, the advertisements    that underwriters  use to publicize    offerings. If
+the book underwriter    is not included in the Carter-Manaster      ratings, I use
+the ranking of the co-managing       underwriter. For twelve cases, there is no
+306                               J. Lrrner, Venture capitalists
+
+
+co-managing      underwriter,    or else it is not ranked. (These are all small regional
+investment    banks with limited underwriting             experience     [National    (1992)].)
+I assign these underwriters      a rank of 0. While Hambrecht and Quist is the most
+frequent underwriter      for firms backed by experienced venture capitalists, D.H.
+Blair dominates the less experienced group.
+   I also examine other intermediaries            involved in the offering. A partition
+frequently used to divide accounting firms in underpricing             studies is the ‘Big Six’
+(previously the ‘Big Eight’), the largest U.S. accounting             firms as measured by
+revenue [Balvers, McDonald, and Miller (1988), Beatty (1989)]. While the firms
+backed by more experienced venture capitalists are more likely to have a ‘Big
+Six’ accounting     firm, the difference is not significant.        I also report the most
+frequently used accountants        and law firms.
+   The offerings also differ in magnitude. The equity stake retained by managers
+and employees after the offering is significantly          larger for firms backed by the
+less experienced venture capitalists. In addition, the dollars raised in the IPOs
+by firms with seasoned venture investors is larger (though only at the 10% level
+of confidence). Both results are consistent with Leland and Pyle (1977), who
+argue that lower-quality      managers must retain larger equity stakes and raise less
+money to obtain any external financing.
+   Firms backed by seasoned venture capitalists are significantly                less likely to
+employ a unit offering. These bundled offerings include at least one share of
+stock and one warrant. Schultz (1993) shows that unit offerings are usually
+employed by small firms with uncertain prospects. He suggests that by provid-
+ing only some of the funding up front, unit offerings limit the danger of managers
+squandering     invested capital. The remaining          funds are provided only if the
+warrants are exercised. Because the warrants are typically ‘out-of-the-money’                 at
+the time of the IPO (i.e., they can be exercised at a price higher than the
+per-share price of the IPO), the exercise of the warrants is usually conditional             on
+the stock price rising. The first-day returns from the IPOs are lower for the
+firms backed by experienced venture capitalists, consistent with Barry, Peavy,
+Muscarella, and Vetsuypens (1990), but the difference is not significant.
+   After separating firms by whose oldest venture investor is above or below the
+median age, I repeat the analysis in table 2. Panel A of table 5 examines the
+choice between private and public equity. Both classes of firms appear to time
+IPOs. The effectiveness of this timing, however, appears greater for the more
+experienced venture capitalists, as the tests in panel B confirm. The average firm
+backed by experienced venture capitalists went public when the index was at
+4.31; for the firms below the median, the level was 3.80. Similarly, the index
+run-up in the three months before the IPO and the run-down                        in the three
+months after are both larger.
+   Table 6 repeats the probit regression estimation of the decision to go public.
+I separate firms by venture capitalists above or below the median age. Again,
+I examine the probability       of the firm going public, using the three measures of
+                                                                                  I   aole 3
+   Biotechnology    equity prices around public and private financings for privately held venture-backed    biotechnology  companies, divided by the age of the
+   oldest venture investor in the firm. The sample consists of 750 IPOs and private financings between January 1978 and September 1992 by firms that had
+   already received venture capital. The table presents the level of a biotechnology  equity index,” and the changes in equity prices in the three months before
+   and after the financing. The table also compares the means and medians of these variables for firms whose oldest venture capitalist is above and below the
+                                                                              median age.
+
+                                                                  Panel A: Biotechnology equity prices
+                                                                                                                           Mean raw ‘buy-and-hold’    returns           from
+                                                                                                                           biotech equities around financing            date
+
+                                                                                              Mean level of                Trading    days              Trading days
+   Type of financing                                                                      biotechnology  index              -6Oto      - 1                 0 to 59
+
+   136 initial public offerings
+     Firms whose oldest venture    investor   is above the median    age                          4.31                         12.5%                            - 6.8%         5
+     Firms whose oldest venture    investor   is below the median    age                          3.80                          7.4%                            - 2.4%         c
+   614 private financings                                                                                                                                                       3
+     Firms whose oldest venture    investor   is above the median    age                          3.08                           5.1%                             6.6%         .T
+     Firms whose oldest venture    investor   is below the median    age                          3.03                           4.0%                             5.1%         3
+                                                                                                                                                                               2
+                                                        Panel B: Tests qf differences in means and medians                                                                     z
+   Tests using firms whose oldest venture investor is above the median age                                                                                  p-value            a
+                                                                                                                                                                               Y?.
+   Wilcoxon test, median equity index on date of IPO = median equity index on date of private financing                                                       0.00             S
+   f-test, mean return in [ - 60, - l] window prior to IPO = mean return in [ - 60, - 11 window prior to private               financing                      0.00             Z=?
+   t-test, mean return in [0,59] window after IPO = mean return in [0,59] window after private financing                                                      0.00             2
+
+   Tests using firms whose oldest venture investor is below the median age
+   Wilcoxon test, median equity index on date of IPO = median equity index on date of private financing                                                          0.00
+   t-test, mean return in [ - 60, - l] window prior to IPO = mean return in [ - 60, - 11 window prior to private               financing                         0.20
+   t-test, mean return in [0,59] window after IPO = mean return in 10,591 window after private financing                                                         0.01
+   Tests comparing firms whose oldest venture investor is above and below the median age
+   Wilcoxon test, median equity index on date of IPO is same for both sets of firms                                                                              0.00
+   i-test, mean return in [ - 60, - 11 window prior to IPO is same for both sets of firms                                                                        0.03
+   t-test, mean return in [0, 591 window after IPO is same for both sets of firms                                                                                0.07
+
+      “The index and change in equity values are computed for the period 1978 to 1982 using thirteen companies identified in the 1977 business press as
+   well-positioned to capitalize on biotechnology developments and (from 1983 onwards) thirteen biotechnology     companies. Acquired or delisted firms are
+   replaced with the most seasoned publicly traded biotechnology   firm. The index is normalized to one on January 1,1978. For the private financings where                    &
+                                                                                                                                                                               4
+   I know only the month and year of the transaction,    I use the twelfth trading day of the month.
+
+
+
+
+                                                                                                   _     ._-     ..~   _       _..I                >_     L._
+\~ “_ _      _ _        _   , _         -      _.            <A       --      c       L   ~
+308                                  .I. Lerner,    Venture capitalists
+
+
+                                                    Table 6
+Estimated probit regressions of the decision of privately held venture-backed     biotechnology   firms to
+employ public or private financing, with observations     are divided by the age of the oldest venture
+investor in the firm. The sample consists of 750 financing rounds between January               1978 and
+September 1992 by firms that had already received venture capital. The dependent variable is 1 for
+firms that went public and 0 for firms that employed private financings. Independent             variables
+include three alternative measures of market timing: the level of a biotechnology     equity index” at the
+time of the financing, and the changes in equity prices in the three months before and after the
+financing (absolute t-statistics in brackets). The table also compares the regression coefficients for
+             firms whose oldest venture capitalist is above and below the median age.
+
+Panel A: Estimatrdprobit   regressions usingfirms         whose oldest venture investor is above the median age
+                                                            Dependent   variable:    did firm go public?
+                                               Regressions       use alternative     measures   of market   timing
+
+Level of a biotechnology index                     0.65     [7.75]
+Raw return from biotech equities
+  in [ - 60, - l] window                                                   0.93      [2.53]
+Raw return from biotech equities
+  in [0, 591 window                                                                               - 1.44 c3.943
+Constant                                     - 2.79 [lO.lO]              - 0.87 [10.89]          - 1.04 [12.90]
+Log-likelihood                                       - 160.40                  - 191.14               - 187.52
+,y’-statistic                                           67.95                      6.48                   9.11
+p-value                                                  0.00                      0.01                   0.00
+Number of observations                                 375                       375                    375
+
+
+Panel B: Estimatedprobit   regressions using,firms whose oldest venture investor is below the median age
+                                                            Dependent   variable:    did firm go public?
+                                               Regressions       use alternative     measures   of market   timing
+
+Level of biotechnology index                       0.31 14.921
+Raw return from biotech equities
+  in [ - 60, - I] window                                                   0.48      11.231
+Raw return from biotech equities
+  in [0,59] window                                                                               - 0.54   [2.32]
+Constant                                      - 2.39 [8.09]              - 1.07 [12.84]          ~ 0.78 [10.65]
+Log-likelihood                                       ~ 145.46                  -    157.32             - 155.58
+X2-statistic                                            25.33                          1.52                5.60
+p-value                                                  0.00                         0.29                 0.02
+Number of observations                                 375                          375                  375
+
+
+                       Panel C: x=-tests   of differencesin regression        coeJicients
+Tests comparing firms whose oldest venture investor is above and below the median age                       p-value
+Coefficient of ‘level of biotechnology index’ variable is identical in both regressions                       0.01
+Coefficient of ‘raw return from biotech equities in [ - 60, - l] window’ variable is
+  identical in both regressions                                                                              0.21
+Coefficient of ‘raw return from biotech equities in [0, 591 window’ variable is identical
+  in both regressions                                                                                        0.03
+
+   “The index and change in equity values are computed for the period 1978 to 1982 using thirteen
+companies identified in the 1977 business press as well-positioned   to capitalize on biotechnology
+developments    and (from 1983 onwards) thirteen biotechnology     companies.    Acquired or delisted
+firms are replaced with the most seasoned, publicly traded biotechnology          firm. The index is
+normalized to one on January 1,1978. For the private financings where I know only the month and
+year of the transaction, I use the twelfth trading day of the month.
+                                     J. Lerner, Venture capitalists                                   309
+
+
+market timing as independent      variables. In each of the three pairs of regressions,
+the timing variable is greater in magnitude        and significance in the seasoned
+venture capital regression.
+   In panel C, I examine whether the regression coefficients differ significantly.
+First I estimate a pooled regression, allowing firms above and below the median
+to have distinct coefficients for the timing variable and constant. I then constrain
+the coefficient of the timing variable to be the same in both regressions. The
+table presents the p-values from X*-tests of this constraint.      In two of the three
+cases, I reject the null hypothesis of no difference at the 5% level of confidence.
+These findings suggest that firms backed by established venture capitalists are
+more successful at timing their IPOs.
+
+
+3.3. Robustness       to alternative measures        and control variables
+
+    I undertake several analyses to assess the robustness of the results to alterna-
+tive measures of venture experience and the presence of control variables. They
+have little effect on the qualitative and quantitative          results.
+    First, I examine whether the results are an artifact of the criteria that I used to
+divide the venture capitalists. As an alternative,           I use size to divide venture
+capitalists into experienced and inexperienced          investors. In this way, I count as
+seasoned investors experienced venture capitalists who raise new (but large)
+partnerships.    I compute the ratio of funds under management             by the partnership
+to the total pool of venture capital under management                    in the year of the
+investment.     I use the annual values reported in Pratt’s Guide [Venture Eco-
+nomics (1992)]. When this information             is incomplete,    I use the unpublished
+Venture Economics database. The results using this partition are consistent with
+the ones reported earlier.3
+    I use a related set of regressions to divide firms by relative, rather than
+absolute, age and size. The mean age and size of the venture partnerships                  that
+financed biotechnology       firms dipped in the mid-1980s reflecting the extensive
+entry into venture capital. I examine the age of the oldest venture capitalist
+providing funds to each biotechnology          firm in each year. I then divide the firms
+by whether their oldest investor was older or younger than the oldest investor in
+the median firm in that year. (The procedure for size is similar.) There appears to
+be little difference between these results and those in tables 5 and 6. These tests
+are not independent:      relatively older venture partnerships          are often the older
+ones on an absolute scale as well. The analysis shows, however, that these results
+are not an artifact of a particular approach to dividing firms.
+   I also recast my independent       variables, using the change in the market index
+over two- and four-month         windows. Using the longer window tends to slightly
+strengthen the results; the shorter window tends to weaken them. While there
+
+  31 do not report the results in the tables, but would be glad to send them to any interested   reader.
+310                             .I.Lerner.   Venture capiralisls
+
+
+are only a small number of cases in the sample where venture capitalists exited
+viable firms through mergers or sales, nevertheless          I examine the impact of
+including    these cases. I recast the dependent    variable to measure IPOs and
+acquisitions    of firms at prices higher than that of the last venture round. This
+change has little impact.
+   Finally, I control for the quality of the firms going public. More experienced
+venture capitalists are likely to fund higher-quality      firms, which may bias the
+results. I use three sets of control variables for firm quality:
+
+
+(1) The age qf the firm. I use, in order of preference, the incorporation               date
+    reported in SEC filings, the self-reported founding date in industry directo-
+    ries [Corporate        (1992), Mega-Type     (1992) NCBC (1990a), Ornx (1992)],
+    a questionnaire      response [NCBC (1990b)], or the date reported by Venture
+    Economics.
+(2) A private placement ,from a corporation with a related line of business.
+    Strategic investments         are frequently   used in high-technology      industries,
+    particularly    biotechnology,    to cement long-run agreements [Pisano (1989)].
+    I define corporations       with related lines of business as those with any of the
+    following Standard Industrial Code identifiers in the Million Dollar Direc-
+    tory [Dun’s (1992)] in the year of the transaction:        SIC 283, Drugs; SIC 287,
+    Agricultural     Chemicals; and SIC 384, Medical Instruments           and Supplies.
+(3) Thejirm’s intellectual property position. Intellectual property protection was
+    a critical focus of biotechnology       firms in the 1980s. [See Kenney (1986) and
+    USOTA (1989) for an overview.] Product market competition was embryonic,
+    and the alternative        methods of protecting intellectual    property ineffective.
+    The disposition       of a single patent could shift the valuation of a biotechnol-
+    ogy firm by as much as 50%. I identify the patents associated with these 350
+    firms using U.S. Patent Office databases [USPTO/OPDLP                   (1989, 1990)].
+    I identify not only patents assigned to these firms, but also those assigned to
+    their wholly owned subsidiaries and their research-and-development              limited
+    partnerships.     I count awards to joint ventures and spin-offs to the extent that
+    the firm had an interest in the venture. 1 construct two alternative variables.
+    The first indicates the number of the patents awarded at the time of the
+    financing     round. The second indicates the number            of successful patent
+    applications     awarded and in progress at the time. Because patent applica-
+    tions are held confidential       by USPTO until the time of award, I use only
+    observations      made prior to 1990 in the second analysis.
+
+
+I find in unreported    regressions   that, while the age and patents variables
+have significant explanatory     power, the timing variables remain significantly
+larger in the regressions    employing     the firms backed by seasoned venture
+capitalists.
+                                    J. Lerner, Venture capital&s                                  311
+
+
+                                                Table 1
+Time from the filing of the original S-l statement to the effective date of initial public offering,
+divided by the age of the oldest venture provider. The sample consists of 136 IPOs by venture-
+backed biotechnology  firms between January 1978 and September 1992. The table also compares
+the mean and median time for firms whose oldest venture capitalist was above and below the median
+                                               age.
+
+                       Panel A: Monthsfrom S-l filing lo IPO effective dare
+                                                                               Mean         Median
+Firms whose oldest venture   investor   is above the median   age               2.0           1.6
+Firms whose oldest venture   investor   is below the median   age               1.9           1.7
+
+                        Panel B: Tests of d@erences in means and medians
+Tests comparing jirms whose oldest venture investor is above and                             p-value
+    below the median age
+t-test, mean months from S-l filing to IPO effective date is same for
+    both sets of firms                                                                        0.52
+Wilcoxon test, median months from S-l filing to IPO effective date is
+    same for both sets of firms                                                               0.54
+
+
+
+
+4. Alternative    explanations
+
+4.1. Speed of IPO execution
+
+   One alternative      explanation   for established   venture capitalists’ apparent
+superiority    in timing IPOs is better execution. The failure of less experienced
+venture capitalists to take their firms public at market peaks may reflect their
+limited skill in planning and executing an offering, not their inability to perceive
+when the market is hot. In particular, SEC reviews of proposed IPOs can be
+protracted. Similarly, organizing a selling syndicate and assuring demand for the
+offering may be time-consuming.
+   I test this claim by examining the time from the receipt of the original S-l
+statement by the SEC to the effective date of the IPO. I identify the filing date
+from SDC’s corporate new issues database (1992). When it is not available from
+this source, I use the date of the ‘Received’ stamp on the original S-l filing.
+   Table 7 summarizes the results. The mean time from filing to offering does not
+differ significantly   for the firms financed by seasoned or inexperienced     venture
+capitalists (2.0 months for more experienced,         1.9 months for the less experi-
+enced). Nor do the medians differ appreciably.        The results provide no support
+for the claim that the superior timing of the IPO market by seasoned firms is due
+to better execution.
+
+
+4.2.   Willingness    to withdraw       oflerings
+   A second explanation relates to withdrawn                  offerings. The legal procedure in
+canceling a proposed IPO is straightforward.                  Firms may use a letter to SEC to
+312                             J. Lerner,   Venture capitalists
+
+
+withdraw proposed security offerings before their effective date. Often firms do
+not withdraw failed IPOs. When a registration           statement has been on file at the
+SEC for nine months, the SEC writes a letter to the firm, and then declares the
+offering abandoned      (17 CFR 5 230.479).
+    While the formalities associated with an IPO withdrawal are few, the reper-
+cussions may be severe. A firm that withdraws its IPO may later find it difficult
+to access the public marketplace.       Even if the stated reason for the withdrawal is
+poor market conditions,      the firm may be lumped with other businesses whose
+offerings did not sell because of questionable            accounting     practices or gross
+mispricing.   These reputational       considerations    may be less severe for a firm
+associated with a major venture capitalist. A greater willingness to withdraw
+IPOs in the face of deteriorating        market conditions     may explain the apparent
+superiority of experienced venture capitalists in timing offerings.
+    To examine these claims, I identify withdrawn or abandoned                IPO filings by
+these firms. I identify these offerings using the SDC corporate                   new issues
+database. [SDC employs a data collection procedure similar to the Investment
+Dealers’ Digest listings used by Mikkelson and Partch (1988) to identify with-
+drawn seasoned security offerings.] Because the coverage of abandoned                IPOs is
+less than comprehensive,      I supplement       these records with the ‘No Go IPOs’
+section of Going Public [Howard              (1992)] and a database         of failed IPOs
+compiled by a federal agency. (The official responsible for the creation of this
+database has requested anonymity.) I identify fourteen withdrawn or abandoned
+IPOs by these firms in this period.
+   In table 8, I examine the probability       that an IPO filing is completed success-
+fully. I use as observations   all filings of S-l registration     statements by privately
+held firms in the Venture Economics sample. (These include the 136 successful
+IPOs and the fourteen withdrawn offerings.) I estimate in a probit regression:
+
+         COMPLETEi,        = Bo + BIMAXAGEi,              + &if.                         (2)
+
+The dependent variable is a dummy, which takes on the value of 1 if the offering
+was successfully completed.       The independent     variable measures the age (in
+years) of the oldest venture capitalist      to have financed the firm. I find no
+evidence that older venture capitalists are more willing to withdraw IPOs: the
+coefficient, 0.01, is of the opposite sign and insignificant.
+   The right-hand      column reports the results when I rerun the regression,
+controlling   for the quality of the firm. Superior-quality     offerings may be less
+likely to be withdrawn,       no matter who the venture investor. I use the same
+independent    variables discussed in section 3.3: the age of the firm, the presence of
+a private placement       from a related corporation,     and the number of patent
+awards at the time of the financing. I can find no evidence that firms backed by
+seasoned venture capitalists are more likely to withdraw offerings, even after
+controlling  for quality.
+                                       J. Lerner,   Venture capitalists                                    313
+
+
+                                                    Table 8
+Estimated probit regressions of the successful completion            of an IPO by privately held venture-
+backed biotechnology    firms who filed S-l registration     statements. The sample consists of 150 filings
+between January 1978 and September 1992. The dependent variable is 1.0 for firms that went public
+and 0.0 for firms that withdrew or abandoned        their offerings. Independent     variables include the age
+of the oldest venture investor, the age of the firm at the time of the filing, the number of patents
+awarded to the firm at the time of the filing,’ and a dummy variable indicating whether the firm had
+previously received a private placement from a corporation          with a related line of business at the time
+                            of the filingi’ (absolute r-statistics in brackets).
+
+                                                                          Dependent    variable:   did firm go
+                                                                                        public?
+Age of oldest venture investor (in years)                                    0.01 CO.461         0.01   CO.761
+Age of firm at time of filing (in years)                                                       - 0.08   Cl.481
+Patents awarded at time of filing                                                                0.10   [1.04]
+Did firm receive private placement from related        corporation?                            - 0.32   [l.OS]
+Constant                                                                     1.22 [4.63]         1.58   [4.44]
+Log-likelihood                                                                  - 46.62              - 44.67
+X*-statistic                                                                       0.21                 3.71
+p-value                                                                            0.64                 0.44
+Number of observations                                                           150                  150
+
+   “All patents assigned to firms, their wholly owned subsidiaries, and their research and develop-
+ment limited partnerships     are included. Awards to joint ventures and spin-offs are counted to the
+extent that a firm had an interest in the venture.
+   %orporations     with related lines of business are defined as those with any of the following
+Standard Industrial Code identifiers in the Million Dollar Directory [Dun’s (1992)] in the year of
+the transaction:  SIC 283, Drugs; SIC 287, Agricultural     Chemicals; and SIC 384, Medical Instru-
+ments and Supplies.
+
+
+
+
+    I also examine equity valuations after the filing of S-l statements. Mikkelson
+and Partch (1988) examine stock prices after the announcement              of seasoned
+security issues. In the weeks after the announcement      of an ultimately withdrawn
+seasoned issue, both the market returns and the issuer’s net-of-market          returns
+are negative. No such pattern appears after the filing of successful offerings.
+I examine the returns from an equally-weighted       investment in thirteen biotech-
+nology securities between the close of the S-l filing date and the close of the
+twentieth trading day thereafter. (I use the same procedure as above.) The index
+rises by 2% after the filing of successful offerings, and declines by 9% after the
+filing of ultimately withdrawn offerings. The difference is significant at the 1%
+level of confidence, as are those computed using other windows.
+
+
+
+5. Conclusions
+
+   In this paper, I explore the choice between private and public equity. Using
+a sample of 350 privately held venture-backed    firms, I examine both the private
+and public financings. I show that venture capitalists take firms public at market
+314                           J. Lerner.   Venture capitalists
+
+
+peaks, relying on private financings when valuations        are lower. Seasoned ven-
+ture capitalists appear more proficient at timing IPOs. The results are robust to
+the use of alternative    criteria to separate firms and controls for firms’ quality.
+The results are not caused by differences in the speed of executing the IPOs, or in
+the willingness to withdraw the proposed IPOs.
+   Two limitations deserve further discussion. The first reflects the design of this
+study, which examined a setting particularly       conducive to the empirical identi-
+fication of market timing. In other industries, the need for oversight, or lumpy
+demands for capital, as the firm matures may affect the going-public          decision
+more dramatically.      In other periods, the heterogeneity    between new and sea-
+soned venture capitalists       may not be as pronounced.      Practitioner accounts,
+however, underscore the importance         of IPO timing across industries and time.
+As an example, I cite an investment manager’s discussion [McNamee (1991)] of
+market conditions      around peak periods for computer and electronics IPOs:
+
+      The whole problem can be summed up in the phrase ‘IPO window’. The
+      IPO window occurs when sellers try to bail out and buyers try to get rich
+      without doing any work. . . . It is when the AEA (American Electronics
+      Association) puts up a billboard on Highway 101 near Great America that
+      says, ‘The buy side has lost its mind, let’s bag them quick, before they catch
+      on.’ Sometime late in the IPO window, we get to watch venture capitalists
+      behave like Keystone Kops.
+
+Nor are such narratives confined to the 1980s and 1990s. For instance, Jeffery
+(1961) describes similar patterns in the market for new securities of high-
+technology firms in the 1950s. In the business press, Stern and Pouschine (1992)
+discuss the timing of ‘reverse LBOs’ (IPOs of firms that have previously
+undergone leveraged buy-outs) by LB0 funds. Venture capitalists may also time
+the market when they sell or distribute shares in firms which have gone public.
+In an ongoing project on the contractual arrangements       between venture partner-
+ships and their limited partners, Paul Gompers and I are examining this issue.
+   A second concern relates to the results’ interpretation.    The seasoned venture
+capitalists’ more effective timing of IPOs may reflect their superior proficiency.
+They may be better at recognizing when valuations are at a peak. There remain,
+however, several alternative interpretations.   Less experienced venture capitalists
+may also wish to take firms public at market peaks, but may be unable to
+command the attention of investment bankers. This assertion may be plausible if
+underwriting    services are rationed     in key periods. Alternatively,   Gompers’
+(1993) ‘grandstanding’     model suggests that inexperienced      venture capitalists
+may not wait until the market is optimal to take firms public, because they need
+to signal their quality to potential investors in follow-on funds. The mechanisms
+through which managers and venture capitalists decide to go public and obtain
+access to investment    bankers deserve further study.
+                                         J. Lerner.   Venture capitalisrs                                        315
+
+
+   A second opportunity      for further research relates to the implications of the
+timing of the going-public      decision. IPOs have been shown to coincide with
+declines in operating performance [Jain and Kini (1992)] and broad shifts in the
+incentives offered managers [Beatty and Zajak (1992)]. Do early initial public
+offerings affect the subsequent performance of the firm? To what extent are these
+factors related to the maturity of the firm and the market conditions at the time
+of the IPO? The interactions      between these financing choices and operational
+performance    deserve further scrutiny.
+
+
+References
+
+Allen, Franklin and Gerald Faulhaber,          1989, Signaling by underpricing      in the IPO market, Journal
+     of Financial Economics 23, 303-323.
+Balvers, Ronald J., Bill McDonald, and Robert E. Miller, 1988, Underpricing                 of new issues and the
+     choice of auditor as a signal of investment banker reputation,           Accounting     Review 63, 6055622.
+Barry, Christopher       B., Chris J. Muscarella, John W. Peavy III, and Michael R. Vetsuypens, 1990,
+     The role of venture capital in the creation of public companies: Evidence from the going public
+     process, Journal of Financial Economics 27, 447-47 1.
+Beatty, Randolph        A., 1989, Auditor reputation        and the pricing of initial public offerings, The
+     Accounting    Review 64, 693-709.
+Beatty, Randolph A. and Edward Zajak, 1992, Firm risk and alternative mechanisms                      for internal
+     corporate control: Evidence from initial public offerings, Unpublished            working paper (Southern
+     Methodist University, Dallas, TX and Northwestern              University, Evanston, IL).
+Blume, Marshall E. and Robert F. Stambaugh,             1983, Biases in computed returns: An application to
+     the size effect, Journal of Financial Economics          12, 387-404.
+BRS Information        Technologies,    1986, PATDATA, Mimeo.
+Carter, Richard and Steven Manaster,             1990, Initial public offerings and underwriter        reputation,
+     Journal of Finance 45, 104551067.
+Clay, Lucius, 1987 and earlier years, The venture capital report guide to venture capital in the U.K.
+     3rd ed. (Venture Capital, Bristol).
+Corporate Technology Information           Services, 1992 and earlier years, Corporate technology directory
+     (CorpTech, Woburn, MA).
+Dun’s Marketing        Services, 1992 and earlier years, Million dollar directory (Dun and Bradstreet,
+     Parsippany,    NJ).
+Gompers, Paul A., 1993, Grandstanding           in the venture capital industry, Unpublished working paper
+     (University of Chicago, Chicago, IL).
+Grinblatt,    Mark and Chuan Y. Hwang, 1989, Signaling and the pricing of new issues, Journal of
+     Finance 44, 383-420.
+Hansen, Lars P. and Robert J. Hodrick, 1980, Forward exchange rates as optimal predictors                          of
+     future spot rates: An econometric        analysis, Journal of Political Economy 88, 8299853.
+Howard and Company,           1992 and earlier years, Going public: The IPO reporter (Howard and Co.,
+     Philadelphia,    PA).
+Ibbotson, Roger G. and J.F. Jaffe, 1975, ‘Hot’ issue markets, Journal of Finance 30, 102771042.
+Jain, Bharat A. and Omesh Kini, 1992, Information                asymmetry,    agency costs and the operating
+     performance     of IPOs, Unpublished       working paper (Pennsylvania        State University, University
+     Park, PA).
+Jeffery, Grant, 1961, Science and technology stocks: A guide for investors (Meridian, New York, NY).
+Leland, Hayne E. and David H. Pyle, 1977, Informational                  asymmetries,    financial structure and
+     financial intermediation,     Journal of Finance 33, 371-387.
+Lerner, Joshua, 1993, Venture capitalists and the oversight of private firms, Unpublished                 working
+     paper (Harvard University, Cambridge,            MA).
+Lerner, Joshua, 1994, The syndication             of venture capital investments,       Financial  Management,
+     forthcoming.
+316                                        J. Lerner.    Venture capitalists
+
+
+Loughran,      Tim and Jay R. Ritter, 1993, The timing and subsequent                  performance       of IPOs: The
+     U.S. and international       evidence, Unpublished      working paper (University of Illinois, Urbana-
+     Champaign,      IL).
+McNamee, Roger, 1991, How to fix the IPO market, Upside 3, Jan., 24-27.
+Mega-Type       Publishing,    1991, Genetic engineering      and biotechnology-related           firms ~ Worldwide
+     directory (Mega-Type,       Princeton Junction, NJ).
+Megginson, William C. and Kathleen A. Weiss, 1991, Venture capital certification                       in initial public
+     offerings, Journal of Finance 46, 879-893.
+Meulbroek,      Lisa, 1992, Comparison         of forward and futures prices of an interest rate-sensitive
+     financial asset, Journal of Finance 47, 381-396.
+Mikkelson,      Wayne H. and M. Megan Partch, 1988, Withdrawn                      security offerings, Journal           of
+     Financial and Quantitative        Analysis 23, 119-133.
+National     Register Publishing      Company,     1992 and earlier years, Corporate            finance sourcebook,
+     (National Register Publishing Co., Wilmette, IL).
+North Carolina Biotechnology           Center, Biotechnology      Information    Division (NCBC), 1990a, North
+     Carolina Biotechnology        Center documentation       for companies database (NCBC, Research Tri-
+     angle Park, NC).
+North Carolina Biotechnology          Center, Biotechnology      Information     Division (NCBC), 1990b, Survey
+     of U.S. biotechnology      firms, Unpublished     report (NCBC, Research Traingle Park, NC).
+Ornx Press, 1991 and earlier editions, BioScan: The worldwide biotech industry reporting service
+     (Ornx Press, Phoenix, AZ).
+Pisano, Gary P., 1989, Using equity participation          to support exchange: Evidence from the biotech-
+     nology industry, Journal of Law, Economics and Organization                  5, 1099 126.
+Recombinant      Capital, 1991, Valuation histories for private biotechnology            companies (Recombinant
+     Capital, San Francisco, CA).
+Recombinant      Capital, 1992, Valuation histories for public and acquired biotechnology                    companies
+    (Recombinant       Capital, San Francisco, CA).
+Ritter, Jay R., 1984, The ‘hot issue’ market of 1980, Journal of Business 57, 215-240.
+Ritter, Jay R., 1991, The long-run performance of initial public offerings, Journal of Finance 46,3-27.
+Sahlman, William A., 1990, The structure and governance of venture capital organizations,                        Journal
+     of Financial Economics 27, 473-521.
+Schultz, Paul, 1993, Unit initial public offerings: A form of staged financing, Journal of Financial
+     Economics 34, 1999129.
+Securities Data Company (SDC), 1992, Corporate new issues database: A tutorial (SDC, Newark, NY).
+Shiller, Robert J., 1990, Speculative prices and popular models, Journal of Economic Perspectives 4,
+     55-65.
+Shiller, Robert J. and John Pound, 1989, Survey evidence of diffusions of interest and information
+     among investors, Journal of Economic Behavior and Organization                    12,47-66.
+Stern, Richard L. and Tatiana Pouschine, 1992, Junk equity, Forbes 149, March 2, 40-42.
+Teitelman, Robert, 1990, Gene dreams: Wall Street, academia and the rise of biotechnology                          (Basic
+     Books, New York, NY).
+U.S. Department       of Commerce, Patent and Trademark             Office, Office of Patent Depository          Library
+     Programs (USPTO/OPDLP),              1989, ASSIST disk notes, Mimeo. (USPTO/OPDLP,                        Washing-
+     ton, DC).
+US. Department        of Commerce, Patent and Trademark             Office, Office of Patent Depository          Library
+     Programs (USPTO/OPDLP),            1990, CASSIS/BIB user’s guide (USPTO/OPDLP,                  Washington, DC).
+U.S. General Accounting Office (USGAO), 1989, Assessment of small business innovation                           research
+     programs (USGAO, Washington,             DC).
+Venture Economics, 1988a, Exiting venture capital investments (Venture Economics, Needham, MA).
+Venture Economics,        1988b and earlier years, Guide to European venture capital sources (Venture
+     Economics, London).
+Venture Economics, 1991, Untitled documentation              of databases, Mimeo. (Venture Economics, New
+     York, NY).
+Venture Economics,          1992 and earlier years, Pratt’s guide to venture capital sources (Venture
+     Economics, New York, NY).
+Welch, Ivo, 1989, Seasoned offerings, imitation costs, and the underpricing               of initial public offerings,
+     Journal of Finance 44, 42 l-449.
+
