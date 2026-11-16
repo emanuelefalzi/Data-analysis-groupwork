@@ -1,0 +1,859 @@
+                                          Available online at www.sciencedirect.com
+
+
+
+
+                                           Journal of Business Venturing 23 (2008) 497 – 512
+
+
+
+
+                         Duration analysis of venture capital staging:
+                                  A real options perspective
+                                                              Yong Li ⁎,1
+          School of Management, State University of New York at Buffalo, 326 Jacobs Management Center, Amherst, NY 14260 USA
+                         Received 1 December 2006; received in revised form 1 July 2007; accepted 1 October 2007
+
+
+
+
+Abstract
+
+    This study takes a real options perspective towards venture capital staging and views the staging decision as a choice between
+holding the current option to invest and investing now to obtain the option to invest subsequently. It proposes that this staging
+decision depends on the factors that influence the value of these two options, such as competition and various sources of
+uncertainty. The empirical results suggest that market uncertainty encourages venture capital firms to delay investing at each round
+of financing, whereas competition, project-specific uncertainty and agency concerns prompt venture capital firms to invest sooner.
+This study has useful implications for theory and practice.
+© 2007 Elsevier Inc. All rights reserved.
+
+Keywords: Venture capital; Staging; Real options; Uncertainty; Agency
+
+
+
+
+1. Executive summary
+
+   This study examines the staging decision in venture capital from a real options perspective. Once the initial
+investment in a portfolio company is undertaken, the venture capital firm has an option to invest in each subsequent
+round. The staging decision can thus be viewed as whether to hold the current option to invest and wait or to invest
+now and obtain the option to invest subsequently. The current study proposes that this staging decision depends on the
+factors that influence the value of these two options, including various sources of uncertainty and competition.
+   Venture capital investments face exogenous market uncertainty that changes whether or not investment is taking
+place. Since venture capital investments are at least partially irreversible, there is a value of waiting for new information
+before the venture capital firm commits to the current round of financing. Market uncertainty will thus increase the
+value of holding the current option to invest and encourage the venture capital firm to delay.
+   Delay is not always preferred to investing. First, delaying investing in the current round could increase the cost of
+investing subsequently, or worse, delay could cause this option to invest in the subsequent round expire. In particular,
+the right of first refusal does not prevent competitors from developing other portfolio companies with similar growth
+
+ ⁎ Corresponding author. Tel.: +1 716 645 2522; fax: +1 716 645 5078.
+    E-mail address: YL67@buffalo.edu.
+ 1
+   I acknowledge funding from the Academy for Entrepreneurial Leadership at the University of Illinois at Urbana-Champaign. I thank Tailan Chi,
+Tim Folta, Glenn Hoetker, Huseyin Leblebici, Joseph Mahoney, Steven Michael, Dean Shepherd, Tony Tong, and the anonymous reviewers for their
+helpful comments. All errors remain mine.
+
+0883-9026/$ - see front matter © 2007 Elsevier Inc. All rights reserved.
+doi:10.1016/j.jbusvent.2007.10.004
+498                                   Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+prospects. Thus, competition will increase the opportunity cost of waiting, and prompt the venture capital firm to
+invest.
+   Second, if the venture capital firm can obtain more project-specific information through investing about the venture
+project, it may be more beneficial to invest now and obtain the option to invest subsequently than to hold the current
+option to invest. The opportunity to obtain information at each round of financing is particularly attractive when the
+sources of uncertainty surrounding the venture capital project can be substantially influenced by the endogenous
+activity of the venture capital firm. This study examines two forms of endogenous uncertainty that are important for
+venture capital investments. First of all, each venture project has project-specific uncertainty concerning the costs and
+benefits of the project. Project-specific information generally arrives when investment is taking place, and there is little
+value to waiting. Consequently, the venture capital firm has the motive to invest sooner so as to accumulate
+information. Secondly, the venture capitalist–entrepreneur relationship is characterized by behavioral uncertainty. In
+particular, the venture capital firm has the motive to tighten monitoring and invest more frequently in those portfolio
+companies with potentially higher agency costs.
+   The empirical results suggest that market uncertainty encourages venture capital firms to delay investing at each
+round of financing, whereas competition and agency concerns prompt venture capital firms to invest sooner. Further,
+portfolio companies at earlier stages receive financing at a much faster pace. This result offers supportive evidence to
+the extent that earlier stages of development are indicative of higher project-specific uncertainty.
+   This study has useful practical implications. Venture capital firms can view the staging decision at each round of
+financing as making a choice between investing and delay. Concerning the timing of staging, while portfolio company
+performance, syndicate characteristics, liquidity constraints, and agency concerns are all important factors, venture
+capital firms need to further consider the broader decision context and the effects of real options factors such as
+uncertainty and competitive pressure on the staging decision. Further, it is useful for venture capital firms to
+differentiate between exogenous market uncertainty and endogenous project-specific uncertainty or behavioral
+uncertainty, to the extent that they have different implications for the staging decision.
+
+2. Introduction
+
+   Venture capital has had an increasingly important impact on corporate innovation, job creation and economic
+growth (Dushnitsky and Lenox, 2005; Global Insight, 2007; Kortum and Lerner, 2000). A prominent feature of venture
+capital investments is staged financing of portfolio companies by venture capital firms (Sahlman, 1990). The current
+study examines this staging decision and analyzes when portfolio companies will receive each round of financing from
+venture capital firms.
+   The timing of staging is critical for both the entrepreneur and the venture capitalist. For the entrepreneur, timely
+financing in each subsequent round is just as important as the initial capital infusion. Developing a new product or
+technology with venture capital funds in a timely fashion may make the difference between survival and going out of
+business (Dean and Giglierano, 1990). Even if survival is not an immediate concern, the entrepreneur may depend upon
+timely venture capital funding to fuel growth. On the other hand, each round of financing is surrounded by various
+sources of uncertainty, and the venture capitalist has to decide whether to invest sooner or delay.
+   Extant research has primarily examined the staging of venture capital investments from an agency perspective
+(Admati and Pfleiderer, 1994; Gompers, 1995; Trester, 1998). Venture capital firms can stage their financing to
+mitigate information asymmetry and agency problems (e.g. Neher, 1999; Wang and Zhou, 2004). Further, venture
+capitalists need to monitor entrepreneurs closely and invest frequently, to learn about the effort of entrepreneurs and to
+reduce the agency costs of inefficient continuation (Gompers, 1995). While the agency perspective focuses on the
+venture capitalist's need to manage the relationship with the entrepreneur, it has largely ignored the broader decision
+context. Beyond the potential self-interest or opportunism on the part of the entrepreneur, the venture capitalist also
+faces market- and project-specific uncertainties as well as competitive pressure that represent important factors to
+consider in the staging decision. This study addresses this gap by introducing a real options framework that accounts
+for how the venture capitalist responds to uncertainty and competitive pressure.
+   From a real options perspective, each prior round of financing gives rise to the opportunity to invest subsequently. Once
+the initial investment in a portfolio company is undertaken, the venture capital firm has an option, but not an obligation, to
+invest in each subsequent round. In this respect, a critical issue concerning each round of financing is, should the venture
+capital firm hold the option to invest in the current round? Or, should the venture capital firm invest now and obtain an
+                                      Y. Li / Journal of Business Venturing 23 (2008) 497–512                             499
+
+
+option to invest in the subsequent (and future) round(s)? The current study proposes that this staging decision depends on
+the factors that influence the value of holding the current option to invest vs. investing now to obtain the option to invest
+subsequently.
+    On the one hand, venture capital investments face market uncertainty that resolves primarily with the passage of time
+(Dixit and Pindyck, 1994). Since venture capital investments are at least partially irreversible, and market uncertainty
+changes whether or not investment is taking place, there is a value of waiting for new information before the venture capital
+firm commits to the current round of financing. Thus, market uncertainty increases the value of holding the current option
+to invest and encourages the venture capital firm to delay investing.
+    On the other hand, there are situations where delay is not as beneficial as investing sooner. First, delay in the current
+round of financing could increase the cost of investing in the subsequent round (i.e., the cost of purchasing the option to
+invest subsequently), or even worse, delay could cause this option to expire. In particular, the venture capitalist may have
+the right of first refusal, which provides the preferential right to invest in the subsequent round, but such a right does not
+prevent competitors from developing other portfolio companies with similar growth prospects. Therefore, competition will
+increase the opportunity cost of delay, and prompt the venture capital firm to invest sooner.
+    Second, if, through investing, the venture capital firm can obtain information about the costs and potential benefits of
+the venture project, the value of the option to invest subsequently gained from investing now may be higher than the
+value of holding the current option to invest (Pindyck, 1993; Roberts and Weitzman, 1981). Consequently, the venture
+capital firm will be prompted to invest for the growth prospects associated with the subsequent rounds of financing. The
+opportunity to obtain information at each round of financing is particularly attractive when the sources of uncertainty
+surrounding the venture capital project can be substantially influenced by the endogenous activity of the venture capital
+firm. This research study focuses on two forms of such endogenous uncertainty in venture capital. First of all, each
+venture project has project-specific uncertainty concerning the costs of completing the project and its potential benefits.
+Project-specific information about costs and benefits generally arrives when investment is taking place. Thus, there is
+little value to waiting and the venture capital firm has the motive to invest sooner to accumulate information. In addition,
+the venture capitalist–entrepreneur relationship is characterized by behavioral uncertainty, i.e., uncertainty of a
+‘strategic’ kind attributable to self-interest and opportunism (Williamson, 1985). In this respect, extant research has
+viewed information asymmetry and associated agency problems as central concerns in venture capital investments (e.g.
+Gompers, 1995).
+    To examine this real options view of the staging decision, the current study analyzes the funding duration of standard
+venture capital investments in the U.S. during 1975–2005. The empirical analysis presents evidence consistent with this
+real options view: Market uncertainty encourages the venture capital firm to delay, while competition, project-specific
+uncertainty and agency concerns prompt the venture capital firm to invest sooner. The empirical results indicate that it is
+important to consider the broader decision context beyond agency concerns in examining venture capital staging. The real
+options approach also enables us to examine how the staging decision is influenced by various sources of uncertainty that
+are prevalent in venture capital investments.
+    The remainder of this study proceeds as follows. First, this paper elaborates on the real options view concerning
+venture capital staging. Then, the data and methods are presented, and the empirical results are reported. This paper
+concludes by discussing the implications of the current study for theory and practice and by noting several avenues for
+future research.
+
+3. Theory and hypotheses
+
+   Organizations and individuals make capital investments in order to create and take advantage of profitable
+opportunities. These investment opportunities are real options — rights but not obligations to take some action in the
+future. Therefore, capital investments are essentially about real options (Dixit and Pindyck, 1995). Real options create
+economic value by generating future decision rights, or more specifically, by offering management the flexibility to act
+upon new information such that the upside economic potential of an investment project is retained while the downside
+losses are contained (Trigeorgis, 1996).
+   In staged venture capital investments, upon prior round of financing in a portfolio company, the venture capital firm has
+an option to invest in the current round of financing. Upon investing, the firm gains another option to invest in a subsequent
+round. The staging goes on until a successful exit (in the form of initial public offering or acquisition) or abandonment.
+Thus, once a prior round has been undertaken, the venture capital firm must choose between: (a) holding the current option
+500                                    Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+to invest and (b) investing now to obtain the option to invest subsequently. From a real options perspective, this staging
+decision depends on the factors that influence the economic value of these two options. In the following, we discuss two
+factors that are particularly important for the staging decision: uncertainty and competition.
+
+3.1. Market uncertainty and venture capital staging
+
+    One factor central to the real options theory is uncertainty (Dixit and Pindyck, 1994). Venture capital investments are
+fraught with uncertainty. Less than one third of venture capital investments will ultimately be successfully exited (Fenn
+et al., 1997; Ruhnka and Young, 1991). According to Cochrane (2005), venture capital investments have a mean arithmetic
+return of 59% but its standard deviation is 107%. Therefore, venture capital investments have a small chance of a huge
+payoff.
+    Uncertainty in venture capital investments can be attributed to unexpected market developments, among other
+things. Such market uncertainty is out of the control of entrepreneurs or venture capitalists, and can thus be viewed as
+‘exogenous’ to organizational activity (McGrath, 1997; Pindyck, 1993). Although market uncertainty does not in itself
+cause market failure (Amit et al., 1998), it does affect venture capitalists' investment strategies.
+    The real options theory of investment suggests that in a world of uncertainty, when investments are at least partially
+irreversible, the option to invest can be more economically valuable than immediate investment because this option offers
+management the flexibility to defer the investment decision until additional information is revealed (Dixit and Pindyck,
+1994; McDonald and Siegel, 1986; Trigeorgis, 1996). Venture capital investments are typically irreversible in nature.
+Many portfolio companies primarily have business concepts, product prototypes, or initial marketing and manufacturing,
+but have not accumulated substantial tangible assets or financial wealth. Further, unlike public firms or firms with
+established track records, portfolio companies do not have a liquid secondary market to trade their equity shares (Wright
+and Robbie, 1998). In view of the irreversibility of venture capital investments, higher uncertainty in the venture capital
+market will increase the value of holding the current option to invest. Because market uncertainty unfolds primarily
+independent of organizational activities, the venture capital firm is better off to wait for new information before committing
+to the current round of financing. If market conditions turn favorable in the future, the firm can invest immediately and
+ultimately capitalize on any growth opportunities embedded in the portfolio company. If the situation is clearly unfavorable
+and the project is deeply ‘out of the money’, the firm can defer the decision or abandon the portfolio company and confine
+its losses to sunk costs.
+    This strategy of holding the current option to invest under uncertainty may not be as valuable as the strategy of investing
+now and obtaining the option to invest subsequently, if the rights and responsibilities associated with the subsequent round
+of financing are pre-determined, and if the cost of financing stays fixed. With pre-determined rights and fixed costs, market
+uncertainty would primarily enhance the upside potential of the venture project. However, the rights and responsibilities
+outlined in venture capital contracts are typically contingent in nature. For example, it is not unusual for the venture
+capitalist and the entrepreneur to reallocate cash flow and control rights between rounds of financing (Kaplan and
+Stromberg, 2003). Further, the cost of financing varies from round to round and is highly uncertain for a venture project that
+typically takes years to complete. Therefore, since the venture capital firm has already gained a foothold in the portfolio
+company through the initial equity investment, and the investment is at least partially irreversible, market uncertainty
+would primarily increase the value of the current option to invest, and the venture capital firm will find it optimal to delay.
+This logic leads to the following hypothesis:
+H1. The higher the level of market uncertainty, the later a portfolio company will receive a staged financing, other things
+being equal.
+   Delay is not always preferred to investing. In particular, the cost of investing subsequently could increase with delay,
+and the option to invest subsequently could expire. It is critical for the venture capital firm to retain the option to invest in
+subsequent rounds, since the venture capital firm usually does not obtain sufficient immediate cash inflows to recover
+investment expenditures, but rather profit from subsequent investment opportunities that may lead to successful exits.
+   The venture capital firm may not have the ‘luxury’ to delay when competition is high. Venture capital as a whole is a
+very competitive market with low barriers to entry (Cochrane, 2005). The venture capital firm (or the syndicate) is usually
+not alone in funding entrepreneurial companies to capitalize on some attractive growth opportunities. Competitors are
+likely to also perceive similar opportunities and seek to take out their own options (McGrath and Nerkar, 2004), through
+investments in other portfolio companies. The venture capitalist may have the right of first refusal, but such a right does not
+                                      Y. Li / Journal of Business Venturing 23 (2008) 497–512                             501
+
+
+prevent competitors from developing other portfolio companies with similar growth opportunities. For this reason,
+competition will likely depreciate the value of the venture capital firm's option to invest subsequently in its portfolio
+company, and increase the opportunity cost of delay. In addition, delay may increase the cost of nurturing the portfolio
+company for a successful exit, if the venture capital firm and the portfolio company must compete with an increasing
+number of rival venture firms and portfolio companies. Thus, we expect that the venture capital firm will speed up its
+funding in a more competitive environment.
+H2. The higher the level of competition among venture capital firms, the sooner a portfolio company will receive a
+staged financing, other things being equal.
+
+3.2. Project-specific uncertainty and venture capital staging
+
+   The venture capital firm will also have the motive to invest sooner when there is significant endogenous uncertainty. If
+the venture capital firm can learn about the costs and potential benefits of the venture project through investing (Pindyck,
+1993; Roberts and Weitzman, 1981), the option to invest subsequently obtained from investing now can be more valuable
+than holding the current option to invest. Information updating at each round of financing is particularly attractive when the
+investment is fraught with endogenous uncertainty.
+   Extant real options research has suggested that investments generally are subject to two types of uncertainty: exogenous
+uncertainty that are largely irreducible through organizational efforts, and endogenous uncertainty that can be substantially
+influenced by endogenous organizational activity (Folta, 1998; McGrath et al., 2004; Roberts and Weitzman, 1981). While
+both types of uncertainty increase the economic value of real options, they affect investment decisions differently
+(Pindyck, 1993). Under exogenous market uncertainty, delay is more beneficial than investing because delay preserves the
+flexibility to invest when the market develops more favorably, but to back off when market conditions turn adverse.
+Endogenous uncertainty, on the other hand, implies opportunities for information updating and learning, and as such, may
+encourage the firm to invest (Pindyck, 1993; Roberts and Weitzman, 1981). In fact, existing research suggests that
+endogenous uncertainty in equity alliances or joint ventures implies opportunities for learning about the benefits of
+collaboration (Chi and McGuire, 1996).
+   In terms of the timing of staged financing in venture capital, two forms of endogenous uncertainty are especially
+important. First, each venture project has project-specific uncertainty concerning the costs of completing the project and its
+potential benefits. Such uncertainty may be of a non-strategic kind. Second, each venture project is also characterized by
+behavioral uncertainty of a ‘strategic kind’ (Williamson, 1985). In particular, information asymmetry between the venture
+capitalist and the entrepreneur, coupled with self-interest or opportunism, gives rise to agency problems (Jensen and
+Meckling, 1976). The following two sections examine these two forms of endogenous uncertainty and analyze two general
+scenarios where investing sooner might be more beneficial than delay.
+   A venture capital project typically takes years to complete before a successful exit. The venture capitalist faces
+significant uncertainty about the costs of completion and the potential benefits of the project. It is not clear how much time
+and effort will ultimately be required to complete the project. Such project-specific uncertainty about the costs differs from
+market uncertainty in that project-specific uncertainty can largely be resolved as the investment proceeds. If project-
+specific information arrives primarily when investment is taking place, there is little value to waiting (Pindyck, 1993).
+Similarly, it is unlikely that the venture capitalist could have an accurate assessment of the economic value of the venture
+project at the outset. Since the venture capital firm has the option to abandon in mid-stream, it has additional motive to pay
+running costs to accumulate information about the potential benefits of the project (Roberts and Weitzman, 1981).
+Consequently, we expect that the venture capital firm will accelerate its funding when information about the costs and
+benefits of the venture project can be obtained through investing. Hence:
+H3. The higher the level of project-specific uncertainty, the sooner a portfolio company will receive a staged financing,
+other things being equal.
+
+3.3. Agency concerns and venture capital staging
+
+   In terms of the other form of endogenous uncertainty — behavioral uncertainty, research has long focused on information
+asymmetry in venture capital investments. Two types of information asymmetry exist in the venture capital market (Amit
+502                                     Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+et al., 1998). If the entrepreneur's effort cannot be observed by the venture capitalist, then it is a “hidden action” and gives rise
+to agency problem. In particular, since the private benefits from managing the portfolio company may not always be perfectly
+correlated with shareholder value, the entrepreneur has the incentive to continue running the company that she knows has
+negative expected returns but high non-pecuniary benefits (Gompers, 1995). If the entrepreneur knows more about the quality
+of her company than the venture capitalist, then it is hidden or private information and gives rise to potential adverse selection.
+While the venture capitalist and the entrepreneur are more or less equally informed about exogenous market uncertainty, the
+venture capitalist usually is less informed about the effort of the entrepreneur and the quality of the portfolio company, since
+the entrepreneur usually gains more in-depth knowledge of her company through running daily operations.
+    There are several ‘remedial’ measures to attenuate the hidden information and agency problems. The financial contracting
+literature has focused on the optimal design of contracts between the venture capitalist and the entrepreneur, such as
+syndication and allocation of control and cash flow rights (Gompers, 1995; Hellmann, 1998; Kaplan and Stromberg, 2003;
+Sahlman, 1990). In view of numerous contingencies that may not be anticipated ex ante, however, contracts are typically
+incomplete. Thus, monitoring remains critical for venture capital investments (Sorenson and Stuart, 2001).
+    If monitoring and information gathering are important, venture capital firms should invest in companies in which
+asymmetric information is likely to be a problem (Gompers, 1995). Amit et al. (1998) find from Canadian data that
+venture capitalists concentrate investments in high-tech industries where informational asymmetries are likely to be
+significant and monitoring is valuable. Given that learning about each party's behavioral tendencies is endogenous to
+organizational efforts (e.g., Chi and McGuire, 1996), the venture capitalist can mitigate information asymmetry
+concerns by learning through investing about the effort of the entrepreneur and the quality of the portfolio company. At
+the same time, the venture capitalist can use tighter monitoring to examine the progress of the portfolio company, and to
+avoid inefficient continuation of the venture project. Thus, we expect that the venture capital firm has the motive to
+tighten monitoring and invest more frequently in case of information asymmetry and agency problems.
+H4a. The higher the level of information asymmetry and agency concerns, the sooner a portfolio company will receive a
+staged financing, other things being equal.
+    While extant research has posited that agency costs prompt the staging of capital (Gompers, 1995), it remains to be seen
+whether this agency effect on the staging decision will persist over time when venture capital has become more established as
+an alternative asset market. Venture capital investments require close monitoring and complex contracting concerning
+allocation of cash flow and control rights (Kaplan and Stromberg, 2003). In the early development of venture capital when
+monitoring procedures were not as routinized and contractual terms were not as developed as now, venture capital investments
+might be subject to higher agency costs. With its rapid development over the last decade, venture capital has become a
+significant source of funds for entrepreneurs and a significant source of employment and innovation (Global Insight, 2007).
+As venture capital becomes more institutionalized, the level of information asymmetry and agency concerns on average might
+be lower and its effect on the timing of staging less for more recent investments. Thus, we hypothesize that:
+H4b. The level of information asymmetry and agency concerns will have a less pronounced effect on the timing of staged
+financing for more recent venture capital investments.
+
+4. Methods
+
+4.1. Data and sample
+
+   We test the real options view on the timing of staging using venture capital data collected from Venture Economics'
+VentureXpert database. We focus on standard venture capital investments in the U.S. We must drop investments for which
+portfolio companies' names are undisclosed, because such investments cannot be uniquely identified and the duration
+between financing rounds cannot be determined. The resulting sample includes 46,976 portfolio company-round pairs for
+1975–2005, involving 3737 venture capital firms and 15,786 portfolio companies.
+
+4.2. Model specification and estimation procedures
+
+   The empirical analysis focuses on the funding duration, i.e., the time elapsed between two adjacent rounds of financing
+for a portfolio company. The shorter the duration, the sooner a portfolio company receives its next round of financing. Let
+                                     Y. Li / Journal of Business Venturing 23 (2008) 497–512                             503
+
+
+T denote the duration or the spell length. We can describe the behavior of a spell through its survival function, S(t) = p
+(T ≥ t), which yields the probability that the spell T lasts at least to time t.
+   To estimate the effects of the real options and agency factors on the funding duration, we consider an accelerated-
+failure-time (AFT) model:
+
+      ln T ¼ X b þ e                                                                                                     ð1Þ
+
+
+where the dependent variable is the natural logarithm of the duration, X is a vector of explanatory variables, and β is a
+vector of parameters to be estimated. The error term ɛ is assumed to follow an extreme value Weibull density
+distribution. For this Weibull model, S(t) = exp(− at p ), and the hazard function h(t) = apt p− 1 , where a is a function of
+the explanatory variables and a parameter that shifts the hazard up or down, and p is the shape parameter that
+determines the shape of the distribution of the duration (Cameron and Trivedi, 2005).
+    The Weibull model is selected for the following reasons. First of all, the model fits the current paper's focus on the
+timing of staging and is intuitively appealing since the coefficients in the Weibull regression model can be interpreted
+as the influence of explanatory variables on the log of duration. This model is also commonly used in other duration
+studies (e.g. Favero et al., 1994; Gompers, 1995; Mitchell, 1989). Second, we can use the Weibull model to account
+for right-censoring in the data by modifying the log-likelihood function as a weighted average of the sample density of
+completed spells and the survival function of uncompleted spells (Kiefer, 1988). Without adjustment for right-
+censoring, the model would produce biased parameter estimates. The data are right-censored when we do not observe
+the subsequent round of financing and thus the completion of a spell. We may not observe the subsequent round
+because the portfolio company is in the middle of an ongoing financing round, or because it went public, was
+acquired, or went bankrupt. For those ongoing investments, the censoring date is assumed to be either the time when
+the youngest syndicate fund that participated in the last round of financing was liquidated or five years after the fund's
+final close. For the other cases, the censoring date is the date of initial public offering, acquisition or bankruptcy.
+Finally, the empirical results remain unaltered if a semi-parametric Cox model or an alternative parametric model such
+as exponential and log-normal is used.
+    We estimate the Weibull model using the maximum likelihood method. Since the sample includes ‘multiple-
+failure’ data (i.e., a single portfolio company may receive multiple rounds of financing), we apply the robust
+procedure and cluster the observations by portfolio companies to obtain the variance–covariance matrix for
+coefficient estimates.
+
+4.3. Measures
+
+4.3.1. Dependent variable
+   The dependent variable is the time elapsed (Duration) between two adjacent rounds of financing for a portfolio
+company. The time elapsed is computed in days, but converted to years by dividing the time over 365.25. Explanatory
+variables are described as follows.
+
+4.3.2. Market uncertainty
+   Venture capital firms would find it optimal to hold the current option to invest under significant uncertainty in the
+venture capital market. Little public accounting and financial information is available for generating such an
+uncertainty measure for the venture capital market per se. However, extant research indicates that public market
+shifts influence venture capital investment behavior and returns (Cochrane, 2005; Gompers et al., 2005). Thus, we
+use market price volatility in each industry as a proxy of venture capital market uncertainty (Uncertainty). Such
+market price-based measures have a distinct advantage in that they arguably capture all the relevant sources of market
+uncertainty (Carruth et al., 2000). We estimate the market returns following Fama and French (1993), and use the
+conditional variance estimated from a GARCH(1,1) process as our measure of market uncertainty (e.g. Folta and
+O'Brien, 2004; Price, 1995). The GARCH process incorporates two characteristics of market prices: market price
+series are serially correlated and the volatility may not be constant over time. Likelihood ratio tests indicate that the
+GARCH (1, 1) model outperforms alternative GARCH models. Since the average funding duration for staged
+investments is a little more than one year in our sample, we lag the uncertainty measure by one year.
+504                                  Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+   Generating this industry-level uncertainty measure requires industry classification for portfolio companies. We
+match the Venture Economics Industry Classification (VEIC) codes to the SIC codes by examining all portfolio
+companies in each VEIC class that had gone public and been assigned a three-digit SIC code. Specifically, a VEIC class
+is matched to a three-digit SIC code to which the majority of companies going public in that VEIC class have been
+assigned (Gompers and Lerner, 2000). The other industry-level measures are also generated with this match.
+
+4.3.3. Competition
+   Competitiveness is reflected in the number of venture capital firms competing in the industry of the portfolio
+company. The number of venture capital firms tends to increase mechanically over time. To control for such a time
+trend, we measure Competition as the log of the number of venture capital firms competing in an industry in a given
+year over the total number of venture capital firms participating in the venture capital market in that year.
+
+4.3.4. Project-specific uncertainty
+   It is difficult to measure project-specific uncertainty for a large sample study like ours. We use the stage of
+development at the time of financing as an indicator of the level of project-specific uncertainty. On the basis of the
+Venture Economics classification, we group portfolio companies into Seed/Startup, Early, and Expansion/Late stages.
+First, portfolio companies at the Seed/Startup-stage engage in continued research and product development and have
+not yet fully established commercial operations. As a result, it is highly uncertain how much cost is required to
+complete a venture project and whether and when a successful exit will materialize. Then, portfolio companies at the
+Early stage start to undergo product development and initial marketing, manufacturing and sales activities. The cost
+requirement and profit prospect will become clearer but the level of project-specific uncertainty is likely to remain high.
+Finally, as companies grow to the Expansion/Late stages, they will have developed products and an established
+consumer base, experience increasingly growing revenue, and even exhibit consistent growth. By now, venture capital
+firms will have fairly good knowledge of the costs and profit potential of their projects, and thus the project-specific
+uncertainty will be much lower. Thus, the level of project-specific uncertainty in general decreases as the project
+progresses.
+   Since project-specific uncertainty is primarily resolved through investing, we propose that venture capital firms
+have the motive to accelerate the funding under significant project-specific uncertainty. It follows that venture capital
+firms will invest sooner when portfolio companies are at their Seed/Startup or Early stage of development. In fact,
+Roberts and Weitzman (1981) show analytically that in a staged project that takes time to complete, when uncertainty
+about the costs and benefits of the project can be reduced through investing, and when the project can be stopped in
+mid-stream, it is worthwhile to invest in the early stages of the project even though ex ante the net present value of the
+entire project is negative.
+
+4.3.5. Agency concerns
+   Three factors are particularly indicative of information asymmetry and agency concerns in venture capital
+investments (Gompers, 1995). First, as assets become more tangible, venture capitalists can recover more of their
+investments in abandonment, and expected losses due to inefficient continuation are reduced. The value of intangible
+assets is harder to assess than that of tangible assets, and intangible assets would be associated with higher agency
+costs. Second, in industries where company value is largely dependent upon future growth opportunities, entrepreneurs
+have more discretion to invest in personally beneficial strategies at shareholders' expense, and venture investments are
+more susceptible to agency problems. Lastly, investments in industry-specific assets tend to have lower liquidation
+value (Williamson, 1988) and are also subject to greater discretion by entrepreneurs. Following Gompers (1995),
+therefore, we expect that tangible assets would be associated with an increase in the funding duration, whereas
+investments with significant growth potential and asset specificity are subject to more discretion by the entrepreneur,
+requires closer monitoring, and thus would be associated with a decrease in the funding duration.
+   We measure tangibility as the industry median tangible-to-total assets ratio (Tangible), where tangible is the total
+assets from Compustat less current assets, investments and advances, intangible assets, and other assets, if any (Rajan
+and Zingales, 1995). We use the industry median market-to-book ratio (Growth) computed from the CRSP and
+Compustat databases as an indicator of growth opportunities (Myers, 1977). Finally, since R&D intensity is associated
+with the specificity of assets in an industry (Bradley et al., 1984; Titman, 1984), we measure asset specificity as the
+industry median R&D-to-sales ratio (R&D) (Pisano, 1989).
+                                     Y. Li / Journal of Business Venturing 23 (2008) 497–512                           505
+
+
+4.3.6. Recent investments
+   Although venture capital has been used for over 60 years, it is only recently that it has become an important
+alternative asset market. In 1990 venture capitalists in the U.S. invested less than $4.0 billion in less than 1500
+companies. By 1996, the disbursements have more than tripled ($12.9 billion) and the number of venture capital-
+backed companies more than doubled (Venture Economics/National Venture Capital Association, 2006). Thus, we
+regard those investments since 1996 (included) as more recent venture capital investments.
+   Other factors may also affect the timing of staging. We discuss three groups of such factors: liquidity constraints
+for venture capital funds, syndicate characteristics such as experience and size, and portfolio company characteristics
+such as performance, age, industry, and the size of financing.
+
+4.3.7. Commitments
+    If venture capitalists are liquidity constrained, larger capital commitments to venture capital funds would allow
+venture capitalists to invest more often in positive NPV projects. If venture capitalists are susceptible to free cash flow
+agency costs (Jensen, 1986), they might waste the extra cash by investing in bad projects. Thus, we include a measure
+to indicate capital commitments to the venture capital industry (in log of the amount of money raised) in the year before
+the investment (Gompers, 1995).
+
+4.3.8. Syndicate size and experience
+   Venture capital firms typically syndicate their investments. Thus, we need to control for the potential influence of
+syndicate characteristics on the staging decision. Syndication may lead to improved project selection and learning
+(Lerner, 1994a), and thus improved continuation decisions. At the same time, syndication may lead to better value-
+creating services for portfolio companies (Brander et al., 2002). For these reasons, syndication may increase the
+syndicate partners' incentive to invest and decrease the funding duration. Syndicate size is measured as the total
+number of venture capital firms participating in a portfolio company's financing round.
+   Syndicate experience may affect the staging decision through its influence on monitoring, screening, and
+advising. First of all, venture capitalists with more industry-specific experience will have more effective and efficient
+monitoring and contracting. Knowledge regarding portfolio companies' industry enhances venture capital firms'
+ability to recognize signs of trouble at an early stage (Sorenson and Stuart, 2001). Experienced venture capitalists
+will also have established the routines for renegotiating and re-contracting with entrepreneurs at each subsequent
+round of financing. Thus, experience can relax the cost constraint on frequent monitoring. In addition, experience
+may increase venture capitalists' capabilities to select high-quality projects to undertake. As a result, selected
+companies may hit their milestones on time or early and need follow-on funding to grow even faster. Finally, more
+experienced venture capitalists can provide more industry-specific expertise in terms of market access, strategic and
+operational advice (Brander et al., 2002; Gorman and Sahlman, 1989), as well as greater industry-specific social
+capital (Stuart et al., 1999). If so, experienced venture capitalists may grow portfolio companies faster. In summary,
+we expect that venture capitalists would perform monitoring, screening, and advising more successfully and
+expeditiously when they have more extensive investment experience in the portfolio company's industry (Sorenson
+and Stuart, 2001).
+   We construct the measure of industry-specific experience as the total number of investments made by a venture
+capital firm in the industry of the portfolio company prior to the investment in year t. Because the measure may
+increase over time, we adjust for the changing maturity of the industry by subtracting from the measure the average
+experience of all other venture firms active in the industry in year t prior to year t. We normalize the syndicate
+experience measure (Syndicate experience) by the size of the syndicate.
+
+4.3.9. Portfolio company performance
+   The timing of staging may also be driven by the portfolio company's need for capital. Although we cannot directly
+measure a company's capital needs, we consider several relevant control variables, including the age of the portfolio
+company, the size of financing and the industry in which the company competes.
+   The portfolio company with better performance may have more urgent need for capital to fuel continuing growth.
+More importantly, the better-performing portfolio company is much more likely to meet the ‘milestones'. After all, the
+venture capitalist will not likely provide follow-on funds even if the company has an urgent need for capital, unless it
+meets the ‘milestones’ and is worth refinancing.
+506                                          Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+Table 1
+Descriptive statistics
+No. Variables            Mean S.D. Min     Max     (1)     (2)    (3)     (4)    (5)     (6)   (7)   (8)   (9)   (10)   (11)   (12)   (13)
+(1) Commitments 9.67 1.35 4.49     11.97 1.00
+     (log)
+(2) Syndicate     3.72 1.18 −0.028 7.25 0.20 1.00
+     experience
+     (log)
+(3) Syndicate     3.43 3.02 1.00   34.00 0.02 0.05 1.00
+     size
+(4) IPO           0.13 0.33 0.00   1.00 − 0.16 − 0.03 0.06 1.00
+(5) Company age 5.15 7.96 −20.00 184.00 − 0.03 − 0.04 −0.11 0.01 1.00
+(6) Round         7.67 1.73 −0.22 14.75 0.41 0.14 0.28 0.04 −0.06 1.00
+     amount (log)
+(7) Uncertainty 2.83 0.71 0.10     5.42 0.57 0.15 0.05 − 0.11 −0.06 0.26 1.00
+(8) Competition − 1.38 0.94 −7.39 − 0.26 0.20 0.24 0.15 − 0.02 −0.22 0.14 0.30 1.00
+     (log)
+(9) Seed/Startup 0.13 0.33 0.00    1.00 − 0.14 − 0.05 0.02 0.02 −0.15 − 0.13 − 0.07 0.02 1.00
+(10) Early        0.24 0.42 0.00   1.00 0.08 − 0.01 0.01 − 0.04 −0.14 0.02 0.07 0.07 − 0.21 1.00
+(11) R&D          0.11 0.14 0.00   0.96 0.27 0.14 0.08 0.02 −0.08 0.15 0.12 0.25 − 0.01 0.06 1.00
+(12) Tangible     0.21 0.17 0.05   0.86 − 0.33 − 0.22 −0.04 0.05 0.07 − 0.14 − 0.34 −0.44 0.03 −0.06 − 0.42 1.00
+(13) Growth       2.69 1.20 0.44   6.39 0.17 0.15 0.11 0.04 −0.11 0.14 0.22 0.43 0.05 0.06 0.43 − 0.40 1.00
+N = 46976; Correlations with absolute values larger than 0.03 are significant at p b 0.05.
+
+
+
+   Data limitations prevent us from computing company-level rates of return. Thus, we use two indirect measures of
+company-level performance. The first measure is the post-money valuation of the portfolio company (Valuation),
+which is defined as the product of the price paid per share in the financing round and the shares outstanding post the
+financing round. Since as many as 72% of the investments in our sample do not have disclosed valuation data, we also
+consider an indirect ex post measure of company performance. We view an initial public offering as a final signal of the
+investment's success (see also Brander et al., 2002; Gompers and Lerner, 2000; Sorenson and Stuart, 2001): IPO is a
+dummy equal to one for those companies that are taken public.
+
+4.3.10. Additional controls
+    Older companies may have track records available for venture capitalists to evaluate, and could thus be associated
+with lower project-specific uncertainty and agency problems. Company age is the time in years between the founding
+and the financing of the portfolio company. One might expect that larger financing rounds lead to longer funding
+durations, as larger financing (Round amount) would result in larger losses in case of abandonment, due to the
+irreversible nature of venture capital investments. Finally, we include industry and year dummies in all our estimations
+to account for unobservable industry-specific fixed effects and macroeconomic trends in the venture capital market. In
+the following, we present the analysis and results.
+
+5. Analysis and results
+
+   Table 1 presents the mean and standard deviation of the measures. None of the correlations are sources of concern
+for multi-collinearity.
+   Table 2 reports the estimation results. Model 1 is the baseline model that includes all the control variables. Models
+2–5 examine the effects of the variables of our interest. Model 6 is the full model specification with all the explanatory
+variables, and Models 7–8 are for robustness checks. The Wald chi square tests in Table 2 indicate that all the models
+are statistically significant.
+   Hypothesis 1 proposes that under market uncertainty, delay is more beneficial than investing because delay keeps
+the flexibility to invest under favorable market conditions, but to back off under adverse market conditions. The
+empirical implication is that the portfolio company will receive the staged financing much later when there is a higher
+level of market uncertainty. Model 2 shows that the coefficient estimate for Uncertainty is positive and statistically
+significant at p b 0.001, providing strong support for H1. Concerning the substantive effect of uncertainty, holding the
+                                            Y. Li / Journal of Business Venturing 23 (2008) 497–512                                        507
+
+
+Table 2
+Weibull model of funding duration
+                1                2                3                4               5                6                7              8
+Commitments − 0.652⁎⁎⁎           −0.706⁎⁎⁎        − 0.862⁎⁎⁎       − 0.878⁎⁎⁎      −0.632⁎⁎⁎        − 0.887⁎⁎⁎       − 0.633⁎⁎⁎     −0.659⁎⁎⁎
+               (0.0084)          (0.0093)         (0.014)          (0.014)         (0.0086)         (0.014)          (0.015)        (0.026)
+Syndicate      − 0.000773⁎⁎⁎     −0.000752⁎⁎⁎     − 0.000854⁎⁎⁎    − 0.000889⁎⁎⁎   −0.000705⁎⁎⁎     − 0.000807⁎⁎⁎    − 0.00126⁎⁎⁎   −0.000202⁎⁎
+  experience (0.000062)          (0.000062)       (0.000056)       (0.000056)      (0.000061)       (0.000055)       (0.000089)     (0.000064)
+Syndicate size − 0.0153⁎⁎⁎       −0.0148⁎⁎⁎       − 0.00753⁎⁎⁎     − 0.00775⁎⁎⁎    −0.0110⁎⁎⁎       − 0.00391⁎⁎      − 0.00616⁎⁎    0.00367
+               (0.0017)          (0.0017)         (0.0015)         (0.0015)        (0.0016)         (0.0015)         (0.0019)       (0.0021)
+IPO            0.0299            0.0381+          0.0808⁎⁎⁎        0.0743⁎⁎⁎       0.0580⁎⁎         0.109⁎⁎⁎         0.106⁎⁎⁎       –
+               (0.020)           (0.020)          (0.018)          (0.018)         (0.020)          (0.018)          (0.022)        –
+Company age 0.0111⁎⁎⁎            0.0112⁎⁎⁎        0.00806⁎⁎⁎       0.00734⁎⁎⁎      0.0103⁎⁎⁎        0.00686⁎⁎⁎       0.00892⁎⁎⁎     0.0117⁎⁎⁎
+               (0.0012)          (0.0012)         (0.0010)         (0.00098)       (0.0012)         (0.0010)         (0.0013)       (0.0022)
+Round amount 0.00914⁎            0.00715          0.00470          − 0.000541      0.0146⁎⁎⁎        0.00581          0.00844+       0.0114
+               (0.0044)          (0.0044)         (0.0040)         (0.0041)        (0.0043)         (0.0040)         (0.0051)       (0.011)
+Constant       4.801⁎⁎⁎          8.557⁎⁎⁎         3.248⁎⁎⁎         4.291⁎⁎⁎        8.099⁎⁎⁎         4.069⁎⁎⁎         2.361⁎⁎⁎       5.244⁎⁎⁎
+               (0.21)            (0.22)           (0.31)           (0.32)          (0.14)           (0.24)           (0.31)         (0.84)
+Uncertainty                      0.185⁎⁎⁎                                                           0.172⁎⁎⁎         0.292⁎⁎⁎       0.0744⁎⁎⁎
+                                 (0.014)                                                            (0.014)          (0.018)        (0.022)
+Competition                                       − 0.181⁎⁎⁎                                        − 0.0639⁎⁎⁎      − 0.0341+      −0.0965⁎⁎⁎
+                                                  (0.016)                                           (0.016)          (0.023)        (0.023)
+Seed/Startup                                                       − 0.0921⁎⁎⁎                      − 0.0547⁎⁎⁎      − 0.0594⁎⁎     −0.0589⁎
+                                                                   (0.016)                          (0.015)          (0.020)        (0.025)
+Early                                                              − 0.0757⁎⁎⁎                      − 0.0542⁎⁎⁎      − 0.0559⁎⁎⁎    −0.0649⁎⁎⁎
+                                                                   (0.012)                          (0.012)          (0.017)        (0.017)
+R&D                                                                                −0.439⁎⁎⁎        − 0.257⁎⁎⁎       − 0.379⁎⁎⁎     0.0104
+                                                                                   (0.066)          (0.063)          (0.080)        (0.068)
+Tangible                                                                           0.924⁎⁎⁎         0.959⁎⁎⁎         0.945⁎⁎⁎       0.858⁎⁎⁎
+                                                                                   (0.069)          (0.066)          (0.078)        (0.15)
+Growth                                                                             −0.132⁎⁎⁎        − 0.144⁎⁎⁎       − 0.224⁎⁎⁎     −0.0497⁎⁎⁎
+                                                                                   (0.0050)         (0.0056)         (0.012)        (0.0067)
+Valuation                                                                                                                           0.0133
+                                                                                                                                    (0.012)
+Observations 46,976              46,976           46,976           46,976          46,976           46,976           35,933         12,654
+Log-likelihood − 67,365          −67,221          − 64,798         − 64,898        −66,651          − 63,949         − 50,771       −14,647
+Wald chi       10,998            11,247           10,521           10,446          12,368           13,105           8079           4524
+  square
+Notes:
+1: Robust standard errors appear in parentheses.
+2: ⁎⁎⁎p b 0.001, ⁎⁎p b 0.01, ⁎p b 0.05, +p b 0.10.
+3: All Wald chi square tests are significant at p b 0.001.
+4: The estimated values of the shape parameter for the Weibull models are larger than one at p b 0.01 (based on one-sided tests).
+5: Industry and Year dummies are included in models but not reported.
+
+
+values of other variables at their median level, when Uncertainty increases from its median to 75th percentile, the
+average funding duration increases by more than 12%, i.e., by almost one and a half months. This economic effect is
+quite substantial since the average funding duration is a little more than one year.
+   Hypothesis 2 maintains that competition will depreciate the value of the venture capital firm's option to invest in
+subsequent rounds and increase the opportunity cost of waiting, thus prompting the venture capital firm to invest rather
+than delay. The empirical implication is that the portfolio company will receive the staged financing much sooner when
+a larger number of venture capital firms compete in the same industry. Model 3 shows that Competition has a
+statistically significant negative coefficient, offering support for H2.
+   The catalyst role of competitive entry might be significant only to the extent that the opportunities in an industry are
+limited. In addition, the number of venture capital firms investing in an industry might be driven by venture capital
+funds available for investing. For these two reasons, it is important to control for industry growth and liquidity
+constraints. Model 3 shows that upon accounting for the effects of Growth and Commitments, Competition remains
+negative and statistically significant. An increase in Competition from the median to 75th percentile leads to a decrease
+in the average funding duration by 8%, holding the values of other variables at their median level.
+508                                          Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+Table 3
+Test of the equality of coefficients
+Variables                                               1                                                     2
+                                                        Investments pre-1996                                  Investments since 1996
+R&D⁎⁎⁎                                                  − 1.526⁎⁎⁎                                            − 0.314⁎⁎⁎
+                                                        (0.16)                                                (0.069)
+Tangible⁎⁎⁎                                             0.567⁎⁎⁎                                              1.582⁎⁎⁎
+                                                        (0.070)                                               (0.10)
+Growth⁎⁎⁎                                               − 0.276⁎⁎⁎                                            − 0.117⁎⁎⁎
+                                                        (0.018)                                               (0.0052)
+Other variables                                                                                   Included
+Observations                                                                                      46,976
+Log-likelihood                                                                                    − 63,947
+Wald chi square                                                                                   12,774
+Notes:
+1: ⁎⁎⁎p b 0.001, ⁎⁎p b 0.01, ⁎p b 0.05, +p b 0.10.
+2: Other variables are the same as in Model 6 of Table 2.
+3: The asterisks on the variable names indicate the level of significance at which the coefficients differ.
+
+
+    The venture capital firm has the motive to accelerate its staging when each round of financing reveals information
+about the cost of completion and potential benefits of a project. Since earlier stages of development tend to be
+associated with a higher level of project-specific uncertainty and thus entail greater opportunities for learning by
+investing, Hypothesis 3 suggests that a portfolio company at its Seed/Startup or Early stage will receive the staged
+financing sooner than an expansion- or late-stage company. Model 4 shows that both Seed/Startup and Early have
+statistically significant negative coefficients, an empirical result consistent with H3. The funding duration for a Seed/
+Startup-stage company is 10% shorter than that for an expansion- or late-stage company; that is, a Seed/Startup-stage
+company receives a staged financing 1.2 months sooner. Similarly, the funding duration for an Early stage company is
+8% shorter; that is, such a company receives a staged financing almost 1 month sooner.
+    Finally, Hypothesis 4 examines the agency arguments concerning the timing of staging (Gompers, 1995).
+Companies subject to higher level of information asymmetry and agency problems should be monitored more often.
+Agency costs are likely to be high when R&D intensity and thus asset specificity is high, when industry assets are less
+tangible, and when industry growth potential is high. In Model 5, the coefficients of R&D, Tangible, and Growth are
+all statistically significant at p b 0.001. R&D and Growth are negatively associated with the funding duration, whereas
+Tangible is positively related to the funding duration. These empirical results offer supportive evidence for H4a, and are
+consistent with those in Gompers (1995). An increase in R&D from its median to 75th percentile leads to a 13%
+decrease in the funding duration, holding the values of other variables at their median level. A similar increase in
+Tangible leads to about 10% increase in the funding duration, whereas a similar increase in Growth leads to almost
+13% decrease in the funding duration. The empirical results remain unchanged if we use Tobin's Q to measure growth
+and the R&D-to-assets ratio to measure asset specificity.
+    If the venture capital industry as a whole has become more established, with routine monitoring procedures and
+standard contractual negotiation and enforcement, we would expect the effects of the agency variables to be less
+pronounced for more recent investments. We perform a Wald-test on the equality of the coefficient estimates for R&D,
+Tangible and Growth. Table 3 shows that while the agency variables have the expected effects for both recent and past
+investments, there is a systematic difference in the magnitude of the effects. Specifically, R&D and Growth have
+greater effects for pre-1996 investments, but Tangible has a greater effect for investments since 1996. Consistent with
+H4b, these results suggest that agency concerns as reflected by these variables have less pronounced effects on the
+timing of staging for more recent venture capital investments. To see whether the empirical results are driven by the
+Internet frenzy during 1999–2001, we drop about one quarter of the investments undertaken during this period and re-
+estimate the full model. The results in Model 7 of Table 2 remain qualitatively similar to those in previous models.
+    Let's turn to the control variables. Several empirical findings are worth highlighting. First, the funding duration is
+reduced by greater capital commitments to the venture capital industry (Commitments). Second, Syndicate experience
+has a consistently negative and statistically significant effect on the funding duration, as does Syndicate size except in
+Model 8. Third, the coefficient of IPO turns out to be statistically significant but positive. This effect remains positive
+                                     Y. Li / Journal of Business Venturing 23 (2008) 497–512                           509
+
+
+when we view both IPO and acquisition as exit successes. We have also estimated Model 8 with 12,654 observations
+that have post-money valuation data. This sub-sample is biased towards syndicated investments (see also Gompers and
+Lerner, 2000): 32% of syndicated investments in our sample have valuation data whereas only 15% of non-syndicated
+investments do. The sign of Syndicate size turns positive, but the results for explanatory variables of our interest remain
+unchanged. The coefficient of Valuation in Model 8 is again positive albeit statistically insignificant.
+   The empirical analysis suggests that venture capital firms do not necessarily invest sooner in portfolio companies
+that are eventually taken public or sold. We offer two possible explanations. First, these successful companies have met
+their milestones, and may have lower project-specific uncertainty. Second, successful companies may require less
+frequent monitoring, since venture capitalists can infer from the (intermediate) successes that entrepreneurs have duly
+exercised their efforts. These explanations remain conjectural since we do not have direct measures of company-level
+rate of returns prior to each round of financing.
+   Finally, Company age is positively related to the funding duration, whereas Round amount does not have any
+consistently significant effect. Overall, the empirical results for our main explanatory variables remain robust to
+consideration of liquidity constraints, syndicate characteristics, and portfolio company characteristics.
+   Since several venture funds usually syndicate to participate in a financing round, investments may be received over
+the course of several months and be recorded in the Venture Economics database as several rounds (Lerner, 1994b). To
+see whether this could potentially bias the estimation results, we have recoded those investments that occurred within
+one month or six months as belonging to a single financing round and re-estimated Model 6. The empirical results
+remain unaltered in both cases.
+
+6. Discussion and conclusions
+
+    This study investigates the staging decision in venture capital. Venture capital firms have the choice between
+investing and delay at each round of financing. From a real options perspective, venture capital firms must decide
+whether to hold the current option to invest or to invest now and obtain an option to invest subsequently. This timing
+decision depends on the factors that influence the economic value of these two options, such as market uncertainty,
+competition, and project-specific uncertainty. Our empirical analysis indicates that market uncertainty encourages
+venture capital firms to delay since market uncertainty increases the value of holding the current option to invest. On
+the other hand, in the presence of competition and endogenous project-specific uncertainty, venture capital firms may
+find it optimal to invest sooner, either to avoid losing the option to invest subsequently or to obtain information about
+the costs and benefits of venture projects.
+    The current study has several implications for theory and practice. First, prior research has primarily studied the
+staging decision from an agency perspective (e.g., Gompers, 1995). This study extends this line of research by taking a
+real options approach, which enables us to identify various sources of uncertainty surrounding venture capital
+investments and to examine how exogenous and endogenous uncertainties influence the timing of staged financing.
+The empirical results suggest that the venture capitalist needs to look at the broader decision context beyond agency
+concerns when considering the staging decision.
+    Second, this study contributes to extant real options research on venture capital. Hurry et al. (1992) apply real
+options theory to understand the difference between the venture capital investment strategies of Japanese and US firms.
+It is held that Japanese firms follow an ‘option’ strategy, by which a venture capital investment can be viewed as an
+‘external’ investment to create an initial call option, while the subsequent ‘internal’ development such as R&D can be
+viewed as the exercise of this call option (to capitalize on technology opportunities). The current study focuses on the
+timing of staging for broadly defined venture capitalists that may not have ‘internal’ R&D investments. Conceptually,
+this study views investing in each round of financing as giving up the current option to invest but simultaneously
+creating an option to invest subsequently. By focusing on this staged decision, the current study also complements
+existing research on initial entry decisions, such as Folta and O'Brien (2004) that consider how the options to delay and
+(invest to) grow under industry uncertainty influences the decision of industrial firms to enter a new industry.
+    Third, this study has useful business policy implications. Venture capital firms can view the staging decision at each
+round of financing as making a choice between investing and delay. While portfolio company performance, syndicate
+characteristics, liquidity constraints, and agency concerns are all important factors to consider concerning the timing of
+staging, venture capital firms need to look at the broader decision context. In particular, real options value drivers such
+as uncertainty and competitive pressure also have important influence on the staging decision. Further, it is useful for
+510                                          Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+venture capital firms to differentiate between exogenous market uncertainty and endogenous project-specific
+uncertainty or behavioral uncertainty, to the extent that they have different implications for the staging decision.
+   There are a number of opportunities for future research, which may also help address some limitations of this research
+study. First, this study focuses on the staging decision concerning investment in a single portfolio company. Venture
+capital firms may invest in a portfolio of companies and these portfolio investments may be interdependent. Extant real
+options research suggests that the value of real options embedded in a portfolio of investments may not be additive
+(Kulatilaka, 1995; Vassolo et al., 2004). Future research may extend this study by examining how such portfolio
+interdependence, if any, influences the staging decision. Second, our empirical analysis implies that agency costs have
+less pronounced effects on the timing of staging for more recent venture capital investments. Although a more
+established venture capital market may have lower agency costs on average, organizations vary in the level of agency
+costs incurred and their capabilities to reduce agency costs. While our study focuses on industry-level indicators of
+agency concerns, future research may look at firm-specific indicators. Third, future research may extend this study by
+modeling the staging of venture capital investments from a real options perspective and conduct simulation analyses of
+the relative effects of real options factors. The modeling approach along the line of Pindyck (1993) may offer insights
+into how exogenous and endogenous uncertainties interact to influence the timing of staging, an aspect that is difficult to
+analyze with measures of project-specific uncertainty and agency costs generated primarily from secondary data.
+   This study can be extended in other ways. First, our analysis shows that competitive entry will drive venture capital
+firms to invest sooner. The broader implication of competition for the venture capital market remains an interesting area for
+future research. On the one hand, such a competitive effect may benefit those early stage portfolio companies that would
+otherwise find it difficult to obtain financing. On the other hand, competitive entry may create ‘bandwagon’ effects in
+which venture capitalists rush to increase their commitments without much regard to the business fundamentals of
+portfolio companies (Gompers and Lerner, 2000). Prior research indicates that venture capitalists' assessment of the
+survival probability of their portfolio companies may suffer with competitive entry in these companies' industries
+(Shepherd, 1999). Future research may thus examine the short-term and long-term effects of competitive entry on venture
+capitalists' investment strategies and the performance of venture capital investments. Second, survey and first-hand data
+can be used to have finer-grained research on venture capital staging. For example, one may use questionnaires to measure
+directly endogenous project-specific uncertainty for companies at different stages of development. In addition, survey may
+provide information about other forms of monitoring such as board participation and informal interactions between venture
+capitalists and entrepreneurs. Future research may use such information to examine how informal interactions may help
+reduce information asymmetry and affect the staging decision.
+   Finally, there is an increasing interest in a real options approach towards venture capital (e.g. Cornelli and Yosha,
+2003; Cossin et al., 2002; Hurry et al., 1992; Seppa and Laamanen, 2001). Real options theory can be applied to study
+venture capital since venture capital investments, like R&D investments, involve managerial discretion and are long-
+term investments fraught with uncertainty (Li et al., 2007). Future real options research can shed light on not only
+investment and staging decisions, but also contracting and valuation in venture capital.
+
+References
+Admati, A.R., Pfleiderer, P., 1994. Robust financial contracting and the role of venture capitalists. Journal of Finance 49 (2), 371–402.
+Amit, R., Brander, J., Zott, C., 1998. Why do venture capital firms exist? Theory and Canadian evidence. Journal of Business Venturing 13 (6),
+   441–466.
+Bradley, M., Jarrell, G.A., Kim, E.H., 1984. On the existence of an optimal capital structure — theory and evidence. Journal of Finance 39 (3),
+   857–878.
+Brander, J.A., Amit, R., Antweiler, W., 2002. Venture–capital syndication: improved venture selection vs. the value-added hypothesis. Journal of
+   Economics & Management Strategy 11 (3), 423–452.
+Cameron, A.C., Trivedi, P.K., 2005. Microeconometrics: Methods and applications. Cambridge University Press, New York, N.Y.
+Carruth, A., Dickerson, A., Henley, A., 2000. What do we know about investment under uncertainty? Journal of Economic Survey 14 (2), 119–153.
+Chi, T., McGuire, D.J., 1996. Collaborative ventures and value of learning: integrating the transaction cost and strategic option perspectives on the
+   choice of market entry modes. Journal of International Business Studies 27 (2), 285–307.
+Cochrane, J.H., 2005. The risk and return of venture capital. Journal of Financial Economics 75 (1), 3–52.
+Cornelli, F., Yosha, O., 2003. Stage financing and the role of convertible securities. Review of Economic Studies 70 (1), 1–32.
+Cossin, D., Leleux, B., Saliasi, E., 2002. Understanding the economic value of legal covenants in investment contracts: a real options approach to
+   venture equity contracts. Working Paper. HEC, IMD, HEC.
+Dean, B.V., Giglierano, J.J., 1990. Multistage financing of technical start-up companies in Silicon Valley. Journal of Business Venturing 5 (6),
+   375–389.
+                                              Y. Li / Journal of Business Venturing 23 (2008) 497–512                                                 511
+
+
+Dixit, A.K., Pindyck, R.S., 1994. Investment under uncertainty. Princeton University Press, Princeton.
+Dixit, A.K., Pindyck, R.S., 1995. The options approach to capital investment. Harvard Business Review May–June: pp. 105–115.
+Dushnitsky, G., Lenox, M.J., 2005. When do incumbents learn from entrepreneurial ventures? Corporate venture capital and investing firm
+    innovation rates. Research Policy 34 (5), 615–639.
+Fama, E.F., French, K.R., 1993. Common risk-factors in the returns on stocks and bonds. Journal of Financial Economics 33 (1), 3–56.
+Favero, C.A., Pesaran, M.H., Sharma, S., 1994. A duration model of irreversible oil investment — theory and empirical-evidence. Journal of Applied
+    Econometrics 9, S95–S112.
+Fenn, G.W., Liang, N., Prowse, S., 1997. The private equity market: an overview. Financial Markets and Instruments 6 (4), 1–106.
+Folta, T.B., 1998. Governance and uncertainty: the trade-off between administrative control and commitment. Strategic Management Journal 19 (11),
+    1007–1028.
+Folta, T.B., O'Brien, J.P., 2004. Entry in the presence of dueling options. Strategic Management Journal 25 (2), 121–138.
+Global Insight, 2007. Venture impact: the economic importance of venture capital backed companies to the U.S. Economy, National Venture Capital
+    Association, 3rd ed.
+Gompers, P., 1995. Optimal investment, monitoring, and the staging of venture capital. Journal of Finance 50 (5), 1461–1489.
+Gompers, P., Lerner, J., 2000. Money chasing deals? The impact of fund inflows on private equity valuations. Journal of Financial Economics 55 (2),
+    281–325.
+Gompers, P., Kovner, A., Lerner, J., Scharfstein, D., 2005. Venture capital investment cycles: the impact of public markets. Working paper, Harvard
+    University.
+Gorman, M., Sahlman, W.A., 1989. What do venture capitalists do. Journal of Business Venturing 4 (4), 231–248.
+Hellmann, T., 1998. The allocation of control rights in venture capital contracts. Rand Journal of Economics 29 (1), 57–76.
+Hurry, D., Miller, A.T., Bowman, E.H., 1992. Calls on high-technology: Japanese exploration of venture capital investments in the United States.
+    Strategic Management Journal 13 (2), 85–101.
+Jensen, M.C., 1986. Agency costs of free cash flow, corporate finance, and takeovers. American Economic Review 76 (2), 323–329.
+Jensen, M.C., Meckling, W.H., 1976. Theory of the firm: managerial behavior, agency costs and ownership structure. Journal of Financial Economics
+    3 (4), 305–360.
+Kaplan, S.N., Stromberg, P., 2003. Financial contracting theory meets the real world: an empirical analysis of venture capital contracts. Review of
+    Economic Studies 70 (2), 281–315.
+Kiefer, N.M., 1988. Economic duration data and hazard functions. Journal of Economic Literature 26, 646–679.
+Kortum, S., Lerner, J., 2000. Assessing the contribution of venture capital to innovation. Rand Journal of Economics 31 (4), 674–692.
+Kulatilaka, N., 1995. Operating flexibilities in capital budgeting: substitutability and complementarity in real options. In: Trigeorgis, L. (Ed.), Real
+    options in capital investment: Models, strategies, and applications. Praeger, Westport, Conn.
+Lerner, J., 1994a. The syndication of venture capital investments. Financial Management 23 (3), 16–27.
+Lerner, J., 1994b. Venture capitalists and the decision to go public. Journal of Financial Economics 35 (3), 293–316.
+Li, Y., James, B., Madhavan, R., Mahoney, J.T., 2007. Real options: taking stock and looking ahead. Advances in Strategic Management 24, 31–66.
+McDonald, R.L., Siegel, D., 1986. The value of waiting to invest. Quarterly Journal of Economics 101 (4), 707–727.
+McGrath, R.G., 1997. A real options logic for initiating technology positioning investments. Academy of Management Review 22 (4), 974–996.
+McGrath, R.G., Nerkar, A., 2004. Real options reasoning and a new look at the R&D investment strategies of pharmaceutical firms. Strategic
+    Management Journal 25 (1), 1–21.
+McGrath, R.G., Ferrier, W.J., Mendelow, A.L., 2004. Real options as engines of choice and heterogeneity. Academy of Management Review 29 (1),
+    86–101.
+Mitchell, W., 1989. Whether and when? Probability and timing of incumbents' entry into emerging industrial subfields. Administrative Science
+    Quarterly 34 (2), 208–230.
+Myers, S.C., 1977. Determinants of corporate borrowing. Journal of Financial Economics 5 (2), 147–176.
+Neher, D.V., 1999. Staged financing: an agency perspective. Review of Economic Studies 66 (2), 255–274.
+Pindyck, R.S., 1993. Investments of uncertain cost. Journal of Financial Economics 34 (1), 53–76.
+Pisano, G.P., 1989. Using equity participation to support exchange: evidence from the biotechnology industry. Journal of Law, Economics and
+    Organization 5 (1), 109–126.
+Price, S., 1995. Aggregate uncertainty, capacity utilization and manufacturing investment. Applied Economics 27 (2), 147–154.
+Rajan, R.G., Zingales, L., 1995. What do we know about capital structure — some evidence from international data. Journal of Finance 50 (5),
+    1421–1460.
+Roberts, K., Weitzman, M., 1981. Funding criteria for research, development, and exploration projects. Econometrica 49, 1261–1288.
+Ruhnka, J.C., Young, J.E., 1991. Some hypotheses about risk in venture capital investing. Journal of Business Venturing 6 (2), 115–133.
+Sahlman, W.A., 1990. The structure and governance of venture–capital organizations. Journal of Financial Economics 27 (2), 473–521.
+Seppa, T.J., Laamanen, T., 2001. Valuation of venture capital investments: empirical evidence. R & D Management 31 (2), 215–230.
+Shepherd, D.A., 1999. Venture capitalists' assessment of new venture survival. Management Science 45 (5), 621–632.
+Sorenson, O., Stuart, T.E., 2001. Syndication networks and the spatial distribution of venture capital investments. American Journal of Sociology 106 (6),
+    1546–1588.
+Stuart, T.E., Hoang, H., Hybels, R.C., 1999. Interorganizational endorsements and the performance of entrepreneurial ventures. Administrative
+    Science Quarterly 44 (2), 315–349.
+Titman, S., 1984. The effect of capital structure on a firms liquidation decision. Journal of Financial Economics 13 (1), 137–151.
+Trester, J.J., 1998. Venture capital contracting under asymmetric information. Journal of Banking & Finance 22 (6–8), 675–699.
+Trigeorgis, L., 1996. Real options: Managerial flexibility and strategy in resource allocation. MIT Press, Cambridge and London.
+512                                           Y. Li / Journal of Business Venturing 23 (2008) 497–512
+
+
+Vassolo, R.S., Anand, J., Folta, T.B., 2004. Non-additivity in portfolios of exploration activities: a real options-based analysis of equity alliances in
+   biotechnology. Strategic Management Journal 25 (11), 1045–1061.
+Wang, S.S., Zhou, H.L., 2004. Staged financing in venture capital: moral hazard and risks. Journal of Corporate Finance 10 (1), 131–155.
+Williamson, O.E., 1985. The economic institutions of capitalism. The Free Press, New York.
+Williamson, O.E., 1988. Corporate finance and corporate governance. Journal of Finance 43 (3), 567–591.
+Wright, M., Robbie, K., 1998. Venture capital and private equity: a review and synthesis. Journal of Business Finance & Accounting 25 (5/6),
+   521–570.
+

@@ -1,0 +1,1340 @@
+       Specialization and Success: Evidence
+              from Venture Capital
+                                    P AUL G OMPERS
+                                   Harvard Business School
+                                     Soldiers Field Road
+                                     Boston, MA 02163
+                                     pgompers@hbs.edu
+
+                                    A NNA K OVNER
+                             Federal Reserve Bank of New York
+                                     33 Liberty Street
+                                   New York, NY 10045
+                                 Anna.Kovner@ny.frb.org
+
+                                      J OSH L ERNER
+                            Entrepreneurship and Finance Units
+                                 Harvard Business School
+                                     Rock Center 214
+                                    Soldiers Field Road
+                                    Boston, MA 02163
+                                        and NBER
+                                       josh@hbs.edu
+
+This paper examines how organizational structure affects behavior and
+outcomes, studying the performance of different types of venture capital
+organizations. We find a strong positive relationship between the degree of
+specialization by individual venture capitalists at a firm and its success. When
+the individual investment professionals are highly specialized themselves, the
+marginal effect of increasing overall firm specialization is much weaker. The
+poorer performance by generalists appears to be due to both an inefficient
+allocation of funding across industries and poor selection of investments
+within industries. Venture capital organizations with more experience tend
+to outperform those with less experience.
+
+
+
+We thank for their research assistance Vanessa Broussard, Miriam Tawil, Daniel Goodman,
+Leif Holtzman, Alex Lee, and Chenling Zhang. Seminar participants at Columbia,
+Dartmouth, and Duke made helpful comments. Harvard Business School’s Division of
+Research provided financial assistance. All errors and omissions are our own. The views
+expressed in this paper are the authors’ and should not be attributed to the Federal
+Reserve Bank of New York or the Federal Reserve System.
+
+
+ 2009 Wiley Periodicals, Inc.
+C
+Journal of Economics & Management Strategy, Volume 18, Number 3, Fall 2009, 817–844
+                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+818                           Journal of Economics & Management Strategy
+
+                         1. Introduction
+The central goal of organizational economics is to understand how orga-
+nizational structure affects behavior and performance. This paper tries
+to address this question by examining the structure and performance of
+venture capital firms.
+       The venture capital industry is a good setting for studying the
+effects of organizational structure for three reasons. First, there is
+considerable heterogeneity in how venture capital organizations are
+organized. While some firms specialize in making investments within a
+particular industry, others take a more generalist approach, diversifying
+their investments across industries. Some of these generalist firms are
+comprised of venture capitalists who are themselves generalists, while
+others are comprised of a diversified group of industry specialists.
+For example, Kleiner, Perkins, Caufield and Byers, one of the leading
+venture capital firms, is a generalist firm comprised largely of generalists
+such as John Doerr who has made investments in the Internet (Amazon,
+Google), computer software (Intuit) and computer hardware (Sun
+Microsystems). By contrast, Alta Partners is a generalist firm, with
+investments in life sciences and information technology but its partners
+tend to specialize in one industry or the other. And, Domain Associates
+is a specialist firm (of course comprised of specialists) that focuses on
+life sciences.
+       A second reason to study organizations in the environment of
+venture capital is that we can get detailed information on their specific
+investments and the individuals responsible for these investments. This
+allows us to measure the behavior of venture capital firms at a much
+more detailed level than is typical of studies in this area (such as those
+on the effects of corporate diversification by Rajan et al. (2000) and
+Scharfstein (1998)). Finally, studying the venture capital industry allows
+us to measure the outcomes of investments, thereby enabling us to
+gauge the effect of organizational structure on performance at a very
+detailed level.
+       How might the degree of specialization of venture capital firms
+and their venture capitalists affect behavior and performance? In theory,
+it can affect both the quality of capital allocation across industries and
+the performance of investments within an industry. With respect to
+cross-industry capital allocation, there are a number of theories about
+how specialization might affect performance. Stein (1997), for example,
+sees organizational diversification across industries (i.e., generalist
+firms in the context of venture capital) as an important element of effi-
+cient cross-industry capital allocation. When investment opportunities
+are poor in one industry, he argues, managers can maintain their overall
+                                                                              15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                             819
+
+capital budget (which they value in and of itself) while still making good
+investments in their other industries. By contrast, managers of narrowly
+focused firms with poor investment opportunities have no place else
+to invest and, in an effort to maintain their capital budget, may end
+up investing in negative net present value projects. In the context of
+venture capital, Stein’s model would suggest that when investment
+opportunities are poor in one sector (say life sciences), generalist firms
+will be more prone than specialist firms to scale back investments in
+that sector and scale up their investments in more promising sectors
+(say communications).
+       One of the critical elements of the Stein model is that the CEO—
+who has no vested interest in making investments in any particular
+sector—gets to decide where capital is allocated. However, these capital
+allocation decision rights are not as clear cut in venture capital firms,
+where partners often decide by committee where to make investments.
+Thus, the advantage of a generalist form of organization may not be as
+large as suggested by Stein, particularly when the venture capitalists
+themselves are industry specialists with vested interests in making
+investments in their particular industry. This prediction is in line with
+the view that diversified firms have a difficult time redeploying capital
+into sectors with better investment opportunities, as suggested by Rajan
+et al. (2000), Scharfstein (1998), and Scharfstein and Stein (2000).
+       However, there are at least three factors that could mitigate the
+potential for misallocation of capital within generalist firms. First,
+generalist venture capital firms could be comprised of venture capital-
+ists who are themselves generalists and who presumably would have
+no vested interest in making investments in any particular industry.
+Second, venture capitalists have very high-powered incentives, with
+profit-sharing (carried interest) of 20% of fund returns, well in excess
+of the type of incentives observed in publicly traded firms. The carried
+interest that goes to an individual venture capitalist typically does not
+depend on the returns of his or her own deals, but is a set fraction of the
+overall fund return. Thus, the incentive to allocate resources correctly
+should be very powerful. (On the other hand, this share of the profits is
+set by negotiation among the partners, and a venture capitalist who has
+not made many good investments may lose bargaining power.) Third,
+when generalist firms are comprised of specialists, they may be more
+likely than generalists to spot good investment opportunities in their
+own industries. Thus, although they may have more at stake in having
+capital allocated to their own industry, they may also be more informed
+about good investments.
+       As noted above, another channel through which organizational
+specialization could affect performance is through the quality of
+                                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+820                                 Journal of Economics & Management Strategy
+
+
+investments within (not across) industries. Whether or not special-
+ized firms are better than generalist firms at allocating capital across
+industries, one might think that specialized firms would make better
+investments if specialization makes them industry experts who have a
+better understanding of technology, markets, and people. This would
+presumably improve the quality of the investment, conditional on
+making an investment in the industry. Moreover, by the same reasoning,
+venture capitalists who are industry specialists themselves should be
+more likely to make higher quality investments in an industry (again
+conditional on committing capital to the industry).
+      Thus, to summarize, these theories suggest a number of alternative
+hypotheses.
+1. Generalist venture capital firms will be better at allocating capital
+   across industries (Stein 1997).
+2. Generalist venture capital firms will be worse at allocating capital
+   across industries (Rajan et al. 2000; Scharfstein and Stein (2000)).
+3. Capital will be allocated better in generalist venture capital firms if
+   the venture capitalists themselves are generalists.
+4. To the extent that venture capitalists have high-powered financial
+   interests in the performance of the firm as a whole, any misallocation
+   of capital by generalist firms will be mitigated.
+5. To the extent that venture capitalists are specialists, their greater
+   knowledge of investment opportunities will lead to better allocations
+   of capital across industries.
+6. Specialization by venture capital firms and venture capitalists will
+   lead to greater expertise and better investments within an industry.1
+       We find that generalist firms tend to underperform relative to
+specialist firms. Generalist firms do not appear to allocate capital as
+well across industries, and may also underperform in their investments
+within an industry. Importantly, however, this underperformance is
+mitigated to the extent that the individual venture capitalists in gener-
+alist firms are industry specialists. We similarly find in a supplemental
+analysis that investment specialists seem to be the most responsive to
+signals of investment opportunity, but that this is mitigated when the
+average specialization level of their partners is high.
+       Our findings are inconsistent with hypotheses (1) and (3). Gen-
+eralist firms are not better than specialist firms, as predicted by (1). In
+fact, they are worse than specialist firms to the extent that their venture
+
+    1. An alternative approach is suggested by Fulghieri and Sevilir (2009) who highlight
+the consequences of venture capitalists’ portfolio choice for the decisions of entrepreneurs
+to devote effort to their ventures. The paper is also related to Sorensen’s work on venture
+capitalist exploration and exploitation (2008).
+                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                              821
+
+capitalists are generalists, contrary to the hypothesis (3). Moreover, there
+is not much difference in the performance of specialist and generalist
+firms, when the venture capitalists in the firms are specialists. This
+finding would appear to be more consistent with hypotheses (4), (5),
+and (6). Venture capitalist specialization increases the likelihood that
+venture capital firms spot good industries in which to invest, and
+make good investments within those industries (as suggested by (5)
+and (6)). And, because venture capitalists have high-powered financial
+incentives in the firm’s overall performance, there are constraints in how
+much misallocation venture capitalists are willing to do (as suggested
+by (4)).
+      These findings would suggest that specialization at the individual
+level is more important than specialization at the firm level. However,
+our findings do not indicate that firm-level characteristics are irrelevant.
+We find that venture capital firms with more experience tend to
+outperform those with less experience, and that both firm- and person-
+level industry experience matters for investment success.
+      One caveat must be noted about the results. It is important to
+acknowledge that we are taking the organizational choices of the
+venture firms as given, and do not explore the determinants of being
+a generalist or specialist at the firm or individual level. Presumably,
+this is an endogenous response to firm and industry dynamics, such
+as competition, industry expertise, and past success, rather than an
+exogenous feature. Although we explore the characteristics of focused
+and unfocused firms below, we cannot resolve the question of which
+firms choose to become specialized. Assuming that firms settle on an
+optimal organizational form, we are measuring only small effects from
+deviations from the optimum. We discuss ways that this limitation
+might be overcome in future work in the conclusion.
+      The paper is organized as follows. The next section describes the
+construction of the data and provides some basic summary statistics.
+Section 3 examines the determinants of successful investments and
+the characteristics of the venture capital organizations and individual
+venture capitalists. Section 4 concludes the paper.
+
+                             2. The Data
+2.1 Constructing the Sample
+Our data on venture investments come from Dow Jones Venture Source
+(formerly VentureOne). This database provides information about ven-
+ture capital investors and the portfolio companies in which they invest,
+as well as the board composition of the portfolio companies. Gompers
+and Lerner (2004) provide a detailed description of this dataset.
+                                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+822                                 Journal of Economics & Management Strategy
+
+
+      We consider only observations in which the venture capital
+investor serves on the board of the company.2 The date associated
+with this relationship is the date of the first record of a venture capital
+organization and portfolio company pair, that is, the first time the
+venture capitalist invests in a particular company, or if that information
+is not available, the founding date of the company. This approach results
+in a dataset with multiple observations for most portfolio companies
+because representatives of several venture capital firms typically serve
+on the board of a company. It does not consider the influence of other
+venture investors who do not serve on the board of directors. This focus
+seems reasonable because it is the board members who play a key role
+in selecting and overseeing the funds’ investments.
+      Our analysis focuses on data covering investments from 1975 to
+2003, dropping information prior to 1975 due to data quality concerns.3
+In keeping with industry estimates of a maturation period of 3 to 5 years
+for venture capital financed companies, we drop companies receiving
+their first venture capital investment after 2003 so that the outcome data
+can be meaningfully interpreted.4
+      In the analysis below, we will seek to relate the organizational
+characteristics of the firm to its investment success. To do this, the
+organization needs to have a sufficient track record so that we can
+meaningfully characterize their approach. We consider only venture
+capital firms5 who are associated with more than five boards, individual
+venture capitalists who serve on more than three boards, and firms
+with at least two investment professionals (i.e., those firms with more
+than one professional serving on the board of three or more portfolio
+companies in the sample period).6
+
+    2. We consider the individual representing the venture capital firm on the board to be
+the one having made the investment decision: typically, the individual who champions
+the initial investment by a venture organization will also provide its oversight. While this
+is usually the case, there are rare instances in which one individual at the venture capital
+firm made the investment decision and another sits on the board.
+    3. Gompers and Lerner (2004) discuss the coverage and selection issues in Venture
+Source data prior to 1975.
+    4. We received the bulk of the data from VentureSource in 2002, and obtained updated
+outcome information in 2008 for each company in the sample that had received additional
+funding subsequent to 2002. Outcomes for companies that did not receive additional
+capital between 2002 and 2008 are not updated; however, this is unlikely to affect a
+significant number of outcomes.
+    5. We identify venture capital firms by requiring that the organization that the board
+member is affiliated with be recorded as be included as an investor in the Venture Source
+database. This enables us to eliminate organizations that may have employees who are
+directors of venture-backed firms but are not venture capital investors (such as Harvard
+Business School).
+    6. In the approximately 2,700 instances where a venture firm has multiple represen-
+tatives on the board of a company, we count each board member – company pair as a
+separate investment. The results are robust to treating these cases in alternative ways.
+                                                                                             15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                                           823
+
+      From 1975 to 2003, Venture Source provides information on 3,518
+venture capitalists from 822 venture capital firms7 serving on the boards
+of 11,297 portfolio companies that met our criteria.8 This results in a
+sample of 24,331 observations of unique venture capitalist—portfolio
+company pairs.
+      Reflecting the lack of concentration in the venture industry, no
+single group or set of groups dominates the sample. The most repre-
+sented five venture organizations—New Enterprise Associates, Kleiner
+Perkins, U.S. Venture Partners, Bessemer Venture Partners, and Venrock
+Associates—collectively represent fewer than 6% of the sample.
+      One complication is introduced by the fact that in some cases, we
+do not have corroboration that the fund of the venture capitalist serving
+on the board actually invested in the firm. We are able to confirm that the
+venture capitalist’s firm invested in the company in 20,762 observations
+(85%).9 There are three reasons why might this discrepancy have come
+about. First, the venture capitalist may serve on the board without their
+venture capital firm having invested, such as when he or she invests in
+a company as a private individual (though in many cases, limited part-
+nership agreements prohibit such activities). Second, the investment
+data may be incomplete. Finally, and probably less frequently, Venture
+Source codes venture capitalists with their most recent venture capital
+firm affiliation. Thus, for venture capitalists that have switched firms,
+we cannot always match the investment of their previous firm to the
+portfolio company. In supplemental regressions described below, we
+repeat the analysis using only the 20,762 observations where we can
+confirm that the venture organization invested.
+
+2.2 Critical Measures and Summary Statistics
+Before we turn to an analysis of the impact of organizational structure,
+there are two data construction issues we need to address. The first
+issue is how to classify the portfolio companies of the venture capitalists
+
+    7. Venture capital firms typically raise funds several years apart. In the analysis
+presented, we ignore to which fund a given venture firm assigned an investment. For
+instance, when computing cumulative firm experience, we consider all investments made
+by Mayfield, ignoring whether they were made by Mayfield III or Mayfield VI.
+    8. Venture Source provides information on all board members. We assume that a firm
+associated with a board member is a venture capital firm if the firm is observed making
+an investment in any company in the sample, although we may not have the information
+on the firm’s investment in the company. We drop all observations for firms who we do
+not ever observe as making investments.
+    9. Of the 20,762 matched observations, we confirmed that the venture capitalist
+invested in the company in 17,946 cases from Venture Source. We supplemented this
+with information from Thomson Venture Economics. Using this database, we were able to
+corroborate that the venture fund made the investment in an additional 2,816 observations.
+                                                                                                                       15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+824                                          Journal of Economics & Management Strategy
+
+                         Table I.
+         Summary Statistics: Industry Composition
+Industry                                                       Companies                          Observations
+
+Internet and computers                                              4,918                              10,555
+Communications and electronics                                      1,629                               3,555
+Business/industrial                                                   163                                 271
+Consumer                                                              542                               1,016
+Energy                                                                 29                                  39
+Biotech and health care                                             2,126                               5,187
+Financial services                                                    237                                 485
+Business services                                                   1,260                               2,553
+All other                                                             393                                 670
+Total                                                             11,297                               24,331
+
+Notes: The compilation of observations includes only cases where board members associated with firms have made
+more than five investments over the course of the sample, with more than one active person at the firm, and with the
+board member serving on more than three boards in the sample.
+
+
+
+
+into industries. Our approach is to follow our earlier work (Gompers
+et al., 2008) and assign all investments into nine broad industry
+classes based on Venture Source’s classification of the industry. The
+original sample of investments was classified into 125 separate industry
+segments. However, these 125 industries are too narrowly defined for
+our purposes, as they do not correspond to lines of specialization within
+or across venture capital firms. These 125 industries were thus combined
+to arrive at nine broader industries. The industries we construct from
+the narrower definitions are: Internet and Computers, Communications
+and Electronics, Business and Industrial, Consumer, Energy, Biotech
+and Healthcare, Financial Services, Business Services, and all other.
+Although any industry classification is somewhat arbitrary, we believe
+that our classification scheme captures businesses that have similarities
+in technology and management expertise that would make specializa-
+tion in such industries meaningful. In addition, this scheme minimizes
+the subjectivity associated with classifying firms into narrower industry
+groupings.
+      Table I shows the distribution across the nine broad industries.
+The first column is the number of companies in each industry. It is no
+surprise that internet and computers is the largest industry with 4,918
+companies. Communications and electronics, biotech and health care,
+and business services are the next largest industries with between 1,260
+and 2,126 companies. The other industries are considerably smaller. The
+table also reports the number of observations for each industry in our
+sample; there are more observations than companies because there are
+                                                                                       15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                                     825
+
+multiple board members in most of the companies in our sample. On
+average, there are 2.2 venture capital board members in each company
+who meet our criteria: that is, we begin with the subset of venture
+capitalists who serve on more than three boards. We then drop venture
+capitalists who are the sole person at their firm. The overall industry
+distribution provides some comfort that our industry classification is
+meaningful. Although there is variation in the number of observations
+across industries, there are enough observations in each industry to
+make our analysis feasible.
+      The second issue is to measure the organizational structure and
+specialization choices of the venture capitalists and venture capital firms
+in the sample. The first panel of Table II presents data on characteristics
+of venture capital firms and people that we use throughout the paper.
+The first such characteristic, “Herfindahl,” is the Herfindahl–Hirschman
+Index for the firm or person, that is, the sum of the squares of the
+percentage of all previous investments in each industry (excluding
+the “all other” industry classification). Thus, a firm or person with a
+Herfindahl of 1 has invested in only one of the industries. We calculate
+this measure on the firm level and the person (venture capitalist) level.
+We consider this measure for all the previous investments of the firm or
+person as well as for just the investments in a given year.
+      In addition, when considering the firm characteristics, we calculate
+an “average Herfindahl,” which is the average of the Herfindahls of
+all the individual venture capitalists active at the firm. We consider a
+venture capitalist to be active at the firm in a given year when they have
+made an investment in that year, or if they made an investment at any
+point prior to that year and at any point after that year.10
+      As controls, following Gompers et al. (2008), we consider the
+following data items: “General Experience” is the total number of
+investments made by a venture capital firm prior to the time of the
+investment in question. (In the regression analyses below, we will
+compute the firm experience measures as the difference between the
+logarithm of the number of investments made by the venture capital
+organization prior to year t and the average in year t of the number of
+investments made by all organizations prior to year t, and similarly the
+person experience as the difference between the number of investments
+made by all venture capitalists prior to year t and the average in year t of
+the number of investments made by all venture capitalists prior to year
+t. We present unadjusted experience measures here for expositional
+clarity.) “Industry Experience” is constructed similarly, but includes
+
+  10. In the person-level calculations, we only compute these measures for investors
+who were active in a given fund and year.
+                                                                                                                            15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+826                                            Journal of Economics & Management Strategy
+
+                            Table II.
+               Summary Statistics—Characteristics
+Panel A: Characteristics of Firms and People
+
+                                                      25%         Median              75%         Mean             N
+
+Firm-Level Statistics
+Firm Herfindahl                                    0.2968          0.3878          0.5363        0.4468           5,576
+Firm Herfindahl in Year                            0.4306          0.5556          1.0000        0.6690           5,576
+Avg. Herfindahl of people at firm                  0.5278          0.6670          0.8125        0.6755           5,576
+End of Sample (2003 or last observation)
+Firm Herfindahl                      0.2939                        0.3728          0.5000        0.4196             822
+Firm Herfindahl in year              0.5000                        1.0000          1.0000        0.7834             822
+Avg. Herfindahl of people at firm    0.4106                        0.5556          0.6860        0.5703             822
+Person-Level Statistics
+Person Herfindahl                                  0.4286          0.5556          1.0000        0.6416         14,579
+Person Herfindahl in year                          0.6250          1.0000          1.0000        0.8559         14,579
+End of Sample (2003 or last observation)
+Person Herfindahl                    0.3750                        0.5510          0.6800        0.5661           3,518
+Person Herfindahl in year            1.0000                        1.0000          1.0000        0.8737           3,518
+
+Panel B: Specialization by Firm and By Person
+
+                                                   Average Person Herf. Quartile
+                                       1                  2                    3                    4
+Firm Herf. Quartile                0 to 0.53         0.53 to 0.67         0.67 to 0.81          0.81 to 1         Total
+
+1            0 to 0.30                 703                 436                  202                  53           1,394
+2            0.30 to 0.39              427                 454                  392                 144           1,417
+3            0.39 to 0.54              249                 382                  439                 301           1,371
+4            0.54 to 1                  25                 112                  386                 871           1,394
+
+Total                                1,404               1,384                1,419               1,369           5,576
+
+Panel C: Evolution of Firm Specialization Over Time
+
+Firm Age                                              0–2 Years        3–4 Years         5–9 Years        10 + Years
+
+Mean firm Herfindahl                                    0.7748            0.6785           0.5224             0.4030
+Mean firm rolling 5-year Herfindahl                     0.6619            0.6035           0.5651             0.4446
+Mean Avg. Herf. of people at firm                       0.8577            0.8092           0.7120             0.5634
+N                                                     539               539              539                539
+
+One observation per firm-year or person-year in years in which the firm or person made an initial investment in the
+company in which they are serving on the board (or the founding date of the company if investment information is not
+available). Includes only observations of board members associated with venture capital firms who have made more
+than five investments, with more than one active person at the firm, and with the board member serving on more than
+3 boards in the sample. Panel C includes only companies that remain in the sample for more than 10 years.
+Note: Correlation of firm Herfindahl and average Herfindahl of people at firm for this sample as of the final observation
+in the sample was 0.5766.
+                                                                                15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                               827
+
+only investments in the same industry as the investment in question.
+The third characteristic, “Specialization,” is the fraction of all previous
+investments that the venture capital organization made in a particular
+industry, that is, this specialization measure is the ratio of industry to
+general experience. The specialization measure is not calculated for the
+first investment by each venture organization.
+       Panel A of Table II summarizes the level of specialization for firms
+and individuals in our sample. We compare the Herfindahl of firms and
+individuals for the entire sample across all years and the Herfindahl
+that exists for firms at the end of our sample. Firms and individuals
+appear to have remained similarly specialized over the sample.
+       Panel B of Table II shows the distribution of specialization by firms
+and people by quartile. The quartiles represent increasing degrees of
+specialization, where 1 indicates generalists and 4 specialists. A majority
+of observations are across the center diagonal, indicating that firms and
+venture capitalists tend to reflect each other: that is, firms of generalists
+tend to be comprised of generalist partners while specialist firms are, not
+surprisingly, typically comprised of specialist individuals. However, we
+do see some observations where firms of specialists have combined to
+become generalist firms (Firm quartile 1, Person quartiles 3 and 4).
+       Panel C of Table II shows the evolution of firms’ specialization
+over time for the subset of firms that survived for more than 10 years
+in our sample. The mean firm Herfindahl declines from 0.77 for firms
+that are less than 3 years old to 0.40 for firms that are more than 10
+years old. The pattern of decreasing specialization is also found when
+calculating firms’ Herfindahls on a 5-year rolling basis, suggesting firms
+are more likely to become generalists over time. In addition, the average
+Herfindahl of the individuals at the firm decreases over time, suggesting
+that this decrease in specialization at the firm level is the result of
+decreased specialization at the partner level, rather than the addition of
+specialists in new industries to the firm.
+       Table III presents descriptive characteristics for each of the firm
+quartiles. Generalist firms (that is, firms in the lowest specialization
+quartile) have a mean firm Herfindahl of 0.23 versus a mean firm
+Herfindahl of 0.76 for specialists. Generalist firms have higher levels
+of general experience, perhaps indicating a tendency to drift from
+specialization over time (as seen in Panel C of Table II). Firms in the
+top two quartiles of generalists also appear to be larger, with more than
+four active people. Those in the highest specialization quartile tend to be
+somewhat smaller (three active people) and less established (with less
+than half the general experience of the firms in the other quartiles).
+                                                                                                                       15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+828                                          Journal of Economics & Management Strategy
+
+                     Table III.
+ Selected Statistics by Firm Herfindahl Quartile
+Firm Herf. Quartile                                               Mean                     SD                  N
+
+1               Firm Herfindahl                                    0.2327                 0.0488             1,394
+                Firm Herf. in year                                 0.5149                 0.3015             1,394
+                Avg. Herf. of people at firm                       0.5203                 0.1725             1,394
+                General experience                                34.09                  47.95               1,394
+                Number of active people                            4.43                   3.19               1,394
+2               Firm Herfindahl                                    0.3421                 0.0261             1,417
+                Firm Herf. in year                                 0.5925                 0.2731             1,417
+                Avg. Herf. of people at firm                       0.6232                 0.1558             1,417
+                General experience                                32.96                  41.20               1,417
+                Number of active people                            4.28                   2.91               1,417
+3               Firm Herfindahl                                    0.4579                 0.0442             1,371
+                Firm Herf. in year                                 0.7006                 0.2670             1,371
+                Avg. Herf. of people at firm                       0.6985                 0.1636             1,371
+                General Experience                                20.31                  27.49               1,371
+                Number of active people                            3.47                   2.11               1,371
+4               Firm Herfindahl                                    0.7564                 0.1764             1,394
+                Firm Herf. in year                                 0.8697                 0.2091             1,394
+                Avg. Herf. of people at firm                       0.8612                 0.1384             1,394
+                General experience                                13.94                  17.82               1,394
+                Number of active people                            3.05                   1.43               1,394
+Total           Firm Herfindahl                                    0.4468                 0.2174             5,576
+                Firm Herf. in year                                 0.6690                 0.2964             5,576
+                Avg. Herf. of people at firm                       0.6755                 0.2011             5,576
+                General experience                                25.38                  36.65               5,576
+                Number of active people                            3.81                   2.57               5,576
+
+Notes: One observation per firm year or person year in years in which the firm or person made an initial investment.
+Includes only observations of board members associated with venture capital firms who have made more than five
+investments, with more than one active person at the firm, and with the board member serving on more than three
+boards in the sample.
+
+
+
+                                       3. The Analysis
+We now turn to examining how the structure of venture capital
+organizations affects the success of their investments. We begin with
+cross-tabulations and then turn to a series of regression analyses.
+
+3.1 Cross-Tabulations
+A natural question is how to define investment success. Ideally, we
+would have data on the actual returns on the firm’s investment. Un-
+fortunately, the best we can do is to determine whether the investment
+resulted in what would appear to be a profitable exit for the venture
+capital firm. This is most likely the case if the company went public,
+                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                              829
+
+registered for an IPO (as of the date we collected the data from Venture
+Source), or was acquired or merged. Venture Source does not collect
+valuation information for all of the companies that were merged or
+acquired and it is possible that these outcomes were not as lucrative
+as those where the company exited with a public offering. However,
+investments in the category we characterize as successes are likely to
+have generated higher returns than did investments that have not yet
+exited or are characterized as bankrupt or defunct. This approach is
+consistent with the evidence in Hochberg et al. (2007), who show that
+venture capitalists generate the bulk of their returns from the minority
+of investments that are taken public or acquired. When defining success
+only as an initial public offering, the results were consistent, although
+not across all specifications. This may reflect the fact that IPOs are not a
+precise measurement of success, or that exiting by acquisition may be a
+different skill set
+      Our data also allows us to breakdown success into its components.
+We examine “Mean Success,” that is, the raw rate of IPO, registration,
+or acquisition. Our second success measure, is a given venture firm’s
+abnormal performance. We define abnormal performance as the differ-
+ence between the firm’s investment success and the average investment
+success in that industry in that year. We denote this as “Industry Alpha”
+in the tables. Finally, we adjust success to examine the ability of a
+venture capital group to select investments in good industries at good
+times, denoted “Mix” in the tables. In each year, we calculate a firm’s
+“Mix” as the average success rate of all investments in that same year
+in the industries in which the firm invests, using the actual percentages
+invested in each industry as weights. Thus, we measure industry timing
+ability by assuming a firm achieves industry average success rates for the
+industries in which it invested.
+      To illustrate these measures, consider a firm that invested in eight
+deals, four in consumer and four in internet in 1 year. Further assume
+that two of the firm’s consumer deals were successful (a 50% success
+rate) and one of the firm’s internet deals was successful (25%). The
+overall mean yearly success for this firm would be 37.5%. Assume that
+the average success rate in consumer deals in that year was 25%, and
+the average success rate in internet deals was 75%. The “Mix” measure,
+or the average success rate in that year of the industries in which the
+firm invested, would be 0.50 (=0.50 × 0.25 + 0.50 × 0.75). The “Industry
+Alpha,” or the difference between the actual and predicted success rates,
+would be −0.125 (= 0.375 – 0.500).
+      Table IV provides some initial indications of the patterns of success
+by venture capital firm characteristics. Panel A examines our three
+measures of success for each quartile of specialization at both the firm
+                                                                                                                                                            Table IV.
+                                                                                                                                                      Performance Measures                                                                                                                                                                                                 830
+                                  Panel A: Performance Measures by Firm and Person Quartiles
+
+                                  Firm Herf. Quartile                                                      Mean                              SD                            N                        Avg. Person Herf. Quart.                                                           Mean                              SD                            N
+
+                                  1                   Mean success                                        0.4731                          0.3703                        1,394                       1                   Mean Success                                                  0.4272                          0.3787                        1,404
+                                                      Industry alpha                                      0.0069                          0.2871                        1,394                                           Industry Alpha                                               −0.0024                          0.2986                        1,404
+                                                      Mix                                                 0.4673                          0.1944                        1,394                                           Mix                                                           0.4295                          0.1978                        1,404
+                                  2                   Mean success                                        0.4603                          0.3690                        1,417                       2                   Mean Success                                                  0.4515                          0.3548                        1,384
+                                                      Industry alpha                                     −0.0068                          0.3059                        1,417                                           Industry Alpha                                                0.0084                          0.2876                        1,384
+                                                      Mix                                                 0.4668                          0.1966                        1,417                                           Mix                                                           0.4439                          0.1905                        1,384
+                                  3                   Mean success                                        0.4603                          0.3870                        1,371                       3                   Mean Success                                                  0.5015                          0.3789                        1,419
+                                                      Industry alpha                                     −0.0068                          0.3321                        1,371                                           Industry Alpha                                                0.0076                          0.3166                        1,419
+                                                      Mix                                                 0.4656                          0.1961                        1,371                                           Mix                                                           0.4931                          0.1904                        1,419
+                                  4                   Mean success                                        0.5026                          0.4046                        1,394                       4                   Mean Success                                                  0.5165                          0.4123                        1,369
+                                                      Industry alpha                                     −0.0055                          0.3593                        1,394                                           Industry Alpha                                               −0.0264                          0.3783                        1,369
+                                                      Mix                                                 0.5084                          0.1898                        1,394                                           Mix                                                           0.5426                          0.1808                        1,369
+                                  Panel B: Correlation Matrix
+
+                                                                                                                Mean                      Ind.                                              # of People                      Gen’l                       Avg. Exp. of                          Mean Focus of                         Mean Round
+                                                                                                               Success                   Alpha                       Mix                      at Firm                      Firm Exp.                    People at Firm                         Firm in Deals                          # of Deals
+
+                                  Mean success                                                               1.0000
+                                  Industry alpha                                                             0.8396∗                    1.0000
+                                  Mix                                                                        0.5122∗                    0.0018                   1.0000
+                                  Number of people at firm                                                   0.0271∗                    0.0855∗                 −0.0876∗                       1.0000
+                                  General firm experience                                                   −0.0854∗                    0.0839∗                 −0.3046∗                       0.6534∗                       1.0000
+                                  Avg. Experience of people at firm                                          0.0750∗                    0.0869∗                  0.0009                        0.2851∗                       0.5720∗                           1.0000
+                                  Mean focus of firm in deals                                                0.0195                     0.0156                   0.0113                       −0.0648∗                      −0.0409∗                          −0.0260                                1.0000
+                                  Mean round number of deals                                                 0.0694∗                    0.0651∗                  0.028                        −0.0383∗                       0.0066                           −0.0438∗                              −0.0018                                1.0000
+                                  Connections                                                                0.0262                     0.1156∗                 −0.1405∗                       0.6636∗                       0.8245∗                           0.5838∗                              −0.0353∗                               0.0328∗
+
+                                  Notes: One observation per firm year or person year in years in which the firm or person made an investment. Includes only observations of board members associated with venture capital firms who have made more than 5
+                                                                                                                                                                                                                                                                                                                                                                           Journal of Economics & Management Strategy
+
+
+
+
+                                  investments, with more than 1 active person at the firm, and with the board member serving on more than 3 boards in the sample. In Panel B, “generalist” and “specialist” refer to people below and above the median Herfindahl
+                                  index. ∗ indicates significance at the 5% level.
+
+
+
+
+15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                             15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                            831
+
+and the individual level. The tabulations suggest that the industry
+mixture chosen by venture capital firms with more specialization—
+particularly on the individual level—is more successful. The specialized
+firms and individuals, however, appear to select poorer companies in
+which to invest within these industries, that is, their industry alpha is
+more negative. The best overall and industry adjusted performance is
+associated with more generalist venture capital firms. These results, as
+we shall see in the regressions, are influenced by generalist firms being
+more experienced on average. Hence, our conclusions here are only
+tentative, as the univariate comparisons do not control for other factors
+associated with success.
+      In Panel B, we look at the correlation between these measures.
+Interestingly, we see that picking the right industries and industry-
+adjusted alpha are uncorrelated. The correlation matrix also provides
+important insights into other variables that we need to control for in the
+regressions. Firm size (number of people at firm), the average experience
+of individuals and the average stage of investment (round number)
+are all positively correlated with success. Interestingly, firm general
+experience is positively correlated with industry alpha, but not with
+overall success.
+      One consideration in the definition of specialization is that less
+experienced venture capital firms are more likely to be in the fourth
+quartile (the most specialized). We later consider the results looking
+only at organizations at the point in time where they made more than
+twenty investments and achieve weaker, but consistent results.
+
+
+3.2 Regression Analyses of Success
+We approach the regression analyses of success in a similar manner to
+the cross-tabulations above. We first consider the mean yearly success
+rate, and then decompose this rate into the selection of the proper
+industry mixture and the selection of firms that exceeded the average
+industry performance in that year.
+      In Table V, we examine overall annual success. We construct
+observations in each year in which the venture capital firm made an
+initial investment in a company. For each firm-year observation, we
+indicate the average success of all initial investments made by the
+venture capital firm in that year. We use as observations each year
+in which a venture capital group made an initial investment: that is,
+we omit cases where the venture group did not make an investment
+in a given year, as well as cases where all investments were into firms
+in which the group had previously invested. In all regressions we add
+controls for the year of the investment to control for differences in
+macroeconomic conditions across the periods.
+                                                                                                                                                              Table V.
+                                                                                                                                                        Mean Yearly Success                                                                                                                                                                                                832
+
+                                                                                                                             (1)                               (2)                              (3)                               (4)                               (5)                                         (6)                             (7)
+                                                                                                                             OLS                               OLS                              OLS                               OLS                          Weighted OLS                                     OLS                             OLS
+
+                                  Firm Herfindahl                                                                       0.4123                            0.3866                            0.2315                             0.2247                                  0.2697                              0.3756                            0.3676
+                                                                                                                       [3.34]∗∗∗                         [3.24]∗∗∗                         [1.86]                             [1.12]                                  [2.37]∗∗                            [3.07]∗∗∗                         [3.00]∗∗∗
+                                  Avg. Herfindahl of people at firm                                                     0.1219                            0.1026                            0.1555                             0.2204                                  0.1418                              0.0802                            0.0790
+                                                                                                                       [1.99]∗∗                          [1.69]∗                           [2.37]                             [2.13]∗∗                                [2.35]∗∗                            [1.30]                            [1.25]
+                                  Firm × Avg. person Herfindahl                                                       −0.4375                           −0.3371                           −0.2088                            −0.2173                                 −0.2347                             −0.3591                           −0.3183
+                                                                                                                       [3.06]∗∗∗                         [2.43]∗∗                          [1.41]                             [0.85]                                  [1.66]∗                             [2.52]∗∗                          [2.24]∗∗
+                                  Firm general experience                                                                                                 0.0582                            0.0264                             0.0604                                  0.0363                                                                0.0505
+                                                                                                                                                         [7.69]∗∗∗                         [2.08]                             [2.77]∗∗∗                               [3.17]∗∗∗                                                             [4.36]∗∗∗
+                                  Avg. gen’l experience                                                                                                 −0.0024                           −0.0016                            −0.0035                                 −0.0017                                                               −0.0054
+                                    of people at firm                                                                                                    [1.19]                            [0.67]                             [1.32]                                  [0.94]                                                                [2.31]∗∗
+                                  Controls:
+                                  Year fixed effects                                                                          yes                               Yes                              yes                                yes                                    yes                                   yes                             yes
+                                  Number of people at firm                                                                                                                                       yes                                yes                                    yes                                   yes                             yes
+                                  Connections                                                                                                                                                    yes                                yes                                    yes                                   yes                             yes
+                                  Mean round number of deals                                                                                                                                     yes                                yes                                    yes
+                                  Percent in each industry                                                                                                                                                                                                                                                       yes                             yes
+                                  Experience restriction                                                                   5 total                           5 total                          5 total                     >20 previous                                  5 total                               5 total                          5 total
+                                  Observations                                                                             5,576                             5,576                            4,150                          1,800                                      4,150                                 5,576                            5,576
+                                  R2                                                                                       24.0%                             25.3%                            30.5%                         37.2%                                       41.3%                                 25.4%                            25.7%
+
+                                  Notes: The sample consists of 822 VC firms with 3,518 firm members serving on the boards of 11,297 companies from 1975 to 1998, inclusive, as compiled by Venture Source, with one observation per VC-year,
+                                  including only board members associated with venture capital firms who invested in more than 5 companies in the sample with more than one active person at the firm, and with all board members who served
+                                  on more than 3 boards. The fourth specification includes observations only for firms that had made more than 20 investments previous to the year of observation. The fifth specification weights observations by
+                                  the number of investments made by that firm in that year. The dependent variable is Mean Yearly Success, the average of the success rates for all companies invested in by the VC in the sample. The success
+                                  rates being averaged is a binary variable =1 if the portfolio company was acquired, merged, in registration for an IPO (as of the date we collected the Venture Source data), or went public, and =0 otherwise.
+                                  Firm Herfindahl is the sum of the squares of the percentage of all previous investments in each industry that the VC firm partners are on the board of (excluding the industry all other). Avg. Herfindahl of People at
+                                  Firm is the average of the Herfindahl for each active venture capitalist at the VC firm. Firm General Experiencet is the difference between the log of the number of investments made by venture capital organization
+                                  f prior to year t and the average in year t of the number of investments made by all organizations prior to year t. Avg. Gen’l Experience of People at Firm is the difference between the average number of average
+                                  investments by all people prior to date t and number of investments made by people associated with the firm prior to date t.
+                                                                                                                                                                                                                                                                                                                                                                           Journal of Economics & Management Strategy
+
+
+
+
+                                  Standard errors are clustered at the VC firm level. T-statistics are in brackets italics below coefficient estimates.
+                                  ∗∗∗ ∗∗ ∗
+                                     , , indicate statistical significance at the 1%, 5% and 10% level, respectively.
+
+
+
+
+15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                                             833
+
+      In the basic regressions, increased specialization of the venture
+capital organization is associated with greater average success, in-
+dicated by the consistent positive sign on the firm Herfindahl. The
+interaction between firm and individual specialization, however, is
+negative. Examining the relative size of the coefficients indicates that
+the marginal effect of increasing individual specialization for relatively
+specialized firms negatively affects performance although it enhances
+the performance of very generalist firms. On the other hand, holding
+individual venture capitalists’ specialization constant, increasing firm
+specialization enhances firm performance. The poorest performance is
+associated with unspecialized firms with generalist investors. These
+findings are consistent with the first and third hypotheses delineated in
+the introduction.
+      In addition to the specialization measures, we include measures
+of investment experience for the firm and individuals to identify
+the impact that experience has on investment performance.11 Firm
+experience is defined as the difference between the logarithm of the
+number of investments made by the venture capital organization prior
+to year t and the average in year t of the number of investments made
+by all organizations prior to year t. Similarly, person experience is the
+difference between the logarithm of the number of investments made
+by all venture capitalists prior to year t and the average in year t of
+the number of investments made by all venture capitalists prior to
+year t. We find that firm generalist experience is positively related
+to success. Firm-level experience dominates the effect of individual
+generalist experience, which has a negative or not significant coefficient
+in the estimation.12 The result may indicate that broader reputation and
+network issues are present at the firm level as well as the presence of
+learning (knowledge spillovers) across firm partners.
+      The differences in success are also economically meaningful. For
+instance, using the estimates from column 3, a generalist firm (that is,
+at the 25th percentile of firm Herfindahl, or 0.30) with generalist people
+(a Herfindahl of 0.54) has an annual success rate that is 2.7% below that
+of a generalist firm with specialized people (at the 75th percentile, or
+an average person Herfindahl of 0.81). Thus, if a generalist firm with
+generalist people in a given year had an success rate of 50% in 1998,
+the success rate of an equivalent firm with more specialized people
+
+   11. We want to ensure that the results from specialization are not driven by the relative
+experience of specialized and generalist venture capital groups (individuals).
+   12. The presence of a relationship between venture firm experience and success is
+documented by Kaplan and Schoar (2005) and Lerner, Schoar, and Wongsunwai (2007),
+but those works does not attempt to disentangle the importance of individual and firm
+experience.
+                                                                                             15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+834                                Journal of Economics & Management Strategy
+
+
+would be 52.7% in that year. The incremental difference in success
+between a generalist firm with specialized people and a specialized
+firm (a Herfindahl of 0.54) with specialized people is slightly smaller:
+an additional 1.5%. This translates into an approximately 1% difference
+in fund IRR.13
+        These results continue to be robust when we make a number of
+changes. These include adding controls for the number of investment
+professionals, and a measure of the firms’ connections (the number of
+other venture capital firms a firm has invested with as per Hochberg
+et al. (2007)). In addition, we tried adding a control for the round number
+at which the venture group typically invested (which sharply decreases
+the sample size), restricting the sample to venture groups that made
+twenty or more investments, weighting the observations by the number
+of investments made by the venture capital firm in the observation year,
+and controlling for the percentage of transactions in each industry. The
+results were similar in magnitude for all additional controls, although
+in some cases coefficients are significant only at the 10% level, in part
+reflecting the reduced number of observations. Our result are strongest
+when weighting the sample by the number of investments, perhaps
+because we have the least noise in our success measure for firms that
+have the greatest number of investments.
+        We next examine the determinants of a successful investment
+mixture. The dependent variable is the average industry success for
+investments made in a given year for each year in which the venture
+capitalist made an investment. In other words, Table VI examines what
+fraction of the firm’s overall success is driven by picking the right
+industry at the right time.
+        Table VI reports that both firm and individual specialization are
+associated with greater success, but again the interaction is negative. If
+the individual investors within a venture capital firm are generalists,
+the marginal effect of increasing firm specialization will be to boost the
+probability of selecting a good industry mix substantially. Firm special-
+ization enhances performance at the margin when individual investors
+are generalists. Said another way, when venture capitalists individually
+invest across industries, they are better off if their partners are investing
+in the same industries. If individual investors are specialists already, the
+marginal impact of increasing firm specialization will be close to zero.
+This result is consistent with the second hypothesis in the introduction.
+
+
+   13. Assuming a $100 million fund invested over 3 years with a 3:1 ratio of dollars
+invested for successful to unsuccessful investments, a 5 year holding period, and an
+average exit multiple of 10x investment for successful investments and 0x for unsuccessful
+investments. Assumptions are based on VentureXpert data.
+                                                                                                                                                          Table VI.
+                                                                                                                                                   Performance Due to Mix
+                                                                                                                                                   (1)                                (2)                                (3)                                   (4)                                (5)                                         (6)
+                                                                                                                                                   OLS                                OLS                                OLS                                   OLS                           Weighted OLS                                     OLS
+
+                                  Firm Herfindahl                                                                                            0.1192                              0.1161                             0.1104                                0.1193                                    0.1183                                 0.0946
+                                                                                                                                            [5.87]∗∗∗                           [5.55]∗∗∗                          [4.80]∗∗∗                             [2.88]∗∗∗                                 [5.94]∗∗∗                              [4.83]∗∗∗
+                                  Avg. Herfindahl of people at firm                                                                          0.0638                              0.0636                             0.0783                                0.1076                                    0.0927                                 0.0535
+                                                                                                                                            [5.85]∗∗∗                           [5.73]∗∗∗                          [6.30]∗∗∗                             [5.04]∗∗∗                                 [8.72]∗∗∗                              [5.26]∗∗∗
+                                  Firm × Avg. person Herfindahl                                                                            −0.1149                             −0.1078                            −0.1148                               −0.1492                                   −0.1282                                −0.0996
+                                                                                                                                                                                                                                                                                                                                                                           Specialization and Success
+
+
+                                                                                                                                            [4.93]∗∗∗                           [4.57]∗∗∗                          [4.26]∗∗∗                             [2.92]∗∗∗                                 [5.27]∗∗∗                              [4.51]∗∗∗
+                                  Firm general experience                                                                                                                        0.0031                             0.0005                                0.0010                                    0.0036                               −0.0027
+                                                                                                                                                                                [2.04]∗∗                           [0.21]                                [0.22]                                    [1.75]∗                                [1.19]
+                                  Avg. Gen’l experience of people at firm                                                                                                        0.0001                             0.0002                              −0.0004                                     0.0001                                 0.0004
+                                                                                                                                                                                [0.20]                             [0.32]                                [0.63]                                    [0.16]                                 [0.86]
+                                  Controls:
+                                  Year fixed effects                                                                                                yes                                yes                                yes                                   yes                                       yes                                   yes
+                                  Number of people at Firm                                                                                                                                                                yes                                   yes                                       yes                                   yes
+                                  Connections                                                                                                                                                                             yes                                   yes                                       yes                                   yes
+                                  Mean round number of deals                                                                                                                                                              yes                                   yes                                       yes
+                                  Max industry fixed effects                                                                                                                                                                                                                                                                                  yes
+                                  Experience restriction                                                                                         5 total                            5 total                            5 total                       >20 previous                                      5 total                               5 total
+                                  Observations                                                                                                   4,150                              5,576                              4,150                            1,800                                          4,150                                 5,576
+                                  R2                                                                                                             88.3%                              88.3%                              91.1%                           91.8%                                           93.6%                                 89.2%
+                                  Notes: The sample consists of 822 VC firms with 3,518 firm members serving on the boards of 11,297 companies from 1975 to 1998, inclusive, as compiled by Venture Source, with one observation per VC-year,
+                                  including only board members associated with venture capital firms who invested in more than 5 companies in the sample in the sample with more than one active person at the firm, and with all board members
+                                  who served on more than 3 boards. The fifth specification includes observations only for firms that had made more than 20 investments previous to the year of observation. The sixth specification weighted
+                                  observations by the number of investments made by that firm in that year. The dependent variable is Yearly Success due to Mix, the product of the percentage of deals by the VC firm in given industries and the
+                                  average success rate for all VCs in that industry in that year. The success rates being averaged across all VCs is a binary variable =1 if the portfolio company was acquired, merged, in registration for an IPO (as of
+                                  the date we collected the Venture Source data), or went public, and =0 otherwise. Firm Herfindahl is the sum of the squares of the percentage of all previous investments in each industry that the VC firm partners
+                                  are on the board of (excluding the industry all other). Avg. Herfindahl of People at Firm is the average of the Herfindahl for each active venture capitalist at the VC firm. Firm General Experiencet is the difference
+                                  between the log of the number of investments made by venture capital organization f prior to year t and the average in year t of the number of investments made by all organizations prior to year t. Avg. Gen’l
+                                  Experience of People at Firm is the difference between the average number of average investments by all people prior to date t and number of investments made by people associated with the firm prior to date t.
+                                  Standard errors are clustered at the VC firm level. T-statistics are in brackets italics below coefficient estimates.                                                                                                                                                                                                                    835
+                                  ∗∗∗ ∗∗ ∗
+                                     , , indicate statistical significance at the 1%, 5% and 10% level, respectively.
+
+
+
+
+15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+836                             Journal of Economics & Management Strategy
+
+
+      These effects continue to be strong when we control for experience
+at the firm and venture capitalist level and firm size, firm connections,
+and stage of investment, add fixed effects for the main industry focus
+of the firm (i.e., to control for the fact that biotechnology deals are
+more successful on average and also that venture firms specializing
+in biotechnology transactions tend to be more specialized), limit the
+sample to firms with more than twenty investments prior to the year of
+the observation, weight the observations by the number of deals done
+by the venture firm in a year, and control for the industry with the most
+investments.
+      The differences are of a reasonable economic magnitude as well as
+being statistically significant. If a generalist firm with specialist people
+achieves only the average success rate of the overall venture capital
+industry, that firm is expected to exceed the success rate of generalist
+firm with generalist people by 1.7%. This could aggregate to a 2%
+increase in the fund’s IRR.14 A change from a generalist firm with
+specialist people to a specialized firm with specialized people leads
+to an increase of an additional 1.3%.
+      One interpretation of this result is that a very generalist individual
+may not be able to identify the best time to invest in unfamiliar sectors.
+A modicum of specialization at the individual and/or firm level may
+provide the ability and knowledge to identify them (or perhaps better
+access to deals). This is consistent with Gompers et al. (2008), which
+finds that the most industry experienced venture capitalists are able to
+respond the most to market signals. However, too much specialization
+may mean a lack of relevant expertise or deal access in other promising
+sectors.
+      Table VII looks at excess performance. The dependent variable is
+the difference between the firm’s industry-year performance and the
+average industry-year performance for all venture capital investments
+made in that year. The patterns here are much less consistent. Initially,
+the familiar pattern of a positive coefficient on firm Herfindahl terms
+and a negative interaction term appears. But the coefficients vary in
+significance as we add additional control variables, limit the sample to
+the most seasoned experienced investors, and weight the observations.
+Thus, this analysis provides only weak support for the sixth hypothesis
+in the introduction.
+      One result that remains strong throughout the table, however, is
+the effect of firm general experience. Firm general experience is always
+significantly related to outperforming industry average success rates.
+Controlling for firm experience, average individual experience seems to
+
+  14. Using the same assumptions in footnote 13.
+                                                                                                                                         Table VII.
+                                                                                                                              Performance Due to Industry Alpha
+                                                                                                                                      (1)                                            (2)                                          (3)                                             (4)                                            (5)
+                                                                                                                                      OLS                                            OLS                                          OLS                                             OLS                                       Weighted OLS
+
+                                  Firm Herfindahl                                                                                    0.2696                                        0.2489                                        0.1299                                         0.0707                                               0.1229
+                                                                                                                                    [2.41]∗∗                                      [2.30]∗∗                                      [1.14]                                         [0.38]                                               [1.17]
+                                  Avg. Herfindahl of People at Firm                                                                  0.0434                                        0.0237                                        0.0639                                         0.0705                                               0.0138
+                                                                                                                                    [0.78]                                        [0.43]                                        [1.10]                                         [0.73]                                               [0.26]
+                                  Firm × Avg. Person Herfindahl                                                                    −0.2949                                       −0.2041                                       −0.0924                                        −0.0098                                              −0.0620
+                                                                                                                                                                                                                                                                                                                                                                           Specialization and Success
+
+
+                                                                                                                                    [2.26]∗∗                                      [1.61]                                        [0.68]                                         [0.04]                                               [0.48]
+                                  Firm General Experience                                                                                                                          0.0544                                        0.0272                                         0.0593                                               0.0303
+                                                                                                                                                                                  [7.37]∗∗∗                                     [2.23]∗∗                                       [2.76]∗∗∗                                            [3.05]∗∗∗
+                                  Avg. Gen’l Experience                                                                                                                          −0.0027                                       −0.0022                                        −0.0038                                              −0.0022
+                                    of People at Firm                                                                                                                             [1.38]                                        [0.98]                                         [1.47]                                               [1.21]
+                                  Controls:
+                                  Year Fixed Effects                                                                                   yes                                            yes                                         yes                                        yes                                                        yes
+                                  Number of People at Firm                                                                                                                                                                        yes                                        yes                                                        yes
+                                  Connections                                                                                                                                                                                     yes                                        yes                                                        yes
+                                  Mean Round Number of Deals                                                                                                                                                                      yes                                        yes
+                                  Experience Restriction?:                                                                           5 total                                       5 total                                       5 total                                 >20 previous                                                5 total
+                                  Observations                                                                                       5,576                                         5,576                                         4,150                                      1,800                                                    4,150
+                                  R-squared                                                                                          0.6%                                          2.3%                                          2.4%                                       4.2%                                                     4.2%
+
+                                  Notes: The sample consists of 822 VC firms with 3,518 firm members serving on the boards of 11,297 companies from 1975 to 1998, inclusive, as compiled by Venture Source, with one observation per VC-year,
+                                  including only board members associated with venture capital firms who invested in more than 5 companies in the sample with more than one active person at the firm, and with all board members who served
+                                  on more than 3 boards. The fourth specification includes observations only for firms that had made more than 20 investments previous to the year of observation. The fifth specification weights observations by
+                                  the number of investments made by that firm in that year. The dependent variable is Yearly Success due to Performance, the weighted average of the difference between the mean success rate of a given VC firm
+                                  and the average success of all VC firms in that industry, with weights equal to a firm’s actual mix. The success rate being averaged across all VCs is a binary variable =1 if the portfolio company was acquired,
+                                  merged, in registration for an IPO (as of the date we collected the Venture Source data), or went public, and =0 otherwise. Firm Herfindahl is the sum of the squares of the percentage of all previous investments in
+                                  each industry that the VC firm partners are on the board of (excluding the industry all other). Avg. Herfindahl of People at Firm is the average of the Herfindahl for each active venture capitalist at the VC firm.
+                                  Firm General Experiencet is the difference between the log of the number of investments made by venture capital organization f prior to year t and the average in year t of the number of investments made by all
+                                  organizations prior to year t. Avg. Gen’l Experience of People at Firm is the difference between the average number of average investments by all people prior to date t and number of investments made by people
+                                  associated with the firm prior to date t.
+                                  Standard errors are clustered at the VC firm level. T-statistics are in brackets italics below coefficient estimates.
+                                  ∗∗∗ ∗∗ ∗
+                                     , , indicate statistical significance at the 1%, 5% and 10% level, respectively.
+                                                                                                                                                                                                                                                                                                                                                                           837
+
+
+
+15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                               15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+838                           Journal of Economics & Management Strategy
+
+
+have a negative or no effect on success. Firms that have invested in more
+deals are either matching with better entrepreneurs, selecting better
+investments or are better able to make their investments successful.
+      In Table VII, we estimated alpha looking at annual differences
+from industry averages. In Table VIII, we can estimate alpha more
+directly. We use each investment by a venture group as a separate
+observation rather than averaging success for the venture group by
+industry and year. The dependent variable is the success of the venture
+firm’s investment in the individual company. Here we see the familiar
+pattern, with more concentrated investments at the individual and firm
+level being associated with greater success, but a negative interaction
+term. The significance of the interaction term, however, varies across
+various specifications. This is not surprising, because in the previous
+specifications some of the impact of organizational structure on annual
+success rate was through mix. In Table VIII, mix is effectively captured
+by the controls for industry and year.
+      Because we are looking at individual deals, we can control for
+individual investor characteristics. We substitute the Herfindahl of the
+person at the firm who serves on the board for the average Herfindahl of
+all people at the firm, and find similar results, with positive coefficients
+on the person and firm’s Herfindahl and a negative coefficient on the
+interaction. The results using the actual board member’s Herfindahl
+are stronger than using the average of people at the firm. In addition,
+we control for individual and firm experience in and outside of the
+particular industry. Unlike the results from Table VII, only the individ-
+ual’s industry experience is significantly positively related to success
+while the firm’s industry experience is negatively related to success. An
+individual investor’s experience outside the industry is also negatively
+related to success to his/her success in the particular investment.
+      It is natural to wonder if generalist venture firms are simply
+failed specialists. If so, our results might be explained by the ten-
+dency of firms to abandon their initial area of specialization if these
+investments prove unsuccessful. In unreported analyses, the evidence
+appears mixed. For instance, when we compare in univariate tests
+venture firms’ specialization after their first ten and twenty deals,
+the firms whose first ten transactions were more successful diver-
+sify less quickly than the others. But when we estimate regressions
+to understand this relationship more systematically (i.e., when we
+regress the average Herfindahl at 3-year intervals on previous success
+and various control variables), a consistent pattern does not appear.
+                                                                                                                            15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                                                                        839
+
+                                     Table VIII.
+                              Deal-Level Performance
+                                                  (1)           (2)            (3)             (4)              (5)
+                                                  OLS           OLS            OLS             OLS              OLS
+
+Firm Herfindahl                    0.1798                       0.2199        0.1985          0.2209           0.1734
+                                  [1.89]∗                      [3.07]∗∗∗     [2.78]∗∗∗       [2.16]∗∗         [2.32]∗∗
+Avg. Herfindahl of people at firm 0.0929
+                                  [1.71]∗
+Firm × Avg. person Herfindahl −0.1281
+                                  [1.09]
+Herfindahl of person                                        0.0909    0.0880                  0.1022           0.0332
+                                                           [2.61]∗∗∗ [2.52]∗∗                [2.09]∗∗         [0.84]
+Firm × Person Herfindahl                                  −0.1653 −0.1406                   −0.1472          −0.0960
+                                                           [1.95]∗   [1.66]∗                 [1.16]           [1.06]
+General experience (Firm)                        0.0245     0.0247    0.0258                 [0.04]
+                                                [3.69]∗∗∗ [3.70]∗∗∗ [3.88]∗∗∗                [3.27]∗∗∗
+Industry experience (Person)                                                                                   0.0188
+                                                                                                              [2.39]∗∗
+Nonindustry experience (Person)                                                                                0.0195
+                                                                                                              [2.25]∗∗
+Nonindustry experience                                                                                       −0.0290
+  (Firm ex. person)                                                                                           [1.47]
+Industry experience                                                                                          −0.0069
+  (Firm ex. person)                                                                                           [0.45]
+Controls:
+Year fixed effects                                 yes           yes                            yes             yes
+Industry fixed effects                             yes           yes                            yes             yes
+Round fixed effects                                yes           yes           yes              yes             yes
+Connections                                        yes           yes           yes              yes             yes
+Industry × year fixed effects                                                  yes
+Experience restriction?:                         5 total       5 total       5 total      >20 Previous        5 total
+Observations                                     17,910        17,910        17,910         11,660            19,197
+R2                                               15.9%         15.9%         16.9%          15.3%             16.0%
+
+Notes: The sample consists of 822 VC firms with 3,518 firm members serving on the boards of 11,297 companies from
+1975 to 1998, inclusive, as compiled by Venture Source, with one observation per VC-company, including only board
+members associated with venture capital firms who invested in more than 5 companies in the sample with more than
+one active person at the firm, and with all board members who served on more than 3 boards. The dependent variable
+is Success, a binary variable =1 if the portfolio company was acquired, merged, in registration for an IPO (as of the
+date we collected the Venture Source data), or went public, and =0 otherwise. Firm Herfindahl is the sum of the squares
+of the percentage of all previous investments in each industry that the VC firm partners are on the board of (excluding
+the industry all other). Avg. Herfindahl of People at Firm is the average of the Herfindahl for each active venture
+capitalist at the VC firm. Experience is the difference between the log of the number of investments made by venture
+capital organization f (or person p) prior to year t and the average in year t of the number of investments made by all
+organizations prior to year t. Industry Experience is the difference between the log of the number of investments made
+by venture capital organization f in industry g prior to year t and the average in year t of the number of investments
+made by all organizations in industry g prior to year t. Non Industry Experience is the difference between the log of the
+number of investments made by venture capital organization f (or person p) in industries other than g (∼g) prior to
+year t and the average in year t of the number of investments made by all organizations in all industries other than g
+(∼g) prior to year t.
+Standard errors are clustered at the portfolio company level. T-statistics are in brackets italics below coefficient
+estimates.
+∗∗∗ , ∗∗ , ∗ indicate statistical significance at the 1%, 5% and 10% level, respectively.
+                                                                           15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+840                         Journal of Economics & Management Strategy
+
+3.3 Robustness Checks
+We conducted a series of unreported robustness checks. First, one
+limitation of the earlier analysis, as previously noted, is that the
+dependent variables only measure the type of exit achieved and not
+the actual rates of return. Investments that are labeled as successes
+above may have widely different performance, with some generating
+spectacular returns and others much more modest ones (for evidence
+regarding the skewness of venture capital returns, see Cochrane (2005)).
+       An alternative approach is to examine actual returns of venture
+funds. To do this, we match the investments made by each venture
+organization to the fund returns. Our source for return data is the
+2004 Private Equity Performance Monitor, which presents return data on
+over 1,700 private equity funds. This information is compiled by Mark
+O’Hare, who over the past 5 years has created a database of returns
+from public sources (e.g., institutional investors who have posted
+their returns online), Freedom of Information Act requests to public
+funds, and voluntary disclosures by both general and limited partners.
+Due to the limitations of the Venture Source data, we need to make
+some assumptions in order to do this mapping. (For instance, because
+Mayfield V was raised in 1984 and Mayfield VI in 1988, we attribute
+all new investments made between 1984 and 1987 to Mayfield V.) In an
+unreported analysis, a familiar performance pattern emerges: a positive
+effect of individual specialization on performance. Firm specialization
+and the interaction term, however, are insignificant, which may reflect
+the noise in fund returns data and the smaller sample size.
+       It is possible that the organizational structure of a firm might
+change over time as partners join and exit the firm. Thus, we considered
+an alternate measure of firm Herfindahl that looks only at the firm’s
+investments and/or board memberships within 5 years, rather than the
+primary measure used in the paper. Results were similar consistently
+to those reported in the paper, although in some cases the statistical
+significance was reduced.
+       We also considered an alternate specification for the measure of
+success due to industry mix. We ran a two stage regression in which
+the first stage controlled for the fixed effect of percentage investment
+in industry in a year, and the second stage used the residual from the
+first stage as the dependent variable. The residual from the first stage
+regression had a correlation of 0.8943 with the primary measure of
+success due to mix used in the paper. The results were similar to those
+reported.
+       We also use as our measure of success an indicator of the per-
+centage of portfolio companies that went public (that is, we do not
+                                                                              15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                             841
+
+count firms that were acquired or simply registered to go public as
+successes.) The results are little changed. We also redo the analysis
+using the 125 industries employed by Venture Source separately and
+find the results weaker, perhaps because the use of excessively narrow
+industries introduces noise to the Herfindahl measures.
+      Finally, as previously noted, in a fraction of cases, we are unable
+to be sure that the venture capital firm of a venture capitalist who
+is a director of a company invested in that concern. We repeated the
+analyses using only the 20,762 cases where we can confirm that the
+venture capitalist’s firm invested in the company. The results are once
+again little changed.
+
+
+3.4 Regression Analysis of Market Responsiveness
+In addition to examining the impact of organizational structure on
+outcomes, we also look at shifts in investment rate among investors with
+different levels of specialization. In our earlier paper (2008), we show
+that experienced and specialized groups appear to be more responsive
+to changing investment opportunities, as proxied for by the number
+of venture-backed IPOs and Tobin’s q in an industry. The increased
+responsiveness of investment appears to be a rational response to
+changing opportunities, as they perform as well or even better than
+those made when market conditions are less favorable.
+       In Table IX, we examine how VC firm organization affects the
+propensity of individual venture capitalists to make investments in
+industries where they have been previously active. Our previous paper
+analyzed only the perspective of the whole firm. This analysis adds an
+understanding of the interaction between individual-level characteristics
+and firm-level characteristics, because we now have person-level infor-
+mation. We look at the response to the number of IPOs in the industry
+in question, which, as we argued in the earlier paper, is a proxy for
+investment opportunities. We also look at the sensitivity to IPOs in other
+industries, which may affect the competition for internal resources,
+but should not affect investment opportunities in the given industry.
+Column 1 reports that, just as we found at the firm level in our 2008
+paper, there is positive interaction between individual specialization
+and the number of IPOs in a given industry. When market signals are
+positive, more specialized partners will increase their investment rate,
+while less specialized ones will not. This is consistent with our findings
+on mix in Table VI.
+       However, when there are more opportunities in other industries,
+all else equal, venture investors will decrease their investment rate only
+if the other investment processionals in the firms are not specialized. The
+                                                                                                                            15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+842                                            Journal of Economics & Management Strategy
+
+                           Table IX.
+              Responsiveness to Market Conditions
+                                                                                   (1)                         (2)
+                                                                                   OLS                         OLS
+
+Person Herfindahl                                                              −0.0107                      −1.3563
+                                                                                [0.26]                       [7.36]∗∗∗
+Avg. Herfindahl of people at firm                                                0.7891                     −0.6125
+                                                                                [8.84]∗∗∗                    [3.13]∗∗∗
+Person Herfindahl ×Avg. person Herf. at firm                                                                  2.0003
+                                                                                                             [7.54]∗∗∗
+Impact of This Industry
+IPOs in Industry                                                                 0.0663                     −0.0338
+                                                                                [7.84]∗∗∗                    [1.68]∗
+IPOs in industry × Person Herf.                                                  0.0382                       0.1845
+                                                                                [5.00]∗∗∗                    [6.04]∗∗∗
+IPOs in industry × Avg. person Herf. at firm                                   −0.0541                        0.1013
+                                                                                [3.85]∗∗∗                    [3.21]∗∗∗
+IPOs in industry × avg. person                                                 −0.2188
+  Herf. at firm × Person Herf                                                   [5.06]∗∗∗
+Impact of Other Industries
+IPOs in firm’s other industries                                                  0.1298                     −0.1340
+                                                                                [9.16]∗∗∗                    [4.15]∗∗∗
+Other IPOs × Person Herf.                                                        0.1298                     −0.1340
+                                                                                [9.16]∗∗∗                    [4.15]∗∗∗
+Other IPOs × Avg. Firm Herf.                                                   −0.1982                        0.2192
+                                                                                [7.97]∗∗∗                    [4.15]∗∗∗
+Other IPOs ×Avg. Person                                                                                     −0.6152
+  Herf. at firm × Person Herf                                                                                [8.52]∗∗∗
+Controls:
+Year fixed effects                                                                 yes                         yes
+Industry fixed effects                                                             yes                         yes
+Observations                                                                      31,940                      31,940
+R2                                                                                12.2%                       12.8%
+
+Notes: The sample consists of 3,518 venture capitalists active in 822 firms from 1975 to 2003, with one observation per
+person industry year. Industries are included only if that person has been on the board of a company in that industry
+from 1975 to 2003. The dependent variable is the log of the number of investments by a person in an industry in a year
+plus one. IPOs in Industry is the log of one plus the number of venture-backed IPOs in that industry in the previous
+year. Person Herfindahl is the sum of the squares of the percentage of all previous investments in each industry that
+the person is on the board of (excluding the industry all other). Avg. Herfindahl of People at Firm is the average of the
+Herfindahl for each active venture capitalist at the VC firm. IPOs in Firm’s Other Industries (Other IPOs) is the log of
+one plus the number of venture-backed IPOs in other industries in the previous year weighted by the percentage of
+deals the venture firm has done in those industries in all previous deals.
+Standard errors are clustered at person level. Robust t-statistics are in brackets below coefficient estimates.
+∗∗∗ , ∗∗ , ∗ indicate statistical significance at the 1%, 5% and 10% level, respectively.
+
+
+
+
+results in column 2, which adds a series of interaction terms, are similar:
+it is the people working at firms which have the most specialists that
+are simultaneously the most responsive to the IPOs in a given industry,
+and the least responsive to IPOs in other industries. We estimated a
+                                                                              15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Specialization and Success                                             843
+
+similar specification replacing the Herfindahl index with a measure of
+specialization in a particular industry, and found similar results.
+      This analysis suggests a possible reason for the poor performance
+of firms with generalist venture investors. If a firm is compromised
+exclusively of generalists, it is unlikely to be willing or able to respond
+to shifts in investment opportunities. If the firm adds a small number
+of specialists to its ranks, a second distortion appears: an apparently
+inefficient allocation of capital along the lines discussed by Rajan et al.
+(2000), Scharfstein (1998), and Scharfstein and Stein (2000). It is only
+in organizations dominated by specialized individuals where these
+problems are avoided.
+
+
+                             4. Conclusions
+This paper seeks to understand the impact of organizational structure—
+and in particular, industry specialization—on the success of venture
+capital investments. Venture capital is an attractive setting to examine
+these issues because of the diversity of organizational structures, the
+detailed information available about the activities of organizations and
+individuals, and the youth of the industry.
+      We find that the performance of specialized firms appears to
+be better in general. This may reflect the industry-specific human
+capital developed by specialist venture investors: in cases where the
+individual partners are highly specialized, the marginal benefit of
+increased venture capital firm concentration appears to be very limited.
+This result seems consistent with the views expressed in Rajan et al.
+(2000) and Scharfstein and Stein (2000), but counter to that in Stein
+(1997). Organizational characteristics, however, are not irrelevant: we
+see that venture capital firms with more experience outperform those
+with less (especially in mix), and that there is a marginal benefit of
+individual experience (conditional on firm experience) (especially in
+alpha).
+      This work leaves a number of questions unanswered. It is difficult
+to determine whether the superior performance of specialists is driven
+by their ability to better select investments or whether specialists are
+also better able to add value to those investments. Another important
+issue is what drives the structure of venture organizations. In this paper,
+we have taken the organization of the venture capital funds as given.
+While this may be reasonable in the short run—typically venture firms
+are loath to replace partners over the course of a given partnership,
+particularly those serving on boards of directors—over time various
+changes are made. Presumably, these changes reflect a variety of
+firm- and industry-level considerations, and thus are at least partially
+                                                                                             15309134, 2009, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9134.2009.00230.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+844                                Journal of Economics & Management Strategy
+
+
+endogenous. In subsequent work, we hope to better understand how
+the mixture of both junior and senior investment professionals evolves
+over time. In particular, we hope to exploit the opening of branch offices
+and the deaths of partners in venture funds, among other changes.
+      A second question relates to the generality of the results. The
+activity of venture capital organizations is based primarily on intangible
+assets, human capital in particular. We might expect other firms that
+have a high dependency on human, as opposed to physical, capital
+might be affected similarly by experience and specialization. This would
+argue for examining these effects in accounting, consulting, financial
+service, or law firms (see, e.g., Berger et al., 2005, and Garicano and
+Hubbard, 2007, 2009. Examining the relative activity and performance of
+differentially specialized service based companies would be particularly
+interesting.
+
+                                  References
+Berger, A.N., N.H. Miller, M.A. Petersen, R.G. Rajan, and J.C. Stein, 2005, “Does Function
+    Follow Organizational Form? Evidence from the Lending Practices of Large and Small
+    Banks,” Journal of Financial Economics, 76, 237–269.
+Cochrane, J.H., 2005, “The Risk and Return of Venture Capital,” Journal of Financial
+    Economics, 75, 3–52.
+Fulghieri, P. and M. Sevilir, 2009, “Size and Focus of a Venture Capitalist’s Portfolio,”
+    Review of Financial Studies, in press.
+Garicano, L. and T.N. Hubbard, 2007, “Managerial Leverage is Limited by the Extent
+    of the Markets: Hierarchies, Specialization, and the Utilization of Lawyers’ Human
+    Capital,” Journal of Law and Economics, 50, 1–44.
+—— and T.N. Hubbard, 2009, “Specialization, Firms, and Markets: The Division of Labor
+    Within and Between Law Firms,” Journal of Law, Economics, and Organization, in press.
+Gompers, P.A., A. Kovner, J. Lerner, and D. Scharfstein, 2008, “Venture Capital Investment
+    Cycles: The Impact of Public Markets,” Journal of Financial Economics, 87, 1–23.
+—— and J. Lerner, 2004, The Venture Capital Cycle, 2nd edition, Cambridge: The MIT Press.
+Kaplan, S.N. and A. Schoar, 2005, “Private Equity Performance: Returns, Persistence and
+    Capital Flows,” Journal of Finance, 60, 1791–1823.
+Hochberg, Y., Y. Lu, and A. Ljungqvist, 2007, “Whom You Know Matters: Venture Capital
+    Networks and Investment Performance,” Journal of Finance, 62, 251–301.
+Lerner, J., A. Schoar, and W. Wongsunwai, 2007, “Smart Institutions, Foolish Choices?
+    The Limited Partner Performance Puzzle,” Journal of Finance, 62, 731–764.
+Rajan, R.G., H. Servaes, and L. Zingales, 2000, “The Cost of Diversity: Diversification
+    Discount and Inefficient Investment,” Journal of Finance, 55, 35–80.
+Scharfstein, D.S., 1998, “The Dark Side of Internal Capital Markets II: Evidence from
+    Diversified Conglomerates,” National Bureau of Economic Research Working Paper
+    6352.
+—— and J.C. Stein, 2000, “The Dark Side of Internal Capital Markets: Divisional Rent-
+    Seeking and Inefficient Investment,” Journal of Finance, 55, 2537–2564.
+Sorensen, M., 2008, “Learning by Investing: Evidence from Venture Capital,” Columbia
+    University Working Paper.
+Stein, J.C., 1997, “Internal Capital Markets and the Competition for Corporate Resources,”
+    Journal of Finance, 52, 111–133.
+

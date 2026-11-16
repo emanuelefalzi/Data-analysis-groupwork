@@ -1,0 +1,1423 @@
+                                                    ARTICLE IN PRESS
+
+
+
+                                         Journal of Financial Economics 87 (2008) 1–23
+                                                                                                         www.elsevier.com/locate/jfec
+
+
+
+
+                                 Venture capital investment cycles:
+                                  The impact of public markets$
+                                        Paul Gompersa,b, Anna Kovnera,
+                                       Josh Lernera,b,, David Scharfsteina,b
+           a
+               Harvard Business School, Graduate School of Business Administration, Rock Center 214, Boston, MA 02163, USA
+                                      b
+                                        National Bureau of Economic Research, Cambridge, MA, USA
+
+                       Received 8 July 2005; received in revised form 6 November 2006; accepted 11 December 2006
+                                                      Available online 1 August 2007
+
+
+
+Abstract
+
+   It is well documented that the venture capital industry is highly volatile and that much of this volatility is associated with
+shifting valuations and activity in public equity markets. This paper examines how changes in public market signals
+affected venture capital investing between 1975 and 1998. We ﬁnd that venture capitalists with the most industry
+experience increase their investments the most when public market signals become more favorable. Their reaction to an
+increase is greater than the reaction of venture capital organizations with relatively little industry experience and those with
+considerable experience but in other industries. The increase in investment rates does not affect the success of these
+transactions adversely to a signiﬁcant extent. These ﬁndings are consistent with the view that venture capitalists rationally
+respond to attractive investment opportunities signaled by public market shifts.
+r 2007 Elsevier B.V. All rights reserved.
+
+JEL classification: G24; G32
+
+Keywords: Private equity; Initial public offering; Market cycles
+
+
+
+
+1. Introduction
+
+  The high volatility of the venture capital industry is well documented. This volatility manifests itself in a
+number of ways: the funds ﬂowing to venture capital ﬁrms, the investments ﬁrms make in portfolio companies,
+and the ﬁnancial performance of portfolio companies and venture capital ﬁrms (Gompers and Lerner, 2004).
+
+  $
+     We thank Vanessa Broussard, Daniel Goodman, Leif Holtzman, Alex Lee, Miriam Tawil, and Chenling Zhang for their research
+assistance. We also thank Rafﬁ Amit, Bob Gibbons, Ed Rock, Bill Schwert, an anonymous referee, and seminar participants at the
+American Economic Association, Harvard University, the National Bureau of Economic Research, the Stockholm Institute for Financial
+Research, the University of Chicago, and the University of Pennsylvania for helpful comments. Harvard Business School’s Division of
+Research and the National Science Foundation provided ﬁnancial assistance. All errors and omissions are our own.
+  Corresponding author. Harvard Business School, Graduate School of Business Administration, Rock Center 214, Boston, MA, 02163,
+USA. Tel.: +1 617 495 6065; fax: +1 617 495 3817.
+    E-mail address: jlerner@hbs.edu (J. Lerner).
+
+0304-405X/$ - see front matter r 2007 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jﬁneco.2006.12.002
+                                             ARTICLE IN PRESS
+2                            P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Much of this volatility appears to be tied to valuations in public equity markets. An increase in initial public
+offering (IPO) valuations leads venture capital ﬁrms to raise more funds (Gompers and Lerner, 1998b; Jeng
+and Wells, 2000), an effect that is particularly strong among younger venture capital ﬁrms (Kaplan and
+Schoar, 2005). Moreover, returns of venture capital funds appear to be highly correlated with the returns on
+the market as a whole (Cochrane, 2005; Kaplan and Schoar, 2005; Ljungqvist and Richardson, 2003).
+   Many industry observers (see, for instance, Gupta, 2000) argue that the volatility of the venture capital industry
+is a symptom of overreaction by venture capitalists and entrepreneurs to perceived investment opportunities.
+These swings result in periods in which too many competing companies are funded, followed by ones in which not
+enough companies have access to capital. The booms of 1969–1972, 1981–1983, and 1998–2000 provide extreme
+illustrations of these problems. Investments during these years grew dramatically and were concentrated in a few
+areas. Considerable sums were devoted to supporting very similar ﬁrms: e.g., scientiﬁc instrument companies in
+the 1960s, personal computer hardware manufacturers in the 1980s, and Internet retailers and telecommunica-
+tions concerns in the late 1990s. Meanwhile, many apparently promising areas languished unfunded during these
+periods as venture capitalists raced to focus on the most visible and popular investment areas.
+   This alleged overreaction may have its roots in the behavioral biases of venture capitalists that irrationally
+associate past investment successes with future investment opportunities. Or it may stem from venture
+capitalists who feel compelled to follow the herd out of concern for the reputation consequences of being
+contrarians (Scharfstein and Stein, 1990). Indeed, in 1999, even private equity ﬁrms with investment mandates
+to invest in leveraged buyouts felt compelled to back Internet startups.
+   A contrasting view is that the volatility of the venture capital industry stems not from overreaction, but
+from the inherent volatility of fundamentals. According to this view, ﬂuctuation in venture capital investment
+activity is simply a response to changes in investment opportunities. For instance, there may be shocks to the
+investment opportunities of existing entrepreneurial ﬁrms or entry by new entrepreneurs, both of which
+increase the demand for capital.
+   This paper takes a step towards distinguishing between the ‘‘overreaction view’’ and the ‘‘fundamentals
+view’’ by examining the responses of different classes of venture investors. We start with the observation (and
+empirically document) that the most experienced venture capital ﬁrms generally record the best performance
+(Sorensen, 2004). We then examine how these investors respond to public market signals of investment
+opportunities. Are the most experienced investors more likely to increase their investments when the market
+heats ups? And, how well do they do with these investments relative to less experienced venture capitalists? If we
+ﬁnd that the most experienced investors are more likely to increase their investment levels when the market heats
+up, this would suggest that shifts in fundamentals are an important component of venture capital investing. This
+interpretation would ﬁnd further support if there is also little degradation in their performance. If we observe
+instead that the least experienced venture capitalists are most likely to increase their investment activity during
+hot markets, this would lend more credibility to the view that overreaction is a more important cause of
+volatility in the venture capital industry.
+   Our empirical results indicate that investment by the most experienced venture capital ﬁrms—notably, those
+with the most industry experience—are most responsive to public market signals of investment opportunities.
+We start by showing that venture capital investment activity at the industry level is very sensitive to public
+market signals of industry attractiveness when Tobin’s Q is used; a shift from the bottom to the top quartile in
+Q increases the number of investments by more than 15%. There is no signiﬁcant pattern, however, when we
+use IPO activity as our measure of public market signals.
+   We then show that this relationship is driven largely by venture capital ﬁrms with the most experience doing
+deals in the industry. Overall experience (across all industries) has no effect on investment sensitivity to
+industry Q and IPO activity once we control for industry experience. Moreover, although the success rate for
+deals associated with a hot market is lower than that for deals associated with a cold market, the difference is
+small. Experienced venture capital ﬁrms perform slightly better in hot markets, while less experienced venture
+capital ﬁrms do somewhat worse. These ﬁndings suggest that an important component of volatility in venture
+capital investment activity is driven by volatility of fundamentals.
+   Of independent interest is our ﬁnding on the importance of industry-speciﬁc rather than overall experience.
+This result points to the importance of industry-speciﬁc human capital and suggests that a critical part of
+venture capital investing is the network of industry contacts to identify good investment opportunities as well
+                                                  ARTICLE IN PRESS
+                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                  3
+
+as the know-how to manage and add value to these investments. These contacts and know-how come only
+from long-standing experience doing deals in an industry.
+   The broad question examined in this paper—the extent to which cycles in venture capital are driven by
+overreaction to public market signals or changes in the industry’s fundamentals—is related to a substantial
+stream of research in ﬁnancial economics. While the hypothesis remains controversial (e.g., Fama, 1998), a
+growing body of evidence (e.g., DeBondt and Thaler, 1985, 1990) suggests that the stock market overreacts to
+news, particularly at horizons greater than one year (Hong and Stein (1999) provide a theoretical framework
+for understanding these patterns). More recently, corporate investment has also been shown to be affected by
+the non-fundamental portion of stock prices (Baker, Stein, and Wurgler, 2003). By way of contrast to much of
+this literature, this analysis suggests that changing public market signals reﬂects changing fundamentals.1
+   The rest of the paper is organized as follows. Section 2, describes the construction of the data and provides
+basic summary statistics. Section 3 examines the impact of shifts in valuations and IPO activity on venture
+capital ﬁrm investment activity. In that section, we also look at how investment success depends upon both the
+investment cycle and the characteristics of the venture capital organizations. Section 4 concludes the paper.
+
+2. The data
+
+2.1. Constructing the sample
+
+   Our data on venture investments come from Thomson Venture Economics (Venture Economics). This
+database provides information in relation to both venture capital investors and the portfolio companies in
+which they invest. Our analysis focuses on investments from 1975 to 1998, dropping information prior to 1975
+due to data quality concerns.2 In keeping with industry estimates of a maturation period of three to ﬁve years
+for venture companies, we drop information after 1998 so that the outcome data can be meaningfully
+interpreted. As a result, we do not study investments made at the height of the Internet boom (1999 and 2000)
+or during the crash that followed.
+   We consider an investment to be the ﬁrst time a venture capital ﬁrm invests in a particular company. This
+approach results in a data set with multiple observations for most portfolio companies since several venture
+capital ﬁrms typically invest in a company. We exclude follow-on investments by a venture capital ﬁrm in the
+same portfolio company since our main interest is in the relation between public market signals and new ﬁrm
+formation. In addition, to ensure that we are capturing genuine venture capital ﬁrms, we limit our sample to
+venture ﬁrms that invested in more than three portfolio companies. Firms are included in the sample only in
+the year after their investments exceed a total of three. Thus, we exclude from the sample all observations of
+organizations that never made three investments or that only invested in one year. This approach could, in
+principle, introduce some survivorship bias, if, for example, the worst ﬁrms are not able to make more than
+three investments.
+   By applying these selection criteria, we end up with a database of 1,084 venture capital ﬁrms that invest in a
+total of 13,785 companies between 1975 and 1998. This results in a sample of 32,085 observations of unique
+venture capital ﬁrm-portfolio company pairs.
+
+2.2. Critical measures
+
+  Before we turn to an analysis of investment cycles, there are three data construction issues we need to
+address.
+  The ﬁrst issue is how to classify venture capital industries. Our approach is to assign all investments into
+nine broad industry classes based on Venture Economics’ classiﬁcation of the industry. The original sample of
+investments was classiﬁed by Venture Economics into 69 separate industry segments. However, these 69
+  1
+     At the same time, a substantial literature in accounting, sparked by Lev and Thiagarajan (1993), documents the relation between
+fundamentals such as earnings and stock prices. More recently, Jiambalvo, Rajgopal, and Venkatachalam (2002) show that this relation is
+stronger for ﬁrms with greater institutional holdings.
+   2
+     Gompers and Lerner (2004) discuss the coverage and selection issues in Venture Economics data prior to 1975.
+                                            ARTICLE IN PRESS
+4                           P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+industries are too narrowly deﬁned for our purposes, as they do not correspond to lines of specialization
+within or across venture capital ﬁrms. These 69 industries are thus combined to arrive at nine broader
+industries. The industries we construct from the narrower deﬁnitions are: Internet & Computers,
+Communications & Electronics, Business & Industrial, Consumer, Energy, Biotechnology & Healthcare,
+Financial Services, Business Services, and All Others. While any industry classiﬁcation is somewhat arbitrary,
+we believe that our classiﬁcation scheme groups together businesses that are similar in technology and
+management expertise that would make specialization in such industries meaningful. In addition, this scheme
+reduces the subjectivity associated with classifying ﬁrms into narrower industry groupings.
+   Panel A of Table 1 shows the distribution across the nine broad industries. The ﬁrst column gives the
+number of companies in each industry. It is no surprise that Internet & Computers is the largest industry with
+4,146 companies. Biotechnology & Healthcare (2,420), Communications & Electronics (2,256), and Consumer
+(1,882) are the next largest industries. The other industries are considerably smaller. The overall industry
+distribution provides some comfort that our industry classiﬁcation is meaningful. While there is variation in
+the number of observations across industries, there are enough observations in each industry to make our
+analysis feasible. Throughout the analysis, we exclude the industry ‘‘All Others,’’ since this represents an
+agglomeration of unrelated industries in which the responses to market signals that we look for would not be
+relevant.
+   The ﬁrst panel of Table 1 also reports the number of observations for each industry in our sample; there are
+more observations than companies because there are multiple venture capital investors in most of the
+companies in our sample. On average, there are 2.3 venture capital investors in each company.
+   The second challenge has to do with the measurement of perceived investment opportunities. We use two
+measures of perceived investment opportunities in our analysis, industry Q and IPO activity. Because we do
+not know whether these measures overstate or understate true investment opportunities, we refer to industry Q
+and IPO activity simply as ‘‘public market signals.’’
+   The measurement of Q follows the standard approach in the investment literature. We calculate Q as the
+ratio of the market value of the ﬁrm to the ﬁrm’s book value of assets, where the market value of the ﬁrm is
+measured as the book value of assets plus the market value of equity less the book value of equity. Since we
+cannot observe the Q of private ﬁrms that constitute the pool of potential venture capital investments, we use
+an estimate of Q for public companies as a proxy. However, in order to do so, we need to link the SIC codes of
+public companies to Venture Economics industries on which our data are based. Our procedure is to identify
+the SIC codes of all Venture Economics ﬁrms that went public. Because there are multiple SIC codes
+associated with each of our eight industries, we construct Q as a weighted average of the industry Q of the
+public companies in those SIC codes, where the weights are the relative fractions of ﬁrms that went public
+within the eight industries. Within the SIC code, Q is calculated by equally weighting all public companies.
+   Our second, less standard measure is the level of venture capital-backed IPO activity in an industry. We use
+this measure for both theoretical and practical reasons. The theoretical rationale is based on the observation
+that IPOs are by far the most important (and proﬁtable) means for venture capitalists to exit an investment
+(Gompers and Lerner, 2004). Thus, an increase in the number of IPOs in a particular sector may make
+investing in that sector more attractive. In addition, an increase in IPO activity may also attract more potential
+entrepreneurs into a sector, thereby increasing the pool of potential investments and the likelihood that a
+venture capitalist will ﬁnd an attractive one. The practical rationale for using IPO activity is that our Q
+measure may not accurately reﬂect the shifts in public investors’ appetite for venture capital-backed ﬁrms both
+because it uses data on mature public companies and because it relies on an inexact match between SIC codes
+and Venture Economics codes. Given the strong link between IPO activity and market valuations (Pagano,
+Panetta, and Zingales, 1998; Ritter and Welch, 2002), the IPO measure may actually be a better proxy for the
+public market’s perception of the types of investments in our sample.
+   Figs. 1 and 2 depict the relation between industry venture capital investment activity and the two measures
+of public market signals for four of the industries in the sample. In Internet and Computers, the correlation
+between Q and investment activity in Fig. 1 appears to be very high throughout the period. This high
+correlation can also be seen in IPO activity in Fig. 2. In other industries, the relation is less pronounced. For
+instance, in both Biotechnology & Healthcare and Energy, the number of investments climbed until 1998,
+while the number of IPOs peaked in 1996.
+                                                  ARTICLE IN PRESS
+                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                            5
+
+Table 1
+Sample characteristics
+
+Panel A: Sample by industry
+
+Industry                                                                      Companies                                 Obs.
+
+Internet and Computers                                                         4,146                                    11,148
+Biotech and Healthcare                                                         2,420                                     6,779
+Communications and Electronics                                                 2,256                                     6,412
+Consumer                                                                       1,882                                     3,149
+Business/Industrial                                                            1,081                                     1,651
+Energy                                                                           462                                       806
+Financial Services                                                               509                                       745
+Business Services                                                                413                                       577
+All others                                                                       616                                       818
+Total                                                                         13,785                                    32,085
+
+Panel B: Sample characteristics
+
+                                                         0.25          0.50            0.75       Mean        s.d.      N
+
+Industry– Firm– Year Level
+Overall Experience                                        7            15              35         29.91       40.15     81,603
+Industry Experience                                       0             1               3          3.56        8.25     81,603
+Specialization                                            0.00          0.04            0.18       0.11        0.16     81,603
+Adjusted Overall Experience                               0.27          0.55            1.26       1.00        1.22     81,603
+Adjusted Industry Experience                              0.00          0.29            1.31       1.00        1.82     81,563
+Adjusted Non-Industry Experience                          0.27          0.55            1.27       1.00        1.23     81,603
+Log Adj. Experience (EXPERIENCE)                         1.24         0.57            0.23      0.47        0.94     81,603
+Log Adj. Industry Experience (INDEXP)                    0.88         0.46            0.17      0.38        0.85     81,603
+Log Adj. Non Industry Experience (NONINDEXP)             1.22         0.56            0.23      0.48        0.96     81,603
+Industry– Firm– Year Level Conditional on One Investment in Industry-Year
+Overall Experience                                        10            25             58         45.05       55.44     14,816
+Industry Experience                                         1             4            12          9.67       14.74     14,816
+Specialization                                              0.07          0.19          0.32       0.23        0.20     14,816
+Adjusted Overall Experience                                 0.45          0.96          1.97       1.52        1.64     14,816
+Adjusted Industry Experience                                0.39          1.12          2.57       1.94        2.48     14,812
+Adjusted Non-Industry Experience                            0.41          0.92          1.95       1.48        1.65     14,816
+Log Adj. Experience (EXPERIENCE)                          0.7720       0.0218         0.6893    0.0295      0.9713   14,816
+Log Adj. Industry Experience (INDEXP)                     0.5664         0.0965        0.7659     0.0863      0.9508   14,816
+Log Adj. Non Industry Experience (NONINDEXP)              0.8707       0.0793         0.6542    0.1249      1.0613   14,816
+Deal-Level
+Overall Experience                                       13             33             75             58.33   68.77     31,267
+Industry Experience                                       3              9             22             17.25   22.71     31,267
+Specialization                                            0.14           0.26           0.40           0.29    0.21     31,267
+Adjusted Overall Experience                               0.53           1.28           2.72           1.98    2.09     31,267
+Adjusted Industry Experience                              0.78           1.91           3.95           2.89    3.11     31,262
+Adjusted Non-Industry Experience                          0.39           1.07           2.44           1.76    2.02     31,267
+Log Adj. Experience (EXPERIENCE)                         0.60           0.23           0.97           0.18    1.02     31,267
+Log Adj. Industry Experience (INDEXP)                    0.20           0.53           1.20           0.48    0.97     31,267
+Log Adj. Non Industry Experience (NONINDEXP)             0.77           0.12           0.89           0.02    1.16     30,294
+
+
+Panel C: Sample characteristics by year
+
+1980
+Overall Experience                                       6             9               16         11.74       8.05      1,167
+Adjusted Overall Experience                              0.51          0.77            1.36       1.00        0.69      1,167
+Industry Experience                                      0             1               2          1.19        1.90      1,167
+Adjusted Industry Experience                             0.00          0.39            1.38       1.00        1.61      1,167
+Specialization                                           0.00%         1.61%           14.29%     8.84%       13.61%    1,167
+                                                       ARTICLE IN PRESS
+6                                      P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Table 1 (continued)
+
+1985
+Overall Experience                                             7              12           30            23.11          26.32          3,639
+Adjusted Overall Experience                                    0.30           0.52         1.30          1.00           1.14           3,639
+Industry Experience                                            0              1            3             2.73           5.86           3,639
+Adjusted Industry Experience                                   0.00           0.33         1.30          1.00           1.92           3,639
+Specialization                                                 0.00%          3.66%        17.65%        11.35%         16.43%         3,639
+1990
+Overall Experience                                             8              18           40            31.88          38.73          4,876
+Adjusted Overall Experience                                    0.25           0.56         1.25          1.00           1.21           4,876
+Industry Experience                                            0              1            4             3.80           8.04           4,876
+Adjusted Industry Experience                                   0.00           0.31         1.44          1.00           1.73           4,876
+Specialization                                                 0.00%          4.76%        18.31%        11.69%         16.35%         4,876
+1995
+Overall Experience                                             9              19           49            37.29          48.59          5,000
+Adjusted Overall Experience                                    0.24           0.50         1.30          0.99           1.29           5,000
+Industry Experience                                            0              1            4             4.49           9.91           5,000
+Adjusted Industry Experience                                   0.00           0.26         1.28          1.00           1.81           5,000
+Specialization                                                 0.00%          4.35%        18.52%        11.77%         16.98%         5,000
+
+Panel A shows the distribution of the sample by industry. There are 13,785 unique companies and 32,085 unique venture capital (VC) ﬁrm-
+company pairs. This is the only panel in the paper where investments in the ‘‘All Others’’ category are used.
+Panels B and C summarize characteristics of venture capital ﬁrms in the sample. The unit of observation is VC ﬁrm f in industry g in year t.
+VC ﬁrms are included in the years after they reach a total of three prior investments and excluded in the years after their ﬁnal investment in
+the sample is made. The table then presents the same statistics, further restricted to those industries and years where the VC ﬁrms actually
+made a new investment. It also shows these characteristics in four selected years. Statistics include investments from 1975 to 1998,
+inclusive, and exclude the industry category ‘‘All Others.’’ Overall Experience is the number of investments made by VC ﬁrm f prior to year
+t. Adjusted Overall Experience is the ratio of the number of investments made by VC ﬁrm f prior to year t and the average of the number of
+investments made by all VC ﬁrms prior to year t. Adjusted Log Overall Experience (EXPERIENCE), which we use in our regression
+analyses, is the difference between the log of one plus the number of investments made by VC ﬁrm f prior to year t and the log of one plus
+the average of the number of investments made by all ﬁrms prior to year t. Industry Experience is the number of investments made by VC
+ﬁrm f in industry g prior to year t. Non-Industry Experience is the number of investments made by VC ﬁrm f in industries other than g
+(g) prior to year t. Adjusted industry and non-industry experience measures are computed following the template of the adjustments of
+Overall Experience. Adjusted Log Industry Experience (INDEXP) and Adjusted Log Non-Industry Experience (NONINDEXP) are
+computed following the analogous procedure to the construction of Adjusted Log Overall Experience. Specialization is the number of
+investments made by VC ﬁrm f in industry g divided by the number of investments made by the VC ﬁrm in total prior to year t.
+
+   The ﬁnal challenge is to measure the characteristics of the venture capital groups in the sample. The second
+panel of Table 1 presents data on the three characteristics of venture capital ﬁrms that we use throughout the
+paper. The ﬁrst characteristic, ‘‘Overall Experience,’’ is the total number of investments made by a venture
+capital ﬁrm prior to the time of the investment in question. The second characteristic, ‘‘Industry Experience,’’
+is constructed similarly, but includes only investments in the same industry as the investment in question. The
+third characteristic, ‘‘Specialization,’’ is the fraction of all previous investments that the venture capital
+organization made in a particular industry, that is, the ratio of industry to overall experience. Throughout the
+paper, we use all prior investments by the venture capital ﬁrm to compute these measures, regardless of
+whether the investment is made by the current or a previous fund.3
+
+2.3. Summary statistics
+
+   Panel B of Table 1 summarizes the data on the overall experience, industry experience, and specialization
+measures. In the ﬁrst part of Panel B, we use as observations the annual activity of each active venture capital
+ﬁrm in each industry where they could have potentially invested. Thus, each observation in the analysis is at
+the venture capital ﬁrm-industry-year level, with a ﬁrm active from 1995 to 1998 contributing 32 observations
+(4 years x 8 industries). Many of these observations include industries in which the venture capital ﬁrm did not
+    3
+        Venture organizations typically raise new funds every three to ﬁve years.
+                                                                                 ARTICLE IN PRESS
+                                                          P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                                                                           7
+
+                                      Q and Number of Investments -- Internet & Computers                                                   Q and Number of Investments -- Biotechnology & Healthcare
+                            9000                                                                     7                              1400                                                                 4
+                                           Investments       Q                                                                                     Investments       Q
+                            8000                                                                     6                              1200                                                                 3.5
+                            7000                                                                                                                                                                         3
+                                                                                                     5                              1000
+                            6000
+
+
+              Investments                                                                                             Investments
+                                                                                                                                                                                                         2.5
+                            5000                                                                     4                               800
+                                                                                                                                                                                                         2     Q
+                            4000                                                                     3      Q                        600
+                                                                                                                                                                                                         1.5
+                            3000
+                                                                                                     2                               400
+                            2000                                                                                                                                                                         1
+                            1000                                                                     1                               200                                                                 0.5
+                               0                                                                     0                                 0                                                                 0
+                                   1975    1979   1983     1987    1991   1995    1999     2003                                             1975   1979    1983   1987    1991     1995   1999    2003
+
+
+                                          Q and Number of Investments -- Communications                                                               Q and Number of Investments -- Energy
+                            3000                                                                     5                               120                                                                 3
+                                          Investments        Q                                                                                                                   Investments      Q
+                                                                                                     4.5
+                            2500                                                                                                     100                                                                 2.5
+                                                                                                     4
+                                                                                                     3.5
+                            2000                                                                                                      80                                                                 2
+
+
+
+              Investments                                                                                             Investments
+                                                                                                     3
+                            1500                                                                     2.5    Q                         60                                                                 1.5   Q
+                                                                                                     2
+                            1000                                                                                                      40                                                                 1
+                                                                                                     1.5
+                                                                                                     1
+                             500                                                                                                      20                                                                 0.5
+                                                                                                     0.5
+                               0                                                                     0                                 0                                                                 0
+                                   1975    1979   1983     1987    1991   1995    1999     2003                                             1975   1979    1983   1987    1991     1995   1999    2003
+
+
+Fig. 1. Q and number of investments for selected industries. The graphs show years on the x-axis, the number of venture investments in
+the industry as bars calibrated on the right y-axis, and Q as a line calibrated on the left y-axis.
+
+
+
+
+                                                                                                                                           IPOs and Number of Investments -- Biotechnology & Healthcare
+                                    IPOs and Number of Investments -- Internet & Computers
+                            9000                                                                 200                                1400                                                                  80
+                                            Investments           IPOs                                                                              Investments          IPOs
+                            8000                                                                 180                                                                                                      70
+                                                                                                                                    1200
+                            7000                                                                 160
+                                                                                                                                                                                                          60
+                                                                                                 140                                1000
+                            6000
+
+
+             Investments                                                                                          Investments
+                                                                                                 120                                                                                                      50
+                            5000                                                                                                     800
+                                                                                                 100       IPOs                                                                                           40   IPOs
+                            4000                                                                                                     600
+                                                                                                 80                                                                                                       30
+                            3000
+                                                                                                 60                                  400
+                            2000                                                                                                                                                                          20
+                                                                                                 40
+                            1000                                                                                                     200                                                                  10
+                                                                                                 20
+                               0                                                                 0                                     0                                                                  0
+                                   1975   1979    1983     1987    1991   1995   1999     2003                                             1975    1979    1983   1987    1991     1995    1999   2003
+
+
+                                      IPOs and Number of Investments -- Communications                                                              IPOs and Number of Investments -- Energy
+                            3000                                                                 70                                  120                                                                  30
+                                            Investments           IPOs                                                                                                   Investments           IPOs
+                            2500                                                                 60                                  100                                                                  25
+
+                                                                                                 50
+                            2000                                                                                                      80                                                                  20
+
+
+
+             Investments                                                                                          Investments
+                                                                                                 40
+                            1500                                                                           IPOs                       60                                                                  15   IPOs
+                                                                                                 30
+                            1000                                                                                                      40                                                                  10
+                                                                                                 20
+
+                             500                                                                 10                                   20                                                                  5
+
+                               0                                                                 0                                     0                                                                  0
+                                   1975   1979    1983     1987    1991   1995   1999     2003                                             1975    1979    1983   1987    1991     1995    1999   2003
+
+
+Fig. 2. IPOs and number of investments for selected industries. The graphs show years on the x-axis, the number of venture investments in
+the industry as bars calibrated on the right y-axis, and the number of IPOs as a line calibrated on the left y-axis.
+
+
+
+invest. We analyze both the decision not to invest in an industry as well as a subsample that only includes ﬁrms
+that were investors in an industry in a given year. We analyze this subsample in part because some venture
+capital ﬁrms may not have the expertise or investment charter to invest in an industry regardless of how
+attractive the opportunity may seem. We would expect these ﬁrms to be less responsive to signals of
+investment opportunities in those industries. Data on this subsample are presented in the second part of Panel
+                                             ARTICLE IN PRESS
+8                            P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+B. Finally, in the last part of Panel B we summarize the data at the deal level, that is, at the level of the
+investment made by the venture capital ﬁrm.
+   In the ﬁrst part of Table 1, Panel B—analyzed at the venture capital ﬁrm-industry-year level—the average
+venture capital ﬁrm invested in 29.9 prior companies, 3.56 of which were in the industry of the observation. As
+noted, many of the observations are in industries in which the venture capital ﬁrm has chosen not make any
+investments. Thus, it is not surprising that the average level of industry experience is quite low. The
+corresponding average level of specialization is also quite low for the same reason. When we condition on
+venture capital ﬁrms that make an investment in the industry, as we do in the second part of Panel B, we see
+that average Overall Experience and average Industry Experience increase to 45.1 and 9.7, respectively. The
+numbers are even higher in the last part of Panel B where we look at averages at the deal level. The average
+venture capital investment is undertaken by a venture capital ﬁrm that has conducted 58.3 prior deals, 17.3 of
+which are in the same industry as the investment.
+   One feature of these experience measures is that they will grow mechanically over time. Because the venture
+industry in 1998 is much more mature than it was in 1975, ﬁrms should have a lot more experience in the latter
+part of the sample. Thus, we construct and present a measure of experience that controls for the general
+increase in experience over time. A venture capital ﬁrm’s Adjusted Experience in year t normalizes Overall
+Experience by the average Overall Experience of active venture capital ﬁrms in year t. Speciﬁcally, Adjusted
+Experience is measured as the number of investments that the venture ﬁrm made prior to year t divided by the
+average number of investments that active venture ﬁrms made prior to year t. (Overall Experience is averaged
+across all ﬁrms active in a year, with one observation per ﬁrm-year entering the calculation.) Likewise, we compute
+Adjusted Industry Experience and Adjusted Non-Industry Experience by normalizing by their respective annual
+averages. Once we make these adjustments, there is no time trend in the adjusted experience levels. There are fewer
+observations in the rows that include industry measures because the sample begins with data from 1974. For
+several industries, there were no investments in 1974, and thus the average industry experience for those industries
+is zero. Since we are dividing by the annual average to calculate industry experience, the adjusted industry measure
+is missing for those observations. One can see, however, from the last part of Panel B that the average venture
+capital investment is undertaken by a ﬁrm that has close to twice the average level of overall experience of active
+venture capital ﬁrms and nearly three times the average level of industry experience. This indicates that more
+experienced venture capital ﬁrms are also making more investments.
+   Table 1, Panel C presents the experience and specialization variables for four years of the sample; namely,
+1980, 1985, 1990, and 1995, at the venture capital ﬁrm–industry–year level. As would be expected, overall and
+industry experience increase over time. Specialization increases from 1980 to 1985, but is at the same level in
+1990 and 1995 as it was in 1985.
+   Table 2 breaks out venture capital ﬁrm characteristics by quartile (Panel A) and examines the relation
+among them (Panel B). The unit of observation is one for each venture capital (VC) ﬁrm f in industry g in year
+t. Overall experience quartiles are calculated for each year, and industry experience and specialization quartiles
+are calculated separately for each industry and year so that industries with fewer investments are not
+disproportionately sampled in lower quartiles and the highest experience quartiles do not disproportionately
+reﬂect later investments. As with the remainder of the paper, the ﬁrst quartile represents the least experienced
+or specialized ﬁrms, while the fourth quartile represents the most experience or specialized ﬁrms. Panel A of
+Table 2 shows that, not surprisingly, venture capital ﬁrms in the higher quartiles of industry experience have
+made more investments overall than ﬁrms in lower quartiles of industry experience and those with the most
+overall experience have the most industry experience. The venture capital ﬁrms with most overall experience
+are also the least specialized (26% vs. 34%), while those with the most industry experience are the most
+specialized (35% vs. 14%).
+   In Panel B of Table 2, we present correlations among the main variables in our study. We ﬁnd that there is a
+high correlation between industry experience and overall experience, regardless of whether we use the
+unadjusted or adjusted experience measures. Specialization, on the other hand, is not highly correlated with
+the experience measures; in fact, it is negatively correlated with overall experience (adjusted or not). This
+pattern probably arises because specialization limits the pool of investments from which a venture capital ﬁrm
+can choose and because ﬁrms with fewer prior deals are, by construction, less likely to have invested in a wide
+variety of industries.
+                                                       ARTICLE IN PRESS
+                                   P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                       9
+
+Table 2
+Venture capital ﬁrm characteristics
+
+Panel A: Investor characteristics by quartile
+
+                                      Experience                  Industry Experience                  Specialization               Success
+
+                  N              Mean             S.D.        Mean              S.D.              Mean             S.D.             Mean
+
+Experience Quartile (Within Year)
+  1               6,424           7.98             3.56        3.29              3.17             34.08%            0.2836          53.2%
+  2               6,920         21.02             10.17        7.53              6.45             31.04%           10.1677          53.8%
+  3               7,368         42.97             20.15       13.44             10.75             28.21%            6.4528          54.6%
+  4             10,555         124.17             81.82       34.79             30.27             26.11%            0.2314          57.7%
+Industry Experience Quartile (Within Industry Year)
+  1               6,242         14.87         16.73            1.52              1.46             14.36%            0.1690          49.9%
+  2               5,909         24.58         24.01            5.46              2.97             30.36%            0.2267          52.8%
+  3               7,514         42.60         35.31           11.55              6.53             32.87%            0.2169          54.0%
+  4              11,602        109.10         84.61           35.42             28.32             34.58%            0.1863          57.0%
+Specialization Quartile (Within Industry Year)
+  1               5,862           43.05        56.29           5.05              8.69              8.51%            0.0800          49.9%
+  2               7,201           75.98        78.50          17.21             20.83             20.67%            0.0973          56.1%
+  3               8,887           76.09        79.56          24.13             29.38             28.71%            0.1244          56.7%
+  4               9,317           37.38        44.15          18.41             19.62             49.73%            0.2271          53.3%
+All Deals         31,267           58.33          68.77       17.25             22.71             29.33%            0.2131          55.2%
+
+Panel B: Correlations
+
+(N ¼ 30,294)               Experience           Industry       Specialization       EXPERIENCE             INDEXP            NONINDEXP
+                                                Experience
+
+Experience                  1.00
+Industry Experience         0.81                1.00
+Specialization             0.05                0.32            1.00
+EXPERIENCE                  0.81                0.65           0.09                1.00
+INDEXP                      0.68                0.71            0.30                0.82                   1.00
+NONINDEXP                   0.76                0.52           0.36                0.94                   0.63              1.00
+
+The unit of observation is VC ﬁrm f’s initial investment in portfolio company c. Panel A presents data on quartiles of Overall Experience,
+Industry Experience, and Specialization. Quartiles are constructed at the beginning of each calendar year based on the values at the end of
+the previous year for each active VC ﬁrm. Industry Experience and Specialization quartiles are calculated separately for each industry, so
+that industries with fewer investments are not disproportionately sampled in lower quartiles. The ﬁrst quartile includes the least
+experienced or specialized VC ﬁrms, while the fourth quartile includes the most experienced or specialized VC ﬁrms. Success is a binary
+variable that equals one if the portfolio company was acquired, merged, in registration for an IPO, or went public by the end of 2003, and
+equals zero otherwise. Panel B presents data on the correlations between Overall Experience, Industry Experience, and Specialization. All
+correlations are signiﬁcant at the 5% level.
+
+
+
+  Table 3 presents a summary of how venture capital activity varies with public market signals of investment
+opportunities. In the ﬁrst part of the table we divide the 24 years into four quartiles based on Q in the previous
+year. (Hence, observations of ‘‘Internet & Computers’’ activity in six years will be assigned to each of the four
+quartiles.4) The total number of investments is greater in higher quartiles of Q as are the number of active
+venture capital ﬁrms. The average number of investments made by active venture capital ﬁrms (conditional on
+at least one investment) also tends to increase with Q quartiles, as does Adjusted Overall Experience and
+Adjusted Industry Experience.
+
+  4
+    The numbers of investments and venture capital groups are not the same in each quartile, because the number of venture groups
+changes over time: the years with many IPOs and high Q are concentrated at the end of the sample, when many more venture groups were
+active.
+                                                   ARTICLE IN PRESS
+10                                P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Table 3
+Summary statistics by Q and IPO quartile
+
+                                                                                 Quartiles of Industry Q
+
+                                                              1                 2                  3                  4               All
+
+Total Investments by VC Firms                            1,313              7,477             10,349            12,128             31,267
+Number of Active VC Firms                                   80                419                528               673              1,084
+Average Number of Investments by VC                       0.34               0.37               0.41              0.37               0.38
+Firms per Industry per Year
+Average Number of Investments by VC                        1.57              1.95               2.05               2.37              2.11
+Firms per Industry per Year, Conditional on
+one Industry Investment
+Average Adj. Experience in Year of VC                    1.176              1.857              1.974             2.146              1.979
+Firms Investing in Year
+Average Adj. Industry Experience in Year of              2.687              2.842              2.805             3.025              2.894
+VC Firms Investing in Year
+Average Adj. Specialization of VC Firms                  0.214              0.258              0.287             0.329              0.293
+Investing in Year, Conditional on one
+Industry Investment
+
+                                                                     Quartiles of Detrended Industry IPO Activity
+
+                                                              1                 2                  3                  4               All
+
+Total Investments by VC Firms                            5,733             10,481              7,489             7,564             31,267
+Number of Active VC Firms                                  424                427                425               424              1,084
+Average Number of Investments by VC                       0.28               0.51               0.37              0.37               0.38
+Firms per Industry per Year
+Average Number of Investments by VC                        1.83              2.11               2.21               2.29              2.11
+Firms per Industry per Year, Conditional on
+one Industry Investment
+Average Adj. Experience in Year of VC                      2.00              2.05               1.92               1.92              1.98
+Firms Investing in Year
+Average Adj. Industry Experience in Year of                2.92              2.86               2.89               2.92              2.89
+VC Firms Investing in Year
+Average Adj. Specialization of VC Firms                    0.27              0.31               0.31               0.28              0.29
+Investing in Year, Conditional on one
+Industry Investment
+
+The ﬁrst part of the table presents data on quartiles of Industry Q. Quartiles are constructed for each industry, with the lowest quartile
+being the six years with the lowest values of Q for that industry. The second part of the table presents data on quartiles of Detrended
+Industry IPO Activity. Detrended Industry IPO Activity is the residual of a regression of the logarithm of one plus the number of IPOs in
+an industry on a time trend. The ﬁrst quartile represents the lowest level of Detrended Industry IPO Activity.
+
+
+
+  The second part of the table constructs public market signal quartiles by detrending industry IPO activity.
+We detrend because IPOs increase over time with the general increase in the scale of the stock market. As this
+part of the table shows, there is no clear linear relation between the total number of investments and quartiles
+of detrended IPO activity, although the number of investments is lowest in the lowest quartile of detrended
+IPO activity. A similar pattern obtains in the average number of investments by venture capital ﬁrms across
+detrended IPO quartiles, and in the experience and specialization measures.
+
+3. Analysis
+
+3.1. The determinants of investments
+
+  We now focus on understanding the relation between public market signals and the investment decisions of
+venture capitalists. In Section 3.2, we turn to understanding the determinants of investment success.
+                                                   ARTICLE IN PRESS
+                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                    11
+
+Table 4
+Impact of public market signals
+
+Dependent variable                 (1) Industry               (2) Industry               (3) Industry               (4) Industry
+                                   Investments                Investments                Investments                Investments
+
+Model                              Panel regression           Corrected for AR (1)       OLS                        OLS
+
+Lagged Q                           0.3303                                                0.1717
+                                   [2.81]***                                             [2.11]**
+Lagged IPOs                                                   0.0417                                                0.0377
+                                                              [0.93]                                                [0.98]
+Lagged Industry Investments                                                              0.6416                     0.6516
+                                                                                         [12.40]***                 [12.14]***
+Industry Fixed Effects             No                         No                         Yes                        Yes
+Year Fixed Effects                 No                         No                         Yes                        Yes
+Adj. R-squared                                                                           96.47%                     96.39%
+N                                  192                        192                        184                        184
+
+The sample consists of yearly observations with one observation per industry per year for 1975–1998, inclusive. The dependent variable is
+the log of the number of investments made by all VC ﬁrms in industry g in year t. Lagged IPOs is the log of the number of initial public
+offerings (IPOs) of venture-backed companies in industry g in year t1. Lagged Q is the lagged average ratio of the market value of the
+ﬁrm to the book value of assets for companies in the same industry. More details on the construction of this variable are provided in the
+text. Industry Investments is the dependent variable. Controls in some regressions include industry and year ﬁxed effects. Speciﬁcations 1
+and 2 ﬁt a general linear model specifying an AR (1) correlation structure for the industry panels.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+
+   To validate the use of Q and IPO activity as measures of perceived investment opportunities, Table 4
+presents a regression-based analysis of the relation between public market signals and investment at the
+industry level. The dependent variable is the logarithm of the total number of investments made in an industry
+in a year plus one. The ﬁrst column shows the results where lagged Q is the regressor. We include industry and
+year ﬁxed effects in this regression.
+   In the ﬁrst and second columns, we ﬁt a general linear model specifying an AR(1) within-group correlation
+structure for the panels, where the panels are industries. The coefﬁcient estimate implies that an increase in Q
+from the bottom to the top quartile increases the number of investments by almost 30%. Although the
+coefﬁcient for IPOs is positive as well, it is not statistically signiﬁcant. In the ﬁnal two columns, we add an
+industry-speciﬁc AR(1) term to the speciﬁcations. This approach is also motivated by the concern that both
+the dependent and independent variables may be serially correlated. Both coefﬁcients continue to take on the
+expected positive sign. The coefﬁcient for lagged IPOs is again no longer statistically signiﬁcant. Lagged Q,
+however, is statistically signiﬁcant, with a coefﬁcient estimate implying that an increase in Q from the bottom
+to the top quartile increases the number of investments by more than 15%.
+   Table 5 presents our ﬁndings on the relation between venture capital ﬁrm characteristics, public market
+signals, and investment behavior. The analysis is conducted at the venture capital ﬁrm–industry–year level.
+Thus, for each active venture capital ﬁrm there are eight observations per year corresponding to the eight
+industries. The dependent variable is the log of one plus the number of investments made by venture capital
+ﬁrm f in industry g in year t.
+   The public market signal (PM signal) is either Lagged Q, the average Q in industry g in year t1, or Lagged
+IPOs, the log of the number of initial public offerings (IPOs) of venture-backed companies in industry g in
+year t1. The basic results are the same using both measures. Our measure of experience is the log of one plus
+experience minus the log of one plus average experience in the year of the investment. Like the adjusted
+experience variables summarized in Table 1, this measure adjusts for the positive time trend in experience. It
+also transforms the experience measure into logs because an additional deal for the least experienced ﬁrms is
+likely to be a more meaningful increase in experience than an additional deal for the most experienced ﬁrms.
+(Of course, we add one to the experience measure to avoid taking logs of zero). We refer to this variable as
+EXPERIENCE, where the upper case letters indicate that we are using the adjusted log measure. Likewise, we
+use an adjusted log measure for industry experience and non-industry experience, referred to, respectively, as
+                                                     ARTICLE IN PRESS
+12                                   P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Table 5
+Investment patterns (no interactions)
+
+                         (1) Firm        (2) Firm      (3) Firm      (4) Firm       (5) Firm       (6) Firm       (7) Firm      (8) Firm
+                         Industry        Industry      Industry      Industry       Industry       Industry       Industry      Industry
+Dependent variable      Investment      Investment    Investment    Investment     Investment     Investment     Investment    Investment
+
+PM Measure             Q               Q             Q             Q              Q             Q              IPOs           IPOs
+
+PM Measure             0.0430          0.0430        0.0483        0.0485         0.0430        0.0430         0.0230         0.0200
+                       [8.94]***       [8.70]***     [9.50]***     [8.99]***      [8.94]***     [8.69]***      [11.00]***     [9.84]***
+EXPERIENCE                             0.0520                                                   0.0523                        0.0524
+                                       [16.04]***                                               [16.19]***                    [16.20]***
+INDEXP                                               0.0727        0.0852                                      0.0727
+                                                     [19.80]***    [23.72]***                                  [19.85]***
+NONINDEXP                                            0.0133        0.0200                                     0.0133
+                                                     [4.74]***     [8.40]***                                   [4.73]***
+SPECIALIZATION                                                                    0.0003       0.0019                        0.0019
+                                                                                  [0.31]        [2.06]**                      [2.12]**
+Lagged Firm Industry
+Invest.              0.5236            0.4897        0.4427        0.3936         0.5239        0.4877         0.4418         0.4869
+                     [42.80]***        [47.03]***    [43.51]***    [40.17]***     [41.51]***    [45.86]***     [43.35]***     [45.74]***
+Lagged Firm Non
+Industry Invest.                                                   0.0752
+                                                                   [28.13]***
+Fixed Effects:            Industry        Industry      Industry      Industry       Industry      Industry       Industry       Industry
+                            Year            Year          Year          Year           Year          Year           Year           Year
+Adj. R-squared         37.03%          38.19%        38.91%        40.33%         37.03%        38.20%         38.90%         38.18%
+
+N                      81,509          81,509        81,509        81,509         81,509        81,509         81,509         81,509
+
+The unit of observation is VC ﬁrm f in industry g in year t. The dependent variable is the log of one plus the number of investments made
+by VC ﬁrm f in industry g in year t. The public market measure (PM Measure) is either Lagged Q or Lagged IPOs. Lagged Q is the lagged
+average ratio of the market value of the ﬁrm to the book value of assets for companies in the same industry. More details on the
+construction of this variable are described in the text. Lagged IPOs is the log of one plus the number of initial public offerings (IPOs) of
+venture-backed companies in industry g in year t1, EXPERIENCE is the difference between the log of one plus the number of
+investments made by VC ﬁrm f prior to year t and the log of one plus the average of the number of investments made by all ﬁrms prior to
+year t. INDEXP is the difference between the log of one plus the number of investments made by VC ﬁrm f in industry g prior to year t and
+the log of one plus the average of the number of investments made by all ﬁrms in industry g prior to year t. NONINDEXP is the difference
+between the log of one plus the number of investments made by VC ﬁrm f outside industry g prior to year t and the log of one plus the
+average of the number of investments made by all ﬁrms outside industry g prior to year t. SPECIALIZATION is the number of
+investments made by VC ﬁrm f in industry g divided by the number of investments made by VC ﬁrm f in total prior to year t divided by the
+average of the same ﬁgure for all VC ﬁrms in year t. Lagged Firm Industry Invest. is an AR(1) term, which is the ﬁrm’s experience in that
+industry in the previous year. Similarly, Lagged Firm Industry Non Industry Invest. is the ﬁrm’s experience in all other industries in the
+previous year. Regressions include industry and year ﬁxed effects. T-statistics in italics below coefﬁcient estimates are based on robust
+errors allowing for data clustering by VC ﬁrm.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+
+
+
+INDEXP and NONINDEXP. Each speciﬁcation includes Lagged Firm Industry Investments, an AR(1) term
+that is the number of investments made by venture capital ﬁrm f in industry g in year t1. This term adjusts
+for autocorrelation, and is also interesting in its own right as it is the ﬁrm’s most recent industry experience.
+Finally, the specialization variable we use in the regressions is adjusted for industry and year effects. Thus, our
+adjusted specialization variable subtracts the average level of specialization in an industry and year. We
+call this adjusted specialization variable SPECIALIZATION. These variables are summarized in Panel B of
+Table 1.
+  In all speciﬁcations, we include both industry and year ﬁxed effects. The t-statistics are given in italics below
+the coefﬁcient estimates and are based on robust errors allowing for data clustering by venture capital
+organization.
+  The ﬁrst column of Table 5 repeats the industry-level regression in Table 4, with the unit of observation
+being VC ﬁrm f in industry g in year t. Not surprisingly, the regression indicates that venture capital ﬁrms tend
+                                                     ARTICLE IN PRESS
+                                    P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                       13
+
+to increase their investments in years and industries in which lagged Q is high. The coefﬁcient of 0.043, which
+is statistically signiﬁcant, implies that an increase in IPO activity from the 25th percentile to the 75th percentile
+boosts the venture capital ﬁrm’s investment activity in the industry by 3.8%. As the second column of Table 5
+indicates, there is also a strong positive relation between EXPERIENCE and investment activity. The
+coefﬁcient estimate indicates that at the 75th percentile of EXPERIENCE venture capital ﬁrms invest 16%
+more than at the 25th percentile of EXPERIENCE. The third column breaks out EXPERIENCE into
+INDEXP (our adjusted log industry experience variable) and NONINDEXP (our adjusted non-industry log
+experience variable). The regression indicates that what drives the relation with EXPERIENCE is actually the
+component that is related to INDEXP. Prior investment activity outside the industry has a much weaker
+relation with within-industry investment activity. The average venture capital ﬁrm in the highest quartile of
+industry experience (that is, at the 75th percentile) invests 7.6% more in the industry than a ﬁrm in the lowest
+quartile (at the 25th percentile) of industry experience.5 This difference is understated since it excludes the
+impact of the pervious year’s industry experience (the AR(1) term), which has a coefﬁcient of 0.44.
+   Column 4 adds Lagged Firm Non-Industry Investments, which is the number of investments made by venture
+capital ﬁrm f in industries other than g in year t1. Since the ﬁrm’s most recent investing experience is highly
+relevant to investments, this measure parallels the AR(1) term but includes only the previous year’s number of
+investments in other industries. Industry experience continues to be positively related to industry investment
+activity and non-industry experience has a statistically signiﬁcant negative relation with industry investment.
+Comparing the coefﬁcients on the previous year’s investments, the effect of industry experience is almost ﬁve
+times that of non-industry experience.
+   Columns 5 and 6 of Table 5 add industry specialization to the regressions. In column 5, there is no relation
+between future investment in an industry and specialization. Once we control for experience (recall that
+specialized ﬁrms tend to be less experienced), however, we observe a signiﬁcant (if modest) pattern: the results
+in column 6 indicate that an organization in the top industry specialization quartile makes 0.25% more
+investments in the industry than one in the bottom quartile. Finally, the last two columns of Table 5 replicate
+the results in columns 3 and 6 using IPO activity rather than Q as the measure of the public market. The basic
+patterns continue to hold in these regressions, and the magnitude of the effects is similar.
+   The next two tables present our main results on how venture capital ﬁrms with different characteristics
+respond to changes in public market signals of investment opportunities. In Table 6, we add to the
+speciﬁcations in Table 5 variables that interact our public market signals with our measures of venture capital
+ﬁrm characteristics. Throughout our discussion of the results, when we refer to periods with high Q we are
+referring to those at the top quartile (75th percentile) of lagged Q; low Q refers to those periods at the bottom
+quartile (25th percentile). Likewise, high values of EXPERIENCE, INDEXP, and SPECIALIZATION refer
+to venture capital ﬁrms at the top quartile, while those with low values of these variables refer to those VC
+ﬁrms at the bottom quartile.
+   The ﬁrst column of Table 6 indicates that the coefﬁcient on the interaction term EXPERIENCE * Q is
+positive and statistically signiﬁcant, meaning that the industry investment activity of more experienced venture
+capital ﬁrms is more sensitive to Q than it is for less experienced venture capital ﬁrms. At the mean of the other
+variables, experienced venture capital organizations (again, where experience is deﬁned as a ﬁrm at the 75th
+percentile in adjusted log experience) invest 5.5% more when Q activity is high (at the 75th percentile) than
+when it is low (at the 25th percentile). By contrast, relatively inexperienced venture capital ﬁrms (those at the
+25th percentile of in adjusted log overall experience) invest only slightly more (1.5% more) when Q is high
+
+  5
+    One might have thought that experience in another industry would also have been an important explanation for two reasons. First, the
+most experienced venture capital ﬁrms tend to have the greatest access to ﬁnancial capital. They may already have raised large funds or
+they may have established reputations and networks that enable them to raise additional capital easily. Second, ﬁrms with the most overall
+experience may have access to a large pool of human capital that they can redeploy across sectors. That is, one might think of venture
+capital ﬁrms as having an internal labor market to complement an internal capital market. However, our ﬁnding that industry experience
+is the key driver of investment activity suggests that it is not easy to redeploy venture capitalists across sectors. This would be the case if
+human capital that specializes in a given industry, say biotechnology, was unable or unwilling to shift focus to a different industry, say, the
+Internet. This prediction is in line with the view that diversiﬁed ﬁrms have a difﬁcult time redeploying capital into sectors with more
+investment opportunities: see Scharfstein and Stein (1990), Scharfstein (1998), and Rajan, Servaes, and Zingales (2000). Fulghieri and
+Sevilir (2004) model some of these issues in a venture capital context.
+Table 6
+Investment patterns (includes interactions of IPOs)                                                                                                                                         14
+
+Dependent variable                 (1) Firm           (2) Firm       (3) Firm         (4) Firm         (5) Firm         (6) Firm         (7) Firm         (8) Firm         (9) Firm
+                                   Industry           Industry       Industry         Industry         Industry         Industry         Industry         Industry         Industry
+                                   Investment         Investment     Investment       Investmen        Investment       Investment       Investment       Investment       Investment
+
+PM Measure                         Q                  Q              Q                Q                Q                Q                Q                IPOs             IPOs
+
+PM Measure                         0.0611             0.0709         0.0531           0.0672           0.0715           0.0297           0.0466           0.0346           0.0274
+                                   [10.05]***         [10.85]***     [9.18]***        [10.04]***       [10.39]***       [5.89]***        [7.48]***        [12.58]***       [9.74]***
+EXPERIENCE                         0.0115                                                                                               0.0119                           0.0250
+                                   [1.58]                                                                                                [1.62]                            [5.35]***
+
+
+
+
+                                                                                                                                                                                            P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+INDEXP                                                0.0012                         0.0252          0.0120                                            0.0405
+                                                      [0.15]                          [2.95]***        [1.45]                                             [5.86]***
+NONINDEXP                                                            0.0109           0.0396           0.0090                                            0.0157
+                                                                     [1.52]           [5.42]***        [1.22]                                             [3.60]***
+SPECIALIZATION                                                                                                          0.0218          0.0220                           0.0124
+                                                                                                                        [6.17]***        [6.30]***                         [6.11]***
+
+
+
+
+                                                                                                                                                                                                                                                                ARTICLE IN PRESS
+EXPERIENCE *                       0.0340                                                                                                0.0345                            0.0308
+  PM Measure                       [7.62]***                                                                                             [7.71]***                         [12.30]***
+INDEXP *                                              0.0416                          0.0495           0.0490                                             0.0385
+  PM Measure                                          [9.57]***                       [11.63]***       [11.50]***                                         [15.09]***
+NONINDEXP *                                                          0.0165           0.0139          0.0060                                            0.0004
+  PM Measure                                                         [3.65]***        [3.26]***        [1.40]                                             [0.18]
+SPECIALIZATION *                                                                                                        0.0133           0.0148***                         0.0081***
+PM Measure                                                                                                              [6.32]***        [7.10]                            [7.50]
+Lagged Firm Industry               0.4871             0.4403         0.5035           0.4429           0.3934           0.5222           0.4828           0.4352           0.4683
+  Investments                      [48.12]***         [44.10]***     [47.75]***       [43.75]***       [40.75]***       [41.17]***       [46.71]***       [43.64]***       [46.49]***
+Lagged Firm Non                                                                                        0.0762
+Nonindustry Invest.                                                                                    [28.21]***
+Controls:                          Industry           Industry       Industry         Industry         Industry         Industry         Industry         Industry         Industry
+                                   Year               Year           Year             Year             Year             Year             Year             Year             Year
+Adj. R-squared                     38.37%             39.11%         37.91%           39.20%           40.65%           37.10%           38.47%           39.37%           38.75%
+N                                  81,509             81,509         81,509           81,509           81,509           81,509           81,509           81,509           81,509
+
+The unit of observation is VC ﬁrm f in industry g in year t. The dependent variable is the log of one plus the number of investments made by VC ﬁrm f in industry g in year t. The public
+market measure (PM Measure) is either Lagged Q or Lagged IPOs. Lagged Q is the lagged average ratio of the market value of the ﬁrm to the book value of assets for companies in the
+same industry. More details on the construction of this variable are described in the text. Lagged IPOs is the log of one plus the number of initial public offerings (IPOs) of venture-
+backed companies in industry g in year t1. EXPERIENCE is the difference between the log of one plus the number of investments made by VC ﬁrm f prior to year t and the log of one
+plus the average of the number of investments made by all ﬁrms prior to year t. INDEXP is the difference between the log of one plus the number of investments made by VC ﬁrm f in
+industry g prior to year t and the log of one plus the average of the number of investments made by all ﬁrms in industry g prior to year t. NONINDEXP is the difference between the log
+of one plus the number of investments made by VC ﬁrm f outside industry g prior to year t and the log of one plus the average of the number of investments made by all ﬁrms outside
+industry g prior to year t. SPECIALIZATION is the number of investments made by VC ﬁrm f in industry g divided by the number of investments made by VC ﬁrm f in total prior to
+year t divided by the average of the same ﬁgure for all VC ﬁrms in year t. Lagged Firm Industry Invest. is an AR(1) term, which is the ﬁrm’s experience in that industry in the previous
+year. Similarly, Lagged Firm Industry Non Industry Invest. is the ﬁrm’s experience in all other industries in the previous year. Regressions include industry and year ﬁxed effects. T-
+statistics in italics below coefﬁcient estimates are based on robust errors allowing for data clustering by VC ﬁrm.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+                                                  ARTICLE IN PRESS
+                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                 15
+
+than when it is low. The results also indicate that EXPERIENCE increases the level of investment, not just the
+sensitivity of investment to Q.
+   In columns 2–4, we repeat the analysis, but decompose EXPERIENCE into its industry and non-industry
+components. The results in column 2 indicate that more industry-experienced venture capital ﬁrms invest
+6.2% more when Q is high than when it is low. By contrast, less industry-experienced venture capital ﬁrms
+invest 2.7% more. When both experience measures are included, the investment of more industry-experienced
+ﬁrms continues to be more sensitive to Q than is the investment of less industry-experienced ﬁrms. Experience
+outside the industry appears to reduce the sensitivity to industry Q as implied by the negative coefﬁcient of the
+interaction term NONINDEXP * Q.
+   The ﬁfth column again adds a term with the previous year’s non-industry experience to the speciﬁcation.
+The cumulative impact of industry and non-industry experience is muted by the fact that much of the relevant
+experience is captured by the previous year’s experience. When Q is high, industry-experienced venture capital
+ﬁrms with relatively low experience out of the industry invest 2.0% more than when it is low, while venture
+capital ﬁrms with high experience out of the industry, but low experience within the industry, invest only 0.8%
+more when Q is high. Again, these differences are much greater including the impact of the previous year’s
+industry and non-industry experience.
+   The sixth and seventh columns of Table 6 look at the effect of industry specialization on investment
+behavior. Consistent with our ﬁndings about industry experience, we ﬁnd that more specialized venture capital
+ﬁrms tend to increase their industry investments by more than less specialized ﬁrms when Q increases. The
+effect, however, is small in column 6, implying an increase in investment by 3.8% for specialized ﬁrms and
+2.4% for less specialized ﬁrms. When overall experience and specialization are used in column 7, both
+interactions terms continue to be economically and statistically signiﬁcant.
+   Finally, the last two columns in Table 6 report the results using IPO activity as an alternative public market
+measure. Those columns replicate the basic ﬁndings in columns 4 and 7 of the table. The magnitude of the
+effects is similar to those estimated using Q.
+   A natural question to ask is why less experienced venture capitalists do not scale up their investment in a
+sector as much as more industry-experienced venture capitalists when investment opportunities appear to be
+more attractive. We believe that this pattern reﬂects a crowding out effect: the less experienced venture
+capitalists may wish to invest in the sector as well, but cannot get a ‘‘seat at the table’’ in the transactions being
+completed. While ultimately the supply of transactions in a given sector may adjust to accommodate demand,
+in the short run there may be intense competition for transactions.6
+   In Table 7, we check whether our results are driven by venture capital ﬁrms that choose not to invest in a
+given industry. Thus, we eliminate from the regressions all observations in which the venture capital ﬁrm made
+no investments in the industry in a year. All of the ﬁndings in Table 6 continue to hold, although the
+magnitude of the effects is in some cases smaller. Thus, in part this phenomenon is driven by less experienced
+ﬁrms ‘‘opting out’’ of markets with substantial investment opportunities, but even those inexperienced venture
+capital ﬁrms that are still active reduce their level of activity.
+   Collectively, these results suggest that industry-speciﬁc experience (human capital) is an important channel
+through which venture capital ﬁrms respond to shifts in public market signals. Contrary to popular wisdom, it does
+not appear that booms and busts are driven by the investment behavior of young, inexperienced venture capital
+ﬁrms. In fact, these results suggest that the cyclicality seen in the venture capital industry is driven mostly by the
+more successful venture ﬁrms, that is, those with the most experience. The next section, Section 3.2, attempts to
+address the question of whether the sensitivity of more experienced ﬁrms to public market signals is a rational
+reaction to fundamentals or an overreaction by examining these ﬁrms’ history of success on their investments.
+
+3.2. The determinants of investment success
+
+  In this section we explore whether the greater responsiveness of more experienced venture capital ﬁrms to
+public market signals is efﬁcient or whether it is an overreaction to these signals. If these experienced ﬁrms
+  6
+   This hypothesis is consistent with evidence in the venture industry of the phenomenon of ‘‘money chasing deals,’’ that is, inﬂows of
+capital into venture funds driving valuations upwards (Gompers and Lerner, 2000).
+Table 7
+Investment patterns for organizations that made investments in that industry in that year                                                                                                  16
+
+Dependent variable                 (1) Firm         (2) Firm         (3) Firm         (4) Firm         (5) Firm        (6) Firm         (7) Firm         (8) Firm         (9) Firm
+                                   Industry         Industry         Industry         Industry         Industry        Industry         Industry         Industry         Industry
+                                   Investment       Investment       Investment       Investment       Investment      Investment       Investment       Investment       Investment
+                                   (40)             (40)             (40)             (40)             (40)            (40)             (40)             (40)             (40)
+
+PM Measure                         Q                Q                Q                Q                Q               Q                Q                IPOs             IPOs
+
+PM Measure                         0.1432           0.1473           0.1415           0.1410           0.1505          0.1134           0.1130           0.0662           0.0542
+                                   [10.94]***       [11.57]***       [10.75]***       [10.97]***       [11.57]***      [8.63]***        [8.50]***        [9.95]           [7.82]***
+EXPERIENCE                         0.0151                                                                                               0.0121                            0.0095
+
+
+
+
+                                                                                                                                                                                           P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+                                   [0.92]                                                                                               [0.73]                            [0.65]
+INDEXP                                              0.0018                           0.0396          0.0210                                           0.0287
+                                                    [0.10]                            [2.35]**         [1.26]                                            [1.78]
+NONINDEXP                                                            0.0360           0.0604           0.0062                                            0.0438
+                                                                     [2.51]**         [4.24]***        [0.46]                                            [3.36]
+SPECIALIZATION                                                                                                         0.0224          0.0309                           0.0096
+
+
+
+
+                                                                                                                                                                                                                                                               ARTICLE IN PRESS
+                                                                                                                       [3.71]***        [5.36]***                         [2.72]***
+EXPERIENCE *                       0.0248                                                                                               0.0301                            0.0204
+PM Measure                         [3.13]***                                                                                            [3.68]***                         [4.16]***
+INDEXP *                                            0.0409                            0.0547           0.0554                                            0.0318
+PM Measure                                          [4.92]***                         [6.70]***        [6.86]***                                         [6.15]
+NONINDEXP *                                                          0.0054           0.0229          0.0168                                           0.0100
+PM Measure                                                           [0.79]           [3.48]***        [2.60]***                                         [2.37]
+SPECIALIZATION *                                                                                                       0.0155           0.0274                            0.0107
+PM Measure                                                                                                             [3.75]***        [6.95]***                         [6.23]***
+Lagged Firm Ind.                   0.2727           0.2403           0.2907           0.2435           0.2068          0.3041           0.2557           0.2430           0.2536
+Invest                             [26.82]***       [23.21]***       [27.28]***       [22.56]***       [21.59]***      [22.30]***       [23.44]***       [22.49]          [23.37]***
+Lagged Firm                                                                                            0.0753
+Nonindustry Invest.                                                                                    [10.24]***
+Fixed Effects:                     Industry         Industry         Industry         Industry         Industry        Industry         Industry         Industry         Industry
+                                   Year             Year             Year             Year             Year            Year             Year             Year             Year
+Adj. R-squared                     33.28%           33.82%           32.56%           33.96%           35.04%          31.47%           33.73%           33.61%           33.46%
+N                                  14,795           14,795           14,795           14,795           14,795          14,795           14,795           14,795           14,795
+
+The unit of observation is VC ﬁrm f in industry g in year t conditional on the VC firm making at least one investment in the industry. The dependent variable is the log of one plus the
+number of investments made by VC ﬁrm f in industry g in year t. The public market measure (PM Measure) is either Lagged Q or Lagged IPOs. Lagged Q is the lagged average ratio of
+the market value of the ﬁrm to the book value of assets for companies in the same industry. More details on the construction of this variable are described in the text. Lagged IPOs is
+the log of one plus the number of initial public offerings (IPOs) of venture-backed companies in industry g in year t1. EXPERIENCE is the difference between the log of one plus the
+number of investments made by VC ﬁrm f prior to year t and the log of one plus the average of the number of investments made by all ﬁrms prior to year t. INDEXP is the difference
+between the log of one plus the number of investments made by VC ﬁrm f in industry g prior to year t and the log of one plus the average of the number of investments made by all
+ﬁrms in industry g prior to year t. NONINDEXP is the difference between the log of one plus the number of investments made by VC ﬁrm f outside industry g prior to year t and the
+log of one plus the average of the number of investments made by all ﬁrms outside industry g prior to year t. SPECIALIZATION is the number of investments made by VC ﬁrm f in
+industry g divided by the number of investments made by VC ﬁrm f in total prior to year t divided by the average of the same ﬁgure for all VC ﬁrms in year t. Lagged Firm Industry
+Invest. is an AR(1) term, which is the ﬁrm’s experience in that industry in the previous year. Similarly, Lagged Firm Industry Non Industry Invest. is the ﬁrm’s experience in all other
+industries in the previous year. Regressions include industry and year ﬁxed effects. T-statistics in italics below coefﬁcient estimates are based on robust errors allowing for data
+clustering by VC ﬁrm.***, **, * Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+                                             ARTICLE IN PRESS
+                             P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                   17
+
+ramp up the number of investments they make in response to public market signals, but suffer a signiﬁcant
+degradation of performance on these investments, their response may, in fact, be an overreaction. In addition
+to the practitioner accounts alluded to above, there are at least two reasons to believe this might be the case.
+First, Baker, Stein, and Wurgler (2003) show that industrial ﬁrms whose investment is most sensitive to Q have
+the lowest subsequent stock returns following periods of heavy investment. A similar effect might be observed
+among experienced venture capital ﬁrms whose investment is most sensitive to Q and IPO activity. Second, at
+the same time that venture capital ﬁrms are buying equity in portfolio companies, these companies are, of
+course, issuing equity. We know from numerous studies, including Loughran and Ritter (1995), that when
+ﬁrms (albeit public ﬁrms) issue equity, their subsequent stock returns are abnormally low.
+   To assess this question, we examine the performance of the companies in which the venture capital ﬁrms
+invest. Ideally, one would have data on the actual returns on the venture capital ﬁrm’s investment.
+Unfortunately, the best we can do is to determine whether the investment resulted in what would appear to be
+a proﬁtable exit for the venture capital ﬁrm. This is most likely the case if the company went public, registered
+for an IPO (as of the date we collected the data from Venture Economics), or was acquired or merged. Venture
+Economics does not collect valuation information for all of the companies that were merged or acquired and it
+is possible that these outcomes are not as lucrative as those where the company exited with a public offering.
+However, we characterize these as successes because they are likely to have generated higher returns than
+investments in which there has not been an exit or the ﬁrm has been shut down. (We also repeat the analysis
+below eliminating acquisitions in order to avoid these ambiguities.)
+   The ﬁnal column of Table 2 provides some initial indications of the patterns of success by venture capital
+ﬁrm characteristics. The tabulations suggest that investments made by venture capital ﬁrms with more
+overall—and especially more industry-speciﬁc—experience are more successful. The patterns with specializa-
+tion are not monotonic, with the most and least specialized venture capital ﬁrms appearing to be the poorest
+performers. However, one must be cautious in interpreting these univariate relations given the lack of controls
+for industry, time period, and (in the specialization analysis) experience.
+   Tables 8 and 9 examine the determinants of success in a regression framework. The dependent variable is a
+dummy variable, which equals one if the company was successful before the end of 2003. In addition to the
+industry and year controls used earlier, we also control for the stage of the company and the ﬁnancing round
+at the time of the investment, since more mature ﬁrms are closer to an exit. As in our previous regressions, we
+exclude observations after 1998 in order for the outcomes of the investments to be meaningful. Here we are
+doing the analysis at the deal level. Because there are multiple observations for each portfolio company in the
+sample (due to the fact that multiple venture capital ﬁrms invest in the company), we calculate robust standard
+errors by clustering at the company level. In the discussion below, we deﬁne the high and low levels of
+EXPERIENCE, INDEXP, NONINDEXP, and SPECIALIZATION as the quartiles based on values that are
+on the 25th and 75th percentiles, where the unit of observation is VC ﬁrm f’s initial investment in portfolio
+company c.
+   The ﬁrst column of Table 8 suggests there is no statistically signiﬁcant relation between success and Q in the
+sample as a whole. The second column of Table 8 indicates that more experienced venture capital ﬁrms are
+more likely to make successful investments. However, the third and fourth columns show that the effect of
+experience is limited to venture capital ﬁrms with industry experience. Investments made by venture capitalists
+with the top-quartile industry experience are 3% more likely to succeed than those made by the venture
+capitalists at the 25th percentile. Given a baseline success rate of 55%, this amounts to a fairly signiﬁcant
+increase in the probability of success. In the regressions with industry specialization in columns 5 and 6,
+experience remains a critical determinant of success. Columns 7 and 8 replicate the results using IPO activity
+as our measure of the public market signal and report results of similar statistical signiﬁcance and economic
+magnitude. Column 9 shows that the results are similar when denoting only IPOs as successful outcomes.
+   Table 8 makes clear that venture capital ﬁrms with industry experience do not perform worse, on average, as
+a result of being more sensitive to shifts in public market activities. Table 9 digs deeper by investigating
+whether experienced venture capital ﬁrms perform worse on the investments they make when industry Q and
+IPO activity are high. The results indicate that just the opposite is true. Overall, venture capital ﬁrms do
+somewhat worse on the investments they make when Q and IPO activity are high, although the estimated
+effect is statistically insigniﬁcant. However, the more experienced venture capitalists exhibit less degradation in
+                                                    ARTICLE IN PRESS
+18                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Table 8
+Success
+
+                         (1)           (2)          (3)          (4)          (5)          (6)          (7)           (8)          (9)
+Dependent variable       Success       Success      Success      Success      Success      Success      Success       Success      IPO
+
+PM Measure               Q             Q            Q            Q            Q            Q            IPOs          IPOs         Q
+
+PM Measure               0.0249       0.0251      0.0246      0.0266      0.0248      0.0248      0.0179       0.0164      0.0270
+                         [1.18]        [1.19]       [1.16]       [1.25]       [1.17]       [1.17]       [1.39]        [1.28]       [1.08]
+EXPERIENCE                             0.0192                                              0.0197                     0.0197
+                                       [6.84]***                                           [6.88]***                  [6.88]***
+INDEXP                                              0.0238       0.0211                                 0.0213                     0.0189
+                                                    [7.64]***    [4.98]***                              [5.04]***                  [4.00]
+NONINDEXP                                                        0.0038                                 0.0036                     0.0006
+                                                                 [1.12]                                 [1.07]                     [0.15]
+SPECIALIZATION                                                                0.0005      0.0018                     0.0019
+                                                                              [0.25]       [0.91]                     [0.98]
+Fixed Effects:           Industry      Industry     Industry     Industry     Industry     Industry     Industry      Industry     Industry
+                         Stage         Stage        Stage        Stage        Stage        Stage        Stage         Stage        Stage
+                         Round         Round        Round        Round        Round        Round        Round         Round        Round
+                         Year          Year         Year         Year         Year         Year         Year          Year         Year
+Adj. R-squared           8.74%         8.90%        8.96%        9.03%        9.00%        8.90%        9.03%         8.90%        10.16%
+N                        31,267        31,267       31,267       30,294       31,262       31,262       30,294        31,262       20,256
+
+The unit of observation is VC ﬁrm f’s initial investment in portfolio company c. The dependent variable is Success, which equals one if the
+portfolio company was acquired, merged, in registration for an IPO, or went public by the end of 2003, and equals zero otherwise.
+Controls include industry, investment stage, round number, and year ﬁxed effects. T-statistics in italics below coefﬁcient estimates are
+based on robust standard errors allowing for data clustering by venture capital organization. The public market measure (PM Measure) is
+either Lagged Q or Lagged IPOs. Lagged Q is the lagged average ratio of the market value of the ﬁrm to the book value of assets for
+companies in the same industry. More details on the construction of this variable are described in the text. Lagged IPOs is the log of one
+plus the number of initial public offerings (IPOs) of venture-backed companies in industry g in year t1. EXPERIENCE is the difference
+between the log of one plus the number of investments made by VC ﬁrm f prior to year t and the log of one plus the average of the number
+of investments made by all ﬁrms prior to year t. INDEXP is the difference between the log of one plus the number of investments made by
+VC ﬁrm f in industry g prior to year t and the log of one plus the average of the number of investments made by all ﬁrms in industry g prior
+to year t. NONINDEXP is the difference between the log of one plus the number of investments made by VC ﬁrm f outside industry g prior
+to year t and the log of one plus the average of the number of investments made by all ﬁrms outside industry g prior to year t.
+SPECIALIZATION is the number of investments made by VC ﬁrm f in industry g divided by the number of investments made by VC ﬁrm
+f in total prior to year t divided by the average of the same ﬁgure for all VC ﬁrms in year t.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+
+
+
+their performance than do the less experienced venture capitalists. For instance, in column 3, for an industry
+experienced venture capital ﬁrm (again deﬁned as one at the 75th percentile of venture capital ﬁrms making
+investments) at the median of non-industry experience, as we move from a market where Q is low to one where
+it is high the probability of success decreases by only a small amount (2%). For a venture capital ﬁrm with
+relatively little industry experience, the decline is much higher at 11%. Similarly, columns 4 and 5 show that
+more specialized ﬁrms experience less of a deterioration in performance in high Q markets. The patterns
+continue to hold when we use IPO activity as our measure of the public market signal (columns 7 and 8) and
+when denoting only IPOs as successful outcomes (column 9). (Acquisitions in some cases can generate very
+attractive returns to venture investors; while in other cases they yield only pennies for each dollar of invested
+capital.) Based on the results in Tables 8 and 9, it would be hard to argue that the greater responsiveness of
+experienced venture capital ﬁrms to IPO activity and Q comes at the expense of performance.
+
+3.3. Robustness analyses
+
+ This section summarizes further analyses undertaken to determine whether our basic ﬁndings are robust.
+We ﬁrst discuss two tables with additional regressions, and then turn to a variety of unreported regressions.
+                                                    ARTICLE IN PRESS
+                                   P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                      19
+
+Table 9
+Success (includes interactions)
+
+Dependent variable                (1) Success   (2) Success   (3) Success   (4) Success   (5) Success   (6) Success   (7) Success   (8)
+                                                                                                                                    IPO
+
+PM Measure                        Q             Q             Q             Q             Q             IPOs          IPOs          Q
+
+PM Measure                        0.0238       0.0256       0.0331       0.0347       0.0374       0.0250       0.0261       0.0362
+                                  [1.12]        [1.20]        [1.54]        [1.62]        [1.74]        [1.90]*       [1.98]**      [1.44]
+EXPERIENCE                        0.0339                                                  0.0297                      0.0257
+                                  [3.62]***                                               [3.13]***                   [2.22]**
+INDEXP                                          0.0197        0.0030                                   0.0276                     0.0160
+                                                [1.93]*       [0.22]                                    [1.76]*                     [1.06]
+NONINDEXP                                                     0.0318                                    0.0411                      0.0389
+                                                              [2.88]***                                 [3.17]***                   [3.03]***
+SPECIALIZATION                                                              0.0130       0.0151                     0.0105
+                                                                            [2.49]**      [2.82]***                   [2.91]***
+EXPERIENCE * PM Measure           0.0067                                                 0.0039                     0.0014
+                                  [1.63]                                                  [0.94]                      [0.42]
+INDEXP * PM Measure                             0.0019        0.0118                                    0.0156                      0.0169
+                                                [0.43]        [1.94]*                                   [3.28]***                   [2.49]**
+NONINDEXP * PM Measure                                        0.0132                                   0.0120                     0.0179
+                                                              [2.73]***                                 [3.10]***                   [3.18]***
+SPECIALIZATION *                                                            0.0075        0.0102                      0.0057
+PM Measure                                                                  [2.55]**      [3.32]***                   [3.88]***
+Controls:                         Industry      Industry      Industry      Industry      Industry      Industry      Industry      Industry
+                                  Stage         Stage         Stage         Stage         Stage         Stage         Stage         Stage
+                                  Round         Round         Round         Round         Round         Round         Round         Round
+                                  Year          Year          Year          Year          Year          Year          Year          Year
+Adj. R-squared                    8.90%         8.96%         9.06%         8.76%         8.94%         9.08%         8.95%         10.22%
+
+N                                 31,267        31,267        30,294        31,262        31,262        30,294        31,262        20,256
+
+The unit of observation is VC ﬁrm f’s initial investment in portfolio company c. The dependent variable is Success, which equals one if the
+portfolio company was acquired, merged, in registration for an IPO, or went public by the end of 2003, and equals zero otherwise.
+Controls include industry, investment stage, round number, and year ﬁxed effects. T-statistics in italics below coefﬁcient estimates are
+based on robust standard errors allowing for data clustering by venture capital organization. The public market measure (PM Measure) is
+either Lagged Q or Lagged IPOs. Lagged Q is the lagged average ratio of the market value of the ﬁrm to the book value of assets for
+companies in the same industry. More details on the construction of this variable are described in the text. Lagged IPOs is the log of one
+plus the number of initial public offerings (IPOs) of venture-backed companies in industry g in year t1. EXPERIENCE is the difference
+between the log of one plus the number of investments made by VC ﬁrm f prior to year t and the log of one plus the average of the number
+of investments made by all ﬁrms prior to year t. INDEXP is the difference between the log of one plus the number of investments made by
+VC ﬁrm f in industry g prior to year t and the log of one plus the average of the number of investments made by all ﬁrms in industry g prior
+to year t. NONINDEXP is the difference between the log of one plus the number of investments made by VC ﬁrm f outside industry g prior
+to year t and the log of one plus the average of the number of investments made by all ﬁrms outside industry g prior to year t.
+SPECIALIZATION is the number of investments made by VC ﬁrm f in industry g divided by the number of investments made by VC ﬁrm
+f in total prior to year t divided by the average of the same ﬁgure for all VC ﬁrms in year t.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+
+
+  Using quartiles rather than continuous variables. Table 10 repeats the three analyses, now measuring
+experience using quartiles rather than as a continuous variable. Each speciﬁcation includes an AR(1) term. In
+each case, we replicate an analysis reported earlier using industry and non-industry experience: column 4 in
+Tables 6 and 7 and column 3 in Table 9. We ﬁnd that the same basic patterns hold. In particular, more
+experienced investors are more likely to invest when Q is high (Table 10, Column 1). A similar pattern holds
+when we look at the subsample of investors. Similarly, there is no clear pattern between success and
+investment rates, except for greater success for investments by the most experienced venture organizations in
+the markets with the greatest investment opportunities.
+  Restricting the sample size. Table 11 looks at whether the results are robust when the sample is limited. In
+particular, in the above analyses, we use as observations each active venture capital ﬁrm and industry. In some
+                                                  ARTICLE IN PRESS
+20                                P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Table 10
+Results in quartiles
+
+Dependent variable                                  Table 6 Firm industry         Table 7 Firm industry     Table 9 Success
+                                                    investments                   investments (Investors)
+
+PM Measure                                          Q                             Q                         Q
+
+PM Measure                                          0.0134                        0.1137                    0.0174
+                                                    [2.57]**                      [7.74]***                 [0.74]
+Industry Experience Quartile Dummy:
+  2                                                 0.0667                       0.0450                   0.0018
+                                                    [5.38]***                     [1.99]**                  [0.07]
+    3                                               0.0725                       0.0814                   0.0442
+                                                    [3.89]***                     [3.07]***                 [1.59]
+    4                                               0.1163                       0.1178                   0.0310
+                                                    [3.62]***                     [2.80]***                 [1.00]
+Interaction of Industry Experience Quartile
+Dummy and PM Measure:
+  2                                                 0.0491                        0.0299                    0.0104
+                                                    [6.96]***                     [2.49]**                  [0.78]
+    3                                               0.0725                        0.0709                    0.0358
+                                                    [6.77]***                     [4.87]***                 [2.66]***
+    4                                               0.1691                        0.1499                    0.0383
+                                                    [9.48]***                     [6.51]***                 [2.57]**
+Nonindustry Experience Quartile Dummy:
+ 2                                                  0.0632                        0.0523                    0.0723
+                                                    [5.42]***                     [2.20]**                  [2.76]***
+    3                                               0.1058                        0.1225                    0.0953
+                                                    [5.90]***                     [4.52]***                 [3.68]***
+    4                                               0.0012                        0.1130                    0.1054
+                                                    [0.05]                        [3.06]***                 [3.67]***
+Interaction of Non Industry Experience Quartile
+Dummy and PM Measure:
+  2                                                 0.0217                       0.0271                   0.0403
+                                                    [3.49]***                     [2.12]**                  [3.28]***
+    3                                               0.0336                       0.0620                   0.0546
+                                                    [3.55]***                     [4.07]***                 [4.43]***
+    4                                               0.0250                        0.0386                   0.0438
+                                                    [1.70]*                       [1.84]*                   [3.24]***
+Controls:                                           Industry                      Industry                  Industry
+                                                    Year                          Year                      Year
+                                                    AR(1)                         AR(1)                     Stage
+                                                                                                            Round
+Adj. R-squared                                      39.28%                        34.19%                    9.07%
+N                                                   81,509                        14,795                    31,267
+
+See the earlier tables for the deﬁnitions of the sample used in the regressions.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+cases, a venture capital ﬁrm may be very unlikely to invest in an industry because it has no capabilities to
+assess such transactions. We therefore eliminate as observations any cases in which the venture capital ﬁrm
+had not invested in an industry prior to the year of the observation (reported in column 1), or alternatively, the
+venture capital ﬁrm never invested in the industry during the entire sample period (reported in column 2). We
+estimate regressions equivalent to those in column 4 in Table 6, but only report the interaction terms. The
+results are quite similar and the magnitudes of the coefﬁcients are slightly larger.
+   Addressing the possibility of capital constraints. One of our main measures of investment opportunities is
+industry IPO activity. This variable, however, might also be related to the availability of capital. Typically,
+venture capitalists will distribute shares to their investors between one and two years following an IPO
+(Gompers and Lerner, 1998a). If the investors seek to maintain a constant allocation to venture capital, they
+                                                     ARTICLE IN PRESS
+                                     P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                      21
+
+Table 11
+Robustness checks
+
+Sample                  (1) Ever invested in    (2) Ever invested in     (3) Above median        (4) Above median         (5) Full sample
+                        past                    sample                   fund size               success rate
+
+Dependent variable      Firm industry           Firm industry            Firm industry           Firm industry            Firm Industry
+                        Investments             Investments              Investments             Investments              Investments
+
+PM Measure              Q                       Q                        Q                       Q                        IPO Pop
+
+N                       49,549                  57,540                   40,721                  41,010                   73,667
+INDEXP * PM             0.0940                  0.0617                   0.0600                  0.0560                   0.1183
+Measure                 [14.20]***              [11.37]***               [9.60]***               [9.52]***                [8.12]***
+NONINDEXP *             0.0354                 0.0215                  0.0255                 0.0200                  0.0026
+PM Measure              [6.61]***               [4.43]***                [4.14]***               [3.65]***                [0.29]
+
+The regressions here are similar to those reported in regression (4) of Table 6. See the labeling of that table for the deﬁnition of the sample
+and variables. The sample is varied here to include the following: (Regression 1) only venture capital ﬁrms that have ever invested in the
+industry in the past, (Regression 2) VCs that have ever made an investment in that industry in the sample (past or future), (Regression 3)
+only VCs with above-median fund size, and (Regression 4) only VCs with above-median success rates. Regression 5 is based on the full
+sample, but uses as the measure of public market performance the average ﬁrst-day returns of all venture-backed IPOs in that sector in the
+previous year. Only some of the regression coefﬁcients are reported in this table. All regressions included AR(1) terms as controls.
+T-statistics in italics below coefﬁcient estimates are based on robust standard errors allowing for data clustering by VC ﬁrm.
+*** ** *
+   , , Indicate statistical signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+
+
+
+may rapidly reinvest those funds. This pattern may imply that in periods following many venture capital-
+backed IPOs, venture capitalists would have considerably more funds to invest. Thus, a relation between
+lagged IPOs and investments may exist even if lagged IPOs do not capture investment opportunities.7
+   To address this capital availability story, we ﬁrst examine the subset of venture funds whose capital under
+management is above the median in the year of the observation. Kaplan and Schoar (2005) show that there is a
+concave relationship between investment success and future fundraising: more successful venture capital ﬁrms
+appear to limit the amount of capital they raise, even though they could raise many times the amount. Thus, in
+these ﬁrms availability of capital is unlikely to be a problem. We also examine those funds with an above-
+median success rate. Successful venture ﬁrms ﬁnd it easier to raise capital (Gompers and Lerner, 1998b;
+Kaplan and Schoar, 2005). Again, these ﬁrms—even if they have relatively limited capital under
+management—have the potential to raise large sums and should not be constrained. In columns 3 and 4 of
+Table 11, we repeat the analysis in Table 6, limiting the sample to these two subsets of funds where capital
+constraints are unlikely to be an issue. We ﬁnd that results continue to hold as before.
+   Alternative proxies for public market signals. Our analysis above uses Q and the IPO activity of venture
+capital-backed ﬁrms as proxies for public market signals. Here we expand our IPO activity measure to include
+all IPOs, not just those that were venture capital-backed. The two measures are highly correlated (0.81) since
+both measures include venture capital-backed IPOs. Not surprisingly, the results are not appreciably altered.
+We also considered several other market-based measures, including the earnings-to-price ratio, market-to-
+book ratio, and historical industry returns. When we use all of these measures in unreported regressions, we
+obtain results similar to those presented above.
+   Column 5 of Table 11 presents the results using one such alternative measure, the success of IPOs in the
+prior year in that industry. When IPOs are being well received, it may be an indication of investor perception
+of opportunity in that sector. (See Hanley (1993) for a discussion of why underwriters do not fully adjust the
+offering price for an issue that encounters unexpectedly strong demand.) To measure the price change, we
+compute the average of the percentage change between the offer price and the share price in the ﬁrst trading
+day (IPO ‘‘pop’’) for all venture-backed IPOs in that sector in the past year from information in Security Data
+
+  7
+   Even if this story holds, it should be noted that it is by no means clear that the limited partners will invest in the same venture capital
+organizations. Nor is it certain that the venture funds will reinvest in the same sectors as where they recently took ﬁrms public.
+                                                 ARTICLE IN PRESS
+22                               P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23
+
+Company’s Corporate New Issues database and the Center for Research in Security Prices pricing data.8 The
+results show that the interaction terms are positive, and the coefﬁcient on industry experience is larger than
+that on non-industry experience. However, the results are less robust, becoming insigniﬁcant when we use 30-
+day returns as our measure of IPO market performance. The IPO pop is perhaps less likely to serve as a signal
+of fundamental opportunities in a sector, since it may be measuring something fundamentally different, such
+as market sentiment or underwriter market power.
+  One observation per company. Since the data set includes multiple observations on the same portfolio
+companies, each outcome reﬂects not only a given venture capital ﬁrm’s characteristics, but also those of the
+other venture capitalists invested in the company. As an additional robustness check to the relations among
+experience, industry experience, specialization, and success, we use a sample with one observation for each
+portfolio company and the average levels of each variable for the venture capitalists investing in the company.
+In these speciﬁcations, both industry and non-industry experience are positively associated with success, as is
+specialization, although the coefﬁcient on specialization is not signiﬁcantly different from zero. In the absence
+of more information about the speciﬁc roles that each venture capital organization plays in the selection and
+development of the company, it is difﬁcult to draw any conclusions from the interactions of the different
+venture capitalists invested in the company. This remains a rich topic for future research.
+
+4. Conclusions
+
+   The venture capital industry is a highly volatile one, as dramatic ﬂuctuations in fundraising and investment
+activity over the past few years demonstrate. These ﬂuctuations seem to be related to changes in public market
+valuations and activity. Practitioner accounts and the academic literature suggest that it would be valuable to
+understand the impact of this volatility on the success of venture capital investments in particular; do public
+market shifts lead venture capitalists to make poor investment choices or do they provide valuable
+information to investors? We address this question by examining the determinants and success of investments
+by the venture industry as a whole, as well as by subclasses of ﬁrms with different levels of experience and
+specialization.
+   We analyze over 30,000 venture capital investment decisions over the past two decades. We ﬁnd that the
+greatest response to shifts in the public markets is not by new or inexperienced venture capital ﬁrms, but rather
+by specialized organizations with considerable industry experience. These experienced venture capital ﬁrms
+increase their investments during market booms with no real degradation in their performance. Our results
+suggest that shifts in public markets provide information, whether directly to the venture investors or else to
+individuals who then seek venture ﬁnancing. However, not all venture capital ﬁrms are able to take advantage
+of this information: the critical factor appears to be human capital. As noted in the introduction, the
+fundamental pattern seen here—that the changing public market signals seems to reﬂect shifting
+fundamentals—runs counter to much of the recent work in ﬁnancial economics on investor overreaction.
+   The greater investment sensitivity is associated with industry, but not non-industry, investment experience.
+Whether that effect is from greater knowledge of the industry or better networks that allow for recruitment of
+senior management, customers, and strategic partners needs further exploration.
+   A variety of open issues remain for future research. First, as we acknowledge above, the precise mechanisms
+behind the relative performance of more industry experienced and specialized organizations remain unclear.
+For instance, is it possible to disentangle the relative importance of superior investment selection and ability to
+add value from the ability to persuade entrepreneurs to accept ones’ capital? (While Kaplan and Stromberg
+(2004) present an intriguing initial look at the venture capital decision-making process, many open questions
+remain. Sorensen (2004) represents another important step in untangling these issues.) Second, because we
+seek to examine investment outcomes, our analysis only extends through 1998; we do not analyze the events of
+1999 and 2000. While the venture capital market has seen many cycles in the past, the magnitude of the boom
+and bust during this period was second to none. Understanding whether the patterns delineated above
+  8
+    Based on discussions with practitioners, we expect that it is absolute rather than relative performance that matters the most in
+evaluating the success of IPOs. We run similar analyses adjusting the returns for market performance, measuring the market both with
+NASDAQ and the S&P 500, and obtain similar results.
+                                                   ARTICLE IN PRESS
+                                  P. Gompers et al. / Journal of Financial Economics 87 (2008) 1–23                                    23
+
+continued to hold during that most dramatic of cycles is an important question for future researchers to
+examine.
+
+References
+
+Baker, M., Stein, J.C., Wurgler, S., 2003. When does the market matter? Stock prices and the investment of equity-dependent ﬁrms.
+   Quarterly Journal of Economics 118, 969–1005.
+Cochrane, J.H., 2005. The risk and return of venture capital. Journal of Financial Economics 75, 3–52.
+DeBondt, W.F.M., Thaler, R.H., 1985. Does the stock market overreact? Journal of Finance 40, 793–805.
+DeBondt, W.F.M., Thaler, R.H., 1990. Do security analysts overreact? American Economic Review Papers and Proceedings 80, 52–57.
+Fama, E.F., 1998. Market efﬁciency, long-term returns, and behavioral ﬁnance. Journal of Financial Economics 49, 283–306.
+Fulghieri, P., Sevilir, M., 2004. Size and focus of venture capital portfolios. Working paper. University of North Carolina.
+Gompers, P.A., Lerner, J., 1998a. Venture capital distributions: short-run and long-run reactions. Journal of Finance 53, 2161–2183.
+Gompers, P.A., Lerner, J., 1998b. What drives venture capital fundraising? Brookings Proceedings on Microeconomic Activity 149–204.
+Gompers, P.A., Lerner, J., 2000. Money chasing deals?: the impact of fund inﬂows on the valuation of private equity investments. Journal
+   of Financial Economics 55, 281–325.
+Gompers, P.A., Lerner, J., 2004. The Venture Capital Cycle. MIT Press, Cambridge, MA and London.
+Gupta, U., 2000. Done Deals: Venture Capitalists Tell Their Stories. Harvard Business School Press, Boston.
+Hanley, K.W., 1993. The underpricing of initial public offerings and the partial adjustment phenomenon. Journal of Financial Economics
+   34, 231–250.
+Hong, H., Stein, J.C., 1999. A uniﬁed theory of underreaction, momentum trading, and overreaction in asset markets. Journal of Finance
+   54, 2143–2184.
+Jeng, L.A., Wells, P.C., 2000. The determinants of venture capital funding: evidence across countries. Journal of Corporate Finance 6,
+   241–289.
+Jiambalvo, J., Rajgopal, S., Venkatachalam, M., 2002. Institutional ownership and the extent to which stock prices reﬂect future earnings.
+   Contemporary Accounting Research 19, 117–145.
+Kaplan, S.N., Schoar, A., 2005. Private equity performance: returns, persistence and capital. Journal of Finance 60, 1791–1823.
+Kaplan, S.N., Stromberg, P., 2004. Characteristics, contracts, and actions: evidence from venture capitalist analyses. Journal of Finance
+   59, 2177–2210.
+Lev, B., Thiagarajan, R.S., 1993. Fundamental information analysis. Journal of Accounting Research 31, 190–215.
+Ljungqvist, A., Richardson, M.P., 2003. The cash ﬂow, return and risk characteristics of private equity. Unpublished working paper. New
+   York University.
+Loughran, T., Ritter, J., 1995. The new issues puzzle. Journal of Finance 50, 23–51.
+Pagano, M., Panetta, F., Zingales, L., 1998. Why do companies go public? An empirical analysis. Journal of Finance 53, 27–64.
+Rajan, R.G., Servaes, H., Zingales, L., 2000. The Cost of diversity: diversiﬁcation discount and inefﬁcient investment. Journal of Finance
+   55, 35–80.
+Ritter, J.R., Welch, I., 2002. A review of IPO activity, pricing, and allocations. Journal of Finance 57, 1795–1828.
+Scharfstein, D.S., 1998. The dark side of internal capital markets ii: evidence from diversiﬁed conglomerates. Working paper. National
+   Bureau of Economic Research Working Paper 6352.
+Scharfstein, D.S., Stein, J.C., 1990. Herd behavior and investment. American Economic Review 80, 465–479.
+Sorensen, M., 2004. How smart is smart money? An empirical two-sided matching model of venture capital. Unpublished working paper.
+   University of Chicago.
+

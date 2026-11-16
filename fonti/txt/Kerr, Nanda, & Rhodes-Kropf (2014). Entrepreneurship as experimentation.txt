@@ -1,0 +1,1210 @@
+    Journal of Economic Perspectives—Volume 28, Number 3—Summer 2014—Pages 25–48
+
+
+
+
+Entrepreneurship as Experimentation†
+
+
+
+William R. Kerr, Ramana Nanda, and Matthew
+Rhodes-Kropf
+
+
+
+
+A
+          lthough the fundamental importance of entrepreneurship has been gener-
+          ally recognized by economists since at least Schumpeter (1911 [1934]; 1943),
+          it has not been the subject of substantial research and is more-or-less absent
+from standard textbooks. Over the last decade, however, entrepreneurship has flour-
+ished as a research topic within economics. As entrepreneurship emerges from the
+shadows, many central and unresolved questions linger: How should we define entre-
+preneurship? What are its key aspects? Is entrepreneurship about the next Skype or
+the next self-employed accountant? We assert in this paper that effective entrepreneur-
+ship—especially among high-growth ventures and for the economy as a whole—builds
+upon a process of experimentation in deep and nuanced ways.
+     Entrepreneurship is fundamentally about experimentation because the knowl-
+edge required to be successful cannot be known in advance or deduced from some
+set of first principles. As Hayek (1948) put it, “the solution of the economic problem
+of society is . . . always a voyage of exploration into the unknown.” For entrepre-
+neurs, it can be virtually impossible to know whether a particular technology or
+product or business model will be successful, until one has actually invested in it.
+     Two interesting examples help frame the discussion. In 1999, the venture
+capital firms Sequoia Capital and Kleiner Perkins Caufield & Byers each invested
+$12.5 million in Google, a brand new startup that claimed to have a superior search
+engine. By the time Sequoia sold its stake in 2005, that investment was worth over
+
+
+■ William Kerr, Ramana Nanda, and Matthew Rhodes-Kropf are Associate Professors at
+Harvard Business School, Harvard University, Boston, Massachusetts, and Faculty Research
+Fellows at the National Bureau of Economic Research, Cambridge, Massachusetts. Their
+email addresses are wkerr@hbs.edu, RNanda@hbs.edu, and mrhodeskropf@hbs.edu.
+†
+ To access the data Appendix, visit
+http://dx.doi.org/10.1257/jep.28.3.25                              doi=10.1257/jep.28.3.25
+26   Journal of Economic Perspectives
+
+
+
+
+$4 billion, returning 320 times the initial cost (Sahlman 2010). The staggering
+success should not obscure a key point—Google was by no means a sure-shot invest-
+ment in 1999. The search algorithm space was already crowded and dominated by
+other players such as Yahoo! and Altavista. Google, founded by two students, might
+well have turned out to just be a “me too” investment. In fact, other venture capi-
+talists had turned down the opportunity to invest in Google at the time. One such
+firm was Bessemer Ventures. Partner David Cowan, on being asked by a friend to
+meet with the two Google founders who had rented space in her garage, is believed
+to have quipped, “How can I get out of this house without going anywhere near
+your garage?” (Bessemer Venture Partners, no date). Over the years, Bessemer has
+been so successful that they playfully mock at their “anti-portfolio” of deals that they
+passed on (at http://www.bvp.com/portfolio/antiportfolio).
+      Not many investors are as candid about great opportunities that they have
+passed on, but more recently, Fred Wilson of Union Square Ventures has simi-
+larly written about his regret at passing on Airbnb, a startup that lets people rent
+rooms or homes to prospective guests online. Started in 2008, Airbnb currently lists
+500,000 properties in more than 34,000 cities across 192 countries, far more than
+any hotel chain—thereby making it the largest lodging company and brand in the
+world (Levere 2013). Wilson (2011) explains Union Square Venture’s decision to
+pass on the deal in 2009: “we couldn’t wrap our heads around air mattresses on the
+living room floors as the next hotel room. . . . Others saw the amazing team that we
+saw, funded them, and the rest is history.”
+      These two examples highlight several challenges associated with commercial-
+ization of new ideas, products, and technologies. First, the actual distribution of
+returns in such ventures has a low median value but very high variance (Scherer
+and Harhoff 2000; Hall and Woodward 2010). Most new ventures fail badly, but
+some turn out to be wildly successful. Second, even for professional investors or
+managers making resource allocation decisions, it is impossible to know in advance
+which ideas will work. As we describe in greater detail below, venture capital inves-
+tors make their returns on the one investment out of many that turns out to be a
+wild success like Google or Airbnb. The vast majority of venture capital investments,
+however, return less than the face value of the investment.
+      How entrepreneurs and investors respond to these inherent challenges has
+important implications for their own success and also for the broader economy in
+terms of the “best ideas” being commercialized. To flesh out this point, it is important
+to separate two frames of reference regarding experimentation. The first relates to
+economic experimentation in a Darwinian sense, which is the natural starting point
+for most economists. In this conceptual model, new ventures compete with existing
+products and technologies, and the ensuing competition leads to the survival of
+the fittest, just as Google surpassed its early rivals due to its superior technology.
+This competition can be described as experimentation at the level of the economy.
+In settings where the best approach among several options is unknown, a great
+benefit of market-based economies is that winners are often chosen by consumers
+and competition. As Rosenberg (1994) has argued, one of the defining features
+                        William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf             27
+
+
+
+
+          Table 1
+          US Venture Capital Statistics for 2010
+
+          Number of active venture capital firms                                 462
+          Amount invested by venture capital firms                            $22 billion
+          Number of companies receiving venture capital investment              2,749
+          Number of companies receiving funding for first time                  1,001
+          Share of dollars invested in Information Technology firms              51%
+          Share of dollars invested in Life Science firms                        27%
+
+          Source: Data from National Venture Capital Association, nvac.org.
+
+
+of capitalism is the freedom it provides entrepreneurs to pursue novel approaches
+to value creation in the pursuit of economic gain. The promise of large rewards
+drives entrepreneurs to experiment with new ideas, helping to create a dynamic
+and growing economy. An institutional environment that facilitates experimenta-
+tion is thus central to maintaining a vibrant entrepreneurial ecosystem (Dosi and
+Nelson 2010). This experimentation, combined with a willingness to let losing
+incumbents fail, is the underlying notion behind Schumpeter’s (1943) process of
+“creative destruction.”
+     While this Darwinian depiction is important and a natural starting point, a
+second reference point emphasizes that we should be cautious of assuming that
+market-based mechanisms can always serve as a guiding hand with respect to experi-
+mentation. As in the Google example, it is often very difficult to know whether a
+particular technology or venture will succeed until one has made an investment.
+Moreover, the investments to obtain this vital information can be nontrivial: in
+Google’s case, a total of $25 million was invested in the first round. Table 1 docu-
+ments some basic facts about the venture capital industry, including the number
+of active investors. Given the relatively small number of financiers that invest in
+this sector, it is easy to imagine scenarios where Google or other highly productive
+investments fail to receive the required funding.
+     In an entrepreneurial setting, where the benefit of pursuing different
+approaches is not clear and the costs of tests are expensive, each individual endeavor
+is also engaged in a process of experimentation. As these experiments provide
+information about the likelihood of ultimate success, entrepreneurs and investors
+gain information about whether to continue the project. However, the investment
+and continuation decisions for entrepreneurs are often not made in a competitive
+Darwinian contest, because the decisions to invest further or shut down a firm are
+often made by only a few investors, well before startups can compete in the product
+market or have positive cash flow. Moreover, the decisions are made by discrete indi-
+viduals, often in venture capital firms or other early-stage financing vehicles, whose
+actions are impacted by a myriad of incentive, agency, and coordination problems.
+Thus, the extent to which the best idea goes forward may depend on factors such
+as the organizational structure or incentive system of the firm where the investor
+is based, available information sets (for example, access to certain networks),
+28   Journal of Economic Perspectives
+
+
+
+
+coordination costs, and other such frictions. Taken together, these factors affect
+how much experimentation is undertaken in the economy and also the trajectory of
+experimentation, with potentially very deep economic consequences.
+     The lens of experimentation has implications for what types of innovations will
+occur, who will pursue them and when. As Stern (2005) argued, “a favorable envi-
+ronment for entrepreneurship and a high level of economic experimentation go
+hand in hand.” Although experiments can be conducted in large companies or in
+the public sector, new technologies and innovative products are often commercial-
+ized by entrepreneurs and often cluster at particular times. We argue that the costs
+and constraints on the ability to experiment alter the type of organizational form
+surrounding innovation and influence when innovation is more likely to occur.
+     This article considers these costs and constraints to experimentation by inves-
+tors and the implications that these issues have on the type of entrepreneurship
+across time and across economies. We start with a micro-level examination of experi-
+mentation and focus on the processes used by investors to experiment and the issues
+that individual firms face. We then turn to the macro perspective of the economy
+and the policies that shape entrepreneurship and its effectiveness.
+
+
+A Closer Look at the Process of Experimentation
+
+      High-impact entrepreneurship requires, almost by definition, going against
+the grain. Rajan (2012) argues that an entrepreneur “must be willing to strike
+out, largely on the basis of intuition, on courses of action in direct opposition to
+the established settled patterns.” A consequence of this setting is extreme uncer-
+tainty about whether a particular technology, product, or business model will be
+successful. This uncertainty is fundamentally different from risk, as Knight (1921)
+stressed. With risk, such as placing money on a spin of a roulette wheel, one can
+define exact probabilities and expected values. With Knightian uncertainty, these
+probabilities are not known, and even the form of the potential outcomes may be
+unclear. For example, looking forward from today, at what rate will electric cars, if
+at all, replace traditional automobiles and how will the supporting infrastructure
+for battery recharging be designed? What will be the impact of nascent augmented
+reality technologies for how humans interact? Which, if any, of the several current
+ideas to cure cancer will be successfully commercialized?
+      In this environment of tremendous uncertainty, experimentation allows entre-
+preneurs and investors to assess and commercialize projects without investing the
+full amount. Crucially, experimentation offers more than just a possibility of higher
+returns—it also allows entrepreneurs and investors to pursue projects that are not
+feasible in an all-or-nothing bet. For example, consider a project that requires $110
+to commercialize and will be worth $0 with 99 percent probability or $10,000 with
+1 percent probability. This project will not be pursued, because its expected value is
+negative (−$10). But imagine we can conduct an experiment that will reveal if the
+project has a 10 percent chance of working. (Suppose further that the probability
+                                                        Entrepreneurship as Experimentation           29
+
+
+
+
+of the experiment having a positive outcome is only 10 percent, so that in this
+example the 1 percent chance of overall success is unchanged.) If the experiment
+gives a positive signal, the project has a larger expected value of $890. Thus, as long
+as the experiment costs less than $89 (10 percent × $890), the experiment should
+be conducted, with the project then being either shut down or commercialized
+based upon the results.
+      This simple example provides insights into many features of the entrepreneurial
+landscape, as we elaborate below. The test resolves uncertainty about the project’s
+potential and creates a real option value for further pursuit. Thus, experimentation
+is particularly valuable in cases where initial information can be especially informa-
+tive about the overall quality of the project and this information is cost effective
+to obtain.1
+      The example also illustrates that the costs of experimenting are important.
+Our simple example was phrased in terms of the direct costs of conducting the
+test. More broadly, important indirect costs must be borne by either the investor
+or entrepreneur when they fail. Even if direct costs are small, significant indirect
+costs like a stigma of failure (Landier 2005) may still prevent entrepreneurs from
+pursuing otherwise valuable tests if they only have a 10 percent chance to succeed.
+Moreover, the ability to document and transmit the results of experiments is impor-
+tant, because the information from the experiment is only valuable if it can be acted
+upon. Can an investor use the information to decide to provide the follow-on invest-
+ment required to realize the project? The framework also begins to highlight the
+distinct roles of the entrepreneur and the investor.
+      We trace these features out next by first looking more closely at the economics
+of a venture capital firm. This setting provides a powerful archetype of high-impact
+entrepreneurship more broadly and the role of experimentation. We then discuss
+frictions to experimentation that are observed in the economy and the extent to
+which agents are able to address them.
+
+The Economics of Experimentation in a Venture Capital Firm
+     The economics and structure of a venture capital firm provide insights into
+entrepreneurship as experimentation (Sahlman 1990). A crucial starting point is
+the recognition that venture capital firms do not simply act as a portfolio of risky
+startups. While the portfolio nature of a venture capital firm is important, it is
+quite distinct from what is observed in stock market mutual funds, for example,
+where the portfolio is designed to smooth out the idiosyncrasies of individual
+stocks. Venture capital firms are better thought of as conducting a portfolio of
+tests across a number of highly uncertain ideas with skewed economics (similar
+to the example described above). In most cases, the tests come out negative. In
+fact, the majority of venture-capital-backed firms fail, despite the investments
+made into them by highly skilled investors. Once venture capital firms identify the
+
+
+1
+    Weitzman (1979) introduces and analyzes the optimal search behaviors under these uncertainties.
+30     Journal of Economic Perspectives
+
+
+
+
+cases that deliver positive test results, however, they pursue them aggressively and
+invest ever larger amounts on the promising candidates to scale them up. Whereas
+mutual fund investors do not need to be an early investor in a company in order to
+be allowed to invest more later, this is precisely the way that venture capital firms
+aim to make money—by starting small and owning a larger share of the firms that
+turn out to be successful, while attempting to cut their losses on the unsuccessful
+ones as early as possible.2
+      Some simple calculations document these skewed returns using data on
+all venture capital investments in the United States. Using data from Thompson
+Venture Economics, we identify all startup ventures that received their first round
+of early-stage financing for the years between 1985 and 2009. We calculate both
+the total investment made by venture capital investors in each of these firms, as
+well as the gross return at the time of exit—either through an acquisition deal, an
+initial public offering, or bankruptcy. We then group each of these startups based
+on their economic return to investors at the time of exit—that is, the ratio of the
+gross return at the point of exit divided by the total amount invested in the startup.
+About 55 percent of startups that received venture capital over this period were
+terminated at a loss, and only 6 percent of them returned more than five times their
+investment. This 6 percent group, however, was extremely successful and together
+accounted for about 50 percent of the gross return generated over the period.3 The
+fact that the returns are so skewed across the portfolio is prima facie evidence that
+the (quite knowledgeable) investors cannot distinguish in advance the next Google
+from the other cases.
+     A second example provides more systematic evidence on the difficulty of
+predicting outcomes, even conditional on a venture capital firm making an invest-
+ment. For a single large and successful venture capital firm that has invested more
+than $1 billion over the last decade, we have access to both the outcomes of indi-
+vidual investments and the scores that partners assigned to each venture at the time
+of their first investment. We place the investments of this firm into buckets according
+
+
+2
+  Gompers and Lerner (2004) and Da Rin, Hellman, and Puri (2013) provide a comprehensive over-
+view of these intermediaries. Chemmanur, Krishnan, and Nandy (2011) and Puri and Zarutskie (2012)
+provide recent evidence on the performance of venture-capital-backed startups. Parker (2004) provides
+a broader review of the literature on entrepreneurship.
+3
+  Total gross returns need to be estimated due to the fact that a venture’s value at exit is missing for a
+large number of acquisitions, for firms that went bankrupt, and for the “living dead”—firms that are
+coded as still private but have not received follow-on financing for several years. Our research suggests
+that most of the acquisitions without data are fire sales and that firms that are coded as “alive” but have
+not received a follow-on round of financing within three years of the last financing are likely to be bank-
+rupt. In the calculation reported above, we have conservatively assumed that unreported acquisitions
+were undertaken at 1.5 times cost and that firms that did not receive subsequent rounds of financing
+for three years, but were coded as still private, were liquidated at 0.25 times cost. The results are robust
+to assuming a wide range of possible values for these outcomes, including an (implausible) average
+of two times the dollars invested in the firm. These numbers correspond closely with numbers from
+Sahlman (2010) who uses data from eleven early-stage venture capital firms to show that 64 percent of
+their investments were terminated at a loss, while 8 percent of the investments, those that returned over
+five times the investment, generated about 60 percent of the gross return of the portfolio.
+                          William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf                   31
+
+
+
+
+Figure 1
+Total Cost and Total Return for a Venture Capital Firm
+
+70%
+                                      Share of total cost in bucket
+                                      Share of gross return from bucket
+60%
+
+
+50%
+
+
+
+40%
+
+
+
+30%
+
+
+
+20%
+
+
+
+10%
+
+
+    0%
+              ≤1              >1 and ≤3           >3 and ≤5               >5 and ≤10        >10
+                                    Gross Return/Total Investment
+
+Source: Authors using proprietary data from an anonymous venture capital firm that has invested more
+than $1 billion over the last decade.
+Notes: Investments are placed into buckets according to their return multiple. For each bucket, we show
+the total cost and total return for that group of investments.
+
+
+
+to their return multiples, and in Figure 1, show the total cost and total return for
+each bucket of investments. The distribution of outcomes for this firm follows the
+same pattern as the aggregate data on venture capital (with about 60 percent of
+investments terminated at a loss and 10 percent generating a return more than
+five times the capital invested).
+      The firm has an excellent track record in the industry, which implies a well-
+functioning algorithm for choosing and managing investments. Conditional on
+making an investment, however, Figures 2A and 2B show the limited ability of
+the venture capital investors to tell the most successful investments from the less
+successful ones—even for these experienced investors. Figure 2A highlights that the
+distribution of scores assigned to investments that ended up performing extremely
+well is statistically no different from the distribution of scores assigned to investments
+that ultimately failed or had mediocre returns.4 (The labels on the horizontal axis
+
+4
+ The Kolmogorov–Smirnov test for equality of distribution functions could not reject the hypothesis that
+these were the same.
+32                   Journal of Economic Perspectives
+
+
+
+
+Figure 2
+Scores Assigned to Investments at Time of First Investment and the Ultimate
+Returns of Those Investments, for One Venture Capital Firm
+
+      A: Distribution of Scores by Outcome
+
+                                .6      Ultimate return ≤ 1X
+                                        Ultimate return 1X to 3X
+                                        Ultimate return > 3X
+
+
+
+
+                                .4
+
+
+
+     Density
+
+
+                                .2
+
+
+
+
+                                0
+
+                                        Average score from partners at time of first investment
+
+     B: Correlation between Scores and Outcomes
+
+                                5
+
+
+
+                                4
+
+
+
+
+     Log (1+ Return multiple)
+                                3
+
+
+
+                                2
+
+
+
+                                1
+
+
+
+                                0
+
+                                        Average score from partners at time of first investment
+
+Note: The labels on the horizontal axis have been suppressed to maintain the confidentiality of the
+investor’s rating scale, but lower predictions were on the left and higher predictions were on the right.
+                                              Entrepreneurship as Experimentation   33
+
+
+
+
+have been suppressed to maintain the confidentiality of the investor’s rating scale,
+but lower predictions were on the left and higher predictions were on the right.)
+Figure 2B is a scatterplot showing, for each of the firm’s investments, the average
+score assigned at the time of first investment on the x-axis versus a function of the
+return multiple on the y-axis. The raw correlation between scores and the return
+multiple from the investments is 0.1.
+      This example shows that even conditional on making an investment, it is hard
+for the investors to predict which firm will be successful. Using a similar framework
+from a sample of early-stage “angel investors” in Kerr, Lerner, and Schoar (2014),
+the correlation among the interest levels assigned to funded deals and their ulti-
+mate success is less than 0.1. Again, these examples help illustrate the high degree
+of uncertainty present in these investments.
+      Thus, venture capital firms need to experiment, and many aspects of their busi-
+ness model facilitate or emphasize this experimentation. One example is their focus
+on sectors that are capital-efficient for both experimentation and subsequent scaling
+and that can generate large returns for the successful investments in a short period
+of time. Under these conditions, most notably associated with information tech-
+nology investments, venture capital firms can run initial experiments of manageable
+financial sizes and then fund the winners to completion. The corollary to this, which
+is further elaborated upon below, is that venture capital activity is concentrated in a
+narrow range of technological opportunities. Some sectors, like renewable energy
+production, need to be proven at large scale to demonstrate technical feasibility
+and unit economics. Commercializing such ventures requires building large manu-
+facturing plants and hence is significantly more capital intensive, and takes much
+longer. Following a brief period where venture capitalists invested heavily in biofuel
+and solar technologies only to learn these lessons the hard way, they have largely
+shied away from funding renewable energy production startups, instead devoting
+their attention within clean energy to startups commercializing energy efficiency,
+smart grid, and other software technologies (Nanda, Younge, and Fleming, forth-
+coming). Fleming (2001) and Fleming and Sorenson (2004) discuss the aggregate
+implications of a narrower range of search or recombination.
+      In addition to focusing on specific sectors, venture capital structures and
+contractual choices also address experimental challenges. For example, in a way that
+is similar to our earlier numerical example, venture capital investors provide staged
+financing to startup companies that tie each financial infusion to milestones—points
+at which information is revealed about the quality of the project. This structured
+financing builds real options (for example, Gompers 1995; Bergemann and Hege
+2005; Bergemann, Hege, and Peng 2008), by matching the amount of money raised
+in each round to the specific uncertainty that needs to be resolved with that round
+of funding: for example, proof that the technology works, that consumers will buy
+the product, and so on. The most successful investors and entrepreneurs are able
+to identify the most important uncertainties facing a new idea and experiment in a
+way that resolves the greatest proportion of the uncertainty around them effectively
+and quickly.
+34    Journal of Economic Perspectives
+
+
+
+
+     The consequence of this staging approach is that an important role of venture
+capital firms is to shut down ventures for which they are receiving bad signals.
+Investors exercise the abandonment options in several ways. Across financing
+rounds, the investors can choose to not reinvest in the company; within each
+financing round, venture capital firms also structure contracts to provide them
+with control and cash flow rights. Control rights allow venture capital firms to
+replace underperforming chief executive officers, and the investors can also push
+the company to reposition itself if the chosen path turns sour. These rights appear
+to be exercised often (for example, Hellman and Puri 2000; Kaplan, Sensoy, and
+Strömberg 2009; Tian 2011).5
+     The available evidence suggests that this process of venture capital experimen-
+tation does lead to successful economic outcomes. Kortum and Lerner (2000) and
+Samila and Sorenson (2011) document spillover effects from venture capital activity
+within industries and cities, respectively. Using Census Bureau data, we provide
+descriptive evidence of how this sort of experimentation is associated with outcomes
+for ventures. We use name and address matching to identify new entrants that
+received venture capital investments during the 1986–1997 period. Looking ahead
+to 2007, 75 percent of these venture-capital-backed ventures have shut down, but the
+remaining firms have grown to a level where they combine to equal 364 percent of
+the total employment of the original investments (including those that failed). For
+comparison, we generated a second sample of non-venture-capital-backed entrants
+that have the same four-digit industry, year, and starting employment level as the
+investment sample. In 2007, a greater share of this second group remains alive—only
+66 percent have shut down. However, those that are alive only account for two-thirds
+(67 percent) of the total employment of their original sample. These matched
+ventures have thus grown, but not nearly to the extent of the venture-capital-backed
+group. While our simple matching procedure may leave residual differences across
+the groups and also does not account for either the role of selection or the effect of
+venture capital on startups’ outcomes, it should not obscure the broad overall point:
+the venture-capital-backed ventures experienced a higher if similar rate of failure
+(75 versus 66 percent) but also experienced far greater employment gains (364
+versus 67 percent of employment in their samples). High-growth ventures typically
+constitute a small proportion of new startups but are responsible for a dispropor-
+tionate share of employment and GDP. As a rough benchmark, about 1,000 of the
+over 500,000 firms founded each year in the United States obtain venture capital
+finance, but these firms account for about 40 percent of new US publicly-listed
+companies over the last three decades (Ritter 2014).
+
+
+5
+ Many other aspects of the venture capital model reflect these cash-flow and control rights (for example,
+Kaplan and Strömberg 2003, 2004). One prominent example is convertible preferred stock that protects
+venture capital firms in bad outcomes by allowing them to redeem the full value of their investment,
+thereby treating the investment as debt to the extent that the failed venture has any residual value. On
+the other hand, in positive outcomes, the venture capital firm can choose to convert the preferred to
+common stock, allowing them to share in the upside when things go well.
+                           William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf                      35
+
+
+
+
+Frictions for the Process of Experimentation—Costs of Experiments
+     The costs of running experiments play a big role in entrepreneurship. Techno-
+logical change in the last decade has dramatically lowered these costs, particularly
+in industries that have benefited from the emergence of the Internet, including
+trends like open-source software and cloud computing. Industry observers suggest
+that firms in these sectors that would have cost $5 million to set up a decade ago
+can be done for under $50,000 today. For example, open-source software lowers
+the costs associated with hiring programmers. In addition, fixed investments in
+high-quality infrastructure, servers, and other hardware are no longer necessary at
+the birth of many software firms because they can be rented in tiny increments from
+cloud computing providers and efficiently scaled up as demand for their products
+increases (Blacharski 2013; Palmer 2012). This reduced entry barrier has led to an
+explosion of experimentation with new entrepreneurial ideas in this area. Funding
+sources have also proliferated as the ability to finance these smaller and cheaper
+experiments is possible for individuals and groups beyond the traditional venture
+capital investors with large pools of capital.
+     One prominent example of this shift is the Lean Startup methodology advo-
+cated by serial entrepreneur Steve Blank and popularized by Eric Ries’s (2011)
+book, “The Lean Startup.” Many startup founders have shaped their efforts using
+the Lean Startup approach, and the ideas have reached the leadership of large
+companies like Jeff Immelt, the chief executive officer of General Electric. The core
+of the management style is a focus on identifying and developing “minimal viable
+products” (MVPs) that reveal how well the overall opportunity will fare. An example
+of an MVP is the release of a consumer website that has only 10 percent of the
+functionality that the founders ultimately envision for the product. However, by
+quickly building a workable version with only the bare essentials, the MVP approach
+seeks to validate as many assumptions as possible about the viability of the final
+product before expending enormous effort and financial resources. From the infor-
+mation collected during these experiments, the venture adjusts its course in a way
+that may involve pivoting from the original agenda. The followers of this method-
+ology frequently discuss how to make their experiments ever more cost-effective,
+in large part so that they do not need to raise as much money to pursue a range of
+possible ideas.
+     This approach to building companies has coincided with the rapid rise of angel
+investors and crowd-funding platforms,6 particularly for consumer Internet startups.
+
+6
+  Angel investors are defined as individuals investing their own capital in startup ventures. Given
+the decentralized nature of such investments, it is extremely difficult to accurately quantify the size
+of the market. The Angel Capital Association (2012) estimates that its membership consists of about
+8,000 accredited investors (who are individuals allowed by the Securities and Exchange Commission to
+make investments in risky, private startups) who invest in approximately 800 companies per year. The
+size of the broader angel market has been estimated to be as large as $20 billion dollars, but the vast
+majority of this is tiny investments made by individuals in firms that are already cash-flow positive (Shane
+2009). The total does, however, provide a sense of how large the crowd-funding market could be given
+recent changes in regulation through the Jumpstart Our Business Startups ( JOBS) Act of 2012, which
+allow a larger number of individuals to invest legally in private companies (Nanda and Kind 2013).
+36   Journal of Economic Perspectives
+
+
+
+
+For example, AngelList, a platform dedicated to matching startups with angel inves-
+tors experienced rapid growth since its founding in 2007, and in June 2013 had
+approximately 100,000 startups and 18,000 accredited investors on its platform, of
+which 2,000 had been funded (Nanda and Kind 2013). The lower costs associated
+with initial experiments implies that those with pools of capital smaller than typical
+venture capitalists can more easily become involved in these financing decisions.
+Because positive information from experiments leads the valuation of startups in
+subsequent rounds to increase substantially, this leads to less dilution for early-stage
+financiers and makes it even more attractive for investors with smaller pools of capital
+to get involved with financing decisions. Equally important, however, is the fact that
+as these experiments get better at quickly telling apart projects with high and low
+potential, they allow startups that would probably not have received funding in the
+past due to their uncertain outcomes to now receive financing. Ewens, Nanda, and
+Rhodes-Kropf (2014) show that these are particularly likely to be startups that had
+a very small chance of being extremely successful, such as those founded by young,
+inexperienced, first-time entrepreneurs. While these individuals would not have
+received capital in the past, the financing environment has changed in recent years,
+creating room for cohort-based accelerator programs with an educational compo-
+nent, such as Y-Combinator, that aim to provide mentoring, networks, and capital to
+such founders (Graham 2008). Fehder and Hochberg (2014) document that there
+were no such programs in the United States in 2004, but by 2013 over 40 such accel-
+erators were functioning across the United States.
+     While a trend toward lower start-up costs is particularly true in software and
+information technology businesses, where the cost of experimentation has declined
+dramatically and the frequency with which one learns new information about the
+product is very high, the same forces exist in very capital-intensive industries as well.
+An example is Terrapower, a startup trying to commercialize a new way of producing
+nuclear energy (Sahlman, Nanda, Lassiter, and McQuade 2012). Bill Gates, an early
+backer of Terrapower, noted that rapid advances in computing power provide this
+startup with significant advances toward experimentation. In the past, Terrapower
+would have had to construct an entire nuclear power plant to test whether its new
+technology would work in practice, costing several billion dollars and taking years
+to complete, making it impossible to finance in the first place. Now, with the intro-
+duction of supercomputers, Terrapower’s engineers can simulate the inside of a
+nuclear reactor, learn whether its technology will work, and make rapid (and much
+cheaper) iterations to gain more confidence about the potential of the technology
+before ever constructing the physical nuclear power plant. This in turn makes it
+viable to finance an initial exploration for an early-stage investor.
+     These examples reinforce two points about the cost of experimentation. First,
+differences across industries in the ability and cost to learn about the final outcome
+have a huge bearing on the degree of experimentation that we see in early stages—
+the very long time frames and costs for learning about potential technologies in
+renewable energy or different approaches to curing cancer create a dearth of exper-
+imentation, despite intense societal interest (Fernandez, Stein, and Lo 2012). Even
+                                                          Entrepreneurship as Experimentation             37
+
+
+
+
+for venture capital firms, the levels of investment required for clean energy efforts
+or certain healthcare investments tend to be too high per project for them to bear.
+     Second, the pace of technological progress has a feedback effect on new inno-
+vations. As technological advances such as supercomputers or cloud computing
+diffuse, they affect the cost of experimentation in completely different sectors
+like nuclear energy and consumer Internet. The advances mean that projects that
+had a negative expected value in the past become viable. Referring to our earlier
+numerical example, they may drop the cost of the hypothetical test from several
+hundred dollars to less than $89. This spillover effect helps sustain and potentially
+even increase high rates of technological progress.
+
+Frictions for the Process of Experimentation—Organizational
+      A key part of experimentation is the ability to terminate projects, but organiza-
+tions differ in their ability and willingness to terminate underperforming ventures.
+The venture capital industry has long used the expression “throwing good money
+after bad money” to warn against continual investment in startups for whom the
+initial experiments reveal poor information. Venture capital firms that shut down
+more ventures do not necessarily perform worse, and, in fact, some of the best
+venture capital firms have among the highest rates of abandoning projects—in part
+because their skill at designing experiments and acting upon the results allows them
+to pursue more aggressive strategies and enter into more uncertain domains.7
+     This capacity to terminate projects, while certainly not exclusive to the venture
+capital community, is often difficult to replicate within large corporations or
+through equity markets. Large corporations, for example, often find it difficult
+to terminate experiments that aren’t working out, due in part to career concerns
+of the managers in charge of the effort, the “soft budget constraints” that arise
+when a large corporation can keep providing funding for a time, and similar traits.
+The initial experiment may also provide ambiguous or slightly negative informa-
+tion that can be interpreted in different ways depending upon the biases of parties.
+In several ways, the venture capital system is designed to counteract these tenden-
+cies, beginning with an industry structure where venture capital firms are separate
+from the startup itself but still capable of intensive monitoring. Another mechanism
+often used by venture capital firms is to bring in new investors with each financing
+round to ensure that the deal is evaluated by outsiders. In academia, the academic
+tenure process that includes external review after a specific time horizon generates
+comparable features.
+     Of course, because venture capital investors consider each investment as
+contributing to overall portfolio returns, their incentives are not always aligned with
+entrepreneurs in terms of strategic decisions such as when to shut down or exit
+
+
+7
+  While the higher rate of abandoning projects does not jump out from the statistics we provided above, it
+is worth noting that venture capital investors also likely select better projects, so that a simple comparison
+of realized failure rates does not provide a complete picture of how much more they abandon projects
+compared to non-venture-capital-backed firms.
+38   Journal of Economic Perspectives
+
+
+
+
+an investment. For example, Gompers (1996) has documented the incentives of
+venture capital firms to engage in grandstanding (taking companies public earlier
+than may be optimal) to develop a reputation that enables them to raise follow-on
+funds. Venture capital investors may also choose to shut down an underperforming
+firm if it is unlikely to generate high gross returns, or they may continue to reinvest
+if they want to build a reputation as entrepreneur-friendly. These decisions may not
+always be optimal for the firm.
+     These examples highlight a related tension with organizational design,
+however. Innovation requires running experiments that will often fail, and such
+failures will occur even if the idea looked promising at the start and all parties
+acted in good faith. These features may require an organizational tolerance for
+failure in the short-term, with compensation rewards over the long-run based upon
+success (Manso 2011). This tolerance allows opportunities for early experimenta-
+tion to identify the best course of action, while the long-term compensation tied to
+performance combats the “moral hazard” concern that decision makers might take
+excessive risks, and it solicits their best efforts.
+     How organizations balance the termination of poor experiments with main-
+taining a tolerance for failure in turn affects the overall set of projects that they
+choose to start. Nanda and Rhodes-Kropf (2012) show that the inability or the
+unwillingness to terminate projects when intermediate information is negative
+leads organizations to start projects that are less experimental in the first place.
+In other words, organizations can pick a radical range of projects at the start and
+terminate a high percentage of them, or pick a more limited range of projects at the
+start and terminate fewer of them. Large bureaucratic organizations often struggle
+with terminating projects, and these differences provide a rationale for why large
+companies are comparatively better at pursuing incremental improvements than
+radical innovations, although this is of course not true in every case. March (1991)
+and Akcigit and Kerr (2010) provide greater discussion on firm sizes and explora-
+tion versus exploitation choices. Lerner (2012) provides a discussion of the relative
+benefits of the traditional model of research and development within firms versus
+the model of venture capital investors, and Thomke (2003) discusses how large
+companies can take insights from the model of experimentation to improve the way
+in which they develop and advance innovations.
+
+Frictions for the Process of Experimentation—Continuation and Financing Risk
+     Successful experimentation requires being able to capitalize on experiments
+that reveal positive outcomes, and these upside scenarios can be as tricky as termi-
+nation decisions. Financing projects in stages requires that startups return to the
+capital markets at regular intervals for more capital. Thus far, we have emphasized
+positive aspects of multiple financing rounds (for example, the advantages of having
+an outside investor not previously involved with the company value the venture).
+A negative aspect is that entrepreneurs and early-stage investors feel vulnerable to
+the state of the financial markets at each round of financing. At times, financial
+capital is freely available, while in other instances it may be hard to come by, even
+                        William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf            39
+
+
+
+
+for otherwise sound projects. These financing constraints can be marketwide or
+they can be specific to sectors due to the degree to which investors herd around
+certain hot sectors.
+      Venture capital investors routinely refer to “financing risk” (similar to rollover risk)
+to describe how otherwise sound projects may not obtain capital for the next experi-
+ment. One way to protect against financing risk is to go less frequently to the capital
+markets, by taking larger chunks of money at each stage. This, however, reduces the
+value of the abandonment options for venture capital firms. Nanda and Rhodes-Kropf
+(2010, 2013) argue that hot markets—times when financing risk is low—allow proj-
+ects with the highest real option values to be funded, because the continuation risk
+is lower for all projects in the economy. Empirically, venture-capital-backed firms that
+are first funded during hot markets have the highest failure rates, but conditional
+on being successful, startups funded in more-active periods were valued higher at
+initial public stock offering or acquisition compared to startups funded in less-active
+periods exiting at the same time. Financing risk is most salient for projects that need
+to go back to the capital markets many times, and thus projects that are worst hit
+by this risk are experimental new technologies that tend to have the highest option
+value. In fact, a possible implication of this work, which is related to work on the role
+of stock markets in financing innovation (Brown, Fazzari, and Petersen 2009), is that
+the most innovative projects in the economy may need times of low financing risk
+(“hot financial markets”) to drive their initial commercialization.
+      Financing risk is representative of a broader class of continuation features
+that govern the degree to which experimentation can be pursued. To illustrate,
+consider some of the differences between clean energy and biotech; biotech also
+requires substantial investment and very long horizons but is the beneficiary of
+substantially more venture capital investment. Biotech startups and the pharma-
+ceutical industry are part of a vibrant “market for ideas” (Gans, Hsu, and Stern
+2002) that allows biotech companies to sell the results of their experiments at
+milestones. That is, a biotech company can undertake a first experiment to show
+that a project that originally seemed to have had a 0.1 percent chance of becoming
+a blockbuster drug has in fact a 5 percent chance. This experiment has generated
+substantial information value, and pharmaceutical companies are willing to buy
+the remaining 1-in-20 opportunity for their drug development portfolios. This
+market works because the science used in the first experiment is observable and
+verifiable, a patent system protects the startup from intellectual theft, and the
+long-term opportunity is more protected compared to clean energy innovations
+(which can face competition from all alternative sources of energy, including
+the opening up of strategic oil reserves). Such a “market for ideas” is much less
+developed for clean energy, and as a consequence entrepreneurs and investors
+who are considering an experiment in this area face additional continuation risks
+(Nanda, Younge, and Fleming, forthcoming). Relatedly, competition to acquire
+new technologies among pharmaceutical firms combined with a relatively robust
+market for initial public offerings have meant that the upside from biotechnology
+innovation, if successful, is sufficiently high to warrant the financing of upstream
+40   Journal of Economic Perspectives
+
+
+
+
+experimentation. We return to the role of the markets for initial public offerings
+in greater detail in the next section.
+
+Discrete Choices and Individuals—A Process of Experimentation
+     We close this section by emphasizing its most prominent feature—the role of
+humans, often just a few humans, in making these decisions. Economic models
+often focus on the fact that in well-functioning economies, good ideas are rewarded
+and flourish relative to worse ideas. But they are silent on how these ideas emerge.
+     A central theme of this section is that entrepreneurs and investors must make
+discrete choices, often with quite incomplete information and uncertainty about
+the future, about which ideas to progress and which to shut down. Financiers rather
+than markets dictate which projects are realized, as they choose which experiments
+to attempt, how to interpret the results, and whether to continue or abandon the
+investment. The entrepreneurial landscape at the micro-level is thus characterized
+by individuals choosing the fate of a venture based on what they have learned about
+what is likely to work before it competes in the product market.
+     This section has emphasized how constraints on the ability of investors to
+experiment efficiently can shape which industries, organizations, and time periods
+see the most radical innovations. It also sets the framework for understanding where
+barriers to experimentation may lead to market failures. For example, intermediate
+experiments may reveal very little about the ultimate success of some projects (such
+as building a particle collider or the nuclear power startup before the advent of
+simulation), requiring extremely large investments before one can learn about
+their viability. Alternatively, the horizon for commercialization may be extremely
+uncertain and distant, such as in the case of research in basic science. Institutional
+regimes such as academia (and at times the government) may thus be critical to
+enable experimentation in areas that are of importance to society but where a
+process of serial experimentation by profit-seeking investors is unlikely to provide
+a set of stepping-stones to the technologies behind disruptive innovation.
+
+
+Economic Experiments at the Society Level
+
+     While we have focused our attention on the difficulty in predicting outcomes
+for new technologies, many of these challenges also exist for firms in the broader
+economy. For example, Shane (2009) documents that of the approximately
+500,000 startups that were founded in the United States in 1996, over half had failed
+by 2002 and only about 3,500 achieved sales of greater than $10 million. Haltiwanger,
+Jarmin, and Miranda (2013) note the difficulty in predicting upfront which firms
+will succeed even among producers of homogeneous goods such as cement. The
+laws and institutions at the regional and national level can therefore play a critical
+role in driving productivity growth—often through the incentives they create or the
+costs that they impose on the ability to effectively experiment. For example, Glaeser,
+Kerr, and Kerr (forthcoming) trace the effects of entrepreneurship on long-run
+                                                          Entrepreneurship as Experimentation            41
+
+
+
+
+urban growth by documenting how cities with industrial and mining legacies in
+1900 found it harder to create the up-or-out dynamic associated with productivity
+growth. They argue that the institutions (industrial structure, culture, and skill
+base) created by the predominantly large mining firms in the 1900s hindered entre-
+preneurship in the modern era, leading to systematically lower urban growth in
+these regions post-1970.
+     Although some institutions are extremely persistent and hard to change, we
+outline some types of policies that seem to be particularly effective in promoting
+“economic experiments” in the form of entrepreneurship.
+
+Democratizing Entry and Facilitating Efficient Failure
+     Bank finance and debt financing more generally is an extremely important
+source of capital for young companies. The US Small Business Administration has
+estimated that there were 21 million small business commercial and industrial loans
+outstanding in 2010 (defined as loans being below $1 million) that were valued at
+$310 billion (Office of Advocacy, US SBA 2013). While many small businesses are
+not young, Robb and Robinson (2014) document that debt finance is important
+even among young firms. They look at the sample of startups in the Kauffman Firm
+Survey and find that within the first three years of founding, 40 percent of the
+funding source for these startups is constituted by outside debt, over and above
+the 4 percent of debt that consists of the owner’s credit cards and personal loans.
+     Changes in the availability and terms of bank finance can therefore have
+important implications for entrepreneurship. For example, Kerr and Nanda (2009)
+consider how the banking competition fostered by the state-level US banking
+deregulations that occurred from the 1970s through the 1990s affected entrepre-
+neurship and the economy. These deregulations facilitated greater competition
+by allowing out-of-state banks to enter local markets, thereby increasing access to
+credit and lowering the cost of external finance. Using micro-level data from the
+US Census Bureau, Kerr and Nanda (2009) find evidence for the standard story of
+creative destruction—a few strong entrants challenging and later replacing incum-
+bent firms. However, the mechanism through which this was achieved was through
+widespread entry that largely resulted in failure, so that the most pronounced impact
+was a massive increase in churning among new entrants.8 Similarly, Chava, Oettle,
+Subramanian, and Subramanian (2013) examine innovation outcomes following
+the banking deregulations and find that banking deregulation facilitated greater
+risk taking and experimentation by small firms. Because it is hard to know before-
+hand which projects are going to be successful, “democratizing entry” seems to be
+an important trait of well-functioning capital markets.
+     Efficient experimentation implies that institutional environments facilitating
+exit are as important as those that facilitate entry. Two areas that have received
+
+8
+  Prior work by Black and Strahan (2002) and Cetorelli and Strahan (2006) connected the deregulations
+to higher entry rates, but it was quite puzzling that the elasticity for entrepreneurship was about ten times
+higher than the response observed on any other dimension like productivity change.
+42   Journal of Economic Perspectives
+
+
+
+
+significant attention in recent years are the role of bankruptcy law and employment
+protection laws and tradeoffs involved as they relate to experimentation.
+     On the one hand, bankruptcy laws that favor creditors allow them to recoup as
+much capital as they can from the startup—encouraging them to lend in the first
+place (Berkowitz and White 2004; Cumming forthcoming; Cerqueiro, Hegde, Penas,
+and Seamans 2013). Such laws also discourage the moral hazard that might otherwise
+arise among entrepreneurial agents if they faced little need to repay creditors. On
+the other hand, entrepreneurial failure allows society to test uncertain projects. This
+process requires separating the entrepreneur from the firm, as is accomplished to
+some extent by the limited liability provision that entrepreneurs are not personally
+liable for the debts of a firm, and thus provides entrepreneurs with the ability to termi-
+nate projects and move on. As an example, Eberhart, Eesley, and Eisenhardt (2013)
+find that a bankruptcy reform in Japan that reduced the consequences of closing
+a firm encouraged greater levels of entrepreneurship and risk taking following the
+reform. The best policy appears to involve striking a balance between a good measure
+of limited liability for entrepreneurs, allowing them to transition across projects
+without severe and lasting penalties, along with some protections or restrictions for
+small or unsophisticated investors who may not comprehend fully the low likelihood
+of the entrepreneur’s success. While legal factors play a role in reducing the down-
+side from failure, cultural factors such as a stigma of failure can also play a role in
+hindering entry. In some regions, such as Silicon Valley, past failure can even be seen
+as a badge of honor, making it much easier for individuals to take big risks in terms
+of startup ventures.
+     A related set of issues can arise from strict employment protection laws that
+limit the ability of firms to adjust their workforce rapidly and in that way act as an
+effective tax on employment adjustments (Autor, Kerr, and Kugler 2007). Many
+ultimately successful startups have had to undertake one or more critical changes
+in their business model, which in turn require substantial adjustments in their
+workforce. One of the tradeoffs of legal mandates for employment is that they
+make it much more difficult for high-growth startups to experiment and for inno-
+vative, volatile sectors to form (for example, Saint-Paul 2002; Samaniego 2006).
+Indeed, venture capital investment is lower in countries with stringent employ-
+ment protection laws, and the more-volatile sectors are the most affected (Bozkaya
+and Kerr forthcoming). In this sense, the flexibility of labor markets governs the
+types of projects that entrepreneurs can undertake (Fallick, Fleischman, and
+Rebitzer 2006).
+
+Appropriating Value in Successful States of the World
+     Beyond the policies that shape an entrepreneur’s ability to experiment when
+things are going poorly, policies or conditions that limit the value that entrepre-
+neurs or investors receive in good states of the world are also important. Some
+conditions like the extent of patent protection were noted earlier in our compar-
+ison of biotech and clean energy investments. More generally, the investors and
+state-contingent financial contracts that we describe require strong property rights
+                      William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf         43
+
+
+
+
+and a sound rule of law (for example, La Porta, Lopez-de-Silanes, Shleifer, and
+Vishny 1997). Similarly, public equity markets are critical to rewarding startups
+that are successful, by allowing investors and entrepreneurs to cash out on the
+expectation of future growth. When equity markets do not work well or there are
+limited opportunities to exit and retrieve at least a portion of the earlier invest-
+ment, it becomes much harder to experiment (for example, Black and Gilson
+1998; Michelacci and Suarez 2004).
+
+Policy Implications
+     How should policymakers interested in promoting entrepreneurship think
+about the role of experimentation? Clearly, difficult entry regulations suppress the
+experimentation undertaken by startups (Klapper, Laeven, and Rajan 2006) and
+often are difficult to justify on any grounds. As one example, Fairlee, Kapur,
+and Gates (2011) describe the extent to which the prevalence of employer-provided
+health insurance in the US economy serves as an implicit entry barrier for potential
+founders of new firms, making it more difficult for them to leave current jobs.
+     In addition, taking the experimental perspective seriously suggests that it is a
+poor idea for government to seek to pick and promote individual firms. After all,
+even the most-experienced venture capital firms have substantial success in only
+one of every ten investments they pick, so we shouldn’t expect inexperienced and
+possibly not-very-objective politicians to do better. Indeed, one of the features that
+make market-based economies better at commercializing radical innovations is the
+decentralized and parallel nature with which new ideas are tested (Rosenberg 1994;
+Qian and Xu 1998; Scherer and Harhoff 2000). Politicians also have greater diffi-
+culty terminating projects—that is, telling taxpayers that legislative decisions have
+spent their money with little or no return. In our experience, most economists buy
+into this wariness of policymakers acting as a venture capital firm, and many go a
+step further and caution against picking an individual sector or industry to support.
+Virtually every state has a biotech initiative, but few will be successful. Lerner (2009)
+emphasizes the dismal performance of policies attempting to seed specific ventures
+or industries.
+     Governments are more likely to facilitate effective entrepreneurship if they
+work to reduce the costs of experimentation in general. What we have in mind here
+is not so much government programs that seek to target start-ups with particular
+benefits, but instead a careful consideration of the broader regulatory framework,
+including labor laws and requirements with which new entrants need to comply,
+with a focus on how they affect incentives for entry. These efforts to structure a
+better playing field are admittedly less glamorous than announcing a new biotech
+cluster initiative, but they are far more likely to have sustained effects.
+     As alluded to in the previous section, the experimentation view also suggests
+that there may be systematic market failures when the costs associated with experi-
+mentation are too high or the returns are too uncertain and far into the future. This
+creates a framework for thinking about which sectors, such as say basic science, may
+warrant sustained government support.
+44   Journal of Economic Perspectives
+
+
+
+
+     Finally, government should be cautious about industrial policies that seek to
+minimize business failures, as such policies may only be propping up firms that need
+to fail. For example, Acemoglu, Akcigit, Bloom, and Kerr (2013) build a model of
+firm-level innovation, productivity growth, and reallocation featuring endogenous
+entry and exit, and calibrate it using firm-level micro data from the Census. Their
+results highlight a key role for new entrants in policies to promote innovation and
+growth. Acemoglu et al. (2013) find that while policies like research and develop-
+ment tax credits to entrants can help and may encourage growth, their impact pales
+in comparison to removing artificial support for inefficient incumbents.
+
+
+Conclusions
+
+     Picking up a quotation originally made by Michael Jordan to describe missing
+basketball shots, a prominent venture capitalist, Vinod Khosla, emphasizes, “our
+willingness to fail gives us the ability and opportunity to succeed where others may
+fear to tread” (Khosla Ventures, no date; Khosla 2013). This paper has outlined our
+perspective on entrepreneurship that emphasizes this fundamental role for experi-
+mentation. Viewing entrepreneurship as experimentation allows individuals and
+societies to evaluate businesses and technologies in domains with greater uncer-
+tainty than otherwise possible, unlocking deep growth opportunities.
+     Economists should bear in mind two very different forms of experimentation
+that are associated with entrepreneurship. One form is the economic experimenta-
+tion that takes place in market-based economies when several new ideas, products
+and technologies are continually tested and either displace existing technologies
+or more likely fail themselves. A second less-appreciated form of experimentation
+happens at the micro-level, before these ideas compete, and relates to the process
+of bringing new ideas to the market. There are too many opportunities to pursue
+with scarce resources, and the best-designed experiments can come back with
+misleading or ambiguous results. Under these conditions, specific choices made
+by discrete individuals—especially founders of firms and early-stage investors—
+become very important. Recent research in financial economics, organizational
+design, and related fields highlight how the costs associated with the ability of inves-
+tors to experiment can alter the nature of entrepreneurship and help to explain
+why entrepreneurship is more prevalent in certain industries, regions, or periods
+of time.
+     Less than a decade ago, research on entrepreneurship within economics
+had little internal cohesion; instead, researchers working on entrepreneurship
+were spread out within broader fields like finance, labor economics, or macroeco-
+nomics. Today, while most researchers in this area continue to keep one foot firmly
+planted in a traditional field, the internal cohesion for entrepreneurial research has
+formed and is rapidly obtaining scale. Researchers on entrepreneurship are them-
+selves experimenting with new ideas and new directions, and we expect this area of
+research to develop rapidly in the coming years.
+                                                     Entrepreneurship as Experimentation           45
+
+
+
+
+■ We appreciate comments and editorial direction by David Autor, Chang-Tai Hsieh, and
+Timothy Taylor. The research in this paper was conducted while the authors were Special
+Sworn Status researchers of the US Census Bureau at the Boston Census Research Data Center
+(BRDC). Support for this research from the NSF grant ITR-0427889 [BRDC], the Division
+of Research and Faculty Development at Harvard Business School, and from the Kaufman
+Foundation is gratefully acknowledged. Research results and conclusions expressed are the
+authors and do not necessarily reflect the views of the Census Bureau or the NSF. This paper
+has used proprietary data from a venture capital firm that requests it remain anonymous, and
+it has screened the paper to ensure that no confidential data are revealed.
+
+
+
+
+References
+
+   Acemoglu, Daron, Ufuk Akcigit, Nicholas           Has Changed How Startups Launch.” Techie.com,
+Bloom, and William R. Kerr. 2013. “Innovation,       November, 26. http://techie.com/top-ten-ways-the
+Reallocation and Growth.” NBER Working Paper         -cloud-has-changed-how-startups-launch/.
+18993.                                                   Black, Bernard S., and Ronald J. Gilson. 1998.
+   Akcigit, Ufuk, and William Kerr. 2010. “Growth    “Venture Capital and the Structure of Capital
+through Heterogeneous Innovations.” NBER             Markets: Banks versus Stock Markets.” Journal of
+Working Paper 16443.                                 Financial Economics 47(3): 243–77.
+   Angel Capital Association. 2012. “ACA, Angel          Black, Sandra E., and Philip E. Strahan. 2002.
+Groups and Angel-Backed Companies.” Slides,          “Entrepreneurship and Bank Credit Availability.”
+September.     http://www.angelcapitalassociation    Journal of Finance 57(6): 2807–33.
+.org/data/Documents/Resources/ACAandAngel                Bozkaya, Ant, and William Kerr.Forthcoming.
+GroupBackground09-12.pdf.                            “Labor Regulations and European Venture
+   Autor, David H., William R. Kerr, and Adriana     Capital.” Journal of Economics and Management
+D. Kugler. 2007. “Does Employment Protection         Strategy.
+Reduce Productivity? Evidence from US States.”           Brown, James R., Steven M. Fazzari, and
+Economic Journal 117(521): 189–217.                  Bruce C. Petersen. 2009. “Financing Innovation
+   Bergemann, Dirk, and Ulrich Hege. 2005. “The      and Growth: Cash Flow, External Equity and
+Financing of Innovation: Learning and Stopping.”     the 1990s R&D Boom.” Journal of Finance 64(1):
+RAND Journal of Economics 36(4): 719–52.             151–85.
+   Bergemann, Dirk, Ulrich Hege, and Liang               Cerqueiro, Geraldo, Deepak Hegde, María
+Peng. 2008. “Venture Capital and Sequential          Fabiana Penas, and Robert Seamans. 2013.
+Investments.” Working paper.                         “Debtor Rights, Credit Supply, and Innovation.”
+   Berkowitz, Jeremy, and Michelle J. White. 2004.   Unpublished paper.
+“Bankruptcy and Small Firms’ Access to Credit.”          Cetorelli, Nicola, and Philip Strahan. 2006.
+Rand Journal of Economics 35(1): 69–84.              “Finance as a Barrier to Entry: Bank Competition
+   Bessemer Venture Partners.No date. “Anti-        and Industry Structure in Local U.S. Markets.”
+portfolio.”   http://www.bvp.com/portfolio/anti      Journal of Finance 61(1): 437–61.
+portfolio.                                               Chava, Sudheer, Alexander Oettl, Ajay
+   Blacharski, Dan. 2013. “Top Ten Ways the Cloud    Subramanian, and Krishnamurthy Subramanian.
+46     Journal of Economic Perspectives
+
+
+
+
+2013. “Banking Deregulation and Innovation.”            and Urban Growth: An Empirical Assessment
+Journal of Financial Economics 109(3): 759–74.          with Historical Mines.” Review of Economics and
+    Chemmanur, Thomas J., Karthik Krishnan,             Statistics.
+and Debarshi K. Nandy. 2011. “How Does Venture             Gompers, Paul A. 1995. “Optimal Investment,
+Capital Financing Improve Efficiency in Private         Monitoring, and the Staging of Venture Capital.”
+Firms? A Look beneath the Surface.” Review of           Journal of Finance 50(5): 1461–89.
+Financial Studies 24(12): 4037–90.                         Gompers, Paul A. 1996. “Grandstanding in
+    Cumming, Douglas.Forthcoming. “Measuring           the Venture Capital Industry.” Journal of Financial
+the Effect of Bankruptcy Laws on Entrepreneur-          Economics 42(1): 133–56.
+ship across Countries.” Journal of Entrepreneurial         Gompers, Paul, and Josh Lerner. 2004. The
+Finance.                                                Venture Capital Cycle. Cambridge, MA: MIT Press.
+    Da Rin, Marco, Thomas Hellmann, and Manju              Graham, Paul. 2008. “A New Venture
+Puri. 2013. “A Survey of Venture Capital Research.”     Animal.” March, http://paulgraham.com
+Chap. 8 in Handbook of the Economics of Finance,        /ycombinator.html.
+Vol. 2, Part A, edited by George Constantinides,           Grenadier, Steven R., and Andrey Malenko.
+Milton Harris, and René M. Stulz. Amsterdam:            2011. “Real Options Signaling Games with Applica-
+North Holland.                                          tions to Corporate Finance.” Review of Financial
+    Dosi, Giovanni, and Richard R. Nelson. 2010.        Studies 24(12): 3993–4036.
+“Technical Change and Industrial Dynamics as               Hall, Robert E., and Susan E. Woodward.
+Evolutionary Processes.” In Handbook of the Economics   2010. “The Burden of the Nondiversifiable Risk
+of Innovation, Vol. 1 edited by B. H. Hall and          of Entrepreneurship.” American Economic Review
+N. Rosenberg, 51–127. Amsterdam: North Holland.         100(3): 1163–94.
+    Eberhart, Robert, Charles E. Eesley, and               Haltiwanger, John, Ron S. Jarmin, and Javier
+Kathleen M. Eisenhardt. 2013. “Failure is an            Miranda. 2013. “Who Creates Jobs? Small versus
+Option: Failure Barriers and New Firm Perfor-           Large versus Young.” Review of Economics and
+mance.” Stanford University Working Paper 111.          Statistics 95(2): 347–61.
+    Ewens, Michael, Ramana Nanda, and Matthew              Hayek, Friedrich A. 1948. Individualism and
+Rhodes-Kropf. 2014. “Entrepreneurship and the           Economic Order. University of Chicago Press.
+Cost of Experimentation.” Unpublished paper.               Hellmann, Thomas, and Manju Puri. 2000.
+    Fairlee, Robert W., Kanika Kapur, and Susan         “The Interaction between Product Market and
+Gates. 2011. “Is Employer-based Health Insurance        Financing Strategy: The Role of Venture Capital.”
+a Barrier to Entrepreneurship?” Journal of Health       Review of Financial Studies 13(4): 959–84.
+Economics 30(1): 146–62.                                   Kaplan, Steven N., Berk A. Sensoy, and Per
+    Fallick, Bruce, Charles A. Fleischman, and          Strömberg. 2009. “Should Investors Bet on the
+James Rebitzer. 2006. “Job-hopping in Silicon           Jockey or the Horse? Evidence from the Evolu-
+Valley: Some Evidence Concerning the Microfoun-         tion of Firms from Early Business Plans to Public
+dations of a High-Technology Cluster.” Review of        Companies.” Journal of Finance 64(1): 75–115.
+Economics and Statistics 88(3): 472–81.                    Kaplan, Steven N., and Per Strömberg. 2003.
+    Fehder, Daniel C., and Yael V. Hochberg. 2014.      “Financial Contracting Theory Meets the Real
+“Accelerators and the Regional Supply of Venture        World: An Empirical Analysis of Venture Capital.”
+Capital Investment.” Unpublished paper.                 Review of Economic Studies 70(2): 281–315.
+    Fernandez, Jose-Maria, Roger M. Stein, and             Kaplan, Steven N., and Per Strömberg. 2004.
+Andrew W. Lo. 2012. “Commercializing Biomed-            “Characteristics, Contracts, and Actions: Evidence
+ical Research through Securitization Techniques.”       from Venture Capitalist Analyses.” Journal of
+Nature Biotechnology 30(10): 964–75.                    Finance 59(5): 2177–2210.
+    Fleming, Lee. 2001. “Recombinant Uncertainty           Kerr, William R., Josh Lerner, and Antoinette
+in Technological Search.” Management Science            Schoar. 2014. “The Consequences of Entrepre-
+47(1): 117–32.                                          neurial Finance: Evidence from Angel Financings.”
+    Fleming, Lee, and Olav Sorenson. 2004.              Review of Financial Studies 27(1): 20–55.
+“Science as a Map in Technological Search.” Stra-          Kerr, William R., and Ramana Nanda. 2009.
+tegic Management Journal 25(5–9): 909–28.               “Democratizing Entry: Banking Deregulations,
+    Gans, Joshua, David H. Hsu, and Scott Stern.        Financing Constraints, and Entrepreneurship.”
+2002. “When Does Start-up Innovation Spur the           Journal of Financial Economics 94(1): 124–49.
+Gale of Creative Destruction?” RAND Journal of             Klapper, Leora F., Luc Laeven, and Raghuram
+Economics 33(4): 571–86.                                G. Rajan. 2006. “Entry Regulation as a Barrier to
+    Glaeser, Edward L., Sari Pekkala Kerr, and          Entrepreneurship.” Journal of Financial Economics
+William R. Kerr.Forthcoming. “Entrepreneurship         82(3): 591–625.
+                              William R. Kerr, Ramana Nanda, and Matthew Rhodes-Kropf                     47
+
+
+
+
+     Knight, Frank H. 1921. Risk, Uncertainty, and            Office of Advocacy, US Small Business Asso-
+ Profit. Boston, MA: Houghton Mifflin.                     ciation. 2013. Small Business Lending in the United
+     Kortum, Samuel S., and Josh Lerner. 2000.             States 2012. http://www.sba.gov/sites/default
+ “Assessing the Contribution of Venture Capital            /files/files/sbl_12study.pdf.
+ to Innovation.” RAND Journal of Economics 31(4):             Palmer, Maija. 2012. “Cloud Computing Cuts
+ 674–92.                                                   Start-up Costs.” Financial Times, February 29.
+     Khosla Ventures.No date. Company website                Parker, Simon C. 2004. “The Economics of Self-
+ mainpage,         http://www.khoslaventures.com/          Employment and Entrepreneurship.” Cambridge
+ (accessed 5/14/14).                                       University Press.
+     Khosla, Vinod. 2013. “Fail as Often as You Want,         Puri, Manju, and Rebeca Zarutskie. 2012. “On
+ And Fail Well.” Video of a speech posted March 10,        the Lifecycle Dynamics of Venture-Capital- and
+ 2013, at Wunderman Reports.com. http://www                Non-Venture-Capital-Financed Firms.” Journal of
+ .wundermanreports.com/fail-as-often-as-you-want           Finance 67(6): 2247–93.
+ -and-fail-well.                                              Qian, Yingyi, and Chenggang Xu. 1998. “Inno-
+     Landier, Augustin. 2005. “Entrepreneurship            vation and Bureaucracy under Soft and Hard
+ and the Stigma of Failure.” Unpublished paper.            Budget Constraints.” Review of Economic Studies
+     La Porta, Rafael, Florencio Lopez-de-Silanes,         65(1): 151–64.
+ Andrei Shleifer, and Robert Vishny. 1997. “Legal             Rajan, Raghuram G. 2012. “Presidential
+ Determinants of External Finance.” Journal of             Address: The Corporation in Finance.” Journal of
+ Finance 52(3): 1131–50.                                   Finance 67(4): 1173–1217.
+     Lerner, Josh. 2009. Boulevard of Broken Dreams:          Ries, Eric. 2011. The Lean Startup: How Today’s
+ Why Public Efforts to Boost Entrepreneurship and          Entrepreneurs Use Continuous Innovation to Create
+ Venture Capital Have Failed—And What to Do about          Radically Successful Businesses. Crown Business
+ It. Princeton University Press.                           Publishing.
+     Lerner, Josh. 2012. The Architecture of Innovation:      Ritter, Jay R. 2014. “Initial Public Offerings:
+ The Economics of Creative Organizations. Boston, MA:      Updated Statistics.”
+ Harvard Business School Press.                               Robb, Alicia M., and David T. Robinson. 2014.
+     Levere, Jane L. 2013. “Airbnb Campaign                “The Capital Structure Decisions of New Firms.”
+ Uses Birdhouses to Widen Its Reach.” New                  Review of Financial Studies 27(1): 153–79.
+ York Times, December 15. http://www.nytimes                  Rosenberg,       Nathan.     1994.    “Economic
+ .com/2013/12/16/business/media/airbnb                     Experiments.” In Chap. 5 in Exploring the Black
+ -campaign-uses-birdhouses-to-widen-its-reach.html.        Box: Technology, Economics, and History. Cambridge
+     Manso, Gustavo. 2011. “Motivating Innova-             University Press.
+ tion.” Journal of Finance 66(5): 1823–69.                    Sahlman, William A. 1990. “The Structure and
+     March, James G. 1991. “Exploration and Exploi-        Governance of Venture-Capital Organizations.”
+ tation in Organizational Learning.” Organizational        Journal of Financial Economics 27(2): 473–521.
+ Science 2(1): 71–87.                                         Sahlman, William A. 2010. “Risk and Reward
+     Michelacci, Claudio, and Javier Suarez. 2004.         in Venture Capital.” Harvard Business School
+“Business Creation and the Stock Market.” Review           Background Note 811-036.
+of Economic Studies 71(2): 459–81.                            Sahlman, William, Ramana Nanda, Joseph B.
+     Nanda, Ramana, and Liz Kind. 2013.                    Lassiter III, and James McQuade. 2012. “Terra-
+“AngelList.” Harvard Business School Case 814-036.         Power.” Harvard Business School Case Study
+     Nanda, Ramana, and Matthew Rhodes-Kropf.              813-108.
+2010. “Financing Risk and Innovation.” Harvard                Saint-Paul, Gilles. 2002. “Employment
+Business School Working Paper 11–013.                      Protection, International Specialization, and
+     Nanda, Ramana, and Matthew Rhodes-Kropf.              Innovation.” European Economic Review 46(2):
+2012. “Innovation and the Financial Guillotine.”           375–95.
+Harvard Business School Working Paper 13–038.                 Samaniego, Roberto M. 2006. “Employment
+     Nanda, Ramana, and Matthew Rhodes-Kropf.              Protection and High-Tech Aversion.” Review of
+2013. “Investment Cycles and Startup Innovation.”          Economic Dynamics 9(2): 224–41.
+Journal of Financial Economics 110(2): 403–18.                Samila, Sampsa, and Olav Sorenson. 2011.
+     Nanda, Ramana, Ken Younge, and Lee Fleming.           “Venture Capital, Entrepreneurship and Economic
+Forthcoming. “Innovation and Entrepreneurship             Growth.” Review of Economics and Statistics 93(1):
+ in Renewable Energy.” In The Changing Frontier:           338–49.
+ Rethinking Science and Innovation Policy edited by           Scherer, F. M., and Dietmar Harhoff. 2000.
+ Adam Jaffe and Ben Jones. National Bureau of              “Technology Policy for a World of Skew-distributed
+ Economic Research.                                        Outcomes.” Research Policy 29(4–5): 559–66.
+48     Journal of Economic Perspectives
+
+
+
+    Schumpeter, Joseph. 1911 [1934]. The Theory        Policy Report, edited by Carl J. Schramm, 16–20.
+of Economic Development: An Inquiry into Profits,      Ewing Marion Kauffman Foundation.
+Capital, Credit, Interest and the Business Cycle.          Thomke, Stefan H. 2003. Experimentation Matters:
+Cambridge, MA: Harvard University Press.               Unlocking the Potential of New Technologies for Innova-
+    Schumpeter, Joseph. 1943. Capitalism, Socialism,   tion. Boston, MA: Harvard Business School Press.
+and Democracy. Harper Brothers, New York, NY.              Tian, Xuan. 2011. “The Causes and Conse-
+    Shane, Scott A. 2009. Fool’s Gold? The Truth       quences of Venture Capital Stage Financing.”
+behind Angel Investing in America. Oxford Univer-      Journal of Financial Economics 101(1): 132–59.
+sity Press.                                                Weitzman, Martin. 1979. “Optimal Search for
+    Stern, Scott. 2005. “Economic Experiments: The     the Best Alternative.” Econometrica 47(3): 641–54.
+Role of Entrepreneurship in Economic Prosperity.”          Wilson, Fred. 2011. “Airbnb.” March 16. http://
+In Understanding Entrepreneurship: A Research and      www.avc.com/a_vc/2011/03/airbnb.html.
+

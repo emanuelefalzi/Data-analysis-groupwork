@@ -1,0 +1,1725 @@
+Venture Capital and the Professionalization of Start-up Firms: Empirical Evidence
+Author(s): Thomas Hellmann and Manju Puri
+Source: The Journal of Finance , Feb., 2002, Vol. 57, No. 1 (Feb., 2002), pp. 169-197
+Published by: Wiley for the American Finance Association
+
+Stable URL: https://www.jstor.org/stable/2697837
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            and Wiley are collaborating with JSTOR to digitize, preserve and extend access to The Journal
+            of Finance
+
+
+
+
+                                                    This content downloaded from
+                                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                                            All use subject to https://about.jstor.org/terms
+THE JOURNAL OF FINANCE * VOL. LVII, NO. 1 * FEB. 2002
+
+
+
+
+     Venture Capital and the Professionalization
+                                  of Start-Up Firms:
+                                Empirical Evidence
+
+                         THOMAS HELLMANN and MANJU PURI*
+
+
+
+                                              ABSTRACT
+
+       This paper examines the impact venture capital can have on the development of
+       new firms. Using a hand-collected data set on Silicon Valley start-ups, we find that
+       venture capital is related to a variety of professionalization measures, such as
+       human resource policies, the adoption of stock option plans, and the hiring of a
+       marketing VP. Venture-capital-backed companies are also more likely and faster to
+       replace the founder with an outside CEO, both in situations that appear adversar-
+       ial and those mutually agreed to. The evidence suggests that venture capitalists
+       play roles over and beyond those of traditional financial intermediaries.
+
+
+
+
+IN THIS PAPER, WE SET OUT to empirically examine whether venture capitalists
+play a role in the professionalization of start-up companies. We use a unique
+hand-collected data set of Silicon Valley start-ups that allows us to observe
+aspects of the internal organization of firms. We find that venture capital-
+ists play a role at the top of the organization, in terms of replacing the
+original founders with an outside CEO. Moreover they seem to influence
+developments further down the organization, in terms of playing a role for
+the introduction of stock option plans, the hiring of a VP of sales and mar-
+keting, and the formulation of human resource policies.
+   Traditional financial intermediation theory tends to focus on information-
+based roles of financial intermediaries, dealing with the alleviation of moral
+hazard or adverse selection (Diamond (1984), Fama (1985), Stiglitz (1985)).
+
+   * Hellmann is from the Graduate School of Business, Stanford University; Puri is
+Graduate School of Business, Stanford University and NBER. We thank Jim Baron, Diane
+Burton, and Michael Hannan for their generous permission to access their data; Ali Hortacsu,
+Vlasta Pokladnik, and Muhamet Yildiz for excellent research assistance; and Rick Green (the
+editor), Jay Hartzell, Steve Kaplan, Josh Lerner, Per Stromberg, and an anonymous referee for
+useful comments. We received useful comments from seminar participants at the American
+Finance Association meetings, New Orleans, Columbia University, Federal Reserve Bank, San
+Francisco, JFI Symposium, Boston, Law and Entrepreneurship conference, Northwestern Lewis
+and Clark College, London Business School, London School of Economics, NBER Summer In-
+stitute, NYU, Ohio State University, UC Berkeley, UCLA, University of Edmonton, University
+of Maryland, University of Michigan, University of Washington, St. Louis, Vanderbilt Univer-
+sity, and the Wharton School. We are grateful to the Center for Entrepreneurial Studies at the
+Stanford Graduate School of Business, and the National Science Foundation for financial sup-
+port. All errors are ours.
+
+                                                    169
+
+                                      This content downloaded from
+                    193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                              All use subject to https://about.jstor.org/terms
+170 The Journal of Finance
+
+
+An informal literature suggests that the role of venture capitalists extends
+beyond that of traditional financial intermediaries like banks, and that they
+play a broader role in the professionalization of the companies they finance
+(Gorman and Sahlman (1989), Bygrave and Timmons (1992)). Zingales (2000)
+emphasizes that human capital is central to the development of new firms.
+This paper therefore empirically examines the hypothesis that venture cap-
+italists foster the development of human resources in start-ups. In particu-
+lar, we ask if there is any evidence that venture-capital-backed start-ups are
+different from other start-ups in the way that they professionalize their hu-
+man capital base.
+  Using a combination of survey data, interview data, commercial data-
+bases, and a large variety of publicly available information, we construct a
+data set of over 170 young high-technology firms in Silicon Valley. Not only
+do we observe information about the top of the organization, such as the
+date of arrival of an outside CEO, but we also obtain information on human
+resource issues deeper down into the organization. Moreover, we obtain the
+financing history of companies, including if and when they obtain venture
+capital. One of the strengths of the data set is that it has information on
+both venture capital and non-venture-capital-backed firms, and it allows us
+to examine the role of venture capital looking at a variety of tests and a
+variety of data types, such as survey responses, as well as actual event data.
+  Theories of financial intermediation emphasize the monitoring role, where
+financial intermediaries gather information about the firms they finance.
+The question we are interested in is whether, as financial intermediaries,
+venture capitalists perform additional roles. Economic theory can provide us
+with some useful concepts that have been somewhat underexplored in the
+empirical corporate finance literature. First, there is the notion of support
+where the investor can take actions that are privately costly, but that ben-
+efit the company. Second, there is the notion of control where there is a
+conflict of interest between the entrepreneur and the investor, and where
+the investor can take an action that increases the value of the firm, although
+it may decrease the utility of the entrepreneur.
+  As a first step in the analysis, we ask if venture capitalists provide sup-
+port in building up the internal organization. We examine a variety of evi-
+dence, such as the recruitment processes, the overall human resource policies,
+the adoption of stock option plans, and the hiring of a vice president of
+marketing and sales. For each of these dimensions, we find that companies
+that obtain venture capital are more likely and/or faster to professionalize
+along these various dimensions. This provides evidence for a role of venture
+capital, in terms of providing support for building up the internal organization.
+  The next step is to look at the very top of the organization, namely at the
+question of who gets to be the CEO. We find that, in venture-capital-backed
+companies, a founder is more likely to be replaced by an outsider as CEO.
+Venture-capital-backed companies are also faster in effectuating such lead-
+ership changes. Furthermore, our analysis tries to differentiate between turn-
+overs where the investor takes a supportive versus a controlling role. For
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+             Venture Capital and Professionalization of Start-Ups 171
+
+
+this, we ascertain whether founders remain with the company or leave after
+the arrival of the outside CEO. We find that venture capital is associated
+with both types of events, suggesting that venture capitalists can take both
+supportive and controlling roles.
+  The final step of the analysis is to understand the interactions between
+the various roles played by venture capitalists. We find that there are only
+mild and statistically insignificant interaction effects between the role of
+venture capitalists at the top and further down the organization. However,
+there are some important development stage effects. To attract a new CEO,
+venture capital is particularly important for early stage companies that do
+not have any signs of success, still important for companies with a product
+on the market, and no longer important by the time companies have gone
+public.
+  We believe this paper addresses new questions that have not received much
+attention in the literature, namely the role that financial intermediaries
+play in building new companies, and the process by which resources are put
+together. Our approach relates the issue of financing to the theory of the
+firm (see Hart (1995), Bolton and Scharfstein (1999)). Prior evidence on the
+role of venture capital in start-ups has been largely related to the monitor-
+ing function in venture capital (see, e.g., Gompers (1995) and Lerner (1995)).
+These papers use samples that contain only venture-capital-backed firms.
+As a consequence, they rely on changes over time and differences within
+venture-capital-backed firms, as opposed to differences between venture-
+capital- and non-venture-capital-backed firms. These papers do not consider
+the support function of venture capital on team building or CEO turnover
+that we characterize in this paper. Other related papers on venture capital
+include Kaplan and Stromberg (2000a, 2000b). The first paper examines the
+structure of venture capital contracts. The second paper looks at investment
+memoranda to gauge venture capitalists' expectations at the time of funding,
+and finds that venture capitalists expect to help companies with managerial
+recruitment. Their findings about the ex ante stage are strongly complemen-
+tary to our findings of what venture capitalists do ex post.1 Our paper is also
+related to the large literature on corporate governance and CEO turnover.
+The work of Kaplan and Minton (1994), Kang and Shivdasani (1997), and
+others highlight the importance played by financial institutions (such as
+banks) in the corporate governance of the firm (see Shleifer and Vishny
+(1997) for a useful survey). Baker and Gompers (1998) examine governance
+issues in a sample of companies that are successful and go public. Largely
+because of the unavailability of data on private companies, the previous lit-
+erature focuses mostly on larger, more established companies that are pub-
+licly listed, or that are in the process of listing or delisting. Interestingly, our
+results demonstrate that the effects that venture capitalists have on their
+
+
+   1 Further useful discussions on contracting and functions of venture capital can be fou
+Sahlman (1990), Bygrave and Timmons (1992), Admati and Pfleiderer (1994), Barry (1994), and
+Fenn, Liang, and Prowse (1995).
+
+
+
+                                   This content downloaded from
+                 193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                           All use subject to https://about.jstor.org/terms
+ 172 The Journal of Finance
+
+
+companies are strongest precisely at the earlier stages when companies are
+not publicly listed.
+  Overall, the evidence provided in this paper suggests that a closely in-
+volved financial intermediary, such as a venture capitalist, can play roles
+over and above those commonly discussed in the literature. Most theoretical
+work emphasizes the role of financial intermediaries in overcoming moral
+hazard and adverse selection problems. In the context of financing start-
+ups, however, we find that a closely involved investor can have a broader
+impact on the development of the companies they finance, suggesting that
+there are value-added inputs that venture capitalists provide that go beyond
+that suggested by traditional financial intermediation theory. It is our hope
+that these findings are useful in guiding future theoretical and empirical
+work in this area.
+  The remainder of the paper is structured as follows. Section I describes
+the data. Section II examines the role of venture capitalists further down
+the organization. Section III looks at the role of venture capital for CEO
+turnover. Section IV attempts to distinguish between a supporting and con-
+trolling role of venture capital. Section V examines the state-contingent na-
+ture of venture capital involvement. Section VI examines the robustness of
+our results, focusing on endogeneity and selection biases. Section VII concludes.
+
+
+                                           I. The Data
+
+  To conduct this study, we use a unique hand-collected data set of start-ups
+in Silicon Valley culled from a combination of survey data, interviews, and
+commercial databases as well as publicly available data. The data set is
+collated from combining two independent research efforts conducted over a
+period of several years, starting in 1994. The initial sample selection of Sil-
+icon Valley firms and data collection was organized by Baron, Burton, and
+Hannan (1996a, 1996b, 1999), which we supplemented in 1996 and 1997 by
+an additional financing survey and related data collection.2 To generate the
+initial list of companies, three main data sources were used. The first two
+databases that listed firms in Silicon Valley were: Rich's Everyday Sales
+Prospecting Guide, published by Rich's Guide, and Technology Resource Guide
+to Greater Silicon Valley, published by CorpTech. A stratified random sample
+was selected where firms could have a legal age no older than 10 years and
+had to have more than 10 employees. Moreover, young and large firms were
+oversampled and foreign firms were excluded. The Silicon Valley business
+press was used as a third data source to identify very young firms that were
+
+
+  2 A more detailed description of the sampling procedures and their rationale can be
+Burton (1996) and in Baron, Burton, and Hannan (1996a, 1996b). These papers are based on a
+first round of interviews of some 100 companies that were performed in the summer of 1994. A
+second round of interviews was conducted in the summer of 1995 and follow-up interviews were
+conducted in the summer of 1996. This paper obviously uses the updated information. Where
+possible, we also augmented the publicly available information up to the end of our observation
+period, which we defined to be October 1997.
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+              Venture Capital and Professionalization of Start-Ups 173
+
+
+not even listed in the two databases mentioned above, and supplement the
+sample. The purpose of doing this was to alleviate concerns that relying
+exclusively on guidebooks such as Rich's and CorpTech to construct the sam-
+ple might underrepresent new start-ups, since there is sometimes a consid-
+erable time lag before newly created firms appear in these guidebooks. Hence,
+the sample was supplemented by adding on 22 very young firms identified
+by tracking the Silicon Valley business press.
+   Our sample consists of 173 start-up companies that are located in Cali-
+fornia's Silicon Valley. To collect the data, surveys that included a wide range
+of questions about historic and current aspects of the companies were sent to
+different key people in the firms. Further, trained MBA and Ph.D. students
+conducted semistructured interviews with key informants from the sample
+companies. An effort was made to interview the founders, the current CEO,
+and the human resource manager for each company. This data was then
+augmented with any information provided by the company (such as a busi-
+ness plan). Additionally, publicly available information about each of the
+firms in the study was gathered from on-line data sources such as LEXIS-
+NEXIS, Dialog, Business Connection, and ABI INFORM. Further, for firms
+that had gone public, annual reports and 10-K or IPO prospectuses (where
+available) were also collected and used to augment the data. To obtain fi-
+nancing data, from October 1996 to October 1997 we sent out a survey ad-
+dressed to the most senior member of the company in charge of finance. The
+survey asked for a complete financing history of the company since the time
+of founding. The information was augmented with data available from two
+commercial databases, Venture Economics and Venture One, largely for the
+purpose of ascertaining which firms in our sample received venture capital.3
+We performed additional cross-checks on the data using the interview tran-
+scripts, researching public sources, and placing calls to the companies to
+resolve remaining ambiguities. We also continued to augment the data com-
+ing in from the companies, again using public information as well as the
+interview and survey material. Considerable emphasis was put on measur-
+ing the timing of events such as the date of founding, the timing of all fi-
+nancing rounds, or the date of CEO turnover.
+   In what follows below we describe the main variables and the way they
+are defined and collated. Table I shows the descriptive statistics.
+   Thrnover is a dummy variable that takes the value 1 if a firm hired an
+outside CEO and 0 otherwise. An outsider is any person that is not one of
+the original founders. If one founder replaces another founder as CEO, he or
+she is not considered an outsider. We obtain this data from the interviews,
+surveys, and from publicly available data. Time-to-turnover measures the
+time from the birth of the company to the date of arrival of the first outside
+
+
+  3 See Lerner (1995) for a discussion of the Venture Economics database and Gompers and
+Lerner (2000) for a discussion of the Venture One database. We found 107 of the sample com-
+panies in Venture One and 95 were found in Venture Economics. Sixty-six companies (38 per-
+cent) replied to our financing survey.
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+ 174 The Journal of Finance
+
+                                                 Table I
+
+                                    Descriptive Statistics
+This table provides descriptive statistics of variables used in the paper. Thrnover is a dummy
+variable that takes the value 1 if a firm hired an outside CEO and 0 otherwise. VC is a dummy
+variable that takes the value 1 if a firm has received venture capital and 0 otherwise. VC(T) is
+a dummy variable that takes the value 1 if the company obtained venture capital before the
+date of the first CEO turnover and 0 otherwise. Recruit(SA), recruit(AM), and recruit(SM) are
+dummy variables that take the value 1 if a firm reported to use business and professional
+contacts to recruit sales and marketing personnel (SA), administrative and managerial person-
+nel (AM), or senior managers (SM), respectively, and 0 otherwise. HRpolicy is a dummy variable
+that takes the value 1 if a firm reported their venture capitalists or other financiers influential
+in shaping human resource management and 0 otherwise. Computer, telecom, and medical are
+dummy variables that take the value 1 if the firm is in the computer, telecommunications, or
+medical-related industries, respectively, and 0 otherwise. Other is a dummy variable for other
+industries. Sample-age is the age of the company at the time of sampling. LNage is the natural
+logarithm of the age of the company at the end of the sample period, in October 1997.
+
+
+                       Number                   of      Mean             Mean       Mean
+                     Observations Full Sample VC Sample Non-VC Sample
+
+Thrnover 170 0.5352941 0.6153846 0.3584906
+  VC            170                0.6882353                                    1   0
+ VC(T)           170         0.6470588                       0.9401709              0
+Recruit(SA) 99 0.7676768 0.8133333 0.6250000
+Recruit(AM) 100 0.7100000 0.8000000 0.4400000
+Recruit(SM) 100 0.7600000 0.8133333 0.6000000
+HRpolicy 92 0.4347826 0.5362319 0.1304348
+Computer 170 0.4882353 0.4700855 0.5283019
+ Telecom 170 0.2000000 0.2393162 0.1132075
+Medical            170       0.1411765                 0.1709402                0.0754717
+ Other          170       0.1705882                   0.1196581                 0.2830189
+Sample-age 170 6.707927 6.65238 6.830548
+LNage 170 2.255077 2.251118 2.263818
+
+
+
+
+CEO. We succeeded in obtaining reliable data for all but three companies, so
+that our base sample consists of 170 companies.
+   VC is a dummy variable that takes the value 1 if a firm has received
+venture capital and 0 otherwise. From the interviews, surveys, and commer-
+cial databases, we identify which firms are financed by venture capitalists
+and the timing of such financing. Venture capitalists are professional inves-
+tors who specialize in the financing of young private companies. We also
+create other venture-capital-related variables based on the timing of the ven-
+ture capital. Time-to-VC measures the time from the birth of the company to
+the date of obtaining venture capital for the first time. VC(T) is a dummy
+variable that takes the value 1 if the company obtained venture capital be-
+fore the date of the first CEO turnover. And VC(t) is a time-varying dummy
+variable that takes the value 0 as long as a firm has no venture capital, and
+1 thereafter.
+  Recruit(SA), recruit(AM), and recruit(SM) are dummy variables that take
+the value 1 if a firm reported the use of business and professional contacts
+
+
+
+                                     This content downloaded from
+                   193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                             All use subject to https://about.jstor.org/terms
+            Venture Capital and Professionalization of Start-Ups 175
+
+
+to recruit sales and marketing personnel (SA), administrative and manage-
+rial personnel (AM), or senior managers (SM), respectively, and 0 otherwise.
+We obtain these variables from a survey that was sent to the most senior
+person in charge of human resources.
+  HRpolicy is a dummy variable that takes the value 1 if a firm reported
+"venture capitalists or other financiers" to be "influential in shaping human
+resource management"; 0 otherwise. We obtain this variable from a survey
+that was sent to the most senior person in charge of human resources, which
+asked them about their recruitment and selection practices.
+   Time-to-sales-VP measures the time from the birth of the company to the
+first date of appointing a vice president of sales and marketing. WTe obtain
+this data from survey responses, interviews, and publicly available information.
+   Time-to-option-plan measures the time from the birth of the company to
+the date of implementing a stock option plan. We obtain this variable from
+a survey that was sent to the most senior person in charge of human re-
+sources, which asked them about compensation eligibility.
+  State is a variable that describes three distinct stages in which a company
+may be. The company may have gone public and we call this state IPO. The
+company may have a product but not have gone public. We call this state
+product. Or the company may neither have a product nor have gone public,
+and we call this state nothing-to-show. We evaluate the state at the time of
+a turnover or else at the end of the sample period. We obtain information on
+whether a firm has a product on the market and the timing of doing so from
+a targeted survey question to the company. We augment this information
+with publicly available data on the company's product, using in particular
+the earliest mention of a product in Rich's guide or other public sources. The
+IPO dates are obtained from publicly available sources such as a company's
+prospectus, and from Securities Data Company's (SDC) New Issues database.
+   Computer, telecom, and medical are dummy variables that take the value
+1 if the firm is in the computer, telecommunications, or medical-related in-
+dustries, respectively, and 0 otherwise. Other is a dummy variable which
+takes the value 1 if the firm is in another industry (mostly semiconductors)
+and 0 otherwise.
+  LNage is the logarithm of the age of the company in October 1997 mea-
+sured from the birth date of the company. The date of legal incorporation is
+often taken as the birth date for companies and would appear to be a nat-
+ural choice. However, for entrepreneurial firms this is far from obvious. In
+particular, in our sample, over half of the companies had some other signif-
+icant event that preceded the date of incorporation, such as the beginning of
+normal business operations or the hiring of a first employee. Moreover, there
+does not appear to be any clear sequence of events that these companies
+follow in this initial period of creation. In this paper, we therefore take a
+conservative approach and use the earliest date recorded in any of our data
+sources corresponding to the earliest evidence of firm activity as the date of
+birth. Also, sample-age is the age of the company at the time of sampling,
+measured from the date of birth of the company.
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+176 The Journal of Finance
+
+
+                 II. Venture Capital and Team Building
+
+
+  As companies develop from being start-ups to becoming large complex or-
+ganizations, attracting highly talented employees becomes a key challenge. The
+development of human resource functions, broadly defined, thus becomes an
+important aspect of professionalization, especially in high-technology sectors
+where human capital is critical. The question we ask is whether venture cap-
+italists take any role in the professionalization of the firms. In traditional fi-
+nancial arrangements, investors concern themselves mostly with the financial
+aspects of the firm, but leave matters of internal organization to the entre-
+preneurs. The notion of venture capitalists being closely involved investors sug-
+gests that they may even go as far as helping companies with their internal
+organization, including their human resource management.
+  To address this question we look at a variety of evidence. We use both
+survey data on firms' perception of venture capitalist's influence as well as
+data on events relating to the venture capitalists' influence on the achieve-
+ment of professionalization milestones. These approaches complement each
+other in terms of using very different kinds of data to address the role of
+venture capital in multiple dimensions. In this section, we will examine how
+venture capital is related to the kind of recruitment processes that firms
+undertake, how firms view venture capital's contribution to the human re-
+source development process, and how venture capital affects the timing of
+key professionalization events in the company such as the introduction of a
+stock option plan or the hiring of a vice president of marketing and sales.
+  The process of building up the internal organization, and, in particular,
+the employee base of a company, begins with the recruitment process. We
+first ask whether venture-capital-backed firms use different processes to
+hire various kinds of employees. We use evidence from the human resource
+surveys that ask firms what contacts they use in their recruitment process.
+We identify those firms that report the use of business and professional
+contacts for the recruitment of various positions. This could include (but is
+not limited to) the use of professional agencies but would rule out, say, sim-
+ply recruiting from employees' own contacts. Using business and profes-
+sional contacts reveals whether a firm has reached a certain level of
+professionalization in terms of how it interacts with its business environ-
+ment. It also reveals something about the commercial as opposed to purely
+technical orientation of the firm. Obviously, investors themselves are also
+part of this network of business and professional contacts, but the survey
+question aims at the overall process that the firm is using for recruitment.
+  The variables recruit(SA), recruit(AM), and recruit(SM) capture whether a
+firm reported using business and professional contacts for recruiting sales
+and marketing personnel (SA), administrative and managerial personnel (AM),
+and senior management (SM), respectively. We examine if the firm's ap-
+proach to recruiting is related to whether it received venture capital or not,
+as measured by the VC dummy variable. We first perform x2 tests and find
+significant positive correlations with p-values of 5.7 percent, 0.1 percent,
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+            Venture Capital and Professionalization of Start-Ups 177
+
+
+and 3.1 percent, respectively. The xy2 tests are useful for identifying a cor-
+relation between venture capital and the recruitment variables, but they do
+not control for other factors. We therefore move to a multivariate probit
+regression framework, where we control for firm characteristics, in partic-
+ular firm age (LNage) and the firm's industry. The results are reported in
+Table II. We find that the coefficient on VC tends to be not only statistically
+significant, but also economically large. A venture-capital-backed firm is sig-
+nificantly more likely to use business and professional contacts for recruit-
+ing sales and marketing personnel, as well as for recruiting administrative
+and managerial personnel. This is also the case for recruiting senior man-
+agement, although this coefficient is only marginally significant at 14 percent.
+  Together these results suggest that obtaining venture capital is related to
+how firms recruit personnel, and that venture-capital-backed firms make
+greater use of business and professional contacts for recruiting, especially
+for recruiting deeper down into the organization. While venture capitalists
+are part of that network, we would argue that the evidence should be inter-
+preted conservatively, indicating an overall pattern of firm conduct, rather
+than a specific contribution of venture capital.
+  To address the contribution of venture capitalists more directly, we use a
+different part of the human resource survey that asks specifically about the
+contribution of the investors to the development of human resource policies.
+The variable HRpolicy measures whether a firm reported if investors (ven-
+ture capitalists or other financiers) were influential in shaping the human
+resource policies of the company. We examine the relationship of this vari-
+able to obtaining venture capital. The x2 test shows a positive correlation
+that is significant at 0.1 percent. Again, we then examine the effect of ven-
+ture capital in a probit framework that controls for age and industry. We
+find that venture capital is strongly associated with the financier playing an
+influential role in the shaping of human resource policies. The marginal
+increase in the likelihood is 48 percent, which is significant at 1 percent (see
+Table III). This evidence thus suggests that in the eyes of the entrepreneurs,
+venture capitalists exert influence on the internal organization of the firm.
+  The survey evidence of the entrepreneurs' perception is important, but for
+further confirmation we also want to examine evidence on realizations of
+what actually happens within the firms. For this we look at the timing of
+certain milestone events that occur within the organization. We examine if
+and when companies adopt stock option plans and we look at the first hiring
+of a vice president of marketing and sales (see also Kaplan and Stromberg
+(2000b) for the role of venture capital in recruiting). Stock option plans are
+important for a variety of reasons. They help attract talent to the firm, they
+provide incentives for the employees within the firm, and they may help to
+retain employees (see, e.g., Saxenian (1994)). Stock options are also a sign of
+professionalization, in that they formalize the incentive contract between
+the owners of the firm and its employees. The data on the hiring of a vice
+president of sales and marketing are interesting for two related reasons.
+First, they provide us concrete evidence on a specific aspect of team build-
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+ 178 The Journal of Finance
+
+
+                                                Table II
+
+                                  Recruitment Practices
+These tables present results from probit regressions. The dependent variables are recruit(SA),
+recruit(AM), and recruit(SM), which are dummy variables that take the value 1 if a firm re-
+ported to use business and professional contacts to recruit sales and marketing personnel (SA),
+administrative and managerial personnel (AM), or senior managers (SM), respectively, and 0
+otherwise. The independent variables are VC, which is a dummy variable that takes the value
+1 if a firm has received venture capital and 0 otherwise; LNage, which is the natural logarithm
+of the company's age; and computer, telecom, and medical, which are dummy variables that
+take the value 1 if the firm is in the computer, telecommunication, or medical industries, re-
+spectively, and 0 otherwise. Marginal increase measures the change in probability of the de-
+pendent variable to a change in the independent variable implied by the probit coefficients
+evaluated at the sample mean. T-ratios are computed using White's heteroskedasticity-adjusted
+standard errors. Model p-value reports the joint significance of the coefficients of the indepen-
+dent variables. Pseudo-R2 = 1 - log L/log Lo, where log L is the maximized value of the
+log-likelihood function; log Lo is the log-likelihood computed only with a constant term.
+
+      Independent Marginal Increase
+        Variables in Probability Coefficients T-ratio
+
+                            Panel A: Dependent Variable: Recruit(SA)
+
+ VC             0.2553321**                        0.7683741**                     2.238
+ LNage               0.0289683                          0.0980365                  0.235
+ Computer                   -0.0687642                      -0.2302481             -0.526
+ Telecom                -0.1962421                         -0.5976361            -1.196
+ Medical              -0.2464134                       -0.7245992              -    1.394
+  Constant                         NA             0.3248034                     0.310
+
+Number of firms 99 Pseudo-R2 = 0.0578 Model p-value = 0.3211
+
+                           Panel B: Dependent Variable: Recruit(AM)
+
+ VC         0.4366999***                             1.217822***                   3.628
+ LNage               0.1830012                          0.5588965                  1.340
+
+ Computer                    -0.0033167                       -0.010125            -0.023
+ Telecom                -0.2692377                         -0.7508911            -1.476
+ Medical               -0.073619                       -0.2160782               -0.395
+  Constant                        NA             -1.360384                     -1.324
+
+Number of firms 100 Pseudo-R2 = 0.1409 Model p-value = 0.0073
+
+                           Panel C: Dependent Variable: Recruit(SM)
+
+  VC            0.1470161                          0.4673383                    1.475
+
+ LNage           -0.2855742**                         -0.9850359**                 -2.241
+ Computer                     -0.0243882                        -0.08374         -0.217
+ Telecom                   0.122029                        0.4725722               0.933
+ Medical                0.1560752                          0.6494414               1.235
+  Constant                        NA             2.526699**                      2.469
+Number of firms = 100 Pseudo-R2 = 0.1103 Model p-value = 0.0501
+
+** or *** mean that the coefficient is significant at the five percent or one percent levels,
+respectively.
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+               Venture Capital and Professionalization of Start-Ups 179
+
+                                               Table III
+
+                                Human Resource Policies
+This table presents results from probit regressions. The dependent variable is HRpolicy, which
+is a dummy variable that takes the value 1 if a firm reported their venture capitalists or other
+financiers influential in shaping human resource management and 0 otherwise. The indepen-
+dent variables are VC, which is a dummy variable that takes the value 1 if a firm has received
+venture capital and 0 otherwise; LNage, which is the natural logarithm of the company's age;
+and computer, telecom, and medical, which are dummy variables that take the value 1 if the
+firm is in the computer, telecommunication, or medical industries, respectively, and 0 other-
+wise. Marginal increase measures the change in probability of the dependent variable to a
+change in the independent variable implied by the probit coefficients evaluated at the sample
+mean. T-ratios are computed using White's heteroskedasticity-adjusted standard errors. Model
+p-value reports the joint significance of the coefficients of the independent variables. Pseudo-
+R' = 1 - log L/log Lo, where log L is the maximized value of the log-likelihood func
+is the log-likelihood computed only with a constant term.
+
+
+                                   Dependent Variable: HRpolicy
+
+     Independent Marginal Increase
+       Variables in Probability Coefficients T-ratio
+
+ VC        0.4770777***                               1.533646                 *-   3.633
+ LNage             -0.2894254                          -0.7450183                   -1.566
+ Computer                   -0.1444156                      -0.3752523              -0.843
+ Telecom             -0.3212045*                       -0.9405605"-                 -   1.868
+ Medical             -0.3175812*                         -0.9387685"                -1.797
+  Constant                         NA              0.8677364                    0.713
+
+Number of firms = 92 Pseudo-RI2 = 0.1703 Model p-value = 0.0055
+
+* or *** mean that the coefficient is significant at the 10 percent or 1 percen
+
+
+
+
+ing. Second, the position of marketing and sales is of particular importance,
+since it holds responsibility for pushing a commercial orientation in the start-
+up, which is a significant aspect of professionalization.
+   The evidence on stock option plans or hiring of a VP concerns the timing
+of these events. We therefore need to examine our data in a duration frame-
+work. A standard way of dealing with duration data is employing a hazard
+model (see Kalbfleisch and Prentice (1980) and Kiefer (1988)). We can choose
+from a number of parametric models (such as Weibull) or we can use a semi-
+parametric model. We choose a Cox proportional hazard model, which is a
+parsimonious semiparametric model, and a common choice for modeling du-
+ration. The duration model also lets us explicitly take into account the fact
+that venture capital is obtained by different companies at different points in
+time. For robustness, we reran all our tests using a Weibull model, which is
+a fully parametric model, and obtained similar results. In the Appendix, we
+provide a brief explanation of these estimation techniques.
+  Table IV reports the results from our duration regression where the in-
+dependent variable is time-to-option-plan, which measures the time between
+the birth of the company and the time the company adopts a stock option.
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+ 180 The Journal of Finance
+
+                                                Table IV
+
+                           Adoption of Stock Option Plans
+This table presents the results from a Cox regression with time-varying covariates. The de-
+pendent variable is time-to-option-plan, which measures the time from the birth of a company
+to the date of implementing a stock option plan. The independent variables are VC(t), which is
+a time-dependent dummy variable that takes the value 0 as long as a firm has not received
+venture capital and 1 thereafter; and computer, telecom, and medical, which are dummy vari-
+ables that take the value 1 if the firm is in the computer, telecommunication, or medical in-
+dustries, respectively, and 0 otherwise. If the dependent variable is observed without any
+realization, it is treated as a censored event. Model p-value reports the joint significance of the
+coefficients of the independent variables.
+
+
+                   Cox Regression; Dependent Variable: Time-to-option-plan
+
+     Independent
+       Variables Hazard Ratio Coefficient T-ratio
+
+ VC(t) 2.060956*" 0.72317** 2.468
+ Computer 1.796011 0.5855683 1.515
+ Telecom 2.264658* 0.8174239-1 1.878
+ Medical 1.264736 0.2348633 0.515
+Number of firms = 95 Model p-value = 0.0318
+
+* or ** mean that the coefficient is significant at the 10 percent or 5 perc
+
+
+
+
+The independent variables are industry controls and the time-varying VC
+dummy. The duration model explicitly takes into account the timing of events.
+Thus, if venture capital is obtained after the stock option plan is adopted, we
+take the company as not having venture capital prior to the adoption of the
+stock option. We find that obtaining venture capital is associated with a
+significant increase in the likelihood of adopting a stock option plan. The
+hazard ratio is slightly greater than two, indicating that venture-capital-
+backed firms are more than twice as likely to adopt a stock option plan. This
+result is significant at 2 percent.
+   Table V reports the results from our duration regression, where the inde-
+pendent variable is time-to-sales-VP, which measures the time from the birth
+of the company to the first date of appointing a vice president of sales and
+marketing. The dependent variables are industry controls and the time-
+varying VC dummy. We find that obtaining venture capital is associated
+with a significant increase in the likelihood of appointing a vice president of
+sales and marketing. The hazard ratio is 1.79, and this result is significant
+at 2 percent.
+  The results from Tables IV and V show that firms that obtain venture
+capital are more likely (or faster) to professionalize. If we put this evidence
+together with our previous evidence, a picture emerges where venture cap-
+italists are closely involved investors who influence the professionalization
+of the internal organization of firms. Our data stems from different sources.
+We ask for firms' perception of the influence of venture capital but also
+
+
+                                     This content downloaded from
+                   193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                             All use subject to https://about.jstor.org/terms
+               Venture Capital and Professionalization of Start-Ups 181
+
+                                                Table V
+
+         The Hiring of a Vice President of Sales and Marketing
+This table presents the results from a Cox regression with time-varying covariates. The de-
+pendent variable is time-to-sales-VP, which measures the time from the birth of a company to
+the first date of appointing a Vice President of sales and marketing. The independent variables
+are VC(t), which is a time-dependent dummy variable that takes the value 0 as long as a firm
+has not received venture capital and 1 thereafter; and computer, telecom, and medical, which
+are dummy variables that take the value 1 if the firm is in the computer, telecommunication,
+or medical industries, respectively, and 0 otherwise. If the dependent variable is observed with-
+out any realization, it is treated as a censored event. Model p-value reports the joint signifi-
+cance of the coefficients of the independent variables.
+
+
+                    Cox Regression; Dependent Variable: Time-to-sales-VP
+
+     Independent
+       Variables Hazard Ratio Coefficient T-ratio
+
+ VC(t)             1.793032*'                       0.5839081                   *   2.399
+ Computer                       1.167236                     0.1546387              0.489
+ Telecom                   1.167798                       0.1551197                 0.401
+ Medical                  1.175999                       0.1621181                  0.446
+
+Number of firms = 99 Model p-value = 0.1530
+
+** means that the coefficient is significant at the five percent level.
+
+
+
+
+complement this with event-based data. Each of our individual tests con-
+cerns aspects of the internal organization that are quite distinct, and they
+use very different kinds of data. Yet all of our results show that venture
+capital is associated with each of these aspects of professionalization. While
+one may have reservations about the significance of any one of these indi-
+vidual tests, the consistency of this finding across different tests using dif-
+ferent kinds of data is quite remarkable.
+
+
+
+                    III. Venture Capital and CEO Turnover
+
+  The evidence in the previous section shows that venture capitalists play a
+role in building the internal organization, and specifically the human re-
+sources, of the companies they finance. An important question is whether
+venture capital affects the leadership at the very top of the organization.
+Presumably one of the most important positions in any company is the po-
+sition of CEO. This person has a particularly large role in building up all
+aspects of the company. To begin with, the founders naturally take the lead-
+ership position in their own company. While founders may be very suited for
+the initial phases, not all founders can make the transition from entrepre-
+neur to manager. It could be that as companies develop, they could benefit
+from bringing in an outsider for the position of CEO. Bringing in an outside
+CEO thus constitutes a significant step in the professionalization of a start-up
+company.
+
+
+
+                                     This content downloaded from
+                   193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                             All use subject to https://about.jstor.org/terms
+182 The Journal of Finance
+
+
+  The transition from founder to outside CEO, however, is not always sim-
+ple. Some founders may be glad to have an experienced outsider take the
+leadership position in their new firm, so that they can focus on other aspects
+of their start-up. For other founders, however, there may be an issue with
+relinquishing control to an outsider. While the entrepreneurs may be inter-
+ested in the maximization of their own benefits (which includes not only the
+profitability of the firm, but also the various private benefits), the investors
+are solely concerned with the maximization of shareholder value. This in
+turn suggests that founders and investors may disagree on the desirability
+of appointing an outside CEO. Hellmann (1998) develops a formal model of
+this conflict of interest that suggests that the allocation of control rights is
+important. In particular, Hellmann shows that efficient contracts may allo-
+cate control to the venture capitalists over the decision to hire an outside
+CEO. Kaplan and Stromberg (2000a) provide empirical evidence from ven-
+ture capital contracts indicating that a significant number of control rights
+are allocated to the venture capitalists.
+  We examine whether venture capitalists are more likely to bring an out-
+sider into the position of CEO. To address this question, we collect evidence
+on whether and when a company experienced its first turnover of CEO. The
+variable turnouer is a dummy variable that takes the value 1 if a company
+has experienced the replacement of a founder with an outside CEO and 0
+otherwise. In measuring the possible effect of venture capital on turnover,
+we are careful to verify that the turnover event does not precede the venture
+capitalists. We therefore use VC(T) as the dependent variable, which is the
+VC dummy, only altered so that it is 0 if venture capitalists first appear
+after a turnover event. We first perform a x2 test and find a positive cor-
+relation between venture capital and turnover that is significant at five
+percent. We then examine a probit regression that also controls for firm age
+and industry. From Table VI, Panel A, we see that the replacement of a
+founder with an outside CEO is more likely for firms that have venture
+capital, with the coefficient of venture capital being significant at eight percent.
+  The probit regression does not take into account the timing of the events.
+We therefore also examine a Cox duration regression. The independent vari-
+able is now time-to-turnouer, which measures the time from the birth of the
+company to the first date of appointing an outside CEO. The dependent
+variables are venture capital as a time-varying dependent dummy variable,
+as well as industry controls. Table VI, Panel B, shows a hazard ratio of 2.32,
+indicating that firms are more than twice as likely to have a turnover event
+once they have venture capital. This is significant at one percent. The du-
+ration regression thus shows that obtaining venture capital is associated
+with a higher rate at which firms bring in an outside CEO. Another way of
+expressing this is to note that the likelihood rate is inversely related to the
+expected duration. With venture capital, the expected time it takes a firm to
+bring in an outside CEO is reduced.
+  The analysis in this section suggests that obtaining venture capital is as-
+sociated with a higher likelihood of appointing an outsider to the position of
+CEO. Both the probit and the duration model suggest that the advent of a
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+              Venture Capital and Professionalization of Start-Ups 183
+
+                                                Table VI
+
+                             The Hiring of an Outside CEO
+Panel A presents the results from a probit regression. The dependent variable is turnover,
+which is a dummy variable that takes the value 1 if a firm hired an outside CEO and 0 other-
+wise. The independent variables are VC, which is a dummy variable that takes the value 1 if a
+firm has received venture capital and 0 otherwise; LNage, which is the natural logarithm of the
+company's age; and computer, telecom, and medical, which are dummy variables that take the
+value 1 if the firm is in the computer, telecommunication, or medical industries, respectively,
+and 0 otherwise. Marginal increase measures the change in probability of the dependent vari-
+able to a change in the independent variable implied by the probit coefficients evaluated at the
+sample mean. T-ratios are computed using White's heteroskedasticity-adjusted standard errors.
+Model p-value reports the joint significance of the coefficients of the independent variables.
+Pseudo-R2 = 1 - log L/log LO, where log L is the maximized value of the log-likelihood funct
+log Lo is the log-likelihood computed only with a constant term.
+  Panel B presents the results from a Cox regression with time-varying covariates. The depen-
+dent variable is time-to-turnover, which measures the time from the birth of the company to the
+date of arrival of the first outside CEO. The independent variables are VC(t), which is a time-
+dependent dummy variable that takes the value 0 as long as a firm has not received venture
+capital and 1 thereafter, and computer, telecom, and medical, which are dummy variables that
+take the value 1 if the firm is in the computer, telecommunication, or medical industries, re-
+spectively, and 0 otherwise. If the dependent variable is observed without any realization, it is
+treated as a censored event.
+
+
+                   Panel A: Probit Regression; Dependent Variable: Turnover
+
+      Independent Marginal Increase
+        Variables in Probability Coefficients T-ratio
+
+ VC(T)             0.1503328*                           0.3793667*                      1.780
+ LNage             0.3336875***                          0.8401538**-                   2.770
+ Computer                      0.0464849                       0.1171207                0.421
+ Telecom                   0.0565826                        0.1432936                   0.439
+ Medical                 0.2057749                         0.5439469                1.467
+
+Number of firms = 170 Pseudo-R2 = 0.0623 Model p-value = 0.0157
+
+               Panel B: Cox Regression; Dependent Variable: Time-to-turnover
+
+     Independent
+        Variables              Hazard            Ratio         Coefficient              T-ratio
+
+ VC(t)         2.317916                  **       0.8406685*                    B   X   3.395
+ Computer                         1.164512                      0.152302                0.495
+ Telecom                     1.099037                        0.094434               0.284
+ Medical                   1.488202                       0.3975686                 1.105
+
+Number of firms = 170 Model p-value = 0.0047
+
+* or *** mean that the coefficient is significant at the 10 percent or 1 percent l
+
+
+
+
+venture capitalist significantly increase the chances that the firm will go
+beyond its original founder to lead the firm. This evidence thus suggests
+that venture capitalists play an important role in the professionalization of
+top leadership.
+
+                                     This content downloaded from
+                   193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                             All use subject to https://about.jstor.org/terms
+184 The Journal of Finance
+
+
+               IV. Support Versus Control in CEO Turnovers
+
+  The results from the previous section suggest that venture capitalists play
+a significant role in bringing outsiders into the position of the CEO. An
+interesting question arises: How we should interpret this evidence? Differ-
+ent founders may have different attitudes toward bringing in an outside
+CEO. Some founders may want to focus their attention on other aspects of
+the business and may be glad to relinquish management control to a pro-
+fessional CEO. In this case, they may seek help from their investors in find-
+ing and convincing a new CEO to come on board. The venture capitalists can
+lend support to the process, which would point towards a cordial role for
+venture capitalists. Other founders, however, may not be inclined to relin-
+quish management control. In this case, there may be a role for the venture
+capitalists to take a control action, replacing the founder with an outsider in
+the position of CEO. This points towards an adversarial role for the venture
+capitalist.
+  While the concepts of support and control are not directly observable, one
+may attempt to find an empirical proxy. We consider what happens to the
+founders after the arrival of the new CEO. If the founder were willing to
+relinquish management control, we would expect a smooth transition, where
+the founder continues to be involved with the start-up after the arrival of
+the new CEO. The founder may want to focus on a variety of roles, such as
+taking leadership on the technological side (e.g., becoming the Chief Tech-
+nology Officer), focusing on business development (e.g., becoming the VP of
+corporate development), or simply playing a role on the board of directors.
+But if the venture capitalists need to take a control action to induce an
+involuntary turnover, we would expect a separation between the founder
+and the start-up.4
+  We therefore gathered additional evidence on whether the founder contin-
+ues to be involved with the start-up after the arrival of the outside CEO. We
+speak of an "accommodating" turnover if the founder retains some position
+in the start-up and a "separating" turnover if the founder leaves from all
+positions in the company. Accommodating turnovers point toward a situation
+where the founders are willing to work with an outside CEO and the inves-
+tors play a supporting role, in terms of facilitating the transition. Separat-
+ing turnovers, however, point more toward a situation where the arrival of
+the new CEO implies the departure of the founder, and where the investors
+play a controlling role.
+  Out of a total of 91 turnovers observed over the entire sample, we find
+that in 38 cases (i.e., in a little over 40 percent), the founders remained
+involved in their companies. Clearly both types of turnover are important.
+
+
+  4 We are careful about the fact that just leaving the company is not synonymous with a
+"separating" turnover. If a founder voluntarily leaves to pursue other interests, it is common
+practice that the founder resigns from all management positions, but retains a seat on the
+board of directors. This signals the amicable nature of the departure and we therefore think of
+it as an "accommodating" turnover. It is only when we observe no ties at all with the company
+that we consider a turnover "separating."
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+              Venture Capital and Professionalization of Start-Ups 185
+
+
+The question is, then, whether venture capitalists are associated with a par-
+ticular type of turnover event. Table VII looks at a breakdown of the effect
+of venture capital on turnover into accommodating and separating turn-
+overs. Panels A and B of Table VII consider separating turnovers by exclud-
+ing all those turnover events where the founder stayed with the start-up.
+And Panels C and D consider accommodating turnovers, by excluding all
+those turnover events where the founder left.5 The results are very similar
+across the two subsamples and the full sample. The evidence suggests that
+venture capitalists play an important role for both types of turnover.
+
+
+
+   V. The State-contingent Nature of Venture Capital Involvement
+
+   So far we have seen evidence that suggests that venture capitalists get
+involved with the professionalization of start-up firms, and that there can be
+different facets to this involvement. On the one hand, venture capitalists
+frequently concern themselves with inducing leadership changes at the top
+of the organization. On the other hand, they are involved in team building
+and professionalization further down in the organization. Presumably ven-
+ture capitalists would want to play all of these roles in the companies they
+finance, but we may ask if there are interrelationships between those roles,
+and in what development stages these roles matter most.
+  We first ask about the interrelationships between the venture capitalists'
+roles. To examine this issue, we divide our sample into two subsamples:
+firms that experience a CEO turnover and those that do not. We then rerun
+our regressions from Section II for those two subsamples. Panels A-C of
+Table VIII show the results for the two subsamples where the dependent
+variables are recruit(SA), recruit(AM), and recruit(SM), respectively. Table VIII,
+Panel D shows the results for the turnover and no turnover sample when the
+dependent variable is HRpolicy. Table VIII, Panels E and F, show the results
+for the two subsamples where the dependent variable is time-to-option-plan
+and time-to-sales-VP, respectively. In each case, the difference between the
+VC coefficients in the two subsamples is statistically not significant. We
+may thus conclude that venture capitalists play similar roles across the two
+subsamples. This implies that there are no strong interactions between the
+roles at the top and further down the organization.
+  However, the data also suggest some mild differences between the two
+subsamples. In general, we find that the venture capital variable tends to be
+somewhat larger and somewhat more significant in the sample where no
+turnover occurred. It is possible that venture capitalists do not have the
+time to fix things both at the top and further down in the organization.
+Another potential reason may be that in order to reach further down in the
+organization, the venture capitalist needs to work with the CEO. If there are
+problems working with the founder on professionalizing the company, then
+
+  5 Because there are fewer observations, there is a slight loss of power in the probit regres-
+sions. The coefficients, however, remain very similar. And the results in the duration model
+remain statistically significant even for these smaller samples.
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+                                       186 The Journal of Finance
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               factorsareasinPanelA.
+                                                                                                                                                                                                                                                                                                                                                    factorseinPlB.
+
+
+
+
+                                                                                                                                                                                                                                                       IndependentMarginalIncrease
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         TableVI
+
+
+
+
+                                                                                                                                                                                                                                                                                     PanelA:ProbitRegresion;DependentVariable:Separating-turnover                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              SeparatingversusAcomodatingCEOTurnovers
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              themaximizedvalueofthelog-likelihodfunction;logLoisthelog-likelihodcomputedonlywithaconstantterm.
+
+Numberoffirms=132Pseudo-RI2=0.0621Modelp-value=0.0524
+
+
+
+
+                                                        Medical0.106930.2819770.646 Telecom0.070560.0183140.051 Computer-0.036092-0.09386-0.304 LNage0.3678020.95606**2.728 VC(T)0.14179890.3750781.529     VariablesinProbabilityCoeficientsT-ratio
+                                                                                                                                                                                                                            This content downloaded from
+                                                                                                                                                                                                                                                                                                                                                                     time-to-acomodatingturnover,whichmeasuresthetimefromthebirthofthecompanytothedateofarivalofthefirstoutsideCEO.Other   PanelDpresentstheresultsfromaCoxregresionwithtime-varyingcovariatesforacomodatingturnovers.Thedependentvariableis                           variablethattakesthevalue1ifafirmhiredanoutsideCEOandthefoundingCEOremainedwiththecompanyinsomepositionand0otherwise.Other   founderdoesnotremainwiththecompanyafterthehiringofthenewCEO.Thedependentvariableisacomodating-turnover,whichisadumy   PanelCpresentstheresultsfromaprobitregresionforacomodatingturnovers,thatis,thesubsampleoffirmsexcludingturnoverswherethe   ormedicalindustries,respectively,and0otherwise.Ifthedependentvariableisobservedwithoutanyrealization,itistreatedasacensoredevent.   thereafter;andcomputer,telecom,andmedical,whicharedumyvariablesthattakethevalue1ifthefirmisinthecomputer,telecomunication,   variablesareVC(t),whichisatime-dependentdumyvariablethattakesthevalue0aslongasafirmhasnotreceivedventurecapitaland1   separating-turnover,whichmeasuresthetimefromthebirthofthecompanytothedateofarivalofthefirstoutsideCEO.Theindependent   PanelBpresentstheresultsfromaCoxregresionwithtime-varyingcovariatesforseparatingturnovers.Thedependentvariableistime-to-                                                                                                       darderors.Modelp-valuereportsthejointsignificanceofthecoeficientsoftheindependentvariables.Pseudo-R2=1-logL/logL0,wherelogLis   dentvariableimpliedbytheprobitcoeficientsevaluatedatthesamplemean.T-ratiosarecomputedusingWhite'sheteroskedasticity-adjustedstan-   industries,respectively,and0otherwise.Marginalincreasemeasuresthechangeinprobabilityofthedependentvariabletoachangeintheindepen-   age;andcomputer,telecom,andmedical,whicharedumyvariablesthattakethevalue1ifthefirmisinthecomputer,telecomunication,ormedical   dumyvariablethattakesthevalue1ifafirmhasreceivedventurecapitaland0otherwise;LNage,whichisthenaturallogarithmofthecompany's   1ifafirmhiredanoutsideCEOandthefounderleftfromalpositionsinthecompanyand0otherwise.TheindependentvariablesareVC,whichisa   stayswiththecompanyafterthehiringofthenewCEO.Thedependentvariableisseparatingturnover,whichisadumyvariablethattakesthevalue   PanelApresentstheresultsfromaprobitregresionforseparatingturnovers,thatis,thesubsampleoffirmsexcludingturnoverswherethefounder
+
+
+                                                                                                                                                                                                          193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                                                                                                                                                                                                                    All use subject to https://about.jstor.org/terms
+                                                                                                                                                                                                              Venture Capital and Professionalization of Start-Ups 187
+
+
+
+
+                                                                                                                                                                                                                                                                                              Independent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Independent
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         IndependentMarginalIncrease
+                                                                                  Numberoffirms=17Modelp-value=0.026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Numberoffirms=132Modelp-value=0.0748
+
+
+
+
+ormeanthatthecoeficientissignificantatthe5percentor1percentlevels,respectively.
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       PanelC:ProbitRegresion;DependentVariable:Acomodating-turnover                                                                                                                                                                                                                               PanelB:CoxRegresion;DependentVariable:Time-to-separating-turnover
+
+                                                                                                                                                                                                                                                                                                            PanelD:CoxRegresion;DependentVariable:Time-to-acomodating-turnover
+                                                                                                                                                                                                                                                                                                                                                                                 Numberoffirms=17Pseudo-R2=0.0759Modelp-value=0.0453
+
+
+
+
+                                                                                                                       Medical3.7491528*1.32153*1.987 Telecom1.756760.56348010.834 Computer2.074040.69684241.137 VC(t)2.670197**0.9821523**2.528      VariablesHazardRatioCoeficientT-ratio                                                                                                                                            Medical0.3756906*"0.984206*2.03 Telecom0.149690.3915090.830 Computer0.1612630.47515031.186 LNage0.21615650.61205321.536 VC(T)0.13754670.40154311.464   VariablesinProbabilityCoeficientsT-ratio                                                                                                                                        Medical1.0504630.04923130.10 Telecom0.9173724-0.0862418-0.214 Computer0.8456732-0.167623-0.450 VC(t)2.421437**0.84361**2.789   VariablesHazardRatioCoeficientT-ratio
+                                                                                                                                                                                                                                                                     This content downloaded from
+                                                                                                                                                                                                                                                   193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                                                                                                                                                                                                                                                             All use subject to https://about.jstor.org/terms
+ 188 The Journal of Finance
+
+                                               Table VIII
+
+           The Interaction of Team-building and CEO Turnover
+Panels A-C report regressions that are identical to those presented in Table II, Panels A-C,
+except that the regressions are run in two subsamples: The sample of companies that experi-
+enced a turnover, and those that did not experience a turnover. Panels D, E, and F reports
+regressions that are identical to the one presented in Tables III, IV, and V respectively, with the
+caveat-the regressions are run in two subsamples: The sample of companies that experienced
+a turnover, and those that did not experience a turnover.
+
+
+                                     If Thrnover = 1 If Thrnover 0
+  Independent
+    Variables Coefficient T-ratio Coefficient T-ratio
+
+                 Panel A: Probit Regression; Dependent Variable: Recruit(SA)
+
+ VC       0.7888307                    1.530            1.126228                k*I   2.040
+ LNage           0.3765616                   0.677            -0.2494935              -0.353
+ Computer 0.0557878 0.098 -0.6133305 -0.854
+ Telecom 0.0615289 0.101 -1.633219 I -1.916
+Medical -0.4010684 -0.658 -0.8711714 - 1.047
+ Constant               -0.8229447                    -0.560            1.560968       0.823
+
+ Number                       of         firms                  58         41
+ Pseudo-R                       2     0.0488                  0.1862
+ Model             p-value                 0.6506               0.2309
+
+
+                 Panel B: Probit Regression; Dependent Variable: Recruit(AM)
+
+
+ vc 1.082398** 2.154 1.928223 R H I 3.266
+ LNage            0.7272306                     1.317            0.6991546            1.046
+ Computer 0.6879628 1.215 -0.9699655 -1.255
+ Telecom -0.1905132 -0.326 -1.530711-1 -1.691
+ Medical            0.3404197                   0.533          -0.8229691             -0.980
+ Constant              -2.266388                  -1.562            -1.262842         -0.707
+
+ Number                       of         firms                  59         41
+ Pseudo-R                       2     0.1090                  0.3057
+ Model             p-value                 0.2139               0.0111
+
+
+                 Panel C: Probit Regression; Dependent Variable: Recruit(SM)
+
+
+ VC(T) 0.0889817 0.187 1.117654 * 2.160
+ LNage -0.4718662 -0.944 -1.762467-1-1 -2.190
+ Computer -0.0971634 -0.174 -0.9243682 ' -1.740
+  Telecom                        0.1947836                              0.311         0     ?
+ Medical            0.7652766                   1.071          -0.1568579             -0.223
+ Constant               1.674619                  1.279           4.567973*-           2.484
+
+ Number                       of         firms                   59        41
+ Pseudo-RI2                           0.0560                  0.2577
+ Model             p-value                 0.6732                0.0092
+
+                                                                                          continued
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+                Venture Capital and Professionalization of Start- Ups 189
+
+                                         Table VIII-Continued
+
+
+                                      If Turnover = 1 If Thrnover 0
+  Independent
+    Variables Coefficient T-ratio Coefficient T-ratio
+
+                    Panel D: Probit Regression; Dependent Variable: HRpolicy
+
+
+ VC        1.407048*                    1.851             1.544036-i"R                2.877
+ LNage             -1.269377*                     -2.031             -0.40047         -0.612
+ Computer                 -1.255746**                   -2.084           0.1366377     0.222
+Telecom                 -1.493856**                 -2.341           -0.8016821       -1.060
+Medical                 -1.388619*"                 -2.193            -1.155917       -1.293
+ Constant                2.842274*                 1.751           -0.1776248         -0.106
+
+ Number                         of         firms                  50         42
+ Pseudo-R                         2     0.1672                  0.2490
+ Model                  p-value              0.0507               0.0308
+
+
+               Panel E: Cox Regression; Dependent Variable: Time-to-option-plan
+
+ VC(t)           0.5558378                    1.429            1.069102HI             2.230
+ Computer                 -0.2730287                  -0.589           1.646073   *    2.360
+Telecom -0.2024297 -0.399 2.756569 I 4** 3.717
+ Medical                -0.3692889                  -0.682            0.7241106        0.816
+
+ Number                         of         firms                  57         38
+ Model                  p-value              0.5246               0.0001
+
+                 Panel F: Cox Regression; Dependent Variable: Time-to-sales-VP
+
+
+ VC(t)           0.6608867**                       2.302            0.6812879         1.545
+ Computer                  0.4171708                 1.087          -0.3671893        -1.064
+ Telecom                0.3453134                 0.796           -0.4343757          -0.591
+ Medical                0.2986724                0.723           -0.3646467           -1.073
+
+ Number                         of         firms                  66         33
+ Model                  p-value              0.1937               0.4089
+
+  o      To         run              the             probit,                     we    had           to
+perfectly. We reran the regression dropping all the telecom observations with similar results.
+   ** or mean that the coefficient is significant at the 10 percent, 5 percent, or 1 percent
+levels, respectively.
+
+
+
+
+the venture capitalist brings in a new CEO.6 But in either case, the differ-
+ences are not pronounced, suggesting that venture capitalists provide a fairly
+consistent role across companies, helping develop human resources. This is
+
+
+   6 To further examine this interpretation, we also reran the regressions of Table V
+tioning the subsamples on whether there was a separating turnover. We again found similar
+results, which is consistent with the notion that there are some conflicts between founders and
+venture capitalists. Note also that this interpretation is consistent with the notion that venture
+capitalists professionalize companies by making them less dependent on their founders. What
+matters is not so much whether the founder is replaced, but whether (s)he is replaceable. See
+also Rajan and Zingales (1999) and Zingales (2000).
+
+
+
+
+                                      This content downloaded from
+                    193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                              All use subject to https://about.jstor.org/terms
+190 The Journal of Finance
+
+
+consistent with the ex ante evidence in Kaplan and Stromberg (2000b) that
+venture capitalists expect to play a role in developing the managerial team.
+ Next we ask at what stages venture capitalists focus on founder replace-
+ments. For instance, is it possible for a company to attract an outside CEO
+if it has yet to prove its viability? While it may be important for a company
+to get an outside CEO in the earlier stages of development, it may also be
+harder for the company to attract a CEO before reaching key milestones,
+such as having a product on the market or even going public.
+  To examine how turnovers are related to the underlying state of the com-
+pany, we unfortunately do not have the benefit of any reliable performance
+data. Since we sample private companies, there are no stock prices, and we
+do not have balance sheet or profit-and-loss statements for our sample com-
+panies. To measure the state that a company is in, we therefore have to use
+a very coarse yet fairly intuitive measure. In particular, we identify three
+distinct stages in the development of the company. A first important mile-
+stone in the development of a start-up is to bring a product to market (see
+also Hellmann and Puri (2000)). Prior to having a product on the market,
+there is considerable uncertainty about the viability of a company's business
+plan. As such, we can think of a company without a product on the market
+as being in a more fragile position than those with a product on the market.
+A second important milestone is when a company goes public. To go public,
+a company has to meet many criteria that provide some assurances about its
+viability and quality. We thus distinguish between three states. If a firm has
+gone public, we call the state IPO; if it has a product on the market, we call
+the state product; and if the firm has neither a product on the market, nor
+has it gone public, we call the state nothing-to-show. We evaluate the state
+of the company at the time of the first turnover or otherwise at the end of
+the sample period.
+  We divide our sample into three subsamples and ask whether the rate of
+turnover is similar across these subsamples. We find that the rates are very
+similar with the difference not being statistically significant. This, however,
+does not yet reveal anything about whether venture capitalists behave dis-
+tinctly in those different states. For that, we rerun the results from Sec-
+tion III to examine when the effect of venture capital on turnover is particularly
+important. Table IX shows the results from both the Probit and the Cox
+regressions for the respective subsamples. Both of these two estimation mod-
+els show the same pattern. The effect of venture capital is strongest for
+companies that have nothing to show yet, is still strong for companies with
+a product on the market, and it becomes insignificant for companies that
+have already gone public. These results suggest that there is some state-
+contingency to the exercise of control by venture capitalists. If the company
+is already well on track and the founders can point to having achieved some
+milestones, venture capitalists are not more likely than other investors to
+replace the founders with an outside CEO. But in those states where the
+company does not have much to show, venture capitalists play a significant
+role in attracting professional CEOs.
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+                Venture Capital and Professionalization of Start-Ups 191
+
+
+                                               Table IX
+
+                The State-contingent Effects in CEO Turnover
+Panels A and B report regressions that are identical to the one presented in Table VI, Panels A
+and B respectively, except that the regressions are run in three subsamples: the sample of
+companies that experienced clear sign of success, such as an IPO; the sample of firms that have
+some sign of progress, such as a product on the market; and those who have no concrete evi-
+dence of progress, that is, neither IPO nor product.
+
+                          IPO State Product State Nothing-to-show State
+  Independent
+    Variables Coefficient T-ratio Coefficient T-ratio Coefficient T-ratio
+
+
+                      Panel A: Probit Regression; Dependent Variable: Turnover
+
+VC(T) -0.459174 -0.579 0.5471696-- 1.923 2.308881*" 3.362
+LNage 1.051509 1.475 1.430092l Bl 3.329 1.338967 1.513
+Computer -0.939615 -1.164 0.4613404 1.284 0.9386687 1.199
+Telecom -0.4654517 -0.598 0.824938 ' 1.697 - 1.54289 I -1.740
+Medical -0.0422916 -0.050 0.6905522 1.157 1.318186 1.386
+Constant -1.661827 -0.831 -3.801519 I B , -3.568 -3.891526 I -1.820
+
+ Number                     of         firms                  45         96      29
+ Pseudo-R                 2     0.2433              0.1464               0.3877
+ Model          p-value              0.1136            0.0038             0.0040
+
+                   Panel B: Cox Regression; Dependent Variable: Time-to-turnover
+
+
+VC(T) 0.3406719 0.416 1.064003 3.448*** 2.588803""' 4.095
+Computer -0.8007438 -1.095 0.4468177 1.191 1.319213I' 1.831
+Telecom -0.0765131 -0.096 0.7163346 1.587 -0.9661981 -0.779
+Medical 0.0294689 0.045 0.5817608 1.063 2.651634 I I 2.983
+
+ Number                      of        firms                  45         96      29
+ Model          p-value              0.6481            0.0022             0.0003
+
+
+ *        or    ***         mean                that            the            coefficient        is
+
+
+
+
+   We also reran those regressions for accommodating and separating turn-
+overs, and obtained very similar results. Separating turnovers of companies
+with few signs of success might be a manifestation of a company in trouble.
+In this case, the evidence suggests that venture capitalists are particularly
+good at imposing control if the firm is in a difficult state.7 And the result on
+accommodating turnovers in companies with few signs of success suggests
+that venture capitalists may allow companies to attract a new CEO in a
+fragile state when other companies have greater difficulty in accessing out-
+side CEOs.
+   This last result also highlights the importance of our overall approach of
+looking at nonpublic companies. In fact, we find that the effect of venture
+capital is much more pronounced when companies are still private. Hence,
+
+
+
+   7 This effect is along the lines of the theory of contingent control by Aghion and Bolton
+(1992).
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+ 192 The Journal of Finance
+
+
+looking only at companies when they are public can obscure some of the
+important contributions that investors can have on the companies they finance.
+
+
+
+          VI. Robustness Checks and Alternative Explanations
+
+  In this section, we discuss some robustness checks as well as some alter-
+native explanations of our results.
+  A concern with the data is potential survivorship bias, since companies are
+not sampled at birth. A number of arguments, however, suggest that this
+survivorship bias is relatively minor. First, in terms of sampling design, a
+particular effort was made to include many young companies, precisely to
+reduce any survivorship bias. As a consequence, our sample captures firms
+at a much earlier stage than most other databases. Further, unlike many
+other studies in finance relating to venture capital, ours is able to sample
+companies independent of their financial choices. In fact, our sampling cri-
+terion is essentially based on the existence of the company, and not on any
+endogenous financial measure. In particular, our sampling criteria is not
+affected in any way by the firm getting venture capital. Second, a number of
+companies fail within our sample and we estimate a probit to see if the
+probability of failing is systematically related to any known characteristic.
+We find that neither the presence of venture capital, age of the firm, turn-
+over, nor industry effects are statistically significant in predicting exit from
+the sample. The within-sample behavior thus suggests that survivorship is-
+sues are unlikely to have a major effect on our results. Another potential
+issue could be that the companies in our sample are unusually successful, as
+82 out of 170 companies go public in our dataset. This is a little higher than
+the average IPO rate of venture capital investments, which (based on Ven-
+ture Economics) is around 30 percent for the industries and time period we
+consider. We therefore reran our regressions on the subsample of companies
+that did not go public. We found that the effect of venture capital was qual-
+itatively similar and sometimes quantitatively even stronger.8
+  A second concern with the survey evidence might be that of response bias.
+Not all firms responded to our survey questions, raising the question of
+whether there is any systematic bias in our responses that might affect some
+of our results. Our main survey question asks firms whether investors (ven-
+ture capitalists or other financiers) were influential in shaping the human
+resource policies of the firm. Our results here are robust if we include only
+those firms where we know there is an external investor. We also do selec-
+tivity adjustments to correct for potential response bias (see Greene (1997)).
+We implement selectivity adjustments in the following manner. First, we
+estimate a probit where the dependent variable is 1 if we obtained a re-
+
+   8 Related to this, we also examined the issue that our results might be affected b
+that a few companies in our sample do not obtain any external financing. All the results in the
+paper are qualitatively similar if we limit our sample to include only those firms where we
+know that there is an external investor.
+
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+              Venture Capital and Professionalization of Start-Ups 193
+
+
+sponse from the firm on our survey question and 0 otherwise. The indepen-
+dent variables include VC, turnover, LNage, and industry controls. We use
+the estimates of the coefficients in the probit equation to form the expected
+value of the residuals, conditional on obtaining a response. This is the in-
+verse Mills ratio. In the second step, we rerun the regression in Table III
+where the dependent variable is HRpolicy, but now additionally include the
+inverse Mills ratio obtained from the first step regression. We find that even
+after taking this selectivity correction into account, the coefficient on VC is
+positive and significant, suggesting that our results are not being driven by
+response bias.9
+  A natural question to ask about our results is whether selection might
+play a role. There are two kinds of selection that might occur. The first kind
+of selection, which is entirely consistent with our results, arises in an equi-
+librium where entrepreneurs choose their investors on the basis of the sup-
+port they expect to receive. In such an equilibrium, venture capitalists provide
+a greater level of support, and firms pick venture capital expecting to re-
+ceive such support in equilibrium. Selection of this kind would only reinforce
+the positive role of venture capital that we identify.
+  A somewhat different question, however, is whether the observed effect on
+professionalization is only due to the selection of companies venture capital-
+ists finance, and the actual presence of the venture capitalist per se has no
+effect at all. There are two main ways to deal with this type of selection bias.
+One can deal with it econometrically in a regression framework. Alterna-
+tively, one can deal with it through the experiment design, by having a num-
+ber of different tests and data and checking the consistency of all the results
+with alternate explanations.
+   We deal with selection bias econometrically in two ways. The first way is
+through selectivity methods. We can account for the possibility that obtain-
+ing venture capital is based on observable characteristics by doing a Heck-
+man correction. This involves regressing whether the firm obtains venture
+capital or not on known characteristics such as age and industry. We use the
+estimates of the probit to form estimates of the inverse Mills ratio. We sub-
+stitute the VC dummy variable with the inverse Mills ratio in the probit
+regressions of turnover, teambuilding, etc. Our results are qualitatively sim-
+ilar, suggesting that selection on observables is not driving our results. Al-
+ternatively, if one examines the probit regression of venture capital, the firm's
+industry is the only significant variable. Roughly half of our sample is in the
+computer industry. Hence a clean way to account for such selection is to
+rerun all our regressions in the computer industry. Again, our results are
+qualitatively similar.
+  A second way of dealing with the issue of alternative explanations, such as
+selection, is through the experiment design, by creating a number of tests
+
+
+  9 We also perform similar selectivity bias adjustments for the survey questions that deal
+with recruitment from business and professional contacts. The results are again quite similar,
+suggesting that our survey results are not being driven by response bias.
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+194 The Journal of Finance
+
+
+with different kinds of data and checking the consistency with various ex-
+planations. Any alternate explanation, including one based on selection, would
+have to explain all our results. It is unclear how some of the results, such as
+the state-contingent nature of CEO turnovers, and the substitutability be-
+tween CEO replacement versus team building could be explained on the
+basis of selection alone. Further, one of the advantages of this paper is that
+it uses different kinds of data to get at the same set of issues. For example,
+the result on the recruitment process could be affected by selection: It might
+be that venture capitalists prefer to invest in companies that also have a
+professional recruitment process. But the selection argument does not apply
+to the results on human resource policies, since the survey question explic-
+itly asked for the influence that investors have. For the CEO turnover re-
+sults (as well as the other timing events), the issue of selection is somewhat
+different. One of the strengths of the duration analysis is that it explicitly
+takes timing into account. In all our duration models, venture capital pre-
+dates the occurrence of the events. The only way that selection effects would
+enter here is through expectations of future events. But if anything, this
+kind of selection should affect our results in the opposite way. If there were
+an anticipation of a future replacement of the founder with an outside CEO,
+then we would expect those entrepreneurs who are most at risk to be less
+likely to select venture capital. The point that selection alone cannot account
+for the observed pattern is further corroborated by the fact that we continue
+to find a strong venture capital effect when we examine only those turnovers
+where there is a separation of the founders from their own firms.10
+
+
+
+                                        VII. Conclusion
+
+  In this paper, we examine the hypothesis that venture capitalists play a
+role beyond the traditional roles of financial intermediaries. We provide evi-
+dence for the role of venture capital in the professionalization of start-up
+companies. Obtaining venture capital is related to a variety of organiza-
+tional milestones, such as the formulation of human resource policies, the
+adoption of stock option plans, or the hiring of a VP of sales and marketing.
+Firms with venture capital are also more likely and faster to replace the
+founder with an outsider in the position of the CEO. Interestingly, however,
+founders often remain with the company, even after the CEO transition. The
+effect of venture capital is also particularly pronounced in the early stages of
+a company's development.
+
+
+  10 Another related concern may be that there could be some interrelated contracting, where
+the acceptance of a new CEO is conditional on obtaining venture capital, or vice versa. In this
+case, we would expect the new CEO to appear around the time venture capital is obtained. Out
+of a total of 91 companies that had a turnover event, only three occurred in a six-month window
+around the date of obtaining venture capital and six in a one-year window. This suggests that
+the results are not due to conditional contracts, where the turnover event is an automatic
+consequence of obtaining venture capital.
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+            Venture Capital and Professionalization of Start-Ups 195
+
+
+  The paper is of interest to the growing literature on the theory of firm,
+providing evidence on a question that has received surprisingly little atten-
+tion so far, namely the process by which resources are put together into a
+new firm. The paper contributes to the large literature on corporate gover-
+nance, which has tended to focus on large, public companies. In contrast, our
+analysis shows that the effect of venture capitalists in corporate governance
+is important particularly when companies are still private. And the paper
+speaks to the large literature on the role of financial intermediaries. This
+literature generally documents that financial intermediaries play a moni-
+toring role, gathering information about individual firms. This paper, as
+well as complementary work by Hellmann and Puri (2000) and Kaplan and
+Stromberg (2000a, 2000b, 2001), suggests that at least in the context of ven-
+ture capital, investors can play a much larger role.
+  The fundamental insight that there is more to venture capital than money
+and monitoring suggests some new research direction. On a theoretical level,
+we need to recognize that investors may gather information not merely about
+firms, but also for firms. When modeling financial intermediaries, it is im-
+portant to capture these support functions wherein venture capitalists exert
+costly effort to give inputs, which increase the value of the firm. On the
+empirical side, this line of research raises a number of interesting questions.
+To what extent do other financial intermediaries, especially banks, provide
+similar support functions? And to what extent does this depend on the eco-
+nomic environment (e.g., whether banks can or cannot hold equity)? This
+paper hopes to provide a starting point for further theoretical and empirical
+research on these important questions.
+
+
+
+                                          Appendix
+
+ A standard procedure for dealing with duration data is to employ a hazard
+model (see Kalbfleisch and Prentice (1980), Kiefer (1988)). To proceed, we
+have to specify the exact nature of our hazard model. We can choose from a
+number of parametric models (such as Weibull) or we can use a semipara-
+metric model. The parametric models are attractive because of their sim-
+plicity, but by imposing as much structure as they do, the models can distort
+the estimated hazard rate. Since fewer restrictions can result in a more
+accurate representation, we use the Cox proportional hazard model, a com-
+mon choice among researchers for modeling duration. The formal model is
+
+
+                              h(t) = h0(t)exp{,8'X(t)}. (Al)
+
+
+Cox's partial likelihood estimator does not impose any structure on the base-
+line hazard, ho(t), and provides a way of estimating /8 without requirin
+estimates of ho(t). Suppose the complete durations are ordered t1 < t2 < ... <
+tn. The risk set with respect to any moment of time is the set of firms that
+have not yet exited just prior to that time. The conditional probability that
+
+
+
+                                 This content downloaded from
+               193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                         All use subject to https://about.jstor.org/terms
+ 196 The Journal of Finance
+
+
+observation i exits at time ti, given that any of the observations in the risk
+set Ri could have been concluded at duration ti, is
+
+
+                                               exp{/3'Xi (t)} (A2)
+                                          I exp{/8'Xj(t)} (
+                                        jERi
+
+
+  This conditional probability is independent of the baseline hazard func-
+tion. The partial log likelihood is
+
+                                    n
+
+
+                         In L = E | fXi -Eexp1,8'Xj} I (A3)
+                                    i=l          L   jERi           J
+
+
+  Technically, this is for the simplest case where exactly one firm exits at
+each distinct time and there are no censored observations. The partial log
+likelihood can handle censoring easily, which is one of the features of our
+data. An observation whose spell is censored between duration tj a
+appears in the summation in the denominator of the likelihood function of
+observation i through j, but not in any others, and does not enter in the
+numerator. To account for the fact that the same firm can appear repeatedly
+in the risk pools, we compute standard errors as in Lin and Wei (1989).
+  Note that the dependent variable can vary over time, a feature that we
+will use in our estimation. We report both the coefficients and the hazard
+ratios (i.e., the relative risks). A positive coefficient on x implies a higher x
+is linked to a higher hazard rate and thus a lower expected duration. For
+ease of interpretation, we also give the hazard ratios. The hazard ratio tells
+us how much the hazard (i.e., the instantaneous risk) of the event increases
+for a unit change in the independent variables. In the case of a dummy
+variable, this is equal to the ratio of the (instantaneous) probabilities of the
+two possible states. A coefficient greater than one implies a higher hazard
+rate and thus a lower expected duration.
+
+
+                                               REFERENCES
+
+Admati, Anat, and Paul Pfleiderer, 1994, Robust financial contracting and the role of venture
+    capitalists, Journal of Finance 49, 371-402.
+Aghion, Philippe, and Patrick Bolton, 1992, An incomplete contracts approach to financial con-
+    tracting, Review of Economic Studies 59, 473-494.
+Baker, Malcolm, and Paul Gompers, 1998, An analysis of executive compensation, ownership,
+    and control in closely held firms, Mimeo, Harvard Business School.
+Baron, James, Diane Burton, and Michael Hannan, 1996a, The road taken: Origins and evo-
+    lution of employment systems in emerging companies, Industrial and Corporate Change,
+    239-275.
+Baron, James, Diane Burton, and Michael Hannan, 1996b, Inertia and change in the early
+    years: Employment relations in young, high technology firms, Industrial and Corporate
+    Change, 503-535.
+Baron, James, Diane Burton, and Michael Hannan, 1999, Engineering bureaucracy: The gen-
+    esis of formal policies, positions, and structures in high-technology firms, Journal of Law,
+    Economics, and Organization 15, 1-41.
+
+
+
+                                    This content downloaded from
+                  193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                            All use subject to https://about.jstor.org/terms
+              Venture Capital and Professionalization of Start- Ups 197
+
+Barry, Chris, 1994, New directions in research on venture capital finance, Financial Manage-
+    ment 23, 3-15.
+Bolton, Patrick, and David Scharfstein, 1999, Corporate finance, the theory of the firm and
+    organization, Journal of Economic Perspectives, 12(4), 95-114.
+Burton, Diane, 1996, The emergence and evolution of employment systems in high-technology
+    firms, Unpublished Ph.D. dissertation, Department of Sociology, Stanford University.
+Bygrave, William, and Jeffry Timmons, 1992, Venture Capital at the Crossroads (Harvard Busi-
+    ness School Press, Cambridge, MA).
+Diamond, Douglas, 1984, Financial intermediation and delegated monitoring, Review of Eco-
+    nomic Studies LI, 393-414.
+Fama, Eugene, 1985, What's different about banks? Journal of Monetary Economics 15, 29-39.
+Fenn, George, Nellie Liang, and Stephen Prowse, 1995, The economics of private equity mar-
+    kets, Staff study 168, Board of Governors of the Federal Reserve System.
+Gompers, Paul, 1995, Optimal investment, monitoring, and the staging of venture capital, Jour-
+    nal of Finance 50, 1461-1489.
+Gompers, Paul, and Josh Lerner, 2000, Money chasing deals? The impact of fund inflows on the
+    valuation of private equity investments, Journal of Financial Economics 55, 281-325.
+Gorman, Michael, and William Sahlman, 1989, What do venture capitalists do? Journal of
+   Business Venturing 4, 231-248.
+Greene, William, 1997, Econometric Analysis (Prentice Hall, New Jersey).
+Hart, Oliver, 1995, Firms, Contracts and Financial Structure, Oxford University Press, Oxford.
+Hellmann, Thomas, 1998, The allocation of control rights in venture capital contracts, Rand
+    Journal of Economics 29, 57-76.
+Hellmann, Thomas, and Manju Puri, 2000, The interaction between product market and fi-
+    nancing strategy: the role of venture capital, Review of Financial Studies 13, 959-984.
+Kalbfleisch, John D., and Ross L. Prentice, 1980, The Statistical Analysis of Failure Time Data
+    (Wiley, New York).
+Kang, Jun-Koo, and Anil Shivdasani, 1997, Corporate restructuring during performance de-
+    clines in Japan, Journal of Financial Economics 46, 29-65.
+Kaplan, Steven, and Bernadette Minton, 1994, Appointments of outsiders to Japanese boards:
+    Determinants and implications for managers, Journal of Financial Economics 36, 225-258.
+Kaplan, Steven, and Per Stromberg, 2000a, Financial contracting meets the real world: An
+    empirical study of venture capital contracts, Working paper, University of Chicago.
+Kaplan, Steven, and Per Stromberg, 2000b, How do venture capitalist choose investments?
+    Working paper, University of Chicago.
+Kaplan, Steven, and Per Stromberg, 2001, Venture capitalists as principals: Contracting, screen-
+    ing and monitoring, American Economic Review, 91(2), 426-430.
+Kiefer, Nicholas M., 1988, Economic Duration Data and Hazard Functions, Journal of Economic
+    Literature, 26, 646-679.
+Lerner, Josh, 1995, Venture capitalists and the oversight of private firms, Journal of Finance
+    50, 301-318.
+Lin, D., and L. Wei, 1989, The robust inference for Cox proportional hazard models, Journal of
+    American Statistical Association 84, 1074-1078.
+Rajan, Raghuram, and Luigi Zingales, 1999, The firm as a dedicated hierarchy: A theory of the
+    origin and growth of firms, Mimeo, Graduate School of Business, University of Chicago.
+Sahlman, William, 1990, The structure and governance of venture capital organizations, Jour-
+    nal of Financial Economics 27, 473-521.
+Saxenian, Annalee, 1994, Regional Advantage (Harvard University Press, Cambridge, MA).
+Shleifer, Andrei, and Robert Vishny, 1997, A survey of corporate governance, Journal of Finance
+    52, 737-783.
+Stiglitz, Joseph, 1985, Credit markets and the control of capital, Journal of Money, Credit and
+    Banking 17, 133-152.
+White, Halbert, 1980, A heteroskedascity-consistent covariance matrix estimator and a direct
+   test for heteroskedascity. Econometrica 48, 817-838.
+Zingales, Luigi, 2000, In search of new foundations, Journal of Finance 55, 1623-1653.
+
+
+
+
+                                       This content downloaded from
+                     193.205.21.160 on Mon, 16 Nov 2026 14:06:15 UTC
+                               All use subject to https://about.jstor.org/terms
+

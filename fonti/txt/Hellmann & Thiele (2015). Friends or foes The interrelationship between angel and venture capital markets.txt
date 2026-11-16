@@ -1,0 +1,1176 @@
+                                                        Journal of Financial Economics 115 (2015) 639–653
+
+
+
+                                                      Contents lists available at ScienceDirect
+
+
+                                              Journal of Financial Economics
+                                             journal homepage: www.elsevier.com/locate/jfec
+
+
+
+
+Friends or foes? The interrelationship between angel
+and venture capital markets$
+Thomas Hellmann a,n, Veikko Thiele b
+a
+    University of Oxford, Saïd Business School, Park End Street, Oxford OX1 1HP, United Kingdom
+b
+    Queen's University, Queen's School of Business, Goodes Hall, 143 Union Street, Kingston, Ontario, Canada K7L 4V1
+
+
+
+
+a r t i c l e i n f o                                   abstract
+
+Article history:                                        This paper develops a theory of how angel and venture capital markets interact.
+Received 10 September 2013                              Entrepreneurs first receive angel then venture capital funding. The two investor types
+Received in revised form                                are ‘friends’ in that they rely upon each other's investments. However, they are also ‘foes,’
+20 June 2014
+                                                        because at the later stage the venture capitalists no longer need the angels. Using a costly
+Accepted 27 June 2014
+                                                        search model we derive the equilibrium deal flows across the two markets, endogenously
+Available online 24 October 2014
+                                                        deriving market sizes, competitive structures, valuation levels, and exit rates. We also
+JEL classification:                                     examine the role of legal protection for angel investments.
+D53                                                                                                         & 2014 Elsevier B.V. All rights reserved.
+D83
+G24
+L26
+
+Keywords:
+Entrepreneurship
+Angel investors
+Venture capital
+Start-ups
+Search
+
+
+
+
+1. Introduction                                                                     source of early stage funding for entrepreneurs. According
+                                                                                    to Crunchbase (www.crunchbase.com) the US angel mar-
+   Investments by wealthy individuals into start-up com-                            ket grew at an annual rate of 33% between 2007 and 2013.
+panies are typically referred to as angel investments. Over                         In a 2011 report of the Organisation for Economic
+the last decade angels have become a more important                                 Co-operation and Development (OECD), the size of the
+                                                                                    angel market was estimated to be roughly comparable to
+                                                                                    the venture capital (VC henceforth) market (OECD, 2011).
+  ☆
+    We would like to thank an anonymous referee, Einar Bakke, Holger                For 2009, the report estimates the US (European) venture
+Rau, Ralph Winter, conference participants at the Annual International              capital market at $18.3B ($5.3B), and the US (European)
+Industrial Organization Conference (IIOC) in Boston, the Canadian
+                                                                                    angel market at $17.7B ($5.6B). The rise of the angel
+Economics Association Annual Meeting in Montreal, the Conference on
+Entrepreneurship and Finance in Lund, and seminar participants at                   market coincides with a shift in VC investments towards
+Queen's University and the University of Rochester (Simon) for valuable             doing more later-stage deals. As a result the funding path
+comments and suggestions. This project was in part funded by a SSHRC                of growth-oriented start-ups typically involves some
+research grant.                                                                     initial funding from angels, with subsequent funding
+  n
+    Corresponding author.
+    E-mail addresses: thomas.hellmann@sbs.ox.ac.uk (T. Hellmann),
+                                                                                    coming from venture capitalists (VCs henceforth). Face-
+vthiele@business.queensu.ca (V. Thiele).                                            book and Google, two of the most successful start-ups in
+
+http://dx.doi.org/10.1016/j.jfineco.2014.10.009
+0304-405X/& 2014 Elsevier B.V. All rights reserved.
+640                                 T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+recent history, both received angel financing prior to                       capture the basic interdependencies between angels and
+obtaining VC.                                                                VCs: angels invest first but need the VCs to take advantage
+   With this bifurcation in the funding environment of                       of a company's growth options. Central to the model are
+entrepreneurial companies, the question arises how these                     two feedback loops. The first is the forward loop of how
+two types of investors interact, and whether angels and                      the angel market affects the VC market. The key linkage is
+VCs are friends or foes? Angels have limited funds and                       that outflow of successful deals in the angel market
+typically need VCs to provide follow-on funding for their                    constitutes the deal inflow in the VC market. Here, we
+companies. At the same time VCs rely on angels for their                     can think of angels and VCs as ‘friends.’ The second is the
+own deal flow. As they play complementary roles in the                       backward loop of how the VC market affects the angel
+process of financing new ventures it might seem that                         market. The key linkage here is that the utilities of the
+angels and VCs should be friends. However, in practice                       entrepreneurs and angels at the VC stage affect the entry
+angels and VCs often see each other as foes. In particular,                  rates of entrepreneurs and angels at the angel stage. A key
+there is a concern about so-called “burned angels.” Angels                   insight is that at the VC stage, VCs no longer need the
+frequently complain that VCs abuse their market power by                     angels to make the investment. The angels' investment is
+offering unfairly low valuations. Expectations of low                        sunk and they provide no further value to the company.
+valuations at the VC stage then affect the willingness of                    This creates a primal friction between angels and VCs, i.e.,
+angels to invest in early stage start-ups. Michael Zapata, an                this is where angels and VCs become ‘foes.’
+angel investor, explains it as follows (Holstein, 2012):                         Second, we draw on the search literature. Inderst and
+                                                                             Müller (2004) explain how a search model à la Diamond-
+      In cases where the VCs do see a profit opportunity, they               Mortensen-Pissarides allows for a realistic modeling of
+      have become increasingly aggressive in low-balling the                 imperfect competition in the VC market. We expand their
+      managements and investors of emerging companies by                     model to two interconnected markets. We also augment
+      placing lower valuations on them. […] Angels call these                their specification with a death rate for entrepreneurs. Our
+      actions ‘cram downs’ or ‘push downs’. The market has                   model highlights the consequences of imperfect competi-
+      been very rough on the VCs and they are making it                      tion in the VC market on the angels' bargaining position:
+      tougher on the angels. They are killing their future deal              while a monopolist VC would have a lot of power over
+      flow by cramming them down, crashing them out.                         angels, such bargaining power gets dissipated in a more
+                                                                             competitive VC market.
+    The main objective of this paper is to examine the                           Third, to examine further determinants of the relative
+interdependencies between two types of investors, angels                     bargaining strengths of entrepreneurs, angels, and VCs, we
+and VCs. Our goal is to provide a tractable model of the                     consider the issue of minority shareholder protection (La
+equilibrium dynamics between two sequentially related                        Porta, Lopez-de-Silanes, Shleifer, and Vishny, 2000). In his
+markets, and generate a rich set of empirical predictions.                   work on the “burned angels” problem, Leavitt (2005)
+We are particularly interested in identifying the under-                     provides a detailed legal analysis of the vulnerabilities of
+lying determinants of market size and market competition                     angels at the time of raising VC. As new investors, VCs can
+(which depends on the entry rates of entrepreneurs,                          largely dictate terms. They can also use option grants as a
+angels, and VCs), as well as company valuations and                          way of compensating the entrepreneur for the low valua-
+success rates. Special attention is given to analyzing the                   tion offered to angels. Leavitt argues that legal minority
+full equilibrium implications of the “burned angels”                         shareholder protection can mitigate the burned angel
+problem.                                                                     problem, but cannot fully resolve it. Based on this, we
+    From a theory perspective, the challenge is to obtain a                  consider a hold-up problem between the angel and the
+model of the two connected markets that generates                            entrepreneur at the time of the follow-up round. The term
+tractable comparative statics for key variables. To this                     “hold-up” only applies for the ex post relationship
+effect we develop a search model with endogenous entry                       between angel and entrepreneur. The VC cannot hold up
+by entrepreneurs, angels, and VCs. Companies require                         the angel or the entrepreneur, as he has no prior contrac-
+angels for seed investments, and could require VC for                        tual relationship with them. In our context hold-up means
+funding their growth options. The model generates pre-                       that the entrepreneur colludes with the VC to pursue the
+dictions about the level of competition in both the angel                    venture alone without the angel. While the threat remains
+and VC markets. It predicts the expected length of fun-                      unexercised in equilibrium, the hold-up potential redis-
+draising cycles (i.e., the time it takes to raise angel and VC               tributes rents from the angel to the entrepreneur and VC.
+funding), as well as the rate at which companies fail,                       Our analysis traces out the equilibrium effects that such
+progress from the angel to the VC market, or achieve an                      hold-up has on the returns and investment levels of angels
+exit. We also derive equilibrium company valuations at                       and VCs.
+both the angel and VC stage.                                                     Our model generates a large number of comparative
+    Our model has three key building blocks that build on                    statics results. Throughout the analysis we consider the
+previously disparate literatures. First, we draw on the                      joint equilibrium across the two markets. We find that our
+staged financing literature (Admati and Pfleiderer, 1994;                    within-market effects are consistent with results in the
+Berk, Green, and Naik, 1999), introducing a dynamic                          prior literature (e.g., Inderst and Müller, 2004), so our
+investment structure where start-ups first obtain seed                       main contribution is the analysis of cross-market effects.
+funding in the angel market, then follow-up funding in                       Here, we discover several new insights. For example, a
+the VC market. This simple dynamic structure allows us to                    standard within-market result is that while higher search
+                                  T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                         641
+
+
+costs for the investor lead to less competition, higher                    angel and VC market equilibrium. Section 7 examines early
+search costs for the entrepreneur lead to more competition                 exits. Section 8 discusses the empirical predictions from our
+(because investors can capture more of the rents). How-                    model. Section 9 summarizes our main results and discusses
+ever, this result does not apply in a cross-market setting.                future research directions. All proofs are in the Online
+We show that there is less angel competition when there                    Appendix, which is available on the authors' websites.
+are higher search costs at the VC stage for either the VC or
+entrepreneur. This is because both of these search costs
+reduce the utilities of the entrepreneur and angel investor.               2. Relationship to literature
+    One of the most interesting results concerns the effects
+of angel protection. One might conjecture that the ability                     The introduction briefly discusses how this paper
+to take advantage of angels increases entrepreneurial                      builds on a variety of literatures. In this section we explain
+entry. However, we show that in equilibrium there is                       in greater detail the connections to the prior literature. The
+lower entry by entrepreneurs. This is because the direct                   natural starting point is the seminal paper by Inderst and
+benefit for entrepreneurs from holding up angels at a later                Müller (2004). They were the first to introduce search into
+stage is outweighed by the indirect cost of a thinner angel                a model of entrepreneurial financing, focusing on how
+market. Intriguingly, we find opposite effects for entrepre-               competitive dynamics affect VC valuations. Silveira and
+neurial entry and survival. Weaker angel protection actu-                  Wright (2006) and Nanda and Rhodes-Kropf (2013) also
+ally leads to better entrepreneurial incentives (because it is             use similar model specifications for other purposes. One
+allows the entrepreneur to capture additional rents) and                   theoretical advance of this paper is that it examines the
+therefore to higher success rates.                                         relationship between two interconnected search markets.
+    We also consider the choice of projects, and the timing                A limitation of all these search models (including ours) is
+of exits. Some angels have been advocating early exits as                  that they require homogeneous types. Hong, Serfes, and
+an attractive investment approach (Peters, 2009). Accord-                  Thiele (2013) consider a single-stage VC financing model
+ingly, start-ups focus on projects that can be sold relatively             with matching among heterogeneous types.
+quickly. The advantage of such a strategy is that the                          A growing number of papers examine the implications
+entrepreneurs and angels can avoid the various challenges                  of staged financing arrangements. Neher (1999) and
+of securing follow-on investments from VCs. The disad-                     Bergemann, Hege, and Peng (2009) study the design of
+vantage is that they could fail to achieve their full                      optimal investment stages. Admati and Pfleiderer (1994)
+potential. In a model extension we allow for a choice                      and Fluck, Garrison, and Myers (2005) consider the differ-
+between two development strategies: a safe strategy,                       ential investment incentives of insiders and outsiders at
+where the venture is sold in an early exit, versus a risky                 the refinancing stage. Building on recent work about
+strategy, which either leads to failure, or generates higher               tolerance for failure (Manso, 2011), as well as the literature
+returns, namely, if the company succeeds in developing a                   on soft budget constraints (Dewatripont and Maskin,
+growth option and obtaining VC financing. The safe                         1995), Nanda and Rhodes-Kropf (2013) consider how
+strategy of early exits becomes more likely when angel                     investors optimally choose their level of failure tolerance
+protection is low, such as when the value of the start-up                  in a staged financing model. These models all assume that
+resides mainly in the entrepreneur's human capital. Con-                   the original investors can finance the additional round.
+sistent with this we note that many early exists take the                  Our model departs from this assumption by focusing on
+form of so-called “acqui-hires” where the acquirer is more                 smaller angels who do not have the financial capacity to
+interested in the human capital of the start-up.                           provide follow-on financing.
+    Our theory implies a series of testable predictions                        The theory closest to ours is the recent work by Nanda
+about the size of angel and VC markets, their competitive                  and Rhodes-Kropf (2012) on financing risk. They too
+structure, as well as the valuations obtained. We discuss                  assume that the initial investors cannot provide all the
+these by focusing on alternative explanations for the                      follow-on financing. Their analysis focuses on the possibi-
+recent rise of angel markets. We distinguish between                       lity of multiple equilibria in the late stage market, and
+explanations based on better angel protection, lower                       shows how different expectations about the risk of refi-
+start-up costs, greater market transparency, greater entre-                nancing affects initial project choices. Our model does not
+preneurial urgency, and supply shocks in venture capital.                  focus on financing risk, but instead focuses on the hold-up
+For example, better angel protection and lower start-up                    problem at the refinancing stage.
+costs both predict larger and more competitive angel                           Our model distinguishes between angels and VCs on
+markets. However, better angel protection is associated                    the basis of the investment stage and the amount of
+with lower success rates, whereas lower start-up costs                     available funding: angels only invest in early stages and
+lead to higher success rates. Moreover, valuations at the                  have limited funds; VCs only invest in later stages and
+venture capital stage increase with better angel protection,               have sufficient funds to do so. The empirical evidence of
+but are not affected by lower start-up costs.                              Goldfarb, Hoberg, Kirsch, and Triantis (2012) and
+    The remainder of the paper is structured as follow.                    Hellmann, Schure, and Vo (2013) is broadly supportive of
+Section 2 discusses the relation of this paper to the                      these assumptions. The latter paper also provides empiri-
+literature. Section 3 introduces our main model. We then                   cal evidence on the financing dynamics, showing how
+derive and analyze the angel market equilibrium in Section 4,              some companies obtain only angel financing (possibly
+and the VC market equilibrium in Section 5. Section 6                      exiting early), whereas others transition from the angel
+analyzes how limited legal protection of angels affects the                to the VC market.
+642                                      T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+    Our model cannot capture all the nuances of reality.                              financing ventures across the different commercialization
+First, it is sometimes difficult to draw a precise boundary                           stages.
+between what constitutes an angel investor versus a VC.
+Shane (2008) and the OECD (2011) report provide detailed                              3. The base model
+descriptions of angel investing, and the diversity within
+the angel community. Second, we do not model value-                                       Our objective is to build a tractable equilibrium model
+adding activities of angels versus VCs. Chemmanur and                                 that endogenously derives the size and competitive struc-
+Chen (2014) assume that only VCs but not angels can                                   ture of the early stage (angel) and late stage (VC) markets.
+provide value-added services. By contrast, Schwienbacher                              Conceptually, we want a model with endogenous entry to
+(2009) argues that both angels and VCs could provide such                             determine market size, and with a continuum between
+services, but that angels provide more effort because they                            monopoly and perfect competition to determine the level
+still need to attract outside investors at a refinancing stage.                       of competition. This naturally leads us to a search model in
+See also the related empirical work of Hellmann and Puri                              the style of Diamond, Mortensen, and Pissarides (see
+(2002) and Kerr, Lerner, and Schoar (2014). Third, in our                             Pissarides, 1979, 2000; Mortensen and Pissarides, 1994;
+model both angels and VCs are pure profit maximizers.                                 Diamond, 1982, 1984). This model has free entry, and it
+The work of Axelson, Strömberg, and Weisbach (2009)                                   endogenously generates a market density that is a con-
+suggests that the behavior of VCs could be influenced by                              tinuous measure of competition. Moreover, the real-life
+agency considerations. Moreover, angels can be motivated                              search process of entrepreneurs looking for investors
+by nonfinancial considerations, such as personal relation-                            closely resembles the assumptions of pairwise matching
+ships or social causes, as discussed in the work of Shane                             used in such search models (Inderst and Müller, 2004).
+(2008) and Van Osnabrugge and Robinson (2000). Finally,                                   We consider a continuous time model with three
+while we motivate our paper with angels and VCs, our                                  different types of risk-neutral agents: entrepreneurs,
+theory applies more broadly to the relationship between                               angels, and VCs. The length of one period is Δ-0, and
+early and late investors. Further examples of early inves-                            the common discount rate is r 4 0. In each period a
+tors include friends and family, accelerators, and                                    number of potential entrepreneurs discover business
+university-based seed funds. Further examples of late                                 opportunities. The cost for an entrepreneur to start his
+investors include corporate investors, bank funds, and                                business is l A ½0; 1Þ, which is drawn from the distribution
+growth capital funds.                                                                 F(l). We interpret l as the personal labor cost associated
+    Our paper is also related to the literature on the staged                         with establishing the new venture (e.g., the cost of devel-
+commercialization of new venture ideas. Teece (1986),                                 oping a business plan). The endogenous number of start-
+                                                                                                                         E
+Anand and Galetovic (2000), Gans and Stern (2000), and                                ups founded in each period is m1; see Fig. 1 for a graphical
+Hellmann and Perotti (2011) all consider models where                                 overview.
+complementary asset holders have a hold-up opportunity                                    Entrepreneurs are wealth-constrained, so they require
+at a later stage. They mainly ask how this hold-up problem                            external financing for their start-up companies. Specifi-
+impacts the optimal organization of the early stage devel-                            cally, each entrepreneur needs an early stage investment
+opment efforts. This paper focuses on the challenges of                               k1, and a late stage investment k2. What we have in mind is
+
+
+                                               EARLY STAGE                                                LATE STAGE
+
+                                                   Angels (A)                                                   VCs
+
+                                                                      Success of           Start ups
+                                                                      early stage          attractive
+                                                                      investments          for VCs*
+                                                       Angel
+                                                       market                                               VC market                  Success
+                  Entrepreneurs (E)                                                                                                   (payoff )
+                                                   (            )
+
+
+
+
+                                                Obsolete ideas          Failure            Liquidation Obsolete ideas
+                                                                     (zero payoff)         (payoff )
+                          *Section 7 (Early exits) allows for additional uncertainty about the presence of growth options (prob. ).
+                         E                                                                                             A
+Fig. 1. In each period, m1 entrepreneurs enter the early stage market to search for an angel investor. Likewise, m1 angel investors enter the early stage
+market and search for investment opportunities. The equilibrium stock of entrepreneurs in the early stage market at a given point in time is ME1, and the
+                                               δ
+equilibrium stock of angels is MA1. The fraction 1 M E1 of business ideas becomes obsolete in each period, generating a zero payoff. A start-up, which received
+angel financing, succeeds with probability ρ1; otherwise it fails and generates a zero payoff. There are two possible scenarios for start-ups with successful
+angel investments: With probability g it has a growth option and becomes an attractive candidate for venture capital firms (VCs). With probability 1  g the
+venture has no further growth option, but can be liquidated, generating the payoff y1. In each period, mV2 VCs enter the late stage market to search for
+investment opportunities. The equilibrium stock of VCs in the late stage market at a given point in time is MV2, and the equilibrium stock of ventures seeking
+VC financing is ME2. The fraction δ2 M E2 of business ideas becomes obsolete in each period, generating a zero payoff. A successful VC investment then
+generates the expected payoff y2.
+                                        T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                                      643
+
+
+that entrepreneurs first need funding to develop proto-                              Once matched, the angel and entrepreneur bargain
+types of their products (early stage financing) to prove the                     over the allocation of equity. We use the symmetric Nash
+viability of their business models. They then require                            bargaining solution to derive the equilibrium outcome of
+follow-on investments to bring their developed products                          this bilateral bargaining game. The angel then invests k1 in
+to market (late stage financing). We assume that early and                       the new venture, and the entrepreneur exerts private
+late stage financing are provided by two distinct types of                       effort e1. The entrepreneur's disutility of effort cðe1 Þ is
+investors. For clarity of exposition we associate angels with                    strictly convex, with cð0Þ ¼ c0 ð0Þ ¼ 0. Note that our model
+early stage investments, and VCs with late stage invest-                         includes entrepreneurial incentives, which allows us to
+ments. In reality, VCs could sometimes also invest in early                      generate predictions about the rate at which entrepre-
+stage deals, and angels in late stage deals. This does not                       neurs move from the angel to the VC market.
+affect the basic insights from our model; all that matters is                        The early stage investment succeeds with probability
+that the company needs to find a new investor at the late                        ρ1 ðe1 Þ, which is increasing and concave in the entrepreneur's
+stage. This could be either because the early stage investor                     private effort e1, with ρ1 ð0Þ ¼ 0, ρ01 ð0Þ ¼ 1 and lime1 -1 o1.
+does not have the funds to fully finance the late stage                          With probability ð1  ρ1 ðe1 ÞÞ the early stage investment fails
+investments, or because early and late stage investors have                      and generates a zero payoff; see Fig. 1. With probability
+different skills and information, making them both essen-                        ρ1 ðe1 Þ it is successful, in which case there are two possible
+tial to the success of the venture. For expositional con-                        scenarios: With probability g the venture has a growth
+venience we also assume that early stage investors do not                        option and becomes an attractive candidate for VCs to make
+participate in the late stage investment.1                                       the follow-on investment k2. With probability 1  g the
+    In the early stage each entrepreneur needs to find an                        venture has no further growth option, but can be liquidated,
+angel investor, who can make the required investment k1.                         generating the payoff y1 4 0. For our base model we assume
+We assume a monopolistically competitive search market                           that the growth option is sufficiently attractive, so that
+                                                A
+with free entry. Specifically, in each period, m1 angels enter                   realizing it is always preferred to liquidation. In Section 7
+the early stage market and seek investment opportunities,                        we relax this assumption by introducing risky growth
+          A
+where m1 is endogenous and satisfies the zero-profit condi-                      options, and looking at the optimal choice between growth
+                                 A
+tion for angels. We denote M1 as the equilibrium stock of                        and liquidation (early exit).
+angels in the early stage market at a given point in time, and                       The total number of ventures moving into the VC
+ME1 as the equilibrium stock of entrepreneurs.                                   market in each period is given by mE2  g ρ1 ðe1 Þx1 . Their
+    Entrepreneurial opportunities often depend on speedy                         owners, namely, the respective entrepreneur and angel,
+execution, so that delays in fundraising can be costly for                       then search for a VC investor. Again we assume that the
+the entrepreneurs. We therefore augment the standard                             late stage market is monopolistically competitive with free
+                                                                                                          V
+search model with a parameter that measures urgency, i.e.,                       entry. We denote m2 as the endogenous number of VCs
+the cost of delay. Specifically, we assume that a fraction                       entering the market in each period. The equilibrium stock
+δ1 ME1 of business ideas becomes obsolete in each period,                        of VCs in the late stage market at a given point in time is
+generating a zero payoff (see Fig. 1). We refer to δ1 as the
+                                                                                   V
+                                                                                 M2, and the equilibrium stock of ventures seeking VC
+                                                                                                   E
+death rate of early stage ventures, which reflects the                           financing is M2. As for the angel market, we assume that
+urgency for start-up companies to receive angel invest-                          a fraction δ2 M E2 of business ideas becomes obsolete in each
+ments. The death rate δ1 therefore constitutes an indirect                       period, generating a zero payoff (see Fig. 1). The individual
+                                                                                 search cost in the late stage market is σ2, and the expected
+                                                                                                                                   i
+cost for entrepreneurs when searching for early stage
+                                                                                                            i
+financing.                                                                       utility from search is U2, with i ¼ E, A, V. To ensure
+    Our model includes the standard search model para-                           existence of the VC market, we assume that σ2 is not too
+                                                                                                                                             V
+
+meters. We denote the individual search cost for entrepre-                       large. For tractability we assume that entrepreneurs and
+neurs in the early stage market by σ1, and the search cost for
+                                           E
+                                                                                 angels, as joint owners of late stage start-ups, incur the
+           σ
+           A
+angels by 1. Naturally, we focus on the case where the angel                     same cost when searching for a VC investor, i.e.,
+                                       A
+                                           σ
+market exists, which requires that 1 is not too large. The                       σ 2  σ E2 ¼ σ A2 . The matching function for the late stage
+                                                             E                                          h     i0:5
+expected utilities from search in the early stage market is U1
+                           A                                                     market is x2 ¼ ϕ2 M V2 M E2       , where x2 is the number of
+for entrepreneurs, and U1 for angels. We use a standard
+                                      h         i0:5                             start-ups that receive VC financing in each period, and
+Cobb-Douglas matching function x1 ¼ ϕ1 MA1 M E1      with                        ϕ2 4 0 is a measure of the matching efficiency.
+constant returns to scale, where x1 is the number of                                 Once the owners of a late stage start-up (entrepreneur
+entrepreneur–angel matches in each period, and ϕ1 4 0 is                         and angel) find a VC investor, they all bargain over the
+an efficiency measure of the matching technology in the                          allocation of equity, as discussed below. After reaching an
+early stage market.                                                              agreement the VC makes the required follow-on invest-
+                                                                                 ment k2.2 The venture then generates the expected payoff
+                                                                                 y2 4 0 (with y2 4y1 ).
+    1
+       Allowing early stage investors to finance part of the later stage
+investment would not change anything. All that matters for the model is
+that angels do not have enough wealth to finance both stages. Conversely,
+                                                                                     2
+we also assume that VCs cannot be the sole investor in both the early and              To keep the analysis of the late stage market with trilateral
+the late stage markets. Our assumption closely matches industry behavior         bargaining games tractable, we abstract from private efforts of entrepre-
+where early stage investors typically seek syndication partners for the          neurs in the late stage. Allowing for private efforts would change the late
+later investment stages.                                                         stage payoff structure; however, this would not qualitatively affect our
+644                                       T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+    In the late stage market the bargaining game is                                the following first-order condition:
+between three key players. The Shapley value is widely                                      h                       i
+regarded as the most natural extension of the Nash                                 ρ01 ðe1 Þ gU E2 þ ð1 gÞð1  αÞy1 ¼ c0 ðe1 Þ:                         ð3Þ
+bargaining solution to games with more than two players.
+It provides an intuitive allocation of equity, which takes                         We can immediately see that the entrepreneur's effort en1 is
+into account the marginal contribution of each party to the                        increasing in his utility from search in the late stage
+forward-looking generation of value. It also implicitly                            market, U2, and decreasing in the angel's equity share α.
+                                                                                             E
+
+assumes that all prior contracts can be renegotiated. While                           The optimal equity share for the angel, αn , satisfies the
+the entrepreneur and angel may want to commit to a                                 symmetric Nash bargaining solution, which accounts
+specific equity allocation beforehand, the VC never agreed                         for the outside option of each party. The outside option
+to that, and could therefore ask that all prior arrangements                       for the entrepreneur is to search for a new angel investor,
+be ignored. In equilibrium, the three parties agree on a                           which would give him the expected utility UE1. The
+division of shares that is determined by their outside                             angel also searches for a new entrepreneur, but free entry
+options.
+                                                                                   implies U A1 ¼ 0. Thus, αn maximizes the Nash product
+    Given the simple payoff structure of the model, equity                         n                          o
+is always an optimal security.3 The angel investor initially                          DE1 ðen1 Þ U 1 DA1 ðen1 Þ . The optimal αn always lies on the
+receives an equity stake α in the early stage. This equity                         downward-sloping portion of the bargaining frontier.
+stake can be renegotiated into β in case of VC financing.
+                                  A
+                                                                                                 b denote the value of k at which the
+                                                                                   Formally, let k        1                              1
+The VC receives an equity stake β . The so-called post-
+                                     V
+                                                                                                                                                 E
+                                                                                   bargaining frontier has a zero slope, i.e., where dD1 ðen1 Þ=
+money valuation is then given by V 1 ¼ k1 =α for angel
+rounds, and V 2 ¼ k2 =β for VC rounds.
+                        V
+                                                                                   dα ¼ 0. Our analysis focuses on the case where k o kb . In
+                                                                                                                                             1       1
+                                                                                   the Online Appendix we show that the angel's equilibrium
+4. Angel market                                                                    equity stake αn is decreasing in the entrepreneur's outside
+                                                                                              E
+                                                                                   option U1.
+4.1. Bargaining and deal values                                                         The Nash bargaining outcome is constrained efficient,
+                                                                                   i.e., it lies on the utility frontier. However, it does not
+    We start by looking at how entrepreneurs and angels                            maximize the joint utility (i.e., the sum of utilities),
+split the expected surplus when making a deal. Our model                           because of the incentive effect of α. In fact, joint utility
+consists of two investment stages, so the early stage                              would be maximized at α ¼ 0, where the angel gets no
+allocation of surplus naturally depends on the partners'                           equity, and the entrepreneur is fully self-financed. While
+                                                           E
+expected utilities from search in the late stage market, U2                        our model allows for transfer payments between the two
+       A
+and U2. However, the entrepreneur and angel cannot affect                          parties, the key assumption is that the entrepreneur has no
+these utilities because of their inability to commit not to                        wealth. If the entrepreneur had wealth, he would always
+renegotiate. The early stage equity allocation therefore                           want to make a transfer payment to the angel, to get more
+only determines how the liquidation value y1 is split, with                        equity and improve incentives. By contrast the angel never
+the angel receiving αy1 and the entrepreneur keeping                               benefits from making a transfer payment to the entrepre-
+ð1  αÞy1 .                                                                        neur, as this would only decrease the entrepreneur's
+    We call the utilities at the time of making a deal the                         equity stake, and further reduce entrepreneurial effort. In
+                                          E      A
+deal values, and denote them by D1 and D1. In the angel                            the Online Appendix we formally show that the optimal
+market they are given by                                                           contract involves no transfer payments.
+              h                        i
+DE1 ¼ ρ1 ðe1 Þ gU E2 þ ð1  gÞð1  αÞy1  cðe1 Þ         ð1Þ
+
+              h                  i                                                 4.2. Market equilibrium
+DA1 ¼ ρ1 ðe1 Þ gU A2 þ ð1  gÞαy1  k1 :                                 ð2Þ
+                                                                                      We can now characterize the stationary equilibrium of
+   For a given equity allocation α, the entrepreneur then
+                                                          E                        the angel market. Let qE1  x1 =M E1 denote the deal arrival
+chooses his private effort e1 to maximize his deal value D1.
+                                            n                                      rate for entrepreneurs, which measures the probability
+The entrepreneur's optimal effort choice e1 is defined by
+                                                                                   that an entrepreneur finds an angel investor at a given
+                                                                                   point in time. The expected utility of an entrepreneur
+                                                                                                                             E
+(footnote continued)                                                               when searching for an angel investor, U1, is then defined
+insights with respect to the interrelationship between both markets,               by the following asset equation:
+which is the main focus of this paper.
+    3
+       While our model set-up is suitable for analyzing valuations, it is not
+                                                                                   rU E1 ¼ qE1 ðDE1  U E1 Þ þ δ1 ð0  U E1 Þ  σ E1 :                   ð4Þ
+meant to generate insights into financial security structures. Angels and
+VCs sometimes use more elaborate securities, such as preferred equity or
+convertible notes (see Kaplan and Strömberg, 2003; Hellmann, 2006). In             This equation says that the discounted expected utility
+this model none of these more complicated securities can achieve                   from search equals the expected value of getting a deal
+anything better than simple equity. This is because in case of VC                  (qE1 ðDE1  U E1 Þ), minus the expected costs when searching for
+financing, the angel's choice of security is irrelevant—the original con-          an angel investor: the risk of the business idea becoming
+tract will get renegotiated anyway. Technically, we note that none of the
+                                                                                   obsolete (δ1 U E1 ), and the direct cost of search (σ1). Solving
+                                                                                                                                         E
+coalition values of the Shapley game depend on the securities held by the
+angel investor. Moreover, in case of liquidation, there is an exogenous            the asset equation we find the entrepreneur's expected
+                                                                                                               E
+liquidation value, rendering security structures unimportant.                      utility from search (U1), and likewise the angel's expected
+                                           T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                                          645
+
+               A
+utility (U1 ):                                                                          We denote the degree of angel market competition by
+
+           σ
+        E1 þqE1 DE1                 σ      A A                                    θn1 , where θn1 ¼ MA1n =ME1n . It measures the number of angels
+                                       1 þ q1 D1
+                                       A
+U E1 ¼               ;      U A1 ¼               ;                      ð5Þ         relative to the number of entrepreneurs, and is commonly
+               δ
+       r þ 1 þ qE1                    r þ qA1
+                                                                                    known as ‘market thickness’ in the search literature. This
+where qA1  x1 =M A1 is the deal arrival rate for angels.                           measure of competition is also closely related to the
+Because of free entry, the expected utility from search                             expected time for entrepreneurs to find an angel, which
+                                                                                                    qﬃﬃﬃﬃﬃ
+must be zero in equilibrium. Thus, in equilibrium we have
+                                                                                    is given by 1= ϕ1 θ1 .4 We call this the fundraising cycle,
+                                                                                                         n
+
+
+qA1 DA1 ¼ σ A1 :                                                        ð6Þ
+                                                                                    which is negatively related to the market transparency ϕ1
+                                                                                    and to the level of competition θ1 .
+    An entrepreneur with entry cost l will only enter the                                                                        n
+
+early stage market if l r U E1 . Thus, there exists a unique                            On the firm level we want to understand the determi-
+threshold entry cost l, with l ¼ U E1 , so that entrepreneurs                       nants of the valuation of angel-backed start-ups. We focus
+enter as long as l rl. The endogenous equilibrium number                            on the post-money valuation as given by V 1 ¼ k1 =α. We
+of entrepreneurs entering the angel market in each period,                          also examine the implications for the success rate of angel
+mE1n , is then given by                                                             investments, as reflected by ρ1 ðe1 Þ.
+mE1n ¼ FðU E1 Þ:                                                        ð7Þ             For parsimony we derive the equilibrium properties of
+                                                                                    all these variables in the Online Appendix. The next
+Moreover, in a stationary equilibrium the stock of entre-                           proposition summarizes our comparative statics results,
+preneurs must be constant. This requires that the total                             looking at the effects of the early stage parameters.
+outflow of entrepreneurs—because either their business
+ideas became obsolete (δ1 M E1 ) or they found an angel                             Proposition 1 (Angel market—early stage parameters).
+investor (qE1 M E1 )—is equal to the equilibrium inflow of                          Consider the angel market.
+entrepreneurs ðmE1n Þ:
+
+δ1 ME1 þ qE1 ME1 ¼ mE1n :                                               ð8Þ           Market-level effects:
+
+Likewise, in a stationary equilibrium the outflow of angels                           (i) The equilibrium inflow of entrepreneurs mE1n is increas-
+                                                            A
+(qA1 M A1 ) is equal to the (endogenous) inflow of angels (m1):                           ing in market transparency ϕ1, and decreasing in the
+                                                                                          death rate δ1, the search costs σ1 and σ1, and the
+                                                                                                                              E           A
+qA1 M A1 ¼ mA1 :                                                        ð9Þ
+                                                                                          investment amount k1.
+The equilibrium of the angel market is then defined by                               (ii) The equilibrium inflow of angels mA1n , and therefore the
+conditions (5)–(9). Moreover, since the equilibrium is jointly                            equilibrium number of early stage deals xn1 , is increasing
+                                                                                          in ϕ1, and decreasing in σ1 and k1. The effects of δ1 and
+                                                                                                                    A
+determined in the angel and VC markets, it must also satisfy
+Eqs. (11)–(15), which we will discuss in Section 5.2.                                     σ1 are ambiguous.
+                                                                                            E
+
+                                                                                    (iii) The equilibrium degree of competition θ1 is increasing in
+                                                                                                                                   n
+
+                                                                                          ϕ1, δ1, and σ1, and decreasing in σ1 and k1.
+                                                                                                        E                     A
+4.3. Results
+
+    Entrepreneurs and angels are forward-looking decision                             Firm-level effects:
+makers who take into account their expected utilities in
+                            E      A
+the VC market, given by U2 and U2 . Thus, the angel market                           (i) The equilibrium valuation of early stage start-up com-
+                                                                                         panies V n1 is increasing in ϕ1, and decreasing in δ1, σ1,
+                                                                                                                                                   E
+equilibrium depends on the characteristics of the VC
+                                                                                         and σ1 . The effect of k1 is ambiguous.
+                                                                                                A
+market, which is the backward feedback loop. Our model
+also features a forward feedback loop, where the outflows                           (ii) The equilibrium success rate of angel investments ρ1 ðen1 Þ
+from the angel market (excluding liquidations and failures)                              is increasing in ϕ1, and decreasing in δ1, σE1, σA1, and k1.
+constitute the inflows into the VC market. All of our
+comparative statics results take into account these two
+equilibrium feedback loops, i.e., we always consider the
+joint equilibrium between the two markets. We now                                      Our model generates intuitive comparative statics.
+                                                                                    Higher costs for angels (σ1 and k1) lead to less angel entry
+                                                                                                                A
+discuss the results for the angel market, we characterize
+                                                                                               An
+the VC market equilibrium in Section 5.2.                                           (lower m1 ), and therefore to fewer early stage deals
+    It is useful to distinguish between market-level and                            (lower xn1 ), so that entrepreneurs on average need longer
+firm-level effects. On the market level we are interested in                        to secure early stage financing. And because search is
+the extent of entrepreneurial activities within the econ-                           costly, fewer entrepreneurs find is worthwhile to enter
+omy, which in our model is measured by the equilibrium                              the market (lower mE1n ). This makes the angel market less
+entry of entrepreneurs mE1n . We are also interested in the                         competitive, suggesting that the effect on angel entry is
+equilibrium number of angels mA1n that enter the market in
+each period to search for investment opportunities.                                     4
+                                                                                            Formally, the probability that an entrepreneur finds an angel in a
+Related to these two variables of interest is the number                            given period is xn1 =M E1n . Using the definitions of x1 and θ1 we find that the
+of angel-backed deals xn1 in each period. In equilibrium, the                                                                              qﬃﬃﬃﬃﬃ
+                                                                                                                                               n
+                                                                                    equilibrium probability of finding an angel is ϕ1 θ1 . Thus, the expected
+inflow of angels equals the number of early stage deals, i.e.,                                                                                qﬃﬃﬃﬃﬃ
+                                                                                                                                                  n
+mA1n ¼ xn1 .                                                                        time for entrepreneurs to find an investor is 1=½ϕ1 θ1 .
+646                                        T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+more pronounced (as σ1 and k1 have a first-order effect on
+                               A
+                                                                                    more of the expected surplus from the investment. Hence,
+mA1n , and only a second-order effect on mE1n ).                                    a more efficient VC market, as captured by an increase in
+   Higher direct and indirect search costs for entrepre-                            the market transparency ϕ2, improves entrepreneurs' and
+neurs (σ1 and δ1) result in fewer entrepreneurs entering
+          E                                                                                                                            E       A
+                                                                                    angels' expected utilities from search (U2 and U2). This in
+the early stage market (lower mE1n ). This implies on the one                       turn explains why the angel market variables, such as mE1n ,
+                                                                                    mA1n , θ1 , V n1 , and ρ1 ðen1 Þ, are all increasing in ϕ2. A similar
+                                                                                             n
+hand fewer investment opportunities for angels (which
+                                                                                    argument also applies for lower values of σ2 and k2.
+                                                                                                                                               V
+has a negative effect on mA1n ), and, on the other hand, a
+better bargaining position and higher deal values for                               However, even though δ2 and σ2 both have a positive
+angels (which has a positive effect on mA1n ). While the                            effect on the level of VC competition (as we will formally
+                                                                                                                                                    E
+net effect on angel entry (mA1n ) is ambiguous, the angel                           show in Section 5.3), we find that the net effect on U2 and
+                                                                                      A
+market becomes more competitive, i.e., the ratio of angels                          U2 is negative. This is because the direct negative effects of
+                                                                                                                   E        A
+to entrepreneurs increases.                                                         these parameters on U2 and U2 always dominate. The angel
+                                                                                    market variables, such as m1 , mA1n , θ1 , V n1 , and ρ1 ðen1 Þ, are
+                                                                                                                          En        n
+   The firm-level effects are best understood by looking at
+the division of equity between entrepreneurs and angels.                            therefore decreasing in δ2 and σ2.
+We know that higher direct and indirect search costs for                                It is worth pointing out that cross-market effects have a
+entrepreneurs, σE1 and δ1, weaken their outside option                              different logic than within-market effects. This becomes
+when negotiating a deal with an angel investor, explaining                          most obvious when looking at the entrepreneurs' search
+the lower valuations. Higher costs for angels, σA1 and k1,                          costs. Proposition 1 shows that higher search costs at the
+also decrease valuations. This is because fewer angels                              angel stage increase angel market competition. This is
+enter the market in equilibrium, so that entrepreneurs                              because of a market power effect, where the angels'
+have a weaker outside option, needing on average longer                             stronger bargaining position encourages more angels and
+to find an alternative investor. A lower valuation means                            fewer entrepreneurs to enter. In contrast, Proposition 2
+that the entrepreneur needs to give up more equity, which                           shows that higher search costs at the VC stage decrease
+in turn curbs effort incentives (lower en1 ), and therefore                         angel market competition. This is because of the backward
+results in a lower probability of success (lower ρ1 ðen1 Þ).5                       feedback loop, where lower utilities at the VC stage
+   The next proposition provides a comprehensive sum-                               discourage entry and competition at the angel stage.
+mary of how the equilibrium of the angel market depends                             Interestingly, the results about the entrepreneurs' search
+on the determinants of the VC market.                                               costs are also different from the comparative statics for
+                                                                                    investors' search costs. Higher VC search costs at the VC
+Proposition 2 (Angel market—late stage parameters). Con-                            stage and higher angel search costs at the angel stage both
+sider the angel market.                                                             dampen competition in the angel market.
+   Market-level effects: The equilibrium inflow of entrepre-
+neurs mE1n , the inflow of angels mA1n (and therefore the
+number of early stage deals xn1 ), and the early stage degree                       5. VC market
+of competition θ1 , are all increasing in VC market transpar-
+                   n
+
+ency ϕ2, and decreasing in the death rate δ2, the search costs                      5.1. Bargaining and deal values
+σ2 and σV2, and the investment amount k2.
+   Firm-level effects: The equilibrium valuation of early stage                         In the late stage market the owners of each start-up
+start-up companies V n1 , and the success rate of angel invest-                     company, the entrepreneur and angel, seek an investment k2
+ments ρ1 ðen1 Þ, are increasing in ϕ2, and decreasing in δ2, σ2,                    from a VC. Naturally, the angel investment k1 is now sunk.
+σ2, and k2.
+  V
+                                                                                    The total surplus, which we denote by π, is then defined by
+                                                                                    π ¼ y2 k2 . We use the Shapley value to derive the outcome
+   All cross-market effects are driven by the backward                              of this tripartite bargaining game. The outside option for the
+feedback loop. Higher utilities for the entrepreneur and                            entrepreneur and angel is to go back to the market and
+angel investor at the VC stage also benefit the angel                               search for a new VC investor; the joint value of their outside
+market. To fully understand these results we need to draw                           option is therefore given by U E2 þ U A2 . For simplicity we
+on some insights about the degree of VC market competi-                             assume that the entrepreneur cannot search without the
+tion, which we discuss in more detail in Section 5.3.                               angel, so that both of their single-coalition values are equal to
+Intuitively, a more competitive VC market has the follow-                           zero. Intuitively, this assumption seems reasonable, as the
+ing two effects: First, it reduces the expected time for                            entrepreneur might need the angel's networks and endorse-
+entrepreneurs and angels to secure follow-on investments                            ments to attract the interest of VCs. At the end of Section 6
+from VCs. Second, it improves their bargaining position                             we relax this assumption. The VC can also search for a new
+when striking a deal with a VC, allowing them to capture                            investment opportunity, but free entry implies U V2 ¼ 0. For
+                                                                                    now, we assume that the success of a late stage start-up
+    5
+      Intuitively, we would expect k1 to have a positive effect on the              requires the involvement of all three parties, i.e., it is
+equilibrium valuation V n1 . Because k1 also affects αn , which in turn is only     impossible to exclude any of the three partners. In Section
+implicitly defined by Eq. (18) in the Online Appendix, we do not get a              6 we consider a model extension where the entrepreneur
+                                                                     n
+clear comparative statics result. However, one can show that dV 1 =dk1 4 0          and VC can establish a new venture based on the same
+when (i) k1 is sufficiently small, or (ii) the entrepreneur's effort e1 is
+exogenous (so that surplus can be perfectly transferred between entre-
+                                                                                    business idea and exclude the angel investor.
+preneurs and angels through α); see the Online Appendix for the                         In the Online Appendix we derive the following late
+                                                                                                                                  E           A
+formal proof.                                                                       stage deal values for the entrepreneur (D2), angel (D2), and
+                                       T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                              647
+
+        V                                                                                                         qﬃﬃﬃﬃﬃ
+VC (D2 ), using the Shapley value:
+                                                                                fundraising cycle, as given by 1= ϕ2 θ2 . On the firm
+                                                                                                                       n
+
+     1     1h        i        1    1h       i
+DE2 ¼ π þ U E2 þU A2 ; DA2 ¼ π þ U E2 þ U A2 ;                                  level we are interested in how the determinants of the VC
+     3     6                  3    6
+     1     1h        i                                                          market affect the equilibrium valuation of late stage start-
+DV2 ¼ π  U E2 þ U A2 :                                           ð10Þ          up companies. We focus again on the post-money valua-
+     3     3
+                                                                                tion, as given by V 2 ¼ k2 =β .
+                                                                                                                    V
+Each entrepreneur and angel gets one-third of the total
+surplus π, plus a premium which reflects the joint value of                        The next proposition summarizes the comparative
+their outside option (U E2 þU A2 ). The VC receives the remain-                 statics results, focusing on the parameters that are asso-
+ing surplus. The equilibrium deal values define the late                        ciated with the VC market.
+stage equity shares that all parties agree on, which we
+                                                                                Proposition 3 (VC market—late stage parameters). Consider
+denote by βi, i ¼ E, A, V. For parsimony we state the
+                                                                                the VC market.
+equilibrium equity shares in the Online Appendix.
+
+5.2. Market equilibrium                                                           Market-level effects:
+
+   We now characterize the equilibrium of the VC market.                         (i) The equilibrium inflow of VCs mV2 n , and therefore the
+The inflow of start-up companies, denoted by mE2n , is                               equilibrium number of late stage deals xn2 , is increasing in
+endogenously determined by the angel market equili-                                  market transparency ϕ2, and decreasing in the VC's
+                                                                                     search costs σ2 and the investment amount k2. The
+                                                                                                      V
+brium. This forward loop is characterized by the following
+equilibrium condition:                                                               effects of the death rate δ2 and the entrepreneurs'/angels'
+                                                                                     search costs σ 2 are ambiguous.
+mE2n ¼ g ρ1 ðen1 Þxn1 :                                           ð11Þ          (ii) The equilibrium degree of competition θ2 is increasing in
+                                                                                                                               n
+
+                                                                                     ϕ2, δ2, and σ2, and decreasing in σ2 and k2.
+                                                                                                                           V
+    Let qE2  x2 =ME2
+                   denote the deal arrival rate for entre-
+preneur–angel pairs, and qV2  x2 =M V2 the deal arrival rate
+for VCs. In addition to Eq. (11), the stationary VC market                        Firm-level effect: The equilibrium valuation of late stage
+equilibrium is then defined by the following conditions:                        start-up companies V n2 is increasing in ϕ2 and k2, and
+                                                                                decreasing in δ2, σ2, and σ2.
+                                                                                                           V
+                  σ 2 þ qE2 DE2
+U A2 ¼ U E2 ¼                                                     ð12Þ
+                 r þ δ2 þqE2                                                       The comparative statics results resemble the effects of
+                                                                                early stage parameters for the angel market equilibrium.
+qV2 DV2 ¼ σ V2                                                    ð13Þ          We therefore do not provide a detailed discussion of the
+                                                                                results here, and refer the reader to the explanations right
+δ2 ME2 þ qE2 ME2 ¼ gρ1 ðe1 Þx1                                    ð14Þ          after Proposition 1 in Section 4.3.
+                                                                                   The next proposition provides a comprehensive sum-
+qV2 MV2 ¼ mV2 :                                                   ð15Þ          mary of how the equilibrium of the VC market depends on
+The expected utility for entrepreneurs and angels from                          the parameters associated with the angel market.
+search in the late stage market is given by Eq. (12). They
+                                                                                Proposition 4 (VC market—early stage parameters). Consider
+are the same because entrepreneurs and angels, as co-
+                                                                                the VC market.
+owners of a late stage start-up company, have identical
+search costs (σ ¼ σ E2 ¼ σ A2 ), and identical deal values
+(DE2 ¼ DA2 ). This simplifies many of our basic comparative                       Market-level effects:
+statics, although in Section 6 we consider a model exten-
+sion where the late stage expected utilities of angels and                       (i) The equilibrium inflow of start-up companies mE2n and
+entrepreneurs differ. Condition (13) is the free-entry con-                          VCs mV2 n are both increasing in market transparency ϕ1,
+                                                                                     and decreasing in the angels' search costs σ1 and the
+                                                                                                                                   A
+dition for VCs, which implies that U V2 ¼ 0 in equilibrium.
+Condition (14) ensures that the total outflow of new                                 investment amount k1. The effects of the death rate δ1
+                                                                                     and the entrepreneurs' search costs σ1 are ambiguous.
+                                                                                                                           E
+ventures equals the total inflow. Likewise, condition (15)
+guarantees that the outflow of VCs equals the inflow.                           (ii) The characteristics of the angel market do not affect the
+                                                                                     equilibrium degree of VC market competition θ2 .
+                                                                                                                                    n
+The VC market equilibrium is therefore determined by
+Eqs. (11)–(15). For our analysis we then use the joint
+equilibrium between both markets, which in fact is char-                          Firm-level effect: The characteristics of the angel market do
+acterized by Eqs. (5)–(15).                                                     not affect the equilibrium valuation of late stage start-ups V n2 .
+
+                                                                                   The main driver of these results is the forward feedback
+5.3. Results
+                                                                                loop, i.e., the fact that the angel market generates the deal
+                                                                                flow to the VC market as shown by Eq. (11). We know from
+  For the market-level effects we focus on the entry of
+                                                                                Proposition 1 that the early stage matching efficiency ϕ1
+VCs (mV2 n ), the number of VC-backed deals (xn2 ), and the
+                                                                                has a positive effect on these two equilibrium variables,
+degree of competition (θ2  MV2 n =M E2n ). Again we find that
+                                   n
+                                                                                while the direct and indirect costs for angels, σ1 and k1,
+                                                                                                                                    A
+
+mV2 n ¼ xn2 in the stationary equilibrium. Moreover, the                        have a negative effect. In equilibrium, a higher inflow of
+measure of competition is inversely related to the VC                           start-ups also encourages more VCs to enter the market.
+648                               T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+This explains why we obtain identical comparative statics                  the angel is for the late stage value creation process, and
+results for mV2 n and mE2n . We also discussed in Section 4.3              therefore measures the hold-up power of the entrepre-
+why the direct and indirect search costs for entrepreneurs,                neur. For example, if the business model is based on a
+σ1 and δ1, have an ambiguous effect on the number of
+  E
+                                                                           patented idea, and the patent belongs to the original firm,
+angel investments, which naturally extends to the inflow                   then the entrepreneur cannot incorporate a new venture
+of start-ups into the VC market.                                           based on the same idea without the angel. The angel is
+    Another important insight from Proposition 4 is that                   then completely indispensable, so that λ ¼ 0; this was the
+while the characteristics of the angel market determine                    assumption in the base model. However, if the business
+the absolute inflow of start-ups and VCs into the late stage               idea cannot be fully protected by patents or contracts, the
+market, they do not affect the equilibrium ratio of inves-                 entrepreneur can hold up the angel by incorporating the
+tors to companies (θ2 ). In other words, when the inflow of                new venture, generating a surplus λπ , with λ A ð0; 1Þ. The
+                      n
+
+start-ups increases by x percent, then the number of VCs                   angel is completely dispensable for λ ¼ 1.
+entering the market also increases by x percent, so that the                   Consider now the case of λ A ð0; 1Þ where angel protec-
+investor/company ratio remains constant in equilibrium.                    tion is imperfect. The threat of a new incorporation weakens
+As a consequence, angel market parameters do not affect                    the angel's bargaining position, and forces him to agree to a
+                                                                           lower equity stake (β ) compared to our base model with
+                                                                                                   A
+the valuation of late stage companies (V n2 ), which depends
+on the level of competition, but not on the size of the VC                 λ ¼ 0. Formally, for the Shapley value the joint surplus for the
+market.                                                                    entrepreneur–VC subcoalition (which excludes the angel
+                                                                           investor) is now given by λπ . For now, we continue to
+6. Angel protection                                                        assume that at the search stage the entrepreneur always
+                                                                           needs the angel (we relax this assumption below). This
+6.1. Bargaining and deal values                                            implies that their single-coalition values are still zero. In
+                                                                           the Online Appendix we derive the following new deal
+    We already noted that one of the fundamental pro-                      values for the late stage market:
+blems for angels is their limited bargaining power at the                        1          1h        i        1           1h         i
+VC stage. Their investments are sunk and they cannot                       DE2 ¼ 2 þ λA π þ U E2 þ U A2 ; DA2 ¼ 1  λA π þ U E2 þ U A2 ;
+                                                                                 6            6                  3             6
+finance the deals by themselves. At the bargaining table                                                                               ð16Þ
+they solely rely on their contractual rights, especially on
+their right to refuse the VCs' deal. So far the model                              1         1h          i
+                                                                           DV2 ¼     2 þ λA π  U E2 þ U A2 :                               ð17Þ
+assumes that angels enjoy full legal protection, in the                            6           3
+sense that they can always prevent the entrepreneur from                       For now, fix the expected joint utility from search for the
+pursuing the venture without them. In this section we                      entrepreneur and angel (U E2 þU A2 ). We can then see that
+allow for the possibility that the entrepreneur colludes                   weaker angel protection (higher λ) leads to a lower deal value
+with the VC to exclude the angel investor by implementing                                   A
+                                                                           for the angel (D2), and to higher deal values for the entrepre-
+the growth option in a new venture that the angel is not                           E
+                                                                           neur (D2). For the VC there is no prior contractual relationship
+part of. From the VCs' perspective, such an exclusion is an                with the angel, so we cannot talk of hold-up power. Still,
+opportunistic exercise of their market power. From the                     lower angel protection improves the VC's bargaining position
+entrepreneurs' perspective, it constitutes a hold-up of                                                          V
+                                                                           and leads to a higher deal value (D2). Of course, the equili-
+their original angels.                                                     brium effect of λ is more complex, as λ also affects the outside
+    We model the hold-up opportunity in the following way.                                                          E
+                                                                           options of entrepreneurs and angels (U2, U2).
+                                                                                                                         A
+
+Suppose the initial investment was successful, and the
+venture has a growth opportunity which makes it attrac-                    6.2. Results
+tive for VC financing (this happens with probability ρ1 g).
+The angel has a legal stake in the company, but is not                        The next proposition sheds light on how the level of angel
+creating value going forward. The entrepreneur could now                   protection affects the angel and VC market equilibrium.
+consider closing down the existing company and incorpor-
+ating a new venture to implement the growth option,                        Proposition 5. The effect of late stage hold-up of angels, as
+thereby excluding the angel investor. This new venture still               measured by λ, is as follows:
+needs the late stage investment k2 from a VC. Closing
+down the existing venture and starting a new venture is                     (i) Early stage: The equilibrium inflow of entrepreneurs mE1n ,
+obviously not without challenges. Most notably, the angel                       the inflow of angels mA1n (and therefore the number of early
+                                                                                stage deals xn1 ), the early stage degree of competition θ1 , and
+                                                                                                                                          n
+could mount a legal claim that the growth option belongs
+to the existing venture. If starting such a new venture is                      the equilibrium valuation of early stage start-ups V n1 , are all
+inefficient, the entrepreneur and VC do not actually start a                    decreasing in the hold-up parameter λ. In contrast, the
+new venture in equilibrium. However, the threat of doing so                     equilibrium success rate of angel investments ρ1 ðen1 Þ is
+improves their bargaining position. This changes the pay-                       increasing in λ.
+                                                                           (ii) Late stage: The late stage degree of competition θ2 is
+                                                                                                                                              n
+offs at the VC stage, which has repercussions for the entire
+equilibrium across both the angel and the VC markets.                           increasing in λ, while the valuation of late stage start-ups
+    In the model we define λπ as the total surplus that an                      V n2 is decreasing. The effect of λ on the equilibrium inflow
+entrepreneur and VC can obtain when excluding the angel                         of start-up companies mE2n and inflow of VCs mV2 n is
+investor. The parameter λ A ½0; 1 measures how dispensable                     ambiguous.
+                                   T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                               649
+
+
+    The analysis of angel protection highlights the core                    example, entrepreneurial incentives are unimportant so
+tension in the relationship between angels and VCs, as                      that ρ01 is close to zero, then the market size effect always
+summarized by Holstein's (2012) quote in the introduc-                      dominates, and mE2n is decreasing in λ. However, if entre-
+tion. At the individual deal level there is a relationship of               preneurial incentives are important, the supply of entre-
+‘foes,’ where VCs are happy to collude with entrepreneurs                   preneurs is sufficiently inelastic, and there is little urgency
+to weaken the angels' bargaining position. Yet for the                      (δ1 close to zero), then the market size effect is small;
+market level there is also a need for ‘friendly’ relations,                 the success effect dominates, and mE2n becomes increasing
+as VCs collectively rely on the angel market for their deal                 in λ.
+flow. A similar observation pertains to the relationship                         We are now in a position to understand the effect of
+between angels and entrepreneurs, where at the ex post                      angel protection on the VC market. With weaker angel
+deal level, entrepreneurs may like the idea of taking                       protection (i.e., higher λ), VCs can strike better deals, so
+advantage of their angels. However, from an ex ante                         investing in late stage start-ups becomes more attractive.
+perspective, this behavior makes it less attractive for                     This is a ‘foes’ effect and encourages entry into VC. However,
+angels to invest in the first place, undermining the                        there is also a ‘friends’ effect through the supply of new deals
+collective self-interest of entrepreneurs.                                  into the VC market (mE2n ). As noted in the previous para-
+    Proposition 5 generates several important insights into                 graph, the effect of λ on mE2n is ambiguous, so we cannot sign
+the net effects of these competing forces. Consider first the               the effect of λ on xn2 in general. For the particular case with
+relationship between angels and entrepreneurs. We                           little urgency and an inelastic supply of entrepreneurs, both
+already saw that weaker angel protection (higher λ)                         the ‘foes’ and the ‘friends’ effects point in the same direction,
+provides entrepreneurs with higher deal values at the VC                    so that the VC market size xn2 is increasing in λ. For all other
+stage. By itself this should encourage more entrepreneurs                   cases, the ‘foes’ and ‘friends’ effects point in different direc-
+to enter the early stage market. Then, why do fewer choose                  tions, so that the effect of λ on xn2 depends largely on the
+to enter the market in equilibrium? The reason for this is                  elasticity of entrepreneurial entry.
+the diminished supply of angels. Weaker protection at the                        While the effect of λ on the size of the VC market
+VC stage makes angel investing less attractive, so fewer                    remains ambiguous, Proposition 5 shows that our model
+angels enter the market. This means that each entrepre-                     generates the unambiguous result that weaker angel
+neur needs to search on average longer to secure start-up                   protection makes the VC market more competitive. The
+financing, with more ventures dying before ever raising                     key intuition is that the degree of competition is a relative
+any angel capital. This makes entry less attractive for                     measure, and does not depend on the level of inflows into
+entrepreneurs. The key insight from Proposition 5 is that                   the VC market (mE2n ). Instead, the level of competition is
+the ex post rent-capture effect is dominated by the ex ante                 driven by the modified late stage deal values in Section 6.1,
+effect of a thinner angel market. In equilibrium, we                        with higher rents for VCs attracting more VC entry per unit
+observe not only less entry by angels, but also less entry                  of deal inflow.
+by entrepreneurs. Moreover, the angel market is less                             Proposition 5 finally shows that weaker angel protec-
+competitive with longer fundraising cycles.                                 tion also leads to lower VC valuations. The main intuition
+    One might have expected that a less competitive angel                   is simply that weaker angel protection gives the VCs more
+market would have resulted in lower valuations and                          bargaining power. Note, however, that this is a different
+weaker entrepreneurial incentives. Proposition 5 indeed                     rationale from the lower valuations in the angel market,
+finds that higher λ leads to lower angel valuations. This is                which was because angels are being compensated for
+because angels are compensated for the expected hold-up                     future hold-up problems.
+by receiving larger equity stakes upfront (i.e., higher αn ).                    The analysis so far assumes that angels are dispensable
+However, we also find that a higher λ actually strengthens                  at the bargaining stage, but not at the search stage. This
+entrepreneurial incentives (i.e., higher en1 ), and therefore               simplifies the analysis by keeping all single-coalition values
+also improves the success rates at the angel stage (i.e.,                   at zero. However, in the Online Appendix we show that
+higher ρ1 ðen1 Þ). The reason is that entrepreneurs are only                nothing depends on this simplification. We provide a model
+partly motivated by their payoffs in case of liquidation                    extension where the entrepreneur can search for a VC
+(given by ð1  αn Þy1 ). The other relevant payoff is in case of            without the angel. When searching together, the entrepre-
+entering the VC market, where a higher λ gives them a                       neur and angel have symmetric search costs (σ E2 ¼ σ A2 ¼ σ 2 ),
+                               E
+higher ex post deal value (D2). Our analysis shows that the
+                                                                            so that their total search costs are 2σ2; when searching
+latter effect dominates the former. We therefore obtain
+                                                                            alone we assume that the entrepreneur has search costs
+the surprising conclusion that while weaker angel protec-
+                                                                            γσ 2 , with γ 4 2. For sufficiently large values of γ the model
+tion reduces entrepreneurial entry, it actually increases
+                                                                            is the same as before, because searching alone is dominated
+entrepreneurial incentives and success rates at the
+angel stage.                                                                by stopping. For more moderate values of γ, however,
+    One interesting consequence of this tension between                     searching alone is a credible threat that affects the equili-
+lower entry rates and higher success rates is that the effect               brium deal values. In particular, the entrepreneur now has a
+of λ on the outflow into the VC market (as measured by                      positive single-coalition value U E2 ðγ ; λπ Þ that is increasing in
+mE2n ) is ambiguous. This is precisely because λ has a                      λ and decreasing in γ. In the Online Appendix we show that,
+negative effect on the size of the angel market xn1 , but a                 even though the equilibrium is now defined by three
+positive effect on the success rate ρ1 ðen1 Þ. We can identify              simultaneous equations, the results from Proposition 5
+cases where one effect dominates the other. If, for                         continue to hold.
+650                                      T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+7. Early exits                                                                        Proposition 6 establishes how the commercialization
+                                                                                  strategies of entrepreneurs are affected by the structure of
+    So far our analysis takes it for granted that angels                          the VC market. Entrepreneurs and angels avoid the VC
+always want to bring their companies to the VC market.                            market more often when securing follow-on investments
+However, some angels argue that it is better to avoid the                         is more costly (higher σ2 and δ2). The same applies when
+VC market altogether, and instead take an early exit (see                         fewer VCs search for investment opportunities (due to higher
+                                                                                  σ2 and k2), so that on average, entrepreneurs and angels
+                                                                                    V
+Peters, 2009). Egan (2014) also shows that start-up com-
+panies could redirect their technology strategies towards                         search longer before receiving VC. In equilibrium, we observe
+getting acquired when opportunities for follow-on funding                         more small entrepreneurial projects, and fewer risky projects
+diminish. In this section we consider the endogenous                              that rely on large scale (VC) investments.
+choice of angels and entrepreneurs to take the more risky                             A related and interesting question is how the level of
+option of seeking VC financing, versus the safer option of                        angel protection affects the early stage project choice.
+selling the company at an early stage.                                            Consider again our model extension from Section 6, where
+    To model the endogenous choice between entering the                           the parameter λ measures the entrepreneur's late stage
+VC market versus an early exit, we consider the simplest                          hold-up power. We obtain the following result:
+possible model extension. In our base model we assumed
+that a successful project faces one of two scenarios: either                      Proposition 7. More severe hold-up of angels in the late stage
+the company has a growth option, in which case it is                              market leads to more safe projects being implemented in
+always optimal to raise VC funding; or the company does                           equilibrium (i.e., dγ n =dλ 4 0).
+not have a growth option, in which case it is liquidated                              Proposition 7 shows how the level of angel protection
+(generating the payoff y1). In this section we augment our                        affects the commercialization strategies of early stage
+base model by allowing entrepreneurs and angels to                                ventures. We know from the modified late stage deal
+choose between two different commercialization strate-                            values in Section 6.1 that, ceteris paribus, less protection
+gies. After achieving success with the initial investment                         means that angels get a smaller and entrepreneurs a larger
+(which happens with gρ1), entrepreneurs and angels can                            share of the total surplus π. We formally show in the
+either choose the safe strategy of selling what they have                         Online Appendix (see Proof of Proposition 5) that this
+and taking the liquidation value y1 (early exit). Or they can                                                                              A
+                                                                                  translates into a lower expected utility for angels (U2), and
+pursue the risky option of developing their growth option                                                                             E
+                                                                                  a higher expected utility for entrepreneurs (U2). However,
+and seeking out VC financing; see Fig. 1. We assume that                          VCs also capture a part of the surplus from angels, so that
+the entrepreneur and angel receive a signal about the                             the net effect on the joint utility of angels and entrepre-
+success probability of developing a growth option. Let γ be                       neurs (U A2 þU E2 ) is negative. This implies that the anticipa-
+the probability that the venture develops the growth                              tion of more severe hold-up of angels in the late stage
+option and becomes ready for VC financing. However,                               market discourages owners of early stage ventures to
+with probability 1  γ the growth option does not work                            exploit growth opportunities through raising VC.
+out, so that the venture fails and is worth nothing. That is,
+by exploiting growth opportunities, the entrepreneur and
+angel forgo the chance to sell a more market-ready project                        8. Empirical predictions
+at price y1. In our base model we essentially assumed that
+γ ¼ 1. Now we assume that γ is a random variable with                                Our theory has a large number of comparative statics
+some distribution Ωðγ Þ and support ½0; 1. For simplicity                        results. In principle all of these generate empirical predic-
+we assume that the realization of γ is verifiable.6                               tions. In this section we explore in depth those predictions
+    The entrepreneur and angel investor agree ex ante on                          that are empirically most relevant.
+an optimal γ n , so that they choose an early exit if and only
+if γ r γ n . It is easy to see that γ n satisfies γ n ¼ y1 =ðU E2 þU A2 Þ.        8.1. Dependent variables
+A higher value of γ n means that the entrepreneur and
+angel are more likely to choose the safe over the risky                               Our model makes predictions about several endogen-
+option. Thus, γ n measures the equilibrium preferences for                        ous outcomes that all lend themselves to be used as
+the safe project. The next proposition examines how                               dependent variables. At the market level, our model makes
+γ n depends on the characteristics of the VC market.                              predictions about the size of the angel and VC markets, i.e.,
+                                                                                  the rate at which angels and VCs make investments. Such
+Proposition 6. The equilibrium preference for safe projects γ n                   market activities are regularly tracked by governments and
+is increasing in the death rate δ2, the search costs σ2 and σ2,
+                                                             V                    commercial data providers. While there are important
+and the investment amount k2, and decreasing in market                            measurement challenges with tracking private deals, elec-
+transparency ϕ2.                                                                  tronic data collection has vastly improved the quality of
+                                                                                  such data in recent years. Our model also endogenizes the
+                                                                                  number of entrepreneurs, distinguishing between those
+    6
+       Assuming that the signal is observable but not verifiable adds some        that are seeking funds and those that actually succeed in
+technical complications, but does not affect the main insight. With               raising funds. On electronic matchmaking platforms, such
+observability, the entrepreneur and angel can always renegotiate an
+inefficient decision. The main issue is that the entrepreneur is wealth-
+                                                                                  as Angellist, it is now possible to empirically distinguish
+constrained, which constrains renegotiation choices. This renegotiation           between companies merely seeking versus actually finding
+closely resembles the analysis in Hellmann (2006).                                investments.
+                                 T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                                     651
+
+
+   Another important endogenous variable is the level of                     The main empirical challenge for testing these predic-
+competition in the angel and VC markets. The most                         tions is to find credible proxies for angel protection. We
+immediate measure is the ratio of investors willing to                    propose three different approaches. First, one can examine
+invest, relative to the number of entrepreneurs seeking                   cross-country variations in the quality of legal protection.
+funds. The challenge is that this requires estimates for the              A large prior literature focuses on the legal origin in terms
+number of potential investors, as opposed to actual inves-                of common versus civil law, as well as indices of legal
+tors. As mentioned above, it is sometimes possible to                     enforcement and minority shareholder protection (see
+measure the number of entrepreneurs seeking funds.                        Glaeser and Shleifer, 2002; La Porta, Lopez-de-Silanes,
+However, estimating the number of investors that are                      Shleifer, and Vishny, 2000).7 Second, within countries,
+truly willing to invest remains challenging. Intriguingly,                entrepreneurs' hold-up power is likely to differ across
+our search model also suggests an alternative measure-                    industry sectors. For example, ideas in the software sector
+ment approach. As shown in Sections 4.2 and 5.2, the level                are likely to be more portable across ventures, whereas
+of competition in a market is inversely related to the                    ideas in the life sciences tend to be associated with patents
+length of fundraising cycles, i.e., the expected time to                  and physical devices that can be better protected. Third,
+complete a fundraising campaign. This is simply because                   even within sectors there is likely a variation in the relative
+for a given level of market transparency, greater competi-                importance of contractible assets (e.g., physical assets,
+tion implies shorter expected search time. The interesting                patents) versus “non-contractible” assets (e.g., non-
+observation is that online search markets naturally record                patented ideas, customer knowledge, entrepreneurial skills).
+the time it takes to raise funds on the platform. This might              For each of these three approaches it is possible to exploit
+therefore be used as a proxy for the level of competition.                cross-sectional (and possibly time-varying) variations in the
+   Beyond this market-level analysis, our model also                      level of angel protection.
+generates predictions at the company level. In particular,
+the model allows for endogenous pricing of deals,                         8.2.2. Start-up costs
+expressed as post-money valuations. These valuations in                       A popular argument for the rise of angels is that the
+turn imply equity stakes for the entrepreneurs, which can                 cost of starting a business has dramatically declined in
+be used as a measure for entrepreneurial incentives. In                   recent years. This phenomenon has been widely discussed
+addition, our model generates predictions about entrepre-                 in the popular press (The Economist, 2014), and is related
+neurial outcomes, namely, the rate at which start-ups                     to the so-called “lean startup” movement (see, e.g., Ries,
+survive, the rate at which they move from the angel to                    2011; Blank, 2013). In our model, lower start-up costs lead
+the VC market, and the rate at which they experience early                to more entry of entrepreneurs, and even more entry of
+or late exits. All of these are standard measurable                       angels. Overall, this generates a more competitive angel
+outcomes.                                                                 market, and results in shorter fundraising cycles. Lower
+                                                                          start-up costs also imply lower equity stakes for angels,
+8.2. Key independent variables and their predictions                      generating better entrepreneurial incentives and thus
+                                                                          higher success rates. All this increases the rate at which
+   Our theory contains a large number of exogenous                        angel-backed companies enter the VC market. Free entry
+model parameters. We focus here on those that are                         ensures that the VC market expands in size accordingly.
+particularly relevant for empirical evaluations. We con-                      For the empirical measurement we can imagine several
+sider alternative explanations for the recent rise of angels,             approaches. One simple approach is to directly exploit the
+and ask what additional predictions are associated with                   variation in the size of seed investment rounds to look at
+each of these explanations.                                               the role of start-up costs. Another approach is to exploit
+                                                                          time variation. Ewens, Nanda, and Rhodes-Kropf (2014),
+8.2.1. Angel protection                                                   for example, argue that the introduction of Amazon's
+    One argument for the rise of angel investing is that                  Elastic Compute Cloud (EC2) services lowered the cost of
+angels have become more experienced and sophisticated.                    starting a company. Yet another approach is to combine
+This could be because of the creation of national angel                   the time variation with some cross-sectional variations.
+investor associations, and the rise of organized angel                    For example, Amazon's EC2 is likely to have a bigger effect
+groups and angel networks (OECD, 2011). According to                      on web-based start-ups rather than ‘bricks and mortar’
+this argument angels learn over time how to better protect                start-ups.
+themselves against hold-up in a variety of legal and
+strategic ways (Leavitt, 2005). Our model predicts that
+                                                                          8.2.3. Market transparency
+better angel protection leads to a larger and more compe-
+                                                                              Another argument for the rise of angel investing is that
+titive angel market, more entrepreneurial entry, higher
+                                                                          angel markets have become more transparent, mostly
+angel valuations, and a higher probability of success. Angel
+protection has an ambiguous effect on the size of the VC
+market, but unambiguously decreases VC competition.                            7
+                                                                                 A related but different approach is to focus on cross-country or
+Thus, better angel protection has opposite effects on the                 inter-state differences in the strength of intellectual property (IP)
+level of competition of angel and VC markets, which also                  protection. The main hypothesis is that stronger IP protection better
+                                                                          protects angels from hold-up by entrepreneurs. Hyde (1998) discusses
+implies shorter fundraising cycles in the angel market, but               differences in the enforcement of trade secrets; the work of Gilson (1999)
+longer ones in the VC market. Finally, better angel protec-               and Marx, Strumsky, and Fleming (2009) emphasizes the role of non-
+tion encourages late over early exits.                                    compete agreements.
+652                                      T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653
+
+
+because of the rise of Internet-based investment plat-                            Higher VC costs naturally lead to a smaller supply of VC
+forms. Angellist is currently the market leader, but a                            funding. The model then shows that this also implies a less
+number of other “crowdfunding” platforms also compete                             competitive VC market. Most importantly, a supply shock
+in this space (Nanda and Kind, 2013). So-called “seed                             to VC leads to a smaller and less competitive angel market.
+accelerators” are likely to further increase the transpar-                        Valuations are also lower in both markets. The model also
+ency of angel markets.                                                            predicts a relative increase in early over late exits.
+    In our model greater angel market transparency leads                              We note that the main empirical predictions do not
+to more entry by entrepreneurs, and even more entry by                            seem to fit the recent market patterns, where a retrench-
+angels. Greater competition leads to higher valuations and                        ment from the VC market was accompanied by a rise in
+better entrepreneurial incentives. Interestingly, all of these                    angel investing. This suggests that a supply shock to VC is
+changes in the angel market imply that the VC market                              unlikely to be the sole or main driver behind the recent
+should also expand in size. Moreover, if these electronic                         rise of angel investing.
+platforms also increase the transparency of VC markets,                               Overall, we note that our theory generates a rich set of
+our model further predicts additional entry of VCs, with                          empirical predictions. Any empirical analysis would natu-
+more competition, shorter fundraising cycles, and higher                          rally also have to tackle issues of sample selection and
+valuations.                                                                       econometric identification. However, that is clearly beyond
+    The advent of online investment platforms provides a                          the scope of this theory paper.
+unique natural experiment for testing these predictions.
+We can think of two alternative approaches. One approach
+is to consider a market before and after the adoption of                          9. Conclusion
+online platforms. This approach might also leverage regio-
+nal variations in the speed of adoption of online platforms.                          In this paper we develop a theory of the interactions
+A second approach is to consider variations in transpar-                          between angel and venture capital markets. Entrepreneurs
+ency within an online platform. Online platforms them-                            receive their initial funding from angels, but may need
+selves are evolving in the way they work, changing their                          follow-on funding from venture capitalists. On the one hand
+rules of what information gets disclosed.                                         the two investor types are ‘friends,’ in the sense that they
+                                                                                  rely upon each other's investments. On the other hand they
+8.2.4. Entrepreneurial urgency                                                    are ‘foes,’ because venture capitalists no longer need the
+    One could ask how the rise of angels is related to                            angels when they make their follow-up investments. The
+competition among entrepreneurs. Our urgency para-                                venture capitalists' bargaining power depends on how
+meters δ1 and δ2 capture the competitive pressure for                             competitive venture markets are, and how well angels are
+entrepreneurs. The most interesting prediction is that                            legally protected. Using a costly search model, we establish a
+greater urgency leads to a more competitive angel market                          joint equilibrium across the two markets, and endogenously
+with shorter fundraising cycles, yet it also leads to lower                       derive the size and competitive structure of both markets.
+angel valuations.                                                                 We also identify determinants of angel and venture capital
+    The most direct approach to empirically measure                               valuations, and generate predictions about the rate at which
+urgency is to look at the failure rate of unfunded entrepre-                      entrepreneurs proceed across the two markets, and whether
+neurs. Again, this is much easier to observe in online                            they choose strategies to exit early or late. We relate the
+platforms than in traditional data sources. However,                              theory to the recent rise of angel investments, exploring
+because higher failure rates could also be due to lower                           alternative explanations concerning the cost of starting a
+competition, it is important to separately control for the                        business, the transparency of angel markets, and the ability
+level of competition (as discussed in Section 8.1 above).                         of angels to better protect their investments.
+Another more indirect approach would be to look at                                    Our analysis opens doors for further research into the
+measures of entry and product market competition in                               relationship between early and late investors. One limiting
+fairly narrowly defined industries. Or one could try to                           assumption of standard search models is that all types are
+measure the length of product development, or the speed                           homogeneous. Allowing for heterogeneous types is techni-
+at which products or patents become obsolete. For exam-                           cally much more complicated, but it would allow for a richer
+ple, it is widely believed that markets move faster in                            set of feedback loops, in particular, introducing the possibility
+software than in the life sciences.                                               that entrepreneurs make endogenous decisions at the angel
+                                                                                  stage that affect the quality of their deals at the VC stage. A
+8.2.5. VC supply shocks                                                           different but equally interesting issue is to what extent
+    Finally, we examine the possibility that the recent rise                      investors can build reputations and networks that limit the
+of angel investing is due to a retrenchment from venture                          extent of counter-productive hold-up. Finally, our framework
+capital.8 In our model we capture this (somewhat simplis-                         raises some interesting policy questions. For instance, if a
+tically) with changes in the VCs' costs, as measured by σV2.                      government wanted to subsidize VC (presumably because of
+                                                                                  other market failures), would a subsidy to angels be more or
+                                                                                  less efficient than a subsidy to VCs? We hope that future
+    8
+      Historically, VC markets have experienced significant supply shocks
+(see Gompers and Lerner, 2001). Several approaches have been suggested
+in the prior literature to identify supply shocks to VC, focusing mainly on       (footnote continued)
+investment conditions at the limited partner level. Samila and Sorenson           for local VC availability. Mollica and Zingales (2007) adopt a similar
+(2011) use the returns to local university endowments as an instrument            approach using the returns of US state pension funds.
+                                          T. Hellmann, V. Thiele / Journal of Financial Economics 115 (2015) 639–653                                       653
+
+
+research, by ourselves and others, will help to illuminate                        Hong, S., Serfes, K., Thiele, V., 2013. The market for venture capital: entry,
+these important sets of next questions.                                               competition, and the survival of start-up companies. Unpublished
+                                                                                      working paper. Wabash College, Drexel University, and Queen's
+                                                                                      University.
+References                                                                        Hyde, A., 1998. Silicon Valley's high-velocity labor market. Journal of
+                                                                                      Applied Corporate Finance 11, 28–37.
+                                                                                  Inderst, R., Müller, H., 2004. The effect of capital market characteristics on
+Admati, A., Pfleiderer, P., 1994. Robust financial contracting and the role           the value of start-up firms. Journal of Financial Economics 72,
+    of venture capitalists. Journal of Finance 49, 371–402.                           319–356.
+Anand, B., Galetovic, A., 2000. Weak property rights and holdup in R&D.           Kaplan, S., Strömberg, P., 2003. Financial contracting theory meets the
+    Journal of Economics & Management Strategy 9, 615–642.
+                                                                                      real world: an empirical analysis of venture capital contracts. Review
+Axelson, U., Strömberg, P., Weisbach, M., 2009. Why are buyouts levered?
+                                                                                      of Economic Studies 70, 281–315.
+    The financial structure of private equity funds. Journal of Finance 65,
+                                                                                  Kerr, W., Lerner, J., Schoar, A., 2014. The consequences of entrepreneurial
+    1549–1582.
+                                                                                      finance: a regression discontinuity analysis. Review of Financial
+Bergemann, D., Hege, U., Peng, L., 2009. Venture capital and sequential
+                                                                                      Studies 27, 20–55.
+    investments. Unpublished working paper. Yale University, HEC Paris,
+                                                                                  La Porta, R., Lopez-de-Silanes, F., Shleifer, A., Vishny, R., 2000. Investor
+    and University of Colorado at Boulder.
+                                                                                      protection and corporate governance. Journal of Financial Economics
+Berk, J., Green, R., Naik, V., 1999. Optimal investment, growth options, and
+                                                                                      58, 3–27.
+    security returns. Journal of Finance 54, 1553–1607.
+                                                                                  Leavitt, J., 2005. Burned angels: the coming wave of minority shareholder
+Blank, S., 2013. Why the lean start-up changes everything. Harvard
+                                                                                      oppression claims in venture capital start-up companies. North
+    Business Review (May), 4–9.
+                                                                                      Carolina Journal of Law & Technology 6, 223–286.
+Chemmanur, T., Chen, Z., 2014. Venture capitalists versus angels: the
+                                                                                  Manso, G., 2011. Motivating innovation. Journal of Finance 66, 1823–1860.
+    dynamics of private firm financing contracts. Review of Corporate
+                                                                                  Marx, M., Strumsky, D., Fleming, L., 2009. Mobility, skills, and the Michigan
+    Finance Studies 3 (1–2), 39–86.
+                                                                                      non-compete experiment. Management Science 55, 875–889.
+Dewatripont, M., Maskin, E., 1995. Credit and efficiency in centralized and
+                                                                                  Mollica, M., Zingales, L., 2007. The impact of venture capital on innovation
+    decentralized economies. Review of Economic Studies 62, 541–555.
+Diamond, P., 1982. Aggregate demand management in search equili-                      and the creation of new businesses. Unpublished working paper.
+    brium. Journal of Political Economy 90, 881–894.                                  University of Chicago.
+Diamond, P., 1984. Money in search equilibrium. Econometrica 52, 1–20.            Mortensen, D., Pissarides, C., 1994. Job creation and job destruction in the
+Egan, E., 2014. How start-up firms innovate: technology strategy, com-                theory of unemployment. Review of Economic Studies 61, 397–415.
+    mercialization strategy, and their relationship. Unpublished working          Nanda, R., Kind, L., 2013. AngelList. HBS Case Study #9-814-036.
+    paper. National Bureau of Economic Research.                                  Nanda, R., Rhodes-Kropf, M., 2013. Innovation and the financial guillotine.
+Ewens, M., Nanda, R., Rhodes-Kropf, M., 2014. Entrepreneurship and the                NBER Working Paper No. 19379.
+    cost of experimentation. Unpublished working paper. California                Nanda, R., Rhodes-Kropf, M., 2012. Financing risk and innovation.
+    Institute of Technology and Harvard University.                                   Unpublished working paper. Harvard University.
+Fluck, Z., Garrison, K., Myers, S., 2005. Venture capital contracting and         Neher, D., 1999. Staged financing: an agency perspective. Review of
+    syndication: an experiment in computational corporate finance.                    Economic Studies 66, 255–274.
+    NBER Working Paper No. 11624.                                                 OECD, 2011. Financing high-growth firms: the role of angel investors.
+Gans, J., Stern, S., 2000. Incumbency and R&D incentives: licensing the               OECD Publishing. http://dx.doi.org/10.1787/9789264118782-en.
+    gale of creative destruction. Journal of Economics & Management               Peters, B., 2009. Early Exits. First Choice Books. Vancouver, Canada.
+    Strategy 9, 485–511.                                                          Pissarides, C., 1979. Job matching with state employment agencies and
+Gilson, R., 1999. The legal infrastructure of high technology industrial              random search. Economic Journal 89, 818–833.
+    districts: Silicon Valley, Route 128, and covenants not to compete.           Pissarides, C., 2000. Equilibrium Unemployment Theory, second ed. MIT
+    New York University Law Review 74, 575–629.                                       Press, Cambridge.
+Glaeser, E., Shleifer, A., 2002. Legal origins. Quarterly Journal of Econom-      Ries, E., 2011. The Lean Start-Up. Crown Publishing Group, New York.
+    ics 107, 1193–1229.                                                           Samila, S., Sorenson, O., 2011. Venture capital, entrepreneurship, and
+Goldfarb, B., Hoberg, G., Kirsch, D., Triantis, A., 2012. Does angel                  economic growth. Review of Economics and Statistics 93, 338–349.
+    participation matter? An analysis of early venture financing. Unpub-          Schwienbacher, A., 2009. Financing commitments and investor's incen-
+    lished working paper. University of Maryland.                                     tives in entrepreneurial firms. Unpublished working paper. Université
+Gompers, P., Lerner, J., 2001. The venture capital revolution. Journal of             Lille 2.
+    Economic Perspectives 15, 145–168.                                            Shane, S., 2008. Fool's Gold?: The Truth Behind Angel Investing in
+Hellmann, T., 2006. IPOs, acquisitions and the use of convertible secu-               America. Oxford University Press, Oxford, UK.
+    rities in venture capital. Journal of Financial Economics 81, 649–679.        Silveira, R., Wright, R., 2006. The venture capital cycle. Unpublished
+Hellmann, T., Puri, M., 2002. Venture capital and the professionalisation             working paper. University of Wisconsin-Madison.
+    of start-up firms: empirical evidence. Journal of Finance 57, 169–197.        Teece, D., 1986. Profiting from technological innovation: implications for
+Hellmann, T., Perotti, E., 2011. The circulation of ideas in firms and                integration, collaboration, licensing and public policy. Research Policy
+    markets. Management Science 57, 1813–1826.                                        15, 285–305.
+Hellmann, T., Schure, P., Vo, D., 2013. Angels and venture capitalists:           The Economist, 2014. A Cambrian moment. January 18.
+    complements or substitutes? Unpublished working paper. Oxford                 Van-Osnabrugge, M., Robinson, R., 2000. Angel Investing: Matching Start-
+    University and University of Victoria.                                            Up Funds with Start-Up Companies—the Guide for Entrepreneurs,
+Holstein, W., 2012. Where's the venture capital? Online article published             Individual Investors, and Venture Capitalists. Jossey-Bass, San Fran-
+    by Chiefexecutive.net: 〈http://chiefexecutive.net/wheres-the-venture〉.            cisco, CA.
+

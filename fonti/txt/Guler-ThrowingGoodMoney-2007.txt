@@ -1,0 +1,2672 @@
+Throwing Good Money after Bad? Political and Institutional Influences on Sequential
+Decision Making in the Venture Capital Industry
+Author(s): Isin Guler
+Source: Administrative Science Quarterly , Jun., 2007, Vol. 52, No. 2 (Jun., 2007), pp.
+248-285
+Published by: Sage Publications, Inc. on behalf of the Johnson Graduate School of
+Management, Cornell University
+
+Stable URL: https://www.jstor.org/stable/20109918
+
+REFERENCES
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/20109918?seq=1&cid=pdf-
+reference#references_tab_contents
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            Sage Publications, Inc. and Johnson Graduate School of Management, Cornell University are
+            collaborating with JSTOR to digitize, preserve and extend access to Administrative Science
+            Quarterly
+
+
+
+
+                                                    This content downloaded from
+                                  193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                            All use subject to https://about.jstor.org/terms
+ Throwing Good Money This study focuses on the political and institutional influ
+ after Bad? Political and ences that lead organizational decision makers to avoid
+  Institutional Influences                      terminating unsuccessful investments, even when there
+                                                 is competition and they have the experience and incen
+ on Sequential Decision                         tives to maximize profits. I examine multilevel influences
+Making in the Venture                           on sequential investment decisions in the U.S. venture
+Capital Industry                                capital industry through a qualitative study of the invest
+                                                ment process and a quantitative examination of venture
+                                                capital investments between 1989 and 2004. Results show
+  Isin Guler                                    that venture capital firms become less likely to terminate
+University of North Carolina                     investments as they participate in more rounds of financ
+ at Chapel Hill                                  ing, despite evidence that expected returns are declining
+                                                over rounds. Intraorganizational politics, as well as coer
+                                                cive and normative pressures from co-investors and limit
+                                                ed partners, may influence the decisions to continue or
+                                                terminate investments, regardless of the expected
+                                                returns. The findings suggest that organizational safe
+                                                guards designed to mitigate individual biases may give
+                                                rise to political and institutional influences, which may in
+                                                turn undermine the effectiveness of the decision
+                                                 process.*
+                                                 Bounds on individual rationality shape and constrain the effi
+                                                 cacy of organizational decisions (e.g., March and Simon,
+                                                  1958; Cyert and March, 1963). From a normative perspective,
+                                                 organizations should be able to avoid individual decision
+                                                 errors for several reasons. First, organizations have at their
+                                                 disposal several safeguards, such as monitoring or incentives
+                                                 that promote rational behavior (e.g., Pommerehne, Schneider,
+                                                 and Zweifel, 1982; Camerer, 1987). Second, organizational
+                                                 decision makers are typically experts in their fields and
+                                                 should be able to tap into their prior experience to avoid
+                                                  repeated decision errors (Roth, 1988). Third, in an economy
+                                                 subject to competitive selection pressures, organizations that
+                                                  repeatedly exhibit decision biases should be selected out in
+                                                 the long run (Knez, Smith, and Williams, 1985; Smith, 1989).
+                                                 Empirical studies of organizational decisions, however, show
+                                                 that organizations, like individuals, commit decision errors
+                                                 and that these errors are not random but systematic (e.g.,
+                                                Odean, 1998, 1999; Camerer, 2000). Why do organizations
+                                                 exhibit such errors, even though their survival depends on
+2007 by Johnson Graduate School,                 effective business decisions and they employ safeguards to
+Cornell University.                              ensure sound decision making?
+0001-8392/07/5202-0248/$3.00.
+                                                A potential reason for the persistence of decision errors in
+                                                organizations is that political and institutional influences may
+ I thank Kathleen McGinn, three anony
+mous reviewers, and Linda Johanson for
+                                                 interact with individual decision errors and produce adverse
+comments and suggestions. Financial              results. Yet few studies have explored the role of social and
+support from the Wharton School's Sol C.        contextual influences in how individual judgment errors affect
+Snider Entrepreneurial Research Center,
+Mack Center for Technological Innovation,       actual organizational decisions. The studies that have been
+and Boston University School of Manage          done suggest that individual processes may interact with
+ment is gratefully acknowledged. I am            influences from within and outside the organizations, such as
+grateful to field respondents for their
+ insights. I thank Ron Adner, Paul Allison,     group dynamics among employees and pressures from exter
+Nick Argyres, Philip Bromiley, Sendil Ethi      nal parties (e.g., Staw, Sandelands, and Dutton, 1981; McNa
+ raj, Vance Fried, Thomas Hellmann, Anne
+Marie Knott, John Lafkas, Daniel                mara, Moon, and Bromiley, 2002), but a systematic analysis
+Levinthal, Ian MacMillan, Anita McGahan,        of multilevel influences on organizational decisions, including
+Andrew Metrick, Anne Miner, Hart Posen,          individual, political, and institutional factors, has not been
+Preeta Roy, Steve Sammut, Scott Shane,           conducted to date.
+Harbir Singh, and seminar participants at
+various conferences and universities for
+feedback. Any errors and omissions              One particular decision bias that has attracted much attention
+ remain my own.                                 from scholars of decision making is the escalation of commit
+
+                                                 248/Administrative Science Quarterly, 52 (2007): 248-285
+
+                                                     This content downloaded from
+                                   193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                             All use subject to https://about.jstor.org/terms
+             Sequential Decision Making
+
+            ment in sequential investments. Sequential investments, or
+             incremental resource commitments to a project over time,
+            provide investors with more flexibility than one-shot invest
+            ments do by providing the option to continue or abandon the
+            project at each stage (Dixit and Pindyck, 1994; Trigeorgis,
+             1996). The realization of this advantage critically depends on
+             investors' effectiveness in terminating unsuccessful invest
+            ments based on updated information. Prior research, howev
+            er, has shown that investors tend to escalate their commit
+            ment to a prior course of action rather than terminate their
+             investment in the face of negative feedback (e.g., Staw,
+             1976; Teger, 1980; Arkes and Blumer, 1985).
+             Although most studies of escalation have focused on individ
+             ual decision makers, organizational scholars have found that
+             organizational decision makers also face difficulties in termi
+             nating sequential investments (e.g., Haunschild, Davis-Blake,
+             and Fichman, 1994; Staw and Hoang, 1995). The large litera
+            ture on escalation in individual decision making is of limited
+            help in understanding this problem because most of the evi
+            dence was collected through laboratory studies and does not
+             reflect the experience, learning, and incentives that might
+             reduce organizational decision biases (e.g., Zardkoohi, 2004),
+            while empirical work on escalation in organizational decision
+             making that has been done has often focused on unique set
+             tings, limiting its generalizability. One such study examined
+             playing time in professional basketball (Staw and Hoang,
+              1995), which may not be representative of decisions in con
+             ventional business environments (Staw, Barsade, and Koput,
+             1997). Other work has examined escalation in commercial
+              lending decisions (Staw, Barsade, and Koput, 1997; McNama
+              ra, Moon, and Bromiley, 2002), a setting in which the govern
+             ment shields firms from competitive pressure through the
+              "too-large-to-fail" policy (Zardkoohi, 2004). Despite a large
+             body of prior research on escalation, then, we still know little
+             about the efficacy of organizational decision makers in com
+             petitive settings, in which experienced organizational
+              investors make sequential investments on a routine basis,
+             with safeguards and incentives to maximize profits.
+             Studies on organizational escalation have suggested that the
+             context of the investment decisions may exacerbate escala
+             tion. The most detailed account of organizational escalation
+             was collected through two illustrative case studies, the
+             Expo86 World's Fair and the Shoreham Nuclear Power Plant
+              (Ross and Staw, 1986, 1993). These studies suggested that
+             escalation may have project-related, psychological, social, and
+             structural determinants. These early studies, however, were
+             based on two unique projects that were one-time, non-profit,
+             publicly visible, and extremely difficult to terminate because
+             of the severity of the consequences (Ross and Staw, 1986,
+              1993; Staw, 1997). It is not clear whether the dynamics
+             observed in these case studies apply to routine sequential
+               investments in for-profit firms. More recent work has either
+              controlled for external influences in laboratory settings or has
+              emphasized individual-level determinants, such as increased
+              personal responsibility or personal consequences to the deci
+              sion maker, in explaining escalation (Staw, Barsade, and
+              Koput, 1997; McNamara, Moon, and Bromiley, 2002). As a
+              249/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+            result, political and institutional influences on sequential
+             investments in competitive settings have received little atten
+            tion to date. A thorough examination of these multilevel influ
+            ences may be critical in understanding whether and how
+            decision errors persist in organizational settings in which
+            safeguards, expertise, and incentives should act to increase
+            the effectiveness of decisions.
+
+            I borrow from organizational decision making (March and
+           Simon, 1958; Pfeffer and Salancik, 1978), institutional, and
+           network theories (DiMaggio and Powell, 1983; Coleman,
+            1988; Podolny, 2001, 2005; Scott, 2001) to understand multi
+            level influences on sequential investments in the venture
+           capital (VC) industry. This industry provides an attractive set
+           ting in which to study sequential investment decisions for
+           several reasons. First, the decision makers in the industry are
+           competent and experienced, routinely facing real investment
+           problems. Second, they have incentives to make the best
+           possible investments, as each investment involves a signifi
+           cant commitment of capital and the investment outcomes
+           determine the returns to the venture capitalists. Third, VC
+           firms have numerous safeguards in place to ensure the effec
+           tiveness of their investment decisions, such as monitoring,
+           contractual stipulations, and syndication. Last, all historical
+            investment decisions in the industry, and their outcomes, are
+           readily observable over a period of time, which allows market
+           outcomes to reflect competition and learning. The VC indus
+           try therefore provides an attractive context in which to exam
+            ine whether organizational decision makers exhibit systemat
+            ic errors in spite of competition, incentives, and experience,
+           and if so, what role political and institutional factors play in
+           their decisions. I first conducted a qualitative study to provide
+           background information on sequential investment processes
+            in the U.S. VC industry, which revealed political and institu
+           tional influences on termination. I then tested hypotheses
+           derived from the qualitative study on a sample of 3,227
+           sequential investment decisions in the U.S. VC industry dur
+            ing the period 1989-2004.
+           SEQUENTIAL INVESTMENTS AS AN ORGANIZATIONAL
+            DECISION PROBLEM
+           Many organizational investment decisions take place sequen
+           tially. For instance, new product introduction comprises sev
+           eral stages, including market research, design, prototyping,
+           market testing, and production, each with its own set of deci
+           sions. Similarly, decisions on the allocation of capital to differ
+           ent projects, entry into a new market, or the acquisition of
+           another company are typically made in a number of sequen
+           tial steps (e.g., Kogut and Kulatilaka, 1994; Folta and Miller,
+           2002). These investments involve an iterative process of
+            information acquisition and incremental commitment over a
+           period of time. Organizational decision makers can continue
+           or abandon the course of action at each decision point during
+           this period.
+           More generally, a sequential investment is one in which an
+            investor funds a project incrementally, at multiple points over
+           the life of the project (Dixit and Pindyck, 1994). Sequential
+            investments typically have three characteristics. First, the
+            250/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+            Sequential Decision Making
+
+            project does not generate any intermediate payoffs until the
+             investment is complete. Second, there is uncertainty over
+            the amount and timing of the investment that will be
+            required over the life of the project, as well as over the
+            returns to investment. Third, the investor typically has a num
+            ber of alternative opportunities competing for resources at
+            any point in time. Each investment therefore requires
+            expending substantial resources and has an opportunity cost
+             (Dixitand Pindyck, 1994).
+            The main decision problem in a sequential investment is one
+            of acquiring information (March, 1991). The sequential invest
+            ment process provides investors with the option to acquire
+            more information about the project's prospects by investing
+            further at each stage. Investors can then use the new infor
+            mation to update their beliefs about the probability of suc
+            cess and decide whether to continue or terminate the invest
+            ment. The opportunity cost of each sequential investment is
+             forgoing alternative investment opportunities.
+             If investors can learn about the probability of success through
+             incremental investments, they should increasingly terminate
+            projects that have a declining likelihood of a successful out
+            come. If the investor receives favorable information about
+            the project at each stage, the probability of success, condi
+            tional on new information, increases over time. In this case,
+            the likelihood of terminating investments should decline at
+            each stage. But if the investor receives only negative infor
+            mation about the project at each stage, the probability of suc
+            cess, conditional on new information, will decline over time.
+             In the latter case, the investor should exhibit an increasing
+             likelihood of terminating the investment. In short, if investors
+            are effective in managing the sequential investment process,
+            the likelihood of terminating the investment should mirror the
+            conditional probability of success over time. But because
+            most actual projects fall between these two extremes in
+            terms of information content (Bowen, 1987), investors may
+            have difficulty terminating sequential investments even when
+            termination is warranted (Coff and Laverty, 2001; Adner and
+            Levinthal, 2004).
+
+            Sources of Difficulties in Terminating Sequential
+             Investments
+            Difficulties in terminating sequential investments may origi
+            nate from individual biases as well as political and institution
+            al influences. Individual decision makers exhibit a systematic
+            tendency to commit to a course of action, even when they
+             receive negative information about future prospects (Staw,
+             1976, 1981; Staw and Fox, 1977; Teger, 1980; Arkes and
+            Blumer, 1985; Brockner and Rubin, 1985). This tendency may
+            be due to their inability to update prior beliefs with new infor
+            mation (Nisbett and Ross, 1980; Kahneman, Slovic, and Tver
+            sky, 1982), failure to treat prior investments as sunk costs
+             (Thaler, 1980; Arkes and Blumer, 1985), framing subsequent
+             investments as opportunities to recover prior losses (Kahne
+            man and Tversky, 1979; Arkes and Blumer, 1985; Whyte,
+             1986), or avoiding cognitive dissonance and saving face by
+            further committing to earlier decisions (Staw, 1976; Tetlock,
+             1985). It appears that these multiple causes are intermingled
+
+             251/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+           and together contribute to individual escalation (Staw and
+           Hoang, 1995).
+           Organizations, like individuals, appear to have problems in
+           terminating commitments, although empirical evidence is
+          more limited (see Staw, 1997, for a review). On the one
+          hand, organizations have at their disposal several safeguards
+          to limit escalation, such as budgets and minimum perfor
+          mance targets (Brockner, Shaw, and Rubin, 1979; Teger,
+            1980; Simonson and Staw, 1992; Heath, 1995; Tan and Yates,
+           2002), accountability and monitoring (Brockner, Shaw, and
+           Rubin, 1979; Simonson and Staw, 1992; Kirby and Davis,
+            1998), clear performance feedback (Garland, Sandefur, and
+           Rogers, 1990), and information on the economic outcomes of
+           decisions (Tan and Yates, 1995). On the other hand, the
+           effectiveness of such safeguards may be limited in the face
+           of political and institutional constraints.
+
+            Intraorganizational politics. As organizational members pur
+           sue their own interests, multiple goals emerge within the
+           organization (Selznick, 1949; Allison, 1971; Pfeffer and Salan
+           cik, 1978). In the case of sequential investments, terminating
+           unsuccessful projects might have negative consequences,
+           such as losing face in the organization or losing employment
+            (Fox and Staw, 1979; Brockner and Rubin, 1985), for organi
+           zational members who support them. In particular, organiza
+           tional members who champion or sponsor a project stand to
+           benefit most from its success and have the most at stake if
+           it fails (Burgelman, 1983; Howell and Higgins, 1990). They
+          may try to keep a project from being terminated by using dif
+          ferent sources of power and social influence (Allison, 1971;
+          Pfeffer, 1992; March and Heath, 1994), forming coalitions of
+           interested parties (Cyert and March, 1963; March and Heath,
+          1994), and bargaining with other organizational members to
+          continue supporting the project (Allison, 1971; Pfeffer and
+           Salancik, 1978; Staw, 1997; Green, Welsh, and Dehler, 2003).
+           Political processes tend to become more prevalent as organi
+           zations grow in size, authority is delegated to more mem
+           bers, and the organizational structure becomes more com
+           plex (Selznick, 1949; March and Simon, 1958; Mintzberg,
+           1983).
+           Institutional influences. Institutions are the "formal and
+           informal rules, monitoring and enforcement mechanisms, and
+          systems of meaning that define the context within which
+           individuals, corporations, labor unions, nation-states, and
+          other organizations operate and interact with each other"
+           (Campbell, 2004: 1). Organizations conform to institutional
+          pressures because failure to do so threatens their legitimacy
+           in the organizational field, limits their external support and
+          resource access, and in turn reduces their survival chances
+           (Meyer and Rowan, 1977; Ruef and Scott, 1983; Hannan and
+           Freeman, 1989). Scott (1987: 498) argued that organizations
+            "do not necessarily conform to [institutional pressures]
+           because they are taken-for-granted, but often because they
+           are rewarded for doing so" (see also Oliver, 1991; Palmer,
+           Jennings, and Zhou, 1993; Westphal and Zajac, 2001; Guler,
+          Guillen, and MacPherson, 2002). These influences may be
+           coercive, normative, or mimetic (DiMaggio and Powell, 1983).
+           252/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+            Sequential Decision Making
+
+            Coercive influences result from the regulations and laws that
+             shape organizational action, as well as the demands of pow
+             erful external parties (DiMaggio and Powell, 1983; Scott,
+             2001). Organizations comply with regulative institutional
+             demands because of legal sanctions (Scott, 2001). Institution
+             al theorists have argued that resource-dependence relation
+             ships also create formal and informal coercive pressures on
+             dependent organizations (Pfeffer and Salancik, 1978; DiMag
+            gio and Powell, 1983; Perrow, 1986). In sequential invest
+            ments, organizations may avoid decisions to terminate invest
+            ments if contractual obligations or resource relationships with
+            powerful external parties coerce them to do so.
+             Normative influences arise from the commonly accepted
+             practices in a profession (Meyer and Rowan, 1977; DiMaggio
+             and Powell, 1983; Scott, 2001). Such norms are sanctioned
+             not by formal contracts but informally through the logic of
+            social obligations (Scott, 2001). These obligations facilitate
+            social order and enable exchange relationships among net
+            works of actors and organizations (Coleman, 1988; Uzzi,
+             1996; Brass et al., 2004). If the accepted norm is consistency
+            and decisiveness in the face of hardship, organizational
+            actors may feel pressure to continue investing even when
+             they receive bad news. For instance, Staw and Ross (1980)
+            found that leaders who consistently pursued a course of
+            action were perceived as "heroes" and received credit for
+             "sticking to their guns" (Staw, 1997: 204).
+            Mimetic influences relate to the cognitive elements of organi
+            zational actions and specify the meanings attached to these
+             actions (Meyer and Rowan, 1977; Ruef and Scott, 1983;
+             Scott, 2001). These influences diffuse across an organization
+             al field as organizations imitate each other in their search for
+              legitimacy (DiMaggio and Powell, 1983; Miner and
+             Haunschild, 1995; Abrahamson and Rosenkopf, 1997; Guler,
+             Guillen, and MacPherson, 2002). In parallel, persistence in
+             sequential investments may diffuse through mimicry. If a
+              large number of organizations or visible, high-status actors
+             avoid terminating investments, other organizations will likely
+             follow suit.
+
+            The venture capital industry provides an attractive empirical
+            setting for a study of sequential investments because VC
+            firms routinely invest in entrepreneurial ventures in multiple
+            stages to manage the uncertainty of the investment process,
+            and firms are differentiated by status. A brief description of
+            the VC industry provides the background for my research. In
+            discussing the VC industry, I use the term "firm" solely to
+             refer to venture capital firms and "ventures" or "companies"
+            to refer to portfolio companies that receive funding from VC
+            firms.
+
+            The Venture Capital Industry
+            VC firms are typically organized as limited partnerships in
+            which general partners raise funds from limited partners and
+            manage the funds over a fixed period of time (typically 10
+            years). Limited partners may include institutional investors
+            and wealthy individuals. VC firms' performance is measured
+             in terms of returns to each fund. Returns on previous funds
+
+             253/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+           drive the general partners' ability to raise capital for new
+           funds (Kaplan and Schoar, 2005).
+          VC firms manage funds by investing in a portfolio of ventures
+          and liquidating investments at the end of the fund's duration
+          to return the proceeds to the limited partners in return for a
+          management fee of about 20 percent. VC firms typically
+           invest in only about 1 percent of the business proposals they
+          receive and remain involved in each venture for 5-7 years
+           (Fenn, Liang, and Prowse, 1997). During this period, they
+          monitor the venture's progress and provide resources and
+          advice to help the venture progress toward a successful exit.
+          They can exit investments in several ways, including through
+           initial public offerings (IPOs), acquisitions or mergers, or
+          stock buybacks (Gompers and Lerner, 2000b). VCs typically
+          earn the highest rates of return when the venture goes pub
+           lic (Gompers and Lerner, 2000b) or gets acquired at a high
+          price. Therefore, successful exit options from the VC firms'
+          perspective are public offerings or acquisitions at favorable
+          prices.
+          VC firms often specialize in high-risk investments, such as
+          start-up ventures in unproven, high-technology industries
+           (Gompers and Lerner, 2000b; Hellmann and Puri, 2000). As a
+           result, a small number of investments account for a large
+          proportion of portfolios' returns (Scherer, Harhoff, and Kukies,
+          2000). Only 10-30 percent of venture capital investments
+           result in an IPO (Fenn, Liang, and Prowse, 1997). Between
+           1969 and 1988, the top 10 percent of venture capital invest
+          ments accounted for 62 percent of all venture capital returns
+           (Scherer, Harhoff, and Kukies, 2000), and over 30 percent of
+          venture capital investments resulted in a net loss (Sahlman,
+           1990). Because so many investments provide little or no
+           return, accurately evaluating ventures' prospects and termi
+          nating investments in unsuccessful ventures is the key to
+          overall portfolio performance.
+          VCs manage the uncertainty surrounding ventures in a num
+          ber of ways. First, they make sequential investments in mul
+          tiple rounds of financing (Amit, Glosten, and M?ller, 1990;
+          Sahlman, 1990; Gompers, 1995; Bergemann and Hege,
+           1998). Sequential investments provide VC firms with the
+          option to acquire more information about the venture's
+          prospects over time. VCs can then use the new information
+          to update their beliefs about the probability of success and
+          decide whether to continue or terminate the investment.
+         Although most VC firms continuously monitor their ventures'
+         operations throughout the investment process, financing
+          rounds constitute distinct events in which the venture capital
+          ists can thoroughly evaluate the venture's progress against
+         previously set milestones and decide to continue or termi
+         nate the investment, "and if they learn negative information
+         about future returns, the project should be cut off from new
+           financing" (Gompers, 1995: 1462). The likelihood that a VC
+          firm will terminate investment in a venture should therefore
+          mirror the probability of success, conditional on new informa
+          tion at each financing round (Dixit and Pindyck, 1994; Gom
+          pers, 1995; Bergemann and Hege, 1998).
+          254/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+            Sequential Decision Making
+
+            Second, VC firms actively monitor their investments through
+            frequent interaction and office visits with ventures. They typi
+            cally invest in ventures that are close geographically to facili
+            tate monitoring (Gorman and Sahlman, 1989; Gupta and
+            Sapienza, 1992; Norton and Tenenbaum, 1993; Lerner, 1995;
+            Sorenson and Stuart, 2001). VC firms that specialize in the
+             industry in which the venture operates also enjoy advantages
+             in monitoring. Prior experience familiarizes VCs with an
+             industry, helping them better understand opportunities and
+            challenges and make more informed financing decisions
+             (Sorenson and Stuart, 2001).
+            Third, contractual provisions help manage uncertainty, as they
+            can minimize potential agency problems in the VC-entrepre
+            neur relationship, especially in a venture's early stages (Gom
+            pers and Lerner, 2001; Kaplan and Stromberg, 2004). These
+             include increased control rights, including board membership,
+            and contingent financing (Lerner, 1995; Hellmann, 1998;
+            Kaplan and Stromberg, 2002, 2004). And finally, VC firms fre
+            quently syndicate investments with other VCs in order to
+            manage uncertainty. Syndication, also known as co-invest
+            ment, helps firms get a "second opinion" about the ventures
+            from their peers (Lerner, 1994). VC firms often prefer ven
+            tures that are referred to them by other venture capitalists
+             (Fried and Hisrich, 1994). The presence of prominent VC
+            firms in a syndicate is seen as a signal of the venture's
+            underlying quality (Stuart, Hoang, and Hybels, 1999) and
+              increases its access to resources (Hsu, 2004; Hochberg,
+             Ljungqvist, and Lu, 2007). In addition, syndication lets multi
+             ple firms share the burden of monitoring the venture. Typical
+              ly, one of the VCs in the syndicate takes the lead role. It
+              invests the largest amount in the syndicate, gets a board
+             seat, and monitors the venture more actively (Lerner, 1994).
+             Finally, syndication helps VCs diversify their portfolio risk, as
+             they can invest smaller amounts in a larger number of ven
+             tures (Wilson, 1968; Lerner, 1994; Brander, Amit, and
+            Antweiler, 2002).
+            Although there is a vast literature that examines different
+            facets of the VC investment process, there has been relative
+             ly little work on sequential investments (Admati and Pfleider
+             er, 1994; Gompers, 1995; Bergemann and Hege, 1998), and
+             these studies have generally examined agency problems. As
+             a result, political and institutional influences on sequential VC
+             decisions have been largely overlooked. I undertook a qualita
+             tive study of venture capital investors to get a better under
+             standing of how those influences affect the decision to termi
+             nate sequential investments. I used the findings from the
+             qualitative study to build hypotheses about the sequential
+              investment process, which I then tested on a larger sample
+             of investments.
+
+            QUALITATIVE STUDY: TERMINATION OF SEQUENTIAL
+             VC INVESTMENTS
+             For the qualitative study, I interviewed 30 VC professionals in
+             21 VC firms and senior executives in three VC-backed ven
+             tures. The interviews were semi-structured and lasted
+             between 30 and 60 minutes. I conducted 16 face-to-face
+              interviews and 17 over the phone. I tape recorded the inter
+
+             255/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+           views and took extensive notes. The transcripts of the inter
+           views amounted to 157 pages of single-spaced notes. To
+           increase the accuracy of their responses, I promised each
+           respondent (and signed a non-disclosure agreement when
+           requested) that their answers would be kept confidential
+           (Siegel, Waldman, and Link, 2003). I therefore use pseudony
+          mous initials and numbers to identify respondents and firms
+           in my qualitative report. I used an interview protocol as a
+          broad guide in the interviews, asking the VC professionals to
+          walk me through a typical investment cycle, from the receipt
+          of business plans to exiting an investment. I then continued
+          with increasingly more specific descriptive and structural
+          questions (Spradley, 1979) about sequential investments and
+          potential reasons for escalation. I avoided leading participants
+          to explanations that I thought were relevant, but I asked for
+          examples or details when they brought up a related issue.
+           In analyzing the data about termination of sequential invest
+          ments, I followed an iterative, three-stage content-analysis
+           process (Glaser and Strauss, 1967; Miles and Huberman,
+            1984). First, I reviewed the interview transcripts to identify
+           recurrent themes, such as syndication dynamics, emotional
+           commitment to investments, and continuing investment to
+           protect earlier investments. I then open-coded the transcripts
+           and broke them down into labels, such as "emotional," too
+           close to company," defensive investment," "investment
+           size," "co-investors," "dilution," "no exit," "failure," "pro
+           rata share," "insiders," and "newcomer to syndication"
+            (Spradley, 1979; Strauss and Corbin, 1998). In the second
+          stage, I organized the labels into 11 emergent categories. For
+            instance, "failure" grouped quotes that described how VCs
+          continued investment if termination would imply certain
+          death for the venture. "Insiders" referred to the role of insid
+          er investors in this process: if they stopped investing, this
+          sent a negative signal to the rest of the VC community about
+           the venture and reduced the venture's chances of getting any
+           further financing. "No exit" grouped quotes that described
+          how ventures might remain in a portfolio for many years
+          without an apparent exit option, i then grouped these latter
+           three labels under the general category of "avoiding conse
+          quences." In subsequent interviews, I explored confirming or
+          conflicting evidence to revise the categories (Miles and
+           Huberman, 1984).
+            In the third stage, a student rater and I independently con
+           ducted a content analysis of all interviews to determine the
+           frequency with which each category was mentioned (Miles
+           and Huberman, 1984). The kappa interrater reliability statistic
+         between our ratings was .928 (Z = 18.1, p < .000). We then
+         went through an iterative process to resolve inconsistencies
+          in our classifications. The cases on which we could not agree
+         were dropped, and two categories were merged into others,
+         yielding a total of nine categories. Table 1 reports the cate
+         gories, with examples, and how frequently each category
+         was found. I did not include the interviews from venture
+         managers in this analysis but used them to understand their
+         perspective. Finally, I tested whether VC firms in the sample
+         differed in the frequency of their responses based on size,
+         age, early vs. late stage investment preference, and location.
+          256/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+                                           Sequential Decision Making
+
+Table 1
+
+Categories in the Qualitative Study, Definitions, Examples, and Frequencies
+                                Definition and Criteria                                                              Frequency
+Category                              for Category                                  Typical Example                   (N = 30)
+
+                                           Psychological and cognitive factors
+1. Emotional           Getting too close to the venture, per            " It's really our job through diligence as 13
+                         sonal relationships, getting emotion             a firm to identify the reasons that
+                         ally attached, feeling possession                would cause us not to do a deal.
+                         over the deal, reluctance to admit               Now it's the champion who some
+                          failure.                                         times catches the bug, the love bug,
+                                                                           they fall in love with the company
+                                                                           that prevents them from doing
+                                                                           that."
+2. Optimistic          Belief that VCs can turn ventures                "Another chance, we'll certainly win." 4
+                          around with follow-on investment.
+3. Avoiding            Follow-on investments to protect the             "There are instances I've seen where 13
+   consequences          venture from failure.                             the company is hung out and dry
+                                                                          without their investors. And it is so
+                                                                           to speak the kiss of death."
+4. Sunk-cost fallacy   Making follow-on decisions based on              "I think that the concept of sunk cost 15
+                          earlier investment in the venture.                is not fully evaluated. That once you
+                                                                           have some money in you'll pay a lit
+                                                                           tle bit more to save the company."
+5. Groupthink          Co-investors influencing each other's            "If there are several venture firms in 2
+                           investment decisions to continue                an investment, and two of them are
+                          investing in a venture.                         saying ... we should put more
+                                                                          money into these couple of stages,
+                                                                          and then you worked with them
+                                                                          before, you see they're smart peo
+                                                                          ple, you start to buy in to their logic.
+                                                                          So I think there's more group deci
+                                                                          sion than independent decision."
+                                                    Intraorganizational politics
+6. Politics            Political and influence processes (e.g.,         "There are certainly politics. Because I
+                          bargaining, coalitions, uses of                 think in general egos can get in the
+                          power) within firms affecting invest            way at times. People want to suc
+                         ment decisions.                                  ceed, they want to make money.
+                                                                          And they can be selfish."
+                                                      Institutional influences
+
+7. Co-investor         Co-investors exerting pressure on each            "There is usually pressure from insid 19
+   pressure              other to follow on by contractual                 ers to participate, and if you are not
+                         means.                                             investing you need a pretty good
+                                                                           reason."
+8. Status in           Termination viewed as harming firm's"There's a little bit of reputation
+    syndication          standing in the investor community.  involved, and you want to show
+    network                                                  good faith to your co-investors."
+9. Fund duration       Discussing the investment period,"Most of the time there's a five to
+                          imperatives to liquidate, or reluc seven-year investment period. So
+                         tance to write off investments inyou have that amount of time to put
+                          relation to the fund life.                      money into new deals. The only
+                                                                          thing you can do after that is to put
+                                                                          money into additional rounds for
+                                                                           those companies."
+
+
+
+                                           The 21 firms were classified as large (N = 11) or small (N =
+                                            10), based on whether they were above or below the mean
+                                           number of professionals (eight) in the qualitative sample. The
+                                           t-tests revealed no significant differences across groups in
+                                           each category, with two exceptions: "avoiding conse
+                                           quences" and "fund duration" were mentioned significantly
+                                           more frequently in large firms than they were in smaller
+                                           firms. The t-statistics for the differences of means between
+
+                                            257/ASQ, June 2007
+                                                This content downloaded from
+                              193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                        All use subject to https://about.jstor.org/terms
+           larger firms and smaller firms are 2.18 (p < .05) and 1.96
+           (p < .05) for consequences and fund duration, respectively.
+
+          Reluctance to Terminate Sequential Investments
+          Twenty-seven out of 30 respondents stated that investors are
+          more likely to make follow-on investments than they are to
+          discontinue funding once the initial investment is made. As
+          one told me, "You are more likely to do a deal the second
+          time around." Firms often invest their pro-rata share, invest
+           ing enough to retain the same proportion of equity in the ven
+           ture in a subsequent round, unless the company has "woe
+          fully failed." Although respondents stressed that they do not
+           indiscriminately support their ventures, when asked how
+          often they exit without investing their pro-rata share, the
+          answer was often "pretty rare." Two VCs said the decision
+          to terminate investment in a venture is "one of the most dif
+          ficult decisions that investors face." This observation sug
+          gested that subsequent investment decisions are not inde
+          pendent of the initial choice. As two informants explained,
+
+          There was one investment in particular. ABC was a portfolio compa
+          ny that we continued to invest [in] ... along with, we had some
+          thing like seven co-investors and we all invested with the exception
+          of one guy. And the company ultimately failed. And you know it's
+          one of those, when you do a postmortem of a company like that, if
+          we went back on different trip points along the way, we could have
+          done without two subsequent rounds of investments if we were
+           really more ruthless with our decision making. And that was a case
+          where we were not, nor were our co-investors, willing to admit fail
+          ure on this. But when you really dug down to the real basics of the
+          business it was pretty much destined to fail. (MR Firm 8)
+
+          The reason why staged investments may be problematic is that not
+          all VCs are as critical to issues and prospects, and that's mostly a
+          psychological process. There is much more a tendency to make it
+          work. There may be early signs of significant risk, but you still
+           invest.... Having four or five things to accomplish in six months
+          that are critical, you get down three or four months, those haven't
+          happened, but things are going well, if the next capital infusion has
+          come, you let it slide. The standards may drop a bit. It shouldn't
+          happen that way, but it's the thought process, there is a psychologi
+          cal side to it. You are more likely to do a deal the second time
+          around. (PD, Firm 2)
+
+          VC professionals frequently described psychological or cogni
+          tive processes that led them to continue investment, as out
+           lined in prior literature (Staw, 1976; Kahneman and Tversky,
+          1979; Arkes and Blumer, 1985). They frequently stated that
+          they may become "emotionally attached" to a venture
+          because they work closely with it. Investors who evaluated a
+          venture early and worked with it over time might fail to spot
+          critical problems in a timely manner or avoid accepting new
+           information in order to justify earlier commitments, as evi
+          denced in the following quotes:
+
+           It's hard to say we've done everything we can and we've got to pull
+          the plug. Hard to pull the plug on your baby. You've got a lot more
+          than money in your baby. You've got time, you've got sweat, you've
+          got tears. And you've been living with the company, you like the
+          management team. There is a lot of emotion there. It's hard to pull
+          the plug on your baby. (RK, Firm 14)
+
+          258/ASQ, June 2007
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+              Sequential Decision Making
+
+              The biggest reason is people hate to admit to themselves that they
+              have made a mistake. And they fall in love with the deals. It's a
+              human thing. You have a relationship with the company, you say
+              "Hey, now it's going to make it." You start to believe in the compa
+              ny's reasons why things are not working out. (SS, Firm 12)
+
+              VCs that made large investments in earlier rounds are often
+              tempted to invest further to recover their initial investment.
+              Such investments are referred to in the industry as "protec
+              tive" or "defensive" investments. Protective investments
+              can appear to be rational from one round to the next, but
+              they demonstrate an inability to disregard sunk investments
+               (Arkes and Blumer, 1985). As one informant said, "We don't
+              discuss [sunk costs] much. Should we treat this as a sunk
+              cost, or that kind of economical view. That happens very
+              rarely. We see [follow-on investments] primarily as a way to
+              protect our initial investment" (MA, Firm 11). Another sug
+              gested that familiarity with the company also plays a role:
+
+               I also think that the concept of sunk cost is not fully evaluated. That
+             once you have some money in you'll pay a little bit more to [perpet
+             ually] save the company. Because it is more appealing than putting
+              the money in a new company that you are not familiar with.... I
+              think the more money that goes in, we are less likely to walk away,
+             which is obviously illogical, but I think it does exist. (KA, Firm 10)
+
+               In short, the qualitative evidence suggests that VC firms may
+              face systematic difficulties in terminating sequential invest
+              ments. This is consistent with prior research on individual
+              and organizational decision making, which shows that deci
+              sion makers find it difficult to abandon a course of action
+              once they have made an initial commitment (Staw, 1976;
+              Kahneman and Tversky, 1979; Arkes and Blumer, 1985). In
+              the VC industry, investors find it increasingly more difficult to
+             terminate investments as their commitment to the venture
+             grows through multiple rounds of financing. They become
+             more likely to continue investment, regardless of changes in
+             the probability of success. This may violate the profit maxi
+             mization objective, which requires that VC firms closely track
+             the conditional probability of success at each round. I there
+             fore hypothesize:
+
+             Hypothesis 1 (H1): The likelihood of a VC firm terminating invest
+             ment in a venture will deviate from the conditional probability of
+              success over rounds.
+
+              Political and Institutional Reasons for Reluctance to
+              Terminate Investments
+             Apart from the individual reasons for a reluctance to termi
+             nate investments, the study revealed factors other than psy
+             chological biases that influence sequential investment deci
+             sions in the VC industry. Most venture capitalists realize the
+             possibility of escalation in sequential investments and employ
+             several safeguards to protect against it. The qualitative evi
+              dence suggests, however, that these safeguards may give
+              rise to political and institutional dynamics that may in turn
+              undermine the effectiveness of the investments decisions,
+              increasing decision errors.
+               Intraorganizational politics. VC firms typically make collec
+              tive decisions, in part to mitigate individual biases in evaluat
+
+              259/ASQ, June 2007
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+          ing investments. In a typical VC firm, each general partner is
+         responsible for a number of ventures, but investment in each
+         venture needs to be approved by all or a subset of general
+         partners. This process leaves investment decisions vulnera
+         ble to political influence. Some of the respondents said that
+         partners often negotiate about approving investments in each
+         other's ventures and described situations in which partners
+         avoided vetoing each other's deals in order to gain advocates
+         for their own deals. As one informant described, "In terms of
+         deals the process is inherently political, it is more horse trad
+          ing, such as if you don't veto this, I won't veto your deal"
+          (AD, Firm 4). Follow-on investments may thus be approved
+         for reasons other than a venture's own merit.
+
+         The purpose of having companies come back in before you have a
+         follow-on financing is to try to get everyone up to speed on how the
+         company is doing and make sure that we have that conversation
+         and analysis of the follow-on opportunity. But the reality of it is that
+          if one partner is very excited about the company and the others are
+          lukewarm, that one partner can get the financing done anyway.
+          (RM, Firm 21)
+
+        Prior literature suggests that political processes become
+        more prevalent as organizations grow in size, authority is del
+        egated to more members, and organizational structure
+         becomes more complex (Selznick, 1949; March and Simon,
+          1958; Mintzberg, 1983). Because VC firms are typically small
+         organizations with little hierarchy, the extent and frequency
+         of political processes may be lower than they are in an aver
+         age firm in other industries. Conversely, the relative equality
+         of partners in their formal authority and power and the shar
+         ing of pooled resources (March and Simon, 1958), combined
+        with individual responsibility for deals, may make VC
+         investors likely to use political processes to ensure that their
+        deals are supported. This dynamic is likely to be more fre
+        quent in VC firms with a larger number of professionals with
+        diverse interests. As one informant told me, "The bigger the
+        firm, the more political it is... in a group of early stage part
+        ners that range from 2 to 20 partners like in our case, it's
+        pretty much a linear [relation]. It depends on the size and the
+        political element of decision making" (MA, Firm 9). I there
+        fore hypothesize:
+
+         Hypothesis 2 (H2): The greater the number of VC professionals
+         employed in the VC firm, the lower will be its likelihood of terminat
+          ing investment in a venture.
+          Institutional influences. Some of the reasons for the reluc
+         tance to terminate sequential investments in the VC industry
+         appear to be related to the structure of institutions in the VC
+          investment process. The qualitative evidence suggested
+         three sources of institutional influence: coercive pressure
+         from co-investors, normative pressure through the VC invest
+         ment network, and coercive pressure from limited partners
+         connected with the fund duration.
+
+         Coercive pressure from co-investors. In my interviews,
+         respondents mentioned syndication (co-investment) as the
+         most common safeguard against making faulty investment
+         decisions, because new VCs can contribute a fresh and more
+         objective perspective. Yet qualitative evidence suggests that
+         260/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+              Sequential Decision Making
+
+             co-investing can increase the reluctance to terminate an
+              investment as firms exert coercive pressure on one another
+             to continue. Co-investors may discourage others from termi
+             nating an investment by imposing contractual sanctions. For
+             example, if all co-investors, except one, support a venture,
+             co-investors may structure subsequent rounds to dilute the
+             existing shares of the "defector," forcing it to write off much
+             of its earlier investment. In this way, VC firms may under
+             mine their own safeguards against bad investment decisions
+             by how they structure investments. As one informant
+              described it,
+
+             More often than not you'll have scenarios where it might be three
+             or four investors in total, and you have a much tougher dynamic
+             than if it's two investors and one wants to invest and the other
+             doesn't in a follow-on round. There's real pressure brought to bear.
+             And sometimes that can be real harsh in what comes out. Because
+             what could happen is that if there's four investors and three of them
+             decide to invest in a follow-on round and one doesn't, they can
+             structure it in a way that's remarkably punitive to the one that
+             doesn't participate. Washout round it's called. And that can be pretty
+             painful for [an investor] that has their position wiped out in the new
+              round. (MR Firm 8)
+
+             As this quote suggests, the pressure to continue investment
+             appears to increase with the number of co-investors that join
+             the syndicate, because the relationships between co
+              investors become more complex and severing the invest
+             ment tie may involve more penalties for each VC. I therefore
+             hypothesize:
+
+              Hypothesis 3 (H3): The greater the number of co-investors in the
+               investment syndicate, the lower will be the VC firm's likelihood of
+              terminating investment in a venture.
+
+             Normative pressure through the VC investment network.
+             According to the qualitative evidence, the accepted norm in
+             sequential investments is for firms to "stand by their ven
+             tures" and invest further even when the conditions get
+             tough. This helps protect the investments of co-investors and
+             shows that the VC firm is behaving "in good faith." Con
+             versely, termination may hurt the firm's standing in the VC
+             community. The penalty for non-compliance with the invest
+             ment norms is losing future syndication opportunities with
+             other VCs, which may significantly limit the firm's access to
+             deals and other resources (Podolny, 2001). A number of infor
+             mants indicated that reputation is an important motivator:
+
+              Quite often you invest with people that you've worked with before
+              or want to work with in the future. There's a little bit of reputation
+               involved. You want to show good faith to your co-investors. (MA,
+              Firm 11)
+
+               In a way you brought co-investors into a company in some cases,
+              and reputationally you don't want to be known as someone who
+              sprinkles money and never comes back to the altar. (MD, Firm 21)
+
+               If you have these groups that you want to co-invest with then
+              they're going to look to you to also be supportive when they need
+              you there. There's definitely that kind of dynamic going on. (RM,
+              Firm 21)
+
+              261/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+          Prior research suggests, however, that not all organizations
+          may feel the pressure of complying with the norms to the
+          same extent. In particular, high-status organizations are sub
+          ject to less pressure to comply than their low-status counter
+          parts. While lower-status organizations are expected to defer
+           important decisions to high-status counterparts (Gould, 2002;
+          Podolny, 2005), high-status organizations can act relatively
+           independently of the normative pressures, without suffering
+          sanctions from the rest of the community. High-status organi
+          zations are more likely to deviate from accepted norms
+          because they feel secure in their legitimacy, irrespective of
+          their actions (Hollander, 1958; Phillips and Zuckerman, 2001).
+          For lower-status organizations, sanctions of non-compliance
+          are more severe because they risk losing their legitimacy,
+          and they depend on network partners for resources (Podolny,
+          2005). Previous work also shows that organizations of higher
+          status are more likely to break with investment norms than
+           lower-status counterparts (DiMaggio and Powell, 1983; Have
+          man, 1993; Podolny, 2005). This seems to be true in the VC
+           industry, where lower-status firms avoid breaking the norms
+          by terminating their investment unless a high-status co
+           investor does so first. In contrast, organizations that already
+          have elite status in the investment network enjoy continued
+          access to investment opportunities and resources from co
+           investment partners, regardless of their actions in any partic
+           ular deal (Podolny, 2001; Gould, 2002; Hsu, 2004; Hochberg,
+           Ljungqvist, and Lu, 2007). This was voiced by one of the
+           respondents: "[If you are co-investing with a high-status firm
+           like Kleiner Perkins], you don't really tell [them] that you are
+          not investing in this company any more." I therefore expect
+          elite (high-status) VC firms to experience less normative pres
+          sure to continue investment:
+
+          Hypothesis 4 (H4): The likelihood of terminating investment in a
+          venture will be higher for high-status VC firms than for lower-status
+          VC firms.
+
+          Coercive pressure from limited partners (fund duration). The
+          fixed duration of each VC fund provides another safeguard
+          against ovehnvesting in each venture. Although the main pur
+          pose of limiting fund duration is to provide the limited part
+          ners with liquidity, it also forces VC firms to exit investments
+          at the end of a fund's life. At the same time, however, the
+           limited fund duration may also decrease the likelihood of ter
+          mination. As discussed earlier, most funds have a 10-year
+          duration (Fenn, Liang, and Prowse, 1997). A venture typically
+          takes five to seven years to exit. Therefore, most new invest
+          ments are made in the first half of the fund's life cycle. The
+          remaining period is used to support existing ventures and liq
+          uidations, as well as to raise capital for upcoming funds.
+          Firms need to show high returns to the limited partners in
+          order to be able to raise new funds (Kaplan and Schoar,
+          2005). This may limit VC firms' ability to terminate invest
+          ments later in the fund's life, even when the probability of
+          success for a particular venture has declined over time, and
+          better investment opportunities may now be available. One
+           informant described the effect of duration on funding deci
+          sions:
+          262/ASQ, June 2007
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+             Sequential Decision Making
+
+             Part of [the termination decision] depends on your cycle. If you
+              [invest] in year one of your fund and by year three you realize it's
+             not going anywhere, then you might take that money and put it in a
+             company that's also early stage. But if you do it in year five, if you're
+             going to put that money in a company it'd better be in a company
+             that's likely to be acquired or have a liquidity event quicker. You
+             probably wouldn't invest in a company [from scratch] after five or
+              seven years. (WS, Firm 20)
+
+             Thus, I expect that a VC firm will be less likely to terminate
+             an investment in an older fund because of the pressure to
+             show high returns to limited partners for the next fund:
+
+              Hypothesis 5 (H5): The older the VC fund that invests in a venture,
+              the lower will be the VC firm's likelihood of terminating investment
+              in the venture.
+
+             The qualitative evidence thus suggests that the likelihood of
+             termination may decrease over investment rounds because
+             of political and institutional constraints, as well as individual
+             biases. This possibility is contrary to the motivation for
+             sequential investments, which is to provide the investor with
+             an exit option at each decision point. The large-sample empir
+              ical study I conducted tested whether the decision bias is
+             systematically observed throughout the industry and the spe
+             cific mechanisms that influence VCs' investments.
+
+              EMPIRICAL DESIGN
+              Data
+             The quantitative study examines VC investment decisions in
+              U.S. ventures founded between 1989 and 1993. I tracked the
+             funding histories and exit events of these ventures through
+             2004. The funding data were compiled from the VentureXpert
+             database, provided by Thomson Venture Economics. Ventur
+             eXpert includes "standard U.S. venture investing," in which
+             the venture is domiciled in the U.S., at least one of the
+              investors is a VC firm, VC investment is a primary invest
+             ment, and it entails an equity transaction. I included only
+              investments by VC funds, as explicitly identified. These data
+             have been used extensively in earlier research (Barry et al.,
+               1990; Sahlman, 1990; Gompers and Lerner, 2000b; Sorenson
+              and Stuart, 2001; Shane and Stuart, 2002; Hochberg,
+              Ljungqvist, and Lu, 2007). All variables on VC funding were
+              calculated from the VentureXpert data, unless otherwise
+              noted. I collected data on the composition of VC firms from
+              Galante's Venture Capital and Private Equity Directory and
+              Pratt's Guide to Venture Capital Sources. Data on the dates
+              and valuation of initial public offerings were drawn from Hit
+              ter's study of the IPO market (Ritter, 2006), the Center for
+              Research in Security Prices (CRSP), and Securities Data Cor
+              poration (SDC). I collected data on dates and valuations of
+              acquisitions from the Mergers & Acquisitions Database of
+              the Securities Data Corporation (SDC).
+               I limited the data to ventures founded on or before 1993.
+              Because a venture typically takes 5-7 years to experience an
+              exit event after the first VC investment (Fenn, Liang, and
+              Prowse, 1997), limiting the founding year to 1993 provides an
+              adequate window to observe success or failure until 2004.
+              Though some companies may exit in a shorter time, allowing
+
+              263/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+         11-14 years after founding to observe exit events reduces
+         the likelihood of right censoring. After I dropped inconsistent,
+          irrelevant, or missing data, the final data set includes approxi
+         mately $9.4 billion and 1,862 unique rounds of VC investment
+          in 796 ventures by 364 VC firms. Each venture received an
+          average of 4.05 rounds and an average of 1.93 rounds from
+          each VC, resulting in 262 successful venture exits and 859
+          termination events.
+
+          Dependent Variables
+          Hazard of success. The first dependent variable represents
+          the hazard of a successful exit for a venture at time t. I con
+          sidered IPOs and acquisitions as successful exit events
+          because they are the two attractive exit options for VC
+           investors. In this data set, the average return on investment
+           is 1608 percent for IPOs and 446 percent for acquisitions for
+          the 87 IPOs and 52 acquisitions for which data are available.
+          The time variable (t) measures the time in days from a ven
+          ture's founding date until the IPO or acquisition date. Ven
+          tures that did not achieve a successful exit event by Decem
+          ber 2004 were considered "unsuccessful" and at risk for
+          termination. Although these ventures may have gone public
+          or got acquired after 2004, this cutoff allows for 11-15 years
+          from founding for a successful exit event, which is well
+          beyond the average exit window of 5-7 years that is typical
+          of VC investments. The number of IPOs and acquisitions in
+          the dataset declined markedly after 2000, from 15 IPOs and
+           20 acquisitions in 2000 to one IPO and no acquisitions in
+          2004, reducing the likelihood of right censoring. Because
+          most VC funds have a life of 10 years, 11-15 years (between
+          1989-1993 and 2004) is a reasonable time frame to observe
+          successful exits.
+          Hazard of termination. The second (and main) dependent vari
+          able represents the hazard that a VC firm terminates invest
+          ment in a venture at time t. I coded a VC-venture investment
+           relationship as terminated if the VC firm did not appear in any
+          of the subsequent investment rounds or if the focal round
+          was also the final round of financing for the venture. In the
+           former case, I assumed that the event occurred at the earli
+          est round date at which the VC no longer appeared as an
+           investor; in the latter, I assumed that it occurred 482 days
+          after the final round of financing.
+
+           I did not uniformly assume that the last reported round was
+          the final round of financing, because the venture may still
+          have been receiving financing at the end of 2004. I inferred
+          whether the last reported round was the final one by observ
+           ing the duration of inactivity in financing. Interviews with VCs
+          suggested that a round of financing is typically followed by a
+          subsequent round or exit in 16-18 months. Consistent with
+          this observation, a round was followed by a subsequent
+          round or exit within 482 days for 75 percent of the invest
+          ments in this sample. Therefore I assumed that the invest
+          ment was terminated 482 days after the final round of financ
+           ing unless it was followed by a successful exit or a
+          subsequent round. For 15 cases, the ventures were classi
+          fied in the data source as "bankrupt" or "defunct." I consid
+          ered these censored, because a venture may fail for reasons
+           264/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+                                               Sequential Decision Making
+
+Table 2
+Demonstration of Coding Procedure for Success and Termination Variables
+
+                       Spell start
+                          date                                                       Success
+                         (round               Spell end        Termination            event
+                        date, in              date (in            event                (1 if   Termination   Success
+Spell        VC           days)                 days)            (1 if yes)            yes)        date       date
+
+Venture A: VCj invested in 2 rounds (termination). VCk invested in all 4 rounds, until IPO (success)
+                             1                   299
+                           300                   449                                               500
+                             1                   299
+                           300                   449
+                           450                   499
+                            500                  800                                                          800
+Venture B: VCj and VCk stopped investing after 2 rounds, more than 482 days have elapsed since last round,
+no exit event (termination)
+
+                             1                   299
+                           300          300 + 482 :      782                                       782
+                             1                   299
+                           300          300 + 482 = 782                                            782
+Venture C: VCj and VCk stopped investing after 2 rounds, less than 482 days have elapsed since last round, no
+exit event (censored)
+
+                             1                599
+                           600          600 + 482 = 1082
+                                        (after 12/31/2004)
+                             1               299
+                            600         600+482 = 1082
+                                        (after 12/31/2004)
+
+Venture D: VCj and VCk invested 2 rounds, venture identified as "bankrupt" at day 800 (failure/censored)
+                             1                   599
+                            600                  800
+                             1                   599
+                            600                  800
+
+
+
+                                               other than termination of financing.1 Table 2 summarizes the
+                                               coding procedure for different scenarios.
+                                              Although inferring termination decisions from non-activity
+                                              clearly has limitations, this approach is similar to those in
+                                              organizational studies that infer an organization's failure if it
+                                              no longer appears in the directories of industry members,
+                                              without definitive information about the date of failure or
+                                               explicit indication that the organization has failed (e.g., Ingram
+                                               and Baum, 1997; Pennings, Lee, and van Witteloostujin,
+                                                1998; Swaminathan, 2001). But sensitivity analyses using dif
+                                               ferent time frames and interval censoring did not change the
+                                               results. Another limitation of this measure is that it does not
+                                               differentiate between termination through liquidation of
+                                               shares, versus a wait-and-see approach, in which the VC
+                                               retains shares without further investment as the venture
+                                                receives financing from other firms. The qualitative study,
+                                               however, provides evidence that VCs make a distinct deci
+1                                              sion not to invest further, and bear the consequences, in
+ I repeated the analyses by coding these       both cases. When the VC no longer invests in the venture, it
+observations as terminated, to account         sends negative signals about its expectations from the ven
+for the possibility that failure might have
+been due to termination of funding, and
+                                               ture. Such ventures are likely to fail due to lack of further
+the results did not change.                    funding. Even if other firms fund the venture while the focal
+
+                                               265/ASQ, June 2007
+                                                   This content downloaded from
+                                 193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                           All use subject to https://about.jstor.org/terms
+          VC adopts a wait-and-see approach, the qualitative study sug
+           gests that the shares of the focal VC will be severely diluted
+           by other firms. In either case, the focal VC loses all or a sig
+           nificant amount of the original investment when it does not
+           reinvest. Therefore, the absence of reinvestment indicates a
+           deliberate decision in either scenario, with consequences for
+           the VC as well for as the venture.
+
+            Independent Variables
+          Rounds. I estimated the distribution of successful exits and
+          terminations over the number of rounds of financing a ven
+          ture received from each VC firm. To obtain a more accurate
+          model of the distributions of success and termination, I also
+          entered the rounds variable in squared form. To avoid multi
+          collinearity, I centered the rounds and squared-rounds vari
+          ables by subtracting their respective means; centering did
+          not affect the results of the analyses. The original VentureX
+          pert data overstates the number of rounds because it reports
+          each distinctive date of cash infusion as a new financing
+          round even if two dates are only days apart (also noted by
+          Gompers and Lerner, 2000b). To reduce this bias, I aggregat
+          ed two or more consecutive rounds listed within a 90-day
+          period and treated them as a single round. I chose 90 days
+           because most term sheets signed between entrepreneurs
+          and VCs specify a maximum 90-day closing date window,
+          during which investors can schedule their cash infusions to
+          the venture. Typically, if there are more than 90 days
+           between two capital infusions, the second one is considered
+          a new round and is subject to new terms. This correction
+          decreased the mean number of rounds per VC-venture from
+          3.76 to 1.93 but did not affect the results of the analysis
+          reported here.
+          Number of VC professionals. I used the number of VC pro
+          fessionals employed in the firm as a proxy for the extent of
+           intraorganizational politics, based on prior literature and the
+          qualitative evidence reported earlier (Selznick, 1949; March
+           and Simon, 1958; Mintzberg, 1983). Because VC firms use
+          various titles such as managing partners, general partners,
+          senior principals, principals, associates, and managing direc
+          tors, I counted the number of all VC professionals employed
+           in the firm. All of these professionals participate in the invest
+          ment process and can potentially exert political influence on
+            investment decisions. This measure was compiled from
+          Galante's Venture Capital and Private Equity Directory and
+          Pratt's Guide to Venture Capital Sources, for the years 1989,
+           1994, 1999, and 2003. This variable is therefore time-varying
+          and is updated three times during the study period.
+          Number of co-investors. Using the VentureXpert data, I
+          counted the total number of VC firms that had invested in the
+          venture as of the focal round as a proxy for co-investor pres
+          sure. This measure is a time-varying, cumulative count of VC
+           investors that participated in prior financing rounds or the
+          focal round.
+
+          High-status (elite) VC. I followed prior literature in measuring
+          a VC firm's social status by its centrality in the co-investment
+          network (Podolny, 2001; Hochberg, Ljungqvist, and Lu, 2007).
+           I used Bonacich's (1987) eigenvector centrality measure,
+           266/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+                                    Sequential Decision Making
+
+                                    which takes into account the centrality of the actors with
+                                    which the focal actor is connected. It is therefore a better
+                                    measure of status than alternative centrality measures, espe
+                                    cially as it captures affiliation with other high-status actors
+                                     (Podolny, 1993, 1994; Benjamin and Podolny, 1999; Sorenson
+                                    and Stuart, 2001; Jensen, 2003; Nerkar and Paruchuri, 2005).
+                                      I calculated the centrality score for each year using co-invest
+                                    ment matrices from the three most recent years. The central
+                                      ity score ranges between zero (for isolated firms with no con
+                                     tacts) and one (for firms that syndicate with other central
+                                    actors). Because the theory suggested that VC firms in the
+                                     "elite" status will be less constrained by normative pres
+                                    sures, I coded a dummy variable that takes the value of 1 if
+                                     the VC is in the top 5 percent of the centrality measure.2
+                                    Fund age. I calculated fund age as the difference between
+                                    the focal round year and the fund vintage year. VentureXpert
+                                    defines fund vintage year as "the year of fund formation and
+                                    first takedown of capital or the year the fund made its first
+                                     investment into a portfolio company." If a firm invested in
+                                    the venture through multiple funds, I used the age of the old
+                                    est fund, which is closest to liquidation. The results are not
+                                    sensitive to this assumption.
+
+                                    Control Variables
+                                     VCs investment amount in the venture. The amount of
+                                      investment not only shows the amount of sunk costs in the
+                                      investment but also the extent of a VCs accountability to its
+                                     syndicate partners (Staw, 1976; Kahneman and Tversky,
+                                     1979; Arkes and Blumer, 1985). This measure was calculated
+                                     as the sum of the dollar amount the VC invested in the ven
+                                     ture in all prior rounds before the focal round.
+                                     VC firm characteristics. I controlled for five characteristics of
+                                     the VC firm. First, I controlled for the VCs geographic prox
+                                     imity to the venture, which can facilitate a VCs monitoring
+                                    and advising functions (Sorenson and Stuart, 2001). I mea
+                                    sured geographic proximity with a dummy variable that takes
+                                     the value of 1 if the VC firm operates in the same state as
+                                     the venture. Second, I controlled for the VCs experience in
+                                     the venture's industry because VC firms that better under
+                                    stand an industry can make more informed judgments
+                                     (Sorenson and Stuart, 2001). I calculated this as the count of
+                                    ventures the VC funded in the venture's industry in the three
+                                    years prior to the focal investment. Third, I controlled for
+                                    whether the VC was predominantly an early stage investor,
+                                    because early-stage and later-stage VC firms may have differ
+                                    ent success and termination rates. I calculated this variable
+                                 by tallying the number of a VC firm's investments in the last
+                                 three years prior to the focal deal and calculated the propor
+                                 tion of investments at each stage. I created a dummy vari
+                                 able that takes the value of 1 if a majority of the VC firm's
+2
+                                  investments are in early-stage ventures, as opposed to later
+The results were similar, albeit weaker,
+                                 stages.3
+when I coded VCs in the top 10 percent    Fourth, I controlled for the round VC first invested in
+of the centrality measure as highventure,
+                                    status.defined as the first round in which the VC firm
+
+3                                appeared as an investor in the venture, because the likeli
+                                 hood of
+ I also calculated industry experience    termination may be different for VC firms that joined
+                                        and
+stage preference using data five years
+                                 the
+prior to the focal investment, and the
+                                      syndicate at early rounds as opposed to later rounds.
+results did not change.          Fifth, I controlled for the prior ties with co-investors with the
+
+                                     267/ASQ, June 2007
+
+                                         This content downloaded from
+                       193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                 All use subject to https://about.jstor.org/terms
+          number of co-investors with which the VC invested in prior
+          deals, to control for the possibility that co-investor pressure
+          may be deal- or dyad-specific.
+         General market conditions. First, I controlled for IPO market
+         conditions, which can affect ventures' abilities to go public as
+         well as VC investment practices (Ritter, 1984; Stuart, Hoang,
+         and Hybels, 1999; Gulati and Higgins, 2003), with the number
+         of IPOs in the U.S. market at the year of investment (Ritter,
+         2006). Second, I controlled for the total capital committed to
+          the VC industry in the year of investment, defined as the
+         amount of capital that limited partners pledged to provide to
+         VC funds (Gompers and Lerner, 2000b). The amount of
+          inflow into the VC industry can affect investment practices as
+         well as exit rates (Gompers, 1995; Gompers and Lerner,
+          2000a). In unreported models, I also controlled for the total
+          number of VC-financed ventures as a proxy for the number of
+          opportunities available to VC firms. This measure was highly
+          correlated with the amount of capital and did not change the
+          results, so I excluded it in the final models.
+          Venture characteristics. I controlled for five characteristics of
+          the venture that VC firms can observe and utilize in invest
+          ment decisions. First, I controlled for the total amount of VC
+          investment in venture, because access to capital may affect
+           the likelihood of success (Shane and Stuart, 2002) as well as
+          termination. I measured this variable as the cumulative dollar
+          amount of VC financing disbursed to the venture by all VC
+          firms prior to the focal round, in millions of dollars. Second, I
+          calculated the number of patents issued to the venture
+          before the investment date, as a proxy for the signals of
+          progress in the funding process, using data from the U.S.
+          Patent and Trademark Office's patent database. Third, I con
+          trolled for the investment stage at the time of funding (Gom
+          pers, 1995). I included three indicator variables for expansion,
+          buyouts, and later stage. Early stage is the omitted category.
+          Fourth, I controlled for the venture's founding year by using
+          four indicator variables for 1990-1993; 1989 is the omitted
+          category. Finally, I controlled for the venture's industry group
+          because ventures in different industries may vary in terms of
+          the milestones they need to meet, the number of rounds
+          they typically receive, and the time they take before an exit
+           (Gompers and Lerner, 2000b). I used the industry group clas
+          sification provided by VentureXpert to capture industry vari
+          ance (Gompers, 1995). I included indicator variables for 14
+           industry groups: biotechnology, business services, communi
+          cations and media, computer hardware, computer software,
+          consumer related, financial services, industrial/energy, Inter
+          net specific, manufacturing, medical/health, semiconductors/
+          other electronics, and transportation. "Other" is the omitted
+          category.
+
+          Analysis
+           I adopted a two-stage analysis procedure to explore patterns
+           in sequential VC investment decisions. I first estimated the
+           likelihood of a successful exit as a function of the number of
+          financing rounds that a particular VC firm invested in a ven
+          ture, controlling for venture characteristics, VC firm character
+           istics, investment characteristics, and market conditions. Sec
+
+          268/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+                                   Sequential Decision Making
+
+                                   ond, I estimated the likelihood that a particular VC firm would
+                                   terminate funding and contrasted it with the likelihood of suc
+                                   cess derived in the first stage. The likelihood of termination
+                                   was also specified as a function of the number of financing
+                                    rounds that each VC firm invested in each venture. Termina
+                                   tion of an investment represents a deliberate decision by a
+                                   VC investor. This option must be revisited at each round of
+                                   financing and exercised if the venture is not offering good
+                                    prospects (Gompers, 1995). These two models allow a com
+                                   parison of termination decisions with the distribution of suc
+                                   cessful outcomes. If VC firms on average make profit-maxi
+                                   mizing decisions, the distribution of termination decisions
+                                   should mirror the distribution of successful outcomes. In con
+                                   trast, if they tend to support ventures in their portfolio regard
+                                    less of changes in the distribution of success, there should
+                                   be a mismatch between the two distributions.
+
+                                     I used event-history analysis to estimate the distribution of
+                                    successful exits and terminations because this method
+                                    enables a dynamic analysis of the investment process
+                                    (Kalbfleisch and Prentice, 1980; Allison, 1995; Hosmer and
+                                    Lemeshow, 1999). I estimated the hazard of success and the
+                                   hazard of termination using Cox models, which do not require
+                                   the distribution of time dependence of the hazard to be spec
+                                    ified. Although several covariates violate the proportional haz
+                                   ard assumption, this does not cause concern for time-varying
+                                   variables, which are by definition non-proportional (Allison,
+                                    1995). For variables that do not vary over time (i.e., founding
+                                   year and industry controls, geographic proximity of the VC to
+                                   the venture, and round at which VC first invested in the ven
+                                   ture), the violation means the coefficient estimate represents
+                                   the average effect over the range of observations in the data
+                                    (Allison, 1995: 154-155). The coefficients were estimated
+                                   using partial likelihood estimation. The data were organized
+                                   so that each VC-venture-round is a spell.4 The data set is
+                                   thus divided into 3227 spells. A spell is treated as censored if
+                                    it does not result in a success or termination event. Multiple
+                                   observations for the same venture may create correlations
+                                   between the error structure and the independent variables
+                                   and lead to underestimation of the standard errors. I thus
+                                   estimated all models with the Huber-White-sandwich estima
+                                   tor of variance to yield robust standard errors, clustered on
+                                   ventures.
+
+                                    RESULTS
+                             Tables 3-5 present summary statistics for the data. Table 3
+                             breaks down the 796 ventures, 1,862 financing rounds, and
+                             $9.4 billion of financing by founding year, industry group, and
+                              investment stage. The sample includes more ventures found
+4
+                             ed  in 1989 than in other years, but ventures founded in 1993
+Rounds do not occur in equal intervals, so
+ these spells are not of equalreceived
+                                 length.both the largest amount of financing and many or
+Moreover, because each VC-venture
+                            more rounds than ventures founded in prior years did, reduc
+ round makes up a spell, the number of
+spells for two VCs investing  inginconcerns  about right censoring. The industry group that
+                                      the same
+venture may not be equal. Thisreceived  the not
+                                      does  highest proportion of venture capital is comput
+pose a problem, however, as time-depen
+                             er software, at approximately 23 percent, followed by med
+dent variables only change at each VC
+venture round (Kalbfleisch andical/health,  and communications/media. Most investments in
+                                     Prentice,
+ 1980; Allison, 1995). I alsothe   sample are
+                               repeated        early-stage (40 percent), a result consistent
+                                             the
+analysis by dividing the data in equal
+                            with prior studies of venture capital (Gompers, 1995). This
+ length (annual) spells, and the results did
+not change.                  confirms that VC firms prefer to invest in early-stage and
+
+                                    269/ASQ, June 2007
+                                        This content downloaded from
+                      193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                All use subject to https://about.jstor.org/terms
+Table 3
+Ventures by Founding Year, Industry Group, and Investment Stage
+                                                                                                               Amount of
+                                Ventures                            Financing Rounds                            Financing
+                                                                                                         Million
+Founding year           Number           Percent                 Number           Percent                dollars       Percent
+1989                      194              24.37                     428            22.99                 1796.6         19.04
+1990                      145              18.22                     358            19.23                1671           17.71
+1991                      131              16.46                     322            17.29                 1530.9        16.22
+1992                      163              20.48                     379            20.35                1906.7         20.21
+ 1993                     163              20.48                     375            20.14                2529.9         26.81
+Total                     796             100.00                    1862           100.00                9435.1        100.00
+ Industry group
+
+ Biotechnology 71 8.92                                               209            11.22                 1099.0        11.65
+Business services 13 1.63      24                                                     1.29                479.5          5.08
+Communications/media 109 13.69270                                                   14.50                 1705.8        18.07
+ Computer hardware 59 7.41132                                                        7.09                  538.7         5.71
+ Computer software 183 22.99
+                           422                                                      22.66                 1638.1        17.36
+Consumer related 51 6.41                                             110             5.91                  433.3         4.59
+Financial services 31 3.89                                            51             2.74                   185.7        1.96
+ Industrial/energy 40 5.03                                            84             4.51                  270.1         2.86
+ Internet specific 49 6.16                                            104            5.59                 958.9         10.16
+Manufacturing 12 1.51                                                  18            0.97                   69.9         0.74
+Medical/health 123 15.45                                             294            15.79                 1085.5        11.51
+ Other                     7      0.87                                21              1.13                  125.8         1.33
+ Semicond./ 41 5.15                                                  115             6.18                  788.4         8.36
+   other electronics
+ Transportation 5 0.63                                                               0.43                  56.4          0.59
+ Total 796 100.00                                                   1862           100.00                9435.1        100.00
+Investment stage
+
+Buyout/acquisition 99 8.54                                           113             6.07                1184.7          12.56
+Early stage 468 40.38                                                808           43.39                 2407.0         25.51
+Expansion 373 32.18                                                  595            31.95                3811.6         40.39
+ Later stage 219 18.89                                               346            18.58                2031.9         21.54
+ Tota! 1159* 100.00                                                 1862           100.00                9435.1        100.00
+* The total is more than 796 because ventures may receive financing at various stages and may appear multiple times.
+
+
+
+
+                                            high-technology industries, in which the level of uncertainty
+                                             is high. The large amount committed to expansion invest
+                                            ments ($3.8 billion) likely reflects industry maturation (Gom
+                                             pers, 1995).
+                                            Table 4 breaks down exit events by year and by rounds. It
+                                            shows that the pattern of successful exits and terminations
+                                            approximates an inverted-U shaped distribution over time.
+                                            The number of successful exits peaked in 1996, seven years
+                                            after the first cohort of ventures founded in 1989 (Fenn,
+                                             Liang, and Prowse, 1997). Most IPOs, acquisitions, and ter
+                                            mination events occur within three rounds of investment by a
+                                            VC, although firms can invest in as many as 12 rounds.
+                                            The descriptive statistics and the correlation matrix are pre
+                                            sented in table 5. The correlations between the independent
+                                            variables are low, reducing concerns about multicollinearity.
+                                            Table 6 reports results of the models estimating the hazard of
+                                             success. I build on these results to examine how closely VC
+                                            practices follow the estimated distribution of success. Table
+                                            7 reports results for the hazard of termination and tests
+                                            hypotheses 1-5. Models 1a and 1b show the distribution of
+                                             270/ASQ, June 2007
+
+                                                 This content downloaded from
+                               193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                         All use subject to https://about.jstor.org/terms
+             Sequential Decision Making
+
+             Table 4
+              IPOs, Acquisitions, Terminations, and Continuing Investments by Year
+             of Exit and Rounds of Investment
+
+                               Number of Number of Number of
+                                        IPOs acquisitions terminations*
+             Year
+              1989 0 1 0
+                     1990 0 1 46
+                     1991 0 1 56
+                     1992 8 6 59
+                     1993 7 9 82
+                    1994 19 7 71
+                        1995 13 16 84
+                       1996 29 17 88
+                        1997 11 13 68
+                          1998 6 15 69
+                        1999 15 16 78
+                        2000 15 20 77
+                     2001 6 3 40
+                                2002 1 2 15
+                               2003 1 3 13
+                               2004 1 0 13
+              Total 132 130 859
+              Number of rounds invested in venture
+
+                              1 49 52 411
+                             2 37 31 180
+                      3 23 17 113
+                      4 11 13 70
+                    5 8       7          37
+                    6 3       5          22
+                    7 0      1           11
+                    8  12                11
+                    9   0         2       2
+                    10    0          0    0
+                    11    0          0    1
+                    12    0          0    1
+                    13    0          0    0
+                                          Total_1
+                  *           Because                                           the n
+                  a           venture                                           may
+
+
+                   successes                                                          an
+                   Models                                                            2a   a
+                   control  var
+                   add  the num
+                   and  high-st
+                   full models
+
+                   Terminatio
+            Maximization
+              I tested H1, that the likelihood of a VC firm terminating
+              investment would deviate from the conditional probability of
+             success over rounds, by comparing the distribution of suc
+             cessful outcomes and termination decisions over rounds.
+            Model 6a in table 6 shows that the likelihood of success
+            decreases with the number of rounds invested. The squared
+            term is not significant. Figure 1 plots the hazard of success
+            over rounds. Accordingly, the rate of a successful outcome
+            declines as a VC invests more rounds in a venture. Because
+            models 1a-6a predict the probability of a successful out
+            come, not the magnitude of the returns, I examined in a sep
+
+             271/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+Table 5
+Descriptive Statistics and Correlations (N = 3227)
+Variable                                       Mean         S.D.
+
+  1. Rounds (centered) -.010                                 2.394
+                                  10.602
+ 2. Rounds squared (centered) 5.731                                     .588
+                                  4.316
+ 3. Number of VC professionals 5.957                                    .094     .024
+ 4. Number of co-investors 2.248                             2.063     -.145    -.001      -.071
+ 5. High-status VC .053                                        .224     .026     .003 .256         .027
+ 6. Fund age 4.625                                           3.715      .055     .067 -.031        .013    -.085
+  7. VCs investment amount 1.437                             3.351     -.139    -.031  .096        -.002   -.033   -.020
+       (million USD)
+ 8. Geographic proximity .495                                 .500     -.008    -.004      -.002   -.027   -.007   .011    -.015
+ 9. VCs experience in venture's industry 12.794             11.464      .116     .016       .385   -.066    .266   -.023    .045
+10. Early-stage investor .114                                  .318     .016     .005      -.167   -.062   -.085   -.044   -.051
+11. Round VC first invested in venture 1.641                  1.167    -.158    -.039      -.022   .132    -.011   -.026   .011
+12. Prior ties with co-investors 1.101                        1.291     .155     .116       .153   .295     .12    .066    -.064
+ 13. IPO market conditions 403.894                         146.477      .128     .019      -.011   -.037    .074   .057     .012
+                                          29.288
+ 14. Capital committed to VC industry 21.634                           -.094    -.038      -.089   .104    -.122   .058     .154
+      (billion USD)
+15. Total VC investment amount in 13.75                     23.21       .023 .013           .060   .114    -.054   .063     .260
+      venture (million USD)
+16. Number of patents _.379                                   1.565 -.021 -.007 -.024              .069    -.049   .067    .029
+Variable                                                         8                10        11      12      13      14      15
+
+ 9. VCs experience in venture's industry                       .008
+10. Early-stage investor                                       -.003   -.131
+11. Round VC first invested in venture                         -.050   -.035    -.069
+12. Prior ties with co-investors                               -.023    .217    -.132       .144
+13. IPO market conditions                                      -.038   -.001    -.001       .099   .085
+14. Capital committed to VC industry                           -.005   -.013     .011       .156   -.031 .120
+   (billion USD)
+15. Total VC investment amount in venture                      .011     .054 -.088          .256   .166 .066 .283
+   (million USD)
+16. Number of patents                                          .019    -.080 -.018          .217   .027 .000 .205          .249
+
+
+                                           arate analysis the internal rates of return (IRR) for ventures
+                                           for which data were available. I calculated the IRR of a hypo
+                                           thetical portfolio of all ventures in the sample by using the
+                                           cash outflows (investments) and cash inflows (returns from
+                                            IPO or acquisition) each year. I used the first-day market
+                                           value for IPOs and the transaction value for acquisitions to
+                                           calculate cash inflows.5 While the calculations may not accu
+                                           rately reflect the absolute rates of return for each investment
+                                           because of assumptions in calculation, they demonstrate the
+                                           distribution of IRR over rounds, as presented in figure 2. This
+                                           figure demonstrates that the rates of return also decline with
+                                           more rounds. The average internal rate of return exhibits a
+                                           steep fall after round 1 and remains low after round 5. There
+                                           fore, for the sample of investments analyzed in this paper,
+                                           the average expected returns (i.e., the rate of return times
+                                           the probability of success) decline as the number of rounds
+                                            increases. Moreover, an examination of "home-runs"?ven
+                                           tures that returned over 10 times the VCs' investment
+                                            (Sahlman, 1990)?in the sample shows that 19 out of 20
+                                           home-runs occurred within the first five rounds of invest
+                                           ment, further suggesting an inverse correlation between the
+                                           number of rounds and success. In short, it seems that VC
+                                           firms would be better off investing fewer rounds in each
+                                           company. If VC firms act to maximize profits, the probability
+5
+                                           of termination should increase over the number of rounds.
+I repeated this exercise with market val
+ues six months after the IPO to control
+                                 Model 6b in table 7 tested H1, that the distribution of termi
+for the lock-up period for VCs, and the
+                                 nation decisions will deviate from the probability distribution
+results of the analysis remain similar.
+
+                                            272/ASQ, June 2007
+
+                                                This content downloaded from
+                              193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                        All use subject to https://about.jstor.org/terms
+                                             Sequential Decision Making
+
+Table 6
+Results of Cox Models Predicting Hazard of Success (N = 3227)*
+Variable                               da)             (2a)             (3a)                (4a)         (5a)           (6a)
+Rounds (centered)                  -0.189          -0.237"           -0.237           -0.256          -0.256         -0.263*"
+                                   (0.037)           (0.040)          (0.040)          (0.041)         (0.041)        (0.041)
+Rounds squared (centered)         -0.002           -0.007           -0.007            -0.002          -0.002         -0.003
+                                   (0.012)           (0.015)          (0.015)          (0.014)         (0.014)        (0.015)
+Number of VC professionals                                          -0.001            -0.003          -0.003        -0.003
+                                                                      (0.012)          (0.012)         (0.012)        (0.012)
+Number of co-investors                                                                -0.084          -0.084         -0.083
+                                                                                       (0.052)         (0.052)        (0.051)
+High-status VC                                                                                        -0.003          0.023
+                                                                                                       (0.303)        (0.302)
+Fund age                                                                                                              0.033
+                                                                                                                      (0.011)
+VCs investment amount                                0.003            0.003            0.002           0.002          0.003
+  (million USD)                                      (0.009)          (0.009)          (0.009)         (0.009)        (0.009)
+Geographic proximity                               -0.021           -0.021            -0.024          -0.024         -0.025
+                                                     (0.099)          (0.099)          (0.100)         (0.100)        (0.100)
+VCs experience in                                    0.004            0.004            0.003           0.003          0.004
+  venture's industry                                 (0.006)          (0.006)          (0.006)         (0.006)        (0.006)
+Early-stage investor                               -0.162           -0.163            -0.172          -0.172         -0.149
+                                                     (0.175)          (0.176)          (0.176)         (0.176)        (0.175)
+Round VC first invested in                         -0.053           -0.053            -0.040          -0.040         -0.038
+  venture                                            (0.056)          (0.056)          (0.057)         (0.057)        (0.057)
+Prior ties with co-investors                         0.148            0.148            0.179*          0.179*         0.177*
+                                                     (0.087)          (0.089)          (0.090)         (0.090)        (0.090)
+ IPO market conditions                               0.002            0.002            0.002"<         0.002**4       0.002**
+                                                     (0.000)          (0.000)          (0.000)         (0.000)        (0.000)
+Capital committed to VC                            -0.004           -0.004            -0.003          -0.003         -0.003
+   industry (billion USD)                            (0.003)          (0.003)          (0.003)         (0.003)        (0.003)
+Total VC investment amount                           0.005            0.005             0.005          0.005          0.005
+   in venture (million USD)                          (0.001)          (0.001)          (0.001)         (0.001)        (0.001)
+Number of patents                                  -0.069           -0.070            -0.070          -0.070         -0.076
+                                                     (0.050)          (0.051)          (0.051)         (0.051)        (0.052)
+Log likelihood                 -2451            -2387.6         -2387.6           -2383.1          -2383.1        -2379.4
+ *p< .05;-p< .01; ?p< .001.
+* Robust standard errors are in parentheses. Number of events = 438. Not reported here are the three investment
+stage dummies and the 13 industry-group dummies, which were significant, and the four founding-year dummies,
+which were not.
+
+
+
+
+                                             of success. This model shows a curvilinear relationship
+                                             between the hazard of termination and the number of
+                                             rounds. The plot of the termination distribution over rounds in
+                                             figure 3 shows that the rate of termination actually decreases
+                                             over rounds. The hazard of termination declines until round
+                                              11 and then increases only slightly in round 12, such that the
+                                             hazard of termination at round 12 is only 22 percent of that at
+                                             round 2. The results are robust to different specifications, as
+                                              reported in models 1b-6b. I also tested whether coefficient
+                                             estimates for rounds and rounds squared in the termination
+                                             model (6b) were equal to the reverse-signed coefficient esti
+                                             mates for the same variables in the success model (6a). The
+                                             two Wald tests revealed that these estimates were signifi
+                                             cantly different for both rounds and rounds squared (chi
+                                             squared for rounds = 417.52, p < .000; chi-squared for
+                                             rounds squared = 14.85, p < .0001). In other words, termina
+                                             tion decisions deviate from the distribution of successful out
+                                             comes, providing support for H1. Taken together, these
+                                             results suggest that the likelihood of a VC firm terminating an
+                                              investment declines as it invests more rounds in a venture,
+                                             even though the probability of success and the average IRR
+
+                                             273/ASQ, June 2007
+                                                 This content downloaded from
+                               193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                         All use subject to https://about.jstor.org/terms
+Table 7
+Results of Cox Models Predicting Hazard of Termination (N = 3227)*
+Variable                              (1b)             (2b)              (3b)               (4b)         (5b)           (6b)
+Rounds (centered)                 -0.282           -0.323            -0.321           -0.332          -0.331         -0.338
+                                   (0.029)          (0.029)           (0.030)          (0.030)         (0.030)       (0.029)
+Rounds squared (centered)           0.024            0.029            0.028            0.030           0.029          0.029
+                                   (0.007)          (0.007)           (0.007)          (0.007)         (0.007)       (0.007)
+Number of VC professionals                                           -0.028           -0.029          -0.031         -0.032
+                                                                      (0.010)          (0.010)         (0.010)       (0.010)
+Number of co-investors                                                               -0.049           -0.049        -0.052*
+                                                                                       (0.028)         (0.028)       (0.026)
+High-status VC                                                                                         0.320         0.388*
+                                                                                                       (0.184)       (0.187)
+Fund age                                                                                                              0.046?
+                                                                                                                     (0.007)
+VCs investment amount                              -0.050            -0.046           -0.047          -0.046        -0.044?
+   (million USD)                                    (0.017)           (0.015)          (0.014)         (0.014)       (0.013)
+Geographic proximity                               -0.089           -0.095           -0.090           -0.092        -0.090
+                                                    (0.078)           (0.078)          (0.079)         (0.079)       (0.077)
+VCs experience in                                  -0.006           -0.002           -0.002           -0.004        -0.003
+  venture's industry                                (0.004)           (0.004)          (0.004)         (0.004)       (0.004)
+Early-stage investor                                0.021           -0.008           -0.017           -0.010         0.027
+                                                    (0.109)           (0.107)          (0.108)         (0.109)       (0.106)
+Round VC first invested in                         -0.045           -0.053           -0.045           -0.046        -0.044
+  venture                                           (0.032)           (0.032)          (0.034)         (0.034)       (0.035)
+Prior ties with co-investors                        0.094*            0.104*           0.128           0.127         0.123*
+                                                    (0.045)           (0.045)          (0.048)         (0.048)       (0.048)
+ IPO market conditions                              0.000             0.000            0.000           0.000         0.000
+                                                    (0.000)           (0.000)          (0.000)         (0.000)       (0.000)
+Capital committed to VC                             0.004*            0.004*           0.004*          0.004*        0.004*
+   industry (billion USD)                           (0.002)           (0.002)          (0.002)         (0.002)       (0.002)
+Total VC investment amount                           0.005?           0.005            0.006?          0.006          0.005?
+   in venture (million USD)                         (0.001)           (0.001)          (0.001)         (0.001)       (0.001)
+Number of patents                                  -0.002           -0.003           -0.002           -0.003        -0.011
+                                                    (0.027)           (0.027)          (0.028)         (0.028)       (0.030)
+Log likelihood                 -4808.2         -4757.2          -4752.5          -4751.1           -4749.3       -4733.3
+ *p< .05;-p< .01; ?p< .001.
+* Robust standard errors are in parentheses. Number of events = 859. Not reported here are the three investment
+stage dummies and 13 industry-group industries, which were significant, and the four founding-year dummies, which
+were not.
+
+
+
+
+Figure 1. Hazard of success over rounds.
+
+
+
+
+                                             274/ASQ, June 2007
+
+                                                 This content downloaded from
+                               193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                         All use subject to https://about.jstor.org/terms
+                                        Sequential Decision Making
+
+Figure 2. Average internal rates of return for ventures that receive venture capital financing.
+    1200
+
+
+    1000
+
+
+    800
+
+
+     600
+
+
+     400
+
+
+     200
+
+
+
+
+Figure 3. Hazard of termination over rounds
+      3
+
+
+
+
+                                                           Rounds
+
+
+                                        also decline. In short, VC firms do not behave so as to maxi
+                                        mize profits in sequential investment decisions.
+
+                                         Political and Institutional Influences on Sequential
+                                         Investment Decisions
+                                         H2 predicted a negative association between the hazard of
+                                         termination and the number of VC professionals in the firm
+                                         due to intraorganizational politics. The coefficient estimate for
+                                         the number of VC professionals in table 7, model 6b, is nega
+                                         tive and significant, supporting H2. Furthermore, model 6a
+                                         shows that the number of VC professionals in a firm does
+                                         not significantly increase the likelihood of success. Together,
+                                         these results suggest that larger VC firms may not necessari
+                                          ly enjoy higher rates of success but may be adversely affect
+                                         ed by the increase in intraorganizational politics. H3 predicted
+
+                                         275/ASQ, June 2007
+                                             This content downloaded from
+                           193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                     All use subject to https://about.jstor.org/terms
+           that the hazard of termination would decline with co-investor
+           pressure. Model 6b shows that the coefficient for the num
+           ber of co-investors is negative and significant, supporting this
+           hypothesis. Large syndicates do not enjoy higher success
+           rates (model 6a) but suffer difficulties in termination.
+
+           High-status VC firms have a higher hazard of termination,
+           supporting H4. These firms do not appear to have a higher
+           rate of success, despite prior findings about status and per
+           formance (Hochberg, Ljungqvist, and Lu, 2007). Contrary to
+           the prediction in H5, older funds have both a higher likelihood
+           of termination and a higher hazard of success. This result
+           reflects the fact that VC firms realize most of the returns
+           toward the end of the funds, when both time and allocated
+           funds start to run out. This effect appears to outweigh any
+           adverse effects of the fund's life cycle on termination.
+           Control variables largely support prior findings. The amount
+            invested by the VC significantly decreases the likelihood of
+           termination, even though it does not significantly increase
+           the likelihood of success. This is consistent with prior work
+           on risk seeking in the domain of losses (Kahneman and Tver
+           sky, 1979; Whyte, 1986). A VCs prior ties to co-investment
+           partners increases the hazard of success, as well as termina
+          tion. Other VC-specific factors, such as geographic proximity,
+          a VCs prior experience in the venture's industry, or stage
+          preference, do not significantly affect the hazard of success
+          or termination. IPO market is significant in success models
+           (Ritter, 1984; Stuart, Hoang, and Hybels, 1999) but not signifi
+          cant in termination models, whereas the amount of capital
+          committed is positive and significant in both. Among venture
+           level controls, the total amount invested in the venture is
+          positive and significant in predicting success (Shane and Stu
+          art, 2002) as well as termination. Taken with earlier results,
+          this finding suggests sunk-cost effects operate more within
+          each VC firm. In other words, investors consider their own
+          commitments in continuing investment, but not the total
+           investment amount. Contrary to earlier studies of IPO perfor
+          mance, number of patents is not significant in predicting suc
+           cess (e.g., Stuart, Hoang, and Hybels, 1999; Shane and Stu
+           art, 2002), perhaps because the data include industries that
+           are not characterized by intensive patenting activity. For
+            instance, the number of patents significantly predicts suc
+           cess in the subsample of biotechnology ventures, which are
+           among the heavy patenters in the dataset. Industry and
+            investment-stage dummies are significant in both models
+            (Gompers, 1995) but founding-year dummies are not.
+
+          Alternative Explanations and Sensitivity Analyses
+           These results were robust to a variety of sensitivity analyses.
+           First, I estimated the hazard of success with only IPOs as
+           success events (Shane and Stuart, 2002). Second, I checked
+          whether the results for the hazard of termination are robust
+           to the assumption about the duration of inactivity in the VC
+          venture relationship. I recoded the termination variable using
+          820 days, the 90th percentile value for the time from one
+           round to the next round or exit in the study sample, and 299
+          days, the median number of days from one round to the next
+           round or exit. The results for the alternative models were
+
+           276/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+               Sequential Decision Making
+
+               similar, except for the number of investors in the termination
+              model with 820 days. As an additional check, I used interval
+              censored survival analysis methods to predict the hazard of
+              termination. The data are interval-censored when the event is
+              known to have occurred, but the exact timing of the event is
+              not known (Hosmer and Lemeshow, 1999; Klein and
+              Moeschberger, 2003). I first estimated the hazard of termina
+              tion with the "intcens" module in Stata (Griffin, 2005). Anoth
+              er way to estimate hazards with interval-censored data is to
+               use discrete-time hazard models, which identify the interval
+               in which an event has occurred, without specifying the exact
+               date (Kalbfleisch and Prentice, 1980; Hosmer and Lemeshow,
+               1999). I reorganized the data into annual spells and recoded
+               termination as having happened during the earliest year in
+              which the VC no longer reported investing in the venture. I
+               then estimated the hazard of termination with discrete-time
+              survival models. The results did not change. Third, I estimat
+             ed the hazards of success and termination with exponential,
+             Gompertz, Weibull, and generalized gamma models. Fourth, I
+              added cumulative revenues as an additional proxy for the
+             venture's progress during funding. This variable was available
+              for only a small subset of the sample because the ventures
+             are private (227 observations); however, the results were
+             similar. Fifth, I controlled for the possibility that unobserved
+              heterogeneity biased the coefficient estimates. I examined
+             whether the results reflected the decision process, or the
+             unobserved characteristics of ventures, with exponential and
+             Weibull models, adding a gamma-distributed random distur
+              bance term (Tuma and Hannan, 1984; Allison, 1995). The
+              results were similar, albeit weaker. Sixth, I excluded buyout
+             or bridge financing investments. Seventh, to rule out the pos
+             sibility that the number of VC professionals may account for
+              the availability of resources, level of overall experience, or
+             diversity of a firm's experience, I added controls for the
+             amount of capital under management, number of total invest
+             ments in the prior three years, and industry focus. Eighth, I
+             excluded funds that were older than 10 years, to rule out the
+             possibility that these may include open-ended funds (without
+             a fixed duration). Finally, I excluded ventures in the Internet
+              related industry group to control for the unique conditions in
+              their financing. The results did not change in any of these
+               tests.
+
+              DISCUSSION
+             This paper provides both qualitative and quantitative evidence
+              that sequential investment decisions in VC firms are subject
+              to systematic decision biases and discusses the role of politi
+             cal and institutional influences in the process. The results
+              suggest that the likelihood of a successful outcome, as well
+              as the magnitude of returns from a successful outcome,
+             decline with more rounds of financing. Accordingly, VC firms
+             would be better off investing fewer rounds in each venture.
+               In contrast, the likelihood of VC firms terminating investment
+               in a venture declines with the number of rounds of financing.
+             Thus investment decisions do not mirror the distribution of
+              successful outcomes. This result is surprising because it sug
+              gests that VC firms do not adjust their investment practices
+              to reflect the change in expected returns.
+
+              277/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+          The results also highlight several political and institutional fea
+          tures of the investment process that contribute to the reluc
+          tance to terminate investments, in addition to the individual
+          biases suggested in prior literature (Staw, 1976, 1981; Staw
+          and Fox, 1977; Teger, 1980; Arkes and Blumer, 1985; Brockn
+          er and Rubin, 1985). First, intraorganizational politics may
+          decrease the effectiveness of the investment process, espe
+          cially in larger organizations. Second, contractual pressures
+          from co-investment partners limit the ability to terminate
+          investments by penalizing VC firms that walk out. Third,
+          investment norms in the industry discourage termination, and
+         deviance from the norms is penalized through the syndication
+         network. All but elite VC firms feel the pressure to comply
+         with these norms in order to maintain their standing in the
+         network. The political and institutional features of the VC
+          investment process may create perverse incentives to contin
+          ue investment, even as the likelihood of success declines.
+          The results also highlight that organizations may be differen
+          tially exposed to these political and institutional influences
+          based on their size and social status.
+
+         Sequential investments are designed to protect investors
+         against committing too much up front when the prospects of
+         the project are uncertain. This benefit can be realized, howev
+         er, only if investors continuously evaluate the project's
+         prospects in light of new information and terminate invest
+         ment when it is no longer justified (Coff and Laverty, 2001;
+         Adner and Levinthal, 2004). In contrast, the results suggest
+          that VCs might systematically ignore information about the
+          declining likelihood of success, in part due to political and
+           institutional constraints. It appears that VC firms are suscepti
+          ble to the very problem that sequential investments were
+          designed to avoid (Gompers, 1995; Bergemann and Hege,
+           1998).
+         This study contributes to the literature on organizational deci
+         sion making in two ways. First, as opposed to prior studies
+         that focus on unique projects that were one-time, non-profit,
+         and had high public visibility (e.g., Ross and Staw, 1986,
+          1993), this study empirically documents systematic errors in
+         day-to-day decisions in a competitive environment in which
+          investors have both the incentives and the experience to
+         maximize profits. The empirical study adds to the small body
+         of work reporting that decision errors occur even in routine
+         decisions, despite organizational safeguards to prevent them
+          (Staw and Hoang, 1995; Staw, Barsade, and Koput, 1997;
+         McNamara, Moon, and Bromiley, 2002).
+          Second, as opposed to studies that focus on each determi
+          nant of escalation individually by controlling for other external
+          factors, this study provides evidence on multilevel influences
+          that affect termination decisions (Ross and Staw, 1986,
+           1993). By combining insights from micro and macro perspec
+          tives on decision making, it provides a deeper understanding
+          of the linkages between political and institutional dynamics
+          and individual decision biases. Mechanisms that were
+          designed as safeguards against decision problems, such as
+           individual responsibility (Brockner, Shaw, and Rubin, 1979;
+          Simonson and Staw, 1992; Kirby and Davis, 1998), collective
+          decision making (Neale et al., 1986; Leatherwood and Con
+          278/ASQ, June 2007
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+              Sequential Decision Making
+
+               Ion, 1987; Whyte, 1993), and syndication (Lerner, 1994; Bran
+              der, Amit, and Antweiler, 2002), create perverse incentives to
+             make suboptimal decisions. This echoes findings of studies
+             on new product development and commercial lending, in
+             which structural features of the decision process create
+             unforeseen consequences by reinforcing individual decision
+             errors (Repenning, 2001; McNamara, Moon, and Bromiley,
+             2002). The findings of this study suggest that there may be a
+              tradeoff between individual and organizational constraints on
+             decision making. Though organizations may establish safe
+             guards to limit individual decision biases, these safeguards
+             may be derailed by unanticipated political and institutional
+              influences.
+
+             The results also highlight the contrast between the impera
+              tives for legitimacy and for profit-maximization in the industry.
+              By avoiding termination decisions, VC firms eschew the con
+              sequences of non-compliance with institutional and political
+              constraints. In doing so, however, they deviate from the main
+              objective specified in the VCs' partnership contract, which is
+              to maximize returns to the current fund investors. As a
+               result, even though each firm may act to maximize its own
+               interest, given the institutional and political constraints, the
+              overall result is far from optimal. The VC industry and its fun
+              ders (limited partners) incur opportunity costs on the whole
+              by forgoing better investment opportunities in favor of exist
+               ing ventures. The pattern of holding onto unsuccessful
+               investments also has adverse implications for the allocation
+              of capital to the most promising entrepreneurial opportunities
+               in the overall economy.
+
+              The study also has implications for a more refined under
+              standing of sequential decision making in organizations.
+              Recent literature in management and finance suggests that
+              firms can effectively manage investments under uncertainty
+              by adopting a sequential decision approach (e.g., Bowman
+              and Hurry, 1993; Dixit and Pindyck, 1994; Trigeorgis, 1996).
+              Studies report that firms adopt sequential decision practices
+               in managing portfolios of uncertain investment opportunities,
+              such as R&D investments (Kumaraswamy, 1996; McGrath
+              and Nerkar, 2004) and business development (Kogut and
+              Kulatilaka, 1994; Folta and Miller, 2002). That research focus
+              es on the adoption of a sequential logic but largely ignores
+              the difficulty organizations may face in implementing this
+               logic (Coff and Laverty, 2001; Adner and Levinthal, 2004). The
+              present study documents the challenges that can reduce the
+              effectiveness of sequential decision making. It highlights that
+               institutional and political constraints may limit the efficacy of
+              sequential investments in managing uncertainty, and these
+              constraints need to be taken into account in adopting and
+             managing sequential investments.
+             An important assumption of the study is that VC firms have
+             access to investment opportunities that are approximately
+             equal to or higher in potential returns than existing portfolio
+               investments. This assumption may not be valid, especially
+             when VC firms have access to large amounts of capital but
+               lack a corresponding number of good investment opportuni
+              ties (Gompers and Lerner, 2000a). Given that VC firms invest
+               in only about 1 percent of the proposals they receive (Fenn,
+
+              279/ASQ, June 2007
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+         Liang, and Prowse, 1997), however, it is reasonable to expect
+          that they will have access to more attractive alternatives than
+         ventures with no apparent exit options. In future work, con
+          trolled laboratory experiments could more precisely address
+          the implications of such assumptions and data limitations,
+         while ruling out alternative explanations.
+          One of the limitations of this study is its focus on the failure
+          to terminate investment in ventures (a Type I error) without
+          accounting for the potential cost of terminating investments
+          too early (a Type II error). Although the data do not allow a
+          study of what might have happened to the terminated ven
+          tures had they received further financing, the interview evi
+          dence suggests that VC firms prefer to err on the side of
+           investing more, because the downside is limited to the
+           investment, but the upside is high.
+         Finally, the distinction between different political and institu
+         tional influences is not always clear cut. For instance, invest
+         ment ties may influence termination decisions through multi
+         ple channels. VC firms' actions may be politically motivated
+         by resource dependencies, along with institutional pressures.
+         Yet prior research concurs that resource-dependence rela
+          tions and institutional pressures overlap both conceptually
+         and empirically (e.g., Zucker, 1983; DiMaggio, 1988; Oliver,
+          1991; Palmer, Jennings, and Zhou, 1993). As Scott (2001:
+          132) noted, "Institutional arguments emphasize rules, norms,
+         and cognitive frameworks, but it does not follow that other
+         mechanisms of control are excluded, only that they occur in
+         combination with rule-based elements, such as legitimate
+         power (authority) or morally governed expectations." Future
+         work can further examine the interrelationships between
+          resource-dependence relationships and other institutional
+          influences and the extent to which they occur simultaneously
+         or can substitute for each other.
+
+         Because investment decisions are one of VC firms' primary
+         activities, the results are less likely to be a function of poor
+         managerial effort or lack of attention to decision making. VC
+         firms have incentives to ensure they make good investment
+          decisions because each failed investment costs millions of
+         dollars, and they employ multiple safeguards to do so. VCs
+         are removed from the operations of their ventures and are
+         relatively more likely to assess ventures objectively than are
+         managers in other organizations. Moreover, VC firms tend to
+         be smaller, less hierarchical, and more fluid, so the extent of
+          intraorganizational politics might be less than in other busi
+          nesses. Consequently, these results might represent the
+          upper bound on the quality of decisions in a typical organiza
+          tion and may be generalizable beyond the VC industry. The
+          results are especially relevant for industries in which firms
+          routinely make sequential investments, such as pharmaceuti
+          cals or software development. More broadly, any organization
+          that makes sequential investment decisions to manage
+          uncertainty may suffer from similar difficulties in termination.
+
+          This study contributes to our understanding of sequential
+           investments by incorporating multilevel influences that
+          extend beyond psychological processes. It especially draws
+          attention to the process of termination in sequential invest
+          280/ASQ, June 2007
+
+                  This content downloaded from
+193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+          All use subject to https://about.jstor.org/terms
+                                            Sequential Decision Making
+
+                                            ments, because an inability to manage exit or termination
+                                            decisions may lead to organizational inertia and threaten firm
+                                            survival. While most prior work has focused on selecting or
+                                            building projects as determinants of firm performance, the
+                                            process of termination or exit has largely been overlooked.
+                                            This paper highlights an interesting avenue for further
+                                             research on strategic exits. More research is needed to
+                                            understand how firms respond to political and institutional
+                                            challenges to termination, differences across firms in their
+                                            capabilities to manage these challenges, and the implications
+                                            of termination decisions for firm survival.
+REFERENCES
+
+Abrahamson, E., and L.                       Benjamin, B. A., and J. M.                     Brockner, J., M. C. Shaw, and J. Z.
+Rosenkopf                                    Podolny                                        Rubin
+ 1997 "Social network effects on              1999 "Status, quality, and social             1979 "Factors affecting withdrawal
+       the extent of innovation diffu               order in the California wine                  from an escalating conflict:
+       sion: A computer simulation."                 industry." Administrative Sci                Quitting before it's too late."
+      Organization Science, 8:                      ence Quarterly, 44: 563-589.                  Journal of Experimental Social
+       289-309.                                                                                    Psychology, 15: 492-503.
+                                             Bergemann, D., and U. Hege
+Admati, A. R., and P. Pfleiderer              1998 "Venture capital financing,              Burgelman, R. A.
+ 1994 "Robust financial contracting                 moral hazard, and learning."            1983 "A process model of internal
+       and the role of venture capi                 Journal of Banking and                         corporate venturing in the
+       talists." Journal of Finance,                Finance, 22: 703-735.                          diversified major firm."
+       43:371-402.                                                                                Administrative Science Quar
+                                             Bonacich, P.
+                                                                                                  terly, 28: 223-245.
+Adner, R., and D. Levinthal                   1987 "Power and centrality: A fam
+2004 "What is not a real option:                    ily of measures." American              Camerer, C F.
+      Considering boundaries for                    Journal of Sociology, 92:               1987 "Do biases in probability judg
+       the application of real options               1170-1182.                                  ment matter in markets?
+      to business strategy." Acade                                                                Experimental evidence."
+                                             Bowen, M. G.
+      my of Management Review,                                                                   American Economic Review,
+       29: 74-85.                            1987 "The escalation phenomenon                       7: 981-997.
+                                                   reconsidered: Decision dilem
+Allison, G. T.                                      mas or decision errors?"                2000 "Prospect theory in the wild:
+                                                                                                  Evidence from the field." In
+ 1971 Essence of Decision: Explain                  Academy of Management
+                                                                                                  D. Kahneman and A. Tversky
+        ing the Cuban Missile Crisis.               Review, 12: 52-66.
+                                                                                                   (eds.), Choices, Values, and
+       Boston: Little, Brown.
+                                             Bowman, E. H., and D. Hurry                          Frames: 288-300. New York:
+Allison, P. D.                                1993 "Strategy through the option                   Cambridge University Press.
+1995 Survival Analysis Using the                    lens: An integrated view of
+                                                    resource investments and the            Campbell, J.
+      SAS System: A Practical
+                                                                                            2004 Institutional Change and Glob
+      Guide. Cary, NC: SAS Insti                    incremental-choice process."                   alization. Princeton, NJ:
+      tute, Inc.                                    Academy of Management
+                                                                                                   Princeton University Press.
+                                                    Review, 18: 760-782.
+Amit, R., L. Glosten, and E. M?ller
+                                                                                            Coff, R. W., and K. J. Laverty
+ 1990 "Entrepreneurial ability, ven          Brander, J. A., R. Amit, and W.
+       ture investments and risk             Antweiler                                      2001 "Real options on knowledge
+                                                                                                  assets: Panacea or Pandora's
+       sharing." Management Sci              2002 "Venture-capital syndication:                   box?" Business Horizons, 44
+       ence, 36: 1233-1247.                         Improved venture selection                     (26): 73-79.
+                                                   vs. the value-added hypothe
+Arkes, H. R., and C Blumer                         sis." Journal of Economics               Coleman, J. S.
+ 1985 "The psychology of sunk
+                                                   and Management Strategy,                 1988 "Social capital in the creation
+       cost." Organizational Behav                   11:422-451.
+       ior and Human Decision                                                                     of human capital." American
+       Processes, 35: 124-140.                                                                     Journal of Sociology, 94:
+                                             Brass, D. J., J. Galaskiewicz, H. R.                  S95-S120.
+                                             Gr?ve, and W. Tsai
+Barry, C. B., J. W. Muscarella,
+                                             2004 "Taking stock of networks                 Cyert, R. M., and J. G. March
+J. W. Peavy III, and M. R.
+                                                    and organizations: A multi               1963 A Behavioral Theory of the
+Vetsuypens
+                                                     level perspective." Academy                   Firm. Englewood Cliffs, NJ:
+1990 "The role of venture capital in                                                               Prentice-Hall.
+                                                    of Management Journal, 47:
+      the creation of public compa                  795-817.
+      nies: Evidence from the going                                                         DiMaggio, P. J.
+      public process." Journal of            Brockner, J., and J. Z. Rubin                  1988 "Interest and agency in insti
+      Financial Economics, 27:               1985 Entrapment in Escalating Con                     tutional theory." In L. G. Zuck
+      447-471.                                      flicts. New York: Springer Ver                 er (ed.), Institutional Patterns
+                                                    lag,                                           and Organizations: Culture
+                                                                                                   and Environment: 3-21. Cam
+                                                                                                   bridge, MA: Ballinger.
+
+
+
+
+                                             281/ASQ, June 2007
+
+                                                 This content downloaded from
+                               193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                         All use subject to https://about.jstor.org/terms
+DiMaggio, P. J., and W. W. Powell          Gould, R. V.                                   Heath, C.
+1983 "The iron cage revisited: Insti       2002 "The origins of status hierar             1995 "Escalation and de-escalation
+      tutional isomorphism and col                chies: A formal theory and                      of commitment in response
+      lective rationality in organiza             empirical test." American                       to sunk costs: The role of
+      tional fields." American                    Journal of Sociology, 107:                      budgeting in mental account
+      Sociological Review, 48:                     1143-1178.                                      ing." Organizational Behavior
+       147-160.                                                                                   and Human Decision Process
+                                           Green, S. G., A. M. Welsh, and                         es, 62: 38-54.
+Dixit, A. K., and R. S. Pindyck            G. E. Dehler
+ 1994 Investment Under Uncertain           2003 "Advocacy, performance, and               Hellmann, T.
+      ty. Princeton, NJ: Princeton               threshold influences on deci             1998 "The allocation of control
+      University Press.                          sions to terminate new prod                    rights in venture capital con
+                                                 uct development." Academy                      tracts." Rand Journal of Eco
+Fenn, G. W., N. Liang, and S.                                                                     nomics, 29: 57-76.
+Prowse                                           of Management Journal, 46:
+                                                  419-434.
+1997 "The private equity market:                                                          Hellmann, T., and M. Puri
+      An overview." Financial Mar          Griffin, J.                                    2000 "The interaction between
+      kets and Instruments, 6:             2005 "INTCENS: Stata module to                         product market and financing
+       1-106.                                     perform interval-censored sur                   strategy: The role of venture
+                                                  vival analysis." Secondary                      capital." Review of Financial
+Folta, T. B., and K. D. Miller
+                                                  Statistical Software Compo                      Studies, 13: 959-984.
+2002 "Real options in equity part
+                                                  nents S453501, Department
+       nerships." Strategic Manage                of Economics, Boston Col                Hochberg, Y, A. P. Ljungqvist, and
+      ment Journal, 23: 77-88.                                                            Y. Lu
+                                                   lege.
+                                                                                          2007 "Whom you know matters:
+Fox, F., and B. M. Staw
+                                           Gulati, R., and M. C. Higgins                        Venture capital networks and
+1979 "The trapped administrator:           2003 "Which ties matter when?                         investment performance."
+      The effects of job insecurity                                                               Journal of Finance, 62:
+                                                  The contingent effects of
+      and policy resistance upon                                                                  251-301.
+      commitment to a course of                    interorganizational partner
+      action." Administrative Sci                 ships on IPO success."
+                                                                                          Hollander, E. P.
+                                                  Strategic Management Jour
+      ence Quarterly, 24: 449-471.                nal, 24: 127-144.                       1958 "Conformity, status, and idio
+                                                                                                syncrasy credit." Psychologi
+Fried, V. H., and R. D. Hisrich
+1994 "Toward a model of venture
+                                           Guler, I., M. F. Guillen, and J. M.                  cal Review, 65: 117-127.
+                                           MacPherson
+       capital investment decision                                                        Hosmer, D. W., and S. Lemeshow
+                                           2002 "Global competition, institu
+      making." Financial Manage                   tions, and the diffusion of             1999 Applied Survival Analysis:
+      ment, 23: 28-37.                                                                          Regression Modeling of Time
+                                                  organizational practices: The                 to Event Data. New York:
+Garland, H., C. A. Sandefur, and                   international spread of the
+                                                                                               Wiley.
+A. C. Rogers                                       ISO 9000 quality certificates."
+1990 "De-escalation of commit                     Administrative Science Quar             Howell, J. M., and C. A. Higgins
+     ment in oil exploration: When                terly, 47: 207-232.                     1990 "Champions of technological
+      sunk costs and negative feed                                                                 innovations." Administrative
+      back coincide." Journal of           Gupta, A. K., and H. J. Sapienza
+                                            1992 "Determinants of venture                         Science Quarterly, 35:
+      Applied Psychology, 75:                                                                     317-341.
+      721-727.                                    capital firms' preferences
+                                                   regarding the industry diversi         Hsu, D. H.
+Glaser, B. G., and A. L. Strauss                  ty and geographic scope of              2004 "What do entrepreneurs pay
+1967 The Discovery of Grounded                    their investments." Journal of                  for venture capital affiliation?"
+      Theory. Chicago: Aldine.                    Business Venturing, 7:                          Journal of Finance, 59:
+                                                  347-362.                                        1805-1844.
+Gompers, P.
+1995 "Optimal investment, moni             Hannan, M. T., and J. Freeman                  Ingram, P., and J. A. C. Baum
+      toring, and the staging of ven       1989 Organizational Ecology. Cam               1997 "Opportunity and constraint:
+      ture capital." Journal of                   bridge, MA: Harvard Universi                    Organizations' learning from
+      Finance, 50: 1461-1489.                     ty Press.                                       the operating and competitive
+                                           Haunschild, P. R., A. Davis-Blake,                     experience of industries."
+Gompers, P., and J. Lerner
+                                           and M. Fichman                                         Strategic Management Jour
+2000a"Money chasing deals? The                                                                    nal, 18:75-98.
+      impact of fund inflows on pri        1994 "Managerial overcommitment
+      vate equity valuations." Jour                in corporate acquisition               Jensen, M.
+      nal of Financial Economics,                 processes." Organization Sci            2003 "The role of network
+      55: 281-325.                                ence, 5: 528-540.                               resources in market entry:
+2000b The                                                                                         Commercial banks' entry into
+                                           Haveman, H. A.
+      Venture Capital Cycle. Cam           1993 "Follow the leader: Mimetic                       investment banking,
+      bridge, MA: MIT Press.                                                                       1991-1997." Administrative
+                                                  isomorphism and entry into
+2001 "The venture capital revolu                  new markets." Administrative                    Science Quarterly, 48:
+      tion." Journal of Economic                                                                  466-497.
+                                                  Science Quarterly, 38:
+      Perspectives, 15: 145-168.                  593-627.                                Kahneman, D., P. Slovic, and A.
+Gorman, M., and W. Sahlman                                                                Tversky
+1989 "What do venture capitalists                                                         1982 Judgment under Uncertainty:
+      do?" Journal of Business Ven                                                                Heuristics and Biases. New
+      turing, 4: 231-248.                                                                         York: Cambridge University
+                                                                                                  Press.
+
+                                           282/ASQ, June 2007
+
+                                               This content downloaded from
+                             193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                       All use subject to https://about.jstor.org/terms
+                                               Sequential Decision Making
+
+Kahneman, D., and A. Tversky                    1995 "Venture capitalists and the             Nisbett, R., and L. Ross
+1979 "Prospect theory: An analysis                    oversight of private firms."            1980 Human Inference: Strategies
+      of decision under risk."                        Journal of Finance, 50:                        and Shortcomings of Social
+       Econometrica, 47: 263-291.                      301-318.                                      Judgment. Englewood Cliffs,
+                                                                                                     NJ: Prentice-Hall.
+Kalbfleisch, J. D., and R. L.                  March, J. G.
+Prentice                                        1991 "Exploration and exploitation            Norton, E., and B. H. Tenenbaum
+1980 The Statistical Analysis of                       in organizational learning."           1993 "The effects of venture capi
+      Failure Time Data. New York:                    Organization Science, 2:                       talists' characteristics on the
+     Wiley.                                            71-87.                                        structure of the venture capi
+                                                                                                     tal deal." Journal of Small
+Kaplan, S. N., and A. Schoar                   March, J. G., and C. Heath
+                                                                                                     Business Management, 31:
+2005 "Private equity performance:               1994 A Primer on Decision Making:                    32-41.
+       Returns, persistence and cap                   How Decisions Happen. New
+       ital flows." Journal of                        York: Free Press.                       Odean, T.
+      Finance, 60: 1791-1823.                                                                  1998 "Are investors reluctant to
+                                               March, J. G., and H. A. Simon                         realize their losses?" Journal
+Kaplan, S. N., and P. Stromberg                 1958 Organizations. New York:                        of Finance, 53: 1775-1798.
+2002 "Financial contracting theory                   Wiley.                                    1999 "Do investors trade too
+      meets the real world: An
+                                               McGrath, R. G., and A. Nerkar                         much?" American Economic
+      empirical analysis of venture
+                                               2004 "Real options reasoning and a                    Review, 89: 1279-1298.
+       capital contracts." Review of
+                                                     new look at the R&D invest
+       Economic Studies, 52: 45-67.                                                           Oliver, C.
+2004 "Characteristics, contracts,                    ment strategies of pharma
+                                                                                               1991 "Strategic responses to insti
+       and actions: Evidence from                    ceutical firms." Strategic
+                                                                                                     tutional processes." Academy
+                                                     Management Journal, 25:
+      venture capitalist analyses."                   1-21.                                          of Management Review, 16:
+      Journal of Finance, 59:                                                                         145-179.
+      2177-2210.                               McNamara, G., H. Moon, and P.
+                                                                                              Palmer, D. A., P. D. Jennings, and
+Kirby, S. L., and M. A. Davis                  Bromiley                                       X. Zhou
+                                               2002 "Banking on commitment:
+1998 "A study of escalating com                       Intended and unintended con              1993 "Late adoption of the multidi
+      mitment in principal-agent                                                                     visional form by large U.S.
+      relationships: Effects of moni                  sequences of an organiza
+                                                                                                     corporations: Institutional,
+                                                      tion's attempt to attenuate
+      toring and personal responsi                     irrational commitment." Acad                  political and economic
+      bility." Journal of Applied Psy                                                                accounts." Administrative Sci
+      chology, 83:206-217.                            emy of Management Review,
+                                                      45: 443-452.                                   ence Quarterly, 38: 100-131.
+Klein, J. P., and M. L                                                                        Pennings, J., K. Lee, and A. van
+Moeschberger                                   Meyer, J. W., and B. Rowan
+                                                                                              Witteloostujin
+                                               1977 "Institutionalized organiza
+2003 Survival Analysis: Techniques                    tions: Formal structure as               1998 "Human capital, social capital,
+      for Censored and Truncated                                                                     and firm dissolution." Acade
+      Data, 2d ed. New York:                          myth and ceremony." Ameri
+                                                                                                    my of Management Journal,
+      Springer.                                       can Journal of Sociology, 83:                  41: 425-440.
+                                                      340-363.
+Knez, P., V. L. Smith, and A. W.                                                              Per row, C.
+Williams                                       Miles, M. B., and A. M. Huberman
+                                                                                              1986 Complex Organizations: A
+1985 "Individual rationality, market            1984 Qualitative Data Analysis: A
+                                                      Sourcebook for New Meth                       Critical Essay. New York: Ran
+       rationality, and value estima                                                                 dom House.
+      tion." American Economic                        ods. Beverly Hills, CA: Sage.
+      Review, 75: 397-402.                                                                    Pfeffer, J.
+                                               Miner, A. S., and P. R. Haunschild
+                                                                                               1992 Managing with Power: Poli
+Kogut, B., and N. Kulatilaka                    1995 "Population level learning." In
+                                                                                                    tics and Influence in Organiza
+                                                      L. L. Cummings and B. M.                      tions. Boston: Harvard Busi
+1994 "Options thinking and plat
+                                                      Staw (eds.), Research in                      ness School Press.
+      form investments: Investing
+       in opportunity." California
+                                                      Organizational Behavior, 17:
+                                                       115-166. Greenwich, CT: JAI            Pfeffer, J., and G. R. Salancik
+      Management Review, 36 (2):                      Press.
+      52-71.                                                                                  1978 The External Control of Orga
+                                                                                                    nizations. New York: Harper &
+Kumaraswamy, A.                                Mintzberg, H.                                         Row.
+1996 "A real options perspective of             1983 Power in and around Organi
+      corporate R&D investments."                     zations. Englewood Cliffs, NJ:          Phillips, D. J., and E. W.
+                                                      Prentice-Hall.                          Zuckerman
+      Unpublished dissertation,
+      New York University.                                                                    2001 "Middle-status conformity:
+                                               Neale, M. A., M. Bazerman, G. B.                     Theoretical restatement and
+Leatherwood, M. L., and E. J.                  Northcraft, and C. Alperson
+                                               1986 "'Choice shift' effects of                      empirical demonstration in
+Conlon                                                                                               two markets." American
+                                                     group decisions: A decision
+1987 "Diffusibility of blame: Effects                                                               Journal of Sociology, 107:
+                                                     bias perspective." Internation                  379-429.
+      on persistence in a project."
+      Academy of Management                           al Journal of Small Group
+      Journal, 30: 836-847.                           Research, 2: 33-41.                     Podolny, J. M.
+                                                                                               1993 "A status-based model of
+Lerner, J.                                     Nerkar, A., and S. Paruchuri
+                                                                                                    market competition." Ameri
+1994 "The syndication of venture               2005 "Evolution of R&D capabili
+                                                                                                     can Journal of Sociology, 98:
+      capital investments." Finan                    ties: The role of knowledge                     829-872.
+                                                      networks within a firm."
+      cial Management, 23: 16-27.
+                                                      Management Science, 51:
+                                                      771-785.
+
+                                               283/ASQ, June 2007
+
+                                                   This content downloaded from
+                                 193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                           All use subject to https://about.jstor.org/terms
+1994 "Market uncertainty and the            Scott, W. R.                                    Staw, B. M., S. G. Barsade, and
+     social character of the eco             1987 "The adolescence of institu               K. W. Koput
+     nomic exchange." Administra                   tional theory." Administrative           1997 "Escalation at the credit win
+      tive Science Quarterly, 39:                  Science Quarterly, 32:                         dow: A longitudinal study of
+      458-483.                                     493-511.                                       bank executives' recognition
+2001 "Networks as the pipes and             2001 Institutions and Organizations,                  and write-off of problem
+      prisms of the market." Ameri                2d ed. Thousand Oaks, CA:                        loans." Journal of Applied
+      can Journal of Sociology, 107:               Sage.                                          Psychology, 82: 130-142.
+      33-60.
+                                            Selznick, P.                                    Staw, B. M., and F. Fox
+2005 Status Signals: A Sociological          1949 TVA and the Grass Roots: A                 1977 "Escalation: Some determi
+      Study of Market Competition.                                                                nants of commitment to a
+      Princeton, NJ: Princeton Uni                 Study in the Sociology of For
+                                                   mal Organization. Berkeley:                    previously chosen course of
+      versity Press.                                                                              action." Human Relations, 30:
+                                                   University of California Press.
+Pommerehne, W. W., F.                                                                             431-450.
+                                            Shane, S., and T. E. Stuart
+Schneider, and P. Zweifel
+                                            2002 "Organizational endowments                 Staw, B. M., and H. Hoang
+ 1982 "Economic theory of choice
+                                                   and the performance of uni               1995 "Sunk costs in the NBA: Why
+       and the preference reversal                                                                draft order affects playing
+                                                   versity start-ups." Manage
+       phenomenon: A reexamina                     ment Science, 48: 154-170.                     time and survival in profes
+       ron." American Economic
+                                                                                                  sional basketball." Administra
+       Review, 72: 569-574.                 Siegel, D. S., D. Waldman, and A.                     tive Science Quarterly, 40:
+                                            Link                                                  474-494.
+Repenning, N. P.
+                                            2003 "Assessing the impact of
+2001 "Understanding fire fighting                                                           Staw, B. M., and J. Ross
+                                                  organizational practices on
+       in new product develop                                                               1980 "Commitment in an experi
+      ment." Journal of Product                    the relative productivity of
+                                                   university technology transfer                menting society: An experi
+       Innovation Management, 18:                                                                 ment on the attribution of
+       285-300.                                    offices: An exploratory
+                                                   study." Research Policy, 32:                    leadership from administrative
+Ritter, J. R.                                       27-48.                                        scenarios." Journal of Applied
+1984 "The 'hot issue' market of                                                                   Psychology, 65: 249-260.
+                                            Simonson, I., and B. M. Staw
+      1980." Journal of Business,
+                                             1992 "Deescalation strategies: A               Staw, B. M., L. E. Sandelands, and
+       57:215-240.                                                                          J. E. Dutton
+2006 "Some factoids about the                      comparison of techniques for
+                                                   reducing commitment to los               1981 "Threat-rigidity effects in
+      2005 IPO market." Unpub
+                                                    ing courses of action." Jour                  organizational behavior: A
+        lished working paper, Univer
+                                                   nal of Applied Psychology, 77:                 multilevel analysis." Adminis
+       sity of Florida.                            419-426.                                       trative Science Quarterly, 26:
+Ross, J., and B. M. Staw                                                                          501-524.
+                                            Smith, V. L.
+1986 "Expo86: An escalation proto                                                           Strauss, A., and J. Corbin
+                                             1989 "Theory, experiment and eco
+       type." Administrative Science               nomics." Journal of Economic              1998 Basics of Qualitative
+     Quarterly, 31:274-297.                                                                       Research. Thousand Oaks,
+                                                   Perspectives, 3: 151-169.
+1993 "Organizational escalation and                                                               CA: Sage.
+     exit: Lessons from the Shore           Sorenson, O., and T. E. Stuart
+      ham Nuclear Power Plant."             2001 "Syndication networks and                  Stuart, T. E., H. Hoang, and R. C.
+     Academy of Management                          the spatial distribution of ven         Hybels
+      Journal, 36: 701-732.                         ture capital investments."              1999 "Interorganizational endorse
+                                                   American Journal of Sociolo                   ments and the performance
+Roth, A. E.
+                                                    gy, 106: 1546-1588.                           of entrepreneurial ventures."
+1988 "Laboratory experimentation                                                                 Administrative Science Quar
+       in economics: A methodologi          Spradley, J. P.
+      cal overview." Economic                                                                     terly, 44: 315-349.
+                                             1979 The Ethnographic Interview.
+      Journal, 98:974-1031.                       New York: Holt, Rinehart and              Swaminathan, A.
+                                                   Winston.                                 2001 "Resource partitioning and
+Ruef, M., and W. R. Scott
+                                                                                                  the evolution of specialist
+1983 "A multidimensional model of           Staw, B. M.
+                                                                                                  organizations: The role of
+      organizational legitimacy: Hos         1976 "Knee-deep in the Big                            location and identity in the
+       pital survival in changing insti           Muddy: A study of escalating                    U.S. wine industry." Academy
+       tutional environments."                     commitment to a chosen
+                                                                                                  of Management Journal, 44:
+      Administrative Science Quar                  course of action." Organiza                     1169-1185.
+      terly, 43: 877-904.                          tional Behavior and Human
+                                                   Performance, 16: 27-44.                  Tan, H.-T., and J. F. Yates
+Sahlman, W. A.                               1981 "The escalation of commit                  1995 "Sunk cost effects: The influ
+ 1990 "The structure and gover                                                                     ences of instruction and
+                                                  ment: A review and analysis."
+       nance of venture capital orga                                                               future return estimates."
+       nizations." Journal of Finan               Academy of Management
+                                                   Review, 6: 577-587.                            Organizational Behavior and
+       cial Economics, 27: 473-521.          1997 "The escalation of commit                        Human Decision Processes,
+Scherer, F. M., D. Harhoff, and J.                ment: An update and                              63:311-319.
+Kukies                                             appraisal." In Z. Shapira (ed.),         2002 "Financial budgets and esca
+2000 "Uncertainty and the size of                 Organizational Decision Mak                      lation effects." Organizational
+       distribution of rewards from                  ing: 191-215. New York:                       Behavior and Human Decision
+        innovation." Journal of Evolu               Cambridge University Press.                    Processes, 87: 300-322.
+       tionary Economics, 10:
+        175-200.
+
+
+                                             284/ASQ, June 2007
+
+                                                 This content downloaded from
+                               193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                         All use subject to https://about.jstor.org/terms
+                                           Sequential Decision Making
+
+Teger, A. i.                               Turna, N. B., and M. T. Hannan                   1993 "Escalating commitment in
+ 1980 Too Much Invested to Quit:            1984 Social Dynamics: Models and                      individual and group decision
+      The Psychology of Escalation               Methods. Orlando, FL: Acade                     making: A prospect theory
+      of Conflicts. New York: Perga              mic Press.                                      approach." Organizational
+      mon.                                                                                       Behavior and Human Decision
+                                           Uzzi, B.
+                                   1996 "The sources and conse                                   Processes, 54: 430-455.
+Tetlock, P. E.
+ 1985 "Accountability: The neglect      quences of embeddedness                            Wilson, R.
+     ed social context of judgment      for the economic perfor                             1968 "The theory of syndicates."
+     and choice." In L. L. Cum          mance of organizations: The                               Econometrica, 36: 119-132.
+     mings and B. M. Staw (eds.),       network effect." American
+                                                                                           Zardkoohi, A.
+     Research in Organizational         Sociological Review, 61:
+      Behavior, 7: 297-332. Green        674-698.                                          2004 "Do real options lead to esca
+                                                                                                  lation of commitment?" Acad
+      wich, CT: JAI Press.
+                                   Westphal, J. D., and E. J. Zajac                              emy of Management Review,
+Thaler, R.                         2001 "Decoupling policy from prac                             29: 111-119.
+1980 "Toward a positive theory of        tice: The case of stock repur
+      consumer choice." Journal of                                                         Zucker, L. G.
+                                         chase programs." Administra
+                                                                                            1983 "The role of institutionaliza
+      Economic Behavior and Orga         tive Science Quarterly, 46:
+      nization, 1: 39-60.                202-228.                                                 tion in cultural persistence."
+                                                                                                  In P. J. DiMaggio and W. W.
+Trigeorgis, L.                            Whyte, G.                                              Powell (eds.), The New Insti
+ 1996 Real Options: Managerial              1986 "Escalating commitment to a                     tutionalism in Organizational
+      Flexibility and Strategy in                 course of action: A reinterpre                 Analysis: 83-107. Chicago:
+      Resource Allocation. Cam                    tation." Academy of Manage                     University of Chicago Press.
+      bridge, MA: MIT Press.                     ment Journal, 11: 311-321.
+
+
+
+
+                                           285/ASQ, June 2007
+
+                                                This content downloaded from
+                              193.205.21.160 on Mon, 16 Nov 2026 14:04:03 UTC
+                                        All use subject to https://about.jstor.org/terms
+

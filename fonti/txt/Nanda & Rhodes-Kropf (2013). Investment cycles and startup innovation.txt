@@ -1,0 +1,1164 @@
+                                                         Journal of Financial Economics 110 (2013) 403–418
+
+
+
+                                                      Contents lists available at ScienceDirect
+
+
+                                              Journal of Financial Economics
+                                              journal homepage: www.elsevier.com/locate/jfec
+
+
+
+
+Investment cycles and startup innovation$
+Ramana Nanda a,n, Matthew Rhodes-Kropf a,b
+a
+    Harvard Business School, Harvard University, United States
+b
+    NBER, United States
+
+
+
+
+a r t i c l e i n f o                                   abstract
+
+Article history:                                        We find that venture capital-backed startups receiving their initial investment in hot
+Received 10 May 2012                                    markets are more likely to go bankrupt, but conditional on going public, are valued higher
+Received in revised form                                on the day of their initial public offering, have more patents, and have more citations to
+19 November 2012
+                                                        their patents. Our results suggest that VCs invest in riskier and more innovative startups in
+Accepted 10 December 2012
+                                                        hot markets (rather than just worse firms). This is particularly true for the most
+Available online 6 July 2013
+                                                        experienced VCs. Furthermore, our results suggest that increased capital in hot times
+JEL classification:                                     plays a causal role in shifting investments to more novel startups by lowering the cost of
+G24                                                     experimentation for early stage investors and allowing them to make riskier, more novel,
+G32
+                                                        investments.
+O31
+                                                                                                            & 2013 Elsevier B.V. All rights reserved.
+Keywords:
+Venture capital
+Innovation
+Market cycles
+Financing risk
+
+
+
+1. Introduction                                                                    such as semiconductors, biotechnology, and the internet, as
+                                                                                   well as the introduction of several innovations across a
+    Venture capital (VC) has been a central source of finance                      spectrum of sectors in health-care, information technology,
+for commercializing radical innovations in the US economy                          and new materials, has been driven in large part by the
+over the past several decades (Kortum and Lerner, 2000;                            availability of venture capital for new startups.
+Samila and Sorenson, 2011). The emergence of new industries                           Financing radical innovations, however, requires more
+                                                                                   than just capital. It requires a mindset of experimentation
+                                                                                   and a willingness to fail. The modal outcome of a venture
+   ☆
+     We are grateful to Bo Becker, Shai Bernstein, Ronnie Chatterji, Chuck         capital investment is complete failure. Hall and Woodward
+Eesley, Michael Ewens, Lee Fleming, Paul Gompers, Robin Greenwood,
+                                                                                   (2010) report that about 50% of the venture capital-backed
+Thomas Hellmann, Bill Kerr, Josh Lerner, Matt Marx, David Mowery, David
+Robinson, David Scharfstein, Antoinette Schoar, Scott Stern, and Rick
+                                                                                   startups in their sample had zero-value exits. Sahlman
+Townsend for fruitful discussions and comments and to the seminar                  (2010) finds that 85% of returns come from just 10% of
+participants at MIT, UT Austin, NBER, Tuck School of Business, Carnegie            investments. In fact, failure is central to the venture capital
+Mellon University, London Business School, Harvard University, Houston             investment model, as extreme success and greater failure
+University, HEC Paris workshop on Entrepreneurship, UC Berkeley,
+                                                                                   may go hand-in-hand in a world where the outcome of
+Northeastern University, University of Lausanne, London School of
+Economics, World Finance Conference, Queens University Economics of                novel technologies or business models is impossible to
+Innovation and Entrepreneurship Conference, University of Notre Dame,              know ex ante. As one venture capital investor put it: ‘Our
+Hong Kong University, National University of Singapore and INSEAD. We              willingness to fail gives us the ability and opportunity to
+thank Chris Allen, Laurel McMechan, Oliver Heimes and Sarah Wolverton
+                                                                                   succeed where others may fear to tread.1
+for research assistance, and the Division of Faculty Research and Devel-
+opment at Harvard Business School and the Kauffman Foundation for
+financial support. All errors are our own.
+   n                                                                                   1
+     Corresponding author.                                                               Quoted by Vinod Khosla, as the reason behind his venture firm's
+     E-mail address: rnanda@hbs.edu (R. Nanda).                                    success.
+
+0304-405X/$ - see front matter & 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.jfineco.2013.07.001
+404                            R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+    In this paper, we examine whether there are certain                  We find this is particularly true for the most experienced
+times when venture capital investors are more willing to                 venture capital investors, who seem to systematically
+experiment than others. In particular, we examine                        make more experimental investments in hot markets.
+whether the peaks in venture capital investment cycles                       Our results, therefore, document a robust association
+(Gompers and Lerner, 2004; Gompers, Kovner, Lerner, and                  between periods of financial market activity and more
+Scharfstein, 2008) could be times when investors are                     experimental investments being made by venture capital
+willing to fund even riskier, more novel companies than                  investors. That is, rather than a left shift (worse invest-
+at other times, and whether this fundamentally affects the               ments) or a right shift (better investments) in the dis-
+nature of radical innovations that are commercialized in                 tribution of projects that are funded in such times, they
+the economy. Conventional wisdom and much of the                         suggest more variance in the outcomes of the investments.
+popular literature tend to associate hot periods in the                  They also point to the fact that observing a large number of
+investment cycle with lower quality firms being financed                 failures among startups that were funded at a certain time
+(Gupta, 2000). Moreover, theories about herding among                    does not necessarily imply that ex ante lower quality firms
+investors (Scharfstein and Stein, 1990), a fall in investor              were funded in those times. Looking at the degree of
+discipline, or the possibility of lower discount rates in hot            success of startups is key to distinguishing between one
+markets are all consistent with the notion that projects                 view where worse projects are funded and another in
+funded in hot markets might be systematically worse than                 which riskier firms are financed by investors.
+those funded in less active periods. But increased experi-                   We next turn to the question of why investments made
+mentation would also be associated with increased failure,               in hot markets might be systematically more variable than
+and what looks like a poor investment ex post may have                   those made at other times. Our correlation could be
+been very experimental ex ante.                                          observed if investment opportunities are systematically
+    Understanding the links between investment cycles                    different in hot and cold periods. Or, time varying risk
+and the commercialization of new technologies is a central               preferences could alter the willingness of investors to
+issue for both academics and policy makers, given the                    experiment. Alternatively, investors could change the type
+importance of new technologies in driving the process of                 of investments they make in hot markets, independent of
+creative destruction and productivity growth in the econ-                the investment opportunities available to them. For exam-
+omy (Aghion and Howitt, 1992; Schumpeter, 1942). We                      ple, Nanda and Rhodes-Kropf (2012) argue that hot mar-
+shed more light on this issue by examining both the                      kets can lower financing risk faced by investors and, hence,
+financial outcomes and the innovation outcomes of firms                  make investors more willing to finance experimentation.
+that received early stage venture capital financing between                  To shed light on this question, we use an instrumental
+1985 and 2004. In particular, we aim to study whether                    variables (IV) estimation strategy. We instrument the
+there is systematic variation in experimentation across the              venture capital activity in a given quarter with fund-
+venture capital investment cycle.                                        raising by leveraged buyout funds that closed in the five
+    We find that startups receiving their initial funding in             to eight quarters before that quarter. Leveraged buyout
+more active investment periods were significantly more                   funds focus their investments on existing companies with
+likely to go bankrupt than those founded in periods when                 a history of revenues and profits, which enables them to
+fewer startup firms were funded. However, conditional on                 raise significant debt to complement their equity invest-
+being successful, and controlling for the year they exit,                ments in portfolio companies. The focus of buyout funds is
+startups funded in more active periods were valued higher                to generate value for their investors by using a combina-
+at IPO or acquisition, filed more patents in the years                   tion of financial engineering and improved operational
+subsequent to their funding (controlling for capital                     performance. On the other hand, venture capital funds
+received), and had more highly cited patents than startups               that make early stage investments in startups focus on
+funded in less active investment periods. That is, startups              pre-revenue firms that are creating and commercializing
+funded in hot markets were more likely to be in the tails of             new technologies. We exploit the fact that the supply of
+the distribution of outcomes than startups funded in cold                capital into the VC industry is greatly influenced by the
+markets. They were both more likely to fail completely and               asset allocation of limited partners putting money into
+more likely to be extremely successful and innovative.                   private equity more broadly and not distinguishing
+    One explanation of these findings is that the most                   between venture capital and buyout funds. By using
+experienced investors take advantage of the better invest-               buyout fund raising as our instrument, we aim to capture
+ment opportunities in hot times while, simultaneously,                   that part of the early stage VC investments that are due to
+‘fools rush in’, so that the mix of investors across the                 increases in capital unrelated to the investment opportu-
+investment cycle leads us to find both more failures and                 nities available for venture capital funds at the time. Thus,
+more extreme success at certain times. Another (not                      our instrument is useful to the extent that flows into
+mutually exclusive) explanation is that the same investors               leveraged buyout funds do not systematically forecast
+are investing in more experimental projects in hot mar-                  changing risk preferences two years later or the variability
+kets. When we investigate this view by including investor                of early stage innovative discoveries two years later.
+fixed effects in our estimations, we find evidence for both                  Our results are robust to this IV strategy and suggest
+mechanisms. This highlights that our findings are not                    that, after accounting for the level of investment due to
+being driven only by the ebbs and flows of investors that                differential opportunities in the cycle, increased capital in
+might only be active in certain times, but also by investors             the industry seems to change the type of startup that VCs
+who seem to change their investments across the cycle.                   fund, towards firms that are more risky or novel. This
+                                 R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                       405
+
+
+finding also holds when we include investor fixed effects,                 made in hot times and noted that many successful firms
+including for the most experienced investors. This is a                    are founded in recessions. A natural inference is that boom
+fascinating result, because it suggests that increased avail-              times lower the discipline of external finance or could be
+ability of capital in the venture industry seems to alter                  associated with systematically lower discount rates, so
+how venture capitalists invest.                                            that investors make ex ante worse investments during
+    Our paper is related to a growing body of work that                    hot times. Others have argued that better startups might
+considers the role of financial intermediaries in the inno-                be funded in hot markets as these are times when
+vation process (see Kortum and Lerner, 2000; Hellmann,                     investment opportunities are attractive. The underlying
+2002; Lerner, Sorensen, and Stromberg, 2011; Sorensen,                     assumption behind these statements is that there is a left
+2007; Tian and Wang, forthcoming; Manso, 2011;                             or a right shift in the distribution of projects that get
+Hellmann and Puri, 2000; Mollica and Zingales, 2007;                       funded. Looking at any point in the distribution of out-
+Nanda and Rhodes-Kropf, 2013; Samila and Sorenson,                         comes (e.g., the probability of failure or success) is, there-
+2011; Nanda and Nicholas, 2011). Our results suggest that                  fore, sufficient to understand how the change in the
+the experimentation by investors is a key channel through                  financing environment for new firms is associated with
+which the financial markets could impact real outcomes.                    the type of firm that is funded.
+Rather than just reducing frictions in the availability of                     However, understanding the extent to which a firm is
+capital for new ventures, investment cycles can play a                     weaker or stronger ex ante is often very difficult for
+much more central role in the diffusion and commercia-                     venture capital investors, who invest in new technologies,
+lization of technologies in the economy. Financial market                  nonexistent markets, and unproven teams (Hall and
+investment cycles can create innovation cycles.                            Woodward, 2010; Kerr, Nanda, and Rhodes-Kropf, 2013).
+    Our findings are also complementary to recent work                     In fact, venture capitalists' successes seem to stem from
+examining how R&D by publicly traded firms responds to                     taking informed bets on startups and effectively terminat-
+relaxed financing constraints (Brown, Fazzari, and                         ing investments when negative information is revealed
+Petersen, 2009; Li, 2011). While this work is focused on                   about these firms (Metrick and Yasuda, 2010). For example,
+the intensive margin of R&D, our work examines how                         Hall and Woodward (2010) report that about 50% of the
+shifts in the supply of capital impacts the choice of firms                venture capital-backed startups in their sample had zero-
+that investors might choose to fund, thereby having a                      value exits, and only 13% had an IPO. Similarly, Sahlman
+bearing on the extensive margin of innovation by young                     (2010) notes that as many as 60% of venture capitalists'
+firms in the economy.                                                      investments return less that their cost to the VC (either
+    Our results are also related to a growing body of work                 due to bankruptcy or forced sales) and that about 10% of
+examining the relation between the financing environment                   the investments – typically the IPOs – effectively make the
+for firms and startup outcomes. Recent work has noted the                  vast majority of returns for the funds. Sahlman (2010)
+fact that many Fortune 500 firms were founded in recessions                points to the example of Sequoia Capital, that in early 1999
+as a means of showing how cold markets lead to the funding                 “placed a bet on an early-stage startup called Google, that
+of great companies (Stangler, 2009). Our results are com-                  purported to have a better search algorithm”. Sequoia's
+pletely consistent with this finding. In fact, we find that firms          $12.5 million investment was worth $4 billion when it sold
+founded in cold markets are less likely to go bankrupt and                 its stake in the firm in 2005, returning 320 times the
+more likely to go public. However, we also show that these                 initial cost.
+firms are less likely to be in the tails of the distribution of                Google was by no means a sure-shot investment for
+outcomes. Thus, while many solid but less risky investments                Sequoia Capital in 1999. The search algorithm space was
+are made in less active times, we propose that hot markets                 already dominated by other players such as Yahoo! and
+seem to facilitate the experimentation that is important for               Altavista, and Google could just have turned out to be a
+the commercialization and diffusion of radical new technol-                “me, too” investment. In fact, Bessemer Ventures, another
+ogies. Hot markets allow investors to take on more risky                   renowned venture capital firm, had the opportunity to
+investments, and could therefore be a critical aspect of the               invest in Google because a friend of partner David Cowan
+process through which new technologies are commercia-                      had rented her garage to Google's founders, Larry Page and
+lized. Our results are therefore also relevant for policymakers            Sergey Brin. On being asked to meet with the two
+thinking about regulating the flood of capital during such                 founders, Cowan is said to have quipped, “Students?
+investment cycles.                                                         A new search engine? How can I get out of this house
+    The rest of the paper is structured as follows. In Section 2,          without going anywhere near your garage?” (http://www.
+we develop our hypothesis around the relation between                      bvp.com/portfolio/antiportfolio.aspx). In fact, Bessemer
+financing environment and startup outcomes. In Section 3,                  Ventures had the opportunity to, but chose not to invest
+we provide an overview of the data that we use to test the                 in several other incredible successes, including Intel,
+hypothesis. We outline our empirical strategy and discuss                  Apple, Fedex, eBay, and Paypal.
+our main results in Section 4. Section 5 outlines our robust-                  These examples point to the fact that while VCs might
+ness checks, and Section 6 concludes.                                      not be able to easily distinguish good and bad investment
+                                                                           opportunities ex ante, they could have a better sense of
+2. Financing environment and startup outcomes                              how risky a potential investment might be. An investment
+                                                                           that is more risky ex ante is more likely to fail. In this
+   Popular accounts of investment cycles have highlighted                  sense, an ex post distribution of risky investments can look
+the large number of failures that stem from investments                    a lot like an ex post distribution of worse investments.
+406                                  R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+
+
+Fig. 1. Distinguishing risky investments from worse investments. The figure depicts the ex post distribution of outcomes for investments that are riskier
+versus worse ex ante.
+
+
+
+However, on average, the successes in risky investments                         which this second mechanism of ‘money changing deals’
+will be bigger than less risky ones, while worse invest-                        could also be at play, by using instrumental variables to
+ments will do badly regardless. Fig. 1 highlights how the ex                    untangle the endogeneity in the analysis.
+post distribution of risky investments differs from the ex
+post distribution of worse investments. That is, instead of a
+shift in the distribution of outcomes to the left (or the                       3. Data
+right, if investments are consistently better), riskier invest-
+ments lead to a twist in the distribution of outcomes, with                         Our analysis is based on data from Dow Jones Venture
+greater failures but bigger successes.                                          Source. This dataset, along with Thompson Venture Eco-
+   Nanda and Rhodes-Kropf (2012) propose that investors                         nomics, forms the basis of most academic papers on
+could fund riskier investments in hot markets as these                          venture capital. Kaplan, Sensoy, and Stromberg (2002)
+times allow investors to experiment more effectively. If                        compare the two databases and note that Venture Source
+this is the case, then more failures would be expected for                      is less likely to omit deals, a fact that is important when
+firms funded in hot markets. However, conditional on a                          looking at firm bankruptcies. The Venture Source data also
+successful outcome such as an IPO or big acquisition, firms                     provides more accurate information on exits, in particular
+funded in hot markets would be expected to do even                              data on the pre-money valuations of firms at IPO and
+better.                                                                         acquisition, both of which are critical to our analysis of
+   The main objective of this paper is, therefore, to                           firm outcomes.2
+examine the extent to which the pattern of VC invest-                               We focus our analysis on US-based startups, because
+ments in boom times looks more like the chart on the left,                      data for these firms are comprehensive. The US is also a
+as opposed to the chart on the right in Fig. 1. Our analysis                    good setting for our study because the institutionalization
+has two main elements. First, we document a robust                              of the venture industry in the US implies that startups
+correlation between firms funded in boom times being                            backed by venture capital firms are likely to comprise the
+more likely to go bankrupt but having bigger successes in                       majority of startups that commercialize new technologies.
+the fewer instances when they do have an IPO or get                             Our sample for the analysis is startups whose first finan-
+acquired. We also show that the bigger successes are not                        cing event was an early stage (Seed or Series A) investment
+just limited to a financial measure of valuation, but also                      from 1985 onward. This allows us to focus on the initial
+extend to real outcomes such as the level of a firm's                           investment decision by venture capital investors and to
+patenting and the citations to its patents. This suggests                       follow the investments to see their eventual outcome.
+that VCs also invest in more innovative firms in                                Given that we are interested in following the firms until
+boom times.                                                                     they exit, we truncate the sample in 2004 to allow
+   Second, we investigate the mechanism behind this                             ourselves sufficient time for firms that were first financed
+correlation. VC investments clearly follow investment                           in 2004 to achieve an exit. We, therefore, focus our
+opportunities, so that investment opportunities associated                      analysis on startups receiving their initial early stage
+with new technologies and markets are likely to be riskier                      investment over the 20-year period from 1985 to 2004
+and also attract more VC money. However, in addition to
+this, the flood of money during boom times could allow                               2
+                                                                                       The pre-money valuation is the value of the firm before accounting
+VCs to experiment more effectively and thereby change                           for the new money coming into the firm at the IPO. Because firms raise
+the type of investments they choose to make toward more                         different amounts of money in the IPO, the pre-money allows a more
+novel, innovative startups. We examine the extent to                            clear-cut comparison of value across firms.
+                                     R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                                      407
+
+
+Table 1
+Descriptive statistics.
+  This table reports descriptive statistics on US-based startups that received Seed or Series A financing from an investor in the Venture Source database
+between 1985 and 2004. For these firms, we report data on the first financing event and the ultimate outcome of the startup as of December 2010.
+
+ Industry                                Number      Share that     Share    Median pre-money      Average pre-       Median pre-       Average pre-
+                                         of firms      failed       with     valuation if had an money valuation if     money              money
+                                                    outright (%)   IPO (%)           IPO            had an IPO      valuation for all   valuation for
+                                                                               (in millions of    (in millions of     exits 4$50              all
+                                                                                   dollars)           dollars)          million          exits 4$50
+                                                                                                                                           million
+
+ Full dataset                            12,285         27           11             151                 311                165              319
+
+ Biotechnology and health-care            2,490         20           19             104                 154                135              188
+ Business and financial services          1,738         36            5             273                 380                230              352
+ Communications and                       1,315         32           13             320                 665                240              590
+     networking
+ Computer hardware and                    1,232         27           11             149                 283                157              274
+     electronics
+ Computer software and Internet           4,157         26            7             195                 372                165              306
+ Consumer goods and services              1,044         33           11             146                 266                156              264
+ Industrial goods and materials            309          20           13              84                 204                186              288
+
+
+but follow these firms' eventual outcomes until the end                              We also report the outcome of exits that include
+of 2010.                                                                         information on acquisitions, when available. Data on
+    There are 12,285 firms that meet our criteria of                             acquisitions are more likely to be available for larger exits,
+US-based startups that received their first early stage                          but this bias does not substantively impact our analysis.
+financing between 1985 and 2004 (see Table 1). The                               Because we are interested in looking at the tails of the
+probability that the firm goes bankrupt in our sample is                         distribution, our aim is to capture the high value exits. We
+27%, varying from 20% for biotechnology and health-care                          are, therefore, less concerned about missing information
+startups to 36% for business and financial services.3                            on acquisitions of firms that may be more likely to be fire-
+    As noted above, a key way of distinguishing whether                          sales. Consistent with this notion, we report the valuation
+worse firms or riskier firms are being funded in hot                             for all exits above $50 million (including IPOs above $50
+markets is that their ex post distribution of outcomes is                        million) that we have information on in our dataset. The
+different. That is, although both risky and worse invest-                        numbers are extremely similar to the valuations obtained
+ments lead to a higher probability of failure in the context                     when looking at only IPOs.
+of our sample, risky investments would imply that, con-                              Part of our aim is to determine whether the differences
+ditional on success, firms funded in active investment                           in outcomes were purely financial or also present in real
+markets have a higher economic return than those funded                          outcomes. To do so, we also examine firm innovation using
+in less active markets. On the other hand, worse invest-                         patent data. We hand-match firms that had an IPO to data
+ments would imply that, even conditional on success,                             on patent assignees in the US Patent and Trademark Office
+firms funded in hot markets had lower value than those                           (USPTO) to look at their innovation prior to when they
+funded in cold markets. To examine this claim, a key                             went public. We look at two different measures of firm
+measure we use is the pre-money valuation at IPO for                             innovation: the raw count of patents granted to the firm
+firms that eventually had an IPO. As can be seen from                            that were filed in the years following its first funding, and
+Table 1, the median pre-money valuation for a firm in our                        the average number of citations per patent. One challenge
+sample that had an IPO was $151 million. However, this                           with the data on patent filings and citations is that we
+varied from over $300 million for communications and                             need to control for the number of years since the patent
+networking startups to just $84 million for industrial                           was granted, so that we do not disproportionately count
+goods and materials startups. Table 1 also documents the                         citations to patents granted in the early years of our
+skewed distribution of returns for successful outcomes:                          sample. Given that we want to look at patents filed after
+The average pre-money valuation is double the median.                            funding and the cumulative citations to those patents, we
+Nevertheless, the pattern across industries when looking                         choose a three year window for each. That is, we look at
+at average returns is consistent with the pattern seen with                      patents granted to firms that were filed in the three years
+median returns.                                                                  following the first funding and the three-year cumulative
+                                                                                 citations to those patents.4 Matching firms in our sample
+                                                                                 to the patent database therefore facilitates the study of the
+                                                                                 innovations by the startups while they were still private.
+    3
+      This number is consistent with Hall and Woodward (2010), who
+find 22% of their investments are “confirmed zero-value outcomes.”
+Following Hall and Woodward, we use an alternative measure of failure
+                                                                                     4
+that also captures firms coded as being private, but are more than five                While the three year windows are somewhat arbitrary, they are
+years past their last venture round. Including these firms raises our            chosen so as to minimize the number of years that would be dropped
+measure of failure to 55%, in line with Hall and Woodward's estimation           from the analysis (given about a two-to-three year delay in the granting
+of 50%.                                                                          of patents from the time they are filed).
+408                                       R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+Table 2
+Characteristics of startups funded in active versus less active investment periods.
+  This table reports differences in the characteristics of firms that receive their first funding in active versus less active periods. Active periods are defined
+as being above median of quarters in terms of startups being funded in each of the periods 1985–1990, 1991–1997 and 1998–2004.
+
+                                                                                                       Funded in active                  Funded in less active
+  Variable                                                                       All                       periods                             periods
+
+  All firms in the sample
+    Number of quarters                                                            80                          40                                  40
+    Number of firms funded per quarter                                           154                          213                                 95
+
+      Age of startup at first funding (years)                                   2.2                            2.1                                 2.4
+      Dollars invested in first funding (millions of dollars)                   $5.5                          $5.9                                $4.3
+      Number of investors in first funding syndicate                            2.21                          2.20                                2.21
+
+      Share of startups that failed (%)                                          27                            32                                 18
+      Share that had an IPO (%)                                                  11                            10                                 13
+
+  Firms that had an IPO
+     Firm age at IPO                                                             6.4                          6.2                                 6.7
+     Total dollars raised prior to IPO                                          $44                           $51                                 $32
+     Average pre-money value at IPO                                             $311                         $376                                $200
+     Average pre-money valuation for all exits 4 50 million                     $319                         $353                                $239
+     Number of patents in three years following first funding                    6.1                          6.5                                 5.4
+     Three year cumulative citations per patent                                  7.3                          8.4                                 5.5
+
+
+
+   In Table 2, we provide descriptive statistics that show                             the inter-temporal variation in our data by including
+the main patterns in the data. The descriptive statistics                              quarter-level or annual fixed effects for the period in
+highlight the basic pattern we test in Section 4. We find                              which the startup was funded. However, given that our
+that startups funded in more active investment quarters                                sample spans 20 years, we also want to ensure that we do
+were slightly younger and significantly more likely to fail,                           include some period controls to account for systematic
+despite raising more money in their first round of funding.                            changes in the venture capital industry as it matured. We
+Successful firms funded in hot markets raised more money                               therefore segment the data into three periods: 1985–1990,
+prior to their IPO and, interestingly, took almost the same                            1991–1997, and 1998–2004. Period fixed effects refer to
+time from first funding to the IPO. Conditional on having a                            dummy variables for these three periods.5
+successful exit, firms funded in active investment markets                                The variable OTHFINt is our main variable of interest
+were valued more on the day of the IPO or when acquired,                               and refers to the log of the number of other firms in the
+had more patents and more citations to their patents,                                  sample that received their initial early stage financing in
+suggesting that riskier, more novel startups are funded in                             the same quarter as firm i. It captures the level of financing
+the more active investment quarters.                                                   activity in the quarter that the focal firm was first funded.
+                                                                                       The matrix Xi refers to firm-level covariates that we
+4. Regression results                                                                  include in the regressions. These include the amount of
+                                                                                       money the startup raised in the financing event, the
+   We next turn to a multi-variate analysis to better-                                 startup's age at the time of first financing, and the number
+understand whether there are systematic differences in                                 of investors in the syndicate that made the investment.
+the types of startups funded by VCs across the                                         California and Massachusetts account for over 50% of all
+investment cycle.                                                                      startups in the data, and industry observers note that
+                                                                                       investors in these regions could have different investment
+4.1. Riskier investments or worse investments?                                         styles. We therefore also include dummy variables to
+                                                                                       control for whether the startup was based in California
+   In Tables 3 and 4, we report results from firm-level                                or Massachusetts. All standard errors are clustered by
+regressions that examine the relation between the finan-                               quarter to account for the fact that our main outcome of
+cing environment in the quarter a firm received its first                              interest is measured at the quarterly-level.
+financing, and the ultimate outcome for that firm. The                                    Table 3 reports estimates from OLS regressions where
+estimations take the form:                                                             the dependent variable takes a value of one if the firm
+                                                                                       went bankrupt.6 As can be seen from the table, firms that
+Y i ¼ α1 OTHFIN t þ α2 X i þ ϕj þ τT þ εi                                ð1Þ
+
+In these regressions, each observation corresponds to an
+individual entrepreneurial firm and the dependent vari-                                    5
+                                                                                              Another approach to control for the time series variation is to
+able, Yi refers to the eventual outcome for firm i. It takes                           include a linear time trend as a control. However, given that the venture
+the value one if the firm went bankrupt and zero other-                                capital is associated with bursts of activity instead of a steady trend, we
+wise. ϕj , refers to industry-level fixed effects, correspond-                         prefer the non-parametric approach of controlling for distinct periods of
+                                                                                       activity in venture capital.
+ing to the seven industries outlined in Table 1. τT refers to                              6
+                                                                                              We report the results from OLS regressions to facilitate compar-
+period fixed effects. Because our hypothesis is about the                              isons with the IV regressions in following tables. The results are robust to
+cyclicality of investment over time, we cannot absorb all                              running the regressions as probit models.
+                                        R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                                        409
+
+
+Table 3
+Funding environment and probability of failure.
+  This table reports results from OLS regressions looking at the probability of firm failure. The dependent variable takes a value of one if the startup failed
+and zero otherwise. The results are robust to using probit regressions, but coefficients from OLS specifications are reported to facilitate comparisons with
+instrumental variable regressions in subsequent tables. Industry fixed effects control for the seven industries outlined in Table 1. Period fixed effects control
+for the startup being funded in the period 1985–1990, 1991–1997 or 1998–2004. Standard errors are clustered by quarter. n, nn and nnn refer to significance
+at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                                                                     Drop if funding year is
+                                                                                         1985–2004                                        1998–2000
+  Variable                                                       (1)              (2)                (3)              (4)                       (5)
+
+                                                                    nnn              nnn                nnn
+  Log number of firms financed in the same quarter            0.094            0.102             0.097              0.137nnn                0.057nnn
+                                                              (0.008)          (0.007)           (0.007)            (0.010)                 (0.020)
+
+  Log of funds raised by firm in its first financing                           0.028nnn         0.032nnn          0.026nnn               0.039nnn
+                                                                               (0.008)           (0.008)            (0.007)                 (0.007)
+
+  Firm age at first financing                                                   0.003nn          0.003nn          0.003nnn                0.003nn
+                                                                                (0.001)           (0.001)           (0.001)                  (0.001)
+
+  Number of investors in syndicate                                             0.009nnn          0.009nnn           0.007nn                   0.005
+                                                                                (0.003)           (0.003)           (0.003)                  (0.004)
+
+  Startup based in California                                                   0.020nn          0.019nn            0.019nn                   0.005
+                                                                                (0.008)          (0.008)            (0.008)                  (0.009)
+  Startup based in Massachusetts                                                0.034nn          0.028n            0.029n                  0.021
+                                                                                (0.016)          (0.016)            (0.016)                   (0.015)
+
+  Period fixed effects                                           No               No                 No               Yes                      Yes
+  Industry fixed effects                                         No               No                 Yes              Yes                      Yes
+
+  Number of observations                                       12,285           11,497            11,497             11,497                   6,518
+  R-squared                                                     0.07             0.08              0.09               0.13                    0.08
+
+
+
+Table 4
+Funding environment and pre-money valuation at IPO.
+  This table reports the results from OLS regressions looking at the pre-money value of firms that had an IPO. The dependent variable is the log of the firm's
+pre-money valuation on the day of its IPO. Industry fixed effects control for the seven industries outlined in Table 1. IPO-year fixed effects control for the
+year in which the startup had its IPO. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                                                                     Drop if funding year is
+                                                                                         1985–2004                                        1998–2000
+  Variable                                                       (1)              (2)                 (3)              (4)                      (5)
+
+                                                                    nnn              nnn                   nnn
+  Log number of firms financed in the same quarter            0.792            0.413             0.244              0.214nnn                0.225nnn
+                                                               (0.082)         (0.065)            (0.045)           (0.051)                  (0.067)
+
+  Log firm's revenue at IPO                                                    0.161nnn           0.157nnn          0.129nnn                0.125nnn
+                                                                               (0.014)            (0.013)           (0.014)                 (0.016)
+
+  Firm's age at IPO                                                            0.025nnn          0.016nnn         0.015nnn                0.016nnn
+                                                                               (0.007)            (0.006)           (0.005)                  (0.006)
+
+  Log total funds raised prior to IPO                                          0.454nnn          0.382nnn           0.390nnn                0.405nnn
+                                                                                (0.029)           (0.028)            (0.027)                 (0.031)
+
+  Startup based in California                                                  0.179nnn           0.157nnn          0.115nn                  0.110nn
+                                                                               (0.050)            (0.044)           (0.045)                  (0.049)
+
+  Startup based in Massachusetts                                                 0.078             0.121n            0.085                    0.055
+                                                                                (0.075)           (0.064)           (0.066)                  (0.062)
+
+  Log value of NASDAQ on day of IPO                                                               0.857nn           0.888nn                   0.586
+                                                                                                  (0.381)           (0.389)                   (0.399)
+
+  IPO year fixed effects                                         No               No                 Yes              Yes                      Yes
+  Industry fixed effects                                         No               No                 No               Yes                      Yes
+
+  Number of observations                                        1,216            1,197               1,197           1,197                    977
+  R-squared                                                     0.27             0.51                0.63            0.65                     0.65
+
+
+
+were first financed in quarters with more financing activ-                          of failure. However, even when controlling for these and
+ity are more likely to fail. Columns 2–5 show that firm age                         other covariates, including industry fixed effects and
+at the time of first funding and raising more money at the                          period fixed effects, we continue to find that firms funded
+time of first funding are associated with a lower likelihood                        in more active quarters are more likely to fail. In Column 5
+410                              R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+we drop the quarters associated with the extreme spike in                  We also find a positive association between the amount of
+activity during the Internet bubble to ensure that the                     money raised by the firm prior to the IPO and its valuation.
+results were not being driven by these outliers.                           The coefficient on log of total dollars raised prior to IPO in
+    The variable OTHFINt is measured in logs and failure is                Column 4 implies that a 10% increase in the amount of
+measured as a binary variable, so the magnitude of the                     money raised (that is ∼4 million) is associated with a 4%
+coefficient in Column 4 (with industry and period fixed                    increase in the value at IPO (that is, ∼12 million). This
+effects and all controls) implies that a 10% increase in the               implies that the marginal dollar invested by VCs will
+number of early stage investments in a given quarter is                    return a threefold return for firms that are successful.7
+associated with a 137 basis point increase in the prob-                        An important concern with our results thus far is that
+ability of failure. Given the baseline failure probability is              firms funded in hot markets could go public in very
+27%, this implies that a 10% increase in the number of firms               different environments than those funded in less active
+being funded is associated with the 5% increase in the                     periods. We want to ensure that our results are not simply
+probability of failure. Because the variation across quarters              due to the fact that firms funded in more active times go
+in the number of firms funded is much larger than 10%, the                 public at different times and, hence, face a systematically
+coefficient on Column 4 of Table 3 implies that the                        different threshold of going public. To address this concern,
+magnitude is economically significant. To put it in per-                   we control for the value of the NASDAQ on the day of the
+spective, a startup funded in the 75th percentile in the                   IPO in Column 3. In addition, we also include IPO-year fixed
+number of firms funded per quarter has a 75% higher                        effects in our regressions in Columns 3–5. Including IPO
+chance of failing relative to one funded in a quarter                      year fixed effects implies that our estimations are effectively
+representing the 25th percentile in the number of invest-                  comparing firms that had an IPO in the same year but that
+ments (an increase from 20% chance of failure to a 35%                     received funding when the market was more or less active.
+chance of failure). Table 3 therefore highlights the fact that             We add industry fixed effects in Column 4 and in Column 5
+firms are consistently more likely to fail when they are                   we again drop quarters with the extreme spike in activity to
+funded in active investment markets. These results do not                  check that our results are robust to their exclusion.
+necessarily imply that VCs fund lower quality firms in hot                     As can be seen from Table 4, conditional on going
+markets. To make this inference, we also need to examine                   public and controlling for the year in which they IPO, firms
+the degree of success for the firms that do well.                          funded in quarters with greater levels of funding activity
+    In Table 4, we report estimates from firm-level regres-                have a higher valuation on the day of their IPO. The
+sions where the dependent variable is the log of the pre-                  coefficient on Column 4 (with industry and IPO year fixed
+money value for the firm, conditional on it eventually                     effects and all controls) implies that a 10% increase in the
+going public. That is, for the firms in our sample that did                funding activity in a given quarter is associated with a
+eventually go public, we run regressions that take the form                2.1%, or $6.5 million increase in the value of a firm if it goes
+                                                                           public. Going from the 25th to the 75th percentile in the
+logðPREVALÞi ¼ β1 OTHFIN t þ β2 X i þ ϕj þ τT þ εi              ð2Þ
+                                                                           number of firms funded is associated with a $54 million
+    As with Table 3, each observation in these regressions                 increase in the value at IPO. Our results suggest that VCs
+corresponds to an individual firm and the dependent                        fund riskier firms in quarters with more financing activity.
+variable, logðPREVALÞi refers to the pre-money value for
+the firm on the day it went public. Again, our main
+variable of interest is OTHFINt, which measures the log of                 4.2. Investor fixed effects
+number of firms in our original sample that were first
+financed in the same quarter as firm i. The matrix Xi refers                   Our results so far have shown that startups funded in
+to firm-level covariates that we include in the regression.                hot markets were more likely to be in the tails of the
+These include the startup firm's age and revenue at the                    distribution of outcomes than startups funded in cold
+time of the IPO, the total amount of money it raised prior                 markets. While this is consistent with more risky firms
+to the IPO, and dummy variables to control for whether                     being funded in hot times, that is not necessarily the case.
+the startup was based in California or Massachusetts. As                   If some investors take advantage of the better investment
+before, standard errors are clustered at the quarter-level.                opportunities in hot times while others simultaneously
+    Columns 1 and 2 of Table 4 report the correlation                      fund worse firms, this could explain our result entirely.
+without any industry or period fixed effects. They show                    That is, our results could be due to differences in the types
+that firms financed in more active quarters are associated                 of VCs investing in hot versus cold times, as opposed to the
+with higher valuations on the day of the IPO. Column 2                     same VCs changing their investments across the cycle.
+controls for a numbers of covariates that one might worry                      To probe the results further, we run the same regres-
+would lead to a spurious correlation. For example, if firms                sions as outlined in Tables 3 and 4, but at the investor-firm
+funded at different points in the cycle systematically differ              level. That is, we change the unit of analysis from the
+in the age or the revenue they have at the time at which                   startup level to the investor-startup level. We, therefore,
+they exit, this could lead to a spurious correlation. Relat-               have multiple observations for firms with more than one
+edly, firms funded in active investment markets raise more                 investor in the first round of financing. In these instances,
+money prior to exiting, and this could mechanically lead to                each observation corresponds to the specific investor-firm
+the association we find. The results are robust to these
+controls. Not surprisingly, we find a strong positive asso-                    7
+                                                                                 While seemingly large, this needs to be weighted against the
+ciation between the firm's revenue at IPO and its valuation.               extremely large number of complete write-offs faced by VCs.
+                                        R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                          411
+
+
+pair in that round of funding, so that Yi becomes Yik and                         found in Column 4 seems to be driven by the more
+logðPREVALÞi becomes logðPREVALÞik . Expanding the data to                        experienced investors. In fact, we cannot reject the
+the investor-startup level allows us to include investor                          hypothesis that the successful outcomes for less experi-
+fixed effects in a panel in which every investor in each deal                     enced investors are no different based on whether they
+is included, and thereby allows us to examine whether the                         were funded in hot or cold markets.
+same investors change the types of firms they fund in hot                            These findings are important as they highlight ele-
+and cold markets.8 Specifically, Table 5 reports results from                     ments of both the mechanisms we outlined above. The
+estimations that take the form                                                    observed relation between active investment markets and
+Y ik ¼ γ 1 OTHFIN t þ γ 2 X i þ ϕj þ ψ k þ τT þ εik                      ð3Þ      more experimental firms seems to come from the most
+                                                                                  experienced VCs changing the type of investments they
+and                                                                               make across the cycle. Less experienced investors show a
+logðPREVALÞik ¼ δ1 OTHFIN t þ δ2 X i þ ϕj þ ψ k þ τT þ εik               ð4Þ      similar pattern, but their returns from the successes seem
+                                                                                  much lower, suggesting that the benefits they accrue from
+where ψ k refers to investor fixed effects and all the other                      the more risky investments do not outweigh the costs.
+variables are exactly as defined in Tables 3 and 4.                               While we do not have the data to accurately calculate this,
+    Table 5 reports these estimates for all VC investors in the                   our results suggest that only the more experienced VCs are
+sample. Column 1 of Table 5 is comparable to Column 4 of                          able to make money from their more novel investments in
+Table 3, except that the regressions in Table 5 are run at the                    hot markets.
+investor-startup level and also include investor fixed effects.
+The fact that the coefficients are extremely similar implies                      4.3. Money changing deals?
+that the increased failure rates in hot times seem to be
+driven by within-VC variation in the types of firms that are                          Thus far, we have shown a pattern of more risky invest-
+funded, as opposed to across-VC variation in hot versus less                      ments being undertaken by investors in hot markets, in
+active times. Column 4 of Table 5 is comparable to Column                         particular the most experienced venture capital investors.
+4 of Table 4, except that the regressions in Table 5 are run at                   One explanation for our results is that venture capital
+the investor-startup level and also include investor fixed                        investments are particularly high at times when risky
+effects. Comparing the tables highlights that including                           technologies, ideas and startups are available to be financed.
+investor fixed effects reduces the coefficient somewhat.                          That is, the same new technologies that attract investment
+That is, part of the effect shown on the coefficient in                           from venture capitalists could also be riskier opportunities. In
+Column 4 of Table 4 seems to be driven by different VCs                           this explanation, the change in the projects that VCs invest in
+investing across the cycle. However, the within-VC effect                         is driven by the investment opportunities. If this was the
+still remains economically and statistically significant,                         main factor driving our results, our OLS results would be
+showing that on average, the same investors also change                           biased upward, as the omitted variable would be responsible
+the types of investments they make in hot markets.                                for driving the variance in outcomes and attracting venture
+    We next examine whether there are any differences                             capital investment.
+between more and less experienced investors that are                                  In addition to this explanation, however, it is possible that
+driving the pattern observed above. In Columns 2 and 5 we                         hot markets may make investors more willing to experiment,
+look at experienced VCs, by including only those VCs that                         and hence change the type of investments they are willing to
+made at least five investments in the two years prior to the                      make, toward more risky, innovative startups in the market
+focal investment.9 In Columns 3 and 6 we look at the                              (Fleming, Schwienbacher, and Cumming, 2005; Nanda and
+performance of less experienced investors. Columns 2 and                          Rhodes-Kropf, 2012). Alternatively, these times may lead
+3 of Table 5 therefore compare failure rates for more                             investors and entrepreneurs to manage the startup using
+versus less experienced investors. Startups funded by less                        strategies that are more risky (Arora and Nandkumar, 2011).
+experienced investors have a marginally higher chance of                          If these factors were important in driving our results, our OLS
+failing, but this difference is not statistically significant.                    coefficient could be biased downward. This is because our
+The difference is more stark when comparing Columns 5                             proxy for the willingness of investors to experiment is the
+and 6 of Table 5. They show that less experienced investors                       number of investments per quarter. To the extent that
+have successes that are not as large and that the relation                        measurement error exists in our proxy, this will tend to bias
+                                                                                  the OLS coefficients toward zero.
+    8
+       Investor fixed effects would still be identified when running
+                                                                                      To examine the extent to which these mechanisms
+specifications at the startup level as with Tables 3 and 4. However, this         could be at play, we turn to an instrumental variables
+would lead to us estimate investor fixed effects using only about half the        strategy. Our IV approach is predicated on two particular
+investor-startup deals, given the average of about two investors per              features of the venture industry. First, the supply of capital
+startup. Although we cluster our standard errors at the quarterly level, we
+                                                                                  into the VC industry is greatly influenced by the
+also check to see that our results in the tables using investor fixed effects
+are not arising purely as an artifact of the larger sample size. The results      asset allocation decisions of university endowment and
+are extremely similar if we just include one (randomly chosen) investor           pension fund managers, who tend to allocate capital to
+per firm as with Tables 3 and 4, and add investor fixed effects.                  sectors based on backward-looking (rather than forward-
+    9
+       Our results are robust to alternative ways to measuring whether an         looking) metrics, as well as the need to re-balance their
+investor is experienced. For example, we have looked at another measure
+that codes investors as experienced if they made more than 20 invest-
+                                                                                  portfolio based on the performance of other asset classes
+ments over the period 1985–2004. The point estimates are extremely                (Samila and Sorenson, 2012). Second, and more important,
+similar.                                                                          limited partners tend to allocate capital to private equity as
+412                                    R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+Table 5
+Funding environment and startup outcomes, with investor fixed effects.
+   This table reports the results from OLS regressions in which the data used to estimate the regressions are at the investor-startup level. We report three
+sets of specifications. The first includes all firms for which we have data on the identity of the investors. The second reports only the more experienced
+investors, who we define as having invested in at least five other startups in the two years prior to the investment. The third includes those with less than
+five investments in the prior two years. Time controls refer to period fixed effects in Columns 1–3 and to IPO-year fixed effects in Columns 4–6. Control
+variables, industry, period and IPO-year fixed effects are the same as in Tables 3 and 4. In addition, all regressions include investor fixed effects. Standard
+errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                Probability of failure                           Pre-money value conditional on IPO
+
+                                                                 VCs with ≥5         VCs with o 5                      VCs with ≥5         VCs with o 5
+                                                                investments in      investments in                    investments in      investments in
+                                                                     prior               prior                             prior               prior
+                                                     All              two                 two              All              two                 two
+                                                  investors          years               years          investors          years               years
+  Variable                                           (1)               (2)                 (3)             (4)               (5)                 (6)
+
+  Log number of firms financed in the same         0.134nnn        0.130nnn              0.139nnn        0.158nn         0.233nnn              0.049
+      quarter
+                                                   (0.011)          (0.014)              (0.012)         (0.069)          (0.082)              (0.090)
+
+  Control variables                                  Yes              Yes                  Yes             Yes              Yes                 Yes
+  Time fixed effects                                 Yes              Yes                  Yes             Yes              Yes                 Yes
+  Industry fixed effects                             Yes              Yes                  Yes             Yes              Yes                 Yes
+  Investor fixed effects                             Yes              Yes                  Yes             Yes              Yes                 Yes
+
+  Number of observations                           22,011            8,663               13,348           2,959            1,407               1,552
+  R-squared                                         0.22              0.15                0.19             0.77             0.72                0.89
+
+
+
+an asset class even though significant differences exist in                        capital unrelated to the investment opportunities available at
+the types of private equity funds within this broader asset                        the time for venture capital funds. Lagged buyout fund-
+class, and these respond to very different investment                              raising is used as an instrument to account for the fact that
+opportunities. For example, leveraged buyout funds focus                           venture funds take one-to-three years to fully invest the
+on established companies with significant revenues and                             capital in their funds and has the added advantage of further
+profits to support leverage and generate value for their                           distancing the instrument from current VC opportunities.11
+investors from financial engineering and improved opera-                               We run two stage least squares regressions, where the
+tional performance. These are often old economy firms                              variable OTHFIN t in Eqs. (1) and (2) is treated as endogen-
+such as those in manufacturing that need assistance in                             ous and a variable that calculates the total dollars raised by
+improving operational performance. On the other hand,                              buyout funds that closed five to eight quarters before t is
+venture capital firms invest in startup firms that are                             used to instrument for OTHFIN t : These results are reported
+commercializing new technologies such as a novel bio-                              in Columns 2 and 4 of Table 6. We report the coefficients
+technology compound or an idea for an Internet company.                            from comparable OLS regressions in Columns 1 and 3 for
+   We, therefore, use an instrumental variables estimation                         easy comparison. As can be seen from the bottom of
+strategy, in which the number of startup firms financed by                         Table 6, the regressions have a strong first stage, and pass
+venture capital investors in a given quarter is instrumen-                         the F-test for possible weak instruments.
+ted with a variable that measures the total dollars raised                             Comparing the OLS and IV coefficients in Table 6 shows
+by leveraged buyout funds that closed in the five to eight                         that the IV coefficients are larger than the OLS coefficients.
+quarters before the firm was funded. The assumption is                             This pattern suggests that increases in capital that are
+that the limited partners' decision to invest in buyout                            unrelated to the investment opportunities facing VCs make
+funds is uncorrelated with the riskiness of future innova-                         them more likely to invest in riskier startups. That is, the IV
+tions that lead to early stage venture capital funding.                            regressions accentuate our finding that risky firms are funded
+However, the fact that limited partners allocate capital to                        when capital is abundant. These findings are consistent with a
+the private equity asset class as a whole leads fund raising                       model in which an abundance of capital leads investors to
+by venture and buyout funds to be associated.10 This IV                            experiment more and, hence, invest in riskier, more innova-
+strategy is similar to Gompers and Lerner (2000). How-                             tive startups, independent of the investment opportunities
+ever, our exclusion restriction is somewhat stronger as it                         available at the time (Nanda and Rhodes-Kropf, 2012).
+requires that the level of buyout fund raising two years                               In Table 7, we report the result of the same regressions
+before is unrelated to the variance in outcomes for venture                        but run at the investor-firm level and including investor
+capital investments in a given period.                                             fixed effects. The results continue to hold, implying that
+   Our instrumental variables estimation should capture                            the high level of investment activity leads the same VCs to
+that part of the VC investments that are due to increases in
+                                                                                       11
+                                                                                           To account for the concern that time trends could be driving the IV
+                                                                                   result, we have also run robustness checks where we control for the level
+    10
+       As a robustness test we also use the count of buyout funds that             of contemporaneous buyout fund-raising. The results remain equally
+closed in the five-to-eight quarters prior to the investments.                     robust when including this control.
+                                        R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                                           413
+
+
+Table 6
+The effect of increased capital at time of funding on startup outcomes.
+  This table reports the results of two stage least squares regressions, where the number of firms financed in a given quarter is instrumented with the total
+dollars raised by leveraged buyout funds that closed in the five to eight quarters before the firm was funded. For ease of comparison, the coefficients from
+the respective OLS regressions in Tables 3 and 4 are replicated in Columns 1 and 3. Time fixed effects refer to period fixed effects in Columns 1 and 2 and to
+IPO-year fixed effects for Columns 3 and 4. Control variables and fixed effects are as reported in Tables 3 and 4. Standard errors are clustered by quarter. n, nn
+and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                                                         Pre-money value conditional on
+                                                                                      Probability of failure                           IPO
+
+                                                                                OLS (Column 4 of                        OLS (Column 4 of
+                                                                                    Table 3)                   IV           Table 4)                   IV
+  Variable                                                                             (1)                     (2)             (3)                      (4)
+
+  Log number of firms financed in the same quarter                                   0.137nnn            0.151nnn             0.214nnn              0.461nnn
+                                                                                     (0.010)             (0.030)              (0.051)                 (0.107)
+
+  Control variables                                                                    Yes                 Yes                  Yes                   Yes
+  Time fixed effects                                                                   Yes                 Yes                  Yes                   Yes
+  Industry fixed effects                                                               Yes                 Yes                  Yes                   Yes
+
+  Number of observations                                                              11,497              11,497               1,197                 1,197
+  R-squared                                                                            0.13                0.12                0.62                    0.61
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                     0.473nnn                                   0.360nnn
+                                                                                                          (0.119)                                    (0.077)
+
+  Partial R-squared                                                                                       0.171                                      0.197
+  F-statistic                                                                                             15.67                                      21.09
+
+
+
+
+change the type of investments that they make, toward                                log of the average citation per patent as the dependent
+risky startups that have a higher probability of failure, but                        variable.12 Columns 1 and 2 of Table 8 show that among
+also have bigger successes.                                                          firms that had an IPO, those funded in hot markets got more
+    These results suggest a much larger role for financial                           patents in the first three years following the first funding than
+markets in the commercialization of new technologies.                                those funded in less active periods. Moreover, the IV specifica-
+Instead of just responding to the need for good ideas to be                          tions show that this is still robust, again consistent with the
+funded, the results in Tables 6 and 7 suggest that a flood of                        results in Tables 6 and 7, suggesting that the supply of capital
+money into the venture community could change the type                               pushed investors to invest in more novel opportunities.
+of the projects that get funded.                                                     Although we do control for the amount of money raised by
+                                                                                     the firm in its first funding, a concern arises that firms funded
+4.4. Risky versus novel investments                                                  in hot times could be systematically more prone to patenting
+                                                                                     than those funded in less active periods, for reasons unrelated
+    Thus far, the results we have reported in Tables 3–7 are                         to how novel they are. We therefore also look at the average
+based on financial measures of success. That is, firms                               citations to the patents as a way to measure the impact of the
+funded in hot markets are more likely to fail, but are                               innovations. Columns 3 and 4 show that the patent citations
+valued higher on the day of their IPO. In Tables 8 and 9, we                         show a similar pattern, suggesting that difference is not only
+extend the estimation framework we used to study valua-                              due to any increase in patenting propensity by startups in
+tion to real outcomes associated with firm-level innova-                             more active investing periods.
+tion. That is, we ask whether these are purely more risky                                In Table 9, we include investor fixed effects and again
+investments in financial terms or whether the investments                            report the estimates from patent and citation regressions
+VCs make in hot markets are associated with more novel                               run at the investor-startup level. The results of these
+technologies or innovative firms.                                                    regressions continue to document the same pattern, sug-
+    Following a long literature in economics (for example Jaffe,                     gesting that even the most experienced investors are likely
+Trajtenberg, and Henderson, 1993), we use firm-level patent-                         to change their investments towards more novel, innovative
+ing as our measure of innovation. Although patenting is an                           startups in periods of high financing activity. Our results
+incomplete measure of firm innovation, it is a very relevant                         using patent data therefore reinforce the patterns observed
+measure of innovation in our sample of high-tech firms. Sixty                        using financial outcomes.
+percent of the firms in our sample that had an IPO filed at
+least one patent in the three years following their first
+                                                                                         12
+investment. Moreover, patent citations have been shown to                                   The distribution of patent counts tends to be highly skewed. One
+correlate closely with both the quality of inventions as well as                     estimation approach is to use count models. We have checked that our
+                                                                                     patent regressions are robust to Negative Binomial specifications that are
+their economic effects (Hall, Jaffe, and Trajtenberg, 2005).                         often used in patent research. However, to be consistent in our compar-
+    In Tables 8 and 9, we re-run the estimations reported in                         isons with the IV regressions, we run OLS specifications with logged
+Tables 6 and 7, but with the log of the number of patents and                        values of patent counts and patent citations.
+414                                     R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+Table 7
+The effect of increased capital at time of funding on startup outcomes, with investor fixed effects.
+  This table reports the results of two stage least squares regressions using data at the investor-startup level. The number of other firms financed in the
+same quarter that the firm received its first funding is instrumented with the total dollars raised by buyout funds in the five to eight quarters before the
+focal investment. For ease of comparison, the coefficients from the respective OLS regressions in Table 5 are replicated in Columns 1 and 3. Time fixed
+effects refer to period fixed effects in Columns 1 and 2 and to IPO-year fixed effects in Columns 3 and 4. Control variables and fixed effects are as reported in
+Table 6. In addition, all regressions include investor fixed effects. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and
+0.01 respectively.
+
+                                                                                                                           Pre-money value conditional on
+                                                                                       Probability of failure                            IPO
+
+                                                                                 OLS (Column 1 of                         OLS (Column 4 of
+                                                                                     Table 5)                   IV            Table 5)                   IV
+  Variable                                                                              (1)                     (2)              (3)                      (4)
+
+  Log number of firms financed in the same quarter                                    0.134nnn            0.123nnn              0.158nn               0.311nnn
+                                                                                       (0.011)            (0.033)               (0.069)                 (0.118)
+
+  Control variables                                                                     Yes                 Yes                   Yes                    Yes
+  Time fixed effects                                                                    Yes                 Yes                   Yes                    Yes
+  Industry fixed effects                                                                Yes                 Yes                   Yes                    Yes
+  Investor fixed effects                                                                Yes                 Yes                   Yes                    Yes
+
+  Number of observations                                                               22,011              22,011                2,959                  2,959
+  R-squared                                                                             0.22                0.21                  0.77                    0.77
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                      0.401nnn                                    0.312nnn
+                                                                                                           (0.106)                                    (0.067)
+
+  Partial R-squared                                                                                        0.145                                        0.167
+  F-statistic                                                                                              14.41                                        21.75
+
+
+
+Table 8
+Funding environment and startup innovation.
+  This table reports the results from OLS and two stage least squares regressions looking at innovation by firms that had an IPO. The level of patenting
+measures the log of cumulative patents filed in the three years following first funding and citation per patent measures the log of the cumulative citations
+per patent up to three from the date the patent was granted. All regressions control for the number of investors in the syndicate, the firm's age at first
+funding, the amount of money raised in the first round of funding and whether the firm was based in Massachusetts or California. Industry fixed effects
+control for the 7 industries outlined in Table 1. Period Fixed effects control for the startup being funded in the period 1985–1990, 1991–1997 or 1998–2004.
+The instrumental variables strategy is the same as that reported in Tables 6 and 7. Standard errors are clustered by quarter. n, nn and nnn refer to significance
+at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                              Level of patenting                         Citations to patents
+
+                                                                                         OLS                      IV                OLS                    IV
+  Variable                                                                               (1)                      (2)               (3)                     (4)
+
+  Log number of firms financed in the same quarter                                     0.219nnn             0.228nnn              0.156nnn              0.172nn
+                                                                                       (0.055)               (0.088)              (0.054)                (0.086)
+
+  Control variables                                                                       Yes                     Yes               Yes                   Yes
+  Period fixed effects                                                                    Yes                     Yes               Yes                   Yes
+  Industry fixed effects                                                                  Yes                     Yes               Yes                   Yes
+
+  Number of observations                                                                 1,197                   1,197             1,197                 1,197
+  R-squared                                                                              0.18                     0.17             0.10                    0.11
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                        0.519nnn                                   0.519nnn
+                                                                                                            (0.094)                                    (0.094)
+
+  Partial R-squared                                                                                              0.359                                   0.359
+  F-statistic                                                                                                    30.45                                   30.45
+
+
+
+
+5. Robustness checks                                                                  of the startups. We therefore check to see whether our
+                                                                                      results on firm outcomes are robust to a different measure
+    We run several analyses to check the robustness of our                            of success, namely all exits in our database that are coded
+results. Two sets of analyses are worth particular note.                              as above $50 million. This measure is patchy by definition,
+First, a number of successful exits for firms are not                                 as it might not include all acquisitions that met the
+necessarily through IPOs but can be through acquisitions                              threshold. Nonetheless, it is a useful robustness check to
+                                       R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                                           415
+
+
+Table 9
+Funding environment and startup innovation, with investor fixed effects.
+   This table reports the same regressions as in Table 8 but using data at the investor-startup level. Control variables, fixed effects and instrumental
+variables are the same as in Table 8 with the additional inclusion of investor fixed effects. Standard errors are clustered by quarter. n, nn and nnn refer to
+significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                            Level of patenting                        Citations to patents
+
+                                                                                       OLS                   IV                  OLS                   IV
+  Variable                                                                             (1)                   (2)                 (3)                    (4)
+
+  Log number of firms financed in the same quarter                                   0.182nn              0.239nnn             0.161nn              0.202nn
+                                                                                     (0.069)               (0.097)             (0.076)               (0.098)
+
+  Control variables                                                                    Yes                   Yes                 Yes                   Yes
+  Period fixed effects                                                                 Yes                   Yes                 Yes                   Yes
+  Industry fixed effects                                                               Yes                   Yes                 Yes                   Yes
+  Investor fixed effects                                                               Yes                   Yes                 Yes                   Yes
+
+  Number of observations                                                              2,959                2,959                2,959                2,959
+  R-squared                                                                           0.29                 0.28                  0.32                  0.23
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                      0.467nnn                                  0.467nnn
+                                                                                                           (0.091)                                   (0.091)
+
+  Partial R-squared                                                                                        0.324                                     0.324
+  F-statistic                                                                                              26.51                                     26.51
+
+
+Table 10
+Ex ante differences at time of first funding.
+  This table reports the results of OLS and two stage least squares regressions using data at the investor-startup level. Columns 1 and 2 report results from
+regressions where the dependent variable is the log of the startup's age at first funding. Columns 3 and 4 report results from regressions where the
+dependent variable is the log of the number of venture capital investors in the first funding syndicate. Control variables, fixed effects and the instrumental
+variables strategy are as reported in Table 7. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                  Startup's age at first funding            Syndicate size at first funding
+
+                                                                                    OLS                   IV                  OLS                    IV
+  Variable                                                                          (1)                   (2)                 (3)                     (4)
+
+  Log number of firms financed in the same quarter                                0.148nnn             0.295nnn           0.030nnn             0.108nnn
+                                                                                  (0.030)               (0.077)             (0.009)                (0.025)
+
+  Control variables                                                                  Yes                  Yes                  Yes                  Yes
+  Period fixed effects                                                               Yes                  Yes                  Yes                  Yes
+  Industry fixed effects                                                             Yes                  Yes                  Yes                  Yes
+  Investor fixed effects                                                             Yes                  Yes                  Yes                  Yes
+
+  Number of observations                                                           22,011                22,011              22,011                22,011
+  R-squared                                                                         0.28                  0.27                0.46                   0.46
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                    0.416nnn                                  0.425nnn
+                                                                                                         (0.107)                                   (0.112)
+
+  Partial R-squared                                                                                      0.150                                     0.150
+  F-statistic                                                                                            15.12                                     14.47
+
+
+ensure that our results are not driven by the particular set                        are not driven by any outliers. We report the results from
+of firms that had an IPO. We report the results of these                            quantile regressions, estimated at the median exit value
+analyses in Table A1. Consistent with the findings reported                         for firms that had an IPO and for firms that exited with at
+in Tables 4 and 6, we find that firms funded in more active                         least a $50 million valuation. These results are reported in
+quarters have higher exit values and that these results are                         Table A2, which shows that our results are not driven by
+robust to our IV specification. Our finding, that firms                             this statistical artifact. As can be seen from the results in
+funded in active investment quarters have higher exits is                           Table A2, median regressions exhibit the same pattern
+not restricted to the sample of firms that have an IPO.                             shown in the main results.13
+    Second, we check to see that our results are not driven
+by outliers. Because more firms are funded in active                                    13
+                                                                                           Furthermore, we show in Table A3 that firms funded in active
+quarters, there is a higher likelihood of having extreme                            investment quarters are less likely to have an IPO. Because IPOs are tail
+outcomes purely as a result of order statistics. We expli-                          outcomes in themselves (Hall and Woodward, 2010), this suggests that
+citly check to see that our regressions on the values at exit                       our results are due to a substantive difference in the types of firms being
+416                                  R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+5.1. Ex ante differences                                                       6. Conclusions
+
+    Thus far, all the differences we have shown are based on                       New firms that create and commercialize new technolo-
+ex post outcomes. If, in fact, the differences we find stem                    gies can have profound effects on the economy (Aghion and
+from variations in the willingness to experiment at the time                   Howitt, 1992; Foster, Haltiwanger, and Syverson, 2008). The
+of the investment, we should also expect to see some                           founding of these new firms and their financing is highly
+differences exist ex ante. We therefore look at two other                      cyclical (Gompers, Kovner, Lerner, and Scharfstein, 2008).
+measures that could shed light on whether the same                             Conventional wisdom associates periods with active invest-
+investors invest differently in more versus less active times.                 ment either with worse firms being funded (a left shift in the
+    Our first measure is the startup's age at the time of first                distribution of projects) or with better investment opportu-
+funding. Columns 1–2 of Table 10 report the results from                       nities (a right shift in the distribution of projects).
+both OLS and IV specifications, in which the dependent                             However, the evidence in our paper suggests another,
+variable is the log of the startup's age at first funding. As                  possibly simultaneous, phenomenon. We find that firms that
+with Table 7, the regressions are run on data at the investor-                 are funded in hot times are more likely to fail but simulta-
+startup level, and all regressions include investor fixed                      neously create more value if they succeed. This pattern could
+effects in addition to controlling for startup-level covariates,               arise if more risky and novel firms are funded in hot times.
+industry and period controls. As can be seen from Column 1,                    Our results provide a new but intuitive way to think about
+startups funded in more active quarters tend to be system-                     the differences in project choice across the investment cycle.
+atically younger than those funded in less active times.                       We show that the same investors invest in more risky,
+Although not the only explanation, it is certainly consistent                  innovative startups in hot times. Because the financial results
+with a view that investors are willing to invest in ex ante                    we present cannot distinguish between more innovative
+riskier startups in more hot times. In Column 2 we examine                     versus simply riskier investments, we also present direct
+the IV coefficients. Our results continue to be robust and                     evidence on the level of patenting by firms funded at
+again are stronger in the IV regressions compared with OLS,                    different times in the cycle. We find that in addition to being
+suggesting that investors are likely to change their invest-                   valued higher on the day of their IPO, successful firms that
+ments in active times in ways that are observable at the                       are funded in hot markets had more patents and received
+time of the investor's initial investment.                                     more citations in the initial years following their first funding
+    Our second measure examines the size of the syndicate at                   than firms funded in less heady times.
+the time of first funding. Nanda and Rhodes-Kropf (2012)                           Our IV results also highlight that changes in capital
+provide a rationale for why syndicates could be systematically                 availability that are unrelated to the investment opportu-
+smaller when financing risk is low compared with when it is                    nities seem to exacerbate our results, suggesting that one
+high. They highlight that times of abundant funding are ones                   mechanism through which hot markets could lead to
+when investors are less concerned about the difficulty in                      riskier investments is that it makes investors more willing
+receiving follow-on funding for their investment in subse-                     to experiment, and thereby fund more novel, risky invest-
+quent rounds. This makes them more willing to have smaller                     ments. This finding is consistent with Nanda and Rhodes-
+syndicates, as the insurance provided by having a larger                       Kropf (2012), who demonstrate how increased funding in
+syndicate is less critical at those times. If the changes we                   the venture capital market can rationally alter the type of
+show are driven by changes in financing risk as outlined by                    investments investors are willing to fund toward a more
+Nanda and Rhodes-Kropf (2012), we may also expect to see                       experimental, innovative project. According to this view,
+these differences in the size of the syndicates in more active                 the abundance of capital associated with investment
+investment markets relative to less active times. Columns 3                    cycles might not only be a response to the arrival of new
+and 4 of Table 10 report the results from both OLS and IV                      technologies, but could also play a critical role in driving
+specifications, where the dependent variable is the log of the                 their creation and commercialization. That is, the abun-
+number of syndicate members that round of funding. As with                     dance of capital can change the type of firm investors are
+Columns 1 and 2, the regressions are run on data at the                        willing to finance in these times. Financial market invest-
+investor-startup level, and all regressions include investor                   ment cycles can therefore create innovation cycles.
+fixed effects in addition to controlling for startup-level covari-                 Our findings suggest many avenues for future research
+ates, industry and period controls. Columns 3 and 4 document                   that consider the impact of the cycle on innovation, venture
+a consistent pattern that syndicates tend to be smaller in hot                 capital, and the development of new companies. Many of the
+times (controlling for the amount of capital raised in the                     classic findings in venture capital could be extended to
+round of funding) and, furthermore, that investors change                      examine how they are impacted by the investment cycle.
+their syndicates in active times. Although this is not the only                For example, the interaction of product markets and finan-
+possible reason for smaller syndicates in more active invest-                  cing strategy (Hellmann and Puri, 2000), the effect of net-
+ment climates, these results again provide evidence that is                    works (Hochberg, Ljungqvist, and Lu, 2007), or the question
+consistent with the fact that venture capital investors change                 of whether investors pick the jockey or the horse (Kaplan,
+their investment strategies across the investment cycle.                       Sensoy, and Stromberg, 2009), could all vary based on the
+                                                                               where investors are in the investment cycle.
+
+
+(footnote continued)
+                                                                               Appendix A
+funded across periods rather than a mechanical relationship due to order
+statistics.                                                                        See Tables A1 - A3.
+                                         R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418                                         417
+
+
+Table A1
+Funding environment and pre-money valuation for exits above $50M.
+  This table reports the results from regressions used in Columns 3 and 4 of Table 6. However, as a robustness check, the sample includes all firms with an
+exit above $50 million instead of using only firms that had an IPO. This includes acquisitions above $50 million for which we have data and excludes IPOs
+with a pre-money value below $50 million. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                                            Pre-money value on exits 4$50million
+
+                                                                                                        OLS                                            IV
+
+  Variable                                                                                               (1)                                           (2)
+
+                                                                                                               nn
+  Log number of firms financed in the same quarter                                                     0.066                                     0.171nnn
+                                                                                                       (0.033)                                    (0.062)
+
+  Control variables                                                                                      Yes                                         Yes
+  Exit-year fixed effects                                                                                Yes                                         Yes
+  Industry fixed effects                                                                                 Yes                                         Yes
+
+  Number of observations                                                                                1,779                                       1,779
+  R-squared                                                                                             0.36                                          0.36
+
+  Coefficient on instrument and first stage statistics
+  Log dollars raised by buyout funds 5–8 quarters before firm funded                                                                            0.624nnn
+                                                                                                                                                 (0.099)
+
+  Partial R-squared                                                                                                                                 0.324
+  F-statistic                                                                                                                                       50.63
+
+
+
+
+Table A2
+Median valuation of successful firms.
+  This table reports the results from quantile regressions (estimated at the median) in which the dependent variable is the log of the pre-money valuation
+on the day the firm had an exit. Industry fixed effects control for the 7 industries outlined in Table 1. Exit-year fixed effects control for the year in which the
+startup had its IPO or was acquired. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and 0.01 respectively.
+
+                                                                                   Pre-money value                              Pre-money value on all exits
+                                                                                  conditional on IPO                                above $ 50 million
+
+                                                                                          (1)                                                 (2)
+  Log number of firms financed in the same quarter                                     0.184nnn                                             0.063n
+                                                                                       (0.054)                                              (0.034)
+
+  Firm's age at IPO                                                                     0.016nn                                             0.007
+                                                                                        (0.007)                                             (0.004)
+
+  Log total funds raised prior to exit                                                 0.403nnn                                            0.335nnn
+                                                                                        (0.028)                                             (0.019)
+
+  Log value of NASDAQ on day of exit                                                    0.880n                                             1.026nnn
+                                                                                        (0.476)                                             (0.307)
+
+  Startup based in California                                                           0.118nn                                              0.026
+                                                                                        (0.050)                                             (0.038)
+
+  Startup based in Massachusetts                                                         0.079                                               0.064
+                                                                                        (0.074)                                              (0.055)
+
+  Exit year fixed effects                                                                 Yes                                                 Yes
+  Industry fixed effects                                                                  Yes                                                 Yes
+
+  Number of observations                                                                 1,197                                               1,779
+418                                     R. Nanda, M. Rhodes-Kropf / Journal of Financial Economics 110 (2013) 403–418
+
+
+Table A3
+Funding environment and probability of an IPO.
+  This table reports results from OLS regressions looking at the probability that the firm had an IPO. The dependent variable takes a value of one if the
+startup had an IPO and zero otherwise. Industry fixed effects control for the seven industries outlined in Table 1. Period fixed effects control for the startup
+being funded in the period 1985–1990, 1991–1997 or 1998–2004. Standard errors are clustered by quarter. n, nn and nnn refer to significance at 0.1, 0.05 and
+0.01 respectively.
+
+                                                                                                                                          Drop if funding
+                                                                                            1985–2004                                    year is 1998–2000
+  Variable                                                          (1)             (2)                  (3)              (4)                     (5)
+
+                                                                          nnn             nnn                  nnn
+  Log number of firms financed in the same quarter               0.100           0.105            0.100             0.025nnn               0.084nnn
+                                                                 (0.009)          (0.009)           (0.009)            (0.008)                 (0.014)
+
+  Log of funds raised by firm in its first financing                              0.014nn            0.013nn           0.022nnn               0.029nnn
+                                                                                  (0.005)            (0.005)           (0.005)                (0.007)
+
+  Number of investors in syndicate                                                0.009nnn          0.009nnn            0.006nn                0.010nn
+                                                                                   (0.003)           (0.003)            (0.003)                (0.004)
+
+  Startup based in California                                                     0.020nnn          0.025nnn           0.026nnn               0.039nnn
+                                                                                  (0.007)           (0.007)            (0.007)                 (0.011)
+
+  Startup based in Massachusetts                                                   0.016             0.018n              0.016                 0.025n
+                                                                                  (0.010)            (0.010)            (0.010)                 (0.014)
+
+  Period fixed effects                                              No              No                   Yes              Yes                    Yes
+  Industry fixed effects                                            No              No                   No               Yes                    Yes
+
+  Number of observations                                          12,285           11,497               11,497          11,497                  6,518
+  R-squared                                                        0.03             0.04                 0.04            0.05                   0.04
+
+
+
+
+References
+                                                                                    Kaplan, S., Sensoy, B., Stromberg, P., 2009. Should investors bet on the
+                                                                                        jockey or the horse? Evidence from the evolution of firms from early
+Aghion, P., Howitt, P., 1992. A model of growth through creative destruc-
+                                                                                        business plans to public companies. Journal of Finance 64, 75–115.
+     tion. Econometrica 60, 323–351.
+                                                                                    Kerr, W.R., Nanda, R., Rhodes-Kropf, M., 2013. Entrepreneurship as
+Arora, A., Nandkumar, A., 2011. Cash-out of flameout! Opportunity cost
+                                                                                        experimentation. Unpublished working paper. Harvard University,
+     and entrepreneurial strategy: theory, and evidence from the informa-
+                                                                                        Cambridge, MA.
+     tion security industry. Management Science 57, 1844–1860.                      Kortum, S., Lerner, J., 2000. Assessing the impact of venture capital on
+Brown, J.R., Fazzari, S.M., Petersen, B.C., 2009. Financing innovation and              innovation. RAND Journal of Economics 31, 674–692.
+     growth: cash flow, external equity, and the 1990s R& D boom. Journal           Lerner, J., Sorensen, M., Stromberg, P., 2011. Private equity and
+     of Finance 66, 151–185.                                                            long-run investment: the case of innovation. Journal of Finance 66,
+Fleming, G., Schwienbacher, A., Cumming, D., 2005. Liquidity risk and                   445–477.
+     venture capital finance. Financial Management 34, 77–105.                      Li, D., 2011. Financial constraints, R& D investment, and stock returns.
+Foster, L., Haltiwanger, J., Syverson, C., 2008. Reallocation, firm turnover,           Review of Financial Studies 24, 2974–3007.
+     and efficiency: selection on productivity or profitability. American           Manso, G., 2011. Motivating innovation. Journal of Finance 66, 1823–1860.
+     Economic Review 98, 394–425.                                                   Metrick, A., Yasuda, A., 2010. Venture Capital and the Finance of Innova-
+Gompers, P., Kovner, A., Lerner, J., Scharfstein, D., 2008. Venture capital             tion. John Wiley and Sons, Inc., Hoboken, NJ.
+     investment cycles: the impact of public markets. Journal of Financial          Mollica, M., Zingales, L., 2007. The impact of venture capital on innovation
+     Economics 87, 1–23.                                                                and the creation of new businesses. Unpublished working paper.
+Gompers, P., Lerner, J., 2000. Money chasing deals? The impact of fund                  University of Chicago, Chicago, IL.
+     inflows on private equity valuations. Journal of Financial Economics           Nanda, R., Nicholas, T., 2011. Did bank distress stifle innovation during the
+     55, 281–325.                                                                       great depression? Unpublished working paper. Harvard University,
+Gompers, P., Lerner, J., 2004. The Venture Capital Cycle. MIT Press,                    Cambridge, MA.
+     Cambridge, MA.                                                                 Nanda, R., Rhodes-Kropf, M., 2012. Financing risk and innovation.
+Gupta, U., 2000. Done Deals: Venture Capitalists Tell their Stories.                    Unpublished working paper. Harvard University, Cambridge, MA.
+     Harvard Business School Press, Boston, MA.                                     Nanda, R., Rhodes-Kropf, M., 2013. Innovation and the financial guillotine.
+Hall, B., Jaffe, A., Trajtenberg, M., 2005. Market value and patent citations.          Unpublished working paper. Harvard University, Cambridge, MA.
+     RAND Journal of Economics 36, 16–38.                                           Sahlman, W., 2010. Risk and reward in venture capital. Harvard Business
+Hall, R.E., Woodward, S.E., 2010. The burden of the nondiversifiable risk of            School Note 811-036, pp. 1–37.
+                                                                                    Samila, S., Sorenson, O., 2011. Venture capital, entrepreneurship, and
+     entrepreneurship. American Economic Review 100, 1163–1194.
+                                                                                        economic growth. Review of Economics and Statistics 93, 338–349.
+Hellmann, T., 2002. A theory of strategic venture investing. Journal of
+                                                                                    Samila, S., Sorenson, O., 2012. Institutional investors and the supply of
+     Financial Economics 64, 285–314.
+                                                                                        private equity. Unpublished working paper. Yale University,
+Hellmann, T., Puri, M., 2000. The interaction between product market and
+                                                                                        New Haven, CT.
+     financing strategy: the role of venture capital. Review of Financial
+                                                                                    Scharfstein, D., Stein, J., 1990. Herd behavior and investment. American
+     Studies 13, 959–984.                                                               Economic Review 80, 465–479.
+Hochberg, Y.V., Ljungqvist, A., Lu, Y., 2007. Whom you know matters:                Schumpeter, J., 1942. Capitalism, Socialism, and Democracy. Harper, New
+     venture capital networks and investment performance. Journal of                    York, NY.
+     Finance 62, 251–301.                                                           Sorensen, M., 2007. How smart is smart money? An empirical two-sided
+Jaffe, A.B., Trajtenberg, M., Henderson, R., 1993. Geographic localization of           matching model of venture capital. Journal of Finance 62, 2725–2762.
+     knowledge spillovers as evidenced by patent citations. Quarterly               Stangler, D., 2009. The economic future just happened. Unpublished
+     Journal of Economics 108, 577–598.                                                 working paper. Ewing Marion Kauffman Foundation, Kansans City,
+Kaplan, S., Sensoy, B., Stromberg, P., 2002. How well do venture capital                MO.
+     databases reflect actual investments? Unpublished working paper.               Tian, X., Wang, T.Y. Tolerance for failure and corporate innovation. Review
+     University of Chicago, Chicago, IL.                                                of Financial Studies, forthcoming.
+

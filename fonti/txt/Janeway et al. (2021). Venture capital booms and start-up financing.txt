@@ -1,0 +1,949 @@
+                                                                                                                                                                Annual Review of Financial Economics
+                                                                                                                                                                Venture Capital Booms and
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                                                                                Start-Up Financing
+                                                                                                                                                                William H. Janeway,1 Ramana Nanda,2
+                                                                                                                                                                and Matthew Rhodes-Kropf3
+                                                                                                                                                                1
+                                                                                                                                                                    Department of Economics, Cambridge University, Cambridge CV3 9DD, United Kingdom
+                                                                                                                                                                2
+                                                                                                                                                                 Department of Finance, Imperial College, London SW7 2AZ, United Kingdom;
+                                                                                                                                                                email: ramana.nanda@imperial.ac.uk
+                                                                                                                                                                3
+                                                                                                                                                                  Department of Finance, Massachusetts Institute of Technology, Cambridge,
+                                                                                                                                                                Massachusetts 02139, USA
+
+
+
+
+                                                                                                        Annu. Rev. Financ. Econ. 2021. 13:111–27                Keywords
+                                                                                                        The Annual Review of Financial Economics is online at
+                                                                                                                                                                venture capital, start-ups, innovation
+                                                                                                        financial.annualreviews.org
+
+                                                                                                        https://doi.org/10.1146/annurev-financial-010621-       Abstract
+                                                                                                        115801
+                                                                                                                                                                We review the growing literature on the relationship between venture capi-
+                                                                                                        Copyright © 2021 by Annual Reviews.
+                                                                                                                                                                tal (VC) booms and start-up financing, focusing on three broad areas. First,
+                                                                                                        All rights reserved
+                                                                                                                                                                we discuss the drivers of large inflows into the VC asset class, particularly
+                                                                                                        JEL codes: G24, L26, M13, O3
+                                                                                                                                                                in recent years, which are related to but also distinct from macroeconomic
+                                                                                                                                                                business cycles and stock market fluctuations. Second, we review the emerg-
+                                                                                                                                                                ing literature on the real effects of VC financing booms. A particular focus
+                                                                                                                                                                of this work is to highlight the potential impact that booms (and busts) can
+                                                                                                                                                                have on the types of firms that VC investors choose to fund and the terms at
+                                                                                                                                                                which they are funded, independent of investment opportunities—thereby
+                                                                                                                                                                shaping the trajectory of innovation being conducted by start-ups. Third,
+                                                                                                                                                                an important insight from recent research is that booms in VC financing
+                                                                                                                                                                are not just a temporal phenomenon but can also be seen in terms of the
+                                                                                                                                                                concentration of VC investment in certain industries and geographies. We
+                                                                                                                                                                also review the role of government policy, exploring the degree to which it
+                                                                                                                                                                can explain the concentration of VC funding in the United States over the
+                                                                                                                                                                past 40 years in just two broad areas—information and communication tech-
+                                                                                                                                                                nologies and biotechnology. We conclude by highlighting promising areas
+                                                                                                                                                                of further research.
+
+
+                                                                                                                                                                                                                                   111
+                                                                                                              1. INTRODUCTION
+                                                                                                              Venture capital (VC) is associated with some of the most innovative and high-growth companies
+                                                                                                              in the economy. Scores of start-ups commercializing transformational technologies have been
+                                                                                                              backed by VC. Although fewer than 0.5% of firms founded in the United States each year receive
+                                                                                                              VC financing (Puri & Zarutskie 2012), venture-backed firms constitute nearly half of initial
+                                                                                                              public offerings (IPOs) in the United States. Furthermore, Lerner & Nanda (2020) report that
+                                                                                                              among firms that were publicly traded in the United States at the end of 2019, venture-backed
+                                                                                                              companies accounted for half the revenue and more than three-quarters of market capitalization
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              and reported research and development (R&D) expenditure, reinforcing the innovative nature of
+                                                                                                              VC-backed firms.
+                                                                                                                  The majority of VC investors raise money from, and invest on behalf of, limited partners
+                                                                                                              (LPs)—institutions such as pension funds, sovereign wealth funds, and university endowments that
+                                                                                                              allocate some of their capital to the broader private equity assets class to which VC belongs (Da
+                                                                                                              Rin, Hellmann & Puri 2013). An important feature of these arrangements between LPs and VC
+                                                                                                              fund managers is that they are structured as closed-end funds with a 10-year life (Sahlman 1990;
+                                                                                                              Gompers & Lerner 2004). The capital raised by VC investors is invested into young, innovative
+                                                                                                              start-ups over the initial few years of the fund. VC investors then govern and support these start-
+                                                                                                              ups, helping them to grow and mature organizationally prior to an exit—by either sponsoring an
+                                                                                                              IPO or selling the venture through a mergers and acquisitions transaction. Successful exits usually
+                                                                                                              happen 7–10 years after investment, and the resulting profits are then channeled back to LPs.
+                                                                                                                  In principle, the 10-year fund structure, and the fact that VC investors are making investments
+                                                                                                              into privately held start-ups, should make VC funds more immune to fluctuations in the equity
+                                                                                                              and credit markets, enabling them to take a long-term perspective to building new companies. Yet,
+                                                                                                              a growing academic literature has documented how booms and busts in financing are a prominent
+                                                                                                              feature of the VC market (e.g., Gompers & Lerner 2001, 2004; Lerner 2002; Howell et al. 2021).
+                                                                                                              While the Internet bubble of 1997–2000 is the most well-studied of these financing booms, VC
+                                                                                                              booms occurred around the financing of electronics start-ups in the 1960s, personal computer and
+                                                                                                              biotechnology ventures in the 1980s (Lerner 2002), and brief booms in clean energy from 2004 to
+                                                                                                              2006 (Nanda, Younge & Fleming 2015) and blockchain and cryptocurrencies from 2016 to 2018
+                                                                                                              (Howell, Niessner & Yermack 2020). Aside from these fluxes in capital, a sustained increase in
+                                                                                                              capital has been deployed by VC investors over the past 10 years, rising from less than $40 billion
+                                                                                                              globally in 2009 to more than $250 billion in 2019.
+                                                                                                                  In this article, we review the nascent but growing literature that seeks to understand the
+                                                                                                              relationship between VC booms and start-up financing. In Section 2, we discuss the literature
+                                                                                                              on the drivers of large inflows into the VC asset class and the extent to which VC booms differ
+                                                                                                              from those seen broadly in financial markets. While capital generally flows toward investment
+                                                                                                              opportunities, some of the shifts in the supply of risk capital in venture have been driven by
+                                                                                                              regulatory factors or structural elements of the VC industry that can amplify booms. Aspects
+                                                                                                              such as the structure of closed-end funds, the need to exit within a certain period, and a more
+                                                                                                              recent phenomenon of investors specializing in financing different stages of a start-up’s life cycle
+                                                                                                              play a role in the VC fluctuations. We also highlight some of the literature on the life cycle of
+                                                                                                              new industries as well as the documented relationship between technological revolutions and
+                                                                                                              speculative capital harking back as far as the late 1700s (Perez 2002; Goldfarb & Kirsch 2019).
+                                                                                                              While not directly about VC booms, these studies provide an opportunity to understand the
+                                                                                                              implications for VC today as well as put some of the boom-and-bust phenomenon seen in VC into
+                                                                                                              historical perspective. This in turn helps develop a nuanced understanding of how policy can play
+                                                                                                              a role in supporting commercialization of the technologies responsible for productivity growth
+                                                                                                              and the degree to which we can also learn from historical studies of booms and start-up financing.
+
+                                                                                                        112   Janeway • Nanda • Rhodes-Kropf
+                                                                                                           In Section 3, we review the emerging literature related to the real effects of VC financing
+                                                                                                        booms, through the effects they have on portfolio allocation strategies and other decisions made
+                                                                                                        by partners in VC firms. A particular focus of this work is to highlight the potential impact this
+                                                                                                        can have on the types of firms that VC investors choose to fund, independent of the investment
+                                                                                                        opportunities that may be changing in these periods, thereby shaping the trajectory of innovation
+                                                                                                        being conducted by start-up firms.
+                                                                                                           An important insight from recent research work is that booms in VC financing are not just a
+                                                                                                        temporal phenomenon but can also be seen in terms of the concentration of VC investment in
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        certain industries and geographies. Our understanding of whether these are driven by a dearth of
+                                                                                                        investment opportunities in certain industries and regions or whether potential frictions may be
+                                                                                                        causing this imbalance is still in its infancy.
+                                                                                                           In Section 4, we look at the role of government policy, exploring the degree to which it can ex-
+                                                                                                        plain the concentration of VC funding over the past 40 years in just two broad areas—information
+                                                                                                        and communication technologies (ICT) and biotech. This is an important area of research, one
+                                                                                                        that has received relatively little attention compared with government’s role in alleviating financ-
+                                                                                                        ing constraints in small business lending. Section 5 concludes the article while also pointing to
+                                                                                                        what we believe are some promising areas of research related to VC booms and start-up financing.
+
+
+                                                                                                        2. DRIVERS OF VENTURE CAPITAL FINANCING BOOMS
+                                                                                                        2.1. Shifts in Investment Opportunities and Demand for Risk Capital
+                                                                                                        VC financing booms have been driven both by the arrival of new investment opportunities as well
+                                                                                                        as by shifts in the supply of capital available to fund risky investments.
+
+                                                                                                        2.1.1. Technological revolutions. Perhaps the most salient channel driving booms in VC and
+                                                                                                        start-up financing is the arrival of new technologies and the deployment of risk capital to com-
+                                                                                                        mercialize these. Indeed, a large body of research on the life cycle of new technologies provides a
+                                                                                                        useful baseline about the degree to which VC (and risk capital in general) merely follows a sharp
+                                                                                                        rise and subsequent shakeout of start-ups at the birth of new industries versus actually driving a
+                                                                                                        boom-and-bust cycle in the real economy.
+                                                                                                            For example, Gort & Klepper (1982) and Klepper & Graddy (1990) document an extremely
+                                                                                                        consistent pattern of massive entry of new start-ups that is followed by a shakeout of more than
+                                                                                                        40 different new products, ranging from automobiles, lasers, radio transmitters, and television to
+                                                                                                        penicillin and DDT, that were commercialized well before a formal VC industry existed. Such pat-
+                                                                                                        terns form the basis of the product life cycle theory (e.g., Abernathy & Utterback 1978; Anderson
+                                                                                                        & Tushman 1990), which explains the rapid increase and subsequent shakeout in firms by first
+                                                                                                        noting the substantial uncertainty about consumer preferences related to new products and tech-
+                                                                                                        nologies, even among the consumers themselves. In fact, in many instances early in the life of a
+                                                                                                        new technology, it was even unclear what the technology would be used for, indicating that market
+                                                                                                        risk—separate from technology risk—is a strategic issue for ventures attempting to commercial-
+                                                                                                        ize innovative technology. For example, Nye (1992) outlines the several decades it took to settle
+                                                                                                        on commercially viable applications of electric power, while Janeway (2018) notes that one of
+                                                                                                        the early applications of the telephone was to broadcast entertainment to the home rather than
+                                                                                                        point-to-point communication between individuals.
+                                                                                                            The product life cycle theory notes that because of the uncertainty in consumer preferences,
+                                                                                                        several firms producing similar but somewhat different variants of the new product enter the
+                                                                                                        market to learn about consumers’ preferences. As consumers and producers experiment with the
+
+
+                                                                                                                                               www.annualreviews.org • Venture Capital Booms and Start-Up Financing   113
+                                                                                                              various versions of the product, a dominant design eventually emerges. Firms that are not pro-
+                                                                                                              ducing the dominant design exit, which leads to a shakeout in the industry.1
+                                                                                                                  It is noteworthy that this theory, as well as models by Jovanovic & MacDonald (1994) and
+                                                                                                              Klepper (1996), predicts a sharp rise in entrants at the birth of an industry, followed by a shakeout,
+                                                                                                              without any presence of finance or financial intermediaries. The huge increase in start-up activity
+                                                                                                              is driven by widespread experimentation as firms and consumers learn about the new technology;
+                                                                                                              the shakeout arises once uncertainty is resolved and a dominant design emerges.
+                                                                                                                  The work by Pastor & Veronesi (2009) is important in this realm, as it provides a rationale for
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              why the uncertainty and learning can also impact the financial sector. Their model also involves
+                                                                                                              uncertainty about a new technology and whether it should be adopted by a representative agent.
+                                                                                                              The agent experiments with the new technology by making a small-scale investment to under-
+                                                                                                              stand its average productivity and chooses to make an irreversible investment decision to adopt
+                                                                                                              the technology at large scale if he learns that its productivity is sufficiently high. In their model,
+                                                                                                              times when a shift occurs from small-scale experimentation with the new technology to large-scale
+                                                                                                              adoption not only lead to increases in predicted cash flows but also change the nature of risk being
+                                                                                                              faced by the agent from initially being idiosyncratic to becoming systematic. This time-varying
+                                                                                                              nature of risk associated with large-scale adoption of new technologies, together with the pre-
+                                                                                                              dicted cash flows from adopting a more productive technology, has nonmonotonic implications
+                                                                                                              for asset prices—leading to an initial rapid rise in prices followed by a subsequent crash. Pastor &
+                                                                                                              Veronesi (2009) emphasize that while this boom and bust in asset prices can appear to look like a
+                                                                                                              bubble ex post, it nevertheless stems from a fully rational model in which prices initially rise due
+                                                                                                              to good news about cash flows and subsequently fall due to an increase in systematic risk.
+                                                                                                                  Of course, models based on experimentation with new technology in the real economy are
+                                                                                                              not necessarily inconsistent with irrational exuberance on the part of speculative capital financ-
+                                                                                                              ing these technological revolutions (Kindleberger 1978; Shiller 2000; Scheinkman 2014). With
+                                                                                                              respect to the bursting of the dot-com bubble, Ofek & Richardson (2003) link the timing of the
+                                                                                                              dot-com collapse to lockup expirations and the resultant selling by insiders. They show that dis-
+                                                                                                              tributions by VC funds to their limited (and general) partners rose from less than $4 billion in the
+                                                                                                              third quarter of 1999 to more than $20 billion in the first quarter of 2000; the NASDAQ Index
+                                                                                                              peaked in April 2000.
+                                                                                                                  That said, while much research in VC and technological revolutions has looked at irrational
+                                                                                                              exuberance during such financing booms (and bubbles), it is useful to recognize that several of
+                                                                                                              the facts typically used to document the presence of a bubble—such as the financing of many
+                                                                                                              seemingly very similar firms, followed by a subsequent crash in the number of entrants, as well as
+                                                                                                              the boom-and-bust cycle associated with asset prices—can emerge from models of learning that
+                                                                                                              are completely independent of any financial intermediaries or where financial intermediaries do
+                                                                                                              not play any active role in propagating or participating in a bubble.
+                                                                                                                  Goldfarb & Kirsch (2019) provide an important step in this direction by examining
+                                                                                                              58 technologies across 150 years and studying the conditions under which some of these
+                                                                                                              led to speculative bubbles while others did not. Beyond the underlying uncertainty of a new
+                                                                                                              technology’s commercial promise, they point to the presence of retail investors and the alignment
+                                                                                                              of beliefs through narratives as ingredients that are needed for a speculative bubble to emerge.
+                                                                                                              Understanding the implications for financing booms in VC, which is the dominant source of risk
+
+
+
+                                                                                                              1 Jovanovic & MacDonald (1994), who look at automobile tires, and Klepper (1996) provide alternative models
+
+                                                                                                              of entry and exit that are not related to learning about consumer demand but that also generate sharp rise in
+                                                                                                              entrants followed by a shakeout.
+
+
+                                                                                                        114   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        capital in the economy today, is particularly critical, given the changing organization of inventive
+                                                                                                        activity over this long period and the greater capital intensity associated with commercializing
+                                                                                                        many frontier technologies of the present day.
+
+                                                                                                        2.1.2. Hot (stock and IPO) markets. Beyond technological revolutions, public markets play
+                                                                                                        an important role in providing signals of investment opportunities to VC investors. IPO markets
+                                                                                                        themselves have been shown to be highly cyclical, with the number of new issues being clustered in
+                                                                                                        certain periods of time (Lowry & Schwert 2002; Lowry 2003). While a discussion of the drivers of
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        hot and cold IPO markets is beyond the scope of this review, their presence has been shown to ex-
+                                                                                                        plain some of the same cyclicality of VC investment and provide a rationale for why VC is not insu-
+                                                                                                        lated from financial market fluctuations despite long timelines over which the funds are deployed.
+                                                                                                            Since many successful exits for VC investors are done by taking their companies public and
+                                                                                                        since the bargaining power of startups vis-à-vis acquirers is also tied to the outside option in the
+                                                                                                        public market, the appetite of public market investors for particular types of investments likely has
+                                                                                                        a direct impact on the investment choices of VC investors. Indeed, returns of VC investors have
+                                                                                                        been shown to be highly correlated with the returns of the market (Cochrane 2005; Korteweg
+                                                                                                        & Sorensen 2010; McKenzie & Janeway 2011; Ewens, Jones & Rhodes-Kropf 2014; Harris et al.
+                                                                                                        2020).
+                                                                                                            Lerner (1994) shows that experienced VC investors seem particularly adept at taking compa-
+                                                                                                        nies public at market peaks. Moreover, looking at data between 1975 and 1998, Gompers et al.
+                                                                                                        (2008) show that venture capitalists with the most industry experience react to public market sig-
+                                                                                                        nals of investment opportunities by increasing investment in sectors that heat up, with no negative
+                                                                                                        impact in the performance of these investments. Their results are consistent with the most expe-
+                                                                                                        rienced venture capitalists rationally responding to signals of investment opportunity as opposed
+                                                                                                        to overshooting investments in these sectors.
+
+                                                                                                        2.1.3. Technological shocks to cost of starting new firms. New technologies are a source of
+                                                                                                        investment opportunities for VC investors but also have the potential to impact the way in which
+                                                                                                        VC investors learn about their investment opportunities. A large literature has noted the extreme
+                                                                                                        uncertainty facing investors in early stage ventures (e.g., Kerr, Nanda & Rhodes-Kropf 2014),
+                                                                                                        leading them to learn about the venture’s prospects through a series of investments over time.
+                                                                                                        This multistage financing into start-ups is equivalent to conducting a sequence of experiments
+                                                                                                        that are akin to real options—where VC investors retain the option to abandon the investment
+                                                                                                        if initial prospects appear poor as well as the right to invest more money into the next stage of
+                                                                                                        financing should initial prospects seem promising (Cornelli & Yosha 2003; Bergemann, Hege &
+                                                                                                        Peng 2008). As with all real options, the cost of the option—in this case the investment that VC
+                                                                                                        investors need to make into a venture at each round of financing to learn about its technology or
+                                                                                                        appeal to a consumer—can play an important role in determining the value of the investment.
+                                                                                                            Ewens, Nanda & Rhodes-Kropf (2018) document how the advent of cloud computing in 2006
+                                                                                                        played a prominent role in substantially lowering the cost of starting new firms—by enabling
+                                                                                                        start-ups to rent hardware space in small increments and scale up as demand grew, instead of
+                                                                                                        making large fixed up-front investments in hardware when success was still far from guaranteed.
+                                                                                                        This allowed entrepreneurs and investors to learn cheaply about the viability of start-ups before
+                                                                                                        making large fixed investments, enabling a small initial investment to help learn a lot about the
+                                                                                                        ultimate potential of the venture. They document how this change increased the number of new
+                                                                                                        ventures that were profitable investments for VC investors, leading to a substantial growth in early
+                                                                                                        stage investment by VC investors as well as new financial intermediaries such as accelerators who
+                                                                                                        entered to meet the needs of these entrepreneurs (Hochberg 2016).
+
+                                                                                                                                                www.annualreviews.org • Venture Capital Booms and Start-Up Financing   115
+                                                                                                              2.2. Shifts in Available Supply of Risk Capital
+                                                                                                              While investment opportunities provide a natural and intuitive explanation for booms in VC fi-
+                                                                                                              nancing, we turn next to examining factors that might contribute to shifts in the available supply
+                                                                                                              of risk capital, independent of the investment opportunities that are available.
+
+                                                                                                              2.2.1. Regulations. Although risk capital to support the financing of innovation has been
+                                                                                                              available for centuries (Perez 2002; Lamoreaux & Sokoloff 2007; Nicholas 2019), the rapid
+                                                                                                              growth and institutionalization of VC as an asset class is a recent phenomenon arising just
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              40 years ago. Kortum & Lerner (2000) trace the institutionalization of VC to a clarification
+                                                                                                              of rule in the Employment Retirement Income Security Act (ERISA) in 1979, which allowed
+                                                                                                              fund managers to factor in the role of portfolio diversification when deciding whether they were
+                                                                                                              making prudent investments. In turn, this clarification enabled pension funds to allocate a small
+                                                                                                              share of their portfolio to asset classes such as VC, which was riskier but also had the potential
+                                                                                                              to generate higher returns. Initially, corporate pension funds made small allocations to VC in the
+                                                                                                              1980s. A decade later, U.S. public pension funds followed suit. The very large size of the assets
+                                                                                                              held by corporate and public pension funds implies that even if they allocate a small share of their
+                                                                                                              portfolio to the VC asset class, it adds up to a substantial amount of funds raised by VC investors.
+                                                                                                              Thus, in the 40 years since the ERISA clarification, VC has come to be the dominant source of risk
+                                                                                                              capital for technology-intensive start-ups in the United States and even to a large extent globally.
+                                                                                                                 More recently, a substantial increase in capital has become available for more mature, late-
+                                                                                                              stage start-ups. Ewens & Farre-Mensa (2020) argue that this substantial increase in capital for
+                                                                                                              more mature, late-stage VC firms is due in part to deregulation in securities laws—in particular
+                                                                                                              the National Securities Markets Improvement Act (NSMIA) of 1996—which made it easier for
+                                                                                                              start-ups to raise large sums of capital without having to go public. Related to this, Ewens &
+                                                                                                              Farre-Mensa (2020) argue that the particularly large decline in small-cap IPOs beginning in the
+                                                                                                              2000s, and the near doubling in the median age to IPO among firms that do go public (Gao,
+                                                                                                              Ritter & Zhu 2013), has been driven in part by this availability of private capital rather than by
+                                                                                                              the higher costs associated with going public.
+
+                                                                                                              2.2.2. The asset allocation process of limited partners and attributes of the venture capital
+                                                                                                              asset class. Aside from regulatory drivers, the manner in which LPs typically allocate capital to
+                                                                                                              VC investors, combined with the way in which VC investors call and distribute capital, can lead
+                                                                                                              to shifts in the availability of capital that do not coincide cleanly with investment opportunities.
+                                                                                                              Three key factors contribute to this mismatch.
+                                                                                                                 First, LPs in venture funds attempt to make forward-looking decisions about how much of
+                                                                                                              their capital should be allocated to different asset classes but typically can only rely on historical
+                                                                                                              performance. While this challenge is shared with all asset classes, it is exacerbated in the context
+                                                                                                              of VC by the long delays from investment to realized returns: VC returns in any given period are
+                                                                                                              largely driven by initial investments made 7–10 years before, while the forecasting exercise LPs
+                                                                                                              are trying to undertake relates to how investments made in the coming few years will perform
+                                                                                                              over the following 7- to 10-year period. Like other asset classes, when VC returns are high—
+                                                                                                              due to successful investments in the past—LPs tend to increase allocations to the asset class. But
+                                                                                                              these periods of high inflows of capital to VC funds are far from the investment opportunities that
+                                                                                                              generated the high returns. Thus, higher or lower historical performance tends to lead to higher
+                                                                                                              or lower allocations to VC but is not necessarily followed by high or low returns (Lerner 2002;
+                                                                                                              Gompers & Lerner 2004).
+                                                                                                                 Second, even when an LP does have insight into potential investment opportunities at a given
+                                                                                                              moment, it is difficult to quickly change de facto exposure to the VC asset class due to the manner
+
+                                                                                                        116   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        in which VC investors draw down committed capital and return capital that is invested. VC
+                                                                                                        investors typically draw down committed capital over a 3- to 5-year period and return the money
+                                                                                                        to LPs as they are able to exit the underlying start-ups (rather than recycling this in the fund).
+                                                                                                        Thus, an LP who wanted to increase her allocation to VC could commit more capital today, but
+                                                                                                        this would not be fully invested into start-ups until years in the future. The same is true if an
+                                                                                                        LP wanted to reduce exposure to VC. They could commit less to the asset class now, but past
+                                                                                                        commitments would still be called, and current investments cannot be easily liquidated.2
+                                                                                                            This problem is exacerbated due to the timing of venture exits. Recall that returns from capital
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        that VC investors invest are not recycled into new investment but are returned as distributions to
+                                                                                                        the LPs. Moreover, as noted in Section 2.1.2, exit markets also tend to exhibit cyclicality and are
+                                                                                                        correlated with market valuation levels. Thus, at a moment where VC returns are high, LPs are
+                                                                                                        receiving cash back from their VC investments. This leads to a smaller realized allocation to VC
+                                                                                                        even if (and potentially exactly when) LPs desire a higher allocation. The opposite occurs when
+                                                                                                        venture capitalists are calling capital previously committed but returning little as they are exiting
+                                                                                                        very few companies. In this case, allocations may increase in the short term even though the desire
+                                                                                                        of the LP may be to decrease them.
+                                                                                                            Finally, an LP’s investment into VC may be further altered by performance in asset classes
+                                                                                                        that are potentially unrelated to the investment opportunities in VC, due to the way in which VC
+                                                                                                        portfolios are valued. To see this, suppose that a pension fund manager wishes to allocate 15%
+                                                                                                        of his portfolio to VC and has achieved this target. Then, some other part of his portfolio (e.g.,
+                                                                                                        domestic equities) goes down in value. Due to the illiquid nature of VC investments, the dollar
+                                                                                                        value of his portfolio may remain unchanged, leading pension fund managers to be over-allocated
+                                                                                                        to VC in terms of the share of their portfolio. Even when portfolio managers attempt to mark their
+                                                                                                        companies to market each quarter, these valuation marks are quite stale (Ewens, Jones & Rhodes-
+                                                                                                        Kropf 2014; Korteweg & Sorensen 2017). Due to this challenge, VC portfolios may not appear to
+                                                                                                        be as volatile as the rest of the market, leading LPs to perceive they are over- or under-allocated
+                                                                                                        to VC. Because of these factors, recent work by Brown et al. (2020) argues that due to the industry
+                                                                                                        structure, the nature of the long commitments, and timing of draws and returns, investors cannot
+                                                                                                        actually time their investing into VC to create meaningful time-varying exposure to the asset class.
+
+                                                                                                        2.2.3. Macroeconomic and interest rate environments. A sustained rise in investments has
+                                                                                                        been made into VC-backed ventures since the mid-2000s, with an acceleration after the financial
+                                                                                                        crisis. Starting in 2014, a sharp increase has also been seen in the number of so-called unicorn
+                                                                                                        financings—extremely large rounds of private financing where VC-backed firms are valued at
+                                                                                                        more than $1 billion. Some of the increases are likely due to the continued rise in the number of
+                                                                                                        start-ups seeking VC, stemming from the technological shocks outlined in Section 2.1.3 as well
+                                                                                                        as the fact that many of these are winner-take-all businesses that benefit from large infusions of
+                                                                                                        capital. It is also likely that—as outlined in Section 2.2.1—the lower costs associated with being
+                                                                                                        able to remain private while still raising capital have contributed to unicorn financings.
+                                                                                                            However, it is also possible that the sustained low interest rate environment has led to an
+                                                                                                        increased appetite for investing in alternative asset classes among traditional investors. Narratives
+                                                                                                        among practitioners point toward the fact that the zero and even negative real interest rate
+
+
+
+                                                                                                        2 Some of this mismatch can potentially be reduced at the intensive margin, with VC investors pivoting funds
+
+                                                                                                        to areas that have more investment opportunities. This strategy has been shown to be especially prevalent
+                                                                                                        among more established funds (Gompers et al. 2010).
+
+
+
+                                                                                                                                                  www.annualreviews.org • Venture Capital Booms and Start-Up Financing   117
+                                                                                                              environment has led to more interest in seeking investment opportunities that can generate
+                                                                                                              higher returns, which is consistent with fund managers reaching for yield in VC and private
+                                                                                                              equity as a function of return expectations in other asset classes (Bergstresser, Desai & Rauh
+                                                                                                              2006). A number of the LPs that have historically only invested through VC funds also began to
+                                                                                                              make direct investments in private markets (Fang, Ivashina & Lerner 2015; Lerner et al. 2018;
+                                                                                                              Chernenko, Lerner & Zeng 2019). Moreover, the much larger differences in fund performance
+                                                                                                              across VC investors than typical intermediaries and the tendency for these performance differ-
+                                                                                                              ences to persist (Kaplan & Schoar 2005) have led to an increased concentration of capital in a
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              relatively small number of VC investors. As Lerner & Nanda (2020) point out, more than 50%
+                                                                                                              of the VC raised in 2014–2018 were raised by 5% of firms. This concentration not only has
+                                                                                                              implications for the available supply of capital relative to investment opportunities but also has
+                                                                                                              potential real effects in terms of what gets funded, given the small number of decision makers to
+                                                                                                              hold and deploy these large pools of capital (Hellmann & Thiele 2018).
+
+                                                                                                              2.3. Structure of Venture Capital Industry
+                                                                                                              As noted above, substantial evidence of the procyclicality of VC investment has been found
+                                                                                                              (Gompers & Lerner 2004; Gompers et al. 2008). Howell et al. (2021) further document that this
+                                                                                                              strong procyclicality of VC funding is driven by early stage VC investment. While several factors
+                                                                                                              might play a role in driving this phenomenon, Howell et al. (2021) argue that at least part of the
+                                                                                                              sensitivity of early stage VC-to-market cycles is due to the structure of the VC industry, in partic-
+                                                                                                              ular the role of multistage financing with some degree of specialization in the capital supply chain.
+                                                                                                                 To see why this might be the case, we note that one of the unique elements of VC is how,
+                                                                                                              due to the extreme uncertainty associated with the outcome of new products and technologies,
+                                                                                                              financing for such start-ups is staged across a number of rounds (Metrick & Yasuda 2010; Da Rin,
+                                                                                                              Hellmann & Puri 2013). Moreover, some degree of specialization occurs in terms of the stage at
+                                                                                                              which different investors tend to focus, as angel investors, seed stage funds, and early stage funds
+                                                                                                              often specialize in selecting and financing start-ups in their earliest stage, while larger multistage
+                                                                                                              or late-stage funds specialize in funding the growth and scaling of these ventures (Hellmann &
+                                                                                                              Thiele 2015).
+                                                                                                                 All VC investors face a trade-off between diversification and ownership: On the one hand,
+                                                                                                              the idiosyncratic risk of the ventures they back requires them to spread their bets, and on the
+                                                                                                              other hand, a handful of extremely successful ventures tend to drive the majority of returns, so
+                                                                                                              that VC investors also want to have sufficient ownership in the firms that ultimately succeed to
+                                                                                                              generate the returns they need. This trade-off is perhaps even more salient for those making early
+                                                                                                              stage investments when uncertainty about which ventures are likely to succeed is greatest. Early
+                                                                                                              stage investors therefore tend to rely on later-stage investors to continue financing a start-up
+                                                                                                              through to an exit, and this passing of the baton often happens prior to a start-up being cash flow
+                                                                                                              positive, which implies that early stage investors need to forecast the types of ventures that are
+                                                                                                              more likely to be financed by later-stage investors. It also points to the reason why VC investors
+                                                                                                              express a strong desire to coordinate their investments within certain sectors and periods of time
+                                                                                                              (Nanda & Rhodes-Kropf 2017). While such herding could have both rational and irrational el-
+                                                                                                              ements to it (e.g., Scharfstein & Stein 1990; Goldfarb, Kirsch & Miller 2007), such a need to
+                                                                                                              forecast later-stage investors’ preferences and react accordingly can also account for the strong
+                                                                                                              sensitivity of early stage investors to boom-or-bust signals.
+                                                                                                                 Overall, aside from demand side factors such as investment opportunities and supply side
+                                                                                                              factors such as regulation or the way in which LPs allocate capital, recent research suggests that
+                                                                                                              the structure of the VC industry itself is prone to amplification of booms (and busts) due to the
+
+
+                                                                                                        118   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        inherent need to coordinate investment across industries and periods of time. We discuss the
+                                                                                                        potential real effects of these actions by VC investors in the subsequent section.
+
+
+                                                                                                        3. CONSEQUENCES OF VENTURE CAPITAL FINANCING
+                                                                                                        BOOMS (AND BUSTS)
+                                                                                                        Although growing work has examined the real effects of VC in terms of the role that VC investors
+                                                                                                        play in impacting start-up outcomes, we focus in this section more narrowly on how deal-making
+                                                                                                        by VC investors might change across booms and busts, independent of the nature of opportunities
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        that may also be changing.
+
+                                                                                                        3.1. Money Chasing Deals
+                                                                                                        Using data on more than 4,000 ventures with reported valuations over the period of 1987–1995,
+                                                                                                        Gompers & Lerner (2000) document a robust relationship between increases in commitments to
+                                                                                                        VC funds and the reported valuations of start-ups receiving funding from VC investors. Although
+                                                                                                        distinguishing supply from demand is challenging, they exploit the shifts in supply of capital in-
+                                                                                                        dependent of technological opportunities outlined in Section 2.2, finding that a doubling in com-
+                                                                                                        mitments to VC led to a 7–20% increase in the reported valuations of start-ups. Consistent with
+                                                                                                        this, Kaplan & Schoar (2005) also show the procyclical nature of VC fund starts that are associated
+                                                                                                        with subsequent lower returns.
+                                                                                                           Ewens & Farre-Mensa (2020) report similar patterns for a more recent period, documenting
+                                                                                                        an increasing trend in the ownership held by founders since the mid-2000s. As they point out, this
+                                                                                                        pattern could be driven by several factors; however, at least part of this appears to be driven by
+                                                                                                        the extremely high valuations being received by late-stage start-ups, linked to the deregulation in
+                                                                                                        private markets that enabled start-ups to remain private for longer on attractive terms. Consistent
+                                                                                                        with this finding, Gornall & Strebulaev (2020) analyze the valuations of 135 unicorn financings
+                                                                                                        and document that the reported post-money valuations are nearly 50% above fair market value
+                                                                                                        when analyzed using a contingent claims valuation framework.
+
+                                                                                                        3.2. Money Changing Deals? Real Effects of Financing Booms
+                                                                                                        Although not explicitly about financing booms, the work by Ewens, Gorbenko & Korteweg (2020)
+                                                                                                        discusses how splits in equity and other contractual terms between entrepreneurs and investors
+                                                                                                        can impact a venture’s success through the role they play in shaping incentives. Other work has
+                                                                                                        noted that beyond high valuations, founder-friendly terms such as dual class stock have become
+                                                                                                        more prevalent in recent years (Aggarwal et al. 2020). This finding is related to anecdotal accounts
+                                                                                                        and statements in the press that in booming markets VC firms try to outdo each other in the extent
+                                                                                                        of pitching themselves as being willing to exercise less control in order to get access to deals—
+                                                                                                        which in turn can lead to entrenched founders who cannot easily be replaced. Understanding the
+                                                                                                        underpinnings to such actions by VC investors appears to be a promising area of further inquiry,
+                                                                                                        particularly in light of the large body of work documenting the important role that VC monitoring
+                                                                                                        and governance plays in the success of start-up ventures (Hellmann & Puri 2000, 2002; Sorensen
+                                                                                                        2007; Chemmanur, Krishnan & Nandy 2011; Bernstein, Giroud & Townsend 2016).
+                                                                                                            The research noted above documents changes at the intensive margin of deals that are struck.
+                                                                                                        In particular, booms can lower the discipline on the part of investors as they compete to gain access
+                                                                                                        to the best potential deals. However, VC investors indicate that deal selection is among the most
+                                                                                                        important drivers of their success (Gompers et al. 2020). Growing evidence has also been found
+                                                                                                        that booms and busts can also shape the extensive margin of deals, independent of investment
+                                                                                                        opportunities that may also change in these times.
+
+                                                                                                                                                www.annualreviews.org • Venture Capital Booms and Start-Up Financing   119
+                                                                                                                  For example, Nanda & Rhodes-Kropf (2013) document that the firms backed by VC investors
+                                                                                                              during booms are more likely to fail, but conditional on survival, they are more likely to be in the
+                                                                                                              upper tails of the distribution in terms of stock market value (holding constant year of IPO) and in
+                                                                                                              terms of innovation as measured by patenting. This pattern holds when including VC firm-fixed
+                                                                                                              effects as well as using the exogenous shifts in capital supply used by Gompers & Lerner (2000),
+                                                                                                              suggesting that VC investors are willing to back riskier, more innovative start-ups during boom
+                                                                                                              times. This finding suggests that while booms may lower the discipline of VC investors, they may
+                                                                                                              have another (not mutually exclusive) impact—making VC investors more willing to experiment.
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              While Nanda & Rhodes-Kropf (2013) look at only VC investments, Howell et al. (2021) compare
+                                                                                                              innovation by VC-backed start-ups with innovation in the broader economy using the universe
+                                                                                                              of patents in the U.S. Patent and Trademark Office. They find that VC-backed firms account for
+                                                                                                              a disproportionate share of patents in the tails of the citation distribution when compared with
+                                                                                                              innovation in the broader economy but that this disproportionate role of VC in innovation is
+                                                                                                              strongly procyclical—it falls during downturns and is even higher during booms. Showing shifts
+                                                                                                              in the type of innovation relative to the universe of innovation in the economy provides further
+                                                                                                              evidence of VC investors changing investments at the extensive margin.
+                                                                                                                  Why might VC investors shift the types of firms they choose to fund during booms and busts?
+                                                                                                              One explanation stems from either actual or anticipated shifts in the ability and willingness of
+                                                                                                              VC investors to fund risky innovation during busts. For example, Townsend (2015) shows that
+                                                                                                              VC investors who were more exposed to information technology (IT) investments during the
+                                                                                                              dot-com bubble were more likely to terminate funding for non-IT companies (e.g., biotechnol-
+                                                                                                              ogy), suggesting as in Section 2 that the retrenchment by LPs is not necessarily aligned with
+                                                                                                              investment opportunities and can lead VC investors to invest in a constrained manner during
+                                                                                                              busts. Howell et al. (2021) document that during downturns VC investors appear to focus their
+                                                                                                              capital on start-ups that will either achieve cash flow breakeven more quickly or alternatively
+                                                                                                              reserve their capital for financing start-ups in their own portfolios.
+                                                                                                                  Related to these potential frictions in the supply of capital, Nanda & Rhodes-Kropf (2017)
+                                                                                                              introduce and discuss the potential impact of financing risk in VC, in a spirit similar to rollover
+                                                                                                              risk (Acharya, Gale & Yorulmazer 2011). They show how an increase in financing risk can lead
+                                                                                                              otherwise healthy start-ups to not receive financing even if the VC firm itself is not constrained,
+                                                                                                              due to a forecast of limited future funding from other venture firms prior the start-ups achieving
+                                                                                                              positive cash flow from operations. Conversely, a forecast of abundant future funding—such as
+                                                                                                              during booms—leads VC investors to be more willing to fund radical innovation. Their model
+                                                                                                              provides a rationale for fluxes in the supply of capital leading to shifts in the types of start-ups
+                                                                                                              VC investors choose to back, independent of the investment opportunities. It is also consistent
+                                                                                                              with more risky, innovative firms being financed during financing booms, as shown by Nanda
+                                                                                                              & Rhodes-Kropf (2013), and the relative decline in innovativeness of VC-backed firms during
+                                                                                                              downturns, as documented by Howell et al. (2021).
+                                                                                                                  More generally, Hellmann & Thiele (2015) also model the frictions arising from multistage
+                                                                                                              financing, highlighting not only how early stage investors and late-stage investors need to coordi-
+                                                                                                              nate (Hochberg, Ljungqvist & Lu 2007) but also that investment by early stage investors is sunk
+                                                                                                              by the time the start-up needs to raise late-stage capital. The timing of investment creates agency
+                                                                                                              conflicts that can lead late-stage investors to cram down early stage investors ex post. The degree
+                                                                                                              to which this is feasible is likely to vary across VC cycles.
+                                                                                                                  The reaction of early stage investors to changes in the late-stage market is also the focus of
+                                                                                                              Bernstein et al. (2021), who document that the substantial increase in late-stage capital associated
+                                                                                                              with unicorn financings since 2014 has been associated with a simultaneous decline in the number
+
+
+
+                                                                                                        120   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        of start-ups that are being financed at the early stage. This pattern holds within the industry and
+                                                                                                        moreover is stronger in sectors that experienced larger infusions of late-stage capital. Bernstein
+                                                                                                        et al. (2021) provide a model that links these two phenomena, showing that if late-stage capital is
+                                                                                                        concentrated in the hands of a few partners—leading them to deploy to larger rather than more
+                                                                                                        late-stage rounds of financing—this gives a disproportionate advantage to the set of start-ups re-
+                                                                                                        ceiving large infusions of late-stage capital. Early stage investors in turn find it advantageous to
+                                                                                                        coordinate backing start-ups showing early promise, instead of backing a larger number of poten-
+                                                                                                        tial ventures experimenting with different approaches to addressing customer needs. In this way,
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        the concentration of capital in the hands of a small number of late-stage partners can end up low-
+                                                                                                        ering the choice set available to customers in determining the best venture in the product market.
+                                                                                                        If, however, the large infusion of capital at the late stage leads to more (rather than bigger) rounds
+                                                                                                        of financing, then their model predicts that an increase in capital leads to more early stage experi-
+                                                                                                        mentation as might be typically expected. In this way, the structure of the VC industry—the preva-
+                                                                                                        lence of multistage financing and the fact that the number of partners in VC firms do not scale
+                                                                                                        proportionately with the size of the VC funds—can lead in certain circumstances to inefficiently
+                                                                                                        low funding of experimentation relative to what would have been optimal for a social planner.
+                                                                                                            Dicks & Fulghieri (2021) focus on waves of innovation by formalizing the notion of uncer-
+                                                                                                        tainty aversion among investors, and they document that, in such contexts, uncertainty averse
+                                                                                                        investors prefer to contemporaneously hold multiple uncertain assets in a portfolio rather than
+                                                                                                        just an uncertain asset in isolation. Their model shows that this can lead to waves of innovation in
+                                                                                                        sectors that are uncorrelated with aggregate economic activity. Formalizing the nature of uncer-
+                                                                                                        tainty facing VC investors and the impact it has on their portfolio choices is a promising area of
+                                                                                                        future work.
+
+
+                                                                                                        3.3. Concentration of Capital
+                                                                                                        Lerner & Nanda (2020) document that in addition to capital being concentrated in the hands of a
+                                                                                                        relatively small number of investors, VC financing has been concentrated in a few broad industries
+                                                                                                        and geographies. An important question in this area is whether this concentration is driven by a
+                                                                                                        lack of good investment opportunities or by frictions that may lead to a dearth of capital for good
+                                                                                                        ideas in other industries or regions.
+                                                                                                            One friction that might be at play relates to the coordination required by VC investors outlined
+                                                                                                        above—both within rounds in terms of their syndication patterns as well as over time through
+                                                                                                        multistage financing. For example, Ewens, Nanda & Rhodes-Kropf (2018) point to a decline in the
+                                                                                                        cost of learning about the potential of businesses that benefited from being able to test quickly and
+                                                                                                        cheaply using cloud computing services. While this did not necessarily impact the attractiveness
+                                                                                                        of other types of businesses, it is possible that VC investors benefit from specializing in certain
+                                                                                                        sectors or geographies, and together with the need to coordinate with other VC investors (and
+                                                                                                        the related search costs), this can lead to an underprovision of capital to sectors for which VC
+                                                                                                        investors have less overall interest.
+                                                                                                            Similarly, successful exits of start-ups lead to a lot of wealth creation in a given geography,
+                                                                                                        as founders and early employees get to monetize their paper wealth (Stuart & Sorenson 2003).
+                                                                                                        These individuals in turn often become investors but, due to information frictions, will often
+                                                                                                        invest close to where they are located themselves. Such frictions could lead to a disproportionate
+                                                                                                        focus of investors on investment opportunities within tech clusters rather than outside them
+                                                                                                        (Guzman & Stern 2015; Glaeser & Hausman 2020; Kerr & Robert-Nicoud 2020). Understanding
+                                                                                                        the nature and implications of these potential frictions in greater detail appears to be a promising
+                                                                                                        area of further inquiry.
+
+
+                                                                                                                                                www.annualreviews.org • Venture Capital Booms and Start-Up Financing   121
+                                                                                                              4. GOVERNMENT ROLE IN VENTURE CAPITAL BOOMS
+                                                                                                              4.1. Government’s Role in Addressing Market Failures
+                                                                                                              Given the important role that VC plays in financing innovation, an obvious question that arises
+                                                                                                              is the role that government might play in helping to stimulate booms in VC, both in economies
+                                                                                                              without a well-functioning VC system and in periods of time when risk capital is not flowing
+                                                                                                              as easily. For example, the billions of dollars that have been committed to help support venture-
+                                                                                                              backed firms in Europe, North America, and beyond since the onset of the coronavirus disease
+                                                                                                              2019 (COVID-19) crisis underscore the policy interest in VC.
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                                  Lerner (2009) documents the large number of policies undertaken by governments in trying to
+                                                                                                              promote entrepreneurship, including programs targeting high-growth and VC-backed start-ups.
+                                                                                                              He notes a number of pitfalls these programs fall into, including blanket policies to increase alloca-
+                                                                                                              tions to VC and the creation of tax incentives to invest into start-ups. Other work has also pointed
+                                                                                                              to the challenges associated with such approaches—for example, Denes et al. (2020) exploit the
+                                                                                                              staggered implementation of angel investment tax credits across the United States and find that
+                                                                                                              while these tax credits increase angel investment, they do not appear to stimulate entrepreneurial
+                                                                                                              activity. The investors who benefit most from these tax credits are either those who were already
+                                                                                                              investing or inexperienced local investors. Hargadon & Kenny (2012) point to the disappointing
+                                                                                                              results from the U.S. Department of Energy’s loan guarantee program for more mature businesses
+                                                                                                              when trying to promote clean tech investment of VC. In studying the role of government-backed
+                                                                                                              VC funds, Brander, Du & Hellman (2015) found that VC investments perform worse if they do
+                                                                                                              not syndicate with private VC investors but do as well when they do syndicate with private VC
+                                                                                                              investors.
+                                                                                                                  One program that has been shown to be effective is Phase 1 of the Small Business Innova-
+                                                                                                              tion Research (SBIR) program. SBIR Phase 1 grants have been associated with greater patenting
+                                                                                                              activity by recipients versus matched nonrecipients, and SBIR recipients have also enjoyed a sub-
+                                                                                                              stantially higher likelihood of VC investment (Lerner 1999; Howell 2017).
+
+                                                                                                              4.2. Catalytic Role of Government for Venture Capital
+                                                                                                              While program evaluation–type studies have not found widespread benefit of government in-
+                                                                                                              volvement in stimulating VC investment, there are other roles that government can play and that
+                                                                                                              appear to have had more success.
+                                                                                                                  The first is the role of the state in backing mission-driven initiatives (Mowery 2010; Mazzucato
+                                                                                                              2015), which have subsequently been shown to catalyze high-tech innovation and entrepreneur-
+                                                                                                              ship, even if not directly planned that way. Mazzucato (2015) notes the spillovers to ICT from
+                                                                                                              NASA’s decade-long mission to put a man on the moon. In a compelling case study of the iPhone,
+                                                                                                              she also shows how several of its key components—GPS, touchscreen glass, accessibility of the In-
+                                                                                                              ternet, and voice-recognition technology—benefited either directly or indirectly from state fund-
+                                                                                                              ing. Evidence has also been found that federal investment during World War II subsequently led
+                                                                                                              to increased private sector investment (Gross & Sampat 2020). It is also suggested that a very
+                                                                                                              substantial increase in federal investment in the life sciences and the growth of the biotechnology
+                                                                                                              revolution was triggered by President Nixon’s declaration of “War on Cancer” in 1971 and the
+                                                                                                              substantial commitments to federal funding of biomedical science in the subsequent years through
+                                                                                                              the National Institutes of Health.
+                                                                                                                  A second important role the government has played is as a customer. For example, Mowery
+                                                                                                              (2010) discusses the role of the U.S. military R&D and procurement budgets in driving substan-
+                                                                                                              tial innovation and technological change in the United States in the post–World War II era. The
+
+
+                                                                                                        122   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        government’s role as a customer was very important in the 1960s and 1970s to the semiconductor
+                                                                                                        industry—the one sector downstream from materials science where venture capitalists have prof-
+                                                                                                        ited at scale. The U.S. Department of Defense along with NASA played the role of collaborative
+                                                                                                        customer, pulling the new industry down the learning curve to low cost, reliable production, as
+                                                                                                        military customers had done for the preceding microelectronics industry up to and during World
+                                                                                                        War II (Lecuyer 2005). Similarly, the U.S. government’s role in reimbursement of new drugs and
+                                                                                                        devices through Medicare and Medicaid substantially reduces market risk for drug development,
+                                                                                                        implying that biotechnology ventures have enjoyed very high rates of access to the IPO market,
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        despite the very high degree of technology risk, the very long and expensive path to regulatory
+                                                                                                        approval, and hence substantial cash flow deficits (Pisano 2006).
+                                                                                                            A third area that government involvement seems to have been extremely valuable in is outlining
+                                                                                                        property rights, particularly those that help to level the playing field for and enable innovation by
+                                                                                                        start-ups. Program managers of the Defense Advanced Research Projects Agency (DARPA), espe-
+                                                                                                        cially in its early years when it was funding general-purpose IT-related research, conceived of their
+                                                                                                        mission to include protection of the new entrants from the established incumbents (Azoulay et al.
+                                                                                                        2019). The U.S. Justice Department’s settlement of its antitrust litigation against AT&T in 1956
+                                                                                                        led to the licensing of all of AT&T’s patents to U.S. companies, royalty free. The threat of antitrust
+                                                                                                        litigation induced IBM in 1969 to unbundle software from its computers and initiated the cre-
+                                                                                                        ation of an independent software industry. State involvement in these instances transformed these
+                                                                                                        firms’ proprietary intellectual property into public goods. Similarly, the creation of the Internet—
+                                                                                                        initially as ARPAnet within the U.S. Department of Defense and then under the supervision of
+                                                                                                        the National Science Foundation (NSF)—was characterized by a commitment to open protocols
+                                                                                                        and open procedures for agreeing technical standards (Greenstein 2010). The Bayh-Dole Act of
+                                                                                                        1980 is believed to have played a key role in encouraging entrepreneurship by allowing recipients
+                                                                                                        of government funding, notably universities, to patent the output of their research and license
+                                                                                                        such patents, including licensing to new ventures (Hausman, Fehder & Hochberg 2020). Beyond
+                                                                                                        these three broad areas that appear to have played a substantial role in catalyzing VC, Lerner
+                                                                                                        (2009) provides other specific suggestions to policy makers as they consider designing initiatives
+                                                                                                        to support the financing of high-growth ventures.
+
+                                                                                                        5. CONCLUSIONS AND NEW RESEARCH FRONTIERS
+                                                                                                        VC has grown over the past 40 years from a cottage industry into a prominent asset class, annually
+                                                                                                        deploying approximately $300 billion worldwide. The boom in VC financing in recent years, as
+                                                                                                        well as the regular boom-and-bust cycles around technological revolutions, raises a number of
+                                                                                                        important research questions, which we have only begun to scratch the surface in understanding.
+                                                                                                            First, understanding the degree to which the tremendous growth in allocations to VC is driven
+                                                                                                        by investment opportunities alone versus other supply side factors is important, as is an under-
+                                                                                                        standing of the distribution of this capital across funds. Recent years have seen the simultaneous
+                                                                                                        rise of micro-VC investors and mega funds driven by important changes in both the early stage
+                                                                                                        and late-stage markets, respectively.
+                                                                                                            Second, risk capital has flowed toward financing technological revolutions over centuries, and
+                                                                                                        several papers examining firm dynamics at the birth of new industries have shown massive rise
+                                                                                                        and shakeouts completely independent of finance or financial intermediaries. Yet, understanding
+                                                                                                        how the structure of VC may be interacting with this process and the impact this has on the
+                                                                                                        commercialization of new ideas and technologies is a question of growing importance. The
+                                                                                                        broader range of VC investors involved in financing start-ups (from micro-VC investors to mega
+                                                                                                        funds), each with their own sets of incentives, has increased coordination frictions both within and
+
+
+                                                                                                                                                www.annualreviews.org • Venture Capital Booms and Start-Up Financing   123
+                                                                                                              across rounds of financing (Nanda & Rhodes-Kropf 2019). The degree to which VC investors
+                                                                                                              select different start-ups across cycles, as well as the structure of their contracts, can impact not
+                                                                                                              only the rate but also the trajectory of start-up innovation, given the industry’s outsized role in
+                                                                                                              financing innovative high-growth ventures.
+                                                                                                                  Third, while the success of U.S. VC when commercializing fundamental science should not un-
+                                                                                                              derestimate the foundational and catalytic role of the U.S. government, it is worth noting that the
+                                                                                                              state has been the primary source of science funding only since World War II. Prior technological
+                                                                                                              revolutions in science-based industries, such as chemicals and electrical engineering, were initi-
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              ated by giant corporations such as DuPont and General Electric. Yet, recent research documents
+                                                                                                              a decline in the science component of corporate R&D spending (Arora, Belenzon & Patacconi
+                                                                                                              2017; Arora et al. 2020) as well as declining federal funding of R&D in percentage terms. The
+                                                                                                              question arises: Can VC, as it has grown in scale, play a direct role in financing a broader scope of
+                                                                                                              fundamental technological innovations, as it has in biotechnology?
+                                                                                                                  In fact, a particular challenge facing society at the present is climate change, which seems com-
+                                                                                                              parable in scale to the national security challenges that induced the radical increase in the U.S.
+                                                                                                              government’s commitment to funding science and aggressively sponsoring technological innova-
+                                                                                                              tions downstream from the laboratory. What role can VC play, and moreover, which government
+                                                                                                              policies might best catalyze VC commercialization of green technologies? For example, would a
+                                                                                                              commitment by the U.S. government to being a customer of such technologies contribute to a
+                                                                                                              VC boom in this sector that is more sustained than the surge in clean-tech VC in the mid-2000s?
+                                                                                                              More generally, understanding the reasons why VC has successfully invested in only a narrow
+                                                                                                              band of technological innovation—and largely in sectors that have had significant government
+                                                                                                              involvement as a catalyst for reducing both technology and market risk—is worth understanding
+                                                                                                              for its own sake as well as in relation to the more patchy success of government involvement in
+                                                                                                              specific smaller-scale efforts to reduce market failures in VC.
+
+
+                                                                                                              DISCLOSURE STATEMENT
+                                                                                                              All three authors have financial holdings in venture capital (VC) partnerships. In addition, WHJ
+                                                                                                              is a special limited partner at Warburg Pincus, a private equity firm, and from 1988 to 2006 was
+                                                                                                              an active investing partner. MR-K is a Managing Partner at Tectonic Ventures, an early stage
+                                                                                                              VC firm. The authors are not aware of any other affiliations, memberships, funding, or financial
+                                                                                                              holdings that might be perceived as affecting the objectivity of this review.
+
+
+                                                                                                              ACKNOWLEDGMENTS
+                                                                                                              We are grateful to Thomas Hellmann and Josh Lerner for very helpful discussions and feedback.
+
+                                                                                                              LITERATURE CITED
+                                                                                                              Abernathy WJ, Utterback J. 1978. Patterns of industrial innovation. Technol. Rev. 80:41–47
+                                                                                                              Acharya VV, Gale D, Yorulmazer T. 2011. Rollover risk and market freezes. J. Finance 66(4):1177–209
+                                                                                                              Aggarwal D, Eldar O, Hochberg YV, Litov LP. 2020. The rise of dual-class stock IPOs. Duke Law Sch. Public
+                                                                                                                   Law Legal Theory Ser. 2020–78, Duke Law Sch., Durham, NC
+                                                                                                              Anderson P, Tushman M. 1990. Technological discontinuities and dominant designs: a cyclical model of tech-
+                                                                                                                   nological change. Adm. Sci. Q. 35(4):604–33
+                                                                                                              Arora A, Belenzon S, Patacconi A. 2017. The decline of science in corporate R&D. Strateg. Manag. J. 39:3–32
+                                                                                                              Arora A, Belenzon S, Patacconi A, Suh J. 2020. The changing structure of American innovation: some cau-
+                                                                                                                   tionary remarks for economic growth. Innov. Policy Econ. 20:39–93
+
+
+                                                                                                        124   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        Azoulay P, Fuchs E, Goldstein AP, Kearney M. 2019. Funding breakthrough research: promises and challenges
+                                                                                                             of the “ARPA model.” Innov. Policy Econ. 19:69–96
+                                                                                                        Bergemann D, Hege U, Peng L. 2008. Venture capital and sequential investments. Work. Pap., Yale Univ., New
+                                                                                                             Haven, CT
+                                                                                                        Bergstresser D, Desai M, Rauh J. 2006. Earnings manipulation, pension assumptions, and managerial invest-
+                                                                                                             ment decisions. Q. J. Econ. 121(1):157–95
+                                                                                                        Bernstein S, Giroud X, Townsend RR. 2016. The impact of venture capital monitoring. J. Finance 71:1591–622
+                                                                                                        Bernstein S, McQuade T, Nanda R, Roth B. 2021. More capital, less entrepreneurship? The implications of large
+                                                                                                             capital inflows to the venture capital industry. Work. Pap., Harvard Univ., Cambridge, MA
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        Brander J, Du Q, Hellmann T. 2015. The effects of government-sponsored venture capital: international
+                                                                                                             evidence. Rev. Finance 19(2):571–618
+                                                                                                        Brown G, Harris RS, Hu W, Jenkinson T, Kaplan SN, Robinson DT. 2020. Can investors time their exposure to
+                                                                                                             private equity? NBER Work. Pap. 26755
+                                                                                                        Chemmanur T, Krishnan K, Nandy D. 2011. How does venture capital financing improve efficiency in private
+                                                                                                             firms? A look beneath the surface. Rev. Financ. Stud. 24:4037–90
+                                                                                                        Chernenko S, Lerner J, Zeng Y. 2019. Mutual funds as venture capitalists? Evidence from unicorns. NBER Work.
+                                                                                                             Pap. 23981
+                                                                                                        Cochrane J. 2005. The risk and return of venture capital. J. Financ. Econ. 75(1):3–52
+                                                                                                        Cornelli F, Yosha O. 2003. Stage financing and the role of convertible securities. Rev. Econ. Stud. 70:1–32
+                                                                                                        Da Rin M, Hellmann TF, Puri M. 2013. A survey of venture capital research. In Handbook of the Economics of
+                                                                                                             Finance, Vol. 2, Part A, ed. GM Constantinides, M Harris, RM Stulz, pp. 573–648. Amsterdam: Elsevier
+                                                                                                        Denes M, Howell ST, Mezzanotti F, Wang X, Xu T. 2020. Investor tax credits and entrepreneurship: evidence
+                                                                                                             from U.S. states. Work. Pap., Stern Sch. Bus., New York Univ., New York
+                                                                                                        Dicks D, Fulghieri P. 2021. Uncertainty, investor sentiment, and innovation. Rev. Financ. Stud. 34(3):1236–79
+                                                                                                        Ewens M, Farre-Mensa J. 2020. The deregulation of the private equity markets and the decline in IPOs. Rev.
+                                                                                                             Financ. Stud. 33(12):5463–509
+                                                                                                        Ewens M, Gorbenko AS, Korteweg AG. 2020. Venture capital contracts. NBER Work. Pap. 26115
+                                                                                                        Ewens M, Jones C, Rhodes-Kropf M. 2014. The price of diversifiable risk in venture capital and private equity.
+                                                                                                             Rev. Financ. Stud. 26(8):1854–89
+                                                                                                        Ewens M, Nanda R, Rhodes-Kropf M. 2018. Cost of experimentation and the evolution of venture capital.
+                                                                                                             J. Financ. Econ. 128:422–42
+                                                                                                        Fang L, Ivashina V, Lerner J. 2015. The disintermediation of financial markets: direct investing in private
+                                                                                                             equity. J. Financ. Econ. 116:160–78
+                                                                                                        Gao X, Ritter JR, Zhu Z. 2013. Where have all the IPOs gone? J. Financ. Quant. Anal. 48:1663–92
+                                                                                                        Glaeser E, Hausman N. 2020. The spatial mismatch between innovation and joblessness. Innov. Policy Econ.
+                                                                                                             20:233–99
+                                                                                                        Goldfarb B, Kirsch D. 2019. Bubbles and Crashes: The Boom and Bust of Technological Innovation. Stanford, CA:
+                                                                                                             Stanford Univ. Press
+                                                                                                        Goldfarb B, Kirsch D, Miller D. 2007. Was there too little entry during the Dot Com Era? J. Financ. Econ.
+                                                                                                             86(1):100–44
+                                                                                                        Gompers P, Gornall W, Kaplan S, Strebulaev I. 2020. How do venture capitalists make decisions? J. Financ.
+                                                                                                             Econ. 135:169–90
+                                                                                                        Gompers P, Kovner A, Lerner J, Scharfstein D. 2008. Venture capital investment cycles: the impact of public
+                                                                                                             markets. J. Financ. Econ. 87(1):1–23
+                                                                                                        Gompers P, Lerner J. 2000. Money chasing deals? The impact of fund inflows on private equity valuations.
+                                                                                                             J. Financ. Econ. 55(2):281–325
+                                                                                                        Gompers P, Lerner J. 2001. The venture capital revolution. J. Econ. Perspect. 15:145–68
+                                                                                                        Gompers P, Lerner J. 2004. The Venture Capital Cycle. Cambridge, MA: MIT Press
+                                                                                                        Gompers P, Lerner J, Scharfstein D, Kovner A. 2010. Performance persistence in entrepreneurship and ven-
+                                                                                                             ture capital. J. Financ. Econ. 96(1):731–64
+                                                                                                        Gornall W, Strebulaev I. 2020. Squaring venture capital valuations with reality. J. Financ. Econ. 135(1):120–43
+                                                                                                        Gort M, Klepper S. 1982. Time paths in the diffusion of product innovations. Econ. J. 92(367):630–53
+
+
+                                                                                                                                                    www.annualreviews.org • Venture Capital Booms and Start-Up Financing   125
+                                                                                                              Greenstein S. 2010. Innovative conduct in computing and internet markets. In Handbook of the Economics of
+                                                                                                                   Innovation, ed. BH Hall, N Rosenberg, pp. 477–537. Amsterdam: Elsevier
+                                                                                                              Gross D, Sampat B. 2020. Inventing the endless frontier: the effects of the World War II research effort on post-war
+                                                                                                                   innovation. NBER Work. Pap. 27375
+                                                                                                              Guzman J, Stern S. 2015. Where is Silicon Valley? Science 347(6222):606–9
+                                                                                                              Hargadon A, Kenny M. 2012. Misguided policy? Following venture capital into clean technology. Calif. Manag.
+                                                                                                                   Rev. 54:118–39
+                                                                                                              Harris RS, Jenkinson T, Kaplan SN, Stucke R. 2020. Has persistence persisted in private equity? Evidence from
+                                                                                                                   buyout and venture capital funds. NBER Work. Pap. 28109
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                              Hausman N, Fehder D, Hochberg YV. 2020. The virtuous cycle of innovation and capital flows. SSRN Work. Pap.
+                                                                                                                   3714727
+                                                                                                              Hellmann T, Puri M. 2000. The interaction between product market and financing strategy: the role of venture
+                                                                                                                   capital. Rev. Financ. Stud. 13:959–84
+                                                                                                              Hellmann T, Puri M. 2002. Venture capital and the professionalization of start-up firms: empirical evidence.
+                                                                                                                   J. Finance 57:169–97
+                                                                                                              Hellmann T, Thiele V. 2015. Friends or foes? The interrelationship between angel and venture capital markets.
+                                                                                                                   J. Financ. Econ. 115(3):639–53
+                                                                                                              Hellmann T, Thiele V. 2018. May the force be with you: investor power and company valuations. NBER Work. Pap.
+                                                                                                                   25211
+                                                                                                              Hochberg YV. 2016. Accelerating entrepreneurs and ecosystems: the seed accelerator model. Innov. Policy Econ.
+                                                                                                                   16:25–51
+                                                                                                              Hochberg YV, Ljungqvist A, Lu Y. 2007. Whom you know matters: venture capital networks and investment
+                                                                                                                   performance. J. Finance 52:251–301
+                                                                                                              Howell ST. 2017. Financing innovation: evidence from R&D grants. Am. Econ. Rev. 107:1136–64
+                                                                                                              Howell ST, Lerner J, Nanda R, Townsend R. 2021. How resilient is venture-backed innovation? Evidence from four
+                                                                                                                   decades of U.S. patenting, Work. Pap. 20-115, Harvard Bus. Sch., Harvard Univ., Cambridge, MA
+                                                                                                              Howell ST, Niessner M, Yermack D. 2020. Initial coin offerings: financing growth with cryptocurrency token
+                                                                                                                   sales. Rev. Financ. Stud. 33(9):3925–74
+                                                                                                              Janeway WH. 2018. Doing Capitalism in the Innovation Economy: Markets, Speculation and the State. Cambridge,
+                                                                                                                   UK: Cambridge Univ. Press
+                                                                                                              Jovanovic B, MacDonald GM. 1994. The life cycle of a competitive industry. J. Political Econ. 102(2):322–47
+                                                                                                              Kaplan SN, Schoar A. 2005. Private equity performance: returns, persistence, and capital flows. J. Finance
+                                                                                                                   60:1791–823
+                                                                                                              Kerr WR, Nanda R, Rhodes-Kropf M. 2014. Entrepreneurship as experimentation. J. Econ. Perspect. 28:25–48
+                                                                                                              Kerr WR, Robert-Nicoud F. 2020. Tech clusters. J. Econ. Perspect. 34(3):50–76
+                                                                                                              Kindleberger CP. 1978. Manias, Panics, and Crashes. New York: Basic Books
+                                                                                                              Klepper S. 1996. Entry, exit, growth, and innovation over the product life cycle. Am. Econ. Rev. 86(3):562–83
+                                                                                                              Klepper S, Graddy E. 1990. The evolution of new industries and the determinants of market structure. RAND
+                                                                                                                   J. Econ. 21(1):27–44
+                                                                                                              Korteweg A, Sorensen M. 2010. Risk and return characteristics of venture capital-backed entrepreneurial
+                                                                                                                   companies. Rev. Financ. Stud. 23(10):3738–72
+                                                                                                              Korteweg A, Sorensen M. 2017. Skill and luck in private equity performance. J. Financ. Econ. 124:535–62
+                                                                                                              Kortum S, Lerner J. 2000. Assessing the impact of venture capital on innovation. RAND J. Econ. 31:674–92
+                                                                                                              Lamoreaux N, Sokoloff KL. 2007. The organization and finance of innovation in American history. In Intro-
+                                                                                                                   duction to Financing Innovation in the United States, 1870 to the Present, ed. N Lamoreaux, KL Sokoloff.
+                                                                                                                   Cambridge, MA: MIT Press
+                                                                                                              Lecuyer C. 2005. Making Silicon Valley: Innovation and the Growth of High Tech, 1930–1970. Cambridge, MA:
+                                                                                                                   MIT Press
+                                                                                                              Lerner J. 1994. Venture capitalists and the decision to go public. J. Financ. Econ. 35(3):293–316
+                                                                                                              Lerner J. 1999. The government as venture capitalist: the long-run effects of the SBIR program. J. Bus. 72:285–
+                                                                                                                   318
+                                                                                                              Lerner J. 2002. Boom and bust in the venture capital industry and the impact on innovation. SSRN Work. Pap.
+                                                                                                                   366041
+
+
+                                                                                                        126   Janeway • Nanda • Rhodes-Kropf
+                                                                                                        Lerner J. 2009. Boulevard of Broken Dreams: Why Public Efforts to Boost Entrepreneurship and Venture Capital Have
+                                                                                                              Failed—and What to Do About It. Princeton, NJ: Princeton Univ. Press
+                                                                                                        Lerner J, Mao J, Schoar A, Zhang N. 2018. Investing outside the box: evidence from alternative vehicles in private
+                                                                                                              capital. NBER Work. Pap. 24941
+                                                                                                        Lerner J, Nanda R. 2020. Venture capital’s role in financing innovation: what we know and how much we still
+                                                                                                              need to learn. J. Econ. Perspect. 34(3):237–61
+                                                                                                        Lowry M. 2003. Why does IPO volume fluctuate so much? J. Financ. Econ. 65:3–40
+                                                                                                        Lowry M, Schwert GW. 2002. IPO market cycles: bubbles or sequential learning? J. Finance 67:1171–98
+                                                                                                        Mazzucato M. 2015. The Entrepreneurial State: Debunking Public vs. Private Sector Myths. London: Anthem Press
+
+
+
+
+Downloaded from www.annualreviews.org. Guest (guest) IP: 193.205.21.160 On: Mon, 16 Nov 2026 13:55:45
+                                                                                                        McKenzie M, Janeway W. 2011. Venture capital fund performance and the IPO market. Account. Finance
+                                                                                                              51:764–86
+                                                                                                        Metrick A, Yasuda A. 2010. Venture Capital and the Finance of Innovation. Hoboken, NJ: John Wiley and Sons
+                                                                                                        Mowery DC. 2010. Military R&D and innovation. In Handbook of the Economics of Innovation, ed. BH Hall, N
+                                                                                                              Rosenberg, pp. 1219–56. Amsterdam: Elsevier
+                                                                                                        Nanda R, Rhodes-Kropf M. 2013. Investment cycles and startup innovation. J. Financ. Econ. 110(2):403–18
+                                                                                                        Nanda R, Rhodes-Kropf M. 2017. Financing risk and innovation. Manag. Sci. 63:901–18
+                                                                                                        Nanda R, Rhodes-Kropf M. 2019. Coordination frictions in venture capital syndicates. In The Oxford Handbook
+                                                                                                              of Entrepreneurship and Collaboration, ed. JJ Reuer, S Matusik, JF Jones. Oxford, UK: Oxford Univ. Press
+                                                                                                        Nanda R, Younge K, Fleming L. 2015. Innovation and entrepreneurship in renewable energy. In The Changing
+                                                                                                              Frontier: Rethinking Science and Innovation Policy, ed. A Jaffe, B Jones, pp. 199–232. Chicago: Univ. Chicago
+                                                                                                              Press
+                                                                                                        Nicholas T. 2019. VC: An American History. Cambridge, MA: Harvard Univ. Press
+                                                                                                        Nye D. 1992. Electrifying America: Social Meanings of a New Technology, 1880–1940. Cambridge, MA: MIT Press
+                                                                                                        Ofek E, Richardson M. 2003. DotCom mania: the rise and fall of internet stock prices. J. Finance 58(3):1113–38
+                                                                                                        Pastor L, Veronesi P. 2009. Technological revolutions and stock prices. Am. Econ. Rev. 99:1451–83
+                                                                                                        Perez C. 2002. Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages. London:
+                                                                                                              Edward Edgar
+                                                                                                        Pisano GP. 2006. Science Business: The Promise, the Reality, and the Future of Biotech. Cambridge, MA: Harvard
+                                                                                                              Bus. Sch. Press
+                                                                                                        Puri M, Zarutskie R. 2012. On the lifecycle dynamics of venture-capital- and non-venture-capital-financed
+                                                                                                              firms. J. Finance 67:2247–93
+                                                                                                        Sahlman W. 1990. The structure and governance of venture capital organizations. J. Financ. Econ. 27(2):473–
+                                                                                                              521
+                                                                                                        Scharfstein D, Stein J. 1990. Herd behavior and investment. Am. Econ. Rev. 80:465–79
+                                                                                                        Scheinkman J. 2014. Speculation, Trading and Bubbles. New York: Columbia Univ. Press
+                                                                                                        Shiller R. 2000. Irrational Exuberance. Princeton, NJ: Princeton Univ. Press
+                                                                                                        Sorensen M. 2007. How smart is the smart money? A two-sided matching model of venture capital. J. Finance
+                                                                                                              62:2725–62
+                                                                                                        Stuart TE, Sorenson O. 2003. Liquidity events and the geographic distribution of entrepreneurial activity.
+                                                                                                              Adm. Sci. Q. 48(2):175–201
+                                                                                                        Townsend R. 2015. Propagation of financial shocks: the case of venture capital. Manag. Sci. 61(11):2782–802
+
+
+
+
+                                                                                                                                                     www.annualreviews.org • Venture Capital Booms and Start-Up Financing     127
+

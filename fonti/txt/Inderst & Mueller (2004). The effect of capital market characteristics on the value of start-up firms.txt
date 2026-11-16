@@ -1,0 +1,1923 @@
+                                   ARTICLE IN PRESS
+
+
+
+                       Journal of Financial Economics 72 (2004) 319–356
+
+
+
+
+      The effect of capital market characteristics
+           on the value of start-up ﬁrms$
+                    Roman Indersta,c , Holger M. M .ullerb,c,*
+                           a
+                             London School of Economics, London WC2A 2AE, UK
+             b
+                 Stern School of Business, New York University, New York, NY 10012, USA
+                  c
+                    Centre for Economic Policy Research (CEPR), London ECIV 7RR, UK
+                              Received 31 July 2002; accepted 5 June 2003
+
+
+
+Abstract
+
+   We develop an equilibrium model of contracting, bargaining, and search in which the
+relative scarcity of venture capital affects the bargaining power of entrepreneurs and venture
+capitalists. This in turn affects the pricing, contracting, and value creation in start-ups. The
+relative scarcity of venture capital is endogenous and depends on the proﬁtability of venture
+capital investments, entry costs, and transparency of the venture capital market. Supply and
+demand conditions also affect the incentives of venture capitalists to screen projects ex ante.
+We characterize both the short- and long-run dynamics of the venture capital industry, which
+
+
+
+
+  $
+    We are grateful to an anonymous referee for valuable comments and suggestions. Thanks also to
+Patrick Bolton, Mike Burkart, Denis Gromb, Thomas Hellmann, Pete Kyle, Stewart Myers, Enrico
+Perotti, Per Str .omberg, Elu von Thadden, Masako Ueda, Jeff Wurgler, and seminar participants at
+Dartmouth, Amsterdam, Stockholm School of Economics, Mannheim, Tilburg, Humboldt, the NBER
+Corporate Finance Meeting in Chicago (2003), the Atlanta Fed Financial Markets Conference ‘‘Venture
+Capital and Technology’’ in Sea Island (2002), the European Finance Association Meetings in Berlin
+(2002), the Five Star Conference on Research in Finance at NYU (2001), the workshop ‘‘Strategic
+Interactions in Relationship Finance: Bank Lending and Venture Capital’’ at LSE (2001), the workshop
+‘‘Finance for the XXI Century’’ in Amsterdam (2001), and the European Summer Symposium in Financial
+Markets (ESSFM) in Gerzensee (2001) for helpful comments and discussions. Earlier versions of this
+paper circulated under the titles ‘‘Competition and Efﬁciency in the Market for Venture Capital’’ and
+‘‘Venture Capital Contracts and Market Structure’’. Inderst acknowledges ﬁnancial support from the
+Financial Markets Group (FMG).
+   *Corresponding author. Stern School of Business, New York University, New York, NY 10012, USA.
+    E-mail addresses: r.inderst@lse.ac.uk (R. Inderst), hmueller@stern.nyu.edu (H.M. M .uller).
+
+0304-405X/$ - see front matter r 2003 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jﬁneco.2003.06.001
+                                    ARTICLE IN PRESS
+320          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+provides us with a stylized picture of the Internet boom and bust periods. Our model is
+consistent with existing evidence and provides a number of new empirical predictions.
+r 2003 Elsevier B.V. All rights reserved.
+
+JEL classification: D83; G32; L22
+
+Keywords: Venture capital; Capital market competition; Bargaining power; Search
+
+
+
+
+1. Introduction
+
+   The venture capital industry is highly cyclical, with periodic changes in supply and
+demand conditions (Gompers and Lerner, 1999; Lerner, 2002). Between the fourth
+quarters of 2000 and 2001 alone, for instance, total funds raised dropped by more
+than 80%. In this paper, we ask whether, and how, such variations in capital supply
+affect the competitive pricing, contracting, and value creation in start-ups.
+   Our theory is based on two building blocks. The ﬁrst is a model of contracting and
+bargaining in start-ups. Building on Sahlman (1990), Kaplan and Str .omberg (2002),
+and Hellmann and Puri (2001), we model the relationship between the entrepreneur
+and venture capitalist as a double-sided incentive problem: A greater fraction of the
+ﬁrm owned by the venture capitalist improves the venture capitalist’s incentives but
+weakens the entrepreneur’s incentives. Efﬁciency requires balancing the two
+incentive problems, or equivalently, balancing ownership shares. Actual ownership
+shares, however, are determined by bargaining, and thus by the relative strength of
+the entrepreneur’s and venture capitalist’s outside options.
+   The second building block is a search model linking outside options to the relative
+scarcity of venture capital. An increase in capital supply, for instance, makes it easier
+for an entrepreneur to obtain ﬁnancing, thereby increasing his outside option vis- "a-
+vis a venture capitalist. The supply of capital, in turn, is endogenous and depends on
+primitive market characteristics such as the proﬁtability of investments, entry costs,
+and capital market transparency.
+   The end result is an equilibrium model in which capital market characteristics
+affect the relative supply and demand for capital, which in turn affects bargaining
+powers and ownership shares, which in turn affects the pricing and value creation in
+start-ups.
+   The core of our model is an analysis of the short- and long-run dynamics of the
+venture capital industry. In the short run, the number of venture capitalists is ﬁxed.
+In the long run, changes in market conditions lead to entry or exit of venture
+capitalists, thereby making capital market competition endogenous. Our model
+predicts that an increase in the return to venture capital investments—whether true
+or merely perceived—leads to new entry and a long-run increase in capital market
+competition, coupled with a rise in valuations and a decline in venture capitalists’
+ownership shares. A decrease in investment returns, on the other hand, leads to exit,
+a drop in valuations, and better deal terms for those venture capitalists remaining in
+the market.
+                                    ARTICLE IN PRESS
+             R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356             321
+
+
+   While stylized, our model can provide a useful picture of the Internet boom and
+bust periods. As winners often tend to materialize quicker than losers (poor
+performers may be able to hold out until their cash is ﬁnally burned up), the initial
+success stories at the beginning of the Internet boom period might not have been
+representative of the industry as a whole. The general public and investors might
+have therefore overestimated the true returns to Internet investments. As more and
+more ﬁrms began to fail, investors realized that their initial assessment was wrong.
+They consequently adjusted their return estimates downward. In our model, the
+boom and bust of the Internet correspond to an increase and decrease, respectively,
+in the perceived return to venture capital investments.
+   We also examine the equilibrium effects of changes in entry costs and capital
+market transparency. Such changes affect outside options either directly or via their
+effect on capital market competition. Our model predicts that an increase in
+transparency improves the value created in start-ups, while a decrease in entry costs
+can destroy value if the aggregate capital supply is already relatively high. Finally,
+capital market competition affects the incentives not only after but also prior to the
+formation of a new venture. In an extension of our model, we show that venture
+capitalists are more likely to screen projects in ‘‘down markets’’ when competition
+among investors is weak, and less likely in ‘‘hot markets’’ when competition is
+strong.
+   Our search model contrasts with traditional venture capital contracting models,
+which consider an isolated setting with one entrepreneur and one venture capitalist
+at a time. These models assume a ‘‘competitive capital market’’ in which
+entrepreneurs extract all the surplus. In a world with many venture capitalists and
+many entrepreneurs, however, it is not clear why entrepreneurs should extract all the
+surplus. On the contrary, anecdotal evidence suggests that the ability to extract
+surplus shifts back and forth between entrepreneurs and investors, depending on
+who is currently in short supply.1 In this paper, we explicitly depart from the
+standard assumption that entrepreneurs have all the bargaining power. As we show,
+this standard assumption is not innocuous. By giving venture capitalists bargaining
+power, one can get closer to the sharing rule that maximizes the joint surplus. In fact,
+if venture capitalists and entrepreneurs each have the ‘‘right’’ amount of bargaining
+power, efﬁcient surplus sharing is possible.
+   A central tenet of our model is that changes in capital market competition and
+bargaining power translate into changes in ownership shares. Supporting evidence is
+provided by Gompers and Lerner (2000), who ﬁnd a positive relation between the
+valuation of new ventures and capital inﬂows, suggesting that ‘‘increases in the
+supply of venture capital may result in greater competition to ﬁnance companies and
+
+  1
+    The following statement compares the height of the Internet bubble—when ‘‘too much money was
+chasing too few deals’’ (Gompers and Lerner, 2000)—with the aftermath: ‘‘If you went into a ... start-up
+three to six months ago, you almost certainly got a very bad deal. Companies could ask for anything they
+wanted [in terms of valuation]. Now entrepreneurs are much more realistic’’ (Financial Times, ‘‘Open
+Season for Europe’s Turkeys,’’ January 11, 2001). Along similar lines, Bartlett (2001b) argues that the
+burst of the bubble brought about ‘‘changes in deal terms ... all of which are designed to enhance returns
+and the quantum of control enjoyed by nervous investors.’’
+                                ARTICLE IN PRESS
+322        R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+rising valuations.’’ (Ceteris paribus, a higher valuation implies a smaller ownership
+share for venture capitalists).
+   Another tenet of our model is the link between ownership shares and incentives.
+Empirical support is provided by Kaplan and Str .omberg (2002), who ﬁnd that equity
+incentives increase the likelihood that venture capitalists provide value-adding
+support activities. Similarly, industry observers have expressed concerns that
+unfavorable deal terms (from the perspective of entrepreneurs) in the recent down
+market might have had a negative effect on entrepreneurial incentives: ‘‘The terms of
+current venture ﬁnancings can be such that founders may well lose interest. ... They
+start plotting their next career move, perhaps with a competitor, from the date the
+deal is closed. In short, the VCs, while putting in place extremely favorable terms
+from their point of view, face the possibility of shooting themselves in the feet’’
+(Bartlett, 2001a).
+   Michelacci and Suarez (2002) also have a search model of start-up ﬁnancing.
+Unlike this paper, however, Michelacci and Suarez do not consider incentive
+contracts or the inefﬁciencies arising from an imbalance of ownership shares. Rather,
+they focus on search inefﬁciencies, using an insight from the search literature that
+entry creates externalities for the matching chances of other market participants.
+   The rest of the paper is organized as follows. Section 2 presents the model. Section 3
+characterizes the equilibrium when capital market competition is exogenous. Section 4
+endogenizes the level of capital market competition. The exogenous variables are
+primitive market characteristics such as investment returns, entry costs, and capital
+market transparency. Section 5 considers robustness issues as well as welfare and
+policy implications. Section 6 examines the incentives of venture capitalists to screen
+projects ex ante. Section 7 summarizes the empirical implications and compares them
+with the available evidence. Section 8 concludes. All proofs are in Appendix B.
+
+
+2. The model
+
+   The model has two building blocks: (i) a model of contracting and bargaining in
+start-ups, and (ii) an equilibrium model of search. We ﬁrst derive the contract frontier
+characterizing the utilities of the entrepreneur and venture capitalist for all Pareto
+optimal contracts. We then derive the bargaining solution, which determines a point
+(i.e., contract) on the contract frontier. In the bargaining problem, we take the
+entrepreneur’s and venture capitalist’s outside options as given. We ﬁnally embed the
+bargaining problem in a search market to endogenize outside options as a function
+of the relation between capital supply and demand, or degree of capital market
+competition. The degree of capital market competition, in turn, is taken as given. It
+will be endogenized in Section 4 when we introduce free entry of capital.
+
+2.1. Financial contracting
+
+  A penniless entrepreneur has a project requiring an investment I > 0: Financing is
+provided by a venture capitalist. The project payoff is Xl X0 with probability 1  p
+                                      ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                  323
+
+
+and Xh > I with probability p: The success probability p ¼ pðe; aÞ depends on the
+entrepreneur’s and venture capitalist’s non-contractible efforts eA½0; 1 and aA½0; 1:
+Effort costs are denoted by cðeÞ and gðaÞ; respectively, and are strictly convex. All
+agents are risk neutral, which implies our results continue to hold if Xl and Xh are
+expected values instead of ﬁnal cash ﬂows.
+   In the base model (Sections 2–4) we assume that Xl ¼ 0: The division of the
+project payoff is then fully characterized by a sharing rule sA½0; 1 representing the
+venture capitalist’s ownership, or equity share. The case where Xl > 0 is considered in
+Section 5. In that section, we also consider the possibility that the venture capitalist
+pays the entrepreneur a wage.
+   Given some sharing rule s; the entrepreneur’s and venture capitalist’s utilities are
+uðsÞ  pð1  sÞXh  cðeÞ and vðsÞ  psXh  gðaÞ; respectively. By varying s from zero
+to one, we can trace out the utility possibility frontier depicting the set of all possible
+u  v combinations. This frontier need not be decreasing everywhere. For instance, if
+one side is more productive than the other, both utilities might be increasing over
+some range (see Fig. 1). The same is true if efforts are complements. We call the
+undominated, i.e., decreasing, segment of the utility possibility frontier the equity
+frontier. The equity frontier depicts the set of all Pareto-optimal u  v combinations.
+It is derived from the set of Pareto-optimal equity shares and denoted by u ¼ cðvÞ:
+The domain of the equity frontier is ½v; v%; where vXvð0Þ and v%pvð1Þ are the venture
+capitalist’s utilities under the lowest% and highest  %   Pareto-optimal equity share,
+              2
+respectively.
+   The shape of the equity frontier depends on the production technology pðe; aÞ: We
+focus on production technologies that are well behaved in the following sense:
+  (i) the function cðvÞ is decreasing and strictly concave over ½v; v%;
+ (ii) the sum uðsÞ þ vðsÞ has a unique maximum in the interior %of ½v; v%; and
+(iii) the venture capitalist’s utility vðsÞ is increasing in s over ½v; v%: %
+                                                                     %
+Properties (i)–(ii) follow naturally from the fact that the incentive problem is two-
+sided and effort costs are strictly convex. Maximizing the sum of utilities then
+requires balancing the two incentive problems. In particular, giving one side a very
+high and the other side a very low equity share does not maximize total utility, as the
+side with the high equity share will then provide effort at a level where his or her
+marginal effort cost is extremely high. Consequently, the total utility u þ v ¼
+cðvÞ þ v has a unique maximum in the interior of ½v; v%: Deﬁne s#  arg max½uðsÞ þ
+                                                            %
+vðsÞ; v#  vð#sÞ; and u#  uðvð#sÞÞ: We refer to the surplus-maximizing     sharing rule s# as
+the efficient sharing rule (or efficient equity share). Evidently, it holds that c0 ð#vÞ ¼
+                                                         3
+
+
+
+  2
+     See Appendix A for examples. If the venture capitalist and entrepreneur have different productivities
+or if efforts are complements, the lowest Pareto-optimal equity share will be positive and the highest
+Pareto-optimal equity share will be less than one, implying that v > vð0Þ and v%ovð1Þ: (See Fig. 1 for an
+                                                                       %
+illustration.) In this case, it is not Pareto-optimal to give the venture capitalist or the entrepreneur all the
+equity.
+   3
+     Formally, s# is efﬁcient within the class of budget-balanced mechanisms. Allowing budget-breaking
+mechanisms "a la Holmstr .om (1982) might yield superior outcomes. Hence s# is constrained (or second-best)
+efﬁcient.
+                                 ARTICLE IN PRESS
+324         R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+1; i.e., the equity frontier has a slope of minus one at the point where total utility is
+maximized. The third property states that the venture capitalist’s utility is increasing
+in her equity share. This automatically implies that along the equity frontier we have
+u0 ðsÞo0; ruling out situations where a given value of cðvÞ is associated with more
+than one equity share.
+    All three assumptions are innocuous and satisﬁed by many production
+technologies. In Appendix A we give two examples of technologies used in the
+venture capital literature that satisfy (i)–(iii): the linear technology pðe; aÞ ¼ ga þ
+ð1  gÞe used in, e.g., Casamatta (2003), and the Cobb-Douglas technology pðe; aÞ ¼
+ag e1g used in, e.g., Repullo and Suarez (2000). Under the linear technology the two
+efforts are substitutes, while under the Cobb-Douglas technology they are
+complements. To make the problem nontrivial, we assume that v# > I; i.e., the
+surplus-maximizing allocation is sufﬁciently proﬁtable to allow the venture capitalist
+to break even.
+    The entrepreneur’s and venture capitalist’s deal utilities are UðsÞ  uðsÞ and V ðsÞ 
+vðsÞ  I; respectively. The deal utilities are the overall utilities from the contract ðs; IÞ:
+The utilities derived from equity shares, uðsÞ and vðsÞ; are thus merely one component
+of the agents’ deal utilities. The investment outlay I is another component. In
+Section 5 we will introduce two more components: the safe project payoff Xl and
+wage payments.
+    The set of all Pareto-optimal U  V combinations is called the contract frontier.
+The contract frontier is derived from the set of Pareto-optimal contracts ðs; IÞ and
+denoted by U ¼ CðV Þ: In the base model where Xl ¼ 0; the contract frontier is
+obtained by shifting the equity frontier cðvÞ to the left by I; implying that CðV Þ 
+cðV þ IÞ; see Fig. 1. In Section 5 when we reintroduce Xl > 0 and wage payments,
+the construction of the contract frontier is more complicated. The domain of the
+                          % where V  maxfv  I; 0g and V%  v%  I: (As the venture
+contract frontier is ½V ; V;
+capitalist and entrepreneur never% bargain to% a point where the venture capitalist’s
+                       %
+deal utility is negative, the constraint that V X0 is without loss of generality.)
+                                                %
+    Fig. 1 depicts the utility possibility frontier    characterizing all possible u  v
+combinations, the equity frontier characterizing all Pareto-optimal u  v combina-
+tions, and the contract frontier characterizing all Pareto-optimal U  V combina-
+tions for the Cobb-Douglas technology.
+
+2.2. Bargaining
+
+   It is reasonable to assume that when bargaining over a contract, the entrepreneur
+and venture capitalist select a contract that is Pareto efﬁcient. Bargaining thus
+corresponds to choosing a utility pair ðV ; UÞ on the contract frontier. If the
+bargaining breaks down, the entrepreneur and venture capitalist realize their out-
+side options U o and V o ; respectively. For the time being, we shall take these
+outside options as given. They will be endogenized in Section 4 as a function
+of relative supply and demand in the capital market. Our bargaining concept is
+the generalized Nash bargaining solution. Accordingly, the bargaining outcome
+consists of deal utilities U ¼ CðV ÞXU o and V XV o maximizing the Nash product
+                                      ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                   325
+
+
+
+
+Fig. 1. Equity frontier and contract frontier for the Cobb-Douglas technology. The dashed curve
+represents the utility possibility frontier (UPF) depicting the entrepreneur’s and venture capitalist’s utilities
+from equity shares, u and v; for all possible equity shares sA½0; 1: The decreasing segment of the UPF is
+the equity frontier. It contains all utilities u and v associated with a Pareto-optimal equity share. Shifting
+the equity frontier to the left by the investment amount I yields the bold contract frontier CðVÞ; which
+depicts the entrepreneur’s and venture capitalist’s utilities from Pareto-optimal contracts, U ¼ CðV Þ and
+V ; respectively.
+
+
+
+½V  V o Z ½CðV Þ  U o 1Z ; where ZAð0; 1Þ: For expositional convenience, we deﬁne
+b  Z=ð1  ZÞ:
+  As the contract frontier is strictly concave, the bargaining problem has a unique
+                                                                                    %
+solution. In Appendix B we show that this solution must lie in the interior of ½V ; V:
+                                            d   d           d       d
+Denote the bargaining solution by ðV ; U Þ; where U  CðV Þ: The superscript     %
+indicates that V d and U d are the equilibrium deal utilities. Maximizing the Nash
+product with respect to V ; we obtain
+
+Lemma 1. The equilibrium deal utilities V d and U d are uniquely determined by
+                          Vd  Vo
+       b ¼ C0 ðV d Þ                  ;                                                                     ð1Þ
+                         CðV d Þ  U o
+where U d ¼ CðV d Þ:
+
+  The venture capitalist’s deal utility V d is increasing in her outside option V o and
+decreasing in the entrepreneur’s outside option U o : The reverse is true for the
+entrepreneur. As is well known, the axiomatic Nash bargaining solution can be
+derived as the limit of a non-cooperative bargaining game where the two parties
+bargain with an open time horizon under the risk of breakdown (Binmore et al.,
+1986). It is worth noting that our results do not depend on the speciﬁcs of the Nash
+bargaining solution. All we need is that an agent’s deal utility is positively related to
+his or her own outside option and negatively related to the counterparty’s outside
+option. Any bargaining solution with this feature yields similar results.
+                                     ARTICLE IN PRESS
+326           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+2.3. Search
+
+   To endogenize outside options, we embed the bargaining problem in a market
+environment. We consider a stationary search market populated by entrepreneurs
+and venture capitalists.4 The measure of entrepreneurs and venture capitalists in the
+market is Me and Mv ; respectively. A key variable is the ratio of venture capitalists to
+entrepreneurs, or degree of capital market competition, Mv =Me  y: A high value of y
+indicates that the capital market is very competitive. Each venture capitalist has
+capital k; which implies she can ﬁnance at most one project. All our results extend to
+the case where each venture capitalist can ﬁnance a ﬁnite number of projects. As each
+venture capitalist has a ﬁxed amount of capital, the ratio Mv =Me  y also indicates
+the relative magnitude of capital supply and demand. Time is continuous, and the
+discount rate is r > 0:5
+   The measure of deals, or matches, per unit of time is given by the matching
+function xðMe ; Mv Þ: From the perspective of a venture capitalist, the (Poisson)
+arrival rate of a deal is xðMe ; Mv Þ=Mv ; while the entrepreneur’s deal arrival rate
+is xðMe ; Mv Þ=Me : We assume that the matching function exhibits constant returns
+to scale. This has the convenient implication that arrival rates depend solely on
+the degree of capital market competition y: (See Section 5.4 for details.) Speciﬁ-
+cally, the venture capitalist’s deal arrival rate is xðMe ; Mv Þ=Mv  qv ðyÞ; which
+is decreasing in y with limy-0 qv ðyÞ ¼ N and limy-N qv ðyÞ ¼ 0: Hence a
+venture capitalist is more likely to meet an entrepreneur in a given time interval
+if the ratio of venture capitalists to entrepreneurs is low. As the measure of deals
+per unit of time is Mv qv ðyÞ; the entrepreneur’s deal arrival rate is yqv ðyÞ  qe ðyÞ;
+which is an increasing function of y: Hence an entrepreneur is more likely to meet a
+venture capitalist in a given time interval if the ratio of venture capitalists to
+entrepreneurs is high.
+   If the search is successful, the venture capitalist and entrepreneur bargain over a
+contract. The outside options in the bargaining, U o and V o ; are the utilities from
+going back into the market and searching anew. Given that the market is stationary,
+the utility from going back into the market equals the utility from entering the
+market in the ﬁrst place. Hence U o and V o represent both the outside options in the
+bargaining as well as the overall utilities from searching.
+   We now determine the outside options. Consider ﬁrst the entrepreneur’s outside
+option U o : The Poisson arrival rate of a deal for the entrepreneur is qe ðyÞ: The
+probability that a deal occurs in a small time interval D is thus qe ðyÞD: With
+probability 1  qe ðyÞD no deal occurs, and the entrepreneur continues the search.
+The expected discounted utility from searching is therefore
+
+       U o ¼ qe ðyÞD expðrDÞU d þ ð1  qe ðyÞDÞexpðrDÞU o :
+
+  4
+    In the search literature, our framework is commonly known as the Diamond-Mortensen-Pissarides
+model (Pissarides, 1990).
+  5
+    Frictions are thus expressed as costs of delay. The model can be easily extended to include search costs.
+For convenience, we assume that both sides use the same discount rate.
+                                   ARTICLE IN PRESS
+            R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356    327
+
+
+Solving for U o and letting D-0; we obtain
+              qe ðyÞ
+      Uo ¼             U d:                                                                 ð2Þ
+            qe ðyÞ þ r
+Eq. (2) illustrates the relation between the entrepreneur’s overall utility U o and his
+deal utility U d : The overall utility is the discounted expected utility from searching
+or, alternatively, the utility from a deal minus the expected cost of delay.
+Accordingly, it holds that U o oU d : Moreover, by (2) the difference between U d
+and U o is smaller the smaller is the discount rate r and the greater is the speed of
+matching qe ðyÞ: Rearranging (2) yields the asset value equation
+      rU o ¼ qe ðyÞðU d  U o Þ:                                                            ð3Þ
+Similarly, the venture capitalist’s outside option V o is given by the asset value
+equation
+      rV o ¼ qv ðyÞðV d  V o Þ;                                                            ð4Þ
+which implies that the venture capitalist can invest funds at the interest rate r while
+searching for an investment opportunity.
+   To close the model, we need to specify what the inﬂows and outﬂows are.
+Stationarity requires that the inﬂow of venture capitalists and entrepreneurs matches
+their respective outﬂow. Let mv and me denote the measure of venture capitalists and
+entrepreneurs arriving in the market over one unit of time. The inﬂows mv and me are
+fully, and uniquely, determined by the stationarity conditions mv ¼ qv ðyÞMv and
+me ¼ qe ðyÞMe ; respectively. Accordingly, the model is fully pinned down by its
+stocks: The stocks Mv and Me determine (i) the level of capital market competition
+y  Mv =Me ; (ii) the size of the market, (iii) the outﬂows qv ðyÞMv and qe ðyÞMe ; (iv)
+the inﬂows mv and me ; and (v) the equilibrium values of V d ; U d ; V o ; U o ; and s (see
+Proposition 1 below).
+
+2.4. Equilibrium conditions
+
+  The following deﬁnition summarizes the equilibrium conditions.
+
+Capital market equilibrium. An equilibrium is characterized by the following
+conditions:
+  (i) the deal utilities ðV d ; U d Þ maximize the Nash product ½V  V o Z ½CðV Þ  U o 1Z ;
+ (ii) the outside options ðV o ; U o Þ satisfy the asset value equations (3)–(4); and
+(iii) the flows and stocks of entrepreneurs and venture capitalists, ðme ; mv Þ and
+      ðMe ; Mv Þ; satisfy the stationarity conditions qv ðyÞMv ¼ mv and qe ðyÞMe ¼ me :
+
+  The equilibrium is the solution to a system of four equations: the ﬁrst-order
+condition characterizing the bargaining solution (1), the asset value equations (3)
+and (4), and the identity U d  CðV d Þ: In the bargaining solution, the deal utilities
+V d and U d are a function of the outside options V o and U o : Conversely, in the
+asset value equations, outside options are a function of the deal utilities. Inserting
+                                  ARTICLE IN PRESS
+328          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+(3)–(4) into (1), we obtain
+          r þ qv ðyÞ               Vd
+      b              ¼ C0 ðV d Þ        ;                                                  ð5Þ
+          r þ qe ðyÞ              CðV d Þ
+which implicitly deﬁnes the equilibrium value of V d as a function of y: Inserting the
+solution in U d ¼ CðV d Þ yields the equilibrium value of U d : Finally, inserting V d and
+U d in the asset value equations (3)–(4) yields the equilibrium values of V o and U o :
+
+
+3. Value creation in start-ups
+
+3.1. Equity shares, individual utilities, and value creation
+
+  The following proposition characterizes how individual utilities and the value
+created in start-ups depend on the level of capital market competition.
+
+Proposition 1. For each level of capital market competition y there exists a unique
+equilibrium. The venture capitalist’s equity share s; deal utility V d ; and overall utility
+V o are all decreasing in y: The reverse is true for the entrepreneur. The total value
+created in the start-up V d þ U d is first increasing and then decreasing in y:
+
+   Deal utilities and overall utilities move in the same direction. Consider, for
+instance, the entrepreneur. An increase in capital market competition makes it easier
+for the entrepreneur to obtain ﬁnancing, which reduces his cost of delay. The
+entrepreneur’s outside option U o therefore increases (and the venture capitalist’s
+outside option V o decreases), which implies that the bargaining outcome shifts in
+favor of the entrepreneur. Consequently, the entrepreneur’s deal utility U d increases
+and the venture capitalist’s deal utility decreases. The increase in U d ; in turn, feeds
+back into the search market dynamics. As the utility from doing a deal has gone up,
+searching for a deal becomes more valuable. The overall utility U o therefore
+increases again, and so on. This process continues until a steady-state equilibrium is
+reached. Consequently, an increase in y corresponds to a move along the contract
+frontier from the right to the left.
+   The rest follows from the construction of the contract frontier. As we move along
+the frontier counterclockwise, the venture capitalist’s equity share s decreases. This
+weakens the venture capitalist’s incentives and improves the entrepreneur’s
+incentives. The total effect depends on the current level of s and its relation to the
+efﬁcient sharing rule s#: If s > s#; a reduction in s increases the total value created in the
+start-up V d þ U d : If s ¼ s#; the value created in the start-up attains its maximum.
+Finally, if so#s; a reduction in s decreases the total value created in the start-up.
+
+3.2. Pre- and post-money valuation
+
+  A measure of the ﬁrm’s value commonly used in the industry is the post-money
+valuation. The post-money valuation is an implied value calculated on the basis of
+                                      ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                   329
+
+
+the venture capitalist’s equity share. If the venture capitalist pays I in return for a
+share s; the post-money valuation is L  I=s: Thepre-money valuation is given by
+G  L  I ¼ Ið1  sÞ=s: Post- and pre-money valuations are used as measures of the
+ﬁrm’s and entrepreneur’s NPV, respectively. By Proposition 1, the venture
+capitalist’s equity share is inversely related to the degree of capital market
+competition y: This immediately yields the following result.
+
+Proposition 2. Both the pre-money valuation and the post-money valuation are
+increasing in the level of capital market competition y:
+
+  Hellmann (2002) argues that this notion of valuation used in the industry is
+potentially ﬂawed. Our model supports this critique. First, the formula for the post-
+money valuation sL ¼ I is based on the idea that the venture capitalist just breaks
+even on her investment. By contrast, our model shows that in a competitive market
+with frictions and moral hazard, venture capitalists receive strictly more than they
+invest. On the one hand, venture capitalists need to be compensated for their effort
+costs. Moreover, and more important, depending on the level of capital market
+competition, venture capitalists typically earn a bargaining premium. In our model,
+the venture capitalist’s deal utility is V d ¼ spXh  gðaÞ  I > V o : Hence the value of
+the venture capitalist’s equity share, spXh ; strictly exceeds the combined effort and
+investment cost, gðaÞ þ I:
+  Besides, our model suggests that the post-money valuation is a poor indicator of
+NPV. Holding I ﬁxed, the valuation varies mechanically with the venture capitalist’s
+equity share s: The equity share, in turn, is determined by bargaining. If anything,
+the valuation thus reﬂects relative bargaining powers, not NPV. The notion that the
+valuation reﬂects relative bargaining powers is consistent with empirical evidence by
+Gompers and Lerner (2000) documenting a positive relation between the valuation
+of new ventures and capital market competition.6
+  For the reasons just mentioned, value and valuation practically never coincide.
+The exact relation between value and valuation depends on the functional and
+numerical speciﬁcations of the model. An example is given in Fig. 2. The example is
+based on the linear production technology pðe; aÞ ¼ ga þ ð1  gÞe with effort cost
+functions cðeÞ ¼ e2 =2ae and gðaÞ ¼ a2 =2av and Cobb-Douglas matching technology
+xðMe ; Mv Þ ¼ x½Me Mv 0:5 : The numerical values are Xh ¼ 0:5; I ¼ 0:01; ae ¼ av ¼
+b ¼ 1; r ¼ 0:1 (implying a 10% interest rate), g ¼ 0:5; and x ¼ 50:7 In the example,
+the post-money valuation L understates the total value V d þ U d if yo12:4
+
+
+  6
+     Bartlett (2002) also suggests that the valuation is an indicator of bargaining power rather than ﬁrm
+value: ‘‘The discussion starts out with the issue of valuation. The entrepreneur and his or her advisors lay
+on the table a number, based on art as much as science, and suggest that the venture capitalist agree with
+it. ... The price, in other words, is usually left to naked negotiations between the buy and the sell side.’’
+   7
+     If r is the annual interest rate, the expected arrival time of a deal is qe ðyÞ ¼ y0:5 =50 years for the
+entrepreneur and qv ðyÞ ¼ y0:5 =50 years for the venture capitalist. For instance, if y ¼ 1 it takes 7.3 days for
+either side to ﬁnd a counterparty. By contrast, if y ¼ 10 it takes 2.3 days for an entrepreneur but 23 days
+for a venture capitalist.
+                                          ARTICLE IN PRESS
+330           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+                         U+V, Λ
+                     0.06
+
+                     0.05
+
+                     0.04
+                                                                            U(s)+V(s)
+                     0.03
+
+                     0.02
+                                                                            Λ (s)
+                     0.01
+                             0.2           0.4         0.6            0.8               1
+                        0                                                                   s
+
+
+                       10
+
+                       20
+                                   s(θ)
+                       30
+
+                       40
+
+                       50
+
+                       60
+                            θ
+
+Fig. 2. Total value created in the start-up, U þ V ; and post-money valuation L as a function of the
+venture capitalist’s equity share s; which in turn is a function of the level of capital market competition y:
+The functional and numerical speciﬁcations are given in Section 3.2. The set of Pareto-optimal equity
+shares is sA½0:175; 1: U þ V and L intersect at sE0:29; or yE12:4: If yo12:4 the valuation L understates
+the true value created in the start-up, while if y > 12:4 it overstates it. The graph of sðyÞ has been curtailed
+at y ¼ 60 for expositional purposes.
+
+
+(or s > 0:29), i.e., if capital market competition is low, and overstates it if y > 12:4
+(or so0:29), i.e., if capital market competition is high.
+
+3.3. Market value and success probability
+
+  The total value created in the start-up, V d þ U d ; takes into account both
+investment and effort costs. By contrast, the (interim) market value pXh is the
+expected value of the ﬁrm after effort and investment costs are sunk but before cash
+ﬂows are realized. It is what the entrepreneur and venture capitalist would receive if
+the ﬁrm were sold at an interim date. As Xh is a constant, the functional behavior of
+pXh is identical to that of the success probability pðe; aÞ:
+  Unlike the total value V d þ U d ; the relation between pðe; aÞ and s or y is not
+necessarily characterized by an inverted U-shape. To be precise, the relation depends
+on whether the venture capitalist’s and entrepreneur’s efforts are complements or
+substitutes. To explore this issue in more detail, we consider the CES production
+                                 ARTICLE IN PRESS
+            R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356   331
+                                           1
+technology pðe; aÞ ¼ ½gak þ ð1  gÞek k ; where kp1 and gAð0; 1Þ: The parameter k
+measures the degree of complementarity between the venture capitalist’s and
+entrepreneur’s efforts. If k ¼ 1; the two efforts are perfect substitutes, while if ko1;
+the two efforts are complements. To obtain a closed-form solution, we assume
+quadratic effort costs cðeÞ  e2 =2ae and gðaÞ  a2 =2av ; respectively.
+   Consider ﬁrst the case where the two efforts are complements. It is straightforward
+to show that the success probability is ﬁrst increasing and then decreasing in s; with
+interior maximum
+                                 "             #1=ð1kÞ
+            1                       ae k=2 1  g
+      sp         ; where j                                :
+           1þj                       av        g
+
+Due to the inverse relation between s and y; an increase in y has a positive effect on the
+success probability and market value if y is low and a negative effect if y is high. Note
+that the value of s that maximizes the success probability or market value is generally
+not the same as the value of s that maximizes the total value V d þ U d : The reason is that
+the total value includes effort costs while market value or success probability do not.
+  If efforts are perfect substitutes, the success probability and market value are
+increasing in s (and thus decreasing in y) if the venture capitalist is more productive
+ðjo1Þ and decreasing in s if the entrepreneur is more productive ðj > 1Þ: The
+following proposition summarizes our results.
+
+Proposition 3. Unless efforts are perfect substitutes, the market value and success
+probability are first increasing and then decreasing in the level of capital market
+competition y:
+
+
+4. Industry dynamics
+
+  In the preceding section, we have taken the number of venture capitalists—and
+hence the level of capital market competition y—as exogenously given. We believe
+this is a useful characterization of the short run: ‘‘The skills needed for successful
+venture capital investing are difﬁcult and time-consuming to acquire. During periods
+when the supply or demand for venture capital has shifted, adjustments in the
+number of venture capitalists and venture capital organizations appear to take place
+very slowly’’ (Gompers and Lerner, 1999). In the long run, however, the number of
+venture capitalists is endogenous. We now endogenize the entry decision of venture
+capitalists, thereby endogenizing the level of capital market competition.
+
+4.1. Endogenous entry of venture capitalists
+
+  We take as given the ﬂow of new ideas, or projects, that are continuously created
+in the economy. We hence assume that the supply of venture capital(ists) adjusts
+more quickly to changes in market characteristics than the supply of new ideas. In
+Section 5.3 we show that our results continue to hold if both the supply and demand
+for venture capital is endogenous.
+                                ARTICLE IN PRESS
+332        R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+  Each idea is associated with an entrepreneur and cannot be traded. We normalize the
+ﬂow of ideas such that the measure me ¼ 1 of ideas is created in the eco-
+nomy over one unit of time. The inﬂow of capital is determined by a zero-proﬁt
+constraint. We assume that a venture capitalist entering the market incurs a
+ﬁxed cost k > 0: Like any business, setting up a venture capital ﬁrm involves ﬁxed
+costs from setting up a legal structure, hiring experts and support staff, and building a
+network of lawyers, investment bankers, and clients. Costs also arise from the
+fact that during the duration of a venture fund, the capital committed to the fund cannot
+be invested in long-term, illiquid assets. The forgone illiquidity premium represents a
+ﬁxed cost because it is incurred regardless of whether the capital is invested or not.
+  The ﬁrst type of cost is borne by the general partners, while the second type is
+borne by the limited partners. From the perspective of our model, this is not
+important, however, as we treat general and limited partners as a homogeneous
+entity. Moreover, with the exception of Section 4.4, the size of k is irrelevant for our
+analysis. Hence we are perfectly comfortable with the notion that entry costs are
+small, as long as they are positive.
+  Free entry implies that the utility from entry V o must equal the entry cost k: One
+implication of this is that V o > 0: To recoup entry costs, the venture capitalist must
+earn a positive utility in the market. The equilibrium conditions are the same as
+before, except that me ¼ 1 and V o ¼ k: Since V o is monotonic in y; there is a one-to-
+one relation between k and y:
+
+Proposition 4. For each level of entry cost k; there exists a unique equilibrium
+associated with a unique level of capital market competition y:
+
+   Let us brieﬂy state the range of possible equilibrium values. The entry cost k can
+potentially vary from close (but not equal) to zero to the maximum possible deal
+utility V%  v%  I: If k-0; we have from the venture capitalist’s zero-proﬁt constraint
+that V o -0: By (4), this implies that y-N; i.e., the venture capitalist must wait
+increasingly long. On the other hand, if k-V;     % we have y-0; i.e., the venture
+capitalist’s waiting time, or cost of delay, must go to zero to ensure that she breaks
+even. Finally, if y-N; we have from (5) that V d -maxf0; v  Ig and s-maxfs0 ; sg;
+                                                              % if y-0; we have from
+where s0 is implicitly deﬁned by vðs0 Þ ¼ I: On the other hand,                      %
+                 %
+(5) that V -V and s-s%:
+            d
+
+
+4.2. Changes in investment profitability
+
+  One possible explanation for the massive entry of venture funds during the
+Internet bubble is the expectation of high returns. To the extent that the Internet
+caused a genuine increase in productivity, these expectations might have been
+justiﬁed. To some extent, however, it appears that the market initially overreacted.
+Firms that perform well have a strong incentive to make their success public. Poor
+performers, on the other hand, typically keep a low proﬁle. It is possible that the
+market viewed early winners such as eBay or Amazon as representative of the entire
+industry, thereby underestimating the true default risk of dotcoms (Hellmann and
+                                       ARTICLE IN PRESS
+               R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                 333
+
+
+Puri, 2002). Moreover, the market might have not fully taken into account the
+impact of competition on the survival chances of ﬁrms. Even if sector growth was
+predicted correctly, it appears that some ﬁrms were valued as if they were the sole
+competitor in the industry (Lerner, 2002).
+  In the following, we examine the consequences of a change in investment proﬁtability
+caused, e.g., by a technological innovation such as the Internet. From the perspective of
+our model, such a change can be either true or merely perceived. All we require is that
+investors and entrepreneurs share the same perception, i.e., that they have
+homogeneous beliefs. Hence, our model applies equally to situations in which entry
+occurs following a genuine increase in investment proﬁtability as well as to situations in
+which entry occurs because everybody overestimates the true proﬁtability increase.
+
+4.2.1. Expansion of the equity (and contract) frontier
+   Since Xl ¼ 0; a change in investment proﬁtability translates into a change in Xh :
+An increase in Xh shifts the equity frontier outward while a decrease in Xh shifts it
+inward. We assume that along the equity frontier, utilities are separable of the form
+uðXh ; sÞ ¼ wðXh Þoe ðsÞ and vðXh ; sÞ ¼ wðXh Þov ðsÞ; where wðXh Þ and ov ðsÞ are increasing
+functions and oe ðsÞ is a decreasing function. Both the linear technology pðe; aÞ ¼
+ga þ ð1  gÞe and the Cobb-Douglas technology pðe; aÞ ¼ ag e1g introduced earlier
+satisfy this requirement (see Appendix A for details).
+   Geometrically, the various equity frontiers are radial expansions of each other.8
+This has two implications. Consider an increase in Xh while holding s constant. First,
+the ratio of utilities uðXh ; sÞ=vðXh ; sÞ ¼ oe ðsÞ=ov ðsÞ remains unchanged. That is, the
+entrepreneur’s and venture capitalist’s relative utilities from equity shares depend
+only on the way returns are split (i.e., on the sharing rule s), but not on absolute
+returns. Second, the slope of the equity frontier (and thus also the slope of the
+contract frontier C0 ),
+
+                       duðXh ; sÞ @uðXh ; sÞ=@s o0e ðsÞ
+       c0 ðXh ; sÞ ¼             ¼             ¼        ;                                                   ð6Þ
+                       dvðXh ; sÞ @vðXh ; sÞ=@s o0v ðsÞ
+
+is a function of s only and remains therefore unchanged following an increase in Xh :9
+  8
+     The concept of a radial expansion is well known from microeconomic demand and production theory.
+If a utility or production function is homogeneous (of arbitrary degree), its level sets (i.e., indifference
+curves or isoquants) are radial expansions of each other.
+   9
+     This implies that our results continue to hold if Xh is a random variable that is realized after the
+contract is signed but before efforts are made. (If Xh is realized after efforts are made, our results hold
+trivially.) In principle, the optimal contract can take the form of a menu prescribing a different value of s
+for each realization of Xh : By standard arguments, the optimal menu will equate the ratio of marginal
+utilities across different states of nature:
+      @UðXhi ; si Þ=@s @UðXhj ; sj Þ=@s
+                      ¼                 ;
+      @VðXhi ; si Þ=@s @VðXhj ; sj Þ=@s
+where iaj; implying that C0 ðXhi ; si Þ ¼ C0 ðXhj ; sj Þ: Given our assumption of separability, the slope of the
+contract frontier C0 is independent of Xh : Moreover, each slope C0 is associated with a unique value of s:
+Together, this implies that si ¼ sj : Hence the optimal menu consists of a single sharing rule s; which implies
+all our results continue to hold. We thank the referee for pointing this out.
+                                  ARTICLE IN PRESS
+334          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+   The increase in Xh is depicted in Fig. 3 (upper picture). The (dashed) equity
+frontier shifts outward from EF1 to EF2 : Holding s constant, we move along the
+dashed line as indicated by the arrow. Consequently, the utility ratio u=v remains
+constant. This is the ﬁrst of the two properties stated in the previous paragraph. The
+second is that the slopes of EF1 and EF2 are identical along the dashed line. This
+second property has a simple economic interpretation. The slope of the equity
+frontier, c0 ¼ ð@u=@sÞ=ð@v=@sÞ; captures the fundamental tradeoff underlying the
+double-sided incentive problem: A marginal increase in s increases the venture
+capitalist’s utility by @v=@s but reduces the entrepreneur’s utility by @u=@s: The fact
+that the slope remains constant following a shift in Xh implies that this tradeoff is
+independent of absolute return levels.
+
+4.2.2. Short-run analysis
+   We now consider the equilibrium effect of a change in investment proﬁtability. We
+begin with the short run where the number of venture capitalists, and hence the level
+of capital market competition y; is ﬁxed. Subsequently, we consider the long run
+where entry is endogenous, and where the supply of capital can adjust freely in
+response to changes in investment proﬁtability.
+   Consider again Fig. 3 (upper picture). For expositional convenience, we have
+broken up the short-run effect into two effects. The ﬁrst effect (marked ‘‘1’’) depicts
+the increase in Xh while s is held constant. Along with the equity frontier, the (bold)
+contract frontier shifts outward from CF1 to CF2 : As can be easily seen, the two
+contract frontiers are not radial expansions of each other. That is, if we increase Xh
+while holding s constant, we do not move along the (dotted) line going through the
+origin. Instead, we move along the bold line as indicated by the arrow. Along the
+bold line, the two frontiers CF1 and CF2 have the same slope, a property that was
+deﬁned in (6).
+   The second effect (marked ‘‘2’’) depicts the adjustment in the venture capitalist’s
+equity share s as a move along the new contract frontier CF2 from the right to the
+left, implying a decrease in s: To understand this effect, consider Eq. (5), which
+characterizes the short-run equilibrium:
+          r þ qv ðyÞ               Vd
+      b              ¼ C0 ðXh ; sÞ d :                                                     ð7Þ
+          r þ qe ðyÞ               U
+Under the ﬁrst effect, the slope C0 ðXh ; sÞ remains unchanged. However, Xh —and
+therefore also wðXh Þ—has increased, which implies that the utility ratio
+      V d ov ðsÞ        I
+        d
+          ¼                                                                                ð8Þ
+      U     oe ðsÞ wðXh Þoe ðsÞ
+must have also increased. Accordingly, under the ﬁrst effect the right-hand side in (7)
+has increased. By contrast, the left-hand side remains constant since y is ﬁxed in the
+short run. To restore the equality in (7), the second effect must therefore bring the
+right-hand side in (7), C0 V d =U d ; back to its original level. But this implies that s
+must decrease, for both C0 and V d =U d are increasing in s: Hence the second effect
+                                     ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                335
+
+                                      U,u
+
+
+                                                CF2
+
+                                                                  3
+                                                                      2
+
+
+                                              CF1                              EF2
+                                                          1
+
+                                                                  EF1
+                                                                           I
+                                                              I
+
+
+                                                                                       V,v
+                                I
+
+                                      U,u
+
+
+                                                CF1
+
+
+
+
+                                                      1
+                                              CF2
+
+
+                                              2+3
+
+
+
+
+                                                                                       V,v
+
+Fig. 3. Short- and long-run effects of an increase (upper picture) and decrease (lower picture) in
+investment proﬁtability. The upper picture depicts both the change in the (dashed) equity frontier and
+(bold) contract frontier, while the lower picture depicts only the change in the contract frontier. An
+increase in investment proﬁtability shifts both the equity and contract frontier outward, from EF1 to EF2
+and from CF1 to CF2 ; respectively. Effects 1 and 2 together constitute the short-run effect. Effect 3 depicts
+the additional adjustment in the venture capitalist’s equity share that occurs in the long run. Effects 1–3
+together constitute the total, i.e., long-run, effect.
+
+
+
+must involve a decrease in s corresponding to a leftward move along the new
+contract frontier CF2 :
+   This leftward move along CF2 must end before the dotted line, which is the line
+along which V =U is constant. In other words, the short-run equilibrium must lie on
+CF2 between the bold and dotted line. To see this, suppose to the contrary that the
+short-run equilibrium lies on the dotted line. In this case, V =U remains unchanged
+while C0 has decreased, violating (7). Similarly, the short-run equilibrium cannot
+lie to the left of the dotted line, for this implies that both V =U and C0 have
+decreased, again violating (7). In the short run, both V d and U d must therefore
+increase, s must decrease, and V d =U d must increase.
+                                  ARTICLE IN PRESS
+336          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+   Let us rephrase the argument for why s must decrease slightly. Suppose, contrary
+to what is true, s remains constant. (The argument for why s cannot increase is
+similar.) Since the various equity frontiers are radial expansions of each other, u and
+v will increase by the same factor. The contract frontiers, on the other hand, are not
+radial expansions of each other: If u and v increase by the same factor—thereby
+leaving u=v constant—the ratio V =U ¼ ðv  IÞ=u increases. At the same time, the
+slope of the equity frontier—and thus the slope of the contract frontier, C0 —remains
+unchanged. But this violates the requirement that in the short run the ratio of
+elasticities
+          ð@UðXh ; sÞ=@sÞ V d       0V
+                                       d
+                              ¼ C
+          ð@V ðXh ; sÞ=@sÞ U d       Ud
+must remain constant. (This follows directly from combining (7) and (8)). The only
+way this requirement can be satisﬁed given an increase in Xh is if V =U increases and
+C0 decreases at the same time, which corresponds to a decrease in s:
+
+4.2.3. Long-run analysis
+   In the short run, an increase in Xh increases the venture capitalist’s deal utility V d ;
+thereby raising her overall utility V o above the entry cost k: In the long run, the zero-
+proﬁt constraint V o ¼ k must bind. To restore this equality, new entry must occur,
+implying that the degree of capital market competition y must increase. This increase
+in y; in turn, feeds back into the bargaining solution. As the venture capitalist’s
+outside option remains ﬁxed at V o ¼ k; the increase in y must show up as an increase
+in the entrepreneur’s outside option U o : The end result is a further decline in the
+venture capitalist’s equity share s: On top of the short-run effect described above, we
+thus have the additional effect that y increases, coupled with a (further) decrease in s:
+   In Fig. 3, the additional adjustment effect is marked ‘‘3.’’ The total, i.e., long-run
+effect is obtained by adding effects 1–3. Unlike the short run, we cannot say for sure
+whether the long-run equilibrium lies to the right or left of the dotted line along
+which V =U is constant. We do know, however, that (i) s has decreased, and (ii) the
+venture capitalist’s deal utility V d has increased. The second statement follows from
+the fact that y—and therefore the venture capitalist’s cost of delay—has increased,
+while at the same time her overall utility V o remains ﬁxed at V o ¼ k: Together, (i)
+and (ii) imply that the new long-run equilibrium must lie on CF2 between the bold
+line and a vertical line going through the old equilibrium point (i.e., the point where
+the bold and dotted lines intersect). The following proposition summarizes our
+results. ‘‘Short run’’ refers to effects 1–2 while ‘‘long run’’ refers to effects 1–3.
+
+Proposition 5. An increase in investment profitability has the following effects.
+
+ ðiÞ In the short run, the level of capital market competition y remains constant. The
+     deal and overall utilities V d ; U d ; V o ; and U o all increase, while the venture
+     capitalist’s equity share s decreases.
+ðiiÞ In the long run, new entry occurs until the zero-profit condition V o ¼ k is restored.
+     As a result, y; V d ; U d ; and U o all increase, V o remains constant, and s decreases.
+                                    ARTICLE IN PRESS
+             R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356             337
+
+
+4.2.4. Value and valuation
+  Combining Proposition 5 with Propositions 1 and 2, we obtain the following
+result.
+
+Proposition 6. An increase in investment profitability increases the total value created
+in the start-up, V d þ U d ; as well as the pre- and post-money valuation, both in the short
+and long run.
+
+
+4.2.5. Internet boom and bust
+  Fig. 3 provides a useful, albeit stylized, picture of the effects associated with the
+Internet boom and bust periods of the 1990s and early 2000s, respectively. There is
+no doubt that the Internet boom involved an increase in venture capital returns,
+which is captured by the outward shift of the contract frontier (upper picture). This
+increase in returns, in turn, led to massive entry both by professional venture capital
+organizations and would-be venture capitalists from Wall Street.10 The consequence
+was a rise in valuations, as documented by Gompers and Lerner (2000). As argued
+earlier, it is possible that the market initially overestimated the true increase in
+investment returns associated with the Internet. As the ﬁrst ﬁrms went bankrupt, the
+market corrected its initial assessment, which is captured by the inward shift of the
+contract frontier (bottom picture). This caused a fall in valuations and led to exit by
+many investors.
+  According to this view, the initial outward shift of the contract fontier could reﬂect
+both a genuine increase in investment proﬁtability and a possible overreaction by
+market participants. (Our model is consistent with both interpretations; see
+our earlier remarks at the beginning of Section 4.2.) The subsequent inward shift,
+on the other hand, could be viewed a correction of this initial overreaction. As
+argued by Hellmann and Puri (2002) and others (e.g., Business Week, ‘‘Innovation
+Drought,’’ July 9, 2001), this correction might itself constitute an overreaction,
+however.
+
+4.2.6. Speed of matching
+  A change in investment proﬁtability also affects the speed of matching and hence
+the expected delay incurred by market participants. Consider the long-run effect of
+an increase in investment proﬁtability described in Proposition 5. The associated
+increase in capital market competition makes it easier for an entrepreneur to obtain
+ﬁnancing, which implies that the entrepreneur’s deal arrival rate qe ðyÞ increases.
+Conversely, the increase in competition makes it tougher for a venture capitalist to
+ﬁnd a deal, which implies that qv ðyÞ decreases. This is summarized in the following
+proposition.
+
+  10
+    The Economist (‘‘Money to Burn,’’ May 27, 2000) notes: ‘‘A host of new entrants are now dabbling in
+venture capital, ranging from ad hoc groups of MBAs to blue-blooded investment banks such as J.P.
+Morgan, to sports stars and even the CIA.’’ For a critical assessment of this trend, see Hellmann and Puri
+(2002).
+                                 ARTICLE IN PRESS
+338         R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+Proposition 7. An increase in investment profitability increases the speed of matching
+for the entrepreneur and reduces the speed of matching for the venture capitalist
+
+4.3. Changes in entry costs
+
+   Entry costs can change over time. For instance, prior to the Department of
+Labor’s adjustment of the ‘‘prudent man rule’’ in 1979, pension funds were not
+allowed to invest in venture capital, while after 1979 they were. For a large segment
+of the U.S. ﬁnancial market, the cost of providing venture capital thus dropped from
+inﬁnity to a reasonable number. As a consequence, the supply of venture capital
+increased sharply (Fenn et al., 1995). Another example is the massive entry of
+inexperienced players into the venture capital industry during the Internet boom.
+One interpretation is that entry costs have fallen. After all, it takes less skill to advise
+a company selling dog food over the Internet than to advise a PC manufacturer.
+   Consider a decrease in entry costs. By the zero-proﬁt constraint V o ¼ k; a decrease
+in k implies that the venture capitalist’s overall utility V o must decrease by the same
+amount. Since V o and y are inversely related by Proposition 1, this in turn implies
+that the level of capital market competition y must increase. The effects on individual
+utilities, equity shares, the total value created in start-ups, market value, success
+probability, and pre- and post-money valuation then follow immediately from
+Propositions 1–3.
+
+Proposition 8. A decrease in entry costs increases the level of capital market
+competition y:
+
+4.4. Changes in capital market transparency
+
+   Technological innovations such as the Internet, but also the regional concentra-
+tion of venture capitalists in Silicon Valley and Boston’s Route 128, arguably had a
+positive effect on the transparency of the venture capital market. To explore the role
+of transparency, we extend the matching function as follows. The mass of deals per
+unit of time is xðMe ; Mv ; xÞ; where x is a real-valued transparency parameter, and
+where dx=dx > 0 implies that an increase in transparency makes matching easier. In
+particular, it holds that @qe ðy; xÞ=@x > 0 and @qv ðy; xÞ=@x > 0; i.e., an increase in
+transparency speeds up the matching process for both sides.
+   As an example, consider the Cobb-Douglas matching technology xðMe ; Mv ; xÞ ¼
+x½Me Mv 0:5 : Given this speciﬁcation, arrival rates are qe ðy; xÞ ¼ xy0:5 and qv ðy; xÞ ¼
+xy0:5 ; respectively.
+
+4.4.1. Short-run analysis
+  We begin with the short run, where the degree of capital market competition is
+ﬁxed. Subsequently, we consider the long-run equilibrium where entry is
+endogenous.
+  The short-run effect of an increase in capital market transparency is to amplify the
+role of relative market power for the bargaining outcome. Inserting the asset value
+                                     ARTICLE IN PRESS
+               R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356               339
+
+
+equations (3)–(4) in the ﬁrst-order condition characterizing the bargaining outcome
+(1) yields
+           r þ qv ðy; xÞ               Vd
+       b                 ¼ C0 ðV d Þ         :                                                           ð9Þ
+           r þ qe ðy; xÞ              CðV d Þ
+Implicitly differentiating V d with respect to x shows that if y  Mv =Me o1; i.e., if
+venture capitalists constitute the short side of the market, an increase in capital
+market transparency improves the venture capitalist’s deal utility.11 If y > 1; the
+opposite is true.
+   In addition to this ampliﬁcation effect, there is the direct effect that an increase in
+transparency speeds up the matching process. Together, these two effects jointly
+determine the overall utilities V o and U o : As an illustration, consider the asset value
+equation (4) characterizing the equilibrium relation between the venture capitalist’s
+deal utility V d and her overall utility V o :
+                  qv ðy; xÞ
+       Vo ¼                   V d:                                                                      ð10Þ
+                r þ qv ðy; xÞ
+The direct effect is that qv ðy; xÞ=½r þ qv ðy; xÞ is increasing in x: The ampliﬁcation
+effect is that V d is either increasing or decreasing in x; depending on whether venture
+capitalists constitute the short or the long side of the market. Hence if yo1 both
+effects go in the same direction, and an increase in x unambiguously increases V o : By
+contrast, if y > 1 the two effects go in different directions. Similarly, if y > 1 an
+increase in x increases U o ; while if yo1 the effect is ambiguous.
+
+4.4.2. Long-run analysis
+   In the short run, an increase in capital market transparency either increases or
+decreases V d ; depending on whether venture capitalists constitute the short or long
+side of the market. By contrast, in the long run V d must decrease. Consider again
+Eq. (10). Since V o ¼ k; the left-hand side is a constant. Moreover, qv ðy; xÞ=½r þ
+qv ðy; xÞ is increasing in x but decreasing in y: Therefore, to offset the increase in x;
+either y must increase or V d must decrease, or both. But if y increases, V d decreases
+as well. No matter what happens to y; an increase in transparency therefore
+decreases the venture capitalist’s deal utility V d : Naturally, this implies that s
+decreases, while the entrepreneur’s deal utility U d and outside option U o both
+increase.
+   Finally, an increase in transparency improves the speed of matching and reduces
+the cost of delay. As far as the venture capitalist is concerned, this follows from the
+fact that V d decreases while V o remains constant. As for the entrepreneur, consider
+again Eq. (9). If V d decreases and qv ðy; xÞ increases, the entrepreneur’s speed of
+matching qe ðy; xÞ must increase.
+   The following proposition summarizes the effect of a change in capital market
+transparency. The effects on pre- and post-money valuation, market value, and
+  11
+     More precisely, since C0 o0 and C00 o0 we have that dV d =dx > 0 if and only if the left-hand side in (9)
+is increasing in x: Given that qe ðy; xÞ ¼ yqv ðy; xÞ the result is immediate.
+                                     ARTICLE IN PRESS
+340           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+success probability are omitted for the sake of brevity. They follow immediately
+from combining Proposition 9 with Propositions 2–3.
+
+Proposition 9. An increase in capital market transparency has the following effects.
+  ðiÞ In the short run, the level of capital market competition y remains constant. If
+      yo1; the venture capitalist’s deal utility V d ; equity share s; and overall utility V o
+      all increase, while the entrepreneur’s deal utility U d decreases. The effect on U o is
+      ambiguous. If y > 1; the reverse holds.
+ ðiiÞ In the long run, V o is determined by the zero-profit constraint V o ¼ k: Moreover,
+      V d and s both decrease while U d and U o both increase.
+ðiiiÞ Both in the short and long run, the entrepreneur’s and venture capitalist’s speed of
+      matching increase.
+
+
+5. Discussion and robustness
+
+   In this section, we reconsider various assumptions of our model. In Section 5.1, we
+relax the assumption that the project payoff is zero in the bad state. In Section 5.2,
+we allow for nondistortionary transfers, or wage payments, from the venture
+capitalist to the entrepreneur. In Section 5.3, we allow for endogenous entry by
+both venture capitalists and entrepreneurs. In Section 5.4, we reconsider the
+assumption that the matching technology exhibits constant returns to scale. Finally,
+in Section 5.5, we examine the welfare and policy implications of our model.
+
+5.1. Safe project payoff
+
+   Adding a safe payoff Xl > 0 has no qualitative effects on our model. By deﬁnition,
+the equity frontier cðvÞ remains unchanged. The contract frontier CðV Þ; on the other
+hand, changes. In the following, we sketch how the contract frontier and our results
+need to be modiﬁed if Xl > 0: Formal proofs are found in the working paper version
+(Inderst and M .uller, 2002). The proofs are analogous to those in the base model.
+
+5.1.1. Construction of the contract frontier
+   If Xl > 0; the project payoff can be decomposed into two parts: a safe, state-
+independent claim Xl and a risky claim whose value is zero with probability 1  p and
+Xh  Xl with probability p: With the usual degree of caution, we shall label these claims
+debt and equity, respectively. For our model, such labeling is not important, however.
+All that matters is that one claim has incentive effects while the other has not. To
+minimize the amount of notation, we continue to denote the venture capitalist’s equity
+share by sA½0; 1: The amount of debt held by the venture capitalist is DA½0; Xl :12 Deal
+utilities are Uðs; DÞ  uðsÞ þ Xl  D and V ðs; DÞ  vðsÞ þ D  I; respectively.
+  12
+    This rules out that an agent receives a higher payment in the bad state than in the good state. It is easy
+to show that such contracts are never optimal.
+                                 ARTICLE IN PRESS
+            R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356   341
+
+
+   The modiﬁed contract frontier is depicted in Fig. 4. It is constructed from the
+equity frontier by adding the debt in a way that minimizes incentive distortions.
+Suppose, for instance, that s > s#; implying that the venture capitalist holds too much
+equity relative to the efﬁcient benchmark. Any Pareto-optimal contract where s > s#
+must also have D ¼ Xl ; i.e., the venture capitalist must hold the entire debt. If this
+was not the case, a Pareto improvement would be possible whereby the entrepreneur
+trades in his debt for a greater share of the equity. Similarly, if so#s the entrepreneur
+must hold the entire debt, while if s ¼ s# any debt allocation is Pareto optimal.
+
+5.1.2. Equilibrium analysis
+   There are two main differences between the new contract frontier and the one in
+the base model. First, adding a nonzero payoff in the bad state is like an increase in
+investment proﬁtability in that it shifts the contract (but not the equity) frontier
+outward. Second, the new contract frontier has a linear, intermediate segment with
+slope equal to minus one. On this segment, the sharing rule—or division of equity
+shares—is efﬁcient, and utility is transferred exclusively by shifting debt. Fig. 4
+depicts how the debt/equity mix varies as we move along the contract frontier from
+the right to the left. In the right segment where s > s#; utility is transferred by reducing
+s: When the efﬁcient allocation s ¼ s# is reached, the venture capitalist transfers utility
+by reducing D; which has no incentive effects. Finally, when D ¼ 0 is reached, the
+left segment begins. The only possible way to transfer utility to the entrepreneur is
+now to reduce s:
+   It is straightforward to show that all our results continue to hold—with minor
+qualiﬁcations. (Regarding the shift in investment proﬁtability analyzed in
+Section 4.2, our results hold regardless of whether the shift occurs as a shift in the
+safe or risky payment.) All results involving the deal utilities U d and V d (but not the
+sum U d þ V d ), the overall utilities U o and V o ; and the speed of matching remain
+unchanged. By contrast, results involving the total value, success probability, market
+value, or pre- and post-money valuation need to be adjusted. Whenever the relation
+between one of these variables and y was previously monotonic, or ﬁrst increasing
+and then decreasing, it now has a ﬂat segment since s is constant for intermediate
+y-values. For instance, the total value U d þ V d is now ﬁrst increasing, then constant,
+and then decreasing in y:
+
+5.2. Wage (or transfer) payments
+
+   The beneﬁt of a safe payoff is that it can be used to transfer utility without
+affecting incentives. A wage, or transfer payment, does exactly the same.
+   We continue to assume that the entrepreneur has no wealth. Hence the venture
+capitalist can pay the entrepreneur a wage, but not vice versa. Fig. 5 depicts the effect
+of a wage payment on the contract frontier. Consider an increase in the level of
+capital market competition y; which implies that we move along the contract frontier
+from the right to the left. In the right, concave segment where s > s#; the optimal way
+to transfer utility to the entrepreneur is to reduce s: Hence for low values of y; wages
+are never used. Wages are only used when the efﬁcient sharing rule s ¼ s# is reached.
+                                       ARTICLE IN PRESS
+342            R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+                                U
+
+
+
+                              Xl
+
+
+
+
+                                                                                V
+                                                            Xl
+                                   s
+
+                                 ŝ
+
+                                   0                                            V
+
+                               D
+
+
+                               Xl
+
+                               0                                               V
+                                                   v̂ − I        v̂ − I X l
+Fig. 4. Contract frontier and optimal contract if there is a safe payoff Xl : Adding a safe payoff shifts the
+contract frontier outward. The contract frontier with Xl > 0 is constructed from that with Xl ¼ 0 as
+follows: The segment where so#s is shifted upward, and the segment where s > s# is shifted rightward by Xl :
+The shifted segments are connected by a straight line with slope minus one. In the picture, s and s# denote
+the venture capitalist’s and second-best equity share, respectively, U and V are the entrepreneur’s and
+venture capitalist’s utilities from Pareto-optimal contracts, respectively, and v#  I is the venture capitalist’s
+utility under the contract ð#s; D ¼ 0Þ; where DA½0; Xl  is the amount of debt held by the venture capitalist.
+The middle and lower pictures show how s and D vary along the (new) contract frontier.
+
+
+The optimal way to transfer utility is then either to reduce D or to raise the
+entrepreneur’s wage. (The two are perfect substitutes.) If the venture capitalist can
+pay a sufﬁciently high wage—as is assumed in Fig. 5—the linear segment of the
+contract frontier extends all the way to the left. On the other hand, if wages are
+limited, the situation is like in Fig. 4. With potentially unlimited wages, some of our
+results change. All results involving the deal utilities U d and V d (but not U d þ V d ),
+the overall utilities U o and V o ; and the speed of matching remain unchanged. By
+contrast, the total value, pre- and post-money valuation, success probability, and
+market value are now constant for high y:
+   While venture capital contracts frequently stipulate a wage, these wages are
+relatively small. The vast bulk of the entrepreneur’s compensation comes in the form
+of ﬁnancial claims. From an empirical perspective, the most plausible scenario is
+therefore Fig. 1 or Fig. 4, not Fig. 5. One possible reason why we do not observe
+large (non-state-contingent) wage payments is that they would attract fraudulent
+                                      ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                  343
+
+
+                               U
+
+
+
+
+                              Xl
+
+
+
+
+                                                                               V
+                                                        Xl
+                                s
+
+                                ŝ
+
+                                0                                              V
+
+                             D-w
+
+
+                              Xl
+
+                                0                                             V
+                                                   v̂ − I    v̂ − I + X l
+
+
+
+
+Fig. 5. Contract frontier and optimal contract if there is a safe payoff Xl and wage payments w are
+potentially unlimited. The construction of the contract frontier with Xl > 0 and w > 0 is similar to Fig. 4,
+except that the left segment where so#s—i.e., where the venture capitalist’s equity share is below the
+second-best equity share—is replaced by a straight line with slope minus one. In the picture, U and V are
+the entrepreneur’s and venture capitalist’s utilities from Pareto-optimal contracts, respectively, and v#  I is
+the venture capitalist’s utility under the contract ð#s; D  w ¼ 0Þ; where DA½0; Xl  is the amount of debt held
+by the venture capitalist. (Wages and debt are perfect substitutes, which implies that only the difference
+D  w is uniquely determined.)
+
+
+
+
+entrepreneurs, or ‘‘ﬂy-by-night operators’’ (Rajan, 1992; von Thadden, 1995;
+Hellmann, 2002). Another reason are incentive problems between the venture
+capitalist and limited partners (Holmstr .om and Tirole, 1997). To mitigate the
+incentive problem, the venture capitalist will generally have to put up a fraction of
+her own wealth, which naturally puts an upper bound on the wage that she can pay
+to the entrepreneur.
+                                 ARTICLE IN PRESS
+344         R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+5.3. Endogenous entry of venture capitalists and entrepreneurs
+
+   All our results extend to the case where entry by both venture capitalists and
+entrepreneurs is endogenous, provided entrepreneurs face heterogeneous entry costs.
+(If venture capitalists and entrepreneurs both have homogeneous entry costs, the
+economy is not well deﬁned.) We continue to assume that the mass one of new ideas
+is created per unit of time. To transform an idea into a viable project, an
+entrepreneur must now pay an upfront cost of b; however. This includes patent fees
+as well as the cost of setting up a ﬁrm. We assume that b varies from entrepreneur to
+entrepreneur. For simplicity, we assume that b is the realization of a random draw
+from the continuous distribution function GðbÞ with support ½0; NÞ: Entrepreneurs
+thus differ only with respect to their entry cost. Once they enter the market, all
+entrepreneurs are identical.
+   By (2), the overall utility of an entrepreneur from entering the market is
+               qe ðyÞ
+      Uo ¼              U d:                                                               ð11Þ
+             qe ðyÞ þ r
+Consequently, there exists a unique threshold b%  qe ðyÞU d =ðqe ðyÞ þ rÞ such that all
+entrepreneurs with entry cost bpb% enter while those with entry cost b > b% stay out.
+Note that, unlike venture capitalists, entrepreneurs with entry cost bob% make a
+positive proﬁt. Only the marginal entrant whose entry cost is b ¼ b% makes no proﬁt.
+To keep the market stationary, the measure of entrepreneurs entering the market
+must equal the measure of entrepreneurs leaving the market, i.e., GðbÞ            %  me ¼
+qe ðyÞMe :
+   The inﬂow of entrepreneurs, GðbÞ;     % is increasing in the level of capital market
+competition y: A higher value of y implies a higher value of qe ðyÞU d =ðqe ðyÞ þ rÞ;
+which in turn implies a higher b% and therefore a higher GðbÞ:     % In other words, the
+supply of entrepreneurs (or new ideas) is upward sloping in y: The supply of venture
+capital(ists), on the other hand, is perfectly elastic: If y is low such that V o ðyÞ > k;
+new entry of venture capitalists occurs—thereby driving up y—until the equality
+V o ðyÞ ¼ k is restored. Similarly, if V o ðyÞok; exit by venture capitalists drives y down
+until V o ðyÞ ¼ k is restored. The entry cost of venture capitalists, k; thus (again)
+uniquely pins down the equilibrium level of y: The equilibrium level of y; in turn,
+uniquely pins down the inﬂow of entrepreneurs, GðbÞ:      %
+             %
+   Since GðbÞ is endogenous, no new constraints have been added. Consequently, all
+our results remain unchanged. As an example, consider, the increase in investment
+proﬁtability examined in Section 4.2 and illustrated in Fig. 3. By deﬁnition, the
+short-run effects 1 and 2 remain the same: Both the deal utilities U d and V d as well
+as the overall utilities U o and V o increase. What is new is that this increase in utilities
+now triggers new entry by both venture capitalists and entrepreneurs. And yet, the
+overall effect is unambiguous: The level of capital market competition y must
+increase by the same amount as in the base model (effect 3). That is, we must arrive
+at exactly the same end point in Fig. 3, with the same sharing rule s and the same
+value and valuation. Intuitively, since capital supply is perfectly elastic, the
+equilibrium is again uniquely (and solely) determined by the venture capitalists’
+                                ARTICLE IN PRESS
+           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356   345
+
+
+zero-proﬁt constraint V o ðyÞ ¼ k: Since k is the same as in the base model, the
+corresponding increase in y must also be the same.
+
+5.4. Constant-returns-to-scale matching technology
+
+   A convenient, but potentially limiting, assumption of our model is that the
+matching function exhibits constant returns to scale. This implies that qv ðyÞ 
+xðMe ; Mv Þ=Mv ¼ xðMe =Mv ; 1Þ ¼ xðy; 1Þ; i.e., the arrival rate of a deal for a venture
+capitalist depends solely on the relative numbers of entrepreneurs and venture
+capitalists in the market, not on the absolute market size. The same is true for the
+entrepreneur’s arrival rate. This has the somewhat counterfactual implication that
+when Me and Mv increase by the same factor, the matching probability remains
+constant even though the market becomes bigger, and thus potentially more liquid.
+   If capital market competition is endogenous, the assumption of constant
+returns to scale is innocuous. That is, all our results continue to hold if the
+matching function exhibits decreasing or increasing returns to scale. All we need is
+that xðMe ; Mv Þ is increasing in both arguments. The intuition is simple. With
+endogenous entry we have xðMe ; Mv Þ ¼ me ¼ 1; implying that dMv =dMe ¼
+ð@x=@Me Þ=ð@x=@Mv Þo0: Hence Mv and Me are inversely related, which implies
+that for every feasible pair ðMv ; Me Þ there is a unique y: Once again, qv ðMv ; Me Þ and
+qe ðMv ; Me Þ are then fully determined by y; with q0v ðyÞo0 and q0e ðyÞ > 0:
+   This is not true if capital market competition is exogenous. As ﬂows and stocks
+can always be scaled accordingly (see Section 2.3), there exists an additional degree
+of freedom. This introduces a potentially countervailing effect. For example, suppose
+Me and Mv both increase such that y increases. With constant returns to scale, qe
+increases while qv decreases. With increasing returns to scale, however, the increase
+in both Me and Mv improves the matching chances of both agents. While this
+reinforces the positive effect on qe ; it runs counter to the negative effect on qv : The
+total effect is ambiguous and depends on the matching technology. For a further
+discussion of the matching function and its microfoundations, see Petrongolo and
+Pissarides (2001).
+
+5.5. Welfare and policy implications
+
+   Unless the level of capital market competition y is such that equity shares are
+exactly s# and 1  s#; the total value V d þ U d is not maximized. Generally, there is no
+reason why free entry should lead to a value-maximizing competition level. The
+reason is that an individual venture capitalist entering the market does not take into
+account the effect of her entry on the overall level of competition, and thus on
+the bargaining outcome and value creation in other start-ups. Depending on whether
+the prevailing level of competition is below or above the value-maximizing level,
+entry entails either a positive or negative contracting externality. The policy
+implication is that a regulator—by affecting the level of capital market competi-
+tion—can improve welfare.
+                                  ARTICLE IN PRESS
+346          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+   The surplus created in start-ups is only one facet of the social surplus. The other is
+the utility loss from search frictions, or cost of delay. A welfare criterion taking into
+account both aspects is the total gains realized by all market participants minus entry
+costs, i.e., V o þ U o  k: Free entry implies that V o ¼ k; which in turn implies that
+social welfare equals the utility realized by a new cohort of entrepreneurs in the
+market U o :
+   As a benchmark, consider a situation with search frictions but no moral hazard.
+The welfare-maximizing competition level is then the one which minimizes search
+frictions. Straightforward calculations show that the welfare-maximizing level of y
+satisﬁes
+          qv ðyÞ q0e ðyÞ r þ qv ðyÞ V d
+                                  ¼    :                                                   ð12Þ
+          q0v ðyÞ qe ðyÞ r þ qe ðyÞ U d
+By contrast, the equilibrium in our model is characterized by
+          r þ qv ðyÞ C0 ðV d Þ d
+      b              ¼         V ;
+          r þ qe ðyÞ   CðV d Þ
+where CðV d Þ ¼ U d : If there is no moral hazard, the bargaining frontier has
+slope C0 ðV d Þ ¼ 1; implying that the equilibrium coincides with the welfare
+maximum if and only if b equals the ratio of elasticities of arrival rates,
+½q0e ðyÞ=qe ðyÞ=½q0v ðyÞ=qv ðyÞ: In the search literature, this is known as Hosios’ condition
+(Hosios, 1990). Except by pure coincidence, this condition will not be satisﬁed.
+However, a regulator can attain the welfare maximum by taxing or subsidizing
+capital inﬂows (see Michelacci and Suarez (2002) for details).
+    If in addition to search frictions there is also moral hazard, the welfare-
+maximizing level of y is
+          qv ðyÞ q0e ðyÞ r þ qv ðyÞ   1   Vd
+          0
+                                    ¼ 0 d         :                                         ð13Þ
+          qv ðyÞ qe ðyÞ r þ qe ðyÞ C ðV Þ CðV d Þ
+As is easy to see, unless C0 ðV d Þ ¼ 1—i.e., unless the sharing rule is efﬁcient—(12)
+and (13) do not coincide. Hence, a welfare-maximizing regulator will typically be
+unable to implement a value of y that minimizes both search frictions and moral
+hazard, implying that the welfare maximum cannot be attained. The reason is that
+the regulator has only one instrument (namely, y), but two problems to ﬁx.
+
+
+6. Project screening
+
+  Capital market competition affects incentives not only after but also prior to the
+formation of a new venture. In this section, we consider the incentives of venture
+capitalists to screen projects, a function that—besides providing capital and
+coaching projects—is key to the venture capital business. Suppose projects (or
+entrepreneurs) come in two qualities: high and low. The probability that a project is
+of high quality is p > 0: Only high-quality projects are proﬁtable. For simplicity,
+suppose low-quality projects yield a zero payoff with certainty. Initially, neither the
+                                      ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                  347
+
+
+venture capitalist nor the entrepreneur know the project quality. The venture
+capitalist can ﬁnd it out, however, by paying a screening cost C > 0:
+   The timing is as follows. The venture capitalist and the entrepreneur bargain over
+a contract that gives the venture capitalist the right to withdraw if the project quality
+turns out to be low. Subsequently, the venture capitalist decides whether or not to
+screen. Screening reveals the project quality for sure. Absent screening, the venture
+capitalist holds prior beliefs that the project is high quality with probability p: After
+the investment is sunk, the project quality is revealed. The last assumption ensures
+that effort choices are made under complete information.
+   To minimize the amount of new notation, we denote the venture capitalist’s
+expected utility from investing in a high-quality project by V d : If the venture
+capitalist screens and ﬁnds out that the project quality is low, the optimal strategy is
+to not invest and to search anew. Moreover, an entrepreneur who has been screened
+and rejected will optimally leave the market. (This rules out negative pool
+externalities; see Broecker (1990) for details.) The expected utility from screening
+is thus pV d þ ð1  pÞV o  C: By contrast, the expected utility from not screening is
+pV d  ð1  pÞI:13 Screening is therefore optimal if and only if
+       Cpð1  pÞðV o þ IÞ:                                                                                ð14Þ
+
+We have the following result.
+
+Proposition 10. Venture capitalists screen more if ðiÞ the cost of screening C is low, ðiiÞ
+the fraction of low-quality projects 1  p is large, ðiiiÞ the investment outlay I is large,
+and ðivÞ the venture capitalist’s utility in the market V o is high, or equivalently, the level
+of capital market competition y is low.
+
+   The intuition for the last result, namely, that venture capitalists screen more if y is
+low, is as follows. Screening gives the venture capitalist an option to invest only if the
+project quality is high. If the project quality is low, the venture capitalist optimally
+goes back into the market and realizes V o : A venture capitalist who does not screen
+she forgoes this option: She does not realize V o if the project quality is low and
+moreover loses the investment outlay I: Hence the opportunity cost of not screening
+is V o þ I; multiplied by the probability that the project quality is low, 1  p:
+Screening is therefore most valuable if V o is high, or equivalently, if y is low.
+
+
+7. Empirical implications
+
+  This section summarizes the empirical implications of our model and compares
+them to the available evidence. Whether we assume Xl ¼ 0 and no wages, or Xl > 0
+  13
+      As the market is stationary, there are only two equilibrium strategies: (i) screening and investing if and
+only if the project quality is high, and (ii) investing without screening. Since utilities are discounted, it is
+never optimal to search for one more period and then do either (i) or (ii) in the following period. Evidently,
+it is also not an equilibrium strategy to always search, i.e., to never do either (i) or (ii).
+                                ARTICLE IN PRESS
+348        R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+and positive but limited wages, the implications are practically the same. All that
+changes is that a monotonic relation sometimes becomes a weakly monotonic
+relation, or a relation that is ﬁrst increasing and then decreasing can turn into a
+relation that is ﬁrst weakly increasing and then weakly decreasing. As these
+differences are relatively subtle, we ignore wages and assume that Xl ¼ 0: The
+only case where wages would have a qualitative impact is when they are poten-
+tially unlimited, as in Fig. 5, but this case is unlikely to be empirically relevant
+(see Section 5.2). Finally, when considering industry dynamics, we focus on the long-
+run industry equilibrium.
+
+7.1. Venture capitalists’ equity shares
+
+   In our model, the venture capitalist’s equity, or ownership, share depends on
+capital market characteristics. Speciﬁcally, the venture capitalist’s equity share is
+negatively related to the level of capital supply and capital market competition,
+investment proﬁtability, and capital market transparency. By contrast, it is positively
+related to entry costs. Gompers and Lerner (2000) ﬁnd a positive relation between
+capital market competition and the pre-money valuation of start-ups, G: Since the
+latter is deﬁned by G  Ið1  sÞ=s; this implies, ceteris parisbus, a negative relation
+between capital market competition and venture capitalists’ equity shares, as
+predicted by our model.
+
+7.2. Pre- and post-money valuation of start-ups
+
+   Our model predicts that pre- and post-money valuations are positively related to
+the level of capital supply and capital market competition, investment proﬁtability,
+and capital market transparency. By contrast, they are negatively related to entry
+costs. As pointed out above, Gompers and Lerner (2000) document a positive
+relation between capital supply and the valuation of start-ups. See also Bartlett
+(2001b), who provides anecdotal evidence that valuations have been ‘‘slashed’’ in the
+aftermath of the dot.com bubble.
+
+7.3. Total value created, market value, and success probability of start-ups
+
+   As the venture capitalist’s and entrepreneur’s efforts are unlikely to be perfect
+substitutes, we assume they are complements. The market value and success
+probability of the start-up is then ﬁrst increasing and then decreasing in the level of
+capital market competition, entry costs, and capital market transparency. The total
+value created in the start-up, on the other hand, is ﬁrst increasing and then
+decreasing in the level of capital market competition and entry costs, but
+monotonically increasing in the level of capital market transparency and investment
+proﬁtability.
+   Gompers and Lerner (2000) examine the relation between capital market
+competition and the success of new ventures. The authors ﬁnd no statistically
+signiﬁcant difference for investments made during the late 1980s, a period when
+                                ARTICLE IN PRESS
+           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356   349
+
+
+capital inﬂows and competition were relatively strong, and the early 1990s, a period
+of low inﬂows and weak competition. This is consistent with the inverted U-shape
+predicted by our model, which suggests that the success rate of new ventures is low if
+capital market competition is either weak or strong. It is, however, also consistent
+with the hypothesis that there is no relation between capital market competition and
+success. To distinguish between these two hypotheses, more than two periods will be
+needed.
+
+7.4. Search time
+
+  Our model predicts that entrepreneurial search time is decreasing in the level of
+capital market competition, investment proﬁtability, and capital market transpar-
+ency, and increasing in entry costs. The venture capitalist’s search time, on the other
+hand, is decreasing in capital market transparency and entry costs and increasing in
+capital market competition and investment proﬁtability.
+
+7.5. Project screening
+
+   Finally, our model predicts that venture capitalists screens more if the cost of
+screening is low, if the fraction of low-quality projects is high, if investment costs are
+high, and if the level of capital market competition is low. In a recent paper,
+Bengtsson et al. (2002) examine if, and how, venture capitalists’ screening efforts
+changed between the height of the dot.com bubble in 1998–2000Q1 (a period when
+capital market competition was relatively strong) and the bubble’s aftermath in 2001
+(a period of weak competition). Consistent with our predictions, the authors ﬁnd
+that venture capitalists screen less in ‘‘hot markets’’ when capital market competition
+is strong and more in ‘‘down markets’’ when capital market competition is weak.
+
+
+
+8. Concluding remarks
+
+   We provide an equilibrium framework linking characteristics of the venture
+capital market such as investment proﬁtability, entry costs, and capital market
+transparency to the value, valuation, and success probability of new ventures. An
+exogenous increase in investment proﬁtability (due to, e.g., a technological shock)
+leads to new entry and capital inﬂows, thereby tilting the (im)balance between capital
+supply and demand in favor of entrepreneurs. The outside option of entrepreneurs—
+and thus their relative bargaining power—increases, while the outside option of
+venture capitalists decreases. This affects the division of equity shares, and thus the
+incentives and value creation in start-ups. If the imbalance between capital supply
+and demand is sufﬁciently strong, the value created in the start-up is relatively low.
+Such inefﬁciencies can arise even if there is free entry of capital. As an individual
+venture capitalist entering the market does not take into account the effect of her
+entry on the overall level of capital supply, entry involves an externality. Policy
+                                      ARTICLE IN PRESS
+350             R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+measures affecting the supply of venture capital or competitiveness of the venture
+capital market can then improve welfare.
+   Our model can be extended in several directions. One convenient, but limiting,
+assumption is that contracts are relatively simple. In the base model, the optimal
+contract is a simple sharing rule. In the extension with Xl > 0; the optimal contract is
+a combination of debt and equity. Real-world venture capital contracts, on the other
+hand, are more complex. They include cash-ﬂow rights, voting rights, liquidation
+rights, board rights, and other instruments (Kaplan and Str .omberg, 2003).14 An
+interesting question is how the imbalance between capital supply and demand affect
+the mix of different contractual provisions. Second, our model treats venture
+capitalists as a homogeneous entity. In practice, venture capital partnerships consist
+of general and limited partners tied together by a contract. An interesting question is
+how changes in capital supply and demand simultaneously affect the contract between
+the venture capitalist and the entrepreneur and the contract between the venture
+capitalist and the limited partners. Third, in our model the entrepreneur and venture
+capitalist jointly inﬂuence the likelihood of the project’s success, but they cannot
+choose between different projects. Suppose there are some projects that rely heavily on
+the venture capitalist’s support and others that do not. If the venture capitalist’s equity
+share is low, e.g., because capital market competition is strong, it might be optimal to
+move away from effort-intensive projects such as early-stage seed ﬁnancing and move
+toward later-stage projects that require less coaching and value-added support.
+
+
+Appendix A. (Well-behaved) production technologies
+
+   Linear technology. To obtain a closed-form solution, we assume quadratic effort
+costs: cðeÞ ¼ e2 =2ae and gðaÞ ¼ a2 =2av ; respectively. Moreover, to ensure that the
+equilibrium success probability has an interior solution, we assume maxfae ð1  gÞ;
+av ggo1=Xh : Given the sharing rule s; the corresponding equilibrium effort choices
+are a ðsÞ ¼ av gsXh and e ðsÞ ¼ ae ð1  gÞð1  sÞXh ; respectively. The equilibrium
+success probability is p ðsÞ  pðe ðsÞ; a ðsÞÞ ¼ av g2 sXh þ ae ð1  gÞ2 ð1  sÞXh : The
+venture capitalist’s and entrepreneur’s utilities under the sharing rule s are
+              1
+       vðsÞ ¼ av g2 s2 Xh2 þ ae ð1  gÞ2 sð1  sÞXh2                                   ðA:1Þ
+              2
+and
+              1
+       uðsÞ ¼ ae ð1  gÞ2 ð1  sÞ2 Xh2 þ av g2 sð1  sÞXh2 ;                           ðA:2Þ
+              2
+respectively.
+   The equity frontier is derived from the following maximization program: The
+entrepreneur chooses s to maximize uðsÞ subject to vðsÞXv: The solution is characterized
+for all feasible reservation values vX0: (If v is too large, the solution is not feasible).
+
+
+  14
+       Bergl .of (1994) and Hellmann (1998) analyze control rights aspects of venture capital ﬁnance.
+                                  ARTICLE IN PRESS
+             R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356       351
+
+
+We denote the solution by s ðvÞ: From (A.1) and (A.2), it follows that vðsÞ and uðsÞ are
+both strictly quasiconcave. Accordingly, s is a solution to the entrepreneur’s problem
+if and only if vðsÞ is nondecreasing and uðsÞ is nonincreasing at s : Deﬁne
+s  ½av g2  ae ð1  gÞ2 =½2av g2  ae ð1  gÞ2  and s%  ae ð1  gÞ2 =½2ae ð1  gÞ2  av g2 ;
+%
+where    0osos%o1: We obtain the following result:
+              %
+  (i) if ae ð1  gÞ2 > av g2 the set of Pareto-optimal sharing rules is ½0; s%;
+ (ii) if ae ð1  gÞ2 ¼ av g2 the set of Pareto-optimal sharing rules is ½0; 1; and
+(iii) if ae ð1  gÞ2 oav g2 the set of Pareto-optimal sharing rules is ½s; 1:
+                                                                           %
+  In case (i), deﬁne v  0 and v%  vðs%Þ: In case (ii), deﬁne v  0 and v%  vð1Þ: Finally,
+in case (iii), deﬁne v%  vðsÞ and v%  vð1Þ: For any vA½v;%v%; the solution s ðvÞ  s
+satisﬁes              %      %                               %
+           1
+      v ¼ av g2 ðs Þ2 Xh2 þ ae ð1  gÞ2 s ð1  s ÞXh2 :                            ðA:3Þ
+           2
+Solving (A.3) for s ; we obtain
+               ae ð1  gÞ2 Xh  z
+      s ¼                                           ;                                   ðA:4Þ
+            ð2ae ð1  gÞ2  av g2 ÞXh
+           qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+where z  a2e ð1  gÞ4 Xh2  2vð2ae ð1  gÞ2  av g2 Þ: Clearly, s is strictly increasing in
+v: Inserting (A.4) in (A.2) yields the equity frontier cðvÞ: Differentiating cðvÞ twice
+with respect to v; we have
+      d2 cðvÞ
+              ¼ z3 ½ðae ð1  gÞ2  av g2 Þ2 þ ae ð1  gÞ2 av g2 o0:
+       dv2
+To show that the sum of utilities v þ cðvÞ has a unique maximum in the interior of
+½v; v%; we compute the derivative of cðvÞ at the boundaries. In case (i), we have
+c%0 ðvÞ ¼ ½av g2  ae ð1  gÞ2 =½ae ð1  gÞ2  > 1 and limv-%v c0 ðvÞ ¼ N: In case (ii), we
+     % c0 ðvÞ ¼ 0 and lim          0                                                   0
+have                         v-%v c ðvÞ ¼ N: Finally, in case (iii), we have c ðvÞ ¼ 0 and
+  0         %                          2
+c ðv%Þ ¼ ae g =½av g  ae ð1  gÞ o  1: Since cðvÞ is strictly concave, this
+                 2       2    2                                                          % implies
+that in each case there exists a unique value v#Aðv; v%Þ at which c ð#vÞ ¼ 1:0
+
+    Finally, both in (A.1) and (A.2) the term %Xh2 can be factored out. Hence
+equilibrium utilities are separable of the form uðXh ; sÞ ¼ wðXh Þoe ðsÞ and vðXh ; sÞ ¼
+wðXh Þov ðsÞ; where wðXh Þ  Xh2 and ov ðsÞ are increasing functions and oe ðsÞ is a
+decreasing function. &
+    Cobb-Douglas technology. We assume again that effort costs are quadratic of the
+form cðeÞ ¼ e2 =2ae and gðaÞ ¼ a2 =2av : To ensure that the equilibrium success
+probability has an interior solution, we assume again that maxfae ð1  gÞ;
+av ggo1=Xh : Equilibrium effort choices are then given by e ðsÞ ¼ ðae ð1  gÞð1  sÞ
+Xh ½a ðsÞg Þ1=ð1þgÞ ; and a ðsÞ ¼ ðav gsXh ½e ðsÞ1g Þ1=ð2gÞ ; implying that p ðsÞ ¼ rðsÞXh ;
+where rðsÞ  ½av gsg ½ae ð1  gÞð1  sÞ1g : The venture capitalist’s and the entrepre-
+neur’s utilities under the sharing rule s are
+                 1
+         vðsÞ ¼ ð2  gÞsXh2 rðsÞ                                                              ðA:5Þ
+                 2
+                                  ARTICLE IN PRESS
+352          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+and
+              1
+      uðsÞ ¼ ð1 þ gÞð1  sÞXh2 rðsÞ;                                                          ðA:6Þ
+              2
+respectively.
+   From (A.5) and (A.6), it follows that vðsÞ and uðsÞ are both quasiconcave, implying
+that s solves the entrepreneur’s problem for some v if and only if vðsÞ is
+nondecreasing and uðsÞ is nonincreasing at s : Differentiating (A.5) with respect to s;
+we have that vðsÞ is nondecreasing if and only if sp½1 þ g=2: Similarly,
+differentiating (A.6) with respect to s; we have that uðsÞ is nonincreasing if and
+only if sXg=2: Accordingly, the set of Pareto-optimal sharing rules is ½g=2; ½1 þ g=2;
+implying that v  vðg=2Þ and v%  vð½1 þ g=2Þ: Moreover, vðsÞ is strictly increasing for
+                % implying that s ðvÞ ¼ s is strictly increasing for all vov: We next
+all so½1 þ g=2;                                                                         %
+show that c is strictly concave. Differentiating uðsÞ and vðsÞ twice, we obtain
+                                                         
+      d2 cðvÞ         1          00        00  dcðvÞ
+              ¼                u   ðs Þ  v   ðs   Þ
+        dv2      ½v0 ðs Þ2                           dv
+                                                                                          
+                      1                           1        g         ð1  gÞð2s  gÞ
+              ¼  ð1 þ gÞXh2 rðs Þ                            þ                            ;
+                      2                      ½v0 ðs Þ2 ðs Þ2 s ð1  s Þð1 þ g  2s Þ
+which is strictly negative for all s A½g=2; ð1 þ gÞ=2: To show that the sum of utilities
+v þ cðvÞ attains its maximum in the interior of ½v; v%; we compute the derivative of
+cðvÞ at the boundaries. The derivative of cðvÞ is %
+      dcðvÞ    du ds u0 ðs Þ     ð1 þ gÞð2s  gÞð1  s Þ
+            ¼         ¼ 0  ¼                             :                  ðA:7Þ
+        dv     ds dv     v ðs Þ     s ð2  gÞð1 þ g  2s Þ
+Evaluating (A.7) at v and v%; we obtain c0 ðvÞ ¼ 0 and limv-%v c0 ðvÞ ¼ N: Since cðvÞ
+                      % implies that there% exists a unique value v#Aðv; vÞ such that
+is strictly concave, this                                                      %
+  0
+c ð#vÞ ¼ 1:                                                                 %
+    Finally, it is evident from (A.5) and (A.6) that the equilibrium utilities are
+separable of the form uðXh ; sÞ ¼ wðXh Þoe ðsÞ and vðXh ; sÞ ¼ wðXh Þov ðsÞ; where wðXh Þ ¼
+Xh2 and ov ðsÞ are increasing functions and oe ðsÞ is a decreasing function. &
+
+Appendix B. Proofs
+
+Proof of Proposition 1. We ﬁrst show that the bargaining problem has an interior
+solution V d AðV ; VÞ% characterized by the ﬁrst-order condition (1). Since V o X0 and
+  o              %
+U X0; there are only two possible cases where this might not be true: (i) v  I > 0
+                                                                               % (i). If
+and C0 ðv  IÞo0; and (ii) Cðv%  IÞ > 0 and C0 ðv%  IÞ > N: First consider case
+         %                                                0
+v  I > 0; then V ¼ v  I > 0: In conjunction with C ðV Þo0; this implies that there
+%
+exists             % V%oV and U > CðV Þ that is Pareto-undominated
+       a utility pair                                       %           but lies outside
+                         %              %
+the domain of C; contradicting the deﬁnition of C: The argument for (ii) is
+analogous.
+   We next show that there is a unique capital market equilibrium. Inserting (3)–(4)
+in (1) yields (5). Uniqueness of the bargaining solution implies that (5) has a unique
+solution.
+                                ARTICLE IN PRESS
+           R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356         353
+
+
+   Consider ﬁnally the comparative statics properties of the equilibrium. Implicitly
+differentiating (5) with respect to y yields
+      dV d    ðr þ qe Þq0v  ðr þ qv Þq0e            C2
+           ¼b                                                           o0;                   ðB:1Þ
+       dy             ðr þ qe Þ2          CðC0 þ V d C00 Þ  V d ðC0 Þ2
+which implies that dU d =dy > 0: In conjunction with q0e ðyÞ > 0 and q0v ðyÞo0; this
+implies that dV o =dyo0 and dU o =dy > 0: The fact that V d þ U d is ﬁrst increasing
+and then decreasing in y follows from (B.1) and the fact that C is strictly concave
+with slope C0 ðV Þ ¼ 1 at some V AðV ; %
+                                       VÞ: (Note that, by (5) and the limit properties
+of qv and qe for y-0 and y-N;       % we can indeed trace out the full contract
+frontier). &
+
+Proof of Propositions 4 and 8. Consider ﬁrst Proposition 4. The equilibrium is
+determined by (5) and the zero-proﬁt constraint V o ¼ k: Totally differentiating both
+equations using (4), we obtain the following equation system:
+     0                                                              1
+          ðr þ qe Þq0v  ðr þ qv Þq0e CðC0 þ V d C00 Þ  V d ðC0 Þ2        !     !
+     B  b                                                           C dy
+     B            ðr þ qe Þ2                     C2                 C          0
+     B                                                              C        ¼     dk:
+     @             V d rq0v                      qv                 A dV d     1
+                ðr þ qv Þ2                    r þ qv
+                                                                                              ðB:2Þ
+The determinant of this system, X; is negative. In conjunction with the limit
+properties of qv and qe for y-0 and y-N; this establishes the existence and
+uniqueness of a solution to (5) and V o ¼ k:
+  Consider next Proposition 8. By (B.2) and Cramer’s rule, we have that
+      dy 1 CðC0 þ V d C00 Þ  V d ðC0 Þ2
+         ¼                                o0;
+      dk   X           C2
+where the sign follows the fact that X; q0v ; C0 ; and C00 are all negative.              &
+
+Proof of Proposition 5. Consider ﬁrst the short-run effect. Combining (7) and (8) we
+have
+                                                                    
+       r þ qv ðyÞ      0       Vd       0        ov ðsÞ       I
+     b            ¼ C ðXh ; sÞ d ¼ C ðXh ; sÞ                      ;        ðB:3Þ
+       r þ qe ðyÞ              U                 oe ðsÞ wðXh Þoe ðsÞ
+where o0v ðsÞ > 0; o0e ðsÞo0; and w0 ðXh Þ > 0: The left-hand side is constant, while the
+right-hand side is increasing in s and Xh (C0 is constant with respect to Xh but
+decreasing in s). Accordingly, if Xh increases, s must decrease. This, in turn, increases
+U d and decreases C0 ðXh ; sÞ: By (B.3), this implies that V d must increase. Finally,
+since y is constant, the increase in U d and V d implies that U o and V o must increase.
+   Consider next the long-run effect. Consider two Xh -values, Xh1 oXh2 : We ﬁrst show
+that the corresponding competition levels must satisfy y2 > y1 : Suppose to the
+contrary that y2 py1 ; implying that q2v ðyÞXq1v ðyÞ: Since V o ¼ k; this implies that
+V d2 pV d1 : Moreover, V d2 pV d1 and Xh2 > Xh1 together imply that s2 os1 and U d2 >
+                                 ARTICLE IN PRESS
+354         R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+U d1 ; and therefore V d2 =U d2 oV d1 =U d1 : But q2v ðyÞXq1v ðyÞ; q2e ðyÞpq1e ðyÞ; and
+V d2 =U d2 oV d1 =U d1 in connection with (B.3) imply that C0 ðXh2 ; s2 Þ > C0 ðXh1 ; s1 Þ;
+and hence s2 > s1 ; which yields a contradiction.
+    We next show that s2 os1 : Again, we argue to a contradiction by assuming that
+s Xs1 : Since Xh2 > Xh1 and s2 Xs1 ; we have that V d2 > V d1 ; C0 ðXh2 ; s2 Þ > C0 ðXh1 ; s1 Þ;
+ 2
+
+and V d2 =U d2 XV d1 =U d1 ; where the last statement follows from (8). Since the left-
+hand side in (B.3) is decreasing in y; this implies that y2 oy1 and therefore q2v ðyÞ >
+q1v ðyÞ: But V o ¼ k and q2v ðyÞ > q1v ðyÞ together imply that V d2 > V d1 ; which yields a
+contradiction.
+    The rest is straightforward. From y2 > y1 ; we have that q2v ðyÞoq1v ðyÞ: In
+conjunction with V o ¼ k; this implies that V d2 > V d1 : Moreover, Xh2 > Xh1 and
+s2 os1 together imply that U d2 > U d1 : In conjunction with q2e ðyÞ > q1e ðyÞ; this ﬁnally
+implies that U o2 > U o1 : &
+
+Proof of Propositions 9 and 10. Consider ﬁrst Proposition 9. We begin with the
+short-run effect. Implicitly differentiating (9) and using the fact that qe ðy; xÞ 
+yqv ðy; xÞ; we get
+
+      dV d        rð1  yÞ     @qv ðy; xÞ   C2
+           ¼b                                                    :
+       dx     ½r þ yqv ðy; xÞ2 @x CðC0 þ V d C00 Þ  V d ðC0 Þ2
+
+Hence signðdV d =dxÞ ¼ signð1  yÞ: The results regarding s; U d ; and U o are then
+obvious.
+  Consider next the long run. The equilibrium is determined by (5) and the zero-
+proﬁt constraint V o ¼ k: Totally differentiating both equations using (4), we obtain
+the following equation system:
+       0                                                          1
+            ðr þ qe Þ@q            @qe
+                                    CðC0 þ V d C00 Þ  V d ðC0 Þ2
+                     @y  ðr þ qv Þ @y
+                        v
+                                                                         !
+       Bb                                                         C dy
+       B       ðr þ qe Þ2                        C2               C
+       B                                                          C
+       @       V d r @qv                         qv               A dV d
+            ðr þ qv Þ2 @y                      r þ qv
+          0                                 1
+                         @qv            @qe
+                ðr þ qe Þ @x  ðr þ qv Þ @x
+          B b                              C
+          B              ðr þ qe Þ2         C
+          B
+         ¼B                                 Cdx:
+                           d                C
+          @           V r @qv              A
+                              2 @x
+                    ðr þ qv Þ
+
+For the sake of brevity, we have omitted the argument in qv ðy; xÞ: The determinant of
+this system, X; is negative. By Cramer’s rule and qe ðy; xÞ  yqv ðy; xÞ; we have
+
+      dV d 1 bV d qv ðy; xÞ½r þ qv ðy; xÞr @qv ðy; xÞ
+          ¼                                           o0:
+       dx   X ½r þ qv ðy; xÞ2 ½r þ qe ðy; xÞ2 @x
+
+The results regarding s; U d ; and U o are then obvious.
+                                     ARTICLE IN PRESS
+              R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356                355
+
+
+  Consider ﬁnally Proposition 10. In the short run, we have @qv ðy; xÞ=@x > 0 and
+@qe ðy; xÞ=@x > 0 by assumption. In the long run, V o ¼ k and dV d =dxo0 imply that
+the total derivative dqv ðy; xÞ=dx is positive. In conjunction with (5), this implies that
+dqe ðy; xÞ=dx > 0: &
+
+
+
+
+References
+
+Bartlett, J., 2001a. Savage deal terms. The VC Buzz, http://vcexperts.com.
+Bartlett, J., 2001b. Sea change. The VC Buzz, http://vcexperts.com.
+Bartlett, J., 2002. A missing piece of the valuation puzzle. The VC Buzz, http://vcexperts.com.
+Bengtsson, O., Kaplan, S.N., Martel, F., Str .omberg, P., 2002. Investment screening and market
+    conditions: evidence from venture capital. Unpublished working paper, University of Chicago.
+Bergl .of, E., 1994. A control theory of venture capital ﬁnance. Journal of Law, Economics, and
+    Organization 10, 247–267.
+Binmore, K., Rubinstein, A., Wolinsky, A., 1986. The Nash bargaining solution in economic modelling.
+    Rand Journal of Economics 17, 176–255.
+Broecker, T., 1990. Credit-worthiness tests and interbank competition. Econometrica 58, 429–452.
+Casamatta, C., 2003. Financing and advising: optimal ﬁnancial contracts with venture capitalists. Journal
+    of Finance, forthcoming.
+Fenn, G.W., Liang, N., Prowse, S., 1995. The Economics of the Private Equity Market. Board of
+    Governors of the Federal Reserve System, Washington, DC.
+Gompers, P., Lerner, J., 1999. The Venture Capital Cycle. MIT Press, Cambridge, MA.
+Gompers, P., Lerner, J., 2000. Money chasing deals? The impact of fund inﬂows on private equity
+    valuation. Journal of Financial Economics 55, 281–325.
+Hellmann, T.F., 1998. The allocation of control rights in venture capital contracts. Rand Journal of
+    Economics 29, 57–76.
+Hellmann, T.F., 2002. A theory of strategic venture investing. Journal of Financial Economics 64,
+    285–314.
+Hellmann, T.F., Puri, M., 2001. Venture capital and the professionalization of start-up ﬁrms: empirical
+    evidence. Journal of Finance 57, 169–197.
+Hellmann, T.F., Puri, M., 2002. Venture capital and the Internet bubble: facts, fundamentals and food for
+    thought. Unpublished working paper, Stanford University.
+Holmstr .om, B.R., 1982. Moral hazard in teams. Bell Journal of Economics 13, 324–340.
+Holmstr .om, B.R., Tirole, J., 1997. Financial intermediation, loanable funds, and the real sector. Quarterly
+    Journal of Economics 112, 663–691.
+Hosios, A.J., 1990. On the efﬁciency of matching and related models of search and unemployment. Review
+    of Economic Studies 57, 279–298.
+Inderst, R., M .uller, H.M., 2002. The effect of capital market characteristics on the value of start-up ﬁrms.
+    Unpublished working paper, New York University.
+Kaplan, S.N., Str .omberg, P., 2002. Characteristics, contracts, and actions: evidence from venture capital
+    analyses. Unpublished working paper, University of Chicago.
+Kaplan, S.N., Str .omberg, P., 2003. Financial contracting theory meets the real world: an empirical
+    analysis of venture capital contracts. Review of Economic Studies 70, 281–315.
+Lerner, J., 2002. Boom and bust in the venture capital industry and the impact on innovation.
+    Unpublished working paper, Harvard University.
+Michelacci, C., Suarez, J., 2002. Business creation and the stock market. Review of Economic Studies,
+    forthcoming.
+Petrongolo, B., Pissarides, C.A., 2001. Looking into the black box: a survey of the matching function.
+    Journal of Economic Literature 38, 390–431.
+Pissarides, C.A., 1990. Equilibrium Unemployment Theory. Basil Blackwell, Cambridge, MA.
+                                   ARTICLE IN PRESS
+356          R. Inderst, H.M. M .uller / Journal of Financial Economics 72 (2004) 319–356
+
+
+Rajan, R.G., 1992. Insiders and outsiders: the choice between informed and arm’s length debt. Journal of
+   Finance 47, 1367–1400.
+Repullo, R., Suarez, J., 2000. Venture capital ﬁnance: a security design approach. Unpublished working
+   paper, CEMFI, Madrid.
+Sahlman, W.A., 1990. The structure and governance of venture-capital organizations. Journal of Financial
+   Economics 27, 473–521.
+von Thadden, E.-L., 1995. Long-term contracts, short-term investment and monitoring. Review of
+   Economic Studies 62, 557–575.
+

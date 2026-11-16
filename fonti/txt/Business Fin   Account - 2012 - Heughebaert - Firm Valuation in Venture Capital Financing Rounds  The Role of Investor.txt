@@ -1,0 +1,1718 @@
+                          Journal of Business Finance & Accounting
+Journal of Business Finance & Accounting, 39(3) & (4), 500–530, April/May 2012, 0306-686X
+doi: 10.1111/j.1468-5957.2012.02284.x
+
+
+
+
+      Firm Valuation in Venture Capital
+   Financing Rounds: The Role of Investor
+             Bargaining Power
+
+                        ANDY HEUGHEBAERT AND SOPHIE MANIGART∗
+
+
+Abstract: This study explores the impact of the bargaining power of venture capital (VC) firms
+on the valuation of their portfolio companies. VC firm types with greater bargaining power vis-
+à-vis the entrepreneur are expected to negotiate lower valuations compared with VC firm types
+with less bargaining power. Consistent with this hypothesis, university and government VC firms,
+which have comparatively greater bargaining power, negotiate lower valuations compared with
+independent VC firms. The valuations of captive VC firms equal those of independent VC firms.
+Our findings suggest that valuations in the VC contract reflect the relative bargaining power of
+the VC investor.
+Keywords: bargaining power, valuation, venture capital
+
+
+
+                                        1. INTRODUCTION
+One of the major concerns of entrepreneurs seeking venture capital (VC) is the equity
+stake that they retain after the investment, as this equity stake determines their future
+financial return and their control over the venture. The retained equity crucially
+depends on the negotiated value of the firm. At investment, a VC firm receives an
+agreed-upon number of newly created shares of the investee company in return for
+cash. Thus, the implied value of the investee firm is determined as the price per
+share paid times the number of shares outstanding. Despite its importance to both
+entrepreneurs and investors, drivers of entrepreneurial firm value are still poorly
+understood. Researchers have only recently started to analyse determinants of firm
+valuations implied in VC investment rounds. Entrepreneurial firm characteristics such
+as firm accounting information (Hand, 2005; and Armstrong et al., 2006) and market
+factors (Gompers and Lerner, 2000) explain a considerable part of firm valuations.
+∗ The authors are from Ghent University and Vlerick Leuven Ghent Management School. They gratefully
+acknowledge the financial support of the Flemish Policy Research Center for Entrepreneurship and
+International Business (STOIO) and the Hercules Fund (Ghent University). The paper benefited from
+comments and suggestions from participants of the 2009 Annual Corporate Finance Day (Antwerp),
+the 2010 Advanced Seminar in Entrepreneurship and Strategy (Chamonix), the 2010 Babson College
+Entrepreneurship Research Conference (Lausanne) and the 2011 JBFA Capital Markets Conference
+(London).The authors would like to thank the editor and the anonymous referee for their detailed feedback
+on previous versions of this paper. (Paper received December 2010, revised version accepted February 2012)
+Address for correspondence: Sophie Manigart, Ghent University, Kuiperskaai 55E, B-9000 Ghent, Belgium.
+e-mail: sophie.manigart@UGent.be
+
+ 2012 Blackwell Publishing Ltd, 9600 Garsington Road, Oxford OX4 2DQ, UK
+C
+
+and 350 Main Street, Malden, MA 02148, USA.                                                          500
+                                                                                            14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                   501
+
+In this environment where valuations are negotiated between entrepreneurs and
+investors (rather than set by a liquid market), VC firm characteristics also affect
+firm valuations (Cumming and Dai, 2011). For example, Hsu (2004) found that
+entrepreneurs accept lower valuations from more reputable VC investors, while
+Cumming and Dai (2011) demonstrated a convex relationship between VC fund size
+and valuation.
+   This paper extends this line of research by acknowledging that the type of VC
+investor and its bargaining power also influences the negotiated value. Building on for-
+mer theoretical frameworks modelling the negotiation process between entrepreneurs
+and VC investors (Fairchild, 2004; Cable and Shane, 1997; and Kirilenko, 2001), we
+argue that some VC investors have more bargaining power than others, either because
+they have a captive deal flow (such as university or captive VC firms) or because
+they target niche markets with low levels of competition (such as government VC
+firms). VC investors may exploit their stronger bargaining position by negotiating
+lower valuations.
+   We empirically examine the effects of VC type on valuations using a unique, hand-
+collected and unbiased sample of 362 venture capital investment rounds in 180 Belgian
+investee firms between 1988 and 2009. We find no differences in valuation between
+captive VC firms and independent VC firms. University VC firms and government VC
+firms, however, exploit their bargaining power by negotiating lower valuations than
+independent VC firms, after controlling for investee firm characteristics (including
+pre-investment accounting variables, firm age, size, patent applications and whether
+the firm is active in a high-tech industry), VC firm characteristics (including VC firm
+reputation, size and origin) and market conditions (including the Belgian market
+return, the inflow of capital in the VC industry and VC investment activity). The results
+remain robust after controlling for potential selection biases.
+   We hereby provide further insight into how the heterogeneity of the VC industry
+affects VC firm behaviour (Mayer et al., 2005; and Bottazzi and Da Rin, 2002) by
+focusing on a highly important but rarely researched phenomenon, namely, the val-
+uation of VC deals. As the valuation of entrepreneurial companies in VC investments
+is determined through negotiation between entrepreneurs and VC investors, investor
+characteristics such as their reputation and size affect their relative bargaining power
+(Cumming and Dai, 2011; Hsu, 2004; and Meuleman et al., 2009). We have extended
+these insights by showing that the proprietary deal flow of university VC firms and
+the limited competition in niche markets in which government VC firms compete
+increase their bargaining power, which they exploit by negotiating lower valuations
+compared with independent VC firms. These results are non-trivial, as independent VC
+firms are typically more active investors and have a higher reputation compared with
+government and university VC firms (Bottazzi and Da Rin, 2002), which, following Hsu
+(2004), would lead entrepreneurs to accept lower valuations. In contrast, our findings
+indicate that independent VC firms accept higher valuations, which is consistent with
+the greater competition and hence relatively low bargaining power of independent
+VC firms compared with university and government VC firms. Therefore, this analysis
+provides a more complete picture of the bargaining process between VC investors and
+entrepreneurs.
+   The remainder of the paper proceeds as follows. Section 2 provides an overview of
+the relevant literature and develops the hypotheses. Section 3 describes the sample
+
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+502                         HEUGHEBAERT AND MANIGART
+
+and variables, including descriptive statistics. Section 4 presents the empirical results.
+The final section discusses the results and conclusions.
+
+
+          2. BARGAINING POWER IN VENTURE CAPITAL INVESTMENTS
+
+(i) Bargaining Power in the VC Investment Process
+Valuations in VC investments represent the outcome of lengthy negotiations between
+VC investors and entrepreneurs, rather than being determined through supply
+and demand in liquid financial markets. Recently, researchers have modelled the
+negotiation process between a VC investor and an entrepreneur, incorporating the
+bargaining positions of both parties. When bargaining power is unbalanced, the party
+with greater power attempts to achieve an advantage at the expense of the other party
+(Cable and Shane, 1997; and Chahine and Goergen, 2011). Differences in the relative
+bargaining power between VC investors and entrepreneurs are hence expected to
+affect the outcome, namely, the valuation of the venture. At the macro-economic level,
+it has been demonstrated theoretically (Inderst and Mueller, 2004) and empirically
+(Gompers and Lerner, 2000) that an increase in the supply of VC funds positively
+affects valuations. A larger supply of VC funds is driven by either entry of new VC
+investors or by an increase in the average fund size of incumbents. Both increase
+competition in the VC market and decrease the bargaining power of VC firms (Inderst
+and Mueller, 2004), ultimately leading to higher valuations (Gompers and Lerner,
+2000).
+   Entrepreneurs aiming to raise VC financing compete for funding from the best
+possible VC investor to which they have access (Sorensen, 2007), while VC investors
+compete for the most promising entrepreneurial firms. For example, VC investors with
+the highest reputation have access to the most promising ventures, as entrepreneurs
+prefer to connect with them (Sorensen, 2007). Entrepreneurs thereby trade off a
+lower valuation and hence a lower current equity stake with higher expected future
+value creation (Fairchild, 2004; and Hsu, 2004). Fairchild (2004) shows that economic
+welfare is maximised when the entrepreneur has the most bargaining power and
+matches with a superior value-adding VC investor in a market that is reputation-based.
+Furthermore, the size of a VC fund is also positively related to its bargaining power,
+thus influencing valuations in VC investments (Cumming and Dai, 2011).
+   Previous theoretical and empirical papers largely focus on independent VC firms,
+the dominant type of VC investor in the US. Independent VC firms raise money
+from unrelated institutional or other investors and funds are managed by an in-
+dependent VC management team (Kaplan and Schoar, 2005). They define their
+investment strategy at fundraising and thereby choose the VC market segment in
+which to compete with other VC firms (Cumming et al., 2009). The VC industry is
+heterogeneous, however, featuring different types of VC firms depending on their
+dominant shareholders (Manigart et al., 2002a; Mayer et al., 2005; Bottazzi et al.,
+2008; and Hirsch and Walz, 2012). Captive VC firms manage funds fully or partially
+owned by a parent organisation (typically a corporation or bank) (Bertoni et al.,
+2012). University VC firms invest mainly university money in university spin-offs to
+foster innovation and to enhance the reputation of the university (Wright et al.,
+2006). Finally, governments intervene directly in venture capital markets by funding
+
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                            14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                   503
+
+government VC firms (Manigart et al., 2002b; Leleux and Surlemont, 2003; and Hirsch
+and Walz, 2012). We argue that the specific investment and deal sourcing strategies
+of non-independent VC firms may either create a proprietary deal flow or lead to
+lower levels of competition in the target investment niche. This investment strategy is
+expected to lead to differences in the relative bargaining power of different VC firms
+and hence may affect valuations.
+   To address these research questions, we compare the valuations of independent
+VC firms with the valuations of captive VC firms, university VC firms and government
+VC firms. Independent VC firms are the most widespread type of VC firm and hence
+are used as the reference group. Independent VC firm managers typically manage
+funds in a standard dual structure (Kaplan and Schoar, 2005) and are incentivised to
+create value through carried interests on VC funds’ capital gains above a pre-defined
+threshold. VC managers are typically compensated with a fixed management fee (e.g.,
+2% of invested capital) and a carried interest performance fee (e.g., 20% of profits).
+Independent VC investment managers are experts in negotiating contracts with
+entrepreneurs. They are highly networked value-maximising financial professionals
+who are likely to be perceived as the most sophisticated investors, given their greater
+experience and their greater involvement with their portfolio companies (Bottazzi
+et al., 2008). Hence, they are an interesting point of reference. When we compare
+the valuations of other VC types with the valuations of independent VC firms, we are
+interested in the relative bargaining power of other types of VC firms compared with
+the bargaining power of an independent VC firm rather than the absolute bargaining
+power of different VC firms versus the entrepreneur. Relative differences in bargaining
+power will thus determine how valuations are affected. We discuss how captive VC
+firms, university VC firms and government VC firms differ from independent VC firms
+and how these differences may affect their relative bargaining position vis-à-vis the
+entrepreneur.
+
+
+(ii) VC Firm Types and Valuation
+Captive VC investors are strategic investors that extract benefits from exploiting
+synergies between the venture investments and their core business. For example,
+corporate VC firms set up corporate VC programs to create a ‘window on new
+technologies’ (Dushnitsky and Lenox, 2005 and 2006; and Bertoni et al., 2012). Bank
+VC firms seek to establish complementarities between venture capital investments and
+subsequent lending activities or they attempt to sell fee services, e.g., when assisting
+in acquisitions or IPOs (Hellmann et al., 2008; and González, 2006). Most captive VC
+firms are structured as subsidiaries of a parent organisation (a corporation or a bank)
+where investment managers are employees governed by labour contracts.
+   When searching for investments in unrelated companies, i.e., companies that
+do not originate from a parent company, captive and independent VC firms are
+competitive bidders (Sorensen, 2007). For example, Gompers and Lerner (1998) find
+that the investment targets of corporate VC firms are comparable to the investment
+targets of independent VC firms. Bank VC firms invest in larger investment rounds
+and in industries with more debt (González, 2006) compared with independent VC
+firms, but their larger networks allow them to have better access to different investment
+opportunities (Hellmann et al., 2008). Consequently, captive and independent VC
+firms choose ventures from the same pool (Sahlman, 1990), broadening the supply
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+504                         HEUGHEBAERT AND MANIGART
+
+of VC to entrepreneurial companies and enhancing entrepreneurs’ bargaining power
+(Inderst and Mueller, 2004; and Cable and Shane, 1997). Consequently, captive VC
+firms will not have more bargaining power compared with independent VC firms
+when investing in unrelated ventures. Furthermore, given their strategic interest in
+their portfolio companies, captive VC firms provide portfolio companies access to the
+parent company’s competencies and complementary assets (Dushnitsky and Lenox,
+2005). Bertoni et al. (2012) have shown that in the long run, the growth of portfolio
+companies backed by independent and by captive VC firms is comparable, and the
+post-investment value-creating activities of both types of investors are also comparable.
+Hence, valuations will be comparable when captive and independent VC investors
+compete for unrelated investment targets.
+   However, captive VC firms may also invest in corporate spin-outs. New products
+or services developed within a corporation may not be core to the parent company’s
+strategy but nevertheless have the potential to be viably exploited by another company.
+Rather than selling the intellectual knowledge to another company, the corporate
+may transfer the intellectual property rights (and potentially invest some cash) to a
+spin-out company. In return for their intangible and cash investments, corporations
+may negotiate an equity stake in the corporate spin-out through their corporate VC
+firm, aiming for a superior financial return in the medium term (Dushnitsky and
+Lenox, 2005). In this situation, the deal flow of the corporate VC firm is proprietary.
+Without the explicit consent of the parent company, no intellectual property rights can
+be transferred and the new company cannot come into existence. Hence, corporate
+VC firms have a high bargaining power vis-à-vis their spin-outs, leading to low initial
+valuations for these investments.
+   A corporate VC firm may therefore have a mix of unrelated investment opportu-
+nities for which it has no superior bargaining power compared with independent
+VC firms as well as opportunities that are generated internally for which it has high
+bargaining power. Taken together, these opportunities will on average lead to lower
+valuations from captive VC firms compared with independent VC firms. We hence
+hypothesise:
+
+H1 : Compared with independent VC firms, captive VC firms value investee firms at a
+     lower level.
+
+   A second type of VC firm is the university investment fund, which typically invests
+exclusively in university-related startups. In these startups, knowledge and intellectual
+property rights are transferred from the university to the startup (Wright et al.,
+2006). Hence, one of the main goals of university VC firms is to commercialise a
+university’s intellectual property and disseminate knowledge, thereby enhancing the
+university’s prestige (O’Shea et al., 2005). University VC firms are typically managed by
+academic technology transfer officers who screen the technological and commercial
+potential of the university’s inventions (Lockett and Wright, 2005). They have access
+to a proprietary deal flow consisting of all investments in startups that are based on
+intellectual property rights from the university. University VC firms often have the right
+of first refusal to invest in companies that draw upon technology developed within the
+university. Consequently, bargaining power shifts strongly in favour of the university
+VC firm during the negotiation process. Entrepreneurs of these ventures are therefore
+locked-in as they have no other outside options (Inderst and Mueller, 2004).
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                            14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                   505
+
+   Furthermore, university VC firms are among the few VC investors willing to invest in
+university startups. University startups are a particular set of high-tech companies that
+focus on radically new and disruptive technologies that may create new industries and
+refine existing markets (Gompers, 1995). They tend to exploit technologies that are in
+general radical and tacit (Shane and Stuart, 2002). The technological developments
+on which these companies are based are mostly legally protected. Furthermore, given
+the early stage of development of these startups, their entrepreneurial teams often
+comprise former university employees who are technology experts but lack industry
+experience, commercial skills and financial sophistication (Wright et al., 2006). Given
+these characteristics, academic spin-offs may face even more difficulty in attracting
+VC funding than other early stage high-tech firms. These difficulties suggest that
+the supply of financing for these ventures may be lower than the demand, and that
+the limited competition in the VC market for this type of deal further enhances the
+bargaining power of university VC firms.
+   Given that university VC firms have greater bargaining power compared with
+independent VC investors, they are able to appropriate more of the potential surplus
+from the investment and obtain a higher equity stake. Hence, compared with inde-
+pendent VC investors, university VC firms will negotiate lower valuations. Our second
+hypothesis is therefore:
+
+H2 : Compared with independent VC firms, university VC firms value investee firms
+     at a lower level.
+
+   We finally expect differences in bargaining power between government VC firms
+and independent VC firms. Government VC firms are typically set up as a policy
+response to a shortage in the supply of risk capital to new technology-based early
+stage firms (Murray, 1998; Manigart et al., 2002b; and Leleux and Surlemont, 2003).
+As a result of capital market imperfections, these early stage ventures are especially
+vulnerable to capital constraints. They typically do not generate revenues, yet assets
+are in general illiquid, and the entrepreneur’s flexibility is a key resource for further
+development (Manigart et al., 2002b). Furthermore, technology may be complex,
+making formal screening more difficult for the VC investors. Early stage ventures may
+find it difficult to obtain financing as VC firms prefer investments where monitoring
+and selection costs are relatively low and the costs of informational asymmetry are less
+severe (Amit et al., 1998).
+   Government VC firms target these early stage ventures and complement the existing
+VC industry as they try to fill the market gap in the supply of VC financing (Cumming
+and MacIntosh, 2006). Given their focus, government VC firms expand the pool of
+VC financing and invest in ventures in which other VC firms have lower levels of
+interest. Consequently, government VC firms will experience less competition with
+other VCs while searching for new investment opportunities. Less competition will
+result in greater bargaining power vis-à-vis the early stage entrepreneur, which they
+will use to push down valuations.
+   Next to providing VC to young, high technology companies, government VC
+firms may further have regional economic development as a major goal (Leleux and
+Surlemont, 2003). Therefore, government VC firms also target mature companies that
+need funding to sustain employment rather than to create value. These companies will
+be unable to raise VC financing from independent VC firms, however, as their value
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                                14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+506                              HEUGHEBAERT AND MANIGART
+
+creation potential is limited. In these companies, government VC firms are investors
+of last resort, giving them high bargaining power which they may exploit through low
+valuations.
+   Given that government VC investors target market niches in which VC is in
+short supply because of either the higher risk or the lower return potential of the
+entrepreneurial firm, we propose the final hypothesis:
+
+ H3 : Compared with independent VC firms, government VC firms value investee firms
+      at a lower level.
+
+                            3. DATA AND SAMPLE DESCRIPTION
+
+(i) The Research Context
+The hypotheses are tested on Belgian companies that received venture capital financ-
+ing between 1988 and 2009. Belgium was chosen because all firms (even unquoted
+ones) have a legal obligation to publish information on all capital increases in
+the Belgian Law Gazette, and this official information is externally validated by a
+third party. The obligatory nature of this information enables accurate calculation
+of the implied valuations, leading to highly reliable data. This unique institutional
+setting allows access to information that is typically confidential and unavailable in
+commercial databases, making the Belgian setting appropriate to test the hypotheses.
+   Figure 1 shows the investment activity of the Belgian VC industry as a percentage
+of GDP relative to European and US VC investment activity during the period of our
+study. In the early years of the study, the VC industry was emergent (Ooghe et al.,
+1991), but it strongly developed starting from 1995. The Belgian VC industry has
+
+
+                                           Figure 1
+                                  VC Investments as a% of GDP
+
+
+
+
+Notes:
+Figure 1 presents yearly VC investments as a percentage of GDP for Belgium, Europe and the US.
+This figure is the result of our own calculations based on publicly available data. The official European
+Venture Capital and Private Equity Association (EVCA) Yearbooks report VC investments in Belgium
+and Europe and the US National Venture Capital Association Yearbook 2011 reports US VC investments.
+Belgian and European GDP figures are from the OESO website and US GDP figures are from the Bureau
+of Economic Analysis.
+
+
+                                                                            
+                                                                            C   2012 Blackwell Publishing Ltd
+                                                                                              14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                     507
+
+always been characterised by heterogeneity among VC firm types, including mainly
+independent, government and corporate VC firms (Ooghe et al., 1991; and Manigart
+et al., 2002a). University VC firms emerged during the high technology bubble period
+(1999–2001) when VC investment activity peaked in the US (1% of GDP), Europe
+(0.27% of GDP) and Belgium (0.21% of GDP). After the burst, activity dropped to
+about 0.10–0.20% of GDP with a small European revival in 2006. From 2007, the
+credit crunch resulted in a lower level of VC investment activity. VC is relatively
+more important in the US compared with Europe and Belgium, but Belgian VC
+investment activity is quantitatively comparable with European VC investment activity.
+Furthermore, the VC investment activity consistently generates the same pattern over
+time on the various continents. Hence, Belgian VC competition as measured by VC
+investment activity is expected to develop similarly over time compared with European
+and US VC competition. Figure 1 suggests that Belgian VC competition increased
+significantly during the bubble years. After the burst, VC competition dropped again
+but remained on average larger compared with the years before the bubble.
+
+
+(ii) Sample
+The sample includes 362 investment rounds in 180 different investee companies. The
+sample has three important advantages compared with previous VC valuation studies.
+First, previous studies mainly relied on commercial databases to collect data, such as
+VentureOne, Venture Economics or VentureXpert (Gompers and Lerner, 2000; and
+Cumming and Dai, 2011). While these databases allow for larger and broader samples,
+they give rise to concerns with respect to self-reporting biases and the reliability of the
+often confidential valuation data. For example, Kaplan et al. (2002) report that no
+valuation information is reported for between 30% (VentureOne) and 70% (Venture
+Economics) of all financing rounds, leading to severe biases as firms self-select to
+voluntarily disclose this sensitive information. Furthermore, financing rounds with
+valuations are noisy with large average absolute errors (Kaplan et al., 2002). A second
+research strategy is to analyse samples from proprietary databases with rich, detailed
+and reliable information from one VC investor or fund-of-fund investor. The drawback
+of this approach, however, is that the data may be biased depending on the investment
+strategy of the VC investor. Our dataset combines VC investment information retrieved
+from various sources, including public and commercial databases with VC investments,
+VC firm annual reports and websites, press releases and information from the Belgian
+Venturing Association. Therefore, this dataset includes investments from different
+types of VC investors, reducing the threat of biases induced by the use of a single
+source of data. Third, unlike some US studies (e.g., Hand, 2005), our sample is not
+restricted to successful pre-IPO firms. We sample firms at the first investment round
+and follow them over time. The sample thus includes successful as well as less successful
+unquoted firms, that is, firms that did an IPO, that failed, that were acquired or that
+are still private. This database thus eliminates any potential survivorship bias. Our
+dataset hence does not suffer from (self-)selection biases and contains highly reliable
+information on the variable of interest which is the valuation of VC backed companies.
+   Different sources of public information (press clippings, websites, annual reports
+of VC firms) combined with the commercial databases Zephyr and VentureXpert are
+consulted to identify the initial VC investment round in Belgian firms between 1988
+and 2009. The sample is limited to firms in which the initial VC investment occurred
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+508                         HEUGHEBAERT AND MANIGART
+
+when the entrepreneurial companies were younger than ten years to ensure a focus on
+pure VC investments (rather than including more mature private equity investments).
+In addition to the initial investment rounds, all follow-on venture capital rounds are
+tracked in the Belgian Law Gazette to obtain a complete overview of all financing
+rounds until the first half of 2009. The value of an investment round is calculated
+on the basis of the total capital increase and the number of newly created shares
+as reported in the Belgian Law Gazette. The information provided by the Belgian
+Law Gazette further allows the unambiguous identification of all investors in each
+investment round. This research strategy results in a sample of 362 investment rounds
+in 180 VC backed companies.
+    The unit of analysis is the investment round and the dependent variable of interest
+is the premoney value (Hand, 2005; and Armstrong et al., 2006), as the postmoney
+value is influenced by the amount invested in the focal investment round (Lerner,
+1994). The premoney value is the total number of shares outstanding prior to the
+investment multiplied by the price per share paid by VC investors in the focal
+investment round. Twelve premoney outliers, defined as the median valuation per
+investment round plus or minus three times the standard deviation, are excluded
+from the multivariate analysis, but the exclusion of outliers has no impact on reported
+results.
+
+
+
+(iii) Variables
+Table 1 presents sample descriptives grouped by VC firm type. When multiple VC
+firms invest in an investment round (156 out of 362 rounds), the investment round is
+assigned to the lead VC firm, i.e., the VC firm that invests the largest amount in a given
+round. This practice was adopted on the basis of the argument that the bargaining
+position of the lead investors will be more important than the bargaining position of
+co-VC investors during negotiations of the firm valuation with the entrepreneurial
+management team, as the lead investor typically negotiates the specifics of the
+transaction on behalf of the co-investors (Wright and Lockett, 2003; and Chahine
+and Goergen, 2011). To account for potential biases in the valuations of syndicated
+investment rounds, however, the empirical analyses are performed on both the full
+sample and the subsample of 206 investment rounds in which only one VC firm invests.
+    Panel A reports the number of investment rounds in different industries for each
+type of lead VC firm. The industries are consistent with the European Private Equity
+and Venture Capital Association (EVCA) (2007) classification system. All VC firm types
+mainly invest in three industries (in decreasing order of importance): ‘Computer
+and Consumer Electronics’, ‘Life Sciences’ and ‘Business and Industrial Products’.
+University VC firms invest most in ‘Life Sciences’ and the other VC types in ‘Computer
+and Consumer Electronics’.
+   Panel B shows the number of investment rounds for different types of lead VC
+firms over different time periods. For conventional reasons, we distinguish between
+the pre-bubble, bubble and post-bubble periods. In the pre-bubble period, there are
+no university VC firms as lead VC investors in our sample. The nascent Belgian VC
+industry at that time was mainly represented by independent, captive and government
+VC firms. During the bubble period the VC industry grew rapidly, mainly giving rise
+to new independent VC firms and university VC firms, with independent VC firms
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                                                 14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                                       509
+
+                                                Table 1
+                                            Sample Description
+                                                                       Government
+                                    Captive VC        University VC       VC              Independent VC
+Panel A: Industry Preference by VC Firm Type
+                          N        %
+Computer &               25       35.7% 9                     37.5% 28        31.5%            92     51.4%
+  Consumer
+  Electronics
+Life Sciences            15       21.4% 12                    50.0% 6          6.7%            35     19.6%
+Business & Industrial    16       22.9% 0                      0.0% 22        24.7%             6      3.4%
+  Products
+Chemicals & Materials     3         4.3% 3                   12.5% 8           9.0%           17       9.5%
+Communications            3         4.3% 0                    0.0% 5           5.6%           13       7.3%
+Other                     8       11.4% 0                     0.0% 20         22.5%           16       8.9%
+Total                    70      100.0% 24                  100.0% 89        100.0%          179     100.0%
+Panel B: Investment Timing by VC Firm Type
+Pre-bubble period       20        28.6% 0                     0.0%    44      49.4%           25      14.0%
+Bubble period           23        32.9% 6                    25.0%    21      23.6%           60      33.5%
+Post-bubble period      27        38.6% 18                   75.0%    24      27.0%           94      52.5%
+Total                   70      100.0% 24                   100.0%    89     100.0%          179     100.0%
+Panel C: Investee Firm Characteristics by VC Firm Type
+Firms with patent applications (in%)                28.6%                  16.7%      11.2%         27.4%
+Age (in years) at Series A                           3.26                   2.06       4.55          1.36
+High-tech firms (in%)                               54.3%                  79.2%      36.0%         60.3%
+Firm growth (in 1000 EUR) (N)                       83(56)                 82(18)      0(71)        76(128)
+Amount invested in initial round (in 1000 EUR)        548                    360        275           455
+Total                                                  70                     24         89           179
+Panel D: Legal Status by VC Firm Type
+                                                  N   %
+Failure                                          19 28.8% 2 10.5% 14 17.1% 41                         30.1%
+Voluntary Liquidation                             6   9.1% 1    5.3% 3    3.7%   6                     4.4%
+Private                                          28 42.4% 13 68.4% 49 59.8% 61                        44.9%
+Acquisitions                                      3   4.5% 2 10.5% 9 11.0% 16                         11.8%
+IPO                                              10 15.2% 1     5.3% 7    8.5% 12                      8.8%
+Total                                            66 100.0% 19 100.0% 82 100.0% 136                   100.0%
+Notes:
+Table 1 presents the investment characteristics of different types of (lead) VC firms. Panel A reports
+the industry preference of each VC firm type with industries categorised according to the EVCA (2007)
+sectoral classification. The number of observations (in absolute and relative terms) refers to the number
+of investment rounds in firms active in those sectors. Panel B shows the number of investment rounds for
+different VC types in different time periods. The pre-bubble period covers the years from 1988 to 1998,
+both included. The bubble period covers the years from 1999 to 2001. The post-bubble period includes
+all years after 2001. Panel C records key characteristics of the investee firms for each type of VC firm. Five
+variables are included: the percentage of firms with patent applications before a particular Series (A, B,..)
+(a), the median investee firm age in years at the initial investment round (Series A) (b), the percentage
+of high-tech firms in the sample for each type of VC firm (c), the median growth in personnel expenses
+(in 1000 EUR) (d) and the inflation-adjusted (2008 = 100) amount (in thousands of euros) invested in a
+Series A financing round. The high-tech classification scheme is based on two digit industry codes and is
+provided by the Flemish government. Growth is proxied by the absolute growth in personnel expenses (in
+1000 EUR) over one year before the investment (t−1) relative to two years before the investment (t−2).
+The corresponding number of observations is given in brackets. Panel D refers to the legal status of investee
+firms for each type of VC firm. The number of observations (in absolute and relative terms) refer to all
+corresponding investment rounds labelled in the same category. Investee firms are restricted in panel D to
+those having a Series A financing round no later than 31/12/2002 and their legal status is representative of
+the period of data collection.
+
+
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+510                         HEUGHEBAERT AND MANIGART
+
+becoming the dominant type of VC firm in Belgium, leading a larger fraction of
+investments.
+   Panel C describes investee firm characteristics. The first variable is a dummy variable
+that equals one if the firm has at least one patent application before the investment
+round and zero otherwise (Lerner, 1994). Patent information is retrieved from the
+official European Patent Office (EPO) organisation. Interestingly, firms backed by
+a university (17%) or government VC firm (11%) have fewer patent applications
+compared with firms backed by a captive or independent VC firm (28%). Age is
+measured as the number of years between the startup of the portfolio company
+and the first investment round. Government VC firms invest in the oldest investee
+companies (4.6 years), followed by captive VC firms (3.3 years). Independent VC
+portfolio companies are relatively younger (1.4 years) at first VC investment. The high-
+tech dummy variable equals one if the firm is active in a high-tech industry. Firms with
+NACE codes 24 (chemicals), 29–35 (high-tech materials), 64 (telecommunication),
+72 (computer related) and 73 (biotech) are identified as high-tech firms. High-
+tech firms are mainly funded by university VC firms and independent VC firms,
+representing 80% and 60% of their investments, respectively. Non-high-tech firms are
+mainly funded by government VC firms, which invest 64% of their funds in non-high-
+tech companies. Firm growth is proxied by the growth in personnel expenses over
+one year before the investment relative to two years before the investment (Puri and
+Zarutskie, 2011). This information is only available for firms that were at least two
+years old at the time of the investment round. Personnel expenses are retrieved from
+the financial accounts provided by the National Bank of Belgium. Growth is close to
+zero for portfolio companies of government VC firms, while the portfolio companies
+of other VC firm types present similar levels of growth in personnel expenses. Finally,
+the amount of initial VC financing is retrieved from the Belgian Law Gazette. The
+median VC investment is highest for captive VC firms (€ 550,000); independent VC
+firms invest around € 450,000, university VC firms € 360,000 and government VC firms
+€ 275,000. Taken together, Panel C suggests that government VC firms are more likely
+to invest in older companies and less likely to invest in fast-growing high technology
+companies.
+   Panel D shows the legal status of VC portfolio companies in 2009. Most portfolio
+firms are still private for all types of VC firms, with percentages varying between
+42% (captive VC firms) and 68% (university VC firms). Next, failures and voluntary
+liquidations represent between 16% (university VC firms) and 38% (captive VC firms)
+of the portfolio companies. Between 4% (captive VC firms) and 12% (independent
+VC firms) of the portfolio companies are acquired. The proportion of IPOs is highest
+for captive VC portfolio companies (15%) and lowest for university VC portfolio
+companies (5%). Overall, Panel D shows that our sample does not suffer from
+survivorship bias.
+
+
+                             4. ANALYSES AND RESULTS
+This section starts with a brief discussion of the bivariate analyses related to the
+main variable of interest, the premoney valuation. Thereafter, variables used in the
+multivariate analyses are defined and discussed. As the results might suffer from
+endogeneity problems, special attention is paid to potential selection effects. Finally,
+robustness tests are presented and potential alternative explanations discussed.
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                           14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                  511
+
+(i) Bivariate Analyses
+Table 2 presents detailed summary statistics of mean and median premoney valuations
+according to VC type, highlighting significant differences with independent VC firms.
+Panel A reports the overall premoney valuations according to VC firm type. Valuations
+of university VC firms and government VC firms are significantly lower (<0.01) than
+those of independent VC firms. The median premoney valuation of firms backed
+by independent VC firms is € 2.3 million, of firms backed by university VC firms
+€ 828,000 and of firms backed by government VC firms € 700,000. Firms backed by
+captive VC firms have the highest valuations (median value of € 4.3 million), but this
+value is not significantly different from that of independent VC firms.
+   Panel B reports the mean and median premoney values according to VC firm type
+for each investment round. Investee firms receive lower valuations from a captive
+VC firm in an initial investment round compared with independent VC firms, but
+captive VC firms value their investee firms significantly higher for all third and later
+rounds. University VC firms value their investee companies significantly lower than
+independent VC firms in second and third rounds, while government VC firms value
+their investee firms lower in the first and second investment rounds. These differences
+are statistically significant and economically large compared with the valuations of
+independent VC firms.
+   Panel C reports premoney valuations within different time periods. Valuations in
+the pre-bubble period were lower than in the bubble period for all VC firm types.
+During the bubble years from 1999 to 2001, stock prices increased rapidly and VC
+valuations were inflated. Interestingly, valuations remain equally high in the post-
+bubble period. Firms backed by captive VC firms report lower valuations compared
+with independent VC firms in the pre-bubble period and higher valuations in the
+post-bubble period. Valuations by university and government VC firms are significantly
+lower in each period compared with those of independent VC firms.
+   Panel D compares valuations between VC firms differentiating between standalone
+and syndicated investment rounds. Valuations in syndicated investment rounds are
+higher for all types of lead investors compared with valuations in standalone in-
+vestment rounds. Interestingly, captive VC firms value firms lower compared with
+independent VC firms when they invest alone but higher when they invest as the lead
+investor in a syndicated deal. University and government VC firms always report lower
+valuations compared with independent VC firms.
+   Panel E reports premoney valuations according to VC type and industry. Captive
+VC firms value biotech and pharmaceutical firms (‘Life Sciences’ industry) higher
+compared with independent VC firms. University VC firms report significantly lower
+valuations for the ‘Computer and Electronics’ industry and the ‘Life Sciences’
+industry, while government VC firms report lower values relative to independent VC
+firms for the ‘Computer and Electronics’ industry. In some industries, the low number
+of observations may mask significant differences in valuation.
+   Taken together, Table 2 shows that university and government VC firms value firms
+lower compared with independent VC firms. These differences are both statistically
+and economically significant, consistent with the predictions of hypotheses 2 and
+3. The differences between the valuations of captive and independent VC firms are
+smaller and less consistent.
+
+
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                                          14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+512                                HEUGHEBAERT AND MANIGART
+
+                                                Table 2
+                                             Summary Statistics
+                           Captive VC               University VC            Government VC             Independent VC
+                     N     Mean      Median    N    Mean      Median    N     Mean       Median    N     Mean Median
+Panel A: Premoney Valuations by VC Firm Type
+No. of investment   70 9,242       4,288     24      918∗∗    828∗∗     89 1,632∗∗       695∗∗    179     5,318   2,299
+  rounds
+No. of different    17                        5                          7                         46
+  VCs
+Panel B: Premoney Valuations by Series
+Series A            25 1,930†         548†      6 798      963          52 1,327∗∗ 486∗∗           65 2,062 1,250
+Series B            23 6,236        4,321      14 868∗∗ 651∗∗           26 1,412∗∗ 894∗∗           50 3,880 2,763
+Series C            12 9,316  ∗     8,367∗      3 1,205† 1,213†         10 3,428  4,084            32 4,467 3,479
+Series D             4 17,947∗ 16,041∗          1 1,491  1,491           0    /       /            17 6,827 2,881
+Series ≥ E           6 45,273∗ 43,757∗          0    /       /           1 5,216  5,216            15 24,326 12,904
+Panel C: Premoney Valuations by Investment Period
+Pre-bubble period   20 3,024†        509∗     0    /            /       44 1,308∗∗       505∗∗     25     3,894   1,872
+Bubble period       23 11,049      6,709      6 659∗∗         601∗∗     21 1,976∗∗       860∗∗     60     4,935   2,703
+Post-bubble         27 12,308 ∗∗   4,613 ∗∗  18 1,005∗        855∗      24 1,925†        902∗      94     5,941   1,891
+  period
+Panel D: Premoney Valuations by Number of Investors
+Standalone          29 5,792        655∗    16 874∗∗          808∗∗     74 1,352∗∗       553∗∗     87     2,937   1,851
+  rounds
+Syndicated          41 11,681∗    6,776∗     8 1,007∗         855∗∗     15 3,016     1,800†        92     7,570   3,164
+  rounds
+Panel E: Premoney Valuations by Industry
+Computer &          25 10,477      4,352        9    891∗∗ 1,075∗∗      28 1,084∗∗       664∗∗     92     5,677   2,271
+  Consumer
+  Electronics
+Life Sciences       15 14,409∗     9,596∗      12    653∗     744∗       6 2,689     2,864         35     5,659   1,872
+Business &          16 5,719       1,215        0     /         /       22 1,874†      511          6     6,917   3,609
+  Industrial
+  Products
+Chemicals &          3 4,612       1,160        3 2,062      2,265       8 1,559∗    1,288         17     5,718   4,034
+  Materials
+Communications       3 9,650       4,810        0     /             /    5 3,806     1,008         13     3,141   3,409
+Other                8 4,320       1,799        0     /             /   20 1,301∗      553         16     3,253   2,059
+Notes:
+Table 2 presents summary statistics of premoney valuations according to different (lead) VC firm
+types and different round and investee characteristics. The number of observations refers in all panels to
+the number of investment rounds within each category. All mean and median values are inflation-adjusted
+(2008 = 100) and reported in thousands of euros. Panel A reports mean and median premoney valuations
+clustered by VC firm type. The number of investment rounds is reported together with the number of
+different VCs that belong to the same type of VC firm. Panel B reports mean and median premoney
+valuations broken down by investment round and VC firm type. Panel C reports valuations negotiated
+during three different time periods: the pre-bubble period, bubble period and post-bubble period. The
+pre-bubble period covers the years 1988–1998, both included. The bubble period covers the years from
+1999 to 2001 during which stock prices increased rapidly. The post-bubble period includes all years after
+2001. Panel D breaks premoney valuations down according to VC type and standalone versus syndicated
+investment rounds. Investment rounds where there is only one VC investor are classified as standalone
+rounds and rounds with more than one VC investor are classified as syndicated investment rounds. In all
+syndicated rounds, the type of lead VC investor is reported. Panel D reports different sectors in which the
+investee firms are classified. The industries are consistent with the EVCA (2007) sectoral classification. ∗∗ ,∗
+and † denote values that are statistically different from those of independent VC firms at the 0.01, 0.05 and
+0.10 levels, respectively.
+
+
+
+
+                                                                                     
+                                                                                     C   2012 Blackwell Publishing Ltd
+                                                                                                            14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                                  513
+
+(ii) Variables Used in the Multivariate Analyses
+The independent variable is the type of lead VC firm. Dummy variables are included
+for captive, university and government VC firms. Independent VC firms are the base
+category and hence excluded. In syndicated deals only the firm type of the lead VC
+investor is included.
+   Investee firm variables that may determine valuation are included as control
+variables. Four variables are included to proxy for investee firm characteristics: the
+number of patent applications before the investment round, age at investment, a
+high-tech dummy variable and the inflation-adjusted amount invested in previous
+rounds (2008 = 100). The absolute growth variable is not included because of the
+non-availability of these data for startups.
+   Lagged financial statement variables are also included, as financial accounting
+information is informative and relevant in investors’ valuation expectations, even
+in extreme settings, such as for Internet IPO firms during the high-tech bubble
+(Bhattacharya et al., 2010). These variables are recorded in the year before the
+investment is made (Hand, 2005) and are taken from financial statements supplied
+by the National Bank of Belgium.1 All financial statement variables (in thousands
+of Euros) are inflation-adjusted (2008 = 100). Including the accounting variables
+results in a loss of 87 observations, as no prior accounting information is available
+for investments at start-up (77 rounds) and ten investment rounds report no previous
+accounting information. Consistent with Hand (2005), balance sheet data (cash assets,
+non-cash assets, intangible assets, accumulated gains or losses, long term debt) and
+income statement data (operating revenues and operating costs) are included.
+   Investment round variables are included as control variables. First, the investment
+round number is included, as investments in later rounds typically occur in more
+mature and hence more valuable companies (Hand, 2005). Furthermore, the number
+of investors or a syndication dummy variable are included in the analyses of the full
+sample, as syndication may lead to a better selection process (Brander et al., 2002;
+and Meuleman et al., 2009) and therefore potentially to higher values. We further
+control for investor characteristics. A dummy variable indicates whether the (lead)
+investor is non-Belgian. As most investors prefer to invest locally to reduce asymmetric
+information and moral hazard problems (Cumming and Dai, 2010; and Devigne et al.,
+2012), competition between local investors is expected to be higher. VC firms located
+in another country typically have more investment options and hence more bargaining
+power compared with local investors. Furthermore, cross-border investors are also
+likely to be more reputable investors (Cumming and Dai, 2010). Both arguments
+suggest that valuations may be lower for cross-border VC firms compared with local
+VC firms. Another proxy for VC reputation is the VC IPO market share (Nahata,
+2008; Cumming and Dai, 2011; and Chahine and Goergen, 2011). We define the IPO
+market share of VC firm X at the time of investment as the proportion of Belgian
+IPO investments of VC firm X in the total number of Belgian VC backed IPOs over
+a period of five years preceding the investment. This information is collected from
+all Belgian IPO prospectuses between 1983 and 2008. Following Cumming and Dai
+(2011), an inverse U-shaped relationship between VC IPO market share and valuations
+
+1 While the financial statement information of unquoted companies is in general of lower quality than
+that of quoted companies, Beuselinck et al. (2009) have shown that the quality of the financial statement
+information significantly improves once firms start searching for VC financing.
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                             14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+514                             HEUGHEBAERT AND MANIGART
+
+is expected. We also control for VC firm size as Cumming and Dai (2011) report a
+convex relationship between VC fund size and valuations. VC firm size is measured
+as the inflation-adjusted cumulative amount of capital managed by the VC firm in
+VC funds that are less than ten years old. This information is available in Ventur-
+eXpert. For VC firms without a closed-end fund structure, VC firm size is identified
+from the EVCA directories as the inflation-adjusted market value of all portfolio firms
+at the time of investment. To control for changes in the macro-economic environment,
+the inflation-adjusted inflow of capital in the venture capital industry in the year before
+the investment (following Gompers and Lerner, 2000) and the Belgian Industry Index
+as a capital market index are included, suggesting that private valuations follow public
+valuations. We explicitly control for the inflow of capital to exclude the potential
+macro-level impact of cyclical movements in the VC industry on the VCs bargaining
+position (Inderst and Mueller, 2004).2 Finally, we add a pre-bubble dummy variable
+in our regression model to control for the lower valuations during the pre-bubble
+years.
+    Pearson correlation coefficients (reported in Table 3) and Variance Inflation
+Factors (VIF) for all regressors (unreported analyses) reveal no severe collinearity
+problems: the highest VIF is 4.8, far below the suggested threshold of ten (Gujarati,
+2003). Premoney valuations are positively correlated with successful exits. Captive
+VC firms report higher valuations while university and government VC firms report
+lower valuations. Furthermore, premoney valuations are positively correlated with the
+number of patent applications, previous invested amount, cash and non-cash assets,
+operating revenues and costs, accumulated losses, intangible assets, round series,
+number of investors and cross-border VCs, reputable VCs and larger VCs. Pre-bubble
+valuations are lower compared with bubble and post-bubble premoney valuations.
+
+(iii) Results of the Multivariate Regressions
+To test the hypotheses in a multivariate regression framework, a log-linear OLS-
+regression model is used. A log-linear model replaces all continuous variables by
+their natural logarithm and is relevant when dealing with non-linearities between the
+dependent variable and independent variable(s).
+   Table 4 presents the results of the multivariate regressions with standard errors
+clustered on the investee firm level (Petersen, 2009). The dependent variable is
+the log-transformed premoney value. Model I and Model IV include only firm
+characteristics. Model II and Model V add dummy variables for VC firm type, with
+independent VC firms serving as the base category. Model III and Model VI include all
+explanatory variables. Given the loss of observations, the accounting variables are only
+included in the final models. To fairly control for the potential confounding impact
+of non-lead investors in syndicated deals, especially when investor type differs between
+lead and other VC investors, we repeat all multivariate analyses for a subsample of
+206 standalone investment rounds and report them in Model IV-VI. In standalone
+investment rounds the lead VC investor can be unequivocally determined as there is
+only one investor.
+
+
+2 Although we acknowledge that the characteristics of the entrepreneur may affect the bargaining power
+(e.g., Cumming and Johan, 2008; and Han et al., 2009) and hence valuations, we unfortunately lack
+information on the entrepreneur and so we cannot take these considerations into account.
+
+                                                                         
+                                                                         C   2012 Blackwell Publishing Ltd
+                  C
+                  
+
+
+
+
+                                                                                                                                                                              Table 3
+                                                                                                                                                                         Correlation Matrix
+                                                                                         1            2             3            4             5            6             7             8            9            10            11           12            13           14            15           16            17         18          19          20              21
+                                                  Dependent Variables
+             2012 Blackwell Publishing Ltd
+
+
+                                             1    Premoney Value
+                                             2    Successful Exit                    0.14∗
+                                                  Type of VC Firm
+                                             3    Captive VC                        0.22∗∗−0.05
+                                             4    University VC                    −0.11∗ 0.10                −0.13∗
+                                             5    Government VC                    −0.19∗∗ 0.02               −0.28∗∗−0.15∗∗
+                                             6    Independent VC                     0.05       −0.02         −0.48∗∗−0.26∗∗−0.57∗∗
+                                                  Firm Characteristics
+                                             7    N◦ of Patent Apps.                 0.42∗∗ 0.15∗ 0.04 −0.02 −0.09     0.05
+                                             8    Age (in years)                     0.07 −0.02    0.08 −0.03   0.19∗∗−0.22∗∗ 0.04
+                                             9    High-tech                          0.06       ∗∗
+                                                                                            0.20 −0.00        ∗
+                                                                                                          0.13 −0.21∗∗ 0.12∗ 0.19∗∗−0.06
+                                             10   Previous Investment                0.75∗∗ 0.08   0.13∗ −0.09 −0.17∗∗ 0.08   0.38∗∗ 0.12∗                                                        0.03
+                                                  Financial Statement Variables
+                                             11   Cash Assets                   0.77∗∗ 0.19∗∗ 0.16∗∗−0.06                                −0.17∗∗ 0.05   0.48∗∗−0.06   0.12∗ 0.66∗∗
+                                             12   Non-Cash Assets               0.32∗∗ 0.06   0.09 −0.08                                  0.08 −0.10    0.04   0.23∗∗−0.13∗ 0.34∗∗ 0.20∗∗
+                                             13   Long Term Debt               −0.00    0.10  0.23∗∗−0.07                                −0.05 −0.10 −0.00     0.16∗∗−0.16∗∗−0.04 −0.02    0.30∗∗
+                                             14   Operating Revenues            0.17∗∗ 0.06   0.20∗∗−0.07                                −0.02 −0.11    0.03   0.30∗∗−0.09   0.11   0.07   0.58∗∗ 0.47∗∗
+                                             15   Operating Costs               0.42∗∗ 0.08   0.25∗∗−0.10                                −0.11 −0.06    0.26∗∗ 0.20∗∗−0.04   0.39∗∗ 0.35∗∗ 0.57∗∗ 0.41∗∗ 0.91∗∗
+                                             16   Accum. Gains/Loss            −0.71∗∗−0.04 −0.13∗ 0.07                                   0.21∗∗−0.12∗ −0.53∗∗ 0.04 −0.07 −0.82∗∗−0.63∗∗−0.17∗∗ 0.06 −0.05 −0.39∗∗
+                                             17   Intangible Assets                  ∗∗
+                                                                                0.35 −0.03    0.12∗ 0.03                                 −0.16∗∗ 0.03   0.36∗∗ 0.05   0.15∗ 0.45∗∗ 0.27∗∗ 0.15∗ −0.00    0.08   0.22∗∗−0.47∗∗
+                                                  Control Variables
+                                             18   Series                             0.60∗∗ 0.07   0.06 −0.03                            −0.24∗∗ 0.17∗∗ 0.44∗∗ 0.23∗∗ 0.15∗∗ 0.71∗∗ 0.43∗∗ 0.23∗∗−0.01                                                                0.11          0.31∗∗−0.65∗∗ 0.50∗∗
+                                             19   Number of Investors                0.52∗∗ 0.17∗∗ 0.15∗∗−0.07                           −0.27∗∗ 0.15∗∗ 0.45∗∗−0.08   0.12∗ 0.56∗∗ 0.53∗∗ 0.13∗ −0.05                                                                 0.01          0.27∗∗−0.61∗∗ 0.32∗∗ 0.48∗∗
+                                             20   Syndication                        0.27∗∗ 0.06   0.15∗∗−0.05                           −0.30∗∗ 0.17∗∗ 0.25∗∗−0.08   0.17∗∗ 0.31∗∗ 0.28∗∗ 0.07   0.05                                                                0.01          0.16∗∗−0.34∗∗ 0.29∗∗ 0.35∗∗ 0.75∗∗
+                                             21   Cross−Border VC                    0.21∗∗ 0.13∗ 0.04 −0.08                             −0.17∗∗ 0.16∗∗ 0.10 −0.05    0.05   0.25∗∗ 0.19∗∗−0.03 −0.07                                                                 0.00          0.11 −0.28∗∗ 0.05 0.20∗∗ 0.33∗∗ 0.26∗∗
+                                                                                                                                                                                                                                                                                                                                                                                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                515
+
+
+
+
+14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                                                                                                                                                                                                                                                                                                516
+
+
+
+
+                                                                                                                                                                        Table 3 (Continued)
+                                                                              1             2              3             4   8      9  5 10     11    6 12   13   147   15     16     17     18     19     20     21
+                                             22   IPO Market Share    0.16∗∗ 0.06 −0.04 −0.07        0.01    0.06   0.04 −0.07 0.14∗∗ 0.13∗ 0.18∗∗ 0.16∗∗ 0.01 0.01 0.10 −0.16∗∗ 0.09       0.08   0.16∗∗ 0.13∗ −0.06
+                                             23   VC Firm Size        0.38∗∗ −0.05   0.18∗∗ −0.11∗ 0.07 −0.14∗∗ 0.09        0.05 −0.01  0.32∗∗ 0.26∗∗ 0.12 −0.04 0.09 0.19∗∗ −0.30∗∗ 0.18∗∗ 0.21∗∗ 0.17∗∗ 0.10∗ 0.26∗
+                                             24   Inflow of Capital   0.04 −0.15∗ 0.03       0.01 −0.14∗ 0.08 −0.09 −0.12∗ −0.03 −0.06 −0.03 −0.05           0.04 0.00−0.00   0.05   0.04 −0.01 −0.07 −0.03      0.03
+                                             25   Belgian Ind. Index  0.10    0.27∗∗ 0.04    0.23∗∗ −0.17∗∗ −0.00   0.41∗∗ −0.00 0.24∗∗ 0.06   0.23∗∗ −0.05 −0.07−0.09−0.02 −0.11    0.15∗ 0.11∗ 0.23∗∗ 0.19∗∗ 0.06
+                                             26   Pre-Bubble               ∗∗
+                                                                     −0.15 −0.05     0.05 −0.15  ∗∗      ∗∗      ∗∗
+                                                                                                     0.33 −0.24 −0.17   ∗∗                  ∗∗     ∗∗
+                                                                                                                            0.09 −0.06 −0.20 −0.16 −0.10     0.06 0.03−0.07       ∗∗     ∗∗     ∗∗     ∗∗     ∗∗
+                                                                                                                                                                              0.25 −0.21 −0.33 −0.23 −0.24 −0.07
+                                                                       22      23     24      25
+                                             23   VC Firm Size        0.19∗∗
+                                             24   Inflow of Capital  −0.06  0.09
+                                             25   Belgian Ind. Index −0.02 −0.08                      0.02
+                                             26   Pre-Bubble              ∗
+                                                                      0.12 −0.01                     −0.43∗∗ −0.20∗∗
+                                             Notes:
+                                             Table 3 provides a Pearson correlation matrix of the main dependent and independent variables used in the regression analysis. ∗∗ and ∗ denote significance at the
+                                             0.01 and 0.05 levels, respectively (2-tailed). Premoney valuations are reported in thousands of euros; successful exit is a dummy variable equal to 1 for all investee
+                                             firms that went public or were acquired and private firms with persistent uprounds, and zero otherwise. The VC firm type variables are dummy variables equal to one
+                                             if that type of VC was the lead investor in a certain round of investment. The high-tech dummy variable is equal to one if the firm is active in the high-tech industry
+                                             and zero otherwise; all other firm characteristics (patent applications, age and amount invested) are continuous variables. The amount invested in previous rounds is
+                                             expressed in millions of euros like all financial statement variables. Syndication is a dummy control variable equal to one if the investment round was syndicated and
+                                                                                                                                                                                                                                                                                                                                                                                HEUGHEBAERT AND MANIGART
+
+
+
+
+                                             zero otherwise, and cross-border VC is a dummy variable equal to one for non-Belgian VC investors. IPO market share is the cumulative number of IPO investments
+                                             by the VC five years before the investment divided by the total number of VC backed IPOs over the same period. VC firm size is expressed in millions of euros and the
+                  C
+                  
+                                             inflow of capital in the VC industry is expressed in hundred millions of euros. The pre-bubble period covers the years from 1988 to 1998, both included.
+
+
+
+
+             2012 Blackwell Publishing Ltd
+
+
+
+
+14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                                                                                             14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                                     517
+
+                                       Table 4
+          Multivariate OLS Regression Model Explaining Premoney Valuations
+                                                 Full Sample                Standalone Investment Rounds
+                               Exp.    Model      Model         Model       Model      Model      Model
+                               Sign     I          II            III         IV         V          VI
+Constant                               7.428∗∗    7.821∗∗       2.821       7.573∗      7.787∗     4.413
+Type of VC firm (dummy)
+Captive VC                      −                 0.247         0.048                 −0.202     −0.609
+University VC                   −                −0.636∗       −0.626∗                −0.755∗    −0.899∗
+Government VC                   −                −0.572∗       −0.717∗∗               −0.676∗    −0.876∗
+Firm Characteristics
+Ln (1+ no of patent             +      0.212      0.204         0.242       0.261       0.257    −0.149
+  applications)
+Ln (1+ Age) (in years)          +     −0.167     −0.116        −0.131     −0.037       0.033      0.031
+High-tech (dummy)               +     −0.199     −0.222         0.051     −0.213      −0.284     −0.036
+Ln (1+ Amount                   +      0.049∗     0.042∗        0.030      0.033       0.027      0.017
+  invested in previous
+  rounds)
+Financial Statement Variables
+Ln (1+ Cash Assets)           +                                 0.084∗∗                            0.100∗∗
+Ln (1+ Non-Cash               +                                 0.449∗∗                            0.416∗∗
+  Assets)
+Ln (1+ Long Term              −                                −0.022                            −0.026
+  Debt)
+Ln (1+ Operating              +                                −0.006                            −0.020
+  Revenues)
+Ln (1+ Operating              −                                −0.086                            −0.025
+  Costs)
+Ln (1+ Accumulated            +                                −0.001                              0.005
+  Gains/Losses)
+Ln (1+ Intangible             +                                −0.034†                           −0.038†
+  Fixed Assets)
+Control Variables
+Ln (1+ Series)                  +      1.237∗∗    1.284∗∗       0.767       0.762       0.833      0.799
+Syndication (dummy)             +      0.206      0.058        −0.021†
+Cross-border                    −      0.830∗     0.610†        0.661∗      1.119∗∗     0.756†     0.105
+   VC(dummy)
+VC IPO Market Share             +      1.949      0.576         1.792      5.373∗∗ 2.930         −2.694
+VC IPO Market Share             −     −0.031      1.712        −1.861     −3.732† −1.232          9.578
+   squared
+Ln (1+ VC Firm Size)            −     −0.135      0.125         0.088     −0.769      −0.086       0.167
+Ln (1+ VC Firm Size)            +      0.055      0.007         0.016      0.140†      0.049       0.015
+   squared
+Ln (1+ Inflow of                +      0.253∗     0.236∗        0.252†      0.289∗      0.277†     0.180
+   capital)
+Ln (1+ Belgian                  +      0.033      0.044         0.042     −0.023        0.002    −0.014
+   Industry Index)
+Pre-Bubble (dummy)              −      0.130      0.118         0.241     −0.185      −0.165     −0.050
+No. of observations                     362        362           275         206        206        154
+No. of firms                            180        180           153         135        135        108
+Adjusted R 2                          32.8%      35.2%         48.3%       24.7%       27.1%      41.2%
+F -statistic                          52.0       34.0          25.4       200.8       155.4      104.2
+p-value (F -statistic)                 0.000      0.000         0.000       0.000       0.000      0.000
+
+
+
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                                   14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+518                               HEUGHEBAERT AND MANIGART
+
+                                        Table 4 (Continued)
+Notes:
+Table 4 reports the results from log-linear OLS regressions of premoney valuations on VC investor
+dummies, investee firm characteristics, financial statement variables and control variables. The first three
+models (Models I-III) present the results for the full sample including 362 standalone and syndicated
+investment rounds. Models IV-VI present the results for the subsample of 206 investment rounds with
+only one VC investor. All standard errors are clustered on the investee firm level. ∗∗ ,∗ and † denote
+significance at the 0.01, 0.05 and 0.10 levels, respectively. Captive VCs, government VCs and university VCs
+are expected to value private firms at at lower level compared with independent VCs. The log-transformed
+firm characteristics (number of patent applications before the investment round, age (in years) and the
+inflation-adjusted amount invested in previous rounds) are expected to be positively related to the value of
+the firm. High-tech is a dummy variable equal to 1 if the firm is active in the high-tech industry and zero
+otherwise. The value of high-tech firms is expected to be higher. (Non)-Cash assets, Operating Revenues,
+Accumulated Gains/Losses and Intangible Fixed Assets are expected to have a positive sign; Long Term
+Debt and Operating Costs a negative sign. Several control variables are included: the investment round
+(a), a syndication dummy variable (b), a cross-border dummy variable (c), IPO market share (d), VC firm
+size (e), the inflow of capital in the venture capital industry the year before the investment (t-1) (f), the
+Belgian Industry Index as a capital market index (g) and a Pre-Bubble Dummy variable. The Pre-Bubble
+variable is equal to one in the investment years before 1999 and zero otherwise. Syndicated investors have
+a better selection process (Brander et al., 2002), therefore higher valuations are expected from syndicated
+investment rounds. Cross-border VC investors may have more bargaining power compared with domestic
+VC investors leading to lower valuations. Cumming and Dai (2011) report a concave relationship between
+IPO market share and valuations and a convex relationship between VC fund size and premoney valuations.
+Gompers and Lerner (2000) show that higher inflows of capital in the venture capital industry result in
+inflated valuations of these funds’ new investments. We therefore include the inflation-adjusted inflow
+of capital in Belgium (in euros) at time (t-1) from the EVCA Yearbooks. The Belgian Industry Index
+is retrieved from the Thomson Datastream database and added as a capital market variable following
+Armstrong et al. (2006), suggesting that private valuations follow public valuations. In the pre-bubble
+years, the Belgian VC industry was nascent and mainly dominated by captive and government VC firms,
+potentially leading to more bargaining power for those VC firm types in the pre-bubble years relative to the
+bubble and post-bubble years.
+
+
+
+    A later investment round (<0.01 in Models I-II), a cross-border VC investor
+(<0.01 in Model IV) and a higher inflow of capital in the VC industry the year
+before the investment (<0.05 or <0.10) are associated with significantly higher
+valuations in all models except Model VI. VC reputation proxied by IPO Market Share
+shows the anticipated inverted U-shape relationship with valuation in Model IV. The
+effects are also economically significant. Valuation increases approximately 130% with
+each investment round. Cross-border VC investors value investee firms at least 61%
+(Model II) higher compared with Belgian VC investors, all else remaining equal. If
+the inflow of capital increases by 10% the year before the investment then valuations
+increase between 2% and 3%. The significant impact of the inflow of capital in the
+VC industry is in line with Gompers and Lerner (2000): higher competition between
+VC firms leads to increased valuations. In Model IV, a 1% increase in VC reputation
+first increases valuations by 5%. More reputable VC investors select better and hence
+more valuable companies. Consistent with Cumming and Dai (2011) and Hsu (2004),
+we find that beyond a certain threshold, highly reputable VC investors exploit their
+higher bargaining power and invest at lower prices. We then find a 3.7% discount
+per 1% increase in VC reputation. The value in syndicated investment rounds is not
+significantly higher, changes in the Belgian stock market index are not associated
+with changes in private firm valuations and pre-bubble valuations are not significantly
+lower compared with bubble and post-bubble valuations, controlling for other factors.
+Furthermore, the coefficients of cash assets and non-cash assets (Model III and
+Model VI) are significantly positive (<0.01), while the coefficient of intangible fixed
+
+                                                                               
+                                                                               C   2012 Blackwell Publishing Ltd
+                                                                                            14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                    519
+
+assets is marginally significantly negative (<0.10). These results are broadly consistent
+with previous research (Hand, 2005; and Armstrong et al., 2006), but these effects are
+small. Ten per cent more cash leads to valuations that are 0.8% higher.3 Ten per cent
+more non-cash assets leads to valuations that are 4% higher, and 10% more intangible
+assets lowers valuations by 0.3%.
+   There is a significant increase in model fit moving from Model I to Model II (<0.01)
+and moving from Model IV to Model V (<0.10), indicating that VC investor type is an
+important determinant of premoney valuations regardless of whether they invest alone
+or in a syndicate. The first hypothesis proposes that captive VC firms value firms lower
+relative to independent VC firms, but no significant differences are found between the
+valuations of independent and captive VC firms. Hypothesis 1 is hence not supported.
+The second hypothesis proposes that university VC firms value firms lower relative
+to independent VC firms. The coefficient is negative and significant in all Models
+(<0.05), providing support for the second hypothesis. The premoney value of an
+average company, backed by a university VC firm, is estimated as € 922,305, while
+the same company would have a premoney value of €1,498,804 if backed by an
+independent VC firm. Hypothesis 3 proposes that government VC firms value firms
+lower relative to independent VC firms. All Models show a negative and significant
+coefficient for government VC firms (<0.01 or <0.05), supporting hypothesis 3.
+The premoney value of an average company, backed by a government VC firm, is
+estimated as € 888,044, while the same company would have a premoney value of
+€ 1,202,067 if backed by an independent VC firm. Finally, all main relations remain
+qualitatively unchanged when including growth in personnel expenses as an additional
+firm characteristic (unreported analyses). As pre-investment personnel growth is not
+a significant driver of portfolio firm valuation and as adding this variable reduces the
+sample size, we prefer to focus on the previously reported models.
+
+(iv) Potential Impact of VC Selection
+The finding that university and government VC firms value their portfolio companies
+lower relative to independent VC firms may suffer from endogeneity problems. Follow-
+ing Eckhardt et al. (2006), the matching between a VC investor and the entrepreneur
+is a two-stage selection process where VC investors select entrepreneurial companies
+from a population of entrepreneurs that first selected themselves as candidates for VC
+financing. It is impossible to determine whether the selection bias occurs in the first
+stage or second stage of the selection process between the entrepreneur and the VC
+investor (Hellmann et al., 2008). What really matters in relation to the endogeneity
+concern is that the self-selection between venture capital firms and investee firms
+is taken into account. We deal with potential selection biases in two different ways:
+first, a Heckman two-stage approach is estimated, and second, a probit regression
+predicting the likelihood of a successful outcome of the investment is applied. The
+Heckman procedure is an ex-ante correction method while probit regressions are ex-
+post analyses analysing the outcome of the investment.
+    Heckman (1979) suggests a correction for potential endogeneity in two steps. A
+first regression, the selection equation, predicts the probability that university and
+government VC firms will invest. The empirical specification of the probit regression
+
+3 Economic effects relate to the full model (Model III) unless otherwise specified.
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+520                         HEUGHEBAERT AND MANIGART
+
+model includes explanatory variables that are expected to determine the investment
+likelihood of university and government VC firms. The inverse Mills ratio obtained
+from the first stage regression is incorporated as an additional regressor in the
+second stage log-linear regression to control for potential endogeneity. A significant
+coefficient of the inverse Mills ratio suggests that a selection bias exists in the sample.
+The results of the first step (selection regression) of the Heckman procedure are
+discussed in the following paragraphs.
+    Two probit regression specifications model the likelihood that university and
+government VC firms invest, including investee firm characteristics, investment round
+characteristics, VC firm characteristics and a time dummy variable. Two investee firm
+characteristics are included that proxy for its maturity as an indicator of risk: the
+inflation-adjusted cumulative invested amount (in millions of euros) and age (in
+years). Younger firms are riskier than later stage firms, as they have no track record and
+few tangible assets. VC firms focusing on early stage (or mature) firms may therefore
+apply lower (or higher) valuations, all else remaining equal. Furthermore, investee
+firm risk may be reflected by the number of patent applications. Intellectual property
+is often an important asset for VC backed firms. Patents are the most effective way
+for these firms to protect their intellectual property (Lerner, 1994). Therefore, firms
+with more patent applications are expected to have a higher chance of survival. Bigus
+(2006) further argues that patents limit VC bargaining power in the venture financing
+process because the VC investor may otherwise steal the idea for his own purposes.
+Finally, a dummy variable indicating whether the firm is active in a high-tech industry
+is included. Compared with non-high-tech firms, high-tech firms have more growth
+potential over the long run but present a greater risk.
+    Two investment round characteristics are included in this analysis. VC firms
+may invite other VC firms to join the equity syndicate to ensure improved future
+access to more and better quality deals (Sorenson and Stuart, 2001). Having more
+investors involved in the investment decision is expected to improve the quality
+of the decision and thus to lower the risk. Therefore, the number of VC investors
+in the investment round is included as a variable. Furthermore, the amount invested
+in the current round (expressed in million euros) is included. High growth firms have
+large financing needs. However, not all VC firms are equally willing or able to invest
+the same amount of cash in a firm. VC firms may forego interesting opportunities
+because of financing constraints (Brander et al., 2002), hence it is relevant to include
+the amount invested in the current round.
+    VC IPO Market Share as a proxy for VC reputation and VC firm size (expressed in
+billion euros) are added as VC firm characteristics. More reputable VC investors may
+attract better companies either because of improved screening mechanisms or because
+of the entrepreneurs’ preference to be linked with reputable investors. VC firms with
+deeper pockets may have better access to better quality deals given that they reduce the
+risk for follow-on financing (Cumming and Dai, 2011). Finally, the pre-bubble dummy
+variable controls for the emerging nature of the VC industry.
+    Unreported results of the probit selection regressions show that university VC firms
+are more likely to invest in firms that receive first-time VC financing. University VC
+firms started with their investment activity in the bubble years and are on average
+smaller compared with other VC firms. Government VC firms are more likely to invest
+in a first investment round in older non-high-tech firms. Government VC firms further
+typically invest alone. They are larger relative to other VC firms and they invest more
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                              14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                     521
+
+money in their companies. Finally, government VC firms were more likely to invest in
+the pre-bubble period.
+   Table 5 presents the results of the second stage of the Heckman procedure. The
+second stage represents a log-linear regression of inflation-adjusted (2008 = 100)
+premoney valuations on the VC firm type, investee firm characteristics and control
+variables, adding the inverse Mills ratio as an additional regressor. Models I and II
+report results for the full sample. Models III and IV report results for the subsample
+of investment rounds with one VC investor. Models II and IV include the financial
+statement control variables. Standard errors are clustered on the investee firm level
+(Petersen, 2009).
+   The inverse Mills ratio for university VC firms is positive and significant in most
+models (<0.01 in Models I and III), indicating that unobserved factors that determine
+whether a university VC firm will invest are positively related to the unobserved factors
+that determine valuation. The significant inverse Mills indicates that selection bias is
+present for this type of VC firm. For government VC firms, the inverse Mills ratio is only
+significant (<0.05) and negative in Model III, suggesting that no severe selection bias
+exists. After controlling for the selection effect, university VC firms (<0.05 or <0.10)
+and government VC firms (<0.05) still value firms lower than independent VC firms.
+The effects of the control variables are not affected by the inclusion of the inverse Mills
+ratio.
+   A second strategy to analyse the endogeneity problem is to study exit outcomes as a
+proxy for firm risk, acknowledging the impact of unobserved variables that may affect
+the risk of investee companies of different types of VC firms. An overall higher risk
+investment strategy may explain the lower valuations observed for university VC firms
+and government VC firms. If some types of VC firms mainly select firms with lower risk
+or vice versa, we expect to see ex-post a higher proportion of successful investments (or
+unsuccessful investments). IPOs and acquisitions are classified as successful outcomes,
+while failures and voluntary liquidations are classified as unsuccessful outcomes.
+Furthermore, firms that are still private are considered successful if their value
+increased constantly over all follow-on financing rounds. Twenty-five private firms
+with only uprounds are classified as successful. In a similar vein, private firms are
+considered unsuccessful if their value constantly decreased over follow-on financing
+rounds. Twenty-one private firms with only downrounds are classified as unsuccessful.
+Private firms with only one investment round or with both up- and downrounds are
+removed from the sample for this analysis. To reduce the potential misclassification of
+firms in successful and unsuccessful firms, the sample is limited to firms that received
+an initial VC investment before 2003. This limitation is consistent with the assumption
+of a typical holding period for a VC investor of six years and therefore excludes
+59 investment rounds in 30 firms. Given these restrictions and the ensuing reduction
+in sample size, we are unable to present results for the subsample of standalone
+investment rounds, as the resulting sample is too small.
+   Table 6 shows the results of the probit regression models predicting the likelihood
+of successful investments. Model I includes only firm characteristics. Model II adds
+dummy variables for VC firm type, with independent VC firms as the base category.
+Model III includes all explanatory variables, including accounting variables. All
+standard errors are clustered on the investee firm level (Petersen, 2009). The results
+suggest that high-tech firms have a higher probability of being more successful
+(<0.05 or <0.10) compared with non-high-tech firms. Successful firms have more
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                                      14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+522                                HEUGHEBAERT AND MANIGART
+
+                                     Table 5
+        Multivariate OLS Regression Controlling for Potential Selection Bias
+                                                                                             Standalone
+                                                               Full Sample                Investment Rounds
+                                           Exp. Sign     Model I       Model II        Model III       Model IV
+
+Constant                                                  8.271∗∗       4.070            8.638∗∗        5.501
+Type of VC Firm (dummy)
+Captive VC                                     −         0.012        −0.104           −0.273         −0.664
+University VC                                  −        −0.540∗       −0.588†          −0.703∗        −0.889∗
+Government VC                                  −        −0.678∗       −0.649∗          −0.798∗        −0.891∗
+Firm Characteristics
+Ln (1+ no of patent applications)              +         0.142         0.197           −0.016         −0.309
+Ln (1+ Age) (in years)                         +        −0.120        −0.089           −0.242         −0.173
+High-tech (dummy)                              +         0.282         0.222            1.057†         0.786
+Ln (1+ Amount invested in                      +         0.045∗        0.032            0.015          0.012
+  previous rounds)
+Financial Statement Variables
+Ln (1+ Cash Assets)                            +                       0.082∗∗                         0.098∗∗
+Ln (1+ Non-Cash Assets)                        +                       0.384∗∗                         0.370∗∗
+Ln (1+ Long Term Debt)                         −                      −0.011                          −0.019
+Ln (1+ Operating Revenues)                     +                      −0.004                          −0.020
+Ln (1+ Operating Costs)                        −                      −0.081                          −0.001
+Ln (1+ Accumulated                             +                      −0.001                           0.005
+  Gains/Losses)
+Ln (1+ Intangible Fixed Assets)                +                      −0.032†                         −0.037
+Control Variables
+Ln (1+ Series)                                 +         0.465         0.352             0.714          0.649
+Syndication (dummy)                            +         0.128        −0.073
+Cross-border VC (dummy)                        −         0.400         0.584∗           0.452         −0.003
+VC IPO Market Share                            +         4.421∗        4.229            9.198∗∗        1.083
+VC IPO Market Share squared                    −         1.311        −2.888           −1.044         10.490
+Ln (1+ VC Firm Size)                           −        −1.196∗∗      −0.650           −2.088∗∗       −1.327
+Ln (1+ VC Firm Size) squared                   +        −0.017∗       −0.004           −0.020         −0.007
+Ln (1+ Inflow of capital)                      +         0.232∗        0.223†           0.304∗         0.186
+Ln (1+ Belgian Industry Index)                 +         0.039         0.047           −0.013         −0.009
+Pre-Bubble (dummy)                             −        −0.127         0.167           −1.024†        −0.611
+Inverse Mills ratio University VC                        0.675∗∗       0.332†           1.116∗∗        0.693
+Inverse Mills ratio Government                          −0.435        −0.084           −1.969∗        −1.231
+   VC
+No. of observations                                       349            263             205             153
+No. of firms                                              179            152             134             107
+Adjusted R 2                                            36.7%          46.2%           26.6%           38.1%
+F -statistic                                            19.1           20.5            12.2            10.5
+p-value (F -statistic)                                   0.000          0.000           0.000           0.000
+Notes:
+Table 5 shows the results of the second stage of the Heckman correction procedure. Models I and
+II present the results for the full sample including both standalone and syndicated investment rounds.
+Models III and IV present the results for the subsample of investment rounds with only one VC investor. All
+standard errors are clustered on the investee firm level. ∗∗ ,∗ and † denote significance at the 0.01, 0.05 0.10
+levels, respectively. The second stage represents a log-linear regression of inflation-adjusted (2008 = 100)
+premoney valuations on the VC firm type, investee firm characteristics and control variables. The inverse
+Mills ratio is estimated from the first stage regression and added as an additional regressor. A significant
+coefficient of the inverse Mills ratio indicates that a significant selection bias exists.
+
+                                                                                  
+                                                                                  C   2012 Blackwell Publishing Ltd
+                                                                                                                  14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                                        523
+
+                                           Table 6
+                        Probit Regression Modelling on Successful Firms
+                                                                  Model I         Model II          Model III
+
+Constant                                                          −0.595          −0.741            −0.868
+Type of VC Firm (dummy)
+Captive VC                                                                        −0.076            −0.179
+University VC                                                                      0.312             0.472
+Government VC                                                                      0.477             0.244
+Firm Characteristics
+Number of patent applications                                       0.058           0.054            0.121
+Age (in years)                                                      0.018           0.011            0.014
+High-tech (dummy)                                                   0.421           0.476†           0.686∗
+Amount invested in previous rounds (in mil euros)                   0.012           0.016           −0.026
+Financial Statement Variables (in mil euros)
+Cash Assets                                                                                          0.676∗
+Non-Cash Assets                                                                                      0.017
+Long Term Debt                                                                                       0.255
+Operating Revenues                                                                                   0.225
+Operating Costs                                                                                     −0.246
+Accumulated Gains/Losses                                                                            −0.043
+Intangible Fixed Assets                                                                             −0.604
+Control Variables
+Series                                                            −0.158          −0.165            −0.173
+Number of investors                                                0.155†          0.195∗            0.224†
+Cross-border VC(dummy)                                             0.467           0.648             0.474
+VC IPO Market Share                                                0.945           1.104             0.809
+VC Firm Size (in bil euros)                                       −0.239          −0.372            −0.381
+Inflow of capital (in 100 mil euros)                              −0.033          −0.031            −0.009
+Belgian Industry Index                                             0.164           0.160∗            0.065
+Pre-Bubble (dummy)                                                −0.006          −0.071            −0.022
+No. of observations                                                228              228               173
+No. of firms                                                       109              109                92
+Adjusted R 2                                                      12.6%           14.1%             18.3%
+χ 2 -statistic                                                    23.2            28.9              30.6
+p-value (χ 2 -statistic)                                           0.026           0.016             0.105
+Notes:
+Table 6 reports the probit regression models that predict the likelihood of a successful outcome for
+investee firms. All standard errors are clustered on the firm level. ∗∗ , ∗ and † denote significance at the
+0.01, 0.05 and 0.10 levels, respectively. The dependent variable is a dummy variable equal to 1 for all
+investee firms that went public or were acquired and private firms with persistent uprounds, and zero
+otherwise. Private firms with only one investment round or with both up-and downrounds are excluded
+from this analysis. Firms with an initial (Series A) investment round after 2002 are excluded from the
+analysis. Cumulative invested amount in earlier rounds (in millions of euros), financial statement variables,
+the inflow of capital (in 100 millions of euros) and VC firm size (in billions of euros) are inflation-adjusted
+(2008 = 100). The VC firm type variables are all dummy variables, and none of these coefficients is
+expected to be significant in the absence of a sample selection bias ex-post.
+
+
+
+cash (<0.05). The probability of success also increases with a higher number of VC
+investors (<0.05 or <0.10). Finally, more successful investments are made when the
+Belgian economy is stronger (<0.05). However, none of the investor type variables has
+a significant effect. Ex-post, there are on average neither more failures, liquidations
+or private firms with downrounds, nor IPOs, acquisitions or private firms with
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                    14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+524                         HEUGHEBAERT AND MANIGART
+
+uprounds in the portfolio of captive, university or government VC firms compared
+with independent VC firms. Thus, there is no significant ex-post selection bias. Before
+the investment, a selection bias exists for university VC firms but the probability of
+success after the investment is not significantly different between different types of VC
+firms. Therefore, the observed differences in valuations between VC firm types are
+unlikely to be driven by selection bias.
+
+
+(v) Robustness Checks
+Several robustness checks were performed. First, the results remain robust when
+the syndication dummy variable in the regressions is replaced by the logarithm of
+the number of investors in each investment round. Second, including growth in
+relative or absolute terms has no impact on the reported results. Third, IPO market
+share as a proxy for VC reputation was measured from the VentureXpert database
+as the market value of all companies taken public by the VC firm proportional to
+the market value of all VC backed companies over a period of five years before the
+investment (Cumming and Dai, 2011; and Nahata, 2008). The conclusions remain
+unaffected. Fourth, standard errors are clustered on the VC firm level rather than on
+the portfolio firm level, as the same VC may be the lead investor in multiple investment
+rounds. The results remain robust. Alternatively, rather than clustering standard errors
+on the VC firm level or portfolio firm level, Generalised Estimating Equations (G.E.E.)
+are used (Ballinger, 2004). G.E.E. are an extension of Generalised Linear Models in
+which the structure of the within-panel correlation can be modelled. In a first model,
+the within-subject observations are expected to be equally correlated; in a second
+model, all possible correlations are included. Neither G.E.E. model has an impact on
+the reported results.
+
+
+(vi) Alternative Explanations
+Recent research has highlighted two phenomena in venture capital investing that
+could potentially explain our results: overvaluation (Cumming and Walz, 2010) and
+style drift (Cumming et al., 2009). We discuss both of these issues and relate them to
+our results. Overvaluation occurs when an investor pays a price that is higher than
+the economic value of an investment. In general, overvaluation is more prevalent
+when stock market conditions are weak and when investments are made during the
+company’s early stage but are less prevalent in syndicated investments (Cumming
+and Walz, 2010). Our models control for these variables. Cumming and Walz (2010)
+further suggest that VC firm characteristics are also associated with overvaluation:
+VC firms tend to overvalue their investments when they have an incentive to signal
+their quality with higher valuations. We find that independent VC firms assign
+higher valuations compared with university and government VC firms. Independent
+VC firms are typically more reputable investors with more reputational capital at
+stake (Bottazzi et al., 2008) as they need to raise follow-on funds. Furthermore,
+the investment managers of independent VC firms are compensated with stronger
+profit-based incentives compared with government or university VC firms (Leleux
+and Surlemont, 2003). Both arguments suggest that independent VC firms have
+fewer incentives to overvalue investments compared with university or government
+VC firms, as overvaluation would hamper the future performance of the VC fund and
+
+                                                                
+                                                                C   2012 Blackwell Publishing Ltd
+                                                                                              14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                     525
+
+subsequently their personal incentives and their ability to raise future funds. It is hence
+unlikely that overvaluation drives our results.
+   Second, some VC investment managers deviate from their initial stated investment
+preferences in a phenomenon termed ‘style drift’ (Cumming et al., 2009). Style
+drifting is typically associated with higher valuations and with a higher probability of
+an IPO, suggesting that investment managers only drift style for investments that are
+more likely to have favourable outcomes and hence are more valuable (Cumming
+et al., 2009). Style drift could thus account for higher valuations in independent
+VC firms, as university and government VC investment managers often have strict
+investment policies. The former invest solely in university spin-offs while the latter are
+often prohibited to invest in companies that do not correspond to specific investment
+criteria. The greater freedom of independent VC firms to invest in companies outside
+their initial target segment could explain their relatively higher valuations. The impact
+of this phenomenon on valuations in our sample will be limited, however. If style drift
+were a frequent phenomenon among independent VC firms, independent VC firms
+would have a higher proportion of successful investments and exits. However, Table
+6 shows that independent VC firms do not have more successful exits compared with
+university and government VC firms, nor do they invest more frequently in firms that
+eventually go public through an IPO (Table 1- Panel D).
+
+
+                                    5. DISCUSSION AND CONCLUSIONS
+This paper studies how differences in VC firm type affect valuations in VC investment
+rounds. Utilising bargaining models (Kirilenko, 2001; Cable and Shane, 1997; and
+Fairchild, 2004), we argue that the relative bargaining power of the VC investor affects
+investee firm valuation. VC firm types with more bargaining power obtain higher
+equity stakes, or equivalently, value firms at a lower level compared with VC firm types
+with less bargaining power.
+   The hypotheses are tested on a sample including 362 investment rounds in
+180 Belgian investee firms. The results indicate that when firm-specific and market
+characteristics are controlled for, university and government VC firms value firms at
+a lower level than independent VC firms. The valuations of captive VC firms are not
+significantly different from those of independent VC firms. The lower valuations of
+university VC firms are partially driven by the selection behaviour of the entrepreneur
+and/or VC investor. After controlling for selection bias, however, government and
+university VC firms still value firms lower compared with independent VC firms. The
+empirical results suggest that different types of VC investors shape different valuations
+in VC investment rounds.
+   The findings of this paper are consistent with bargaining power arguments. VC
+firms with higher bargaining power exploit this power to negotiate lower valuations.
+A higher bargaining power may be embedded in the strategy of the VC firms, e.g.,
+by relying on a captive deal flow as university VC firms do. Targeting niche markets
+with low levels of competition from other VC firms is an alternative strategy to
+increase bargaining power. This strategy is followed by government VC firms, who
+either target high technology seed investments or more mature, less growth-oriented
+companies. Our results hence provide an indirect empirical test of the theoretical
+model developed by Fairchild (2004). While we expected that corporate VC firms
+would also exploit the captive deal flow that they have when investing in their spin-outs,
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+526                         HEUGHEBAERT AND MANIGART
+
+our results do not suggest that they do so. This result may be because the major portion
+of their investments occurs in unrelated companies, in which they face the same
+competition as independent VC firms. The bivariate analyses indicate that captive VC
+firms value investee firms at a lower level compared with independent VC firms when
+they invest alone and at a higher level when they invest as the lead investor in syndicate
+rounds. The bivariate analyses may indicate that investments in unrelated companies
+have a higher probability of being syndicated, while captive investments have a higher
+probability of being standalone investments. A more fine-grained analysis of captive
+VC firm investments may help to understand their investment and valuation processes
+in greater detail.
+   Our findings are far from trivial, as there are various reasons to expect higher
+valuations from university and government VC firms. First, earlier research has
+established that VC firms with a higher reputation negotiate lower valuations (Hsu,
+2004; and Cumming and Dai, 2011). However, independent investors are in general
+more sophisticated and more reputable investors (Bottazzi et al., 2008; and Hirsch and
+Walz, 2012). Solely focusing on investor reputation as a determinant of valuation would
+therefore suggest that university and government VC firms have a lower bargaining
+power, leading to higher valuations. Our results point in the opposite direction, sug-
+gesting that reputation is only one element that shapes a VC firm’s bargaining power.
+Next to reputation, a VC firm may enhance its bargaining power by creating captive
+deal flow or by targeting low-competition niche markets. While the present study
+focused on specific types of VC firms that are shielded from competition given their
+reason of existence, independent and captive VC firms may also consider alternative
+strategies to enhance their bargaining power in addition to building a strong reputa-
+tion in the VC market. For example, building strong links with research institutions,
+intermediaries or potential VC syndicate partners may provide a first view on deal flow
+that is originated by or passes through these organisations. Reputation is difficult and
+takes time to develop; alternative bargaining power strategies may thus be especially
+important to enable young VC firms to establish themselves in the VC market.
+   Second, the goals of university and government VC firms are not only to earn a
+financial return but also to enhance a university’s reputation or to sustain economic
+development (O’Shea et al., 2005; Murray, 1998; and Manigart et al., 2002a). One
+might hence expect that those firms would trade off financial returns against their
+other goals, and hence accept higher valuations. We have shown that this is not the
+case: these investors fully exploit their higher bargaining power and negotiate lower
+valuations.
+   Third, university and government VC firms are less well equipped to provide high
+level services to their portfolio companies compared with independent VC firms.
+The incentive schemes in the former are less geared towards active involvement
+(Hirsch and Walz, 2012; and Murray, 1998). Furthermore, given their lower level of
+expertise, it is even argued that it is optimal for university and government VC firms
+to remain rather inactive and limit their engagement to monitoring activities. As a
+result, these VC firms’ contracts incorporate fewer mechanisms that induce active
+intervention (Hirsch and Walz, 2012). The lower levels of post-investment services
+provided by government and university VC firms make their funding less valuable,
+which would induce entrepreneurs to negotiate higher valuations. Our findings
+suggest that valuations are lower, however, again corroborating the bargaining power
+theory rather than the value-adding and reputation theories.
+
+                                                                 
+                                                                 C   2012 Blackwell Publishing Ltd
+                                                                                             14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                    527
+
+    In general, we contribute to the VC literature by showing that VC investor hetero-
+geneity goes beyond differences in value-added support and governance structure but
+also affects valuations in investment rounds (Bottazzi et al., 2008; and Mayer et al.,
+2005). We further show that bargaining power in the VC industry is not determined
+only by a VC firm’s reputation or by whether the firm is a local or cross-border
+investor, but also by its investment strategy. We also add to the finance literature by
+analysing determinants of the valuation of private companies that are often neglected
+in the current literature and show that not only firm characteristics but also investor
+characteristics determine the value of private companies.
+    Our results are important not only for VC firms but also for entrepreneurs. We
+highlight that enhancing negotiation power is key to maximising firm valuation. If
+entrepreneurs are locked in or if they are unable to generate sufficient interest from
+diverse VC investors, then they are unable to negotiate higher valuations, ultimately
+affecting their potential financial returns and the control that they may retain over
+their venture. Furthermore, entrepreneurs should understand that VC firms are not
+willing to accept higher valuations because they have other goals in addition to
+realising financial returns. Again, securing sufficient financing options is crucial for
+entrepreneurs to enhance bargaining power and ultimately firm value.
+    As with all research, this paper has some limitations. First, the external validity
+of the results may be limited given the focus on Belgium. However, the focus on
+Belgian companies allowed access to the Belgian Law Gazette, which reports official
+information on all capital increases, even for unquoted companies. Hence, the
+reliability and completeness of the data are excellent, which is often a serious concern
+for most other studies relying on commercial databases. Furthermore, the Belgian VC
+industry is likely to be comparable to those in other Continental European countries,
+supported by Figure 1 showing that the Belgian VC investment activity developed
+similarly over time as compared with the European VC activity. Second, the Belgian
+VC industry functions in a broadly comparable legal and institutional setting. Belgian
+VC investors also frequently co-invest with international VC firms, enabling them
+to learn from best practices abroad and incorporate these into their functioning.
+Therefore, it is likely that our findings extend at least to other VC firms in Continental
+Europe. Whether our results are transferable to Anglo-Saxon or Asian markets remains
+an empirical question. Anglo-Saxon markets are more active and mature and are
+governed by a more investor-friendly institutional environment. In contrast, Asian
+markets are under development and their institutional environment is very different.
+VC valuation and negotiation processes may hence be different in different parts of
+the world.
+    Second, our data do not allow accounting for other contractual clauses that may
+affect differences in valuation. As a result, the differences between venture capital
+investor type may be influenced by differences in the complexity of the contracts
+they negotiate in addition to differences in relative bargaining power. Our approach
+is nevertheless consistent with earlier studies on the valuation of VC investments (e.g.,
+Hand, 2005; Armstrong et al., 2006; and Cumming and Dai, 2011). Furthermore, we
+control for the significantly greater likelihood of larger VCs in Europe to implement
+sophisticated contractual terms, including liquidation preferences, anti-dilution pro-
+tections, vesting provisions and redemption rights (Chahine et al., 2007).
+    The shortcomings discussed above suggest interesting avenues for future research.
+Furthermore, many questions remain related to VC portfolio firm valuation. It would
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                         14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+528                           HEUGHEBAERT AND MANIGART
+
+be interesting to understand which other factors affect the bargaining outcome in
+the entrepreneur-venture capitalist relationship. For example, are VC firms willing
+to pay a premium for the experience of an entrepreneur or is a more experienced
+entrepreneur able to negotiate better investment terms? Cumming and Johan (2008)
+find that more experienced entrepreneurs are more likely to get financed with
+common equity and less likely to receive preferred equity, suggesting that they have
+more bargaining power. It might also be interesting to extend these insights to other
+settings where the value of a company is negotiated between a limited number of
+parties, for example, in mergers or acquisitions of unquoted companies.
+
+
+
+                                        REFERENCES
+Amit, R., J. Brander and C. Zott (1998), ‘Why do Venture Capital Firms Exist? Theory and
+     Canadian Evidence’, Journal of Business Venturing , Vol. 13, No. 6 (November), pp. 441–66.
+Armstrong, C., A. Davila and G. Foster (2006), ‘Venture-Backed Private Equity Valuation and
+     Financial Statement Information’, Review of Accounting Studies, Vol. 11, No. 1 (March),
+     pp. 119–54.
+Ballinger, G. (2004), ‘Using Generalized Estimating Equations for Longitudinal Data Analysis’,
+     Organizational Research Methods, Vol. 7, No. 2 (April), pp. 127–50.
+Bertoni, F., M. Colombo and L. Grilli (2012), ‘Venture Capital Investor Type and the Growth
+     Mode of New Technology Based Firms’, Small Business Economics (forthcoming).
+Beuselinck, C., M. Deloof and S. Manigart (2009), ‘Private Equity Involvement and Earn-
+     ings Quality’, Journal of Business Finance & Accounting , Vol. 36, Nos. 5&6 (June/July),
+     pp. 587–615.
+Bhattacharya, N., E. Demers and P. Joos (2010), ‘The Relevance of Accounting Information
+     in a Stock Market Bubble: Evidence from Internet IPOs’, Journal of Business Finance &
+     Accounting , Vol. 37, Nos. 3&4 (April/May), pp. 291–321.
+Bigus, J. (2006), ‘Staging of Venture Financing, Investor Opportunism and Patent Law’, Journal
+     of Business Finance & Accounting , Vol. 33, Nos. 7&8 (September/October), pp. 939–60.
+Bottazzi, L. and M. Da Rin (2002), ‘Venture Capital in Europe and the Financing of Innovative
+     Companies’, Economic Policy, Vol. 17, No. 34 (April), pp. 230–69.
+——— ——— and T. Hellmann (2008), ‘Who are the Active Investors? Evidence from Venture
+     Capital’, Journal of Financial Economics, Vol. 89, No. 3 (September), pp. 488–512.
+Brander, J., R. Amit and W. Antweiler (2002), ‘Venture Capital Syndication: Improved Venture
+     Selection versus the Value-Added Hypothesis’, Journal of Economics and Management Strategy,
+     Vol. 11, No. 3 (Fall), pp. 423–52.
+Cable, D. and S. Shane (1997), ‘A Prisoner’s Dilemma Approach to Entrepreneur-Venture
+     Capitalist Relationships’, Academy of Management Review, Vol. 22, No. 1 (January),
+     pp. 142–76.
+Chahine, S. and M. Goergen (2011), ‘VC Board Representation and Performance of US IPOs’,
+     Journal of Business Finance & Accounting , Vol. 38, Nos. 3&4 (April/May), pp. 413–45.
+———, I. Filatotchev and M. Wright (2007), ‘Venture Capitalists, Business Angels, and
+     Performance of Entrepreneurial IPOs in the UK and France’, Journal of Business Finance
+     & Accounting , Vol. 34, Nos. 3&4 (April/May), pp. 505–28.
+Cumming, D. and N. Dai (2010), ‘Local Bias in Venture Capital Investments’, Journal of Empirical
+     Finance, Vol. 17, No. 3 (June), pp. 362–80.
+——— ——— (2011), ‘Fund Size, Limited Attention and Valuation of Venture Capital Backed
+     Firms’, Journal of Empirical Finance, Vol. 18, No. 1 (January), pp. 2–15.
+——— and S. Johan (2008), ‘Preplanned Exit Strategies in Venture Capital’, European Economic
+     Review, Vol. 52, No. 7 (October), pp. 1209–41.
+——— and J. MacIntosh (2006), ‘Crowding Out Private Equity: Canadian Evidence’, Journal of
+     Business Venturing , Vol. 21, No. 5 (September), pp. 569–609.
+——— and U. Walz (2010), ‘Private Equity Returns and Disclosure Around the World’, Journal
+     of International Business Studies, Vol. 41, No. 4 (May), pp. 727–54.
+
+                                                                     
+                                                                     C   2012 Blackwell Publishing Ltd
+                                                                                                     14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                FIRM VALUATION IN VENTURE CAPITAL FINANCING ROUNDS                           529
+
+Cumming, D., G. Fleming and A. Schwienbacher (2009), ‘Style Drift in Private Equity’, Journal
+     of Business Finance & Accounting , Vol. 36, Nos. 5&6 (June/July), pp. 645–78.
+Devigne, D., T. Vanacker, S. Manigart and I. Paeleman (2012), ‘The Role of Domestic and Cross-
+     Border Venture Capital Investors in the Growth of Portfolio Companies’, Small Business
+     Economics (forthcoming).
+Dushnitsky, G. and M. Lenox (2005), ‘When do Incumbents Learn from Entrepreneurial
+     Ventures? Corporate Venture Capital and Investing Firm Innovation Rates’, Research Policy,
+     Vol. 34, No. 5 (June), pp. 615–39.
+——— ——— (2006), ‘When does Corporate Venture Capital Investment Create Firm Value?’,
+     Journal of Business Venturing , Vol. 21, No. 6 (November), pp. 753–72.
+Eckhardt, J., S. Shane and F. Delmar (2006), ‘Multistage Selection and the Financing of New
+     Ventures’, Management Science, Vol. 52, No. 2 (February), pp. 220–32.
+Fairchild, R. (2004), ‘Financial Contracting between Managers and Venture Capitalists: The
+     Role of Value-Added Services, Reputation Seeking, and Bargaining Power’, Journal of
+     Financial Research, Vol. 27, No. 4 (December), pp. 481–95.
+Gompers, P. (1995), ‘Optimal Investment, Monitoring, and the Staging of Venture Capital’,
+     Journal of Finance, Vol. 50, No. 5 (December), pp. 1461–89.
+——— and J. Lerner (1998), ‘The Determinants of Corporate Venture Capital Success: Organ-
+     izational Structure, Incentives and Complementarities’, NBER Working Paper (Harvard
+     Business School).
+——— ——— (2000), ‘Money Chasing Deals? The Impact of Fund Inflows on the Valuation
+     of Private Equity Investments’, Journal of Financial Economics, Vol.55, No.2 (February),
+     pp. 281–325.
+González, F. (2006), ‘Bank Equity Investments: Reducing Agency Costs or Buying Undervalued
+     Firms? The Information Effects’, Journal of Business Finance & Accounting , Vol. 33, Nos. 1&2
+     (January/March), pp. 284–304.
+Gujarati, D. (2003), Basic Econometrics (New York: McGraw-Hill).
+Han, L., S. Fraser and D. Storey (2009), ‘The Role of Collateral in Entrepreneurial Finance’,
+     Journal of Business Finance & Accounting , Vol. 36, Nos. 3&4 (April/May), pp. 424–55.
+Hand, J. (2005), ‘The Value Relevance of Financial Statements in the Venture Capital Market’,
+     The Accounting Review, Vol. 80, No. 2 (April), pp. 613–48.
+Heckman, J. (1979), ‘Sample Selection Bias as a Specification Error’, Econometrica, Vol.
+     47, No. 1 (January), pp. 153–61.
+Hellmann, T., L. Lindsey and M. Puri (2008), ‘Building Relationships Early: Banks in Venture
+     Capital’, Review of Financial Studies, Vol. 21, No. 2 (February), pp. 513–41.
+Hirsch, J. and U. Walz (2012), ‘Why do Contracts Differ Between Venture Capital Types?’, Small
+     Business Economics (forthcoming).
+Hsu, D. (2004), ‘What do Entrepreneurs Pay for Venture Capital Affiliation?’, Journal of Finance,
+     Vol. 59, No. 4 (August), pp. 1805–44.
+Inderst, R. and H. Mueller (2004), ‘The Effect of Capital Market Characteristics on the Value of
+     Start-up Firms’, Journal of Financial Economics, Vol. 72, No. 2 (May), pp. 319–56.
+Kaplan, S. and A. Schoar (2005), ‘Private Equity Performance: Returns, Persistence and Capital
+     Flows’, Journal of Finance, Vol. 60, No. 4 (August), pp. 1791–823.
+———, B. Sensoy and P. Strömberg (2002), ‘How Well Do Venture Capital Databases Reflect
+     Actual Investments?’ Working Paper (University of Chicago).
+Kirilenko, A. (2001), ‘Valuation and Control in Venture Finance’, Journal of Finance, Vol. 56,
+     No. 2 (April), pp. 565–87.
+Leleux, B. and B. Surlemont (2003), ‘Public versus Private Venture Capital: Seeding versus
+     Crowding Out? A Pan-European Analysis’, Journal of Business Venturing , Vol. 18, No. 1
+     (January), pp. 81–104.
+Lerner, J. (1994), ‘The Importance of Patent Scope: An Empirical Analysis’, RAND Journal of
+     Economics, Vol. 25, No. 2 (Summer), pp. 319–33.
+Lockett, A. and M. Wright (2005), ‘Resources, Capabilities, Risk Capital and the Creation
+     of University Spin-Out Companies’, Research Policy, Vol. 34, No. 7 (September), pp.
+     1043–57.
+Manigart, S., K. Baeyens and W. Van Hyfte (2002a), ‘The Survival of Venture Capital Backed
+     Companies’, Venture Capital, Vol. 4, No. 2 (April), pp. 103–24.
+
+
+
+C   2012 Blackwell Publishing Ltd
+                                                                                                         14685957, 2012, 3-4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1468-5957.2012.02284.x by Universita Commerciale Luigi Bocconi Di Milano, Wiley Online Library on [16/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+530                           HEUGHEBAERT AND MANIGART
+
+Manigart, S., K. De Waele, M. Wright, K. Robbie, P. Desbrières, H. Sapienza and A. Beekman
+     (2002b), ‘Determinants of Required Return in Venture Capital Investments: A Five-Country
+     Study’, Journal of Business Venturing , Vol. 17, No. 4 (July), pp. 291–312.
+Mayer, C., K. Schoors and Y. Yafeh (2005), ‘Sources of Funds and Investment Activities of
+     Venture Capital Funds: Evidence from Germany, Israel, Japan and the United Kingdom’,
+     Journal of Corporate Finance, Vol. 11, No. 3 (June), pp. 586–608.
+Meuleman, M., M. Wright, S. Manigart and A. Lockett (2009), ‘Private Equity Syndication:
+     Agency Costs, Reputation and Collaboration’, Journal of Business Finance & Accounting ,
+     Vol. 36, Nos. 5&6 (June/July), pp. 616–44.
+Murray, G. (1998), ‘A Policy Response to Regional Disparities in the Supply of Risk Capital to
+     New Technology- Based Firms in the European Union: The European Seed Capital Fund
+     Scheme’, Regional Studies, Vol. 32, No. 5 (July), pp. 405–20.
+Nahata, R. (2008), ‘Venture Capital Reputation and Investment Performance’, Journal of
+     Financial Economics, Vol. 90, No. 2 (November), pp. 127–51.
+Ooghe, H., S. Manigart and Y. Fassin (1991), ‘Growth Patterns of the European Venture Capital
+     Industry’, Journal of Business Venturing , Vol. 6, No. 6 (November), pp. 381–404.
+O’Shea, R., T. Allen, A. Chevalier and F. Roche (2005), ‘Entrepreneurial Orientation, Technol-
+     ogy Transfer and Spinoff Performance of U.S. Universities’, Research Policy, Vol. 34, No. 7
+     (September), pp. 994–1009.
+Petersen, M. (2009), ‘Estimating Standard Errors in Finance Panel Data Sets: Comparing
+     Approaches’, Review of Financial Studies, Vol. 22, No. 1 (January), pp. 435–80.
+Puri, M. and R. Zarutskie (2011), ‘On the Lifecycle Dynamics of Venture-Capital- and Non-
+     Venture-Capital-Financed Firms’, Journal of Finance, (forthcoming).
+Sahlman, W. (1990), ‘The Structure and Governance of Venture-Capital Organizations’, Journal
+     of Financial Economics, Vol. 27, No. 2 (October), pp. 473–521.
+Shane, S. and T. Stuart (2002), ‘Organizational Endowments and the Performance of University
+     Start-Ups’, Management Science, Vol. 48, No. 1 (January), pp. 154–70.
+Sorensen, M. (2007), ‘How Smart is Smart Money? A Two-Sided Matching Model of Venture
+     Capital’, Journal of Finance, Vol. 62, No. 6 (December), pp. 2725–62.
+Sorenson, O. and T. Stuart (2001), ‘Syndication Networks and the Spatial Distribution
+     of Venture Capital Investments’, American Journal of Sociology, Vol. 106, No. 6 (May),
+     pp. 1546–88.
+Wright, M. and A. Lockett (2003), ‘The Structure and Management of Alliances: Syndication
+     in the Venture Capital Industry’, Journal of Management Studies, Vol. 40, No. 8 (December),
+     pp. 2073–102.
+——— ———, B. Clarysse and M. Binks (2006), ‘University Spin-Out Companies and Venture
+     Capital’, Research Policy, Vol. 35, No. 4 (May), pp. 481–501.
+
+
+
+
+                                                                     
+                                                                     C   2012 Blackwell Publishing Ltd
+

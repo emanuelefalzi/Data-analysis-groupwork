@@ -1,0 +1,1987 @@
+Review of Economic Studies (2003) 70, 1-32                                               0034-6527/03/00080199$02.00
+© 2003 The Review of Economic Studies Limited
+
+
+
+
+        Stage Financing and the Role of
+                        Convertible Securities
+
+
+
+
+                                                                                                                           Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                                       FRANCESCA CORNELLI
+                                      London Business School and CEPR
+                                                          and
+                                                OVEDYOSHA
+                                         Tel Aviv University and CEPR
+
+                      First version received March 2000; final version accepted July 2002 (Eds.)
+
+               Venture capital financing is characterized by extensive use of convertible securities and stage
+       financing. In a model where a venture capitalist provides staged financing for a project, we illustrate
+       an advantage of convertible debt (or warrants) over a mixture of debt and equity. Essentially, when the
+       venture capitalist retains the option to abandon the project, the entrepreneur has an incentive to engage in
+       window dressing and bias positively the short-term performance of the project, reducing the probability
+       that it will be liquidated. An appropriately designed convertible security prevents such behaviour because
+       window dressing also increases the probability that the venture capitalist will exercise the conversion
+       option becoming the owner of a substantial fraction of the project's equity.
+
+
+                                               1. INTRODUCTION
+Projects backed by venture capital exhibit great uncertainty and high failure risk, and are typically
+not financed by banks. Gompers and Lerner (1999) provide an overview for the reasons why
+traditional sources of financing are not suitable for such projects, and stress that tools employed
+by venture investors are a response to their special nature. In this paper, we focus on two such
+financing tools-stage financing and convertible securities.
+      A widely used financing technique in venture capital is infusion of capital over time. The
+venture capitalist retains the option to abandon the venture whenever the forward looking net
+present value of the project is negative. Financing rounds are usually related to significant stages
+in the development process such as completion of design, pilot production, first profitability
+results, or the introduction of a second product. At every stage, new information about the
+venture is released (Sahlman, 1990).1 Also widely used in venture capital backed projects are
+convertible securities issued by entrepreneurs in exchange for funds.f We provide a rationale for
+the combined use of stage financing and convertible securities in venture capital financing.
+      Stage financing is appealing to venture capitalists for two reasons. First, the option to aban-
+don is essential because an entrepreneur will almost never quit a failing project as long as others
+are providing capital (Admati and Pfleiderer, 1994). Second, the threat to abandon creates incen-
+tives for the entrepreneur to maximize value and meet goals. But this threat has the drawback
+        1. See also Lerner (1995). Gompers (1995) provides evidence that the number of financing rounds increases
+with the fraction of intangible assets. Egli, Ongena and Smith (2000) study a model where the choice of stage financing
+arises endogenously. Neher (1999) studies a model where the number of financing rounds and the duration of the project
+are determined endogenously. Black and Gilson (1998, Table 4), report the percentage of capital infused on average at
+various venture capital financing rounds in the U.S. and Germany,
+        2. Kaplan and Stromberg (2002) provide a comprehensive characterization of the contracts used in venture capital
+financing and document the extensive use of convertible securities by venture capitalists in the U.S.
+                                                            1
+2                                    REVIEW OF ECONOMIC STUDIES
+
+that it might induce the entrepreneur to focus on meeting the immediate hurdle of the next stage."
+To illustrate, the entrepreneur can make the conditions under which a project will be evaluated
+more favourable, whether it is the test of a prototype or a market test, increasing the likelihood
+of good interim performance. This phenomenon is commonly described as "window dressing".
+The venture capitalist then has to decide whether to continue investing on the basis of interim
+performance that has been artificially improved. Stage financing thus creates a conflict of inter-
+est between the venture capitalist, who provides the funds, and the entrepreneur, who wants to
+
+
+
+
+                                                                                                                            Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+continue with the project.
+      We model window dressing as follows. Venture capitalist and entrepreneur commonly
+observe the interim performance of the project. For brevity, we call interim performance the
+"signal". Before the signal is realized, the entrepreneur can manipulate its distribution so that a
+good signal realization is more likely to appear, without affecting the actual quality of the project.
+We show that this change in the distribution of the signal should not be thought of as increasing
+or reducing the signal's noise, because this latter type of signal manipulation does not constitute
+a conflict of interest: both the venture capitalist and the entrepreneur want to increase the signal's
+precision. To capture the conflict of interest that arises from stage financing, window dressing
+must be modelled as a shift of probability mass from low to high realizations of the signal so that
+low realizations are less likely.
+      It is often hard to specify unequivocally what "good interim performance" means. For
+instance, to decide if a "working prototype" indeed works, or to evaluate consumer responses
+to a market test, much subjective judgement must be exercised. To capture this feature, we
+assume that although the interim performance signal is observed by the venture capitalist and
+the entrepreneur, it is unverifiable."
+      Window dressing reduces the venture capitalist's payoff because his refinancinglliquidation
+decision is based on lower quality information. This can render stage financing nonviable so that a
+profitable project will not be financed altogether. Yet, with debt--equity financing (debt, equity, or
+a combination of both) the entrepreneur will always window dress. We show that an appropriately
+designed convertible security makes window dressing no longer advantageous: the gain from
+reducing the likelihood of liquidation is more than offset by the increased likelihood of debt
+conversion (conditional on refinancing). This is because although window dressing renders low
+quality projects harder to identify (reducing the probability of liquidation), it renders high quality
+projects easier to identify. This, in turn, increases the probability that in the event of refinancing
+the venture capitalist will exercise the conversion option becoming the owner of a substantial
+fraction of the venture and appropriating much of the project's value. If the terms of conversion
+are set in advance to be sufficiently favourable to the venture capitalist, this effect dominates in
+terms of payoffs, and the entrepreneur will not engage in short-term window dressing. A central
+element of our analysis is the determination of an appropriate conversion ratio and a suitable
+amount of convertible security that will ensure that the project is financed, but at the same time
+will deter the entrepreneur from window dressing.
+      In the main part of the paper we focus on convertible debt, but warrants and convertible
+preferred equity are also commonly used in venture capital financing. Convertible preferred
+equity has similar features to convertible debt, but is special in several respects. Until conversion,
+a convertible preferred stock promises a fixed dividend (and hence is similar to convertible debt).
+Unlike debt, failure to pay the dividend does not trigger liquidation; rather, the unpaid dividends
+accrue and must be paid before any dividends are paid out to common stock holders. Since we do
+
+        3. Sahlman (1988, p. 32) observes that having a "fume date" may serve as a motivating factor, but "may create
+incentives to aim for short-term success rather than long-term value creation".
+        4. We devote a section to the version of the model where the signal is verifiable because in the real world there
+are situations where interim performance can be measured objectively (e.g. sales revenue).
+                            CORNELLI & YOSHA                       STAGE FINANCING                                          3
+
+not consider payoffs at interim stages, our model applies to convertible preferred equity as well. 5
+We will show that our analysis is virtually unchanged if the entrepreneur issues a combination
+of straight debt and warrants. This extension is important as empirical evidence suggests that the
+deadline feature of warrants fits our model well.
+      We first analyse the model abstracting from renegotiation, and then consider it as
+follows. First, we show that convertible debt prevents window dressing equally well even
+with renegotiation. Then, we ask whether convertible debt is necessary for preventing window
+
+
+
+
+                                                                                                                                 Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+dressing if debt-equity contracts can be renegotiated. We distinguish between spontaneous
+and designed renegotiation in the sense of Aghion, Dewatripont and Rey (1994), and explain
+why debt-equity financing cum spontaneous renegotiation cannot prevent window dressing."
+Then, we turn to designed renegotiation adapting Aghion et al.'s (1994) definition of "simple
+renegotiation" to the context of our model. We show that debt-equity with simple renegotiation
+indeed prevents window dressing. The point is that debt-equity cum simple renegotiation is
+"isomorphic" to convertible debt. In this sense, convertible debt is interpreted as a simple way to
+design renegotiation and introduce it in a contract.
+      Explanations for the use of convertible securities are often centred on ex ante asymmetry
+of information between managers and investors. Stein (1992) focuses on ex ante asymmetry
+of information regarding the quality of the issuing firm. Brennan and Schwartz (1988) focus
+on ex ante asymmetry of information regarding the risk of the issuing firm. Since the value of
+the option embedded in the convertible security increases with the volatility of the underlying
+security, offering a conversion option is less "costly" for low risk firms who signal to investors
+that they are of low risk by issuing convertible debt. 7
+      At the time of initial venture capital financing, the entrepreneur and the financier are often
+equally informed regarding the project's chances of success, and the true quality is gradually
+revealed to both. The main conflict of interest is the asymmetry of information about future
+actions of the entrepreneur. Our model stresses this aspect of venture capital financing rather than
+ex ante information asymmetry. Green (1984) also focuses on asymmetric information regarding
+the entrepreneur's actions. In his model, a mix of convertible securities and debt is superior to
+straight debt because the conversion option reduces the inclination of the entrepreneur to engage
+in risky projects. In terms of economic intuition, the difference between the models is that in
+Green (1984) the entrepreneur reduces the value of the project by taking excessive risk ("asset
+substitution"), whereas in our model the entrepreneur reduces the value of the project through
+window dressing. Thus, in our model negative incentives arise due to stage financing, inducing
+the entrepreneur to focus on short-term objectives. It is an implication of our model that stage
+financing and convertible securities should be used together. Moreover, with a sufficiently high
+proportion of equity financing, the danger of excessive risk taking would not arise in Green's
+model, whereas in our model the conflict of interest between the entrepreneur and the venture
+capitalist arises whether the project is financed with debt, equity, or any combination of both.
+      In our model, interim performance is observed by the venture capitalist and the entrepreneur.
+Therefore, the entrepreneur cannot engage in mis-reporting of information ("cooking the books")
+but can manipulate the "technology" that generates the signal. In models such as Milgrom and
+Roberts (1986) and Shin (1994), this technology is fixed but the signal is observed by only one
+party that has an incentive to mis-report its private information ex post. In our model, if the
+
+        5. Other major advantages of preferred shares are the favourable tax treatment and the fact that preferred shares
+carry votes. Since our model abstracts from taxes and control rights, it would make little difference if we used convertible
+preferred equity rather than convertible debt or warrants. For an analysis oftransfers of control in venture capital financing
+situations, see, for example, Chan, Siegel and Thaker (1990) and Cestone (2001).
+        6. Aghion, Dewatripont andRey use the term "voluntary" rather than "spontaneous".
+        7. See also Harris and Raviv (1985) and Nyborg (1995).
+4                                      REVIEW OF ECONOMIC STUDIES
+
+ entrepreneur had obtained information about the project that the venture capitalist does not have,
+the danger of mis-reporting would arise.
+      Some recent papers provide other explanations for the use of convertible debt in venture
+capital situations. Repullo and Suarez (1998) focus on the advisory role of the venture capitalist
+ and the optimal contractual arrangement when there is double sided moral hazard. Schmidt
+ (2000) also focuses on double sided moral hazard and shows that convertible debt can induce
+efficient investment. Hellmann (2000) focuses on convertibility at the IPO stage, while Biais,
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+Bisiere and Decamps (1998) argue that the choice of securities (e.g. convertible debt) is affected
+by the trade-off between anticipated costs of financial distress and the need to provide incentives
+to managers. Berglof (1994) looks at the role of convertible securities in mitigating distributional
+conflicts associated with a future sale of the firm. None of these papers, however, look at the
+combined use of convertible securities and staged infusion of capital which are so common in
+venture capital financing.
+      Several other papers are concerned with venture capital financing but not with convertible
+securities. Hellmann (1998) provides an explanation for why an entrepreneur might agree to be
+replaced by the venture capitalist. Marx (1998) argues that a mix of debt and equity dominates
+only equity and only debt by generating incentives for the venture capitalist to intervene as a
+response to poor performance.f Bergemann and Hege (1999, 2000) study a dynamic model with
+venture capital financing, focusing on the optimal compensation of the entrepreneur in order to
+provide him with the right incentives for the allocation of funds, and Ueda (2000) asks why start-
+up firms typically prefer venture capital rather than bank financing." Finally, von Thadden (1995)
+shows that a contract that resembles a long-term credit line can reduce short-term behaviour in
+stage financing situations.
+      In the next section we present the model under the assumption that contracts cannot be
+renegotiated. In Sections 3 and 4 we allow, respectively, for contract renegotiation and straight
+debt cum warrants financing. Section 5 analyses the model under the assumption that the signal
+is verifiable, Section 6 studies other forms of signal manipulation, and Section 7 concludes.
+
+
+                                                   2. THEMODEL
+2.1. The basic set-up without signal manipulation
+At time 0 an entrepreneur considers undertaking a project with uncertain returns. There are two
+possible states of nature: with probability 1/2 the state is "good", which we denote h, and with
+probability 1/2 the state is "bad", 1. The project generates a (stochastic) output, lfi, distributed
+exponentially on the interval [0,00), with density Aie-AjJrj where I/Ai is the mean of Jri for
+i = h, 1. Let
+                                           111
+                                                   2- > - > -                                                            (1)
+                                                    Ai  Ah  Ai'
+i.e. the difference between the expectation of output in the two states is not "too large".lO
+
+
+        8. See also Marx (1999).
+        9. As mentioned, Gompers and Lerner (1999) offer reasons for why banks typically do not finance high risk
+and "high-tech" projects. First, banks insist on collateral which these projects do not have since they are not intensive
+in physical assets. Second, banks are perceived as having comparative advantage in monitoring through long-term
+relationships with borrowers, whereas in the "high-tech" industry change is very rapid, and effective monitoring requires
+skills that banks do not have. Third, in the U.S., the Glass-Steagall Act prohibited banks from owning the equity of
+nonfinancial firms, preventing banks from providing financing via convertible securities. It is early to tell whether the
+repeal of Glass-Steagall in 1999 will induce entry of banks into the "high-tech" market niche.
+       10. This assumption is not a necessary condition for the main result to hold, but it greatly facilitates the analysis.
+                             CORNELLI & YOSHA                       STAGE FINANCING                                           5
+
+       The entrepreneur has no capital and will ask a venture capitalist for the required funds. The
+ total amount of money necessary for the project is It + h, of which It must be invested at time 0,
+ and h can be delayed until time 1, provided that the project is not liquidated.
+
+      Stage financing. Stage financing means that II is invested at time 0, and l: is delayed. At
+time 1, a signal, x, of the project's quality (the state of nature) is realized and is observed by the
+entrepreneur and the venture capitalist. The signal can be interpreted as short-term performance,
+
+
+
+
+                                                                                                                                  Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+and both parties update their expectations about the project's quality. We assume that x is
+unverifiable. After observing it, the venture capitalist decides whether to refinance the project
+and supply h to the entrepreneur, or liquidate. We assume that the payoff to both parties after
+liquidation is zero. 11 If the project is refinanced, the output is realized at time 2 and is shared by
+the entrepreneur and the venture capitalist according to the contract that has been agreed upon.
+                                                                               °
+      In principle, the venture capitalist can commit at time to supply It + h, irrespectively of
+the signal, but to underline the problem created by window dressing we assume that
+                                            1 1       1 1
+                                            - - + - - - (It + h) < 0,                                                      (2)
+                                            2 A[      2 Ah
+                                                                 °
+which implies that committing It + h at time is not viable. This assumption allows us to
+illustrate our point in a sharp manner: if the venture capitalist does not prevent window dressing,
+the project will not be financed, underscoring the loss of surplus. 12
+
+      Ex post payoffs with debt-equity financing. Suppose the venture capitalist can provide
+financing to the entrepreneur in the form of debt, equity, or a combination of the two. We denote
+a debt-equity contract (d, s), where d is the amount of debt (cum interest) the entrepreneur
+owes the venture capitalist, and s is the fraction of the enterprise's equity owned by the venture
+capitalist. In this section, we abstract from the possible renegotiation of debt--equity contracts at
+time 1.
+      Consider the debt--equity contract (d, s). The magnitudes d and s are determined at time
+and do not change throughout the lifetime of the venture. At time 0, It is supplied. At time 1,
+                                                                                                                             °
+if the project is not liquidated, l: is supplied. At time 2, the output is divided according to the
+sharing rule induced by the debt--equity contract (d, s). 13 The promised amount d may be larger
+or smaller than It + h, the total amount of financing.
+      We assume s E [0, 1), i.e. the entrepreneur must own some shares, on the grounds that
+otherwise the entrepreneur will not make effort for the project to succeed in the long run. 14 Since
+       11. For our purposes, this is an innocuous assumption. In general, liquidation value can be of great importance. In
+ Neher (1999), the central economic force is the gradual embodiment of the entrepreneur's human capital in the project's
+physical capital, and as a consequence, the project's liquidation value increases over time.
+       12. Even if profits without stage financing were positive, the venture capitalist would prefer to finance the project
+in stages because he thus keeps the valuable option to abandon after the realization of the signal, and the entrepreneur
+would want to window dress the signal in order to reduce the probability of liquidation.
+       13. Both parties are likely to take into account the entire amount It + Iz when specifying d and s at time O. If
+not, one of them may be held up at time 1. The intuition is as follows. If the entrepreneur has enough bargaining power,
+then at date 1 the venture capitalist may be "locked in". For example, if the entrepreneur has all the bargaining power, at
+time 1 he will offer a new debt-equity contract which guarantees the venture capitalist just enough (expected) revenue to
+cover 12. The venture capitalist will accept the offer since It is sunk. Foreseeing this, the venture capitalist will prefer to
+have d and s specified at time O.A similar logic applies to the entrepreneur if his participation in the project requires an
+arbitrarily small amount of effort at time O.Then, at time 1 the entrepreneur would be "locked in" since his investment in
+effort is sunk. As a result, the entrepreneur will prefer to specify d and s at time O.Endogenizing the time at which d and
+s are set requires more structure (how negotiation about d and s takes place, what happens in case of disagreement, etc.)
+and is beyond the scope of this paper. We believe that, in the context of our model, it is reasonable to specify the venture
+capitalist's share of profits, s, and the (cum interest) debt, d, relative to the entire amount of financing, It + Iz.
+       14. In a previous version of the paper (London Business School working paper no. 253, 2001) we allowed for
+entrepreneurial effort that affects long-run (time 2) profits. We showed that, indeed, s < 1 is a necessary condition for
+inducing the entrepreneur to exert such effort.
+6                                REVIEW OF ECONOMIC STUDIES
+
+the signal about the project's quality (observed by both parties at time 1) is unverifiable, it is not
+possible to write in the contract at time 0 that the provision of l: (refinancing) will depend on the
+realized value of the signal.
+     Assuming limited liability and zero bankruptcy costs, the ex post payoffs (after the state of
+nature is revealed but before profits are realized) to the venture capitalist and the entrepreneur
+from a debt-equity contract, (d, s), for i = 1, h, are
+
+                           fod it, Aie-A""d:n:i +          1 +   00
+
+
+
+
+                                                                                                             Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                 VCfE =                                               [d    stn, - dl]Aie-A,rr'd:n:;
+
+                           1
+                        = -[1 - e-Aid(l - s)],
+                           Ai
+
+                   Ef' =   1    00
+                                     (l - s )(:n:i - dlAie -AI'" dtt,
+                                                                                                       (3)
+
+
+                           1
+                        = _e-Aid(l - s).
+                          Ai
+
+     Ex post payoffs with convertible debt financing. Alternatively, the venture capitalist and
+the entrepreneur can sign a convertible debt contract which we characterize in the following way.
+At time 0, the initial debt and equity holdings by the venture capitalist are do and so. Suppose
+do > 0, and let part of the debt be convertible into equity at the conversion ratio y so that
+d= do- y (s - so), where d ~ 0 and s E [so, 1) are the post-conversion debt and equity positions
+after all the convertible debt is converted, and s - So is the fraction of the equity purchased. A
+special case is 100% initial debt financing (so = 0). Another special case is that all the debt is
+convertible (d = 0). A contract with convertible debt is, therefore, characterized by (do, so, y, s).
+     The ex post payoffs to the venture capitalist and the entrepreneur from a convertible debt
+contract, (do, so, y, s), for i = 1, h, are
+
+                            VCfD =           :i   [1 - e-Ai£dO-y(s-so)](l - s)],
+                                                                                                       (4)
+                                 £~D = 2- e - Ai£do- y (s - so)] (1 - s)
+                                     1       Ai                                  '
+
+       s
+where E [so, s] is the venture capitalist's post-conversion equity stake. Denoting by d E [d, do]
+the post-conversion debt, we have d = do -               yes -
+                                                   so). If the venture capitalist converts the entire
+amount of convertible debt, then s = s and d = d.
+
+      The joint distribution of signal and output. At time 1, a signal x about the state of
+nature is realized and observed by the entrepreneur and the venture capitalist. The signal has a
+continuous distribution on the interval [0, 1]. Let ah (x) denote the joint density function of x and
+h, and al (x) the joint density function of x and 1. Let qh (x)                =
+                                                                   ah(~)f2l(x) denote the probability
+of h conditional on the signal realization x, where the denominator denotes the marginal density
+of x. For clarity of exposition, we concentrate on a special case where the joint density of signal
+and output is linear:
+                                         ah(x)    = x,       alex)         = 1 - x.                    (5)
+     The intuition for (Xh(x) being an increasing function of x is that in state h high realizations
+of x are more likely than low realizations of x (and analogously for alex) being a decreasing
+function). The conditional probability of state h is
+                                                        x
+                                           qh(X)    = x+l-x = x.                                       (6)
+                         CORNELLI & YOSHA                             STAGE FINANCING                7
+
+
+
+
+                                                                                                         Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                     o                               x            o                 1          x
+
+
+
+
+                                                                      1    x
+
+                                                     FIGURE 1
+                                      The joint distribution of signal and output
+
+
+
+The signal x is strictly informative in the sense that the interim probability, qh(x), is strictly
+increasing in x; see Figure 1.
+
+     Interim payoffs with debt-equity and convertible debt financing. Consider the debt-
+equity contract, (d, s). Interim payoffs (after the realization of the signal x) are averages of
+the ex post payoffs in equation (3), weighted by the interim conditional probabilities qh(x) and
+I - qh(X), minus l: for the venture capitalist: 15
+
+                           E[VC]~E = [l - qh(x)]~[1 - e-A1d(l_ s)]
+                                                             Ai
+                                                         1
+                                           +qh(X)-[l - e-Ahd(l_ s)] -               h,             (7)
+                                                Ah
+                                                             1
+                              E[£]~E = [l - qh(x)]-e-A/d(l - s)
+                                                             Ai
+                                                         1
+                                           +qh(x)-e-Ahd(l - s).                                    (8)
+                                                 Ah
+     For the convertible debt contract, (do, so, y, s), interim payoffs are similarly obtained as
+averages of the ex post payoffs in equation (4):
+
+                     E[VC];D = [1 - qh(X)] ~l [1 - e-A[[dO-y(s-so)](l_ s)]
+
+
+                                     +qh(X) Alh [l - e-Ah[dO-y(s-so)](l - s)] -          lz.       (9)
+
+
+    15. Note that, at time 1, h is sunk.
+8                                      REVIEW OF ECONOMIC STUDIES
+
+                           £[£];D = [1 - qh(X)] ~[ e-A1[do-y(s-so)] (1 - s)
+
+
+                                           +qh(X) :h e- Ah [dO- y (s- SO)] (1 _ s),                                    (10)
+
+
+where s is the post-conversion equity held by the venture capitalist. If he converts the entire
+amount of convertible debt, then s = s, while if he converts nothing, s = so.
+
+
+
+
+                                                                                                                              Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+      The refinancing decision and ex ante payoffs. The entrepreneur never wants to liquidate
+the project once it has started since he provides no financing and (because of limited liability)
+always obtains a positive payoff as long as s < 1.16 The driving force of our model is the conflict
+of interest between entrepreneur and venture capitalist. The former always wants to proceed with
+the project, while the latter wants to refinance it only if the interim news regarding the probability
+of success are sufficiently favourable. To compute ex ante payoffs, this refinancing/liquidation
+decision must be taken into account.
+      We calculate the maximal ex ante surplus of the project, defined as the ex ante surplus given
+efficient liquidation, as a weighted average of the interim surplus over all signal realizations,
+x, for which refinancing is efficient, minus the time 0 investment, II. The interim surplus is
+the sum of the interim payoffs of the entrepreneur and the venture capitalist and is equal to
+[1 - qh(X)]t + qh(X)           /h -
+                               h. Denote by x' the realization of the signal that makes the interim
+surplus zero (x' is the socially efficient refinancing/liquidation cut-off), determined by
+                                                       ,        1                , 1
+                                       [1 - qh(X )]- + qh(X)- - h = O.                                                 (11)
+                                                  A[       Ah
+Recalling that qh (x) = x, we can solve for x' in terms of the model's parameters:
+                                                           ,         h - I/A[
+                                                      x = I/Ah _ I/A[ .                                                (12)
+
+The project's maximal ex ante surplus is then calculated, and is assumed to be strictly positive:
+
+
+            1{[I - qh(X)]~ + qh(X)~
+              x'
+                   1
+                                  A[
+                                            +
+                                                      Ah
+                                                               - h}[a[(x)              ah(x)]dx -     It
+
+                             1{a[(x)~ + ah(x)~
+                                       =
+                                            x'
+                                              1
+
+                                                                A[                   Ah
+                                                                                          - h[a[(x) + ah(X)]}dX - II
+
+                                           (1 - x')2 1                   1 - (x')2 1
+                                                                     +                         - (1 - x')h - It > O.   (13)
+                                                  2            A[                2        Ah
+Since x' is expressed in terms of the model's parameters (equation (12», this assumption
+constitutes a condition on the parameters of the model. 17
+      The assumption that the maximal ex ante surplus is strictly positive implies that, without
+signal manipulation, the project is worth financing in stages, thanks to the information revealed
+by the signal. Therefore, debt-equity and convertible debt contracts exist so that, with stage
+financing but without signal manipulation, both the entrepreneur and the venture capitalist
+participate in the venture. Given such contracts, the refinancing/liquidation cut-off value of x
+is determined by the interim payoff of the venture capitalist and is denoted xo, defined as the
+smallest realization of the signal that makes the interim payoff of the venture capitalist positive.
+
+        16. Moreover, we can imagine that any investment by the entrepreneur in human capital is firm-specific and, hence,
+sunk.
+        17. Tedious calculations, using (12), yield {      H(~ ) Ii] - (it - Iz) }/ (~ - it) - t, o.
+                                                                         2
+                                                                             -                                   >
+                           CORNELLI & YOSHA                      STAGE FINANCING                                       9
+
+This cut-off value and the resulting ex ante payoffs of the venture capitalist and the entrepreneur
+will be introduced as the need arises.
+
+
+2.2. Signal manipulation
+To reduce the chances that the project will be liquidated, the entrepreneur can manipulate the
+distribution of the signal in period O. We require that after signal manipulation, the unconditional
+
+
+
+
+                                                                                                                            Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+distribution of profits is unchanged. This means that the ex ante probabilities of the good and
+bad states, hand 1, continue to be 1/2. Namely, signal manipulation affects the distribution of
+the signal x without affecting the true performance of the project. The venture capitalist cannot
+observe whether the entrepreneur manipulates the signal.l''
+      We model signal manipulation (window dressing) as a rightward shift of probability mass
+which reduces the information content of low values of the signal. Since the entrepreneur does
+not know, at time 0, whether the project is good or bad (whether the state of nature is 1 or h), it is
+unlikely that he can shift mass to the right only in one state of nature. Rather, we assume that he
+can engage in activities that give an appearance of better short-term performance in general by
+shifting probability mass from left to right for various values of x and in both states.
+      We start by explaining how signal manipulation must be modelled to capture the conflict
+of interest that arises as a consequence of stage financing. We establish that when continuation
+depends on the realization of a signal, the entrepreneur would always choose to increase the
+precision of the signal and the venture capitalist benefits from this choice. As a consequence, the
+venture capitalist does not worry about manipulation in the form of signal jamming, and does not
+need to design securities to prevent it. This fact is summarized in
+
+    Result 1. Signal manipulation that increases (or reduces) the precision of the signal by
+removing (or adding) noise in a mean preserving manner does not capture the conflict of interest
+between entrepreneur and venture capitalist regarding the liquidation of the project.
+
+      The proof is in two steps. First, we establish that the entrepreneur will not jam the signal
+in the commonly used sense of adding noise to it (in other words, it is not in the interest of
+the entrepreneur to reduce the precision of the signal). We follow the literature and model
+signal jamming as a transfer of mass of size E from the centre to each of the tails of the
+marginal distributions ah (x) and at (x) in a mean preserving manner, as illustrated in panel (a)
+of Figure 2. Suppose that in period 0 the entrepreneur can jam the signal in this way. Given any
+refinancing/liquidation cut-off value of x, denoted i, the entrepreneur does not want to shift mass
+from the right of i to its left since this would increase the probability of liquidation. Moreover,
+the mass shifted from the centre to the right tail of the distribution does not affect the probability
+of liquidation or the expected return of the project. Therefore, jamming the signal involves only
+drawbacks and no benefits for the entrepreneur. It follows that: (a) the venture capitalist believes
+that the signal is not jammed; (b) this belief pins down a refinancing/liquidation cut-off value of
+x; and (c) the entrepreneur does not jam the signal.
+      Next, suppose the entrepreneur increases the precision of the signal by transferring mass
+of size E from the tails to the centre of the marginal distributions ah (x) and a; (x) in a mean
+preserving manner, as illustrated in panel (b) of Figure 2. 19 Then both entrepreneur and venture
+       18. For simplicity, we assume that the entrepreneur can manipulate the signal costlessly. In a previous version
+(London Business School working paper no. 253, 2(01) we introduced a direct cost (borne by the entrepreneur), and an
+indirect cost in the form of effort that is shifted away from improvement of long-run performance. The results do not
+change in a meaningful way.
+       19. Reducing the noise in the signal in this manner can be carried out as long as there is probability mass to the
+left of the cut-off value of x both under at (x) and ah (x).
+10                                       REVIEW OF ECONOMIC STUDIES
+
+
+
+
+                        (a)
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                                                                         o                                        x
+
+
+
+
+                                                                             \ nE
+                                                                             C
+                                                                                  ,       E
+                        (b)                                                       :   E
+
+
+
+
+                                                                             ..
+                                                            x                                                    x
+
+
+                                                          FIGURE 2
+
+              (a) Reducing the precision of the signal (signal jamming); (b) Increasing the precision of the signal
+
+
+
+
+capitalist benefit from such activity. In fact, given any beliefs of the venture capitalist (that pin
+down a refinancing/liquidation cut-off value, i') the entrepreneur benefits from shifting mass of
+size E from the tails to the centre because this reduces the probability of liquidation. The venture
+capitalist also benefits from such manipulation, and would not discourage it. The intuition is as
+follows. On the one hand, the probability of liquidating a bad project decreases, since mass is
+shifted in state I from the left of i' to its right. On the other hand, the probability of liquidating
+a good project also decreases since mass is shifted in state h from the left of i' to its right. The
+latter effect dominates because, for small values of x, ah (x) < a; (x), so the impact of a shift of
+mass of given size is higher in state h. 20 The information content of the signal increases on the
+interval [Xl, X2] because a signal realization in this interval indicates with greater certainty that
+the state of nature is I (namely, qh declines on this interval). Thus, the decision rule used by the
+venture capitalist-liquidate if and only if x < i'-is based on better information, increasing
+the value of the option to abandon. This completes the proof of Result 1.
+
+     20. The proof is as follows. We assume that i' < 1/3, otherwise shifting mass from the left of i' to the centre
+is meaningless in state I. (The conditional mean of a; (x) is 1/3.) The venture capitalist's ex ante payoff, prior to signal
+manipulation, is
+
+         {I
+        li'
+              l:-qh(X)]~[I    Al
+                                   - e-A/d(l - s)] +   %(x)~[1 - e-Ahd(l - s)] - hI [(Xl(x) + (Xh(x)]dx - h
+                                                             Ah
+
+                   = {[I - e-A/d(l- s)] - h}     1:   cq (x)dx + {[I - e-Ahd(l- s)] -               h}   1:   (Xh(x)dx - II·
+
+
+Signal manipulation, as displayed in Figure 2(b), increases both   11,(Xl(x )dx and           11,
+                                                                                        (Xh (x )dx by the same amount, E. The
+effect on the venture capitalist's ex ante payoffthus depends on the sign and magnitude of A == [1 - e- A/d (l - s)] - h
+an dB-[1
+       =     -e
+                -Ahd(I
+                        -s )] - I 2. S'mce x-,.IS determme
+                                                        . db y the equation
+                                                                        . a/(x')+ah(i')
+                                                                                 a/(i')     A       ah(i')
+                                                                                              + a/(x')+ah(x') B-O
+                                                                                                                -  ,we have
+A < 0 and B > O. By the definition of (Xi(x) in equation (5), and since i' < 1/3, we have (Xl (i') > (Xh (i') implying
+B > IA I. Hence, the venture capitalist's ex ante payoff increases as a result of signal manipulation.
+                          CORNELLI & YOSHA                    STAGE FINANCING                                     11
+
+      It follows that if the entrepreneur can choose the precision of the signal, he chooses the
+most precise signal available, and the venture capitalist benefits from this choice. Since we want
+to model the tension described in Sahlman (1988), we focus instead on signal manipulation that
+constitutes a conflict of interest between entrepreneur and venture capitalist. 21 To capture this
+conflict, it is essential that mass is shifted from the left of the refinancinglliquidation cut-off to
+its right (which is in the interest of the entrepreneur) and that more mass is shifted in state 1
+than in state h (this damages the venture capitalist). (We elaborate on this point in Section 6
+
+
+
+
+                                                                                                                        Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+where other forms of signal manipulation are discussed.) We will now present one type of signal
+manipulation that fits this description.
+
+      Window dressing. We have shown that if the main concern of the entrepreneur is to avoid
+liquidation, he has an incentive to engage in signal manipulation that shifts probability mass from
+the left of the refinancinglliquidation cut-off value of x to its right. Suppose that at time 0, the
+entrepreneur can affect the distribution of the signal by reducing the probability of observing
+low realizations of x and increasing the probability of observing high realizations of x without
+affecting the probability of states hand 1, which remains 1/2. Let us call such activity window
+dressing and denote it a = 1, while a = 0 denotes no window dressing. We now tum to a specific
+model that captures the essential economic forces at work.
+     Denote ah (x, 0) the joint density function of x and h when a = 0, and similarly for a; (x, 0).
+Denote qh (x, 0) = ah (a&)~,O)(
+                         x,   a/ x,
+                                    0) the probability of state h conditional on the signal realization
+x when a = O. This is just different notation for the expressions in equations (5) and (6). Thus,
+for x in the interval [0, 1],
+                                                                                       x
+               ah(x,O) = x,            az(x,O) = 1 - x,            qh(X, O) =                  = x,             (14)
+                                                                                  x+l-x
+i.e. the signal is strictly informative, and       Jd
+                                               ah(x, O)dx =            Jd
+                                                                 ah(x, 1)dx = 1/2.
+       We express the rightward shift of mass in terms of a parameter k. Window dressing involves:
+(a) transferring mass in state 1 from the interval [0, k] to the interval (k, (1 + k)/2); and
+(b) transferring mass in state h from the interval (k, (1 + k)/2] to the interval [(1 + k)/2, 1),
+as illustrated in Figure 3. The logic is that as a result of window dressing, poor projects (state 1)
+are less likely to exhibit low interim performance, but good projects (state h) are more likely to
+exhibit high interim performance. Thus,
+                                                  X     X ~ k
+                                ah ( x, 1) =      k     k < X < 1+k
+                                                                 2
+                                                { 1     x > 1+k
+                                                             2 '
+                                                                                                                (15)
+
+                                a; (x, 1) = { :       =~ + l~k
+                                                  I-x
+implying
+                                                 x+~-k               X ~ k
+                                                       k             k < x < 1+k                                (16)
+                              qh (x, 1) =        k+1-x+k 2/(l-k)                  2
+                                               { _1_                 x > 1+k
+                                                 2-x                      2
+Window dressing increases the conditional (interim) probability of state h on the intervals (0, k)
+and [(1 + k)/2, 1), where qh(X, 1) > qh(X,O). Notice that qh(X, 1) is strictly informative
+
+      21. We implicitly assume that any signal manipulation that is feasible and desirable to both parties is already
+incorporated in the primitive joint distribution of signal and output.
+ 12                                       REVIEW OF ECONOMIC STUDIES
+
+                              at (x, a)                               ah(x, a)
+
+
+
+
+                                      ""R
+                              1
+
+
+                      (a) l-k
+
+                                       i """"
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                                  o       k    1+ k           x         o        k    1+ k           x
+                                               2                                      2
+
+
+
+
+                      (b)
+
+
+
+
+                                  o       k   l+k                 x     0   X~=l x'    k'    k      x
+                                               2
+
+                                                         FIGURE 3
+ Window dressing: (a) the shift of mass in states I and h; (b) the effect on the conditional probability %; the figure on the
+                         right is an enlargement of the figure on the left, on the interval [0, k]
+
+
+
+(strictly increasing in x) everywhere except at x = k. This is due to a specific feature of the
+joint distribution of signal and output that we are using, in particular to the discontinuity of
+(XI (x, 1) at x = k. It plays no role in the analysis nor does it drive any of the results, and is
+assumed only in order to simplify calculations. 22
+       Result 2 below establishes that such window dressing reduces the maximal ex ante surplus
+of the project. An immediate consequence is that the venture capitalist wants to prevent window
+dressing because, for any sharing rule, window dressing reduces his payoff. Define x~=l as
+the socially efficient refinancing/liquidation cut-off value when the signal is manipulated. For
+simplicity of exposition, we restrict attention to the case where x~=l is unique, as illustrated in
+panel (b) of Figure 3. A sufficient condition for this is x' < k'; where x' is given in (12) and k'
+can be derived as shown in Figure 3. From the figure it is also evident that x~= 1 is smaller than x'.
+(Uniqueness of x~=l is convenient but by no means necessary. If it were not unique, the socially
+efficient liquidation/refinancing decision when there is window dressing would be nonmonotone
+in x. The analysis would go through but would be cumbersome.P)
+
+      Result 2.      Window dressing reduces the maximal ex ante surplus.
+
+      The intuition is that for low realizations of x the information content of the signal decreases
+as a result of window dressing, because a low signal realization indicates with less certainty
+that the state of nature is I. The refinancing/liquidation decision is thus based on lower quality
+information, reducing the value of the option to abandon. By a similar logic, for any sharing rule
+      22. In Section 6 we study another specification of the joint distribution of signal and output where both % (x, 0)
+and qh (x, I) are strictly informative.
+      23. Moreover, the possibility of nonuniqueness of the refinancing/liquidation cut-off for a = I arises only because
+qh (x, 1) is not strictly informative at x = k, a feature that can be eliminated without difficulty (see Section 6).
+                         CORNELLI & YOSHA                   STAGE FINANCING                                   13
+
+(and its corresponding refinancing/liquidation cut-off value of x), window dressing reduces the
+payoff of the venture capitalist because he is the one investing the additional money on the basis
+of less accurate information.
+
+      Proof ofResult 2.       The maximal ex ante surplus when a = 0 is
+
+               {I   {[1 _ qh(X, 0)]2-     + qh(X, O)~ - 12}[Cl/(X, 0) + Clh(X, O)]dx - II.                  (17)
+              lx!                    Al              Ah
+
+
+
+
+                                                                                                                    Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+We will now show that it is larger than the maximal ex ante surplus when a = 1. The expression
+in (17) is larger than
+
+              (I     l[1 -   qh(X, 0)]2-   + qh(X, O)~ - h}[Cl/(X, 0) + Clh(X, O)]dx - II                   (18)
+             lX~=l                    Al              Ah
+because the payoff in (18) is derived using a socially sub-optimal liquidation cut-off. 24 In tum,
+the expression in (18) is larger than the ex ante surplus when a = 1,
+
+              {I     {[I _ qh(X, 1)]2- + qh(X,     1)~ - h}[Cl/(X, 1) + Clh(X, 1)]dx - II,                  (19)
+             lX~=l                  Al                Ah
+which can be seen as follows. If the integrals in (18) and (19) were taken on the entire
+interval [0, 1], they would be equal (because window dressing does not affect the project's
+true performance). Therefore, showing that (18) is larger than (19) is equivalent to showing
+that the integrand in (18) integrated on [0, x~=l] is smaller than the integrand in (19)
+integrated on the same interval. Using the definitions of Clh (x, 0), Clh (x, 1), qh (x, 0) and qh (x, 1)
+(equations (14)-(16)) this is equivalent to showing that (~ - h) J;~=l 1-x ) - (1- k) ]dx < 0. 25
+                                                                                 [(
+Since on the interval [0, X~=l]' x < k, we have J;~=l [(1 - x) - (1 - k)]dx > 0, and from
+equation (11) we have ~ - l: < 0, establishing the result.  II
+
+    To underline the damage caused by window dressing, we assume that the decline in the
+maximal ex ante surplus as a result of window dressing is sufficiently pronounced so that the
+expression in (19) is strictly negative. This condition can be written as
+
+              {I {Cl/(X, 1)2- + Clh(X, 1)~ - h[Cl/(X, 1) + Clh(X, 1)]}dX - II < 0,                          (20)
+             lX~=l         Al           Ah
+namely, the project is not worth financing. Thus, when it is known that a = 1, there is no contract
+such that the venture capitalist's ex ante payoff is positive (as he bears all the costs and what he
+can obtain is bounded above by the maximal ex ante surplus, which is negative).
+
+2.3. Window dressing with a debt-equity contract
+We showed that window dressing reduces the probability of liquidation but, at the same time,
+reduces the benefit of stage financing (by reducing the value of the option to abandon), rendering
+the project nonviable. We now show that, nevertheless, once debt-equity financing has been
+obtained, the entrepreneur will always want to window dress the distribution of the signal.
+Anticipating this, the venture capitalist will not provide financing at time 0. 26
+
+     24. More specifically, on the interval [x~=l' x'] the integrand is negative, by definition of x'.
+     25. Note that on the interval [0, x~=l] window dressing does not affect (th.
+     26. This feature of the model resembles Stein (1989) where managers inflate the price of the company shares.
+Although the market perfectly anticipates this behaviour, the managers nevertheless engage in signal manipulation
+14                                     REVIEW OF ECONOMIC STUDIES
+
+     Proposition 1. If the project is financed with a debt-equity contract, (d, s), the
+entrepreneur will always manipulate (window dress) the distribution of the signal.
+
+      The proof and the intuition are one and the same. Suppose that (for some reason) the project
+is financed with the debt-equity contract, (d, s). Suppose further that the venture capitalist
+believes that a = O. The contract and this belief pin down a refinancing/liquidation cut-off xO. 27
+Given Xo, the entrepreneur wants to shift mass from the left of Xo to its right because this reduces
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+the probability of liquidation (with no other effect on the entrepreneur's payoff). The effect of
+window dressing on the probability of refinancing varies according to whether Xo is smaller than
+k, larger than (1 + k)/2, or between the two. Consider Figure 3. If Xo :s k, the rightward shift
+of mass does not affect the probability of refinancing in state h, but increases the probability
+of refinancing in state l. If k < Xo :s (1 + k) /2, the probability of refinancing in both states
+increases, and if Xo > (l + k) /2, only the probability of refinancing in state h increases. In all
+three cases, the payoff of the entrepreneur is higher when a = 1. Therefore, a = 0 cannot be part
+of an equilibrium. If the venture capitalist believes that a = 1, there will be another cut-off value
+of x and by an analogous argument, given this cut-off, the entrepreneur wants to shift mass from
+its left to its right, namely, a = 1 in line with the venture capitalist's belief. Thus, if the project
+is financed with a straight debt-equity contract, a = 1; anticipating this, financing will not be
+provided as the contract fails to provide incentives for no window dressing.
+
+2.4. The role of convertible debt in preventing window dressing
+
+We will now show that with an appropriately designed financing scheme that combines equity,
+straight debt and convertible debt the project will be financed and the entrepreneur will not
+window dress at the ex ante stage. 28 The result is summarized in:
+
+     Proposition 2. There is a convertible debt contract, (do, so, y, s), such that the
+entrepreneur does not window dress and the project is financed.
+
+      A detailed proof is provided in Appendix A. We present here the main arguments. The proof
+consists of constructing a convertible debt contract, (do, so, y, s) and cut-off values, Xo and Xl,
+satisfying 0 < Xo < k < Xl < 1, such that in equilibrium the venture capitalist (a) provides It at
+time 0; (b) liquidates the project after observing X < Xo, but not otherwise, where Xo is the signal
+realization that renders his interim payoff zero; (c) does not convert any debt after observing
+X E [xo, xj ); (d) converts the maximal amount of debt allowed, do - d, after observing X 2:: Xl,
+where d = do - yes - so); and the entrepreneur chooses a = O.
+      The conversion ratio, y, and the venture capitalist's post-conversion share, s, playa key role
+in the construction of the contract. If y is low, converting debt into equity is cheap and the venture
+capitalist will convert if he decides to refinance the project, whereas if y is high, he will not. In
+either case, the option to convert does not constitute a threat that prevents window dressing.
+A conversion ratio, y, that is not too high or too low must be selected to provide incentives
+for the entrepreneur. The attributes "low" and "high" depend on s, the venture capitalist's
+post-conversion share of the enterprise. The larger is s, the smaller is the entrepreneur's post-
+conversion share of the enterprise (i.e. the bigger is the "punishment" for window dressing) and
+because they take market expectations as given. In Stein's model, the damage caused by signal manipulation is not
+large enough to prevent trade in the company shares.
+       27. Since the venture capitalist obtains only part of the maximal ex ante surplus, XQ is greater than x', the socially
+efficient refinancing/liquidation cut-off.
+       28. Typically, there will be many convertible debt contracts that induce a = O. The choice among them will
+depend, amon.gother things, on the relative bargaining power of entrepreneur and venture capitalist.
+                      CORNELLI & YOSRA                STAGE FINANCING                               15
+
+the larger y can be and still be effective. The y and S that jointly prevent window dressing
+are such that when the venture capitalist chooses to convert debt, conversion takes place at a
+convenient rate for the venture capitalist, hurting the entrepreneur (in other words, the venture
+capitalist buys underpriced equity). The loss to the entrepreneur more than offsets the advantage
+from the fact that liquidation is less likely to take place.
+     We begin by fixing an arbitrary value for So. This illustrates that the result in Proposition 2
+does not rely on "razor's edge" arguments, and there is considerable leeway in constructing
+
+
+
+
+                                                                                                          Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+convertible debt contracts that prevent window dressing. We want to choose the other parameters
+of the contract and the two cut-off values of x, so that the venture capitalist will not convert any
+debt after observing x E lxo. Xl), but will convert all the convertible debt after observing X :::: Xl.
+To exploit the model's "natural structure", we design the contract so that Xl = (l + k)j2. We
+choose do, y and s such that the following condition is satisfied:
+
+                   l-kl               Ad             l+kl              Ad
+                  - - - [ 1 - e" Z 0(1- So)] + - - - [ 1 - e" h 0(1- So)]
+                    2 Al                              2 Ah
+                            1-
+                          = - - -
+                                k [ 1I d
+                                     - e- AZ[ O-y(s-so)](1_ s)]
+                              2 Al
+                             + 1 + k ~[1 _ e-Ah[do-y(s-so)](l _ s)].                              (21)
+                                  2    Ah
+
+The left-hand side is the venture capitalist's interim payoff if he converts no debt, and the right-
+hand side is his interim payoff if he converts all the convertible debt. (See equations (7) and (8)
+and recall that q(x, 0) = x, i.e. q(XI, 0) = (l + k)j2.) Thus, condition (21) states that the signal
+realization X = (1 + k)j2 renders the venture capitalist indifferent between not converting debt
+and converting all the convertible debt. Later in the proof, we show that, for any signal realization,
+the venture capitalist's interim payoff is maximized either by converting no debt or by converting
+all the convertible debt. Therefore, if X :::: (1 + k)j2, the venture capitalist converts the entire
+amount of convertible debt, and if X < (1 + k)j2 he converts none. Condition (21) defines
+an implicit relation between y, s, and do. Throughout the proof, we require that this equality
+is satisfied. In particular, any argument involving a change in y and do entails a corresponding
+change in s so that (21) is satisfied.
+      Next, we impose a condition that ensures that the entrepreneur prefers not to manipulate the
+signal. That is, given the convertible debt contract and the cut-off values, Xo and Xl = (l + k)j2,
+his ex ante payoff with a = 0 is larger than his ex ante payoff with a = 1 (given that the venture
+capitalist believes that a = 0). Spelling out this condition explicitly is tedious (see equation (A.5)
+in Appendix A), but after rearranging it boils down to the following inequality:
+
+                                    s < 1 + ~xo(xo - 2k) -
+                                 1 --
+                      eAhY(S-SO) -                       Ah -(Az-Ah)do
+                                                             e.                                   (22)
+                                 1 - So -          k(l - k)2 Al
+We rearrange equation (21) so that its L.R.S. equals the L.R.S. of (22)-see Appendix A-to
+obtain
+
+     eAhY(S-SO) ~                                                                                 (23)
+                1 - So
+
+This facilitates the construction of a convertible debt contract such that both (22) and (23)-i.e.
+(2l)-hold. To construct this contract, we proceed as follows. We increase y and do so that (a)
+for each value of y and do, we choose s that satisfies (23); and (b) the post-conversion debt,
+16                                    REVIEW OF ECONOMIC STUDIES
+
+do - yes - so), remains positive and finite. 29 (In Appendix A, we show formally how this
+is accomplished.) The driving economic force in this construction is the change in y and the
+corresponding change in s, as discussed above.
+      We then show that as y and do increase, the R.H.S. of (22) approaches 1. We further show
+that, as y and do increase, the R.H.S. of (23) approaches a number strictly between 0 and 1, and
+so must the L.H.S. in order to preserve the equality. Since the L.H.S. of (23) is equal to the L.H.S.
+of (22) the inequality in (22) is eventually satisfied. Therefore, there are values of y, do, and s
+
+
+
+
+                                                                                                                           Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+that ensure that both (22) and (23) hold.
+      Next, we verify that the venture capitalist's interim payoff is maximized either at so, "no debt
+conversion", or at s, "full debt conversion" which implies that the formulation of condition (23) is
+consistent with optimization by the venture capitalist. Finally, we tum to the venture capitalist's
+ex ante participation constraint, and show that it is satisfied.
+
+      Economic intuition for Proposition 2. Figure 4 displays interim payoffs of venture
+capitalist and entrepreneur as a function of the signal realization x. Panel (a) displays these
+payoffs when there is no window dressing (a = 0). The dashed lines represent the payoffs for
+straight debt-equity financing, (do, so). The venture capitalist's interim payoff can be written as
+L'-h+(H'-L')x, where L' = t[l-e- A/d0(1-so)] and H' = }h[l-e- Ahdo(1-so)]. Similarly,
+the entrepreneur's interim payoff can be written as L"+(H" -tr»; where L" = te-A/d0(1-so)
+and H" = Alh e- Ahd0(1 - sO).30 The venture capitalist's interim payoff at xo is zero because xo
+is defined as the value of x that makes him indifferent between liquidating and investing h. The
+entrepreneur, who does not invest money, has a strictly positive interim payoff at xo.
+      The solid lines represent the payoffs for convertible debt financing, (do, so, y, s), in
+equilibrium, i.e. when the venture capitalist converts all the convertible debt following x ::::
+(1 + k)/2. The upward kink in the venture capitalist's payoff and the corresponding downward
+kink in the entrepreneur's payoff at .r = (1 + k) /2 illustrate the benefit to the venture capitalist
+from converting debt at a favourable ratio and the corresponding damage to the entrepreneur.'!
+      The ex ante payoff for each party is computed as a weighted average-over the signal
+realizations, x-of the interim payoff (minus It for the venture capitalist). The shaded area
+illustrates the damage to the entrepreneur from debt conversion by the venture capitalist. (Had
+the venture capitalist not converted, the interim payoffs would be those represented by the dashed
+lines.) However, the shaded area serves only as an illustration because the actual ex ante payoff
+is computed as a weighted average of the interim payoffs, where the weight given to signal
+realization x is a; (x, 0) + ah (x, 0).
+      Panel (b) similarly displays the interim payoffs when there is window dressing (a = 1),
+assuming that the venture capitalist believes that there is no window dressing (thus, the
+refinancinglliquidation cut-off, xo, is the same as in panel (a». To decide whether to manipulate
+the signal, the entrepreneur compares his ex ante payoff when a = 0 (top-right graph) and when
+a = 1 (bottom-right graph). For this comparison, the most relevant intervals are [0, xo] and
+[(1 + k)/2, 1]. On [0, xo], his interim payoff is zero (whether a = 0 or 1) but for a = 1 it
+occurs with lower probability, which constitutes the incentive to window dress. The main force
+against window dressing is the damage to him from debt conversion by the venture capitalist,
+as illustrated by the shaded areas on the interval [(1 + k)/2, 1]. Ex ante, the entrepreneur does
+
+     29. This condition guarantees that we are considering "pure" convertible debt. In Section 4, we introduce the use
+of warrants (instead of convertible debt) and this type of condition is no longer required.
+     30. The sum of these payoffs is the total interim surplus,      ft + (~ - -t )x - h.
+     31. The sum of the two slopes is ')"I
+                                         h
+                                             -   ft, as is the case for straight debt-equity financing; see footnote 30.
+                            CORNELLI & YOSHA                        STAGE FINANCING                                           17
+
+                                                       (a): a = 0
+
+
+         Interim                                                Interim
+         payoff                                                 payoff
+           ofVC                                                    ofE
+                                                 convertible
+                                                 debt
+                                                                              :
+                                                                              j               1 , ~ debt-equity
+
+
+                                                                              !vn
+                                                                                             1 -.::.:::.;:::.~~ convertible
+                                                                              j
+
+
+
+
+                                                                                                                                   Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                                                                              :              : : debt
+                                              _' debt-equity
+                                                                                "
+                   o   Xo            l+k                x                                    l+k                         x
+                                     2                                                       2
+
+                                                       (b):a= 1
+
+         Interim                                                Interim
+         payoff                                                 payoff
+           ofVC                                                    ofE
+
+                                               ~ convertible
+                                               !debt
+                                        h::.i    debt-equity
+
+                       v-V
+                   o   Xo    k
+                                    2
+                                     l+k                x                 o   Xo   k      l+k
+                                                                                          2
+                                                                                                                        x
+
+
+                                                            FIGURE 4
+                                   Interim payoffs as a function of the signal realization
+
+
+
+not know for sure in which interval the signal will be realized. But he does know that window
+dressing increases the likelihood that the signal will be in the interval where he is damaged
+(in other words, window dressing increases the weights given to the payoffs on the interval
+[(1 + k)j2, 1]). An appropriately designed convertible debt contract ensures that the latter force
+dominates in terms of the entrepreneur's ex ante payoff. 32
+     The parameters do and So shift the payoff schedules up or down, and are chosen to satisfy
+individual rationality constraints. For the entrepreneur the constraint is trivially satisfied: due to
+limited liability, and since he does not invest his own money, his payoff cannot be negative. Thus,
+do and So are chosen to guarantee a sufficiently high (ex ante) payoff to the venture capitalist.
+These parameters only affect the division of the surplus, and there are degrees of freedom in their
+choice.P
+
+    A numerical example. We simulated the model and generated a host of examples, of
+which we report one in order to illustrate that the model generates plausible results. The
+
+      32. For an exhaustive analysis, we should also study the interval [xo, (l + k)/2]. This discussion was only meant
+to provide the intuition, but the proof of Proposition 2 takes into account all the effects.
+      33. In the proof of Proposition 2 (see step 9 in Appendix A), we fix So and vary do to satisfy the venture capitalist's
+participation constraint. Varying only do is sufficient for this purpose because the project's output (1(i, i = I, h) is
+unbounded. Then, for fixed So' the share of the surplus that goes to the venture capitalist increases monotonically with
+do (and approaches unity as do approaches infinity).
+18                                   REVIEW OF ECONOMIC STUDIES
+
+project's output, it«, is distributed exponentially on the interval [0, (0), with density Aie-Aj7Tj,
+i = h, I, and mean        t
+                          = 56,680 and }h = 110,667. The required investment at each stage is
+ It = 10,871 and Ii = 74,830. Thus,           !t !
+                                             + }h - (It + h) = -2028, namely, stage financing
+ is necessary.i"
+      The signal is distributed on [0, 1] as illustrated in Figure 1, with k = 0·3794 and
+ (1 + k)/2 = 0·6897. The socially efficient liquidation cut-off value of the signal (when there is
+ no window dressing) is x' = 0·3362, and the maximal ex ante surplus is 1024. If, however, there
+
+
+
+
+                                                                                                                         Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+is window dressing, the socially efficient liquidation cut-off value of the signal is x~=l = 0·3143,
+ and the maximal ex ante surplus is negative (-257). Thus, without window dressing the project
+ is worth financing, but with window dressing it is not.
+      Consider the debt-equity contract So = 0·3 and do = 420,819. 35 The liquidation cut-off
+ value of the signal (when there is no window dressing), that makes the venture capitalist's interim
+payoff zero, is Xo = 0·348. But given this contract (and the venture capitalist's belief that there is
+no window dressing) the entrepreneur will window dress (Proposition 1): his ex ante payoff with
+window dressing is 767 while without window dressing it is 765.
+      Consider the convertible debt contract So = 0·3, do = 420,819, y = 317,538 and
+s = 0.8645, implying d = 420,819 - 317,538(0·8645 - 0·3) = 241,569. The amount of
+convertible debt is do - d = 420,819 - 241,569 = 179,250. The liquidation cut-off value
+of the signal (when there is no window dressing) is Xo = 0·348, and the debt conversion cut-
+off is Xl = (1 + k)/2 = 0·6897. Without window dressing, the venture capitalist's ex ante
+payoff is 261, and the entrepreneur's ex ante payoff is 759. Given this contract (and the venture
+capitalist's correct belief that there is no window dressing), the entrepreneur will not window
+dress (Proposition 2): we verified that his ex ante payoff without window dressing is larger than
+his payoff with window dressing (while the venture capitalist believes that there is no window
+dressing) by calculating both sides of inequality (22). We also plotted the venture capitalist's
+                                       s
+interim payoff as a function of for several values of x E [xo, Xl) and X E [Xl, 1], and verified
+                                                s                       s
+that it achieves a comer maximum at = So = 0·3 and = s = 0·8645, respectively. Thus,
+following a signal X ~ Xl = 0·6897, the venture capitalist exchanges about 40% of the debt
+(which is all the convertible debt) for 55% of the project's equity, becoming the main equity
+holder. (Notice that the initial equity holding by the venture capitalist does not give him control
+over the project, whereas after full debt conversion he holds 86·45% of the equity. In our study,
+we overlooked the issue of control rights and benefits of control. These issues no doubt play a
+role in the design of such securities, and are left for future work.)
+      To get a sense of the "riskiness" of the project, we calculated the following probabilities:
+(1) the probability of refinancing (x ~ xo) in states I and h is, respectively, 0·21 and 0-44
+(the ex ante probability of refinancing is the average of these numbers, 0·325; this is slightly
+high compared to real world "common wisdom", although in the sample studied by Gompers
+and Lerner (1999), only about 15% of the companies are liquidated); (2) the (unconditional)
+probability of debt conversion (x ~ Xl) in states I and h is, respectively, 0·05 and 0-48; (3) the
+(unconditional) probability that profits will exceed post-conversion debt (Jri ~ d = 241,569)
+in states I and h are 0·01 and 0·11, respectively; thus, for example, the ex ante probability that
+there will be refinancing cum debt conversion and the entrepreneur will walk away with any
+money, is 0·5*0·05*0·01 + 0·5*0·48*0·11 = 0·02665, i.e. about 2·7%. (For the entrepreneur to
+walk away with money if there is no debt conversion, ex post profits must exceed do = 420,819
+which happens with very small probability.) Therefore, although the ex ante expected surplus
+
+      34. The displayed numbers are rounded.
+      35. Kaplan and Stromberg (2002) report that in more than 98% of the cases in their sample the liquidation rights
+of the venture capitalist (which correspond to d) are much larger than his cumulative investment.
+                          CORNELLI & YOSHA                      STAGE FINANCING                                       19
+
+from the project is not high at all relative to the required investment, with small probability both
+the entrepreneur and the venture capitalist can walk away with a huge amount of money, which
+is exactly what is observed in the real world.
+
+
+      Allowing for renegotiation with convertible debt financing. If the venture capitalist
+refinances (i.e. if x ~ xo) there will be no renegotiation of the terms of the convertible debt
+contract even if renegotiation is allowed. The reason is that there is no mutual gain at time 1 from
+
+
+
+
+                                                                                                                            Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+changing the terms of the contract because the entrepreneur and the venture capitalist are risk
+neutral, and the terms of the contract cannot be altered so that one party benefits without hurting
+the other.
+      Renegotiation can arise only if there is an inefficiency that induces the parties to change
+the contract in a Pareto improving manner. This arises if the project is liquidated when instead
+there is a positive surplus from continuation. In other words, there is renegotiation after signal
+realizations such that x' ::: x < xo, where x' is the socially efficient cut-off value of x.
+Only when x' = Xo there is no renegotiation. But this can happen only if So = 1, which is
+inconsistent with the basic assumption of our model that s < 1 (and hence, So < 1). Therefore,
+although an appropriately designed convertible debt contract ensures that financing is provided at
+time 0, inefficient liquidation at time 1 after some realizations of x is inevitable.I'' In that sense,
+convertible debt financing is constrained optimal (where the constraint is determined by the need
+to provide incentives to the entrepreneur to undertake long-term effort).
+     In the proof of Proposition 2 (Appendix A, step 9) we show that the convertible debt contract
+can be constructed so that Xo is arbitrarily close to x', In other words, inefficient liquidation and
+the ensuing renegotiation can be made to occur with an arbitrarily small probability, implying that
+renegotiation can be rendered negligible in terms of payoffs. This implies that the possibility of
+renegotiation at time 1 does not affect the feasibility of the project because none of the arguments
+we made depend on strict indifference.
+
+      The deadline for conversion. In the model, the deadline for conversion must precede
+time 2 and it is, indeed, optimal for the parties to set this deadline before time 2. If conversion
+were at time 2, the venture capitalist would wait until then, when the uncertainty regarding the
+state of nature is resolved, to decide whether and how much to convert. This decision would
+be independent of the realization of the signal (at time 1). But then the logic of Proposition 1
+applies: because the threat of debt conversion at favourable terms in response to a good signal is
+no longer present, the entrepreneur wants to window dress in order to reduce the probability of
+liquidation, and the project will not be financed. The parties thus have a common interest to set
+the deadline for debt conversion strictly before time 2.
+      This feature of the securities in the model does not match the convertible debt (or, more
+precisely, preferred shares) observed in the reality, which typically have infinite maturity, so that
+venture capitalists convert only when they exit the investment (upon sale or IPO). However, in
+the reality warrants are also widely used in venture capital financing and they do have a maturity
+date (see Kaplan and Stromberg, 2002). Thus, it can be argued that the convertible security in
+our model best represents a combination of straight debt (or preferred shares) and warrants. In
+Section 4 we consider this case explicitly.
+
+      36. Note that this inefficiency would happen with any contract that does not render the venture capitalist the sole
+owner of the project's equity. This well understood type of inefficiency has nothing to do with the phenomenon we are
+studying-preventing window dressing with a convertible security-and is due to the nonverifiability of the signal. It
+does not arise when the signal is verifiable, as we will show in Section 5, because in that case the liquidation decision
+and the allocation of the surplus among the parties are not linked.
+20                                     REVIEW OF ECONOMIC STUDIES
+
+         3. ALLOWING FOR RENEGOTIATION OF THE DEBT-EQUITY CONTRACT
+In the previous sections we assumed that the debt-equity contract could not be renegotiated at the
+interim stage, after the signal is observed by the parties. In this section, we explicitly consider
+this possibility, and argue that there is a role for convertible securities even when debt-equity
+contracts can be renegotiated.
+
+      Spontaneous renegotiation of the debt-equity contract. Parties renegotiate a contract
+
+
+
+
+                                                                                                                               Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+whenever there is space for a Pareto improvement. In our model, this can happen only if there
+is inefficient liquidation by the venture capitalist. When the contract does not specify how
+renegotiation will be carried out (e.g. sequence of moves, permissible offers), we define it as
+"spontaneous". Can such renegotiation prevent window dressing? Clearly, the answer depends
+on the specific renegotiation that will arise "spontaneously". To illustrate the logic, we start
+by assuming that, following inefficient liquidation, the parties renegotiate so that the project is
+refinanced and the surplus is split in proportion J-L to the venture capitalist and 1 - J-L to the
+entrepreneur.37
+     Suppose that the project is financed with a debt-equity contract, (d, s), and let XQ be
+the corresponding refinancing/liquidation cut-off that makes the venture capitalist's interim
+payoff zero. Suppose, first, that XQ = 1 (in other words, (d, s) gives the venture capitalist
+a payoff so low that he never wants to refinance). Two situations can arise: either x < x',
+the project is liquidated, and his payoff is zero, or x ::: x', and there is renegotiation that
+determines his payoff. Renegotiation means that the parties agree on a division of the ex post
+surplus such that, in expectation, they are entitled to fractions u, I - J-L of the interim surplus,
+[(1- q(x,     O»t + q(x, 0)       /h -
+                                 h].38 Ex ante, at time 0, when the entrepreneur chooses whether
+to window dress, his payoff is equal to the expectation over x of the post-renegotiation interim
+payoff (which is a constant fraction J-L of the interim surplus).
+     This payoff can be achieved through debt-equity contracts, as follows. For each realization
+of x ::: x', and consequent renegotiation, the parties can agree on a debt-equity contract that
+gives the entrepreneur (in expectation) a constant share, 1 - u, of the interim surplus. Such a
+debt-equity contract is easily built: choose s = u. and d (x) such that the expected revenue to the
+venture capitalist from d (x) equals (1 - Ji-) h. (That is, the venture capitalist receives a share u.
+of the revenue and bears a share J-L of the interim investment, h, namely, he obtains a share u.
+of the surplus.) To compute d (x ), remember that if the state of nature is i the expected revenue
+from debt with face value d is
+
+                       Joi" lCiAie-Al, .n, dtt, + JF" dAie-Al 1dni = Ai1 [1 - e- A1"d ],
+                                         t
+                                                                    "Jr'
+
+                                                     d
+and, therefore, d (x) is the unique solution of
+                             1                                        1
+                   q(x, 0)-[1 - e- Ahd ] + (1 - q(x, 0»-[1 - e- A1d ] = (1 - J-L)h.
+                         Ah                            At
+Notice that d' (x) < O. (This follows from the fact that q (x, 0) is continuously differentiable
+and strictly increasing in x.) If d were a constant, the proof of Proposition 1 would go
+through unchanged. The fact that d decreases with x constitutes an additional incentive for the
+entrepreneur to window dress. Thus, a fortiori, the payoff profile arising from renegotiation does
+
+      37. We thank a referee for suggesting this approach. We will show that even costless renegotiation does not prevent
+window dressing. A fortiori it will not do so when it entails a cost c > O. In that case, the socially efficient liquidation
+cut-off is some x~ > x', there is renegotiation following x ~ x~, and the project's surplus net of c is split between the
+parties according to the shares fl. and I - u:
+      38. In the analysis, we maintain the equilibrium belief a = 0, which is necessary for the project to be financed.
+                       CORNELLI & YOSHA               STAGE FINANCING                               21
+
+not prevent window dressing, and a = 0 is not part of the equilibrium. Anticipating this, the
+venture capitalist will not finance the project.
+      Suppose now Xo < 1. Following x ~ Xo the project is refinanced, there is no renegotiation,
+and the payoffs to the venture capitalist and the entrepreneur are those determined by the debt-
+equity contract, (d, s). Following x' ::s x < xo, inefficient liquidation would occur and there is
+renegotiation which results in the above surplus sharing rule in proportions JL, 1 - JL. Note that
+renegotiation on the interval [x', xo) occurs because with the existing contract, (d, s), the venture
+
+
+
+
+                                                                                                          Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+capitalist's payoff is not high enough to cover h. Renegotiation must give him a higher payoff
+than with (d, s) (because following renegotiation he is willing to refinance the project but without
+renegotiation he is not). This implies that renegotiation gives the entrepreneur a lower payoff than
+he would have achieved with (d, s) (had the project been refinanced). Thus, the entrepreneur's
+share of the interim surplus is higher on the interval [xo, 1] than on the interval [x', xo). (To see
+this, notice that at xo, the venture capitalist's interim payoff is zero and the entrepreneur's interim
+payoff is positive; see Figure 4(a). To the left of xo, the venture capitalist's interim payoff rises
+from negative to positive due to renegotiation, and as a consequence, the entrepreneur's interim
+payoff falls below what it would have been without renegotiation. Thus, to the left of Xo the
+entrepreneur's payoff after renegotiation is lower than to the right of xo.)
+      This payoff profile cannot prevent window dressing. To prevent window dressing, the
+entrepreneur's payoff profile must be such that his share of the surplus after "medium"
+realizations of x is large relative to his share after "high" realizations of x so as to provide
+an incentive not to shift mass from left to right.
+      More generally, to prevent window dressing, the entrepreneur's bargaining power must
+decrease with .r, so that his share of the surplus is smaller the larger is x. Otherwise, he will have
+an incentive to window dress. In most situations, spontaneous renegotiation will not be such that
+the bargaining power changes endogenously as a function of x in this particular manner. In such
+cases, the entrepreneur will window dress even when he anticipates renegotiation.
+
+      Designed renegotiation of the debt-equity contract. Whenever "spontaneous"
+renegotiation does not prevent window dressing, parties can include in the contract the rules
+of renegotiation. Aghion et al. (1994) demonstrate that, in situations with "under-investment",
+efficiency can be achieved by explicitly specifying these rules in the contract. Because
+renegotiation can take many forms, they focus on "simple" renegotiation. Renegotiation is said to
+be simple if it is characterized by two rules: (i) a default allocation in the event that renegotiation
+breaks down or fails to occur; and (ii) all the bargaining power is given to one party.
+      In our model, window dressing cannot be prevented if all the bargaining power is given to
+one party. If the venture capitalist has all the bargaining power, then following renegotiation the
+entrepreneur's payoff will remain constant (at zero). If the entrepreneur has all the bargaining
+power, his share of the surplus will rise with x because the (expected) size of the total "pie"
+increases with x. In both cases, the resulting profile of interim payoffs to the entrepreneur rises
+with x and cannot prevent window dressing. Therefore, "simple" renegotiation as defined by
+Aghion, Dewatripont and Rey will not prevent window dressing. We can, however, extend their
+definition, adapting it to the context of our model, in a way that prevents window dressing. The
+important point is that this "simple" renegotiation is isomorphic to a convertible debt contract.
+      We call renegotiation "simple" if (i) it specifies a default allocation in the event that
+renegotiation breaks down or fails to occur; (ii) it specifies a menu of debt--equity contracts
+from which the parties must choose at time 1 if renegotiation takes place; and (iii) the right to
+choose from this menu is allocated to one party ex ante (at time 0). Requirements (i) and (iii)
+correspond to requirements (i) and (ii) in Aghion et ai.'s "simple" renegotiation. In addition, we
+introduce (ii) which has the effect of limiting the bargaining power allocated in (iii), since the
+22                                     REVIEW OF ECONOMIC STUDIES
+
+party with the right to choose the sharing rule cannot choose any such rule, but only one that is
+specified in the menu.
+      Since in our model renegotiation can occur only following inefficient liquidation, the default
+allocation in (i) is (trivially) an interim payoff of zero to each party, because failure to renegotiate
+entails liquidation of the project. Let the menu of contracts in (ii) be [(do, so), (d, s)], and give
+the venture capitalist the right to choose a contract from this menu after x is realized.V We
+set these values equal to those of the convertible debt contract we constructed in Proposition 2,
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+with d = do - yes - so). We know from Proposition 2 that in such case the venture capitalist
+will choose (do, so) after observing x < (1 + k)/2 and (d, s) after observing x :::: (1 + k)/2,
+and the entrepreneur will choose not to window dress. Therefore, this designed renegotiation
+is equivalent to a convertible debt contract. The venture capitalist's right to choose a contract
+from the menu in (ii) is equivalent to his choice whether to convert no debt or convert all the
+convertible debt in case of refinancing. Finally, (iii) does not give all the bargaining power to
+the venture capitalist because he is constrained by the menu of contracts in (ii), namely, by
+the conversion ratio, y, and the maximal equity stake he can achieve, s. Thus, convertible debt
+financing that incorporates an option to convert debt at a pre-specified conversion ratio can be
+interpreted as "simple" renegotiation in the spirit of Aghion et al. (1994).40
+
+
+                                  4. STRAIGHT DEBT CUM WARRANTS
+With a convertible debt contract, debt is automatically reduced upon conversion. Now we
+consider the alternative of straight debt cum warrants, such that when the venture capitalist
+converts he has to pay money but the debt is not reduced. This case is important because in the
+reality the warrants used by the venture capitalists have finite maturity-not necessarily equal
+to the debt maturity-see Kaplan and Stromberg (2002). The contract we constructed has this
+feature. We will show that, with minor modifications, our model applies to the case of straight
+debt cum warrants.
+      The initial debt and equity holdings by the venture capitalist are do and so, where do is
+straight debt. In addition, the entrepreneur issues to the venture capitalist warrants that can be
+converted to equity at the rate y. If (some) warrants are exercised, the venture capitalist receives
+S - So shares and in exchange pays m = y (s - so) dollars. The ex post payoff to the venture
+capitalist from this contract, for i = I, h; is
+
+                   r
+                  10
+                        JriAie-APfidJri     +   1 +
+                                                 do
+                                                     00
+
+                                                          [do   S(Jri - do)]Aie-A(TfidJri -     m+ sm
+                                                 1
+                                            = -[1 - e- Aido(1 -          s)] - (1 - s)m.                                (24)
+                                                Ai
+The first two terms in the first line of (24) are the venture capitalist's share of the profits, the
+third term is what he pays when exercising the warrants, and the fourth term is the fraction
+                                                                                         s
+of this payment that is rebated to him (as the owner of a fraction of the project). Thus, the
+entrepreneur's ex post payoff is
+
+                                                                                                                       (25)
+
+
+      39. This menu is the simplest possible, since there are only two choices.
+      40. As in the case of renegotiation of a convertible debt contract, here too there is an inevitable inefficiency (which
+can be made arbitrarily small) due to the need to provide incentives to the entrepreneur to undertake long-term effort. This
+need implies s < I (and hence So < 1) which in tum implies inefficient liquidation (see the discussion in footnote 36).
+                      CORNELLI & YOSHA                STAGE FINANCING                               23
+
+From here on, the analysis is basically the same. The proof of Proposition I-with debt-equity
+financing the entrepreneur will window dress-is identical, and the following proposition is
+analogous to Proposition 2.
+
+     Proposition 3. There is a straight debt cum warrants contract such that the entrepreneur
+does not window dress and the project is financed.
+
+
+
+
+                                                                                                          Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+    The proof is similar but not identical, due to the somewhat different form of the ex post
+payoffs, and is provided in Appendix B.
+
+
+                                     5. VERIFIABLE SIGNAL
+ In many circumstances, interim performance can be measured objectively and in a verifiable
+ manner. In such cases, the initial contract does not need to allocate to one party the option to
+ convert debt. Instead, an automatic conversion clause can be specified, contingent on a pre-
+ specified threshold of a verifiable signal. A security with such a clause is equivalent to a contract
+ which specifies different debt-equity combinations contingent on the realization of a verifiable
+ signal. In this section, we analyse such contracts.
+       An efficient contingent contract must ensure that the project is liquidated only when it is
+ socially optimal to do so (i.e. when the expected surplus from continuation is negative). This
+ requirement is easily satisfied: the contract at time 0 should specify that the project will be
+ liquidated if and only if x < x', where x' is the socially efficient refinancing/liquidation cut-off.
+       An efficient contingent contract must also ensure that the entrepreneur does not manipulate
+ the signal. From Proposition I we know that this cannot be achieved by specifying a debt-equity
+ sharing rule that does not vary as a function of the interim performance signal. The sharing rule
+must change so that the entrepreneur "loses" if the signal is too favourable, rendering a = 0
+optimal from his perspective. When the signal is verifiable, it is straightforward to render the
+ sharing rule contingent on the realization of the signal since this can be specified explicitly in the
+contract. The "simplest" manner to do so is to formulate a contingent debt-equity contract with
+two debt-equity sharing rules, (do, so) and (d, s), and a cut-off value of the signal that triggers
+the switching from one sharing rule to the other.
+      To show that such a contract exists, we can mimic the convertible debt contract constructed
+in Proposition 2: (a) set the initial debt-equity allocation equal to the pre-conversion debt-
+equity allocation, (do, so); (b) set the refinancing/liquidation cut-off equal to x'; (c) set the
+trigger for switching to the alternative debt-equity allocation equal to the debt conversion trigger,
+Xl = (l + k)j2; and (d) set the debt-equity allocation for X :::: Xl equal to the post-conversion
+allocation (when all the convertible debt is converted), (d, s).
+      Contingent debt-equity financing exhibits an improvement with respect to convertible debt
+financing: socially efficient liquidation. This is because efficient liquidation can be specified in
+the contract regardless of the sharing rule.
+      The analogy between contingent debt-equity and convertible debt financing highlights a
+fundamental role of the debt conversion option which is to adjust the debt-equity structure to new
+information that is revealed during the lifetime of the project. This feature bears resemblance to
+provisions allowing the provider of financing to take control of the project at an interim stage
+in response to unverifiable information, a feature that is very common in incomplete contracts
+environments. In our model, convertible debt financing allows the provider of financing to
+alter the financial structure of the project (changing the output allocation rule) at an interim
+stage in response to unverifiable information. If only part of the information that is expected
+to arise is verifiable, convertible debt financing may be superior to contingent debt-equity
+24                                  REVIEW OF ECONOMIC STUDIES
+
+financing because convertible debt prevents window dressing whether the signal is verifiable
+or not (at the cost of inefficient liquidation) whereas contingent debt-equity financing prevents
+window dressing only if information is verifiable.t! That could explain why convertible securities
+used in venture capital financing typically leave the venture capitalist with the option to convert
+even when there is an automatic conversion clause.
+      The study by Kaplan and Stromberg (2002) is consistent with this reasoning. In their
+sample of venture capital financing contracts, automatic conversion is contingent only on an
+
+
+
+
+                                                                                                                      Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+IPO taking place and satisfying certain conditions (e.g. regarding the issue price, proceeds, or
+market capitalization), but never on other verifiable interim information such as sales revenue,
+profitability, or market share. This suggests that while the "final" outcome (the occurrence
+and terms of an IPO) is a well-defined verifiable signal, pre-IPO performance signals are not.
+Therefore, it may be better to leave the venture capitalist with the option to convert debt into
+equity at pre-specified terms.
+
+
+                   6. THE JOINT DISTRIBUTION OF SIGNAL AND OUTPUT
+Until now we focused on one manner in which window dressing can affect the joint distribution
+of signal and output (Figure 3). In this section, we discuss the robustness of that particular form of
+signal manipulation and show that, although specific features were introduced in order to simplify
+the exposition, signal manipulation as presented in Figure 3 captures well the phenomenon of
+window dressing.
+      In Result 1, we considered the possibility of modifying the precision of the signal by
+removing (or adding) noise in a mean preserving manner. We showed that with a debt-equity
+contract, in situations where the entrepreneur wants to pass a minimum performance threshold,
+he will always choose to increase the precision of the signal and the venture capitalist will benefit
+from it. Therefore, there is no conflict of interest and the venture capitalist does not need to use
+instruments like convertible debt to prevent window dressing. The problem is not whether our
+suggested convertible contract alleviates the conflict of interest between entrepreneur and venture
+capitalist, but rather that there is no such conflict to begin with. 42
+      In Result 1 we showed that the venture capitalist benefits from higher precision of the signal
+because, for low realizations of x, the mass that is shifted from left to right, E, is larger in
+state h than in state I relative to the density of the signal. As a result, the advantage of not
+liquidating good projects more than compensates the fact that fewer bad projects are liquidated.
+This can be generalized: any type of signal manipulation that has this property does not create
+conflict of interest between entrepreneur and venture capitalist because it improves the quality of
+information on which the decision to liquidate is based.
+      To create such a conflict of interest, the amount of mass shifted from left to right must be
+smaller (relative to the density of the signal) in state h than in state I. The case displayed in
+Figure 3 is an extreme case where no mass is shifted from left to right in state h. This feature
+is not crucial for our main result-it is simply easier to treat. Our results go through with an
+intermediate situation, displayed in Figure 5, where mass on the interval [0, k] is shifted to the
+right in both states such that the slope of (Xh on [0, k] is larger than 1- k. (It can be shown that qh
+changes as presented in the figure.) In this case, signal manipulation hurts the venture capitalist
+and is a good representation of window dressing. We prefer to focus on the case displayed
+in Figure 3 (a limit case) because it saves the need to verify algebraically the conditions on
+parameters ensuring that signal manipulation is actually harmful to the venture capitalist.
+      41. Moreover, the cost of inefficient liquidation can be made arbitrarily small; see step 9 in Appendix A.
+      42. According to Sahlman (1990), conflict of interest between entrepreneurs and venture capitalists regarding
+refinancing decisions is a central reason for window dressing by entrepreneurs.
+                       CORNELLI & YOSHA                     STAGE FINANCING                          25
+
+
+
+
+                                                                                                           Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                o      k       l+k
+                               2
+                                                  x         o                   l+k
+                                                                                2
+                                                                                          x
+
+
+
+
+                                     o       k        l+k
+                                                      2
+                                                                            x
+
+
+                                                  FIGURE 5
+                                   An alternative form of signal manipulation
+
+
+
+      The discussion so far established that to capture the essence of window dressing mass should
+be moved from the left of the refinancinglliquidation cut-off value of x to its right so that the
+information content of low values of x decreases. It still remains to be determined where to the
+right this mass should be moved. In Figure 3, no mass is moved to the interval [(1 + k)/2, 1]
+in state I. Again, this is an extreme case that simplifies the computations, but may be attenuated
+so that some mass is moved to the interval [(1 + k)/2, 1] in both states. As long as qh does not
+decrease for high values of x, our result goes through.
+      If, instead, qh decreases for high values of x, convertible debt may still be effective in
+preventing window dressing as long as the decrease in qh is not substantial (which depends on
+parameter values). Note that for qh to decrease substantially for high values of x, it is necessary
+that more mass (relative to the density of the signal) is moved to high values of x in state I than in
+state h. The economic interpretation is quite intuitive: if the entrepreneur succeeds in increasing
+substantially the performance of "bad" projects without increasing by too much the performance
+of "good" projects, the venture capitalist is hurt when he converts securities into equity following
+a good signal realization, and there is no threat that prevents window dressing. While we cannot
+exclude this possibility a priori, we believe that it is not very realistic since it should be easier to
+improve the interim performance of a project that is fundamentally good than of a project that is
+fundamentally poor.
+      In Figure 6, we present a case that is similar in all respects to the case presented in Figure 3
+with the only difference that when a = 1, the signal is informative everywhere. It illustrates that
+the discontinuity in qh (x, 1) at x = k is not instrumental for our results. This type of window
+26                                     REVIEW OF ECONOMIC STUDIES
+
+
+
+                              "'~
+                        l-k       '
+
+                                         ':
+
+
+
+
+                                                                                                                      Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+                              o   1-      ..£             x       o   J...       2         x
+                                   3      3                            3         3"
+
+
+                                                          a~/
+                                                              V'L
+                                                  ~_,~'r' I           a=O
+
+
+
+                                              o    .1.        2              x
+                                                    3         3
+
+                                                         FIGURE 6
+                     An alternative form of signal manipulation with a strictly informative signal
+
+
+
+dressing represents a situation where, when the project is "bad", the probability of observing
+different values of the signal is constant on a large interval (from 0 to 2/3). In other words,
+the entrepreneur succeeds in manipulating the short-term performance so that, when the project
+is "bad", poor interim performance is as likely as medium performance. The analysis is very
+similar to that of previous sections and is omitted. We can show that there is a convertible debt
+contract such that in equilibrium the venture capitalist liquidates if x < 1/3, refinances but does
+not convert any debt after observing 1/3 ::s x < 2/3, refinances and converts all the convertible
+debt after observing x ~ 2/3, and the entrepreneur does not window dress.43
+
+
+                                                  7. CONCLUSION
+We showed that convertible securities dominate a mix of debt and equity in stage financing
+situations. When the venture capitalist retains the option to abandon the project if in the medium
+term he receives bad news, the entrepreneur has an incentive to engage in "window dressing",
+or short-termism, and bias the process that generates these interim news in order to reduce the
+probability of liquidation. Convertibles reduce this incentive for short-termism through the threat
+of conversion.
+      The fundamental role of the conversion option is to adjust the ownership (debt--equity)
+structure to new information. This feature resembles provisions allowing the provider of
+financing to alter the financial structure of an existing contract at an interim stage in response
+to unverifiable information, a feature that is common in incomplete contracts environments. The
+need to commit in advance to the terms of debt conversion is in line with the logic of Aghion
+et al. (1994) who show that by specifying in the contract the bargaining procedure to be used in
+future renegotiation, an efficient outcome can be achieved.
+     43. The example can be generalized so that the cut-off values of x are parameters (rather than the numbers 1/3
+and 2/3).
+                           CORNELLI & YOSHA                      STAGE FINANCING                                         27
+
+      Venture capital convertible debt contracts sometimes incorporate, in addition to the
+voluntary debt conversion, automatic conversion agreements.t" In such situations, where the
+signal that triggers conversion is verifiable, there is no gain from endowing the financier with
+the power to unilaterally alter the debt-equity structure by converting debt. In situations where
+signals are not verifiable, authority to unilaterally change the terms of the contract is crucial. Our
+model captures well the contingent financial structure aspect that is relevant in these situations,
+and is especially suitable for settings where interim signals are not verifiable.
+
+
+
+
+                                                                                                                               Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+     We conclude by pointing out an important generalization of our three-period set-up. We can
+think of a set-up with more periods where window dressing can occur at various stages where
+additional financing is needed. The venture capitalist can decide not to convert debt at a given
+stage yet still keeps the option to do so in a future financing round. The possibility of issuing new
+securities at interim stages then arises. This is an important extension that should be studied in
+future work.
+
+
+                                APPENDIX A. PROOF OF PROPOSITION 2
+Step 1. Fix So < 1. The value of so will not change throughout the proof. 45
+Step 2. Given so' we impose the following condition on y, s, and do:
+              l-kl              Ad               l+kl              Ad
+              - - - [ l - e - I 0(1-so)]+---[1-e- h o(1-so)]
+                2 A[                    2 Ah
+
+                     = 1- k ~[I _ e-AI[do-y(s-sO)] 0 _ s)] + 1+ k ~[I _ e-Ah[t/o-y(s-so)] 0 _ s)].                    (AI)
+                          2    A[                                       2   Ah
+This is precisely condition (21) in the main text and states that the signal realization x = (I + k)/2 renders the venture
+capitalist indifferent between not converting debt and converting the entire amount of convertible debt. In step 8, we will
+show that, for any signal realization, the venture capitalist's interim payoff is maximized either by converting no debt or
+by converting the full amount of convertible debt available. Therefore, if x 2: (1 + k) /2, the venture capitalist converts
+the entire amount of debt, and if x < (1 + k) /2 he converts no debt.
+       Dividing both sides of (AI) by (1- so), solving for (I -s)/O- so), and dividing the numerator and denominator
+of the R.H.S. bye- AhdO yields
+
+
+                                                                                                                      (A2)
+                              I - So = l-k .l..e-(AI-Ah)doeAIY(S-SO) + l+k ...LeAhY(S-SO) .
+                                        TAl                                 TAh
+
+This equation defines an implicit relation between y, s, and do. Throughout the proof, we will require that this equality
+is satisfied. In particular, any argument involving a change in y and do entails a corresponding change in s so that (A2)
+is satisfied and, consequently, the debt conversion cut-off value remains Xl = (1 + k)/2.
+Step 3. We establish that along any sequence such that y -+ 00, do -+ 00, and (A2) holds, s -+ 1. This is true because
+as do -+ 00, the first term in the numerator of the R.H.S. of (A2) approaches zero (since A[ > Ah) and, therefore, the
+numerator approaches the constant 1 k t -h;,while the denominator approaches infinity.46
+Step 4. To construct a convertible debt contract that prevents window dressing, we increase y and dO so that: (a) y -+ 00;
+(b) do -+ 00; (c) condition (A2) is satisfied along the sequence; and (d) the expression do - y(s - so) approaches a
+finite non-negative number.47
+
+      44. Gompers 0996, Table 4) documents the use of such agreements, but Kaplan and Stromberg (2002) report that,
+in their sample of venture capital financing contracts, automatic conversion is contingent only on an IPQ taking place at
+certain conditions, but never on other verifiable interim information such as sales revenue, profitability, or market share.
+      45. This illustrates that the result in Proposition 2 does not rely on "razor's edge" arguments, and that there is
+considerable leeway in constructing convertible debt contracts that prevent window dressing.
+      46. The second term in the denominator approaches infinity as y -+ 00, and the first term is bounded below by
+zero.
+      47. This is easily accomplished. Consider a sequence such that y -+ 00, do -+ 00, and (A2) holds. Since along
+the sequence, s -+ I, the limit of do - y(s - so) is the same as the limit of do - y(1 - so). There are many sequences
+of do and y such that this expression approaches a finite limit (e.g. if do(n) = n and y(n) = (n - 2)/(1 - sO), then
+do(n) - y(n)(1 - so) =    n- l~s~ 0 - SO) = 2).
+ 28                                     REVIEW OF ECONOMIC STUDIES
+
+Step 5. We establish that if y and do increase as in step 4, then y (1 - s) ~ 0, a fact that will be used later in the proof.
+To see this, multiply both sides of (A.2) by eAhY(S-So) and then multiply the numerator and denominator of the RH.S.
+by e- Ahdo, to obtain
+                             1          l-k l-e-Ah[dO-y(s-so)]e-(AI-Ah)do            +
+                                                                              l+k ...Le-Ah[do-Y(s-so)]
+                  eAhY(S-So) ~ = 2          Al                                 2 Ah                                    (A.3)
+                             1 - so            l-k l-e-A1[dO-Y(s-so)]
+                                               2    At
+                                                                              + 2 Ah
+                                                                       l+k ...Le-Ah[dO-Y(s-so)]
+
+which is condition (23) in the main text. First, we establish that the RH.S. approaches a finite limit as y ~ 00 and
+do -+ 00. By step 4, dO - y (s - so) approaches a finite limit and, therefore, both terms in the denominator of the
+
+
+
+
+                                                                                                                                Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+RH.S. as well as the second term in the numerator on the RH.S. approach a finite limit. By contrast, the first term in
+the numerator on the RH.S. approaches zero. Thus, denoting z the (strictly positive finite) limit of do - y(s - so), the
+RH.S. of (A.3) approaches the finite limit
+                                                       l+k ...Le-Ahz
+                                         0<             2 Ah               < 1.                                        (A.4)
+                                               l-k l-e-A1z + l+k ...Le-Ahz
+                                                2   Al               2   Ah
+
+To preserve the equality, so must the L.H.S. of (A.3) implying that s ~ I at the same rate at which eAhY(S-So) ~ 00
+and, therefore, s ~ I at a faster rate than that at which y ~ 00. Thus, y(l - s) ~ 0 as y ~ 00.
+Step 6. Denote xo the liquidation/refinancing cut-off value. This cut-off value changes when do changes. The
+entrepreneur's ex ante payoff with a = 0 is greater than with a = 1 (when the venture capitalist believes that a = 0) if
+the following condition is satisfied:
+
+
+             {
+              I¥ (l - x)-e-A1do(l
+                         1        - so)dx + {
+                                              I¥1
+                                                x-e-Ahdo(l - so)dx
+            lxo           A[                        l.;     Ah
+
+                      + {I (l _ x)~e-AI[do-y(s-so)](l _ s)dx + {I x~e-Ah[do-Y(S-so)](l_ s)dx
+                        }Jtk      A[                          lI¥ Ah
+                    =:: {\1 - k)~e-Aldo(l- so)dx +
+                        lxo     A[
+                                                            r
+                                                      x~e-Ahdo(l_ so)dx
+                                                   lxo Ah
+
+                      + { I¥( 1 - x + - -   k2 ) 1_e-A1do(l - so)dx + { I¥ k-e-Ahdo(l-
+                                                                             1 . so)dx
+                        lk                 1- k     A[                          1k       Ah
+
+                      + {I       (l _ x)~. e-AddO-y(s-so)](l _ s)dx + (I l~e-Ah[dO-y(s-so)](l_s)dx                     (A.S)
+                        lI¥             A[                           }Jtk Ah                       '
+
+which, after manipulation, yields
+
+                                  eAhY(S-So) ~ < 1 + ixo(xo - 2k) Ah e-(AI-Ah)do                                       (A.6)
+                                             1 - So -        l
+                                                        (l - k)2 A[              ,
+
+which is equation (22) in the main text.
+       As y ~ 00 and do ~ 00, the second term on the RH.S. of (A.6) approaches 0 (note that xo changes along the
+sequence but is bounded so it does not affect the limit of the RH.S.). Therefore, the RH.S. approaches 1. From step 5,
+the L.H.S. approaches a limit that is strictly smaller than 1 (the L.H.S. of (A.6) is also the L.H.S. of (A.3», implying
+that far enough along the sequence the inequality (A.6) is (strictly) satisfied, namely, the entrepreneur does not gain by
+deviating from a = 0 to a = 1.
+Step 7. We now establish two simple auxiliary results that will be used in the next step. In step 4, we showed that as
+y ~ 00, y(l - s) ~ O. An implication of this fact is that for y large enough, ~ - y(l- s) >             -h -
+                                                                                                         y(l - s) > 0
+(since }h >   -h). In addition, for y large enough, -h - y(l- sO) < ~ - y(l- so) < 0 (since so is fixed and y ~ (0).
+Step 8. The venture capitalist decides how much debt to convert, thus determining his post-ownership equity stake,
+S E [so, s]. We will now show that after any signal realization, x, the venture capitalist will convert no debt (s = so) or
+will convert all the convertible debt (s = s).
+                                                                 s
+      The venture capitalist's interim payoff as a function of and x is: 48
+
+
+
+
+      48. This is the same expression as in equation (9).
+                               CORNELLI & YOSHA                          STAGE FINANCING                                            29
+
+The first derivative of the venture capitalist's interim payoff with respect to $ is
+
+     [l - qh (x, a)]~e-Al[do-Y(s-so)] [~ - y(l -
+                      A/                       A/
+                                                             $)J + % (x, a)~e-Ah[dO-Y(s-so)]
+                                                                           Ah
+                                                                                             [~ - y(l - $)J,
+                                                                                              Ah
+                                                                                                                                  (A7)
+
+and the second derivative of this payoff with respect to $ is
+
+
+       [1 - % (x, a )]ye -At!d(}-Y(;-'o)] [    ~ - y(l - i)] + qh (x, a)ye -A,["o-Y(;-'o)] [J,.: - y(l - i)              l        (A.S)
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+       Choose y large enough so that the four inequalities in step 7 hold.          -h - y(I - so) < 0 and -h - y(l - s) > 0
+imply that there exists S E (so, s) for which          -h - y(l - s) = O. Analogously, there exists           §.. E   (so, s) for which
+-h; - y(l - §..) = O.Moreover, §.. < s (since A/ > Ah)· Consequently, -h - y(l - $) evaluated at §..is strictly negative
+and -h; - y(l - $) evaluated at s is strictly positive. It follows that the first derivative of the venture capitalist's interim
+payoff is strictly negative to the left of §.., strictly positive to the right of S, and zero at a value s* E (§.., s).
+       An analogous set of arguments applies to the second derivative of the venture capitalist's interim payoff, which is
+strictly negative to the left of s'. strictly positive to the right of   r,  zero at a value s** E (§..', s'), where §..' and S' satisfy
+A~ - Y(I -§..') = 0 and ~ - y (I - s') = O.
+       From ~ - y(l -          s') = 0 and -h; - y(l - ~ = 0 (see the previous two paragraphs) and fI > A~ (see the
+assumption in (I)), we obtain S' < §... Therefore, the interval (§..', s') lies to the left of the interval (§.., s), with no overlap.
+Thus, when the venture capitalist's interim payoff function becomes flat, at s* E (§.., s), the second derivative of this
+function is strictly positive.
+      It follows that the interim payoff of the venture capitalist, as a function of his post-conversion equity stake,
+achieves a unique interior minimum on the interval (sO, s). Therefore, the function is maximized either at so-"no
+debt conversion", or at s-"full debt conversion", and the formulation of conditions (AI) and (A6) is consistent with
+optimization by the venture capitalist.
+Step 9. We now tum to the venture capitalist's ex ante participation constraint. To show that this constraint is satisfied, it
+is sufficient to show that his payoff from the debt--equity contract (do, so) is positive, since the option to convert can only
+increase this payoff. We will show that as y -+ 00 and do -+ 00, this payoff becomes strictly positive, ensuring that the
+venture capitalist will provide financing at time O.
+       Consider the ex ante payoff of the venture capitalist from a debt--equity contract (do, SO), when a = 0 and with the
+refinancinglliquidation cut-off xo. This payoff is computed in an analogous way to the maximal ex ante surplus in (13),
+and is given by
+
+                                                              A~
+                    1 ~
+                                1
+                       1 [ (I-x)-[l-e-
+                                    ~
+                                                    1
+                                       AI dO(l-so)]+x-[I-e- Ah"U(l-so)]-h
+                                                                    ~
+                                                                          ]
+                                                                            dX-h,                                                (A9)
+
+where xo is determined by
+
+                                    1        -A d.                            1       -A d
+                   [1- q(XO, 0)]~[1 - e         I   0(1 - so)] + q(xo, 0) Ah [1 - e      h   0(1 - so)] -   h = O.              (AW)
+
+
+As do -+ 00, 1 - e- Ado (I - so) -+ 1. Therefore, by equations (II) and (A.W), xo approaches x' (the socially efficient
+cut-off value of x). By the strict inequality in (B)-namely, by the assumption that the maximal ex ante surplus with
+a = 0 is strictly positive)-far enough along the sequence, the expression in (A.9) is strictly positive. II
+
+
+                                  APPENDIX B. PROOF OF PROPOSITION 3
+Step l. Fix So < 1. The value of So will not change throughout the proof.
+Step 2. We can always choose an initial debt do and a corresponding refinancinglliquidation cut-off, xo, so that: (1)
+xo < k; and (2) without window dressing the ex ante payoff of the venture capitalist is strictly positive. To show that it
+can be done, consider the venture capitalist's ex ante payoff from a debt--equity contract (d, s), when a = 0, and with
+the refinancinglliquidation cut-off, xO,49
+
+                                                     d(1-s)]+x-[I-e- A   d ]dx-h
+                       1            1
+                           1 [ (1-x)-[I-e-
+                          xo            A/
+                                           AI                 I      h
+                                                                    Ah
+                                                                       (1-s)]-lz                                                 (B.l)
+
+
+     49. These equations are analogous to (A9) and (AW) which were written for a specific contract (do, sO),
+whereas (R.I) and (B.2) are written for a generic contract (d, s).
+30                                       REVIEW OF ECONOMIC STUDIES
+
+where xo is determined by
+
+                                1
+                          [l-xo]-[I-e- Ad         1
+                                        1 (1-s)]+x-[1-e- Ad
+                                                          h (1-s)]-h=O.                                              (B.2)
+                                    At                        Ah
+
+Let s = sO (step 1). As d increases, 1 - e- Aid (1 - s) approaches unity. From equations (11), (13), (B.l) and (B.2) it
+follows that xo approaches x' which, by assumption, is smaller than k. Thus, there is a value db that is large enough so
+that, for all dO ::: db, the corresponding cut-off xo is smaller than k. Moreover, by the assumption that the total ex ante
+surplus with a = 0 and efficient liquidation is strictly positive-see (l3)-the expression in (B.l) is strictly positive.
+
+
+
+
+                                                                                                                              Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+Step 3. Given So and do, we impose the following condition on y and s:
+
+           1- k I         Ad        1+k 1     A rl~
+           - - - [ I - e - 1 O(1-so)]+---[I-e- hL<U(1-s0)]
+             2    ~                             2     ~
+
+                       = 1 - k ~[1 _ e- A1d0(1_ s)] + 1 + k ~[1 _ e-AhdO(1_ s)] - (1- s)y(s - SO).                   (B.3)
+                            2   ~                             2    ~
+
+This condition states that the signal realization x = (1 + k) /2 renders the venture capitalist indifferent between not
+exercising the warrants, and exercising all the warrants. 50 Manipulation yields
+
+                                                    l-k .le-A1do + l+k -Le-Ahdo
+                                 l-s                -y Al           2 Ah
+                                                                                                                     (B.4)
+                                1 - So
+
+which defines an implicit relation between y, s, So' and do. Throughout the proof, we will require that this equality be
+satisfied. In particular, any argument involving a change in y (given So and dO) entails a change in s so that (B.4) is
+satisfied.
+Step 4. Along any sequence such that y -+ 00 and (B.4) holds, s -+ 1. This is because all the terms on the RH.S.
+of (B.4) are constant except y so the RH.S. approaches zero as y -+ 00.
+Step 5. Next, we establish that y(1 - s) approaches a strictly positive finite limit. This can be seen by multiplying both
+sides of (B.4) by y(s - so), obtaining
+
+                           y(s _ so)   ~ = y(s - so)( ¥ fte- A1do + !¥ r,;-e- Ahdo) .                                (B.5)
+                                                 1k fte-A1do + I t r,;-e-Ahdo + y(s - so)
+                                       1 - So   1                      k
+
+
+As y -+ 00, the RH.S. approaches the strictly positive finite limit 11k fte- AldO+ Itk r,;-e- Ahdo == X, and so must the
+L.H.S. Taking the limit of the L.H.S., we have lim y ---+ oo y(s - so) l~:o = lim y---+ oo y(1 - s) x limy---+oo ~ = X.
+As y -+ 00, S ~ I, implying limy---+oo f=~~ = I and, therefore,limy---+oo y(1 - s) = X which is strictly positive and
+finite. (This means that s -+ 1 at the same rate as y -+ 00.)
+Step 6. The entrepreneur's ex ante payoff with a = 0 is greater than with a = 1 (when the venture capitalist believes that
+a = 0) if the following condition is satisfied:
+
+
+
+
+     50. The interim payoff on the RH.S. of (B.3) uses the ex post payoffs in (24) evaluated at              s      s and
+m= m = y(s - sO),
+                           CORNELLI & YOSHA                         STAGE FINANCING                                        31
+
+which, after manipulation and multiplication of both sides by y (s - so), yields
+
+                              1- s    y(s - SO)[!XO(XO - 2k)-h e- A/dO + ! ( l - k)2i;;e- Ahdo ]
+                    y(s - s o ) - - <                                                            .                       (B.7)
+                             I - So -             !                            !
+                                               (l - k)2 i;;e- Ahdo + (l - k)2 y(s - sO)
+
+From step 5, it follows that, as y -+     00, the L.H.S.   of (B.7) approaches      ¥ -he-A/do + 11k i;;e- Ahdo (in (B.5)
+and (B.7) the L.H.S. is the same). The RH.S. of (B.7) approaches        1~o(xo-~k) 1e- A/do + t-e-Ahdo. It is easily verified
+                                                                         s(l-k)          /       h
+
+
+
+
+                                                                                                                                 Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+that, in the limit, the RH.S. exceeds the L.H.S. if ~/ e().·/-Ah)do > 1- k + 4xo(2:-;o) . As do -+ 00, the L.H.S. of this
+                                                      "h            -  2       (1- )
+expression also approaches infinity, while the RH.S. remains constant and finite. Therefore, there exists a debt value dg
+such that, for all dO ;:: dg, the entrepreneur will not window dress.
+
+Step 7. The venture capitalist decides how many warrants to exercise, thus determining his post-ownership equity stake,
+S E [so, s]. We will now show that after any signal realization, x, the venture capitalist exercises no warrants (s = sO) or
+all the warrants (5 = s).
+       The venture capitalist's interim payoff as a function of   s and x is
+
+
+The first derivative of the venture capitalist's interim payoff with respect to    sis
+                                                                                                                        (B.8)
+
+and the second derivative of this payoff with respect to 5 is 2y > O.
+      In other words, the venture capitalist's interim payoff is a parabola that achieves its minimum at   s= {y (l + SO)+
+do - [(l - x)   -h + x t;;]}/ 2y, implying that, as y -+     00, S -+   (l + so) /2, where So < (l + so) /2 < 1. Therefore,
+                                                                                             s
+for y large enough, the venture capitalist's interim payoff is strictly decreasing in as he begins exercising warrants and
+                                                    s
+begins to rise if enough warrants are exercised, at = (l +so)/2. From that point on, the payoff keeps increasing as more
+warrants are exercised until 5 reaches its maximal value, s. Thus, the venture capitalist's interim payoff is maximized
+         s            s
+either at = So or at = s.
+
+Step 8. To show that the venture capitalist's ex ante participation constraint is satisfied, it is sufficient to show that his
+payoff from the debt--equity contract (do, so) is positive, since the option to exercise warrants can only increase this
+payoff. The payoff is the same as in equation (A.9).51 As do -+ 00, this payoff becomes strictly positive. Thus, there
+is a value dg' that is large enough so that, for all do ;:: dg', the venture capitalist's ex ante participation constraint is
+satisfied.
+
+Step 9. We design the contract so that do ;:: max(db, dg, dg') (see steps 2, 6, and 8).52
+
+
+     Acknowledgements. The authors thank Giacinta Cestone, Leonardo Felli, Harry Friedman, Martin Hellwig, Ronen
+Israel, Matthew Jackson, Josh Lerner, Kjell Nyborg, Manju Puri, Artur Raviv, Anjolein Schmeits, George Soumelis, Yossi
+Spiegel, Ian Tonks, David Webb, Josef Zechner, three anonymous referees, Mark Armstrong (the editor) and participants
+at various seminars and conferences for helpful comments and suggestions. Edith Sand provided excellent research
+assistance. We thank the Institut de Analisi Economica (F. Cornelli), the London Business School (0. Yosha), and IGIER
+(both authors) for their hospitality. The project was supported by an LBS Research Fellowship grant and a CIBER Faculty
+Research grant.
+
+
+
+
+      51. The determination of Xo is the same as in equations (A. 10) and (B.2).
+      52. In step 2, do was chosen so that xo < k; in step 6, do was chosen so that the entrepreneur will not window
+dress; and in step 8, do was chosen so that the venture capitalist's ex ante participation constraint is satisfied. Note
+that in the proof of Proposition 2, as y increased, do increased along with it to ensure that the post-conversion debt,
+do - y(s - so), remains positive. As do increased, xo had to be adjusted to render the venture capitalist indifferent
+between refinancing and liquidating. Here, there is no requirement that do - y (s - so) remain positive. Therefore we
+can fix do, and a corresponding xo, at the end and not worry about it when building the sequence as y increases. This
+highlights that straight debt cum warrants financing provides more degrees of freedom in the design of the contract,
+making it "easier" to prevent window dressing.
+32                                  REVIEW OF ECONOMIC STUDIES
+
+REFERENCES
+ADMATI, A. and PFLEIDERER, P. (1994), "Robust Financial Contracting and the Role of Venture Capitalists': Journal
+     of Finance, 49, 371-402.
+AGHION, P., DEWATRIPONT, M. and REY, P. (1994), "Renegotiation Design with Unverifiable Information';
+     Econometrica, 62, 257-282.
+BERGEMANN, D. and HEGE, U. (1999), "The Financing ofInnovation and Dynamic Agency': Journal ofBanking and
+     Finance,22,703-735.
+BERGEMANN, D. and HEGE, U. (2000), "The Financing of Innovation: Learning and Stopping" (Mimeo, Yale
+     University).
+
+
+
+
+                                                                                                                      Downloaded from academic.oup.com/restud/article/70/1/1/1560962 by Università Bocconi user on 16 November 2026
+BERGLOF, E. (1994), "A Control Theory of Venture Capital Finance': Journal of Law, Economics, and Organization,
+     10,247-267.
+BlAIS, B., BlSIERE, C. and DECAMPS, J. P. (1998), "Financing Corporate Investment with Equity, Debt
+     and Convertible Bonds" (Mimeo, University of Toulouse).
+BLACK, B. and GILSON, R. (1998), "Venture Capital and the Structure of Capital Markets: Banks versus Stock
+     Markets': Journal ofFinancial Economics, 47, 243-277.
+BRENNAN, M. and SCHWARTZ, E. (1988), "The Case for Convertibles': Journal of Applied Corporate Finance, 1,
+     55-64.
+CESTONE, G. (2001), "Venture Capital Meets Contract Theory: Risky Claims or Formal Control?" (Working Paper
+     No. 480.01, UAB-IAE, Barcelona).
+CHAN, Y. S., SIEGEL, D. and THAKOR, A. (1990), "Learning, Corporate Control, and Performance in Venture Capital
+     Contracts': International Economic Review, 31, 365-381.
+EGLI, D., ONGENA, S. and SMITH, D. (2000), "Relationship Lending and Staged Financing" (Mimeo, Tilburg
+     University).
+GOMPERS, P. (1995), "Optimal Investment, Monitoring, and the Staging of Venture Capital': Journal of Finance, 50,
+      1461-1490.
+GOMPERS, P. (1996), "A Clinical Examination of Convertible Securities in Venture Capital Investments" (Harvard
+     University Working Paper).
+GOMPERS, P. and LERNER, J. (1999) The Venture Capital Cycle (Cambridge: MIT Press).
+GREEN, R. (1984), "Investment Incentives, Debt and Warrants': Journal ofFinancial Economics, 13, 115-136.
+HARRIS, M. and RAVIV, A. (1985), "A Sequential Signaling Model of Convertible Debt Call Policy': Journal of
+     Finance,41,815-830.
+HELLMANN, T. (1998), ''The Allocation of Control Rights in Venture Capital Contracts': RAND Journal ofEconomics,
+     29,57-76.
+HELLMANN, T. (2000), "IPOs, Acquisitions and the Use of Convertible Securities in Venture Capital"(Mimeo, Stanford
+     University).
+KAPLAN, S. and STROMBERG, P. (2002), "Financial Contracting Meets the Real World: An Empirical Analysis of
+     Venture Capital Contracts", Review ofEconomic Studies.
+LERNER, J. (1995), "Venture Capitalists and the Oversight of Privately-held Finns': Journal ofFinance, 50, 301-318.
+MARX, L. (1998), "Efficient Venture Capital Financing Combining Debt and Equity': Review of Economic Design, 3,
+     371-387.
+MARX, L. (1999), "Contract Renegotiation for Venture Capital Projects" (Mimeo, University of Rochester).
+MILGROM, P. and ROBERTS, J. (1986), "Relying on the Information of Interested Parties': RAND Journal of
+     Economics, 17, 18-32.
+NEHER, D. (1999), "Staged Financing: An Agency Perspective': Review ofEconomic Studies, 66, 255-274.
+NYBORG, K. (1995), "Convertible Debt as Delayed Equity: Forced versus Voluntary Conversion and the Information
+     Role of Call Policy': Journal of Financial Intermediation, 4, 358-395.
+REPULLO, R. and SUAREZ, J. (1998), "Venture Capital Finance: A Security Design Approach" (CEPR Discussion
+     Paper No. 1738).
+SAHLMAN, W. (1988), "Aspects of Financial Contracting in Venture Capital': Journal ofApplied Corporate Finance,
+     1,23-36.
+SAHLMAN, W. (1990), "The Structure and Governance of Venture Capital Organization': Journal of Financial
+     Economics, 27, 473-521.
+SCHMIDT, K. (2000), "Convertible Securities and Venture Capital Finance"(CEPR Discussion Paper No. 2317).
+SHIN, H. (1994), "News Management and the Value of Finns': RAND Journal of Economics, 25, 58-71.
+STEIN, J. (1989), "Efficient Capital Markets, Inefficient Firms: A Model of Myopic Corporate Behavior': Quarterly
+     Journal of Economics, 104, 655-669.
+STEIN, J. (1992), "Convertible Bonds as Backdoor Equity Financing': Journal ofFinancial Economics, 32, 3-21.
+UEDA, M. (2000), "Banks versus Venture Capital"{Mimeo, Universitat Pompeu Fabra).
+VON THADDEN, E. (l995), "Long-term Contracts, Short-term Investment and Monitoring': Review of Economic
+     Studies, 62, 557-575.
+

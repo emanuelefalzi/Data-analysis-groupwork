@@ -1,0 +1,2436 @@
+                   The Life Cycle of Corporate Venture Capital
+                   Song Ma
+                   Yale School of Management
+
+
+                       This paper investigates why industrial firms conduct Corporate Venture Capital (CVC)
+                       investment in entrepreneurial companies. I test alternative views on CVC by exploiting the
+                       entry, investment, and termination decisions of CVC divisions. CVC entry concentrates in
+                       firms that experience deteriorations of internal innovation. At the investment stage, CVCs
+
+
+
+
+                                                                                                                                          Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                       select startups with a similar technological focus but that have a non-overlapping knowledge
+                       base, and they integrate technologies generated from these ventures that create strategic
+                       value. CVCs are terminated when parent firms’ innovation recovers. Overall, the strategic
+                       desire to fix innovation weaknesses after adverse shocks motivates firms to adopt CVCs.
+                       (JEL G24, G34, O32)
+
+                       Received November 15, 2017; editorial decision March 2, 2019 by Editor Francesca
+                       Cornelli. Authors have furnished an Internet Appendix, which is available on the Oxford
+                       University Press Web site next to the link to the final published paper online.
+
+
+
+                   Recent decades have witnessed non-financial firms’ forays into venture capital
+                   by creating Corporate Venture Capital (CVC) divisions. Specifically, firms
+                   create corporate-affiliated VC divisions to make systematic minority equity
+                   investments in innovative startups. CVC has become a common form of
+                   corporate investment adopted by hundreds of firms and has emerged as
+                   an important source of entrepreneurial capital. Figure 1 and 2 compare
+                   CVC investments with aggregate VC investments and aggregate research and
+                   development (R&D) expenses. They show that CVC accounts for about 15%
+                   of VC investment and is comparable in size to 4% of U.S. corporate R&D
+                   spending.
+
+
+                   This paper is based on portions of my dissertation submitted to Duke University. I am indebted to my dissertation
+                   committee: John Graham (co-chair), David T. Robinson (co-chair), Manuel Adelino, Alon Brav, Manju Puri, and
+                   Ronnie Chatterji. I want to thank Francesca Cornelli (the editor) and two anonymous referees for their helpful
+                   comments. I have also benefited from discussions with Jean-Noël Barrot, Mike Ewens, Will Gornall, Philippe
+                   Gorry, Yael Hochberg, Alan Kwan, Josh Lerner, Laura Lindsey, Xiaoding Liu, William Mann, Justin Murfin,
+                   Bruce Petersen, Mark Schankerman, Felipe Severino, Kelly Shue, Morten Sørensen, and Ting Xu. Seminar
+                   participants at AFA (Chicago), CKGSB, CICF (Xiamen), Copenhagen Business School, Cornell, Dartmouth PE
+                   Conference, Duke, Duke Entrepreneurship and Innovation Seminar, FIRS (Lisbon), Harvard, HKU, HKUST,
+                   Imperial College, London Business School, Maryland, Michigan State, NC State, NFA (Mont Tremblant), Ninth
+                   Annual Searle Center/USPTO Conference on Innovation Economics, Rochester, Toronto, UNC, Utah, WUSTL
+                   Corporate Finance Conference, and Yale provided valuable comments. All errors are my own. Supplementary
+                   data can be found on The Review of Financial Studies Web site. Please address correspondence to Song Ma,
+                   Yale School of Management, 165 Whitney Ave, New Haven, CT 06511; telephone: (203) 436-4687. E-mail:
+                   song.ma@yale.edu.
+
+                   © The Author(s) 2019. Published by Oxford University Press on behalf of The Society for Financial Studies.
+                   All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+                   doi:10.1093/rfs/hhz042                                               Advance Access publication April 2, 2019
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                            Page: 358   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+
+                                                                                                                                         Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  Figure 1
+                  Number of CVC deals and their weight in the whole VC industry
+                  This figure plots the time series of CVC-backed investments deals in the sample. These are CVCs affiliated with
+                  U.S. public non-financial firms that were started between 1980 and 2006. The CVC data are from the VentureXpert
+                  Venture Capital Firm Database, accessed through Thomson Reuters SDC Platinum. CVC investment is measured
+                  as the number of deals in which a CVC invested (black, left axis), and the percentage of CVC-backed deals in
+                  the whole VC industry (gray, right axis).
+
+
+                     CVC’s nature as corporate investment distinguishes it from the traditional
+                  intermediary VC model that seeks pure financial return. A firm that wants
+                  to maximize shareholder value should focus not only on financial return but
+                  also on the strategic value that CVC investments may add to the parent firm
+                  (Hellmann 2002; Mathews 2006). Survey evidence shows that parent firms view
+                  CVCs primarily as strategic investments, with the goal of benefiting internal
+                  corporate innovation (Siegel, Siegel, and MacMillan 1988; Macmillan et al.
+                  2008).
+                     The question naturally arises: What is the strategic role of CVCs in incumbent
+                  firms’ innovation efforts? This paper aims to empirically investigate two
+                  different views. On the one hand, firms can make CVC investments with the
+                  intention to “fix the weaknesses.” That is, CVCs are used by firms experiencing
+                  deteriorating internal innovation to expose themselves to new technologies and
+                  regain their innovation edge. This view arises from theories on information
+                  acquisition and innovation. These theories argue that firms dedicate resources to
+                  external knowledge acquisition, in this case using CVCs to learn from startups,
+                  when internal innovation decreases (Nelson 1982; Telser 1982; Jovanovic and
+                  Rob 1989). These information acquisition efforts strengthen internal innovation
+                  in later periods.
+                     On the other hand, firms can make CVC investments to “build on strengths.”
+                  That is, leading technological firms use their advantageous information to
+                  identify promising startup innovation, and these new technologies complement
+
+
+
+                                                                                                                           359
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                           Page: 359   358–394
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]
+
+
+
+
+                                                                                                                                                                                                                                                                                 Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                           360
+
+
+
+
+                                                                                                                                                                                                                                               The Review of Financial Studies / v 33 n 1 2020
+
+
+
+
+                                                 Figure 2
+                                                 The size of CVC investments relative to R&D and CAPEX
+                                                 This figure presents the relative size of CVC investments compared to corporate R&D investments and capital expenditures. Panel (A) focuses on the aggregate U.S. level, and panel (B)
+                                                 focuses on firm-level using the sample of CVC parents. In panel (A), the annual aggregate corporate R&D investment time series is obtained from the Survey of Industrial Research and
+                                                 Development and the Business R&D and Innovation Survey (BRDIS). The national capital expenditure is obtained from the National Income and Product Accounts (NIPA) Gross Private
+                                                 Domestic Investment item. In panel (B), the estimate of annual CVC investment is from assuming that CVC contributes to each VentureXpert deal in which it participates as equally as do the
+                                                 other investors. Firm-level R&D and capital expenditures are from Compustat.
+
+
+
+Page: 360
+
+
+
+
+358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  their strong internal innovation and strengthen their market power. This view is
+                  rooted in the literature on mergers and acquisitions and innovation (Holmstrom
+                  and Roberts 1998; Hart and Holmstrom 2010). Bena and Li (2014) show that
+                  firms with stronger internal R&D are more willing to expand firm boundaries
+                  because they are better at harvesting innovation synergies.
+                     I test these different strategic views of CVC, “fixing the weaknesses” versus
+                  “building on strength,” by examining activities at each stage of the CVC life
+                  cycle—from when a firm enters CVC, to how a CVC invests in and interacts
+                  with portfolio companies, to the decision to terminate a CVC. To achieve this
+                  goal, I compile and exploit a comprehensive sample of CVC divisions launched
+
+
+
+
+                                                                                                                 Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  by U.S.-based public firms using information from both archival data and
+                  media searches. This sample is augmented by information on CVC investment
+                  history and portfolio companies; and parent firms’ innovation, financial, and
+                  governance information.
+                     The analysis begins with the CVC entry decision. I explore the determinants
+                  of CVC entry in a firm-year panel. The main finding is that CVCs are
+                  started by firms that have experienced recent deteriorations in internal
+                  innovation, reflected in decreases in innovation quantity (measured using the
+                  annual number of new patents) and innovation quality (measured using new
+                  patents’ lifetime citations). Quantitatively, a one-standard-deviation decline in
+                  innovation quantity (quality) increases the probability that a firm will initiate
+                  a CVC in that year by about 26% (34%) relative to the unconditional entry
+                  probability.
+                     However, one may worry that the aforementioned relation between
+                  innovation deterioration and CVC initiation may result from unobserved
+                  confounders that could simultaneously drive innovation deterioration and
+                  CVC investments. For example, an entrenched manager could destroy internal
+                  innovation and at the same time launch CVC as a perk. To sharpen the
+                  interpretation of the result, I isolate variations to innovation that are plausibly
+                  unrelated to contemporaneous unobserved firm characteristics. Specifically,
+                  I make use of detailed patent citation patterns to construct a Knowledge
+                  Obsolescence variable to track the usefulness of a firm’s predetermined
+                  knowledge accumulations. I find that knowledge obsolescence predicts an
+                  individual firm’s innovation quantity and quality declines, and the relation
+                  between these deteriorations and CVC launches is unaffected when exploiting
+                  these plausibly exogenous variations to innovation ability.
+                     Putting this entry evidence together, CVC entries appear to be causally
+                  motivated by innovation deteriorations, consistent with the interpretation that
+                  parent firms initiate CVCs strategically with the intention to fix weaknesses
+                  in internal innovation. I further characterize those weaknesses that motivate
+                  CVCs. Only deteriorations in the firm’s key innovation areas, but not in
+                  peripheral areas, explain the decision to enter CVC. This is in line with the prior
+                  literature that shows firms attempting to regain innovation mostly focus on key
+                  areas (Lerner, Sorensen, and Strömberg 2011; Brav et al. 2018). The pre-CVC
+
+
+
+                                                                                                  361
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                   Page: 361   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   deteriorations in innovation quantity and quality are commonly accompanied
+                   by declines in integrating new technologies in corporate innovation, as captured
+                   by a lower “explorativeness” measure of their patents.
+                      Next, the paper explores the investment phase of the CVC life cycle.
+                   Consistent with the view that CVCs are strategically adopted to fix weaknesses,
+                   CVCs are more likely to invest in entrepreneurial companies that innovate in
+                   parent firms’ weakening technological classes. A detailed comparison between
+                   the patent portfolios of CVC parent firms and startups helps depict a more
+                   complete picture of CVCs’ strategic considerations. Technological proximity
+                   between the CVC and startup portfolios has a positive effect on the probability
+
+
+
+
+                                                                                                               Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   that a venture relation will be formed. But more importantly, conditional on
+                   working in proximate technological areas, CVCs are more likely to invest in
+                   startups that can provide more complementary innovation knowledge in areas
+                   where they are lagging.
+                      I also document strategic value creation subsequent to CVC investments.
+                   First, CVC parent firms become more likely to cite patents generated by
+                   their portfolio startups after making the investment. This citation pattern only
+                   happens after investments are made, and never before. This pattern suggests
+                   that CVC parents actively incorporate CVC-led technological knowledge
+                   diffusion into corporate operations. Second, subsequent to CVC investments,
+                   there are statistically significant and economically sizable increases of internal
+                   innovation and overall firm value. Last but not least, I find that strategic
+                   acquisitions are an important source of strategic value creation. The knowledge
+                   diffusion from portfolio companies is especially strong when there is a follow-
+                   up acquisition of the startup. Interestingly, CVC investments are followed by
+                   an overall increase in acquisition efficiencies made by parent firms, including
+                   those targeting non-portfolio companies.
+                      The final analysis concerns the termination stage of CVCs. In principle,
+                   CVCs are not constrained by the typical independent VC fund life of 10 to 12
+                   years. Surprisingly, CVCs appear to be temporary divisions that have shorter
+                   and non-uniform life cycles. When defining CVC termination as stopping the
+                   search for new startups, the median duration of the CVC life cycle is about
+                   four years, with a mean of six. I show that a CVC’s staying power is closely
+                   related to the innovation dynamic of the parent firm, and it is terminated when
+                   internal innovation weaknesses begin to recover. In contrast and interestingly,
+                   the staying power and termination decision are explained neither by initial
+                   public offering (IPO) or acquisition exit rates that are used to judge financial
+                   return-driven IVCs nor by governance changes.
+                      All told, this paper investigates different views of CVCs using life-cycle
+                   evidence across the entry, investment, and termination stages. CVCs differ from
+                   traditional VCs that are seeking pure financial returns. Instead, CVCs are in
+                   general strategic corporate divisions for incumbent firms to respond to negative
+                   innovation shocks, and CVCs help those firms to expose themselves to new
+                   technologies in order to fix their weaknesses and regain their innovation edge.
+
+
+
+                   362
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                 Page: 362   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                     The prior literature on CVC proposes that firms may pursue strategic goals in
+                  their CVC investments using survey evidence (Siegel, Siegel, and MacMillan
+                  1988; Macmillan et al. 2008). In line with this argument, CVC investments
+                  are correlated with increases in internal innovation (Dushnitsky and Lenox
+                  2005b; Wadhwa, Phelps, and Kotha 2016; Hamm, Jung, and Park 2018), firm
+                  value (Dushnitsky and Lenox 2006), and access to market for technologies
+                  (Ceccagnoli, Higgins, and Kang 2017). Hellmann, Lindsey, and Puri (2008)
+                  exploit a unique bank-VC setting and show that banks use their venture capital
+                  arms to build early relationships with startups that have larger future debt
+                  capacity, which complements their lending business. Dushnitsky and Lenox
+
+
+
+
+                                                                                                                 Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  (2005a) and Basu, Phelps, and Kotha (2011) show that industry-level factors,
+                  such as technological regime and intellectual property (IP) protections, are
+                  associated with the adoption of CVCs.
+                     This paper adds to our understanding of CVC in two ways. First,
+                  conceptually, this paper refines the strategic view by providing the first
+                  empirical evidence that the strategic value of CVCs is mainly to help
+                  deteriorating firms to fix weaknesses and regain innovation. Second, in the
+                  process of exploring CVC rationales, the paper empirically establishes the
+                  CVC life-cycle pattern that consists of evidence that is new to the literature:
+                  what internal innovation conditions motivate firms to initiate CVC, how CVCs’
+                  portfolio decisions are influenced by the strategic considerations, and what
+                  motivates firms to conclude CVC investment.
+                     In broader terms, this paper fits CVC into the literature on innovation outside
+                  firm boundaries. Bena and Li (2014) show that firms with stronger innovation
+                  performance use acquisitions targeting companies with high knowledge
+                  overlaps to build on strength. CVC, in contrast, is adopted by deteriorating
+                  firms that intend to fix weaknesses by investing in companies with proximate
+                  but new technologies. This mechanism is closer to Nelson (1982), Telser
+                  (1982), and Jovanovic and Rob (1989), who show that firms endogenously
+                  obtain innovation knowledge by searching for ideas and acquiring information
+                  externally, conditional on owning the necessary level of absorptive capacity
+                  (Cohen and Levinthal 1990). The strategic role of CVCs in fixing weaknesses
+                  in internal innovation also sheds light on the discussion on whether stronger
+                  or weaker internal technologies motivate firms to spawn external ventures
+                  (Agarwal et al. 2004; Gompers, Lerner, and Scharfstein 2005; Klepper and
+                  Sleeper 2005; Franco and Filson 2006; Hellmann 2007).
+
+
+             1. Data and Measurements
+                  1.1 The CVC sample
+                  This paper exploits a sample of Corporate Venture Capital units affiliated with
+                  U.S.-based public firms. Incumbent firms have three ways to invest in startup
+                  companies: setting up a formal CVC program that is fully owned by the parent
+                  firm; investing as a sole limited partner (LP) in a VC firm, effectively delegating
+
+
+
+                                                                                                  363
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                   Page: 363   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   part of the CVC operation to general partners (GP); or making investments as
+                   one of many limited partners in a VC fund. This paper’s CVC sample focuses on
+                   the first and the second types. The rationale is that investing as one LP typically
+                   does not allow firms to directly participate in the setup and operation of the
+                   VC; thus it is not easy for them to exercise control over entry and investment
+                   decisions.
+                      The point of departure of this CVC list is the CVC sample categorized
+                   by VentureXpert. To supplement this list, I follow Hellmann, Lindsey, and
+                   Puri (2008) and verify every VC firm manually by checking multiple sources
+                   including Factiva, Google, and LexisNexis, as well as cross-checking with the
+
+
+
+
+                                                                                                                                         Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   full list of U.S. public firms from Compustat. Through this process, I attempt to
+                   minimize errors in which CVCs are miscategorized as normal VCs, especially
+                   those that are delegated to GPs. Each CVC on the list is manually matched to its
+                   unique corporate parent in Compustat. To accurately identify the technological
+                   relations between CVCs and startup companies, I also track mergers among
+                   incumbent companies. I track those mergers by incorporating Thomson Reuters
+                   SDC Platinum M&A data among public incumbents. This is an important step
+                   for analysis at CVC investments and exit—I confirm that the knowledge flow,
+                   strategic value creations, and exit decisions are not affected by the merger
+                   events.
+                      To capture CVC entry, I start from the “Firm Founding Date” variable
+                   provided in the Thomson Reuters VentureXpert database, and the year of
+                   this founding date is considered as the baseline for the entry year. I review
+                   the investment history of each CVC, and around 5% of those investors have
+                   investment deals done before the recorded initiation year. Many such deals are
+                   done as “tests” before formally setting up CVC. In these cases, I impute their
+                   true CVC initiation year as the first year of investment since that is the time
+                   when they enter venture investing.
+                      I also collect information on deals conducted by CVC investors from the
+                   VentureXpert database. These data can help to characterize the investment
+                   patterns of each investor, such as the time horizon of investment, number of
+                   companies invested, and stages of investment. They also allow us to observe the
+                   identity, final outcome, and demographic information of portfolio companies,
+                   which in turn can be used to link those entrepreneurial companies to other
+                   data sources like innovation data, as discussed in Section 1.2. This investment
+                   information is also available for independent VCs.
+
+                   1.2 Innovation data
+                   Basic innovation data are obtained from the NBER Patent Data Project and from
+                   Bhaven Sampat’s patent and citation data.1 The combined database provides
+
+
+                 1 For more information on the NBER Patent Data Project, please refer to Hall, Jaffe, and Trajtenberg (2001). The
+                   data used in this paper were downloaded from https://sites.google.com/site/patentdataproject/. Sampat’s data can
+                   be accessed using http://thedata.harvard.edu/dvn/dv/boffindata.
+
+
+
+
+                   364
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                           Page: 364   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  detailed patent-level records on more than four million patents granted by the
+                  USPTO between 1976 and 2012. It provides information on the patent assignee,
+                  the number of citations received by the patent, the technology class of the patent,
+                  and the patent’s application and grant year. This database is linked to Compustat
+                  using the bridge file provided by NBER. I also link this database to startups
+                  in VentureXpert using a fuzzy matching method based on company name,
+                  basic identity information, and innovation profiles, similar to Bernstein, Giroud,
+                  and Townsend (2016) and Gonzalez-Uribe (2019). Details of the matching
+                  algorithm are explained in Online Appendix B.2 The majority of the CVC
+                  sample (86%) and more than half of CVC-backed startups (52%) own at least
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  one patent (i.e., the patenting firms).
+                     I employ two main variables to measure corporate innovation performance.
+                  Innovation quantity is defined as the number of ultimately successful patent
+                  applications filed by a firm in each year. A patent’s year of application is
+                  used instead of the year it is granted because the former better captures the
+                  actual timing of innovation. I use the logarithm of one plus this variable,
+                  that is, ln(1+N ewP atent) (denoted as ln(N ewP atent)), to fix the skewness
+                  problem for better empirical properties. Innovation quality is measured as
+                  the average lifetime citations of all new patents produced by a firm in each
+                  year. Citation measures are adjusted for right-censoring, as suggested by Jaffe
+                  and Trajtenberg (2002) and Lerner and Seru (2015). Similar to the logarithm
+                  transformation performed on quantity, I use ln(1+P at.Quality) (denoted as
+                  ln(P at.Quality)).
+                     I also measure the extent to which a firm employs technologies new to the
+                  firm into its own innovation. Specifically, Manso (2011) and Brav et al. (2018)
+                  summarize the innovation strategy as the extent to which the new patents are
+                  exploratory or exploitative. A patent is considered exploitative if at least 80% of
+                  its citations are based on the existing knowledge of the firm, whereas a patent is
+                  exploratory if at least 80% of its citations are based on new knowledge. Existing
+                  knowledge includes all the patents that the firm was awarded and all the patents
+                  that were cited by the firm’s patents filed over the past five years. Aggregated
+                  at the firm-year level, the percentage of exploitative/exploratory new patents is
+                  indicative of whether a firm’s innovation relies heavily on existing knowledge
+                  (e.g., incremental advances relative to existing patents) or focuses on exploring
+                  new technologies.
+                     In addition, the data can also track citations made by each patent. For
+                  example, the data can observe that General Motors cites patent “Internal
+                  combustion engine control for improved fuel efficiency” of Tula Technology
+                  Inc. (U.S. Patent Number 7577511, granted on August 18, 2009) in its own
+                  patent, “Fuel consumption based cylinder activation and deactivation control
+
+
+               2 Several Online Appendix tables conduct analyses on patent transactions and innovative labors. USPTO Patent
+                  Reassignment Records are used to identify patent transactions conducted by firms. The Harvard Business School
+                  inventor-level database is used to track the mobility and productivity of innovative labor around CVC activities.
+
+
+
+
+                                                                                                                             365
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 365   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   systems and methods” (U.S. Patent Number 9341128, granted on May 17,
+                   2016). This information helps to capture the technological diffusion among
+                   firms, especially diffusions from startups to incumbents.
+
+
+                   1.3 Firm-level measures
+                   For classic corporate governance measures, institutional shareholding infor-
+                   mation is extracted from the WRDS Thomson Reuters 13(f) data. I use the
+                   total percentage of institutional shareholding and the shareholding of the top
+                   five institutional investors to capture the monitoring intensity of shareholders.
+                   I also obtain the G-Index from Andrew Metrick’s data library.3
+
+
+
+
+                                                                                                                                  Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                      The sample is augmented with Compustat for financial statement data and
+                   with CRSP for stock market performance. The key financial variables include
+                   leverage (debt in current liabilities and long-term debt, scaled by book assets),
+                   return on assets (ROA, the ratio of EBITDA to book assets), and R&D ratio
+                   (R&D expenses scaled by book assets). All variables are winsorized at the 1%
+                   and 99% levels. Key variable constructions are discussed in the Appendix.
+
+
+               2. The Entry of CVC
+                   The analysis starts from the CVC entry decision, where I examine the strategic
+                   forces behind CVC entries. The strategic view broadly argues that the CVCs
+                   stimulate internal innovation through knowledge acquisition from startups. To
+                   be more specific, the strategic value of CVC can be reflected as either “fixing
+                   weaknesses” or “building on strengths” for the firm. The “fixing weaknesses”
+                   branch arises from theories on information acquisition and innovation, which
+                   argue that firms dedicate resources to external knowledge acquisition when
+                   internal innovation deteriorates (Nelson 1982; Telser 1982; Jovanovic and Rob
+                   1989) with the intention to strengthen internal innovation in later periods.4
+                   The “building on strengths” branch, on the other hand, argues that firms with
+                   stronger internal innovation are more willing to expand firm boundaries to
+                   harvest innovation synergies (Bena and Li 2014).
+
+
+                   2.1 Baseline model specification
+                   The baseline model examines how the CVC entry decision is related to firm
+                   innovation dynamics and firm-level characteristics. The empirical model takes
+                   the following form, on the firm-year panel of U.S. public firms:
+
+                           I (CV C)i,t = αindustry×t +β ×τ I nnovationi,t−1 +γ ×Xi,t−1 +εi,t ,                         (1)
+
+
+                 3 Accessed using http://faculty.som.yale.edu/andrewmetrick/data.html.
+
+                 4 See also Nelson and Winter (1982), Dosi (1988), Kortum (1997), Fleming and Sorenson (2004), and Frydman
+                   and Papanikolaou (2018), among others.
+
+
+
+
+                   366
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                    Page: 366   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  where I (CV C)i,t is equal to one if firm i launches a CVC unit in year t, and zero
+                  otherwise.5 τ I nnovationi,t−1 is the change of firm innovation performance
+                  over the past τ years ending in t −1. I use a three-year (τ = 3) innovation
+                  change throughout the main analysis and report robustness checks using other
+                  horizons in the Online Appendix. Firm-level controls Xi,t−1 include ROA, size,
+                  leverage, R&D ratio, institutional shareholding, and the G-Index. Industries
+                  (three-digit SIC level) with no CVC activities during the whole sample period
+                  are excluded. Previous studies show that industry-specific technology shocks
+                  may drive innovation changes and organizational activities at the same time
+                  (Mitchell and Mulherin 1996; Harford 2005). Industry-by-year fixed effects
+
+
+
+
+                                                                                                                                            Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  are included to absorb these industry-specific time trends, and industries are
+                  defined by the Fama-French 48 Industry Classification.
+                     I nnovation differences out time-invariant firm-specific innovation
+                  characteristics, such as the overall innovativeness. This approach partially
+                  overcomes the technical difficulty of directly including firm fixed effects: due to
+                  the lack of variation on the left-hand side (i.e., there are not many repeated CVC
+                  entries in the sample), a regression of CVC entries on innovation levels with
+                  firm fixed effects is difficult to estimate. Moreover, given that CVC entries
+                  are typically one-time events, the concerning confounders are less likely to
+                  be time-invariant firm characteristics; rather, they are more likely to be those
+                  clustered technological shocks and restructuring events that vary with time.
+                  With I nnovation, the results in Model (1) are identified using the cross-
+                  sectional variation in within-firm innovation changes in an industry-by-year
+                  cohort, addressing the problem.
+
+                  2.2 Baseline results
+                  Table 1 presents descriptive statistics of the regression sample. It shows
+                  both firm-year observations when a CVC division was initiated and those
+                  observations when a CVC was not initiated. CVC parents are typically large
+                  firms. On average, a CVC parent has $10.1 billion in book assets (median is $2.4
+                  billion) just before launching its CVC unit, whereas non-CVC parent firms have
+                  less than $3 billion in book assets (median is $0.2 billion). CVC parent firms
+                  are innovation intensive in terms of patenting quantity, echoing the size effect.
+                  CVC parent firms experience more negative innovation shocks before starting
+                  their CVC divisions—they on average experience a −7% (−10%) change in
+                  patenting quantity (quality) within the three years prior to launching their CVC
+                  units, compared to the control firms, which experience a 12% (8%) shock.
+                  Corporate governance variables, G-Index and institutional shareholding, are
+                  comparable between the two subsamples.
+                     Table 2 presents the ordinary least squares (OLS) estimation of a linear
+                  probability Model (1). Column (1) focuses on the effect of changes in innovation
+
+               5 Since the model predicts CVC launches, a CVC parent firm drops out of the sample after the initiation. It re-enters
+                  after one CVC life cycle concludes.
+
+
+
+
+                                                                                                                              367
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                              Page: 367   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Table 1
+                   Summary statistics of the sample
+                                                            I (CV C)i,t = 0                                  I (CV C)i,t = 1
+                                                   Mean        Median          S.D.                Mean         Median           S.D.
+                   ln(NewP atent)                  0.12         0.07            0.52             −0.07         −0.05              0.61
+                   ln(P at.Quality)                0.08         0.13            1.25             −0.10         −0.11              1.14
+                   Obsolescence                     0.08         0.00            0.41               0.29          0.21             0.54
+                   New patents                     20.15         1.00           70.58              50.35          1.00           128.27
+                   Patent citations                21.03         7.26           29.80              15.46          2.64            32.81
+                   Firm R&D                         0.09         0.05            0.11               0.07          0.06             0.07
+                   Firm ROA                         0.06         0.10            0.24               0.03          0.08             0.21
+                   Total assets (million)        2,884.93      195.27         9,325.25           10,177.02     2,430.89        17,049.50
+                   M/B                              2.87         1.94            2.33               2.68          1.83             2.58
+
+
+
+
+                                                                                                                                                  Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   Leverage                         0.19         0.15            0.18               0.20          0.17             0.19
+                   Cash flow                        0.11         0.09            0.10               0.12          0.11             0.15
+                   G-Index                          9.09         9.00            2.74               9.13          9.00             2.39
+                   Institutional shareholding       0.24         0.23            0.16               0.26          0.25             0.13
+                   This table summarizes firm characteristics at the firm-year level. CVC observations (I (CV C)i,t = 1) are those
+                   when firm i launched a CVC division in year t (and CVC parent firms are categorized as non-CVC observations
+                   in other non-launching years). The CVC sample is defined in Section 1.1. Obsolescence is constructed as the
+                   changes in the number of citations received by a firm’s predetermined knowledge space, formally defined in
+                   Section 2 of the paper. New patents is the number of patent applications filed by a firm in a given year. The
+                   natural logarithm of this variable plus one is used in the paper, that is, ln(NewP atent) ≡ ln(New P atent +1).
+                   Patent Citations is the average number of citations received by the patents applied by a firms in a given year. The
+                   natural logarithm of this variable plus one is used in the paper, that is, ln(P at.Quality) ≡ ln(P atent Quality +1).
+                   ln(NewP atent) and ln(P at.Quality) are the three-year changes of the innovation variables. Total Assets is
+                   reported in millions, adjusted to 2007 U.S. dollars. Firm R&D is defined as research and development expenses
+                   scaled by total assets. Firm ROA is calculated as earnings before interest, taxes, depreciation, and amortization
+                   scaled by total assets. M/B is the market-to-book ratio, defined as market value of common equity scaled by the
+                   book value of the common equity. Leverage is the book debt value scaled by total assets. Cash Flow is defined
+                   as (Income before extraordinary items + depreciation and amortization) scaled by total assets. Observations are
+                   required to have valid ROA, total assets, leverage, firm R&D, and at least $10 million in book assets; variables
+                   are winsorized at the 1% and 99% levels to remove influential outliers. A firm is included in the panel sample
+                   only after it filed a patent application that was eventually granted by the USPTO. Industries (three-digit SIC) that
+                   did not involve any CVC activities during the sample period are removed. For each variable, the mean, median,
+                   and standard deviation are reported. Detailed variable definitions are provided in the Appendix.
+
+
+
+                   quantity. The coefficient of −0.007 is negative and significant, meaning that a
+                   more severe decline in innovation quantity in the past three years is associated
+                   with a higher probability of initiating CVC investments. This estimate translates
+                   a one-standard-deviation decrease (σ -change) in ln(N ewP atent) into a 26%
+                   increase from the unconditional probability of launching CVC units.
+                      Column (2) studies the effect of deterioration in innovation quality.
+                   The coefficient of −0.004 means that a one-standard-deviation decrease in
+                   ln(P at.Quality) increases the probability of CVC initiation by 34%, and this
+                   is economically comparable to that in Column (1). Column (3) simultaneously
+                   estimates the effects of changes in innovation quantity and quality. The
+                   estimates are largely unchanged compared with Columns (1) and (2). Overall,
+                   CVCs are initiated in firms that experience deteriorations in internal innovation.
+                      Columns (4) to (6) study the effects of classic corporate governance measures
+                   on CVC entry. The goal is to assess an alternative view that CVCs are value-
+                   destroying activities arising from the agency problem in a firm. Proponents
+                   of this view would argue that CVCs manifest managers’ desires to enjoy
+                   managerial perks via venture investing or to build an empire, rather than to
+
+
+
+                   368
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                 Page: 368      358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  Table 2
+                  Determinants of CVC entry
+
+                                            (1)           (2)           (3)          (4)           (5)           (6)          (7)
+                                                                                 I (CV C) = 1
+
+
+                  ln(NewP atent)       −0.007∗∗∗                −0.006∗∗∗                                            −0.010∗∗
+                                       (−6.227)                 (−4.705)                                             (−2.166)
+                  ln(P at.Quality)                   −0.004∗∗∗ −0.004∗∗∗                                             −0.004∗
+                                                     (−4.459)   (−3.775)                                             (−1.731)
+                  Inst. shareholding                                             0.001                   −0.002       −0.004
+                                                                                (0.578)                 (−0.154)     (−0.319)
+                  G-Index                                                                     0.001        0.001        0.001
+                                                                                             (0.903)      (0.729)      (0.734)
+
+
+
+
+                                                                                                                                               Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  Firm ROA              −0.003       −0.003       −0.003         0.000      −0.012       −0.016       −0.021
+                                       (−1.275)     (−1.567)     (−1.332)       (0.051)    (−0.497)     (−0.577)     (−0.644)
+                  Size (log of assets)    0.003 ∗∗∗    0.003 ∗∗∗    0.003 ∗∗∗    0.004 ∗∗∗    0.007 ∗∗∗    0.008 ∗∗∗    0.007∗∗∗
+                                        (11.090)     (11.034)     (10.741)     (10.929)      (3.872)      (3.837)      (3.298)
+                  Leverage              −0.005∗∗ −0.004∗∗ −0.005∗∗ −0.004∗                  −0.033∗∗ −0.034∗∗ −0.036∗∗
+                                       (−2.371)     (−2.051)     (−2.356)     (−1.777)     (−2.193)     (−2.190)     (−2.037)
+                  Firm R&D                0.015∗∗∗     0.011∗∗∗     0.014∗∗∗     0.017∗∗∗     0.076∗       0.081∗       0.081
+                                         (3.439)      (3.093)      (3.319)      (4.215)      (1.862)      (1.893)      (1.619)
+
+                  Observations            25,976        25,976        25,976       25,976        5,061         5,061         5,061
+                  R2                      0.122         0.121         0.122        0.063         0.227         0.208         0.232
+                  Industry × Year FE        Yes           Yes           Yes          Yes           Yes           Yes          Yes
+                  This table examines the determinants of Corporate Venture Capital entry decisions. The analysis is performed
+                  using the following specification:
+
+                                        I (CV C)i,t = αindustry×t +β ×I nnovationi,t−1 +γ ×Xi,t−1 +εi,t ,
+
+                  The panel sample is described in Table 1. I (CV C)i,t is equal to one if firm i launches a Corporate Venture
+                  Capital unit in year t and zero otherwise. I nnovationi,t−1 is the innovation change over the past three years
+                  (i.e., the innovation change from t −4 to t −1). Innovation is measured using innovation quantity (the natural
+                  logarithm of the number of new patents in each firm-year plus one) and innovation quality (the natural logarithm
+                  of average lifetime citations per new patent in each firm-year plus one). Firm-level controls Xi,t−1 include ROA,
+                  size (logarithm of total assets), leverage, R&D ratio (R&D expenditures scaled by total assets), institutional
+                  shareholdings and the G-Index. The model is estimated using ordinary least squares (OLS). Industry-by-year
+                  dummies are included in the model to absorb industry-specific time trends in CVC activities and innovation, and
+                  industries are defined by the Fama-French 48 Industry Classification. t-statistics are shown in parentheses, and
+                  standard errors are clustered by firm. *, **, and *** denote statistical significance at the 10%, 5%, and 1% levels,
+                  respectively.
+
+
+
+
+                  create value for the firm. Accordingly, CVCs tend to form in firms whose
+                  shareholders are unable to discipline managers.
+                     However, I find that neither institutional shareholding nor G-Index has
+                  any real influence on the CVC entry decision. In Column (4), I use total
+                  institutional shareholding to measure governance intensity and find it has a
+                  positive, insignificant effect on CVC entry. The result is similar when I use the
+                  shareholding of only the top five institutional shareholders. In Column (5), I
+                  focus on G-Index, which unfortunately restricts the sample size significantly.
+                  G-Index also does not have explanatory power on the initiation of CVCs.
+                  CVC parents are larger and have more R&D expenditures compared with their
+                  industry peers. This is consistent with the argument in the strategic management
+                  literature showing that firms with more absorptive capacity are more likely
+
+
+
+                                                                                                                                369
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                Page: 369    358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   to gain knowledge outside their firm boundaries (Cohen and Levinthal 1990;
+                   Dushnitsky and Lenox 2005b).
+
+                   2.3 Interpretation of the baseline results
+                   Table 2 provides supporting evidence for the “fixing weaknessnes” view. Yet to
+                   further pin down this interpretation, one needs an exogenous shifter that could
+                   influence an individual firm’s ability to generate innovation ideas internally (the
+                   first stage), but which is unlikely to relate to CVC investments directly. Without
+                   such a source of exogenous variation, it could be the case that some unobserved
+                   force is driving innovation deterioration and CVC launches at the same time. For
+
+
+
+
+                                                                                                                                   Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   example, one specific confounder could be unobserved managerial quality—an
+                   entrenched manager hinders innovation and simultaneously initiates CVC as a
+                   pet project.
+                      The main idea of the empirical strategy is to exploit the influence of
+                   exogenous technological evolution on firm-specific innovation knowledge.
+                   In other words, the instrumental variable will shock the individual firm’s
+                   ability to generate innovation using exogenous changes to the usefulness of
+                   its accumulated knowledge. For example, the empirical strategy will exploit
+                   the cases in which a firm specializing in 14-inch hard disk drives (HDDs)
+                   becomes less able to innovate when the technology moves on to 8-inch HDDs.
+                      To implement the idea of measuring the influence of exogenous technological
+                   evolution on an individual firm’s capability to innovate, I build on the literature
+                   of bibliometrics and scientometrics, which measures the obsolescence and
+                   aging of a scientific discipline using the dynamics of citations referring to
+                   the specific field.6 In particular, I construct a firm-year-level variable, termed
+                   as Knowledge Obsolescence (Obsolescence for short), to capture the τ -year
+                   (between t −τ and t) rate of obsolescence of the knowledge possessed by a
+                   firm as of t −τ .
+                      For each firm i in year t, this instrument is constructed in three steps,
+                   formally defined in Equation (2). First, firm i’s predetermined knowledge space
+                   in year t −τ is defined as all the patents cited by firm i (but not belonging
+                   to i) up to year t −τ . This fixed set of patents proxies for the underlying
+                   technological knowledge that firm i managed to accumulate up to t −τ . I then
+                   calculate the number of external citations (made by firms other than i itself)
+                   received by this fixed KnowledgeSpacei,t−τ in t −τ and in t, respectively.
+                                          τ
+                   Last, Obsolescencei,t     is defined as the rate of change between the two, which
+                   naturally absorbs effects of the size of the firm and its knowledge space.
+                   Formally,
+                                            τ
+                                Obsolescencei,t = −[ln(Citt (KnowledgeSpacei,t−τ ))
+
+                                                           −ln(Citt−τ (KnowledgeSpacei,t−τ ))].                          (2)
+
+                 6 The methodology has been similarly applied to evaluate the impact of specific technologies and individual
+                   research, among others.
+
+
+
+
+                   370
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                     Page: 370   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  A larger Obsolescence means a greater decline in the value and utility of a
+                  firm’s knowledge within the τ -year period, as captured by the fact that fewer
+                  new patents build on that knowledge base. Online Appendix C provides a more
+                  detailed explanation and empirical tests on the Obsolescence variable.
+
+                  2.3.1 Knowledge Obsolescence and innovation. The idea that knowledge
+                  obsolescence affects innovation builds upon two theoretical pillars. First, the
+                  knowledge stock of an individual or institution determines the quantity and
+                  quality of its innovation production. Jones (2009) shows that a negative shock
+                  to the value of a firm’s accumulated knowledge space implies a longer distance
+
+
+
+
+                                                                                                                  Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  to the knowledge frontier and a higher knowledge burden to identify valuable
+                  ideas and produce radical innovation. Bloom, Schankerman, and Van Reenen
+                  (2013) show that firms working in a fading area benefit less from knowledge
+                  spillover, which in turn dampens growth in innovation and productivity.
+                     Second, knowledge itself ages. In the past few decades, several disciplines
+                  have developed the concept of the obsolescence of knowledge, skills, and
+                  technology. The most famous result might be, roughly speaking, that half of
+                  our knowledge today will be of little value (or even proven wrong) after a
+                  certain amount of time (i.e., half-life), and this half-life is becoming shorter and
+                  shorter (Machlup 1962). Economists have studied the effect of obsolescence
+                  of knowledge and skills on labor and industrial organization, as well as on
+                  aggregate growth (Rosen 1975).
+                     Empirically, the effect of knowledge obsolescence on corporate innovation is
+                  validated in the first-stage regression, in which I instrument τ I nnovationi,t
+                                        τ
+                  with Obsolescencei,t     using the following form:
+
+                    τ I               
+                        nnovationi,t = π0,industry×t +π1 ×Obsolescencei,t
+                                                                       τ
+                                                                           +π2 ×Xi,t +ηi,t . (3)
+                  Table 3, Columns (1) and (3), report results where I nnovation is measured
+                  using the quantity and quality of new patents, respectively. Results show that
+                  a firm that experiences a faster rate of Knowledge Obsolescence is associated
+                  with weaker internal innovation compared to its industry peers. The estimate
+                  of −0.114 in Column (1) translates a 10% increase in the rate of obsolescence
+                  of a firm’s knowledge space into a 1.14% decrease in its patent applications;
+                  this same change is associated with a 1.28% decrease of its patent quality. The
+                  F -statistics of these first-stage regressions are both well above the conventional
+                  threshold for weak instruments (Stock and Yogo 2005).
+
+                  2.3.2 Exploiting the Obsolescence-driven variations. The first-stage
+                  regression in Equation (3) allows us to extract variations to innovation driven
+                  by plausibly exogenous trends of knowledge obsolescence. The fitted value
+                                                   
+                  from this model, denoted as I nnovation,     is then used in the second-stage
+                  regression,
+                          I (CV C)i,t = αindustry×t +β × τ I 
+                                                             nnovationi,t−1 +γ ×Xi,t−1 +εi,t ,      (4)
+
+
+
+                                                                                                   371
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                    Page: 371   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Table 3
+                   Determinants of CVC entry: Exogenous variations to innovation
+                                                       (1)                    (2)                     (3)                   (4)
+                                                   First stage               2SLS                 First stage              2SLS
+                   Obsolescence                    −0.114∗∗∗                                      −0.128∗∗∗
+                                                 (−12.165)                                      (−17.064)
+                   ln(NewP atent)                                         −0.007∗∗∗
+                                                                          (−3.597)
+                   ln(P at.Quality)                                                                                      −0.004∗∗∗
+                                                                                                                         (−2.577)
+                   Firm ROA                          0.090∗∗∗              −0.003                    0.070∗∗∗             −0.003
+                                                    (4.711)               (−1.289)                  (4.170)              (−1.600)
+                   Size (log of assets)              0.028∗∗∗                0.003∗∗∗                0.031∗∗∗               0.003∗∗∗
+                                                   (12.664)                (11.401)                (16.106)               (11.238)
+
+
+
+
+                                                                                                                                              Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   Leverage                        −0.103∗∗∗               −0.005∗∗                −0.091∗∗∗              −0.004∗∗
+                                                  (−5.155)                (−2.484)                (−5.179)               (−2.095)
+                   Firm R&D                          0.489∗∗∗                0.015∗∗∗                0.420∗∗∗               0.011∗∗∗
+                                                   (11.931)                 (3.476)                (11.423)                (3.157)
+
+                   F-statistic                    147.99                                          291.18
+                   Observations                    25,976                   25,976                 25,976                  25,976
+                   R2                               0.398                    0.118                  0.370                   0.109
+                   Industry × Year FE                Yes                      Yes                    Yes                    Yes
+                   This table examines the relation between innovation deterioration and the initiation of Corporate Venture Capital
+                   using the following two-stage least squares (2SLS) specification:
+
+                                       i,t−1 = π                                    
+                                 I nnovation    0,industry×t +π1 ×Obsolescencei,t−1 +π2 ×Xi,t−1 +ηi,t−1 ,
+
+                                                                               i,t−1 +γ ×Xi,t−1 +εi,t .
+                                          I (CV C)i,t = αindustry×t +β × I nnovation
+
+                   The panel sample is described in Table 1. Columns (1) and (3) report the first-stage regressions, which regress
+                   the three-year change in innovation quantity (the natural logarithm of the number of new patents in each firm-
+                   year plus one) and innovation quality (the natural logarithm of average lifetime citations per new patent in each
+                   firm-year plus one) on the three-year Obsolescence. Columns (2) and (4) report the second-stage regression,
+                   where I (CV C)i,t is equal to one if firm i launches a Corporate Venture Capital unit in year t and zero otherwise.
+                           i,t−1 is the fitted innovation change over the past three years (i.e., the innovation change from t −4
+                   I nnovation
+                   to t −1). In the 2SLS framework, firm-level controls Xi,t−1 include the ROA, size (logarithm of total assets),
+                   leverage, and R&D ratio (R&D expenditures scaled by total assets). Industry-by-year dummies are included
+                   in the model to absorb industry-specific time trends in CVC activities and innovation. t-statistics are shown in
+                   parentheses, and standard errors are clustered by firm. *, **, and *** denote statistical significance at the 10%,
+                   5%, and 1% levels, respectively.
+
+
+
+                   and Columns (2) and (4) of Table 3 show the estimation results. The effect of
+                                                                 
+                   obsolescence-driven innovation shocks I nnovation       on starting a CVC unit
+                   is both economically and statistically significant. The coefficient of −0.007 in
+                   Column (2) translates a σ -change in ln(N ewP atent) to a 26% change in
+                   the probability of launching CVC investment. In a reduced form, Table 1 also
+                   reports summary statistics for Obsolescence. The number of citations received
+                   by a firm’s predetermined knowledge space decays by 8% in the control group,
+                   which can be interpreted as a benchmark three-year natural decay of knowledge.
+                   Firms’ knowledge spaces on average decay by 29% in the three years before
+                   initiating a CVC division, which demonstrates a much more severe hit by the
+                   technological evolution.
+
+
+
+
+                   372
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                              Page: 372     358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  2.3.3 Discussions on the empirical assumptions. To further justify
+                  Obsolescence to be a valid source of exogenous variation to innovation, I
+                  provide additional discussions on this assumption in this section. More analyses
+                  and discussions are provided in Online Appendix C. To begin, I construct the
+                  predetermined knowledge space of firm i based on its citations made before
+                  t −10 and track the obsolescence of this knowledge space from t −3 to t.7
+                  The possibility that the managerial vision ten years ago still strongly affects
+                  CVC decisions today is even thinner, thus better disentangling firms’ knowledge
+                  spaces from concurrent managerial decisions. Table 4, panel A, presents results
+                  that are qualitatively and quantitatively similar to Table 3.
+
+
+
+
+                                                                                                                                     Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                     Moreover, one concern regarding the relation between the instrument and
+                  innovation is the role of market power. Viewing the instrument through the
+                  lens of the competition-innovation literature, one alternative reading of the
+                  instrument is that a firm’s technologies being less cited might be because the
+                  firm is facing less competition, which may increase the firm’s incentive to
+                  innovate in this area (because it is less likely to be imitated). If this interpretation
+                  of the instrument were true, even for only a small subsample of firms, the
+                  monotonicity assumption would be violated and the message conveyed by the
+                  instrument would be very different. To address this concern, I perform the
+                  analysis on subsamples with different levels of product market competition,
+                  proxied using industry sales Herfindahl–Hirschman Index (HHI). I find the
+                  first-stage regressions are strong in both subsamples (in Online Appendix C),
+                  and the second-stage results are quantitatively similar to the full-sample result,
+                  as shown in Table 4, panel B.
+                     One might worry that the firm itself could be a main driver of the
+                  technological evolution. For example, a manager might decide to change the
+                  course of innovation areas using CVC, and this change could potentially lead to
+                  citation changes to the firm’s own knowledge base (say, a diesel engine maker
+                  enters the gas engine industry and stops citing diesel engine technologies). I
+                  conduct an empirical test in which I repeat the two-stage least squares (2SLS)
+                  analysis in subsamples of firms with high versus low innovation impact, where
+                  innovation impact is categorized using the median of the number of patents
+                  possessed by the firm in each year. The idea is that those low-impact firms
+                  are less likely to endogenize the technological evolution. I report the results
+                  in panel C of Table 4, and the results are both qualitatively and quantitatively
+                  similar to Table 3.
+
+                  2.4 Further analysis on the strategic hypothesis
+                  By far, the evidence is consistent with the strategic view of CVCs, in particular
+                  the view that CVCs are adopted to fix weaknesses when internal corporate
+
+
+               7 This analysis necessarily focuses on the sample in the later period and on firms that have longer patenting
+                  histories.
+
+
+
+
+                                                                                                                      373
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                       Page: 373   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Table 4
+                   Assessing the validity of the Obsolescence instrument
+                   Panel A: 10-year historic knowledge Obsolescence
+                                                         (1)                        (2)                 (3)                      (4)
+                                                     First stage                   2SLS             First stage                 2SLS
+
+                   Obsolescence                      −0.052∗∗∗                                      −0.053∗∗∗
+                                                    (−9.619)                                       (−9.648)
+                   ln(N ewP atent)                                             −0.008∗∗
+                                                                                (−2.335)
+                   ln(P at.Quality)                                                                                         −0.003∗
+                                                                                                                            (−1.802)
+                   F-statistic                        92.53                                         93.08
+                   Observations                        20,145                      20,145            20,145                     20,145
+                   R2                                  0.294                       0.102             0.215                      0.098
+                   Industry × Year FE                    Yes                         Yes               Yes                       Yes
+
+
+
+
+                                                                                                                                               Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   Panel B: Heterogeneity across industry competition
+                                                         (1)                        (2)                (3)                       (4)
+                                                        2SLS                       2SLS               2SLS                      2SLS
+
+                   ln(N ewP atent)                  −0.007∗∗                                       −0.008∗∗
+                                                    (−2.843)                                       (−2.912)
+                   ln(P at.Quality)                                             −0.004∗                                     −0.004∗∗
+                                                                                (−1.847)                                    (−2.150)
+                   Subsample                                    High competition                              Low competition
+                   Observations                        12,597                      12,597            13,379                     13,379
+                   R2                                  0.111                       0.109             0.113                      0.112
+                   Industry × Year FE                    Yes                         Yes               Yes                       Yes
+
+                    Panel C: Heterogeneity across innovation impact of a firm
+                                                        (1)                         (2)                (3)                       (4)
+                                                       2SLS                        2SLS               2SLS                      2SLS
+
+                   ln(N ewP atent)                  −0.010∗∗                                       −0.003∗∗
+                                                    (−2.649)                                       (−2.535)
+                   ln(P at.Quality)                                            −0.004∗∗                                     −0.001∗∗
+                                                                                (−1.989)                                    (−2.395)
+                   Subsample                                 High innovation impact                       Low innovation impact
+                   Observations                        14,563                    14,563              11,413                  11,413
+                   R2                                  0.109                     0.107               0.106                    0.106
+                   Industry × Year FE                    Yes                        Yes                Yes                      Yes
+
+                   This table presents analysis to assess the validity of the Obsolescence instrument. The baseline model is adopted
+                   from Table 3, in the form of the following two-stage least squares (2SLS) specification:
+
+                                        i,t−1 = π                                    
+                                  I nnovation    0,industry×t +π1 ×Obsolescencei,t−1 +π2 ×Xi,t−1 +ηi,t−1 ,
+
+                                                                                i,t−1 +γ ×Xi,t−1 +εi,t .
+                                           I (CV C)i,t = αindustry×t +β × I nnovation
+
+                   In panel A, the analysis is performed using an Obsolescence instrument constructed by tracking the citation
+                   dynamics of knowledge spaces defined ten years ago (as opposed to three years ago in Table 3), using Equation
+                   (2) in the paper. Columns (1) and (3) report the first-stage regressions, which regress the three-year change
+                   in innovation quantity (the natural logarithm of the number of new patents in each firm-year plus one) and
+                   innovation quality (the natural logarithm of average lifetime citations per new patent in each firm-year plus one)
+                   on Obsolescence. Columns (2) and (4) report the second-stage regressions, where I (CV C)i,t is equal to one if
+                                                                                                             i,t−1 is the fitted
+                   firm i launches a Corporate Venture Capital unit in year t and zero otherwise. I nnovation
+                   innovation change over the past three years (i.e., the innovation change from t −4 to t −1).
+                   In panel B, the analysis is performed on subsamples of firms in industries with higher vs. lower product market
+                   competition, where product market competition is categorized by whether the sales HHI of the four-digit SIC
+                   industry in which the firm operates is above or below the median in each year. Columns (1) and (2) focus on
+                   the subsample of firms with higher competition (low HHI), and Columns (3) and (4) focus on the subsample of
+                   firms with lower competition.
+                   In panel C, the analysis is performed on subsamples of firms with higher vs. lower innovation impact, where
+                   innovation impact is categorized by whether the number of patents possessed by the firm is above or below the
+                   median in each year. Columns (1) and (2) focus on the subsample of firms with higher innovation impact, and
+                   Columns (3) and (4) focus on the subsample of firms with lower innovation impact.
+                   In all regressions, firm-level controls Xi,t−1 include the ROA, size (logarithm of total assets), leverage, and
+                   R&D ratio (R&D expenditures scaled by total assets). Industry-by-year dummies are included in the model to
+                   absorb industry-specific time trends in CVC activities and innovation. t-statistics are shown in parentheses, and
+                   standard errors are clustered by firm. *, **, and *** denote statistical significance at the 10%, 5%, and 1% levels,
+                   respectively.
+                   374
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                               Page: 374     358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  Table 5
+                  Determinants of CVC entry: Additional results for the strategic view
+
+                                                     (1)            (2)           (3)            (4)           (5)           (6)
+                                                                                    I (CV C) = 1
+                  ln(NewP atent)Key             −0.008∗∗∗
+                                                (−7.953)
+                  ln(P at.Quality)Key                          −0.005∗∗∗
+                                                               (−5.121)
+                  ln(NewP atent)N onKey                                      −0.003
+                                                                             (−1.007)
+                  ln(P at.Quality)N onKey                                                   −0.001
+                                                                                            (−0.966)
+                  Explorative                                                                             −0.057∗∗∗
+
+
+
+
+                                                                                                                                              Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                                                                                          (−2.886)
+                  Exploitative                                                                                             0.043∗∗∗
+                                                                                                                           (2.925)
+                  Observations                     25,976        25,976         25,976         25,976        25,976        25,976
+                  R2                               0.129         0.125          0.119          0.118         0.121         0.122
+                  Controls                           Yes           Yes            Yes            Yes           Yes          Yes
+                  Industry × Year FE                 Yes           Yes            Yes            Yes           Yes          Yes
+                  This table examines the determinants of Corporate Venture Capital entry decisions. The analysis is performed
+                  using the following specification:
+
+                                       I (CV C)i,t = αindustry×t +βI ×I nnovationi,t−1 +γ ×Xi,t−1 +εi,t ,
+
+                  I (CV C)i,t is equal to one if firm i launches a Corporate Venture Capital unit in year t and zero otherwise.
+                  I nnovationi,t−1 is the innovation change over the past three years (i.e., the innovation change from t −4 to
+                  t −1). In Columns (1) and (2), innovation is measured using innovation quantity (the natural logarithm of the
+                  number of new patents in each firm-year plus one) and innovation quality (the natural logarithm of average
+                  lifetime citations per new patent in each firm-year plus one) in key technology classes of a firm. In Columns (3)
+                  and (4) innovation measures are based on non-key technology classes of a firm. A technology class is defined
+                  as key (non-key) if it includes the top three (bottom three) number of patents from the firm’s patent holding.
+                  In Columns (5) and (6), innovation is measured using Explorative and Exploitative of patents. Explorative
+                  (exploitative) measure the intensity with which a firm innovates based on knowledge that is new (old) to the firm.
+                  Detailed description of these variables is provided in the Appendix. Firm-level controls Xi,t−1 include ROA,
+                  size (logarithm of total assets), leverage, and R&D ratio (R&D expenditures scaled by total assets). The model
+                  is estimated using ordinary least squares (OLS). Industry-by-year dummies are included in the model to absorb
+                  industry-specific time trends in CVC activities and innovation, and industries are defined by the Fama-French
+                  48 Industry Classification. t-statistics are shown in parentheses, and standard errors are clustered by firm. *, **,
+                  and *** denote statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+
+
+                  innovation deteriorates. This section makes use of more detailed patenting data
+                  to further strengthen this argument.
+                     I first examine whether the impact of innovation deterioration concentrates
+                  on key or non-key innovation areas of the firm. Firms seeking operational
+                  improvement devote effort to improving innovation capabilities in areas that
+                  are key to the overall innovation portfolios, and at the same time, they try to
+                  divest or outsource peripheral innovations (Hellmann 2007). This pattern holds
+                  for firms going through private equity (PE) intervention (Lerner, Sorensen, and
+                  Strömberg 2011) or hedge fund-initiated restructuring (Brav et al. 2018). CVC
+                  investment, used as a way to regain corporate innovation, may follow this broad
+                  “refocusing” strategy. If that is the case, we would expect key areas to be more
+                  important in determining CVC activities.
+                     In Table 5, I explore this hypothesis. For each firm, a technology class is
+                  categorized as key (non-key) to a firm if the highest number (lowest number) of
+
+
+                                                                                                                                375
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                Page: 375   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   the firm’s patent stock is assigned to that class (Brav et al. 2018). In Columns (1)
+                   and (2), the independent variables are constructed by counting the number and
+                   average citations of new patents in the key technology class. In Columns (3) and
+                   (4), the independent variables are constructed analogously for the firm’s non-
+                   key technology class. CVC initiations are only responsive to decreases of patent
+                   counts and citations in key technology classes (−0.008 and −0.005 in Columns
+                   (1) and (2)). There is no evident relation between CVC entry and patents or
+                   citations in non-key technology classes, as shown by the economically minimal
+                   and statistically insignificant coefficients in Columns (3) and (4).
+                      I also link innovation “exploration” and “exploitation” to the CVC entry
+
+
+
+
+                                                                                                                 Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   decision. If CVC is used for the strategic purpose of absorbing new knowledge
+                   to fix the deteriorating internal innovation, CVCs should be more likely to
+                   form when firms fail to incorporate new technologies into the innovation (low
+                   explorative and high exploitative). The CVC entry analysis is performed with
+                   those two new measures using the same method as in Table 2. In Columns
+                   (5) and (6) of Table 5, the results suggest that VC entries follow a period of
+                   decreasing exploration and increasing exploitation.
+
+               3. The Investment of CVC
+                   In this section, I study the investment stage of the CVC life cycle. Under the
+                   strategic view, CVCs are adopted to help parent firms learn new innovation
+                   knowledge from the entrepreneurial sector and then to further implement
+                   those new technologies to fix their internal innovation. Accordingly, CVCs are
+                   expected to invest in startups that can provide newer and more useful knowledge
+                   and to integrate this new technological information into parent firms’ organic
+                   R&D.
+
+                   3.1 CVC portfolio formation
+                   The analysis starts by examining characteristics that lead to the formation of
+                   a CVC-startup deal, and the key test is an empirical matching model between
+                   CVCs and portfolio companies. I first build a data set of all potential CVC-
+                   startup pairs by pairing each CVC i with each entrepreneurial company j that
+                   had ever received an investment by a VC. I remove such pairs when the active
+                   investment years of the CVC firm i (between initiation and termination) and
+                   the active financing years of company j (between the first and the last round
+                   of VC financing) do not overlap. In the cases where a CVC i makes multiple
+                   rounds of investments in startup j , only one observation is kept in the sample.
+                      The fact that CVCs are initiated following deteriorations in innovation
+                   naturally leads to the question of whether CVCs actively make investments
+                   in the direction to help fix those weaknesses. To clearly show this point,
+                   for each CVC-startup pair i-j , I create a dummy variable indicating
+                   whether a startup innovates in technology classes in which the CVC
+                   parents experience heavily decreasing innovation productivities. In other
+
+
+
+                   376
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                   Page: 376   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  words, I (DeterioratingAreas) = 1 if startup j innovates in any of CVC i’s
+                  deteriorating areas. A technological area is considered as deteriorating in a firm
+                  if the number of patent applications in the area decreases from the previous year.
+                      I also construct two variables, Technological Proximity (TechProximity) and
+                  Knowledge Overlap (Overlap), to assess the role of technological distances
+                  on CVC-startup matching. TechProximity is calculated as the cosine similarity
+                  between the CVC’s and the startup’s vectors of patent weights across different
+                  technology classes (Jaffe 1986; Bena and Li 2014). A higher TechProximity
+                  indicates that the pair of firms works in closer areas in the technological
+                  space. Overlap is calculated as the ratio of (i) numerator: the number of
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  patents that receive at least one citation from CVC firm i and one citation
+                  from entrepreneurial company j ; to (ii) denominator: the number of patents
+                  that receive at least one citation from either CVC i or company j (or both). A
+                  higher Overlap means that the pair of firms shares broader common knowledge
+                  in innovation.8
+                      In addition to measuring the technological distance for each pair, I also
+                  construct two measures to capture the geographic distance. Local is a dummy
+                  variable indicating whether CVC firm i and company j are located in the same
+                  commuting zone (CZ). CZ is used as the main geographic delineation because it
+                  has been shown to be more relevant for geographic economic activities (Autor,
+                  Dorn, and Hanson 2013; Adelino, Ma, and Robinson 2017). I also include
+                  the natural logarithm of the distance between firm i and startup j (accurate at
+                  zip-code level in kilometers).
+                      The empirical test exploits a reduced-form matching model on this sample
+                  of CVC-startup pairs to predict the decision of CVC i investing in company j ,
+                  in the following form,
+                  I (CV Ci -T argetj ) = α +β0 ×I (DeterioratingAreas)ij
+
+                                                  +β1 ×T echP roximityij +β2 ×KnowledgeOverlapij
+
+                                                  +β3 ×Localij +β4 ×Distanceij +γ ×Xi,j +εi,j ,
+                                                                                                  (5)
+                  where the dependent variable I (CV Ci -T argetj ) indicates whether CVC i
+                  actually invests in company j (i.e., the realized pair). In Xi,j I control for CVC
+                  (i)-level characteristics including the number of annual patent applications
+                  and the average citations of patents; I also control for those innovation
+                  characteristics at the startup (j )-level.
+                     Table 6 presents coefficients estimated from Model (5). In Column (1), the
+                  dummy variable has a positive coefficient I (DeterioratingAreas). This can
+
+
+               8 Both Technological Proximity and Knowledge Overlap are measured as of the last year before CVC i and company
+                  j both entered the VC-startup community. For example, if firm i initiates the CVC in 1995 but company j obtained
+                  its first round of financing in 1998, the measure is constructed using the patent profiles in 1997. The rationale
+                  for this criterion is to mitigate the potential interactions between CVCs and startups before investment, thus
+                  providing a clean interpretation of the estimation.
+
+
+
+
+                                                                                                                             377
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 377   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Table 6
+                   Corporate Venture Capital’s selection of portfolio companies
+
+                                                         (1)               (2)               (3)                (4)              (5)
+                                                                                    I (CV Ci -T argetj )
+                   I (DeterioratingAreas)              0.012∗∗            0.012∗∗          0.012∗∗            0.012∗∗           0.011∗∗
+                                                      (2.180)            (2.158)          (2.131)            (2.099)           (2.074)
+                   Technological proximity                                0.029∗∗          0.031∗∗            0.031∗∗           0.031∗∗
+                                                                         (2.149)          (2.001)            (1.998)           (2.003)
+                   Knowledge overlap                                                     −0.018∗∗           −0.016∗∗          −0.016∗∗
+                                                                                        (−2.001)           (−2.107)          (−1.998)
+                   Local                                                                                    −0.010∗∗∗         −0.011∗∗∗
+                                                                                                           (−2.812)          (−2.711)
+                   ln(Distance)                                                                                               −0.010∗∗∗
+
+
+
+
+                                                                                                                                                 Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                                                                                                             (−4.755)
+                   Observations                       868,323            868,323           868,323           847,102           847,102
+                   R2                                  0.137              0.137             0.137             0.141             0.141
+                   CVC-level controls                    Yes                Yes               Yes               Yes              Yes
+                   Startup-level controls                Yes                Yes               Yes               Yes              Yes
+                   This table studies how CVCs select portfolio companies. I construct a cross-sectional data set by pairing each
+                   CVC i with each entrepreneurial company j that had ever received investment from a VC. I remove cases in
+                   which the active investment years of CVC firm i (between initiation and termination) and active financing years
+                   of company j (between the first and the last round of VC financing) do not overlap. The analysis is performed
+                   using the following specification:
+
+                                    I (CV Ci -T argetj ) = α +β0 ×I (DeterioratingAreas)ij
+
+                                                               +β1 ×T echP roximityij +β2 ×KnowledgeOverlapij
+
+                                                               +β3 ×Localij +β4 ×Distanceij +γ ×Xi,j +εi,j ,
+
+                   where the dependent variable, I (CV Ci -T argetj ), is equal to one if CVC i actually invests in company j
+                   (realized pairs) and zero otherwise. I (DeterioratingAreas) is a dummy variable indicating whether startup j
+                   innovates in technology classes in which the CVC parents experience heavy decreasing innovation productivities.
+                   A technological area is considered as deteriorating in a firm if the number of patent applications in the area
+                   decreases from the previous year. Technological Proximity is calculated as the cosine similarity between the
+                   CVC’s and startup’s vectors of patent weighting across different technological classes (Jaffe 1986; Bena and Li
+                   2014). Knowledge Overlap is calculated as the ratio of the cardinality (size) of the set of patents that receive at
+                   least one citation from CVC firm i and one citation from the entrepreneurial company j , and of the cardinality
+                   of the set of patents that receive at least one citation from either CVC i or company j (or both). Geographical
+                   distance is first measured using a dummy variable indicating whether the CVC firm i and company j are located in
+                   the same commuting zone (CZ), Local . ln(Distance) is the natural logarithm of the kilometer distance between
+                   i and j . The Appendix defines those variables more formally. CVC (i )-level characteristics include the number
+                   of annual patent applications and the average number of citations of patents; I also control for those innovation
+                   characteristics at the startup (j ) level. t-statistics are shown in parentheses, and standard errors are clustered by
+                   CVC firm. *, **, and *** denote statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+
+
+
+                   be interpreted as that among a set of otherwise identical startups, a CVC is
+                   more likely to invest in startups that invent in areas in which the CVC itself
+                   is weakening. In Column (2), a positive and significant coefficient means that
+                   the Technological Proximity between a CVC and an entrepreneurial company
+                   increases the likelihood of CVC deal formation. This means that a one-
+                   standard-deviation increase of TechProximity between a CVC parent firm and
+                   a startup doubles the probability that an investment relationship is formed.
+                   Column (3) examines Knowledge Overlap. The negative coefficient means
+                   that after conditioning on technological proximity, CVC parent firms prefer
+
+
+                   378
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                Page: 378      358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  to invest in companies about which they have more limited knowledge. A one-
+                  standard-deviation increase of Overlap leads to a 40% decrease in investment
+                  probability.9
+                     In Column (4), I explore whether CVCs are more or less likely to invest
+                  in geographically proximate firms. The venture capital literature, and the
+                  investment literature more broadly, has documented a “home (local) bias”
+                  phenomenon—when investing in companies that are geographically closer,
+                  financial return-driven investors can better resolve the information asymmetry
+                  problem and conduct more efficient monitoring (Cumming and Dai 2010;
+                  Hochberg and Rauh 2012; Bernstein, Giroud, and Townsend 2016). In Column
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  (5), however, I find that CVCs do not really invest in their “home” companies
+                  after controlling for the distance measure. The dummy variable indicating
+                  that the CVC and the startup are located in the same CZ negatively affects
+                  the probability of investment. This finding is consistent with the strategic
+                  explanation that CVC parent firms can acquire innovation knowledge from
+                  startups in the same CZ through local innovation spillover (Jaffe, Trajtenberg,
+                  and Henderson 1993; Peri 2005; Matray 2016), which decreases the marginal
+                  benefit of making a CVC investment in them.
+                     In Online Appendix D, I extend the analysis on different CVC and IVC
+                  investment patterns by providing additional comparisons at the deal, fund,
+                  and industry levels. These analyses show that compared with IVCs, CVCs
+                  disproportionately invest in entrepreneurial ventures that are innovation-
+                  intensive, and they invest in earlier stages and syndicate more. Interestingly,
+                  I show that CVCs keep their industry focus in investment when choosing
+                  companies, rather than replicating IVC strategies.
+
+                  3.2 Knowledge flows from portfolios to CVCs
+                  Do parent firms integrate CVC-led innovation knowledge to complement their
+                  internal innovation? This section tests whether the investment relationship
+                  between a CVC and an entrepreneurial venture leads the parent firm to adopt
+                  innovation produced by the entrepreneurial venture, which will be captured
+                  by new patent citations made by the firm to the venture.10 An ideal setting in
+                  which to test this would be among similar firms (pairs of counterfactual firms):
+                  first, randomly assign some firms to launch CVC divisions and some not to
+                  launch them; then randomly assign portfolio companies to those CVC units. A
+
+
+               9 In the Online Appendix, I show that when including a variable indicating whether the startup’s innovation areas
+                  are all outside the CVC parent’s innovation areas, I (Diversifying), the coefficient is negative. This confirms
+                  that CVC parents are more interested in investing in technologically proximate firms. In fact, when excluding
+                  Knowledge Proximity, Overlap carries a positive coefficient. This is due to the fact that Technological Proximity
+                  and Overlap are highly correlated, and without controlling for technological distance, Overlap mainly captures
+                  the dimension of technological proximity.
+              10 An existing literature uses patent citation behaviors to track knowledge spillovers (Jaffe and Trajtenberg 2002,
+                  Gomes-Casseres, Hagedoorn, and Jaffe 2006, Gonzalez-Uribe 2019). Alcacer and Gittelman (2006) and Gomes-
+                  Casseres, Hagedoorn, and Jaffe (2006), among others, discuss the advantages and potential pitfalls in using this
+                  approach.
+
+
+
+
+                                                                                                                             379
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 379   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   higher occurrence of CVCs citing their own portfolio companies would be a
+                   sign that technological knowledge flows from the invested venture to the CVC
+                   parent—that is, innovation complementarities are integrated.
+                      Lacking such an ideal setting that exogenously generates CVC units and
+                   exogenously matches CVCs with startups, this section instead attempts to create
+                   a setup by carefully constructing a set of control firms using similar approaches
+                   as Bena and Li (2014) and Brav et al. (2018). Specifically, for each CVC-startup
+                   pair (i-j ) that was formed in year t, I use a propensity score matching method
+                   and match each CVC parent firm i with five non-CVC firms in t from the same
+                   two-digit SIC industry that has the closest propensity score estimated using firm
+
+
+
+
+                                                                                                                                      Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   size (the logarithm of total assets), market-to-book ratio, I nnovation, and
+                   the total number of patents for which the firm applied up to year t −1. I denote
+                   those firms as i  . I also match venture j with five entrepreneurial ventures using
+                   a propensity score estimated using venture age, total number of granted patents
+                   by year t −1, and the same key innovation technology class. I denote those
+                   firms as j  .11 With those matched firms and startups, I create a set of control
+                   pairs for each realized CVC-venture pair i-j , by pairing {i,i  }×{j,j  }.
+                      The central empirical test estimates whether CVC parent firm i is more likely
+                   to make new citations to startup company j ’s patents after i invests in j , using
+                   the following model:
+                                Citeij t = α +β ·I (CV Ci -P ortf olioj )×I (P ostij t )
+                                                                                                                            (6)
+                                               +γ1 ·I (CV Ci -P ortf olioj )+γ2 ·I (P ostij t )+εij t ,
+                   where observations are at the i-j -t level. I (CV Ci -P ortf olioj ) indicates
+                   whether the pair is a realized CVC-startup pair or a constructed control pair.
+                   For each pair in {i,i  }×{j,j  }, two observations are constructed, one for the
+                   five-year window before firm i invests in company j and one for the five-year
+                   window after the investment.12 I (P ostij t ) indicates whether the observation is
+                   within the five-year post-investment window. The dependent variable, Citeij t ,
+                   indicates whether firm i makes new citations to company j ’s innovation
+                   knowledge during the corresponding five-year time period.
+                      The key coefficient of interest, β, captures the incremental intensity of
+                   integrating a startup’s innovation knowledge into organic innovation after a
+                   CVC invests in the company. Table 7, Column (1), shows the regression results.
+                   The coefficient of 0.197 means that the citing probability increases by 19.7%
+                   after establishing the link through CVC investment. In Column (4), I perform
+                   an analysis similar to that in Column (1) except that I look at the probability that
+                   a CVC parent firm cites not only patents owned by the startup but also patents
+
+
+                11 Since these are early-stage ventures, financial statement information is unavailable and thus cannot be
+                   incorporated in the matching algorithm.
+                12 Essentially, a matched control firm is assumed to have the same investment history as the CVC parent firm to
+                   which it is matched.
+
+
+
+
+                   380
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                        Page: 380   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  Table 7
+                  Integrating innovation complementarities from CVC investments
+
+                                                        (1)           (2)          (3)                       (4)          (5)          (6)
+                                                          Citing a company’s patents                      Citing a company’s knowledge space
+
+                  I (CV C-P ortf olio)×I (P ost)       0.197∗∗∗                                           0.361∗∗∗
+                                                      (4.538)                                            (8.196)
+                                     ×Acquired                     0.297∗∗∗                                              0.695∗∗∗
+                                                                  (8.559)                                              (11.175)
+                                ×N otAcquired                      0.191∗∗∗                                              0.352∗∗∗
+                                                                  (3.082)                                               (5.114)
+                                   ×Successf ul                                 0.252∗∗∗                                              0.395∗∗∗
+                                                                               (7.819)                                               (9.956)
+                                           ×F ailed                             0.129∗∗∗                                              0.294∗∗∗
+
+
+
+
+                                                                                                                                                         Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                                                               (3.152)                                               (5.200)
+                  I (CV C-P ortf olio)                             0.013                                                 0.028
+                                                                  (1.104)                                               (1.344)
+                  I (P ost)                                        0.025                                                 0.039
+                                                                  (1.235)                                               (1.187)
+                  Firm-level controls                               Yes                                                   Yes
+                  Startup-level controls                            Yes                                                   Yes
+                  Observations                                     71,305                                               71,305
+                  R2                                              0.264                                                 0.231
+
+                  This table studies whether CVC parents incorporate their portfolio companies’ technological knowledge in their
+                  own internal R&D. For each CVC-startup pair (i -j ) that is formed in year t , I use a propensity score matching
+                  method to match each CVC parent firm i with five non-CVC firms in t from the same two-digit SIC industry that
+                  has the closest propensity score estimated using firm size (the logarithm of total assets), market-to-book ratio,
+                  I nnovation, and the total number of patents for which the firm applied up to year t −1. I denote those five
+                  firms as i  . I also match venture j with five entrepreneurial ventures using a propensity score estimated using
+                  venture age, total number of granted patents by year t −1, and the same key innovation technology class. I denote
+                  those five entrepreneurial companies as j  . With those matched firms and startups, I create a set of control pairs
+                  for each realized CVC-venture pair i -j , by pairing {i,i  }×{j,j  }. The analysis is performed using the following
+                  framework,
+                                              Citeij t = α +β ·I (CV Ci -P ortf olioj )×I (P ostij t )
+
+                                                            +γ1 ·I (CV Ci -P ortf olioj )+γ2 ·I (P ostij t )+εij t ,
+
+                  where observations are at the i -j -t level. I (CV Ci -P ortf olioj ) indicates whether the pair is a realized CVC-
+                  startup pair or a constructed control pair. For each pair in {i,i  }×{j,j  }, two observations are constructed, one for
+                  the five-year window before firm i invests in company j , and one for the five-year window after the investment.
+                  I (P ostij t ) indicates whether the observation is within the five-year post-investment window. The dependent
+                  variable, Citeij t , indicates whether firm i makes new citations to company j ’s innovation knowledge during the
+                  corresponding five-year time period.
+                  Column (1) reports the result. Column (4) performs an analysis similar to that in Column (1) except that it
+                  estimates the probability that a CVC parent firm cites not only patents owned by the startup, but also patents
+                  previously cited by the startup. In other words, the potential citation now covers a broader technological area in
+                  which the startup works. Columns (2) and (5) separately estimate the intensity of citing knowledge possessed by
+                  companies that were later acquired by the CVC investor. Columns (3) and (6) separately estimate the intensity of
+                  citing knowledge possessed by companies that either exit successfully (acquired or publicly listed) or eventually
+                  fail. All specifications include CVC (i )-level characteristics including number of annual patent applications,
+                  average citations of patents, and controls for those innovation characteristics at the startup (j ) level. t-statistics
+                  are shown in parentheses, and standard errors are clustered by firm. *, **, and *** denote statistical significance
+                  at the 10%, 5%, and 1% levels, respectively.
+
+
+
+
+                  previously cited by the startup. In other words, the potential citation now covers
+                  the broader technological knowledge upon which the startup works (similar to
+                  the definition of knowledge in defining the instrument in Equation (2)). Column
+                  (4) extends the message conveyed in Column (1)—CVC parent firms not only
+                  cite the portfolio company’s own patents, but also benefit from the knowledge
+
+
+
+                                                                                                                                         381
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                          Page: 381    358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   indirectly carried by portfolio companies, reaching to the broader knowledge
+                   behind.
+                      Acquiring portfolio companies may facilitate the information flow to CVC
+                   parents. To empirically test this idea, I modify Model (6) and separately
+                   estimate the intensity of citing knowledge possessed by companies that either
+                   are acquired by the CVC parents or not. The results are presented in Table 7,
+                   Columns (2) and (5). I find that the citing intensity is much higher in cases
+                   where the portfolio company is acquired by the CVC parent (0.297 vs.
+                   0.191; 0.695 vs. 0.352), confirming the conjecture that strategic acquisition
+                   is one way to obtain knowledge inflow. The decision to acquire a portfolio
+
+
+
+
+                                                                                                                Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   company is obviously highly endogenous and incorporates forward-looking
+                   information in the regressions. The fact that a startup is acquired by its CVC
+                   investor can be consistent with the interpretation that firms are more likely to
+                   acquire strategically complementary targets (Bena and Li 2014). But in either
+                   the “selection” or “treatment” interpretation, it is safe to say that strategic
+                   acquisition can be an important channel through which CVC parents internalize
+                   strategic benefits.
+                      Do CVC parents benefit only from complementarities from financially
+                   successful startups or also from failed startups? I explore this question
+                   by modifying Model (6) and separately estimating the intensity of citing
+                   knowledge possessed by companies that either exit successfully (acquired or
+                   publicly listed) or eventually fail. The results are reported in Columns (3) and
+                   (6), and it appears that CVC parents acquire knowledge from both successful
+                   and failed ventures.
+                      Importantly, I (CV Ci -P ortf olioj ) is insignificant as a standalone variable,
+                   meaning that before investing in a startup through CVC, a parent firm does
+                   not cite technologies of the startup at a higher rate compared with its matched
+                   controls. This partially addresses the concern that CVC is the incumbents’ way
+                   of supporting startups on which they already technologically rely, as opposed
+                   to seeking new complementarities. This is also consistent with the findings
+                   in Table 6 that show that the technological overlap of a CVC parent and its
+                   portfolio companies is small. I (P ostij t ) is insignificant, reassuring that CVC
+                   is not just riding a trend of more aggressive citing behaviors from incumbents
+                   to the entrepreneurial sector.
+                      How does innovation knowledge flow from startup to CVC parents? This
+                   can be achieved through strategic acquisitions as shown earlier and that will be
+                   separately discussed again in Section 3.4, but also through various additional
+                   mechanisms. McNally (2002) finds that many CVC portfolio companies
+                   commend corporate assistance in solving technical problems and are willing
+                   to share technical details with those investors, which is consistent with Sykes
+                   (1990), who presents similar evidence using survey data from thirty-one CVC
+                   programs. Using CVCs in the computer and communications industries in the
+                   later 1990s, Maula (2001) show that CVCs hold board seats or observer seats
+                   in more than 70% of the cases, which provide CVC parents with knowledge of
+
+
+
+                   382
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                  Page: 382   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  ventures’ key activities and technologies. Separately, it is worth noting that part
+                  of the benefit may come from failed ventures, which are impossible to acquire
+                  but can be valuable for parents exploring new technologies (Dushnitsky and
+                  Lenox 2005b).
+
+
+                  3.3 CVC investment and internal value creation
+                  After isolating the fact that information from CVC portfolio companies flows
+                  to parent firms at the micro patent level, in this section I attempt to quantify how
+                  these strategic benefits help CVC parents’ innovation recover from the weak
+
+
+
+
+                                                                                                                        Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  period. To do so, I run a difference-in-differences style estimation to document
+                  changes in parent firms after CVC entry,
+
+                            yi,t = αF E +β ·I (CV CP arent)i ×I (P ost)i,t
+
+                                         +β  ·I (CV CP arent)i +β  ·I (P ost)i,t +γ ×Xi,t +εi,t .      (7)
+
+                  This setup is unfortunately not entirely endogeneity-free since CVC
+                  investments are not randomly allocated. To partially mitigate this problem,
+                  I construct a control group for CVC parent firms using the propensity score
+                  matching method. The algorithm matches each CVC parent firm that launches
+                  CVC in year t with two non-CVC firms from the same year and two-digit SIC
+                  industry that has the closest propensity score estimated using size (logarithm
+                  of total assets), market-to-book ratio, I nnovation, and patent stock. The
+                  CVC launching year for a CVC parent firm is also the “pseudo-CVC” year
+                  for its matched firms, and I include firm data beginning five years before the
+                  (pseudo-) event year through five years afterward. I (CV CP arent)i is a dummy
+                  variable indicating whether firm i is a CVC parent or a matched control firm.
+                  I (P ost)i,t indicates whether the firm-year observation is within the [t +1,t +5]
+                  window after (pseudo-) CVC initiations. The model includes year and firm
+                  fixed effects. Firm-level control variables include ROA, size (logarithm of total
+                  assets), leverage, and R&D ratio (R&D expenditures scaled by total assets).
+                     Table 8 reports the results. I start by investigating firm value proxied using
+                  Tobin’s q in Column (1), and I find that CVC parents experience significant
+                  increases in firm value. The estimate of 0.248 is nearly 10% of the sample mean.
+                  Regarding internal innovation, both the number of patents and the average
+                  citations increase significantly, with a quasi-elasticity of 0.227 and 0.170,
+                  respectively. Interestingly, in Column (4), I find that the level of explorativeness
+                  of CVC parents’ patents increases significantly. This is in line with the strategic
+                  interpretation that CVC parents learn new knowledge from their portfolio
+                  companies and incorporate those in their own innovation. Again, without an
+                  exogenous shock to CVC initiations, it is difficult to attribute all the changes
+                  directly to CVC. Yet the evidence is at least consistent with the interpretation
+                  that CVC-led strategic benefits partially contribute to the rebound of firm
+                  performance of their parent firms.
+
+
+
+                                                                                                         383
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                          Page: 383   358–394
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]
+
+
+
+
+                                                                                                                                                                                                                                                                                   Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                           384
+
+
+
+
+                                                                                                                                                                                                                                                 The Review of Financial Studies / v 33 n 1 2020
+                                                 Table 8
+                                                 CVC investments and the creation of strategic value
+
+                                                                                   (1)                  (2)               (3)                       (4)                 (5)          (6)                         (7)                   (8)
+                                                                               Firm value                       Internal innovation                                      Acquisition                               Patent transactions
+                                                                                Tobin’s q      Ln(1+New patents)    Ln(1+Citation)           Explorativeness       CAR [−1,1]   CAR [−3,3]                Citation[−1,+1]    Citation[−3,+3]
+                                                 I (CV CP arent)×I (P ost)       0.248∗∗∗            0.227∗∗∗               0.170∗∗∗              0.039∗∗∗          47.282∗          126.485∗                  0.227∗∗∗            1.428∗∗∗
+                                                                                (3.541)             (4.443)                (2.733)               (2.852)            (1.713)           (1.822)                 (3.814)             (6.538)
+                                                 Observations                     6,859               6,859                  6,859                3,223               1,502              1,502                43,874               32,254
+                                                 R2                              0.724               0.931                  0.733                0.590               0.272              0.281                 0.045                0.082
+                                                 Controls                          Yes                 Yes                    Yes                  Yes                 Yes                Yes                   Yes                  Yes
+                                                 Year FE                           Yes                 Yes                    Yes                  Yes                 Yes                Yes                   Yes                  Yes
+                                                 Firm FE                           Yes                 Yes                    Yes                  Yes                 Yes                Yes                   Yes                  Yes
+                                                 This table studies the dynamics of firm value and innovation around the start of CVC investment. The analysis is based on the following standard difference-in-differences (DiD) framework:
+
+                                                                                             yi,t = αF E +β ·I (CV CP arent)i ×I (P ost)i,t +β  ·I (CV CP arent)i +β  ·I (P ost)i,t +γ ×Xi,t +εi,t .
+
+                                                 To construct a proper control group for CVC parent firms, I employ the propensity score matching method and match each CVC parent firm that launches CVC in year t with
+                                                 two non-CVC firms from the same year and two-digit SIC industry that has the closest propensity score estimated using size (logarithm of total assets), market-to-book ratio,
+                                                 I nnovation, and patent stock. The CVC launching year for a CVC parent firm is also the “pseudo-CVC” year for its matched firms, and I include firm data beginning five years
+                                                 before the (pseudo-) event year through five years afterward. The dependent variables yi,t include Tobin’s q, innovation quantity, innovation quality, explorativeness, efficiencies of
+                                                 acquisitions measured using cumulative abnormal returns, and patent transaction efficiencies measured using jumps of annual patent citations. I (CV CP arent)i is a dummy variable
+                                                 indicating whether firm i is a CVC parent or a matched control firm. I (P ost)i,t indicates whether the observation is within the [t +1,t +5] window after (pseudo-) CVC initiations.
+                                                 The model includes year and firm fixed effects. Firm-level control variables include ROA, size (logarithm of total assets), leverage, and R&D ratio (R&D expenditures scaled by
+                                                 total assets). t-statistics are shown in parentheses and standard errors are clustered by firm. *, **, and *** denote statistical significance at the 10%, 5%, and 1% levels, respectively.
+
+
+Page: 384
+
+
+
+
+358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  3.4 CVC investment and strategic acquisitions
+                  Using the same framework as in Equation (7), I examine how CVC investments
+                  affect strategic acquisitions made by their parents. Acquiring innovation has
+                  become an important component of corporate innovation (Bena and Li 2014;
+                  Seru 2014). Not surprisingly, some CVC relations evolve into acquisitions
+                  of the portfolio companies by the CVC parent (Benson and Ziedonis 2010;
+                  Dimitrova 2013). In general, about one-fifth of CVC investors acquire their
+                  portfolio companies. CVC units that did conduct such acquisitions acquired on
+                  average 5% of their portfolio companies (that is, one out of 20 investments),
+                  and those acquisitions consist of 20% of all acquisitions made by those CVC
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  parents. As shown in Table 7, such strategic acquisitions are related to a higher
+                  level of knowledge inflow from portfolio companies to the CVC parent.
+                     In addition to acquiring portfolio companies, CVC investments create
+                  strategic value for parents’ acquisitions of non-portfolio companies. Identifying
+                  promising acquisition targets (companies or innovation) requires a valuable
+                  information set, such as great understanding of markets and technological
+                  trends. Complementary innovation knowledge from the CVC experience can
+                  help parent firms to form more precise expectations of acquisition deals, thereby
+                  improving efficiencies when making such decisions.
+                     Columns (5) and (6) in Table 8 examine three-day [−1,+1] and seven-day
+                  [−3,+3] CAR (in basis points, bps), respectively. The positive and significant
+                  coefficients across both columns confirm that firms conduct more successful
+                  external acquisitions subsequent to CVC investments. Quantitatively, compared
+                  to their industry peers, acquisitions made by CVC parents experience a 47
+                  bps improvement in the three-day abnormal return from one day before the
+                  announcement to one day after the announcement, and a greater than 126 bps
+                  increase in abnormal return during the [−3,+3] window.
+                     In addition to acquisitions of companies, I also perform the analysis on the
+                  sample of patent purchases conducted by CVC parent firms and their control
+                  firms, and the unit of observation is a patent transaction. The dependent variable
+                  is calculated as the citation growth from the n-year (n = 1 or 3) period before
+                  the patent transaction to the same length after the transaction.13 This variable
+                  intends to capture whether the purchased patents better fit the buyer than the
+                  seller, thereby signaling a more efficient transaction. The positive coefficient in
+                  Column (7), 0.227, means that after being benchmarked by patent transactions
+                  conducted by their matched control firms and pre-CVC transactions, patents
+                  purchased by CVC parent firms receive on average 0.227 more citations during
+
+
+
+
+              13 For example, when n = 3, Citation[−3,+3] is calculated as total citations received by the transacted patent
+                  from one year to three years after the transaction minus total citations received from 3 years to one year before
+                  the transaction.
+
+
+
+
+                                                                                                                             385
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 385   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   the first year under the new owner than during the last year under the old owner.
+                   Column (8) shows a larger result under the three-year horizon.14
+
+
+                   3.5 CVC investment and entrepreneurs’ incentives
+                   By far the evidence shows that CVC investments focus on portfolio companies
+                   that are strategically valuable to the parents, and those investments are
+                   associated with significant increases in firm value, internal innovation, and
+                   external acquisition efficiencies. Meanwhile, this also raises questions from
+                   the entrepreneurs’ side: what incentives do entrepreneurs have to work with
+
+
+
+
+                                                                                                                                                Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   CVCs that intend to obtain such strategic benefit?
+                      Theoretically, there are two main reasons for startups to accept CVC
+                   investments despite the fact that they will transfer knowledge to the investor.
+                   First, startups can obtain strategic complementarities that could arise from the
+                   investment relationship. Hellmann (2002) shows that even if there is a potential
+                   knowledge spillover from the startup to the CVC parent, the entrepreneur
+                   will find it optimal to work with a CVC if the complementarity is high or a
+                   traditional VC is willing to lead a syndication. In the real world, these strategic
+                   complementarities can be in the form of technology support from the CVC
+                   parent to the startup or being more risk-tolerant in the development process,
+                   among others. In fact, Chemmanur, Loutskina, and Tian (2014) find that
+                   CVC-backed companies are better nurtured and thus become more innovative
+                   compared with those solely invested by independent VCs. Second, using a
+                   traditional industrial organization (IO) framework with competition between
+                   startups and CVC parents, Mathews (2006) argues that by accepting equity
+                   investment from competitive incumbent CVC parents, a portfolio company
+                   can effectively lower the incentives of the incumbents to enter the startup’s
+                   market and directly compete with the startup.
+                      In practice, several forces restrict a CVC parent’s ability to use technological
+                   information transferred from its portfolio companies in a “harmful” way. The
+                   patent system allows portfolio companies to protect their intellectual properties.
+                   The reputation cost of harming portfolio companies will deter CVC parents
+                   from doing so. Also, note that independent VCs might transfer knowledge
+                   to other portfolio companies in their portfolios (Gonzalez-Uribe 2019), so
+                   it is not entirely clear that CVCs are less reliable than other VCs. Lastly,
+                   contractual arrangements between CVCs and portfolio companies can also
+                   provide protections to the startups.
+
+
+
+                14 It is worth discussing the economic interpretation behind this spike in citations after CVC firms’ patent
+                   transactions. In principle, a spike in citations indicates that the underlying patent becomes increasingly visible
+                   and popular, plausibly because it better fits the overall innovation profile of the new owner or is commercialized
+                   more successfully after the transaction. Specifically in our context, this particularly strong increase in citations is
+                   consistent with the interpretation that CVC parent firms acquire innovation that is in turn better commercialized
+                   and made visible to the industry.
+
+
+
+
+                   386
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                 Page: 386    358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+             4. The Termination of CVC
+                  The CVC life cycle analysis concludes with the termination decision of CVCs.
+                  What is the staying power of CVC units, and in what conditions do parent firms
+                  terminate their CVC units?
+
+
+                  4.1 The staying power of CVC
+                  I start by examining the staying power of CVC. The duration of a CVC unit
+                  is calculated as the period between the initiation and the termination dates.
+                  To be clear, the definition of termination is the discontinuation of actively
+
+
+
+
+                                                                                                                Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  seeking new investment opportunities in new portfolio companies. The rationale
+                  behind this construction is to cleanly measure the window during which a CVC
+                  actively seeks new fields of exploration. CVCs can interact with their portfolio
+                  companies for longer periods of time after terminating incremental investment,
+                  in which the strategic benefit can gradually realize.
+                     CVC termination dates are largely not available through the VentureXpert
+                  data set, so I collect this information through several steps. First, a fund is
+                  categorized as “active” if its last investment happened after 2012 (as of March
+                  2015) and VentureXpert codes its investment status as “Actively seeking new
+                  investments.” Then I start from a historical annual panel of VentureXpert from
+                  1999 to 2014 that allows me to track the status of investors annually, and I code
+                  the year from “Actively seeking new investments” to “Inactive” or “Unknown”
+                  as the suspect year of termination. I then conduct a media and press search to
+                  confirm the information. For CVCs of which the exit data are not identified,
+                  I use the year of the last investment to proxy the year of exit (Gompers and
+                  Lerner 2000). I note that there are potential sources of noise in this data, yet
+                  those noises should not bias the estimation in any particular way.
+                     Table 9 shows that CVC units stay for a relatively short period of time—the
+                  median duration of a CVC is four years, and a significant portion (46%) of CVCs
+                  actively invest for three years or fewer. Around 27% of firms operate CVCs
+                  for a long period (more than ten years). To understand why this is so, I report
+                  the median number of total and longest consecutive years that a CVC is put
+                  into hibernation, defined as a year when no incremental investment was made.
+                  When the CVC duration is short, the years between initiation and termination
+                  are mostly active. As the duration increases, an increasing proportion of years is
+                  under hibernation. When I examine these hibernation periods, I find a pattern of
+                  consecutive hibernating years—for example, CVCs with eight-year durations
+                  have a median of four years of consecutive hibernation. In other words, these
+                  CVCs typically have a lengthy pause in their CVC experience, bridging two
+                  shorter active periods of investment.
+                     This number does not take into account that the relationship with their
+                  portfolio companies may last well beyond three years. In fact, after this period
+                  of time, they may still make investments in the portfolio companies that they
+                  picked and in which they made an initial investment. Even in cases where they
+
+
+
+                                                                                                 387
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                  Page: 387   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Table 9
+                   The staying power of Corporate Venture Capital
+                                                                                    Years in          Consecutive        Success
+                   Duration        Number        %          Cum. prob. (%)       hiber (median)      hiber (median)      rate (%)
+                   ≤3               151         45.90            45.90                 1                    0                 57
+                   4                 21          6.38            52.28                 1                    1                 54
+                   5                 21          6.38            58.66                 2                    1                 69
+                   6                 10          3.04            61.70                 2                    1                 59
+                   7                 13          3.95            65.65                 4                    2                 47
+                   8                 13          3.95            69.60                 4                    4                 56
+                   9                 12          3.65            73.25                 5                    3                 57
+                   ≥10               88         26.75           100.00                 6                    5                 57
+                   Total             329
+
+
+
+
+                                                                                                                                         Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   Still active      52
+                   This table presents the staying power of Corporate Venture Capital by summarizing the durations of CVCs and
+                   investment patterns sorted by duration. When the date of CVC termination is not available, I define it as the
+                   date of last CVC investment in portfolio companies. I categorize a CVC as “still active” if its last investment
+                   happened after 2012 (as of March 2015) and VentureXpert categorizes the CVC’s investment status as “Actively
+                   seeking new investments.” Duration is calculated as the period between the initiation and termination of CVC
+                   investment. Hibernation (Hiber) is defined as the number of years between CVC initiation and termination
+                   without any investment in entrepreneurial companies. Consecutive hibernation years are calculated as years of
+                   the CVC’s longest consecutive hibernation. An investment deal is defined as a success if the entrepreneurial
+                   company was acquired or went public (I exclude cases in which the company has neither gone public nor been
+                   acquired but is still in business).
+
+
+                   do not make further investments, CVCs remain as shareholders for a long period
+                   of time and interact actively with the startup.
+                      One might argue that the short average CVC life cycle indicates that some
+                   CVC parent firms are incompetent in the VC business and thus terminate their
+                   CVC divisions quickly. To assess this concern, in Table 9, I calculate the success
+                   rate of deals invested by CVCs categorized by CVC duration. An investment
+                   deal is defined as a “success” if the entrepreneurial company was acquired
+                   or went public. I exclude cases in which the company is still active without
+                   a successful exit. Success rates of investments do not correlate with CVC
+                   duration, inconsistent with the idea of CVC incompetence. This somewhat
+                   surprising finding suggests that CVCs are strategically focused, and are willing
+                   to continue investing even when the firm may be financially unpromising in a
+                   traditional investor’s view. This may also be consistent with the view that CVCs
+                   are willing to patiently invest in certain companies because they have means of
+                   absorbing strategic benefits while IVCs cannot. These both are consistent with
+                   the earlier findings in Table 7 that CVC parents are capable of learning from
+                   even failed entrepreneurial efforts.
+
+                   4.2 Innovation improvements and CVC termination
+                   I then exploit a hazard model to statistically correlate innovation improvement
+                   and governance with an individual firm’s decision to terminate its CVC. A
+                   CVC parent firm enters the sample in the year of CVC initiation. The key
+                   variable of interest is I nnovation, which measures the difference between
+                   innovation level in year t and that of the initiation year. The coefficients
+                   estimated from the model are shown in Columns (1) and (2) of Table 10,
+
+
+
+                   388
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                          Page: 388    358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  Table 10
+                  Determinants of the termination of CVC life cycle
+
+                                                      (1)              (2)            (3)                (4)             (5)
+                                                                                CVC termination
+                  ln(NewP atent)                  0.355∗∗∗
+                                                  (5.585)
+                  ln(P at.Quality)                                 0.276∗∗∗
+                                                                   (6.277)
+                  Institutional shareholding                                         0.063
+                                                                                    (0.163)
+                  G-Index                                                                             0.049
+                                                                                                     (0.663)
+                  CEO turnover                                                                                          0.022
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                                                                                                       (0.518)
+                  exp(β)                           1.426            1.318                         Not significant
+                  Controls                           Yes              Yes              Yes              Yes              Yes
+                  Observations                      2,489            2,489            2,489            1,167            1,822
+                  This table studies the decision to terminate Corporate Venture Capital. The regressions are performed on the
+                  panel of CVCs in their active years. The dependent variable is a CVC termination dummy, and the specification
+                  is estimated using a hazard model. In Columns (1) and (2), the key variable I nnovationi,t is defined as the
+                  difference of innovation between year t and the year of initiation. In Columns (3) to (5), the key variables of
+                  interest are governance-related proxies including institutional shareholding, G-Index, and an event dummy of
+                  CEO turnover. Firm-level control variables include ROA, size (logarithm of total assets), leverage, and R&D
+                  ratio (R&D expenditures scaled by total assets). *, **, and *** denote statistical significance at the 10%, 5%,
+                  and 1% levels, respectively.
+
+
+
+                  and the hazard ratio is reported at the bottom of the Columns (exp(β)).
+                  The positive and significant coefficients (hazard ratio > 1) mean that larger
+                  improvements of innovation from the initiation year motivate parent firms to
+                  terminate CVC investment. In other words, when the weaknesses are fixed,
+                  CVCs are terminated. In Columns (3) to (5), I focus on corporate governance-
+                  related measures. Institutional shareholding, G-Index, and the event of CEO
+                  turnover do not have any explanatory power on the CVC termination decision.
+                     The staying power and termination analyses reveal the transitory nature of
+                  CVC, and the termination of CVCs is driven by the fulfillment of the strategic
+                  learning goal in the innovation process. In contrast, and again, it is unlikely that
+                  CVCs are driven by the agency conflicts between shareholders or the intention
+                  to utilize advantageous information to make venture investment.
+
+
+             5. Concluding Remarks
+                  This paper establishes the life cycle of Corporate Venture Capital and argues
+                  that CVCs help parent firms to achieve the strategic goal of fixing innovation
+                  weaknesses. I find that firms initiate CVC programs following deteriorations
+                  in internal innovation in order to seek innovation complementarities generated
+                  from the entrepreneurial sector. I further characterize the investment stages
+                  of the CVC life cycle, in which CVC parent firms strategically select portfolio
+                  companies that possess complementary knowledge and actively integrate newly
+                  acquired technological knowledge into corporate R&D. CVCs are terminated
+                  when internal innovation recovers in parent firms.
+
+
+                                                                                                                           389
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                            Page: 389    358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                      As CVCs become increasingly important in the economy, further
+                   understanding the strategic benefit of CVCs is an important and ongoing
+                   research agenda that connects to questions in corporate finance, strategy, and
+                   entrepreneurship. The strategic motive of CVC could be explored on several
+                   different levels and will benefit from diverse research methodologies. At the
+                   very micro level (within CVC), it would be important to study how CVCs
+                   are structured to facilitate the absorption of strategic benefit and how these
+                   activities are rewarded through compensation. At the firm level, it is worth a
+                   deeper examination to study how the strategic benefit of CVCs fits into the
+                   overall corporate innovation strategies like internal R&D, acquisitions, and
+
+
+
+
+                                                                                                                                               Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   joint ventures, among others. At the more macro level, it can be important to
+                   investigate how CVCs facilitate the diffusion of technologies and help increase
+                   the productivity of an industry and the economy.
+
+                   Appendix. Key Variable Definitions
+
+                   Variable                         Definition and Construction
+                   A. Innovation variables
+                   Obsolescence                     The variable is constructed as the changes in the number of citations received
+                                                    by a firm’s predetermined knowledge space. Formally defined by Equation (2)
+                                                    in the paper.
+                   New Patents                      Number of patent applications filed by a firm in a given year. The
+                                                    natural logarithm of this variable plus one is used in the paper, that is,
+                                                    ln(N ewP atent) ≡ ln(New P atent +1).
+                   Patent Quality                   Average citations received by the patents applied by a firms in a given year.
+                                                    The natural logarithm of this variable plus one is used in the paper, that is,
+                                                    ln(P at.Quality) ≡ ln(P atent Quality +1).
+                   Explorative                      Percentage of explorative patents filed in a given year by the firm; a patent is
+                                                    classified as explorative if at least 80% of its citations are not based on existing
+                                                    knowledge.
+                   Exploitative                     Percentage of exploitative patents filed in a given year by the firm; a patent is
+                                                    classified as exploitative if at least 80% of its citations are based on existing
+                                                    knowledge.
+                   B. CVC-startup relationship
+                   I(DeterioratingAreas)            Dummy variable indicating whether the startup innovates in areas in which the
+                                                    CVC parent firm experiences decline of patent quantity
+                   Technological Proximity          Degree of similarity between the distribution of two firms’ (i and j ) patent
+                                                    portfolios across two-digit technological classes using the same technique as
+                                                    in Jaffe (1986) and Bena and Li (2014). Formally,
+
+                                                                                                          Si Sj
+                                                                     T echnologicalP roximity =                    ,
+                                                                                                       Si Si Sj Sj
+
+                                                    where the vector S = (S1 ,S2 ,··· ,SK ) captures the distribution of the innovative
+                                                    activities, and each component Sk is the percentage of patents in technological
+                                                    class k in the patent portfolio.
+                   Knowledge Overlap                Firm i ’s knowledge in year t , Ki,t is constructed as the patents that received at
+                                                    least one citation from firm i up to year t , and similarly for firm j ’s knowledge
+                                                    Kj,t . Knowledge Overlap is calculated as the ratio of (1) numerator: the
+                                                    cardinality (size) of the set of patents that receive at least one citation from CVC
+                                                    firm i and one citation from entrepreneurial company j ; to (2) denominator:
+
+
+
+
+                   390
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                 Page: 390   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+
+                  Variable                          Definition and Construction
+                                                    the cardinality of the set of patents that receive at least one citation from either
+                                                    CVC i or company j (or both). That is,
+
+                                                                                                  Card(Ki,t ∩Kj,t )
+                                                                    KnowledgeOverlapij,t =
+                                                                                                  Card(Ki,t ∪Kj,t )
+
+                  Local                             Dummy indicating whether CVC firm i and entrepreneurial company j are
+                                                    located in the same commuting zone (CZ). When the CVC and the firm
+                                                    headquarters are located in different areas, I use the location that is closer
+                                                    to the startup.
+                  ln(Distance)                      Natural logarithm of the kilometer distance between firm i and entrepreneurial
+                                                    company j (accurate at zip-code level). When the CVC and the firm
+
+
+
+
+                                                                                                                                                Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                                                    headquarters are located in different areas, I use the location that is closer
+                                                    to the startup.
+                  C. Firm characteristics
+                  Size (Log of Assets)              The natural logarithm of total assets in millions, adjusted to 2007 U.S. dollars.
+                  Firm ROA                          Earnings before interest, taxes, depreciation, and amortization scaled by total
+                                                    assets.
+                  M/B                               The market value of common equity scaled by the book value of the common
+                                                    equity.
+                  Leverage                          Book debt value scaled by total assets.
+                  Cash Flow                         (Income before extraordinary items + depreciation and amortization) scaled
+                                                    by total assets.
+                  Firm R&D                          Research and development expenses scaled by total assets.
+                  Institutional Shareholding        Total shares (in %) held by the top five institutional shareholders in the firm.
+                  G-Index                           Governance index constructed in Gompers, Ishii, and Metrick (2003), which
+                                                    classifies and counts governance provisions that restrict shareholder rights.
+                  CEO Turnover                      Dummy variable indicating whether the firm overcomes a CEO turnover event
+                                                    in the year; data extracted from ExecuComp.
+
+
+
+
+                 References
+
+                  Adelino, M., S. Ma, and D. Robinson. 2017. Firm age, investment opportunities, and job creation. Journal of
+                  Finance 72:999–1038.
+
+                  Agarwal, R., R. Echambadi, A. M. Franco, and M. B. Sarkar. 2004. Knowledge transfer through inheritance:
+                  Spin-out generation, development, and survival. Academy of Management Journal 47:501–22.
+
+                  Alcacer, J., and M. Gittelman. 2006. Patent citations as a measure of knowledge flows: The influence of examiner
+                  citations. Review of Economics and Statistics 88:774–79.
+
+                  Autor, D. H., D. Dorn, and G. H. Hanson. 2013. The China syndrome: Local labor market effects of import
+                  competition in the United States. American Economic Review 103:2121–68.
+
+                  Basu, S., C. Phelps, and S. Kotha. 2011. Towards understanding who makes corporate venture capital investments
+                  and why. Journal of Business Venturing 26:153–71.
+
+                  Bena, J., and K. Li. 2014. Corporate innovations and mergers and acquisitions. Journal of Finance 69:1923–60.
+
+                  Benson, D., and R. H. Ziedonis. 2010. Corporate venture capital and the returns to acquiring portfolio companies.
+                  Journal of Financial Economics 98:478–99.
+
+                  Bernstein, S., X. Giroud, and R. R. Townsend. 2016. The impact of venture capital monitoring. Journal of Finance
+                  71:1591–622.
+
+                  Bloom, N., M. Schankerman, and J. Van Reenen. 2013. Identifying technology spillovers and product market
+                  rivalry. Econometrica 81:1347–93.
+
+                  Brav, A., W. Jiang, S. Ma, and X. Tian. 2018. How does hedge fund activism reshape corporate innovation?
+                  Journal of Financial Economics 130:237–64.
+
+
+
+
+                                                                                                                                  391
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                                 Page: 391    358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Ceccagnoli, M., M. J. Higgins, and H. D. Kang. 2017. Corporate venture capital as a real option in the markets
+                   for technology. In Technology & Engineering Management Conference (TEMSCON), 2017 IEEE, 40–46.
+
+                   Chemmanur, T. J., E. Loutskina, and X. Tian. 2014. Corporate venture capital, value creation, and innovation.
+                   Review of Financial Studies 27:2434–73.
+
+                   Cohen, W. M., and D. A. Levinthal. 1990. Absorptive capacity: a new perspective on learning and innovation.
+                   Administrative Science Quarterly 128–52.
+
+                   Cumming, D., and N. Dai. 2010. Local bias in venture capital investments. Journal of Empirical Finance
+                   17:362–80.
+
+                   Dimitrova, L. 2013. Strategic acquisitions by corporate venture capital investors. Working Paper.
+
+                   Dosi, G. 1988. Sources, procedures, and microeconomic effects of innovation. Journal of Economic Literature
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                   26:1120–71.
+
+                   Dushnitsky, G., and M. J. Lenox. 2005a. When do firms undertake R&D by investing in new ventures? Strategic
+                   Management Journal 26:947–65.
+
+                   ———. 2005b. When do incumbents learn from entrepreneurial ventures? Corporate venture capital and investing
+                   firm innovation rates. Research Policy 34:615–39.
+
+                   ———. 2006. When does corporate venture capital investment create firm value? Journal of Business Venturing
+                   21:753–72.
+
+                   Fleming, L., and O. Sorenson. 2004. Science as a map in technological search. Strategic Management Journal
+                   25:909–28.
+
+                   Franco, A. M., and D. Filson. 2006. Spin-outs: Knowledge diffusion through employee mobility. RAND Journal
+                   of Economics 37:841–60.
+
+                   Frydman, C., and D. Papanikolaou. 2018. In search of ideas: Technological innovation and executive pay
+                   inequality. Journal of Financial Economics 130:1–24.
+
+                   Gomes-Casseres, B., J. Hagedoorn, and A. B. Jaffe. 2006. Do alliances promote knowledge flows? Journal of
+                   Financial Economics 80:5–33.
+
+                   Gompers, P., J. Ishii, and A. Metrick. 2003. Corporate governance and equity prices. Quarterly Journal of
+                   Economics 118:107–55.
+
+                   Gompers, P., and J. Lerner. 2000. The determinants of corporate venture capital success: Organizational structure,
+                   incentives, and complementarities, 17–54. Chicago: University of Chicago Press.
+
+                   Gompers, P., J. Lerner, and D. Scharfstein. 2005. Entrepreneurial spawning: Public corporations and the genesis
+                   of new ventures, 1986 to 1999. Journal of Finance 60:577–614.
+
+                   Gonzalez-Uribe, J. 2019. Exchanges in venture capital portfolios. Journal of Financial Economics Forthcoming.
+
+                   Hall, B. H., A. B. Jaffe, and M. Trajtenberg. 2001. The NBER patent citation data file: Lessons, insights and
+                   methodological tools. NBER Working Paper.
+
+                   Hamm, S., M. Jung, and M. Park. 2018. How transparent are firms about their corporate venture capital
+                   investments? Working Paper.
+
+                   Harford, J. 2005. What drives merger waves? Journal of Financial Economics 77:529–60.
+
+                   Hart, O., and B. Holmstrom. 2010. A theory of firm scope. Quarterly Journal of Economics 125:483–513.
+
+                   Hellmann, T. 2002. A theory of strategic venture investing. Journal of Financial Economics 64:285–314.
+
+                   ———. 2007. When do employees become entrepreneurs? Management Science 53:919–33.
+
+                   Hellmann, T., L. Lindsey, and M. Puri. 2008. Building relationships early: Banks in venture capital. Review of
+                   Financial Studies 21:513–41.
+
+
+
+
+                   392
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 392   358–394
+                  The Life Cycle of Corporate Venture Capital
+
+
+
+                  Hochberg, Y. V., and J. D. Rauh. 2012. Local overweighting and underperformance: Evidence from limited
+                  partner private equity investments. Review of Financial Studies 26:403–51.
+
+                  Holmstrom, B., and J. Roberts. 1998. The boundaries of the firm revisited. Journal of Economic Perspectives
+                  12:73–94.
+
+                  Jaffe, A. B. 1986. Technological opportunity and spillovers of R&D: Evidence from firms’ patents, profits, and
+                  market value. American Economic Review 984–1001.
+
+                  Jaffe, A. B., and M. Trajtenberg. 2002. Patents, citations, and innovations: A window on the knowledge economy.
+                  Cambridge, MA: MIT Press.
+
+                  Jaffe, A. B., M. Trajtenberg, and R. Henderson. 1993. Geographic localization of knowledge spillovers as
+                  evidenced by patent citations. Quarterly Journal of Economics 108:577–98.
+
+
+
+
+                                                                                                                                           Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+                  Jones, B. F. 2009. The burden of knowledge and the “death of the renaissance man”: Is innovation getting harder?
+                  Review of Economic Studies 76:283–317.
+
+                  Jovanovic, B., and R. Rob. 1989. The growth and diffusion of knowledge. Review of Economic Studies 56:569–82.
+
+                  Klepper, S., and S. Sleeper. 2005. Entry by spinoffs. Management Science 51:1291–306.
+
+                  Kortum, S. S. 1997. Research, patenting, and technological change. Econometrica 1389–419.
+
+                  Lerner, J., and A. Seru. 2015. The use and misuse of patent data: Issues for corporate finance and beyond.
+                  Booth/Harvard Business School Working Paper.
+
+                  Lerner, J., M. Sorensen, and P. Strömberg. 2011. Private equity and long-run investment: The case of innovation.
+                  Journal of Finance 66:445–77.
+
+                  Machlup, F. 1962. The production and distribution of knowledge in the United States, vol. 278. Princeton, NJ:
+                  Princeton University Press.
+
+                  Macmillan, I., E. Roberts, V. Livada, and A. Wang. 2008. Corporate venture capital (CVC) seeking innovation
+                  and strategic growth. recent patterns in CVC mission, structure, and investment. NIST GCR 08–96.
+
+                  Manso, G. 2011. Motivating innovation. Journal of Finance 66:1823–60.
+
+                  Mathews, R. D. 2006. Strategic alliances, equity stakes, and entry deterrence. Journal of Financial Economics
+                  80:35–79.
+
+                  Matray, A. 2016. The local innovation spillovers of listed firms. Working Paper.
+
+                  Maula, M. V. 2001. Corporate venture capital and the value-added for technology-based new firms. Helsinki:
+                  Helsinki University of Technology.
+
+                  McNally, K. 2002. Corporate venture capital: Bridging the equity gap in the small business sector. London:
+                  Routledge.
+
+                  Mitchell, M. L., and H. J. Mulherin. 1996. The impact of industry shocks on takeover and restructuring activity.
+                  Journal of Financial Economics 41:193–229.
+
+                  Nelson, R. R. 1982. The role of knowledge in R&D efficiency. Quarterly Journal of Economics 453–70.
+
+                  Nelson, R. R., and S. G. Winter. 1982. An evolutionary theory of economic change. Cambridge, MA: Harvard
+                  University Press.
+
+                  Peri, G. 2005. Determinants of knowledge flows and their effect on innovation. Review of Economics and Statistics
+                  87:308–22.
+
+                  Rosen, S. 1975. Measuring the obsolescence of knowledge. In Education, income, and human behavior, 199–232.
+                  NBER.
+
+                  Seru, A. 2014. Firm boundaries matter: Evidence from conglomerates and R&D activity. Journal of Financial
+                  Economics 111:381–405.
+
+
+
+
+                                                                                                                             393
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                             Page: 393   358–394
+                   The Review of Financial Studies / v 33 n 1 2020
+
+
+
+                   Siegel, R., E. Siegel, and I. C. MacMillan. 1988. Corporate venture capitalists: Autonomy, obstacles, and
+                   performance. Journal of Business Venturing 3:233–47.
+
+                   Stock, J. H., and M. Yogo. 2005. Testing for weak instruments in linear iv regression. Identification and Inference
+                   for Econometric Models: Essays in Honor of Thomas Rothenberg 80.
+
+                   Sykes, H. B. 1990. Corporate venture capital: Strategies for success. Journal of Business Venturing 5:37–47.
+
+                   Telser, L. G. 1982. A theory of innovation and its effects. Bell Journal of Economics 69–92.
+
+                   Wadhwa, A., C. Phelps, and S. Kotha. 2016. Corporate venture capital portfolios and firm innovation. Journal
+                   of Business Venturing 31:95–112.
+
+
+
+
+                                                                                                                                            Downloaded from academic.oup.com/rfs/article/33/1/358/5425334 by Università Bocconi user on 16 November 2026
+
+
+
+
+                   394
+
+
+
+
+[17:26 27/11/2019 RFS-OP-REVF190045.tex]                                                                              Page: 394   358–394
+

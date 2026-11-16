@@ -1,0 +1,1269 @@
+                         Journal of Corporate Finance 10 (2004) 131 – 155
+                                                                            www.elsevier.com/locate/econbase
+
+
+
+
+                 Staged financing in venture capital:
+                       moral hazard and risks
+                            Susheng Wang a,*, Hailan Zhou b
+a
+ Department of Economics, Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
+               b
+                 Johnson School of Management, Cornell University, Ithaca, NY 14850, USA
+            Received 1 May 2002; received in revised form 3 June 2002; accepted 25 July 2002
+
+
+
+Abstract
+
+    This paper investigates staged financing in an environment where an entrepreneur faces an
+imperfect capital market and an investor faces moral hazard and uncertainty. Staged financing plays
+two roles in this model: to control risk and to mitigate moral hazard. Using parametric functions and
+comparing staged financing with upfront financing, we discover a few interesting properties of
+staged financing. In particular, we show that when used together with a sharing contract, staged
+financing acts as an effective complementary mechanism to contracting in controlling agency
+problems.
+D 2002 Elsevier Science B.V. All rights reserved.
+
+JEL classification: G24; G31; G34
+Keywords: Staged financing; Venture capital; Moral hazard; Risk
+
+
+
+
+1. Introduction
+
+   Staged financing has been widely used in venture capital, especially in the United
+States. Can staged financing be used by venture capitalists to reduce risks and to control
+moral hazard? Can staged financing improve efficiency, especially for highly promising
+firms?
+   One prominent characteristic of many new startup companies in high-tech industries is
+the high risk due to the great uncertainty about returns, the lack of substantial tangible
+assets and the lack of a track record in operations. Many high-tech startups may face many
+
+
+    * Corresponding author. Tel.: 852-2358-7630; fax: +852-2358-2084.
+    E-mail addresses: s.wang@ust.hk (S. Wang), hz35@cornell.edu (H. Zhou).
+
+
+0929-1199/$ - see front matter D 2002 Elsevier Science B.V. All rights reserved.
+doi:10.1016/S0929-1199(02)00045-7
+132              S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+years of negative earnings before they start to see profits. According to Bergemann and
+Hege (1998), the fraction of such projects for which investors can successfully cash out,
+mostly through IPOs, is 20% or less. Given this situation, banks and other intermediaries
+are reluctant to or even prohibited from lending money to such firms. Furthermore, these
+financial institutions usually lack expertise in investing in young and high-risk companies.
+Consequently, these startups often seek venture capitalists to be involved in their activities
+by offering revenue sharing in the form of equity joint ventures in order to obtain
+necessary funding and to benefit from the venture capitalists’ experience in management
+and finance.
+   Key characteristics in venture capital financing are staging the commitment of capital
+and preserving the option to abandon the project. Instead of providing all the necessary
+capital upfront, venture capitalists invest in stages to keep the project under control. Staged
+investment allows venture capitalists to monitor the firm before they make refinancing
+decisions. The information about the viability of a project acquired through such
+monitoring helps venture capitalists to avoid throwing money at bad projects. It reduces
+losses from inefficient continuation and creates an exit option for venture capitalists. The
+higher the risk in the project, the higher the value this option has to venture capitalists.
+This option to quit is similar to debt in that it limits potential financial losses.
+   Further, by monitoring and credibly threatening termination, venture capitalists also
+have better control over potential moral hazards. There may be several agency costs in a
+joint venture. If cash flows are not completely verifiable, entrepreneurs may appropriate
+investments. If effort is not verifiable, entrepreneurs may shirk job responsibilities. In
+addition, if there are private benefits from continuing a project, entrepreneurs may keep the
+project going even if it has negative expected profits. Gompers (1995) provides an
+empirical study on the factors affecting the structure of staged financing when moral
+hazard exists. He shows that in financing high-risk companies with pervasive moral
+hazards, staged financing allows venture capitalists to gather information and to monitor
+the progress of projects while maintaining the option to quit.
+   Our paper is among a few recent papers to offer a formal model for staged financing in
+controlling risks and moral hazard in venture capital. We find a closed-form solution, by
+which analysis of the complementary roles of staged financing and contracting can be
+made. We focus on the problems of moral hazard and uncertainty involved in financing
+new startups. Specifically, we consider a financially constrained entrepreneur (EN) and a
+venture capitalist (VC) who is interested in investing in the EN’s project. The project is
+risky and the EN’s effort is unverifiable. The EN faces an imperfect capital market and the
+VC is the only potential investor who understands the project (i.e., the VC knows the
+distribution function of the output). The VC offers a sharing contract and finances the
+project strategically in stages. Using parametric functions, we are able to derive some
+interesting properties of staged financing. Our results clearly show that, in addition to
+contracting, staged financing is an effective mechanism for venture capitalists to reduce
+agency costs and to control risks.
+   With the flexibility of staged financing, many projects, which may otherwise be
+abandoned under upfront financing, become profitable. We show that the efficiency of
+staged financing approaches the first best for highly promising firms. However, staged
+financing is not always dominant over upfront financing in terms of social welfare. When
+                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155        133
+
+the project does not look very promising, staged financing is inferior to upfront financing.
+The reason is that VCs may underinvest in a project in the early stages when the project
+does not look very promising, which may cause a viable project to fail and result in a loss
+of social welfare.
+    There is a relatively small and recent literature on venture capital, which emphasizes the
+role of entrepreneurial incentives and studies how venture capital financing can mitigate
+incentive distortions. Sahlman (1990) discusses various aspects of venture capital, in
+which the agency problem is emphasized. Sahlman focuses on legal definitions, organiza-
+tional forms and relationships among venture capitalists, investors and entrepreneurs. Our
+theoretical finding is consistent with Sahlman’s observation that staged financing is the
+most potent control mechanism a venture capitalist can employ to deal with the agency
+problem. Admati and Perry (1991) consider a situation in which enforceable contracts are
+not possible and investments are sunk as soon as they are committed. In such a case,
+staged financing is used as a way to reduce the cost of commitment. We, however, allow
+an enforceable revenue sharing contract. Since a firm’s revenue can be audited in reality,
+simple revenue sharing contracts are usually enforceable by the law. Admati and Pfleiderer
+(1994) consider robust contracting in inducing an optimal continuation decision on
+investment. Their contract has the VC hold a fixed fraction of payoffs. In their model,
+the first investment is given, while the second investment is endogenous. In our model, the
+total amount of investment is given, while the distribution of investments across periods is
+endogenous. The second crucial difference is that while the VC provides financial
+investments, the EN in our model also provides an indispensable (nonfinancial) effort;
+such a role for the EN is not considered by Admati and Pfleiderer. Using a unique data set
+from Venture Economics, Hellmann (1994) argues that venture capitalists provide staged
+financing in order to avoid risk, but at the same time, staged financing triggers the EN’s
+short-term behavior. To deal with this short-termism, the venture capitalist is allocated a
+larger share, which induces an incentive to monitor the EN. We show that staged financing
+under equity financing can achieve approximately the first best for high-potential ventures,
+suggesting that the short-termism caused by staged financing is of minor consequence.
+Gompers (1995) provides an empirical study of venture capital when agency and
+monitoring costs exist. His empirical findings are consistent with our theoretical pre-
+dictions of the roles of agency costs and the ex post refinancing decision. Repullo and
+Suarez’s (1998) optimal contract resembles a convertible preferred stock in a model with
+double moral hazard and two-stage financing. In their model, the amount of investment in
+each period is exogenously given, while we endogenously solve the optimal allocation of
+funds across periods. It is the endogenicity of the investment allocation in our model that
+plays a crucial role in mitigating the moral hazard. Bergemann and Hege (1998) emphasize
+the learning of the truth potential of a venture through staged financing. The effort input
+from the EN is not considered in their model, while an incentive condition for not stealing
+is considered. In our model, the EN’s unverifiable effort plays a crucial role. Neher (1999)
+studies staged financing in mitigating the EN’s commitment problem in a model without
+risks and the agency problem. By staging the investment, early rounds of investment create
+collateral that protects the VC’s claim from being renegotiated downward in the future.
+Complementary to Neher (1999), we avoid the commitment problem by not allowing
+renegotiation; instead, we focus on the agency problem in a risky project.
+134                  S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+   This paper proceeds as follows. In the next section, we define the model of venture
+capital financing in an environment with uncertainty and moral hazard. In Section 3, we
+consider several variations of the model, including both the second-best and the first-best
+solutions under both staged financing and upfront financing with and without ex post
+renegotiation. In Section 4, we discuss the properties and features of staged financing in
+our model. Finally, Section 5 concludes the paper.
+
+
+2. The model
+
+2.1. The project
+
+   Consider an innovative entrepreneur (EN) who relies on a venture capitalist (VC) for
+investment. The project lasts two periods. The EN’s effort, x, is applied throughout the two
+periods, and the VC provides a total investment, k, in the two periods. The cost of effort
+for the EN is c(x). With effort input, x, from the EN throughout the two periods and with
+total capital input, k, from the VC in the two periods, the expected output is F(x,k). The
+output faces a random shock, l, such that the realized output is y = lF(x,k). The VC knows
+the distribution function of l at the beginning of the first period (ex ante), and the shock is
+realized and publicly revealed at the beginning of the second period (ex post).
+   The VC offers to provide a total of k1 in funds at the beginning of the first period. After
+the uncertainty is realized at the beginning of the second period, the VC considers
+providing a total of k2 in funds. To realize the output by the end of the second period, the
+necessary amount, k, of investment must be made, i.e., k1 + k2 z k.
+   If the project is abandoned in the middle by either the EN or the VC, the project fails
+without any output and the initial investment k1 is lost. The EN is indispensable to the
+project; without the EN, the project cannot succeed. The EN and VC share the revenue at
+the end of the project based on the existing contract.
+
+2.2. Contracting
+
+   As in a typical agency model, we assume that only the output is contractible ex ante.1 In
+particular, the EN’s effort, x, is unverifiable and the VC’s investment strategy is
+noncontractible. The latter is consistent with the reality that the VC typically has the
+option of abandoning a project in the future. Thus, we have a model with double moral
+hazard.2
+   Venture capital typically takes two forms of financing: equity financing or debt
+financing.3 Since the EN has no money to pay off a debt if the project fails, we will
+consider equity financing only. In other words, the contract proposed by the VC is a
+      1
+      The known justification for this is that contracts in reality are typically very simple and are generally based
+on some well-known aggregate measures.
+    2
+      Refer to Kim and Wang (1998) for a theoretical foundation of an agency model with double moral hazard.
+    3
+      Many financial intermediaries, such as banks, use debt financing simply because they are prohibited from
+using equity financing. Many researchers, such as Sahlman (1990), specifically define venture capital as funding
+in the form of equity financing.
+                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155        135
+
+sharing contract (s, 1  s) on revenue/output, with revenue share s for the EN and 1  s for
+the VC. Facing the EN’s effort, x, and a random shock, l, the VC offers a sharing contract
+and finances the project strategically in stages. The variables s, x, k1 and k2 are determined
+endogenously in equilibrium.
+   As we will show later, the optimal equity contract, assisted by staged financing, can
+approximately achieve the first best for high-potential firms. Thus, restricting to a sharing
+contract means little loss of efficiency, which may be the reason that a sharing contract is
+widely adopted in venture-capital financing.
+   As some information becomes available when l is realized ex post, the two parties may
+want to renegotiate the contract. We will consider both the cases of allowing and not
+allowing ex post renegotiation. Renegotiation can ensure ex post efficiency, but it causes
+ex post opportunistic behaviors, which may result in ex ante inefficiency. In other words,
+there is a tradeoff: no renegotiation may result in ex post inefficiency, but renegotiation
+may result in ex ante inefficiency. Consequently, economic agents in reality sometimes
+find ways to commit themselves to no-renegotiation. For example, governments in many
+circumstances enact laws to prevent renegotiation and economic agents may invite a third
+party to enforce the rule of no-renegotiation, especially in a repeated environment where
+reputation is important. In our theoretical analysis, we view both the cases to be equally
+important and thus consider both.
+
+2.3. Timing
+
+   The timing of the events is illustrated in Fig. 1.
+   (1) At t = 0, the VC offers a sharing contract (s, 1  s) to the EN and decides on an
+investment plan (k1, k2); if the contract is accepted, the VC invests k1 and the EN applies
+effort x and incurs cost c(x).
+   (2) At t = 1, the uncertainty is resolved. The VC considers the options to quit and to
+renegotiate. If the project is bad, she abandons the project without investing k2. If the
+project is mediocre, she demands to renegotiate a new contract. If the project is good, she
+continues to invest in the project and provides the necessary investment k2. The EN, on the
+other hand, would never want to renegotiate in our model, since once the project starts, his
+effort is sunk.
+   (3) At t = 2, the project is finished, and the VC and EN divide the output based on the
+existing contract.
+
+
+
+
+                                    Fig. 1. Timing of the events.
+136                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+2.4. Assumptions
+
+   A few assumptions are needed for a tractable model. We first assume that the capital
+investment k is nondivisible. This means that the project requires a minimum amount, k, of
+capital investment. In other words, k is a given constant, and the project is expected to
+generate output F(x,k) with effort x if and only if the capital investment is no less than k.
+Venture capital financing focuses on the survival of a new product. To develop this new
+product, a certain amount of capital is required, which is our constant k.
+   However, although k is fixed, the VC can divide the required amount into two
+installments, k1 and k2, for the two periods, and the VC also has the option to abandon
+the project ex post by not providing the planned second installment, k2. Although the
+distribution of investments across the two periods does not affect output directly, it may
+affect the EN’s incentive to work and hence affect the output indirectly. The VC may
+benefit from the resolution of uncertainty by investing ex post. However, ex post
+investment will impose a risk on the EN (from the VC’s options to quit and to renegotiate),
+which may lead to a lower effort. Therefore, the VC needs to choose the distribution of
+investments properly in order to balance the EN’s incentive to work and the benefit of late
+investment.
+   Assume there is a linear production function f (x) = ax, and the output is y = lf (x) with l
+being random ex ante and observable ex post4. In order to have a closed-form solution, we
+will also use the following specific parametric functions:
+
+                1 b
+       cðxÞ ¼     x ;    with bz1:
+                b
+
+       lfU ½0; 2;
+
+where U[0,2] denotes the uniform distribution on interval [0,2]. These two functional
+forms are not essential, but they lead to a unique closed-form solution, which allows us to
+arrive at a few clear-cut conclusions quickly. Here, a value of l < 1 means a contraction of
+output and a value of l>1 means an expansion of output, and the costs in our equilibrium
+solutions converge to zero quickly as b ! l.
+   Finally, assume that both the EN and the VC are risk neutral in income. For simplicity,
+also assume no discount of time preferences and no interest rate across periods.
+
+
+3. Venture capital financing
+
+  We examine several variations of the model in this section. In the first two subsections,
+we do not allow ex post renegotiation. In the third subsection, we do not allow staged
+    4
+      Since k is fixed, our production technology of the form ax  c(x) is actually equivalent to a production
+technology of the form h1(x)h2(k)  C(x) with increasing and concave hi() and convex C(). In particular, the
+separability among inputs x and k is a typical assumption for a production technology—the Cobb – Douglas
+technology is such an example.
+                             S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155    137
+
+financing; in this case, renegotiation does not matter. In the last subsection, we allow ex
+post renegotiation.
+
+3.1. Staged financing
+
+    We examine staged financing without renegotiation in this subsection. At the
+beginning of the second period, given the investment, k1, the EN’s effort level, x, and
+the resolved uncertainty, l, the VC decides whether to continue investing in the project or
+to abandon it. Since the EN would always like to continue, only the VC’s refinancing
+                              kk1
+decision matters. Let l̄u axð1sÞ   . Implied by the VC’s ex-post individual rationality (IR)
+condition, the VC will provide the refinancing if l z l̄, otherwise, the VC will stop
+investing in the project.
+    Thus, l̄ is the threshold of termination. A larger effort, x, a smaller share, s, and a larger
+initial investment, k1, will all lower the threshold, implying a higher chance of refinancing.
+    Expecting the possibility of termination ex post, the EN’s expected profit from the
+project is
+                   Z l
+      PEN ¼                    salxgðlÞdl  cðxÞ:
+                        l̄
+
+
+   Let X be the effort space and R + be the capital space. Assuming that the EN’s
+reservation profit is zero, the VC’s ex ante profit maximization problem is
+
+                                            Z l
+       * ¼
+      PVC                        max                    ½ð1  sÞalx  k2 gðlÞdl  k1             ð1Þ
+                   sa½0;1;k1 ;k2 z0;xaX         k2
+                                              axð1sÞ
+
+
+
+
+               Z l
+      s:t:                    salxgðlÞdlzcðxÞ;                                                   ð1aÞ
+                     k2
+                  axð1sÞ
+
+
+
+
+             Z l
+      B
+                        salxgðlÞdl ¼ cVðxÞ;                                                      ð1bÞ
+      Bx         k2
+              axð1sÞ
+
+
+
+
+      k1 þ k2 zk:                                                                                ð1cÞ
+
+That is, the VC maximizes her ex ante profit subject to her ex post IR condition, l z l̄, the
+EN’s ex ante IR condition (Eq. (1a)), the EN’s incentive compatibility (IC) condition (Eq.
+(1b)) and the capital requirement condition (Eq. (1c)). We call the solution in this case the
+second best.
+138                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+   Note that without renegotiation, the VC’s ex post profit may not be maximized. This
+restriction eliminates ex post opportunistic behavior from the VC and avoids an ex ante
+incentive reaction from the EN. This restriction will be dropped in Section 3.4.
+   Problem (1) is found to have a unique closed-form solution in the following. The
+derivations for this solution and all other solutions are presented in Appendix A.
+Solution 1. In the case of staged financing without renegotiation, the second-best solution
+is
+
+
+              1
+      s* ¼      ;
+              b
+
+
+                          b1
+                             1
+                   2a
+      x* ¼                        ;
+                  1þb
+
+
+                        b qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+              b1    2a b1
+      k*2 ¼                  b2  1;
+               b    1þb
+
+                                        b1
+                                           b
+                     2a
+      P*
+       VC ¼ ðb  1Þ                             k:
+                    1þb
+
+
+3.2. The first best
+
+   We now suppose that the EN’s effort is verifiable. Without moral hazard, the VC
+can demand an effort level in the contract without providing sufficient inducement and
+staged financing is used only to control risk. We call the solution in this case the first
+best.
+   By dropping the IC condition in Problem (1), the VC’s problem becomes
+
+                                        Z l
+      P**
+       VC ¼              max                       ½ð1  sÞalx  k2 gðlÞdl  k1         ð2Þ
+                sa½0;1;k1 ;k2 z0;xaX       k2
+                                         axð1sÞ
+
+
+
+
+              Z l
+      s:t:        k2
+                         salxgðlÞdlzcðxÞ;                                               ð2aÞ
+               axð1sÞ
+
+
+
+
+      k1 þ k2 zk:                                                                       ð2bÞ
+                       S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155   139
+
+   This Problem (2) is found to have a unique closed-form solution also, as shown
+below
+Solution 2. In the case of staged financing without renegotiation, the first-best solution is
+            1
+      s** ¼   ;
+            b
+              b1
+                 1
+              2a
+      x** ¼         ;
+               b
+                        b1
+                           b
+                                       sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                  2a                             2
+      k**
+       2 ¼                      ðb  1Þ 1  ;
+                  b                             b
+
+                            2           b1
+                                           b
+            ðb  1Þ                2a
+      P**
+       VC ¼                                     k:
+               b                   b
+
+From the IR Condition (2a), we can see that the VC can either make a higher contract
+payment s or a higher initial investment k1 to keep the EN interested in the project. Thus,
+the first-best solution does not imply that the VC should withhold all investment until the
+second period.
+Remark 1. We have not imposed a minimum initial capital requirement condition such as
+k1zk 1 for a given k 1>0 in our model. This will, however, not affect our main conclusions.
+For example, for Solution 1, with the minimum initial capital requirement condition, we
+need
+                     b qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+      b1        2a b1
+                            b2  1Vk 1 þ k;
+        b      1þb
+
+which amounts to a minor restriction on the parameters.
+Remark 2. We have implicitly assumed that all the investments in the firm are turned into
+firm-specific (physical) assets. That is, we have assumed a zero liquidation value for the
+firm when it is abandoned ex post. The solutions will not change much if we assume a
+nonzero liquidation value for the firm. Specifically, given the initial investment k1,
+suppose that the firm can be liquidated ex post for the value kk1, where 0 V k < 1. To be
+consistent with reality, we assume that the VC gets the liquidation value. Then, given the
+ex ante contract, the firm will be liquidated ex post if and only if l < l̄u kð1kÞk 1
+                                                                              axð1sÞ . Hence,
+the ex ante expected utility values are
+              Z l
+      PEN ¼              saxlgðlÞdl;
+                  l̄
+
+              Z l̄                          Z l
+      PVC ¼             kk1 gðlÞdl þ                  ½ð1  sÞaxl  k2 gðlÞdl  k1 :
+                  0                             l̄
+140                     S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+We find that the second-best and first-best solutions in this case are, respectively, the same
+as the second-best and first-best solutions listed in Solutions 1 and 2, except that we should
+                                                                *kk       **kk
+replace the optimal second-period capital investment by k21k        and k21k   , respectively,
+where k2* and k2** are defined in Solutions 1 and 2 (see Appendix A).
+
+3.3. Upfront financing
+
+   In this subsection, we consider the case in which the VC is required to invest all the
+required capital, k, upfront. In this case, the VC loses the option to quit. She only has the
+binary choice of whether or not to finance at the beginning of the project. The effort is
+unverifiable and the sharing contract is now the only instrument that can be used to control
+moral hazard.
+   By dropping the capital requirement condition and the VC’s ex post IR condition,
+l z l̄, in Problem (1), the VC’s problem becomes
+                                 Z l
+        * ¼
+      P̄VC               max           ð1  sÞalxgðlÞdl  k                                  ð3Þ
+                      sa½0;1; xaX 0
+
+                 Z l
+      s:t:              salxgðlÞdlzcðxÞ;                                                    ð3aÞ
+                  0
+
+             Z l
+      B
+                   salxgðlÞdl ¼ cVðxÞ:                                                      ð3bÞ
+      Bx     0
+
+
+   This Problem (3) is found to have a unique closed-form solution, which is the
+following.
+Solution 3. In the case of upfront financing, the second-best solution is
+
+                 1
+      s̄* ¼        ;
+                 b
+
+                   b1
+                      1
+                  a
+      x̄* ¼              ;
+                  b
+
+                       b1
+                          b
+
+        *             a
+      P̄VC ¼ ðb  1Þ         k:
+                      b
+
+Unlike in staged financing, the EN’s IR condition in upfront financing is not binding. The
+EN is able to earn part of the surplus ex ante. The reason that the VC cannot expropriate all
+the surplus is that, in the case of upfront financing, she only has one instrument,
+contracting on revenue shares, to control moral hazard and to reduce risks. With staged
+financing, the VC has two instruments, contracting at t = 0 and financing at t = 1. Staged
+                        S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155     141
+
+financing gives the VC additional power, which allows her to expropriate all the ex ante
+surplus.
+
+3.4. Renegotiation
+
+   In this subsection, we allow the possibility of renegotiation ex post. When the
+uncertainty is resolved ex post, the project may turn out to be bad or mediocre so that
+the VC is unwilling to continue investing given the existing contract. However, the project
+may still be socially viable. In this case, the EN has no alternative but to renegotiate with
+the VC for a new contract. We assume that the VC has the control rights so that she gets all
+the efficiency gain from ex post renegotiation.
+   In the real world, when the project turns out to be bad, it will be abandoned; when it
+turns out to be mediocre, the VC will take over the control of the company and she will
+usually fire the EN and replace him by a professional manager from the market. Thus, our
+assumption of VC control is realistic, although, as indicated later by Remark 3, it is not
+necessary.
+   Specifically, there are three possible cases:
+                  k2
+1. When lz axð1sÞ     , the project continues without renegotiation. Renegotiation cannot
+   increase ex post efficiency in this case and thus one of the parties will refuse to
+   renegotiate.
+          k2            k2
+2. When ax   Vl < axð1sÞ   , the project is still socially viable and the VC needs a new contract
+   to continue financing. In this case, the VC must be provided with extra compensation and
+   the EN has no alternative but to yield to the VC’s demands. Having the control rights, the
+   VC takes over the firm and captures all the efficiency gain axl  k2.
+               k2
+3. When l < ax    , the project is no longer socially viable and it will be terminated.
+
+   Although renegotiation will not have an impact under upfront financing, it will
+generally have an impact under staged financing. As shown later, in some of our main
+conclusions, the possibility of ex post renegotiation can make a crucial difference, while in
+others it does not do so.
+   With renegotiation, the VC’s second-best problem under staged financing becomes
+                                              Z l
+        * u
+      P̂VC                      max                       ½ð1  sÞalx  k2 gðlÞdl
+                    sa½0;1;k2 z0;xaX              k2
+                                                axð1sÞ
+                            Z       k2
+                                 axð1sÞ
+                        þ       k2
+                                           ðaxl  k2 ÞgðlÞdl  k1
+                                ax
+               Z l
+      s:t:                  salxgðlÞdlzcðxÞ;
+                     k2
+                  axð1sÞ
+
+
+             Z l
+      B
+                        salxgðlÞdl ¼ cVðxÞ:
+      Bx         k2
+              axð1sÞ
+142                   S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+The second-best and first-best problems are found to have unique closed-form solutions
+also, which are the following.
+Solution 4. In the case of staged financing with renegotiation, the second-best solution is
+
+              2             1
+      ŝ* ¼        qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ;
+              b 1 þ 1  2 ðb1Þð2b1Þ
+                                                b3
+
+              2                                                 3 b1
+                                                                   1
+
+
+            6 4a                1                       7
+      x̂* ¼ 4          qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ 5               ;
+              1 þ b 1 þ 1  2 ðb1Þð2b1Þ
+                                                      b3
+
+                           sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                            b1
+      k̂2* ¼ 2ax̂*ð1  ŝ*Þ             ;
+                            bþ1
+
+
+        * ¼         2abðb  1Þ
+      P̂VC                        x̂*ð2  ŝ*Þ  k:
+                  ð1 þ bÞð2b  1Þ
+
+Solution 5. In the case of staged financing with renegotiation, the first-best solution is
+              sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                            rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ      sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                                                                          rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+            1 3 q                   q 2 p 3 3 q                                 q 2 p 3
+      ŝ** ¼ þ  þ                          þ              þ                            þ              ;
+            3       2               2             3               2               2             3
+                                    ! b1
+                                       1
+
+                    2abðŝ**Þ2
+      x̂** ¼                                ;
+                     1 þ ŝ**
+                              rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                               3 1  ŝ**
+      k̂2** ¼ 2ax̂**ð1  ŝ**Þ                 ;
+                                 1 þ ŝ**
+
+
+        ** ¼ ax̂**         ½2 þ ðŝ**Þ2 ð1  ŝ**Þ
+      P̂VC                                           k;
+                                   1 þ ŝ**
+where
+             4b þ 1           14b  52
+      pu              and qu            :
+            3ð2b  1Þ        27ð2b  1Þ
+Remark 3. Once renegotiation is allowed in a model, things can become very
+complicated. With ex post renegotiation, the equilibrium solution may depend on the
+allocation of (ex post) control rights and the distribution of (ex post) bargaining power.
+What is an appropriate allocation of control rights or should we consider the optimal
+allocation of control rights? Fortunately, as shown by Wang (2002), in agency models with
+                     S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155     143
+
+risk neutrality in income, control rights and bargaining power are irrelevant in the sense
+that the allocation of control rights and the distribution of bargaining power will not affect
+ex ante efficiency and optimal investments/efforts. Thus, we have the freedom to
+arbitrarily assign the control rights to the VC in our model, which happens to be consistent
+with reality.
+
+
+4. Analysis
+
+   To understand the role of staged financing in alleviating moral hazard and in sharing
+risks, we consider five different cases. Their solutions are summarized in Table 1, where
+social welfare is defined by SW = PVC + PEN.
+   We will use SF, UF, SB and FB to stand for staged financing, upfront financing, the
+second best and the first best, respectively.
+Proposition 1 (Efficiency). With or without renegotiation, the solution under staged
+financing approaches the first best when b goes to infinity.
+   Proposition 1 suggests that staged financing, coupled with a sharing contract, can
+approximately achieve the first best. This may explain why many joint ventures use the
+simple form of equity sharing, since an equity joint venture may approximately achieve
+the first best with the aid of staged financing. This is also the reason that we restrict
+ourselves to a sharing contract since the first best can be approximately obtained even if
+the contract itself may not be optimal. An optimal contract may take a much more
+complicated form, but, with the aid of staged financing, we have little loss of efficiency.
+   The comparison of the three social welfare curves is shown in Fig. 2. The top line is the
+social welfare for the first best under staged financing; the middle line is the social welfare
+for the second best under staged financing; the bottom line is the social welfare for the
+second best under upfront financing. The effort level and welfare under staged financing
+approach the first-best solution quickly as b gets larger.
+   The intuition is clear. The b coefficient measures the strength of the moral hazard
+problem, with higher values of b signifying a weaker entrepreneurial moral hazard. This
+explains why as b ! l, the difference in efficiency between the second best and the first
+best diminishes.
+Proposition 2 (Social welfare). Without renegotiation, there exists a b̄>1 such that, if and
+only if b>b̄, we have SWSB – SF>SWSB – UF . With renegotiation, we have SWSB – SF>SWSB – UF
+for any b>1.5
+    Fig. 3 presents a graphic illustration of Proposition 2 when renegotiation is not allowed.
+It suggests that when the moral hazard is serious (with a small b), upfront financing is
+better. The reason is that while the VC prefers staged financing, the EN prefers upfront
+financing. The EN has zero welfare under staged financing, but he has positive welfare and
+substantially more effort under upfront financing. Thus, there may be cases in which the
+balance tips towards the EN and upfront financing becomes better. More specifically,
+
+   5
+       Here, the other parameters a and k are irrelevant in the comparisons.
+                                                                                                                                                                          144
+
+
+
+
+Table 1
+The equilibrium solutions
+
+
+
+
+                                                                                                                                                                          S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+                Staged finance                                                                                                                          Upfront finance
+                No renegotiation                                          Renegotiation
+                Second best                 First best                    Second best                                     Fist best                     Second best
+s               1/b                         1/b                         1             2                                   ŝ **                         1/b
+                                                                             qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                                                                        b 1 þ 1  2 ðb1Þð2b1Þ
+                                                                                                      b3
+
+
+
+x                     b1
+                         1                       b1
+                                                    1                   0                                         1b1
+                                                                                                                    1                b1
+                                                                                                                                        1                b1
+                                                                                                                                                            1
+                 2a                         2a                                                                               2abs2                      a
+                1þb                         b                           B 2a                2                       C        1þs                        b
+                                                                        @          qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ A
+                                                                          1 þ b 1 þ 1  2 ðb1Þð2b1Þ
+                                                                                                            b3
+
+
+
+k2                     qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ                    sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ                  sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ                                     rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ    0
+            b1 b                                                                       b1                                              1s
+               x        b2  1          ðb  1Þxb         1
+                                                                   2
+                                                                        2axð1  sÞ                                       2axð1  sÞ
+             b                                                    b                     bþ1                                              1þs
+
+
+PVC             (b  1)xb  k           ðb  1Þ2 b                        2abðb  1Þ                                          ð2 þ s2 Þð1  sÞ          (b  1) xb  k
+                                                x k                                    xð2  sÞ  k                     ax                    k
+                                           b                            ð1 þ bÞð2b  1Þ                                            1þs
+
+
+                                                                                                                                                        b2 1 b
+SW              PVC                         PVC                           PVC                                             PVC                             b x k
+                S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155     145
+
+
+
+
+                                        Fig. 2. Efficiency.
+
+
+given effort x, we have PVC=(b  1)xb  k for both the cases of staged financing without
+renegotiation and upfront financing. The VC prefers staged financing to upfront financing
+since x* is larger than x̄*. However, as b gets smaller, x*/x̄* ! 1 and this preference
+becomes weaker until the EN’s preference for upfront financing makes a difference.
+
+
+
+
+                              Fig. 3. Welfare comparison: SF vs. UF.
+146              S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+   On the other hand, ex post renegotiation gives the VC an extra mechanism to control
+moral hazard. With an improvement in ex post efficiency from saving a mediocre project,
+the VC can offer a higher share to the EN to induce more effort. This mechanism becomes
+particularly important when the moral hazard problem is serious (with a small b), and, as a
+consequence, it results in a sufficient improvement of ex ante efficiency in this case so that
+staged financing continues to be better than upfront financing.
+Proposition 3 (Incentives). With or without renegotiation, the effort level under staged
+financing is higher than that under upfront financing.
+   A comparison of the three effort levels is shown in Fig. 4. A higher effort level in
+staged financing can be easily understood. Upfront financing involves single moral hazard,
+while staged financing involves double moral hazard. Staged financing introduces a threat
+that the VC may possibly abandon the project, which induces the EN to work extra hard in
+an attempt to provide the VC with incentives for ex post refinancing. In other words, the
+moral hazard on the part of the VC under staged financing will have an extra impact on the
+EN’s incentives, which induces a higher effort level.
+Proposition 4 (Contract). Without renegotiation, the optimal shares in all the cases are the
+same. With renegotiation, the second-best share for the EN is higher than the first-best
+share.
+   Proposition 4 suggests that without the option of ex post renegotiation, the contract
+plays only a marginal role in controlling moral hazard because the contract is not
+adjusted in very different situations. Thus, as a complementary mechanism to contract-
+
+
+
+
+                                     Fig. 4. Effort comparison.
+                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155        147
+
+ing, staged financing must play a crucial role in controlling moral hazard. This is further
+verified by the fact that the VC commits less initial investment under the second best
+than that under the first best. More late investment imposes a pressure on the EN to input
+more effort. On the other hand, with the option of ex post renegotiation, since the VC is
+in control, she is willing to offer a higher share to the EN, which induces more effort
+from the EN.
+    Proposition 4 can be understood from a cost – benefit analysis of the two different
+mechanisms. There are costs to the VC for using staged financing and a sharing contract.
+The cost of staged financing is the risk on the early investment; the cost of a sharing
+contract is a lower share for the VC. When the marginal cost of using staged financing is
+always lower than the marginal cost of using a sharing contract, the VC will rely heavily
+on her financing strategy and leave her contracting option unchanged. Only when the VC
+has the option to renegotiate will she use the contracting option as well.
+    Interestingly, findings of Sahlman (1990) and Admati and Pfleiderer (1994) are
+consistent with our Proposition 4. Admati and Pfleiderer (1994) derive robust financial
+contracts when lead venture capitalists are better informed than others. They demonstrate
+that a contract in which the lead VC maintains a constant fraction of the firm’s equity is the
+only form of financing that is robust to small changes in possible outcomes. Sahlman
+(1990) finds that ‘‘the most important mechanism to controlling the venture is staging the
+infusion of capital.’’
+    In addition to the above properties, there are also a few other more intuitive properties
+of staged financing. First, with the flexibility of staged financing, a project will generally
+generate a higher expected value to the VC. Thus, projects that are not profitable under
+upfront financing may become ¯    profitable under staged financing.
+    Second, the threshold l is higher under staged financing than under the first best. In
+other words, moral hazard creates a greater possibility for the project to be abandoned in
+the middle of its development.
+    Third, when b is larger, since the incentive problem becomes less important, the
+revenue share for the EN is smaller.
+    Finally, the VC is inclined to provide less early investment under moral hazard. Since
+late investment imposes a pressure on the EN, the VC uses her investment patterns to
+control moral hazard.
+
+
+5. Concluding remarks
+
+   Staged financing is a widely adopted form of investment in venture capital. In an
+environment where an entrepreneur faces an imperfect capital market and an investor faces
+uncertainty and moral hazard, we study how staged financing is used to mitigate moral
+hazard and to reduce risks. Under certain assumptions, we obtain some unique results on
+the performance and role of staged financing, which may enhance our understanding of
+venture capital.
+   We find that staged financing can achieve high efficiency, especially for highly
+promising ventures. Besides the benefit of reducing risks through late investment, as a
+complementary mechanism to contracting, staged financing plays a crucial role in
+148                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+controlling moral hazard. In particular, staged financing induces a higher effort from the
+entrepreneur. However, for less promising ventures, upfront financing may be a socially
+better choice, since initial underinvestment by the venture capitalist may overkill a viable
+venture.
+   While our paper refers to venture capital, staged financing has been used in many
+different circumstances. For example, the sequential investment in R&D and the staged
+installment of payments in procurement all involve staged investment over multiple
+periods. Our model should be readily applicable to those cases involving investment over
+time.
+   In reality, a venture capitalist’s financing plan may involve many options in a
+complex environment. Control variables may include the number of periods, the duration
+of each period and the amount to be invested in each period. In addition, a venture
+capitalist can also consider how to monitor a firm intensively, when to go public with
+the firm and how to arrange control rights properly. A more comprehensive study of
+staged financing is needed for a better understanding of these issues. For discussion of
+some of these issues, see some recent theoretical papers on venture capital such as
+Hellmann (1998), Marx (1998), Cornelli and Yosha (2001), Dessi (2001) and Schmidt
+(2002).
+
+
+Acknowledgements
+
+   This paper is developed out of Zhou (2001). We are grateful for a referee’s comments,
+which have substantially improved our paper. We are also grateful for the financial
+support from the Research Grants Council of Hong Kong. Remaining errors are, however,
+ours.
+
+
+Appendix A
+
+A.1. Derivation of Solution 1
+
+      With gðlÞ ¼ 12 for l a[0, 2], we have
+
+                Z l
+                                                     sk22
+        PEN u              salxgðlÞdl ¼ asx                    ;
+                    k2
+                 axð1sÞ
+                                                4ax2 ð1  sÞ2
+
+
+        BPEN             sk22
+             ¼ as þ               ;
+         Bx         4ax2 ð1  sÞ2
+
+                Z l
+                                                                               k22
+        PVC u              ½ð1  sÞalx  k2 gðlÞdl  k1 ¼ axð1  sÞ þ                 k:
+                    k2
+                 axð1sÞ
+                                                                           4axð1  sÞ
+                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155      149
+
+The IR condition must be binding. Then, Problem (1) becomes
+
+      * ¼                                              k22
+     PVC            max            axð1  sÞ þ                k                       ðA1Þ
+              sa½0;1;k2 z0;xaX                    4axð1  sÞ
+
+                        sk22               1 b1
+     s:t: as                          ¼     x ;
+                  4ax2 ð1  sÞ2            b
+
+                 sk22
+     as þ                      ¼ xb1 :
+            4ax2 ð1  sÞ2
+
+From the two constraints, we find
+           1 þ b b1
+     s¼         x :                                                                    ðA2Þ
+            2ab
+Then, the IR condition implies
+            
+         k2 2 4ax2 b1                      b1
+               ¼       ðx     asÞ ¼ 4a2 x2     ;                                      ðA3Þ
+        1s         s                       bþ1
+implying
+                     sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ             sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                      b1                1þb b   b1
+     k2 ¼ 2axð1  sÞ             ¼ 2ax     x                :                         ðA4Þ
+                      bþ1                 b      bþ1
+
+Then, by Eqs. (A2) and (A3),
+                     "                                2 #
+                          1                       k2                 2ab
+     PVC ¼ axð1  sÞ 1 þ 2 2                                  k ¼       x  xb  k:   ðA5Þ
+                        4a x                     1s                 bþ1
+
+The first-order condition (FOC) for x immediately implies
+                  1
+                2a b1
+      x* ¼              :
+              1þb
+
+Then, Eqs. (A2), (A4) and (A5) immediately give us s*, k2* and P*VC in Solution 1.
+
+A.2. Derivation of Solution 2
+
+  We now drop the IC condition from Problem (A1) and it becomes
+
+
+      ** ¼                                             k22
+     PVC            max            axð1  sÞ þ                k                       ðA6Þ
+               sa½0;1;k2 z0;xaX                   4axð1  sÞ
+
+                        sk22               1 b
+     s:t: asx                     2
+                                       ¼     x :                                       ðA7Þ
+                   4axð1  sÞ              b
+150               S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+By the IR Condition (A7),
+                               1s b
+      PVC ¼ 2axð1  sÞ            x  k:
+                                bs
+
+Thus, we can solve Problem (A6) in two steps: we first solve the following problem
+without the IR constraint:
+                                           
+        ** ¼ max                           1 1 b
+     PVC                  2axð1  sÞ þ 1      x  k:                         ðA8Þ
+              sa½0;1;xaX                  s b
+
+Afterwards, we solve for k2 from the IR constraint. The FOCs for Eq. (A8) immediately
+give us s** and x** in Solution 2. Substituting them into Eq. (A8) gives us P**
+                                                                             VC . Then,
+the IR condition implies k2**.
+
+A.3. Derivation of the solutions in Remark 2
+
+A.3.1. The second best
+   We have
+                                      
+                       s kk þ ð1  kÞk2 2
+      PEN ¼ axs                          ;
+                      4ax    1s
+
+
+                                      
+      BPEN         s     kk þ ð1  kÞk2 2
+           ¼ as þ                         ;
+       Bx         4ax2       1s
+
+                                                 
+                              1  s kk þ ð1  kÞk2 2
+      PVC ¼ ð1  sÞax þ                              k:
+                               4ax      1s
+
+The IR condition must be binding. Then, the problem becomes
+
+                                                                    
+       * ¼                                       1  s kk þ ð1  kÞk2 2
+      PVC           max            ð1  sÞax þ                          k            ðA9Þ
+               sa½0;1;k2 z0;xaX                  4ax      1s
+
+
+                                      
+                   s     kk þ ð1  kÞk2 2 1 b1
+      s:t: as                           ¼ x ;
+                  4ax2       1s          b
+
+
+                                 
+              s     kk þ ð1  kÞk2 2
+      as þ                           ¼ xb1 :
+             4ax2       1s
+                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155     151
+
+Let k̃2 u kk+(1  k) k2. Then, Problem (A9) becomes
+
+
+      * ¼                                                k̃22
+     PVC            max             ð1  sÞax þ                 k                   ðA10Þ
+              sa½0;1;k̃2 z0;xaX                     4axð1  sÞ
+
+
+
+
+                        sk̃22              1 b1
+     s:t: as                        ¼       x ;
+                 4ax2 ð1  sÞ2             b
+
+
+
+
+                sk̃22
+     as þ                       ¼ xb1 :
+            4ax2 ð1  sÞ2
+
+
+We can see that Problem (A10) is the same as Problem (A1), and thus, the solution for
+(s, x, k̃2, PVC) is the same as Solution 1, which implies
+
+                          "             b1
+                                           b qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+          k̃ *
+             2  kk    1    b  1    2a          2
+     k*
+      2 ¼           ¼                         b  1  kk :
+             1k      1k     b     1þb
+
+
+A.3.2. The first best
+   Problem (A10) becomes
+
+
+      * ¼                                                k̃22
+     PVC            max             ð1  sÞax þ                 k
+              sa½0;1; k̃2 z0;xaX                    4axð1  sÞ
+
+
+                        sk̃22              1 b1
+     s:t: as                        ¼       x :
+                 4ax2 ð1  sÞ2             b
+
+
+We can see that Problem (A10) is the same as Problem (A6), and thus, the solution for (s,
+x, k̃2, PVC) is the same as Solution 2, which implies
+
+
+
+                                       "         b1
+                                                    b
+                                                                sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ #
+          k̃**
+            2  kk    1                     2a                            2
+     k**
+      2 ¼          ¼                                     ðb  1Þ 1   kk :
+             1k     1k                    b                            b
+152                   S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+A.4. Derivation of Solution 3
+
+      Problem (3) is
+
+
+          * ¼
+        P̄VC          max       ð1  sÞax  k
+                 sa½0;1;xaX
+
+
+
+                 1
+        s:t: asxz xb ;
+                 b
+
+
+
+        as ¼ xb1 :
+
+
+Since the IC condition implies the IR condition, the problem can be reduced to
+
+           max        ð1  sÞax  k
+        sa½0;1;xaX
+
+
+
+        s:t: as ¼ xb1 ;
+
+which can be reduced further to
+
+          * ¼ max ða  xb1 Þx  k;
+        P̄VC
+                 xaX
+
+                                         * and s̄* in Solution 3.
+which immediately implies x̄* and then P̄VC
+
+A.5. Derivation of Solution 4
+
+      The IR condition must be binding, which implies
+
+                 Z l
+        1 b                                            sk22
+          x ¼               salxgðlÞdl ¼ sax                   :                         ðA11Þ
+        b            k2
+                  axð1sÞ
+                                                  4axð1  sÞ2
+
+Hence, the IC condition implies
+                              sk22
+        xb ¼ axs þ                    :                                                   ðA12Þ
+                       4axð1  sÞ2
+By Eqs. (A11) and (A12),
+         1 þ b b1
+     s¼        x :                                                                        ðA13Þ
+          2ab
+                     S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155                        153
+
+By Eqs. (A12) and (A13),
+
+               Z l                                              Z        k2
+                                                                      axð1sÞ
+      P̂VC u                ½ð1  sÞalx  k2 gðlÞdl þ                          ðaxl  k2 ÞgðlÞdl  k1
+                     k2                                             k2
+                  axð1sÞ                                           ax
+
+                                  ð1  s þ s2 Þk22                    2ab          b2  1 2b1
+            ¼ axð1  sÞ þ                          2
+                                                         k ¼             x  xb þ       x      k:
+                                    4axð1  sÞ                        1þb           4ab2
+
+The FOC on x is then
+
+      2ab           ðb2  1Þð2b  1Þ 2b2
+           bxb1 þ                 x     ¼ 0;
+      1þb                 4ab2
+
+implying
+
+                   4a               1
+      xb1 ¼               qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ :
+                 1 þ b 1  1  2 ðb1Þð2b1Þ
+                         þ                      b3
+
+
+The second-order condition (SOC) on x indicates that one is the minimum solution and the
+other is the maximum solution. The maximum solution is
+             2                                            3 b1
+                                                             1
+
+
+            6 4a                1                       7
+      x̂* ¼ 4          qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ 5         :
+              1 þ b 1 þ 1  2 ðb1Þð2b1Þ
+                                                     3
+                                                 b
+
+
+
+Then, by Eq. (A13), we find ŝ*. By Eqs. (A12) and (A13), we further find k̂* and P̂*VC.
+
+A.6. Derivation of Solution 5
+
+   Again, since the IR condition must be binding, we have Eq. (A11). Then, by Eq. (A11),
+
+                                   ð1  s þ s2 Þk22                                          1  s þ s2 1 b
+      P̂VC ¼ axð1  sÞ þ                             2
+                                                          k ¼ axð2  2s þ s2 Þ                          x  k:
+                                    4axð1  sÞ                                                   s      b
+
+We can thus solve the problem in two steps. We first solve the following problem for (s, x)
+without the IR constraint:
+
+                                                           1  s þ s2 1 b
+        * u
+      P̂VC           max         axð2  2s þ s2 Þ                      x  k:                             ðA14Þ
+                 sa½0;1;xaX                                   s      b
+
+Afterwards, we solve for k2 from Eq. (A11).
+154                 S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155
+
+      The FOCs for Eq. (A14) imply
+
+        2abs2
+              ¼ xb1 ;                                                                                  ðA15Þ
+        1þs
+
+                      2b        2
+        s3  s2 þ          s        ¼ 0:                                                               ðA16Þ
+                    2b  1    2b  1
+
+Substituting s = y + 1/3 into Eq. (A16) yields
+
+                4b þ 1       14b  52
+        y3 þ             yþ            ¼ 0:                                                             ðA17Þ
+               3ð2b  1Þ    27ð2b  1Þ
+
+        4bþ1                   14b52
+Let pu 3ð2b1Þ and qu 27ð2b1Þ             . Since p>0, there is a unique real root from Eq. (A17), which
+is
+           sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                         rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ      sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                                                                       rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+           3     q               q 2 p 3               3     q               q 2 p 3
+     ŷ ¼  þ                            þ              þ                            þ             :
+                 2               2             3               2               2             3
+
+Thus, ŝ** = 1/3 + ŷ. Then, by Eqs. (A11), (A14) and (A15), we find x̂**, P̂ **       **.
+                                                                              VC and k̂2
+
+
+A.7. Derivation for Proposition 2
+
+      In the second-best cases, we have
+                                          b1
+                                             b
+                           2a
+        SWSBSF ¼ ðb  1Þ                         k;
+                          1þb
+                         b
+                  b2  1 a b1
+        SWSBUF ¼              k:
+                     b   b
+                                             2b1
+                                                b
+                                                                                      2b1
+                                                                                         b
+Then, SWSB – SF>SWSB – UF if and only if 1þb
+                                          b        < 2. We find that the equation 1þb
+                                                                                   b
+¼ 2 has a unique solution b̄a(1, l). Thus, SWSB – SF>SWSB – UF if and only if b>b̄. In
+fact, b̄ c 1.4.
+
+
+References
+
+Admati, A.R., Perry, M., 1991. Joint projects without commitment. Review of Economic Studies 58, 259 – 276.
+Admati, A.R., Pfleiderer, P., 1994. Robust financial contracting and the role of venture capitalists. Journal of
+   Finance 49, 371 – 402.
+Bergemann, D., Hege, U., 1998. Venture capital financing, moral hazard, and learning. Journal of Banking and
+   Finance 22, 703 – 735.
+                    S. Wang, H. Zhou / Journal of Corporate Finance 10 (2004) 131–155                       155
+
+Cornelli, F., Yosha, O., 2001. Stage financing and the role of convertible securities, IFA Working Paper No.
+   253-1997, London Business School.
+Dessi, R., 2001. Start-up finance, monitoring and collusion, IDEI Working Paper, University of Toulouse.
+Gompers, P.A., 1995. Optimal investment, monitoring, and the staging of venture capital. Journal of Finance 50,
+   1461 – 1489.
+Hellmann, T., 1994. Financial structure and control in venture capital, Chapter 2 of PhD Dissertation, Stanford
+   University.
+Hellmann, T., 1998. The allocation of control rights in venture capital contracts. Rand Journal of Economics 29,
+   57 – 76.
+Kim, S.K., Wang, S., 1998. Linear contracts and the double moral-hazard. Journal of Economic Theory 82,
+   342 – 378.
+Marx, L., 1998. Efficient venture capital financing combining debt and equity. Review of Economic Design 3,
+   371 – 387.
+Neher, D.V., 1999. Staged financing: an agency perspective. Review of Economic Studies 66, 224 – 255.
+Repullo, R., Suarez, J., 1998. Venture capital finance: a security design approach, CEMFI Working Paper #9804.
+Sahlman, W.A., 1990. The structure and governance of venture-capital organizations. Journal of Financial
+   Economics 27, 473 – 521.
+Schmidt, K.M., 2002. Convertible securities and venture capital finance, Mimeo., Stanford University and
+   University of Munich.
+Wang, S., 2002. The irrelevance of control rights in agency models under risk neutrality, Working Paper, HKUST.
+Zhou, H., 2001. Staged financing as a mechanism to control moral hazard and risks in equity joint ventures, M.
+   Phil Thesis, HKUST.
+

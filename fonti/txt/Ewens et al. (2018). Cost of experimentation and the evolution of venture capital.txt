@@ -1,0 +1,1421 @@
+                                                         Journal of Financial Economics 128 (2018) 422–442
+
+
+
+                                                           Contents lists available at ScienceDirect
+
+
+                                                  Journal of Financial Economics
+                                                     journal homepage: www.elsevier.com/locate/jfec
+
+
+
+
+Cost of experimentation and the evolution of venture capitalR
+Michael Ewens a,∗, Ramana Nanda b, Matthew Rhodes-Kropf c
+a
+    California Institute of Technology, Baxter Hall 301C, 1200 East California Blvd., Pasadena, CA 91125, United States
+b
+    Harvard University, Rock Center 317, Boston, MA 02163, United States
+c
+    Massachusetts Institute of Technology, NBER. 100 Main Street Building E62, Cambridge, MA 02142, United States
+
+
+
+
+a r t i c l e             i n f o                          a b s t r a c t
+
+Article history:                                           We study how technological shocks to the cost of starting new businesses have led the
+Received 11 October 2016                                   venture capital model to adapt in fundamental ways over the prior decade. We both doc-
+Revised 15 February 2017
+                                                           ument and provide a framework to understand the changes in the investment strategy of
+Accepted 15 March 2017
+                                                           venture capitalists (VCs) in recent years – an increased prevalence of a “spray and pray”
+Available online 27 March 2018
+                                                           investment approach – where investors provide a little funding and limited governance
+JEL classiﬁcation:                                         to an increased number of startups that they are more likely to abandon, but where ini-
+G24                                                        tial experiments signiﬁcantly inform beliefs about the future potential of the venture. This
+G32                                                        adaptation and related entry by new ﬁnancial intermediaries has led to a disproportionate
+O31                                                        rise in innovations where information on future prospects is revealed quickly and cheaply,
+                                                           and reduced the relative share of innovation in complex technologies where initial exper-
+Keywords:
+                                                           iments cost more and reveal less.
+Innovation
+Venture capital                                                                                                           © 2018 Elsevier B.V. All rights reserved.
+Entrepreneurship
+Investing
+Abandonment options
+
+
+
+
+                                                                                         1. Introduction
+
+                                                                                             Although technological change is increasingly seen as
+                                                                                         the primary driver of productivity growth (Aghion and
+ R
+     We are extremely grateful to Shai Bernstein, Tony Cookson, Marco                    Howitt, 1992), adaptation by ﬁnancial intermediaries may
+Da Rin, Lora Dimitrova, Joan Farre-Mensa, Brent Goldfarb, Yael Hochberg,                 be equally important to realizing the beneﬁts of these new
+David Hsu, Ross Levine, Tom Nicholas, Scott Stern, Ayako Yasuda and the                  technologies (King and Levine, 1993; Laeven et al., 2015).
+participants at the NBER conference on The Changing Financing Market
+                                                                                         For example, Chandler (1965) documents the adaptation by
+for Innovation and Entrepreneurship, the Academy of Management, the
+5th HEC Entrepreneurship Workshop, the Economics of Strategy Work-                       specialized investment banks as a response to the “vast
+shop at NYU, the 5th Entrepreneurial Finance and Innovation Confer-                      sums of capital” required to ﬁnance the construction of
+ence, Western Finance Association 2016, European Finance Assoc. 2016,                    railroads and govern industrial corporations needing arm’s-
+FOM Conference 2016, UC Berkeley, Caltech, Carnegie Mellon University,                   length capital from distant investors.1 Similarly, Nicholas
+Columbia University, Arizona State University, Drexel University, Boston
+University, University of Rochester, University of Michigan, Oxford Univer-
+                                                                                         (2016) shows how the modern venture capital model arose
+sity and Vanderbilt University for helpful comments. The authors thank                   in the mid-20th century in order to channel capital to the
+VentureSource and Correlation Ventures for access to their data. Ewens                   myriad new technologies emerging outside of the corpo-
+and Rhodes-Kropf are advisors to and investors in Correlation Ventures.                  rate research and development (R&D) model.
+Ewens recognizes the support of the Kauffman Foundation Junior Faculty
+Fellowship. All errors are our own.
+   ∗
+     Corresponding author.
+                                                                                           1
+     E-mail addresses: mewens@caltech.edu (M. Ewens), RNanda@hbs.edu                         See also Chandler (1977), Baskin and Miranti (1997), Neal (1990), and
+(R. Nanda).                                                                              Laeven et al. (2015).
+
+https://doi.org/10.1016/j.jﬁneco.2018.03.001
+0304-405X/© 2018 Elsevier B.V. All rights reserved.
+                                     M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                       423
+
+
+    We provide evidence that the venture capital invest-                  ered the initial cost of starting Internet and web-based
+ment model has evolved in fundamental ways over the                       startups. Cloud computing allowed startups to ‘rent’ hard-
+last decade, particularly in the early stage ﬁnancing of                  ware space in small increments and scale up as demand
+software and service oriented startup ventures. For these                 grew, instead of making large ﬁxed upfront investments in
+sectors, we document an increased prevalence of an in-                    hardware when the probability of success for the startup
+vestment strategy that has been colloquially referred to                  was still extremely low. This allowed entrepreneurs and
+as “spray and pray,” where early stage investors provide                  investors to learn about the viability of startups before
+a little funding and limited governance to an increased                   making large ﬁxed investments, and hence can be seen
+number of startups, most of which they abandon after                      as lowering the costs of initial experiments. Importantly,
+their initial investment. The “spray and pray” investment                 this technological shock impacted only a subset of ﬁrms.
+approach is a signiﬁcant shift away from the traditional                  The cloud services provided by AWS provided scalable
+value-added ‘governance’ in the early stages of a venture’s               bandwidth, storage, and computing resources for compa-
+life and is particularly signiﬁcant because venture capital               nies with a strong online presence such as software-as-
+investors are not just passive, but typically play a central              a-service, social networks, or retail e-commerce websites.
+role in monitoring and governing new ventures through a                   This cross-sectional variation in the changing cost of start-
+successful exit (Hellmann and Puri, 20 0 0; Sorensen, 20 07).             ing ﬁrms allows us to systematically document our ﬁnd-
+    We argue that this change in the investment strategy                  ings in a differences-in-differences framework.
+of early stage investors has been driven by technological                     We show that subsequent to the shock, startups
+shocks that have substantially lowered the cost of starting               founded in sectors beneﬁting most from the introduction
+new businesses, opening up a whole new range of invest-                   of AWS raised signiﬁcantly smaller amounts in their ﬁrst
+ment opportunities that were not viable before, but also                  round of VC ﬁnancing. On average, initial funding size fell
+necessitating new ways of ﬁnancing them. To understand                    20%, but quantile regressions demonstrate that this fall
+the need for this adaptation by early stage investors, it is              was across the board and even larger for many parts of
+helpful to recognize that a key feature of the venture cap-               the funding-size distribution. Importantly, we ﬁnd that the
+ital context is a combination of extremely skewed ex post                 fall is conﬁned to initial startup costs. While startups in
+returns and an inability to tell the biggest successes ex                 treated sectors raised less capital in their initial two years,
+ante (Hall and Woodward, 2010; Kerr et al., 2014b). VCs                   total capital raised by ﬁrms in treated sectors that survived
+therefore stage their investment across multiple rounds,                  three or more years was unchanged. This is consistent with
+and each round of investment can be seen as an experi-                    the notion that the primary effect that AWS had was on
+ment that generates information about the ultimate value                  the initial fundraising by startups rather than on the cost
+of the startup. Critically, staging also allows VCs to aban-              of running the business at scale – effectively allowing star-
+don their investment if intermediate information is nega-                 tups to shift their large capital investments to later stages
+tive, so that each investment stage is akin to a real op-                 when uncertainty had been resolved.
+tion (Gompers, 1995; Cornelli and Yosha, 2003; Bergemann                      We turn next to showing how this fall in the cost of
+and Hege, 2005; Fluck et al., 2007; Bergemann et al., 2008;               starting businesses impacted the way in which VCs man-
+Tian, 2011). From a theoretical perspective, therefore, the               aged their portfolios. We show that in sectors impacted
+falling cost of starting ﬁrms has a ﬁrst-order effect on the              by the technological shock, VCs responded by providing
+value of these real options. We provide a simple theoreti-                a little funding and limited governance to an increased
+cal framework to highlight how the falling cost of starting               number of startups, which they were more likely to
+ﬁrms can alter the way VCs select and govern their port-                  abandon after the initial round of funding. The number of
+folio of investments due to the higher value of these aban-               initial investments made per year by VCs in treated sectors
+donment options.                                                          nearly doubled from the pre- to the post-period, without
+    Our paper aims to provide a deeper understanding of                   a commensurate increase in follow-on investments, and
+how the changing cost of starting new ventures has im-                    VCs making initial investments in treated sectors were
+pacted venture-capital backed entrepreneurship in the US.                 less likely to take a board seat following the technological
+While anecdotal accounts of this phenomenon and the                       shock. In a reference to the large number of startups that
+changes in the market for early stage ﬁnance have been                    receive an initial investment, the lower governance, and
+documented in the press (e.g., Economist, 2014) and the                   the smaller proportion of ventures that receive follow-on
+managerial implications popularized in frameworks such                    funding, this investment approach is colloquially referred
+as the “lean startup model,” we are not aware of any sys-                 to as one where investors “spray and pray”.2
+tematic work examining how the changing cost of start-                        Our ﬁndings are consistent with anecdotal accounts
+ing businesses impacts the early stage ﬁnancing market.                   of entry by several new ﬁnancial intermediaries such as
+Our approach combines rich data on the investments and                    ‘Micro-VCs’ and ‘Super Angels’ who specialize in early stage
+composition of venture capital portfolios with a theoretical
+framework that emphasizes a core mechanism driving our
+ﬁndings.
+                                                                            2
+    We begin by providing evidence of a changing invest-                      This “spray and pray” investment strategy is typiﬁed by a quote from
+ment approach by VCs following the advent of Amazon’s                     Naval Ravikant, a prominent angel investor and founder of the platform
+                                                                          AngelList, who noted that “making an [early stage] investment is like
+Web Services (AWS) in early 2006. The introduction of
+                                                                          throwing darts in the dark.” Source: Fatima Yasmine, February 22, 2011,
+cloud computing services by Amazon is seen by many                        Naval Ravikant: Twitter, Bubbles, New York and Start Fund [Interview Part
+practitioners as a deﬁning moment that dramatically low-                  2].
+424                                         M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+investing using such an investment approach.3 However,                           the most. Moreover, younger and more-inexperienced
+the inclusion of VC ﬁxed effects in our regressions shows                        founders, who have a technology that holds a lot of
+that this was not just a compositional shift in the types of                     promise but are not experienced at running a ﬁrm, ar-
+investors before and after the shock – VCs who were active                       guably need mentorship and governance even more than
+in the pre-period were also involved in deals where the                          those run by more experienced entrepreneurs. Yet the
+initial funding size had fallen relative to their own deals in                   fact that VCs need to “spray and pray” to make the in-
+untreated sectors. Moreover, VCs who were active investors                       vestment proﬁtable implies that these startups only get
+in the pre-period were more likely to invest through a                           ﬁnanced with limited governance. This ﬁnding helps to
+spray and pray investment strategy in sectors that ben-                          explain the rise of new ﬁnancial intermediaries such as
+eﬁted from the technological shock. As noted above, the                          accelerators that provide scalable, lower cost forms of
+“spray and pray” investment approach is a signiﬁcant shift                       mentorship to inexperienced founding teams (and which
+away from value-added ‘governance’ in the early stages of                        have only emerged in the last decade), as these are a
+ventures to more passive ‘learning’ about startup potential.                     natural response to the gap in governance created by the
+    The falling cost of starting new businesses allowed a                        evolution of VCs’ investment behavior in early rounds
+set of entrepreneurs who would not have been ﬁnanced                             to a more passive spray and pray approach (Hochberg,
+in the past to receive early stage ﬁnancing. While these                         2016). A second implication of our result points to a
+marginal ventures that just became viable had lower ex-                          disproportionate increase in investments made in sectors
+pected value, they seemed to be largely comprised of ven-                        with more discriminating early experiments, even if there
+tures with a lower probability of success, but a high re-                        is no change in the number of investments in sectors with
+turn if successful (what we refer to as “long shot bets”)                        a slower, or more costly, revelation of ﬁnal project value.
+rather than just ‘worse’ ventures with a lower gross re-                         This change nevertheless alters the trajectory of aggregate
+turn when successful. We ﬁnd that in sectors impacted by                         innovation and is consistent with a common refrain in the
+the technological shock, VCs increased their investments in                      popular press and among some prominent entrepreneurs
+startups run by younger, less experienced founding teams.                        that VCs are not devoting suﬃcient attention to backing
+While these characteristics are consistent with anecdo-                          ‘fundamental’ innovations in recent years.
+tal accounts of “long shot bets” such as Google, Face-                               Our work is related to the literature on early stage ﬁ-
+book, Airbnb, and Dropbox being founded by young, inex-                          nancing (Kerr et al., 2014a; Hellmann and Thiele, 2015;
+perienced founders,4 it is of course also consistent more                        Puri and Zarutskie, 2012) and the emergence in recent
+broadly with alternative mechanisms that would point to                          years of new ﬁnancial intermediaries that select and shape
+the marginal ﬁrm just being a worse investment. To help                          startups at the earliest stages in their life (Cohen and
+distinguish between these, we exploit the insight that                           Hochberg, 2014; Bernstein et al., 2017; Gonzalez-Uribe and
+“long shot bets” will see a greater increase in valuation                        Leatherbee, 2017). Our paper provides a framework within
+in the event that they receive another round of funding.                         which to view the emergence of these new ﬁnancial in-
+This is because long shot bets have a small chance of a                          termediaries. Our results are also related to a small lit-
+huge payoff, so the relatively infrequent states of the world                    erature on ﬁnancial innovations and the important role
+where the initial experiment generates positive informa-                         they play translating technological change into economic
+tion will lead investors to update their posterior beliefs                       growth (Allen and Gale, 1994; Laeven et al., 2015). His-
+about the startup’s expected value much more – and hence                         torical work on entrepreneurship in the United States has
+lead to higher step-ups in value from the ﬁrst to the sec-                       documented the central role of the ﬁnancial innovations to
+ond round of funding. Our empirical results document that                        commercialize new technologies as early as cotton and the
+relative to the pre-period, startups in treated sectors were                     railroads (Cain, 2010). More recently, Janeway (2012) notes
+more likely to fail, but conditional on another round of                         how venture capital evolved to support the funding of
+funding, had nearly 20% higher step-ups in value across                          biotechnology ventures. Our work builds on this line of
+rounds than equivalent startups in untreated sectors. This                       research and documents the important feedback between
+ﬁnding is consistent with the notion that on balance, there                      technological change and ﬁnancial intermediaries – tech-
+was an increase in long shot bets being ﬁnanced and is                           nological shocks to investment opportunities require adap-
+harder to reconcile with other potential channels through                        tation by investors. Indeed, without such adaptation, the
+which VCs might respond to the falling cost of starting                          beneﬁts of new technologies may not be fully realized. Yet,
+new ventures. We supplement our empirical results with a                         this adaption also has consequences for the future trajec-
+simple theoretical model that formalizes the intuition out-                      tory of innovation by shaping the way in which ﬁnancial
+lined above.                                                                     intermediaries select and manage their investments.
+    An interesting implication of our results is that the                            The rest of the paper is structured as follows. In
+value-added role of VCs may have fallen at precisely the                         Section 2, we describe how the introduction of Amazon
+point in the startup’s lifecycle that value-add is needed                        Web Services impacted the cost of starting ﬁrms in cer-
+                                                                                 tain industries, and provide a simple theoretical frame-
+                                                                                 work to guide the interpretation of our results. For inter-
+  3
+    Note that the term ‘Super Angel’ is somewhat of a misnomer, as these         ested readers, we note that a more comprehensive model
+investors raise professionally managed funds from limited partners, oper-        on which the framework is based is available in an In-
+ating effectively as early stage VCs rather than as angel investors.
+  4                                                                              ternet Appendix. In Section 3, we describe the data we
+    See Kerr et al. (2014b) for a description of how such ventures were
+not seen as sure bets and how reputable investors chose to pass on the           use to more systematically test these ideas and outline
+chance to invest in them.                                                        our identiﬁcation strategy. Section 4 outlines our results
+                                              M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                           425
+
+
+and Section 5 provides robustness tests. Section 6 discusses                           somewhere between 100x and 10 0 0x [less] per unit of
+how new intermediaries are responding to the gaps cre-                                 compute, per unit of storage, per unit of networking.”
+ated by the evolution of traditional venture capital and
+                                                                                       Andreessen also notes that the rise of services such as
+Section 7 concludes.
+                                                                                   Amazons Elastic Compute Cloud (EC2) transformed many
+                                                                                   infrastructure costs from upfront capital expenditures to
+2. Descriptive evidence and theoretical framework                                  subscription services that could scale with a company as
+                                                                                   it grew, thereby reducing the ﬁxed costs associated with
+2.1. Cloud computing                                                               starting new ﬁrms.6
+                                                                                       Of course, ‘renting’ hardware is more expensive on a
+    We ﬁrst motivate our choice to use the introduction                            unit cost basis than buying the hardware outright. How-
+of cloud computing as the technological shock to identify                          ever, the ability to rent hardware allowed entrepreneurs to
+adaptation by venture capital investors. A number of prac-                         initially raise smaller amounts of capital to test technologi-
+titioners have pointed to the introduction of cloud com-                           cal viability and customer demand, only making large cap-
+puting as a deﬁning moment when the initial cost of start-                         ital expenditures in hardware once their startup showed
+ing certain businesses fell.5 Cloud computing services were                        initial success and had achieved some scale. Thus, the pri-
+ﬁrst introduced by Amazon in early 2006. Our research                              mary effect of cloud computing was not to lower total
+suggests that the products included in Amazon’s Web Ser-                           costs, but rather to lower the cost of initial experiments
+vices (AWS) were “developed ﬁrst and foremost for Ama-                             when the probability of failure was high. A prominent ex-
+zon’s internal infrastructure” before opening these services                       ample is that of Dropbox, which was founded in 2007, yet
+up to developers outside Amazon in 2006, the timing of                             stored all of its ﬁles on Amazon’s Cloud Computing servers
+which was not anticipated by entrepreneurs or investors                            until 2015, rather than on hardware that it owned and op-
+(Clark, 2012; Vogels, 2011). Amazon’s Chief Technology Of-                         erated itself. Once it reached scale, however, management
+ﬁcer (CTO) Werner Vogels recalled that                                             migrated to its own servers to improve unit economics.
+                                                                                   As Dropbox’s vice president noted in an interview about
+    “At Amazon we had developed unique software and
+                                                                                   why it stopped renting from Amazon, “Nobody is running
+    services based on more than a decade of infrastruc-
+                                                                                   a cloud business as a charity. There is some margin some-
+    ture work for the evolution of the Amazon E-Commerce
+                                                                                   where.” (Metz, 2016).
+    Platform. This was dedicated software and operation
+    procedures that drove excellent performance, reliability,
+    operational quality and security all at very large scale...                    2.2. A simple model of multi-stage ﬁnancing
+    The thinking then developed that offering Amazon’s ex-
+    pertise in ultra-scalable system software as primitive                             We turn next to providing a simple model of multi-
+    infrastructure building blocks delivered through a ser-                        stage ﬁnancing in order to illustrate how a fall in the cost
+    vices interface could trigger whole new world of inno-                         of starting ventures might impact the investments made
+    vation as developers no longer needed to focus on buy-                         by VCs.7 Consider an investor who stages their investment
+    ing, building and maintaining infrastructure. AWS deliv-                       across two rounds, preserving the option to abandon their
+    ered the ﬁrst storage service (Amazon S3) in the spring                        investment after the ﬁrst stage if intermediate informa-
+    of 2006 and compute (Amazon EC2) in the fall of that                           tion is negative. Speciﬁcally, let E[p2 ] denote the uncon-
+    year” (Vogels, 2011).                                                          ditional expectation about the second stage success. The
+                                                                                   investor updates their expectation about the second stage
+   The ability to freely rent hardware in small increments                         probability depending on the outcome of the ﬁrst stage.8
+that could scale with demand was not possible before                               Let pS = E[ p2 |S] denote the expectation of p2 conditional
+2006. Firms had to make large upfront investments in                               on positive intermediate information (success in the ﬁrst
+hardware to prepare for the small chance that they would                           stage), while pF = E[ p2 |F ] denote the expectation of p2
+be a success. The following quote by Mark Andreessen, a                            conditional on negative intermediate information (failure
+prominent venture capital investor and serial entrepreneur                         in the ﬁrst stage).9 Success in the second stage yields a to-
+describes this process and the change:
+    “In the ‘90s, if you wanted to build an Internet com-                            6
+                                                                                        Source: Douglas Macmillan, Andreessen: Bubble believers “Don’t
+    pany, you needed to buy Sun servers, Cisco network-                            know what they’re talking about,” Wall Street Journal, January 3, 2014.
+    ing gear, Oracle databases, and EMC storage systems...                           7
+                                                                                        While this simple model provides a theoretical framework within
+    and those companies would charge you a ton of money                            which to view our results, a more ﬂeshed out equilibrium model of multi-
+                                                                                   stage ﬁnancing in the Internet Appendix outlines how a shift in the cost
+    even just to get up and running. The new startups to-
+                                                                                   of experimentation can not only impact marginal ventures but also have
+    day, they don’t buy any of that stuff... They’re paying                        an impact on infra-marginal investments, thereby having a much larger
+                                                                                   impact on the way in which venture capital investors manage their port-
+                                                                                   folios.
+  5                                                                                  8
+    As described by Hardy (2014), “Cloud computing refers to an eﬃcient                 This might be the building of a prototype, initial traction with cus-
+method of managing lots of computer servers, data storage and network-             tomers, or the Federal Drug Administration (FDA) regulated Phase I trials
+ing. [This technological leap led to] immediate performance gains, since           on the path of a new drug, etc.
+                                                                                     9
+stand-alone servers typically used only a fraction of their capacity in case            One particular functional form that is sometimes used with this set
+there was a surge in demand. By linking the machines together into a               up is to assume that the ﬁrst and second stage have the same underlying
+larger “virtual” system, the surge problem eased and a lot of computation          probability of success, p. In this case p1 can be thought of as the uncon-
+was freed.”                                                                        ditional expectation of p, and E[p2 |S] and E[p2 |F] just follow Bayes’ rule.
+426                                     M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+
+
+                                        Fig. 1. Extensive form representation of the investor’s game tree.
+
+
+
+
+tal payoff of V, to be split between the entrepreneur and                    that the denominator of Eq. (1) is the expected value of the
+investor. Failure in the second stage yields a payoff of zero.               startup at the second stage conditional on success in the
+The probability of ‘success’ (positive information) in the                   ﬁrst stage experiment, also referred to as the “pre-money
+ﬁrst stage is p1 .                                                           valuation” of the venture at the second round of ﬁnanc-
+    The startup requires $X of capital in the ﬁrst round and                 ing. Thus, the marginal venture which just becomes NPV
+$Y in the second round of ﬁnancing. The entrepreneur is                      positive when X falls is either one with a lower expected
+assumed to have no capital while the investor has enough                     value conditional on initial success – we refer to these as
+to fund the project for both periods. An investor who                        “worse” startup ventures – or one with a lower p1 . Note
+chooses not to invest at either stage can instead earn a safe                that startups with a lower p1 are ventures with greater op-
+return of r per period (investor outside option) which we                    tion value, or “long shot bets,” since they are more likely
+normalize to zero for simplicity. The extensive form of the                  to fail, but conditional on positive intermediate informa-
+game played by the investor is shown in Fig. 1.                              tion are equally likely to have a big success.
+    In order to focus on the interesting cases, we assume                        Of course, these are not mutually exclusive outcomes
+that if the project ‘fails’ in the ﬁrst period (i.e. interme-                in that both “worse” ventures and “long shot bets” be-
+diate information is negative), then it is NPV negative in                   come viable investments when X falls. However, the model
+the second period, i.e., pF ∗ V < Y. Further, if the project ‘suc-           generates discriminating predictions that can help distin-
+ceeds’ in the ﬁrst period (i.e., intermediate information is                 guish whether, empirically, on average, the increase in in-
+positive), then it is Net Present Value (NPV) positive in                    vestments when X fell was driven by one type of venture
+the second period, i.e., pS ∗ V > Y. Without these assump-                   or another. In particular, if the dominant driver is an in-
+tions the ﬁrst stage ‘experiment’ is not relevant as, for ex-                crease in “long shot bets”, we should see this manifested in
+ample, pF ∗ V > Y would imply that the investor will make                    three ways. First, we should ﬁnd ex ante evidence of long
+the second-round investment no matter what the result of                     shot bets, which we aim to capture empirically through the
+the ﬁrst stage investment is. We therefore assume that VCs                   age and experience of founding teams when they are ﬁrst
+will always abandon the investment if intermediate infor-                    funded. Secondly, if the increase in investments is domi-
+mation is negative and always invest Y if intermediate in-                   nated by ventures with a lower p1 (as opposed to a lower
+formation is positive. We further assume that VCs compete                    pS ∗ V − Y ), we should see an increase in failure rates fol-
+away rents, so that the NPV of their investment in each                      lowing the initial round of funding (as opposed to ini-
+stage is always zero.                                                        tial failure rates remaining roughly constant). Finally, con-
+    Note ﬁrst that a VC will only be willing to invest in                    ditional on not failing after the ﬁrst round, ﬁrms with a
+a startup if p1 ∗ ( pS ∗ V − Y ) − X > 0. Moreover, the mini-                lower p1 should see a higher step-up in value if they do
+mum probability of ﬁrst stage success that the VC will be                    get another round of funding and should have the same, or
+willing to fund is:                                                          higher exit values when they eventually reach a liquidity
+                                                                             event. The intuition behind a lower p1 leading to a higher
+p1min ≡ X/( pS ∗ V − Y ).                                        (1)
+                                                                             step-up is that if investors put a lower probability on the
+   It is intuitive that a fall in the cost of starting ventures,             startup demonstrating intermediate success, seeing success
+X, would lead to a larger number of investments from a                       after the ﬁrst round of funding leads them to update their
+VC’s portfolio and – given partner time is a scarce resource                 priors more, thereby leading to a higher change in valua-
+– that this should lead to a fall in governance at the initial               tion from the ﬁrst round to the next. This intuition can be
+round of funding. However, note that the composition of                      seen formally in the model by noting that the step-up in
+ventures that get funded will also change. To see why, note                  value – calculated as the pre-money valuation in round 2
+                                              M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                             427
+
+
+divided by the post-money valuation in round 1 – is in-                                Table 1
+                                                                                       Descriptive statistics. This table reports descriptive statistics on
+versely proportional to p1 .10 Hence if the VCs’ new invest-
+                                                                                       US-based startups that received Seed or Series A ﬁnancing from an
+ments are comprised mostly of long shot bets, we should                                investor in the VentureSource database between 2002 and 2010.
+see higher step-ups in value for treated ﬁrms in the post-                             The characteristics of ﬁrms and entrepreneurs are reported as of
+period. On the other hand, if the dominant driver of the                               the date of ﬁrst funding. “First capital (m)” is the ﬁrst capital
+increased funding is worse investments, then p1 will not                               raised in the ﬁrm’s ﬁrst VC ﬁnancing. “Firm age (yrs.)” is the age
+                                                                                       of the startup at the time of ﬁrst ﬁnancing. “Team age (yrs.)” is
+change much and hence we should see little change in the
+                                                                                       the average age of the founding team at the time of ﬁrst ﬁnanc-
+step-ups of ventures being funded in the post-period.                                  ing. “Serial founders” is the fraction of ﬁrms that have at least one
+                                                                                       repeat founder on the founding team. “% Failed” is the fraction of
+3. Data and estimation strategy                                                        ﬁrms that went out of business by the end of 2015. “% Follow-on”
+                                                                                       is the fraction of ﬁrms that had a follow on investment by the end
+                                                                                       of 2015. “Step-up in value” reports the ratio of pre-money in the
+    We turn next to a systematic analysis of VC ﬁnancings.
+                                                                                       subsequent round to the post-money of the current round (if both
+Our analysis is based on the VentureSource database of                                 are available). “Exit value to capital” is the reported exit valuation
+venture capital ﬁnancings, investors, and entrepreneurial                              divided by the total capital raised by the entrepreneurial ﬁrm. “%
+ﬁrms provided by Dow Jones.11 However, the data are sup-                               First board” is the fraction of ﬁrms that had at least one investor
+plemented in several ways. First, additional valuation in-                             who took a board seat in the ﬁrst ﬁnancing round. The “# Firms”
+                                                                                       reports the total number of ﬁrms for which we can calculate the
+formation for both ﬁnancings and exits comes from Cor-                                 variable.
+relation Ventures and a merge of Thomson’s VentureEco-
+nomics.12 Second, additional information about the en-                                                                          2002–2010
+
+trepreneurial ﬁrm’s founding team comes from CapitalIQ,                                                             Firms   Mean      Median      Std. dev.
+LinkedIn, Crunchbase, ﬁrm websites and Lexis Nexus.13                                    First capital (m)          7878    4.39        2.30        6.32
+Founders were identiﬁed with data from VentureSource                                     Firm age (yrs.)            8804     2.15       1.23        2.77
+and additional data collection detailed in Ewens and Fons-                               Team age (yrs.)            5717    40.28      40.00       9.04
+Rosen (2015).                                                                            Serial founder             7903     0.26       0.00       0.44
+                                                                                         % Failed                   8961     0.51       1.00        0.50
+    We begin by including every ﬁrst round of funding                                    % Follow-on                8961     0.57       1.00        0.50
+among VC-backed startups that occurred between 2002                                      Step-up in value           1066     2.24       1.63       5.00
+and 2010 and was labeled as an early stage round of ﬁ-                                   Exit value to capital      1538    10.22       3.52       54.58
+nancing.14 The focus is therefore on ﬁrst, early stage ﬁ-                                % First board              5914     0.14      0.00         0.34
+nancings of startups between 2002 and 2010. The ﬁnal
+
+  10
+     To put this in terms of a numerical example, suppose there is a 20%           sample includes 8961 entrepreneurial ﬁrms ﬁnanced by
+chance of success in round 1 and a 40% chance of success in round 2.               2815 unique investors. The main sample has 16,944 obser-
+Initially, it takes $4 million to reach round 2 and it takes a further $10         vations at the investor-startup level of ﬁnancing. Table 1
+million in round 2 to reach an exit of $100 million. Assume that if the
+                                                                                   presents descriptive statistics for the key variables used in
+ﬁrm fails in either round 1 or round 2 it is worth zero. Working back-
+wards, the post-money valuation in round 2 will be $40 million (40% ∗              the analysis.
+$100 million) and the pre-money valuation in round 2 will be $30 mil-
+lion. Since the probability of success in round 1 is 20%, the post-money
+valuation in round 1 is $6 million and the pre-money valuation in round            3.1. Assigning treated and control using industry variation
+1 is $2 million and the VC would take 66.7% of the company in the ﬁrst
+round of funding. Note also that the lowest probability of ﬁrst-round suc-
+cess that a VC would be willing to fund in round 1 would therefore be
+                                                                                       Importantly for our analysis, the advent of cloud com-
+4/30 = 13.33%. The step-up from round 1 to round 2 is 30/6 = 5, which is           puting in 2006 did not impact all industries equally. Its
+inversely proportional to the probability of success from getting from one         effects were conﬁned to businesses with a strong online
+round to the next (1/20%). Suppose now that the ﬁrst round of ﬁnancing             presence such as software-as-a-service, social networks, or
+can be done with $2 million instead of the original $4 million. The mini-
+                                                                                   retail e-commerce websites.
+mum possible probability of ﬁrst round success falls to 2/30 = 6.67%. That
+is, startups with a probability of initial success between 6.67% and 13.33%            Paul Graham, the founder of prominent accelerator, Y-
+now become viable investments. But note that for a ﬁrm whose probabil-             Combinator, noted in 2008 that
+ity of initial success is 10% (not viable before but now viable), the step up
+from round 1 to round 2 (if the ﬁrm shows intermediate success) will be                “[the reason] no one was doing quite what we do is
+1/10% = 10X.                                                                           that till recently it was a lot more expensive to start
+  11
+     The coverage of ﬁnancing rounds is extremely comprehensive in Ven-                a startup. You’ll notice we haven’t funded any biotech
+tureSource and particularly so during our period of analysis, because                  startups. That’s still expensive.”15
+scanned pdf versions of Form D ﬁlings were available on the Securities
+and Exchange Commission (SEC) website for much of our sample period,
+making it much easier for data providers to collect comprehensive infor-
+mation.                                                                            pacted by the introduction of AWS and hence are endogenous. Neverthe-
+  12
+     Correlation Ventures is an active venture capital fund that invests us-       less, we note that the results presented below are robust to dropping the
+ing a data-driven quantitative model.                                              small number of ﬁnancings greater than $25m or considering only seed
+  13
+     For each entrepreneurial ﬁrm founder, we matched using name and               rounds of ﬁnancing.
+company to these separate data sources. The data sources provided past               15
+                                                                                        Source: http://paulgraham.com/ycombinator.html. Note also that in
+employment, person age, education background, and gender. Lexis Nexus              the past few years technological advances in other sectors – for exam-
+provides a service to collect individual birth years using name and state          ple, CRISPR/Cas genome editing techniques for biotechnology startups –
+(of the company).                                                                  have made it cheaper to start companies in biotechnology as well. This is
+  14
+     We impose no further restrictions, either on the label of the round           why we limit our sample to a few years before and after 2006 to ensure
+(e.g. only ‘Seed Rounds’) or the size of the round), as they are also im-          a robust identiﬁcation strategy.
+428                                 M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+    We exploit this cross-sectional heterogeneity in the im-             compared to those in Non-treated segments. This provides
+pact of cloud computing across industry sectors to identify              us with conﬁdence that the words we are picking up are
+the effect on venture capital investors. Speciﬁcally, we use             indeed good markers of industry-segments that beneﬁted
+narrow industry classiﬁcations assigned to entrepreneurial               from the introduction of AWS.
+ﬁrms in the VentureSource database. VentureSource tracks                    With this cross-sectional separation of entrepreneurial
+venture capital activity in the United States and assigns                ﬁrms by exposure to the introduction of the Amazon
+industries to entrepreneurial ﬁrms by looking at the an-                 cloud technology, the eight industry-segments classiﬁed
+swer to the question “What is the essential product or ser-              as treated are “Business Support Services,” “Consumer
+vice that the company provides?” We use the 26 distinct                  Information Services,” “Financial Institutions and Services,”
+industry-segments in VentureSource to create our deﬁni-                  “Media and Content,” “Medical Software and Informa-
+tions of “treated” and “control.” Such segments include                  tion Services,” “Retailers,” “Software,” and “Travel and
+“Consumer Information Services,” “Renewable and Non-                     Leisure.” Importantly, nearly all of these industry clas-
+Renewable Energy,” and “Biopharmaceuticals’.’ The goal is                siﬁcations signal a service rather than production of
+to assign each one of the 26 categories to “treated” or                  good, and are likely to beneﬁt from cloud computing
+“control” based on whether the typical ﬁrm in that indus-                due to their delivery of the service over the web. The
+try classiﬁcation beneﬁted from the introduction of AWS.                 remaining 19 industry segments classiﬁed as controls
+Firms that would beneﬁt include those that provided on-                  include “Aerospace and Defense,” “Biopharmaceuticals,”
+line services, high-traﬃc websites, ﬁle storage or services,             “Communications and Networking,” “Electronics and Com-
+web hosting, or online retail.                                           puter Hardware,” “Healthcare Services,” “Machinery and
+    To facilitate assignment of industry to treated and con-             Industrial Goods,” “Materials and Chemicals,” “Medical
+trol, we begin with an analysis of the companies in each                 Devices and Equipment,” “Renewable and Non-Renewable
+industry-segment. Table A.1 in the Appendix provides a                   Energy,” and “Semiconductors.”16 Importantly, the category
+summary of the top ten words in the one paragraph com-                   “Communications and Networking” includes ﬁrms that
+pany descriptions available in VentureSource across all                  produce hardware or sell services such “leased-line and
+ﬁrms in each industry-segment from 2002 – 2010. Panel                    dial up services,” “optical connectivity solutions,” and
+A presents the list of keywords associated with the ﬁ-                   “high-performance tunable lasers.” Similarly, Healthcare
+nal eight treated industries from our classiﬁcation. Popular             Services were less likely to be delivered over the web due
+words include “software,” “web,” “online,” and “service.”                to privacy concerns over this period.
+The introduction of the Amazon cloud effectively allowed
+ﬁrms such as these to outsource their backend online ser-                3.2. Estimation strategy
+vices in ways that were not possible prior to 2006. In Panel
+B, the 19 control industry segments exhibit words that ref-                  Our estimation strategy is a standard differences-in-
+erence tangible goods such as “drug,” “devices,” and “sys-               differences regression. Given the timing of the technologi-
+tem.” The control classiﬁcation includes ﬁrms who produce                cal shock, our analysis compares VCs’ investments between
+semiconductors or develop cancer drugs and thus have lit-                2006–2010 with the investments from 2002 to 2005. Also,
+tle to gain after the new cloud technology became avail-                 since the technological shock disproportionately impacted
+able.                                                                    early stage investments, our analysis focuses on the ﬁrst,
+    To formalize this intuition of ﬁrms that are most                    early stage round of funding among VC-backed startups,
+likely to beneﬁt from AWS, we measure the fraction of                    although as we show in the robustness section, we run
+ﬁrms whose description has at least one of the keywords                  placebo tests on later rounds of ﬁnancing to highlight
+“Online,” “E-commerce,” “Hosting,” or “Web” in each                      that indeed the shifts are driven by changes in the initial
+industry segment, to provide an industry-segment-level                   rounds of ﬁnancing rather than changes across the board.
+exposure to the treatment. We deliberately choose not to                 Estimations are run at the VC ﬁrm-startup-year level and
+deﬁne treatment at the ﬁrm-level as this is endogenous.                  take the form:
+Rather, we deﬁne treatment based on likelihood of beneﬁt
+based on the description of activity among pre-period
+                                                                         Y jit = β1 T reatedi ∗ Postt + β2 Xi + γt + ρ j + ν jit ,              (2)
+ﬁrms and show a strong correlation between this and                      where Xi are entrepreneurial ﬁrm characteristics at the
+activity among ﬁrms in the same industry-segment in the                  time of the investment, including industry group ﬁxed ef-
+post-period. Table 2 provides the number of ﬁrms in each                 fects, geographic ﬁxed effects, and an indicator for whether
+industry-segment and the share of ﬁrms with at least one                 the ﬁrm was in a treated industry-segment, γ t are year
+of the keywords above. As can be seen from Column 4,                     ﬁxed effects corresponding to the year of the investment.
+the industry-segments categorized as “Treated” have a sig-               In many speciﬁcations, we also include VC-ﬁrm ﬁxed ef-
+niﬁcantly higher share of the keywords compared to those                 fects, ρ j , so that the β 1 estimate represents the within-
+in “Non-treated” industries, where the prevalence is close               VC dynamics of the dependent variable Yjit . The main co-
+to zero. In addition, it can be seen by comparing Columns                eﬃcient of interest (β 1 ) is the interaction between Treated
+2 and 4 that the incidence of these words increased in                   and Post.
+most of the Treated segments in the post period, while
+they remained equally non-existent in the Non-treated                      16
+                                                                              The remaining categories are “Agriculture and Forestry,” “Construc-
+segments. Finally, by comparing Columns 1 and 3, it can
+                                                                         tion and Civil Engineering,” “Food and Beverage,” “Household and Oﬃce
+be seen that there is a disproportionate growth in number                Goods,” “Personal Goods,” “Utilities,” “Vehicles and Parts,” and “Wholesale
+of ﬁrms entering treated segments in the post-period                     Trade and Shipping.”
+                                       M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                            429
+
+
+                      Table 2
+                      Treated vs. non-treated industry segments. This table documents the categorization of industry-
+                      segments to “Treated” or “Non-Treated” for the sample of ﬁrms described in Table 1. It uses the
+                      description of each ﬁrm to characterize the degree to which the introduction of AWS was likely to
+                      be beneﬁcial to the ﬁrm in its early stages. In particular, it measures the fraction of ﬁrms whose
+                      description has at least one of the keywords “Online,” “E-commerce,” “Hosting,” or “Web” in each
+                      industry-segment, to provide an industry-segment-level exposure to the treatment. We deliberately
+                      choose not to deﬁne treatment at the ﬁrm-level as this is endogenous. Rather, we deﬁne treatment
+                      based on likelihood of beneﬁt based on the description of activity among pre-period ﬁrms, show a
+                      strong correlation between this and activity among ﬁrms in the same industry-segment in the post-
+                      period. The column “# Firms” presents the count of ﬁrms with the industry classiﬁcation, while the
+                      column “Word share” provides the ratio described above. “2002–2010” refers to ﬁrms in the full
+                      sample period, while “20 02–20 05” refers to the measure based on pre-period ﬁrms only. We lose 47
+                      ﬁrms because they lack a business description or industry classiﬁcation.
+
+                                                                                  Panel A: Treated industries
+                       Industry-segment                               # Firms     Word share     # Firms      Word share
+                                                                            20 02–20 05                2002–2010
+
+                       Business support services                        277           24%          1195         27%
+                       Consumer information services                    137           53%          1061         55%
+                       Financial institutions and services              79            11%           271         18%
+                       Media and content                                53            22%          252          35%
+                       Medical software and information services         76           11%          225          14%
+                       Retailers                                         45           13%           111         33%
+                       Software                                         840            7%          1941         13%
+                       Travel and leisure                                32           31%           89          27%
+
+                                                                                Panel B: Non-treated industries
+                                    Industry-segment                  # Firms     Word share     # Firms      Word share
+                                                                            20 02–20 05                2002–2010
+
+                       Aerospace and defense                             12            0%            31          0%
+                       Agriculture and forestry                           5            0%            26          0%
+                       Biopharmaceuticals                               347            0%           910          0%
+                       Communications and networking                    187            2%           359          2%
+                       Construction and civil engineering                20            0%            72          0%
+                       Electronics and computer hardware                141            3%           361          2%
+                       Food and beverage                                 16            0%            75          0%
+                       Healthcare services                               62            2%           162          4%
+                       Household and oﬃce goods                           5            0%            47          2%
+                       Machinery and industrial goods                    20            0%           108          0%
+                       Materials and chemicals                          49             0%           135          0%
+                       Medical devices and equipment                    292            0%           806          0%
+                       Non-renewable energy                              14            0%            41          0%
+                       Personal goods                                    19            0%            62          3%
+                       Renewable energy                                  36            0%           252          0%
+                       Semiconductors                                   176            1%           269          1%
+                       Utilities                                          0            0%            14          0%
+                       Vehicles and parts                                 5            0%            34          0%
+                       Wholesale trade and shipping                       1            0%            5           0%
+
+
+
+
+    Note that since the deﬁnition of treated and control                      trends assumption, by deﬁnition, cannot be proven, we aim
+ﬁrms is based on industry-segments, which is more gran-                       to validate it in several ways. First, Columns 1 and 3 of
+ular than broad industry group classiﬁcations, the inclu-                     Table 2 document that the rate of investment in the Non-
+sion of industry group ﬁxed effects (such Biopharmaceu-                       treated sectors was quite comparable across the pre- and
+ticals and Healthcare, Information Technology, etc.) in all                   post-periods. Post-period investment in the Non-treated
+our estimations effectively provides within-industry im-                      sector rose by about 30% compared to the pre-period, ris-
+pacts of the treatment. This is particularly useful as ven-                   ing from 350 ﬁrms per year in non-treated sectors receiv-
+ture capital ﬁrms often have a broad industry or sector fo-                   ing ﬁrst ﬁnancing from VCs to about 450 ﬁrms per year in
+cus for their investments. Note also that since (2) includes                  the post-period. On the other hand, investment into ﬁrms
+year ﬁxed effects, the main effect of Post is not identi-                     in treated sectors rose from about 375 ﬁrms per year to
+ﬁed.                                                                          over 700 ﬁrms per year, showing that the changes we ob-
+    As with any differences-in-differences estimation strat-                  serve are driven by ﬁrms in the treated sectors, as op-
+egy, our key identifying assumption is one of parallel                        posed to, for example, a smaller fall in investments in the
+trends – that is, that the “untreated” industry-segments                      control group. In addition, we show in dynamic speciﬁca-
+provide an appropriate counterfactual for what would have                     tions that there is no evidence of pre-trends (and ﬁnd in
+happened to the treated ﬁrms had they not beneﬁted from                       unreported ﬁgures that there was no differential trend by
+the introduction of cloud computing. While the parallel                       industry across any of the outcome variables in the pre-
+430                                     M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+                   Table 3
+                   Initial funding size. This table reports results from OLS regressions where the dependent variable is the
+                   log of initial investment for the startup in which a given VC invested. A unit of observation is an en-
+                   trepreneurial ﬁrm ﬁnancing associated with an investor. VCs who are active in the pre-period are deﬁned
+                   as those investors with at least three investments in the pre-2006 period. Industry ﬁxed effects control for
+                   the ﬁve industry groups: Biotechnology and health-care, Business and ﬁnancial services, Consumer goods
+                   and services, Energy and industrials, and Information technology. “Treated” industries are deﬁned at a more
+                   granular-level than these industry classiﬁcations so there is within-industry variation in startups that are
+                   deﬁned as “treated” vs. not. “Syndicate size” is the log of the number of investors in the ﬁnancing and
+                   the three “Startup based in” variables are dummies for entrepreneurial ﬁrm headquarters state. “Year FE”
+                   indicate dummies for ﬁnancing year, “Industry FE” are dummies for the ﬁve major industries. “VC ﬁrm FE”
+                   are VC ﬁrm ﬁxed effects. Standard errors are clustered by VC-ﬁrm. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗
+                   p < 0.01.
+
+                                                             All VCs                              VCs active in pre-period
+                                                  (1)          (2)            (3)           (4)              (5)          (6))
+
+                     Treated X Post-2005      −0.294∗ ∗ ∗   −0.269∗ ∗ ∗   −0.152∗ ∗ ∗   −0.319∗ ∗ ∗      −0.308∗ ∗ ∗   −0.148∗ ∗ ∗
+                                              (0.0663)       (0.0673)     (0.0375)       (0.117)          (0.117)      (0.0503)
+                     Treated                   −0.0293       −0.0338      −0.124∗ ∗ ∗    −0.0732          −0.0739      −0.158∗ ∗ ∗
+                                               (0.0504)      (0.0504)     (0.0322)       (0.0675)         (0.0661)     (0.0393)
+                     Syndicate size            0.323∗ ∗ ∗    0.325∗ ∗ ∗    0.233∗ ∗ ∗    0.356∗ ∗ ∗       0.356∗ ∗ ∗    0.238∗ ∗ ∗
+                                               (0.0200)      (0.0197)     (0.00886)      (0.0371)         (0.0368)      (0.0118)
+                     Startup based in CA       0.438∗ ∗ ∗    0.424∗ ∗ ∗    0.129∗ ∗ ∗    0.484∗ ∗ ∗       0.475∗ ∗ ∗   0.0956∗ ∗
+                                               (0.0773)      (0.0766)      (0.0300)       (0.129)          (0.129)     (0.0380)
+                     Startup based in MA       0.465∗ ∗ ∗    0.453∗ ∗ ∗    0.175∗ ∗ ∗    0.539∗ ∗ ∗       0.532∗ ∗ ∗    0.169∗ ∗ ∗
+                                               (0.0797)      (0.0792)      (0.0388)       (0.141)          (0.141)      (0.0479)
+                     Startup based in NY       0.276∗ ∗ ∗    0.290∗ ∗ ∗     0.0934         0.205           0.221        −0.0718
+                                               (0.0743)      (0.0740)      (0.0602)       (0.146)         (0.145)       (0.0770)
+                     Post-2005                  0.0741∗                                  0.179∗ ∗ ∗
+                                               (0.0435)                                  (0.0665)
+
+                     Observations               15526         15526         15526          7708            7708           7708
+                     Number startups            7878           7878         7878           5062            5062           5062
+                     Number VCs                  2647          2647          2647           506             506            506
+                     R2                          0.117        0.130         0.108          0.138           0.143          0.119
+
+                     Industry FE?                  Y             Y             Y             Y                Y             Y
+                     Year FE?                      N             Y             Y             N                Y             Y
+                     VC ﬁrm FE?                    N             N             Y             N                N             Y
+
+
+
+
+period), providing further support for the parallel trends                    of our ﬁndings as they cannot account for the full set of
+assumption.                                                                   patterns we see.
+    Our identiﬁcation is also predicated on a second key
+assumption that no other systematic change in 2006 im-                        4. Results
+pacted precisely the set of ﬁrms we classify as treated, in
+a manner consistent with our ﬁndings but through some                         4.1. Capital raised in ﬁrst ﬁnancing
+other channel. We address three such potential channels in
+detail in the robustness tests, documented in Section 5 of                       We ﬁrst document that the cost of starting businesses
+the paper, but brieﬂy outline them here as well. First, we                    did fall following the introduction of Amazon Web Services
+document that our results are not driven by any changes                       (AWS) in 2006, as suggested by practitioners. Table 3 re-
+due to the ﬁnancial crisis, which manifested itself rela-                     ports the estimation results from (2) where the dependent
+tively brieﬂy in the venture capital industry towards the                     variable is log size of the investment in the ﬁrst round
+end of our sample and was mostly conﬁned to 2009.                             of funding for VC-backed ﬁrms in the period 2002–2010.
+    Second, we examine other potential technological                          Columns 1–3 include VC ﬁrms that were active at any
+changes to the VC opportunity set, for example, the in-                       point in the sample period. Columns 4–6 are run on the
+troduction of the iPhone and its related apps. Consistent                     subset of VCs that had at least three investments in the
+with the view that very few of these apps were funded by                      pre-2006 time period (i.e., were active in the pre-period).
+VC investors, we ﬁnd that excluding ﬁrms in any way re-                       For each set of ﬁrms, the ﬁrst column includes only indus-
+lated to the iPhone appstore does not impact our results                      try ﬁxed effects, the second column adds year ﬁxed effects
+at all. Finally, we address other potential channels – such                   and the third column further adds VC-ﬁrm ﬁxed effects. As
+as younger entrepreneurs needing more governance and                          can be seen from Table 3, there is a signiﬁcant decrease in
+hence needing more staging, or entry by new intermedi-                        the capital invested by VCs in ﬁrst ﬁnancings for startups
+aries driving up prices, leading to smaller investments –                     in treated industry segments. Relative to the non-treated
+that are consistent with some of our results. We provide                      industry ﬁrms, capital invested in treated startups is be-
+extensive evidence that these are unlikely to be the drivers                  tween 15% to 27% lower. This difference represents a $670
+                                               M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                            431
+
+
+                      Table 4
+                      Initial funding size: quantile estimates. This table reports results from quantile regressions where the depen-
+                      dent variable is the log of initial investment for the startup in which a given VC invested. A unit of observation
+                      is an entrepreneurial ﬁrm ﬁnancing associated with an investor. VCs who are active in the pre-period are de-
+                      ﬁned as those investors with at least three investments prior to 2006. Industry ﬁxed effects control for the ﬁve
+                      industry groups: Biotechnology and health-care, Business and ﬁnancial services, Consumer goods and services,
+                      Energy and industrials, and Information technology. “Treated” industries are deﬁned at a more granular-level
+                      than these industry classiﬁcations so there is within-industry variation in startups that are deﬁned as “treated”
+                      vs. not. “Year FE” indicate dummies for ﬁnancing year, “Industry FE” are dummies for the ﬁve major indus-
+                      tries, and “VC ﬁrm FE” are VC ﬁrm ﬁxed effects. Bootstrapped standard errors (500 repetitions) are reported in
+                      parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                                   All VCs                             VCs active in pre-period
+                                                  25th pctile      Median       75th pctile    25th pctile     Median       75th pctile
+                                                      (1)            (2)            (3)            (4)            (5)           (6)
+
+                         Treated X Post-2005       −0.216∗ ∗ ∗    −0.301∗ ∗ ∗   −0.230∗ ∗ ∗     −0.223∗ ∗     −0.170∗ ∗ ∗   −0.149∗ ∗ ∗
+                                                   (0.0609)       (0.0497)       (0.0413)        (0.110)      (0.0629)      (0.0531)
+                         Treated                   −0.0465        −0.205∗ ∗ ∗   −0.240∗ ∗ ∗     −0.167∗ ∗     −0.247∗ ∗ ∗   −0.262∗ ∗ ∗
+                                                   (0.0601)        (0.0473)      (0.0291)       (0.0825)       (0.0471)      (0.0374)
+                         Syndicate size             0.300∗ ∗ ∗     0.248∗ ∗ ∗    0.247∗ ∗ ∗     0.343∗ ∗ ∗     0.251∗ ∗ ∗    0.242∗ ∗ ∗
+                                                   (0.00902)      (0.00756)     (0.00853)       (0.0160)       (0.0130)     (0.00824)
+                         Startup based in CA        0.437∗ ∗ ∗    0.388∗ ∗ ∗     0.244∗ ∗ ∗     0.526∗ ∗ ∗    0.429∗ ∗ ∗     0.220∗ ∗ ∗
+                                                    (0.0323)      (0.0254)       (0.0201)       (0.0607)      (0.0351)       (0.0277)
+                         Startup based in MA        0.570∗ ∗ ∗    0.471∗ ∗ ∗     0.277∗ ∗ ∗     0.718∗ ∗ ∗    0.472∗ ∗ ∗     0.245∗ ∗ ∗
+                                                    (0.0462)      (0.0444)       (0.0336)       (0.0716)      (0.0435)       (0.0375)
+                         Startup based in NY        0.348∗ ∗ ∗    0.197∗ ∗ ∗     0.200∗ ∗ ∗       0.127         0.103         0.0752
+                                                    (0.0551)      (0.0633)       (0.0672)        (0.118)       (0.101)       (0.0880)
+
+                         Observations                15584          15584         15584          7738           7738          7738
+                         Number startups              7897           7897          7897          5078           5078          5078
+                         Number VCs                   2657           2657          2657           506            506           506
+                         R2 / psuedo-R2              0.176          0.176         0.173          0.185          0.184         0.177
+
+                         Industry FE?                   Y             Y              Y              Y                Y           Y
+                         Year FE?                       Y             Y              Y              Y                Y           Y
+                         VC ﬁrm FE?                     N             N              N              N                N           N
+
+
+
+
+thousand to $1.3 million fall in the average capital invested                       4.2. VC response: “Spray and pray” investing
+in the ﬁrst round of funding in the pre-period.17 We can
+also see that the smaller investment amount was a func-                             4.2.1. Changes in the number of investments
+tion of both entry by new investors who wrote smaller                                   Having shown the falling cost of starting businesses
+checks as well as a change in behavior from incumbents.                             in“treated” industry-segments, we turn next to under-
+We will continue to see this in all of the regressions below.                       standing its consequences for the investment strategies of
+Thus the effects we ﬁnd seem to stem both from entry as                             VCs and the composition of their portfolios. First, we pro-
+well as adaptation.                                                                 vide descriptive evidence of this by calculating the number
+    Table 4 reports the results from quantile regressions es-                       of newly ﬁnanced ﬁrms in treated and non-treated indus-
+timated at the 25th, 50th, and 75th percentiles, again for                          tries from 2002 to 2010. The ratio of these treated to non-
+any VCs in the sample and for the subset that were most                             treated numbers is reported in Fig. 3, where a ratio of one
+active. It documents that the initial funding size fell in                          implies that there were an equal amount of ﬁrms ﬁnanced
+these industry-segments across all points in the funding                            in the two categories. There is a marked increase in invest-
+size distribution, not just on average as seen in Table 3.                          ments that persists in the post-period suggesting a shift in
+Fig. 2 reports the results from a dynamic speciﬁcation of                           the ﬁnancing rates of treated industry startups.
+Eq. (2) where each point is an estimate of the interaction                              We next test for this change in a regression context by
+of year and treated dummies, relative to year 2006. The                             studying the total number of ﬁrst-time investments in en-
+bands correspond to 95% conﬁdence intervals. The patterns                           trepreneurial ﬁrms made by VCs in each year and indus-
+in the ﬁgure demonstrate there is no pre-trend and that                             try. The count is scaled by the total investors in the round
+the timing of the falling cost of ﬁrst ﬁnancings is consis-                         so large syndicated investments do not receive additional
+tent with the introduction of AWS.                                                  weight. A unit of observation is thus a VC ﬁrm, year, and
+                                                                                    one of two industry groups – “treated” and “non-treated.”
+                                                                                    For years with no investment activity by a given investor,
+ 17
+    Note that these magnitudes may seem small relative to what industry             the count is zero so that we have a balanced panel across
+practitioners describe as the importance of the shock. This is likely in part       investor-year-industry cells. The dependent variable of in-
+due to the fact that we are assigning ‘treated’ status to industries rather         terest is the log of one plus this count. Table 5 reports the
+than to ﬁrms to address concerns about endogeneity. Since not every ﬁrm
+in a treated industry is treated, this measurement error will tend to bias
+                                                                                    results for the sample of all VCs and those with pre-2006
+estimates towards zero.                                                             investment activity.
+432                                          M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+
+
+Fig. 2. Difference-in-difference estimates for ﬁrst capital raised: treated and non-treated. The ﬁgure plots the coeﬃcients for the interaction terms of each
+ﬁnancing year and the treated industry dummy for an ordinary least squares (OLS) regression where the dependent variable, Kit , is the log of the ﬁrst VC
+capital raised and the unit of observation is an entrepreneurial ﬁrm’s ﬁrst ﬁnancing event. The sample includes US-based startups that received Seed or
+Series A ﬁnancing from an investor in the Venture Source database between 2002 and 2010. The 2006 interaction term is the excluded category, reported
+as zero in the ﬁgure. The vertical lines represent the 95% conﬁdence interval for the coeﬃcient estimates with robust standard errors.
+
+
+
+
+Fig. 3. New VC-backed ﬁrms in treated industries. This ﬁgure reports the ratio of treated companies to untreated companies receiving a ﬁrst, early stage
+ﬁnancing as reported by VentureSource. The sample includes US-based startups that received Seed or Series A ﬁnancing from an investor in the Venture
+Source database between 2002 and 2010. A treated company is in one of the following industries (from VentureSource): “Business Support Services,”
+“Consumer Information Services,” “Financial Institutions and Services,” “Media and Content,” “Medical Software and Information Services,” “Retailers,”
+“Software,” and “Travel and Leisure.” A ratio of one implies that there were an equal amount of new entrepreneurial ﬁrms ﬁnanced in that year in treated
+and untreated industries. The vertical line represents the approximate date of the introduction of Amazon Web Services, our treatment event.
+                                             M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                              433
+
+
+                                 Table 5
+                                 Total investments by investors. This table reports results from results of OLS and VC
+                                 ﬁrm ﬁxed effects regression of total investments made by investors. Total investments
+                                 are scaled by the number of investors in each ﬁrst-round investment to ensure that
+                                 entrepreneurial ﬁrms with more investors do not receive additional weight. A unit of
+                                 observation is a quarter and industry, where industry is treated or non-treated as de-
+                                 ﬁned in Table 2. For Columns 1 and 2, all VCs are included in the analysis in OLS and FE
+                                 speciﬁcation, respectively. Columns 3 and 4 have the same speciﬁcations for the sample
+                                 of VCs who have investments in the pre-period (i.e., “Active” VCs). Industry ﬁxed ef-
+                                 fects control for the ﬁve industry groups: Biotechnology and health-care, Business and
+                                 ﬁnancial services, Consumer goods and services, Energy and industrials, and Informa-
+                                 tion technology. “Treated” industries are deﬁned at a more granular-level than these
+                                 industry classiﬁcations so there is within-industry variation in startups that are deﬁned
+                                 as “treated” vs. not. “Year FE” indicate dummies for ﬁnancing year and “VC ﬁrm FE” are
+                                 VC ﬁrm ﬁxed effects. Standard errors clustered by quarter are reported in parentheses.
+                                 Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                                        Log total investments in quarter-industry
+                                                              All VCs          All VCs      “Active” VCs     “Active” VCs
+                                                                (1)               (2)            (3)              (4)
+
+                                   Treated X Post-2005       0.0277∗ ∗ ∗     0.0412∗ ∗ ∗     0.0453∗ ∗ ∗      0.0506∗ ∗ ∗
+                                                             (0.00772)       (0.00850)        (0.0117)         (0.0113)
+                                   Treated                    0.0136∗ ∗       0.0152∗ ∗       0.0140∗ ∗        0.0158∗ ∗
+                                                             (0.00585)       (0.00688)       (0.00642)        (0.00754)
+
+                                   Observations                30340           30340          17066            17066
+                                   Number VCs                   2813            2813           506              506
+                                   R2                          0.0254          0.0215         0.0296           0.0230
+
+                                   Industry FE?                  N               N               N                 N
+                                   Year FE?                      Y               Y               Y                 Y
+                                   VC ﬁrm FE?                    N               Y               N                 Y
+
+
+
+
+    Column 1 of Table 5 shows an increase in investments                             in the earliest stages of their investments. To measure gov-
+in treated industries after 2006 across all VCs. Column 2                            ernance, we identify whether any investor in the ﬁrst ﬁ-
+show a similar magnitude when comparing changes in in-                               nancing took a board seat. Unfortunately, we cannot always
+vestment rates within a VC’s portfolio over the sample pe-                           date the timing of the board’s creation and an individual
+riod. When we condition on the sample of VCs who have                                investor’s start date on the board. The sample of ﬁnanc-
+pre-2006 investments (Columns 3 and 4) the magnitudes                                ings is thus smaller than that of the main analysis. If none
+are slightly larger and still positive. The economic inter-                          of the investors in the ﬁrst ﬁnancing are ever listed as a
+pretation of the estimate in the ﬁnal column suggests 1.5                            board member, then we label the ﬁnancing as having no
+additional investments every two years in a VC fund. As                              board seat. If at least one investor can be identiﬁed as a
+the typical VC fund invests in 10–15 investments, this in-                           ﬁrst ﬁnancing board member, then the ﬁnancing is labeled
+crease represents a meaningful change in the composi-                                as such. Table 6 presents the results from linear probabil-
+tion of the portfolio. When combined with the results in                             ity models where the dependent variable takes the value
+Fig. 3, these ﬁndings suggest that the VC industry as a                              of one if the VC is listed as a board member.
+whole substantially increased investments to treated sec-                                Columns 1 and 2 of Table 6 present the main results
+tors after 2005, although importantly, this increase did                             where we ﬁrst include all investors active in 2002–2010.
+not come at the expense of investments in non-treated                                The coeﬃcient on “Treated X Post-2005” shows a lower
+sectors.18                                                                           probability that a ﬁrst ﬁnancing has an investor with a
+                                                                                     board seat. The economic magnitude of these estimates
+4.2.2. Changes in governance                                                         suggests a 14% lower probability of an investor joining the
+    An increase in the number of investments implies that                            board. The remaining columns of the table include only
+VCs are less likely to actively govern their portfolio compa-                        those ﬁnancings with active investors with and without
+nies, and instead emphasize a more passive learning role                             VC ﬁrm ﬁxed effects. Column 3 shows that on average,
+                                                                                     the use of boards fell. Here, the economic magnitude is a
+                                                                                     21% lower probability an investor takes a board seat in the
+  18
+     In unreported analyses, we also examine fund raising by VC investors.           ﬁrst ﬁnancing. The last column indicates that this change
+We assign a fund as being focused on treated sectors if at least 75% of
+                                                                                     is also present within-VC, including for the more active
+its investments in the ﬁrst year are made in treated segments. Similarly,
+we deﬁne a fund as focused on non-treated sectors if less than 25% of its            investors. Overall, the results indicate that the changes in
+investments in the ﬁrst year are made in treated segments. The remaining             governance styles are not just driven by a changing com-
+funds are those that are not specialized in either treated or non-treated            position of investors with different governance styles, but
+segments. Studying both the number of funds raised and the total capital             also due to adaptation by existing investors to focus less
+raised by funds over the sample period, we ﬁnd no evidence of crowding
+out of non-treated segments.
+                                                                                     on governance in the early stages of a ﬁrm’s life.
+434                                       M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+                         Table 6
+                         Portfolio management by VCs: early stage governance. This table reports results from results of
+                         OLS and VC ﬁrm ﬁxed effects regression for the indicator of a board seat at the time of the
+                         ﬁrm’s ﬁrst ﬁnancing. A unit of observation is an entrepreneurial ﬁrm ﬁnancing associated with
+                         an investor. VCs who are active (Columns 3 and 4) in the pre-period are deﬁned as those in-
+                         vestors with at least three investments in the pre-period. Industry ﬁxed effects control for the
+                         ﬁve industry groups: Biotechnology and health-care, Business and ﬁnancial services, Consumer
+                         goods and services, Energy and industrials, and Information technology. “Treated” industries are
+                         deﬁned at a more granular-level than these industry classiﬁcations so there is within-industry
+                         variation in startups that are deﬁned as “treated” vs. not. “Year FE” indicate dummies for ﬁ-
+                         nancing year and “VC ﬁrm FE” are VC ﬁrm ﬁxed effects. Standard errors clustered by VC-ﬁrm
+                         are reported in parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                         All VCs          All VCs         “Active” VCs          “Active” VCs
+                                                           (1)              (2)                (3)                   (4)
+
+                           Treated X Post-2005           −0.0266          −0.0301          −0.0616∗ ∗            −0.0534∗ ∗
+                                                         (0.0171)         (0.0188)          (0.0251)              (0.0268)
+                           Treated                        0.0159         0.0 0 0412         0.0584∗ ∗              0.0252
+                                                         (0.0181)        (0.0177)           (0.0232)              (0.0251)
+                           Syndicate size               0.0856∗ ∗ ∗      0.0642∗ ∗ ∗        0.105∗ ∗ ∗           0.0750∗ ∗ ∗
+                                                        (0.00377)        (0.00394)         (0.00554)             (0.00541)
+                           Startup based in CA          0.0426∗ ∗ ∗       0.00598          0.0587∗ ∗ ∗             0.0110
+                                                         (0.0120)        (0.00953)          (0.0189)              (0.0164)
+                           Startup based in MA          0.0617∗ ∗ ∗      0.0425∗ ∗         0.0682∗ ∗ ∗           0.0554∗ ∗
+                                                         (0.0167)        (0.0199)           (0.0232)             (0.0273)
+                           Startup based in NY          0.0511∗ ∗ ∗        0.0266           0.0737∗ ∗              0.0271
+                                                        (0.0166)          (0.0170)          (0.0329)              (0.0316)
+
+                           Observations                   10250           10250              4760                  4760
+                           Number startups                 5913            5913              3461                  3461
+                           Number VCs                      2158            2158               500                  500
+                           R2                             0.105           0.0693             0.127                0.0752
+
+                           Industry FE?                     Y                Y                 Y                     Y
+                           Year FE?                         Y                Y                 Y                     Y
+                           VC ﬁrm FE?                       N                Y                 N                     Y
+
+
+
+
+4.3. Characteristics of portfolio companies                                      and statistically signiﬁcant, suggesting that VC investors
+                                                                                 in treated segments are more willing to back founders
+4.3.1. Characteristics of founding teams                                         with less startup experience. While younger and less ex-
+    We next examine empirically how the characteristics                          perienced founding teams could be consistent with either
+of VC-backed entrepreneurial ﬁrms changed after startup                          ‘worse’ teams or teams that are ‘long shot bets,’ we note
+costs fell.                                                                      that one might have thought that investing in younger
+    Table 7 presents the exante characteristics of invest-                       founders with less entrepreneurial experience would re-
+ments made by VCs to see if they shift in the post-                              quire increased governance. This makes the falling gover-
+2005 period. In particular, we consider two attributes of                        nance as evidenced by the fall in board activity early in the
+the portfolio companies – average age of the founders                            life of startups even more remarkable, and is a fact that we
+(to proxy more broadly for founder experience) and the                           return to in the following section.
+speciﬁc entrepreneurial experience of the founding team.
+Columns 1 and 2 of Table 7 examine whether the av-                               4.3.2. Outcomes of investments
+erage age of the founding team in newly ﬁnanced en-                                  Having shown that the exante characteristics of en-
+trepreneurial ﬁrms changes after the introduction of AWS.                        trepreneurial ﬁrms backed by VC changed after 2005, we
+A decrease in the average age of entrepreneurial ﬁrm                             next investigate whether these differences translate into
+founders would suggest that investors are investing in less                      outcomes and success rates. Recall that the theoretical
+experienced, riskier founding teams. The coeﬃcient on the                        framework highlighted how an increase in ‘long shot bets’
+interaction term in both samples “Treated X Post” indicates                      should be associated with an increase in failure rates
+a statistically signiﬁcant drop in the relative age of found-                    following the ﬁrst round of funding, but with higher step-
+ing teams in VC ﬁrm portfolios.                                                  ups in value for ﬁrms that did in fact receive follow-on
+    Next, Columns 3 and 4 of Table 7 study the relationship                      ﬁnancing. Table 8 shows ﬁrst that initial investments in
+between the post-period treated investments and the en-                          startups in “treated” industries in the post-period were
+trepreneurial experience of founding teams. Here, the de-                        less likely to receive a follow-on investment (i.e., reinvest-
+pendent variable is an indicator that takes the value of one                     ment by VCs), and were more likely to fail. The results
+if at least one of the founding team members has prior                           in Columns 1 and 2 of Table 8 show the fall in follow-on
+founding experience (i.e., serial entrepreneur). The coeﬃ-                       rates in the treated group and also suggest that this effect
+cient estimates on the interaction terms are again negative                      was stronger for those that receive capital from active,
+                                            M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                            435
+
+
+                               Table 7
+                               Ex ante characteristics of portfolio companies. This table reports results from results of VC
+                               ﬁrm ﬁxed effects regression for founder characteristics at the time of ﬁrst ﬁnancing. A unit
+                               of observation is an entrepreneurial ﬁrm ﬁnancing associated with an investor. The de-
+                               pendent variable in Columns 1 and 2 is the log of the average entrepreneurial team age
+                               at the time of ﬁnancing. The dependent variable in Columns 3 and 4 is an indicator that
+                               equals one if at least one of the founders is a serial entrepreneur at the time of the ﬁnanc-
+                               ing event. VCs who are active in the pre-period (Columns 2 and 4) are deﬁned as those
+                               investors with at least three investments in the pre-period. Industry ﬁxed effects control
+                               for the ﬁve industry groups: Biotechnology and health-care, Business and ﬁnancial services,
+                               Consumer goods and services, Energy and industrials, and Information technology. “Treated”
+                               industries are deﬁned at a more granular-level than these industry classiﬁcations so there
+                               is within-industry variation in startups that are deﬁned as “treated” vs. not. “Year FE” indi-
+                               cate dummies for ﬁnancing year and “VC ﬁrm FE” are VC ﬁrm ﬁxed effects. Standard errors
+                               clustered by VC-ﬁrm are reported in parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗
+                               p < 0.01.
+
+                                                              Log founding team age              Serial entrepreneur?
+                                                             All VCs       “Active” VCs        All VCs       “Active” VCs
+                                                               (1)              (2)              (3)              (4)
+
+                                 Treated X Post-2005       −0.0519∗ ∗ ∗      −0.0441∗ ∗ ∗     −0.0431∗ ∗       −0.0505∗ ∗
+                                                            (0.0103)          (0.0101)         (0.0177)         (0.0233)
+                                 Treated                   −0.0348∗ ∗ ∗      −0.0373∗ ∗ ∗     0.0887∗ ∗ ∗         0.0916∗ ∗ ∗
+                                                           (0.00689)         (0.00869)         (0.0143)            (0.0190)
+                                 Startup based in CA       −0.0485∗ ∗ ∗     −0.0487∗ ∗ ∗      0.0730∗ ∗ ∗         0.0617∗ ∗ ∗
+                                                           (0.00660)         (0.00730)         (0.0133)           (0.0156)
+                                 Startup based in MA        −0.00954          −0.0142         0.0538∗ ∗ ∗         0.0651∗ ∗
+                                                            (0.00652)        (0.00924)         (0.0190)           (0.0291)
+                                 Startup based in NY       −0.0654∗ ∗ ∗      −0.0806∗ ∗ ∗       0.0136            −0.0285
+                                                            (0.00957)         (0.0166)         (0.0172)           (0.0263)
+
+                                 Observations                 11201             5623            15266               7589
+                                 Number startups               5717             3727             7902               5042
+                                 Number VCs                    2171             500              2594                505
+                                 R2                           0.103            0.0965           0.0141             0.0143
+
+                                 Industry FE?                   Y                 Y               Y                   Y
+                                 Year FE?                       Y                 Y               Y                   Y
+                                 VC ﬁrm FE?                     Y                 Y               Y                   Y
+
+
+
+
+incumbent investors. This result is particularly interesting                      rounds, which captures the change in valuation from the
+in light of evidence that suggests that experienced VCs                           post-money valuation in the initial round of ﬁnancing to
+are potentially more likely to be failure tolerant (Tian                          the pre-money valuation of the subsequent round of eq-
+and Wang, 2014). Consistent with anecdotal accounts,                              uity ﬁnancing.
+this suggests that even experienced VCs may be adapting                               The second measure is the ratio of exit value to total
+their investment style towards more “spray and pray” in                           capital invested (or “total economic return”) for startups
+the early stages, particularly in industries where the cost                       that ultimately had a successful exit. Columns 1 and 2 of
+of starting ﬁrms has fallen substantially and hence made                          Table 9 show that the increase in equity valuation – “step-
+abandonment options more valuable. The last two columns                           up” – is 15%–20% larger for the treated industry ﬁrms af-
+of Table 8 also show an increased likelihood of ultimate                          ter 2005. The last two columns of Table 9 show that this
+failure, again particularly driven by active incumbents                           increased valuation change manifests itself in higher exit
+changing their investment strategies in treated sectors.19                        valuations to capital raised. Thus, both interim valuations
+The lower likelihood of receiving follow-on funding is                            increase and the economic returns are larger. Combined
+consistent with the notion that the marginal investments                          with the higher failure rates found in Table 8, the evidence
+were longshot bets, rather than just being worse ﬁrms.                            is in favor of a shift to higher option value rather than
+    We next also consider two measures of success to as-                          just lower quality investments after the treatment event
+certain if those ﬁrms that did not fail differ in their out-                      of AWS. We further validate this hypothesis by looking at
+comes. The ﬁrst measure is the step-up in value across                            whether the step-ups in value and higher exit valuations
+                                                                                  are particularly high for younger teams and teams with no
+                                                                                  serial entrepreneurs (that is, those that we considered to
+  19
+     The large rise in initial number of ﬁnancing events, combined with a         be ex ante long shot bets). These results are documented
+smaller follow-on rate has been colloquially referred to as the “Series A         in Table 10 and again provide support for the idea that it
+crunch.” However, investors seem to share the perspective that compa-
+                                                                                  was the longer-shot bets that were driving the outcomes
+nies deserving of the next round of funding were receiving capital (http:
+//www.geekwire.com/2014/deserving- companies- will- weather- series-              we see.
+crunch- vcs- say/).
+436                                    M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+                          Table 8
+                          Portfolio management by VCs: likelihood of startup failure. This table reports results from
+                          linear probability models for two outcome variables. A unit of observation is an en-
+                          trepreneurial ﬁrm ﬁnancing associated with an investor. Columns 1 and 2 use the indicator
+                          for the entrepreneurial ﬁrm having a subsequent exit or follow-on reﬁnancing. Columns 3
+                          and 4 use the dummy variable that is one if the ﬁrm failed by the end of the sample. VCs
+                          who are active (Columns 2 and 4) in the pre-period are deﬁned as those investors with at
+                          least three investments in the pre-period. Industry ﬁxed effects control for the ﬁve indus-
+                          try groups: Biotechnology and health-care, Business and ﬁnancial services, Consumer goods
+                          and services, Energy and industrials, and Information technology. Industries are deﬁned at a
+                          more granular-level than these industry classiﬁcations so there is within-industry variation
+                          in startups that are deﬁned as “treated” vs. not. “Year FE” indicate dummies for ﬁnancing
+                          year, and “VC ﬁrm FE” are VC ﬁrm ﬁxed effects. Standard errors clustered by VC-ﬁrm are
+                          reported in parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                              Follow on?                              Failed?
+                                                       All VCs      “Active” VCs         All VCs            “Active” VCs
+                                                         (1)             (2)               (3)                   (4)
+
+                           Treated X Post-2005         −0.0193        −0.0518∗ ∗          0.0117             0.0535∗ ∗
+                                                       (0.0169)        (0.0231)          (0.0200)            (0.0238)
+                           Treated                    0.0486∗ ∗ ∗      0.0516∗ ∗ ∗      −0.125∗ ∗ ∗          −0.137∗ ∗ ∗
+                                                       (0.0140)        (0.0190)         (0.0145)             (0.0200)
+                           Startup based in CA        0.0434∗ ∗         0.0230         −0.0528∗ ∗ ∗         −0.0348∗ ∗
+                                                      (0.0173)         (0.0153)         (0.0161)             (0.0158)
+                           Startup based in MA        0.0384∗ ∗         0.0261         −0.0686∗ ∗ ∗         −0.0599∗ ∗ ∗
+                                                      (0.0180)         (0.0195)         (0.0162)             (0.0218)
+                           Startup based in NY        0.0462∗ ∗         0.0513∗          −0.0172              0.0207
+                                                      (0.0219)         (0.0309)          (0.0204)            (0.0320)
+
+                           Observations                 16940            8332             16940                8332
+                           Number startups               8960            5617              8960                5617
+                           Number VCs                    2815            506               2815                506
+                           R2                          0.00550         0.00590            0.0149              0.0137
+
+                           Industry FE?                   Y                Y                Y                    Y
+                           Year FE?                       Y                Y                Y                    Y
+                           VC ﬁrm FE?                     Y                Y                Y                    Y
+
+
+
+
+5. Robustness checks                                                           initial investment decisions of investors – thereby chang-
+                                                                               ing the cost of initial experiments. To validate this, we
+    Thus far we have documented that post-2005, startups                       provide direct evidence to conﬁrm that the shock had a
+in industry-segments that beneﬁted from the introduction                       ﬁrst-order impact on the size of ﬁrst rounds, but had little
+of cloud computing experienced a shift towards ‘long                           measurable effect on total fundraising by startups over
+shot bets’ and that VCs changed the way in which they                          the subsequent ﬁve years. Table 11 presents regression
+managed their portfolios towards a ‘spray and pray’ invest-                    estimates of log of total capital raised for each year after
+ment strategy. We posit that a core channel driving these                      the ﬁrm’s ﬁrst ﬁnancing event (up to ﬁve years). The
+results was the fall in initial cost of founding new ventures                  sample includes ﬁnancings of VCs who are active both
+following the introduction of cloud computing services by                      pre- and post-shock and the models include VC ﬁrm
+Amazon Web Services. Since this technological shock sub-                       ﬁxed effects. The estimates make clear that the relatively
+stantially lowered the initial costs needed to be incurred in                  smaller ﬁnancings in treated industries are conﬁned to
+order to learn about startups’ viability, this was equivalent                  the early years of ﬁrms. By three years after their initial
+to a falling cost of experimentation and made the real                         capital raise, ﬁrms in treated and untreated industries
+options taken by VC investors in the ﬁrst round of funding                     exhibit no difference in capital raised. This is important
+much more valuable. We show how an increase in ‘long                           because many alternative explanations that relate to differ-
+shot bets’ due to the fall in cost of starting ﬁrms arises                     ent investment opportunities are about the level of capital
+as a natural consequence of this experimentation channel.                      required to run a business. Our evidence strongly suggests
+Viewed through this lens of experimentation, it can also                       that AWS impacted initial startup cost rather than total
+be seen that a natural response by VCs to long shot                            cost, and hence restricts the set of potential explanations
+bets is to shift to a ‘spray and pray’ investment strategy,                    considerably. Relatedly, in unreported results we repeat the
+putting a small amount of money into a larger number of                        exercise studying ﬁrst capital raised in Table 3 for second-
+ﬁrms, but reducing their governance of these ﬁrms until                        round ﬁnancing size. We again ﬁnd little evidence that the
+they have learned whether the startup ﬁnds intermediate                        funding size changes outside of ﬁrst-round ﬁnancings.
+success.                                                                           While our results are consistent with an experimenta-
+    An important element of the narrative presented above                      tion channel and the timing consistent with the introduc-
+is that the introduction of AWS primarily impacted the                         tion of AWS, our identiﬁcation is also predicated on the
+                                      M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                     437
+
+
+                         Table 9
+                         Portfolio management by VCs: valuations conditional on success. This table reports results
+                         from VC ﬁrm ﬁxed effects regressions for two outcome variables. A unit of observation is an
+                         entrepreneurial ﬁrm ﬁnancing associated with an investor. Columns 1 and 2 use log of the
+                         ratio of the valuation of the next equity ﬁnancing divided by the ﬁrst. Columns 3 and 4 use
+                         the log of the ratio of the ﬁnal exit valuation (i.e., initial public offering (IPO) valuation or
+                         acquisition price) to total capital invested in the ﬁrm at exit. VCs who are active (Columns
+                         2 and 4) in the pre-period are deﬁned as those investors with at least three investments
+                         prior to 2006. Industry ﬁxed effects control for the ﬁve industry groups: Biotechnology and
+                         health-care, Business and ﬁnancial services, Consumer goods and services, Energy and in-
+                         dustrials, and Information technology. “Treated” industries are deﬁned at a more granular-
+                         level than these industry classiﬁcations so there is within-industry variation in startups that
+                         are deﬁned as “treated” vs. not. “Year FE” indicate dummies for ﬁnancing year and “VC ﬁrm
+                         FE” are VC ﬁrm ﬁxed effects. Standard errors clustered by VC-ﬁrm are reported in paren-
+                         theses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                           Step up in valuation                 Log exit value to
+                                                            round 1 to round 2             capital raised (non-failed)
+                                                        All VCs       “Active” VCs         All VCs        “Active” VCs
+                                                          (1)              (2)               (3)               (4)
+
+                           Treated X Post-2005         0.195∗ ∗ ∗         0.230∗ ∗          0.217            0.355∗ ∗
+                                                       (0.0722)          (0.0902)          (0.139)           (0.167)
+                           Treated                     −0.0408           −0.0657           0.239∗             0.146
+                                                       (0.0452)          (0.0552)          (0.129)           (0.154)
+                           Startup based in CA          0.125∗ ∗          0.0400           −0.132∗          −0.0740
+                                                       (0.0627)          (0.0636)          (0.0792)         (0.124)
+                           Startup based in MA         −0.0448            −0.115          −0.238∗ ∗          −0.184
+                                                       (0.0906)          (0.0818)          (0.108)           (0.148)
+                           Startup based in NY          0.0235           −0.0181           −0.208∗           −0.166
+                                                       (0.0703)           (0.111)          (0.119)           (0.236)
+
+                           Observations                  2442              1373             2488              1438
+                           Number startups               1066              802              1133               832
+                           Number VCs                     806              343               837              368
+                           R2                           0.0440            0.0535           0.0336            0.0409
+
+                           Industry FE?                    Y                Y                 Y                 Y
+                           Year FE?                        Y                Y                 Y                 Y
+                           VC ﬁrm FE?                      Y                Y                 Y                 Y
+
+
+
+
+assumption that no other systematic change in 2006 im-                       potential candidates are the growth of open-source soft-
+pacted precisely the set of ﬁrms we classify as treated, in                  ware and the iPhone and its resulting mobile ecosystem.
+a manner consistent with our ﬁndings but through some                        We perform several tests to show these are unlikely to be
+other channel. We therefore examine the predictions from                     the drivers of the changes we see in our context. We use
+a set of alternative channels and discuss the extent to                      the Google feature that has tracked search term frequency
+which they can also explain our ﬁndings. We address three                    on their search engine since 2004 to compare search traﬃc
+such potential channels in detail below.                                     for Amazon EC2 to these alternative events. Fig. A.1 in the
+    First, we document that our results are not driven by                    Appendix shows the rapid increase in the search for “EC2”
+any changes due to the ﬁnancial crisis, which manifested                     after 2005, which is in line with our identiﬁcation assump-
+itself relatively brieﬂy in the venture capital industry to-                 tions. The next two ﬁgures in the Appendix show search
+wards the end of our sample and was mostly conﬁned to                        traﬃc for the App Store (Fig. A.2) and open-source soft-
+2009. For example, while there was a 25% fall in the num-                    ware (Fig. A.3). For the App Store, the interest level only
+ber of deals from 2008 to 2009, deal volume actually in-                     rose in 2008, well after the shock we study and towards
+creased 15% from 2009 to 2010. Moreover, since our speci-                    the end of our sample period. As a second test, we exclude
+ﬁcation includes year ﬁxed effects, alternative explanations                 ﬁrms from our sample that had a mention of mobile appli-
+must include a reason why treated industries were im-                        cations, iPhones, Android, and other similar technologies.20
+pacted differentially in a manner that accounts for our re-                  This is to ensure that what we capture is not simply the
+sults. If anything, one might expect the crisis to have had                  impact of smart phones and mobile applications changing
+the opposite effect, by leading investors to cut back more                   the opportunity set for VCs, impacting both the character-
+on the most capital-intensive industries such as biotech-                    istics of portfolio companies and the investment strategy
+nology and energy – which were unaffected by AWS. Nev-                       of VCs. The exclusion of this subsample has no material
+ertheless, we ﬁnd that excluding new ﬁnancings in the ﬁrst                   impact on our estimates, so we conclude that our results
+full year of the ﬁnancial crisis (2009) has no material im-
+pact on our results.
+    Second, we examine other technological shocks that                        20
+                                                                                 We use the one-paragraph description of the company’s product and
+may have changed investment opportunities for VCs. Two                       customers provided by VentureSource to identify such ﬁrms.
+438                                   M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+                          Table 10
+                          Portfolio management by VCs: valuations conditional on success. This table reports results
+                          from the same analysis reported in Table 9 but with the inclusion of triple interactions.
+                          “Young” is a dummy variable equal to one if the startup team’s average age is less than
+                          the observed pre-2006 average. “No serial” is one if none of the founding team members
+                          has previous founding experience. All other controls and ﬁxed effects are as deﬁned in
+                          the main speciﬁcations in Table 9. Standard errors clustered by VC-ﬁrm are reported in
+                          parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                            Step-up in valuation           Log exit value to
+                                                             round 1 to round 2       capital raised (non-failed)
+                                                                       Founding team characteristics
+                                                          Young vs. Old     Serial    Young vs. Old       Serial
+                                                               (1)            (2)           (3)            (4)
+
+                           Treated X Post X Young             0.0802                         0.222
+                                                             (0.0824)                       (0.205)
+                           Post-2005 X Young                  −0.135                         0.135
+                                                             (0.0840)                       (0.180)
+                           Young team                        0.181∗ ∗ ∗                     0.0680
+                                                             (0.0453)                      (0.0969)
+                           Treated X Post X No serial                        0.175∗ ∗                       0.258∗
+                                                                            (0.0762)                        (0.153)
+                           Post-2005 X No serial                            −0.0939                         −0.104
+                                                                            (0.0719)                        (0.128)
+                           No serial entrepreneurs                           0.0108                         −0.0675
+                                                                            (0.0322)                        (0.0864)
+                           Treated X Post-2005                0.160∗ ∗      0.182∗ ∗ ∗      −0.205          0.0324
+                                                             (0.0786)       (0.0648)        (0.159)         (0.123)
+                           Treated                           −0.0546        −0.0591         0.0943          0.298∗ ∗ ∗
+                                                             (0.0429)       (0.0413)        (0.101)         (0.0902)
+
+                           Observations                       1807            2442           1916            2488
+                           Number startups                    800             1066            873            1133
+                           Number VCs                         642              806            705             837
+                           R2                                0.0808          0.0610         0.0564          0.0453
+
+                           Industry FE?                          Y              Y              Y                Y
+                           Year FE?                              Y              Y              Y                Y
+                           VC ﬁrm FE?                            Y              Y              Y                Y
+
+
+
+
+are not primarily driven by the introduction of the iPhone.                drove a large change in the cost of starting new ﬁrms. This
+Turning next to open-source, there is a perception that im-                analysis does not discount the potential role of other fac-
+provement and dissemination of certain programming lan-                    tors such as open-source that may have also impacted the
+guages such as Ruby on Rails, PHP, and Python may have                     initial cost of starting businesses and impacted VC invest-
+increased during our sample period, making it cheaper to                   ment through the experimentation channel.
+start and staff software startups. Our search for the fre-                     Third, we address other potential channels – such
+quency of the terms “open-source” as well as for Python, a                 as younger entrepreneurs needing more governance and
+popular programming language used for many VC-backed                       hence needing more staging, or entry by new intermedi-
+ﬁrms’ websites, suggests these were prevalent well be-                     aries driving up prices, leading to smaller investments –
+fore the introduction of AWS and were largely constant                     that explain some of our results. To do so, we ﬁrst note
+across our time period. Fig. A.3 shows this pattern for the                that the experimentation channel predicts that a fall in
+“open-source software” search. Ruby on Rails, which is an-                 the cost of learning should lead to less governance as in-
+other popular web programming framework introduced in                      vestors ‘spray and pray’ and that conditional on initial suc-
+July 2004, shows rapid increases in search frequency two                   cess, ﬁrms should receive higher step-ups in value across
+years prior to the introduction of AWS and so is also un-                  rounds – since ﬁrms that in fact succeed when they had
+likely to have driven these changes. More generally, how-                  a small chance of success generate a signiﬁcant amount
+ever, we should note that the role that these program-                     of information that is incorporated in the next round’s
+ming languages may have played is in fact consistent with                  prices. These two predictions are diﬃcult to generate to-
+the thrust of our model. The cost of starting businesses                   gether through other channels. For example, if initial com-
+has fallen in software and other industries as well, making                petition bid up prices, we should expect to see lower step-
+abandonment options more valuable for VCs and leading to                   ups for ﬁrms that ultimately succeeded, while in fact, we
+a shift towards a new investment strategy. Empirically, we                 ﬁnd the opposite is true. Alternatively, if the composition
+need to look for a large shock that differentially impacted                of entrepreneurs changed in ways that required more gov-
+some industries but not others, and we believe that AWS                    ernance, we should see the increased staging (and smaller
+is such a shock and is one that practitioners have argued                  associated rounds of funding) come hand in hand with
+                                       M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                439
+
+
+                         Table 11
+                         Log capital raised by ﬁve years after ﬁrst VC. This table reports results from VC ﬁrm ﬁxed
+                         effects regressions of the log of total capital raised by each year after the entrepreneurial
+                         ﬁrm’s ﬁrst ﬁnancing event for ﬁrms that survived at least three years. Column 1 effectively
+                         reports the main capital raised result found in Table 3. Column 2 measures capital stock as
+                         of two years later (similarly for the remaining columns). The sample considers only those
+                         investors that had investing activity before and after 2006. Industry ﬁxed effects control for
+                         the ﬁve industry groups: Biotechnology and health-care, Business and ﬁnancial services, Con-
+                         sumer goods and services, Energy and industrials, and Information technology. “Treated” in-
+                         dustries are deﬁned at a more granular-level than these industry classiﬁcations so there is
+                         within-industry variation in startups that are deﬁned as “treated” vs. not. “Year FE” indicate
+                         dummies for ﬁnancing year and “VC ﬁrm FE” are VC ﬁrm ﬁxed effects. Standard errors clus-
+                         tered by VC-ﬁrm are reported in parentheses. Signiﬁcance: ∗ p < 0.10, ∗ ∗ p < 0.05, ∗ ∗ ∗ p < 0.01.
+
+                                                                    Total raised N years since ﬁrst VC
+                                                      1 year        2 years       3 years       4 years         5 years
+                                                        (1)           (2)           (3)           (4)             (5)
+
+                           Treated X Post-2005      −0.225∗ ∗ ∗     −0.102∗          0.0114       0.00380        0.0361
+                                                     (0.0583)       (0.0562)        (0.0578)      (0.0617)      (0.0672)
+                           Treated                   −0.127∗ ∗ ∗   −0.222∗ ∗ ∗     −0.243∗ ∗ ∗   −0.259∗ ∗ ∗   −0.266∗ ∗ ∗
+                                                     (0.0404)       (0.0419)       (0.0459)      (0.0482)       (0.0533)
+                           Startup based in CA       0.148∗ ∗ ∗     0.183∗ ∗ ∗      0.240∗ ∗ ∗   0.249∗ ∗ ∗     0.323∗ ∗ ∗
+                                                     (0.0404)       (0.0407)        (0.0441)     (0.0507)       (0.0541)
+                           Startup based in MA       0.188∗ ∗ ∗     0.214∗ ∗ ∗      0.279∗ ∗ ∗   0.320∗ ∗ ∗     0.361∗ ∗ ∗
+                                                     (0.0472)       (0.0511)        (0.0514)     (0.0560)       (0.0608)
+                           Startup based in NY       −0.0276         0.0825          0.128∗       0.191∗ ∗        0.129
+                                                     (0.0686)       (0.0684)        (0.0772)     (0.0906)        (0.101)
+
+                           Observations                7812           7256            6813         6274           5669
+                           Number startups             5153           4769            4477         4130           3760
+                           Number VCs                  506             505             503         504             503
+                           R2                         0.0281         0.0392          0.0456       0.0503         0.0550
+
+                           VC ﬁrm FE?                    Y              Y               Y            Y              Y
+                           Industry FE?                  Y              Y               Y            Y              Y
+                           First-round year FE?          Y              Y               Y            Y              Y
+
+
+
+
+other forms of increased governance, such as VCs taking                          6. Entry of new intermediaries and trajectory of
+more board seats. Again, we ﬁnd the opposite is true.                            innovation
+    Aside from examining alternative channels, we also run
+robustness checks on our estimation equation, by modify-                         6.1. Entry
+ing the difference-in-difference speciﬁcation in two ways.
+To address the concern that our controls for industry and                           A natural implication of our results is that we should
+time are insuﬃcient to capture aggregate trends that co-                         see an increase in ﬁnancial intermediaries who special-
+incided with the introduction of AWS, we include a linear                        ize in ‘spray and pray’ investing. This is consistent with
+time trend in each of the models. Doing so does not im-                          a rise in VC funds focusing on early stage investing, of-
+pact the results. It is possible that AWS simply coincided                       ten referred to as ‘Micro VCs’ or ‘Seed Funds.’ Our analysis
+with other events in the 20 0 0s that were not proxied by                        also highlights the counterintuitive notion that governance
+the cloud or open-source measures discussed. First note                          by VCs seems to have fallen for precisely the stages and
+that the patterns observed in Fig. 2 provide no evidence                         the types of entrepreneurs who might need it the most. It
+that the results are driven by years immediately around                          suggests that a natural response to the fact that VCs have
+the treatment date. As an alternative test, we thus move                         shifted their emphasis from governance to learning in the
+the treatment year back and forward one year – 2005 and                          early stages of a venture would be entry of ﬁnancial inter-
+2006 – to understand whether the results are a general                           mediaries that specialize in scalable forms of mentorship
+phenomenon of the time period. We estimate the main                              and governance in the early stages of a venture’s life.
+models where 2005 is the treatment year and 2006 is                                 In fact, there has been massive entry by new in-
+the post-treatment year. Similarly, we estimate the mod-                         termediaries known as accelerators, deﬁned as “ﬁxed,
+els where 2006 is the pre-treatment year and 2007 is the                         cohort-based programs, including mentorship and edu-
+post-treatment year. If there was no other shock in the                          cational components that culminate in a public pitch or
+years surrounding the introduction of AWS, then these es-                        demo day” (Hochberg, 2016; Cohen and Hochberg, 2014).
+timates should be signiﬁcantly attenuated relative to our                        Cohen and Hochberg (2014) note that the ﬁrst accelerator,
+core results. For capital raised and the other major vari-                       Y-Combinator, was founded in 2005. Today, estimates of
+ables, the results are insigniﬁcant with these speciﬁcations,                    the number of accelerators range from 300 to over 20 0 0.
+further bolstering the effect being related to a shock expe-                     Accelerators also help to screen deal ﬂow for VCs through
+rienced in 2006.                                                                 forums such as ‘demo day,’ making the search process
+440                                          M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+for long shot bets more eﬃcient. In fact, Paul Graham,                            energy technologies or cancer therapies have led to rela-
+referring to Y-Combinator, notes that “We’re not a replace-                       tively little ﬁnancing of such ventures, despite intense so-
+ment for venture capital funds. We occupy a new, adjacent                         cietal interest (Fernandez et al., 2012; Nanda et al., 2015).
+niche... our m.o. is to create new deal ﬂow, by encouraging
+hackers who would have gotten jobs to start their own
+startups instead. We compete more with employers than                             7. Conclusion
+VCs.”21 Similarly, in studying a prominent accelerator,
+Gonzalez-Uribe and Leatherbee (2017) ﬁnd the primary                                  We study rich, novel data on the characteristics of VC-
+role it plays is that of mentorship, and ﬁnd limited direct                       backed ﬁrms to show how technological shocks to the ini-
+effect of ﬁnancing it provides to new ventures.                                   tial cost of starting new ﬁrms have had a fundamental im-
+                                                                                  pact on the way in which investors manage their portfo-
+6.2. Trajectory of Innovation                                                     lios and the types of companies they choose to ﬁnance.
+                                                                                  The falling cost of experimentation makes abandonment
+    The effect that such a shift in the investment strat-                         options for investors much more valuable and this directly
+egy has on innovation is ambiguous. On the one hand,                              impacts the types of ﬁrms that investors are willing to ﬁ-
+it is likely to increase the chances of radical new busi-                         nance, as well as the investment strategy they choose to
+ness models – companies such as Airbnb, that was founded                          use. In particular, we show how technological shocks to
+by young, inexperienced entrepreneurs and was by all ac-                          the cost of experimentation can play a central role in shap-
+counts a “long shot bet” when it was founded.22 On the                            ing both the rate and trajectory of startup innovation, by
+other hand, the shift in investment strategy is likely to                         allowing more long shot bets to receive initial funding and
+make it much harder for more complex technologies where                           thereby also reducing the chance of ‘false negatives’ in the
+the costs of experimentation are higher or where there is                         economy. Nevertheless, this comes hand in hand with an
+a slower revelation of information about the startup’s ﬁnal                       investment strategy where several startups receive a small
+value. For example, the very long time frames and costs                           initial investment, but who do not get follow-on funding
+associated with learning about the potential of renewable                         when intermediate information is negative. We show how
+                                                                                  this adaptation of investors towards a “spray and pray” in-
+                                                                                  vestment strategy will tend to increase VC investment in
+ 21
+     Source: http://paulgraham.com/ycombinator.html. Cohen et al.
+                                                                                  startups where information is revealed quickly and cheaply
+(2017) provide further empirical support for this notion by documenting
+the extremely small amounts that accelerators invest on average, if they          and hence may adversely impact the extent to which more
+invest at all.                                                                    complex technologies, where information is revealed more
+ 22
+     For example, Kerr et al. (2014b) highlight how Fred Wilson of Union          slowly, are funded. In doing so we document the important
+Square Ventures wrote about his “regret” at passing on Airbnb, a startup          feedback between technological change and ﬁnancial inter-
+that lets people rent rooms or homes to prospective guests online. Started
+                                                                                  mediaries – technological shocks to investment opportuni-
+in 2008, Airbnb currently lists 500,000 properties in more than 34,0 0 0
+cities across 192 countries, far larger than any hotel chain, thereby mak-        ties require adaptation by investors, but this adaption has
+ing it the largest lodging company and brand in the world (Levere, 2013).         consequences for the future trajectory of innovation.
+Fred Wilson writes of Union Square Ventures’ decision to pass on the
+deal in 2009 that “we couldn’t wrap our heads around air mattresses on
+the living room ﬂoors as the next hotel room.... Others saw the amaz-
+ing team that we saw, funded them, and the rest is history.” (Source:             Appendix
+http://avc.com/2011/03/airbnb/).
+
+
+
+
+Fig. A.1. Google trends data: Amazon EC2: treated and non-treated. The ﬁgure presents the search term traﬃc for the phrase “Amazon Elastic Compute
+Cloud”.
+                                               M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442                                     441
+
+
+
+
+Fig. A.2. Google trends data: App Store. The ﬁgure presents the search term traﬃc for the phrase “App Store,” which is the marketplace for iPhone
+applications, a popular place for ﬁrms to sell their products.
+
+
+
+
+Fig. A.3. Google trends data: Open source software. The ﬁgure presents the search term traﬃc for the phrase “Open Source Software,” which includes
+languages such as Python, Ruby, and PHP.
+
+
+
+
+       Table A.1
+       Top words in company descriptions by industry classiﬁcations. Table reports the top ten most common words in company descriptions
+       in VentureSource by industry-segment after excluding a list of common words. The excluded words beyond the standard common words
+       such as “the” and “about” are: company, design, focus, industry, keywords, offer, product, provider and solutions.
+
+         Panel A: Treated industry-segments
+
+         Business support services                  Service, platform, online, management, data, marketing, advertising, technology, web, software
+         Consumer information services              Online, users, web, service, platform, social, site, content, mobile, search
+         Financial institutions and services        Service, ﬁnancial, payment, online, platform, credit, mobile, card, insurance, management
+         Media and content                          Content, online, service, platform, web, media, video, news, learning, technology
+         Medical software and information           Healthcare, management, service, health, software, medical, patient, care, information, data
+           services
+         Retailers                                  Online, service, accessories, web, stores, customers, platform, apparel, site, retail
+         Software                                   Software, service, management, data, platform, applications, mobile, technology, business, web
+         Travel and leisure                         Travel, service, online, vacation, search, restaurants, platform, operator, web, users
+                                                                                                                            (continued on next page)
+442                                             M. Ewens et al. / Journal of Financial Economics 128 (2018) 422–442
+
+
+      Table A.1 (continued)
+
+       Panel B: Non-treated industry-segments
+
+       Aerospace and defense                      Security, systems, video, surveillance, service, aircraft, military, system, technology, ﬂight
+       Agriculture and forestry                   Service, cleantech, water, agriculture, traits, food, plant, crop, irrigation, agricultural
+       Biopharmaceuticals                         Developer, treatment, drug, diseases, technology, disease, cancer, drugs, development, therapeutics
+       Communications and networking              Service, wireless, network, data, internet, applications, technology, networks, mobile, systems
+       Construction and civil engineering         Service, cleantech, water, energy, waste, treatment, technology, environment, systems, management
+       Electronics and computer hardware          Technology, storage, energy, systems, applications, data, developer, power, eﬃciency, devices
+       Food and beverage                          Food, organic, tea, beverages, ingredients, natural, drinks, coffee, juice, foods
+       Healthcare services                        Service, care, healthcare, health, management, medical, patients, treatment, centers, physicians
+       Household and oﬃce goods                   Water, energy, cleantech, eﬃciency, service, systems, home, led, consumer, lighting
+       Machinery and industrial goods             Energy, technology, eﬃciency, cleantech, systems, applications, service, materials, industrial, system
+       Materials and chemicals                    Materials, technology, cleantech, applications, developer, service, process, energy, water, coatings
+       Medical devices and equipment              Developer, technology, devices, medical, treatment, device, system, patients, develops, patient
+       Non-renewable energy                       Gas, oil, natural, technology, service, cleantech, coal, exploration, power, energy
+       Personal goods                             Skin, care, technology, accessories, online, performance, retailers, system, hair, service
+       Renewable energy                           Solar, cleantech, energy, generation, technology, power, energyelectricity, fuels, developer, fuel
+       Semiconductors                             Technology, power, developer, semiconductor, applications, wireless, video, devices, integrated, digital
+       Utilities                                  Energy, water, power, service, eﬃciency, cleantech, management, technology, treatment, customers
+       Vehicles and parts                         Electric, vehicles, transportation, cleantech, service, systems, vehicle, energy, miles, drive
+       Wholesale trade and shipping               Transportation, management, shipping, service, containers, container, freight, online, sales, cargo
+
+
+
+
+References                                                                           Hall, R.E., Woodward, S.E., 2010. The burden of the nondiversiﬁable risk of
+                                                                                         entrepreneurship. Am. Econ. Rev. 100, 1163–1194.
+Aghion, P., Howitt, P., 1992. A model of growth through creative destruc-            Hardy, Q., 2014. The Era of Cloud Computing. New York Times.
+    tion. Econometrica 60, 323–351.                                                  Hellmann, T., Puri, M., 20 0 0. The interaction between product market and
+Allen, F., Gale, D., 1994. Financial Innovation and Risk Sharing. MIT Press.             ﬁnancing strategy: the role of venture capital. Rev. Financial Stud. 13,
+Baskin, J.B., Miranti, P.J., 1997. A History of Corporate Finance. Cambridge             959–984.
+    University Press, New York.                                                      Hellmann, T., Thiele, V., 2015. Friends or foes? The interrelationship be-
+Bergemann, D., Hege, U., 2005. The ﬁnancing of innovation: learning and                  tween angel and venture capital markets. Journal of Financial Eco-
+    stopping. RAND J. Econ. 36, 719–752.                                                 nomics 115, 639–653.
+Bergemann, D., Hege, U., Peng, L., 2008. Venture capital and sequential              Hochberg, Y.V., 2016. Accelerating entrepreneurs and ecosystems: the
+    investments. Yale University, Toulouse School of Economics, and The                  seed accelerator model. In: Lerner, J., Stern, S. (Eds.), Innovation Policy
+    Pennsylvania State University. Unpublished Working Paper.                            and the Economy. National Bureau of Economic Research, Chicago, IL,
+Bernstein, S., Korteweg, A., Laws, K., 2017. Attracting early-stage investors:           pp. 25–51. Vol. 16.
+    evidence from a randomized ﬁeld experiment. J. Finance 72, 509–538.              Janeway, W.H., 2012. Doing Capitalism in the Innovation Economy: Mar-
+Cain, L.P., 2010. Entrepreneurship in the antebellum united states. In:                  kets, Speculation and the State. Cambridge University Press.
+    Landes, D.S., Mokyr, J., Baumol, W.J. (Eds.), The Invention of Enter-            Kerr, W., Lerner, J., Schoar, A., 2014a. The consequences of entrepreneurial
+    prise: Entrepreneurship from Ancient Mesopotamia to Modern Times.                    ﬁnance: evidence from angel ﬁnancings. Rev. Financial Stud. 27,
+    Princeton University Press, Princeton, NJ, pp. 331–366. Chap. 12.                    20–55.
+Chandler, A.D., 1965. The railroads: pioneers in modern corporate man-               Kerr, W., Nanda, R., Rhodes-Kropf, M., 2014b. Entrepreneurship as experi-
+    agement. Bus. Hist. Rev. 39, 16–40.                                                  mentation. J. Econ. Perspect. 3, 25–48.
+Chandler, A.D., 1977. The Visible Hand: The Managerial Revolution in                 King, R., Levine, R., 1993. Finance and growth: sChumpeter might be right.
+    American Business. Harvard University Press, Cambridge, MA.                          Q. J. Econ. 108, 717–737.
+Clark, J., 2012. How Amazon Exposed its Guts: The history of AWS’s EC2.              Laeven, L., Levine, R., Michalopoulos, S., 2015. Financial innovation and en-
+    ZDNet https://goo.gl/5fovvO.                                                         dogenous growth. J. Financial Intermed. 24, 1–24.
+Cohen, S., Fehder, D., Hochberg, Y.V., Murray, F., 2017. The Design and              Levere, J.L., 2013. Airbnb Campaign Uses Birdhouses to Widen its Reach.
+    Evaluation of Startup Accelerators. University of Southern California                New York Times.
+    Technical Report.                                                                Metz, C., 2016. The Epic Story of Dropbox’s exodus from the Amazon
+Cohen, S., Hochberg, Y., 2014. Accelerating Startups: The Seed Accelerator               cloud empire. Wired Magazine Business Section.
+    Phenomenon. Unpublished working paper.                                           Nanda, R., Younge, K., Fleming, L., 2015. Entrepreneurship in the antebel-
+Cornelli, F., Yosha, O., 2003. Stage ﬁnancing and the role of convertible                lum united states. In: Jaffe, A.B., Jones, B.F. (Eds.), The Changing Fron-
+    securities. Rev. Econ. Stud. 70, 1–32.                                               tier: Rethinking Science and Innovation Policy. University of Chicago
+Economist, T., 2014. A Cambrian Moment. The Economist Special Report,                    Press, Chicago, IL, pp. 199–232. Chap. 7.
+    Tech Startups.                                                                   Neal, L., 1990. The Rise of Financial Capitalism: International Capital Mar-
+Ewens, M., Fons-Rosen, C., 2015. The Consequences of Entrepreneurial                     kets in the Age of Reason. Cambridge University Press, New York.
+    Firm Founding on Innovation. Working paper, California Institute of              Nicholas, T., 2016. The origins of high-tech venture investing in America.
+    Technology.                                                                          In: Chambers, D., Dimson, E. (Eds.), Financial Market History: Reﬂec-
+Fernandez, J.M., Stein, R.M., Lo, A.W., 2012. Commercializing biomedi-                   tions on the Past for Investors Today. Research Foundation Publica-
+    cal research through securitization techniques. Nat. Biotechnol. 30,                 tions, Charlottesville, VA, pp. 227–241.
+    395–400.                                                                         Puri, M., Zarutskie, R., 2012. On the life cycle dynamics of venture-capital-
+Fluck, Z., Garrison, K., Myers, S., 2007. Venture Capital Contracting: Staged            and non-venture-capital-ﬁnanced ﬁrms. J. Finance 67, 2247–2293.
+    Financing And Later-Stage Syndication of Venture Capital Investments.            Sorensen, M., 2007. How smart is smart money? An empirical two-sided
+    MIT Working paper.                                                                   matching model of venture capital. J. Finance 62, 2725–2762.
+Gompers, P., 1995. Optimal investment, monitoring, and the staging of                Tian, X., 2011. The causes and consequences of venture capital stage ﬁ-
+    venture capital. J. Finance 50, 1461–1489.                                           nancing. J. Financial Econ. 101, 132–159.
+Gonzalez-Uribe, J., Leatherbee, M., 2017. The effects of business acceler-           Tian, X., Wang, T.Y., 2014. Tolerance for failure and corporate innovation.
+    ators on venture performance: Evidence from start-up chile. Rev. Fi-                 Rev. Financial Stud. 27, 211–255.
+    nancial Stud. p.hhx103.                                                          Vogels, W., 2011. How and Why Did Amazon Get into the Cloud Comput-
+                                                                                         ing Business?Quora https://goo.gl/31gIYj.
+

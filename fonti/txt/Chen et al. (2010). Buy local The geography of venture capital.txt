@@ -1,0 +1,1026 @@
+                                                              Journal of Urban Economics 67 (2010) 90–102
+
+
+
+                                                             Contents lists available at ScienceDirect
+
+
+                                                       Journal of Urban Economics
+                                                                www.elsevier.com/locate/jue
+
+
+
+
+Buy local? The geography of venture capital
+Henry Chen a, Paul Gompers b, Anna Kovner c,*, Josh Lerner b
+a
+  New York University, USA
+b
+  Harvard University and National Bureau of Economic Research, USA
+c
+  Federal Reserve Bank of New York, USA
+
+
+
+
+a r t i c l e         i n f o                         a b s t r a c t
+
+Article history:                                      We document geographic concentration by both venture capital ﬁrms and venture capital-ﬁnanced com-
+Received 15 June 2009                                 panies in three metropolitan areas: San Francisco, Boston, and New York. We ﬁnd that venture capital
+Revised 25 September 2009                             ﬁrms locate in regions with high success rates of venture capital-backed investments. Geography is also
+Available online 1 October 2009
+                                                      signiﬁcantly related to outcomes. Venture capital ﬁrms based in locales that are venture capital centers
+                                                      outperform, regardless of the stage of the investment. This outperformance arises from outsized perfor-
+JEL classiﬁcations:                                   mance outside of the venture capital ﬁrms’ ofﬁce locations, including in peripheral locations. If the goal of
+G24
+                                                      state and local policy makers is to encourage venture capital investment, outperformance of non-local
+R12
+                                                      investments suggests that policy makers might want to mitigate costs associated with established ven-
+Keywords:                                             ture capitalists investing in their geographies rather than encouraging the establishment of new venture
+Entrepreneurship                                      capital ﬁrms.
+Performance measurement                                                                                                 Ó 2009 Elsevier Inc. All rights reserved.
+Start-ups
+Private equity
+Localization
+
+
+
+
+1. Introduction                                                                       in the governance of the companies they fund through board mem-
+                                                                                      bership, management recruiting, and the provision of management
+   From Silicon Valley to Herzliya, Israel, venture capital ﬁrms are                  incentives.
+concentrated in very few locations. More than half of the 1000 ven-                       The cost of providing this oversight is likely to be sensitive to
+ture capital ofﬁces listed in Pratt’s Guide to Private Equity and Ven-                the distance between venture capitalists and the ﬁrms in which
+ture Capital Sources are located in just three metropolitan areas:                    they invest. The ability to monitor the portfolio company, to coach
+San Francisco, Boston, and New York. More than 49% of the US-                         the management team, and to provide introductions may depend
+based companies ﬁnanced by venture capital ﬁrms are located in                        upon the ability to interact frequently with the company. For
+these same three cities. This paper examines the location decisions                   example, Lerner (1995) shows that venture capitalists are more
+of venture capital ﬁrms and the impact that venture capital ﬁrm                       likely to serve on the boards of geographically proximate compa-
+geography has on investments and outcomes.                                            nies. Moreover, this involvement is likely to translate into tangible
+   The location of venture capital ﬁrms matters for the develop-                      economic progress. Research shows that venture capital-backed
+ment of entrepreneurial ﬁrms because venture capitalists provide                      companies outperform their peers on many dimensions: (i) opera-
+more than just risk capital. Venture capital ﬁrms typically invest                    tional growth (Hellmann and Puri, 2000), (ii) post-IPO performance
+in early-stage and high-technology companies where informa-                           (Brav and Gompers, 1997), (iii) innovation and patenting activity
+tional asymmetries are high. These are companies with highly                          (Kortum and Lerner, 2000) and (iv) potential for scale (Puri and
+uncertain future prospects. The potential for agency conﬂicts is                      Zarutskie, 2008). Similarly, Gompers and Lerner (2001) show that
+severe. Venture capital funding contracts provide for staged ﬁnanc-                   venture capital-backed companies have, relative to the amount of
+ing and venture capitalists are constantly evaluating their portfolio                 capital invested, disproportionately contributed to the creation of
+companies (see, for example, Sahlman, 1990; Gompers, 1995; Kap-                       jobs, market value, and revenues. Mollica and Zingales (2007) ﬁnd
+lan and Stromberg, 2003). Venture capitalists are actively involved                   evidence that venture capital ﬁrms may have the primary role in
+                                                                                      fostering the entrepreneurial communities in which they are lo-
+                                                                                      cated. They show that venture capital ﬁrms increase both patents
+ * Corresponding author. Address: Financial Intermediation Function, Federal
+                                                                                      and the total number of new businesses, using the size of state
+Reserve Bank of New York, 33 Liberty St., New York, NY 10045, USA. Fax: +1 212 720
+8363.                                                                                 pension funds as an instrument for the number of venture capital
+   E-mail address: Anna.Kovner@ny.frb.org (A. Kovner).                                ﬁrms.
+
+0094-1190/$ - see front matter Ó 2009 Elsevier Inc. All rights reserved.
+doi:10.1016/j.jue.2009.09.013
+                                                           H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                             91
+
+
+    Reﬂecting this awareness, states and municipalities are placing                         tin, Texas. The success rate for previous VC investments explains
+increasing emphasis on encouraging the establishment of venture                             an additional 10.9% of the variance in the number of ofﬁces in a re-
+capital communities in their regions. A 2001 National Governors                             gion, suggesting that second-order agglomeration externalities
+Association report stated, ‘‘Venture capital is critical to growing                         contribute to ofﬁce location decisions.
+the new businesses that will drive the ‘new economy’. Finding                                   Since the relationship between VC ﬁrm location and the loca-
+ways to nurture the culture of entrepreneurs, and the capital that                          tion of their investments is endogenous, we examine the relation-
+feeds them, must be the top priority of states”.1 An estimate by                            ship between success and distance from VC investors. Overall,
+the National Association of Seed and Venture Funds is that state ven-                       venture capital ﬁrms based in the venture capital centers outper-
+ture capital funds in 2008 totaled $2.3 billion (Venture Impact,                            form even after controlling for the selection effect of historically
+2007)2; meanwhile, an increasing share of the approximately $50                             successful ﬁrms (ﬁrm experience). This may reﬂect a variety of fac-
+billion that states spend on industrial incentives is going to ven-                         tors, which are difﬁcult to disentangle, including ﬁrst and second-
+ture-backed ﬁrms, a trend that is likely to be accelerated by provi-                        order agglomeration economies, unobserved local advantage, the
+sions in the recently enacted stimulus bill favoring clean                                  superior experience of these investors, their greater connections
+technologies (Engardio, 2009). Thus, it is vitally important to under-                      with elite limited partners and corporations, and their superior
+stand the geography of venture capital and its association with suc-                        syndication networks (Sorenson and Stuart, 2001).
+cess of the underlying portfolio companies.                                                     Surprisingly, much of the VC outperformance in these venture
+    First, we document the clustering of venture capital in three                           capital centers arises from their non-local investments. This ﬁnd-
+metropolitan areas (combined statistical areas or CSAs): San Fran-                          ing is counterintuitive, since venture capitalists might be expected
+cisco/San Jose, Boston, and New York. We call these cities ‘‘venture                        to be the most involved and add the most value to the geographi-
+capital centers.” There is a long literature on industrial clustering dat-                  cally closest companies. We observe this outperformance of non-
+ing back to Marshall (1920). Some clustering is to be expected, since                       local companies in both early- and late-stage investments. Thus,
+the forces that are likely to lead to agglomeration economies (input                        this wedge in expected returns does not seem to be the result of
+sharing, labor market pooling and knowledge spillovers) are likely                          established VC ﬁrms’ cherry-picking later-stage enterprises that
+to be important for both venture capital and the types of companies                         they are more likely to successfully exit. The higher rates of return
+in which venture capital ﬁrms invest. We ﬁnd a level of venture cap-                        on non-local deals may indicate economically meaningful geo-
+ital localization that far exceeds entrepreneurial localization more                        graphic differences in the availability of venture capital. One po-
+generally. The C(3) ratio of self employment was 10.7% (Ruggles                             tential explanation for this higher return to non-local deals is
+et al., 2008),3 while the comparable C(3) ratio of venture capital part-                    that venture capitalists have a higher hurdle rate (i.e., require a
+ners is 60.5%. We also ﬁnd evidence that venture capital is far more                        higher expected rate of return) for investments that have a higher
+localized than the overall ﬁnancial services industry. In 2005, the loca-                   monitoring cost. This higher hurdle rate may reﬂect the imputed
+tion quotient of VC partners calculated relative to employment in                           (personal) cost of traveling to remote locations.
+ﬁnancial services ranged from 2.12 for New York to 10.59 for San Fran-                          We ﬁnd additional evidence that there may be a higher invest-
+cisco. The spatial Gini of VC partners calculated relative to overall                       ment or expected return threshold for non-local deals. If a venture
+employment was 0.155 versus a spatial Gini of 0.067 for employment                          capital ﬁrm has done or will do another investment in the same
+in ﬁnancial services relative to overall employment in 2005.4                               geographic area, there is a 2% drop in expected success. VCs may
+    Glaeser (2007) ﬁnds that variation in the self-employment rate                          lower their threshold on a potential deal if they have a lower mar-
+is related to variation in demography and industry concentration,                           ginal cost of visiting the area, i.e., if the venture capitalist is already
+but does not ﬁnd any correlation between this broad measure of                              visiting one portfolio company, the personal cost of visiting a sec-
+entrepreneurship and venture capital. We ﬁnd that a one standard                            ond company is substantially lower.
+deviation increase in the number of venture capital ofﬁces in a re-                             Venture capital ﬁrms are likely to locate in areas that offer them
+gion is associated with an increase in venture capital investments                          the highest concentration of proﬁtable investments since geo-
+in that area of 49.7%. We ﬁnd evidence for three factors that con-                          graphically close investments are easier for the venture capitalist
+tributed to this clustering: ﬁrst-order agglomeration externalities                         to monitor. Travel to other geographies is costly and will be under-
+(among venture capital ﬁrms), second-order agglomeration exter-                             taken only when an investment offers prospects for a high enough
+nalities (among the types of companies in which venture capital                             return to, in expectation, compensate the venture capitalist for the
+ﬁrms invest), and the historical artifact of early venture capital                          additional time and money associated with monitoring a distant
+ﬁrms’ location in these cities.                                                             investment. The resulting concentration of venture capitalists
+    We examine venture capitalists’ location decisions. Instead of                          and entrepreneurs may pose grounds for concern given the posi-
+expanding to regions with few VC ﬁrms, VCs tend to open satellite                           tive public externalities associated with the establishment of
+ofﬁces in the same three cities that are existing centers for venture                       new ﬁrms. For example, Gompers et al. (2005) ﬁnd that founders
+capital activity. For example, a Boston-based ﬁrm is more likely to                         of venture capital-backed start-ups disproportionately come from
+open a San Francisco/San Jose ofﬁce than they are an ofﬁce in Aus-                          prior positions at previously venture capital-backed companies. If
+                                                                                            the supply of venture capital is a limiting factor for the establish-
+  1                                                                                         ment of new ﬁrms, policy makers in regions with low concentra-
+     National Governors Association, center for best practices ‘‘Issue Brief Growing
+New Businesses with Seed and Venture Capital: State Experiences and Options,” 2001,         tions of venture capital may wish to provide incentives for
+http://www.nga.org/Files/pdf/VENCAPITAL.PDF (accessed 11.04.09).                            established VCs based in venture capital centers to invest in their
+  2
+     http://www.nasvf.org/nasvf/web.nsf/pages/documents.html/$ﬁle/3-24-                     regions.
+08%20Table%20of%20State%20Venture%20Funds%20Distributed%20to%20Response%                        The paper is organized as follows. The next section describes the
+20Group.pdf (accessed 11.04.09).
+  3                                                                                         hypotheses and related literature. The following section details the
+     C(3) is the percentage of total employment of the top three regions, calculated for
+self-employment using 2000 micro-level Census data from the Integrated Public Use           construction of the data. Section 4 examines the geography of ven-
+Microdata Series (IPUMS) at http://usa.ipums.org/usa/, and for venture capital              ture capital ﬁrms and geographic factors associated with the sup-
+partners using the Pratt’s Guide to Private Equity and Venture capital sources              ply of venture capital. Section 5 describes the geography of
+described in Section 3.
+                                                                            P               venture capital-backed companies. Section 6 reviews the determi-
+  4
+     The spatial Gini coefﬁcients are deﬁned as in Krugman (1991) as G ¼ i ðzi  xi Þ2 ,
+where zi equals the proportion of overall venture capital employment (ﬁnancial
+                                                                                            nants of venture capital investment success. Section 7 proposes
+services industry employment) in the metropolitan area and xi equals the proportion         some implications of venture capital expansion for policymakers
+of overall employment in the metropolitan area.                                             and Section 8 concludes the paper.
+92                                               H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+2. Hypotheses and related literature                                              (Michelacci and Silva, 2007 and entrepreneurial levels of peers
+                                                                                  (Giannetti and Simonov, 2008). In terms of new product and new
+    Economic theory presents three explanations for the observed                  industry development, Duranton and Puga (2001) theorize that
+clustering of venture capital: ﬁrst-order agglomeration externali-                new products are developed in big cities, and production later
+ties, second-order agglomeration externalities (externalities in                  moves to specialized industry clusters.
+the types of companies in which venture capital ﬁrms invest),                        Geography is likely to matter in venture capital even more than in
+and the historical artifact of early venture capital ﬁrms’ location               passive investment management because of the importance of fre-
+in these cities. We present evidence for each of these explanations               quent contact between venture investors and their investments.
+in Sections 4 and 5.                                                              Several papers document how venture capitalists monitor and ad-
+    First, venture capitalists might beneﬁt from ﬁrst-order agglom-               vise their portfolio companies (Barry et al., 1990; Lerner, 1995; Hell-
+eration externalities. For example, geographic proximity might re-                mann and Puri, 2002). Bengtsson and Ravid (2009) ﬁnd VC contracts
+duce costs of entrepreneurs seeking ﬁnancing since they can visit                 are more high-powered as geographic distance increases, indicating
+several VC ﬁrms on one trip. Similarly, it may be less costly to mon-             that monitoring and soft information decrease with distance. Under-
+itor and thus co-invest with neighbors. There is evidence for the                 standing the factors that affect the geographic distribution of ven-
+importance of geographical clusters in investment management.                     ture capital ofﬁces and investment activity provides insights into
+For example, Christoffersen and Sarkissian (2009) ﬁnd evidence                    the forces that drive concentration of industries and new ﬁrm
+of knowledge spillovers and learning in the investment manage-                    formation.
+ment industry, ﬁnding that mutual funds with experienced manag-
+ers located in cities that are ﬁnancial centers outperform. Hong                  3. Data sources
+et al. (2005) document similarities in trading patterns for invest-
+ment managers in the same cities. More generally, there is an                         We use the Pratt’s Guide to Private Equity and Venture Capital
+extensive literature documenting the continued importance of                      Sources to identify the location of venture capital ﬁrm ofﬁces. The
+geographic clusters despite increasing globalization (see for exam-               annually-updated Pratt’s Guide collects information about the
+ple, Porter, 1990; Krugman, 1991; Ellison and Glaeser, 1997).                     capabilities, focus, and size of venture capital and buyout organiza-
+    Second, it is possible that the clusters we document arise from               tions throughout the world. This information was collected by
+second-order agglomeration externalities, that is, VCs co-locate with             Venture Economics, formerly an independent research ﬁrm and la-
+the highly clustered industries in which they invest. The importance              ter a unit of Thomson, through a survey annually distributed to pri-
+of agglomeration externalities in venture capital-ﬁnanced-industries              vate equity ﬁrms. We hand collect information from Pratt’s Guides
+has been documented by Saxenian (1994) who examined the impor-                    released between 1974 and 2005 about the ofﬁce locations of ven-
+tance of local industrial systems for entrepreneurial activity in Silicon         ture capital ﬁrms. This information allows us to determine the
+Valley and along Route 128 near Boston. The importance of labor                   location and year of founding and closing of each venture capital
+market pooling in the computer industry is found by Fallick et al.                ﬁrm’s main ofﬁce and branch ofﬁces. We only include ofﬁces in
+(2006) who observe high rates of intra-industry labor mobility in Sil-            the United States because that is where the Pratt’s coverage is most
+icon Valley and Freedman (2008) who ﬁnds evidence for the impor-                  comprehensive.
+tance of geographic clusters in a study of the software publishing                    We collect each venture capital ofﬁce’s zip code from Pratt’s
+industry. Evidence of geographic knowledge spillovers is found in                 Guides and match it to a Combined Statistical Area (CSA). In cases
+biotechnology by Zucker et al. (1998) and more recently by Agrawal                such as San Diego, where a city is not located in a CSA, we assign
+et al. (2008), who document the importance of geographic proximity                venture capital ofﬁces in the city to the appropriate Metropolitan
+for inventors using patent data.                                                  Statistical Area (MSA). Our use of CSA as the unit of location is dri-
+    Third, the ﬁrst venture capital ﬁrms were located in the three                ven by the narrow deﬁnition of certain MSAs. For example, the cit-
+venture capital centers. Since the venture capital industry has a                 ies of Palo Alto/Menlo Park, Berkeley, and San Francisco, California
+high degree of performance persistence, ﬁrms which were early                     are located in three different MSAs. On the east coast, New York
+successes continue to be successful. Since the scalability of venture             City is located in a different MSA from nearby cities such as Stam-
+capital ﬁrms is limited, ﬁrms which co-locate may ﬁnd it easier to                ford and Greenwich, Connecticut, where New York area investors
+attract capital or entrepreneurs that the best venture ﬁrms lack                  often choose to base their operations. Therefore we use CSAs that
+capacity to accommodate. Thus early concentration, combined                       appropriately assign Palo Alto and San Francisco to one location
+with ﬁrst-order agglomeration externalities results in continued                  and similarly assign New York and Greenwich in one location.
+concentration. In many industries, spin-offs of ﬁrst movers also                      We gather information on venture capital ﬁnancing activity
+contribute to concentration as documented by Gompers et al.                       from Thomson’s VentureXpert (formerly Venture Economics) data-
+(2005) for venture-backed companies, Klepper and Sleeper                          base. The database was started in 1977 and has since been back-
+(2005) for the laser industry, and Sorenson and Audia (2000) for                  ﬁlled through the 1960s. It provides information about the dates
+the footwear industry. However, it is relatively rare to see part-                of venture ﬁnancings, the investors involved in each ﬁnancing
+ner-level venture capitalists leave existing venture capital ﬁrms                 round, the amounts invested in each round, and the outcome of
+to found ﬁrms in the same city. In a sample of 2470 venture capital               each venture capital-backed company in the database. We use
+ﬁrm partners, we ﬁnd only 80 (3.24%) who changed venture ﬁrms                     these data to create our main outcome measure of venture capital
+and continued investing.                                                          investment success: whether each venture-backed company went
+    Section 6 of the paper analyzes the implications of geographic                public through an IPO or has registered for an IPO. In addition to
+clustering of venture capitalists for investing patterns and success.             information on ﬁnancing rounds and outcomes of venture capital
+Regardless of the determinants of geographic clustering, under-                   investments, the database also provides information about the
+standing geographic patterns in venture capital is important be-                  location of each portfolio company. As with the Pratt’s Guide ofﬁce
+cause there is a growing interest in understanding conditions                     location data, we assign portfolio companies to a locale at the CSA-
+that foster entrepreneurship. Glaeser (2007) shows that more than                 level and, in cases where a portfolio company is located in an MSA
+half of the heterogeneity in the self-employment rate can be ex-                  that is not located in a CSA, at the MSA level. For the purposes of
+plained by demographic and industrial variation. Several papers                   this study, we restrict our analysis period to investments made
+document the importance of geographic factors such as local birth                 between 1975 and 2005. We drop investments prior to 1975 due
+                                                          H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                                        93
+
+
+Table 1
+Geography of venture capital ﬁrm ofﬁces.
+
+  CSA                                               Year                                                  Share of ofﬁces
+                                                    1985        1990      1995       2000       2005      1985 (%)       1990 (%)     1995 (%)       2000 (%)      2005 (%)
+  San Jose-San Francisco, CA - Main Ofﬁces           65          78        97         234       230       15.0           15.1         15.9           17.6          21.6
+  San Jose-San Francisco, CA – Branch Ofﬁces         17          32        36          44        33        4.0            5.9          6.7            6.3           2.8
+  New York, NY – Main Ofﬁces                         91          96        96         205       196       21.4           16.9         15.7           16.1          18.4
+  New York, NY – Branch Ofﬁces                        4           9        13          15        14        0.4            1.1          1.7            1.3           1.2
+  Boston, MA – Main Ofﬁces                           44          54        52          93        83       10.1           10.1          9.3            8.6           7.4
+  Boston, MA – Branch Ofﬁces                          5          11        13          15        10        0.9            1.6          2.1            2.0           1.1
+  Washington, DC – Main Ofﬁces                       12          16        17          54        51        3.1            3.0          2.4            2.9           4.8
+  Washington, DC – Branch Ofﬁces                      0           5         5          13         7        0.0            0.7          0.7            1.3           0.5
+  Chicago, IL – Main Ofﬁces                          13          23        26          41        35        2.9            3.9          4.5            4.6           3.3
+  Chicago, IL – Branch Ofﬁces                         1           4         6           7         2        0.2            0.7          1.2            0.9           0.2
+  Dallas, TX – Main Ofﬁces                           11           8        12          27        34        4.8            4.6          2.8            3.0           3.1
+  Dallas, TX – Branch Ofﬁces                          6           7         5           5         5        0.2            1.2          1.2            1.2           0.3
+  Los Angeles, CA – Main Ofﬁces                      21          23        13          37        34        2.4            1.2          1.7            1.3           2.8
+  Los Angeles, CA – Branch Ofﬁces                     1           7         6           8         3        1.1            1.1          0.7            0.3           0.4
+  Seattle, WA – Main Ofﬁces                           6           8         9          29        28        1.3            1.4          1.2            1.3           2.3
+  Seattle, WA – Branch Ofﬁces                         1           4         5           1         1        0.2            0.7          0.7            0.0           0.1
+  Atlanta, GA – Main Ofﬁces                           7          12        10          23        23        1.8            1.8          1.6            1.4           2.0
+  Atlanta, GA – Branch Ofﬁces                         1           3         4           5         0        0.0            0.5          0.5            0.3           0.3
+  Other – Main Ofﬁces                               115         138       141         298       273       27.1           25.2         23.0           22.9          23.8
+  Other – Branch Ofﬁces                              16          20        34          52        47        3.1            3.2          6.2            6.8           3.6
+  Total Main Ofﬁces                                 385         456       473        1041       987       88.1           81.7         78.8           86.3          89.0
+  Total Branch Ofﬁces                                52         102       127         165       122       11.9           18.3         21.2           13.7          11.0
+
+Sample consists of 2039 unique venture capital ﬁrms in existence between 1975 and 2005. Geographic locations are assigned at the Combined Statistical Area (CSA) level. In
+cases where a city is not located in a CSA, we assign venture capital ofﬁces in the city to the appropriate Metropolitan Statistical Area (MSA). Main Ofﬁces are deﬁned as the
+ﬁrst ofﬁce opened by the investing venture capital ﬁrm. If the ﬁrm was established with multiple ofﬁces, the CSA in which the ﬁrm made the most investments in its ﬁrst 5
+years of existence is classiﬁed as the main ofﬁce. Branch ofﬁces are deﬁned as any location in which the ﬁrm has an ofﬁce, other than the main ofﬁce. Share of ofﬁces is deﬁned
+as the percentage of total venture capital ofﬁces located in the CSA.
+
+
+to data quality concerns discussed by Gompers and Lerner (2004)                                 In addition to our venture capital data, we collect state-level
+and omit companies receiving initial investments after 2005 to ac-                          information on characteristics related to employment and innova-
+count for the typical start-up to exit maturation period of venture                         tion. Information about the level of educational attainment in a
+capital-backed companies.                                                                   state is from annual editions of the Statistical Abstract of the United
+   We merge the Pratt’s Guide and VentureXpert data and obtain                              States. Each state’s Gross Product is taken from the Department of
+investment information for 2039 of the 3290 venture capital ﬁrms                            Commerce’s Bureau of Economic Analysis. To measure the business
+cataloged by Pratt’s. Conversely, we were able to match 80% of                              environment of each state, we obtain information on state mar-
+VentureXpert investments to ﬁrms tracked by Pratt’s. 75% of all                             ginal income tax rates and long-term capital gains tax rates from
+venture capital ﬁrms identiﬁed by VentureXpert with at least ﬁve                            the National Bureau of Economic Research’s TAXSIM model. Final-
+or more investments are matched to the Pratt’s Guide location data.                         ly, we collect information about local innovation and patenting
+The remaining unmatched VentureXpert ﬁrms are mostly foreign                                rates from the US Patent and Trademark Ofﬁce.
+venture capital ﬁrms, corporate VCs, and banking institutions.
+   Using venture capital ofﬁce location information from the
+Pratt’s Guide merged with investment and portfolio company infor-
+                                                                                            4. Geography of venture capital ﬁrms
+mation from the VentureXpert database, we are able to generate
+variables indicating the location of the venture capital ﬁrm relative
+                                                                                               Table 1 reports the location of venture capital ﬁrms by CSA
+to the location of the portfolio company it is investing in. For each
+                                                                                            across time. The three centers of venture capital activity, San Fran-
+portfolio company a venture capital invests in, we use our merged
+                                                                                            cisco/San Jose, New York City, and Boston, are home to more than
+data set to classify the deal as:
+                                                                                            half of all venture capital ofﬁces in all years reported. Over time,
+                                                                                            the three venture capital centers have maintained their numerical
+1. Main ofﬁce – Portfolio company is located in the same CSA as
+                                                                                            advantage despite an approximately threefold increase in the num-
+   the investing venture capital ﬁrm’s main ofﬁce (deﬁned as the
+                                                                                            ber of venture capital ﬁrms and branch ofﬁces between 1985 and
+   ﬁrst ofﬁce opened by the investing venture capital ﬁrm. If the
+                                                                                            2000. The concentration of ofﬁces in the venture capital centers
+   ﬁrm was established with multiple ofﬁces, the CSA in which
+                                                                                            has been relatively stable over time, slightly above 50%. To the ex-
+   the ﬁrm made the most investments in its ﬁrst 5 years of exis-
+                                                                                            tent that the observed concentrations are solely a historical arti-
+   tence is classiﬁed as the main ofﬁce);
+                                                                                            fact, we would also expect the shares of the three centers to
+2. Branch ofﬁce – Portfolio company is located in the same CSA as
+                                                                                            remain stable. However, San Francisco/San Jose has been growing
+   one of the investing venture capital ﬁrm’s branch ofﬁces
+                                                                                            share over the past 20 years.
+   (deﬁned as any location in which the ﬁrm has an ofﬁce, other
+                                                                                               Also notable is the paucity of venture capital ofﬁces located in
+   than the main ofﬁce); or
+                                                                                            smaller CSAs. Less than a third of all venture capital main ofﬁces
+3. Outside – Portfolio company is located in a CSA in which the
+                                                                                            and branch ofﬁces are located outside of the top nine CSAs. In con-
+   investing venture capital ﬁrm does not have its main ofﬁce or a
+                                                                                            trast, approximately 80% of the working-age population lived out-
+   branch ofﬁce.
+                                                                                            side of the top nine CSAs in 2000.5 Furthermore, only 20% of all
+                                                                                            venture capital partners are located outside of the top nine CSAs in
+   This classiﬁcation allows us to examine differences in outcomes
+based on the proximity of the venture capital ﬁrm to a portfolio                             5
+                                                                                               Calculated using 2000 micro-level Census data from the Integrated Public Use
+company, as well as differences in performance by ofﬁce type.
+                                                                                            Microdata Series (IPUMS) at http://usa.ipums.org/usa/.
+94                                                          H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+2005 versus 68.5% of the population employed in the ﬁnancial ser-                            CSA in 2005 divided by the percentage of overall ﬁnancial services
+vices sector.                                                                                GDP dollars generated in the CSA in 2005. Again, the location quo-
+    In Table 2, we report localization measures for the venture cap-                         tients for the venture capital centers are all greater than 2, indicat-
+ital industry. In the ﬁrst column, we report the location quotient of                        ing that the proportion of overall venture capital ofﬁces located in
+venture capital partners. We calculate this measure using employ-                            each of the three venture capital centers is more than double the
+ees with the title of ‘‘partner” or equivalent rather than all employ-                       proportion of overall ﬁnancial services dollars generated in each
+ees listed in the Pratt’s Directory because Pratt’s coverage of non-                         of the three venture capital centers.
+partner employees is not systematic across ﬁrms, and might be                                    In Table 3, we compare the lifespan of main ofﬁces and branch
+biased in favor of more information on lower level employees of                              ofﬁces. We calculate a simple measure of longevity, the number of
+ﬁrms located in the venture capital centers. This measure is de-                             years between the ofﬁce’s opening and closing. In cases where the
+ﬁned as the percentage of overall venture capital partners based                             ofﬁce remains open through the end of our sample in 2005, we cal-
+in the CSA in 2005 divided by the percentage of overall ﬁnancial                             culate the number of years between the ofﬁce opening and 2005.
+services employees based in the CSA in 2005. The location quotient                           Since the data is right censored, more recently opened ofﬁces will
+of venture capital partners indicates that venture capital employ-                           have lower life spans. Therefore we construct a second measure,
+ment is far more localized than ﬁnancial services industry employ-                           potential lifespan, in which we normalize the age of each ofﬁce
+ment. The location quotients for the three venture capital centers                           by dividing the age of the ofﬁce by the number of potential years
+are all greater than 2, indicating that the proportion of overall ven-                       the ofﬁce could have been open. Potential years are deﬁned as
+ture capital partners located in each of the three venture capital                           the number of years between ofﬁce opening and 2005. On average,
+centers is more than double the proportion of overall ﬁnancial ser-                          a main ofﬁce’s lifespan is 2.2 years greater than the lifespan of a
+vices workers located in each of the three venture capital centers.                          branch ofﬁce. This difference is statistically signiﬁcant; the result
+We ﬁnd similar results when focusing on venture capital ofﬁces in                            is similar when using the potential lifespan measure. The relatively
+the second column. The location quotient of VC ofﬁces is equal to                            longer longevity of main ofﬁces is true in the venture capital cen-
+the percentage of overall venture capital ofﬁces located in the                              ters as well, although branch ofﬁces located in the venture capital
+                                                                                             centers have longer relative life spans than other branch ofﬁces.
+                                                                                                 The ﬁnding that main ofﬁces are longer-lived than branch ofﬁ-
+                                                                                             ces suggests that venture capital ﬁrms are more likely to close
+Table 2
+Localization measures for the venture capital industry, 2005.                                branch ofﬁces. Venture capital ofﬁces in the venture capital centers
+                                                                                             (main or branch) are longer-lived than ofﬁces in other locales. This
+     CSA                               Location quotient,         Location quotient,
+                                                                                             longevity may reﬂect differences in deal ﬂow (supply of venture
+                                       VC partners                VC ofﬁces
+                                                                                             capital investments) between these locations. This difference in
+     San Jose-San Francisco, CA        10.591                     7.397
+                                                                                             deal ﬂow may arise because of ﬁrst-order agglomeration external-
+     New York, NY                       2.124                     2.094
+     Boston, MA                         5.126                     3.655                      ities, if more entrepreneurs come to the venture capital centers
+     Washington, DC                     3.887                     1.871                      seeking ﬁnancing or if limited partners who invest in venture cap-
+     Chicago, IL                        0.868                     0.901                      ital ﬁrms want to reduce due diligence costs by visiting fewer cit-
+     Dallas, TX                         0.898                     1.397                      ies. The difference in deal ﬂow may also come from second-order
+     Los Angeles, CA                    0.693                     2.247
+     Seattle, WA                        2.059                     1.333
+                                                                                             agglomeration externalities if more entrepreneurs choose to locate
+     Atlanta, GA                        0.730                     0.406                      near their competitors who tend to be located in venture capital
+                                                                                             centers and prefer local investors. Shorter-lived branch ofﬁces out-
+Location quotient of VC partners is equal to the percentage of overall venture capital
+partners based in the CSA in 2005 divided by the percentage of overall ﬁnancial
+                                                                                             side the VC centers are either evidence that the industries they in-
+services employees based in the CSA in 2005. Location quotient of VC ofﬁces is equal         vest in need to reach a certain scale to achieve agglomeration
+to the percentage of overall venture capital ofﬁces located in the CSA in 2005               externalities (or those externalities are short-lived), or that these
+divided by the percentage of overall ﬁnancial services GDP dollars generated in the          agglomeration externalities are so large in the VC centers that
+CSA in 2005.
+                                                                                             VC-backed industries are unlikely to thrive in other cities.
+
+
+
+Table 3
+Venture capital ﬁrm ofﬁce lifespans.
+
+     CSA                               Average lifespan (years)                                  Average lifespan (% of potential years)                 Number
+                                       Main         Branch          Statistical difference       Main         Branch         Statistical difference      Main         Branch
+                                                                                                                             ***
+     San Francisco/San Jose, CA        7.95         7.08                                         0.805        0.598                                       400          93
+     New York, NY                      7.73         6.44                                         0.684        0.622                                       417          32
+                                                                    **                                                       **
+     Boston, MA                        8.05         5.10                                         0.681        0.506                                       180          42
+                                                                    ***                                                      ***
+     All venture capital centers       7.88         6.46                                         0.732        0.580                                       997         167
+                                                                    ***                                                      ***
+     All other cities                  6.87         4.35                                         0.671        0.408                                      1042         267
+                                                                    ***                                                      ***
+     Total                             7.36         5.16                                         0.701        0.473                                      2039         434
+
+Sample consists of 2039 unique venture capital ﬁrms in existence between 1975 and 2005. Lifespan is deﬁned as the number of years between the ofﬁce opening and closing.
+In cases where the ofﬁce remains open through the end of our sample in 2005, we calculate the number of years between the ofﬁce opening and 2005. Potential lifespan is
+equal to lifespan divided by the number of potential years the ofﬁce could have been open. Potential years are deﬁned as the number of years between ofﬁce opening and
+2005. Geographic locations are assigned at the Combined Statistical Area (CSA) level. In cases where a city is not located in a CSA, we assign venture capital ofﬁces in the city
+to the appropriate Metropolitan Statistical Area (MSA). Main Ofﬁces are deﬁned as the ﬁrst ofﬁce opened by the investing venture capital ﬁrm. If the ﬁrm was established with
+multiple ofﬁces, the CSA in which the ﬁrm made the most investments in its ﬁrst 5 years of existence is classiﬁed as the main ofﬁce. Branch Ofﬁces are deﬁned as any location
+in which the ﬁrm has an ofﬁce, other than the main ofﬁce. Venture capital centers are deﬁned as San Francisco/San Jose, New York, and Boston.
+There also exist statistically signiﬁcant differences at the 1% level in lifespan and potential lifespan between main ofﬁces located inside and outside the elite cities and
+between branch ofﬁces located inside and outside the venture capital centers.
+  *
+    Indicate statistical signiﬁcance at the 10% level.
+ **
+     Indicate statistical signiﬁcance at the 5% level.
+***
+     Indicate statistical signiﬁcance at the 1% level.
+                                                            H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                                            95
+
+
+Table 4
+Factors associated with the geographic concentration of venture capital ﬁrm ofﬁces.
+
+                                                             Log number of ofﬁces in year          Log number of main ofﬁces in year        Log number of branch ofﬁces in year
+                                                             OLS                                   OLS                                      OLS
+                                                             [1]                [2]                [3]                  [4]                 [5]                  [6]
+  Success rate of all VCs in CSA, past 5 years               3.117 [5.86]***    3.108 [5.86]***    1.626 [5.17]***      1.618[5.16]***      0.539 [3.89]***      0.530 [3.88]***
+  Log GDP per Capita                                         1.461 [3.30]***    1.455 [3.22]***    0.727 [2.57]**       0.724 [2.48]**      0.204 [1.74]*        0.200 [1.66]*
+  Percent of population with college degree or higher        0.017 [0.62]       0.018 [0.66]       0.021 [1.49]         0.022 [1.55]        0.014 [2.06]**       0.015 [2.22]**
+  Log patents per capita                                     0.347 [2.64]***    0.349 [2.63]***    0.169 [2.25]**       0.172 [2.25]**      0.055 [1.74]*        0.058 [1.76]*
+  State long-term capital gains tax rate                     0.331 [0.11]                          0.599 [0.34]                             0.618 [0.65]
+  State income tax rate                                                         0.275 [0.10]                           0.058 [0.04]                             0.002 [0.00]
+  Includes year dummies                                      Yes                Yes                Yes                  Yes                 Yes                  Yes
+  Observations                                               2256               2256               2256                 2256                2256                 2256
+  R-squared                                                  0.26               0.26               0.28                 0.28                0.13                 0.12
+
+Sample consists of 2,256 CSA-year observations for 197 CSAs where at least one venture capital ofﬁce existed between 1975 and 2005. The dependent variable is the natural
+logarithm of the number of venture capital ofﬁces plus one in the CSA-year in columns 1 and 2, the natural logarithm of the number of main ofﬁces plus one in the CSA-year in
+columns 3 and 4, and the natural logarithm of the number of branch ofﬁces plus one in the CSA-year in columns 5 and 6. Geographic locations are assigned at the Combined
+Statistical Area (CSA) level. In cases where a city is not located in a CSA, we assign venture capital ofﬁces in the city to the appropriate Metropolitan Statistical Area (MSA).
+Main Ofﬁces are deﬁned as the ﬁrst ofﬁce opened by the investing venture capital ﬁrm. If the ﬁrm was established with multiple ofﬁces, the CSA in which the ﬁrm made the
+most investments in its ﬁrst 5 years of existence is classiﬁed as the main ofﬁce. Branch Ofﬁces are deﬁned as any location in which the ﬁrm has an ofﬁce, other than the main
+ofﬁce. Success rate of all VCs in CSA, past 5 years measures the percentage of all venture capital investments in the CSA over the past 5 years that led to an Initial Public Offering.
+Log GSP per Capita is the natural logarithm of the state’s gross product per capita plus one in the previous year. Percent of population with college degree or higher is the share of
+the state population that has graduated from college. Log patents per capita is the number of patents per capita plus one issued in the state in the previous year. State long-term
+capital gains tax rate and state income tax rate are average state marginal tax rates in the previous year.
+Standard errors are clustered at the CSA-level. Robust t-statistics are in brackets to the right of coefﬁcient estimates.
+  *
+    Indicate statistical signiﬁcance at the 10% level.
+ **
+    Indicate statistical signiﬁcance at the 5% level.
+***
+    Indicate statistical signiﬁcance at the 1% level.
+
+
+
+
+    In Table 4, we take a multivariate approach to analyzing the                              years to the 75th percentile of the regional success rate increases
+determinants of venture capital ﬁrm location. We estimate a series                            the number of ofﬁces in a CSA by 2.3. Increasing log gross state
+of models in which the dependent variables measure the number                                 product per capita from the 25th percentile value to the 75th per-
+of total, main, and branch venture capital ofﬁces in a CSA in a given                         centile value increases the number of ofﬁces in a CSA by 4.1. Final-
+year. All regression models are estimated at the CSA-year level. We                           ly, with respect to innovation, a CSA in a state at the 75th
+restrict the analysis to CSAs where at least one main or branch of-                           percentile of innovation as measured by patents per capita will
+ﬁce existed between 1975 and 2005. In some CSA-years, the num-                                have 1.2 more ofﬁces than a CSA in a state at the 25th percentile
+ber of ofﬁces can equal zero. For example, this can occur in the case                         level of innovation. Relative to an average of 11.5 venture capital
+where a venture ﬁrm opens an ofﬁce in a remote area such as Sioux                             ofﬁces in a CSA-year, these factors are economically and statisti-
+City, Iowa in 1995 and closes it in 2000. Prior to 1995 and after                             cally associated with the number of venture capital ofﬁces in a
+2000, the number of ofﬁces reported in Sioux City would equal                                 CSA. The results for the remaining regression models, which utilize
+zero.                                                                                         dependent variables representing the log number of main ofﬁces
+    A key explanatory variable of interest is the success rate of all                         and branch ofﬁces yield similar results. The results are driven by
+VCs in the CSA over the past 5 years. This variable is constructed                            cross-sectional differences in CSAs, rather than by changes within
+by calculating the percentage of all venture capital investments                              CSAs. This is unsurprising given the persistent nature of the mea-
+in the CSA over the past 5 years that led to an Initial Public Offer-                         sures and the slow adjustment of ofﬁce locations. These ﬁndings
+ing. We also include controls for local characteristics which may be                          appear consistent with second-order agglomeration economies
+associated with venture capital investments. These controls in-                               and ﬁndings about the development of venture capital ecosystems
+clude the log gross state product per capita, the state’s marginal in-                        (Saxenian, 1994). Prior successes and innovation attract additional
+come tax rate, and the state’s long-term capital gains tax rate in the                        venture capital to a region and aid in the development of a self-sus-
+year prior to the investment. In order to capture an area’s potential                         taining environment for entrepreneurs. Similarly, as Gompers et al.
+for innovation, we control for the percentage of population with a                            (2005) show, the feedstock for future venture capital-backed start-
+college degree in that CSA, as well as the log number of patents per                          ups come from prior venture capital-backed companies.
+capita issued in the state in the previous year. We include year                                  The results also highlight the ‘‘catch 22” issue in venture capital
+ﬁxed effects to control for changes in the supply of venture capital                          ofﬁces. A high level of existing venture capital activity and success
+and investment opportunities, and in some speciﬁcations, CSA                                  induce entry into a market. Yet a nascent start-up market may ﬁnd
+ﬁxed effects. Finally, all standard errors are robust and calculated                          it difﬁcult to attract venture capital investors.
+after clustering at the CSA-level.
+    The three principal ﬁndings of these regression models are as
+follows: (1) venture capital ofﬁces are concentrated in locales                               5. Geography of venture capital-backed portfolio companies
+where venture capital investments have previously been success-
+ful; (2) regions with high concentrations of venture capital ofﬁces                               Much like venture capital ﬁrms, venture capital-backed portfo-
+are in states with higher levels of gross state product per capita;                           lio companies are heavily concentrated in three cities. Table 5 pre-
+and (3) venture capital ofﬁces are concentrated in areas with high                            sents a distribution of the geography of portfolio companies from
+levels of innovation as measured by the number of patents per ca-                             our combined Pratt’s Guide/VentureXpert data set. As with venture
+pita issued in the previous year. Focusing on the ﬁrst column,                                capital ofﬁces, approximately half of all venture capital-backed
+where the dependent variable measures the log number of total                                 portfolio companies are located in San Francisco/San Jose, New
+venture capital ofﬁces, moving from the 25th percentile of the re-                            York, or Boston. 49% of all investments in venture capital-backed
+gional success rate for venture capital investments over the past 5                           companies (54% of VC-company observations) are made in compa-
+96                                                          H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+Table 5
+Geography of venture capital-backed portfolio companies.
+
+                             Portfolio company             Main Ofﬁce Investment     Branch Ofﬁce                Outside Investment          Share of Investments in CSA
+                             location                      Location                  Investment Location         Location
+     CSA                     Number     % Share of         Number    % Share of      Number     % Share of       Number      % Share of      Main         Branch           Outside
+                                        Total                        Total                      Total                        Total           Ofﬁce        Ofﬁce
+     San Jose-San             4063       29.01              5462      53.91          1584        71.13              2612      16.25          56.55        16.40            27.04
+        Francisco, CA
+     Boston, MA               1634       11.67              1511      14.91            288       12.93            1770        11.01          42.34          8.07           49.59
+     New York, NY             1224        8.74              1012       9.99             50        2.25            1049         6.53          47.94          2.37           49.69
+     Los Angeles, CA            851       6.08                184      1.82             39        1.75            1319         8.20          11.93          2.53           85.54
+     Washington, DC             584       4.17                214      2.11             65        2.92              742        4.62          20.96          6.37           72.67
+     San Diego, CA              494       3.53                 77      0.76             43        1.93            1028         6.39           6.71          3.75           89.55
+     Dallas, TX                 411       2.93                129      1.27             70        3.14              558        3.47          17.04          9.25           73.71
+     Seattle, WA                383       2.73                138      1.36              2        0.09              653        4.06          17.40          0.25           82.35
+     Denver, CO                 369       2.63                166      1.64              4        0.18              562        3.50          22.68          0.55           76.78
+     Atlanta, GA                348       2.48                123      1.21              2        0.09              475        2.95          20.50          0.33           79.17
+     Chicago, IL                303       2.16                144      1.42              4        0.18              321        2.00          30.70          0.85           68.44
+     Philadelphia, PA           302       2.16                 71      0.70             11        0.49              468        2.91          12.91          2.00           85.09
+     Other                    3040       21.70                900      8.88             65        3.01            4519        28.11          16.41          1.19           82.40
+     Total                   14,006     100.00             10,131    100.00          2,227      100.00           16,076      100.00          35.63          7.83           56.54
+
+Sample consists of 28,434 venture capital investments in 14,006 portfolio companies for 2,039 venture capital ﬁrms between 1975 and 2005. Geographic locations are
+assigned at the Combined Statistical Area (CSA) level. In cases where a city is not located in a CSA, we assign portfolio companies in the city to the appropriate Metropolitan
+Statistical Area (MSA). Main ofﬁce investment is deﬁned as a portfolio company investment in a CSA in which the investing venture capital ﬁrm has its main ofﬁce. Branch
+ofﬁce investment is deﬁned as a portfolio company investment in a CSA in which the investing venture capital ﬁrm has a branch ofﬁce. Outside investment is deﬁned as a
+portfolio company investment in a CSA in which the investing venture capital ﬁrm does not have its main ofﬁce or a branch ofﬁce. % Share of total equals the percentage of
+portfolio companies or investment type located in the CSA. Share of investments in CSA is deﬁned as the percentage of portfolio company investments in the CSA that are
+main ofﬁce investments, branch ofﬁce investments, or outside investments.
+
+
+
+nies located in these three cities. Moving beyond the three central                          than 15% of companies headquartered in Philadelphia can say the
+cities, 79% of all portfolio companies are located in the top 12 CSAs                        same. Despite the importance of monitoring in venture capital,
+and 81% of all venture capital investments are made in companies                             many venture capitalists do invest outside of their home region.
+in the top 12 CSAs.                                                                          Overall, most investments (57%) are made by venture capital ﬁrms
+    We examine the location of portfolio companies in relation to                            outside of their home CSA. San Francisco/San Jose and New York
+the ofﬁces of their venture capital investors. Of the 12,358 invest-                         are the only two CSAs in which a majority of the venture capital-
+ments in the sample that involve a venture capital investor located                          backed companies were investments made by local venture
+in the same CSA, 80% of these are in one of the three venture capital                        capitalists (main or branch). The fact that companies include
+centers. More than 60% of San Francisco/San Jose companies have                              investments from both local and non-local venture capitalists sug-
+their venture capital investor located in their region, while less                           gests that any ﬁrst-order agglomeration externalities are not likely
+
+
+
+Table 6
+Factors associated with the geographic concentration of venture capital-backed portfolio companies.
+
+                                                     Log Number of Portfolio Companies receiving initial investment in year
+                                                     OLS
+                                                     [1]                   [2]                  [3]                   [4]                  [5]                     [6]
+     Log number of VC ﬁrms in CSA                     0.740 [14.43]***      0.740 [14.25]***     0.696 [18.90]***      0.696 [18.98]***     0.1321 [2.51]**        0.1323 [2.62]***
+     Success rate of all VCs in CSA, past 5 years     1.110 [6.85]***       1.101 [6.78]***      1.148 [7.21]***       1.144 [7.24]***      0.5166 [4.39]***       0.5179 [4.48]***
+     Log GSP per capita                              0.306 [2.02]**       0.312 [2.07]**      0.281 [1.84]*        0.29 [1.90]*         0.0501 [0.26]          0.0311 [0.15]
+     Percent of population with college degree or     0.038 [3.98]***       0.039 [3.97]***      0.039 [3.98]***       0.04 [3.96]***       0.0375 [1.92]*         0.0369 [1.87]*
+        higher
+     Log patents per capita                          0.025 [0.58]         0.023 [0.53]        0.028 [0.64]         0.027 [0.62]         0.0507 [0.76]          0.0602 [0.91]
+     State long-term capital gains tax rate           0.344 [0.23]                              0.401 [0.29]                              0.4888 [0.42]
+     State income tax rate                                                 0.252 [0.18]                              0.736 [0.54]                                1.1986 [0.93]
+     CSA is San Francisco/San Jose                                                                1.242 [7.31]***       1.243 [7.88]***                            0.1323
+     Year ﬁxed effects                               Yes                   Yes                  Yes                   Yes                  Yes                     Yes
+     CSA ﬁxed effects                                No                    No                   No                    No                   Yes                     Yes
+     Observations                                    2256                  2256                 2256                  2256                 2256                    2256
+     R-squared                                       0.74                  0.74                 0.75                  0.75                 0.86                    0.86
+
+Sample consists of 2,256 CSA-year observations for 197 CSAs where at least one venture capital investment has been made between 1975 and 2005. The dependent variable is
+the natural logarithm of the number of venture capital–backed portfolio companies in the CSA plus one receiving an initial investment in the current year. Geographic
+locations are assigned at the Combined Statistical Area (CSA) level. In cases where a city is not located in a CSA, we assign venture capital ofﬁces in the city to the appropriate
+Metropolitan Statistical Area (MSA). Log Number of VC ﬁrms in CSA is the natural logarithm of the number of venture capital ﬁrm ofﬁces in the CSA in the current year. Success
+rate of all VCs in CSA, past 5 years measures the percentage of all venture capital investments in the CSA over the past 5 years that led to an Initial Public Offering. Log GSP per
+Capita is the natural logarithm of the state’s gross product per capita plus one in the previous year. Percent of population with college degree or higher is the share of the state
+population that has graduated from college. Log patents per capita is the number of patents per capita plus one issued in the state in the previous year. State long-term capital
+gains tax rate and state income tax rate are average state marginal tax rates in the previous year.
+Standard errors are clustered at the CSA-level. Robust t-statistics are in brackets to the right of coefﬁcient estimates.
+  *
+    Indicate statistical signiﬁcance at the 10% level.
+ **
+    Indicate statistical signiﬁcance at the 5% level.
+***
+    Indicate statistical signiﬁcance at the 1% level.
+                                                           H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                                       97
+
+
+to be generated by geographically proximate co-investors. In addi-                              Interestingly, we also predict that ﬁve additional venture capi-
+tion, venture capitalists’ willingness to invest outside of their home                      tal-backed portfolio companies will be formed in San Francisco/
+regions suggests that even if the companies they invest in are geo-                         San Jose versus another CSA that shares the other observed fea-
+graphically clustered, they do not necessarily need to be similarly                         tures. All else equal, venture capital ﬁrms still invest in a greater
+clustered.                                                                                  number of San Francisco/San Jose portfolio companies than in
+    In Table 6, we explore the determinants of the number of new                            other CSAs. Finally, we observe that more venture capital-backed
+venture capital-ﬁnanced companies in each CSA-year. We include                              companies are formed in CSAs with greater levels of past success.
+‘‘new” companies only once, in the year in which we observe the                             Moving from a CSA at the 25th percentile of the previous success
+ﬁrst investment by any venture capital ﬁrm in VentureXpert. We                              rate to a CSA at the 75th percentile previous success rate increases
+exclude CSAs in which no venture capital investment has ever been                           the number of venture capital-backed companies formed by 0.4
+observed. Similar to Table 4, these models are estimated at the                             companies. This suggests that second-order agglomeration exter-
+CSA-year level, include year ﬁxed effects, and report robust stan-                          nalities may be particularly important. These results support the
+dard errors are calculated after clustering for CSA. On average,                            ﬁndings of Gompers et al. (2005), who ﬁnd that regions with pre-
+4.2 portfolio companies are formed in a given CSA-year. In the third                        viously successful venture capital-backed companies that went
+regression column, we estimate that the number of venture capital                           public are more likely to spawn additional venture capital-backed
+ﬁrms in a CSA is positively associated with the number of venture                           companies.
+capital-backed companies. Moving from the 25th percentile to the
+75th percentile of venture capital ofﬁces in a CSA increases the
+number of venture capital-backed companies formed annually by                               6. Determinants of venture capital investment success
+1.8 companies. This result indicates that increasing the number
+of venture capital ﬁrms in a CSA, and hence the availability of cap-                            It is natural to wonder whether there are any performance con-
+ital in a CSA, should be associated with an increase in the number                          sequences of the geographic concentration we observe. In essence,
+of innovative start-up companies in the CSA that are venture cap-                           if there is a venture funding gap in other cities, i.e., if supply of
+ital backed. It is also suggestive against the importance of second-                        good ideas exceeds the availability of capital, remote venture cap-
+order agglomeration economies, because the clustering of venture                            ital locations may have greater success rates than ﬁrms in the three
+capital ﬁrms chronologically leads the foundation of proximate                              leading venture capital markets. We next compare the perfor-
+new ventures. When we add CSA ﬁxed effects, the results are                                 mance of ﬁrms based in and outside of the venture capital centers.
+somewhat less signiﬁcant in a few instances, but generally                                  Table 7 compares the mean success rates of venture capital center-
+unchanged.                                                                                  based ﬁrms and ﬁrms based outside of those centers. Overall, ﬁrms
+
+
+Table 7
+Comparison of venture capital investment success rates by type of investment and portfolio company location.
+
+                      All investments:                                      Companies in VC Centers:                          Companies outside VC Centers:
+                      VC center-         All         Signiﬁcance of         VC center-        All         Signiﬁcance of      VC center-        All          Signiﬁcance of
+                      based VC           other       difference             based VC          other       difference          based VC          other        difference
+  Main ofﬁce investment
+                                                     ***
+  Success rate       0.154               0.115                              0.154             –           –                   –                 0.115        –
+  % Deals            41.31               21.55                              64.92             –                               –                 33.04
+  Branch ofﬁce investment
+                                                     ***                                                  ***
+  Success rate       0.212               0.152                              0.225             0.160                           0.151             0.124
+  % Deals            10.20               17.41                              13.11             38.13                           5.11              6.36
+  Outside investment
+                                                     ***                                                  ***                                                ***
+  Success rate       0.193               0.137                              0.197             0.131                           0.192             0.140
+  % Deals            48.50               61.04                              21.98             61.87                           94.89             60.60
+  All deals
+                                                     ***                                                  ***                                                ***
+  Success rate        0.179              0.135                              0.173             0.142                           0.190             0.131
+  Number              18,888             9546                               12,018            3320                            6870              6226
+                     Early-Stage investments:                               Late-Stage investments:
+  Main ofﬁce investment
+                                                     ***                                                  ***
+  Success rate       0.136            0.103                                 0.177             0.133
+  % Deals            46.39            26.46                                 36.07             16.72
+  Branch ofﬁce investment
+                                                     ***                                                  ***
+  Success rate       0.196               0.129                              0.227             0.175
+  % Deals            9.76                17.69                              10.64             17.14
+  Outside investment
+                                                     ***                                                  ***
+  Success Rate       0.158               0.112                              0.224             0.158
+  % Deals            43.85               55.85                              53.29             66.14
+  All deals
+                                                     ***                                                  ***
+  Success rate        0.151              0.113                              0.207             0.157
+  Number              9586               4732                               9302              4814
+
+Sample consists of 28,434 venture capital investments in 14,006 portfolio companies for 2,039 venture capital ﬁrms between 1975 and 2005. Main ofﬁce investment is deﬁned
+as a portfolio company investment in a CSA in which the investing venture capital ﬁrm has its main ofﬁce. Branch ofﬁce investment is deﬁned as a portfolio company
+investment in a CSA in which the investing venture capital ﬁrm has a branch ofﬁce. Outside investment is deﬁned as a portfolio company investment in a CSA in which the
+investing venture capital ﬁrm does not have its main ofﬁce or a branch ofﬁce. Success rate equals the percentage of investments that led to an Initial Public Offering (IPO). %
+Deals equals the percentage of deals that are main ofﬁce investments, branch ofﬁce investments, or outside investments. VC centers are deﬁned as San Francisco/San Jose,
+New York, and Boston.
+***,**,*
+         Indicate statistical signiﬁcance at the 1%, 5% and 10% level, respectively.
+98                                                          H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+based in the venture capital centers have an average success rate                              capital ﬁrm quality may vary and be associated with geography
+that is 4.4% higher than venture-backed ﬁrms based outside those                               and outcomes. We proxy for quality with experience: the average
+centers. Central VC ﬁrms outperform other VC ﬁrms, whether we                                  adjusted VC ﬁrm experience in the sample is 0.48, indicating that
+examine main ofﬁce, branch ofﬁce, or outside investments. These                                the average VC making an investment is more experienced than
+differences are all statistically signiﬁcant at the 1% level. VC ﬁrms                          the average VC ﬁrm in that year. This is not unexpected because
+from the venture capital center cities appear to outperform, when                              more successful VC ﬁrms tend to make more investments. An-
+restricting our sample to investments made inside the venture cap-                             other important variable is the stage of the company at the time
+ital center cities (17.3% vs. 14.2%) or to those outside of the venture                        of investment. In terms of company stage at ﬁnancing, more than
+capital center cities (19.0% vs. 13.1%). This outperformance also                              half (51%) of venture capital investments in the sample are made
+persists when we restrict the sample to early-stage (15.1% vs.                                 in the initial round of investment. A greater proportion of main of-
+11.3%) or late-stage deals (20.7% vs. 15.7%). These bi-variate ana-                            ﬁce investments (56.6%) are made in the initial round versus
+lyzes provide strong suggestive evidence that VC ﬁrms from the                                 44.5% of branch ofﬁce investments and 47.9% of outside invest-
+venture capital center cities outperform VC ﬁrms based outside                                 ments. Finally, industries may have different geographic patterns
+of the central cities. To conﬁrm these results, we analyze the deter-                          and success rates. Venture capital investments in the sample are
+minants of success using a multivariate approach.                                              heavily concentrated in three industries: computers and internet
+    Table 8 reports summary statistics for variables used in the                               (45.3%), biotech and healthcare (21.3%), and communications
+multivariate analyses of the determinants of venture capital                                   (17.6%).
+investment success. 66.4% of the investments in the sample are                                     Table 9 uses a multivariate approach to analyze the factors
+made by VC ﬁrms based in one of the three venture capital center                               associated with successful venture capital investments. All regres-
+cities. The overall investment success rate is 16.4%. Interestingly,                           sion models control for the quality of the venture capital ﬁrm
+investments in the main ofﬁce region appear to underperform rel-                               (using adjusted experience), year of investment, the round of
+ative to other geographies. Average success rates for investments                              investment, the industry of the portfolio company, and the location
+in the main ofﬁce regions are 14.5%, while the branch ofﬁce and                                of the portfolio company. The ﬁrst column reports a key ﬁnding of
+outside ofﬁce investment success rates are both approximately                                  the paper. The coefﬁcient on the dummy variable indicating that
+17%, a difference that is statistically signiﬁcant at the 1% level.                            the VC ﬁrm is based in one of the three venture capital centers
+Of course, our success measure is relatively blunt, and does not                               (CENTRAL), which is statistically signiﬁcant, indicates that venture
+distinguish between home runs and singles (investments that re-                                capital ﬁrms based in the venture capital centers have a 3.1% high-
+turn ten times vs. two times invested capital). In addition, venture                           er probability of succeeding. Controlling for location, branch ofﬁce
+
+
+
+Table 8
+Summary statistics for factors associated with venture capital investment success.
+
+     Variable                                      Investment type                                      Investment type differences                                    Overall mean
+                                                   [1]               [2]              [3]               [1] vs. [2]          [1] vs. [3]          [2] vs. [3]
+                                                   Main ofﬁce        Branch ofﬁce     Outside
+                                                   Mean    s.d.      Mean    s.d.     Mean      s.d.    Diff.         Sig.   Diff.         Sig.   Diff.         Sig.   Mean           s.d.
+     Success rates
+                                                                                                                      ***                  ***
+     Success                                       0.145   0.352     0.176   0.381    0.175     0.380   0.030               0.029                 0.001              0.164          0.370
+     Firm characteristics
+                                                                                                                      ***                  ***                  ***
+     Adjusted VC ﬁrm experience                    0.475   1.106     0.938   0.972    0.418     1.113   0.463                 0.057               0.520               0.484          1.112
+                                                                                                                      ***                  ***                  ***
+     Venture capital ﬁrm based in VC center        0.793   0.405     0.575   0.494    0.604     0.489    0.218                 0.189              0.029               0.664          0.472
+     Investment characteristics
+        Stage
+                                                                                                                      ***                  ***                  ***
+     Initial investment in ﬁrst round              0.566   0.496     0.445   0.497    0.479     0.500    0.121                0.088               0.033               0.507          0.500
+                                                                                                                      ***                                       **
+     Initial investment in second round            0.186   0.389     0.211   0.408    0.189     0.392   0.025               0.004                0.022               0.190          0.392
+                                                                                                                      ***                  ***                  ***
+     Initial investment in third round             0.099   0.298     0.147   0.354    0.119     0.324   0.048               0.020                0.028               0.114          0.318
+                                                                                                                      ***                  ***
+     Initial investment in fourth round or later   0.131   0.337     0.180   0.384    0.188     0.390   0.049               0.057               0.008               0.167          0.373
+        Industry
+                                                                                                                      ***                  ***                  ***
+     Computers and internet                        0.504   0.500     0.466   0.499    0.420     0.493    0.038                0.084                0.046               0.453          0.498
+                                                                                                                      ***                  ***                  ***
+     Communications                                0.184   0.387     0.235   0.424    0.162     0.369   0.051                0.022                0.073               0.176          0.380
+                                                                                                                                           *
+     Business and industrial                       0.018   0.132     0.016   0.126    0.021     0.144    0.002               0.003               0.005               0.020          0.139
+                                                                                                                      ***                  ***                  ***
+     Consumer                                      0.047   0.211     0.031   0.173    0.059     0.236    0.016               0.013               0.028               0.053          0.223
+                                                                                                                                           **
+     Energy                                        0.038   0.191     0.036   0.187    0.043     0.204    0.001               0.006               0.007               0.041          0.198
+                                                                                                                                           ***                  ***
+     Biotech and health care                       0.170   0.376     0.176   0.381    0.244     0.429   0.006               0.074               0.068               0.213          0.409
+                                                                                                                                           ***
+     Financial services                            0.018   0.134     0.021   0.142    0.024     0.153   0.002               0.006               0.003               0.022          0.146
+                                                                                                                                           **
+     Business services                             0.012   0.109     0.011   0.103    0.015     0.122    0.001               0.003               0.004               0.014          0.116
+     Other                                         0.009   0.097     0.009   0.092    0.011     0.106    0.001               0.002               0.003               0.010          0.102
+     Number of observations                        9948              2227             16,076                                                                           28,434
+
+Sample consists of 28,434 venture capital investments between 1975 and 2005. Main ofﬁce investment is deﬁned as a portfolio company investment in a CSA in which the
+investing venture capital ﬁrm has its main ofﬁce. Branch ofﬁce investment is deﬁned as a portfolio company investment in a CSA in which the investing venture capital ﬁrm has
+a branch ofﬁce. Outside investment is deﬁned as a portfolio company investment in a CSA in which the investing venture capital ﬁrm does not have its main ofﬁce or a branch
+ofﬁce. Success is an indicator variable that takes the value of one if the investment led to an Initial Public Offering. Adjusted VC ﬁrm experience is equal to the log of one plus the
+number of previous investments made by the venture capital ﬁrm minus the log of one plus the number of prior investments the average venture capital investor has made as
+of the year in question. Venture capital ﬁrm based in VC center is an indicator variable that takes the value of one if the investing venture capital ﬁrm is based in San Francisco/
+San Jose, New York, or Boston and zero otherwise. Initial investment round variables are indicators that report the initial round in which the venture capital ﬁrm made an
+investment in the portfolio company. Industry variables are indicators that report which of the nine major industries identiﬁed by Gompers, Kovner, Lerner and Scharfstein
+(2008) the portfolio company is classiﬁed under.
+  *
+    Indicate statistical signiﬁcance at the 10% level.
+ **
+    Indicate statistical signiﬁcance at the 5% level.
+***
+    Indicate statistical signiﬁcance at the 1% level.
+                                                           H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                                           99
+
+
+Table 9
+Factors associated with venture capital investment success.
+
+                                                                           Success, IPO                                                                              IPO or
+                                                                           Probit                                                                                    M&A
+                                                                           [1]            [2]            [3]            [4]             [5]            [6]           [7]
+  Portfolio company outside VCs ofﬁce CSAs                                 0.0221         0.0222         0.0029         0.0013         0.0004         0.0030        0.0032
+                                                                           [4.44]***      [4.44]***      [0.30]         [0.13]          [0.04]         [0.26]        [0.23]
+  Portfolio company in CSA of VCs branch ofﬁce                             0.0231         0.0232         0.0049         0.0016          0.0037         0.0068        0.0133
+                                                                           [2.74]***      [2.75]***      [0.32]         [0.11]          [0.24]         [0.36]        [0.60]
+  Adjusted VC ﬁrm experience                                               0.0099         0.0091         0.0092         0.0089          0.0091         0.0117        0.0171
+                                                                           [4.99]***      [2.52]**       [2.55]**       [2.45]**        [2.52]**       [2.59]**      [3.14]***
+  VC based in VC center                                                    0.0313         0.0311         0.0100         0.0069          0.0087         0.0072        0.0179
+                                                                           [6.80]***      [6.66]***      [0.97]         [0.67]          [0.82]         [0.57]        [1.16]
+  CENTRAL  adjusted VC ﬁrm experience                                                    0.0012         0.0011         0.0014          0.0012         0.0005        0.0080
+                                                                                          [0.29]         [0.26]         [0.33]          [0.28]         [0.10]        [1.26]
+  CENTRAL  portfolio company outside VCs ofﬁce CSAs                                                     0.0293         0.0323          0.0305         0.0353        0.0312
+                                                                                                         [2.42]**       [2.66]***       [2.49]**       [2.37]**      [1.76]*
+  CENTRAL  portfolio company in CSA of VCs branch ofﬁce                                                 0.0206         0.0239          0.0219         0.0199        0.0016
+                                                                                                         [1.09]         [1.26]          [1.16]         [0.86]        [0.06]
+  One or more investment in the CSA in the 2 years before or after                                                      0.0209
+    the date of investment                                                                                              [3.05]***
+  One or more local investor in syndicate                                                                                               0.0041
+                                                                                                                                        [0.66]
+  Includes year controls                                                   Yes            Yes            Yes            Yes             Yes            Yes           Yes
+  Includes round controls                                                  Yes            Yes            Yes            Yes             Yes            Yes           Yes
+  Includes portfolio company location controls                             Yes            Yes            Yes            Yes             Yes            Yes           Yes
+  Includes industry controls                                               Yes            Yes            Yes            Yes             Yes            Yes           Yes
+  Observations                                                             28,434         28,434         28,434         28,434          28,434         21,532        28,434
+
+Sample for all speciﬁcations except [6] consists of 28,434 venture capital investments between 1975 and 2005. Speciﬁcation [6] excludes investments from 1999–2000 ‘‘tech
+bubble. The dependent variable is Success an indicator variable that takes on the value of one if the portfolio company went public and zero otherwise for speciﬁcations 1–6.
+The dependent variable is Success an indicator variable that takes on the value of one if the portfolio company went public in speciﬁcations [1] through [6]. In speciﬁcation [7]
+Success takes the value of one for companies that either went public or were merged or acquired. Portfolio company outside VCs ofﬁce CSAs is an indicator variable that takes
+the value of one if the portfolio company receiving investment is located in a CSA in which the venture capital ﬁrm does not have its main ofﬁce or a branch ofﬁce and zero
+otherwise. Portfolio Company in CSA of VCs branch ofﬁce is an indicator variable that takes the value of one if the portfolio company receiving investment is located in a CSA in
+which the venture capital ﬁrm has a branch ofﬁce and zero otherwise. The omitted investment type category is Portfolio Company in CSA of VCs main ofﬁce. This category
+includes all deals in which the portfolio company receiving investment is located in a CSA in which the venture capital ﬁrm’s main ofﬁce is located. Adjusted VC ﬁrm experience
+is equal to the log of one plus the number of previous investments made by the venture capital ﬁrm minus the log of one plus the number of prior investments the average
+venture capital investor has made as of the year in question. VC based in VC center is an indicator variable that takes the value of one if the investing venture capital ﬁrm is
+based in San Francisco/San Jose, New York, or Boston. One or more investment in the CSA in the 2 years before or after the date of investment is an indicator variable that takes the
+value of one if the venture capital ﬁrm has made one or more investments in the CSA in the 2 years before or after the date of investment. One or more local investor in
+syndicate is an indicator variable that takes the value of one if one or more of the venture capital ﬁrms investing in the portfolio company is local to the portfolio company.
+Robust z-statistics are in parentheses below coefﬁcient estimates.
+  *
+    Indicate statistical signiﬁcance at the 10% level.
+ **
+    Indicate statistical signiﬁcance at the 5% level.
+***
+    Indicate statistical signiﬁcance at the 1% level.
+
+
+investments and outside investments have an approximately 2.0%                                  capital centers in portfolio companies located in CSAs not local to
+higher probability of success than main ofﬁce investments. Of                                   the venture capital ﬁrm’s ofﬁces have a 2.9% higher probability of
+course, performance models produce only correlations. The con-                                  succeeding. The coefﬁcient on the interaction of CENTRAL and
+centration of venture capital ﬁrms may lead to better investments,                              branch investment is 0.021, not statistically different than zero.
+but the presence of better investments may result in the concen-                                The drop in value of the coefﬁcient on CENTRAL and the statistical
+tration of better venture capital ﬁrms, especially because so many                              signiﬁcance of the interaction between CENTRAL and outside
+investments are local.                                                                          investment provide evidence that the outperformance of venture
+    To identify the source of excess performance of venture capital                             capital ﬁrms based in the venture capital centers can be attributed
+ﬁrms based in the venture capital centers, we add interactions                                  to their outsized performance in investments made outside of the
+between CENTRAL and the branch ofﬁce investment and outside                                     venture capital ﬁrms’ ofﬁce locations.
+investment dummy variables in the third column of Table 9.                                          In the fourth column, we present evidence that venture capital
+After adding these interaction variables, the coefﬁcient on CENTRAL                             ﬁrms may lower the threshold for investment quality in areas
+falls from 0.031 to 0.010 and is no longer statistically different                              where they invest multiple times. The coefﬁcient on the dummy
+from zero. As expected, venture capital ﬁrm experience continues                                variable indicating that the venture capital ﬁrm has made one or
+to have a positive and statistically signiﬁcant association with                                more investments in the CSA in the 2 years before or after the date
+investment success. At the means of the other variables, venture                                of investment is 0.021. When a VC ﬁrm has recently invested or
+capital ﬁrms at the 25th percentile of adjusted VC ﬁrm experience                               will invest in the near future, its investments have a 2.1% lower
+have a predicted success rate of 12.0%, versus a predicted success                              probability of success. Perhaps venture capital ﬁrms lower the
+rate of 13.4% for ﬁrms at the 75th percentile of adjusted VC ﬁrm                                bar on a new investment if they have a lower marginal cost of vis-
+experience. However, the interaction of CENTRAL and adjusted VC                                 iting the company. A general partner may be willing to make an
+ﬁrm experience is not statistically different than zero. This indi-                             investment in a company with less promising prospects than the
+cates that ﬁrm experience is not mediated through the ﬁrm being                                 average company she invests in if another investment already
+located in a venture capital center.                                                            takes her to the CSA on a regular basis.
+    The coefﬁcient on the interaction of CENTRAL and outside                                        We also test to see if a local co-investor matters. If non-local
+investment is 0.029 and statistically signiﬁcant at the one percent                             investors can delegate monitoring to a local investor, this should
+level. Investments made by venture capital ﬁrms from the venture                                mitigate the estimated effect of distance. The ﬁfth speciﬁcation
+100                                                        H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+of Table 9 includes a dummy variable indicating if there are one or                           venture capital centers is associated with success, but did not ﬁnd
+more local investors in the syndicate. The coefﬁcient on this dum-                            any relationship. We also tested to see if the number of airplane
+my variable is not statistically different from zero, and the coefﬁ-                          departures between the location of the venture capital ﬁrm inves-
+cient on the interaction of CENTRAL and outside investment                                    tor was associated with the portfolio company but found no rela-
+remains of the same magnitude. This result suggests that local                                tionship. This may be because airplane departures are not a good
+co-investors may not be adequate monitoring substitutes for ven-                              proxy for personal costs of venture capitalist travel, who may rely
+ture capital center-based VC investors. It is also evidence that                              on private planes.
+increasing the number of local VCs may not necessarily impact                                     To the extent that location is important because venture capi-
+the decision of VCs in venture capital centers to invest in a region.                         tal ﬁrms are actively monitoring the businesses they invest in, we
+   We also ﬁnd that these results are robust to excluding invest-                             would expect location to be particularly important for early-stage
+ments made during 1999 and 2000, the years most closely associ-                               businesses. Table 10 restricts our regression models to include
+ated with the technology bubble (as shown in the sixth                                        only early-stage investments, with of course a reduced sample
+speciﬁcation). In the seventh speciﬁcation we redeﬁne success to                              size. The control variables in Table 10 are identical to the controls
+include the investment being merged or acquired in addition to                                in Table 9, with the exception that we omit investment round
+an initial public offering. These results are similar to the other                            controls from the speciﬁcations in Table 10. In the ﬁrst column,
+speciﬁcations in Table 9.                                                                     we again ﬁnd that venture capital ﬁrms from the three leading
+   Another concern with the analysis was that we looked only at                               venture cities outperform venture capital ﬁrms based in other lo-
+whether the investments were successful, not how successful they                              cales. The coefﬁcient on CENTRAL, which is statistically signiﬁcant,
+were. For a subset of 5109 investments for which we were able to                              is 0.014, indicating that venture capital ﬁrms based in the central
+ﬁnd valuation information from SDC or Factset, we looked at the                               cities have a 1.4% higher probability of succeeding than venture
+scale of investment success. We calculate exit multiples on venture                           capital ﬁrms based outside of the three central cities. This differ-
+capital investments as the exit value of the portfolio company di-                            ence in probability of success between these and other ﬁrms is
+vided by paid-in capital. While branch ofﬁce investments and out-                             lower than the difference for the entire sample, but still repre-
+side investments are more likely to IPO, exit multiples are similar                           sents a signiﬁcant level of outperformance. Furthermore, we ﬁnd
+across main ofﬁce investments, branch ofﬁce investments, and out-                             that branch ofﬁce investments have a 2.5% higher probability of
+side investments.                                                                             success versus main ofﬁce investments and outside investments
+   In unreported speciﬁcations, we tested to see if the number of                             have a 1.5% higher probability of success versus main ofﬁce
+airplane departures from the location of a portfolio company to                               investments.
+
+
+Table 10
+Factors associated with venture capital investment success, early-stage investments.
+
+                                                                                            Success, IPO
+                                                                                            Probit
+                                                                                            [1]               [2]               [3]               [4]               [5]
+  Portfolio company outside VCs ofﬁce CSAs                                                  0.0154            0.0155            0.0069           0.0107           0.0091
+                                                                                            [2.61]***         [2.63]***         [0.63]            [0.95]            [0.76]
+  Portfolio company in CSA of VCs branch ofﬁce                                              0.0245            0.0247            0.0125           0.0150           0.0142
+                                                                                            [2.40]**          [2.42]**          [0.71]            [0.86]            [0.81]
+  Adjusted VC ﬁrm experience                                                                0.0072            0.0051 [1.13]     0.0064 [1.40]     0.0063 [1.36]     0.0066 [1.43]
+                                                                                            [2.82]***
+  VC based in VC center                                                                     0.0144            0.0140            0.0128           0.0155           0.0115
+                                                                                            [2.46]**          [2.37]**          [1.03]            [1.23]            [0.91]
+  CENTRAL  adjusted VC ﬁrm experience                                                                        0.0030 [0.56]     0.0015 [0.27]     0.0016 [0.30]     0.0017 [0.31]
+  CENTRAL  portfolio company outside VCs ofﬁce CSAs                                                                            0.0350            0.0381            0.0327
+                                                                                                                                [2.35]**          [2.54]**          [2.19]**
+  CENTRAL  portfolio company in CSA of VCs branch ofﬁce                                                                        0.0545            0.0583            0.0524
+                                                                                                                                [2.14]**          [2.26]**          [2.06]**
+  One or more investment in the CSA in the 2 years before or after the date of                                                                    0.0169
+     investment                                                                                                                                   [1.92]*
+  One or more local investor in syndicate                                                                                                                           0.0015 [0.20]
+  Includes year controls                                                                    Yes               Yes               Yes               Yes               Yes
+  Includes round controls                                                                   Yes               Yes               Yes               Yes               Yes
+  Includes portfolio company location controls                                              Yes               Yes               Yes               Yes               Yes
+  Includes industry controls                                                                Yes               Yes               Yes               Yes               Yes
+  Observations                                                                              14,043            14,043            14,043            14,043            14,043
+
+Sample consists of 14,043 early-stage venture capital investments between 1975 and 2005. Early-stage investments are investments in portfolio companies that are
+developing their product or have begun initial marketing, manufacturing, and sales activities for their product. The dependent variable is success an indicator variable that
+takes on the value of one if the portfolio company went public and zero otherwise. Portfolio company outside VCs ofﬁce CSAs is an indicator variable that takes the value of one
+if the portfolio company receiving investment is located in a CSA in which the venture capital ﬁrm does not have its main ofﬁce or a branch ofﬁce and zero otherwise. Portfolio
+company in CSA of VCs branch ofﬁce is an indicator variable that takes the value of one if the portfolio company receiving investment is located in a CSA in which the venture
+capital ﬁrm has a branch ofﬁce and zero otherwise. The omitted investment type category is Portfolio company in CSA of VCs main ofﬁce. This category includes all deals in
+which the portfolio company receiving investment is located in a CSA in which the venture capital ﬁrm’s main ofﬁce is located. Adjusted VC ﬁrm experience is equal to the log of
+one plus the number of previous investments made by the venture capital ﬁrm minus the log of one plus the number of prior investments the average venture capital investor
+has made as of the year in question. VC based in VC center is an indicator variable that takes the value of one if the investing venture capital ﬁrm is based in San Francisco/San
+Jose, New York, or Boston. One or more investment in the CSA in the 2 years before or after the date of investment is an indicator variable that takes the value of one if the venture
+capital ﬁrm has made one or more investments in the CSA in the 2 years before or after the date of investment. One or more local investor in syndicate is an indicator variable
+that takes the value of one if one or more of the venture capital ﬁrms investing in the portfolio company is local to the portfolio company.
+Robust z-statistics are in brackets below coefﬁcient estimates.
+   *
+     Indicate statistical signiﬁcance at the 10% level.
+ **
+     Indicate statistical signiﬁcance at the 5% level.
+***
+     Indicate statistical signiﬁcance at the 1% level.
+                                               H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102                                                        101
+
+
+    Similar to the speciﬁcations in Table 9, we add interactions be-            ing investors. This is particularly important since more experi-
+tween CENTRAL and branch investment and CENTRAL and outside                     enced ﬁrms’ investments are more likely to be based in the
+investment in the third column of Table 10 and obtain similar re-               venture capital centers. While some of this success may be due
+sults to those shown in Table 9. In column four, we ﬁnd that the                to superior selection, to the extent that these venture capitalists
+coefﬁcient on the dummy variable indicating that the venture cap-               have superior skills to grow new companies, attracting their inter-
+ital ﬁrm has made one or more investments in the CSA in the 2                   est to different geographies would result in higher success rates in
+years before or after the date of investment is also similar. In col-           those geographies.
+umn ﬁve, we continue to estimate no impact of a local co-investor.
+Thus, even in early-stage investments, we ﬁnd evidence of lower
+                                                                                8. Conclusion
+success rates in regions where VCs are located and in regions
+where VCs make multiple investments.
+                                                                                    We document the geographic concentration of venture capital
+    The ﬁndings from Tables 9 and 10 are also similar if estimated
+                                                                                ﬁrms in three areas, San Francisco, New York, and Boston. We ﬁnd
+only using the ﬁrst ﬁfteen investments of a venture capital organi-
+                                                                                the success rate of venture capital investments in a region is an
+zation, although not statistically signiﬁcant. The lack is signiﬁcance
+                                                                                important determinant of venture capital ﬁrms’ decisions to open
+is unsurprising, because the sample size is much smaller. This is
+                                                                                new branches. While venture capital ﬁrms located in these three
+suggestive evidence that the results are not merely artifacts of past
+                                                                                cities outperform, that outperformance is not driven by local
+success.
+                                                                                investments. Interestingly, some of the performance disparity be-
+                                                                                tween local and non-local investments disappears when the ven-
+                                                                                ture ﬁrm does more than one investment in a region, suggesting
+7. Implications
+                                                                                that as the marginal monitoring cost falls, venture capital ﬁrms
+                                                                                may reduce their expected success rate for investment in a distant
+    The concentration of venture capital ﬁrms that we document
+                                                                                geography. Our ﬁndings are informative both to researchers in eco-
+may be a rational allocation of scarce resources. Many venture cap-
+                                                                                nomic geography, and to policy makers who seek to attract venture
+ital investments are in industries where geographically localized
+                                                                                capital.
+knowledge spillovers are likely to be important (second-order
+agglomeration externalities). Accordingly, venture capital ﬁrms lo-
+cate to maximize beneﬁts from these spillovers and also to maxi-                Acknowledgments
+mize opportunities for localized knowledge spillovers within the
+venture capital community as investors and entrepreneurs seeking                    Harvard Business School’s Division of Research provided ﬁnan-
+ﬁnancing need to visit a smaller number of geographic locations                 cial assistance. We are grateful for able research assistance from
+(ﬁrst-order agglomeration externalities). Early successes by ven-               Monica Cox. We thank Sue Helper, Olav Sorenson, and William
+ture capital ﬁrms are reinforced when the most talented new                     Strange for helpful discussions. All errors and omissions are our
+entrepreneurs seek capital from previously successful ﬁrms (his-                own. The views expressed in this paper are the authors’ and should
+torical artifact). A virtuous cycle of co-location is maintained as             not be attributed to the Federal Reserve Bank of New York or the
+entrepreneurs choose to locate their businesses closer to funding               Federal Reserve System.
+sources, pools of talented employees, and academic researchers.
+The higher success rate for companies based in the venture capital              References
+centers suggests that these may be optimal geographies for found-
+                                                                                Agrawal, A., Kapur, D., McHale, J., 2008. How do spatial and social proximity
+ing new venture-backed businesses.                                                   inﬂuence knowledge ﬂows? Evidence from patent data. Journal of Urban
+    The virtuous cycle in which ﬁrst- and second-order agglomera-                    Economics 64, 258–269.
+tion economies reinforce historical concentration patterns may be               Barry, C., Muscarella, C., Peavy, J., Vetsuypens, M., 1990. The role of venture capital
+                                                                                     in the creation of public companies: evidence from the going-public process.
+a vicious cycle for regions which are not venture capital centers.                   Journal of Financial Economics 27, 447–472.
+These economies drive both venture capital ﬁrms and entrepre-                   Bengtsson, O., Ravid, S.A., 2009. The Importance of Geographical Location and
+neurs to locate in the venture capital centers and may make it even                  Distance on Venture Capital Contracts, Working Paper. <http://ssrn.com/
+                                                                                     abstract=1331574>.
+more difﬁcult for other regions to build critical mass. While eco-
+                                                                                Brav, A., Gompers, P., 1997. Myth or reality? The long-run underperformance of
+nomically efﬁcient, this allocation of resources may not be desir-                   initial public offerings: evidence from venture and nonventure capital-backed
+able from the perspective of local governments and other cities                      companies. Journal of Finance 52, 1791–1821.
+that seek local employment growth and consequent spillovers.                    Christoffersen, S.E.K., Sarkissian, S., 2009. City size and fund performance. Journal of
+                                                                                     Financial Economics 92, 252–275.
+    Our results suggest that anything that policy makers do that                Duranton, G., Puga, D., 2001. Nursery cities: urban diversity, process innovation, and
+contributes to an increase in the number of successful venture-                      the life cycle of products. American Economic Review 91, 1454–1477.
+backed investments in a region will also increase the probability               Engardio, P., 2009. Rebuilding America’s Job Machine, Business Week, February 9,
+                                                                                     2009.
+of a venture ofﬁce opening in that region. If local governments                 Ellison, G., Glaeser, E., 1997. Geographic concentration in US manufacturing
+want to encourage venture capital investing, our results suggest                     industries: a dartboard approach. Journal of Political Economy 105, 889–927.
+that they should consider supporting the efforts of funds such as               Fallick, B., Fleischman, C., Rebitzer, J., 2006. Job-hopping in Silicon Valley: some
+                                                                                     evidence concerning the microfoundations of a high-technology cluster. Review
+Village Ventures, which is based in Williamstown, Massachusetts                      of Economics and Statistics 88, 472–481.
+and focuses on new ventures outside of the leading venture areas,               Freedman, M.L., 2008. Job hopping, earnings dynamics and industrial agglomeration
+or Draper Fisher Jurvetson, which has a network of smaller afﬁli-                    in the software publishing industry. Journal of Urban Economics 64, 590–600.
+                                                                                Giannetti, M., Simonov, A., 2008. Social Interactions and Entrepreneurial Activity,
+ated ﬁrms located in diverse geographies such as Houston, Texas                      Working Paper. <http://ssrn.com/abstract=370180>.
+and Pittsburgh, Pennsylvania. Alternately, concentrating on a sin-              Glaeser, E., 2007. Entrepreneurship and the City, NBER Working Paper 13551.
+gle industry may increase second-order agglomeration externali-                 Gompers, P., Lerner, J., 2001. The Money of Invention. Harvard Business School
+                                                                                     Press, Boston, MA.
+ties and build a track record of success to attract venture
+                                                                                Gompers, P., Lerner, J., 2004. The Venture Capital Cycle. second ed. MIT Press,
+capitalists.                                                                         Cambridge, MA.
+    Finally, since we ﬁnd evidence that a venture capital ﬁrm’s                 Gompers, P., Lerner, J., Scharfstein, D., 2005. Entrepreneurial spawning: public
+existing investments in a region affect the hurdle rate for that                     corporations and the genesis of new ventures, 1986 to 1999. Journal of Finance
+                                                                                     60, 577–614.
+ﬁrm’s other deals in that region, bringing ﬁrst-time venture capital            Gompers, Paul A., 1995. Optimal investment, monitoring, and the staging of venture
+investors to a region may be more effective than subsidizing exist-                  capital. Journal of Finance 50 (5), 1461–1489.
+102                                                        H. Chen et al. / Journal of Urban Economics 67 (2010) 90–102
+
+
+Hellmann, T., Puri, M., 2000. The interaction between product market and ﬁnancing           Porter, M., 1990. The Competitive Advantage of Nations. Free Press, New York.
+    strategy. The Role of Venture Capital Review of Financial Studies 13, 959–984.          Puri, M., Zarutskie, R., 2008. In: On the Lifecycle Dynamics of Venture-Capital- and
+Hellmann, T., Puri, M., 2002. Venture capital and the professionalization of start-up           Non-Venture Capital-Financed Firms, EFA 2007 Ljubljana Meetings Paper; US
+    ﬁrms: empirical evidence. Journal of Finance 57, 169–197.                                   Census Bureau Center for Economic Studies Paper No. CES-WP-08-13. <http://
+Hong, H., Kubik, J., Stein, J., 2005. Thy neighbor’s portfolio: word-of-mouth effects in        ssrn.com/abstract=967841>.
+    the holdings and trades of money managers. Journal of Finance 60, 2801–2824.            Ruggles, S., Sobek, M., Alexander, T., Fitch, C., Goeken, M., Hall, P.K., King, M.,
+Kaplan, S.N., Strömberg, P., 2003. Financial contracting theory meets the real world:           Ronnander, C., 2008. Integrated Public Use Microdata Series: Version 4.0
+    evidence from venture capital contracts. Review of Economic Studies 70, 1–35.               [Machine-readable Database]. Minnesota Population Center, Minneapolis, MN.
+Klepper, S., Sleeper, S., 2005. Entry by spinoffs. Management Science 51, 1291–1306.        Sahlman, W., 1990. The structure and governance of venture-capital organizations.
+Krugman, P., 1991. Geography and Trade. MIT Press, Cambridge, MA.                               Journal of Financial Economics 27, 473–521.
+Kortum, S., Lerner, J., 2000. Assessing the contribution of venture capital to              Saxenian, A., 1994. Regional: Advantage Culture and Competition in Silicon Valley
+    innovation. RAND Journal of Economics 31, 674–692.                                          and Route, vol. 128. Harvard University Press, Cambridge, MA, and London.
+Lerner, J., 1995. Venture capitalists and the oversight of private ﬁrms. Journal of         Sorenson, O., Audia, P., 2000. The social structure of entrepreneurial activity.
+    Finance 50, 301–318.                                                                        American Journal of Sociology 106, 424–461.
+Marshall, A., 1920. Principles of Economics: An Introductory Volume, eighth ed.             Sorenson, O., Stuart, T., 2001. Syndication networks and the spatial distribution of
+    Macmillan, London.                                                                          venture capital investments. American Journal of Sociology 106, 1546–1588.
+Michelacci, C., Silva, O., 2007. Why so many local entrepreneurs? Review of                 Venture Impact, 2007. The Economic Importance of Venture Capital Backed
+    Economics and Statistics 89, 615–633.                                                       Companies to the US Economy. NVCA mimeo. <http://www.nvca.org/>.
+Mollica, M., Zingales, L., 2007. The Impact of Venture Capital on Innovation and the        Zucker, L., Darby, M., Brewer, M., 1998. Intellectual human capital and the birth of
+    Creation of New Businesses. Working paper.                                                  US biotechnology enterprises. American Economic Review 88, 290–306.
+

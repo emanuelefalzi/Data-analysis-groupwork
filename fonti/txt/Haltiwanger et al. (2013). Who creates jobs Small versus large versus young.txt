@@ -1,0 +1,1117 @@
+The Review of Economics and Statistics
+VOL. XCV                                                                         MAY 2013                                                                       NUMBER 2
+
+
+               WHO CREATES JOBS? SMALL VERSUS LARGE VERSUS YOUNG
+                                           John Haltiwanger, Ron S. Jarmin, and Javier Miranda*
+
+Abstract—The view that small businesses create the most jobs remains                       counter to that described by Gibrat’s law (see Sutton,
+appealing to policymakers and small business advocates. Using data from
+the Census Bureau’s Business Dynamics Statistics and Longitudinal Busi-                    1997). But in spite of these questions from the academic lit-
+ness Database, we explore the many issues at the core of this ongoing                      erature, given the lack of definitive evidence to the con-
+
+
+
+
+                                                                                                                                                                                      Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+debate. We find that the relationship between firm size and employment                     trary, the popular perception persists.
+growth is sensitive to these issues. However, our main finding is that once
+we control for firm age, there is no systematic relationship between firm                     Neumark, Wall, and Zhang (2011; hereafter NWZ)
+size and growth. Our findings highlight the important role of business                     recently performed a careful analysis where they avoid the
+start-ups and young businesses in U.S. job creation.                                       misleading interpretations of the data highlighted by Davis,
+                                                                                           Haltiwanger, and Schuh (1996; hereafter DHS). Using the
+                                                                                           National Establishment Time Series (NETS) data including
+                               I.    Introduction
+                                                                                           coverage across the U.S. private sector from 1992 to 2004,
+                                                                                           they find an inverse relationship between net growth rates
+A     common popular perception about the U.S. economy
+      is that small businesses create the most private sector
+jobs. This perception is popular among politicians of differ-
+                                                                                           and firm size. Their analysis indicates that small firms con-
+                                                                                           tribute disproportionately to net job growth.
+ent political persuasions, small business advocates, and the                                  In this paper, we demonstrate that an additional critical
+business press.1 While early empirical studies (see Birch,                                 issue clouds the interpretation of previous analyses of the rela-
+1979, 1981, 1987) provided support for this perception, a                                  tionship between firm size and growth. Data sets traditionally
+variety of subsequent empirical studies have highlighted                                   employed to examine this relationship contain limited or no
+(see, in particular, Davis, Haltiwanger, Schuh, 1996) statis-                              information about firm age. Our analysis emphasizes the role
+tical and measurement pitfalls underlying much of the evi-                                 of firm age and, especially, firm births in this debate using
+dence in support of this perception. These include the lack                                comprehensive data tracking all firms and establishments in
+of suitable data to study this issue, the failure to distinguish                           the U.S. nonfarm business sector for the period 1976 to 2005
+between net and gross job creation, and statistical problems                               from the Census Bureau’s Longitudinal Business Database
+associated with size classification methods and regression                                 (LBD).3 As will become clear, the LBD is uniquely well sui-
+to the mean.2 From a theoretical perspective, the notion of                                ted to study these issues on an economy-wide basis.
+an inverse relationship between firm size and growth runs                                     Our main findings are summarized as follows. First, con-
+                                                                                           sistent with NWZ, when we do not control for firm age, we
+  Received for publication August 25, 2010. Revision accepted for publi-                   find an inverse relationship between net growth rates and
+cation December 21, 2011.                                                                  firm size, although this relationship is quite sensitive to
+  * Haltiwanger: University of Maryland and NBER; Jarmin and Miranda:
+U.S. Census Bureau.                                                                        regression-to-the-mean effects. Second, once we add con-
+  We thank Philippe Aghion, Peter Huber, Harald Oberhofer, Michael                         trols for firm age, we find no systematic inverse relationship
+Pfaffermayr, an anonymous referee, and conference and seminar partici-                     between net growth rates and firm size. A key role for firm
+pants at the NBER 2009 Summer Institute Meeting of the Entrepreneurship
+Working Group, CAED 2009, World Bank 2009 Conference on Small                              age is associated with firm births. We find that firm births
+Firms, NABE Economic Policy Conference 2010, OECD Conference on
+Entrepreneurship 2010, Queens University and the 2010 WEA meetings
+                                                                                             3
+for helpful comments. We thank the Kauffman Foundation for financial                           An important early study that also emphasized the role of firm age for
+support. Any opinions and conclusions expressed here are our own and do                    growth dynamics is Evans (1987), who found an inverse relationship
+not necessarily represent the views of the U.S. Census Bureau. All results                 between firm growth and firm size (holding firm age constant) and
+have been reviewed to ensure that no confidential information is disclosed.                between firm growth and firm age (holding firm size constant) using firm-
+  A supplemental appendix is available online at http://www.mitpress                       level data for U.S. manufacturing firms. As Evans points out, the work is
+journals.org/doi/suppl/10.1162/REST_a_00288.                                               based on data with substantial limitations for tracking start-ups and young
+  1
+    Policymakers regularly state that small businesses create most net new                 firms, but, interestingly, some aspects of his findings hold for our data
+jobs. One of there common claims is that small businesses create two-                      which do not suffer from the same limitations. Specifically, the departures
+thirds or more of net new jobs. Every president since President Reagan                     from Gibrat’s law are primarily for young and small firms. A variety of
+has included such statements in major addresses (often in the State of the                 other studies have also examined the role of employer age for employer
+Union addresses to Congress), and many other leaders in the U.S. House                     dynamics and employment growth, including Dunne et al. (1989), Halti-
+and Senate have made similar remarks. A list of selected quotes from                       wanger and Krizan (1999), and Acs, Armington, and Robb (1999). These
+speeches is available on request.                                                          studies focused on the establishment–age establishment-growth relation,
+  2
+    Brown, Hamilton, and Medoff (1990) raise many related statistical                      including patterns of growth and failure, as well as the volatility of new
+issues in considering statistics by firm size but focus more on the impact                 establishments. All of these studies with the exclusion of Acs et al. (1999)
+of measurement issues for the employer size wage differential.                             are limited to the manufacturing sector.
+
+
+The Review of Economics and Statistics, May 2013, 95(2): 347–361
+No rights reserved. This work was authored as part of the Contributor’s official duties as an Employee of the United States Government and is therefore a work of the United States
+Government. In accordance with 17 U.S.C. 105, no copyright protection is available for such works under U.S. law.
+348                                     THE REVIEW OF ECONOMICS AND STATISTICS
+
+contribute substantially to both gross and net job creation.                                       II.   Background
+Importantly, because new firms tend to be small, the finding
+of a systematic inverse relationship between firm size and                  Much of the support for the hypothesis of an inverse rela-
+net growth rates in prior analyses is entirely attributable to           tionship between employer size and growth comes from
+most new firms being classified in small size classes.                   interpreting patterns observed in public use data products.
+   Our findings emphasize the critical role start-ups play in            An example is the Census Bureau’s Statistics of U.S. Busi-
+U.S. employment growth dynamics. We document a rich up-                  ness (SUSB) that is released in partnership with the Small
+or-out dynamic of young firms in the United States. That is,             Business Administration.5 However, as demonstrated by
+conditional on survival, young firms grow more rapidly than              NWZ and confirmed in this paper, this finding can also be
+their more mature counterparts. However, young firms have a              obtained from a careful analysis of business microdata. In
+much higher likelihood of exit, so job destruction from exit is          this section, we review the data and measurement issues in
+also disproportionately high among them. More generally,                 prior studies of firm size and growth and describe the char-
+young firms are more volatile and exhibit higher rates of gross          acteristics of data sets suited to such analyses. We then
+
+
+
+
+                                                                                                                                                       Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+job creation and destruction than their older counterparts.              briefly highlight findings from the Census Bureau’s Busi-
+   These findings highlight the importance of theoretical                ness Dynamics Statistics (BDS). This new public use pro-
+models and empirical analyses that focus on the start-up                 duct gives data users a much richer window on the interac-
+process—both the entry process and the subsequent post-                  tions of size, age, and growth that was previously available
+entry dynamics, especially in the first ten years or so of a             only to those with access to restricted-use data.
+firm’s existence. This is not to deny the importance of
+understanding and quantifying the ongoing dynamics of                    A. Review of Data and Measurement Issues
+more mature firms but to highlight that business start-ups
+                                                                            Analyses of the relationship between firm size and growth
+and young firms are inherently different.
+                                                                         have been hampered by data limitations and measurement
+   Using the rich data available from the LBD and its public
+                                                                         issues. As a consequence, these studies fail to emphasize a
+use version, the Business Dynamics Statistics (BDS), we
+                                                                         much richer description of the firm dynamics associated with
+highlight how the complex dynamics underlying firm for-
+                                                                         the creative destruction process prevalent in market econo-
+mation, growth, decline, and exit combine to determine net
+                                                                         mies. Results from the new public use BDS, as well as from
+job creation in the economy. The formation and execution
+                                                                         its underlying source data, the LBD, reveal a more accurate
+of effective policies intended to increase net job creation
+                                                                         picture of firm dynamics with a more limited role for firm size.
+require a rich and nuanced understanding of these pro-
+                                                                         This section describes the basic characteristics of these data
+cesses. A natural conclusion from our findings on the role
+                                                                         and how we address some of the limitations of prior analyses.
+of firm size and age is that policies that target businesses of
+                                                                            The analytical power of the LBD and data products con-
+a certain size, while ignoring the role of age, will likely
+                                                                         structed from it for understanding firm dynamics comes
+have limited success in improving net job creation. Our
+                                                                         from its ability to accurately track both establishments and
+findings show that small, mature businesses have negative
+                                                                         their parent firms over time.6 This is a critical feature of the
+net job creation, and economic theory suggests this is not
+                                                                         data since it is difficult to discern the relationships of inter-
+where job growth is likely to come from. Alternatively, our
+                                                                         est using only firm- or establishment-level data. Measures
+findings show that start-ups and young firms are important
+                                                                         of job growth derived solely from establishment-level data
+sources of job creation but that young firms are inherently
+                                                                         have the virtue that they are well defined; when we observe
+volatile, with a high exit rate. It may be that even if the lat-
+                                                                         an establishment grow, we know there are net new jobs at
+ter patterns are qualitatively consistent with healthy busi-
+                                                                         that establishment. In contrast, job growth observed in firm-
+ness dynamics, the challenges that start-ups and young
+                                                                         level data may simply reflect changes in firm structure
+firms face (such as regulatory challenges and market fail-
+                                                                         brought about by mergers, acquisitions, and divestitures.
+ures) warrant policy intervention. Exploring the latter is
+                                                                         These activities clearly have an impact on observed em-
+beyond the scope of this paper, but our findings highlight
+                                                                         ployment at firms engaging in them and are ubiquitous fea-
+that effective policymaking in this area requires a rich
+                                                                         tures of market economies. For the purposes of allocating
+understanding of such business dynamics. We return to this
+                                                                         employment growth across different classes of firms (for
+theme in our concluding remarks.
+                                                                         example, by size, age, and industry), we clearly want to
+   The rest of the paper proceeds as follows. In section II,
+                                                                         abstract from changes that reflect only a reallocation of
+we provide further background on the literature. Section III
+                                                                         employment across firms due to mergers and acquisitions.
+describes the data. Section IV presents the main empirical
+results. Section V provides concluding remarks. In several                 5
+                                                                             SUSB data are available at http://www.census.gov/econ/susb
+places, we point interested readers to an online appendix                /index.html.
+containing several analyses not discussed in detail here.4                 6
+                                                                             For purposes of this discussion as well as the subsequent empirical
+                                                                         analysis, we use the definitions of establishments and firms as defined by
+                                                                         the U.S. Census Bureau. Specifically, an establishment is a specific physi-
+ 4
+   Available at http://www.mitpressjournals.org/doi/suppl/10.1162/REST   cal location where business activity occurs, while a firm reflects all the
+_a_00288.                                                                establishments under common operational control.
+                                                              WHO CREATES JOBS?                                                                     349
+
+   Having only establishment-level data is inadequate as well.                 lysis, we minimize the impact of these data quality issues by
+If the only data available are at the establishment level, the                 using the LBD’s high-quality longitudinal establishment lin-
+relationship between growth and the size and age of the estab-                 kages and its within-year linkages of establishments to their
+lishment may not provide much information about the relevant                   parent firms.
+firm size and firm age. A large, national retail chain is a useful                DHS recognized the statistical pitfalls in relating
+example. In retail trade, a firm’s primary margin of expansion                 employer size and growth. One issue they highlight is the
+is opening new stores rather than the expanding existing stores                role of regression-to-the-mean effects. Businesses that
+(see Doms, Jarmin, & Klimek, 2004; Foster, Haltiwanger, &                      recently experienced negative transitory shocks (or even
+Krizan, 2006; Jarmin, Klimek, & Miranda, 2009). This im-                       transitory measurement error) are more likely to grow,
+plies that there are many new establishments of existing firms,                while businesses recently experiencing positive transitory
+and for the core issues in this paper, the growth from such new                shocks are more likely to shrink. This effect alone will yield
+establishments should be classified based on the size and age                  an inverse relationship between size and growth. Friedman
+of the parent firm, not the size and age of the establishment.                 (1992) states that this type of regression fallacy ‘‘is the most
+
+
+
+
+                                                                                                                                                            Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+Much of the literature on employer size and net growth has                     common fallacy in the statistical analysis of economic
+been based primarily on establishment-level or firm-level data                 data.’’ This issue is particularly relevant when studying the
+but not both.7 Tracking the dynamics of both firms and their                   business size–growth relationship and is manifest in the
+constituent establishments permits clear and consistent mea-                   method used to classify businesses into size classes in many
+sures of firm growth, as well as firm entry and exit.8                         commonly used data sources. The early work by Birch and
+   Even with rich source data, a key challenge in analyzing                    others classified businesses into size classes using base year
+establishment and firm dynamics is the construction and                        employment, a method now known to yield results that suf-
+maintenance of high-quality longitudinal linkages that allow                   fer from regression to the mean.
+accurate measurement of establishment and firm births and                         DHS propose an alternative classification method to miti-
+deaths. Given the ubiquitous changes in ownership among                        gate the effects of regression to the mean. They note that
+U.S. firms, a common feature observed in business micro-                       while base-year-size classification yields a negative bias,
+data is spurious firm entry and exit caused by purely legal                    using end-year-size classification yields a positive bias. To
+and administrative actions. Early versions of the D&B data                     avoid the bias, negative or positive, DHS propose using a
+Birch used were plagued with these limitations, which ham-                     classification based on current average size, where current
+pered the ability of researchers to distinguish between real                   average size is based on the average of employment in
+business dynamics and events triggered by legal actions or                     years t  1 and t. Using current average size is a compro-
+business transactions such as credit applications (see Birley,                 mise between using year t  1 (base) or year t (end) size to
+1984, and Aldrich et al., 1988, for detailed discussion). The                  classify firms. In what follows, we refer to current average
+NETS data used by NZW is based on a much improved ver-                         size as simply average size.
+sion of the D&B data, although there are some open ques-                          Although average size is a compromise, it has limitations
+tions about the nature of the coverage in NETS.9 For our ana-                  as well. Firms that are affected by permanent shocks that
+                                                                               move the firm across multiple size class boundaries
+  7
+    DHS analysis is restricted to U.S. manufacturing establishments,           between t  1 and t will be classified into a size class that is
+although they were able to construct a measure of firm size at the manufac-
+turing level. Dunne et al. (1989) examine the role of establishment size
+                                                                               between the starting and ending size classes. Recognizing
+and age for the growth and failure of U.S. manufacturing plants. Evans         this potential limitation, the Bureau of Labor Statistics has
+(1987) used firm-level data for a sample of firms in the U.S. manufacturing    developed a dynamic size classification methodology (see
+sector in continuous operation between 1976 and 1980. Birch (1979, 1981,
+1997) uses the D&B data, which have both firm and establishment-level
+                                                                               Butani et al., 2006).10 Specifically, the methodology attri-
+information although subject to the limitations of the D&B data. NZW use       butes job gains or losses to each of the size classes that the
+the NETS data with both firm- and establishment-level information.             firm passes through in its growth or contraction. Interest-
+  8
+    In our analysis, firm entry is defined when all of the establishments at
+that firm are de novo establishment entrants. Firm exit is defined when all    ingly, comparisons across size-classification methods show
+of the establishments at that firm cease operations.                           that the average (DHS) and dynamic (BLS) size classifica-
+  9
+    NWZ report about 13.1 million firms and 14.7 million establishments        tion methodologies yield very similar patterns. This is not
+in a typical year. The LBD (and the closely related County Business Pat-
+terns) report about 6 million firms and 7 million establishments in a typi-    surprising since both are a form of averaging over time to
+cal year that have at least one paid employee. The Census Bureau also          deal with transitory shocks.
+reports more than 15 million additional nonemployer businesses in a typi-         We prefer the average size class methodology because it
+cal year. It appears that NETS is some combination of employer and
+nonemployer businesses but does not reflect the universe of businesses.        is inherently more robust to regression-to-the-mean effects.
+For our purposes, we focus on employer businesses. For discussion of the       However, we also report results using the base-year metho-
+importance of nonemployer businesses and the relationship between
+nonemployer and employer businesses, see Davis et al. (2009). There also
+                                                                                 10
+remain questions about how well NETS captures start-ups especially for              Related evaluation work on alternative methodologies by BLS is
+small businesses. These questions about coverage also raise questions          found in Okolie (2004). We also note that the BLS BED series releases
+about whether the type of analysis we conduct here focusing on the role        net and gross job quarterly flows by this firm size measure. The firm size
+of firm age would be feasible with NETS. We provide a table comparing          measure they use is based on a taxpayer ID definition of the firm, so for
+the major characteristics of the principal data sets available to study the    multiunit establishment firms that have multiple taxpayer IDs, their firm
+dynamics of U.S. businesses in our online appendix.                            definition is somewhere between the establishment and overall firm.
+350                                         THE REVIEW OF ECONOMICS AND STATISTICS
+
+dology for our core results and also in order to explore the                   much employment is accounted for by that cell. That is, a size
+sensitivity of the results to this methodological issue.11                     or age class may have a large positive number not so much
+   DHS also emphasize avoiding inferences that arise from                      because it has an especially high growth rate but because it
+the distinction between net and gross job creation. Policy                     accounts for a large fraction of employment (for example, a
+analysts are tempted to want to make statements along the                      1% growth rate on a large base yields many net new jobs).
+lines that ‘‘small businesses account for X% of net job crea-                     Figure 1 summarizes these patterns in the BDS over
+tion.’’ The problem with statements like this is that many                     1992 to 2005 by broad size and age classes.13 The figure
+different groupings of establishments can account for a large                  shows the fraction of job creation and job destruction
+share of the net job creation since gross job flows dwarf net                  accounted for by small (fewer than 500 workers) and large
+job flows. For example, the annual net employment growth                       firms (500 workers and above) broken out by whether they
+rate for U.S. nonfarm private sector business establishments                   are firm births, young firms (less than 10 years old), or
+between 1975 and 2005 averaged 2.2%. Underlying this net                       mature firms (10 years and above). Also included is the
+employment growth rate were establishment-level average                        share of employment accounted for by each of these groups.
+
+
+
+
+                                                                                                                                                             Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+annual rates of gross job creation and destruction of 17.6%                    We focus on gross job creation and destruction at the estab-
+and 15.4%, respectively (statistics from the BDS, which we                     lishment level but classified by the characteristics of the
+describe below). Decomposing net growth across groups of                       firms that own them.
+establishment or firms is problematic (at least in terms of                       Several observations emerge. First, for the most part, the
+interpretation) when some shares are negative. We elaborate                    fraction of job creation and destruction accounted for by the
+on these issues in section II.B by taking a closer look at the                 various groups is roughly proportional to the share of
+Census Bureau’s new BDS data.                                                  employment accounted for by each group. For example, it is
+                                                                               the mature and large firms that account for most employment
+                                                                               (about 45%) and most job creation and destruction. This
+B. Overcoming Data and Measurement Issues with the BDS                         observation, while not surprising, is important in the debate
+                                                                               about what classes of businesses create jobs. The basic
+   To help illustrate these points before proceeding to the
+                                                                               insight is that the firms that have the most jobs create the
+more formal analysis, we examine some tabular output
+                                                                               most jobs, so workers looking for the places where the most
+from the BDS on net job creation by firm size and firm age.
+                                                                               jobs are being created should go where the jobs are: large
+The precise definitions of firm size and firm age are dis-
+                                                                               and mature firms. This is not the whole story, of course, as
+cussed below (and are described on the BDS website, http://
+                                                                               what we are primarily interested in is whether any identifi-
+www.census.gov/ces/dataproducts/bds/index.html). Table 1
+                                                                               able groups of firms disproportionately create or destroy
+shows the number of net new jobs by firm size and firm age
+                                                                               jobs. The rest of the paper is a rigorous examination of this
+class in 2005. The upper panel shows the tabulations using
+                                                                               issue. However, figure 1 nicely previews some of our pri-
+the base-year-size method and the lower panel the average-
+                                                                               mary findings. Young firms disproportionately contribute to
+size method. The table yields a number of interesting obser-
+                                                                               both job creation and job destruction. Included among young
+vations. About 2.5 million net new jobs were created in the
+                                                                               firms are firm births, which by definition contribute only to
+U.S. private sector in 2005. Strikingly, firm start-ups (firms
+                                                                               job creation. Nearly all firm births are small.14 Before the
+with age 0) created about 3.5 million net new jobs. In con-
+                                                                               BDS, all publicly available data that could be used to look at
+trast, every other firm age class except for the oldest firms
+                                                                               the role of firm size in job creation were silent on the age
+exhibited net declines in employment in 2005.12 However,
+                                                                               dimension. As such, it is easy to see how analysts perceived
+it would be misleading to say that it is only firm start-ups
+                                                                               an inverse relationship between size and growth in the data.
+and the most mature firms that contributed to job gains. In
+                                                                                  Before proceeding, it is instructive to discuss briefly
+both panels there are large positive numbers in many cells
+                                                                               the implications of focusing on March-to-March annual
+but also large negative numbers in other cells. It is also
+                                                                               changes of employment at the firm and establishment level
+clear that there are substantial differences in these patterns
+                                                                               in our analysis of firm dynamics and job creation. One
+depending on using the base-year or average-size method,
+                                                                               implication is that we neglect high frequency within year
+although some common patterns emerge. For example,
+                                                                               firm and establishment dynamics—for example, changes
+excluding start-ups, firms that employ between 5 and 99
+                                                                               that are transitory and reverse themselves within the year.
+workers consistently exhibit declines in net jobs.
+                                                                               We think that for the most part, neglecting such high-
+   The patterns reflect two basic ingredients. Obviously,
+                                                                               frequency variation is not important for the issues of con-
+whether the size or age class contributes positively or nega-
+tively depends on whether that class has a positive or negative
+                                                                                 13
+net growth rate. In addition, the magnitude of the positive or                      We use the base-year size method in figure 1. The results in figure 1
+negative contribution depends, not surprisingly, on how                        are robust to using either of the size classification methods discussed in
+                                                                               the analysis that follows. Precise definitions of job creation and destruc-
+                                                                               tion are provided below.
+ 11                                                                              14
+     The online appendix includes all results by base-year size methodology.        These large firm births are often associated with the appearance of a
+ 12
+     Note that LBD processing uses longitudinal edits that can alter values    new U.S. affiliate of a foreign-owned firm or changes in employment
+in the BDS tables.                                                             arrangements, for example, the use of employee leasing firms.
+                                                                            TABLE 1.—NET JOB CREATION BY FIRM SIZE AND FIRM AGE, U.S. PRIVATE SECTOR, 2005
+                                                                                                                  Firm Size (Base Year)
+  Firm age               1–4               5–9              10–19             20–49             50–99         100–249          250–499         500–999          1,000–2,499          2,500–4,999            5,000–9,999   10,000þ       All
+   0                   731,515           503,644           498,317           553,181           313,511        292,348      157,120    151,518                     186,087              131,178                  D            D       3,518,419
+   1                    79,759           12,547           20,836           47,837           41,006        57,188     48,830      5,476                     14,532              20,131                211         408       188,821
+   2                    26,506           24,840           31,883           44,488           26,738        18,026      9,049     13,579                     23,615              12,782                  D            D       178,494
+   3                     7,535           22,650           26,855           37,824           15,918        14,813      8,981      7,548                     11,581              12,114                  D            D       150,749
+   4                    20,456           18,442           23,212           29,616               641         9,816      4,301      5,436                       298                4,011                  D            D        74,035
+   5                     4,808           19,792           24,392           29,425           14,870         6,222      2,449      6,849                       293                3,418                  D            D       102,902
+   6–10                 14,577           71,332           99,235          110,111           40,652         1,324      9,452       5,437                     20,693              13,945                9,903        17,928   338,705
+   11–15                15,663           47,730           67,923           81,876           40,432        27,666      9,530       2,179                      2,028               22,441                  6,140       69,409   161,353
+   16–20                 5,673           36,856           58,236           71,299           35,979          9,780      5,725      10,200                       3,204               12,615                 10,491        2,158   153,974
+   21–25                 2,923           28,173           42,609           51,490           22,246        13,346        3,901     10,269                      36,484               10,075                  9,889      56,563   140,886
+   26þ                   1,016           38,599           71,235          107,390           48,873         10,309       19,924     85,473                      56,436              143,701                 58,245      307,517     416,524
+   All                 910,431           182,683            31,901           58,175            27,438        164,036       82,628    226,188                     209,171              253,609                 90,973      360,214   2,481,097
+   Firm age                                                                                                       Firm Size (Current)
+   0                 1,157,210          541,230            453,073           445,091           236,121        216,911           151,518         128,772           188,493                D                     D                     3,518,419
+   1                 188,206            1,242             10,705             3,028           20,046        28,733            20,118          14,346            6,509                7,898               42          138       188,821
+   2                 102,079           34,487            24,132           15,745            5,380          3,125             5,036         9,743            13,282                8,392                 D             D       188,295
+                                                                                                                                                                                                                                                 WHO CREATES JOBS?
+
+
+   3                  77,770           30,935            25,119           12,259             1,824          2,215             2,572         888               10,155                D                     3,699         D       145,040
+   4                  61,216           27,141            19,487            7,210             1,630          2,221             3,505           6,655             7,375              10,228                 D             D       103,896
+   5                  54,616           28,196            23,791           16,205            2,595          6,890             5,779          11,703            4,850                3,017                 D             D       102,864
+   6–10              190,115          112,735            99,872           76,025           17,730         13,713            26,305          19,344             5,364               26,494                23,546        43,006   338,705
+   11–15             105,596           74,905            75,477           60,259           17,677         11,166            20,401           1,617            34,591               18,886                20,201        65,699   161,353
+   16–20              74,278           59,389            61,306           60,496           13,235         12,172            27,334           6,559             4,413               16,969                14,550        32,733   153,974
+   21–25              49,929           43,548            47,143           42,924           16,172          4,020            23,438          22,298            30,120               34,280               46,129       9,197    140,886
+   26þ                89,878           83,682           107,356          114,182           40,005         42,481            63,939          69,597            93,401              110,311                38,147       433,751     416,524
+   All                 163,527           44,970            19,905            42,814           106,735        286,181           349,945         272,036           328,961              253,373                71,269       581,191   2,481,097
+U.S. Census Bureau, Business Dynamics Statistics at http://www.ces.census.gov/index.php/bds/bds_home.
+
+
+
+
+                                                                                                                                                                                                                                                 351
+
+
+                                                               Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+352                                        THE REVIEW OF ECONOMICS AND STATISTICS
+
+  FIGURE 1.—SHARES OF EMPLOYMENT, JOB CREATION, AND DESTRUCTION BY BROAD FIRM (AVERAGE), SIZE AND AGE CLASSES: ANNUAL AVERAGE RATES, 1992–2005
+                                 0.50
+                                        Small (1-500)                                 Large (500+)
+                                 0.45
+                                 0.40
+                                 0.35
+
+
+
+                        Shares
+                                 0.30
+                                 0.25
+                                 0.20
+                                 0.15
+                                 0.10
+                                 0.05
+
+
+
+
+                                                                                                                                                          Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                 0.00
+                                        Firm Births     Young (1-10)   Mature (10+)   Firm Births    Young (1-10)   Mature (10+)
+
+                                                          Employment           Job Creation          Job Destruction
+
+
+
+
+cern in this paper but would be of more relevance in explor-                    BDS. However, we use the LBD microdata rather than the
+ing cyclical volatility by firm size and age.                                   BDS since in using the LBD microdata, we can identify
+   However, a related implication of focusing on March-to-                      firms and abstract from firm growth due to ownership
+March annual changes is that very short-lived firms that enter                  changes in the manner we describe below.15
+and exit between March of one year and March of the subse-                         The LBD (Jarmin & Miranda, 2002) covers all business
+quent year are not captured in our analysis. The neglect of                     establishments in the U.S. private nonfarm sector with at
+the latter might be important in the current context given our                  least one paid employee.16 The LBD begins in 1976 and
+findings of the important role of firm births for job creation,                 currently covers over thirty years of data, including infor-
+as is evident in table 1 and figure 1. Fortunately, the LBD                     mation on detailed industry and employment for every
+includes information that suggests that such short-lived firm                   establishment. We note that the LBD (and, in turn, the
+births are not especially important. That is, the LBD also                      BDS) employment and job creation numbers track closely
+includes annual payroll for all establishments and firms. The                   those of the County Business Patterns (CBP) and Statistics
+payroll measure captures any positive activity of establish-                    of U.S. Business (SUSB) programs of the U.S. Census
+ments and firms, including very short-lived firms, whereas                      Bureau (see Haltiwanger, Jarmin, & Miranda, 2009) as they
+employment is measured only as of March 12. Using the                           all share the Census Bureau’s Business Register (BR) as
+same longitudinal links as used in the BDS and LBD, we cal-                     their source data. However, due to design features and dif-
+culated the payroll-weighted firm entry rate as 1.72% of pay-                   ferences in processing, in particular the correction of longi-
+roll. This compares to the employment-weighted firm entry                       tudinal establishment and firm linkages, the statistics gener-
+rate of 2.79% of employment in figure 1. It is not surprising                   ated from the LBD diverge slightly from those in CBP and
+that the payroll-weighted entry rate is lower than the                          SUSB.
+employment-weighted entry rate given that entrants are                             The unit of observation in the LBD is the establishment
+small and pay lower wages. Of more interest is how much of                      defined as a single physical location where business is con-
+the payroll-weighted entry rate is accounted for by very                        ducted. Each establishment-year record in the LBD has a
+short-lived entrants. Excluding the short-lived entrants                        firm identifier associated with it, so it is possible to track
+(defined as firm start-ups that do not survive until March),                    the ownership structure of firms in any given year, as well
+the payroll-weighted entry rate is 1.64%. This negligible                       as changes over time. Firms can own a single establishment
+decline in the payroll-weighted entry rate from short-lived                     or many establishments. In some cases, these firms span
+entrants implies that such entrants account for very little of                  multiple geographic areas and industries. Establishments
+the activity even for start-ups. Abstracting from such short-                   can be acquired, divested, or spun off into new firms, so the
+lived firms should not have a quantitatively important impact                   ownership structure of firms can be dynamic and complex.
+on our analysis. It does, however, remind us of the highly                      We use these firm-level identifiers to construct firm-level
+volatile nature of start-ups, an issue that we discuss further.                 characteristics for each establishment in the LBD.
+
+                                                                                  15
+C. Data and Measurement                                                              Future versions of the BDS will include firm-level net employment
+                                                                                growth rates and components using the type of methodology we have
+  The LBD underlies the public use statistics in the BDS.                       developed for this paper.
+                                                                                  16
+                                                                                     This is one clear distinction with the NETS database, which appar-
+As suggested in section II.B, many of the patterns we dis-                      ently includes both employer and nonemployer businesses (but also
+cuss in this paper can be readily seen in the public domain                     apparently not the universe of both).
+                                                      WHO CREATES JOBS?                                                                     353
+
+A. Measuring Firm Age and Firm Size                                  a category for establishments belonging to firms that are
+                                                                     sixteen years or older (in 1992, these are the firms with
+   The construction of firm size measures is relatively              establishments in operation in 1976 and for which we can-
+straightforward. Firm size is constructed by aggregating             not give a precise measure of firm or establishment age).
+employment across all establishments that belong to the
+firm. As discussed above, we measure firm size using both
+the base-year and average-size methodologies. For base-              B. The Establishment-Level and Aggregate Growth Rate
+year firm size, we use the firm size for year t  1 for all             Concepts
+businesses except new firms. For new firms, we follow the
+                                                                        This section describes the establishment- and firm-level
+approach used by Birch and others and allocate establish-
+                                                                     growth rate measures we use in the paper in more detail.
+ments belonging to firm start-ups to the firm-size class in
+                                                                     Let Eit be employment in year t for establishment i. In the
+year t. For average size, we use the average of firm size in         LBD, establishment employment is a point-in-time measure
+year t  1 and year t. We use the same approach for new,
+
+
+
+
+                                                                                                                                                    Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                                                     reflecting the number of workers on the payroll for the pay-
+existing, and exiting firms when using average size.                 roll period that includes March 12. We measure the estab-
+   The construction of firm age presents more difficult con-         lishment-level employment growth rate as follows:
+ceptual and measurement challenges. We follow the
+approach adopted for the BDS and based on our prior work                git ¼ ðEit  Eit1 Þ=Xit ;
+(see Becker et al., 2006, and Davis et al., 2007). The firm
+identifiers in the LBD are not explicitly longitudinal. Never-       where
+theless, they are useful for tracking firms and their changing          Xit ¼ :5  ðEit þ Eit1 Þ:
+structure over time. A new firm identifier can appear in the
+LBD either due to a de novo firm birth or changes in existing           This growth rate measure has become standard in analy-
+firms. For example, a single-location firm opening additional        sis of establishment and firm dynamics because it shares
+locations is the most common reason for a continuing firm in         some useful properties of log differences but also accom-
+the LBD to experience a change in firm ID. Other reasons             modates entry and exit. (See DHS and Tornqvist, Vartia, &
+include ownership changes through mergers and acquisitions.          Vartia 1985.17)
+When a new firm identifier appears in the LBD for whatever              Note that the DHS growth rate measure can be flexibly
+reason, we assign it an age based on the age of the oldest           defined for different aggregations of establishments. We
+establishment that the firm owns in the first year the new firm      first discuss the measures of net growth used in the analysis.
+ID is observed. The firm is then allowed to age naturally (by        In particular, consider the following relationships,
+one year for each additional year the firm ID is observed in                   X                   X             X
+the data) regardless of mergers or acquisitions and as long as           gt ¼      ðXst =Xt Þgst ¼   ððXst =Xt Þ   ðXit =Xst Þgit Þ;
+                                                                                s                        s             i2s
+the firm’s ownership and control do not change. An advan-
+tage of this approach is that firm births as well as firm deaths     where
+are readily and consistently defined. That is, a firm birth is                 X             XX
+defined as a new firm ID, where all the establishments at the           Xt ¼         Xst ¼              Xit ;
+firm are new (entering) establishments. Similarly, a firm                        s            s   i2s
+death is defined as when a firm ID disappears and all of the
+establishments associated with that firm ID cease operations         where gt is the aggregate DHS growth rate and s indexes
+and exit. If a new firm identifier arises through a merger of        classifications of establishments into groups defined for any
+two preexisting firms, we do not treat it as a firm birth. Rather,   level of aggregation s where s can refer to firm, industry,
+the new firm entity associated with the new identifier is given      firm size, or firm age classifications. Thus, the DHS net
+                                                                     growth rates for various aggregations of interest are just
+a firm age equal to the age of the oldest continuing establish-
+                                                                     properly weighted sums of establishment-level growth rates
+ment of the newly combined entity.
+                                                                     where the establishment is the lowest level of aggregation
+   Thus, our firm size and age measures are robust to owner-
+                                                                     in the LBD. Important groupings for this paper include
+ship changes. For a pure ownership change with no change
+                                                                     firms and firm size and age categories.
+in activity, there will be no spurious changes in firm size or
+                                                                        Before discussing components of the DHS net growth
+firm age. When there are mergers, acquisitions, or divesti-
+                                                                     that we use in our analysis, it is important to discuss how
+tures, firm age will reflect the age of the appropriate compo-
+                                                                     computing DHS net growth rates at different levels of
+nents of the firm. Firm size will change, but in a manner con-
+sistent with the change in the scope of activity.                      17
+                                                                          The DHS growth rate like the log first difference is a symmetric
+   Before proceeding, we note that we focus on growth                growth rate measure but has the added advantage that it accommodates
+dynamics of establishments and firms over the 1992–2005              entry and exit. It is a second-order approximation of the log difference for
+period. We limit our analysis to this period so that we can          growth rates around 0. Note that the use of a symmetric growth rate does
+                                                                     not obviate the need to be concerned about regression-to-the-mean
+define firm age consistently over the period for all establish-      effects. Also, note that the DHS growth rate is not only symmetric but
+ments with firm age less than fifteen years. We also include         bounded between 2 (exit) and 2 (entrant).
+354                                       THE REVIEW OF ECONOMICS AND STATISTICS
+
+aggregation can affect interpretation. We are interested in                  identity that we exploit is that the overall net employment
+computing net growth rates at both the establishment and                     growth rate at the cell and aggregate level can be decom-
+firm levels. In the LBD, we have access to both levels of                    posed into the appropriately weighted sum of net employ-
+data where the establishment structure of the firms is well                  ment growth from continuing firms, job creation from entry,
+specified. In other settings, however, the analyst may have                  and subtracting the job destruction from exit. As we show in
+access to only establishment or only firm-level data. Thus,                  the online appendix, our overall net growth results can be
+it is critical to understand how using one or the other can                  equivalently obtained from direct estimation of the effects
+affect interpretation.                                                       on overall net growth or by first estimating the effects on the
+   An important difference in computation and interpreta-                    components and computing the employment-weighted sum
+tion arises when establishments undergo changes in owner-                    of the components.
+ship due to mergers, divestitures, or acquisitions. In these
+instances, net growth rates computed from firm-level data                    IV.    The Relationship of Employment Growth, Firm Size,
+alone will reflect changes in firm employment due to adding                                         and Firm Age
+
+
+
+
+                                                                                                                                                             Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+or shedding continuing establishments. This occurs even if
+the added or shed establishments experience no employ-                          Our primary objective is to understand the relationship
+ment changes themselves.                                                     between net employment growth, and its components, and
+   To avoid this problem, we compute firm growth rates as                    firm size and age. In this section, we use a nonparametric
+suggested in the expressions above. Namely, the period t                    regression approach to quantify these relationships. In our
+1 to period t net growth rate for a firm is the sum of the                   main specification, we regress net employment growth and
+appropriately weighted DHS net growth rate of all establish-                 its components at the firm level on firm size classes by them-
+ments owned by the firm in period t, including acquisitions,                 selves, on firm age classes by themselves, and by firm size
+plus the net growth attributed to establishments owned by                    and age interacted together. The latter specification follows
+the firm in period t  1 that it has closed before period t. For             naturally from the tabulations in table 1, which show net
+any continuing establishment that changes ownership, this                    growth patterns for firm size and firm age cells. All of the
+method attributes any net employment growth to the acquir-                   empirical models we consider are fully saturated dummy
+ing firm. Note, however, that if the acquired establishment                  variable models. They are either one-way dummy variable
+exhibits no change in employment, there will be no accom-                    models in firm size or firm age or two-way models with a
+panying change in firm-level employment induced by this                      complete set of interactions. As Angrist and Pischke (2009)
+ownership change. The general point is that this method for                  highlight, estimating fully saturated dummy variable models
+computing firm-level growth captures only organic growth                     with OLS is fully general regardless of the distribution of
+at the establishment level and abstracts from changes in                     the dependent variable. This is intuitive since by construc-
+firm-level employment due to mergers and acquisitions.18                     tion, the estimated coefficients will be the cell means for
+   We use the establishment- and firm-level growth rate mea-                 each of the saturated cells. This property is important in our
+sures to compute not only net growth but also job creation                   case since the DHS net growth rate is bounded between 2
+and job destruction (and the related job creation from entry                 and 2. When we estimate specifications with the dependent
+and job destruction from exit). At the establishment level,                  variables being the job creation from entry and job destruc-
+job creation is measured as the employment gains from all                    tion from exit, the specifications are equivalent to linear
+new and expanding establishments and job destruction as the                  probability models (albeit weighted as noted below). But
+employment losses from all contracting and closing estab-                    again, as Angrist and Pischke (2009) discuss, the fully satu-
+lishments. At the firm level, job creation is measured as the                rated dummy variable model avoids any econometric issues
+employment gains from all expanding and new firms and job                    with using a bounded or limited dependent variable.20
+destruction as the employment losses from all contracting                      20
+                                                                                  We discuss the desirable econometric properties of fully saturated
+and exiting firms. By construction, our methods of comput-                   dummy variable models further in the online appendix in section VII.D.
+ing growth imply that firm-level measures of job creation                    We also note that earlier versions of this paper (Haltiwanger, Jarmin, &
+and destruction are lower than establishment-level measures                  Miranda, 2010) considered two-way models with firm size and firm age
+                                                                             dummies without interactions and were potentially subject to econometric
+since the latter includes within-firm reallocation of jobs                   concerns with predicted values that may lie outside the range of the
+across establishments. For these measures, we follow the                     dependent variable. We show in appendix VII.D that the partial effects of
+approach developed by DHS. Details of the measurement of                     firm size controlling for firm age (and vice versa) are quite similar for the
+                                                                             models with and without interactions. Thus, the results from earlier ver-
+these concepts are provided in the online appendix.19 A key                  sions and the current version yield very similar results and inferences.
+                                                                             While the specifications without interactions have potential limitations,
+                                                                             such specifications are transparent and parsimonious in terms of generat-
+  18
+     In the online appendix, we provide a detailed hypothetical example      ing partial effects. Moreover, the two-way model without interactions per-
+to clarify how in practice we handle mergers and acquisitions. This exam-    mits estimating more detailed firm size and firm age effects. We also note
+ple is useful to understand the details, as well as for practitioners who    that in earlier versions, we considered specifications controlling for indus-
+want to implement our methodology.                                           try and year effects. As we show in the online appendix, all of our results
+  19
+     The online appendix also includes depictions of the distribution of     are robust to controlling for industry and year effects. We thank Peter
+firm- and establishment-level net growth rates underlying the job creation   Huber, Harald Oberhofer, and Michael Pfaffermayr for helpful discus-
+and destruction statistics.                                                  sions on these issues.
+                                                              WHO CREATES JOBS?                                                                      355
+
+    We focus on employment-weighted specifications since                       underlying firm-level regressions include more than 70 mil-
+this enables the coefficients to be interpreted in terms of the                lion firm-year observations; consequently, the standard
+impact on net employment growth rates at the aggregate level                   errors for the estimates are very small.22
+for the specified category. Given the discussion, our estimates
+are equivalent to employment-weighted cell means. As such,
+we can replicate all of the results in what follows using a cell-              B. Net Employment Growth and Firm Size
+based regression approach where net growth rates and com-
+ponents are measured at firm size, firm age, and year level of                    We present all of our remaining results with the aid of fig-
+aggregation.                                                                   ures. To facilitate comparisons between the one-way models
+    Our focus is on comparing the effects of firm size on net                  and the partials from the two-way models with interactions,
+growth (and components of net growth) with and without con-                    we focus on comparing the differences in effects relative to
+trols for firm age (and vice versa). To quantify the effects of                a baseline or omitted group. In all of the subsequent figures,
+firm size using the two-way model with interactions, we com-                   this is the largest (500 and up) or oldest (16 and up) group.
+
+
+
+
+                                                                                                                                                             Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+pute partials of firm size from that model holding the age dis-                To facilitate the interpretation of the magnitudes, we report
+tribution of employment constant at the sample mean. The                       the baseline group at its unconditional mean from the one-
+partial effect of firm age analogously holds the size distribu-                way model. In turn, we simply rescale the other effects by
+tion of employment constant at the sample mean. Our                            adding the value of the unconditional mean for the baseline
+approach can be interpreted in two closely related ways. First,                category (for example, the firm size class of 500 and up)
+it is equivalent to the standard approach in regression models                 from the one-way model to each effect. Adding the uncondi-
+when one computes partials of a variable x when the model                      tional mean to all categories does not distort the relative dif-
+includes interaction terms such as x  z by evaluating the                     ferences but provides perspective about the magnitude of
+interaction coefficients at the mean of z. Second, our approach                the effects.
+is equivalently interpretable as a form of a shift and share                      Figure 2 shows the relationship between net employment
+decomposition holding the age (size) composition constant                      growth and firm size. The upper panel displays results from
+when examining the firm size (age) effect. Specifically, our                   the regressions for all firms. The lower panel displays the
+firm size (age) estimates are age (size) composition constant                  size effects from the regressions where we limited the sam-
+estimates based on computing the weighted average of the                       ple to continuing firms only. Beginning with the main
+firm size by firm age cell means using the overall employment                  results in the upper panel, the plotted curve for the base-
+distribution by firm age (size) as weights. Finally, we note that              year size specification without age controls shows a strong
+our findings controlling for firm age (size) are essentially the               inverse relationship between firm size and net employment
+same if we use simpler and more transparent two-way models                     growth. The average annual rate of net employment growth
+without interactions, as we discuss in the online appendix. We                 in the smallest size class is about 15.2 percentage points
+focus on the results from fully saturated models in the text                   higher than that for the largest firms (500 or more employ-
+since they use a more general and robust econometric specifi-                  ees). The effect declines more or less monotonically as the
+cation (see the online appendix for further discussion).                       size of the firm increases. The relative net employment
+    In estimating our fully saturated dummy variable specifi-                  growth premium for being small declines to 3.3% and 1.7%
+cations, we need to take into account that some parts of the                   for size classes 5–9 and 10–19 employees, respectively.
+joint firm size and firm age distribution get very sparse (for                    As argued above, however, the base-year measure of firm
+example, young firms with more than 10,000 employees are                       size has several undesirable attributes for examining firm
+virtually nonexistent, as seen in table 1). So relative to the                 size and growth. The curve plotting the estimated effects
+firm size and firm age classes in table 1, we restrict our-                    from our preferred average size specification with no age
+selves to eight size classes (1–4, 5–9, 10–19, 20–49, 50–99,                   controls shows that the inverse relationship remains, but the
+100–249, 250–499 and 500 and up) and nine age classes (0,                      quantitative relationship is substantially muted. Comparing
+1–2, 3–4, 5–6, 7–8, 9–10, 11–12, 13–15, and 16 and up).                        the base and average size results suggests that the effects of
+The fully saturated two-way model generates a very large                       regression to the mean are quite strong in the smallest size
+number of estimated coefficients, especially as we estimate                    classes. In the online appendix, we show that consistent
+specifications for both initial size and current (average)                     with these patterns, the negative serial correlation of firm-
+size, as well as overall net growth and the components of                      level net employment growth rates is especially large in
+net growth. Given our focus on the partial effects of size                     absolute value for small firms. But the more general point is
+controlling for firm age and vice versa, we report our results                 that in the absence of controls for firm age, we obtain simi-
+in the subsequent sections in figures.21 We note that the                      lar qualitative results as those in NZW. That is, size classifi-
+                                                                               cation methodology matters, but there still is a small inverse
+ 21                                                                             22
+     In table W.2 we show the results for the net overall growth fully satu-       The largest standard error in any of the fully saturated models for net
+rated one-way and two-way models. In table W.3 we show the results for         employment growth, net employment growth for continuers, job creation
+the net growth fully saturated models (one-way and two-way) for continu-       from entry, or job destruction from exit is 0.003. Most standard errors are
+ing firms. Estimates for other specifications are available on request.        below 0.001.
+356                                                  THE REVIEW OF ECONOMICS AND STATISTICS
+
+            FIGURE 2.—RELATIONSHIP BETWEEN NET GROWTH AND FIRM SIZE                                                          FIGURE 3.—FIRM EXIT BY FIRM SIZE
+ A. All Firms                                                                                    0.25
+
+   0.2
+                                                                                                  0.2
+
+   0.1
+                                                                                                 0.15
+
+
+      0
+                                                                                                  0.1
+
+
+  -0.1                                                                                           0.05
+
+
+
+  -0.2                                                                                             0
+
+
+
+
+                                                                                                                                                                                           Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                                                                                        Firm Size Class
+          Firm Size Class
+             Base Year Size                       Current (Avg) Size
+                                                                                                            Base Year Size                          Current (Avg) Size
+
+             Base Year Size with Age Controls     Current (Avg) Size with Age Controls                      Base Year Size with Age Controls        Current (Avg) Size with Age Controls
+
+
+ B. Continuing Firms only
+   0.2
+                                                                                               trolling for firm age since there is, by construction, no role
+                                                                                               for start-ups.23 Exploring this more deeply, we find a strong
+                                                                                               inverse relationship between net growth and firm size for
+   0.1
+                                                                                               continuing firms when we use the base-size methodology.
+                                                                                               This is the case whether or not we control for firm age.
+      0                                                                                        However, using average size, there is a positive relationship
+                                                                                               between net firm growth and firm size regardless of whether
+  -0.1                                                                                         one controls for firm age. Hence, for continuing firms, it is
+                                                                                               primarily the size class methodology that matters. The stark
+                                                                                               differences for small continuing firms between the base-size
+  -0.2
+                                                                                               and average-size results are consistent with the strong
+                                                                                               regression-to-the-mean effects for these firms.
+          Firm Size Class                                                                         Some of the differences between the patterns across the
+               Base Year Size                           Current (Avg) Size                     two panels of figure 2 reflect the role of firm exits.24 We
+               Base Year Size with Age Controls         Current (Avg) Size with Age Controls
+                                                                                               explore this further in figure 3, which shows the patterns of
+                                                                                               job destruction from firm exit by firm size with and without
+                                                                                               age controls. Job destruction from firm exit is directly inter-
+relationship between net employment growth and firm size                                       pretable as an employment-weighted firm exit rate. The
+when not controlling for firm age.                                                             firm exit rate falls monotonically with firm size regardless
+   Controlling for firm age, however, has a dramatic impact                                    of size class methodology and with or without firm age con-
+on these patterns. Regardless of the size classification meth-                                 trols. Controlling for firm age yields somewhat higher exit
+odology, once we control for firm age, we observe no sys-                                      rates for small businesses, but this effect is quite modest
+tematic inverse relationship between net growth and firm                                       when using average-size class methodology. Thus, a robust
+size. When we use base-year size, the smallest size class                                      finding is that small firms are more likely to exit than larger
+has the largest positive coefficient, but the size classes in                                  firms, even controlling for age.
+the range from 5 to 499 have the most negative effects. This                                      Combining figure 3 with the lower panel of figure 2 helps
+implies that firms in the 5 to 499 range have lower net                                        account for the patterns in the upper panel of figure 2, espe-
+growth rates on average than the largest businesses once we                                    cially for the results controlling for firm age. The lower
+control for firm age. When we use average size, we find a                                      panel of figure 2 shows that when controlling for firm age,
+positive relationship between net growth and firm size for                                     there is a modest but increasing relationship between net
+all the size classes up through 500 workers. While the                                         growth and average size for continuing firms. Combining
+details differ nontrivially depending on which size class
+method we use, the main point is that once we control for                                        23
+                                                                                                    NWZ briefly discuss a similar result they obtained using the NETS
+firm age, there is no evidence that small firms systemati-                                     data when they exclude start-ups.
+                                                                                                 24
+cally have higher net growth rates than larger businesses.                                          Section VII.E of the online appendix shows that the overall net
+   In the lower panel of figure 2, we show the results when                                    effects we report in table 2 and figure 2 can be generated by using the esti-
+                                                                                               mates for the components of net growth (continuers, job creation from
+we restrict the analysis to continuing firms only. The first                                   entry and job destruction from exit). This property holds for all the overall
+thing to note is that there is a less dramatic impact of con-                                  net effects we report in the paper.
+                                                               WHO CREATES JOBS?                                                                357
+
+this effect with the patterns in figure 3 where small firms                       FIGURE 4.—RELATIONSHIP BETWEEN NET EMPLOYMENT GROWTH AND FIRM AGE
+(controlling for firm age) have much higher exit rates yields                      A. All Firms
+that net growth rates are strongly increasing in average firm                      0.15
+
+size controlling for firm age.                                                      0.1
+   Figures 2 and 3 also shed light on Gibrat’s law (the pre-
+diction that firm growth should be independent of size).                           0.05
+Figure 2 suggests that Gibrat’s law holds approximately if
+                                                                                     0
+we exclude the smallest firms, especially if we use the aver-
+age size measure and do not control for firm age. That is,                        -0.05
+departures arise for the smallest firms (where regression-to-
+the-mean effects are especially an issue) and for entering                         -0.1
+
+and young firms, which, as we will see below, have their
+                                                                                          Firm Age Class
+own interesting dynamic not well captured by the models
+
+
+
+
+                                                                                                                                                      Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                                                                             Age Only      With Average Size Controls
+underlying the predictions of Gibrat’s law (Sutton, 1997).
+   An appropriate measure of firm age is critical for obtain-                      B. Continuing Firms Only
+ing the patterns in figures 2 and 3. As we noted above, these                       0.2
+
+results can also be obtained by estimating employment-
+weighted establishment-level regressions on firm size and                          0.15
+
+age characteristics. This implies that we can check the
+robustness of controlling for establishment as opposed to                           0.1
+
+firm-level characteristics. For brevity, we summarize only
+the results looking at establishment characteristics and point                     0.05
+
+interested readers to the online appendix. We find that con-
+trolling for establishment as opposed to firm age does not                           0
+
+yield the same stark patterns of figures 2 and 3. That is, when                           Firm Age Class
+controlling for only establishment age, the relationship                                     Age Only      With Average Size Controls
+between firm size and net growth remains strongly negative
+when using base size unlike the pattern in figure 2, which
+shows a nonmonotonic relationship between firm size and                          reveals a relatively weak relationship between firm age and
+net growth when we control for firm age. Moreover, the posi-                     net growth when we exclude start-ups (there is a mild posi-
+tive relationship between average size and net growth in fig-                    tive relationship without firm size effects and a mild inverse
+ure 2 when controlling for firm age becomes notably weaker                       relationship with firm size effects). However, in the lower
+when controlling for establishment age. These findings high-                     panel of figure 4, we find that conditional on survival,
+light the important distinction between firm and establish-                      young firms exhibit substantially higher growth than more
+ment age that comes about because there are many young,                          mature firms. This pattern is robust to controlling for firm
+small establishments of large, mature firms.                                     size, and it clearly indicates that the fastest-growing conti-
+                                                                                 nuing firms are young firms under the age of 5.
+B. Net Employment Growth and Firm Age                                               Reconciling the patterns of the upper and lower panel
+                                                                                 requires investigating the relationship between firm age and
+   We now turn to exploring the patterns of net employment                       firm exit. That is, the firms not included in the lower panel
+growth by firm age. For ease of exposition, in what follows                      of figure 4 relative to the upper panel are firm exits. Note
+we show in figures only the results for firm age by itself and                   that firm entrants are not driving the large difference in pat-
+controlling for firm size using our preferred average-size                       terns across the upper and lower panel of figure 4 since they
+measure. (For completeness, we provide the results control-                      are not included in either panel. The relationship between
+ling for base-year size in the online appendix.)                                 firm age and job destruction from firm exit is reported in
+   The top panel of figure 4 shows the results for firm age.                     figure 5, where it is apparent that young firms have much
+In the figure, we omit the estimated coefficient for start-ups                   higher firm exit rates than more mature firms do.
+since it is much higher (for the fully saturated models, the                        Taken together, figures 4 and 5 describe an up-or-out pat-
+predicted estimate is identically equal to 2).25 The panel                       tern for young firms that is robust to controlling for firm
+                                                                                 size (and robust to whichever size class method is used).
+ 25
+     Recall that at the firm level, the net growth rate for a firm start-up is   This up-or-out pattern highlights that the net patterns by
+equal to 2 using the DHS methodology. The fully saturated models yield
+the predicted value as the cell means, so the predicted value is identically     firm age depicted in the top panel of figure 4 mask the rich
+equal to 2. Note that in the appendix, we consider models where we con-          dynamics of young firms. This dynamic is an important fea-
+trol for industry and year effects that break this identity. Even then, we       ture of market-based economies and is consistent with pre-
+find that the predicted values for firm age ¼ 0 are close to 2 and very
+similar across size classes. We also find that the results controlling for       dictions in models of market selection and learning (see
+industry and year effects are very similar to those we report in the text.       Jovanovic, 1982; Hopenhayn, 1992; Ericson & Pakes,
+358                                                       THE REVIEW OF ECONOMICS AND STATISTICS
+
+                             FIGURE 5.—FIRM EXIT BY FIRM AGE                                                  FIGURE 7.—UP-OR-OUT PATTERNS BY INDUSTRY
+   0.2                                                                                   A. Net Employment Growth for Continuing Firms by Firm Age, by Industry
+                                                                                             0.2
+
+  0.15
+                                                                                            0.15
+
+
+   0.1                                                                                       0.1
+
+
+                                                                                            0.05
+  0.05
+
+                                                                                              0
+      0
+                                                                                         -0.05
+           Firm Age Class
+               Age Only      With Average Size Controls                                       Firm Age Class
+
+
+
+
+                                                                                                                                                                            Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                                                                                   Services      Durables Mfg     Nondurables Mfg     Wholesale   Economy
+                                                                                                                                                      & Retail
+
+                             FIGURE 6.—ENTRY RATES BY SECTOR                             B. Job Destruction from Exit by Firm Age, by Industry
+
+                                     Entry Rate, Selected Sectors,
+                                       Employment Weighted
+           0.04
+           0.03
+           0.03
+
+    Rate
+           0.02
+           0.02
+           0.01
+           0.01
+           0.00
+                   Durables Mfg   Non-Durables     Services   Wholesale &   Economy
+                                      Mfg                       Retail
+
+
+
+
+1995). It is also consistent with models where it takes time
+for firms to build up demand capital (Foster, Haltiwanger, &                          are high-growth firms contributing to the patterns in figure 4.
+Syverson, 2010) or firms to build up reputation in credit mar-                        To check on the contribution of such large firms to the analy-
+kets (Evans & Jovanovic, 1989).                                                       sis, we estimated the specifications underlying figures 2
+   The up-or-out pattern of young firms also helps put the                            through 5 restricting attention to firms that have fewer than
+job creation from start-ups in perspective. Each wave of                              500 workers. We find the patterns in figures 2 through 5 are
+firm start-ups creates a substantial number of jobs. In the                           robust to considering only such firms in the analysis.27
+first years following entry, many start-ups fail (the cumula-
+tive employment weighted exit rate derived from figure 5                              C. Firm Entry and Up-or-Out Dynamics by Sector
+implies that about 47% of the jobs created by start-ups are                              One question raised by the striking patterns in figures 4
+eliminated by firm exits in the first five years), but the sur-                       and 5 is whether the up-or-out dynamics are driven by spe-
+viving young businesses grow very fast.26 In this respect,                            cific industries. It might be that the factors that yield such
+the start-ups are a critical component of the experimenta-                            young firm dynamics are more important in some sectors
+tion process that contributes to restructuring and growth in                          than others. Moreover, firm entry rates vary across sectors,
+the United States on an ongoing basis.                                                and the pace of entry may influence the nature of young
+   We check the robustness of the results in figure 4 by con-                         firm dynamics.
+sidering whether the patterns are potentially driven by large,                           Figure 6 shows employment-weighted firm entry rates by
+young businesses. Although our measurement methods avoid                              selected broad sectors.28 Not surprisingly, sectors such as
+creating new firms as the outcome of mergers and acquisi-                             Services and Wholesale and Retail Trade have much higher
+tions, there are some large, young firms creating jobs, as seen                       entry rates than either Durable or Nondurable Goods Manu-
+in table 1. As seen in figure 1, the latter do not account for                        facturing. Firm entry rates are especially low in Durable
+much of the contribution of firm births, but it is possible they                      Goods Manufacturing.
+                                                                                         Figure 7 shows the up-or-out patterns by industry. It is
+  26
+     Without controlling for firm size effects, the growth from the survi-            striking that in spite of the large differences in entry rates,
+vors does not fully compensate for the exits. The cumulative net growth               the patterns are so similar across industries. In all of the
+rate implied by figure 4 is about 16% in the first five years after entry.
+Note, however, that this still implies that five years after entry, a typical
+                                                                                       27
+cohort has contributed a substantial number of jobs. When we control for                  The results for this robustness check are in the online appendix.
+                                                                                       28
+firm-size effects, one can see that the cumulative net growth for firms less              A supplemental file available electronically includes all sectors, but
+than 5 years old will be positive.                                                    we focus on selected sectors in the main text for the sake of brevity.
+                                                             WHO CREATES JOBS?                                                               359
+
+              FIGURE 8.—ESTABLISHMENT ENTRY AND EXIT BY FIRM AGE                     FIGURE 9.—ESTABLISHMENT ENTRY AND EXIT BY FIRM SIZE
+  A. Job Creation from Establishment Entry by Firm Age                  A. Job Creation from Establishment Entry by Firm Size
+  0.2                                                                   0.25
+
+
+ 0.15                                                                    0.2
+
+
+                                                                        0.15
+  0.1
+
+                                                                         0.1
+ 0.05
+
+                                                                        0.05
+   0
+                                                                          0
+        Firm Age Class
+
+
+
+
+                                                                                                                                                   Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+           Age Only      With Average Size Controls
+                                                                               Firm Size Class
+  B. Job Destruction from Establishment Exit by Firm Age                         Current (Avg) Size   Current (Avg) Size with Age Controls
+  0.2
+                                                                        B. Job Destruction from Establishment Exit by Firm Size
+                                                                        0.25
+ 0.15
+
+
+                                                                         0.2
+  0.1
+
+                                                                        0.15
+ 0.05
+
+                                                                         0.1
+   0
+                                                                        0.05
+        Firm Age Class
+           Age Only      With Average Size Controls                       0
+
+
+
+                                                                               Firm Size Class
+                                                                                 Current (Avg) Size   Current (Avg) Size with Age Controls
+broad sectors, young businesses either grow fast or they
+exit. There are some interesting differences in the magni-
+tudes of the patterns by sector. Young, continuing firms in
+the Service sector have especially high growth relative to            monotonically with firm age. Taking these patterns together
+firms in the Wholesale and Retail sector. In addition, there          with those of figures 4 and 5 implies that young firms create
+is a more pronounced decline in the exit pattern for young            jobs by expanding existing establishments rather than open-
+firms in Manufacturing Durable and Nondurable Goods. In               ing new ones.29 Additionally, in comparing the establish-
+unreported results we have found that the peak exit rate is           ment-level patterns in figure 8 to the firm-level patterns in
+not in the first year but in the second year after entry for          figure 5, we see that job destruction from establishment exit
+these sectors. The pattern suggests that the nature of the            declines less rapidly with firm age than does job destruction
+learning and selection dynamics differs in the Manufactur-            from firm exit. Mature firms are much less likely to exit
+ing sector. Still, it is striking how similar the qualitative pat-    than young firms, but establishments of mature firms have
+terns are by sector. The implication of figures 6 and 7 is that       relatively high exit rates compared to establishments of
+while entry rates vary substantially across sectors, condi-           young firms conditional on other observable factors (Dunne,
+tional on entry, the same rich up-or-out dynamics are pre-            Roberts, & Samuelson, 1989, also found this result for U.S.
+sent in every sector.                                                 manufacturing).
+                                                                         Figure 9 shows relationships of establishment entry and
+D. The Entry and Exit Margins: Establishment versus Firm              exit by firm size. Establishment entry tends to fall with firm
+                                                                      size when not controlling for firm age, and this reflects the
+   The focus thus far has been on firm entry and exit. In this        obvious relationship between firm entry and establishment
+section, we compare and contrast the patterns of firm entry           entry. However, after controlling for firm age, we observe
+and exit with the patterns of establishment entry and exit.           establishment entry rising with firm size. The lower panel
+Figure 8 shows establishment entry and exit by firm age.              of figure 9 shows that job destruction from establishment
+The upper panel shows that establishment entry exhibits a
+slight tendency to increase with firm age that is mitigated            29
+                                                                          In the online appendix, we also compare job creation by firm age
+after controlling for firm size. By contrast, the lower panel         with job creation by establishment entry by firm age, which makes this
+shows job destruction from establishment exit falling                 point more transparent.
+360                                 THE REVIEW OF ECONOMICS AND STATISTICS
+
+exit tends to decline with firm size. These patterns are quite    the negative relationship between firm size and net growth
+similar to those for firm exit in figure 3.                       disappears and may even reverse sign as a result of relatively
+   To sum up, there are notable differences in the patterns of    high rates of exit among the smallest firms. Our findings
+firm versus establishment entry and exit by firm age and firm     suggest that it is particularly important to account for busi-
+size. First, looking at establishments, we find that young        ness start-ups. Business start-ups account for roughly 3% of
+firms are less likely to exhibit job creation from opening        U.S. total employment in any given year. While this is a rea-
+new establishment than are mature firms. Young firms, how-        sonably small share of the stock, it is large relative to the net
+ever, disproportionally create jobs by expanding existing         flow, which averages around 2.2% per year. We also find
+establishments. Large firms are more likely to open new           rich dynamics among young firms that help put the contribu-
+establishments when we control for firm age. Second, firm         tion and role of start-ups into perspective. Young firms exhi-
+entry rates are much higher for the smallest size classes, but    bit high rates of gross job creation and destruction. Consis-
+this simply reflects the fact that new firms tend to be small.    tent with this pattern, we find that young firms have very
+Once we control for firm age, large firms are more likely to      high job destruction rates from exit, so that after five years,
+
+
+
+
+                                                                                                                                      Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+open new establishments than small firms are. Establishment       about 40% of the jobs initially created by start-ups have
+exit is also more likely for smaller firms, and this holds even   been eliminated by exit. However, we also find that, condi-
+after controlling for firm age.                                   tional on survival, young firms grow more rapidly than their
+                                                                  more mature counterparts.
+                      V.    Conclusion                               Most of our focus is on the net growth rate patterns by
+                                                                  firm size and firm age (along with the underlying different
+   There is a widespread popular perception that small busi-      margins of adjustment). However, we also show that large,
+nesses create the most jobs in the United States. This per-       mature businesses account for a large fraction of jobs.
+ception has basis in empirical observation, but we demon-         Firms that are over 10 years old and have more than 500
+strate that the inverse relationship between net job growth       workers account for about 45% of all jobs in the U.S. pri-
+and firm size disappears after controlling for firm age. To       vate sector. In turn, we show that these large, mature firms
+draw this conclusion, we take advantage of newly devel-           account for almost 40% of job creation and destruction.
+oped economy-wide longitudinal firm and establishment             The share of jobs created and destroyed by different groups
+data available at the U.S. Census Bureau that permits accu-       of firms is roughly their share of total employment. An
+rate tracking of business start-ups, business exits, and conti-   important exception in this context is the contribution of
+nuing firms.                                                      firm start-ups: they account for only 3% of employment but
+   Our analysis focuses on measurement, not policy. How-          almost 20% of gross job creation.
+ever, measurement issues clearly can influence policy dis-           We think our findings help interpret the popular percep-
+cussions, and our findings give those charged with policies       tion of the role of small businesses as job creators in a man-
+aimed at the job creation much to consider. For example, to       ner that is consistent with theories that highlight the role of
+the extent that policy interventions aimed at small busi-         business formation, experimentation, selection, and learn-
+nesses ignore the important role of firm age, we should not       ing as important features of the U.S. economy. Viewed
+expect much of an impact on the pace of job creation.             from this perspective, the role of business start-ups and
+Effective policy design in this area requires a richer under-     young firms is part of an ongoing dynamic of U.S. busi-
+standing of business dynamics, as well as any relevant mar-       nesses that needs to be accurately tracked and measured on
+ket failures. Our analysis addresses only the first issue.        an ongoing basis. Measuring and understanding the activ-
+   We find some evidence in support of the popular percep-        ities of start-ups and young businesses, the frictions they
+tion that small businesses create most jobs along the follow-     face, their role in innovation and productivity growth, and
+ing lines. If one looks at the simple relationship between        how they fare in economic downturns and credit crunches
+firm size and net growth rates, there is evidence that net        are clearly interesting areas of inquiry given our findings.
+growth rates tend to be higher for smaller as opposed to lar-     To the extent that market failures are found to underlie
+ger businesses. This is the case using widely available data      these frictions, there might be a role for well-designed cor-
+such as the Census Bureau’s SUSB, but can also be                 rective policies that help entrepreneurs start and grow
+obtained through careful analysis of microdata, as both           dynamic young firms that boost overall net job creation.
+NWZ and we demonstrate. Of course, the caveats raised                More broadly, our findings suggest that the policy debate
+over years, such as the role of regression to the mean, still     about encouraging private sector job creation should be
+apply. Using our preferred firm size classification that we       refocused. The job-creating prowess of small businesses is
+argue is more robust to such concerns, the inverse relation-      often used by policymakers to motivate and justify specific
+ship between net growth rates and size remains but is not         policies. Our findings suggest that policies targeting firms
+overwhelming.                                                     based on size without taking account of the role of firm age
+   Our results show that the more important and robust find-      are unlikely to have the desired impact on overall job crea-
+ing is the role of firm age and its relationship with firm        tion. Taking the patterns of firm dynamics we show here
+growth dynamics. We find that once we control for firm age,       into account may help identify the specific market failures
+                                                           WHO CREATES JOBS?                                                                    361
+
+that prevent entrepreneurs from starting and growing new                   Davis, Steven J., John Haltiwanger, C. J. Krizan, Ron Jarmin, Javier Mir-
+                                                                                  anda, Al Nucci, and Kristin Sandusky, ‘‘Measuring the Dynamics
+businesses.                                                                       of Young and Small Businesses: Integrating the Employer and
+   In a related manner, it is important to focus not only on                      Non-Employer Businesses,’’ in T. Dunne, B. Jensen, and M.
+jobs per se but also on the role these dynamics play in pro-                      Roberts (eds.), Producer Dynamics: New Evidence from Micro
+                                                                                  Data (Chicago: University of Chicago Press for the NBER, 2009).
+ductivity and earnings growth in the United States. Similarly              Davis, Steven J., John Haltiwanger, and Scott Schuh, Job Creation and
+we need to develop the data and associated analyses that will                     Destruction (Cambridge, MA: MIT Press, 1996).
+permit investigating the complex relationships between                     Doms, Mark E., Ron S. Jarmin, and Shawn D. Klimek, ‘‘Information
+                                                                                  Technology Investment and Firm Performance in US Retail
+young and mature businesses. It may be, for example, that                         Trade,’’ Economics of Innovation and New Technology 13 (2004),
+the volatility and apparent experimentation of young busi-                        595–613.
+nesses that we have identified are critical for the develop-               Dunne, Timothy, Mark Roberts, and Larry Samuelson, ‘‘The Growth and
+                                                                                  Failure of U.S. Manufacturing Plants,’’ Quarterly Journal of Eco-
+ment of new products and processes that are in turn used by                       nomics 104 (1989), 671–698.
+(and perhaps acquired by) the large and mature businesses                  Ericson, Richard, and Ariel Pakes, ‘‘Markov-Perfect Industry Dynamics:
+that account for most economic activity. Viewed from this                         A Framework for Empirical Work,’’ Review of Economic Studies
+
+
+
+
+                                                                                                                                                        Downloaded from direct.​mit.​edu/​rest/​article-pdf/​95/​2/​347/​1917253/​rest_a_00288.​pdf by Università Bocconi user on 16 November 2026
+                                                                                  62 (1995), 53–82.
+perspective, our findings show that the LBD and the BDS                    Evans, David S., ‘‘The Relationship between Firm Growth, Size, and
+are rich databases to track U.S. business dynamics, but it is                     Age: Estimates for 100 Manufacturing Industries,’’ Journal of
+also clear that additional information about the productivity                     Industrial Economics 35 (1987), 567–581.
+                                                                           Evans, David S., and Boyan Jovanovic, ‘‘An Estimated Model of Entre-
+and earnings dynamics, as well as business-to-business rela-                      preneurial Choice under Liquidity Constraints,’’ Journal of Politi-
+tionships, need to be added to these databases and related                        cal Economy 97 (1989), 808–827.
+analyses.                                                                  Foster, Lucia, John Haltiwanger, and C. J. Krizan, ‘‘Market Selection,
+                                                                                  Reallocation and Restructuring in the U.S. Retail Trade Sector in
+                                                                                  the 1990s,’’ this REVIEW 88 (2006), 748–758.
+                                                                           Foster, Lucia, John Haltiwanger, and Chad Syverson, ‘‘The Slow Growth
+                            REFERENCES                                            of New Plants: Learning about Demand?’’ mimeograph (2010).
+                                                                           Friedman, Milton, ‘‘Do Old Fallacies Ever Die?’’ Journal of Economic
+Acs, Zoltan J., Catherine Armington, and Alicia Robb, ‘‘Measures of Job           Literature 30 (1992), 2129–2132.
+       Flow Dynamics in the U.S. Economy’’ (Washington, DC: U.S.           Haltiwanger, John, Ron Jarmin, and Javier Miranda, ‘‘Business Dynamics
+       Small Business Administration, 1999).                                      Statistics: An Overview,’’ Marion Ewing Kauffman Foundation
+Aldrich, Howard, Arne Kalleberg, Peter Marsden, and James Casell, ‘‘In            BDS briefs (2009). http://www.kauffman.org/uploadedFiles/BDS
+       Pursuit of Evidence: Five Sampling Procedures for Locating New             _handout_011209.pdf.
+       Businesses,’’ Journal of Business Venturing 4 (1988), 367–386.      Haltiwanger, John, Ron S. Jarmin, and Javier Miranda, ‘‘Who Creates
+Angrist, Josh, and Jorn-Steffen Pischke, Mostly Harmless Econometrics             Jobs? Small vs. Large vs. Young,’’ NBER working paper 16300
+       (Princeton, NJ: Princeton University Press, 2009).                         (2010).
+Becker, Randy A., John Haltiwanger, Ron S. Jarmin, Shawn D. Klimek,        Haltiwanger, John, and C. J. Krizan, ‘‘Small Business and Job Creation in
+       and Daniel J. Wilson, ‘‘Micro and Macro Data Integration: The              the United States: The Role of New and Young Businesses,’’ in
+       Case of Capital,’’ in D. Jorgenson, S. Landefeld, and W. Nordhaus          Zoltan Acs (ed.), Are Small Firms Important? Their Role and
+       (eds.), A New Architecture for the U.S. National Accounts (Chi-            Impact (Norwell, MA: Kluwer Academic, 1999).
+       cago: NBER/University of Chicago Press, 2006).                      Hopenhayn, Hugo, ‘‘Entry, Exit, and Firm Dynamics in Long Run Equili-
+Birch, David L., ‘‘The Job Generation Process,’’ unpublished report, MIT          brium,’’ Econometrica 60 (1992), 1127–1150.
+       Program on Neighborhood and Regional Change for the Economic        Jarmin, Ron S., Shawn D. Klimek, and Javier Miranda, ‘‘The Role of
+       Development Administration, U.S. Department of Commerce                    Retail Chains: National, Regional and Industry Results,’’ in T.
+       (1979).                                                                    Dunne, B. Jensen, and M. Roberts (eds.), Producer Dynamics:
+——— ‘‘Who Creates Jobs?’’ Public Interest 65 (1981), 3–14.                        New Results from Micro Data (Chicago: University of Chicago
+——— Job Creation in America: How Our Smallest Companies Put the                   Press for the NBER, 2009).
+       Most People to Work (New York: Free Press, 1987).                   Jarmin, Ron S., and Javier Miranda, ‘‘The Longitudinal Business Data-
+Birley, Sue, ‘‘Finding the New Firm,’’ in Proceedings of the Academy of           base,’’ CES working paper 02-17 (2002).
+       Management Meetings, 1984.                                          Jovanovic, Boyan, ‘‘Selection and the Evolution of Industry,’’ Econome-
+Brown, Charles, James Hamilton, and James Medoff, Employers Large                 trica 50 (1982), 649–670.
+       and Small (Cambridge, MA: Harvard University Press, 1990).          Neumark, David, Brandon Wall, and Junfu Zhang, ‘‘Do Small Businesses
+Butani, Shail, Richard Clayton, Vinod Kapani, James Spletzer, David               Create More Jobs? New Evidence for the United States from
+       Talan, and George Werking, ‘‘Business Employment Dynamics:                 the National Establishment Time Series,’’ this REVIEW 93 (2011),
+       Tabulations by Employer Size,’’ Monthly Labor Review (February             16–29.
+       2006).                                                              Okolie, Cordelia, ‘‘Why Size Class Methodology Matters in Analyses of
+Davis, Steven J., John Haltiwanger, Ron S. Jarmin, and Javier Miranda,            Net and Gross Job Flows,’’ Monthly Labor Review (July 2004).
+       ‘‘Volatility and Dispersion in Business Growth Rates: Publicly      Sutton, John, ‘‘Gibrat’s Legacy,’’ Journal of Economic Literature 35
+       Traded vs. Privately Held Firms,’’ in D. Acemoglu, K. Rogoff, and          (1997), 40–59.
+       M. Woodford (eds.), NBER Macroeconomics Annual 2006, 21             Tornqvist, Leo, Pentti Vartia, and Yrjo Vartia, ‘‘How Should Relative
+       (Cambridge, MA: MIT Press, 2007).                                          Change Be Measured?’’ American Statistician 39:1 (1985), 43–46.
+

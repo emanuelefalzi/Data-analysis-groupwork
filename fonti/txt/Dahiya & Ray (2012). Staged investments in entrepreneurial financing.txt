@@ -1,0 +1,1789 @@
+                                                       Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+
+                                                  Contents lists available at SciVerse ScienceDirect
+
+
+                                                  Journal of Corporate Finance
+                                        journal homepage: www.elsevier.com/locate/jcorpfin
+
+
+
+
+Staged investments in entrepreneurial ﬁnancing☆
+Sandeep Dahiya b, Korok Ray a,⁎
+a
+    School of Business, George Washington University, Washington, DC, 20052, United States
+b
+    McDonough School of Business, Georgetown University, Washington, DC, 20057, United States
+
+
+
+
+a r t i c l e           i n f o                        a b s t r a c t
+
+Article history:                                       Venture capitalists deliver investments to entrepreneurs in stages. This paper shows staged
+Received 21 September 2010                             financing is efficient. Staging lets investors abandon ventures with low early returns, and thus
+Received in revised form 7 July 2012                   sorts good projects from bad. The primary implication from staging is that it is efficient to
+Accepted 11 July 2012
+                                                       invest more in later rounds. The model yields a number of predictions on how the ratio of early
+Available online 20 July 2012
+                                                       to late round financing varies with uncertainty, the outside options of both parties, the value of
+                                                       the venture, the costs of investment, and project difficulty. We test these predictions against
+JEL classification:                                    data on venture capital financings and find significant empirical support for the theory.
+C12
+                                                                                                               © 2012 Elsevier B.V. All rights reserved.
+C39
+C79
+G28
+
+
+
+Keywords:
+Entrepreneurship
+Venture capital
+Staged financing
+Optimal stopping
+Performance evaluation
+Financial contracting
+
+
+1. Introduction
+
+
+
+          “You got to know when to hold 'em, know when to fold 'em,Know when to walk away and know when to run.”–Kenny
+          Rogers, The Gambler
+
+   This paper gives an efficiency-based explanation of staged financing in venture capital. Sahlman (1990), Gompers (1995), and
+Gompers and Lerner (1999) all document the extensive practice of venture capitalists delivering investments to new firms in
+stages. The current view in the venture capital literature is that staging mitigates moral hazard. Here, we argue that venture
+capitalists use staging as a sorting instrument. Staging investments provide the venture capitalist (VC) with the option of ending
+projects with low early returns. This sorts ventures into two groups: stay or quit. It is efficient to quit if the early returns are weak,
+and to stay otherwise. If the entrepreneur's early output is low, it is in the interests of both the VC and the entrepreneur to
+discontinue work and collect their respective outside options.
+
+
+ ☆ Seminar participants at Georgetown University and the Northwestern Searle Center for Law, Regulation, and Economic Growth gave excellent feedback. Alex
+Frankel and Julian Fu provided outstanding research assistance. The Center for Financial Markets and Policy at Georgetown University provided generous ﬁnancial
+support.
+  ⁎ Corresponding author at: George Washington School of Business, 2201 G Street, NW, Washington DC, 20052, United States. Tel.: +1 202 994 3736.
+    E-mail addresses: sd@georgetown.edu (S. Dahiya), korok.ray@gmail.com (K. Ray).
+
+0929-1199/$ – see front matter © 2012 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jcorpﬁn.2012.07.002
+1194                                    S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+    The main result shows that it is efficient to assign more resources to the later stages of the project. Staging creates the possibility of
+termination after the early stage, and this reduces the project's expected return. This lowers the marginal return from investment, and
+so, the VC shades his investment downward in the early stage. Once the entrepreneur advances, the possibility of termination
+vanishes and the marginal return to investment rises, so the VC invests more. Those who make it to the second stage are more valuable
+precisely because their first stage output was sufficiently high. The VC invests more in the later stage because the new venture is “in
+the running” to becoming highly successful. Said differently, it is inefficient for the VC to bet big on a horse that won't finish the race.
+    The distinguishing feature of this paper is that the analysis operates entirely within a first-best setting. This pure investment
+model abstracts from conflicts of interest and agency problems between the VC and entrepreneur. While the relationship
+between a VC and an entrepreneur is of course rife with moral hazard, optimal investment can explain staged financing. This
+suggests that optimal decision making under uncertainty gives an alternative explanation of staged financing.
+    The model consists of a risk-neutral venture capitalist funding an entrepreneur over two stages. Each party invests resources (capital
+and labor) into each stage and the output from the project is the total investment plus a noise term in each stage. Both parties are
+symmetrically uninformed on the project's uncertainty. The project earns a positive return if the total output across both stages clears
+an exogenous hurdle. For example, consider a software company developing a new search engine. If the search engine is of sufficiently
+high quality, it has positive value and the company has potential to be taken public; otherwise, the product is worth nothing.
+    Both the VC and the entrepreneur have outside options in each stage. For example, the VC can fund other ventures and the
+entrepreneur can work on other projects. Staging investments gives the VC the option to discontinue the project, at which point
+both parties collect their respective outside options. The primary implication from staging investments is that it skews the
+efficient allocation of resources towards the later stages. The VC deliberately withholds investments in the early stages precisely
+because of the uncertainty from the early stage. In particular, the model shows that the VC will set a milestone after the first stage,
+and if the project's output clears this milestone, the VC knows the project is sufficiently successful and therefore, invests more.
+    In addition to this primary implication that investments increase in later rounds, the model generates several testable predictions.
+First, as the outside options of both parties increase, the VC will skew its investments even more into later rounds. Intuitively, as the
+parties' outside opportunities improve, the VC has a high opportunity cost from investing, and therefore can adopt a “wait and see”
+approach and can postpone investments into the future. Second, as uncertainty increases, it is efficient for the VC to invest more towards
+the early stage. While this may seem counterintuitive, the logic follows from the option value of continuing. Because the stages are
+sequential, an increase in uncertainty increases the upside benefit from continuing. This gives an extra benefit to investing in the early
+stage rather than the late stage. Finally, as the difficulty of project completion increases (because of market or technology factors), the
+VC will invest more resources into later rounds. This occurs because the VC is reluctant to invest too much money in early stage projects
+which are unlikely to “make it.” All of these comparative statics give testable predictions on the ratio of early to late round financing.
+    We test the model against data on firms that obtained funding from VCs. We use a sample of VC financing rounds from the
+VentureXpert database maintained by Thomson Financial. This data classifies each investment round into four categories based on
+the operating stages of the firm at the time it received VC financing (seed stage, early stage, expansion stage, and late stage). Using
+these categories, we find robust empirical support for Theorem 1, which states the investments increase in later stages. We also find
+empirical support for Propositions 2, 3, and 4, which all posit relationships between the size and ratio of the investment rounds, and
+the various exogenous parameters of the model (the outside options of the VC, the variance and volatility of the output, and the
+value of the venture). These simple empirical tests provide preliminary support for the theoretical predictions of the model.
+    Existing literature on staged financing exists exclusively within agency models of asymmetric information. A landmark paper is
+Neher (1999), which claims entrepreneurs threaten to hold up VCs by reneging on investments, so VCs stage payments to reduce
+their bargaining power. Dividing investments into a number of stages creates inefficiencies but is necessary in overcoming the
+commitment problem. Landier (2002) argues that staging is one way of protecting an investor from risk when entrepreneurs have a
+high exit option, i.e. when bankruptcy laws are lenient and when there is little stigma associated with business failure. Bergemann
+and Hege (1998, 2005) study the dynamics of the optimal contract and equilibrium funding decisions in arm's length versus
+relationship financing. In other work, Bergemann and Hege (2003) show that the duration of funding, though not necessarily the
+level of funding, increases in later stages. Bergemann et al. (2009) build a continuous-time investment model where the critical
+threshold for success is exogenous and uncertain; they confirm our result that investment increases over later rounds, and even test
+their model against VC data, as we do. Their paper is similar to ours in that it relies on an investment model, though our two-period
+discrete model generates a web of comparative statics, which complement the prediction from their continuous-time model.
+    Cornelli and Yosha (2003) look at “window dressing,” the manipulation of information on project performance, which
+entrepreneurs may practice in order to continue to receive funds. Wang and Zhou (2004) find that there are cases in which
+up-front financing may be superior to staging; under staged financing, VCs will underinvest in low quality projects and potentially
+doom them to failure. Elitzur and Gavious (2003) model a contracting problem between a venture capitalist and an entrepreneur.
+They show that the optimal incentive scheme backloads all incentive payments to the entrepreneur, therefore backloading
+optimal effort allocation as well. Fluck et al. (2004) use computational methods to demonstrate that resources increase in later
+rounds. In Yerramilli (2006), each party can hold up the other and threaten to walk away in order to press for a renegotiation of
+the contract. Finally, without the ability for investors to unilaterally cancel projects, Admati and Pfleiderer (1994) argue that
+entrepreneurs with outside financing will be reluctant to quit unproductive ventures. All of these models take place in moral
+hazard and asymmetric information settings; therefore, staging is an instrument to minimize agency costs. None of the prior
+theoretical work explores the efficiency properties of staged financing.
+    The existing theoretical work give different predictions on the evolution of investment over stages, few or no predictions on
+connecting staging and changes in the environment (uncertainty, outside opportunities, value of venture), and have yet to test
+                                                   S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                       1195
+
+
+their predictions against data (except Bergemann et al., 2009). In Neher (1999), investments increase over time because the VC is
+willing to invest more as the firm's collateral grows. Yet Giat et al. (2009) find that staged investments can increase over time,
+decrease over time, or rise and then fall. Hsu (2002) finds, computationally, that staging tends to be more profitable to investors
+when ventures are in early stages and will need greater amounts of capital in the future. 1 Yet, none of these papers make
+predictions on how the ratio of early to late stage financing changes with exogenous parameters of the environment, such as
+increase in uncertainty, project difficulty, or outside opportunities.
+   The paper is organized as follows. Section 2 presents the benchmark model and shows that staging investments increases total
+surplus. Section 3 explores the effects of staged financing on the ratio of early to late stage funding levels. Section 4 contains the
+comparative statics with respect to the model parameters, and delivers secondary implications on how the funding level changes
+with the uncertainty in the model, technology or market risk, or the outside options of the VC or entrepreneur. Section 5 tests the
+implications of the model against VC data. Section 6 concludes.
+
+2. The model
+
+    Consider an entrepreneur working on a project (a new venture) over time. The entrepreneur seeks funding for the project
+from a venture capitalist (VC). Both parties are risk neutral. Production takes place across two stages, and there is no discounting.
+It takes time to establish a business, and the stages represent distinct phases in production. For example, the early stage involves
+establishing the founder's initial business plan, while the later stage involves marketing the plan and generating advertising
+revenue. Let kt be the total resources invested in the project at stage t. This reflects the sum of both the entrepreneur's and the VC's
+resources (labor and capital) invested in the project. Though we call kt investment, it includes human resources as well as
+financial resources. Since the focus of the analysis is on efficient resource allocation, it is not necessary to specify the
+entrepreneur's and venture capitalist's resources separately.
+    The total resources kt in stage t = 1,2 face a cost of resource function C(kt). This is the total social cost of resources in stage t.
+Assume C′,C″ are strictly positive, so costs are separable across stages, increasing, and convex. 2 The convexity of the cost function
+reflects a convex cost of investment for the venture capitalist and a convex cost of effort for the entrepreneur. A convex cost of
+effort is a standard assumption, while a convex cost of investment simply reflects that the VC cannot invest arbitrarily large
+amounts without cost. 3 The convexity of the supply curve represents all the costs of raising capital to deliver funds to the
+entrepreneur. Output from the project is
+
+        qt ¼ kt þ εt :                                                                                                                                          ð1Þ
+
+    The noise terms εt are i.i.d., and distributed symmetrically around a mean of zero and over infinite support, with cdf G(·) and
+density function g(·). Interpret εt as a stage-specific shock unknown to anyone. The εt captures all of the market and technological
+uncertainty in raising profits: novelty of the founder's idea, viability of the business plan, existence of a potential market, quality
+of human and physical capital, etc.
+    A project is a pair ðV; q Þ, where V > 0 is the value of the project and q > 0 is the final hurdle. After stage two, the VC takes the
+firm public if it is of sufficiently high quality. Therefore, the final hurdle represents the minimum quality necessary for a new
+venture to capture a positive market price when its shares are traded on public stock markets. The value of the venture is
+                         
+                             V   if q1 þ q2 > q
+        V ðq1 ; q2 Þ ¼                                                                                                                                          ð2Þ
+                             0   otherwise:
+
+     Output (for e.g. profits, quality, sales) has no value unless it is sufficiently high. In most new ventures, the venture is worth
+little unless it can eventually be taken public, or at least generate profits. Assets of firms that have either failed to go public or have
+not successfully obtained later round financing are usually sold at low (firesale) prices; we simply normalize these low prices to
+zero. Thus, qt is the project's internal output (prototypes, beta versions, etc.), while V(q1,q2) measures the project's external value
+based on market valuation. Throughout, call qt the project's output, and call V(q1,q2) the project's value. Since information is
+symmetric in this model, both parties know the true value V but do not know whether output from the project is sufficiently high
+to clear the hurdle q . Observe that output levels across stages are perfect substitutes. This isolates the effects of staging on
+investment from the effects of technology on investment.
+     Suppose that both the VC and the entrepreneur have outside options in each stage. These outside options capture the value of
+the outside opportunities of both parties. For example, the VC has many competing investments to fund and can allocate his
+
+  1
+    Other empirical work in venture capital documents different features of the venture capital environment. Krohmer and Lauterbach (2005) ﬁnd empirically
+that in the ﬁnal stages of a project, investment managers may be too unwilling to pull the plug on failing projects. Cuny and Talmor (2005) and Bienz and Hirsch
+(2009) look at the differences between the two types of staged ﬁnancing that are commonly observed, staging with milestones or with rounds.
+  2
+    Separability of the cost function eases exposition and analysis in the later results of the paper. However, Proposition 1 still holds under non-separable cost
+functions. Details are available from the authors upon request.
+  3
+    VCs draw from dedicated pools of capital that institutional investors supply. In particular, the VC raises capital in blocks (“funds”), usually targeted towards
+investments in a speciﬁc industry or technology. If the VC exhausts the fund and wants to invest more, he must raise a new fund, which involves soliciting interest
+from limited partners (institutional investors), advertising the fund through business networks, or transferring capital from other preexisting funds. See Prowse
+(1998) for a full description on the capital raising process.
+1196                                             S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+capital and his time elsewhere. Similarly, the entrepreneur can either work on other new ventures, or even collect a wage as an
+employee for another organization. Let ūt be the sum of the outside options of the VC and entrepreneur in stage t. So ūt measures
+the opportunity cost of the project (time, labor, capital) to both parties. 4 The venture capitalist may conduct an evaluation of the
+venture after stage one. In fact, the purpose of staged financing is to give the venture capitalist an intermediate reading on the
+new venture, with the option of ending the venture if the early returns are weak.
+
+2.1. Upfront ﬁnancing
+
+   As a benchmark, suppose the VC does not conduct an evaluation after the first stage. Importantly, there are no grounds for
+terminating the project after the first stage. So the VC gives all the funds for the project upfront; call this “upfront financing.” To
+calculate the social payoff, observe that both parties receive positive surplus only if the project is a success, i.e. that q1 þ q2 > q .
+The probability of success is
+                                                                            ∞    ∞
+        P 0 ¼ Prðq1 þ q2 > q Þ ¼ Prðε1 þ ε2 > q −k1 −k2 Þ ¼ ∫−∞ ∫ q−k1 −k2 −ε1 g ðε1 Þg ðε2 Þdε2 dε1                                                                ð3Þ
+
+by the independence of the errors. After integrating and using the symmetry of the errors around zero,
+
+                  ∞                                               ∞
+        P 0 ¼ ∫−∞ g ðε1 Þ½1−Gðq −k1 −k2 −ε1 Þdε1 ¼ ∫−∞ g ðε1 ÞGðε1 þ k1 þ k2 −q Þdε1 :                                                                              ð4Þ
+
+     Therefore, the marginal effect of increasing investment on improving the probability of success is
+
+        ∂P 0    ∞
+             ¼ ∫−∞ g ðε1 Þg ðε1 þ k1 þ k2 −q Þdε1 :                                                                                                                   ð5Þ
+        ∂kt
+
+    This expression is positive, so increasing investment makes it more likely that the project will clear the final hurdle. Moreover,
+observe that the right-hand side of the equality above is independent of t, and therefore so is the left-hand side. The VC can fund
+either in stage one or stage two, as it has the same effect on the project clearing the final hurdle. Thus, the probability of success
+increases by the same amount with investment in either stage. Since total investment is additive, stage one and stage two
+investment are perfect substitutes.
+    Since the objective of the analysis is to understand the efficient allocation of resources, it is necessary to consider the social
+planner's problem, i.e., the joint payoff of the entrepreneur and the VC combined. This is the expected benefit from investments,
+less the cost of investment in each stage. 5 The social planner maximizes total surplus, so the problem is
+
+         max P 0 V−C ðk1 Þ−C k2 ;                                                                                                                                      ð6Þ
+            kt
+
+
+which yields the first-order condition
+
+            ∂P 0             
+                  k ¼k^ ¼ C k^ t ;
+                            ′
+        V                                                                                                                                                              ð7Þ
+            ∂kt     t   t
+
+
+
+
+where k^ t denotes the optimal effort level.
+     The marginal cost of investment is equal to its marginal return, which is the marginal probability of success times the value of
+the project. Since the left-hand side is independent of t, the right hand side must be as well. Hence k^ 1 ¼ k^ 2 ≡k;
+                                                                                                                   ^ this is the efficient
+investment under upfront financing, and is the same in each stage. It is efficient to split investment evenly across stages since the
+cost of investment per stage is the same. Since the model is symmetric with respect to the VC and entrepreneur, it is possible to
+implement this first best solution, so the VC will split its investment evenly across stages, and the entrepreneur will exert effort
+and deploy resources evenly across stages. For example, this is the outcome under a contracting game where the venture
+capitalist is the principal who proposes a contract to the agent, the entrepreneur. In this setting, since both parties are risk neutral,
+it is straightforward to construct a contract that implements the first-best. 6
+     Note that convexity of the cost function is not what guarantees that investment in both stages is the same. Investment is the
+same because (1) convexity of the cost function guarantees a unique solution, (2) the marginal return to investment in each
+period is the same, and (3) the cost function is separable and identical across stages. Convexity does, however, guarantee that
+efficient investment increases with V. Collecting terms, the efficient per-stage investment level k^ solves
+                                    
+        C k^ ¼ V∫−∞ g ðε1 Þg ε1 þ 2 ^
+         ′       ∞
+                                   k−q dε1 :                                                                                                                          ð8Þ
+
+
+
+ 4
+    The outside options are independent of early stage output. The results of the model generalize easily if outside options increase linearly in output.
+ 5
+    Observe that even though the production function V(q1,q2) is discontinuous at the point q1 þ q2 ¼ q , the planner's expected payoff PV is continuous in kt.
+ 6
+    Since contracting issues are not central to this analysis, we do not outline the details of the contracting game, such as the contract space, the bargaining power
+between the two parties, etc. Such a game is straightforward to construct, as the principal will pay the agent W for success ðq1 þ q2 > q Þ and L for loss ðq1 þ q2 bq Þ.
+To guarantee full incentives to exert ﬁrst best, the principal will set W − L = V. Further details on this contract are available from the authors upon request.
+                                              S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                         1197
+
+
+   The remaining constraint is a bound on the reservation utilities. The total surplus from having the entrepreneur undertake the
+project must be at least as large as the total outside options across both stages. So,
+                 
+        P 0 V−2C k^ ≥u
+                     1 þ u
+                          2:                                                                                                                                ð9Þ
+
+
+     Call this the project feasibility constraint.
+
+2.2. Efﬁciency of staging investments
+
+    The main reason to conduct an evaluation halfway through a project is that it provides the option to abandon the project if the
+early returns are low. The two parties will use first stage output to compute the expected project value V(q1,q2) after the second
+stage. This yields an expected value of continuing. Because of the outside options, it is efficient to continue only if this value
+exceeds these outside options.
+    If the VC and entrepreneur observe q1 after the first stage and must decide whether to continue or not, their decision will
+depend on the observed q1. Therefore the probability of continuing and the total surplus from continuing will also depend upon
+this observed q1. The probability of clearing the final hurdle, conditional on a realized value q1, is
+
+        P ðq1 Þ≡Prðq1 þ q2 > q jq1 Þ ¼ Prðε2 > q −q1 −k2 Þ ¼ Gðq1 þ k2 −q Þ:                                                                            ð10Þ
+
+     So the total surplus conditional on a realized q1 is
+
+        Sðq1 ; k2 Þ ¼ E2 V ðq1 ; k2 þ ε2 Þ−C ðk2 Þ ¼ P ðq1 ÞV−C ðk2 Þ;                                                                                     ð11Þ
+
+where Et denotes the expectation taken over εt. Call this the continuation surplus function. For clarity, let S(q1) ≡ S(q1,k2⁎) be the
+continuation surplus evaluated at the efficient investment level k2⁎. 7 This continuation surplus function reflects the expected total
+surplus from continuing after a realization of first stage output q1. The continuation decision rests entirely on this function. In
+particular, it is efficient to continue if and only if S(q1) ≥ ū2. The first result below shows that the continuation surplus function is
+strictly increasing. This means there exists a unique cut-off output level q⁎ such that S(q*) > ū2 if and only if q1 > q⁎. In words, the
+planner sets the optimal target q⁎ such that he is indifferent between advancing and retaining the entrepreneur. All proofs are in
+the Appendix.
+
+Proposition 1. There exists a target q⁎ such that it is efficient only for entrepreneurs with q1 > q⁎ to advance to the second stage.
+
+    Because q1 þ q2 > q in order to collect positive surplus, the stages are connected; output in the early stage signals final project
+value. Said differently, a successful early stage (high q1) means that the project will have an easier time clearing the final hurdle,
+and therefore a higher chance of both parties collecting surplus. Proposition 1 shows that the continuation surplus is monotonic,
+and this generates the cutoff target q⁎. In practice, this q⁎ represents the milestone in between rounds of venture financing. 8 If the
+quality of the project clears this milestone, then the entrepreneur qualifies for the next round of funds. The assumption on outside
+options is key. Without outside options, it would be efficient to continue for any q1 since all parties get nothing by quitting and are
+at least as well off continuing (recall that V is always nonnegative).
+    Proposition 1 shows that staged financing generates more surplus than upfront financing. Under upfront financing, the VC
+does not collect information on early stage output, and therefore advances all projects regardless of their early performance.
+Under staged financing, the investor sorts projects into two groups: stay or quit. The target q⁎ conducts the sorting, in that it
+allows only entrepreneurs with high output to proceed. The VC can always set the target arbitrarily low, which permits
+continuation for all output levels, and hence replicates upfront financing. By setting the target optimally, the VC has an additional
+instrument to maximize total surplus, and therefore must be weakly better off. This suggests that stage financing does more than
+simply minimize agency costs, as the prior literature has argued. Instead, staging is a tool to make both VCs and entrepreneurs
+better off.
+
+3. Effects of staged ﬁnancing
+
+    Now that we know staged financing increases surplus, what is the efficient investment level per stage under the staged
+financing regime? The previous section shows that the continuation decision will take the form of a cut-off rule. Precisely, the VC
+sets some target (or milestone) q⁎ after the first stage, and advances the entrepreneur only if q1 > q⁎. The probability of clearing
+the target is
+                             
+        P 1 ¼ Pr q1 > q ¼ G k1 −q :                                                                                                                        ð12Þ
+
+
+ 7
+   Note that in general k⁎t , which is efﬁcient under staged ﬁnancing, differs from the k^ t from the previous section, which is efﬁcient under upfront ﬁnancing.
+ 8
+   For example, milestones separate early round ﬁnancing (series A) from later round ﬁnancing (series B). New ventures must meet certain targets, such as
+number of employees hired, free cash ﬂow, research and development investments, progress on business plan, etc. These targets constitute the milestone q⁎.
+1198                                      S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+   As expected, this probability increases in first-stage investment since ∂P1/∂k1 = g(k1 − q⁎) > 0. The ex-ante probability of
+success is
+                                  ∞
+       P≡Pr q1 þ q2 > q ; q1 > q ¼ ∫q P ðq1 Þg ðq1 −k1 Þdq1 ;                                                                      ð13Þ
+
+where P ðq1 Þ ¼ Gðq1 þ k2 −q Þ is the interim probability of clearing the final hurdle and capturing V for each realization of q1. Notice
+that
+
+       ∂P      ∞
+           ¼ ∫q−k1 g ðε1 Þg ðε1 þ k1 þ k2 −q Þdε1 > 0;
+       ∂k2
+              ∂P      ∂P ∂P 1                 
+                  ¼        þ      G q þ k2 −q                                                                                       ð14Þ
+             ∂k1 ∂k2 ∂k1
+                                ∂P
+                             >      :
+                                ∂k2
+
+    The returns to investment are positive for both stages, but are higher for the first stage. Additional first stage investment
+increases the probability of success in two ways. First, it increases q1 + q2 and thus directly increases the probability of final
+success. Second, it increases first stage output (q1 = k1 + ε1) and so improves the chance of advancing to the second stage. Hence,
+the marginal benefit of first stage investment exceeds the marginal benefit of second stage investment. It is incorrect to conclude
+from this, however, that it is efficient to invest more in the first stage, since this analysis both ignores the cost of investment, and
+takes q⁎ as given, whereas, in fact, q⁎ is determined simultaneously with the optimal kt. Increasing first stage investment increases
+the chances of advancing to the second stage, and thus increases the probability of bearing the cost of a second stage investment.
+At the optimum, this cost is enough to push k1 below k2. To see this, it is necessary to solve the social planner's problem.
+    The conditional probability of clearing the final hurdle, given that the entrepreneur has reached the target, is
+                                
+       Q ¼ Pr q1 þ q2 > q q1 > q :                                                                                                 ð15Þ
+
+   So the ex-ante probability of clearing the hurdle q is P = P1Q. If the entrepreneur passes the intermediate target q⁎, the planner
+gets V if he clears q and zero otherwise, and bears cost C(k2). If he doesn't pass the intermediate target, the planner gets only ū2. So
+the total surplus is
+
+                                             2 −C ðk1 ÞÞ:
+       P 1 ðQ V−C ðk1 Þ−C ðk2 ÞÞ þ ð1−P 1 Þðu                                                                                        ð16Þ
+
+   Rearranging terms gives the planner's problem
+                                 2 −P 1 C ðk2 Þ;
+       max PV−C ðk1 Þ þ ð1−P 1 Þu                                                                                                    ð17Þ
+        kt;q
+
+
+subject to project feasibility. The last term above is the cost of advancing to the second stage. This cost is increasing in first-stage
+investment. As the VC invests more in stage one, he increases the expected second-stage cost, since larger first-stage investments
+increase the probability of making it to the second-stage. This cost forces first-stage investment downward, ultimately, below
+even second-stage investment. More generally, it is possible to write the planner's objective function in terms of the continuation
+surplus function. So the planner solves
+               ∞
+                                                   2 −C ðk1 Þ;
+       max ∫q Sðq1 ; k2 Þg ðq1 −k1 Þdq1 þ ð1−P 1 Þu                                                                                  ð18Þ
+        kt;q
+
+
+where investment levels kt and the target q are the planner's choice variables, and (k⁎t ,q⁎) denote the efficient choices. The first
+term is the expected value of continuing: the continuation surplus function integrated over all realizations of q1 > q⁎. The middle
+term (1 − P1)ū2 is the expected value of abandoning the project. Both parties collect their outside options if the project does not
+clear the target, which occurs with probability 1 − P1. Note that C(k2) does not appear in the objective function explicitly because
+it is embedded in S(q1,k2). The planner bears the cost of C(k2) only in the event that the entrepreneur advances.
+
+3.1. Primary implication: dynamic capital allocation
+
+  The following proposition solves the planner's problem (19) for the efficient allocation of resources across stages, and is the
+main result.
+
+Theorem 1. It is efficient to invest more in the second stage (k1⁎ b k2⁎).
+
+  Since the planner sets the target optimally, the marginal return of an entrepreneur who cleared the target exceeds the
+marginal return of an entrepreneur in the first stage. Formally,
+               h       i h        
+        ′     ′          ′              ′  
+       C k1 ¼ E S ðq1 Þ bE S ðq1 Þq1 > q ¼ C k2 :                                                                                   ð19Þ
+                                              S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                         1199
+
+
+    The mean marginal return conditional on q1 > q⁎ exceeds the unconditional mean. Since marginal costs are increasing, this
+implies that k1⁎ b k2⁎. The marginal return to investment is lower in stage one precisely because the entrepreneur may not advance
+to the second stage. In this case, he bears the cost C(k1) but acquires the benefit V not with certainty, but with probability less than
+one. This lowers the marginal return in stage one relative to stage two. At the optimum the VC selects kt to set the marginal costs
+equal to the marginal returns, and so he shades investment downward in the early stages. He will allocate more resources in the
+later stages of the project, where the marginal return is higher. Rewriting the first order conditions in terms of the specific
+production function here yields
+
+         ′    ∂P     ∂P=∂k2    ∂Q     ′  
+        C k1 ¼ V     bV        ¼V     ¼ C k2 :                                                                                                             ð20Þ
+                 ∂k2      P1      ∂k2
+
+    Thus, those who make it to the second stage are more valuable precisely because their first stage output was sufficiently high.
+The VC invests more in the later stage because the new venture is “in the running” to becoming highly successful. It is inefficient
+for the VC to dump too many resources into a horse that won't finish the race.
+    Gompers (1995) provides empirical analysis of 794 firms that received VC funding and reports that later rounds obtain larger
+amounts compared to earlier rounds. However, the premise of Gompers (1995) is to explain staged financing as an instrument to
+mitigate agency conflicts. While the data is consistent with such an interpretation, there is no formal theoretical model in his
+paper. In contrast, we develop a formal model that not only generates the same prediction that venture capitalists will stage
+investments and such investments rise with time, but it also generates new comparative statics on the outside options and output
+variance. The agency models on staged financing cited above say nothing on these last two points. We now turn to these
+comparative statics of the model.
+
+4. Secondary implications: comparative statics
+
+   While some prior theoretical work has made explicit predictions on the ratio of investment levels over stages (Giat et al., 2009;
+Hsu, 2002; Neher, 1999), these papers have not made predictions on how this ratio kk12 varies in different environments, such as
+industries with different levels of market risk, projects with different levels of technological feasibility, or more prestigious
+venture capitalists with better outside options. The objective of this section is to explore how the endogenous variables (kt⁎,q⁎)
+vary with the exogenous parameters (u    2 ; v; q ). In particular, the aim is to produce a number of secondary implications that can be
+tested against observed data on venture capital financings. If this ratio k1⁎/k2⁎ increases, the VC skews the investment mix towards
+the early stage, and vice versa. To get traction on the model, er parameterize the cost function as C(kt) = λktγ for some constants
+λ > 0, γ > 1. The next result predicts how the ratio of investment levels varies with the outside options of both parties.
+
+Proposition 2. The ratio of early to late round financing k1⁎/k2⁎ decreases in the outside options ū2.
+
+    As the outside options improve, it is efficient to invest even more money in later rounds. The outside options represent the
+opportunity cost of alternative investments in the second stage. As this opportunity cost increases, investors are more reluctant to fund
+ventures since alternative opportunities are promising. This causes the efficient investment level k1⁎ to sink. However, once those
+ventures do clear the hurdle it is efficient to invest more, so k2⁎ rises. The net effect is that the ratio k1⁎/k2⁎ sinks. Ultimately, good outside
+opportunities allow VCs to withhold early round investments relative to later round investments. Similarly, good outside opportunities
+for the entrepreneur make it tempting for him to abandon projects with low early returns, and therefore this will cause him to invest less
+effort and resources into the project in the early stage. The outside options capture the opportunity cost of investment, and therefore,
+measure the tolerance for poor projects. With high outside options, this tolerance is low, and both parties invest less in the first stage.
+    In practice, there is wide heterogeneity among venture capitalists and entrepreneurs in terms of their outside options. For
+example, VC firms with successful records in bringing new ventures to an IPO and generating outside profits for their limited
+partners will often enjoy high outside options. These VC firms are routinely flooded with capital from limited partners as well as
+with proposals from many different entrepreneurs. 9 Similarly, entrepreneurs vary in their outside options as well. Successful
+managers at existing companies, or entrepreneurs with a prior record of performance in new companies, will no doubt enjoy
+multiple offers from management teams and VCs alike. 10
+    Now consider what happens with an increase in the output variance, i.e. the variance on the error distribution g. For the
+remaining implications, let the cost of investment be quadratic (γ = 2) and the error distribution be uniform.
+
+Proposition 3. As the output variance increases, k⁎t decreases while k1⁎/k2⁎ increases. If u
+                                                                                            2 > V2 , then q⁎ increases.
+
+   As the variance of g increases, it is clear that this will choke off investment in both stages. This is the same intuition from the
+Lazear and Rosen (1981) tournament model, in which increased noise reduces effort incentives. What is not obvious is whether
+
+  9
+    The VC ﬁrms that funded the most successful ﬁrms such as Google in the late 1990s, such as Kleiner Perkins or Sequoia Capital, have higher opportunity costs
+than less successful VC ﬁrms. Lerner and Schoar (2004) document considerable persistence in performance for private equity fund managers. Thus, historically
+successful VCs tend to be highly sought after.
+ 10
+    Sorensen (2007) structurally estimates a two-sided matching model of Silicon Valley VCs and entrepreneurs. He ﬁnds that high quality VCs match with high
+quality entrepreneurs, i.e. he ﬁnds evidence of positive sorting. This suggests that the outside options of the entrepreneur and VC “move together” — when the VC
+has high outside options (high quality), so does the entrepreneur.
+1200                                            S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+the decrease in investment is larger in stage one versus stage two. It seems plausible that an increase in noise will cause the
+entrepreneur to withhold investment in the early round, and work harder in the later rounds. While this logic is compelling, it is
+misleading.
+     An increase in output variance affects later stage investment more than first stage investment. This occurs because the
+marginal benefit to first stage investment exceeds the marginal benefit to second stage investment (see (15)), since investment in
+the first stage not only affects the probability of clearing the final hurdle q , but also of clearing the milestone q⁎. Because the
+investor and the entrepreneur can quit the project if output does not clear q⁎, an increase in the output variance increases the
+upside benefit from continuing. A larger first stage investment increases the chance of capturing this upside, and this gives an
+extra benefit to investing in the early stage rather than the later stage. Therefore, an increase in output variance decreases
+investment in both stages, but decreases late stage investment more than early stage investment.
+     Recall that the stage specific noise terms represent market and technological uncertainty at each stage. In reality, there is
+clearly a variation between different industries on this uncertainty. For example, some industries may have high uncertainty at
+the market level, possibly reflecting difficulty in bringing a new firm to market because of the strategic position of incumbents. On
+the other hand, some industries may exhibit high technological uncertainty, deriving from the production function itself; for
+example, the biological process of drug development may impose higher uncertainty on new biotech firms than technological
+uncertainty in other industries. This variation in market and technological uncertainty can be exploited to predict variation in the
+ratio of investment levels over stages. Finally, observe from Proposition 3 that if the investor and entrepreneur have sufficiently
+good outside options (ū2 > V/2), then they will set higher targets when the output variance increases. So in more risky industries,
+it is efficient to set a higher milestone to justify later round financing.
+
+Proposition 4. As the value of the venture V increases, q⁎ decreases while k1⁎ and k2⁎ both increase.
+
+    This comparative static is perhaps the most straightforward. As the venture becomes more valuable, it is efficient to invest
+more in each round. Said differently, each party is more willing to invest more and bear a higher cost of investment if the resulting
+benefit increases. The proof of the proposition shows that as the variance in the noise terms becomes sufficiently large, the ratio of
+early to late investments k1⁎/k2⁎ does not vary with V. Therefore, even though the VC invests more in each stage, the ratio of
+investments across stages eventually stays constant. On top of this, higher valuation ventures should exhibit lower milestones
+(q⁎) between early and late stages. Since q⁎ and k⁎t both increase, this increases the probability of success, since P1 = G(k1⁎ − q⁎).
+Intuitively, the venture is more valuable, and so, it becomes more desirable to pass at the interim stage, as this generates surplus
+for both parties. Passing the interim hurdle is made easier by simultaneously increasing investments in each stage and decreasing
+the milestone, thereby increasing the probability of investment. It is efficient to do this precisely because the end-game prize V is
+worth more.
+    In practice, measuring q⁎ directly may be difficult, as VCs may not have hard, objective criteria when deciding whether to
+continue funding projects or not. For example, part of the evaluation may be based on instinct for whether the project will be
+successful or not. Nonetheless, higher milestones are harder to clear than lower milestones, and therefore, VCs who set high
+milestones will abandon many ventures at the interim stage. Similarly, VCs with low milestones will tell most of its entrepreneurs
+to continue. Therefore one such empirical proxy for q⁎ is the number of firms abandoned at the interim stage divided by the total
+number of firms funded at the outset. In this sense, the milestone q⁎ reflects the quit rate, or abandonment rate, of the VC and
+entrepreneur.
+
+Proposition 5. As the final hurdle q increases, k1⁎ decreases, q⁎ increases, and k2⁎ is unchanged.
+
+    Recall that q is the final hurdle that output must clear in order for both parties to receive value from the venture, and therefore
+reflects the fundamental difficulty of project completion (because of market or technology factors). As the hurdle increases, it is
+efficient to decrease first stage investments and leave late stage investments unchanged, thus decreasing the ratio of early to late
+stage investments. Formally, q affects the planner's payoffs only through the probability of success P. Specifically, for every q1,
+P ðq1 Þ ¼ Gðq1 þ k2 −q Þ decreases in q . As a result, the expected benefit PV decreases in q . As the benefit sinks, the VC lowers costly
+investment k1. In fact, a marginal increase in q has the opposite effect of a marginal increase in V. As q increases, the VC
+simultaneously decreases k1 and increases q⁎, thus lowering the probability of clearing the target, since P1 = G(k1 − q⁎). In other
+words, when the project's difficulty increases, this lowers the expected benefit to the VC, so he reduces the probability of
+advancing the entrepreneur at the intermediate stage.
+    The concrete empirical prediction is that industries with higher final hurdles should observe more funding in later stages
+(lower kk12 ). Observe that this is the opposite prediction from an increase in variance, as predicted by Proposition 3. As an empirical
+matter, it will be important to distinguish high hurdles from high risk industries. The empirical measures of these variables may
+be close even though the theoretical concepts are quite different. 11 Finally, the comparative static with respect to the
+                                                        
+intermediate target is particularly elegant: ∂q      ∂q
+                                                          ¼ 1. For every unit increase in the final hurdle, it is efficient to increase the
+milestone by exactly that amount.
+    The last comparative static of this section involves the cost of investment. 12 On the VC side, the cost of investment includes the
+transaction costs of deploying capital from existing funds, as well as time and labor spent attracting additional capital from
+ 11
+    For example, consider the market for an AIDS vaccine. It is plausible that AIDS research is both highly risky (high variance on g), and that it is very difﬁcult to
+discover an actual vaccine (high ﬁnal hurdle q ).
+                                                            2
+ 12
+    Recall that the cost of investment is C ðkt Þ ¼ λ2 ðkt Þ , so λ is a parameter that scales the cost of investment.
+                                             S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                        1201
+
+
+institutional investors through raising a new fund. For example, the large influx of capital from public equity into private equity
+over the last twenty years (Prowse, 1998) has made it easier for VCs to raise new funds, and constitutes a reduction in the cost of
+investment λ. As such, Proposition 6 predicts that second stage investments will increase. 13 For the entrepreneur, the cost of
+investment includes his cost of effort as well as the cost of deploying his own capital in the firm. For example, suppose in the very
+early stage of the venture, the entrepreneur finances the project with his own savings and a small loan from the bank. Interest
+rates that govern the bank loan will affect his cost of investment, and hence higher interest rates may correspond to higher λ.
+According to Proposition 6, this results in the VC setting a higher milestone and making a larger second round investment.
+
+Proposition 6. As the cost of investment λ increases, k2⁎ decreases and q⁎ increases.
+
+    Market factors which increase the cost of investment will decrease later round investments and increase the milestone q⁎.
+
+5. Preliminary empirical tests
+
+   The theory of staged financing by venture capitalists presented in this paper has a number of empirical implications. In this
+section, we describe some preliminary evidence to support these implications. We find that the main theoretical result
+(Theorem 1, that funding increases in later rounds) is borne out robustly in our tests. The theoretical model also makes
+predictions about how the optimal amount invested in a particular round, and the ratio of early to late round financing, varies
+with changes in uncertainty, outside options for the VC (and entrepreneur), and the valuation of the venture. We derive empirical
+proxies for the various parameters in the model (such as outside options, output uncertainty, etc.) to test some of the propositions
+derived in Section 4. Some of the other propositions rely on parameters that are nearly impossible to measure (e.g. q⁎, the hurdle
+rate that VCs use internally) and we are unable to test those directly.
+
+5.1. Data and sample selection
+
+    For our empirical test, we use a sample of VC financing rounds obtained by US based firms. The source of our sample is the
+VentureXpert database maintained by Thomson Financial. 14 We collect data on all individual financing rounds classified as
+“Venture Capital Deals” by VentureXpert for the 11 year period starting in January 2000 and ending in December 2010. The basic
+data consists of: date of each financing round, names of VC firms investing in that round, dollar amount invested, and firm's
+industry. For some of the firms, the database also provides the direction of valuation for later rounds. For these rounds,
+VentureXpert notes if the financing occurred at a valuation higher or lower than the valuation at the immediately preceding
+financing round. Finally, VentureXpert database also reports the operating stage of the firm receiving financing at the time of each
+financing round.
+    Following Gompers (1995), we retain only those financing rounds where the firm is classified as one of the following four
+stages: seed stage, early stage, expansion, or later stage. This feature of the data allows us to design tests of Propositions 2 and 3.
+Our final sample consists of 40,685 financing rounds and a total of $368,061 million raised.
+    Table 1 provides calendar year distribution of our sample. Our sample includes the height of the “Dot Com” bubble years of
+2000 and 2001. These two years were remarkable, as the amount invested in aggregate was almost $150 billion, which is almost
+40% of the total financing over the entire 11 year sample period. The average financing round was similarly much higher,
+especially in the year 2000. The data reported is in nominal dollars, which understates the investment boom of the 2000–2001
+period. VC investment shrank dramatically in 2002 and 2003 before it started recovering in 2004. However, the financial crisis in
+2008 appears to have reversed this recovery in VC financing levels, as the aggregate investment fell by over 30% in 2009.
+    Panel A of Table 2 looks at the distribution of VC financing across the 10 industry groups reported by VentureXpert. We report
+the percentage of rounds in each year across different industry groups. Not surprisingly, there are strong industry and time trends.
+At the start of our sample period, 38.9% of financing rounds were for firms classified as “Internet-Specific.” This category shrank to
+roughly 14% in 2004, and was 23% at the end of our sample period. The dramatic decrease is underscored by similar sharp decline
+in “Communication/Media” industry, which touted itself as providing the infrastructure for the growth in internet traffic. Several
+fiber optics and telecom ventures were funded in early 2000, but the category fell out of favor by the end of the sample period.
+Another illustration is the boom in the “Alternative Energy” sector. The “Industrial/Energy” industry reported 1.5% of all financing
+rounds in 2000, but accounted for 7.2% of all deals in 2011. This represents an almost four-fold increase.
+    The results of Table 1 and the industry results described here underscore two widely accepted views about venture capital
+industry. First, there are significant boom and bust cycles, where high realized returns lead to larger funds being raised and
+invested. This leads to a period of low returns, which in turn causes the industry to shrink (Gompers and Lerner, 1999). Second,
+there is significant trend chasing by VC funds. Industry sectors become “hot” and attract disproportionately higher share of
+investments for a while before falling out of favor (Loughran and Shive, 2007). During our sample period, we see this in
+Communications, Internet and Alternative Energy sectors. These findings suggest that we need to control for industry and
+timetrends in our tests.
+
+ 13
+    According to Prowse (1998), the venture capital market grew ﬁve-fold from the years 1980 to 1984 itself. The volume of venture capital available post-1980
+dwarfs the pre-1980 levels.
+ 14
+    This database is one of the two main VC ﬁnancing databases that have been used extensively in existing empirical studies. The other main database is
+VentureOne, offered by Dow Jones.
+1202                                               S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+Table 1
+Calendar time distribution of funding rounds.
+This table reports the distribution of financing rounds and descriptive statistics of funding amounts across all the years in our sample period (2000-2010). The
+sample consists of all Venture Capital related funding rounds in the ThomsonOne VentureXpert database, which are classified as (1) Seed Stage; (2) Early Stage;
+(3) Expansion; and (4) Late Stage. All the amounts are reported in $ millions and are in nominal terms.
+
+  Year        Rounds of VC financing         Total VC investments         Avg. investment per round         25 pctile   Median investment per round   75 pctile
+
+  2000         7567                          104,957                      13.9                              2.5         7.2                           17.0
+  2001         4341                           41,752                       9.6                              1.8         5.0                           12.0
+  2002         2950                           22,333                       7.6                              1.5         4.4                           10.0
+  2003         2721                           19,632                       7.2                              1.8         4.5                            9.4
+  2004         2907                           23,165                       8.0                              2.0         5.0                           10.0
+  2005         3042                           23,643                       7.8                              2.0         5.0                           10.0
+  2006         3531                           27,142                       7.7                              1.6         4.5                           10.0
+  2007         3850                           31,788                       8.3                              1.5         4.6                           10.0
+  2008         3886                           30,248                       7.8                              1.3         4.0                           10.0
+  2009         2777                           20,289                       7.3                              1.0         3.5                            8.4
+  2010         3113                           23,112                       7.4                              1.2         3.6                            9.6
+  Total       40,685                         368,061                       9.0                              1.7         5.0                           11.0
+
+
+
+
+    In Panel B of Table 2, we report the distribution of investment round by the operating stage of the firm receiving the financing.
+VentureXpert uses four categories to denote the operating stage: (1) Seed Stage; (2) Early Stage; (3) Expansion; and (4) Late
+Stage. There are no clear, definite rules for how a firm is classified in each stage. These categories should be viewed as relative
+measures of firm development rather than absolute measures. We denote the “Seed Stage” rounds as “First Stage” investments
+corresponding to k1 in our model. Typically, such investments are the first external investment in a firm. These investments are
+frequently made to entrepreneurs when they are launching the venture. “Early Stage” financing occurs subsequent to Seed Stage,
+and firms receiving this type of funding are more developed. We denote such funding rounds as “Second Stage” financing, which
+corresponds to k2 in our model. For robustness, we also retain the two categories of “Expansion” and “Late Stage” financings for
+firms with a fairly developed product and market strategies. We consolidate these two types of financings in a single category,
+which we denote as “Third Stage”; this should be analogous to k3 in our model. 15 We run our primary tests for relationships
+between First and Second Stage funding amounts as well as for Second and Third Stage financings. Unlike Panel A, we do not see
+dramatic time trends in distribution of VC funding across different stages. There is some evidence that VC financing became more
+focused on late stage investing during the middle of our sample period. However, by the end of the sample period in 2010, the
+relative shares of different stage financings had returned to almost the same levels as at the start of the sample period in 2000.
+
+5.2. Empirical results
+
+    Theorem 1 predicts that the observed funding levels will be significantly higher for the Second Stage compared to First Stage.
+Our first set of tests aim to analyze the amounts provided by VCs across different stage of development (of the firm receiving the
+funding). A straightforward intuitive test for Theorem 1 is to compare average (median) amounts that are invested in different
+stages, and to test if these differences are significant. Table 3 reports average funding amounts for the three stages defined earlier.
+The amounts are adjusted for inflation using the CPI deflator, and are reported in constant 2009 dollars. As we can see, on average,
+the amount invested in the Second Stage is $7.31 million compared to $4.56 million in First Stage. This difference is statistically
+significant at 1% level (t-statistic of 11.85). The median amount in the First Stage is $1.87 million and in the Second Stage is
+$4.24 million. The Wilcoxon rank-sum test static for difference in medians is 27.35, which is significant at the 1% level. The last
+row of Table 3 compares the funding amounts for Second Stage versus Third Stage. Again, the Third Stage funding amounts are
+almost 50% larger both in terms of average as well as median amounts, compared to the Second Stage funding amounts. These
+differences are also statistically significant at the 1% level.
+    While the evidence provided in Table 3 is consistent with the main theoretical prediction, the descriptive statistics in Tables 1
+and 2 show that there are strong calendar and industry level trends. These effects are not controlled for in the simple difference of
+means (medians) tests reported in Table 3. Consequently, to better distinguish the effect of operating stage of firm on the amount
+of funding received from venture capitalists, we test an OLS specification of the following form:
+
+          ðLnAmount Þij ¼ β0 þ β1 ðSecond StageÞi þ β2 ðThird StageÞi
+                        þβ3 ðIndustry DummyÞj þ β4 ðYear DummyÞ                                                                                              ð21Þ
+                        þβ5 ðOther ControlsÞij
+
+
+  The regression results are described in Table 4 and provide a more robust estimate of how operating stage affects the funding
+amount. The dependent variable is the natural log of VC funding provided in round i to firm j. The amounts are in constant 2009
+
+15
+     It is easy to show that the theoretical predictions derived for k⁎1 /k⁎2 will also hold for k⁎   ⁎
+                                                                                                  2 /k3 .
+                                               S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                            1203
+
+
+Table 2
+Percentage of funding rounds by industry and stage of development.
+Panel A describes the industry composition of our sample of VC financings through the sample period. The industry groups are as reported by VentureXpert. Panel
+B provides the same information across the operating stage of the firm raising VC funds. The operating stage is set at the time of the financing round and is based
+on the operating stage classification reported by VentureXpert. We denote the “Seed Stage” rounds as “First Stage”. The “Early Stage” financing is denoted as
+“Second Stage” financing. The two categories of “Expansion” and “Late Stage” financings are consolidated in a single category which we denote as “Third Stage”.
+
+                                2000       2001       2002        2003       2004       2005       2006       2007        2008       2009       2010       Total
+
+                                %          %          %           %          %          %          %          %           %          %          %          %
+
+  Panel A: Industry
+  Biotechnology                  3.2        5.6        7.1         9.0        8.4        8.9        8.9       10.1         9.8       12.1       11.9        8.0
+  Communications/media          10.5       12.2       11.2        11.0       10.7       10.5        9.2        8.3         6.0        5.8        4.2        9.2
+  Computer hardware              2.9        2.9        3.3         3.6        3.9        3.6        3.6        3.8         3.5        3.6        4.0        3.4
+  Computer software             22.9       24.8       28.8        29.1       27.0       24.9       23.1       21.0        20.9       20.3       22.4       23.8
+  Consumer related               3.0        3.6        2.4         2.2        2.9        3.1        3.3        3.5         3.8        3.2        3.0        3.1
+  Industrial/energy              1.5        2.9        2.9         2.8        3.6        3.4        4.6        5.8         7.3        7.3        7.2        4.2
+  Internet specific             38.9       26.3       19.3        15.4       14.3       16.9       19.1       19.9        21.9       21.2       23.0       23.6
+  Medical/health                 6.3        8.7       12.1        12.6       14.1       13.7       13.9       14.0        13.6       15.2       13.5       11.7
+  Other products                 5.0        5.1        4.0         4.3        4.1        4.4        4.3        5.4         5.7        4.9        5.1        4.8
+  Semiconductors                 5.9        7.8        9.1        10.1       11.1       10.7        9.9        8.1         7.5        6.3        5.7        8.1
+
+  Panel B: Stage
+  First Stage                    8.4        5.6        5.3         6.1        6.2        7.3        9.6       11.4        12.4       11.5       10.8        8.6
+  Second Stage                  34.8       26.7       26.4        26.6       27.0       25.9       25.2       25.6        26.0       30.4       34.1       28.7
+  Third Stage                   56.8       67.7       68.3        67.4       66.8       66.8       65.3       63.0        61.6       58.2       55.1       62.7
+
+
+
+
+dollars to adjust for inflation. The regression omits the First Stage rounds and includes dummy variables for the Second Stage and
+Third Stage financing rounds. The regression also includes controls for industry and year of financing. VC industry is characterized
+by strong boom and bust patterns, so the inclusion of year dummies aims to correct for this feature. We also control for it in a
+more direct fashion by including the aggregate fund-raising activity of the VC industry. It can be argued that subsequent to the
+periods when the VC industry has raised significantly higher amounts, VCs will be willing to invest larger amounts per round.
+    In column 1 of Table 4, we report the base model without any controls for industry effects, but include year fixed effects. The
+coefficient for Second Stage dummy variable is 0.70. This is significant at the 1% level. Since the First Stage is the omitted variable,
+the constant term provides an estimate of average amount (in terms of natural logarithm) invested in this stage, after controlling
+for year effects. The coefficient of 7.06 translates into approximately $1.16 million dollars. The coefficient for the Second Stage
+dummy variable is 0.70. This implies that holding all else constant, the amount invested in Second Stage is $2.34 million. Thus,
+after controlling for calendar time effects, the average amount invested in Second Stage is roughly twice as large as the First Stage.
+Thus, the operating stage of a firm receiving VC funding has a significant effect on the amount provided by the VC. The coefficient
+is also significant at the 1% level (t-statistic of 24.90). The coefficient for Third Stage is even higher at 1.17, and also significant at
+the 1% level (t-statistic of 43.05). This implies that holding all else equal, a firm receiving funding at the Third Stage, on average,
+raises $3.75 million. This is almost three times the funding raised in the First Stage and 60% larger than the funding raised in the
+Second Stage.
+    In column 2, we include controls for the firm's industry. The omitted industry category is “Internet Specific.” All industry
+dummies except Computer Hardware have significant coefficients. This underscores significant industry level effects on amounts
+raised. Biotechnology, Medical/Health, Communications, and Semiconductor firms raise larger amounts compared to Internet
+Specific firms, while others raise smaller amounts. However, our main variables of interest are the dummy variables for Second
+Stage and Third Stage. The coefficients for these are 0.73 and 1.21, respectively. Comparing these coefficients to those reported in
+column 1 shows that both the magnitude as well as significance are now even greater. Thus, even after controlling for industry
+and year effects, the operating stage of a firm has a significant economic and statistical effect on the VC amount raised by that firm.
+In the last column of Table 3, we use the incremental aggregate amount raised by Venture Capital funds, instead of year fixed
+effects, to control for trends in VC fund raising. We obtain this data from National Venture Capital Association's year book (2011
+edition). 16 The variable “VC Fundraising” is the total amount raised (in billions of 2009 dollars) in the year prior to the year in
+which the financing round took place. The results are essentially unchanged compared to those reported in column 2. Taken
+together, the results described in Tables 3 and 4 provide significant support for Theorem 1.
+    Proposition 2 predicts that the ratio of funding in First Stage to Second Stage will decrease as the outside options for the
+Venture Capitalist and the entrepreneur increase. Sorensen (2007) finds that high quality VCs match with high quality
+entrepreneurs. This is consistent with industry folklore which attributes VC success to both the quality of VC executives as well as
+their access to quality “deal flow” (Hochberg et al., 2007). In short, we can abstract away from exact make-up of outside options
+for the entrepreneur, as long as we can find a good proxy for outside options enjoyed by the VC. Since the reputation of a VC is
+
+ 16
+     NVCA incrementally measures new commitments to funds raised during the calendar year. For example, a venture capital ﬁrm announces a $200 million fund
+in late 2007, raises $75 million in 2008, and subsequently raises the remaining $125 million in 2009. Nothing would be reﬂected in 2007, $75 million would be
+counted in 2008, and $125 million would be counted in 2009.
+1204                                           S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+Table 3
+Mean (median) amount invested in each stage.
+This table reports the mean and median amount per funding round for different investment stages in our sample of VC financings. The operating stage of the firm
+raising VC funds is set at the time of financing and is based on the operating stage classification reported by VentureXpert. We denote the “Seed Stage” rounds as
+“First Stage”. The “Early Stage” financing is denoted as “Second Stage” financing. The two categories of “Expansion” and “Late Stage” financings are consolidated in
+a single category which we denote as “Third Stage”. All amounts are in thousands of constant 2009 dollars. (*** Significant at 1% level, ** Significant at 5% level,*
+Significant at 10% level).
+
+                              N                     Amount (mean)                   t-test                   Amount (median)                   Wilcoxon ranksum
+
+  First Stage                  3508                  4561                                                    1869
+  Second Stage                11,664                 7310                           –11.85⁎⁎⁎                4240                              –27.35⁎⁎⁎
+  Third Stage                 25,513                12,418                          –28.12⁎⁎⁎                6760                              –31.76⁎⁎⁎
+
+
+
+
+considered to be its most significant characteristic in attracting entrepreneurs (i.e. generating good deal flow), we focus on this
+attribute. To keep our analysis simple and transparent, we use the two lists described by Metrick and Yasuda (2010) as our list of
+highly reputable VCs. While they admit that the lists are subjective, it is based on the following criteria:
+• Firms that are able to raise their carried interest to 30%. This implies there is very high demand by investors to invest in funds
+  sponsored by these VCs, since a typical “average” fund is only able to get a 20% carried interest.
+• The firm had at least one fund with committed capital of $50 million or more, and was able to achieve a value multiple of 5 or
+  greater. This condition ensures that the VC firm had at least one fund that generated extremely high returns for its investors.
+    Metrick and Yasuda (2010) list 15 VC firms that meet the two criteria listed above. They further narrow this list by using even
+stricter criteria: within this list of 15 firms, there are 6 firms that had at least one fund, which had a committed capital of
+$50 million or more, and achieved a value multiple of 10 or greater. This list is reproduced in Appendix B. In order to test
+Proposition 2, we first create the ratio of funds invested in different stages. 17 By construction, this limits our sample to only those
+firms that received financing at least once in two different and chronologically consistent stages. 18 For our study, we create two
+dummy variables, Top_VC1 and Top_VC2. The variable Top_VC2 equals one if at least one of the VCs in the later financing round
+was among the top 15 VC firms identified by Metrick and Yasuda (2010), and zero otherwise. The variable Top_VC1 for a financing
+round equals one if at least one of the VC firms in the later financing round is from the list of top six VC firms, and zero otherwise.
+    Table 5 provides a simple t-test result of the ratio of amounts invested in one stage divided by amounts invested in the following
+stage. In panel A, our sample is restricted to those firms that receive funding in the First Stage and go on to raise money in Second
+Stage. For each company that meets this requirement, we estimate the ratio19 of amounts moved in each round to estimate the
+parameter k1⁎/k2⁎ described in Proposition 2. We divide the sample in two subsamples. The first group only includes those firms that
+obtained their later round financing from a highly reputable VC, i.e., a VC firm listed in either the top 15 or top 6 by Metrick and
+Yasuda (2010). The k1⁎/k2⁎ ratio for firms receiving funding from top VC is 0.88 if the VC is ranked in top 6 and 0.89 if the VC is ranked
+in top 15. The ratio increases to 0.93 if none of the VCs involved in the later round are ranked in the most reputable VC's list. The
+difference is statistically significant (t -statistic of 2.39 and 2.77). In Panel B of Table 5, we reproduce this analysis for firms that were
+able to raise money in both Second Stage and Third Stage. Conceptually, we test to see if the ratio k2⁎/k3⁎ differs systematically
+depending on the reputation (i.e. outside options) of the VC providing the funds. Again, the ratio is 0.99 for non-ranked VCs and 0.93
+(0.95) for the firms raising funds from a top 6 (top 15) VCs. This difference is significant at the 1% level. These results provide
+empirical support for Proposition 2, which predicts that the ratio of funds raised in earlier rounds to later rounds decrease in the
+outside options for the VC.
+    The results described in Table 5 are univariate and do not take into account industry and time effects. To control for these, we
+estimate an OLS model of the following form:
+
+           kt
+                      ¼ β0 þ β1 ðTop VC Þ þ β3 ðIndustry DummyÞj
+          ktþ1    j
+                                                                                                                                                               ð22Þ
+                        þβ4 ðYear DummyÞ
+
+
+    The dependent variable is either the ratio k1⁎/k2⁎ or k2⁎/k3⁎ for a firm j that received funding in two different stages. The variable
+Top_VC1 (Top_VC2) equals one if the later round financing involved at least one VC firm from the list of top 6 VCs (top 15 VCs)
+described in Appendix A. We also include industry and year fixed effects as in models estimated in Table 4. We report our results
+in Table 6. Columns 1 and 2 describe the results when the dependent variable is the ratio of amounts raised in First Stage and
+
+
+
+ 17
+    In cases where there are multiple rounds of ﬁnancing classiﬁed under the same stage, we take the last round of ﬁnancing classiﬁed in that stage and divide it
+by the ﬁrst round of ﬁnancing in the next stage. In our robustness test, we also used the average of all rounds in a particular stage divided by the average of all
+rounds in the subsequent stage. The results remain unchanged.
+ 18
+    To be included, a ﬁrm that receives funding in the ﬁrst stage must also raise funding in the second stage.
+ 19
+    Since ratios are sensitive to extreme outliers, we use logarithm of amounts raised in each round, adjusted for inﬂation.
+                                                  S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                                1205
+
+Table 4
+Regression for funding amounts per round and investment stage.
+This table reports the estimates of the following OLS model:
+
+            ðlnAmount Þij ¼ β 0 þ β 1 ðSecond StageÞi þ β2 ðThird StageÞi þ β 3 ðIndustry DummyÞj
+            þβ4 ðYear DummyÞ þ β 5 ðOther ControlsÞij
+
+
+The dependent variable is the natural log of VC funding provided in round i to firm j. The amounts are in constant 2009 dollars to adjust for inflation. The industry
+groups are as reported by VentureXpert. Internet-specific is the omitted industry group. The operating stage is set at the time of financing and is based on the
+operating stage classification reported by VentureXpert. We denote the “Seed Stage” rounds as “First Stage”. The “Early Stage” financing is denoted as “Second
+Stage” financing. The two categories of “Expansion” and “Late Stage” financings are consolidated in a single category which we denote as “Third Stage”. First Stage
+is the omitted category. Heteroscedastic robust t-statistics for the coefficients are provided in the parentheses. (*** Significant at 1% level, ** Significant at 5% level,
+* Significant at 10% level).
+
+
+                                                                 (1)                                           (2)                                             (3)
+
+  Constant                                                       7.06⁎⁎⁎                                       6.96⁎⁎⁎                                         7.19⁎⁎⁎
+                                                                 (183.72)                                      (172.97)                                        (237.94)
+  Second_Stage                                                   0.70⁎⁎⁎                                       0.73⁎⁎⁎                                         0.75⁎⁎⁎
+                                                                 (24.90)                                       (25.90)                                         (26.75)
+  Third_Stage                                                    1.17⁎⁎⁎                                       1.21⁎⁎⁎                                         1.20⁎⁎⁎
+                                                                 (43.05)                                       (44.46)                                         (44.44)
+  Biotech                                                                                                      0.33⁎⁎⁎                                         0.20⁎⁎⁎
+                                                                                                               (11.12)                                         (6.83)
+  Communications_Media                                                                                         0.27⁎⁎⁎                                         0.24⁎⁎⁎
+                                                                                                               (10.15)                                         (8.84)
+  ComputerHardware                                                                                             0.04                                            −0.03
+                                                                                                               (0.94)                                          (−0.73)
+  ComputerSoftware                                                                                             −0.06⁎⁎⁎                                        −0.11⁎⁎⁎
+                                                                                                               (−3.06)                                         (−5.74)
+  Industrial_Energy                                                                                            −0.02                                           −0.17⁎⁎⁎
+                                                                                                               (−0.49)                                         (−3.98)
+  ConsumerRelated                                                                                              −0.48⁎⁎⁎                                        −0.55⁎⁎⁎
+                                                                                                               (−10.67)                                        (−12.08)
+  Medical_Health                                                                                               0.16⁎⁎⁎                                         0.05⁎⁎
+                                                                                                               (6.03)                                          (2.06)
+  Other_Products                                                                                               −0.17⁎⁎⁎                                        −0.23⁎⁎⁎
+                                                                                                               (−4.50)                                         (−6.02)
+  Semiconductors                                                                                               0.25⁎⁎⁎                                         0.18⁎⁎⁎
+                                                                                                               (8.99)                                          (6.48)
+  VC_FundRaising                                                                                                                                               5.01⁎⁎⁎
+                                                                                                                                                               (22.83)
+  N                                                              40,660                                        40,660                                          40,660
+  R2                                                             0.101                                         0.114                                           0.082
+
+
+
+
+Second Stage (k1⁎/k2⁎). In column 1, we use Top_VC1 to measure the effect of VC reputation on the interstage funding ratio. The
+coefficient for Top_VC1 is − 0.05 and it is significant at the 1% level. If we use Top_VC2 as a proxy for VC reputation, the results are
+essentially unchanged, with a coefficient estimate of − 0.04 (significant at the 1% level). The negative and significant coefficients
+for the VC reputation variable can be interpreted as consistent with predictions of Proposition 2. In columns 3 and 4, we provide
+additional robustness test by using the funding ratio of second and Third Stage (k2⁎/k3⁎) as our dependent variable. Again, the
+coefficient is − 0.06 for Top_VC1 and − 0.05 for Top_VC2. In both models, the reputation of VC is significant at the 1% level. These
+tests provide additional empirical support for the Proposition 2.
+    Proposition 3 describes the effect of output variance on the amount invested (k⁎t ) as well as on the funding ratio (k1⁎/k2⁎). We
+employ the monthly lagged level of implied volatility of S&P 500 (VIX) as a measure of market's anticipation of future uncertainty.
+VIX is reported by Chicago Board Options Exchange Market (CBOE) and is an implied Volatility Index, and can be interpreted as
+the market's expectation of movement for the S&P 500 index (Whaley, 2009). An elevated level of VIX implies a period of high
+future uncertainty, while a low level implies low future uncertainty. We use the daily VIX levels to compute mean monthly VIX
+values. Our basic OLS model is as follows
+
+         ðLnAmount Þij ¼ β0 þ β1 ðLagVIX Þi þ β2 ðSecond StageÞi þ β3 ðThird StageÞi
+                         þβ4 ðIndustry DummyÞj þ β5 ðYear DummyÞ                                                                                                      ð23Þ
+                         þβ6 ðOther ControlsÞij
+
+   The dependent variable is the log of amounts raised in round i. LagVIX is the level of average monthly VIX for the month
+immediately before the month in which the financing round took place. The other variables have been discussed earlier. Table 7A
+reports our estimation results. Column 1 provides a simple estimation with industry and year fixed effects. The coefficient of
+1206                                                 S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+Table 5
+Ratio of funding amounts across different stages and VC reputation.
+This table reports a simple t-test result of the ratio of amounts invested in one stage divided by amounts invested in the following stage. In panel A, our sample is
+restricted to those firms that receive funding in the First Stage and go on to raise money in Second Stage. For each company that meets this requirement we
+estimate the ratio of amounts in each round to estimate the parameter k1⁎/k2⁎ described in Proposition 2. We divide the sample into sub samples. The first group
+only includes those firms that obtained their later round financing from a highly reputable VC , i.e., a VC firm listed in either the top 15 or top 6 by Metrick and
+Yasuda (2010). The second group did not receive funding from a highly ranked VC. Panel B reports the same test for the ratio of Second Stage funding to Third
+Stage funding amounts (k⁎      ⁎
+                           2 /k3 ). (*** Significant at 1% level, ** Significant at 5% level, * Significant at 10% level).
+
+
+                                                                    VC top ranked                                  VC not top ranked                            t-test
+
+  Panel A: First Stage versus Second Stage (k⁎1 /k⁎2 )
+  VC ranked as Top 6                                                0.88                                           0.93                                         2.39⁎⁎
+  Number of observations (N)                                        81                                             1017
+  VC ranked as Top 15                                               0.89                                           0.93                                         2.77⁎⁎⁎
+  Number of observations (N)                                        169                                            929
+
+  Panel B: Second Stage versus Third Stage (k⁎2 /k⁎3 )
+  VC ranked as Top 6                                                0.93                                           0.99                                         5.45⁎⁎⁎
+  Number of observations (N)                                        335                                            3708
+  VC ranked as Top 15                                               0.95                                           0.99                                         6.24⁎⁎⁎
+  Number of observations (N)                                        721                                            3322
+
+
+
+
+LagVix is − 0.56 and is significant at the 1% level. To get an economic intuition, if we assume that the firm being financed is from
+Internet Specific industry group (the omitted industry group) and the LagVIX is at its sample mean of 0.22, the predicted funding
+round amount is approximately $2.82 million. A one standard deviation increase in LagVIX of 0.09 reduces this predicted funding
+
+
+
+Table 6
+Regression for ratio of funding across rounds and VC reputation.
+This table reports the estimates of the following OLS model:
+
+              kt
+                        ¼ β 0 þ β 1 ðTop VC Þ þ β 3 ðIndustry DummyÞj þ β 4 ðYear DummyÞ þ β5 ðOther ControlsÞij
+             ktþ1   j
+
+
+
+
+The dependent variable is either the ratio k1⁎/k2⁎ or k2⁎/k3⁎ for a firm j that received funding in two different stages. Columns 1 and 2 provide the results for the ratio
+of First Stage funding amount to Second Stage funding amount (k1⁎/k2⁎). Columns 3 and 4 report the same estimation using the ratio of Second Stage funding to
+Third Stage funding (k⁎2 /k⁎3 ) as a dependent variable. The variable Top_VC1 (Top_VC2) equals one if the later round financing involved at least one VC firm from
+the list of top 6 VCs (top 15 VCs) described in Appendix B. We also include industry and year fixed effects as in models estimated in Table 4. Internet-specific is the
+omitted industry group. Heteroscedastic robust t-statistics for the coefficients are provided in the parentheses. (*** Significant at 1% level, ** Significant at 5% level,
+* Significant at 10% level).
+
+
+                                                         (1)                               (2)                                (3)                             (4)
+
+  Constant                                               0.89⁎⁎⁎                           0.90⁎⁎⁎                            1.06⁎⁎⁎                         1.06⁎⁎⁎
+                                                         (26.42)                           (26.48)                            (55.96)                         (55.99)
+  Top_VC1                                                −0.05⁎⁎⁎                                                             −0.06⁎⁎⁎
+                                                         (−3.02)                                                              (−7.19)
+  Top_VC2                                                                                  −0.04⁎⁎⁎                                                           −0.05⁎⁎⁎
+                                                                                           (−3.65)                                                            (−7.65)
+  Biotech                                                0.00                              −0.00                              −0.06⁎⁎⁎                        −0.06⁎⁎⁎
+                                                         (0.00)                            (−0.15)                            (−5.42)                         (−5.52)
+  Communications_Media                                   −0.03                             −0.03                              −0.01                           −0.01
+                                                         (−1.42)                           (−1.35)                            (−0.97)                         (−0.81)
+  ComputerHardware                                       0.01                              0.01                               −0.01                           −0.01
+                                                         (0.24)                            (0.25)                             (−0.78)                         (−0.72)
+  ComputerSoftware                                       −0.02                             −0.02                              −0.02⁎⁎                         −0.02⁎⁎
+                                                         (−1.26)                           (−1.35)                            (−2.47)                         (−2.49)
+  Industrial_Energy                                      −0.05⁎                            −0.06⁎⁎                            0.02                            0.02
+                                                         (−1.95)                           (−2.04)                            (0.73)                          (0.68)
+  ConsumerRelated                                        0.06                              0.06                               −0.01                           −0.01
+                                                         (1.33)                            (1.30)                             (−0.48)                         (−0.58)
+  Medical_Health                                         0.02                              0.02                               −0.04⁎⁎⁎                        −0.04⁎⁎⁎
+                                                         (0.86)                            (0.75)                             (−3.96)                         (−3.98)
+  Other_Products                                         0.04                              0.04                               0.03                            0.03
+                                                         (0.88)                            (0.78)                             (1.42)                          (1.36)
+  Semiconductors                                         0.00                              0.00                               −0.05⁎⁎⁎                        −0.04⁎⁎⁎
+                                                         (0.08)                            (0.18)                             (−4.63)                         (−4.46)
+  N                                                      1098                              1098                               4043                            4043
+  R2                                                     0.063                             0.066                              0.040                           0.043
+                                                  S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                            1207
+
+
+Table 7A
+Regression for funding amounts per round and output uncertainty.
+This table reports the estimates of the following OLS model:
+
+            ðlnAmount Þij ¼ β 0 þ β 1 ðLagVIX Þi þ β 2 ðSecond StageÞi þ β 3 ðThird StageÞi þ β4 ðIndustry DummyÞj
+            þβ5 ðYear DummyÞ þ β 6 ðOther ControlsÞij
+
+
+The dependent variable is the natural log of VC funding provided in round i to firm j. The amounts are in constant 2009 dollars to adjust for inflation. VIX is the
+Chicago Board Options Exchange Market Volatility Index, which measures the implied volatility of S&P 500 index options in percentage. LagVIX is the level of
+average monthly VIX for the month immediately before the month in which the financing round took place. The industry groups are as reported by VentureXpert.
+Internet-specific is the omitted industry group. The operating stage is set at the time of financing and is based on the operating stage classification reported by
+VentureXpert. We denote the “Seed Stage” rounds as “First Stage”. The “Early Stage” financing is denoted as “Second Stage” financing. The two categories of
+“Expansion” and “Late Stage” financings are consolidated in a single category which we denote as “Third Stage”. First Stage is the omitted category.
+Heteroscedastic robust t‐statistics for the coefficients are provided in the parentheses. (*** Significant at 1% level, ** Significant at 5% level, * Significant at 10%
+level).
+
+
+                                                                  (1)                                            (2)                                       (3)
+
+  Constant                                                        8.07⁎⁎⁎                                        7.16⁎⁎⁎                                   7.39⁎⁎⁎
+                                                                  (153.74)                                       (126.43)                                  (215.20)
+  LagVIX                                                          −0.56⁎⁎⁎                                       −0.61⁎⁎⁎                                  −0.96⁎⁎⁎
+                                                                  (−4.52)                                        (−5.05)                                   (−11.09)
+  Second_Stage                                                                                                   0.73⁎⁎⁎                                   0.75⁎⁎⁎
+                                                                                                                 (25.95)                                   (26.72)
+  Third_Stage                                                                                                    1.21⁎⁎⁎                                   1.20⁎⁎⁎
+                                                                                                                 (44.53)                                   (44.32)
+  Biotech                                                         0.22⁎⁎⁎                                        0.33⁎⁎⁎                                   0.21⁎⁎⁎
+                                                                  (7.09)                                         (11.14)                                   (6.91)
+  Communications_Media                                            0.32⁎⁎⁎                                        0.27⁎⁎⁎                                   0.23⁎⁎⁎
+                                                                  (11.69)                                        (10.20)                                   (8.59)
+  ComputerHardware                                                0.10⁎⁎                                         0.04                                      −0.03
+                                                                  (2.42)                                         (0.98)                                    (−0.74)
+  ComputerSoftware                                                −0.01                                          −0.06⁎⁎⁎                                  −0.11⁎⁎⁎
+                                                                  (−0.65)                                        (-2.98)                                   (-5.79)
+  Industrial_Energy                                               −0.03                                          −0.02                                     −0.16⁎⁎⁎
+                                                                  (−0.70)                                        (−0.46)                                   (-3.73)
+  ConsumerRelated                                                 −0.41⁎⁎⁎                                       −0.48⁎⁎⁎                                  −0.55⁎⁎⁎
+                                                                  (-8.93)                                        (-10.67)                                  (-12.13)
+  Medical_Health                                                  0.13⁎⁎⁎                                        0.16⁎⁎⁎                                   0.05⁎⁎
+                                                                  (4.97)                                         (6.04)                                    (2.01)
+  Other_Products                                                  −0.11⁎⁎⁎                                       −0.17⁎⁎⁎                                  −0.23⁎⁎⁎
+                                                                  (-2.99)                                        (-4.48)                                   (-6.00)
+  Semiconductors                                                  0.28⁎⁎⁎                                        0.25⁎⁎⁎                                   0.17⁎⁎⁎
+                                                                  (9.59)                                         (8.97)                                    (6.15)
+  VC_FundRaising                                                                                                                                           5.52⁎⁎⁎
+                                                                                                                                                           (24.45)
+  N                                                               40,660                                         40,660                                    40,660
+  R2                                                              0.056                                          0.115                                     0.085
+
+
+
+
+amount by approximately $140,000 (almost 5% reduction). Thus, as predicted by Proposition 2, the observed funding amount
+declines when the overall uncertainty increases.
+   Columns 2 and 3 provide additional robustness checks. In column 2 we report the estimates with additional control for a firm's
+operating stage at the time of funding round. Consistent with our results in Table 4, operating stage continues to be a significant
+determinant of the amount raised in a round. The coefficient on LagVIX is still negative (−0.61) and continues to be significant at the
+1% level. In column 3, we use the VC industry's annual fund raising level instead of year fixed effects. As expected, if the funding round
+happens following a year of high fund raising, the amount invested in such a round is significantly higher, as denoted by positive and
+significant coefficient for VC Fund-raising variable. The coefficient on LagVIX is even more negative (−0.91) and still significant at the
+1% level. Thus, the first prediction arising from Proposition 3 is strongly supported by these results.
+   We next test the second prediction of Proposition 3, which states that the ratio of First Stage funding to Second Stage funding
+amount (k1⁎/k2⁎) will increase as the output variance increases. To test this, we estimate the following OLS model
+
+            k1
+                     ¼ β0 þ β1 ðLagVIX Þ þ β2 ðTopV C Þ þ β3 ðIndustryDummyÞj
+            k2                                                                                                                                                    ð24Þ
+                 j                                              
+                      þβ4 ðYearDummyÞ þ β5 Other Controlsij
+
+
+   The results are described in Table 7B. Columns 1 and 2 use the ratio k1⁎/k2⁎ as the dependent variable. Our results in Tables 5
+and 6 show that the reputation of the VC providing the funds is a significant determinant of the interstage funding ratio. To
+1208                                            S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+Table 7B
+Regression of ratio of funding amounts across subsequent stages and output uncertainty.
+This table reports the estimates of the following OLS model:
+
+             k1
+                  ¼ β0 þ β 1 ðLagVIX Þ þ β2 ðTOpV C Þ þ β3 ðIndustry DummyÞj
+             k2 j
+            þβ4 ðYear DummyÞ þ β 5 ðOther ControlsÞij
+
+
+The dependent variable is either the ratio k1⁎/k2⁎ or k2⁎/k3⁎ for a firm j that received funding in two different stages. VIX is the Chicago Board Options Exchange
+Market Volatility Index, which measures the implied volatility of S&P 500 index options in percentage. LagVIX is the level of average monthly VIX for the month
+immediately before the month in which the financing round took place. Columns 1 and 2 provide the results for the ratio of First Stage funding amount to Second
+Stage funding amount (k⁎      ⁎                                                                                                                             ⁎ ⁎
+                          1 /k2 ). Columns 3 and 4 report the same estimation using the ratio of Second Stage funding to Third Stage funding (k2 /k3 ) as the
+dependent variable. The variable Top_VC1 (Top_VC2) equals one if the later round financing involved at least one VC firm from the list of top 6 VCs (top 15 VCs)
+described in Appendix B. We also include industry and year fixed effects as in models estimated in Table 4. Internet-specific is the omitted industry group.
+Heteroscedastic robust t‐statistics for the coefficients are provided in the parentheses. (*** Significant at 1% level, ** Significant at 5% level, * Significant at 10%
+level).
+
+
+                                                   (1)                                (2)                               (3)                                (4)
+
+  Constant                                         0.85⁎⁎⁎                            0.86⁎⁎⁎                           1.04⁎⁎⁎                            1.04⁎⁎⁎
+                                                   (23.12)                            (23.23)                           (38.24)                            (38.27)
+  LagVIX                                           0.33⁎⁎⁎                            0.33⁎⁎⁎                           0.05                               0.05
+                                                   (3.33)                             (3.33)                            (0.90)                             (1.03)
+  Top_VC1                                          −0.04⁎⁎⁎                                                             −0.06⁎⁎⁎
+                                                   (−2.86)                                                              (−7.12)
+  Top_VC2                                                                             −0.04⁎⁎⁎                                                             −0.05⁎⁎⁎
+                                                                                      (−3.46)                                                              (−7.63)
+  Biotech                                          −0.00                              −0.00                             −0.06⁎⁎⁎                           −0.06⁎⁎⁎
+                                                   (−0.09)                            (−0.23)                           (−5.40)                            (−5.51)
+  Communications_Media                             −0.03                              −0.03                             −0.01                              −0.01
+                                                   (−1.55)                            (−1.49)                           (−0.98)                            (−0.82)
+  ComputerHardware                                 0.01                               0.01                              −0.01                              −0.01
+                                                   (0.27)                             (0.28)                            (−0.79)                            (−0.73)
+  ComputerSoftware                                 −0.02                              −0.03                             −0.02⁎⁎                            −0.02⁎⁎
+                                                   (−1.56)                            (−1.64)                           (−2.52)                            (−2.55)
+  Industrial_Energy                                −0.05⁎                             −0.05⁎                            0.02                               0.02
+                                                   (−1.77)                            (−1.86)                           (0.70)                             (0.64)
+  ConsumerRelated                                  0.06                               0.06                              −0.01                              −0.01
+                                                   (1.42)                             (1.40)                            (−0.50)                            (−0.60)
+  Medical_Health                                   0.02                               0.02                              −0.04⁎⁎⁎                           −0.04⁎⁎⁎
+                                                   (0.95)                             (0.84)                            (−3.94)                            (−3.96)
+  Other_Products                                   0.04                               0.04                              0.03                               0.03
+                                                   (0.89)                             (0.80)                            (1.44)                             (1.38)
+  Semiconductors                                   0.00                               0.00                              −0.05⁎⁎⁎                           −0.04⁎⁎⁎
+                                                   (0.12)                             (0.21)                            (−4.62)                            (−4.46)
+  N                                                1098                               1098                              4043                               4043
+  R2                                               0.081                              0.084                             0.041                              0.043
+
+
+
+
+control for this effect, we include the Top_VC1 (Top_VC2) as additional control in column 1 (column 2). The key variable of interest
+for Proposition 2 is the coefficient for LagVIX, which is predicted to be positive and significant. This coefficient is indeed positive
+and significant at the 1% level when we use the ratio of First Stage funding amount to Second Stage funding amount (k1⁎/k2⁎).
+Independent of what VC reputation control we use, the coefficient is 0.33 and significant at the 1% level. In columns 3 and 4, we
+rerun our OLS model using the ratio of Second Stage funding to Third Stage funding amounts (k2⁎/k3⁎). While the coefficient for
+LagVIX is still positive (0.05), it is no longer statistically significant. Thus, while we are able to provide support for Proposition 3 in
+case of the first two funding rounds, our evidence is weaker as the ratio of Second and Third Stage funding does not appear to be
+associated with expected uncertainty.
+    Finally, we provide some empirical evidence for the Proposition 4, which states that as the valuation of the venture increases,
+any given funding round will be associated with larger amounts of capital raised. To test this proposition, we estimate the
+following model:
+
+         ðlnAmount Þij ¼ β0 þ β1 ðValuationUP Þi þ β2 ðSecond StageÞi þ β3 ðThird Stagei Þ
+                        þβ4 ðIndustryDummyÞj þ β5 ðYearDummyÞ                                                                                                     ð25Þ
+                        þβ6 ðOtherControlsÞij
+
+   The dependent variable is the log of total amount raised by firm j in round i. VentureXpert provides a field titled
+“Valuation Direction”, which describes whether the value of the venture in the current financing round has gone up or down,
+                                                  S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                           1209
+
+
+compared to the most recent round. We create a dummy variable ValuationUP which equals one if the current round is
+being raised at valuation higher than the most recent previous round, and zero otherwise. This information is only
+available for approximately 10% of the overall sample. The results of our tests are reported in Table 8. Column 1 provides
+the estimates for a base model that controls for the industry and time fixed effects. The coefficient for ValuationUp is 0.20.
+Thus, for an Internet-Specific industry firm (the omitted industry group), the expected funding amount increases from
+$5.43 million, if the valuation direction is flat or down, to $6.63 million if the valuation in the current round is higher than
+the previous round. This implies an almost 23% increase, which is economically significant. The coefficient is also
+significant at the 1% level. Column 2 includes the operating stage of the firm at the time of financing as additional
+controls. This specification makes the coefficient for the ValuationUP variable larger and more significant. In column 3, we
+replace year fixed effects by lagged annual fund raising by VC industry. The coefficient for ValuationUp is twice as large
+compared to column 1 (0.42) and strongly significant. The results described in Table 8 provide robust empirical support
+for Proposition 4.
+    Propositions 5 and 6 did not lend themselves to measurement, and therefore we did not test them. These propositions all
+involve variables that are not publicly available, but rather reside inside VC firms, if at all. For example, Proposition 5 postulates a
+relationship between the final hurdle q and first round investment k1⁎, the milestone q⁎, and second round investment k2⁎. Of
+course, VCs do not disclose their final hurdle q , and therefore it is impossible to test this proposition with publicly available data.
+Proposition 6 involves the cost of investment λ, which includes the transaction cost of deploying capital from existing funds, and
+
+
+
+
+Table 8
+Regression for funding amounts per round and valuation change.
+This table reports the estimates of the following OLS model:
+
+            ðlnAmount Þij ¼ β 0 þ β 1 ðValuationUP Þi þ β2 ðSecond StageÞi þ β 3 ðThird StageÞi þ β 4 ðIndustry DummyÞj
+            þβ5 ðYear DummyÞ þ β 6 ðOther ControlsÞij
+
+
+The dependent variable is the natural log of VC funding provided in round i to firm j. The amounts are in constant 2009 dollars to adjust for inflation. VentureXpert
+provides a field titled “Valuation Direction” which describes if the value of the venture in the current financing round has gone up or down compared to the most
+recent previous round. We create a dummy variable ValuationUP which equals one if the current round is being raised at a valuation higher than the most recent
+previous round and zero otherwise. The industry groups are as reported by VentureXpert. Internet-specific is the omitted industry group. The operating stage is
+set at the time of financing and is based on the operating stage classification reported by VentureXpert. We denote the “Seed Stage” rounds as “First Stage”. The
+“Early Stage” financing is denoted as “Second Stage” financing. The two categories of “Expansion” and “Late Stage” financings are consolidated in a single category
+which we denote as “Third Stage”. First Stage is the omitted category. Heteroscedastic robust t‐statistics for the coefficients are provided in the parentheses. (***
+Significant at 1% level, ** Significant at 5% level, * Significant at 10% level).
+
+
+                                                                 (1)                                             (2)                                    (3)
+
+  Constant                                                       8.60⁎⁎⁎                                         7.10⁎⁎⁎                                7.10⁎⁎⁎
+                                                                 (54.54)                                         (30.96)                                (36.44)
+  Valuation_Up                                                   0.20⁎⁎⁎                                         0.27⁎⁎⁎                                0.42⁎⁎⁎
+                                                                 (3.77)                                          (5.46)                                 (8.78)
+  Second_Stage                                                                                                   0.93⁎⁎⁎                                0.96⁎⁎⁎
+                                                                                                                 (5.14)                                 (5.03)
+  Third_Stage                                                                                                    1.72⁎⁎⁎                                1.76⁎⁎⁎
+                                                                                                                 (9.71)                                 (9.47)
+  Biotech                                                        0.31⁎⁎⁎                                         0.38⁎⁎⁎                                0.20⁎⁎⁎
+                                                                 (4.98)                                          (6.41)                                 (3.45)
+  Communications_Media                                           0.48⁎⁎⁎                                         0.46⁎⁎⁎                                0.38⁎⁎⁎
+                                                                 (7.85)                                          (7.85)                                 (6.20)
+  ComputerHardware                                               −0.11                                           −0.15                                  −0.22
+                                                                 (−0.83)                                         (−1.16)                                (−1.64)
+  ComputerSoftware                                               −0.18⁎⁎⁎                                        −0.17⁎⁎⁎                               −0.24⁎⁎⁎
+                                                                 (−3.66)                                         (−3.59)                                (−4.72)
+  Industrial_Energy                                              0.00                                            0.01                                   −0.15
+                                                                 (0.01)                                          (0.08)                                 (−1.11)
+  ConsumerRelated                                                −0.88⁎⁎⁎                                        −0.93⁎⁎⁎                               −1.01⁎⁎⁎
+                                                                 (−5.03)                                         (−5.37)                                (−5.98)
+  Medical_Health                                                 0.13⁎⁎                                          0.14⁎⁎                                 −0.00
+                                                                 (2.19)                                          (2.50)                                 (−0.04)
+  Other_Products                                                 −0.39⁎⁎⁎                                        −0.43⁎⁎⁎                               −0.53⁎⁎⁎
+                                                                 (−2.82)                                         (−3.15)                                (−3.78)
+  Semiconductors                                                 0.27⁎⁎⁎                                         0.30⁎⁎⁎                                0.17⁎⁎⁎
+                                                                 (4.17)                                          (4.76)                                 (2.60)
+  VC_FundRaising                                                                                                                                        3.78⁎⁎⁎
+                                                                                                                                                        (8.42)
+  N                                                              4742                                            4742                                   4742
+  R2                                                             0.111                                           0.187                                  0.138
+1210                                        S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+the time and labor spent attracting new capital, via raising new funds. These are also costs, which are internal to the VC, and they
+are hard to measure.
+
+6. Conclusion
+
+    Staged financing is a fundamental feature of the venture capital market. VCs do not fund new ventures all at once, but instead
+deliver the investments in stages, forcing the project to clear a sequence of milestones in order to guarantee future funding. Not
+only is staged financing efficient, but it skews the allocation of investment towards later stages. Staged financing creates the
+possibility of termination after the early stage, and this introduces uncertainty into the early stage. This uncertainty decreases the
+expected surplus in stage one, and therefore, it is efficient to invest less in stage one. Once the entrepreneur has proven his first
+stage output to be high (q1 > q⁎), this uncertainty vanishes, and expected surplus rises. As a result of this, it is efficient to invest
+more in the later stage.
+    The model produces a number of empirical implications. The secondary implications of the model all predict how the ratio of
+investment levels over stages (k1⁎/k2⁎) varies with the parameters of the model, such as the outside options of both parties, the
+variance in the error distribution, and the difficulty of project completion. We test these predictions against observed data on VC
+financings, and find preliminary support for our model. In particular, our initial empirical exercises show that the main result and
+several of these secondary implications are consistent with publicly available venture capital data. That the model here can be
+tested is both its distinguishing feature and its primary strength.
+    Future work in this area can extend this model in a number of promising directions. For example, the valuation of the project V
+is known by both parties at the outset, though in practice the firm's valuation is highly uncertain prior to the initial public offering.
+Also, it is an open question as to how syndicates of venture capitalists investing simultaneously in a firm will change the
+conclusions of this paper. We assumed throughout that the VC acts as a single entity, though in practice a lead venture capitalist
+provides the majority of the financing while secondary VCs share the risk by holding a minority share of the equity in the firm. We
+are optimistic about future theoretical work in the VC literature that connects theory with empirics, as we do here.
+
+Appendix A
+
+
+
+Proof of Proposition 1. Let S(q1) ≡ S(q1,k2⁎) and q1⁎ = k1⁎ + ε1. Since g > 0,
+
+
+
+        ′          ∂Sðq1 ; k2 Þ    ′                     
+       S ðq1 Þ ¼                 ¼ P ðq1 ÞV ¼ Vg q1 þ k2 −q > 0:
+                      ∂q1
+
+
+
+
+   So continuation surplus is strictly increasing and continuous in q1. Recall that V(q1,q2) → 0 as qt → –∞ for some t. Since ū2 > 0,
+there exists an x small enough such that 0 b S(x) b ū2. Now
+
+
+
+       PV−C ðk1 Þ−C ðk2 Þ ¼ E1 Sðq1 Þ−C ðk1 Þ
+                            ¼ E1 ½E2 V ðq1 ; k2 þ ε2 Þ−C ðk2 Þ−C ðk1 Þ
+                            ¼ EV ðq1 ; q2 Þ−C ðk2 Þ−C ðk1 Þ
+                             1 þ u
+                            ≥u     2;
+
+
+                                                                       
+where the inequality follows from project feasibility. Therefore E1 S q1 > u 2 . By the mean value theorem there exists a y ∈ ℝ such
+that S(y) = ES(q1⁎), and hence S(y) > ū2 > S(x). By the intermediate value theorem there exists a q⁎ ∈ (x,y) such that S(q*) = ū2. If
+S(q1) b ū2, it is efﬁcient to terminate the project. Since S(q1) is monotonically increasing in q1, this holds for q1 b q⁎ as well. ■
+
+Proof of Theorem 1. Recall that
+
+
+       Sðq1 Þ ¼ P ðq1 ÞV−C ðk2 Þ    and P ðq1 Þ→0 as q1 →−∞:
+
+
+
+   The planner solves
+
+               ∞
+                                                   2 −C ðk1 Þ:
+       max ∫q Sðq1 ; k2 Þg ðq1 −k1 Þdq1 þ ð1−P 1 Þu
+        kt;q
+                                                      S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                 1211
+
+
+   The first order conditions with respect to q,k2,k1 are
+
+
+                            ∞ ∂Sðq1 ; k2 Þ                       ′    ∞         ′             
+       Sðq Þ ¼ u
+                 2 ; ∫q                        g q1 −k1 dq1 ¼ 0; C k1 ¼ −∫q Sðq1 Þg q1 −k1 dq1 −g q −k1 u2;
+                                    ∂k2
+
+                                                      ∂Sðq1 ;k2 Þ
+where S(q1) = S(q1,k2⁎), and S′ ðq1 Þ ¼                  ∂q1
+                                                                  .
+
+   In what follows, we write kt for kt⁎ for visual clarity. Substituting S(q*)=ū2 into the last equation and integrating by parts gives
+
+         ′             ∞    ′
+       C ðk1 Þ ¼ ∫q S ðq1 Þg ðq1 −k1 Þdq1 :
+
+   From the continuation surplus function S(q1) = P(q1)V – C(k2),
+
+          S′ ðq1 Þ ¼ g ðq1 þ k2 −q ÞV;
+       ∂S                            ′
+           ¼ g ðq1 þ k2 −q ÞV−C ðk2 Þ:
+       ∂k2
+
+   Combining these gives
+
+
+       ∂S                       ′
+           ¼ g ðq1 þ k2 −q ÞV−C ðk2 Þ:
+       ∂k2
+
+
+   Integrating both sides and combining with the FOC for k2 yields
+
+
+                 ∞ ∂Sðq1 Þ                             ∞    ′                                   ′
+       0 ¼ ∫q                  g ðq1 −k1 Þdq1 ¼ ∫q S ðq1 Þg ðq1 −k1 Þdq1 −P 1 C ðk2 Þ:
+                      ∂k2
+
+where P1 = Pr(q1 > q⁎). Now combining with FOC for k1 gives
+
+         ′             ∞    ′                                    ′         ′
+       C ðk1 Þ ¼ ∫q S ðq1 Þg ðq1 −k1 Þdq1 ¼ P 1 C ðk2 ÞbC ðk2 Þ:
+
+   And, since marginal costs are increasing, this means k1 b k2. ■
+
+Proof of Proposition 2. Consider possible values ūa and ūb for ū2, with ūa corresponding to qa⁎, k1a, and k2a. Let Sa(q1) = S(q1,k2a).
+And let ūb correspond to qb⁎, k1b, and k2b, where Sb(q1) = S(q1,k2b).
+
+Lemma 1. If ūa b ūb, then qa⁎ − k1a b qb⁎ − k1b.
+
+Proof. Suppose the contrary, that qa⁎ − k1a ≥ qb⁎ − k1b. For clarity, write ε for ε1. Let F(k1*, k2*, q*|ū2) be the value function of the social
+planner's objective function, so
+
+                                              ∞
+                         2 Þ ¼ max ∫q Sðq1 ; k2 Þg ðq1 −k1 Þdq1 þ ð1−P 1 Þu
+       F k 1 ; k 2 ; q ju                                                   2 −C ðk1 Þ;
+                                     kt ;q
+
+
+
+where P1 = 1 – G(q⁎ – k1⁎).
+
+   By optimality of (qa⁎, k1a, k2a) and (qb⁎, k1b, k2b),
+
+                                                                                        
+                       
+           a a
+                           a Þ > F kb1 ; kb2 ; qb ju
+       F k 1 ; k 2 ; q a ju                           a Þ and F kb1 ; kb2 ; qb ju
+                                                                                   b Þ > F ka1 ; ka2 ; qa ju
+                                                                                                              b Þ:
+
+
+   Expanding,
+
+                                                                                            
+                 a
+              a −k1            ∞                                        a
+                                                                     a −k1            ∞               a         a
+        a ∫q−∞
+       u
+                                              b            b
+                                                               a ∫q−∞
+                    g ðεÞdε þ ∫q −kb Sb ε þ k1 g ðεÞdε−C k1 bu            g ðεÞdε þ ∫qa −ka Sa ε þ k1 gðεÞdε−C k1 ;                      ðA1Þ
+                                      b      1                                                                            1
+
+
+                                                                                                                
+               −ka            ∞               a          a      qb −kb1            ∞
+        b ∫q−∞
+       u      a   1
+                                                                b ∫−∞
+                    g ðεÞdε þ ∫qa −ka Sa ε þ k1 g ðεÞdε−C k1 bu
+                                                                                                       b            b
+                                                                             g ðεÞdε þ ∫q −kb Sb ε þ k1 g ðεÞdε−C k1 :                    ðA2Þ
+                                             1                                                                    b   1
+1212                                                           S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+   Now, (A1) implies
+
+
+         q −ka
+                                          ∞
+                                                                                      
+        ∫qa −kb1 u a −Sb ε þ kb1 g ðεÞdε þ ∫q −ka Sa ε þ ka1 −Sb ε þ kb1 g ðεÞdε−C ka1 þ C kb1 > 0
+           b       1                           a                        1
+
+
+           q −ka
+                                                  ∞
+                                                                                               
+         ⇒∫qa −kb1                     a g ðεÞdε þ ∫q −ka Sb ε þ kb1 −Sa ε þ ka1 g ðεÞdε þ C ka1 −C kb1 b0:
+                           Sb ε þ kb1 −u
+            b    1                                     a                    1
+
+
+
+
+   And, if qb⁎ − k1b ≤ qa⁎ − k1a), then it also holds that the left-hand side is negative when ūa is replaced by ūb, since ūa b ūb. So
+
+                                                                                  
+        q −ka           b
+       ∫qa −k1b Sb ε þ k1 −u b g ðεÞdε þ ∫∞q −ka Sb ε þ kb1 −Sa ε þ ka1 g ðεÞdε þ C ka1 −C kb1 b0:
+                                              a                         1
+           b       1
+
+
+
+
+   But a similar calculation subtracting the left-hand side of Eq. (A2) from the right shows that the term above is positive.
+Contradiction. Thus, qb⁎ − k1b > qa⁎ − k1a. ■
+
+   By the lemma, if ūa b ūb, then
+
+
+               
+            b       a
+        qb −k1 − qa −k1
+                                             > 0:
+                            a
+                        b −u
+                       u
+
+
+
+
+   Taking the limits gives
+                                                
+       ∂ðq −k1 Þ              qb −kb1 − qa −ka1
+                  ¼ lim                              ≥0:
+          ∂u2     u b →u a             a
+                                      b −u
+                                     u
+
+
+
+   Now P1 = 1 − G(q⁎ − k1), so
+
+       ∂P 1           ∂ðq −k1 Þ
+            ¼ −g q −k1              b0:
+        2
+       ∂u                   ∂u2
+
+
+               ′
+   Since CC ′ ððkk1 ÞÞ ¼ P 1 , this means
+                   2
+
+                           
+       ∂ C ′ ðk1 Þ=C ″ ðk2 Þ                 ∂P 1
+                                         ¼        b0:
+                        2
+                       ∂u                     2
+                                             ∂u
+
+
+                                 ′
+                                              γ−1
+                             γ
+   For C ðkÞ ¼ λk ; CC ′ ððkk1 ÞÞ ¼           k1
+                                              k2
+                                                        , so
+                                     2
+
+
+                                                        γ−2
+       ∂P 1 ∂ðk1 =k2 Þ       k                                       ∂ðk1 =k2 Þ
+           ¼           ðγ−1Þ 1                                 b0⇒              b0;
+        2
+       ∂u     ∂u2           k2                                        ∂u2
+
+
+       since kt > 0, γ > 1. ■
+
+Proof of Proposition 3. Let g be uniform over [–β, β] for β > 0, and take the cost function to be quadratic, so C ðxÞ ¼ λx2 .
+                                                                                                                                      2
+
+
+
+
+   Then,
+
+                             ∞                λ 2 ′                            ∂Sðq1 Þ    ′
+        Sðq1 −k2 Þ ¼ V∫q −q1 g ðq2 −k2 Þdq2 − k2 ; S ðq1 Þ ¼ Vg ðq −q1 k2 Þ;         ¼ S ðq1 Þ−λk2 :
+                                              2                                 ∂k2
+                                                             S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216   1213
+
+
+   This gives first order conditions
+
+                             ∞                λ
+       Sðq Þ ¼ u
+                 2 ⇔V∫q −q g ðq2 −k2 Þdq2 − k22 ¼ u
+                                                     2 :
+                                              2
+         ∞ ∂Sðq1 Þ                             ∞                                    ∞
+       ∫q                 g ðq1 −k1 Þdq1 ¼ 0⇔∫q Vg ðq −q1 −k2 Þg ðq1 −k1 Þdq1 ¼ ∫a λk2 g ðq1 −k1 Þdq1 :
+                 ∂k2
+
+   Since g′ is not defined, use the equivalent formulation
+
+        ′                  ∞   ′                                          ∞
+       C ðk1 Þ ¼ ∫q S ðq1 Þg ðq1 −k1 Þdq1 ⇔λk1 ¼ ∫q Vg ðq −q1 −k2 Þg ðq1 −k1 Þdq1 :
+
+
+                                   
+   Take candidate q̃ ; k̃ 1 ; k̃ 2 values as:
+
+                                                 2
+                   2 −4βV þ 4q V− βλ
+                 8βu                 V
+       q̃ ¼                                          ;                                                                              ðA3Þ
+                                       4V
+                                                         2
+                     2 þ 8βV−4q V þ βλ
+                 −8βu                 V
+       k̃ 1 ¼            2             ;                                                                                          ðA4Þ
+                      4 4β λ−V
+                  V
+       k̃ 2 ¼        :                                                                                                              ðA5Þ
+                 2βλ
+
+    We claim that for β large enough, these values satisfy the three FOCs. For sequences x(n), y(n), say x(n) is asymptotically equal
+to y(n) (i.e. x(n) ~ y(n)) if
+
+             xðnÞ
+       lim             ¼ 1:
+       n→∞ yðnÞ
+
+
+
+   Observe first that as β → ∞,
+
+                                                                                        
+                                                                                        2u
+        limβ→∞ k̃ 1 ¼ 0;                    limβ→∞ k̃ 2 ¼ 0;                  q̃ ∼         −1 β:
+                                                                                        V
+
+          bV; 2Vu −1∈ð−1; 1Þ. Observe that
+   Since u
+
+                       
+       k̃ 1 −βb q̃ f or large enough β:                                                                                             ðA6Þ
+
+                                                                 
+   This holds because k̃ 1 −β∼−β, but q̃ ∼αβ for α ∈ (–1, 1). And
+
+       k̃ 1 bq − k̃ 2 f or large enough β;                                                                                         ðA7Þ
+
+
+since q > 0, and k̃ 1 →0, k̃ 2 →0. Moreover,
+
+        
+       q > q − k̃ 2 −β f or large enough β;                                                                                        ðA8Þ
+
+
+since, q⁎ ~ αβ for α > –1, q − k̃ 2 −β∼−β. Finally,
+
+                 
+       q − q̃ > k̃ 2 −β f or large enough β;                                                                                       ðA9Þ
+
+             
+since q − q̃ ∼ð−α Þβ for α b 1, and k̃ 2 −β∼−β.
+   Now observe that for sufficiently large β
+
+                                 λ 2    V                               
+                                                                               λ 2
+         ∞
+       V∫q − q̃ g q2 − k̃ 2 dq2 − k2 ¼      k̃ 2 þ β− max k̃ 2 −β; q − q̃    − k̃
+                                   2     2β                                        2 2
+                                         V                
+                                                                 λ
+                                       ¼     k̃ þ β−q þ q̃ − k̃ 2 by ¼ u      2;
+                                         2β 2                     2
+
+                                                                                    
+where the last equality follows from plugging in k̃ 2 , q̃ .
+1214                                           S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+
+Claim 1. For large enough β,
+                                      
+        ∞                                        ∞
+       ∫˜q  Vg q −q1 − k̃ 2 g q1 − k̃ 1 dq1 ¼ ∫˜q  λk2 g ðq1 −k1 Þdq1 :
+
+Proof. This holds iff
+
+        V                                                                    
+                                                                                    λ k̃ 2                          
+                  min q − k̃ 2 þ β; β þ k̃ 1 − max q − k̃ 2 −β; −β þ k̃ 1 ; q̃ Þ ¼          k̃ 1 þ β− max q̃ ; k̃ 1 −β ;
+       4β2                                                                           2β
+
+       which, by Eqs. (A6), (A7), and (A8) holds iff
+
+                 V
+       k̃ 2 ¼       :■
+                2βλ
+
+
+Claim 2. For large enough β,
+                                               
+                 ∞
+       λ k̃ 1 ¼ ∫˜q  Vg q −q1 − k̃ 2 g q1 − k̃ 1 dq1 :
+
+Proof. As before in Claim 1, this holds iff
+
+        V              
+                          
+          2
+            k̃ 1 þ β− q̃ ¼ λ k̃ 1 :
+       4β
+
+                               
+   Plugging in k̃ 1 and q̃ confirms that this holds. ■
+
+                                           
+   So, for large enough β; k̃ 1 ; k̃ 2 ; q̃ satisfy the three FOCs. Observe that k̃ 2 ∼ βγ ; k̃ 1 ∼ βδ , and ˜k 1
+                                                                                                             ˜k 2
+                                                                                                                  approaches V−u
+                                                                                                                              V .
+
+
+   In fact,
+
+                                                    !
+                                               V2          k                            
+                           2 Þ−4q V þ
+                  βλ 8βðV−u                               ∂ 1 2λ 4u
+                                               βλ          k2      2 β−6Vβ þ q V þ 4λβ2
+       k̃ 1   ¼                                       ;     ¼                 2          > 0:
+       ˜k 2               2V 4β2 λ−V                      ∂β             V−4λβ2
+
+
+   As β → ∞, this goes as βJ2 where J is positive.
+
+                                                                                                 u
+   Eventually, increasing the width of the support of εt makes kk12 increase to some asymptote 1−
+                                                                                               Vb1 . ■
+                                                                                                                                      
+Proof of Proposition 4. The same argument from the proof of Proposition 3 shows that the candidate values q̃ ; k̃ 1 , and k̃ 2 , given
+by Eqs. (A3), (A4), and (A5), will satisfy the first order conditions. Straightforward computations show that
+
+                          
+       ∂q               ∂k2
+                  and       > 0:
+       ∂V               ∂V
+
+   Furthermore, for large β
+
+
+       ∂k1 1                       ∂ðk1 =k2 Þ
+          ∼  >0            and                →0: ■
+       ∂V βλ                          ∂V
+
+
+Proof of Proposition 5. Straightforward computations on the candidate values ˜q  ; ˜k 1 , and ˜k 2 , defined in Eqs. (A3), (A4), and
+(A5) in the proof of Proposition 3, shows that
+
+
+       ∂k2                                                                      ∂q                                   ∂k1      V
+           ¼ 0;                                                         and         ¼ 1;                                  ¼
+       ∂q                                                                      ∂q                                   ∂q   4β2 λ−V
+
+
+       for sufficiently large β. ■
+                                                S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216                                         1215
+
+
+Proof of Proposition 6. Straightforward calculations on the candidate values ˜q  ; ˜k 1 , and ˜k 2 , from Eqs. (A3), (A4), and (A5) from
+the proof of Proposition 3, show that
+
+
+
+        ∂q   V2                          ∂k2    −V
+            ¼    >0              and          ¼      b0: ■
+        ∂λ βλ2                            ∂λ    2βλ2
+
+
+Appendix B. List of highly reputable venture capital ﬁrms
+
+   In this Appendix we list the top 6 and top 15 VC firms as ranked by Metrick and Yasuda (2010). While they claim that the list is
+subjective, all firms in this list meet the following two benchmarks.
+• Firms that are able to raise their carried interest to 30%. This implies that there is very high demand by investors to invest in
+  funds sponsored by these VCs.
+• The firm had at least one fund with committed capital of $50 million or more and was able to achieve a value multiple of 5 or
+  greater. This condition ensures that the VC firm had at least one fund that generated extremely high returns for its investors.
+    The top 6 VCs in panel A meet an even higher standard of performance. Apart from meeting the 30% carried interest, these
+firms have at least one fund of committed capital of $50 million or larger that achieved a value multiple of 10 or greater.
+
+  VC Firm                                                                         Location                                                     Year of Founding
+
+  Panel A: Top 6
+  Accel Partners                                                                  Palo Alto, CA                                                1983
+  Benchmark Capital                                                               Menlo Park, CA                                               1985
+  Charles River Ventures                                                          Waltham, MA                                                  1970
+  Kleiner Perkins Caufield & Byers                                                Menlo Park, CA                                               1972
+  Matrix Partners                                                                 Waltham, MA                                                  1982
+  Sequoia Capital                                                                 Menlo Park, CA                                               1971
+
+  Panel B: Top 15 (Including all VCs listed in Panel A)
+  Battery Ventures                                                                Wellesley, MA                                                1983
+  Doll Capital Management (DCM)                                                   Menlo Park, CA                                               1996
+  Draper Fisher Jurveston                                                         Menlo Park, CA                                               1986
+  Institutional Venture Partners                                                  Menlo Park, CA                                               1974
+  InterWest Partners                                                              Menlo Park, CA                                               1979
+  Menlo Ventures                                                                  Menlo Park, CA                                               1976
+  New Enterprise Associates                                                       Baltimore, MD                                                1978
+  Summit Partners                                                                 Boston, MA                                                   1984
+  Technology Crossover Ventures                                                   Palo Alto, CA                                                1995
+
+
+
+
+References
+
+Admati, A., Pfleiderer, P., 1994. Robust financial contracting and the role of venture capitalists. J. Finance 49 (2), 371–402 (Jun).
+Bergemann, D., Hege, U., 1998. Venture capital financing, moral hazard, and learning. J. Bank. Finance 22 (3), 703–735.
+Bergemann, D., Hege, U., 2003. The Value of Benchmarking. In: McCahery, J., Rennenboog, L. (Eds.), Venture Capital Contracting and the Valuation of High Tech
+     Firms. Oxford University Press, pp. 83–107.
+Bergemann, D., Hege, U., 2005. The financing of innovation: learning and stopping. RAND J. Econ. 36 (4), 719–752.
+Bergemann, D., Hege, U., Peng, L., 2009. Venture capital and Sequential Investments. Discussion paper, Cowles Foundation for Research in Economics.
+Bienz, C., Hirsch, J., 2009. The Dynamics of Venture Capital Contracts. EFA 2008 athens meetings paper (Feb).
+Cornelli, F., Yosha, O., 2003. Stage financing and the role of convertible securities. Rev. Econ. Stud. 70 (1), 1–32 (Jan).
+Cuny, C., Talmor, E., 2005. The Staging of Venture Capital Financing: Milestone vs. Rounds. EFA 2005 Moscow meetings paper (Apr).
+Elitzur, R., Gavious, A., 2003. A multi-period game theoretic model of venture capitalists and entrepreneurs. Eur. J. Oper. Res. 144, 440–453.
+Fluck, Z., Garrison, K., Myers, S., 2004. Venture Capital: An Experiment in Computational Corporate Finance. Working paper, AFA 2005 Philadelphia Meetings (March).
+Giat, Y., Hackman, S., Subramanian, A., 2009. Venture Capital Investment Under Uncertainty and Asymmetric Beliefs: A Continuous-time, Stochastic Principal–
+     Agent Model. Working paper (March).
+Gompers, P.A., 1995. Optimal investment, monitoring, and the staging of venture capital. J. Finance 50 (5), 1461–1489 (Dec).
+Gompers, P.A., Lerner, J., 1999. The Venture Capital Cycle. The MIT Press. (Sep).
+Hochberg, Y., Ljungqvist, A., Lu, Y., 2007. Whom you know matters: venture capital networks and investment performance. J. Finance 62 (1), 251–302 (February).
+Hsu, Y., 2002. Staging of Venture Capital Investment: A Real Options Analysis. EFMA 2002 London Meetings.
+Krohmer, P., Lauterbach, R., 2005. Private Equity Post-investment phases — the Bright and Dark Side of Staging (Aug) Working paper. J.W. Goethe-Universität
+     Frankfurt, Frankfurt, Germany.
+Landier, A., 2002. Start-up financing: From banks to venture capital. Unpublished manuscript, University of Chicago Graduate School of Business.
+Lazear, E.P., Rosen, S., 1981. Rank-order tournaments as optimum labor contracts. J. Polit. Econ. 89 (5), 841–864 (Oct).
+Lerner, J., Schoar, A., 2004. The illiquidity puzzle: evidence from private equity partnerships. J. Financ. Econ. 72 (2), 3–40 (May).
+1216                                             S. Dahiya, K. Ray / Journal of Corporate Finance 18 (2012) 1193–1216
+
+Loughran, T., Shive, S., 2007. Good Dollars Chasing Bad Dollars: The Impact of Venture Capital Funding on Industry Stock Returns. Tech. rep., University of Notre Dame (May).
+Metrick, A., Yasuda, A., 2010. The Best Venture Capitalists. Venture Capital and the Finance of Innovation. Wiley.
+Neher, D.V., 1999. Staged financing: an agency perspective. Rev. Econ. Stud. 66 (2), 255–274 (Apr).
+Prowse, S., 1998. The economics of the private equity market. Econ. Rev. 3, 21–35.
+Sahlman, W., 1990. The structure and governance of venture-capital organizations. J. Financ. Econ. 27 (2), 473–521 (Oct).
+Sorensen, M., 2007. How smart is smart money? A two-sided matching model of venture capital. J. Finance 62 (6), 2725–2762.
+Wang, S., Zhou, H., 2004. Staged financing in venture capital: moral hazard and risks. J. Corp. Finance 10 (1), 131–155 (Jan).
+Whaley, R., 2009. Understanding the VIX. J. Portf. Manag. 35 (3), 98–105.
+Yerramilli, V., 2006. Staging of Investments: Flexibility vs Incentives. Working paper.
+

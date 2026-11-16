@@ -1,0 +1,1149 @@
+                                                                                                   JOURNAL              OF
+                                                                                                   Raancial
+ELSEVIER              Journal of Financial Economics 42 (1996) 133 156
+                                                                                                   ECONOMICS
+
+
+          Grandstanding in the venture capital industry
+                                                Paul A. Gompers
+                  Harrard Business School. Harvard University. Boston, MA 02163, USA
+
+                       (Received August 1993: final version received February 1996)
+
+
+
+Abstract
+
+   l develop and test the hypothesis that young venture capital firms take companies
+pubic earlier than older venture capital firms in order to establish a reputation and
+successfully raise capital for new funds. Evidence from a sample of 433 IPOs suggests that
+companies backed by young venture capital firms are younger and more underpriced at
+their 1PO than those of established venture capital firms. Moreover, young venture
+capital firms have been on the board of directors a shorter period of time at the IPO, hold
+smaller equity stakes, and time the I P O to precede or coincide with raising money for
+follow-on funds.
+
+Key words: Venture capital: Initial public offerings: Reputation
+J E L classification: G2; G3
+
+
+
+
+1. Introduction
+
+    R e p u t a t i o n a n d its effect o n a t t r a c t i n g c a p i t a l are i m p o r t a n t t o p i c s in r e c e n t
+c o r p o r a t e f i n a n c e research. T h e o r e t i c a l w o r k by D i a m o n d (1989) s h o w s t h a t
+r e p u t a t i o n c a n be i m p o r t a n t in a c c e s s i n g d e b t a n d e q u i t y m a r k e t s . E m p i r i c a l
+
+
+
+
+[ wish to thank Larry Dann (the referee), Oliver Hart, Steve Kaplan, Josh Lerner, Andrew Metrick,
+Wayne Mikkelson {the editor), James Poterba, Richard Ruback, Bill Sahlman, Andrei Shleifer,
+Jeremy Stein, and Rob Vishny for helpful discussions and suggestions. ! would also like to thank
+seminar participants at Columbia, Duke, Harvard, New York, Northwestern, Stanford, and Yale
+Universities and the Universities of California (Berkeley}, Chicago, and Rochester for their com-
+ments. 1 wish to thank Michael Vetsuypens, Jay Ritter, Jesse Reyes, Robert Moreland, Tim
+Bliamptis, and T. Bondurant French for generously providing data. Any errors or omissions are my
+own. This research was funded by the Division of Research at the Graduate School of Business
+Administration, Harvard University.
+
+0304-405X/96/$15.00 :c 1996 Elsevier Science S.A. All rights reserved
+SSDI 0 3 0 4 - 4 0 5 X ( 9 6 J 0 0 8 7 4 - 4
+134            P.A. Gompers~Journal ~/'Financial Economics 42 (1996) 133 156
+
+
+research by Sirri and Tufano (1993) and Chevalier and Ellison (1995) demon-
+strates that past performance is a strong indicator of the ability to attract
+investors. This study analyzes venture capital organizations to provide new
+evidence about the relation between performance and capital raising and its
+implications for fund managers' incentives. I argue that young venture capital
+firms have incentives to grandstand, i.e., they take actions that signal their
+ability to potential investors. 1 Specifically, young venture capital firms bring
+companies public earlier than older venture capital firms in an effort to establish
+a reputation and successfully raise capital for new funds.
+   The importance and size of the venture capital industry have increased
+dramatically since 1978 when 211 venture capital firms invested $218 million of
+new capital and managed a capital pool of $2.5 billion. By 1988, 658 venture
+capital firms invested $4.2 billion and managed an aggregate capital pool of $ 3 l
+billion (Venture Economics, 1988). Barry, Muscarella, Peavy, and Vetsuypens
+(1990), Megginson and Weiss (1991), and Lerner (1994) document the important
+role that venture capitalists play in bringing companies public.
+   The venture capital industry is particularly well suited for examining reputa-
+tion and capital raising because most venture capital organizations raise money
+in limited partnerships. These partnerships have finite lifetimes, so that a venture
+firm must periodically completely recapitalize itself by raising a new limited
+partnership. A venture capital organization would cease operations without
+raising a new fund. This puts pressure on young venture capital firms to
+establish a reputation and raise a new fund within a short, predetermined time.
+   Empirical tests for a sample of 433 venture-backed initial public offerings
+(IPOs) from January 1, 1978 through December 31, 1987 and a second sample
+consisting of the first IPO brought to market by 62 venture capital funds
+support predictions of the grandstanding hypothesis. For example, the effect of
+recent performance in the IPO market on the amount of capital raised is
+stronger for young venture capital firms, providing them with greater incentive
+to bring companies public earlier. Similarly, young venture capital firms raise
+new funds closer to the IPO. Young venture capital firms have been on the IPO
+company's board of directors 14 months less than older venture firms, hold
+smaller percentage equity stakes at the time of IPO than the stakes held by
+established venture firms, and the IPO companies they finance are nearly two
+years younger and more underpriced when they go public than companies
+backed by older venture capital firms. Much of the difference in underpricing
+and the venture capitalists' percentage equity stake is associated with a shorter
+duration of board representation, indicating that rushing companies to the IPO
+market imposes costs on the venture firm. The results suggest that the relation
+
+
+1Webster's Third New International Dictionary defines the verb "to grandstand" as 'to act or
+conduct oneselfwith a view to impressingonlookers'.
+              P.A. Gompers/Journal of Financial Economics 42 (1996) 133 156      135
+
+
+between performance and capital raising affects the incentives and actions of
+venture capitalists.
+
+
+2. Incentives to grandstand
+
+   Gompers and Lerner (1995a) show that over 80% of venture capital funds are
+organized as limited partnerships with predefined lifetimes, usually ten years
+with an option to extend the fund for up to three years. Venture capitalists must
+therefore liquidate investments and distribute proceeds to investors within that
+time. Consequently, no new investments are made after the first four or five
+years of a fund. The predetermined lifetime of a particular fund means that
+venture capital firms must periodically raise follow-on partnerships to remain
+active in venture capital financing. Venture capital firms may have two or three
+overlapping funds each starting three to six years after the previous fund.
+   Gompers and Lerner (1995a) also find that most limited partners in venture
+capital funds are institutional investors whose role in the day-to-day operations
+of the fund is restricted by law if they are to retain limited liability. Limited
+partners receive periodic updates about the status of projects and new invest-
+ment activity within the portfolio managed by the venture capitalist, but they do
+not participate in policy decisions. Evaluating a venture capitalist's ability is
+therefore difficult. Investors thus search for signals of ability when evaluating
+venture capitalists.
+   Theoretical and empirical research on other types of investment funds demon-
+strate the importance of reputation and fund performance in raising capital.
+Lakonishok, Shleifer, Thaler, and Vishny (1991), Patel, Zeckhauser, and Hen-
+dricks (1991), and Sirri and Tufano (1993) examine fundraising and investment
+patterns of various types of institutional fund managers and find that past
+performance influences fundraising ability. Stein (1988, 1989) and Rajan (1993)
+develop models in which investors' horizons lead to managerial decisions that
+do not maximize shareholder value. Incentives to boost performance in the
+short run lead to activities that lower firm value. Chevalier and Ellison (1995)
+show that the relative performance of mutual fund managers affects growth in
+capital contributions to their funds. Funds that underperform the market in the
+first nine months of a year have an incentive to increase the riskiness of their
+portfolio. This incentive is particularly strong for new mutual funds.
+   A formal model of grandstanding is developed in Gompers (1993) and
+demonstrates that new venture capital firms are willing to incur costs by taking
+companies public earlier than would maximize the return on those individual
+companies and earlier than would an established venture capital firm. I assume
+that venture capitalists have different abilities to select or create companies that
+have a high probability of going public. The most effective way of signaling
+ability or the value of portfolio companies might therefore be to bring one of the
+136              P.A. Gompers~Journal o/'Financial Economics 42 (1996) 133 156
+
+
+portfolio companies public in an IPO. 2 Sahlman (1990) d o c u m e n t s that almost
+all of the returns for investors in venture capital are earned on companies that
+eventually go public.
+   If investors believe that high-ability venture capitalists are more likely to fund
+companies that eventually go public, then taking a portfolio c o m p a n y public
+would be interpreted as a sign that the venture capitalist is skilled at financing
+start-up companies. After an I P O , investors increase their assessment of the
+venture capitalist's ability. Because investors know more about older venture
+capital firms, an additional I P O will not affect their beliefs a b o u t an old firm's
+ability as much as it would their beliefs about a y o u n g venture firm's ability.
+   If the a m o u n t of capital that venture capitalists can raise is an increasing
+function of their perceived ability, and the costs of earlier I P O s (e.g., greater
+underpricing or smaller equity stakes) are not trivial, then only y o u n g venture
+capital firms are willing to incur those costs. Old venture capital firms with g o o d
+reputations do not need to signal, because investors have evaluated their
+performance over m a n y years and believe in their high ability. O n l y new venture
+capital firms will benefit from signaling in the I P O market. Firms that are
+believed to be of low quality (through their inability to bring companies public)
+are unable to raise new funds. D i a m o n d (1989) shows how reputation can
+similarly affect the debt market. In his model, y o u n g borrowers choose risky
+projects. If they survive for a certain length of time and acquire reputations as
+reliable borrowers, their investment behavior changes and they choose safe
+projects. Age becomes a proxy for reputation. Reputation can work in a similar
+way in the venture capital industry.
+   The grandstanding hypothesis predicts that the relation between bringing
+companies public and fundraising ability should be stronger for y o u n g venture
+capital firms. Each additional I P O attracts relatively more capital from inves-
+tors for a y o u n g venture capital firm than for an old venture capital firm. An
+additional I P O changes investors' estimates of a y o u n g venture capitalist's
+ability more than it does their estimate of an old venture capitalist's ability.
+Therefore, if we c o m p a r e the fundraising activity of venture capital firms, each
+additional I P O for a y o u n g venture capital firm attracts significantly more
+capital than each additional I P O for an older venture capital firm. Because the
+reputation of established venture capital firms is affected less by doing an I P O ,
+the incentive to raise new funds immediately following an I P O should be
+smaller. If we c o m p a r e the average time from an I P O to the closing of the
+
+
+ 2By convention, most investments in a venture capital portfolio are held at book value until the next
+ round of financing or an IPO occurs. Limited partners are often concerned that a venture capital
+fund may make a small investment in a company at a higher price in order to write-up the value of
+all previous investments in that company to the new price even though that price may not be
+justified. For most investors the only meaningful price is therefore one established in the public
+market.
+              P.A. Gompers~Journal ~?]'Financial Economics 42 (1996) 133 156        137
+
+
+venture capital firm's next fund, young venture firms will raise money sooner
+than older venture firms.
+   The relation between reputation and capital raising is consistent with indus-
+try wisdom. Established venture capital firms with long track records raise large
+funds quickly and with little effort. When Greylock Management Company, one
+of the nation's oldest and most prestigious firms, began their eighth venture fund
+early in 1994, they collected more than $175 million in only a few months ($150
+million had originally been targeted). All of the investors in Greylock's new fund
+were previous Greylock investors.
+   Venture capital firms in their first fund who have shown no returns find it
+difficult to raise new money. These firms may have strong incentives to grand-
+stand. For example, H u m m e r - W i n b l a d formed its first venture capital fund
+in 1989. When H u m m e r - W i n b l a d tried to raise a second fund in 1992, they
+found it extremely difficult to attract investors despite nearly a half-year of
+marketing. This lack of interest stemmed largely from the lack of successes;
+Hummer Winblad had never taken a firm public. After Powersoft, one of
+their investments, went public on February 3, 1993, H u m m e r - W i n b l a d raised a
+$60 million second fund in a few months.
+   An additional prediction of the grandstanding hypothesis is that companies
+brought to market by young venture capital firms should be less mature.
+I examine two measures of IPO maturity. The age of the offering company at the
+time of issue is one measure of an early IPO. If new venture capital firms
+grandstand, companies they back will be younger at the offering date than
+companies backed by older venture firms. Similarly, if young venture capital
+firms rush companies to market (compared to older venture capital firms), they
+will have shorter relationships and will have served on the boards of IPO
+companies for a shorter length of time.
+   One cost incurred by new venture capital firms doing early 1POs is greater
+underpricing. Muscarella and Vetsuypens (1989) show that the older the firm at
+IPO (controlling for various factors), the lower the underpricing. As in Rock's
+(1986) IPO model, older firms have longer track records, reducing asymmetric
+information and underpricing. Models of IPO underpricing (Welch, 1989;
+Grinblatt and Hwang, 1989; Allen and Faulhaber, 1989) view underpricing as
+a costly signal of a company's quality. The greater the uncertainty surrounding
+a company, the greater the underpricing. A company that goes to market earlier
+is younger and has less information available for evaluation by potential
+investors and so is underpriced to a greater degree. Underpricing is a real loss
+for the venture capital firm because it transfers wealth from existing share-
+holders (including the venture capitalist) to new shareholders. Companies
+brought to market by young venture capital firms should therefore be more
+underpriced at the IPO.
+   Additional costs occur when bringing a company to market early reduces
+prospects for future growth. The venture capitalist may bear much of the cost of
+138           P.A. Gompers~Journal ~/ Financial Economics 42 (1996) 133-156
+
+
+taking companies public early by receiving a smaller equity stake. A comparison
+of the equity stakes of young and old venture capital firms should reveal that
+venture capitalists investing in a company with a young lead venture capital firm
+should hold a smaller percentage of the offering company's equity at the IPO
+date.
+   The grandstanding hypothesis predicts that young venture capital firms incur
+the costs of signaling because the company goes public earlier than if it had been
+financed by a more established venture capitalist. When the costs associated
+with an IPO are examined in regressions, the age of the IPO company and the
+length of the venture capitalist's board service should explain some of the
+difference in underpricing and percentage equity stakes at IPO between young
+and established venture capital providers. It is not the presence of a young
+venture backer that increases underpricing and reduces equity stakes but rather
+the early timing of the IPO. The age of the offering company and the length of
+board service should be negatively related to underpricing and positively related
+to the size of the venture capitalist's equity stake.
+
+
+
+3. Empirical results
+
+3.1. Data set and descriptive statistics
+
+   Two samples are used to test the predictions of the grandstanding hypothesis.
+The first sample, collected and described by Barry, Muscarella, Peavy, and
+Vetsuypens (1990), consists of 433 venture-backed IPOs taken public between
+January 1, 1978 and December 31, 1987. Kemper Financial Services and
+Brinson Partners, two investment advisors, supplied a second data set that
+includes all IPOs for 62 venture capital funds between August 1, 1983 and July
+31, 1993. This data set is useful for addressing potential selection biases in the
+first sample. IPO prospectuses are from Harvard Business School's SEC docu-
+ment collection.
+   Barry et al. identify their sample using the Venture Capital Journal, which
+regularly publishes information on such IPOs. The sample of 433 excludes any
+1POs for which a venture capital investor could not be identified, reverse LBOs,
+and IPOs for which the offering prospectus was unavailable. For the age of the
+venture capital firm and the offering company at IPO, I searched the
+Lexis/Nexis's C O M P N Y database for incorporation and partnership filings.
+I also use Ritter's (1991) IPO dataset to cross-check incorporation dates,
+offering size, and underpricing. For age at IPO, I always use the earliest
+incorporation date. Dates and sizes of new funds are from Venture Economics,
+a consulting firm that tracks investments and fundraising by venture capital
+firms.
+                 P.A. Gompers/Journal of Financial Economics 42 (1996) 133 156                       139
+
+    Venture capitalists most often syndicate their investments with other venture
+capitalists. W h e n this occurs, one investor usually takes the role of lead venture
+capitalist. This investor ordinarily has significant control over the decisions of
+the firm and more actively monitors the c o m p a n y t h r o u g h b o a r d service.
+I classify the firm that has been on the board the longest as the lead venture
+capitalist; this classification differs from that of Barry et al. (1990), who classify
+the lead venture capitalist as the firm that owns the largest equity stake and has
+a b o a r d seat. If two firms have been on the b o a r d the same length of time,
+I designate the larger equity holder as the lead. G o r m a n and Sahlman (1989)
+find that the venture capital firm originating the investment is usually the firm
+that acquires a board seat first and has the most input into the decisions of the
+offering c o m p a n y . The originating firm does not always end up owning the
+largest stake at I P O .
+   To test the grandstanding hypothesis, I divide the sample of venture-backed
+companies into two groups: those backed by experienced venture capital firms
+and those backed by y o u n g venture capital firms. The age of the lead venture
+capital firm at I P O serves as a proxy for reputation, although it is an imperfect
+measure of reputation because experienced partners sometimes leave to start
+new venture capital firms, which effect would tend to bias the results away from
+seeing any difference between new and old venture capital firms. I classify all
+lead venture capital firms that are under six years old at the I P O date as y o u n g
+and those that are six years old or more as old. The results are not sensitive to
+cutoffs between four and ten years. 3
+   Table 1 presents s u m m a r y information for the I P O s backed by y o u n g and old
+venture capital firms. Younger venture capital firms bring companies public
+closer to the firms' next fund, an average (median) of 16 m o n t h s (12) prior to the
+next fund for y o u n g venture capital firms and 24 (24) m o n t h s prior for old
+venture capital firms. The Venture Economics F u n d s database shows that
+experienced venture capital firms raise new funds every two to four years while
+y o u n g venture capital firms raise new m o n e y only every five or six years. If I P O s
+occur randomly, the average I P O for an old venture capital firm should be
+closer to its next fund than the average I P O for a new venture capital firm.
+Because it takes approximately one year to solicit m o n e y and close a new fund,
+the eight-to-twelve-month difference implies that y o u n g venture capital firms
+could be bringing companies public in the period immediately preceding or
+
+
+-~The use of a dummy variable addresses potential nonlinearities in the reputation measure. Typical
+funds invest all their capital in the first five years and harvest investments during the last five. The
+firm is likely to run out of cash in the fifth year and must raise a new fund before then. After a second
+fund has been raised, the pressure to grandstand is greatly reduced or eliminated. To check the
+robustness of the results, 1 also run regression using the natural logarithm to the venture capital
+firm's age instead of the dummy variable. Results are qualitatively similar using the logarithm of age
+specification.
+140              P.A. Gompers/Journal o/Financial Economics 42 (1996) 133 156
+
+Table 1
+Comparison of the characteristics for initial public offerings backed by young and old venture
+capital firms
+Sample is 433 venture-backed companies that went public between January 1, 1978 and December
+31, 1987. Medians are in brackets. Significance tests in the third column are p-values of t-tests for
+difference in averages and p-values of two-sample Wilcoxon rank-sum tests for difference in medians
+in brackets.
+
+                                           Venture capital        Venture capital
+                                           firms less than        firms six years         p-value
+                                           six years old          old or greater          test of no
+                                           at !PO                 at IPO                  difference
+
+Average time from lPO date to               16.0                    24.2                   0.001
+  next follow-on fund                      [12.0]                  [24.0]                 [0.002]
+  in months
+Average size of next follow-on              77.5                   120.4                   0.018
+  fund in millions of dollars              [55.9]                  [99.9]                 [0.024]
+Average age of venture-backed               55.1                    79.6                   0.000
+ company at [PO date                       [42.0]                  [64.0]                 [0.000]
+  in months
+Average duration of board                   24.5                    38.8                   0.001
+  representation for lead venture          [20.0]                  [28.0]                 [0.000]
+  capital firm in months
+Average uuderpricing                         0.136                   0.073                 0.00l
+  at the IPO date                           [0.067]                 [_0.027]              [0.036]
+Average offering size in                     16.1                   21.8                   0.013
+  millions of dollars                      [ I 1.5]                [ 16.8]                [0.000]
+Average Carter and Manaster                  6.26                    7.43                  0.000
+  underwriter rank                          [6.50]                  [8.00]                [0.000]
+Average number                               1                       6                     0.000
+  of previous IPOs                          [0 ]                    [4 ]                  [0.000]
+Average fraction of equity held              0.321                   0.377                 0.025
+  by all venture capitalists                [0.287]                 [0.371]               [0.024]
+  prior to IPO
+Average fraction of equity held              0.122                   0.139                 0.098
+  by lead venture capitalist                [0.100]                 [0.120]               [0.031 ]
+  after I PO
+Average market value of lead                 8.40                   12.93                  0.033
+  venture capitalist's equity after         [3.79]                  [7.65]                [0.000]
+  IPO in millions of dollars
+Average aftermarket                          0.034                   0.030                 0.080
+  standard deviation                        [0.030]                 [0.028]               [0.324]
+Number                                             99                  240
+              P.A. Gompers~Journal qf Financial Economics 42 (1996) 133 ~ 156     141
+
+
+during the time they are raising money while established firms are not. The
+average size of a new venture capital firm's next fund ($77.5 million) is also
+smaller than the size of an old venture firm's next fund ($120.4 million).
+   Summary statistics in Table 1 for the maturity of the IPO company also
+support the predictions of the grandstanding hypothesis. The average (median)
+age of the offering company is 56 (42) months for IPOs backed by young venture
+capitalists and 80 (64) months for IPOs backed by old venture capitalists.
+Similarly, young venture capital firms sit on the board of directors for a shorter
+period of time with an average (median) 25 (20) months for young venture firms
+versus 39 (28) months for established venture firms.
+   Table 1 also shows that unseasoned venture capital firms bring to market
+IPOs that are more underpriced. The average (median) underpricing at the IPO
+date is 13.6% (6.7%) for IPOs brought to market by young venture capital firms
+versus 7.3% (2.7%) for older venture capital firms. The average offering size is
+also significantly smaller for IPOs brought to market by young venture capital
+firms and old venture capital firms tend to use higher-quality underwriters (the
+established venture capital firms may have contacts with more reputable under-
+writers through previous | P O s or other business dealings). As expected, on
+average old venture capital firms have financed more companies that have gone
+public (6.0) than have unseasoned venture capital firms (1.0).
+   The summary statistics in Table 1 show that venture capitalists receive
+a significantly smaller share of the equity in companies that go public when the
+lead venture capital firm is under six years old. The average (median) equity
+stake of all venture capital investors is 32.1% (28.7%) of the equity prior to the
+IPO when the lead venture capital firm is under six years old compared to
+37.7% (37.1%) when the lead venture capital firm is older.
+   The market value of the lead venture capitalist's equity stake is also signifi-
+cantly lower for new venture capital organizations. IPO prospectuses indicate
+the number of shares sold in the IPO and the number of shares held after IPO by
+the lead venture capitalist. In calculating the market value of shares sold,
+I assume that the venture capitalist receives the | P O offering price for all shares
+sold in the IPO. Shares held after IPO are valued at the first price listed on the
+Center for Research in Security Prices (CRSP) data tapes. The first price listed
+on CRSP is usually (but not always) on the IPO date, but it is never more than
+several days from the listed IPO date. Table 1 shows that the average (median)
+market value of a young lead venture capital firm's equity stake is $8.4 ($3.8)
+million while the market value of an established lead venture capital firm's
+equity stake is $12.9 ($7.7) million. These summary statistics are consistent with
+the grandstanding hypothesis. Young venture capital firms bring companies
+public early and bear real costs through greater underpricing and lower-valued
+equity stakes, although the company going public also bears some of the cost.
+   An alternative explanation for the differences in firm age and board service is
+a selection bias caused by classifying young venture capital firms as all firms that
+142            P.A Gompers~Journal O#kTnancial Economics 42 (1996) 133 156
+
+are under six years old. The age of the venture capital firm might be correlated
+with the age of the I P O company without a causal relationship. By definition, no
+young venture capital firm will have been on the board of the I P O company for
+more than 71 months. This would cause companies brought to market by young
+venture capital firms to have shorter venture capitalist board representation on
+average even though the I P O process was the same for young and old venture
+capital firms.
+   This potential selection bias should not be important because the length of
+time that the typical investment is held from first funding to I P O is significantly
+less than 71 months. G o m p e r s (1995a) shows that the average (median) time
+from first-round venture financing to I P O date for a sample of 127 venture-
+backed I P O s is 34 (31) months. While the date of initial funding is unknown for
+my sample, in virtually all cases of first-round financing the venture capital firm
+receives a seat on the board of directors. 4 Old venture capital firms are on the
+board for an average (median) of 39 (28) months while new venture capital firms
+are on the board 25 (20) months.
+   To determine the extent of the selection bias, I use the second set of I P O s
+provided by Kemper Financial Services and Brinson Partners for the period
+August 1, 1983 to July 31, 1993. The sample consists of 19 venture capital firms
+in their first fund and 43 venture capital firms in their second fund or later.
+Funds that had not performed an I P O prior to July 1993 are excluded. From the
+complete fund histories, I identify the first I P O brought to market by each fund.
+I compare the characteristics of the first I P O for first-fund venture capital firms
+to the first I P O of second-or-later-fund venture capital firms. Because a success-
+ful venture fund may have only two or three IPOs, the first I P O is a strong
+signal of ability to take companies public. Comparing first I P O s for various
+funds eliminates any selection bias but sacrifices sample size.
+   Table 2 presents summary statistics for the 62 IPOs. The results support
+conclusions from the larger sample and are consistent with the grandstanding
+hypothesis. First I P O s for first-fund venture capital firms are significantly
+younger (32 vs. 54 months) and more underpriced (18.5% vs. 7.8%) than first
+IPOs for second-or-later-fund venture capital firms. First-fund venture capital
+firms have also been on the board for a shorter period of time and they raise
+money significantly sooner following the I P O (13 vs. 29 months). Neither the
+offering size nor average underwriter rank differs significantly. Average after-
+market standard deviation, however, is higher for the first-fund sample. Selec-
+tion biases do not appear to drive the results.
+
+
+
+
+~Gompers (1995b) examines conversion features and covenants in 50 venture capital convertible
+preferred private placements: every contract included provisions for board representation by the
+syndicate of venture capital investors.
+                 P.A. Gompers/Journal of'Financial Economics 42 (1996) 133 156                   143
+
+Table 2
+Comparison of the characteristics for initial public offerings backed by young and old venture
+capital firms
+Sample is the first IPO for each of 62 venture capital funds for two institutional investors from
+August 1, 1983 through July 31, 1993. Medians are in brackets. Significance tests in the third column
+are p-values of t-tests for difference in averages and p-values of two-sample Wilcoxon rank-sum tests
+for difference in medians in brackets.
+
+                                       First-fund venture   Second-or-later-fund     p-value test of
+                                       capital firms        venture capital firms    no difference
+
+Average age of venture-backed           31.6                 53.5                     0.001
+  company at IPO date in months        [33.5]               [50.0]                   [0.0011
+Average duration of board               25.8                 40.2                     0.005
+  representation for lead venture      [30.0]               [40.0]                   [0.005]
+ capital firm in months
+Average time from IPO date to           12.9                 29.0                     0.028
+  next follow-on fund in months         [6.0]               [24.0]                   [0.001]
+Average underpricing at the              0.185                 0.078                  0.004
+  | P O date                            [0.215]               [0.0381                [0.0051
+Average offering size in                32.8                 32.5                     0.949
+  millions of dollars                  [25.6]               [26.0]                   [0.9431
+Average Carter and Manaster              8.19                  8.16                   0.939
+  underwriter rank                      [8.00]                [9.001                 [0.329]
+Average aftermarket                      0.036                 0.031                  0.884
+ standard deviation                     [0.0351               [0.028]                [0.245]
+Number                                      19                    43
+
+
+
+
+3.2. Regression results
+
+   Regressions are performed on the following variables: 1) the size of the lead
+venture capitalist's next fund, 2) the time from IPO to the lead venture capital-
+ist's next fund, 3) length of board service, 4) the age of the offering company at
+IPO, 5) underpricing, and 6) the equity stake of all venture capitalists prior to
+IPO.
+   Mundlak (1961, 1978) demonstrates that if industry effects are present in the
+IPO sample, fixed-effects regression models are appropriate:
+
+       Yi, j = [J'Xi, ~ + ~i + ~i.j.                                                              (1)
+
+If firm j in industry i goes public, the dependent variable Y;,j (e.g., underpricing,
+age at IPO, or time to next fund) is a function of the independent variables
+Xi, j (e.g., offering size, IPO market liquidity, underwriter rank, etc.) and ~i,
+144   P.A. Gompers/Journal o/Financial Economics 42 (1996) 133 156
+
+
+
+
+                    .g g ~ . ~ ~
+                    ¢ffa
+
+
+
+
+                                                                       ~7
+                    ~-~ ~.~
+                    ea
+
+
+                                                                      er~
+
+
+
+
+                                      ca ",'-
+
+
+                -.~ ~                 .~.g
+
+                                                                       ,±
+
+
+
+
+                    ~                 -~.~
+
+
+
+
+                                                    e-
+
+
+                                '~    u:
+
+
+
+
+                                                         ~m           QQ            Q~
+                                                         I I
+                "} ~,           g =,~
+                     ~          .-~ $ ~ -
+
+
+                                                .3
+
+                ~               ~°
+                                                z
+                                                .,-.
+
+
+                    .-     .~   .~=   >
+
+
+                                                                            C
+                                                         .~    ...~
+                                                               o
+                                                i                     z         >   z
+            P.A. Gompers,'Journal q[ Financial Economics 42 (1996) 133 156                                145
+
+
+
+
+                                                                         e,q   oo       Q    ~    --
+
+
+
+
+                                                                         •-4 '.d
+                                                                             i......a
+                                                                                        ~5   <5
+
+
+
+
+                                                                                        00
+
+
+
+
+    I   I                                           I    I    I     I
+
+
+
+
+                                                              I     I
+
+
+
+
+                     ao       r...m                          M:~ r - m   P--    r"m               o',
+                          •                                  "! ~.       "q.-:.         -:   ~.    ---"
+
+                                                              I     I
+
+
+
+
+                                      '-,= • ~'=     E
+                                                   '.~   E
+
+
+
+
+                                      ,>_,
+                     --3
+z   Z
+146           P.A. Gompers~Journal of Financial Economies 42 (1996) 133 156
+
+
+a term that represents industry effects. I break the sample into 19 industries
+based on SIC codes and use dummy variables for each industry to control for
+unmeasured industry effects.
+
+3.2.1. Size o f next Jund and time to next Jund
+   Results from regressions for the size of the lead venture capitalist's next fund
+and the length of time from IPO to the firm's next fund are presented in Table 3.
+The dependent variable in the first set of regressions is the logarithm of the
+amount of capital raised in the lead venture capitalist's next fund in constant
+1992 dollars. The grandstanding hypothesis predicts that the amount of capital
+a venture firm can raise should be positively related to the number of companies
+the firm has taken public. Capital raising should also be more sensitive to IPOs
+for young venture capital firms.
+   Table 3 shows that the number of companies that the lead venture capitalist
+has taken public is positively related to the amount of capital raised. In the first
+regression, the coefficient of 0.039 means that each additional IPO translates
+into roughly $8 million dollars more capital committed to the firm's next fund.
+I find that underwriter rank for the most recent IPO is also positively related to
+the amount of capital raised. Higher-quality underwriters tend to take larger,
+more promising companies public. If underwriter rank is related to the quality of
+the IPO company, then the relation between rank and capital raised should be
+positive. Taking higher-quality firms public is a stronger signal of ability.
+Industry reports and fund offering memoranda touting recent IPO successes
+clearly indicate that venture capitalists understand this relation.
+   The second regression includes interaction terms between the young venture
+capital firm dummy variable, the number of IPOs brought to market, and
+underwriter rank. The significantly positive coefficients on both interaction
+terms show that the amount of capital raised by young venture capital firms is
+more sensitive to both the number of IPOs they have financed and the under-
+writer rank of the most recent IPO, consistent with the predictions of the
+grandstanding hypothesis. Because older venture capital firms have established
+reputations, beliefs about their ability are not very sensitive to an additional
+IPO or the quality of the underwriter for that IPO. New venture capital firms
+have considerably more to gain (in terms of reputation and fundraising ability)
+by doing an IPO. The limited lifetime of venture funds and the strong relation
+between recent IPO performance and fundraising provide powerful incentives
+for young venture capital firms to bring companies to market earlier than older
+venture firms. The third and fourth regressions in Table 3 show that the results
+are robust to using the logarithm of age specification for venture capital firm
+reputation.
+   The second set of regressions in Table 3 indicates that new venture capital
+firms raise money for follow-on funds significantly sooner after the date of the
+I PO (between five and nine months sooner) despite the fact that the older
+              P.A. Gompers~Journal of Financial Economics 42 (1996) 133 156      147
+
+
+venture capital firms started more funds during the time period. The results also
+indicate that larger venture capital firms wait longer to raise a new fund. Firms
+with more capital have less incentive to grandstand because they have more
+money in reserve for future investment opportunities. While five to nine months
+may not seem like a large difference between young and established venture
+firms, the evidence is consistent with the existence of reputational concerns and
+the predictions of the grandstanding hypothesis. Reputation affects fundraising
+in the venture capital market.
+
+3.2.2. Length o[ board service and age at 1PO
+   The regressions in Table 3 indicate that the sensitivity of fundraising to recent
+IPO performance is stronger for young venture capital firms than it is for older
+ones. This relation provides an incentive for young firms to rush companies to
+the IPO market. Table 4 examines the effects of venture capital firm reputation
+on two measures of IPO timing. The first is the length of time that the lead
+venture capital firm has served on the board of directors. If young venture
+capital firms take companies public earlier, they will have served on the board of
+directors for a shorter length of time. The second measure of early IPOs is age of
+the issuing company. The first two regressions indicate that young venture
+capital firms (those under six years old) have served on the board of directors
+between 12 and 14 months less than established venture capital firms. Similarly,
+companies backed by a new venture capital firm are between 26 and 28 months
+younger than companies backed by more established venture capital firms.
+These results are consistent with the grandstanding hypothesis that companies
+backed by young venture capital firms go public sooner, controlling for other
+factors.
+   Table 4 also presents results from the sample of first IPOs for the 62 funds to
+examine potential selection biases. The results show that first-fund venture
+capitalists have been on the board of their first IPO 13 to 14 months less than
+second-or-later-fund venture capitalists. The first company brought public by
+a new fund is 19 to 20 months younger on average than the first IPO of
+a second-or-later-fund venture firm. These results are nearly identical
+to the results for the entire sample, indicating that selection bias is not a
+problem.
+   The differences in board service (14 months) and IPO firm age (28 months) are
+important. They represent a 30% difference in firm age and board service
+between the new venture capital firm sample and the old venture capital firm
+sample. Moreover, these companies are very young, and 14 to 28 months is
+a substantial fraction of their existence. Because young companies often grow by
+50-100% per annum in their first years of operation, the small differences in
+board service and IPO company age mean that new venture-backed companies
+have only half the level of sales and earnings of old venture-backed companies
+have when they go public. This is a significant reduction in firm size. (As seen
+148   P.A. Gompers/Journal of Financial Economics 42 (1996) 133 156
+
+                                                                                          0o~
+                                                                             o<c.i        oo
+                           U     .~' E > ' -
+
+                                                       ©-=
+                           ~ E~     .° "-~ "~" --~
+                                                       ~g                    ~            dd
+                                                                               I ,",          I    I
+
+
+                       ~o~          ~.=~
+
+                                                                                      I       I    I
+
+
+                                                        °~
+                                                                             ,"4, r - i   O ~
+
+
+
+
+                                                                 oO ~
+
+
+                                                                 c,,li   I
+
+
+
+
+                                                                                          ~       r-~
+
+
+
+
+                                                            q~
+
+
+
+
+                                                                 c.ioi                    o oi
+                                                                     I   I
+
+
+
+
+                                                            8
+                                                                     ,±
+
+                               O=       "~
+
+                                                            18
+                                                            Z
+
+
+
+
+              •. - ~   ~       "e,,,~ o ~ ~ m b
+
+                                                            m     >.         r,           Z
+                  P.A. Gompers Journal qI'Financial Economics 42 (1996) 133 156   149
+
+
+
+
+                                      i
+
+
+
+
+                                              I
+                                      i
+
+
+
+
+                       I    I   ~             I
+
+
+
+
+                                r~ -      ~       --     ~
+
+
+
+
+         I             I    I   m
+
+
+
+
+i/~     eq
+
+         I                      t-,'h
+
+
+
+
+    I    I                  I
+
+
+
+
+                                ~,        ..o     I~ -   ~
+
+
+
+    I    I                      ~--
+
+
+
+
+             P.
+
+
+
+0            -~        '=
+150           P.A. Gompers~Journal (?] Financial Economics 42 (1996) 133 156
+
+below, the effect of board service on the size and market value of equity stakes is
+quite large in economic terms.)
+
+3.2.3. Underpricing
+   Table 5 presents underpricing regressions. Muscarella and Vetsuypens (1989)
+and Ritter (1987) view underpricing as a cost that companies bear when they go
+public because of the uncertainty surrounding the true value of the offering.
+Younger companies have more uncertainty and hence greater underpricing.
+I use two specifications to control for the reputation of the venture capital firm.
+In all regressions, IPOs backed by young venture capital firms are associated
+with greater underpricing (whether new venture capital firms are defined as
+firms under six years old or using the logarithm of venture firm age). When the
+logarithm of the length of board service and the age of the offering company at
+IPO are included, the size and significance of the reputation coefficients change
+very little. Of the two variables that represent early IPOs, length of board service
+has the larger impact on underpricing although it is only marginally significant.
+When underwriter rank is included in the regressions (third and sixth columns),
+the size and significance of the coefficients on the reputation variables are
+greatly reduced. Although companies brought to market by established venture
+firms are less underpriced, the difference is largely due to higher underwriter
+reputation. Finally, greater IPO market liquidity, smaller offering sizes, and less
+uncertainty reduce underpricing.
+
+3.2.4. Venture capitalists' equip' stakes
+   Table 6 reports results for regressions examining a direct measure of the cost
+of grandstanding: the fraction of the company's equity held by all venture
+capitalists prior to the IPO. If young venture firms incur costs by rushing
+companies to the IPO market, the percent of equity held by venture capital
+investors should be lower.
+   The regressions show that young venture capital firms (using either firms that
+are under six years old or the logarithm of age to control for reputation) receive
+a significantly smaller fraction of the company's equity. The offering size has
+little impact on the venture capitalists' equity stake. The most important factor
+in the percentage of equity held prior to the IPO is the length of board service
+for the lead venture capital firm. In fact, when length of board service is included,
+the size and significance of the venture capital reputation variables are reduced,
+indicating that shorter relationships (and hence earlier IPOs) are the cause of
+reduced equity stakes as predicted by the grandstanding hypothesis. The longer
+the venture capital firm has been on the board of directors, the larger is its equity
+stake. The results in Table 6 indicate that the 12- 14 month shorter board service
+by young lead venture capital firms estimated in Table 4 accounts for more than
+half of the smaller equity stake of young venture firms (nearly 3% of the 4.7%
+difference).
+                 P.A. Gompers~Journal oJ Financial Economics 42 (1996) 133 156                          151
+
+
+Table 5
+Regressions for underpricing of the lPO
+The sample is 433 venture-backed IPOs from t978 1987. The dependent variable is underpricing of
+the IPO (i.e., the first-day return on the IPO firm). Independent variables include a dummy variable
+that equals one if the venture organization is less than six years old, the logarithm of the lead venture
+capital firm's age in months, the cumulative number of I POs (both venture-backed and nonventure-
+backed) in the previous four months, the logarithm of I PO offering size, the standard deviation of the
+stock returns from day 2 to day 20 after the IPO, the natural logarithm of the IPO company's age in
+months, the logarithm of the number of months that the lead venture capitalist has been on the
+company's board of directors, the Carter and Manaster (1990) underwriter rank, and the capital
+under management at the lead venture capital firm. All regressions include industry dummy
+variables to control for any fixed effects. Coefficients on industry dummies are not reported
+(t-statistics are in brackets).
+
+                            Dependent variable
+
+Independent variables       First-day return       Underpricing
+
+Venture firm less than            0.076         0.088         0.031
+  six years old                  [3.82]        [3.49]        [0.98]
+Logarithm of venture                                                      - 0.040    - 0.052       - 0.020
+  firm age                                                            [     3.89]   [-4.07]       [-1.18]
+Number of lPOs in                 0.001         0.001     -0.001           0.001         0.001        0.001
+ previous four months       [     4.91]    [    4.90]    [-3.70]      [    4.82]    [    4.78]    [   3.70]
+Logarithm of IPO                  0.037         0.062         0.072         0.036        0.061         0.071
+  offering size                  [3.26]        [4.49]        [4.05]        [3.19]       [4.50]        [4.03]
+Standard deviation of             1.77          2.22          1.40          1.75         2.15          1.37
+  stock return                   [3.28]        [3.35]        [1.95]        [3.24]       [3.29]        [1.94]
+Logarithm of IPO                                 0.002    - 0.008                        0.002        0.007
+  company age                                   [0.15]   [-0.49]                        [0.17]    [   0.45]
+Logarithm of length of                           0.015     -0.004                        0.018      -0.005
+  board service                            [     1.64]   [ - 1.23]                  [    1.69]    [ - 1.31]
+Underwriter rank                                              0.022                                - 0.22
+                                                         [    2.50]                               [-2.51]
+Venture capital under                                        0.0001                                    0.000
+  management                                             [ - 1.68]                                    [1.94]
+Constant                         -0.548        -0.910       0.861         -0.424        -0.744       0.767
+                             [     2.89]   [     3.66]   [-2.97]      [     2.29]   [     3.15]   [-2.80]
+R2                                 0.248         0.339        0.363         0.249         0.352        0.365
+p-value of F-test                  0.000         0.000        0.000         0.000         0.000        0.000
+Number                              337            241          190           337          241           190
+152                 P.A. Gompers/Journal of Financial Economics 42 (I996) 133 156
+
+Table 6
+Regressions for the percentage equity held by all venture capital firms prior to IPO
+The sample is 433 venture-backed IPOs from 1978 1987. The dependent variable is the percentage
+of the offering company's equity held by all venture capital suppliers prior to the IPO (as listed in the
+IPO prospectus). Independent variables include a dummy variable that equals one if the lead
+venture organization is less than six years old, the logarithm of the venture capital firm's age in
+months, the cumulative number of IPOs (both venture-backed and nonventure-backed) in the
+previous four months, the logarithm of I PO offering size, the natural logarithm of IPO company age
+in months, the logarithm of the number of months that the lead venture capitalist has been on the
+I PO company's board of directors, the Carter and Manaster (1990) underwriter rank, and the capital
+under management at the lead venture capital firm. All regressions include industry dummy
+variables to control for any fixed effects. Coefficients on industry dummies are not reported
+(t-statistics are in brackets).
+
+                                     Dependent variable
+
+                                     Percentage equity held by all venture firms prior
+Independent variables                to IPO
+
+Venture firm tess than six               4.73                - 2.83
+  years old                          [ - 2.27]           [     0.70]
+Logarithm of venture                                                            0.973             0.536
+  firm age                                                                     [,1.703           [0.24]
+Number of 1POs in                         0.010                 0.008           0.009             0.006
+ previous four months                    [--0.44]              [0.25]          [0.40]            [0.019]
+Logarithm of IPO offering                  2.918                0.144           3.266             0.256
+  size                                   [, 1.96]              [0.06]          [2.14]            [0.12]
+Logarithm of IPO                                              - 2.65                            - 2.39
+  company age                                                [, 1.253                          [ - 1.13]
+Logarithm of length of                                          8.14                              8.27
+  board service                                                [4.04]                            [_4.l 2]
+Underwriter rank                                                0.784                             0.797
+                                                               [-0.713                           [--0.733
+Venture capital under                                           0.010                             0.011
+  management                                                   [0.85]                            [0.92]
+Constant                                  7.93                 16.65        - 17.08              11.44
+                                      [, 0.31]                 [0.453         [0.683             [0.323
+e 2                                       0.125                0.270            0.118             0.268
+p-value of F-test                         0.005                 0.003           0.005             0.002
+Number                                      338                   190             338               190
+             P.A. Gompers/Journal (~f Financial Economics 42 (1996) 133 156     153
+
+
+   The evidence on equity stakes is consistent with young venture capital firms
+incurring costs by bringing IPOs to market earlier than established venture
+capital providers. Much of the difference between young and old venture capital
+firms in percentage equity stakes is explained by the length of board service, an
+indication that young venture capital firms incur costs by taking companies
+public earlier. To test whether early IPOs have differential costs on young and
+old venture firms, I include interaction terms between reputation measures and
+IPO maturity in the regressions of Tables 5 and 6, but these interaction terms
+are insignificant.
+
+
+4. Alternative explanations
+
+   Megginson and Weiss (1991) and Barry, Muscarella, Peavy, and Vetsuypens
+(1990) offer evidence that venture-backed firms go public earlier than nonven-
+ture-backed firms because venture capitalists certify the quality of offerings.
+Venture capitalists repeatedly bring companies to the IPO market and can
+credibly commit not to offer overpriced shares. Their conclusions are similar to
+Carter and Manaster's (1990) findings about the reputation of underwriters and
+the underpricing of public offerings. Certification by venture capitalists is
+potentially consistent with grandstanding. Megginson and Weiss examine ven-
+ture-backed versus nonventure-backed IPOs, but they do not directly test for
+differences between types of venture capitalists. The grandstanding hypothesis
+has important implications for the IPO timing of young and old venture capital
+firms. Venture capital certification could lower underwriting costs and under-
+pricing on average, but young venture capital firms may still have incentives to
+bring IPOs to market earlier than established venture capital firms in order to
+establish a track record and raise new capital.
+   Another explanation of earlier venture-backed IPOs is that investors
+recycle money within asset classes. Venture capitalists bring companies public
+to provide liquidity for previous investments. If investors reinvest the
+profits from previous venture capital investments into new venture capital
+funds, the venture capital firm can receive capital sooner by returning cash
+to investors.
+   However, only the grandstanding hypothesis implies that young venture
+capital firms have an incentive to perform early IPOs. The certification predicts
+that older venture capital firms should be associated with IPOs that are earlier
+or at least not later than those of new venture firms. If certification affects the
+cost but not the timing of IPOs, then there should be no difference between the
+two groups. The recycling hypothesis also predicts no difference in IPO timing
+between old and young venture capital firms. The results in Section 3, however,
+show that young venture firms do take companies public earlier, supporting the
+existence of grandstanding.
+154             P.A. Gompers~Journal ~?fFinancial Economics 42 (1996) 133 156
+
+   Grandstanding also predicts that young venture capital firms have an incen-
+tive to incur the costs of early IPOs because their fundraising is significantly
+more sensitive to performance than is an older firm's fundraising. Consequently,
+the duration of board service or the age of the offering company should explain
+a portion of the differences in underpricing and equity stakes. Certification
+implies that older venture capital firms have more reputational capital and
+hence lower costs of going public early. Neither the certification nor recycling
+hypothesis predicts that the length of board service at IPO explains the differ-
+ences in underpricing and equity stakes between young and old venture firms.
+The results in Section 3 establish that a portion of the underpricing and equity
+stake differences is explained by length of board service, supporting the predic-
+tions of the grandstanding hypothesis.
+
+
+5. Conclusion
+
+   Reputational concerns affect the IPO timing decisions of young venture
+capital fund managers. Young venture capital firms raise money for a new fund
+sooner after an IPO and the size of a young firm's next fund is more dependent
+on the number of IPOs it has financed previously than is the size of an old
+venture firm's next fund. Companies backed by new venture capital firms are
+younger at IPO than those backed by established venture capital firms, and the
+young venture capitalists have been on their boards for a shorter time. However,
+young lead venture firms bear the costs of early IPOs by receiving smaller equity
+stakes. These differences are consistent with the predictions of grandstanding.
+   The issues addressed by the grandstanding hypothesis and the empirical
+results provide insights for the venture capital industry. Signaling seems to cause
+real wealth losses. Limited partners bear a large fraction of the costs from early
+IPOs. More than 400 new venture capital firms entered the industry after 1978.
+The tremendous entry of new venture capital firms and the incentives to
+grandstand potentially explain some of the declining returns on venture capital
+in the 1980s.
+   Because the venture capitalist typically receives a fixed fee compensation
+based on the size of the fund (2 3% of assets under management per annum) in
+addition to 20% of the fund's profits from investing, the venture capitalist has
+incentives to grow the firm's capital under management by starting large
+follow-on funds. Gompers and Lerner (1995b) show that the present value of the
+annual fee is typically as large as the present value of the profits. Annual fixed
+fees are four to six times larger than the fees received by public market money
+managers documented by Lakonishok, Shleifer, and Vishny (1992). The desire to
+increase the size of the funds in turn increases the incentive to grandstand.
+Reduced fixed fees and increased profit sharing in large funds might better align
+the incentives of venture capitalists with the goals of investors.
+                    P.A. Gompers~Journal c~f Financial Economics 42 (I996) 133 156                                 155
+
+    F u t u r e research should e x a m i n e the effects of venture c a p i t a l on the l o n g - r u n
+p r o s p e c t s of e n t r e p r e n e u r i a l projects a n d its relation to u n d e r p r i c i n g a n d invest-
+ment characteristics. E n t r e p r e n e u r s have little i n f o r m a t i o n on the I P O m a r k e t
+in general or venture capitalists' role in t h a t process in particular. W h i l e this
+p a p e r does n o t address the reasons e n t r e p r e n e u r s seek financing from y o u n g
+venture capital firms w h o then rush them to the I P O m a r k e t , the issue deserves
+greater a t t e n t i o n by e x a m i n i n g the relation between venture capitalists a n d
+entrepreneurs, the decision to accept venture financing, the process of deciding
+to go public, a n d the l o n g - t e r m i m p a c t of venture capital financing in general
+a n d g r a n d s t a n d i n g in p a r t i c u l a r on the life cycle a n d p e r f o r m a n c e of companies.
+F o r example, w h a t is the i m p a c t of venture c a p i t a l financing on pre- a n d
+p o s t - I P O sales, earnings, a n d asset g r o w t h rates'? M i k k e l s o n , P a r t c h , a n d Shah
+(1995) e x a m i n e a c c o u n t i n g p e r f o r m a n c e in a s a m p l e of v e n t u r e - b a c k e d and
+n o n v e n t u r e - b a c k e d I P O s a n d find no l o n g - r u n differences, b u t costs of early
+I P O s c o u l d exist. Assessing these o t h e r costs w o u l d be an i m p o r t a n t a d d i t i o n
+not only to the literature on venture capital investments, but also to the
+k n o w l e d g e a b o u t the decision to go public.
+
+
+
+References
+
+Allen, Franklin and Gerald Faulhaber, 1989, Signalling by underpricing in the IPO market, Journal
+   of Financial Economics 23, 303- 323.
+Barry, Christopher, Chris Muscarella, John Peavy, and Michael Vetsuypens, 1990, The rote of
+   venture capital in the creation of public companies: Evidence from the going-public process,
+   Journal of Financial Economics 27, 447 472.
+Carter, Richard and Steven Manaster, 1990, Initial public offerings and underwriter reputation,
+   Journal of Finance 45, 1045 1067.
+Chevalier, Judy and Glenn Ellison, 1995, Risk taking by mutual funds as a response to incentives,
+    Working paper (University of Chicago, Chicago, IL: Massachusetts Institute of Technology,
+   Cambridge, MA).
+Diamond, Doug, 1989, Reputation acquisition in debt markets, Journal of Political Economy 97,
+    828 862.
+Gompers, Paul, 1993, The theory, structure, and performance of venture capital, Unpublished Ph.D.
+    thesis {Harvard University, Cambridge, MA).
+Gompers, Paul, 1995a, Optimal investment, monitoring, and the staging of venture capital, Journal
+    of Finance 50, 1461 1489.
+Gompers, Paul, 1995b, A clinical examination of convertible debt in venture capital investments,
+    Working paper (Harvard University, Cambridge, MA/.
+Gompers, Paul and Josh Lerner, 1995a, The use of covenants: An empirical analysis of venture
+    partnership agreements, Journal of Law and Economics, forthcoming.
+Gompers, Paul and Josh Lerner, 1995b, An analysis of compensation in the U.S. venture capital
+    partnership, Working paper (Harvard University, Cambridge, MA).
+Gorman, Michael and William Sahlman, 1989, What do venture capitalists do?, Journal of Business
+    Venturing 4, 231 248.
+Grinblan. Mark and Chuan Hwang, 1989, Signalling and the pricing of new issues, Journal of
+    Finance 44, 383 420.
+156              P.A. Gompers~Journal of Financial Economics 42 (1996) 133 156
+
+
+Lakonishok, Joseph, Andrei Shleifer, and Rob Vishny, 1992, The structure and performance of the
+    money management industry, Brookings Papers on Economic Activity, 339 391.
+Lakonishok, Joseph, Andrei Shleifer, Richard Thaler, and Rob Vishny, 1991, Window dressing by
+    pension fund managers, American Economic Review 81,227 231.
+Lerner, Josh, 1994, Venture capitalists and the decision to go public, Journal of Financial Economics
+    35, 293 316.
+Megginson, William and Kathleen Weiss, 1991, Venture capitalist certification in initial public
+    offerings, Journal of Finance 46, 879 903.
+Mikkelson, Wayne, M. Partch, and Kenneth Shah, 1995, Going public and operating performance,
+    Working paper (University of Oregon, Eugene, OR).
+Mundlak, Y., 1961, Empirical production functions free of management bias, Journal of Farm
+    Economics 43, 45-56.
+Mundlak, Y., 1978, On the pooling of time series and cross section data, Econometrica 46, 69 85.
+Muscarella, Chris and Michael Vetsuypens, 1989, Initial public offerings and information asym-
+    metry, Working paper (Penn State University, University Park, PA; Southern Methodist
+    University, Dallas, TX).
+Patel, Jay, Richard Zeckhauser, and D. Hendricks, 1991, The rationality struggle, illustrations from
+    financial markets, American Economic Review 81,232 236.
+Rajan, Raghu, 1993, A theory of fluctuations in bank credit policy, Working paper (University of
+    Chicago, Chicago, IL).
+Ritter, Jay, 1987, The cost of going public, Journal of Financial Economics 19, 269 281.
+Ritter, Jay, 1991, The long run performance of initial public offerings, Journal of Finance 46, 3 28.
+Rock, Kevin, 1986, Why new issues are underpriced, Journal of Financial Economics 15, 187 212.
+Sahlman, William, 1990, The structure and governance of venture capital organizations, Journal of
+    Financial Economics 27, 473 524.
+Sirri, Eric and Peter Tufano, 1993, The demand for mutual fund services by individual investors,
+    Working paper (Harvard University, Cambridge, MA).
+Stein, Jeremy, 1988, Takeover threats and managerial myopia, Journal of Political Economy 96,
+    61-80.
+Stein, Jeremy, 1989, Efficient capital markets, inefficient firms: A model of myopic corporate
+    behavior, Quarterly Journal of Economics 104, 655 669.
+Venture Economics, 1988, Trends in venture capital           1988 edition [Venture Economics, Inc.,
+    Needham, MA).
+Welch, lvo, 1989, Seasoned offerings, imitation costs, and the underpricing of initial public offerings,
+    Journal of Finance 44, 421 449.
+

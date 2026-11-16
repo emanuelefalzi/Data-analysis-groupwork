@@ -1,0 +1,1895 @@
+                  Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+    Money chasing deals? The impact of fund
+     in#ows on private equity valuationsq
+                     Paul Gompers!,",*, Josh Lerner!,"
+           !Graduate School of Business Administration, Havard University, Soldiers Field,
+                                     Boston, MA 02163, USA
+                  "National Bereau of Economic Research, Cambridge, MA, USA
+
+                Received 3 April 1998; received in revised form 22 February 1999
+
+
+
+Abstract
+
+   We show that in#ows of capital into venture funds increase the valuation of these
+funds' new investments. This e!ect is robust to (i) controlling for "rm characteristics and
+public market valuations, (ii) examining "rst di!erences, and (iii) using in#ows into
+leveraged buyout funds as an instrumental variable. Interaction terms suggest that the
+impact of venture capital in#ows on prices is greatest in states with the most venture
+capital activity. Changes in valuations do not appear related to the ultimate success of
+these "rms. The "ndings are consistent with competition for a limited number of
+attractive investments being responsible for rising prices. ( 2000 Elsevier Science S.A.
+All rights reserved.
+
+JEL classixcation: G24; G12
+Keywords: Venture capital; Financing
+
+
+   q
+     We thank VentureOne for making this project possible through generous access to their
+database of venture "nancings. Helpful comments were provided by Chris Barry, Steve Kaplan,
+Manju Puri, Bill Schwert. ReneH Stulz, Scott Stern, Ivo Welch, and an anonymous referee, as well as
+participants in seminars at Carnegie-Mellon, Harvard, Northwestern, Rutgers, Stanford, the Uni-
+versity of Pennsylvania, and the University of California at Los Angeles, the NBER Asset Pricing
+and Productivity Group lunches, and several practitioner conferences. We also thank Steven
+Gallante of Asset Alternatives and Jesse Reyes of Venture Economics for the private equity
+fundraising and public o!ering data. Research assistance was provided by Chris Allen, Gabe Biller,
+and Qian Sun. The Advanced Technology Program and the Harvard Business School's Division
+of Research provided "nancial support. All errors are our own.
+   * Corresponding author. Tel.: 617-495-6297; fax: 617-496-8443.
+   E-mail address: pgompers@hbs.edu (P. Gompers)
+
+
+0304-405X/00/$ - see front matter ( 2000 Elsevier Science S.A. All rights reserved.
+PII: S 0 3 0 4 - 4 0 5 X ( 9 9 ) 0 0 0 5 2 - 5
+282         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+1. Introduction
+
+   One of the enduring questions in the "nance literature is whether exogenous
+shifts in the demand for individual securities a!ect their valuations. The e$cient
+market hypothesis implies, as Myron Scholes stated in 1972, that `the shares
+a "rm sells are not unique works of art but rather abstract rights to an uncertain
+income stream for which close counterparts exist either directly or indirectlya.
+Over the past decades, this assertion has inspired a variety of analyses. Examples
+include analyses of the impact on stock prices of inclusion in the Standard
+& Poors' 500 Index (Dhillon and Johnson, 1991; Harris and Gurel, 1986;
+Shleifer, 1986), the e!ects of eased restrictions on foreign investors on valuations
+in developing country stock markets (Henry, 1996; Kim and Singhal, 1996;
+Stulz, 1997), and the relationship between mutual fund purchases and stock
+market returns, both on an individual security (Wermers, 1999) and an aggreg-
+ate level (Warther, 1995). While the analyses are not without their controversial
+aspects, several suggest that capital in#ows have a real e!ect on valuations.
+   The bulk of these analyses focus on the valuation of public securities. This
+focus is surprising since numerous practitioner accounts suggest that the rela-
+tion between asset prices and demand shifts is particularly pronounced in private
+markets. This paper examines these relations in one such environment, the U.S.
+private equity market. As the capital under management in this asset class has
+grown from $4 billion in 1978 to $200 billion in 1998, observers have claimed
+that increasing capital in#ows have led to higher security prices, or colloquially,
+&too much money chasing too few deals'.1 This paper seeks to understand how
+the pricing of investments in one portion of the private equity market, venture
+capital, is a!ected by in#ows to funds.2 Further, unlike earlier studies, we are
+able to examine the impact of in#ows in particular segments of the industry, e.g.,
+private equity funds dedicated to speci"c geographic regions and investment
+stages, on the pricing of those particular types of transactions.
+   We proceed in two parts. First, we seek to document a relation between
+commitments to venture capital funds and the valuation of new investments.
+Second, we explore the cause of this relation. We examine whether this relation
+is driven by demand pressures or by improvements in investment prospects. For
+example, does more money committed to the venture industry drive up the
+valuation of investments or do increases in expected cash #ows or a reduction in
+
+
+  1 Three representative accounts over the decades are Noone and Rubel (1970), Sahlman and
+Stevenson (1986), and Asset Alternatives (1996).
+   2 In a related analysis, Kaplan and Stein (1993) examine the evolution of buyout pricing during the
+1980s, a period that saw a considerable expansion of funds established to make equity investments in
+buyouts. They show that the valuation of 124 buyout transactions mirrored market-wide move-
+ments in earnings}price ratios. Once these movements are controlled for, there is no signi"cant time
+trend.
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   283
+
+the riskiness of investments lead to both higher valuations and greater venture
+commitments?
+   The data set consists of over 4000 venture investments between 1987 and 1995
+developed by the consulting "rm VentureOne, as well as detailed information on
+capital in#ows from two specialized information vendors. While studies of public-
+ly traded securities can examine daily changes in prices, gaps of one to two years
+between re"nancings of venture-backed "rms are typical. A price index based
+purely on the changes in valuations between "nancings for the same company
+would therefore be incomplete and misleading. We consequently employ
+a hedonic approach, regressing the valuation of "rms on their characteristics such
+as age, stage of development, and industry, as well as in#ows into venture capital
+funds. The tests also control for public market valuations through industry
+portfolio valuations and industry book-to-market and earnings-to-price ratios.
+   Results show a strong positive relation between the valuation of venture
+capital investments and capital in#ows. Other variables also have signi"cant
+explanatory power, for instance, the marginal impact of a doubling in public
+market values is a 15}35% increase in the valuation of private equity transac-
+tions. A doubling of in#ows into venture funds led to between a 7% and 21%
+increase in valuation levels. The results are robust to the use of a variety of
+speci"cations and control variables.
+   We undertake a variety of diagnostic analyses. These examine whether the
+relation between in#ows and pricing is an artifact of our inability to fully control
+for "rm characteristics, shifts in the value of comparable public "rms, or changes
+in the required return on such investments. Our "rst approach is to add a variety
+of control variables that address several alternative hypotheses, e.g., price
+changes in comparable public "rms only a!ect private valuations with a delay.
+Industry book-to-market and earnings-to-price ratios control for potential
+changes in market risk premia.
+   Second, we examine "rst di!erences. Many venture-backed "rms receive
+multiple "nancing rounds, often at sharply divergent valuations. Using changes
+in the valuations and "rm characteristics limits the impact of unobserved
+heterogeneity across "rms. Also, two-stage regressions are used to control for
+the probability of re"nancing. During periods of high in#ows to venture funds,
+"rms are more likely to be re"nanced, but the impact of in#ows on valuations
+remains positive.
+   Third, we employ an instrumental variables approach to control for any
+omitted variable bias that unduly in#ates the signi"cance of venture in#ows. We
+identify a variable that should be related to shifts in commitments to the private
+equity industry, but otherwise largely uncorrelated with the expected success of
+venture capital investments: in#ows into leveraged buyout funds. This approach
+increases the signi"cance of the in#ow measure substantially.
+   Fourth, we examine the impact of capital in#ows in di!erent market seg-
+ments. The e!ect of in#ows should not be uniform. Interaction terms suggest
+284       P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+that the impact of venture capital in#ows on prices is greatest in states with the
+most venture capital activity. In a related analysis, we decompose in#ows to
+venture capital funds by location or stated fund objective. The segmentation of
+valuations and in#ows into region and investment focus e!ectively increases the
+number of independent observations. The evidence suggests that the in#ux of
+capital into funds with a particular focus has a greater impact on the valuation
+of investments meeting those criteria.
+   The "nal analysis examines whether increases in venture capital in#ows and
+valuations simultaneously re#ect improvements in the environment for young
+"rms. We look at the ultimate success of venture-backed "rms. Results show
+that success rates, whether measured through the completion of an initial public
+o!ering or an acquisition at an attractive price, did not di!er signi"cantly
+between investments made during the early 1990s, a period of relatively low
+in#ows and valuations, and those of the boom years of the late 1980s. As we
+discussed below, the interpretation of these results is not without ambiguities.
+Nevertheless, the analysis may help allay concerns about simultaneous shifts in
+the supply of entrepreneurial opportunities. Overall, the evidence is most consis-
+tent with the demand pressure explanation.
+   The plan of this paper is as follows. Section 2 discusses some of the key
+institutional aspects of the venture capital industry. Theoretical considerations
+are taken up in Section 3. Section 4 describes the data set. The results are
+presented in the "fth section. The "nal section concludes the paper.
+
+
+2. Background3
+
+   Entrepreneurs often develop ideas that require substantial capital to imple-
+ment. Most entrepreneurs do not have su$cient funds to "nance these projects
+themselves and must seek outside "nancing. Start-up companies that lack substan-
+tial tangible assets, expect several years of negative earnings, and have uncertain
+prospects are unlikely to receive bank loans or other debt "nancing. Venture
+capitalists "nance these high-risk, potentially high-reward projects, purchasing
+equity stakes while the "rms are still privately held. Venture capitalists have
+backed many high-technology companies, including Cisco Systems, Genentech,
+Intel, Microsoft, and Netscape, as well as a substantial number of service "rms.
+   Whether the "rm is in a high- or low-technology industry, venture capitalists
+are active investors. They monitor the progress of "rms, sit on boards of
+directors, and mete out "nancing. Venture capitalists retain the right to appoint
+key managers and remove members of the entrepreneurial team. In addition,
+venture capitalists provide entrepreneurs with access to consultants, investment
+
+
+ 3 This section is partially based on Gompers and Lerner (1996).
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   285
+
+bankers, and lawyers. Typically, all funds that the "rm needs are not provided at
+once; rather the funds are disbursed in a series of "nancing rounds based on the
+attainment of milestones. Venture capitalists typically exit their successful
+investments by taking them public. While they rarely sell their shares at the time
+of the initial public o!ering (IPO), they frequently sell the shares or distribute
+them to their investors within two years of going public.
+   In#ows of capital to venture funds have been characterized by wide swings
+over the "ve decades since the formation of the "rst modern venture capital "rm,
+American Research and Development, in 1946. Only a handful of other venture
+funds were established in the decade after its formation. The annual #ow of
+money into new venture funds between 1946 and 1977 never exceeded a few
+hundred million dollars and was usually much less.
+   Funds #owing into the venture capital industry and the number of active
+venture organizations increased dramatically during the late 1970s and early
+1980s. Important factors accounting for the increase in money #owing into the
+venture capital sector include the 1979 amendment to the &prudent man' rule
+governing pension fund investments and the lowering of capital gains tax rates
+in 1978. Prior to 1979, the Employee Retirement Income Security Act limited
+pension funds from investing substantial amounts of money into venture capital
+or other high-risk asset classes. The Department of Labor's clari"cation of the
+rule explicitly allowed pension managers to invest in high-risk assets, including
+venture capital. In 1978, $424 million was invested in new venture capital funds,
+and individuals accounted for the largest share, 32%. Pension funds supplied
+just 15%. Eight years later, more than $4 billion was invested, and pension funds
+accounted for more than half of all contributions.
+   During this period, the limited partnership emerged as the dominant organ-
+izational form. (Most early funds had been structured as publicly traded closed-
+end funds.) In a venture capital limited partnership, the venture capitalists are
+general partners and control the fund's activities. The investors serve as limited
+partners. Investors monitor the fund's progress and attend annual meetings, but
+they cannot become involved in the fund's day-to-day management if they are to
+retain limited liability. Venture partnerships have pre-determined, "nite life-
+times (usually ten years, though extensions are often allowed). Most venture
+organizations raise funds every two to "ve years. Partnerships have grown from
+40% of the venture pool in 1980 to 80% in 1998.
+   The steady growth in commitments to the venture capital industry was
+reversed in the late 1980s. Returns on venture capital funds declined because of
+overinvestment in various industries and the entry of inexperienced venture
+capitalists. Between 1978 and 1988, the number of active venture organizations
+increased four-fold. As investors became disappointed with returns, they com-
+mitted less capital to the industry; commitments (in in#ation-adjusted dollars)
+dropped by 68% between 1987 and 1991. The recent activity in the IPO market
+and the exit of many inexperienced venture capitalists led to an increase in
+286       P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+returns. New capital commitments rose again in response, increasing by more
+than fourteen-fold between 1991 and 1997.
+
+3. Theoretical considerations
+
+   This section examines two sets of predictions for the relations between in#ows
+to venture capital funds and valuations. First, we explore the empirical implica-
+tions of the view that "nancial markets are perfect. We then consider the alter-
+native suggestion, that exogenous increases in in#ows into venture funds a!ect
+valuations due to the segmentation of this market from other "nancial sectors.
+   Finance theory teaches that the value of a "rm should equal the discounted
+value of its expected future cash #ows. The value of a "rm should increase if
+investors learn that its future pro"tability will be higher. Similarly, if they learn
+that the "rm will be less risky than originally foreseen, i.e., its cost of capital
+declines, the valuation should rise. Since close substitutes exist for virtually any
+asset, either directly or indirectly through combinations of securities, demand
+curves should be #at. The movement in equity market prices, whether of
+publicly or privately held "rms, should be driven by changes in the expected
+cash #ows or in the "rm's cost of capital.
+   If markets are perfect, in#ows of money into venture capital funds should be
+unrelated to the valuations of private companies. While one might argue that an
+asset class such as venture capital is di!erent from the individual securities
+discussed by Scholes (1972), Shleifer (1986), and Harris and Gurel (1986), the
+analogy to the literature on individual securities is not unreasonable. The
+capitalization of venture capital funds did not exceed one percent of that of
+public equity markets during the years under study, and was typically much
+smaller. Most venture-backed private "rms have close substitutes among public
+"rms. As long as the in#ow of capital is exogenous, i.e., unrelated to future
+expected returns on venture investments, then the price of private "rms should
+not be a!ected because substitutes will always exist. Neither the "rm's cost of
+capital nor its expected cash #ows should change with the in#ow of capital.
+   If the in#ow of capital to venture funds is not exogenous, however, then the
+empirical patterns may be more complex. In particular, more favorable expected
+conditions for young, high-technology companies may trigger both increases in
+valuations and growth in commitments to venture capital funds. In this case,
+prices paid for investments and venture in#ows would increase simultaneously,
+even if there were no causal relationship between the two. We discuss below how
+the empirical tests control for this possibility.
+   The alternative view is motivated by the possibility that the venture capital
+market is segmented from other asset classes. In this case, exogenous increases in
+venture capital commitments may have a dramatic e!ect on prices. Because
+partnership agreements typically require that venture funds invest almost ex-
+clusively in private companies, increases in the supply of venture capital may
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325            287
+
+result in greater competition to "nance companies and rising valuations. The
+increase in commitments to the venture industry may also have di!erent e!ects
+on di!erent segments of the private equity market. For example, if capital is
+raised by funds in a geographically concentrated area and if investment by these
+funds is localized, then competition should lead to greater price increases where
+the in#ows of capital are greatest.
+   These industry and geographic patterns may be distinguished from positive
+news about an industry's prospects leading to a simultaneous increase in in#ows
+and valuations. The favorable news re#ected in the higher public market prices
+and in#ows would likely have symmetric e!ects on early- and later-stage com-
+panies as well as on "rms in various geographic regions. Better industry prospects
+would improve the expected cash #ow of all "rms in an industry, independent of
+their stage of development. It should also be acknowledged that various other
+factors should be related to the valuation of the private companies, whether or not
+in#ows a!ect pricing. Earnings might be a useful indicator of "rm value. Firm
+value may also be related to the company's sales, employment level, or age.
+Considerable uncertainty exists about private companies. Many are years away
+from the positive cash #ows that investors value. Signals such as these can
+separate "rms that are expected to be relatively more successful from others. We
+use these as control variables in the regressions that follow.
+
+
+4. The data set
+
+   The core information on venture investments, including the valuation data,
+comes from VentureOne. VentureOne, established in 1987, collects data on
+"rms that have obtained venture capital "nancing. Firms that have received
+early-stage "nancing exclusively from individual investors, federally chartered
+Small Business Investment Companies, and corporate development groups are
+not included in the database.
+   The companies are initially identi"ed from a wide variety of sources, including
+trade publications, company Web pages, and telephone contacts with venture
+investors. VentureOne then collects information about the businesses through
+interviews with venture capitalists and entrepreneurs. The data collected include
+the amount and valuation of the venture "nancings, and the industry, strategy,
+employment, and revenues of the "rm. Data on the "rms are updated and
+validated through monthly contacts with investors and "rms.4 VentureOne then
+
+
+  4 The valuations associated with the "nancing of private "rms are typically not revealed in public
+documents, and investors and entrepreneurs may consider this to be sensitive information.
+VentureOne seeks to overcome this reluctance by emphasizing that its database also helps "rms
+obtain "nancing. In particular, "rms can alert investors whether they intend to seek further
+private "nancing or intend to go public in upcoming months.
+288         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+markets the database to venture funds and corporate business development
+groups.
+   VentureOne o$cials suggest that two forms of selection bias may a!ect the
+completeness of their valuation data. First, in its initial years, neither the "rm's
+data collection methodology nor its reputation in the industry was as estab-
+lished as today. Thus, it was less likely to obtain valuation data. Second, they are
+sometimes able to collect information about earlier "nancing rounds at the time
+a "rm seeks re"nancing. Consequently, the most recent data } which includes
+many "rms that have not subsequently sought re"nancing } may not be as
+complete as earlier years' data.
+   These claims are borne out through an examination of Table 1. Of the 7375
+venture rounds identi"ed by the "rm between 1987 and 1995,5 the valuations of
+the "rm at the time of the "nancing can be calculated in 4069 cases (55%).6
+Forty-"ve percent of observations have valuation data in the "rst three years of
+the sample, compared to 61% in the 1990}1994 period. Consistent with the
+above discussion, the completeness of observations for 1995 is again lower, 49%.
+   A comparison of the rounds with and without valuation data provides insight
+on the impact of the missing data. Table 2 summarizes these patterns. First,
+VentureOne has had the least success in obtaining "nancing data about start-up
+transactions. This is not surprising. In these cases the number of investors is
+typically very small, and concerns about secrecy are the greatest. VentureOne
+has also been less successful in obtaining valuation data about "rms in the
+amalgam referred to as &other industries' than in the high-technology industries
+traditionally funded by venture capitalists.7 VentureOne o$cials attribute this
+pattern to the "rm's greater visibility among entrepreneurs and investors in
+high-technology industries. Similarly, re#ecting the "rm's California base, it has
+been more successful in obtaining information about "rms based in the western
+
+
+   5 The VentureOne database also includes a variety of other transactions including initial and
+follow-on public o!erings by venture-backed "rms, investments in leveraged buyouts and publicly
+traded "rms by venture funds, and so forth. In tabulating venture capital rounds, we eliminate these
+transactions and only include equity investments by professional venture organizations in privately
+held "rms.
+   6 Throughout this paper, we use what is known in the venture industry as the `pre-moneya
+valuation, equal to the product of the price paid per share in the "nancing round and the shares
+outstanding prior to the "nancing round. As discussed at length in Lerner (1994a), the pre-money
+valuation is more appropriate for hedonic pricing analyses. The pre-money valuation is independent
+of the amount invested in the "rm during the current "nancing round. As Gompers (1995) discusses,
+the amount invested may vary with many considerations, including the fundraising environment. In
+calculating the valuation, VentureOne converts all preferred shares into common stock at the
+cconversion ratios speci"ed in the agreements. Warrants and options outstanding are included in the
+total, as long as their exercise price is below the price per share being paid in the "nancing round.
+  7 The de"nitions of the investment stage, industry, and regional groupings used in this paper are
+given in the appendix.
+Table 1
+Number of observations, by year
+The table shows the number of professional venture "nancings of privately held "rms in the VentureOne database, as well as the number and percentage
+with valuation data. Of the rounds with valuation data, the table also displays the number and percentage for which we obtained sales and employment
+data for the beginning of the year of the "nancing.
+
+Year            Number of          Rounds              Percentage         Of rounds with valuation data
+                "nancing           with                with
+                rounds             valuation           valuation          Rounds              Percentage         Rounds with          Percentage
+                                   data                data (%)           with sales          with sales         employment           with
+                                                                          data                data (%)           data                 employment
+                                                                                                                                      data (%)
+
+1987             693                255                36.8                166                65.1                191                 74.9
+1988             634                314                49.5                207                65.9                221                 70.4
+1989             751                369                49.1                262                71.0                276                 74.8
+1990             797                420                52.7                269                64.0                275                 65.5
+1991             785                440                56.1                283                64.3                297                 67.5
+1992             941                626                66.5                334                53.4                332                 53.0
+1993             952                647                68.0                364                56.3                358                 55.3
+1994             955                570                59.7                349                61.2                428                 75.1
+1995             867                428                49.4                268                62.6                315                 73.6
+
+All years       7375               4069                55.2               2502                61.5               2693                 66.2
+                                                                                                                                                       P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+                                                                                                                                                       289
+290         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+Table 2
+Comparisons of "nancing rounds with and without valuation data
+The sample consists of 7375 professional venture "nancings of privately held "rms between January
+1987 and December 1995 in the VentureOne database. The table summarizes the characteristics of
+the 4069 "nancing rounds in the sample for which VentureOne was able to determine the valuation
+of the "nancing round, and the 3306 where VentureOne was not able to do so. The table also
+presents the p-values from t- and s2-tests of the null hypothesis that these two populations are
+identical. Industry public equity indexes are normalized to 1.00 on January 1, 1987. The value-
+weighted (VW) and equally weighted (EW) industry public equity indexes are measured at the
+beginning of the month of "nancing and the VW and EW book-to-market (B/M) and earnings-to-
+price (E/P) ratios are measured at the beginning of the quarter of "nancing.
+
+                                                 Rounds with        Rounds          p-Value
+                                                 valuation data     without         from test
+                                                                    valuation       of equality
+                                                                    data
+
+Stage of xrm at time of round:
+  Start-up stage                                    9%                18%           0.000
+  Development stage                                31%                28%           0.001
+  Beta stage                                        5%                 2%           0.000
+  Shipping stage                                   43%                44%           0.734
+  Pro"table stage                                   8%                 8%           0.184
+  Restart stage                                     2%                 1%           0.008
+
+Industry of xrm:
+  Data processing industry                          9%                 8%           0.256
+  Computer software industry                       17%                17%           0.450
+  Communications industry                          16%                13%           0.001
+  Consumer electronics industry                     1%                 1%           0.133
+  Industrial equipment industry                     4%                 4%           0.780
+  Medical industry                                 31%                27%           0.000
+  Instrumentation industry                          2%                 2%           0.562
+  Components industry                               3%                 3%           0.651
+  Semiconductor industry                            4%                 3%           0.008
+  Other industry                                   13%                22%           0.000
+
+Location of xrm:
+  Eastern states                                   24%                28%           0.000
+  Western states                                   57%                50%           0.000
+  Elsewhere                                        19%                22%           0.000
+
+Time and other characteristics:
+  Date of "nancing                               January 1992       June 1991       0.000
+  VW industry public equity index                   2.31               2.19         0.000
+  EW industry public equity index                   2.53               2.26         0.000
+  VW industry B/M ratio                             0.37               0.39         0.000
+  EW industry B/M ratio                             0.80               0.70         0.155
+  VW industry E/P ratio                             0.03               0.03         0.924
+  EW industry E/P ratio                          !0.15              !0.15           0.847
+  Age of "rm (years)                                4.0                4.1          0.262
+  Venture capital in#ow in prior four quarters   3165               3429            0.000
+  (millions of 1995 dollars)
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325             291
+
+United States. Finally, the observations with valuation data are disproportion-
+ately in the years 1990 through 1994 and this period is characterized by higher
+average public equity values and weaker in#ows to venture capital funds.
+   We do not believe these omissions of valuation data introduce systematic
+biases in the analyses. To address this concern, in unreported analyses we repeat
+the regressions reported in Table 6 through 8 using a Heckman sample selection
+approach. We "rst estimate the probability that VentureOne has been able to
+obtain information about the valuation in the "nancing round, and then seek to
+explain the determinants of the valuation. This correction has little impact on
+the magnitude or the signi"cance of the independent variables in the analyses of
+the determinants of valuations.8
+   Table 3 provides an overview of the patterns of valuations in the sample. Not
+surprisingly, more mature "rms receive higher valuations, with the exception of
+the dramatically depressed valuations for "rms undergoing restarts ("nancial and
+product market restructurings). Semiconductor, data processing, and commun-
+ications companies have on average the highest valuations, while industrial equip-
+ment and instrumentation companies have the lowest. Firms based in the western
+United States, particularly in California, appear to be priced at a premium.
+   We supplemented the VentureOne data in several ways. First, some "rms in
+the VentureOne sample were missing either an assignment to one of the 103
+VentureOne industry classes or information on the "rm's start date. We exam-
+ined a variety of reference sources to determine this information, including
+Corporate Technology Information Service's Corporate Technology Directory
+(1996), Dun's Marketing Services' Million Dollar Directory (1996), Gale Re-
+search's Ward's Business Directory of U.S. Private and Public Companies (1996),
+National Register Publishing Company's Directory of Leading Private Com-
+panies (1996), and a considerable number of state and industry business directo-
+ries in the collections of Harvard Business School's Baker Library and the
+Boston Public Library. We also employed several electronic databases: the
+Company Intelligence and Database America compilations available through
+LEXIS's COMPANY/USPRIV library and the American Business Disk CD-
+ROM directory.
+   Second, until recently VentureOne has not archived employment and sales data
+on "rms. Instead, they merely updated the database entries. We consequently
+
+   8 These tabulations of completeness beg the question as to whether VentureOne captures the total
+number of venture rounds, or whether the denominator substantially understates the total number
+of "nancings. In recent years, the total number of "nancing rounds identi"ed by VentureOne has
+been within 10% of the total identi"ed by Venture Economics (which compiles this information
+using the annual reports of venture capital funds). Before 1990, however, the Venture Economics
+tabulations indicate a substantially larger number of rounds than VentureOne does. This may
+partially re#ect the incompleteness of the early VentureOne data, but it also re#ects the tendency of
+the older Venture Economics entries to record a single venture as multiple "nancings (discussed in
+Lerner, 1995).
+292         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+Table 3
+Pre-money valuations of "nancing rounds, by "rm characteristic
+The sample consists of 4069 professional venture "nancings of privately held "rms between January
+1987 and December 1995 in the VentureOne database for which VentureOne was able to determine
+the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price
+paid per share in the "nancing round and the shares outstanding prior to the "nancing round,
+expressed in millions of 1995 dollars. The table presents the mean and standard error of the
+pre-money valuation for each category, as well as the number of observations in each category.
+
+                                         Pre-money valuation
+
+                                         Mean              Standard Error            No. of Obs
+
+Stage of xrm at time of round:
+  Start-up stage                          2.7              0.1                        366
+  Development stage                      14.3              0.6                       1231
+  Beta stage                             21.1              1.6                        217
+  Shipping stage                         20.1              0.6                       1706
+  Pro"table stage                        33.4              2.0                        332
+  Restart stage                           3.9              0.5                         73
+
+Industry of xrm:
+  Data processing industry               20.0              1.3                        376
+  Computer software industry             14.4              0.8                        706
+  Communications industry                19.0              1.0                        636
+  Consumer electronics industry          16.2              2.4                         44
+  Industrial equipment industry          12.9              1.2                        164
+  Medical industry                       17.8              0.7                       1260
+  Instrumentation industry               13.9              1.5                         63
+  Components industry                    15.5              1.7                        112
+  Semiconductor industry                 31.5              2.8                        169
+  Other industry                         15.9              1.2                        528
+
+Location of xrm:
+  Eastern states                         16.0              0.7                        983
+  Western states                         19.1              0.5                       2321
+  Elsewhere                              15.1              0.8                        765
+
+
+
+
+use the reference sources cited above to determine "rms' sales and employment
+at the end of the calendar year prior to each "nancing with valuation data.
+When either sales or employment were not available from these sources, we
+contacted the "rms for this information. (The VentureOne database provides the
+contact information for these "rms.) Each "rm received a faxed letter. Non-
+respondents were contacted at least twice by telephone. The "nal two columns
+of Table 1 summarize our success rate. In all, we identi"ed historical sales data
+for 61% of the observations with valuation data in the VentureOne database
+and employment data for 66%.
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   293
+
+   Third, we develop several measures of public market valuations at the
+beginning of the month or the quarter of each "nancing. Rather than employing
+an overall market index, we construct industry indexes. We "rst associate each
+of the 103 VentureOne industry classes with a three-digit Standard Industrial
+Classi"cation (SIC) code. This is based on an examination of all "rms in each
+VentureOne class that had gone public. The Securities Data Company's Corpo-
+rate New Issues database provides the primary three-digit SIC code assigned to
+these "rms at the time they went public. In most cases, the overwhelming
+majority of "rms in each VentureOne class are assigned to a single three-digit
+SIC code. When no SIC code represents a majority, we also examine the
+distribution of the three-digit SIC codes of the active privately held "rms listed
+in the Corporate Technology Directory. In cases that remain ambiguous, we
+consult with VentureOne o$cials regarding their classi"cation criteria. In some
+cases, multiple VentureOne classi"cations were assigned to the same three-digit
+SIC code. For example, numerous classi"cations were matched to SIC code 737,
+&Computer and Data Processing Services'.
+   For each of the 35 three-digit SIC codes, we identify all active companies that
+have a primary classi"cation to that SIC code in Compustat. For each of these
+"rms, we extract their monthly returns, shares outstanding, and market price at
+the beginning of each month from the Center for Research in Security Prices
+database. From Compustat, we identify the net income during and shareholders'
+equity at the beginning of each quarter.
+   These variables are used to create two sets of valuation measures. First, we
+construct monthly equal- and value-weighted industry stock price indexes for
+each VentureOne code. These industry stock price indexes should be a measure
+of industry investment opportunity. Including them in the regression controls
+for the portion of the increase in venture capital prices that is attributable to
+better investment opportunities. All "rms in each three-digit industry with
+a return in that month are included and portfolios are rebalanced monthly.
+A concern is that these public market indexes might not perfectly measure future
+investment opportunities in an industry. In particular, an industry stock price
+index could be higher in 1995 than in 1988 because of (i) increases in price levels
+in the economy as a whole, (ii) upward revisions by investors of the expected
+future cash #ows for that particular industry, or (iii) a decrease in the systematic
+riskiness of the industry leading to declines in the industry cost of capital.
+Increases in expected future cash #ows and decreases in systematic industry risk
+would both lead to higher industry prices (and private valuations) and increases
+in investment in#ows without the in#ows driving up the prices. We also
+controlled for price levels using the Gross Domestic Product (GDP) de#ator to
+alleviate the concern that industry stock prices might just measure increases in
+nominal prices.
+   Second, we measure valuation levels using two market multiples. Price-
+earnings and market-to-book ratios are frequently used by practitioners as an
+294         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+approximate measure of equity market values. These ratios may be better
+measures of future investment opportunities in an industry than the industry
+indexes are. For each of the public "rms assigned to the 35 industries, we
+compute (i) the ratio of net income in the four previous quarters to the equity
+market value at the beginning of the quarter of the "nancing and (ii) the ratio of
+shareholders' equity to the market value of the equity at the beginning of the
+quarter. If multiple classes of common and preferred stock were outstanding, the
+combined value of all classes is used. In many industries, numerous small "rms
+with signi"cant negative earnings introduce a substantial skewness to the
+distribution of these ratios. Consequently, both the simple averages of these
+ratios and the averages weighted by equity market capitalization at the begin-
+ning of the quarter are used.
+  Finally, we tabulate the in#ow of capital to funds devoted to investments in
+venture capital and leveraged buyout transactions. Data are obtained from the
+records of the consulting "rm Asset Alternatives (the publisher of the newsletter
+Private Equity Analyst). Many institutions defer making commitments of capital
+until the last quarter, meaning that "nancings display a strong seasonal pattern.
+Consequently, the total in#ation-adjusted amount of funds raised in the
+previous four quarters is tabulated.9
+
+
+5. Empirical analyses
+
+  Before examining the determinants of the valuations of venture investments
+econometrically, we present the basic patterns. Table 4 makes clear that the
+highest in#ation-adjusted valuations between 1987 and 1995 occurred in 1987,
+1994, and 1995. These were also the years with the greatest in#ows to private
+equity funds in constant dollars. The table also presents the value-weighted
+average book-to-market ratios and in#ation-adjusted equity indexes for 35
+industries whose construction is described above. Here, the correlation with the
+pricing of venture investments is less clear; the greatest public market valuations
+were con"ned to the "nal years of the sample.
+
+
+  9 The tabulation of venture capital raised by year (displayed in Table 4) di!ers from those
+presented in Gompers and Lerner (1996). The latter tabulation was based on the records of Venture
+Economics whose methodology di!ers from that of Asset Alternatives in two ways. First, many
+funds raise capital through multiple closings. In a closing, an investor or group of investors signs
+a contract that binds them to supply a set amount of capital to a private equity fund, and often
+provides a fraction of that capital immediately. The Venture Economics database treats the total
+amount ultimately raised by the fund as having been raised on the date of the "rst closing; the Asset
+Alternatives database treats each closing as a separate event. Second, some private equity funds
+make investments into both venture capital and buyout transactions. While there does not appear to
+be a systemic pattern, Venture Economics and Asset Alternatives di!er in how they classify some of
+the hybrid funds.
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325             295
+
+Table 4
+Pre-money valuations of "nancing rounds, by year
+The sample consists of 4069 professional venture "nancings of privately held "rms between January
+1987 and December 1995 in the VentureOne database for which VentureOne was able to determine
+the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price
+paid per share in the "nancing round and the shares outstanding prior to the "nancing round,
+expressed in millions of 1995 dollars. The table presents the mean and standard error of the
+pre-money valuation for each year, the in#ow into the venture capital industry in that year (in
+millions of 1995 dollars), the mean level of the 35 value-weighted industry stock indexes used to
+control for the public market valuations of "rms in the sample (January 1, 1987 is normalized as 1.00
+for each index, with an adjustment for in#ation), and the mean level of the book-to-market ratio for
+the 35 industries (each industry ratio measure is the market value-weighted average of each active
+"rm).
+
+Year         Pre-money valuation              In#ow into           Average of         Average of
+                                              venture              value-             book-to-
+             Mean           Standard          industry             weighted           market ratio
+                            error                                  indexes
+
+1987         19.0           1.6               $4,969               1.18               0.50
+1988         16.5           1.2                3,995               1.09               0.54
+1989         16.6           1.1                4,082               1.33               0.54
+1990         18.0           1.2                2,221               1.25               0.49
+1991         15.8           1.0                1,542               1.51               0.58
+1992         15.8           1.0                2,108               1.80               0.49
+1993         16.4           0.8                3,065               2.06               0.43
+1994         20.1           1.1                4,825               2.16               0.38
+1995         20.9           1.4                4,517               2.47               0.41
+
+
+
+   Two "gures graphically depict the pricing patterns. Fig. 1 presents the average
+of the public market indexes and the private equity valuations on a quarter-by-
+quarter basis, as well as the annual in#ow into venture funds. For the sake
+of clarity, both the market indexes and the in#ows are presented on a scale that
+is normalized to 1.00 in 1987. Fig. 2 presents the valuation of early- and
+later-stage investments on a biannual basis. The more dramatic rise of pricing
+levels for later-stage investments in both the "rst and last years of the sample is
+apparent.
+   A natural question is the extent to which the changes in valuations over time
+are driven by the changing mixture of "rms being "nanced. The higher valu-
+ations in 1987, 1994, and 1995 may re#ect di!erent "rms being funded during
+periods of rapid growth in commitments to venture funds. Venture capital
+organizations do not proportionately add partners as they increase capital
+under management. (For a discussion and evidence, see Gompers and Lerner,
+1996.) Meanwhile, the number of investments that each partner can oversee
+is typically quite limited. Each investment requires extensive due diligence,
+attendance at monthly board meetings, and frequent informal interactions.
+296         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+Fig. 1. Pre-money valuations of "nancing rounds, average public market equity values, and in#ows
+into the venture capital industry. The sample consists of 4069 professional venture "nancings of
+privately held "rms between January 1987 and December 1995 in the VentureOne database for
+which VentureOne was able to determine the valuation of the "nancing round. The pre-money
+valuation is de"ned as the product of the price paid per share in the "nancing round and the shares
+outstanding prior to the "nancing round, expressed in millions of 1995 dollars. The "gure presents
+the mean pre-money valuation for each quarter, the unweighted average of the 35 value-weighted
+industry stock indexes used to control for the public market valuations (with January 1, 1987
+normalized as 1.00 for each index and with an adjustment for in#ation), and the total annual in#ow
+to the venture capital industry (with 1987 normalized as 1.00).
+
+
+
+
+Consequently, venture funds that are rapidly growing tend to increase the
+average amount that they invest in each "rm and shift from early- to later-stage
+investments, which can typically absorb more capital. This suggests the desir-
+ability of examining the share of "rms being funded each year that are of the
+types that command high valuations. Examples include "rms with higher sales,
+those which are already pro"table, and those in the semiconductor industry.
+Regression analyses also control for these characteristics.
+  Table 5 presents some univariate evidence on these issues:
+
+f The relation between sales and employment on the one hand and venture
+  capital in#ows on the other is economically and statistically insigni"cant. For
+  example, the correlation coe$cient between in#ows and sales is only 0.006.
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325             297
+
+
+
+
+Fig. 2. Pre-money valuations of later- and early-stage "nancing rounds. The sample consists of 4069
+professional venture "nancings of privately held "rms between January 1987 and December 1995 in
+the VentureOne database for which VentureOne was able to determine the valuation of the
+"nancing round. The pre-money valuation is de"ned as the product of the price paid per share in the
+"nancing round and the shares outstanding prior to the "nancing round, expressed in millions of
+1995 dollars. The "gure presents the mean pre-money valuation for "rms in the shipping or
+pro"table stages (later-stage investments), as well as those in all other stages (early-stage invest-
+ments), in each half-year period.
+
+
+f Start-ups, which command the lowest valuations on average, actually
+  comprise a greater percentage of the sample during periods with high in#ows
+  into venture capital funds. Also, the probability that "rms in the sample are
+  shipping products or are pro"table varies negatively with in#ows. This is
+  exactly the opposite pattern than we would have expected were the valuation
+  pattern a consequence of the mixture of transactions.
+f For medical-related and data processing "rms, the probability of being
+  funded is signi"cantly negatively correlated with venture capital in#ows.
+  During years with the greatest venture capital in#ows, there are more transac-
+  tions with "rm in the data processing industry and less with "rms in the
+  medical industry.
+
+Thus, the pattern of valuations over time does not appear to be determined by
+the changing mix of transactions. We must look elsewhere for an explanation of
+the time-series variation.
+                                                                                                                                                                298
+
+
+
+Table 5
+Characteristics of the sample "rms receiving venture "nancing, by year
+The sample consists of 4069 professional venture "nancings of privately held "rms between January 1987 and December 1995 in the VentureOne database
+for which VentureOne was able to determine the valuation of the "nancing round. The table summarizes the mean characteristics of the "rms "nanced in
+each year included in the sample, as well as the correlation coe$cient between these measures and the in#ow into venture capital funds in the four quarters
+prior to the "nancing (in millions of 1995 dollars), and the p-value of the test of the null hypothesis that the correlation coe$cient equals zero. Sales (in
+millions of 1995 dollars) and employment are at the beginning of the year of the "nancing.
+
+Year          Firm        Firm             Firm is in     Firm is in     Firm is in    Firm is in       Firm is in           Firm is in     Firm is in
+              sales       employment       start-up       shipping       pro"table     data             communications       medical        semiconductor
+                                           stage          stage          stage         processing       industry             industry       industry
+                                                                                       industry
+
+1987          10.9        90.0             13%              35%             4%         20%              13%                    20%          5%
+1988           9.6        79.3             17               37              6          21               14                     21           7
+1989           9.4        79.5             11               38              8          14               15                     24           5
+1990           7.2        66.1              6               47              5          12               16                     26           6
+1991           8.1        59.6              6               47              7          11               15                     32           4
+1992           7.8        67.0              7               45              8           6               14                     36           3
+1993           7.5        78.7              9               42             13           4               16                     36           3
+1994           5.7        57.8              8               42              9           5               17                     34           3
+1995           7.7        77.7              8               38              7           4               18                     35           3
+
+Corr. coe!.    0.006       0.016             0.055        !0.059         !0.065         0.044            0.002               !0.056         0.022
+p-Value        0.763       0.398             0.000         0.000          0.000         0.000            0.847                0.000         0.064
+                                                                                                                                                                P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325          299
+
+5.1. Basic econometric analysis
+
+   As the above "ndings suggest, the econometric analysis of the valuation of
+venture capital investments poses estimation challenges somewhat di!erent
+from traditional studies of the pricing of publicly traded assets. Most pricing
+studies examine changes in the prices of an essentially constant basket of
+securities (except, of course, for new o!erings and delistings). This environment
+is quite di!erent. The average time between re"nancings in our sample, and
+hence price observations, is 16.4 months.
+   One approach would be to examine only the changes in prices for "rms that
+have a previous observed valuation. This is reminiscent to the &matched model'
+approach employed in pricing analyses. As Berndt and Griliches (1993) argue,
+this method can lead to misleading estimates. In particular, if the process
+through which new "rms are valued is di!erent from that in the re"nancing of
+existing "rms, this analysis may give a biased impression. For instance, in the
+pharmaceutical industry political pressures have often limited companies' abil-
+ities to raise the price of existing pharmaceutical products, but such pressures
+have had much less impact on the initial pricing of new drugs. Furthermore, this
+approach eliminates those companies that only receive one "nancing. These
+"rms, which are typically the concerns that are liquidated or merged, may di!er
+systematically from other "rms.
+   Consequently, we examine the pricing pattern using a hedonic regression
+approach. This method, "rst developed by Frederick Waugh to examine the
+pricing of vegetables in Boston's Fanueil Hall in 1927, includes all price observa-
+tions in a regression analysis. The analysis includes "rms receiving their "rst or
+follow-on "nancings. The price is the dependent variable, and the characteristics
+of the "rm and the environment are the independent variables. The regression
+approach enables us to incorporate even those "rms that received just one
+"nancing round.
+   An important assumption of hedonic pricing models is that the researcher can
+either measure the factors that are important for determining the price of the "rm
+or good or identify reasonable proxies for these measures. If the qualities that
+determine the price are not quanti"able or measurable, then the hedonic regres-
+sion model will have little explanatory power. Alternatively, the omitted variables
+may introduce biases that lead to mistaken interpretations of the results.
+   Tables 6 and 7 present the basic analysis.10 We employ an ordinary
+least squares (OLS) speci"cation and a &log}log' framework, meaning that the
+
+
+   10 The regressions in these and all other tables (with the exception of the Heckman sample
+selection regressions reported in the third and fourth columns of Table 10) employ t-statistics
+computed with heteroskedastistic-consistent standard errors (White, 1980). Because in many cases
+there are several observations of the same "rm (due to multiple "nancing rounds), the observations
+may not be independent. We address this issue in the "nal two paragraphs of this section.
+                                                                                                                                                                300
+
+Table 6
+Ordinary least squares regression analyses of pre-money valuations of "nancing rounds
+The sample consists of 4069 professional venture "nancings of privately held "rms between January 1987 and December 1995 in the VentureOne database
+for which VentureOne was able to determine the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price paid per
+share in the "nancing round and the shares outstanding prior to the "nancing round. The logarithm of the pre-money valuation, expressed in millions of
+current dollars, is used as the dependent variable. The independent variables include dummy variables controlling for the "rm's status, industry, and
+location, and the logarithms of the "rm's age (in years), sales (in millions of 1995 dollars) and employment at the beginning of the year of the "nancing, of
+two indexes for the public market valuations of publicly traded "rms in the same industry as the "rm at the beginning of the month of the "nancing (with
+January 1, 1987 normalized as 1.00 for each index), and of the in#ow into venture capital funds in the four quarters prior to the "nancing (in millions of
+1995 dollars). Absolute heteroskedastistic-consistent t-statistics are in brackets.
+
+Independent variables                      No "rm size measure                    Using "rm sales                        Using "rm employment
+
+Stage of xrm:
+  Start-up stage                           !0.85 [6.67]       !0.87 [6.77]        !0.89 [5.35]       !0.90 [5.42]        !0.76 [5.35]       !0.77 [5.45]
+  Development stage                        !0.14 [1.11]       !0.16 [1.26]        !0.08 [0.52]       !0.11 [0.65]        !0.02 [0.16]       !0.05 [0.37]
+  Beta stage                                0.13 [0.96]        0.10 [0.75]         0.22 [1.26]        0.18 [1.02]         0.25 [1.62]        0.18 [1.20]
+  Shipping stage                            0.16 [1.37]        0.15 [1.23]         0.18 [1.16]        0.15 [0.95]         0.19 [1.47]        0.14 [1.12]
+  Pro"table stage                           0.52 [3.98]        0.50 [3.83]         0.46 [2.80]        0.41 [2.49]         0.45 [3.17]        0.38 [2.70]
+  Restart stage                            !1.22 [8.66]       !1.25 [8.82]        !1.30 [7.71]       !1.35 [7.98]        !1.28 [8.49]       !1.35 [8.98]
+
+Industry of xrm:
+  Data processing industry                  0.32 [3.64]        0.27 [2.99]         0.27 [2.37]        0.17 [1.48]         0.35 [3.35]        0.24 [2.36]
+  Computer software industry               !0.04 [0.51]       !0.02 [0.26]        !0.09 [1.04]       !0.07 [0.80]        !0.04 [0.56]       !0.02 [0.19]
+  Communications industry                   0.34 [4.76]        0.29 [3.98]         0.28 [3.14]        0.19 [2.05]         0.34 [4.13]        0.23 [2.83]
+  Consumer electronics industry             0.25 [1.47]        0.25 [1.48]         0.27 [1.48]        0.26 [1.46]         0.23 [1.56]        0.22 [1.58]
+                                                                                                                                                                P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+  Industrial equipment industry            !0.21 [2.01]       !0.24 [2.29]        !0.23 [1.72]       !0.28 [2.13]        !0.18 [1.49]       !0.23 [1.91]
+  Medical industry                          0.39 [5.86]        0.37 [5.38]         0.43 [4.89]        0.37 [4.04]         0.46 [5.91]        0.38 [4.69]
+  Instrumentation industry                  0.01 [0.13]       !0.02 [0.13]         0.04 [0.32]       !0.01 [0.08]         0.09 [0.76]        0.04 [0.29]
+  Components industry                      !0.04 [0.38]       !0.05 [0.49]        !0.06 [0.49]       !0.08 [0.66]        !0.07 [0.54]       !0.08 [0.66]
+  Semiconductor industry                    0.60 [5.55]        0.60 [5.48]         0.45 [3.74]        0.44 [3.58]         0.49 [4.56]        0.49 [4.46]
+Location and other characteristics:
+  Eastern states                          0.10 [1.92]       0.09 [1.78]       0.17 [2.62]      0.15 [2.42]      0.16 [2.77]       0.15 [2.54]
+  Western states                          0.30 [6.48]       0.29 [6.39]       0.33 [5.72]      0.33 [5.61]      0.32 [5.97]       0.32 [5.90]
+  Log of "rm age (in years)               0.43 [13.90]      0.43 [13.90]      0.30 [7.11]      0.30 [7.04]      0.19 [4.55]       0.18 [4.27]
+  Log of "rm sales                                                            0.19 [7.44]      0.20 [7.68]
+  Log of "rm employment                                                                                         0.27 [13.73]      0.30 [14.31]
+  Log of value-weighted industry index    0.16 [4.21]                         0.27 [5.20]                       0.31 [6.42]
+  Log of equal-weighted industry index                      0.15 [4.17]                        0.26 [5.61]                        0.35 [7.93]
+  Log of in#ow of venture capital         0.18 [4.94]       0.19 [5.20]       0.14 [3.10]      0.16 [3.46]      0.07 [1.67]       0.09 [2.03]
+Constant                               !0.19 [0.58]      !0.24 [0.73]      !0.06 [0.14]     !0.16 [0.37]     !0.11 [0.27]      !0.26 [0.65]
+R2                                        0.32              0.32              0.34             0.34             0.38              0.38
+F-statistic                              98.94             98.38             69.47            70.80            76.33             76.39
+p-value                                   0.000             0.000             0.000            0.000            0.000             0.000
+Number of observations                 3896              3896              2433             2433             2622              2622
+
+
+
+
+                                                                                                                                                 P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+                                                                                                                                                 301
+Table 7                                                                                                                                                          302
+Ordinary least squares regression analyses of pre-money valuations of "nancing rounds, with alternative measure of public market valuations
+The sample consists of 4069 professional venture "nancings of privately held "rms between January 1987 and December 1995 in the VentureOne database
+for which VentureOne was able to determine the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price paid per
+share in the "nancing round and the shares outstanding prior to the "nancing round. The logarithm of the pre-money valuation, expressed in millions of
+current dollars, is used as the dependent variable. The independent variables include dummy variables controlling for the "rm's status, industry, and
+location, and the logarithms of the value-weighted and equally-weighted average ratios of book-to-market equity value and earnings-to-market equity
+value of publicly traded "rms in the same industry as the "rm, of the Gross Domestic Product de#ator at the beginning of the quarter of the "nancing, of
+the "rm's age (in years) at the beginning of the year of the "nancing, of the "rm's sales (in millions of 1995 dollars) and employment at the beginning of the
+year of the "nancing, and of the in#ow into venture capital funds in the four quarters prior to the "nancing (in millions of 1995 dollars). Absolute
+heteroskedastistic-consistent t-statistics are in brackets.
+
+Independent variables                                                  Using book to market                          Using earnings to value
+
+                                                                       Value-weighted        Equally weighted        Value-weighted        Equally weighted
+
+Stage of xrm:
+  Start-up stage                                                       !0.97 [5.76]          !0.98 [5.78]             !0.87 [6.05]          !0.87 [6.07]
+  Development stage                                                    !0.18 [1.07]          !0.18 [1.08]             !0.15 [1.11]          !0.16 [1.13]
+  Beta stage                                                            0.09 [0.51]           0.10 [0.56]              0.06 [0.37]           0.06 [0.37]
+  Shipping stage                                                        0.07 [0.42]           0.07 [0.47]              0.14 [0.27]           0.04 [0.27]
+  Pro"table stage                                                       0.33 [1.91]           0.33 [1.95]              0.27 [1.81]           0.27 [1.82]
+  Restart stage                                                        !1.43 [8.19]          !1.41 [8.05]             !1.45 [9.26]          !1.45 [9.26]
+
+Industry of xrm:
+  Data processing industry                                              0.23 [1.93]           0.28 [2.29]              0.31 [3.01]           0.31 [3.00]
+  Computer software industry                                            0.01 [0.08]          !0.03 [0.30]              0.08 [1.05]           0.08 [1.06]
+  Communications industry                                               0.24 [2.68]           0.30 [3.00]              0.30 [3.66]           0.30 [3.68]
+  Consumer electronics industry                                         0.32 [1.79]           0.38 [2.07]              0.29 [2.05]           0.29 [2.05]
+                                                                                                                                                                 P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+  Industrial equipment industry                                        !0.21 [1.57]          !0.15 [1.04]             !0.14 [1.18]          !0.14 [1.18]
+  Medical industry                                                      0.48 [5.50]           0.46 [5.27]              0.52 [6.70]           0.52 [6.65]
+  Instrumentation industry                                              0.07 [0.54]           0.11 [0.75]              0.13 [1.09]           0.13 [1.08]
+  Components industry                                                  !0.03 [0.25]           0.01 [0.08]             !0.02 [0.18]          !0.03 [0.22]
+  Semiconductor industry                                                0.46 [3.77]           0.49 [3.95]              0.51 [4.64]           0.50 [4.57]
+Location and other characteristics:
+  Eastern states                                                     0.16 [2.55]      0.16 [2.46]      0.16 [2.66]       0.16 [2.70]
+  Western states                                                     0.33 [5.69]      0.33 [5.68]      0.32 [5.95]       0.32 [6.00]
+  Log of "rm age (in years)                                          0.28 [6.63]      0.28 [6.59]      0.16 [3.80]       0.16 [3.84]
+  Log of "rm sales                                                   0.21 [7.78]      1.84 [7.85]
+  Log of "rm employment                                                                                0.30 [14.02]      0.30 [14.00]
+  Log of gross domestic product de#ator                            1.96 [5.92]        1.84 [5.44]      2.48 [8.05]       2.53 [8.05]
+  Log of equal-weighted industry book-to-market ratio             !0.004[1.27]
+  Log of value-weighted industry book-to-market ratio                              !0.36 [1.80]
+  Log of equal-weighted industry earnings-to-market value ratio                                        0.01 [0.43]
+  Log of value-weighted industry earnings-to-market value ratio                                                          0.54 [0.82]
+  Log of in#ow of venture capital                                    0.20 [4.31]      0.19 [4.06]      0.14 [3.07]       0.13 [2.92]
+Constant                                                          !9.62 [5.74]     !8.84 [5.11]     !12.18 [7.92]     !12.40 [7.93]
+R2                                                                   0.34             0.34             0.38              0.38
+F-statistic                                                         68.69            68.75            74.62             75.15
+p-value                                                              0.000            0.000            0.000             0.000
+Number of observations                                            2433             2433             2622              2622
+
+
+
+
+                                                                                                                                        P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+                                                                                                                                        303
+304         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+logarithm of the valuation is regressed on the dummy variables and the logar-
+ithms of the continuous, non-negative variables. The log}log speci"cation
+makes sense because many of the factors should be multiplicative. For instance,
+an increase in public market values should lead to a greater dollar increase in the
+valuation of an already substantial "rm than that of a smaller one. As opposed
+to Table 4, we employ the nominal value of the valuation, correcting for
+in#ation by including the GDP de#ator as an additional independent variable.
+   We use a variety of independent variables. First, dummy variables capture the
+"rm's industry, stage of development, and location. Second, we control for
+public market valuations of "rms in the same industry. Table 6 includes the
+value of corresponding equal- and value-weighted industry indexes at the end of
+the month prior to the "nancing. Table 7 shows the regressions using the value
+of the two market multiples at the end of the quarter prior to the "nancing.
+Third, we employ venture capital in#ows (in constant dollars) in the four
+quarters prior to the investment. Finally, regressions include the "rm's age,
+employment, and sales. Because employment and sales data are missing in some
+cases, and the two measures are highly correlated, we present regressions that do
+not use either variable and then ones that use each in turn.
+   Signi"cantly higher valuations are associated with pro"table "rms. There is
+a monotonic relation between stage of development and valuation. Start-ups
+and "rms undergoing restructurings have lower valuations. These "rms have
+considerably more uncertainty about whether they will ultimately be successful.
+Older and larger "rms are associated with higher valuations than less developed
+"rms. Greater age and size are also likely to be proxies for superior future
+prospects.
+   The regressions also suggest that "rms in the eastern and western United
+States are associated with higher valuations, as are those in the computer
+hardware, communications, medical, and semiconductor industries. The geo-
+graphic patterns are consistent with "rms situated in high-technology com-
+plexes enjoying a variety of bene"ts, which are re#ected in higher valuations. As
+Krugman (1991) discusses, bene"ts include the presence of specialized inter-
+mediaries such as patent lawyers, an ample supply of the highly skilled
+employees that they require, and technological spillovers.11 We have no prior
+reason to believe any industry patterns should emerge, but they may re#ect the
+greater expected future cash #ows for "rms in these industries.
+   Public market valuations have an uneven impact. Industry indexes are consis-
+tently signi"cant. A 10% increase in public market values is associated with
+
+
+
+  11 Inferences are robust to employing dummy variables for the states with the greatest venture
+capital investment, for example, California and Massachusetts, or using the pool of venture funds
+based in each state at the beginning of 1987. It is also possible that the East and West Coast
+dummies proxy for intense competition for attractive investments. We discuss this alternative later.
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   305
+
+a marginal increase in private equity valuations of between 1.5% and 3.5%. The
+coe$cient on the average industry book-to-market ratio is, as expected, nega-
+tive. An industry whose average book-to-market ratio is high has lower private
+equity valuations in the subsequent quarter. An industry with a high book-to-
+market ratio is commonly interpreted as having low future growth prospects.
+However, this variable is only marginally signi"cant. The earnings-to-price ratio
+of "rms in the same industry at the end of the previous quarter is consistently
+insigni"cant, and its sign is opposite of what would be expected. Using the
+median industry earnings-price ratio, which may be less in#uenced by outliers,
+the coe$cient takes on the expected negative sign but remains statistically
+insigni"cant. The results are also robust to using the in#ation-adjusted valu-
+ation as the dependent variable and the in#ation-adjusted industry stock index
+as an independent variable.
+   Finally, in#ows to venture capital funds are signi"cantly related to the
+valuations of these funds' investments in private "rms. A 10% increase in
+venture in#ows is associated with a marginal increase in valuations of between
+0.7% and 2.1%. This result is consistent with the suggestion that demand
+pressures a!ect prices. The magnitude and signi"cance of the coe$cient on
+venture capital in#ows coe$cient falls when employment is used as a control
+variable, but to a much less extent when sales is employed. This is puzzling given
+the low correlation between in#ows and the employment of "rms "nanced. It
+appears to re#ect the fact that the "rms in which the employment is known are
+not entirely representative of the sample as a whole. Furthermore, this may
+partially re#ect the smaller sample size. Were we to have full data on employ-
+ment of these "rms, the coe$cient would be likely to be more signi"cant.
+However, many of the regressions below continue to use both sales and employ-
+ment as control variables as a check of the robustness of the relation between
+in#ows and valuations.
+   One concern with these analyses is the potential impact of autocorrelation
+across the di!erent "nancings of the same "rm. While regressions control for
+heteroskedasticity, the estimates may still be biased if the residuals are corre-
+lated. We address this concern repeating the estimation of several of the
+regressions reported in Table 6 employing generalized least squares (GLS).
+McCallagh and Nelder (1989) show that this approach simultaneously controls
+for "rst-order autocorrelation across the subsequent "nancings of the same "rm
+and heteroskedasticity across the observations of the di!erent "rms. Unfortu-
+nately, the estimation can only employ observations in which "rms have had
+two or more "nancings with valuation data. As a result, we compare the
+standard errors in these regressions to those in heteroskedasticity-corrected
+regressions only using cases for which there is more than one observation of
+each "rm.
+   We compare the Table 6 regressions, which use White's heteroskedasti-
+city adjustment, to the GLS regressions. The comparison is restricted to the
+306       P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+regression observations in which the "rm had two or more "nancings with
+valuation data. The comparison shows that the correction for "rst-order auto-
+correlation has little impact on the results. While the standard errors are
+generally (but not universally) higher, the e!ects are modest. Consider the
+leftmost regression in Table 6. The standard errors for the location dummy
+variables are 1.6% higher on average in the GLS regressions, and those of the
+sector dummies are 0.1% higher. The standard error on the venture in#ow
+measure is actually very slightly lower once the GLS correction is made. The
+results of the other regressions in Table 6 are similar. In each case, the average
+standard error increases by less than 10% when the GLS speci"cation is
+substituted for the heteroskedasticity-adjusted OLS regressions, holding the
+sample in each case constant.
+
+5.2. Using control variables to assess robustness
+
+   While results show a relation between venture in#ows and prices, speci"ca-
+tion errors may cause a spurious correlation. This section seeks to assess the
+robustness of results. None of these adjustments appear to alter the basic
+patterns seen above. Venture in#ows continue to have a large, positive e!ect on
+valuations.
+   One possibility is that additional factors not captured in the basic speci"ca-
+tion a!ect the value of the venture-backed "rms. The "rms used to construct the
+public market benchmarks, while matched by industry, di!er systematically
+from the "rms backed by venture capitalists in at least two ways. They are on
+average considerably larger, and they have already successfully accessed the
+public capital markets. Fama and French (1992) have shown that the stock
+market returns of small "rms di!er signi"cantly from those of other concerns.
+   We address this concern by adding additional control variables to the basic
+speci"cation. The "rst of these, as shown in the top panel of Table 8, is an index
+of the performance of small-capitalization stocks. We employ Ibbotson and
+Associates' monthly index of the total return on the two smallest deciles of "rms
+traded on the New York and American Stock Exchanges. While this small-
+capitalization stock index has considerable explanatory power, the in#ux of
+funds into venture capital funds remains highly signi"cant.
+   A variety of additional factors are added in unreported regressions. For
+instance, small private "rms might be more sensitive to business cycles. To
+address this suggestion, we add indexes measuring the level of the GDP de#ator,
+the real GDP, and the changes in these measures in the past three and six
+months. We also explore the impact of credit market conditions. Some "rms
+may consider bank loans to be an alternative to venture "nancing. In situations
+where bank loans are more expensive or less available, entrepreneurs may be
+willing to settle for lower equity valuations, i.e., pay a higher cost of equity
+capital. The di!erence in the average yields of bonds rated by Moody's as Aaa
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325            307
+
+and those rated Baa proxies for the premium that "rms with weaker balance
+sheets must pay to borrow money. The number of small business failures and
+incorporations as tabulated by the U.S. Small Business Administration's O$ce
+of Advocacy captures changing conditions and expectations for small businesses
+as a whole. In each case, the impact of venture capital in#ows on prices changes
+little in magnitude or signi"cance.
+   A second possibility is that the pricing of investments by private equity
+"rms re#ects equity valuation levels in the public market, but only with a
+substantial lag. Negotiations between venture investors and entrepreneurs
+can be protracted, for example, if the venture investor needs to "nd a syndica-
+tion partner before "nalizing the transaction. Consequently, the price
+of the investment might be tentatively agreed upon well before the date of the
+closing.
+   To address this possibility, we include the lagged industry price index as an
+additional independent variable. Alternative regressions employ the index value
+six, twelve, and eighteen months prior to the "nancing. Panel B of Table
+8 reports the results of the regression employing the index value twelve months
+prior to the "nancing. These controls have little impact on the coe$cient or the
+signi"cance of the variable measuring the in#ow of funds into the venture
+industry.
+   A third possibility is that prices may be a!ected by di!erences between "rst
+and later round investors. In particular, Lerner (1994b) shows that established
+venture groups tend to syndicate second and later venture rounds with less
+established investors. These later rounds are associated with a substantial
+premium, which partially re#ects the fact that these later-round investors are
+rarely asked to join the board or provide other value-added services.
+   To examine the possibility that these changing syndication patterns a!ect
+valuations, we control for the round of venture investment.12 In the regression
+reported in Panel C of Table 8, we add a dummy variable indicating whether the
+transaction was a second or later venture round. While the dummy is strongly
+positive, suggesting that "rst-round investors are being compensated for their
+services by buying equity at lower prices, the measure of venture in#ows remains
+positive and signi"cant at least at the ten percent con"dence level. Similar
+results appear when we employ additional independent variables to more "nely
+indicate the round of venture investment.
+
+
+  12 The reader may be confused about the addition of this control variable since we have already
+controlled for the "rm's stage of development. While most "rms receive their initial venture capital
+"nancing while still in the start-up or development stages, a signi"cant minority receive their "rst
+venture "nancing after a number of years of operations. For instance, Gompers (1995) reports that
+the average consumer products company was nearly six years old at the time of its "rst venture
+"nancing. These older "rms are likely to be shipping product or even to be pro"table at the time of
+their initial "nancing round.
+308         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+Table 8
+Ordinary least squares regression analyses of pre-money valuations of "nancing rounds, with
+controls for additional hypotheses
+The sample consists of 4069 professional venture "nancings of privately held "rms between January
+1987 and December 1995 in the VentureOne database for which VentureOne was able to determine
+the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price
+paid per share in the "nancing round and the shares outstanding prior to the "nancing round. The
+logarithm of the pre-money valuation, expressed in millions of current dollars, is used as the
+dependent variable. The independent variables in all regressions include dummy variables control-
+ling for the "rm's status, industry, and location, and the logarithms of two indexes for the public
+market valuations of publicly traded "rms in the same industry as the "rm at the beginning of the
+month of the "nancing (with January 1, 1987 normalized as 1.00 for each index), of the "rm's age (in
+years) at the beginning of the year of the "nancing, and of the in#ow into venture capital funds in the
+four quarters prior to the "nancing (in millions of 1995 dollars). In Panel B, the logarithm of the
+"rm's sales (in millions of 1995 dollars) at the beginning of the year of the "nancing is an additional
+independent variable. In Panel C, the logarithm of the "rm's employment at the beginning of the
+year of the "nancing is included. Also, Panels A, B, and C respectively add as independent variables
+the logarithm of a small capitalization stock index, the logarithm of the relevant price index twelve
+months prior to the investment, and a dummy variable denoting second and later rounds of venture
+capital investment. Only selected coe$cients are presented. Absolute heteroskedastistic-consistent
+t-statistics are in brackets.
+
+Panel A: Adding a small capitalization stock index
+Log of value-weighted industry index                                     0.06 [1.20]
+Log of equal-weighted industry index                                                      0.02 [0.39]
+Log of small capitalization stock index                                  0.24 [2.77]      0.27 [2.42]
+Log of in#ow of venture capital                                          0.14 [3.80]      0.14 [3.33]
+
+Panel B: Adding a lagged price index
+Log of value-weighted industry index                                     0.07 [0.80]
+Log of equal-weighted industry index                                                      0.11 [1.36]
+Log of value-weighted industry index from 12 months previously           0.23 [2.20]
+Log of equal-weighted industry index from 12 months previously                            0.17 [2.00]
+Log of in#ow of venture capital                                          0.14 [3.02]      0.13 [2.48]
+
+Panel C: Adding a dummy variable for later venture rounds
+Log of value-weighted industry index                                     0.27 [5.64]
+Log of equal-weighted industry index                                                      0.30 [7.02]
+Second or later venture round?                                           0.47 [11.91]     0.46 [11.53]
+Log of in#ow of venture capital                                          0.07 [1.74]      0.09 [2.05]
+
+
+
+5.3. First diwerence analysis
+
+   One persistent concern is that the analyses above cannot capture many of
+the "rm-speci"c determinants of pricing. One way to address this concern
+is to undertake a "rst di!erence analysis. By examining the changes in valuation
+across venture rounds, we are able to minimize the distortionary e!ects
+of unobservable "rm characteristics. While this analysis is not without its
+           P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325         309
+
+limitations, the "rst-di!erence analysis can provide another check on the valid-
+ity of the results.13
+   The "rst two columns of Table 9 present the results of several OLS analyses.
+The observations include all venture rounds in which the valuation is known in
+the current and subsequent "nancing rounds. The dependent variable is the
+di!erence between the logarithm of the valuation in the subsequent and current
+rounds. To maximize the sample size, the table presents the results from
+regressions that do not use employment or sales data. The other results are
+similar.
+   The greatest write-ups are associated with "rms with the lowest valuations in
+the current rounds, i.e., those in the start-up, development, or restart phase.
+These are also the "rms that are in greatest risk of not receiving another
+"nancing round. Many of the "rms that disappear from the VentureOne
+database have either been terminated or else joined the ranks of the `living
+deada, ongoing "rms whose future growth prospects are so modest that they are
+not attractive candidates for an IPO or an acquisition. Thus, it is not surprising
+that the low-valued "rms which receive a subsequent "nancing are associated
+with the greatest mark-ups. The very fact that they have been re"nanced implies
+that they have made substantial progress. Neither is it surprising that "rms
+encountering di$culty between the current and subsequent "nancing and
+undertaking a restart round experience a dramatic drop in valuations. The
+change in price re#ects new information that becomes available on these "rms.
+Few clear patterns emerge by industry or location.
+   With respect to changes in the external environment, quite stark results
+emerge. Changes in public market valuations, whether measured using equal- or
+value-weighted indexes or (in unreported regressions) using the market
+multiples, have little impact on pricing. However, changes in venture in#ows
+have a signi"cant impact. The valuation of a "rm "nanced in two conse-
+cutive years will increase by an additional 8% if the venture capital in#ow
+doubles in that period. The "rst di!erences results provide additional evidence
+that venture in#ows could be driving up prices through greater investment
+competition.
+   The third and fourth columns of Table 9 present Heckman sample selection
+analyses. Using each "nancing round as an observation, we estimate a
+two-equation system. The "rst equation measures the probability that there
+will be a subsequent "nancing round. If there is a subsequent round, the
+second equation measures the change in the valuation, again expressed as
+the di!erence between the logarithm of the valuation in the subsequent and
+current rounds. In the unreported "rst-stage probit analysis, several patterns
+emerge. The probability of re"nancing is higher during periods of large venture
+
+   13 Problems with &matched model' estimations are discussed in the second paragraph of Section
+5.1.
+Table 9                                                                                                                                                       310
+Ordinary least squares (OLS) and Heckman sample selection regression analyses of changes in pre-money valuations between "nancing rounds
+The sample consists of 4069 professional venture "nancings of privately held "rms between January 1987 and December 1995 in the VentureOne database
+for which VentureOne was able to determine the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price paid per
+share in the "nancing round and the shares outstanding prior to the "nancing round. The di!erence between the logarithm of the pre-money valuation in
+the subsequent and current venture rounds, expressed in millions of current dollars, is used as the dependent variable. The independent variables include
+dummy variables controlling for the "rm's status, industry, and location at the time of the current round, dummies that indicate a change in status between
+the current and subsequent round, the logarithm of the time between the two "nancing rounds (expressed in years), and the di!erences in the logarithms of
+the two indexes of the valuations of publicly traded "rms in the same industry as the "rm (with January 1, 1987 normalized as 1.00 for each index) and of
+the in#ows into venture capital funds in the four quarters prior to the "nancing (in millions of 1995 dollars). The third and fourth columns present the
+coe$cients from the second equation in a two-equation system. (The initial equation controls for the probability that the current round is followed by
+another venture "nancing. The s2-statistic and the number of observations refer to the entire two-equation system.) Absolute heteroskedastistic-consistent
+t-statistics are in brackets in the "rst two columns and absolute t-statistics in the third and fourth columns.
+
+Independent variables                                      OLS estimates                                       Heckman equation estimates
+
+Stage of xrm in prior round:
+  Start-up stage                                              0.84 [7.29]              0.84 [7.27]                0.81 [6.53]               0.80 [6.48]
+  Development stage                                           0.58 [5.12]              0.57 [5.08]                0.55 [4.74]               0.54 [4.67]
+  Beta stage                                                  0.40 [2.98]              0.40 [2.96]                0.38 [3.00]               0.38 [2.97]
+  Shipping stage                                              0.32 [2.85]              0.31 [2.81]                0.30 [2.80]               0.29 [2.74]
+  Pro"table stage                                             0.29 [2.42]              0.29 [2.38]                0.30 [2.37]               0.29 [2.33]
+  Restart stage                                               0.80 [4.11]              0.79 [4.10]                0.79 [5.05]               0.78 [5.00]
+
+Industry of xrm:
+  Data processing industry                                 !0.05 [0.75]             !0.06 [0.78]               !0.05 [0.83]             !0.06 [0.88]
+  Computer software industry                               !0.01 [0.19]             !0.01 [0.21]               !0.01 [0.22]             !0.01 [0.23]
+  Communications industry                                   0.07 [1.15]              0.06 [1.09]                0.07 [1.24]              0.07 [1.17]
+  Consumer electronics industry                            !0.03 [0.29]             !0.03 [0.32]               !0.03 [0.24]             !0.04 [0.26]
+                                                                                                                                                              P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+  Industrial equipment industry                            !0.20 [2.28]             !0.20 [2.29]               !0.20 [2.37]             !0.20 [2.38]
+  Medical industry                                          0.01 [0.22]              0.01 [0.17]                0.01 [0.24]              0.01 [0.19]
+  Instrumentation industry                                 !0.02 [0.19]             !0.02 [0.20]               !0.02 [0.19]             !0.03 [0.22]
+  Components industry                                      !0.06 [0.68]             !0.06 [0.70]               !0.06 [0.58]             !0.06 [0.60]
+  Semiconductor industry                                    0.06 [0.68]              0.06 [0.66]                0.06 [0.70]              0.05 [0.68]
+Location of xrm:
+  Eastern states                           !0.01 [0.24]     !0.01 [0.24]     !0.02 [0.33]     !0.02 [0.33]
+  Western states                            0.001 [0.02]     0.002 [0.04]    !0.01 [0.13]     !0.01 [0.13]
+
+Events between prior and current round:
+  Firm began active product marketing       0.01 [0.26]      0.01 [0.25]      0.01 [0.26]      0.01 [0.24]
+  Firm underwent restart                   !1.72 [12.69]    !1.72 [12.71]    !1.72 [16.99]    !1.72 [17.00]
+  Log of time between rounds                0.01 [0.27]      0.0003 [0.01]    0.001 [0.06]    !0.01 [0.21]
+  Change in log of value-weighted index     0.02 [0.27]                       0.03 [0.44]
+  Change in log of equal-weighted index                        0.05 [0.75]                       0.05 [1.01]
+  Change in log of venture capital in#ow      0.08 [2.03]      0.08 [2.15]      0.08 [2.50]      0.09 [2.66]
+Constant                                      0.13 [1.06]      0.13 [1.05]      0.19 [1.30]      0.20 [1.34]
+R2                                            0.23             0.23
+F-statistic                                  19.56            19.76
+s2-statistic                                                                  961.17           961.27
+p-value                                       0.000            0.000            0.000            0.000
+Number of observations                     1941             1941             4064             4064
+
+
+
+
+                                                                                                               P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+                                                                                                               311
+312        P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+capital in#ows.14 This is broadly consistent with the impact of in#ows on
+valuations. Those "rms that are either already pro"table (who typically go
+public thereafter) or undergoing a &restart' (many of which are abandoned) are
+less likely to obtain subsequent venture "nancing. The probability of another
+venture "nancing falls when we examine "rms "nanced at the end of the sample
+period, which re#ects the fact that we do not observe "nancings subsequent to
+the end of 1995. Results from the second-stage regressions, reported in the third
+and fourth columns of Table 9, are similar to the OLS analysis. The coe$cients
+on the variables explaining the change in valuations in the "rst two regressions,
+including the in#ux into venture capital, remain statistically signi"cant in this
+analysis.
+
+5.4. Decomposition of price movements
+
+   This section examines whether in#uxes of capital a!ect certain types of "rms
+particularly strongly. We undertake two types of analyses. First, we examine
+whether the pricing of particular investments is especially sensitive to the in#ux
+of venture capital or to public market values. We then examine whether the
+in#uxes into venture capital funds based in di!erent locations and with particu-
+lar investment foci have di!erential e!ects on the valuation of these types of
+transactions.
+   If the increase in valuations associated with periods of high venture in#ows is
+caused by competition for investments between venture funds, then it is likely
+that the increase will not be uniform. First, while regions like Silicon Valley and
+Route 128 are characterized by a concentration of entrepreneurial ventures, the
+representation of venture capitalists is even more disproportionate. For in-
+stance, several hundred venture organizations have o$ces on Sand Hill Road
+near the Stanford University campus. Lerner (1995) notes that many venture
+capitalists invest locally, implying that the regions with the most venture funds
+are likely to experience the greatest competition for transactions. Second, as
+discussed above, the typical venture organization has seen an increase in capital
+managed per partner as fund size grew. Because of the pressure to deploy capital
+in larger transactions, we might expect that high venture in#ows should dispro-
+portionately in#ate the valuation of later-stage investments. Finally, because
+venture funds often invest locally and have at least somewhat well-de"ned
+mandates, the growth of venture funds of a particular type should have a dispro-
+portionate e!ect on valuations of that particular class of investment.
+   The "rst panel of Table 10 presents two representative regressions using
+interaction terms. Each uses the base speci"cation, i.e., without employment or
+
+
+  14 In a similar vein, Gompers (1995) shows that a one standard deviation increase in venture
+capital commitments leads to a two-month reduction in the time between venture "nancings.
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325               313
+
+Table 10
+Ordinary least squares regression analyses of pre-money valuations of "nancing rounds, dividing the
+sample by "rm characteristics
+The sample consists of 4069 professional venture "nancings of privately held "rms between January
+1987 and December 1995 in the VentureOne database for which VentureOne was able to determine
+the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price
+paid per share in the "nancing round and the shares outstanding prior to the "nancing round. The
+logarithm of the pre-money valuation, expressed in millions of current dollars, is used as the
+dependent variable. In all regressions, the independent variables include dummy variables control-
+ling for the "rm's status, industry, and location, and the logarithms of two indexes for the public
+market valuations of publicly traded "rms in the same industry as the "rm at the beginning of the
+month of the "nancing (with January 1, 1987 normalized as 1.00 for each index), of the "rm's age (in
+years) at the beginning of the year of the "nancing, and of the in#ow into venture capital funds in the
+four quarters prior to the "nancing (in millions of 1995 dollars). In Panel B, the logarithm of the
+"rm's sales (in millions of 1995 dollars) at the beginning of the year of the "nancing is an additional
+independent variable. In Panel C, the logarithm of the "rm's employment at the beginning of the
+year of the "nancing is used. In Panel A, interactions between the market valuation, venture in#ow,
+and "rm characteristic variables are also used as independent variables (with a total of 3896
+observations used in the regressions). Later-stage "rms are de"ned as those in shipping or pro"table
+stages at the time of the investment. In Panels B and C, the regression is restricted to "rms in the
+eastern United States (a total of 641 observations) and in the later stages of investment (a total of
+1579 observations), respectively. The relative impact of fundraising by venture funds located or
+specializing in that particular sector and other funds is compared. Absolute heteroskedastistic-
+consistent t-statistics are in brackets.
+
+Panel A: Adding interaction terms to the base regression
+Log of value-weighted industry index                                     0.19 [2.97]
+Log of equal-weighted industry index                                                     0.21 [3.22]
+Log of in#ow of venture capital                                       0.11 [2.29]        0.13 [2.71]
+Log of industry index*Firm is in later stages?                        0.02 [0.36]       !0.04 [0.68]
+Log of venture in#ow*Firm is in later stages?                         0.09 [1.27]        0.07 [0.95]
+Log of industry index*Firm is in California or Massachusetts?        !0.06 [0.87]       !0.06 [0.93]
+Log of venture in#ow*Firm is in California or Massachusetts?          0.02 [2.48]        0.02 [2.54]
+
+Panel B: Exclusively examining xrms based in the eastern United States
+Log of value-weighted industry index                                  0.16 [1.52]
+Log of equal-weighted industry index                                                     0.19 [1.91]
+Log of in#ow of venture funds based in eastern United States          0.38 [3.09]        0.41 [3.28]
+Log of in#ow of venture funds based elsewhere in United States !0.12 [0.98]             !0.13 [1.07]
+p-Value, test of equality of two venture in#ow variables              0.030              0.020
+
+Panel C: Exclusively examining later-stage xrms
+Log of value-weighted industry index                                     0.19 [3.05]
+Log of equal-weighted industry index                                                       0.20 [3.53]
+Log of in#ow of venture funds focusing on later-stage                    0.11 [2.67]       0.10 [2.05]
+  investments
+Log of in#ow of venture funds focusing on other investment               0.08 [3.16]       0.09 [2.60]
+  stages
+p-Value, test of equality of two venture in#ow variables                 0.661             0.872
+314        P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+sales, and measuring public market values with the equity indexes. The results
+using the sales, employment, and market multiple variables are similar. The
+reported regressions interact venture capital in#ows and the public market
+indexes with a dummy variable indicating whether the "rm is located in the two
+states with the largest venture pools, California or Massachusetts, or the
+"nancing is a later-stage transaction, a "rm in the shipping or pro"table stages
+at the time of the investment. The regressions employ an OLS speci"cation and
+the equal- and value-weighted industry indexes. Rather than presenting the
+coe$cients of all the variables, we present selected results.
+   Neither "rm characteristic is signi"cant when interacted with public market
+values. Shifts in public market values appear to a!ect all transactions equally,
+regardless of stage or region. This supports the suggestion that the industry
+public market indexes measure the expected future pro"tability of the industry
+and hence a!ect the prospects of all "rms. It is not the case that later-stage
+companies' &closeness' to the public markets causes greater sensitivity to public
+market price movements because of "nancing substitutability. However, consis-
+tent with the discussion above, venture capital in#ows appear to increase the
+valuations of California and Massachusetts "rms more than other "rms. The
+coe$cient on the interaction between the venture capital in#ow and the pool of
+venture capital based in the state is also signi"cant. This "nding is robust to
+measuring the pool in absolute or per capita terms. In each case, we use the
+venture pool at the beginning of 1987 to avoid simultaneity problems. The
+coe$cient on the interaction between in#ows and later-stage investments has
+the predicted positive sign, but is statistically insigni"cant.
+   Panels B and C of Table 10 present two representative analyses of how
+in#uxes of funds located in particular regions and focusing on certain stages
+a!ect the valuations of "rms in those segments. The regressions examine the
+pricing of two particular classes of venture transactions: "rms based in the
+eastern United States and later-stage investments. We compare how valuations
+change with the in#ux of funds based in that region or specializing in that class
+of investment, as well as with in#uxes to other types of funds.15 By segmenting
+#ows and valuations, we increase the number of independent observations that
+we can observe. In the former case, the coe$cient is signi"cantly greater on
+in#uxes into funds based in this particular region. Similar results hold in several
+unreported analyses employing other geographic partitions. A similar pattern
+emerges from the analysis of later-stage investments, but the di!erence is smaller
+in magnitude and statistically insigni"cant. This may partially re#ect the impre-
+cision with which funds report their investment targets. Many venture organiza-
+tions, which originally specialized in early-stage investments, continue to report
+
+
+  15 These classi"cations are from annual compilations of venture capital fundraising by Asset
+Alternatives and (in earlier years) Venture Economics.
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   315
+
+such a focus long after they have raised substantial funds and shifted to
+later-stage transactions. It is possible that these "rms are reluctant to alert their
+limited partners, who might reasonably worry that the funds' returns will su!er
+during this transition. This analysis provides at least some corroboration of the
+suggestion that the in#ux of funds in#uences the pricing of venture investments.
+
+5.5. Addressing omitted variable bias
+
+   In settings where an important control variable is missing from a regression,
+Judge et al. (1985) show that omitted variable bias may lead to the coe$cients of
+correlated independent variables being in#ated. This e!ect may be happening
+here. In particular, we may have omitted an important explanatory variable that
+would control for the changes in the quality of investments presented to venture
+capitalists. This omission may cause us to falsely impute signi"cance to the
+measure of venture capital in#ows. To address this problem, we employ an
+instrumental variable. The instrumental variable should be correlated with the
+in#ows to the venture capital industry, but otherwise unrelated to the venture
+capitalist's opportunity set.
+   The reason for worrying about this problem is as follows. The changes in
+opportunities facing venture capitalists are di$cult to observe. Venture inves-
+tors fund only a minute fraction of businesses begun each year, so it is unlikely
+that the count of business starts can control for shifts in high-quality technolo-
+gical opportunities. Public market indexes may inaccurately measure the shifts
+in value of private equity "nanced "rms since the types of "rms in each public
+index may be somewhat di!erent from the corresponding "rms attracting
+venture "nancing. For instance, in certain years there were many private venture-
+backed Internet service providers and biotechnology "rms, but few publicly
+traded ones. If the shifts in the number of opportunities are being measured
+inaccurately and in#ows to the venture industry are correlated with these
+changes, our estimations may be misleading. In particular, in#ows to the venture
+industry may be falsely identi"ed as having a signi"cant e!ect on pricing levels.
+   To address this problem, we employ the in#ux of capital to funds specializing
+in leveraged buyout (LBO) investments. This is an attractive instrument for two
+reasons. First, it is clear that in#ows to venture and buyout funds are correlated.
+Using annual data between 1980 and 1995, the correlation coe$cient is 0.66
+(with a p-value of 0.006). Like commitments to venture funds, in#uxes to buyout
+funds soared during the 1980s, dropped sharply in the early 1990s, and then
+recovered dramatically in the middle of the decade. These parallels re#ect the
+manner in which institutional investors allocate their portfolios. Typically,
+a single group that specializes in &alternative investments' manages investments
+in venture and buyout funds. When the institution's investment policy commit-
+tee increases the allocation to alternatives, the in#ows to venture and buyout
+funds are both likely to increase.
+316         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+   Meanwhile, there has been relatively little correlation in recent years between
+the success of venture and buyout investments. Most successful investments by
+both venture and buyout investors are exited through IPOs. But in recent years,
+IPOs of "rms backed by venture and buyout "rms have not been strongly
+associated. In fact, between 1991 and 199516 the correlation between the
+number and dollar volume of venture- and buyout-backed IPOs has actually
+been negative (!0.24 and !0.19 respectively), though neither coe$cient is
+signi"cant at conventional con"dence levels. Thus, LBO in#ows do not appear
+to be correlated with the success of venture investments. These two consider-
+ations suggest that this is an appropriate instrument for venture capital in#ows.
+   Table 11 repeats the OLS analyses from Table 6, now estimated using the
+in#ow into LBO funds as an instrumental variable. In each, the impact of
+venture in#ows is equal or larger in magnitude and statistically more signi"cant.
+The results are similar when the other reported OLS regressions are re-esti-
+mated. The instrumental variable estimations underscore the suggestions that
+capital in#ows may be associated with greater competition for investments.
+
+5.6. Demand pressure or better prospects
+
+   The analyses above have implicitly treated in#ows to venture funds as
+exogenous. It has been used as an independent variable in the above regressions.
+This assumption may be questioned. In particular, in#ows to venture funds may
+be a response to information that suggests that entrepreneurial "rms are likely
+to do well in the future. This same information could lead venture capitalists to
+assign higher valuations to "rms in which they invest. We could be implying
+a causal impact to fund in#ows on the pricing of venture investments when both
+are actually correlated with the future prospects of these "rms. We address this
+concern by examining the success rates of venture-backed "rms over time.
+   Before addressing this issue empirically, our concerns can be at least partially
+assuaged by an examination of the determinants of in#ows into venture funds.
+Gompers and Lerner (1998) examines the forces that a!ect fundraising by
+independent venture capital organizations between 1972 and 1995. That paper
+studies both overall fundraising patterns and fundraising by individual venture
+organizations. These analyses underscore the importance of public policy cha-
+nges on the overall fundraising patterns. The Department of Labor's clari"ca-
+tion of the &prudent man' rule, which allowed pension funds to invest in venture
+capital, had a positive e!ect on commitments to the industry, as did decreases in
+the capital gains tax rate. While short-run performance, for example, recent
+
+
+  16 Venture-backed IPOs are compiled by both VentureOne and Venture Economics; but only
+Venture Economics tracks buyout o!erings. They did not begin doing so on a systematic basis until
+the early 1990s.
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325             317
+
+IPOs, in#uenced fundraising by individual organizations, shifts in public equity
+o!ering activity appeared to have little impact on overall fundraising activity.
+The importance of exogenous policy shifts in determining the in#ow to venture
+funds at least partially addresses our concerns about using in#ows as an
+independent variable.
+   Another way to address these concerns is to examine the ultimate success of
+the "rms funded by venture capitalists. If in#ows to venture funds and high
+valuations are rational responses to information about the changing prospects
+of young "rms, investments during these &hot' periods should be more successful.
+If venture capitalists just simply made fewer investments during &cold' periods,
+this pattern would not occur. But in general, as a comparison of Tables 1 and
+4 make clear, there is much greater variation in the in#ows of capital to venture
+funds than in the number of "rms receiving venture investments.
+   This analysis faces two challenges. Ideally, we would compare the rate of
+return, adjusted to re#ect the risks associated with the varying maturity of these
+"rms, from the investments in various time periods. Unfortunately, many of the
+"rms remain privately held, or else were acquired for an undisclosed price. Thus,
+we employ two proxies. The "rst of these is the percentage of "rms that have
+been taken public or "led to go public with the SEC. Successful IPOs are highly
+correlated with attractive returns. Venture capitalists generate the bulk of their
+pro"ts from "rms that go public. A Venture Economics study (1988) "nds that
+a $1 investment in a "rm that goes public provides an average cash return of
+$1.95 in excess of the initial investment, with an average holding period of 4.2
+years. The next best alternative, an investment in an acquired "rm, yields a cash
+return of only 40 cents over a 3.7 year mean holding period. The second measure
+that we employ is the percentage of investments that either resulted in an IPO or
+were acquired for at least twice the valuation of that round. While VentureOne
+is not able to obtain the valuation for all acquired "rms, it is able to do so for
+many of the larger and hence more visible transactions.17
+   A second concern is that many of these "rms remained privately held at the
+time we assessed their status, March 1996. Some of these will ultimately be
+successful. As a result, we only examine the outcome of venture investments
+between 1987 and 1991. This may lead to a bias: the later years (e.g., 1990 to
+1991) should have a lower share of companies reaching successful exits simply
+because they have had less time to mature to the point of being taken public or
+sold.
+   Table 12 presents the results of this analysis. We compare the success of
+investments in the years with high in#uxes to venture funds with those in other
+
+
+   17 We also explore the robustness of the results to the use of other de"nitions of successful
+acquisitions, such as those "ve or ten times the valuation at the time of the venture "nancing. These
+alternative de"nitions have little impact on the results.
+                                                                                                                                                                 318
+Table 11
+Instrumental variable regression analyses of pre-money valuations of "nancing rounds
+The sample consists of 4069 professional venture "nancings of privately held "rms between January 1987 and December 1995 in the VentureOne database
+for which VentureOne was able to determine the valuation of the "nancing round. The pre-money valuation is de"ned as the product of the price paid per
+share in the "nancing round and the shares outstanding prior to the "nancing round. The logarithm of the pre-money valuation, expressed in millions of
+current dollars, is used as the dependent variable. The independent variables include dummy variables controlling for the "rm's status, industry, and
+location, and the logarithms of the "rm's age (in years), sales (in millions of 1995 dollars) and employment at the beginning of the year of the "nancing, of
+two indexes for the public market valuations of publicly traded "rms in the same industry as the "rm at the beginning of the month of the "nancing (with
+January 1, 1987 normalized as 1.00 for each index), and of the in#ow into venture capital funds in the four quarters prior to the "nancing (in millions of
+1995 dollars). The in#ow into leveraged buyout funds in the four quarters prior to the "nancing (in millions of 1995 dollars) is used as an instrument for the
+in#ow into venture funds. Absolute heteroskedastistic-consistent t-statistics are in brackets.
+
+Independent variables                       No "rm size measure                    Using "rm sales                        Using "rm employment
+
+Stage of xrm:
+  Start-up stage                            !0.85 [6.61]       !0.86 [6.72]        !0.88 [5.29]       !0.89 [5.37]        !0.76 [5.28]       !0.77 [5.40]
+  Development stage                         !0.13 [1.04]       !0.15 [1.19]        !0.07 [0.46]       !0.10 [0.60]        !0.01 [0.08]       !0.04 [0.32]
+  Beta stage                                 0.14 [1.01]        0.11 [0.79]         0.23 [1.30]        0.19 [1.05]         0.25 [1.66]        0.19 [1.23]
+  Shipping stage                             0.17 [1.45]        0.16 [1.30]         0.19 [1.24]        0.16 [1.02]         0.20 [1.56]        0.15 [1.19]
+  Pro"table stage                            0.53 [4.05]        0.51 [3.89]         0.47 [2.88]        0.42 [2.56]         0.47 [3.28]        0.40 [2.78]
+  Restart stage                             !1.21 [8.57]       !1.24 [8.74]        !1.28 [7.63]       !1.33 [7.92]        !1.26 [8.40]       !1.33 [8.91]
+
+Industry of xrm:
+  Data processing industry                   0.32 [3.63]        0.26 [2.97]         0.27 [2.36]        0.17 [1.46]         0.35 [3.32]        0.24 [2.34]
+  Computer software industry                !0.04 [0.53]       !0.02 [0.27]        !0.09 [1.06]       !0.07 [0.81]        !0.05 [0.58]       !0.02 [0.20]
+  Communications industry                    0.34 [4.75]        0.29 [3.96]         0.28 [3.13]        0.19 [2.04]         0.34 [4.11]        0.23 [2.81]
+  Consumer electronics industry              0.25 [1.46]        0.25 [1.47]         0.27 [1.48]        0.26 [1.46]         0.23 [1.56]        0.22 [1.58]
+                                                                                                                                                                 P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+  Industrial equipment industry             !0.21 [2.04]       !0.24 [2.33]        !0.23 [1.76]       !0.29 [2.17]        !0.19 [1.54]       !0.24 [1.95]
+  Medical industry                           0.39 [5.86]        0.37 [5.37]         0.43 [4.89]        0.37 [4.03]         0.46 [5.91]        0.38 [4.68]
+  Instrumentation industry                   0.01 [0.13]       !0.02 [0.14]         0.04 [0.30]       !0.01 [0.10]         0.09 [0.73]        0.03 [0.27]
+  Components industry                       !0.04 [0.40]       !0.06 [0.51]        !0.06 [0.52]       !0.09 [0.69]        !0.07 [0.57]       !0.09 [0.68]
+  Semiconductor industry                     0.60 [5.54]        0.60 [5.47]         0.45 [3.73]        0.44 [3.57]         0.49 [4.55]        0.49 [4.46]
+Location and other characteristics:
+  Eastern states                            0.10 [1.90]       0.09 [1.77]       0.17 [2.62]      0.15 [2.42]      0.16 [2.76]       0.15 [2.54]
+  Western states                            0.30 [6.47]       0.29 [6.38]       0.33 [5.72]      0.33 [5.61]      0.32 [5.95]       0.31 [5.89]
+  Log of "rm age (in years)                 0.43 [13.91]      0.43 [13.90]      0.30 [7.17]      0.30 [7.10]      0.20 [4.64]       0.18 [4.35]
+  Log of "rm sales                                                              0.18 [7.39]      0.20 [7.65]
+  Log of "rm employment                                                                                           0.27 [13.60]      0.29 [14.23]
+  Log of value-weighted industry index      0.16 [4.29]                         0.27 [5.24]                       0.31 [6.42]
+  Log of equal-weighted industry index                        0.15 [4.28]                        0.27 [5.69]                        0.35 [7.96]
+  Log of in#ow of venture capital           0.21 [5.60]       0.22 [5.85]       0.19 [3.87]      0.20 [4.17]      0.12 [2.67]       0.13 [2.81]
+Constant                                 !0.47 [1.38]      !0.53 [1.53]      !0.42 [0.95]     !0.50 [1.12]     !0.52 [1.25]      !0.60 [1.44]
+R2                                          0.32              0.32              0.34             0.34             0.37              0.38
+F-statistic                                98.94             98.36             69.24            70.65            76.26             76.39
+p-Value                                     0.000             0.000             0.000            0.000            0.000             0.000
+Number of observations                   3896              3896              2433             2433             2622              2622
+
+
+
+
+                                                                                                                                                   P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+
+
+
+                                                                                                                                                   319
+320         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+Table 12
+Analyses of the success of venture backed "rms.
+The sample consists of 1798 professional venture "nancings of privately held "rms between January
+1987 and December 1991 in the VentureOne database for which VentureOne was able to determine
+the valuation of the "nancing round. The "rst panel examines the percentage of the "nancings that
+were taken public (or had "led to go public) as of March 1996. The panel presents two divisions of
+observations: one comparing investments made in 1987 and 1988 with those made between 1989 and
+1991, the other comparing those from 1987 through 1989 to those made in 1990 and 1991. The table
+also presents the average annual fund in#ow in these periods (in millions of 1995 dollars), and the
+p-value from a s2-test of the equality of the probability of a successful outcome. The second panel
+examines the percent of investments that were taken public, had "led to go public, or had been
+acquired at more than twice the valuation of the original venture round.
+
+Year of investment                                     Average fund          Investments with
+                                                       in#ow in period       successful outcomes
+
+Panel A: Successful outcome is an initial public owering (or IPO Filing)
+1987}1988                                               4482                 33.6%
+1989}1991                                               2615                 30.1%
+p-value, s2-test of equality of success probabilities                         0.141
+1987}1989                                               4348                 32.5%
+1990}1991                                               1881                 29.7%
+p-value, s2-test of equality of success probabilities                         0.209
+
+Panel B: Successful outcome is an IPO (or IPO Filing) or acquisition at 2 or more times original
+valuation
+1987}1988                                            4482                  35.5%
+1989}1991                                            2615                  31.7%
+p-value, t-test of equality of success probabilities                        0.106
+1987}1989                                            4348                  34.5%
+1990}1991                                            1881                  31.1%
+p-value, t-test of equality of success probabilities                        0.115
+
+
+
+
+years. The observations include the 1798 professional venture "nancings of
+privately held "rms between January 1987 and December 1991 in the Ven-
+tureOne database for which VentureOne was able to determine the valuation of
+the "nancing round. The "rst panel compares whether the "rm had gone public
+or had "led to go public as of March 1996. The second panel measures if the "rm
+had gone public, "led to go public, or been acquired at more than twice the
+valuation of the original venture round as of March 1996. Each panel divides the
+observations in two ways. We compare "nancings in 1987 and 1988 to those
+between 1989 and 1991, and those made between 1987 and 1989 to those from
+1990 and 1991.
+   In each case, the probability of a successful exit is slightly higher in the earlier
+period with high in#ows to venture funds. However, none of these di!erences are
+statistically signi"cant at conventional con"dence levels. Because many of the
+          P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325   321
+
+"rms funded in the later years were still quite immature in March 1996, over
+time the di!erence between the success rate of the two classes of investments
+should narrow. While as discussed above, the interpretation of these patterns is
+not unambiguous, they help allay fears that shifts in venture in#ows and
+valuations were driven by changes in future prospects.
+
+
+6. Conclusions
+
+   This paper revisits the question of whether #ows of capital into an asset class
+a!ect the valuation of those assets and whether those changes in valuation
+re#ect shifts in the demand for those securities or changes in future prospects.
+Unlike virtually every previous analysis, which focus on public markets, this
+study examines the U.S. private equity market, where practitioner accounts
+suggest these e!ects are particularly strong.
+   We address two primary questions in this paper. First, the analysis shows that
+in#ows to venture capital funds have had a substantial impact on the pricing of
+private equity investments. This e!ect is robust to the addition of a variety of
+variables to control for alternative hypotheses, an analysis of "rst di!erences,
+and the use of instrumental variables. Consistent with predictions, the impact of
+venture capital in#ows on prices is greatest in states with the most venture
+capital activity and segments with the greatest growth in venture in#ows. The
+increase in the probability of re"nancing in the Heckman sample selection
+regressions during periods of high in#ows is also broadly consistent with the
+valuation patterns.
+   Second, the relation between increased fundraising and prices does not appear
+to be due to greater perceived investment prospects. The regulatory- and
+tax-driven nature of venture fundraising and the insigni"cant di!erence in
+success rates of investments in &hot' and &cold' fundraising periods suggest that
+demand pressure drives prices up during high in#ow periods.
+   These "ndings have a variety of implications. First, the results suggest that
+examinations of the impact of fund in#ows on valuations in other investment
+classes in which fund in#ows #uctuate widely due to regulatory and tax factors
+would be fruitful. Real estate and developing country capital markets are two
+particular areas that may enhance our understanding of this phenomenon.
+   Second, the results raise a series of public policy questions. Several econom-
+ists, such as Stiglitz (1993), have expressed concerns about the destabilizing
+in#uence of shifts in foreign capital in#ows (`hot moneya) on developing coun-
+tries' equity markets. It may be that some of the same detrimental e!ects are at
+work here. The U.S. venture capital market is also characterized by highly
+variable capital in#ows, which a!ect not only the volume of investments but also
+the valuations of these transactions. Numerous industry observers have ex-
+pressed concern about the impact of these shifts on the pace and direction of
+322         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+technological innovation. During periods with high in#ows, venture capitalists'
+standards for funding "rms are alleged to be lowered, only to be raised dramati-
+cally when in#ows decline.18 A careful examination of the e!ects of "nancing
+patterns on the rate and pattern of innovation is a fertile area for future research.
+
+
+Appendix A. De5nition of 5rm categorizations
+
+A.1. Dexnition of investment stages
+
+
+Start-Up: Company with a skeletal business plan, product, or service develop-
+ment in preliminary stages.
+Development: Product or service development is underway, but the company is
+not generating revenues from sales.
+Beta: For companies specializing in information technology, the beta phase is
+when the product is being tested by a limited number of customers but not
+available for broad sales. For life sciences companies, beta is synonymous with
+a drug in human clinical trials or a device being tested.
+Shipping: The product or service is being sold to customers and the company is
+deriving revenues from those sales, but expenses still exceed revenues.
+Proxtable: The company is selling products or services and the sales revenue
+yields a positive net income.
+Restart: A recapitalization at a reduced valuation, accompanied by a substantial
+shift in the product or marketing focus.
+
+A.2. Dexnition of industry groups
+
+
+Data Processing: Firms whose primary lines-of-business include personal com-
+puting, minicomputers or workstations, mainframe computers, CAD/CAM/
+CAE systems, data storage, computer peripherals, memory systems, o$ce auto-
+mation, source data collection, multimedia devices, and computer networking
+devices.
+Computer Software: Firms whose primary lines-of-business include compilers,
+assemblers, and systems, application, CAD/CAM/CAE/CASE, recreational and
+home, arti"cial intelligence, educational, and multimedia software.
+Communications: Firms whose primary lines-of-business include modems,
+computer networking, "ber optics, microwave and satellite communications,
+
+
+  18 For a discussion of the detrimental impacts of these cycles on both private and social welfare,
+see National Advisory Committee on Semiconductors (1989).
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325         323
+
+telephone equipment, pocket paging, cellular phones, radar and defense systems,
+television equipment, teleconferencing, and television and radio broadcasting.
+Consumer Electronics: Firms whose primary lines-of-business include audio and
+video consumer equipment, automotive electronics, and consumer electronic
+games.
+Industrial Equipment: Firms whose primary lines-of-business include energy
+management and process control systems, robotics, lasers, and inspection,
+integrated circuit production, and oil-and-gas drilling equipment.
+Medical: Firms whose primary lines-of-business include biotechnology, pharma-
+ceuticals, diagnostic imaging, patient monitoring, medical devices, medical lab
+instruments, hospital equipment, medical supplies, retail medicine, hospital
+management, medical data processing, and medical lab services.
+Instrumentation: Firms whose primary line-of-business include analog, digital
+and analytical instruments, as well as analytical and test equipment.
+Components: Firms whose primary lines-of-business include connectors, dis-
+plays, power supplies, microwave components, switches and relays, transducers
+and sensors, semiconductor packaging, and circuit boards.
+Semiconductor: Firms whose primary lines-of-business include discrete semicon-
+ductors, semiconductor memories, microprocessors, optoelectronics, and ap-
+plication speci"c, linear/analog, digital logic and gallium arsenide integrated
+circuits.
+Other: Firms whose primary lines-of-business include retailing, construction,
+information services, "nancial services and institutions, data management servi-
+ces, publications, education, transportation, services, energy, agriculture, tex-
+tiles, remediation and recycling, and environmental equipment.
+
+
+A.3. Dexnition of regions
+
+Eastern States: Firms whose headquarters are located in Connecticut, Delaware, the
+District of Columbia, Maine, Maryland, Massachusetts, New Hampshire, New
+Jersey, New York, Pennsylvania, Rhode Island, Vermont, and West Virginia.
+Western States: Firms whose headquarters are located in Alaska, Arizona,
+California, Colorado, Hawaii, Idaho, Montana, New Mexico, Nevada, Oregon,
+Utah, Washington, and Wyoming.
+
+Source: Compiled from VentureOne (1996).
+
+
+References
+
+Asset Alternatives, 1996. Private equity managers struggle to avoid hubris in hot market. Private
+   Equity Analyst 6, 28}31.
+324         P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325
+
+Berndt, E., Griliches, Z., 1993. Price indexes for microcomputers: an exploratory study. In: Foss, M.,
+    Manser, M., Young, A. (Eds.). Price Measurements and Their Uses. Studies in Income and
+    Wealth, Vol. 57. University of Chicago Press for the National Bureau of Economic Research,
+    Chicago, pp. 63}93.
+Corporate Technology Information Services, 1996. Corporate Technology Directory. Corporate
+    Technology Information Services, Woburn, Massachusetts, and earlier years.
+Dhillon, U., Johnson, H., 1991. Changes in the standard and poor's 500 list. Journal of Business 64,
+    75}85.
+Dun's Marketing Services, 1996. Million Dollar Directory. Dun's Marketing Services, Parsippany,
+    New Jersey, and earlier years.
+Fama, E., French, K., 1992. The cross}section of expected stock returns. Journal of Finance 47,
+    427}465.
+Gale Research, 1996. Ward's Business Directory of U.S. Private and Public Companies. Gale
+    Research, Detroit, and earlier years.
+Gompers, P., 1995. Optimal investment, monitoring, and the staging of venture capital. Journal of
+    Finance 50, 1461}1489.
+Gompers, P., Lerner, J., 1996. The use of covenants: an analysis of venture partnership agreements.
+    Journal of Law and Economics 39, 463}498.
+Gompers, P., Lerner, J., 1998. What drives venture capital fundraising? Brookings Papers on
+    Economic Activity } Microeconomics, 149}192.
+Harris, L., Gurel, E., 1986. Price and volume e!ects associated with changes on the S & P 500 list:
+    new evidence for the existence of price pressures. Journal of Finance 41, 815}829.
+Henry, P., 1996. Stock market liberalization, economic reform, and emerging market equity prices.
+    Unpublished working paper. Massachusetts Institute of Technology.
+Judge, G., Gri$ths, W., Hill, R., Lutkepohl, H., Lee, T., 1985. The Theory and Practice of
+    Econometrics. Wiley, New York.
+Kaplan, S., Stein, J., 1993. The evolution of buyout pricing and "nancial structure in the 1990s.
+    Quarterly Journal of Economics 108, 313}357.
+Kim, E., Singhal, V., 1996. Stock market openings: evidence from emerging economies. Working
+    Paper d 93-28. Department of Finance, Insurance and Business Law, Pamplin School of
+    Business, Virginia Polytechnic Institute and State University.
+Krugman, P., 1991. Geography and Trade. MIT Press, Cambridge.
+Lerner, J., 1994a. The importance of patent scope: an empirical analysis. Rand Journal of Economics
+    25, 319}333.
+Lerner, J., 1994b. The syndication of venture capital investments. Financial Management 23, 16}27.
+Lerner, J., 1995. Venture capitalists and the oversight of private "rms. Journal of Finance 50,
+    301}318.
+McCallagh, P., Nelder, J., 1989. Generalized Linear Models. Chapman & Hall, New York.
+National Advisory Committee on Semiconductors, 1989. A Strategic Industry at Risk: a Report to
+    the President and the Congress from the National Advisory Committee on Semiconductors. U.S.
+    Government Printing O$ce, Washington.
+National Register Publishing Company, 1996. Directory of Leading Private Companies, Including
+    Corporate A$liations. National Register Publishing Company, Wilmette, and earlier years.
+Noone, C., Rubel, S., 1970. SBICs: Pioneers in Organized Venture Capital. Capital Publishing
+    Company, Chicago.
+Sahlman, W., Stevenson, H., 1986. Capital market myopia. Journal of Business Venturing 1, 7}30.
+Scholes, M., 1972. The market for securities: substitution versus price pressure and the e!ects of
+    information on share prices. Journal of Business 45, 179}211.
+Shleifer, A., 1986. Do demand curves for stocks slope down? Journal of Finance 41, 579}590.
+Stiglitz, J., 1993. The role of the state in "nancial markets. Unpublished working paper. Stanford
+    University.
+            P. Gompers, J. Lerner / Journal of Financial Economics 55 (2000) 281}325          325
+
+Stulz, R., 1997. International portfolio #ows and security markets. Unpublished working paper.
+   Ohio State University.
+Venture Economics, 1988. Exiting Venture Capital Investments. Venture Economics, Needham.
+VentureOne, 1995. Entrepreneurial Investment Report. VentureOne, San Francisco.
+VentureOne, 1996. National Venture Capital Association 1995 Annual Report. VentureOne, San
+   Francisco.
+Warther, V., 1995. Aggregate mutual fund #ows and securities returns. Journal of Financial
+   Economics 39, 209}235.
+Wermers, R., 1999. Mutual fund herding and the impact on stock prices. Journal of Finance 54,
+   581}622.
+White, H., 1980. A heteroskedasticity}consistent covariance matrix estimator and a direct test for
+   heteroskedasticity. Econometrica 48, 817}838.
+

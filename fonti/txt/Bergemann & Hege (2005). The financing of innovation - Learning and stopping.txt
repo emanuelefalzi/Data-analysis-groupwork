@@ -1,0 +1,2509 @@
+The Financing of Innovation: Learning and Stopping
+Author(s): Dirk Bergemann and Ulrich Hege
+Source: The RAND Journal of Economics , Winter, 2005, Vol. 36, No. 4 (Winter, 2005),
+pp. 719-752
+Published by: Wiley on behalf of RAND Corporation
+
+Stable URL: https://www.jstor.org/stable/4135254
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            RAND Corporation and Wiley are collaborating with JSTOR to digitize, preserve and extend
+            access to The RAND Journal of Economics
+
+
+
+
+                                                    This content downloaded from
+                                  193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                            All use subject to https://about.jstor.org/terms
+                                                                                   RAND Journal of Economics
+                                                                                   Vol. 36, No. 4, Winter 2005
+                                                                                   pp. 719-752
+
+
+
+
+ The financing of innovation: learning and
+ stopping
+Dirk Bergemann*
+
+and
+
+
+Ulrich Hege**
+
+
+
+
+We consider the financing of a research project under uncertainty about the time of completion
+and the probability of eventual success. We distinguish between two financing modes, namely
+relationship financing, where the allocation decision of the entrepreneur is observable, and arm's-
+length financing, where it is unobservable. We find that equilibrium funding stops altogether too
+early relative to the efficient stopping time in both financing modes. The rate at which funding is
+released becomes tighter over time under relationship financing, and looser under arm's-length
+financing. The tradeoff in the choice of financing modes is between lack of commitment with
+relationship financing and information rents with arm 's-length financing.
+
+
+
+1. Introduction
+
+m Motivation. Typically, when decisions are made to start an R&D project or an innovati
+venture, much uncertainty exists about the chances of the project and about the time and c
+needed to secure success. It has been estimated that it takes about 3,000 raw ideas to eventu
+achieve a single major commercially successful innovation (Stevens and Burley, 1997). Resea
+and development is tantamount to winnowing down a vast amount of ideas and alternatives thr
+trial and error, and it is therefore subject to considerable variance in terms of the time and m
+spent: it may be the 3rd or the 2,997th idea that, when tried out, produces a major success.
+    The research and development process for a new pharmaceutical product may serve a
+illustration. The idea for a new drug is most likely based on some initial and very prelimin
+research, opening a vast field of possible combinations or ideas. The development itself req
+substantial amounts of trials and investments before the value of the initial approach can
+
+
+       * Yale University; dirk.bergemann@yale.edu.
+      ** HEC School of Management; hege@hec.fr.
+      The authors would like to thank the Editor, Raymond Deneckere, and three referees for detailed comments
+suggestions. The authors benefited from discussions with Dilip Abreu, Patrick Bolton, Amil Dasgupta, Thomas Hellm
+Godfrey Keller, Dima Leshchinskii, Farshad Mashayekhi, Georg Noldeke, Kjell Nyborg, Ted O'Donoghue, David Pea
+Paul Pfleiderer, Rafael Repullo, and Luca Rigotti. Seminar participants at Basel, Budapest, LSE, Mannheim, Princet
+Rotterdam, Stockholm, Tilburg, Econometric Society Winter Meetings 1998 and EFA 1999 provided stimulating d
+sions. The first author gratefully acknowledges financial support from the National Science Foundation (grant no
+9709887) and an A.P. Sloan Research Fellowship, the second author from a TMR grant of the European Commissio
+
+
+  Copyright ? 2005, RAND. 719
+                                        This content downloaded from
+                      193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                All use subject to https://about.jstor.org/terms
+720 / THE RAND JOURNAL OF ECONOMICS
+
+
+assessed. More information will be produced over time as to whether the project will be
+or should be abandoned due to poor results.
+      The uncertainty about the time and capital required is a source of potential conflict
+the financiers providing the capital and the researchers or entrepreneurs carrying out the
+The purpose of the present article is to study agency problems that are directly linked to
+endedness of the funding in R&D projects, in particular conflicts surrounding the timi
+decision to terminate a research project. Venture capitalists often refer to the decision
+tinue a project as the most important source of conflict between them and startup entr
+since entrepreneurs almost never want to abandon a project that is under way. Entrepre
+press a strong preference for continuation regardless of present-value considerations un
+circumstances, be it because they are (over)confident or because they rationally try to pro
+search, and they tend to use their discretion to (mis)represent the progress that has bee
+order to secure further funding (Cornelli and Yosha, 2003).
+      Agency conflicts of this kind potentially occur in every situation where a resear
+entrepreneur uses external funding for her R&D efforts, as exemplified by the follow
+areas. First, they will affect venture capital firms financing high-tech startups. Empirical
+on the venture capital industry reveals that venture capitalists are well aware of such prob
+that they go to great length to build possible safeguards into their contracts.' Second, th
+financing of research is also a concern for the capital budgeting for R&D expenditures
+within a firm. Third, the problems that we investigate arise also for governments, un
+research foundations, and other organizations that sponsor research. They need to eval
+progress of research projects and to determine the timing for grant renewal or the d
+abandon.
+      In many cases, the investors in innovative projects will keep a hands-on approach on their
+investment. Venture capitalists are known to monitor their portfolio companies intensely, for ex-
+ample by soliciting reports and by visiting the company on a monthly basis, and by being involved
+in the decision making via board membership and other channels and control rights. Besides mon-
+itoring, venture capitalists also play an active role as advisors of startup companies, for example
+by getting involved in the recruitment of key employees and executives (Gompers and Lerner,
+1999; Casamatta, 2003). In other words, the venture capital industry provides predominantly re-
+lationship financing. But not all investors in innovative startups are in fact relationship investors.
+Informal business angels have been characterized as being less involved in monitoring and to
+provide only limited advisory services (Barry, 1994; Fenn, 1997). Angel investors, who until
+recently channelled more money to startups than formal venture capitalists, can thus be viewed
+as the prototypical arm's-length investors in the financing of innovation.2 Recent theory articles
+have cast the choice between venture capitalists and angel investors as a choice between informed
+and less informed investors (Chemmanur and Chen, 2003; Leshchinskii, 2003).
+      The distinction between relationship investors and arm's-length investors is not limited to
+venture capital versus angel financing. A difference between better- or worse-informed investors
+also arises when comparing large and experienced venture capital funds to small and young ones,
+close to distant, industry specialist versus generalist, independent versus corporate venture fund.
+      The terms relationship funding and arm's-length funding were originally introduced to distin-
+guish between informed commercial banks and other, less-informed creditors like bondholders.
+In his seminal article, Rajan (1992) argues that relationship investors may use their exclusive
+knowledge to subsequently extract rents from successful projects. The value of relationship bank
+lending has been empirically confirmed (Petersen and Rajan, 1994; Berger and Udell, 1995; De-
+gryse and Ongena, 2005). Debt in its various forms, including for example trade credit, is an
+
+
+        1 For example, the following instruments (documented in Sahlman, 1990; Hellmann, 1998; Kaplan and Stromberg,
+2002; and Gompers and Lerner, 1999): Venture capitalists retain extensive control rights, in particular rights to claim
+control on a contingent basis and the right to fire the founding management team; they keep hard claims in form of
+convertible debt or preferred stock, underpinning the right to claim control and abandon the project; and staged financing
+and the inclusion of explicit performance benchmarks make it possible to fine-tune the abandonment decision.
+       2 Chemmanur and Chen (2003) discuss the flow of funds estimation.
+G RAND 2005.
+
+
+
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+                                                                                     BERGEMANN AND HEGE / 721
+
+
+
+important source of funding for startup firms (Berger and Udell, 1998), and credit
+a natural choice between relationship lending and credit with a greater information
+
+
+o Analysis. We examine a stylized model of the funding of a research project wher
+of an idea and the time and money needed for completion are uncertain. We specificall
+how stopping decisions are taken in the presence of agency conflicts in the form of en
+opportunism. The project will succeed with a positive probability in every period in
+the volume of funds provided, so that uncertainty is represented by a simple stoch
+As continued research efforts are undertaken and no success is forthcoming, Baye
+will lead to a gradual downgrading of the belief in the project's prospects. The proje
+with a success or will eventually be abandoned in the light of persistent negative ne
+that the time horizon itself is infinite, to address the essence of the uncertainty abou
+completion, but abandonment will occur in finite time.
+        The entrepreneur controls the allocation of the funds. She can choose to invest
+efficiently into the project or to divert them to private ends. This agency conflict
+of the dynamic nature of the investment problem. When diverting the funds, the ent
+only enjoys the immediate benefit from consuming the money meant for investm
+secures the option of continued funding in the future, since nothing can be learn
+project when the funds are not invested as supposed. Thus, the entrepreneur's discr
+funds is intimately linked to the timing of the abandonment decision.
+        We consider a sequence of short-term contracts that in our setting is equivalent
+that the contract, short or long term, can be renegotiated at all times. Thus, any decisi
+the project after a given horizon of funding, or to reduce the speed at which fundi
+must be time-consistent. A fundamental contribution of our analysis is the fact th
+the agency conflict about the use of resources in the context of an open-ended fun
+coupled with the requirement that any equilibrium be renegotiation-proof.
+        We model relationship and arm's-length financing by distinguishing whether the i
+or cannot observe the entrepreneur's investment decision.4 With relationship financin
+of the entrepreneur is observable, or more precisely "observable, but not verifiable" as
+described in the incomplete-contracts literature, and the environment is at all time
+metric information. With arm's-length financing, actions by the entrepreneur are
+and we are investigating a standard moral hazard problem between investor and ent
+        The basic conflict between entrepreneur and investor can be described as follow
+entrepreneur, the project represents the possibility to win a single large prize, but als
+rents that she could possibly divert to her private ends. The tension between investing
+the funds is accentuated by the fact that the successful completion of the project
+stops the flow of funds. The direct incentives for the entrepreneur then have to
+offset the possible loss in future rents, hence they have to be increasing in the volu
+funding that the entrepreneur expects in equilibrium.
+    The combination of an infinite funding horizon and contract renegotiation bec
+important in light of this fundamentally intertemporal nature of the incentive proble
+the funding horizon, the more valuable the entrepreneur's option to increase the p
+access to future funding by diverting funds. The natural candidate for a contractual r
+be to declare ex ante that no financing will be provided after a certain funding hor
+a commitment would necessarily not be time-consistent by the nature of the probl
+here.
+
+        In the equilibrium analysis, we examine how entrepreneur and investor share the proceeds of
+the project as a function of the elapsed time, and whether funding is released at the efficient rate and
+until the efficient stopping point, by first considering relationship financing (observable actions).
+
+
+         3 In our model (as in countless others), debt and equity funding are indistinguishable because there is only a single
+positive cash flow realization, R, that is to be split between entrepreneur and investors.
+         4 We would like to thank Patrick Bolton for a suggestion to include this distinction.
+G RAND 2005.
+
+
+
+
+                                              This content downloaded from
+                            193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                      All use subject to https://about.jstor.org/terms
+722 / THE RAND JOURNAL OF ECONOMICS
+
+
+The information about the project is then always common for both parties, and funding ren
+is negotiated under symmetric information. As funding continues and the outlook becomes
+promising, the participation constraint of the investor leaves less for the direct incentive o
+entrepreneur. At some point, this residual will fall short of what is needed to provide incent
+The only possible solution is that the investor slows down the release in funds, which happe
+the form of a reduced funding rate by the investor. This reduces the entrepreneur's option
+of prolonging the project, and the incentive constraint can be met again. As time goes on
+the posterior belief decreases, the slowdown in funding becomes more serious, and funding
+come down to a trickle as the belief approaches the final abandonment point, which is too
+relative to the efficient policy.
+     As we consider the case of arm's-length financing (actions are unobservable), we need
+take into account the dynamics of the moral hazard problem. The moral hazard problem ab
+the entrepreneur's decision in the current period translates into an adverse selection pro
+about beliefs in future periods. For the entrepreneur, control over the investment flow also me
+control over the information flow, knowing that the private beliefs of entrepreneur and inv
+about the project can diverge. We find that while the tension between immediate incenti
+and intertemporal rents remains, there is one subtle, yet important, difference in the value
+deviation for the entrepreneur. With symmetric information, the entrepreneur could renew
+proposal after a deviation based on the belief held in the previous period, since nothing in
+perception of the project has changed on either side. In contrast, with unobservable actions
+investor will automatically downgrade his belief after a deviation and insist in the continu
+game to be compensated on the basis of his belief, which is more pessimistic than warranted
+change in the belief limits the maximal financing horizon, which relaxes the incentive const
+and facilitates funding. On the other hand, the entrepreneur commands an additional inform
+rent since she controls the information flow.
+     We are then in a position to compare the overall efficiency of arm's-length and relation
+financing. We identify the following basic tradeoff: Under relationship financing, there is
+informational asymmetry, and the information rent that compensates the entrepreneur for
+control of the information flow can be saved; but under arm's-length funding, the investo
+committed to stick to a finite stopping time, reducing the option value of the entrepreneu
+prolong the project through deviations. We find that the second effect always dominates
+arm's-length contracts allow for a higher project value.
+    The equilibrium is shown to be unique in both cases. We require the equilibrium to be
+weakly renegotiation-proof, meant to capture the inability of entrepreneur and investor to pre
+recontracting or renegotiation. More precisely, we first derive the unique Markov equilibrium
+then show that this equilibrium is identical to the equilibrium derived under the renegotia
+proofness assumption. We argue that our results are consistent with the typical financing cycle
+startup firms where relationship financiers are gradually replaced by arm's-length sources.
+     In conclusion, the fundamental contracting difficulty in this article comes about by
+combination of an infinite funding horizon and the possibility of renegotiation. As our ana
+shows, the only way to resolve these conflicts is via delays in the financing of innovation--i
+form of a slowdown in the release of funds. The temporal occurrence of these delays dep
+on the informational relationship between investor and entrepreneur: it will be frontloade
+profitable projects under arm's-length funding, and backloaded in all other cases.
+
+
+o Related literature. Besides the articles already mentioned, in particular the ones on rela
+tionship financing, our article is related to three distinct strands of the literature. First, it is linked
+the literature on the financing of innovation and venture capital, in particular articles focusing
+the entrepreneur's discretion to influence the stopping decision in innovative and risky pro
+Qian and Xu (1998) observe that soft budget constraint problems of this kind are endemi
+bureaucratic systems of R&D funding. Cornelli and Yosha (2003) address the window-dres
+of performance signals to have the project continued. Dewatripont and Maskin (1995) note t
+
+SRAND 2005.
+
+
+
+
+                                     This content downloaded from
+                   193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                             All use subject to https://about.jstor.org/terms
+                                                                          BERGEMANN AND HEGE / 723
+
+
+
+having multiple investors may be a device to mitigate this problem. In the venture capit
+moral hazard-driven stopping problems have served as the background to explain the
+remedies as stage financing, convertible securities, and the dismissal of incumben
+(e.g., Repullo and Suarez, 2004; Hellmann, 1998). But all contractual devices of this
+principle open to renegotiation. To fully account for the relevant time-consistency issue
+desirable to go beyond the static (two- or three-period) models employed in this lite
+question is what happens if the horizon is extended and time-consistent devices to c
+abandonment decision are not available. This is the starting point of our article.
+     Second, our problem is related to a strand of the incomplete-contracts literature th
+gates what is known as the strategic default problem (e.g., Hart and Moore, 1994,1998
+Scharfstein, 1996). In this literature, the agent can threaten to default on obligations de
+solvent, and the principal's power to liquidate assets or dismiss the agent enforces pa
+model is different in that there is only a single cash flow, with uncertain arrival time,
+outlook of the project under consideration deteriorates over time. We are closest in sp
+infinite-horizon models of strategic default. Gromb (1994) investigates repetitions o
+la Bolton and Scharfstein (1996) and finds that the efficiency of the best feasible con
+riorates as the horizon of such repeated investments is extended. DeMarzo and Fish
+address long-term contracts and the agent's ability to save. In Fluck's (1998) repeated
+infinite-maturity outside equity can solve the agent's as well as the principal's incent
+Neher (1999) considers a variant of Hart and Moore (1994) where delay via staged f
+enables the build-up of collateral, in contrast to our model where delay reduces the p
+of future rents.
+     Third, our article is clearly related to literature on the advantages of arm's-length re
+in agency models. It is closest to Cr6mer (1995), who shows that better information
+agent's circumstances makes it more difficult for the principal to commit to sanctio
+(1998) explores this idea in the context of financial contracts and relates it to compe
+alternative commitment device.
+     In an earlier article, Bergemann and Hege (1998) undertake a preliminary analysis of the same
+basic model, but the present article goes beyond the earlier one in two important dimensions. First,
+it thoroughly allows for renegotiation, which is entirely ignored in the earlier article. Renegotiation
+is at the heart of our dynamic agency problem, since the entrepreneur would like to commit ex
+ante to a finite funding horizon when she encounters financing constraint, but such a commitment
+would necessarily be time-inconsistent. Second, Bergemann and Hege (1998) examine only the
+case of unobservable actions, whereas here we account for relationship funding, which is more
+typical for the funding of innovative projects and puts the comparison between relationship and
+arm's-length financing at center stage.
+      The article is organized as follows. The model is formally presented in Section 2. We consider
+a two-period version of our model in Section 3. The equilibrium analysis begins in Section 4 with
+observable actions of the entrepreneur. In Section 5 we examine equilibrium financing when the
+allocation decision of the entrepreneur is unobservable to the investor. The structure and efficiency
+of the equilibria under symmetric and asymmetric information are compared in Section 6. We
+present some concluding remarks in Section 7. The proofs of all results are relegated to the
+Appendix.
+
+
+2 The model and first-best policy
+a We first describe the project, the investment technology, and the evolution of the posterior
+beliefs. Next, we introduce the contracting problem. Finally, we derive the efficient stopping
+posterior.
+
+
+o Project with unknown returns. The entrepreneur owns a project with unknown return.
+The project is either good with prior probability ao or bad with prior probability 1 - cao. If the
+project is good, then the probability of success in a given period is proportional to the funds
+SRAND 2005.
+
+
+
+
+                                        This content downloaded from
+                      193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                All use subject to https://about.jstor.org/terms
+724 / THE RAND JOURNAL OF ECONOMICS
+
+
+invested into the project in that period. If the project is bad, then the probability of
+zero independent of the investment flow. The project can at most generate a single succ
+generates a fixed monetary return R > 0.
+   More precisely, if the project is good and receives an investment flow of cy, with c >
+the probability of success is given by y. The parameter c thus represents the constant
+cost of increasing the success probability. We assume that y E [0, X] with X < 1. In con
+the project can never succeed with certainty in any given period. If the project succee
+cash flow R is realized and distributed among the parties, and the game ends immediat
+refer to an investment flow y = X as full or maximal funding, and to an investmen
+limited or restricted funding.
+       The uncertainty about the nature of the project is resolved over time as the flow
+either produces a success or leads to a stopping of the project. The time horizon is disc
+infinite, time periods are denoted by t = 0, 1, ..., oo, and the discount factor is 8 E (0,
+    The investment process represents an experiment that produces information about the
+likelihood of success. The current information is represented by the posterior belief a
+project is good. The evolution of the posterior belief at, conditional on no success in p
+given by Bayes' rule as a function of the prior belief at and the investment flow y,:
+
+
+                                                             att(1 - yt)
+                                                             at+                                 =                (1)
+                                                                  1 - ytat
+
+The posterior belief at decreases over time if success doesn't arise. The decline in the posterior
+belief is stronger for larger investments flows Yt as the agents become more pessimistic about
+the likelihood of future success. The posterior belief changes only slowly for very precise beliefs
+about the nature of the project, i.e., if at is close to either zero or one. Correspondingly, the event
+of no success is most informative with diffuse beliefs, or when at is close to 1/2.
+       We refer to the special case of ao = 1 as the "certain success project" or the shorter "certain
+project." With ao = 1, the posterior never changes as the agents do not entertain the possibility
+that the project might be bad and at remains at at = 1 for all t > 0. For this obvious reason, we
+refer to the case of ao = 1 as the "certain success project" or "certain project." As a consequence
+of the constant posterior beliefs of at = 1 for all t > 0, if funding at ao = 1 can be provided at
+the maximal level X, then it will be provided forever until the project succeeds, hence "certain
+project."
+
+o Contracting. The entrepreneur has initially no wealth and seeks to obtain external funds
+to realize the project. Financing is available from a competitive market of investors, which is
+represented in the model by a single investor who can only accept or reject contract proposals
+by the entrepreneur. Entrepreneur and investor share initially the same assessment about the
+likelihood of success represented by the prior belief ao. The funds are supplied by the investor,
+and the entrepreneur controls the allocation of the funds. She can either invest the funds into the
+project or divert the capital flow to her private ends. We assume that the entrepreneur consumes
+any diverted funds immediately, i.e., she cannot accumulate funds in order to finance the project
+on her own in the future.5
+       The time structure in every period t is as follows. At the beginning of period t the entrepreneur
+can offer the investor a share contract st and a success probability t, O0. The share st represents
+the share of the entrepreneur in the proceeds if the project succeeds in period t. The investor
+receives the remaining share 1 - st. The restriction to share contracts is without loss of generality
+due to the binary nature of the project. After the contract proposal, the investor can decide whether
+
+
+        5 Alternatively, the same incentive constraints would arise if the efficient investment of the funds required costly
+effort by the entrepreneur. In this case the entrepreneur evidently cannot save any funds that have not been invested. We
+are grateful to an anonymous referee for pointing out this interpretation. In both cases, one could imagine that one unit
+diverted from the funds increases the entrepreneur's utility by a monetary equivalent of only P < 1 units. The smaller is
+P, the less attractive is diversion and hence the less acute is the agency problem that we study.
+? RAND 2005.
+
+
+
+
+                                              This content downloaded from
+                            193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                      All use subject to https://about.jstor.org/terms
+                                                                            BERGEMANN AND HEGE / 725
+
+
+FIGURE 1
+
+TIMELINE OF EVENTS
+
+
+                                 t                          t+l
+
+                                I                  I                   I                   I
+
+                    (st, yt): dt: it: realization
+                 E oers I accepts E invests of 0 or R
+                 contract or rejects or diverts
+
+
+
+to accept or reject the new contract (decision dt). If he accepts the contract,
+entrepreneur with the requested funds cyt in period t to support the develop
+If he rejects the contract, then a new proposal can be made by the entrepren
+period. Finally, and conditional on funding, the entrepreneur decides whethe
+in the project or divert them to her private ends (decision it). The sequence o
+period is illustrated by Figure 1.
+
+
+o First-best policy. The project should receive funds as long as current ex
+the investment exceed costs:
+
+                                                ottYtR - cyt O.
+As both return and cost are linear in Yt, it follows that if investment is socially efficient, it should
+occur at the maximal level, or Yt = k. The project should receive its final investment at the lowest
+tr where the current net return is positive:
+
+
+                                                ar .R - c0 > 0,
+
+which yields a socially efficient stopping point, described in terms of the posterior belief, at
+
+
+                                                 aTrR - cX = 0
+
+or, equivalently,
+                                                             (
+
+                                                         aR * = --. (2)
+     The social value of the project, denoted by V (at),is given by a familiar dynamic programming
+equation:
+
+                         V(at) = SE[o,,X]
+                                 max {atyR - cy + 8(1 - yat)V(at+,(y))}.
+
+The value of the program can be decomposed into the flow payoffs and continuation payoffs. The
+flow payoffs are the returns multiplied by the current probability of success minus the investment
+costs. The continuation payoffs arise conditional on no success, or with probability (1 - atX), in
+which case the future is assessed at a new posterior, namely at+1. The efficient stopping condition
+(2) can be recovered from the dynamic programming equation at ar by setting V(aTr+) = 0.6
+      The value of the project under the first-best policy can be determined as
+
+
+                                                1 - 8T*(1 - )T* 1 - ST
+                      V(ao) = aot(R - c) - (1 - ao)ck '
+                               1-8(1-X) 1-8
+
+
+    6 The intertemporally optimal stopping poi
+ condition does not include any intertemporal el
+ on         no      success)                declines                 deterministically                 and   t
+? RAND 2005.
+
+
+
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+726 / THE RAND JOURNAL OF ECONOMICS
+
+
+where T* is the maximal number of periods such that the updated belief after T* per
+funding is still weakly above a*, or
+
+                                                   ao(l - X)T*
+                                               ao(1 - )T* + 1 - 0-
+
+
+
+
+ 3. A simple two-period model
+m This section presents some basic insights and tradeoffs in a simple two-period example
+with t = 0, 1. We compare the funding decision in the symmetric- and asymmetric-information
+environments.
+
+       In this finite-horizon setting, we can analyze the contracting equilibrium by backward induc-
+tion. We shall start with the symmetric environment. Suppose then that in the final period, investor
+and entrepreneur share a common posterior al that describes the probability that the project is
+good. If the entrepreneur makes a funding proposal (sl, yl), then the investor will accept it only
+if his participation constraint is satisfied, or
+
+
+                                                  ylal(l - sl)R > cyl, (3)
+ and if the incentive constraint for the entrepreneur is satis
+
+
+                                                       yiaislR                          ?     cyl.       (4)
+
+  The             incentive                           constraint                            simply         requir
+  exceeds                        the             value                of         a      diversion.             Due
+  partial                     diversion.                              In        other                 words,       ine
+  partial                     diversion,                              or
+
+                                               yiaisiR                          >       cy           +   (y,   -   y)
+  are satisfied for all y E [0, y,]. From
+  that financing is provided only if
+
+                                                                           2c
+                                               ylOaR 2 2cyl * aol -.
+                                                                  SR
+      We can make a first observation regarding the social efficiency of the funding decision. We
+just saw that equilibrium funding stops at
+
+                                                             ,2c
+                                                                   as                          (5)
+                                                                  R'
+
+whereas the socially efficient stopping point is given by the posterior belief
+
+                                                           * C
+                                                                  R
+
+
+Hence equilibrium funding ends too early in comparison with the socially efficient funding policy.
+The divergence between equilibrium and social stopping arises from the rent the entrepreneur can
+extract due to the nonverifiability of her allocation decision.
+      In equilibrium, the entrepreneur offers a break-even contract to the investor that solves his
+participation constraint (3) at equality, or
+
+                                                         c alR - c
+                                               1 - st = sl 1R
+                                                    ajR al R
+0 RAND 2005.
+
+
+
+
+                                             This content downloaded from
+                           193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                     All use subject to https://about.jstor.org/terms
+                                                                           BERGEMANN AND HEGE / 727
+
+
+
+The share of the entrepreneur depends on the posterior belief about the quality of the p
+expected profit in period t = 1 is given by
+
+
+                                               alyilR - cyl > 0.
+
+It follows that she will always suggest a maximal funding level yl = ,. We can then
+expected profit of the entrepreneur as a function of the posterior belief al as follows
+
+
+
+                                  VEl) =Ia 0
+                                           IXRif- cX
+                                                   a,if<al >
+                                                          2c/R.
+                                                             2c/R,
+      Going backward to period t = 0, we find that the participation constraint of the investor
+
+remains unchanged (except that the posterior a is replaced by the prior ao):
+
+                                             aoYo(l - so)R > c yo.
+
+In contrast, the incentive constraint of the entrepreneur contains an intertemporal element, or
+
+
+                            ao YosoR + (1 - aoYo)b VE(al) 2 Cyo + VE(ao). (6)
+The left-hand side of inequality (6) represents the discounted value of the funding proposal
+(so, Yo) on the equilibrium path. If the entrepreneur allocates the funds properly, then the project
+is successful with probability aoyo, and an agreed share so of the cash flow R is paid to the
+entrepreneur. With the remaining probability, namely 1 - ao Yo, the project is not successful. In
+this case, there is still a chance to realize the project tomorrow. The net value of this option for
+the entrepreneur is given by VE(al), taking into account the update in the belief to al following
+the the failure to succeed in period 0.
+      The right-hand side of the inequality (6) represents the value of a diversion, which now
+arises from two sources. First, there is a direct private benefit of cyo, but second, the failure to
+pursue the project today leads to the opportunity to realize it tomorrow. It should be noted that in
+contrast to the left-hand side of the inequality, the opportunity of pursuing the project tomorrow
+now arises with certainty, as the diversion of the funds guaranteed that the project could not be
+realized in period 0. Moreover, the prior ao is not updated, as no information regarding the project
+was generated in period 0.
+    By the same argument developed for t = 1, the entrepreneur will offer a break-even contract
+with maximal funding to the investor. Using the continuation value VE(ai), we can write the
+incentive constraint of the entrepreneur as follows:
+
+
+
+                     aoXR - cX + (1 - ao,)S(alk.R - Xc) > cX + 8(aoXR - kc).
+The posterior al is determined via Bayes' rule (see (1)) as
+
+                                                   ao(1 - Yo)
+                                               Oal                  =         <      ao,                (7)
+                                                    1 - aooYo
+
+and after replacing the posterior belief al in (7), we get the following condition on the prior for
+funding over two periods to be possible:
+
+                                                            2c
+
+                                                0 R(1 - 8) + 8kc
+
+     We make several observations. First, for 8 = 0, the funding condition in period 0 is identical to
+the funding condition in period 1, as the entrepreneur acts purely myopically. But for all 8 > 0, the
+? RAND 2005.
+
+
+
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+728 / THE RAND JOURNAL OF ECONOMICS
+
+
+funding condition becomes more severe in period 0, as the denominator is a convex co
+of R and c (with R > c). Moreover, as S increases, more weight should be given to c a
+funding condition increases in severity. In consequence, it follows that for all ao satisf
+                                                       2c        2c
+                                                      c >                      ao      >      2-        (8)
+                                        R(1 - SX) + SXc - R
+there will be no equilibrium funding in period 0, though the project will eventually be
+period 1. The reason for the equilibrium delay in the funding decision emerges from the
+constraint. If the project will get funded anyhow in period 1, the entrepreneur has a stron
+to divert the funds in period 0 and thereby guarantee himself further funding and yet m
+possibility of success in period 1. This equilibrium delay can be prevented only if the
+factor is very low, or if the project has a very high probability of success, so that the
+rewards outweigh the future benefits.
+    We consider now the asymmetric-information environment. Along the equilibr
+entrepreneur and investor maintain symmetric information, as the investor uses his e
+belief about the allocation decision of the entrepreneur. The sole difference arises a
+possible deviation of the entrepreneur, i.e., the off-the-equilibrium-path decision. Th
+consider the incentive constraint of the entrepreneur in period 0, it now reads
+
+                          aoYosoR +(1 - aoyo)SVE (al) CY + 0 VE (al), (9)
+                                                                             al
+
+where the only, but important, difference compared with the symmetric-information inc
+constraint (6) arises on the right-hand side. Following a deviation by the entrepreneur in
+0, the investor observes only that the project did not succeed and continues to update his
+with the information coming from the failure to succeed. The investor therefore continues t
+his equilibrium belief ao formed by Bayes' rule as in (7). In consequence, he still wishes
+rewarded in period 1 as if the true posterior were a . In contrast, the entrepreneur knows th
+belief a1 is too pessimistic because conditional on the funds being diverted in period 0, no
+information about the project arose, and she maintains the correct belief ao. As the value in p
+1 comes from a successful realization, the term ao/al corrects the misperception of the in
+In sum, the correct expected value of the entrepreneur following the diversion of the fu
+given by (ao/al)VE(al). As the true probability of success is ao, but the share is negotiat
+the basis of the less optimistic belief a1 < ao, it follows that
+
+                                              -
+                                             a1   VE(al) < VE(o).
+Since the investor's required value is larger in the arm's-length case following the investor's
+informational handicap, the arm's-length environment makes a deviation of the entrepreneur less
+attractive. This effect, which we call the commitment effect, is at the heart of our analysis, and we
+will encounter it extensively in our main analysis. Solving (9) in a manner similar to (8) leads to
+the condition that financing only in the second period is possible if
+                                                   1
+                                          2c - 8c
+                                                   1 - -.2c
+                                     R(1 - SX)-
+                                            1 -x Sc - R
+      In comparison with the symmetric environment, we find that the set of prior
+financing constraints is larger in the asymmetric case, since
+                                                                       1
+                                          2c1-                2c - Sc
+                                R(1 - 8)L) + 8c X)c
+                                                          R( 1 - 1-.
+                                                                 8~1) - 8c
+      Thus, as a consequence of the commitment effect, more projects will receive im
+ing in the asymmetric-information environment than in the symmetric-informat
+G RAND 2005.
+
+
+
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+                                                                    BERGEMANN AND HEGE / 729
+
+
+
+Costly delay is more frequent under symmetric information than under asymmetric in
+even though it may arise in both cases.
+      This simple two-period model generates two important results: (i) it demonstrate
+culties in creating efficient investment arrangements when the option of continued fut
+undermines the incentives for current investment, and (ii) it shows that asymmetric
+can improve the efficiency of the equilibrium by acting as a commitment device for
+      The two-period model contains an artificially strong discontinuity regarding the p
+incentives. In period 0, incentives to invest the funds into the project are weak, as furt
+is forthcoming for sure in the period 1. In contrast, in period 1, incentives to inve
+are strong, as by assumption no further occasions to realize the project arise. This st
+between the periods gave rise to the extreme nature of the equilibrium, with no fundin
+0 and maximal funding in period 1. By itself, the two-period model thus gives lit
+as to how the results carry over to a model with a more general time horizon, finite
+In the remainder of the article, we shall analyze an infinite time horizon model and
+role of the discount factor 8 in the equilibrium provision of funds. The removal of t
+final period will lead to the elimination of the discontinuity in the funding volume
+the two-period model. We will obtain an intertemporal characterization of the fund
+that will evolve smoothly over time and display not only minimal and maximal fun
+but typically intermediate funding at various stages of the project.
+
+
+4. Relationship financing
+m In this section we analyze contracting with symmetric information, that is, the en
+actions are observable (but not verifiable) for the investor. We first define the concept
+perfect equilibrium. We next investigate the properties of this equilibrium and show
+cides with the weakly renegotiation-proof equilibrium. Finally, we discuss how the
+results would be affected if the agents could commit to long-term contracts yet coul
+in every period.
+
+
+o Equilibrium. In the environment with observable actions, the information of en
+and investor is symmetric in every period. Formally, we can describe the strategies
+as follows. Let H, denote the set of possible public histories up to, but not including,
+proposal strategy by the entrepreneur is given by
+
+
+                                 st : Ht -+-R, yt : Ht -+ [0, 9].
+
+A decision rule by the investor is a mapping from the history and the contract pro
+binary decision to reject (d, = 0) or to accept (d, = 1):
+
+
+                                d, : Ht xIR x [0, ] -+ {O, 1}.
+
+Finally, an investment policy by the entrepreneur is given by
+
+
+                                it : Ht x Rx [0, k] --+ {0, Yt}.
+
+The above policies all describe pure rather than mixed strategies and indeed throughou
+we focus on pure-strategy equilibria. A generic public history of the game is denote
+and is simply a realized sequence of offers, funding, and investment decisions:
+
+
+                ht = {so,...,st-i; Yo, ...I, Yt-1; do, ..., dt-1; io, ..., it-l}.
+
+The evolution of the posterior belief at is not included in the history, as it can be inferr
+sequence of public funding and investment decisions by Bayes' rule. By default, upd
+0 RAND 2005.
+
+
+
+
+                                   This content downloaded from
+                 193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                           All use subject to https://about.jstor.org/terms
+730 / THE RAND JOURNAL OF ECONOMICS
+
+
+only conditional on failure of the project, since the game ends as soon as the project su
+and realizes the return R. Thus given any prior a0o, an arbitrary history h, uniquely determi
+current posterior belief at = a(h,). For a given quadruple {st, yt, dt, it,} of strategies, d
+the value function of the entrepreneur at the beginning of period t by VE (ht) and the value f
+of the investor by V1(ht).
+      We restrict our attention initially to Markovian equilibria where strategies are allow
+depend only on the payoff-relevant part of the history of the game, which in this model
+represented by a single state variable, the posterior belief at in every period t. The Ma
+equilibrium outcome is subsequently shown to be identical to a (weakly) renegotiation-p
+equilibrium outcome. Formally, a Markov-perfect equilibrium following Maskin and Tirole
+is defined as
+
+Definition I (Markov-perfect equilibrium). A Markov-perfect equilibrium is a subgame-perfect
+equilibrium
+
+                                               {st*, 9 ;*, dt*, it*   ,oo
+                                                                 It t=O
+
+
+
+
+such that the sequence of policies satisfies V ht E Ht, V h', E Ht,, V st, s,, V Yt, y, y, V dt, dt,:
+
+ a(ht) = a(h)
+          a h',  s(h,) = s,,(h',), y,*(h,) = y* (h',);
+              = a , s,= s = dt(ht, s,, y,,) = dt,(h',, st,, ,);
+a(h) = a , s, =S ',, d, = d i (ht, s, y,, dt) = i, (h',, f , d,).
+                                                                                                              (10)
+
+      Thus, a Markov-perfect equilibrium imposes the requirement that the continuation play be
+identical after any two histories ht and h', with an identical belief, a(ht) = a(h',), noting that the
+particular history ht may differ from h', in its date, t V t', and/or in its past actions. Since the moves
+in any period are sequential, the relevant state for the investor is not only the belief about at but
+must also include the entrepreneur's contract offer, and similarly for the entrepreneur's final capital
+allocation decision. In the Markovian setup, we can write the entrepreneur's and the investor's
+value functions simply as a function of the current belief, VE(at) and VI(at), respectively.
+
+o Analysis. Consider the situation of the investor at an arbitrary point of time. He receives a
+proposal by the entrepreneur to fund a project for the current period in exchange for shares in the
+proceeds of the project should it succeed in the current period. As the current contract commits
+neither investor nor entrepreneur to any future course of action, the investor is willing to accept
+the proposal (st, y,) as long as the expected returns are nonnegative, or
+                                                at(1 - st)ytR 2 cyt. (11)
+ The inequality then represents the participation co
+ returns can materialize only if the entrepreneur d
+ rather than divert them to her private ends. This is
+   Consider first the final period where the entrep
+ final period will arise when the belief a = at has d
+ to solicit any future funds. In that final period th
+ and diverting, or
+
+                                                     astyR                     2      cy,.             (12)
+
+  Exactly                      as       shown in the two-period m
+ for  any                     funding        to occur in equilibrium
+ both              the           cost            of           the           funds              for           the     inve
+
+                                                     at            y,R            2cy,.
+  The critical posterior belief at which
+  by the identity (5) above, where as is
+0 RAND 2005.
+
+
+
+
+                                           This content downloaded from
+                         193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                   All use subject to https://about.jstor.org/terms
+                                                                            BERGEMANN AND HEGE / 731
+
+
+
+         In all preceding periods, the incentive constraint for the entrepreneur has to ta
+her future opportunities. As in the two-period model (see equation (6)), the co
+represented in terms of her value function:
+
+
+                             atytstR + (1 - aoytt)VE(cOt+l) 2 cyt +3VE(at). (13)
+For any sharing rule st, the entrepreneur can either invest the funds (left-hand side) or divert them
+(right-hand side). She benefits from complying with the contract via two different sources. Either
+the project succeeds in period t, giving her a share of the return st R, or it does not succeed, in which
+case she has access to future rounds of funding. With a funding flow of Yt, the probabilities of these
+events are at Yt and 1 - at Yt respectively. If the project fails in the current period, then the posterior
+belief declines to atil. The alternative action for the entrepreneur is to simply divert the funds
+today and then face a similar problem tomorrow as the state of the project remains unchanged.
+Therefore, the equilibrium can be characterized by a sequence of participation constraints for the
+investor (as in (11)) and a sequence of incentive constraints for the entrepreneur (as in (13)).
+         In equilibrium, the entrepreneur will never leave the investor with more net value than
+is necessary to obtain the funding. The equilibrium share s, is therefore determined by the
+exact fulfillment of the participation constraint. The investor receives zero net utility when the
+participation constraint (11) is binding and we can solve for the equilibrium sharing rule:
+
+                                                         atR - c
+                                                         s,
+                                                         at R
+                                                                           R              (14)
+
+We refer to contracts that leave the investor with zero net utility as break-even contracts and
+observe that the break-even share is independent of the funding flow.7 Using (14), we may rewrite
+the incentive constraint (13) as
+
+
+                          at YtR - cyt + (1 - attyt)8VE(at+1) ? cyt + 3VE(at). (15)
+The dynamic incentive constraint shows that the return R has to be sufficiently high to cover the
+static as well as the dynamic incentive costs. The static part simply says that the gross return
+at Yt R has to be sufficiently large to compensate the investor for his cost cyt as well as dissuade
+the entrepreneur from diverting the current flow, an additional cyt. The dynamic part accentuates
+the incentive problem. By rewriting (15) as
+
+                          aotty(R - 8VE(tt+1)) > 2cyt + S(VE(at) - VE(at+1)), (16)
+
+it says that the net return for the entrepreneur after paying for the static cost is R - VE (at+l)
+rather than R itself. This is natural, as the success today leads to an end of the project and preempts
+future payouts to the entrepreneur. On the other hand, even if the project is funded yet without
+success, then the future value of the project is determined by at+l rather than at. By diverting the
+funds, the entrepreneur could escape the downgrade that constitutes the dynamic part of incentive
+costs.
+
+         A lower level of funding yt certainly affects both sides of the inequality (16), but at diff
+rates. A lower equilibrium level reduces the gains on the left-hand side but only with the
+at < 1, whereas on the right-hand side it affects the current costs of funding and, what is
+important, the intertemporal incentive costs. A low funding level Yt reduces the current
+function, VE(at), but a lower Yt also decreases the difference between at and at,, and w
+the difference of the value functions VE(at) - VE(alt+). This argument suggests that a mar
+decrease in Yt always leads to a larger decrease in the right-hand side of the incentive con
+than the left-hand side of the incentive constraint.
+
+
+      7 We prove the result that only break-even contracts will be offered in equilibrium formally in Lemma
+property that holds for all subgame-perfect equilibria, and not only for Markovian equilibria.
+SRAND 2005.
+
+
+
+                                           This content downloaded from
+                         193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                   All use subject to https://about.jstor.org/terms
+732 / THE RAND JOURNAL OF ECONOMICS
+
+
+      Given the impact of the funding rate on the intertemporal incentive constraints, w
+then ask whether it is conceivable that the project receives full funding with Yt = ) unt
+period aT = as. With period T being the last period of funding, the continuation valu
+would be zero, VE(aT+1) = 0, and the value function at aT would be given by
+
+                                           VE(aT) = aTXR - cX.
+
+But if we insert these two continuation valuations into the incentive constraint (15), we
+a contradiction because we obtain, after rearranging,
+
+
+                                     aTXR > 2c. + 8(aTXR - cX).
+
+The inequality clearly cannot be satisfied at aT. = as, as we already have astR =
+asR - cX = cX. This argument already indicates that in equilibrium, funding has to (ev
+slow down from the maximal level X to a lower level Yt < X, which can be sustained
+incentive constraint (15).
+    In light of this finding, we might ask whether full funding with Yt = X will ever
+answer this question, it is helpful to consider the limit case of the incentive constraint
+ao = 1, the case of the "certain project." Using the fact that with the certain project
+the posterior beliefs remain constant and equal to the prior beliefs, the intertemporal
+constraint (15) can then be written as
+
+
+                               XR - cX + (1 - X)SVE(1) > cX + 8VE(1). (17)
+
+In equilibrium, the value function of the entrepreneur is the discounted and risk-adjusted
+the per-period returns:
+
+
+                                            VE(1).R -XAc
+                                               1 - 8(1 -X)"
+We then insert VE(l) into the incentive constraint (17),
+
+
+                            XR-cX+(1-X)XR --Xc >+ R - _ c
+                      1R - c8 +(1 - ,))1- 1- > c + - (18)
+and obtain a necessary and sufficient condition on R for full funding to occur:
+
+
+                                               R           >       2c              +c   .   (A)
+                                                             1-8
+
+
+By considering the deviation option of the entrepreneur, the sources of the
+critical value R become more transparent. If we consider ao = 1, then if
+in equilibrium, we know that the entrepreneur can always guarantee hers
+period, since a diversion would simply lead to renewed attempts of fundi
+ao = 1 and VEr(t) = VE(at+l), we can rearrange the incentive constraint
+
+                                            XR > 2.c + 8XVE(1). (19)
+
+Now the entrepreneur has the option to divert the funds
+least a perpetuity of cX, hence VE(1) = ,c/(1 - 8). The ineq
+from the project, R, has to cover at least c + c, which are t
+investor, and the increment in the perpetual rent that is at th
+option to deviate and thereby to increase by X the probabi
+rent. The rent of the entrepreneur thus has a contemporan
+      Condition (A) turns out to be a key condition in our an
+0 RAND 2005.
+
+
+
+
+                                        This content downloaded from
+                      193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                All use subject to https://about.jstor.org/terms
+                                                                           BERGEMANN AND HEGE / 733
+
+
+
+R is large enough relative to the marginal cost c of success, the contemporaneous
+the increment in the perpetual rent Xc[8/(1 - 8)] so as to satisfy (19) is termed a "hi
+project (in incentive-adjusted terms), as opposed to a "low-return" project where the
+violated.
+
+Definition 2 (low- and high-return projects). The project is a low-return project if
+Xc[8/(1 - 8)], and it is a high-return project if R > 2c + ,c[8/(1 - 8)].
+
+     We can now ask what happens to equilibrium funding when the critical inequa
+violated. Staying with the special case of the certain project and hence ao = 1, the
+is almost apparent from the analysis of the incentive constraint (17). For funding to
+incentive constraint has to be reestablished. This requires that the rent arising from a d
+lowered, which can only mean that the funding level is lowered to an appropriate lev
+fact, we can obtain the equilibrium funding yt = yt* by solving the incentive constraint
+equality. The solution yt to the equality (18) is also the unique equilibrium funding l
+it is by now clear that a funding level above Yt* could not be sustained in equilibriu
+
+now argue that any funding level strictly lower than Yt* could not form an equilibrium either. We
+observe first that if the funding level is set below yt*, then the incentive constraint (17) would again
+hold as a strict inequality. Because the entrepreneur then has slack in his incentive constraint, he
+could ask the investor for a higher funding level, even X, by "bribing" the investor and offering him
+a slightly larger share of the surplus than the break-even contract. The investor would agree, since
+he would be offered a strictly positive net surplus, and given the continuation values, he would
+be assured that the entrepreneur's incentive constraint still holds. In consequence, an interior
+level of funding y E (0, 1) can be sustained in equilibrium only if the incentive constraint of the
+entrepreneur is met as an equality. The insight that an interior level of funding is always associated
+with a binding incentive constraint is of course not restricted to at = 1, but is valid more generally
+for all at < 1. We now summarize the equilibrium funding decisions for the certain project.
+Theorem I (certain project).
+
+        (i) If the certain project has high returns, then it receives full funding in all periods.
+
+       (ii) If the certain project has low returns, then it receives restricted funding in all periods:
+
+                                                    1-8
+                                             Yt* =Sc (R - 2c) < k, Vt.
+      The equilibrium funding level of the low-return project is increasing in the final value R
+and decreasing in cost c. An increase in the discount factor 8 increases the value of the option
+to divert, and hence the investor responds in equilibrium by decelerating the flow of funds as it
+becomes more difficult to satisfy the incentive constraint.
+      The equilibrium in the general case of an evolving at can now almost be conceived by replac-
+ing the constant value R by the dynamically evolving value at R. As long as at R is sufficiently
+large, unrestricted funding will be possible, yet as at R decreases, funding will have to decrease
+as well so as to maintain the incentive constraint of the entrepreneur.
+      The critical value of the posterior belief, denoted by i, at which funding will become restricted
+can in fact be easily obtained. Under the hypothesis that the value function of the entrepreneur is
+just equal to, but not larger than, the perpetual rent that the entrepreneur can secure by deviating
+forever, the incentive constraint allows us to solve for the value function as
+
+
+                                         VE(at) = VE(at+1)=
+                                                                     1-8
+
+
+The critical posterior belief is then computed by solving (15) with t
+by the perpetual rents, or
+
+                                                               Xc             8
+
+? RAND 2005.
+                                  ZXR                        1-8       -  1-8        Xc                   +   (1
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+734 / THE RAND JOURNAL OF ECONOMICS
+
+
+from which we can infer the threshold to be
+
+                                                           2c
+                                                        c=                     .       (20)
+                                                      R - c_8
+Full funding at at is possible if and only if at > i. We can summarize our findings as follows.
+Theorem 2 (relationship funding). The Markov-perfect equilibrium is unique, and funding is
+always provided until aT = as.
+
+       (i) If the project has low returns, then it receives restricted funding in all periods.
+
+      (ii) If the project has high returns, then it receives full funding for all at 2 U and restricted
+           funding for all at < U.
+
+     (iii) If funding is restricted, then Yt is strictly decreasing in t.
+
+     The sharing rule associated with the equilibrium is given by (14). For high-return projects,
+there is a critical value U such that the project will receive maximal funding as long as at ? U.
+Low-return projects that have insufficient returns to cover current costs and perpetual rents, even
+at at = 1, are then always subject to restricted funding. In both cases, the volume of funding will
+decrease over time with the deterioration in the expected returns at R.
+
+o Renegotiation-proof equilibrium. The notion of a Markov equilibrium imposes a sta-
+tionarity requirement on the offer and acceptance decisions of the agents. In the context of our
+model, the Markovian assumption has a natural interpretation as a consistency requirement on the
+process of (re)negotiation between the two parties; namely, the Markovian condition requires that
+entrepreneur and investor find an arrangement mutually acceptable whenever they have found the
+same arrangement acceptable in the past and absent any new information about the nature of the
+project.
+      We now strengthen this intuition by considering arbitrary history-dependent policies instead.
+However, we impose a condition that the policies must be time-consistent in the sense that if the
+players can coordinate on a certain policy in a subgame, they are also able to coordinate on the
+same policy in any other subgame where the circumstances are the same, that is, if they share the
+same belief about at. In other words, we assume that they are able to avoid any Pareto-inferior
+outcome under exactly the same circumstances. To this end, we invoke the refinement of weakly
+renegotiation-proof equilibrium first suggested by Farrell and Maskin (1989) for repeated games.
+The adaptation of the equilibrium notion to dynamic games is straightforward.
+
+Definition 3 (weakly renegotiation-proof). A subgame-perfect equilibrium {st, Yt*, dt*, i,* }t is
+weakly renegotiation-proof if there do not exist continuation equilibria at some ht and h', with
+
+a(h) =inequality.
+strict  a(h',) and h, / h', such that VE(ht) > VE(h,) and V1(ht) > V1(ht,), with at least one
+
+      The renegotiation considered here occurs between time periods. It is conceptually different
+from renegotiation in static principal-agent models as considered by Fudenberg and Tirole (1990)
+or Hermalin and Katz (1991). The notion of weakly renegotiation-proof is often interpreted as an
+internal consistency requirement. Indeed, Farrell and Maskin (1989) suggested a strengthening
+of the notion by defining as strongly renegotiation-proof any weakly renegotiation-proof pro-
+file with none of its continuation equilibria being strictly Pareto dominated by another weakly
+renegotiation-proof profile. This distinction is immaterial to our argument, as they all coincide in
+this sequential move game with symmetric information.
+
+Theorem 3 (equivalence). The unique Markov-perfect equilibrium is identical to the unique
+weakly renegotiation-proof equilibrium.
+
+      The equivalence can be illustrated by the following simple example of equilibrium strategy
+profiles that form a subgame-perfect, but not renegotiation-proof, equilibrium. The example also
+shows that renegotiation-proofness indeed imposes restrictions on the equilibrium set.
+C RAND 2005.
+
+
+
+
+                                          This content downloaded from
+                        193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                  All use subject to https://about.jstor.org/terms
+                                                                            BERGEMANN AND HEGE / 735
+
+
+
+        (i) The entrepreneur offers in each period break-even contracts and invests f
+            private value to invest exceeds her private value to divert. If the investor h
+            no deviations in the past, then the investor provides maximal funding if h
+            least even and can expect the entrepreneur to invest. He rejects any contra
+            that doesn't meet the above conditions.
+
+       (ii) If there were any deviations in the past, then entrepreneur and investor pursue the
+             stationary equilibrium strategies as described earlier.
+
+       Consider these strategy profiles for a certain project, ao = 1, with low returns, R < 2c +
+Xc[8/(1 - 8)]. By Theorem 1, the Markov-perfect equilibrium permits only restricted funding
+with
+
+                                                   1-8
+                                               y* = (R - 2c),
+                                                       Sc
+
+and the resulting equilibrium value for the entrepreneur is
+
+                                                            1
+                                               VE(1) = -(R - 2c).
+                                                            3
+
+
+In contrast, suppose part (i) of the strategy profile indeed forms a subgame-perfect equilibrium.
+Then the value for the entrepreneur would be
+
+                                                                XR - Xc
+
+                                              1 (1E(1) =-X)
+As it is immediately verified that offer and acceptance strategies in (i) have the best-response
+property if the entrepreneur subsequently invests, it remains to verify her incentive constraint,
+which can be written as
+                                          XR - Xc
+                                                       - > cX + (R - 2c),
+                                        1 -8(1 - X) -
+which leads after the obvious cancellations to
+
+
+                                               R < 2c + Xc
+                                                                   1-8
+
+This is precisely the condition of low returns that we imposed for this example. Thus, the outlined
+strategy profile would allow full funding everywhere along the equilibrium path by relying on
+the stationary equilibrium as an off-the-equilibrium punishment path. The strategy profiles rely
+in an obvious way on continuation plays that are not renegotiation-proof. As the investor receives
+zero utility on and off the equilibrium path, it is sufficient to note that the entrepreneur receives
+different values on and off the equilibrium path to find that the strategy profile is not weakly
+renegotiation-proof.
+
+o Bargaining and long-term contracts. We have so far imposed two strong assumptions
+on the structure of contracts, namely (i) that all the bargaining power rests with the entrepreneur
+and (ii) that only short-term contracts are possible. Here, we briefly discuss the robustness of the
+results if we relax either of the assumptions.
+
+Bargaining power. Consider first a change in the bargaining power. Suppose that the investor
+now makes all contract offers and the entrepreneur accepts or rejects all proposals. Still, the
+participation constraint of the investor and the incentive constraint of the entrepreneur have to
+hold in any equilibrium. As long as both constraints are binding, they uniquely determine the
+equilibrium. In the model, both constraints were binding in the region at < U, where only reduced
+funding was feasible. Therefore, nothing would change in this region with the redistribution of
+the bargaining power: The pattern of funding and the distribution of the surplus remain the same.
+C RAND 2005.
+
+
+
+
+                                           This content downloaded from
+                         193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                   All use subject to https://about.jstor.org/terms
+736 / THE RAND JOURNAL OF ECONOMICS
+
+
+     A change in the allocation can arise only if one of the inequalities is not binding an
+and the change would then pertain to the distribution of the surplus. Now in the benchma
+the incentive constraint was slack only in the region of optimistic posterior beliefs at
+there, maximal funding was guaranteed anyhow, and a shift in bargaining power would
+that. It follows that the funding pattern in equilibrium would remain unaffected by a
+the bargaining power.
+
+Long-term contracts. In this article we analyze short-term contracts in which the par
+constraint of the investor has to hold in every period. Consider then an extension of the co
+space to allow for long-term contracts that are valid for any arbitrary horizon of T
+We maintain our requirement that existing contracts can be renegotiated or new con
+concluded in every future period. Formally, this allows us to substitute the sequence of pa
+constraints that had to be met in every period by a single intertemporal participation
+that has to hold only at the time of entry into the contract. In contrast, the sequence
+by-period incentive constraints needs to be maintained, as they guarantee the proper all
+investment funds in every period.
+     The advantages of a long-term contract reside naturally with a possible intertemporal
+ing of the entrepreneur's expected payoffs. More precisely, it is then possible to reall
+entrepreneur's payoff stream over time so as to make it coincide with the stream that is ne
+guarantee incentives. Thus, in every moment where the project's current net cash flow
+exceeds what is needed to maintain the entrepreneur's incentives, or as long as at > i,
+surplus that can be reallocated. The entrepreneur concedes a larger share to the investo
+exchange for receiving a larger share herself in the future. Conversely, the investor make
+initially in return for a commitment to subsidize the project later on, when at falls belo
+      Hence, for high-return projects with an optimistic prior belief, ao > U, a long-term
+can strictly improve upon the allocation of short-term contracts. The region where ful
+is provided can then be extended beyond the threshold i. The funding pattern, howev
+remain as before, insofar as the project would receive full funding initially and then
+lower funding levels. By contrast, we observe that as soon as funding is reduced, our
+argument of the intertemporal smoothing effect of long-term contracting never applies a
+
+term contracts can do no better than short-term contracts. Therefore, if ao 0 , which
+the case for low-return projects, there is no role for long-term contracts and the equil
+unaffected by the larger set of feasible contracts. The reason is that then the project in n
+has high-enough returns to generate surplus beyond participation and incentive constra
+
+
+5. Arm's-length financing
+m In this section we assume that the investment decision by the entrepreneur is unobs
+the investor. We first consider Markovian equilibria, to maintain consistent equilibrium co
+across different informational structures. Below we define a Markov sequential equilib
+then present the equilibrium analysis. We then show that the Markovian restriction is imm
+as the unique Markov sequential equilibrium coincides with the unique sequential equ
+Finally, we again discuss robustness when changes in the bargaining power or long-term
+are introduced.
+
+
+o Equilibrium. As we consider the contracting problem with unobservable actions by the
+entrepreneur, the observable history of the game begins to differ for entrepreneur and investor.
+The entrepreneur still observes all past realizations of the strategic choices, and a private history
+
+ht for her is still given by
+
+                     ht = {so, ..., st-1;yo .... , Y t-1; do, . . . , dt-1; io, .., it-l}.
+The investor, however, is not able to observe the action of the entrepreneur anymore. Along any
+arbitrary sample path without success, the observable history to him is given by
+
+                            hit = {so, s...st-1;Yo, ..., Yt-1;do, ... d,_1}.
+? RAND 2005.
+
+
+
+
+                                         This content downloaded from
+                       193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                 All use subject to https://about.jstor.org/terms
+                                                                                       BERGEMANN AND HEGE / 737
+
+
+
+Denote by Hi the set of all possible such histories. In consequence, the evolution of the p
+belief may differ for entrepreneur and investor. We continue to denote by a, the entre
+
+posterior belief based on the history ht, atAc(ht). We refer to the belief that the investor holds at
+time t and after observing the restricted public history h, as at&a(-t), which will depend on the
+observed history h, as well as on the investor's belief about the entrepreneur's past investment
+behavior, {io, ..., it-1 }. By Bayes' law there is a one-to-one relationship between the estimate
+regarding the entrepreneur's past investments {io, ... it-_ } and the belief about &(ht). The es-
+timate regarding {io' ..., it-1 } depends on the incentives provided through the past and future
+share contracts {so, ..., st, ... }. As before, updating occurs only conditional on current failure
+of the project, since the game ends as soon as the project succeeds.
+      Because entrepreneur and investor observe different histories, the payoff-relevant part of the
+history is now represented by two state variables, the two (possibly different) posterior beliefs
+about the likelihood of success, at and at. The suitably adapted Markovian equilibrium concept
+can then be stated as follows.
+
+Definition 4 (Markov sequential equilibrium). A Markov sequential equilibrium is a sequential
+equilibrium
+
+
+                                                              {st , yt*, dt*, it }_-
+if Vht e Ht,V h', E Htl,Vht E Ht, V t E Ht, and V st, s,,V t, ,V dt, d,:
+
+
+a(ht) = ao (h',) st(ht) = st* (h',); Yt*(ht) = yt' (h');
+&(ht) = (h',), st = st,, Y.t = Yt d1*(h,, st, yt) = dt (' s' ,, yt');
+ a(ht) = a (h't , st = sf,, Yt = y,', d = i(ht, Yt, s dt) = i (h, ' t d,).
+                                                                                                            (21)
+
+        The Markovian sequential equilibrium ensures that the continuation strategies are time-
+consistent and identical after any history with an identical pair of rationally updated beliefs, at
+and &t. The Markovian restrictions contained in (21) are equivalent to the ones formulated earlier
+in (10), with the exception being that the underlying histories and beliefs differ for entrepreneur
+and investor.
+
+
+o Analysis. Before we go to the details of the analysis, it might be useful to describe intuitively
+where the differences in the equilibrium incentives arise and how they matter for the equilibrium
+funding. Conditional on receiving the funds, the entrepreneur still has the option to either invest
+or divert the funds. The differences arise in how entrepreneur and investor evaluate these different
+options. Clearly, the investor is willing to provide the funds only if he is convinced that the funds
+will be directed to the project. Consider then the counterfactual of a diversion of the funds by the
+entrepreneur. Following a deviation, the entrepreneur would know that the funds didn't benefit
+the project and hence a failure of the project to succeed in this period will not surprise her at all.
+In contrast, for the investor, a deviation remains a counterfactual and thus he is downgrading his
+beliefs about the future value of the project, as the current failure induces a downward change in
+his beliefs. Thus a deviation, as an off-the-equilibrium behavior by the entrepreneur, leads to a
+divergence in the posterior about the future likelihood of success. More precisely, the entrepreneur
+maintains her estimate at+l = at, whereas the investor continues to update his belief to a lower
+value &t+1 < At. Such a divergence of beliefs per se could not arise in the environment with
+observable actions.
+    How does the possibility of divergent beliefs influence the equilibrium incentives? Ultimately
+the divergence imposes more discipline on the funding decisions of the investor and therefore
+tends to ease the funding problem. Because a deviation will still lead to a lowering in the posterior
+belief of the investor, he will ask for a larger share of the return R. This leads directly to a higher
+cost of obtaining funds from the point of view of the entrepreneur. The option of delaying the
+investment decision until the next period thus becomes less attractive.
+? RAND 2005.
+
+
+
+
+                                                  This content downloaded from
+                                193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                          All use subject to https://about.jstor.org/terms
+738 / THE RAND JOURNAL OF ECONOMICS
+
+
+   We examine next how these changes will be reflected in the participation an
+constraints. The participation constraint of the investor remains unchanged at
+
+
+                                                       atst YtR > yc,
+
+with the exception that it is evaluated at &t rather than at. The modification is immaterial along
+the equilibrium path, as at = &. However, the incentive constraint of the entrepreneur changes to
+reflect the divergence of the beliefs off the equilibrium path. Formally, the incentive constraint is
+given by
+
+                           Ott ystR + (1 - Ottyt)SVE(ott+1) > cyt + 3VE (ao+, t+1) ,
+
+where, momentarily, we express the value function as determined by both beliefs. We observe
+that off the equilibrium path, the posterior belief of entrepreneur and investor diverge, and hence
+the value function off the equilibrium path depends on the specific beliefs of the entrepreneur,
+a , and the investor, &t+, . Along the equilibrium path, the entrepreneur invests the funds into the
+project, and a diversion occurs off the equilibrium path. The continuation value conditional on a
+diversion is therefore described by two different beliefs, the correct belief a', of the entrepreneur
+and the incorrect belief &t+B of the investor. After a one-period deviation, the off-the-equilibrium-
+
+path belief of the entrepreneur, a+ ,, is given simply by ao+ = at, whereas the investor holds the
+"equilibrium" belief &6t1 = at+1. Hence, off the equilibrium path, the investor will accept only
+contracts that will break even under his posterior belief &t+1 and all subsequent updates of his
+posterior. How then does this affect the continuation value of the entrepreneur off the equilibrium
+path? The answer is rather straightforward. It will be as if her continuation value would indeed
+be determined by the belief of the investor &t+l = at+l, but because the entrepreneur privately
+knows that the true posterior, conditional on diversion, is still given by at, she simply exchanges
+the posterior belief &t+1 = at+1 of the investor for her own, a,+1 = at. This allows us to relate the
+off-the-equilibrium-path value function to the on-the-equilibrium-path value function as follows:
+
+
+                                    VE (t+1 = t, t+l = t+l)
+                                                        at+l = aVE ((at+l) . (22)
+
+After all, the value function of the entrepreneur, on and off the equilibrium path, is simply the
+discounted sum of success probabilities, or
+
+
+
+  VE(Ot+l) = R (att+lst+1Yt+i + 3(1 - Yt+lO)t+)at+2St+2S t+2 + 82(1 - yt+2at+2)Ot+3St+3t+3t + .'(23)
+                                                                                                 ).
+After replacing the conditional success probabilities at+2yt+2, Ut+3 Yt+3, . .. with the unconditional
+success probabilities viewed from at+l, and making repeated use of Bayes' formula,
+
+                                                            aot+i(1 - Yt+i)
+                                                  at+2 =
+                                                             1 - Yt+lat+2
+
+we can rewrite the value function (23) as a sequence of unconditional probabilities,
+
+
+   VE(at+1) = ott+lR (Yt+lSt+l + 8(1 - Yt+1)Yt+2St+2 + 2(1 - yt+l)(I - Yt+2)Yt+3st+3 + - - -) , (24)
+
+that only invoke the current belief at+l and the current and future flow probabilities yt+1, yt+2,
+Yt+3 ..... This shows how the identity (22) arises. The terms of the contract, namely st+1, St+2, ...,
+are conditional on a deviation of the entrepreneur and they are determined by the belief of the
+investor. In consequence, the accepted shares conditional on the deviation will be identical to
+the shares the parties would agree upon on the equilibrium path as &t+1 = at+l, hence the term
+VE(at+1). But privately, the entrepreneur knows that the true probability of future success is at
+rather than at+l. Hence the ratio term at /at+1 corrects for the fact that the value function VE (at+l)
+underestimates the true probability of success when a't+ = at.
+C RAND 2005.
+
+
+
+
+                                              This content downloaded from
+                            193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                      All use subject to https://about.jstor.org/terms
+                                                                             BERGEMANN AND HEGE / 739
+
+
+
+    We can therefore rewrite the incentive constraint in the asymmetric information
+as follows:
+
+
+                        ctyttR - ytc + (1 - atyt)SVE(at+1) > Cyt + SVE(at+
+                                                at+1
+
+The reader may realize that the left-hand side of the inequality, which represents
+equilibrium-path behavior, remains identical to the one in the observable environme
+sion (13)). The change occurs on the right-hand side of the inequality, or the off-th
+path behavior. The flow value of a diversion still contains the immediate benefit of cy
+investor continues to believe that an investment occurred, he will only accept future
+an investment today had indeed occurred. In consequence, the value function of the
+will have to evolve (almost) as if the current failure had to be attributed to the projec
+the diversion of the entrepreneur. There is one benefit, however, for the entrepren
+continued updating. She will know that the true probability is still at rather than at+l
+of multiplying the future probability of success with atli, she is certain that it is i
+   The intertemporal incentive constraint (25) may be rewritten, after cancelling
+terms, as
+                                                                  at
+                                    at tR - cyt > cyt + Yt i 3VE(at+1). (26)
+                                                                 0t+l
+In general, then, funding toward the end of the lifetime of the project will become easier with an
+arm's-length relationship. But now a complementary problem may arise at the beginning of the
+project. If indeed funding will be generous close to the end of the project, then the entrepreneur
+may have less incentive at the beginning of the project to invest funds, as the future will offer
+plenty of opportunities to generate success. Thus an easing of the incentive constraint near the
+end of the project may tighten the incentive constraint at the beginning of the project, when the
+assessment in terms of the beliefs at is still very positive. This indicates that the monotonicity in
+the funding volume may indeed be reversed with unobservable actions. We first state the results
+and then comment on some of the equilibrium properties. The threshold posterior belief at which
+the funding policy will switch is denoted by 1 and given by
+
+
+                                                   2c -2c
+                                                      1-8 +
+                                                           2ck +8c
+                                                          1-8
+                                              a      =           2c1
+                                                        R-
+                                                               1-8
+
+
+ Theorem 4 (arm's-length funding). The Markov sequential
+stops at aT = as
+
+        (i) If the discount factor is low, 8 < (2 - 2.)/(2 - X), then
+
+            (a) a low-return project receives restricted funding at all times, and
+
+            (b) a high-return project receives full funding for at > ? and restricted funding for
+                 aOt <a.
+
+       (ii) If the discount factor is high, 8 2 (2 - 2k)/(2 - k), then
+
+            (a) a low-return project receives restricted funding for at > = and full funding for
+                 at < , and
+
+            (b) a high-return project receives full funding at all times.
+
+      The difference in the equilibrium funding policies between arm's-length and relationship
+financing are now easily discussed. For low discount factors, or 8 < (2 - 2k)/(2 - k), the equi-
+librium funding over time displays exactly the same dynamics under arm's-length and relationship
+funding. Yet a difference emerges for high discount factors, or 8 > (2 - 2k)/(2 - X). The ab-
+sence of a commitment problem with arm's-length funding completely restores the efficiency of
+? RAND 2005.
+
+
+
+
+                                           This content downloaded from
+                         193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                   All use subject to https://about.jstor.org/terms
+740 / THE RAND JOURNAL OF ECONOMICS
+
+
+the funding decision until aT = as for a high-return project. For a project with low
+at least allows the reestablishment of funding efficiency close to as. The above cond
+discount factor can be restated symmetrically as a condition on the winning probabil
+
+                                           2 - 2. 2-28
+                                               >          >           2-8.       (B)
+                                             2-, 2-8
+For convenience, we shall henceforth refer to large and small disc
+whether 8 does or does not satisfy condition (B).
+
+Definition 5 (small and large discount factors). The discount factor
+(2 - 2X)/(2 - X), and it is said to be large if 8 > (2 - 2k)/(2 - ,).
+
+   We observe that an increase in the winning probability X leads
+discount factor and vice versa. The role of the discount factor, or fo
+probability, should not come entirely as surprise given our earlier disc
+relationship funding. The lack of commitment became especially dam
+of the equilibrium when the discount factor was high; the intertempor
+was then high as well, and the only possible equilibrium resolution
+the investor to slow down the release of the funds. As the inform
+the investor to overcome this lack of commitment, the discrepancy
+relationship funding arises precisely where arm's-length funding w
+of commitment. The efficiency is thus reestablished for high-retur
+funding volume for low-return projects with high discount factors.
+
+Corollary I (funding evolution).
+
+        (i) If the discount factor is small, then the funding volume is de
+       (ii) If the discount factor is large, then the funding volume is in
+
+      Whether funding will eventually become unrestricted as at is s
+again determined by the high-return condition, R > 2c + [8X/(1 -
+earlier in the symmetric environment. The reappearance of the co
+for at sufficiently close to one, the differences in the beliefs of entre
+deviation become arbitrarily small, as a current failure barely change
+the investor. More precisely, for any fixed funding flow yt > 0, the d
+and after a single unsuccessful investment Yt,
+
+
+                           lim (Ot - at+l) = lim at - att =0,
+
+converges to zero when the initial belief at at is arbitrarily optim
+eventual success. The asymmetry in the information between entre
+arbitrarily small when the incoming belief at is close to one, and in
+ric contracting problem becomes arbitrarily close to the symmetri
+arguments can be retraced formally by comparing the two incentiv
+incentive constraint (see (15)),
+
+                      at yR - cyt + (1 - atyr)S8VE(at+l) > cyt + 8VE(Ot),
+
+and the asymmetric incentive constraint (see (25)),
+
+
+                   aotYtR - cyt + (1 - aoyt)8VE(ct+1)
+                                            Ot+I
+                                                      2 cyt + ot 8VE(t+
+
+We now observe that as at -- 1, we have
+
+                             lim (oat - ot+) = 0 and lim = 1.
+G RAND 2005.
+                             at--+ 1 Oat--l at+
+
+
+
+                                      This content downloaded from
+                    193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                              All use subject to https://about.jstor.org/terms
+                                                                         BERGEMANN AND HEGE / 741
+
+
+By continuity of the value function, it then follows from the above that
+
+
+                                      lim (VE(at) - VE(alt+l))= 0,
+
+and hence symmetric and asymmetric incentive constraints become identical as a, -+ 1. M
+as at --+ 1, the posterior beliefs will change for a long period of time only very slowly as th
+fail to generate a success. This means that for a long period of time, symmetric and asym
+incentive conditions will almost be identical and hence the values generated through the
+be very close as the more distant events matter less due to discounting.
+
+
+o Sequential equilibrium. The characterization of the equilibrium seemed to rely stron
+the Markovian assumption. In particular, we represented the incentive problem of the entre
+through a Bellman equation. But there is one crucial difference to relationship financing
+investor continues to lower his belief every time he provided funds yet did not observe
+he reaches the posterior belief as after finitely many positive funding decisions. This
+on the equilibrium path as well as off. Thus, in contrast to the symmetric environme
+horizon of the game effectively becomes finite. This allows us to analyze the game by b
+induction over a finite horizon. As the (static) equilibrium in any final period where a
+yet aT+1 < as, is unique, we can then construct the equilibrium recursively. Moreover, t
+game has a unique equilibrium for any given continuation payoff. In a sequential equil
+the investor's beliefs a(ht) are tied down according to Bayes' rule after all possible his
+including off-the-equilibrium-path histories, which is sufficient to guarantee the uniqu
+the continuation equilibrium everywhere. It follows that backward induction leads to a
+sequential equilibrium independent of the Markov assumption.8
+    The construction of the equilibrium in Theorem 4 is thus in fact constructing the u
+sequential equilibrium, where the posterior belief at merely serves to summarize the be
+the players for a given history, but not as a restriction on the conditioning of the strategie
+
+Corollary 2. The unique Markov sequential equilibrium is the unique sequential equilibr
+
+      Thus, since the equilibrium play in a sequential equilibrium always follows a finite-h
+logic in the environment with unobservable actions, there is no need to refer to any formal
+of renegotiation-proofness in order to make sure that the outcome is the one that we have i
+where it is impossible throughout to find a Pareto-improving continuation play by rescin
+equilibrium contracts.
+
+
+o Bargaining and long-term contracts. As before, we may ask how sensitive the equili
+results are to the specifics of the contracting model, in particular the distribution of ba
+power and the restriction to short-term contracts.
+
+Bargaining power. Suppose now that the investor makes all the offers and the entrepren
+respond only with acceptance or rejection. With a small discount factor, the equilibrium
+pattern is comparable to the one under symmetric information, and changes in bargaining s
+do not at all affect the funding volume. With a large discount factor, the funding pattern r
+in its qualitative properties but the equilibrium displays fewer inefficiencies. The reason
+whenever funding is unrestricted, the project's expected cash flow leaves some free surp
+participation and incentive constraints are satisfied. The question is then whether a better
+allocation is achieved if this surplus is distributed to the investor rather than the entrep
+Giving the surplus to the investor means a lower expected equilibrium payoff for the entrep
+Recall that the minimum value of the entrepreneur that guarantees incentive compatibi
+recursively constructed. Thus, a lower expected compensation in the future (since the free
+
+
+      8 Perfect Bayesian equilibrium cannot be used here, since adverse selection is a consequence of the entrep
+unobservable actions, not of chance moves of nature.
+? RAND 2005.
+
+
+
+
+                                       This content downloaded from
+                     193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                               All use subject to https://about.jstor.org/terms
+742 / THE RAND JOURNAL OF ECONOMICS
+
+
+is given to the investor) translates into a lower option value of diverting and hence into
+minimum compensation today. The incentive problem of the entrepreneur in the current
+is eased. In consequence, a change in the bargaining power would allow an increase of th
+where maximal funding is provided and would increase the volume of funding over the e
+horizon.
+
+Long-term contracts. The reasons why there can be benefits from adopting (renegotiation-proof)
+long-term contracts are closely related. As long-term contracts replace the flow participation
+constraint of the investor with a single initial constraint, intertemporal smoothing is possible. With
+a large discount factor, the project is initially constrained, and a free surplus arises toward the end
+of the relationship. As discussed for changes in the bargaining power, allocating this surplus to
+the investor lowers the entrepreneur's expected future value, and hence eases the current incentive
+problem. Moreover, in return for making expected profits toward the end, the investor can agree
+to subsidize the project elsewhere, i.e., to provide full funding while accepting a current share
+(1 - st)aXR that falls short of the investment flow c). The question is then when to schedule
+this subsidy phase. The answer is that this subsidy phase should be scheduled as soon as possible,
+but the requirement that the equilibrium be immune to renegotiation is an effective constraint on
+this. As a consequence, if the project has low returns, the intertemporal smoothing arrangement
+will allow an early start and an extension of the final phase where full funding can be provided,
+but only limited funding is possible initially. If the project has high returns, then full funding is
+possible from the start and can be continued even beyond as.
+    By contrast, with a small discount factor, the dynamics of the funding pattern are reversed
+and resemble roughly the picture with observable actions. The project is constrained toward the
+end, necessitating a slowdown in the release of funds. The intertemporal smoothing option of
+long-term contracts allows to prolong the initial full-funding phase. But as soon as the surplus is
+exhausted, the optimal contract reverts back to the sequence of contracts described above, with the
+same funding volume. For low-return projects or if ao is so small that short-term contracts never
+allow for full funding, then there is never a surplus to redistribute intertemporally, and long-term
+contracting cannot improve upon short-term contracts.
+
+
+6. Observability and the commitment to stop
+m In the previous two sections, we gave separate accounts of the environment with observable
+actions and with unobservable actions. We provide a comparison of the two cases in this section
+that we interpret to reflect the initial choice between relationship financing and arm's-length
+financing when the project is set up.
+     We will conduct this comparison by maintaining the assumption that once the financing mode
+is chosen, the investor is committed to the informational environment throughout. The source of
+this commitment is not explained in the model, and we will informally discuss possible transition
+from one funding mode to the other at the end of this section.
+     The immediate benefit of relationship funding is the absence of private information during
+the development of the relationship. It means in particular that the design of the contract does
+not have to account for the extraction of private information. It thus circumvents the learning
+rent that is associated with the private information. We have shown above that under relationship
+financing, three different components of rents must be awarded to the entrepreneur to make her
+willing to invest and risk early success, namely the contemporaneous rent equal to the immediate
+gain in consumption that a deviation affords, the intertemporal rent to compensate for the option
+to receive sure continued financing when deviating, and finally the learning rent driven by the
+fact that only the entrepreneur knows whether or not something has actually been learned about
+at. By contrast, only two of these components were present in the case of relationship financing,
+since there was no need for the learning rent.
+     The (implicit) cost of the relationship funding resides with the ability of the entrepreneur to
+restart the relationship after she diverted funds in previous periods. As the investor can't commit
+himself to refuse a contract with positive net payoffs, the entrepreneur was essentially able to
+SRAND 2005.
+
+
+
+
+                                       This content downloaded from
+                     193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                               All use subject to https://about.jstor.org/terms
+                                                                          BERGEMANN AND HEGE / 743
+
+
+
+extract a rent equivalent to an infinite stream of funds Xc, worth Xc[8/(1 - 8)].
+asymmetry in the arm's-length relationship reduces the ability of the entrepreneu
+at favorable terms and hence weakens the incentives for the entrepreneur to delay
+the project.
+     With this basic tradeoff between the two funding modes, we find that the possible cost of
+an arm's-length relationship, namely the learning rent, is small in comparison to the benefit from
+commitment. Therefore, we arrive at the following result.
+
+Theorem 5 (comparison). For all posterior beliefs at the funding volume is larger under arm's-
+length than under relationship financing.
+
+     To gain more insight into this result, it is helpful to discuss separately the case of a low and
+high discount factor. With a small discount factor, we showed earlier that the funding pattern
+decreases in both informational environments. We then show that for all posterior beliefs at, the
+funding volume is higher with arm's-length funding. With a large discount factor, we have shown
+that the evolution of the funding levels displays opposite signs: Yt is (weakly) decreasing in t
+with observable actions, but it is increasing in t with unobservable actions. Here, in order to show
+that arm's-length funding always occurs at a higher volume than with relationship funding, it is
+sufficient to compare the initial equilibrium funding volume, which again can be shown to be
+higher with arm's-length funding.
+     The clear Pareto ranking between the two financing modes is a rather striking result. From
+a naive point of view it may appear counterintuitive, since it says that the financing mode with
+an informational asymmetry separating financier and entrepreneur is more efficient. While it is
+well known that asymmetric information may offer advantages in a principal-agent model (see
+Cr6mer, 1995), our analysis shows that this argument is particularly prevalent when the agency
+relationship is open-ended and the agent has the option to extend it over a very long horizon.
+      The dynamic model shows that the relative advantage of arm's-length funding increases
+over time. In the beginning, there may be no difference between the speed with which funds can
+be released, especially for high-return projects. But as projects become protracted and prospects
+become relatively poor, arm's-length funding eventually offers an increasing advantage compared
+with relationship funding, which does not offer a commitment to stop at a given time and therefore
+allows the entrepreneur to threaten an infinite series of deviations even when only few profitable
+rounds of experimentation are left. As bargaining power shifts to the investor, the advantage of
+arm's-length contracts toward the end of the projects increases even further.
+      The typical financing cycle of business startups involves close relationships with financiers
+early on, and this is exemplified by the activity of venture capitalists who not only provide
+capital, but also monitor the projects very closely and get involved as advisors (see Gompers and
+Lerner, 1999; Casamatta, 2003). There is evidence that the value of relationship funding decreases
+over the typical financial cycle of an innovative firm: for example, in venture funded projects,
+syndicates tend to grow and to include more uninformed investors later on (Hege, Palomino, and
+Schwienbacher, 2003). There are also empirical findings that in banking relationships, financiers
+assume a more passive role over time (e.g., Ongena and Smith, 2001). As projects mature and
+require more capital, while having more tangible assets and research results to offer, their funding
+sources tend to become more diverse: funding typically starts with equity-dominated venture
+financing and adds more and more debt-like instruments over time as the firm grows and its funding
+needs expand (Berger and Udell, 1998). Thus, even before a successful technology startup reaches
+financial maturity and is funded by genuine outside investors, such as dispersed shareholders or
+bondholders, many ventures already go through a process of gradually decreasing the reliance on
+relationship financiers. This pattern is consistent with the comparison of the two funding modes
+in our model, which lends support to the notion that the financial cycle of innovative projects
+evolves from more-informed to less-informed investors.
+
+
+
+
+? RAND 2005.
+
+
+
+
+                                         This content downloaded from
+                       193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                 All use subject to https://about.jstor.org/terms
+ 744 / THE RAND JOURNAL OF ECONOMICS
+
+
+ 7. Conclusion
+
+ m In this article we present a dynamic agency model in which time and outcome of the
+ were uncertain. The model prominently features three aspects that together are defining ele
+ for a wide class of agency problems of research and development activities: (i) the eventual r
+ from the project are uncertain, (ii) more information about the likelihood of success arriv
+ investment into the project, and (iii) investor and entrepreneur (innovator) cannot commit t
+ actions. The analysis focuses on Markovian equilibria, but we showed that this is a rather
+ or even immaterial restriction in the context of the model. The equilibrium analysis p
+ sequentially, starting with symmetric information and ending with asymmetric informat
+ funding level was determined endogenously and depends on the returns of the project, the d
+ factor, and the informational asymmetry between entrepreneur and investor.
+       The impatience of the entrepreneur is an important determinant in the volume of fund
+the severity of the incentive constraint increased with the discount factor. This is in contrast
+results in the theory of repeated moral hazard games, where discount factors close enough
+often allow the equilibrium set to reach the efficiency frontier. In addition, we showed t
+recursive structure of the incentive constraint leads to distinct funding dynamics under asym
+information, where with large discount factors, the incentive constraint tends to actually re
+time and allow a larger funding rate as the project approaches its terminal period.
+       The basic tradeoff between arm's-length and relationship financing revealed in this
+is that arm's-length financing offers the advantage that the investor is implicitly commit
+finite stopping horizon, while relationship financing saves up on the learning rent because in
+and entrepreneur update beliefs symmetrically.
+       Finally, some possible extensions of our model should be mentioned. First, a worth
+extension is to consider the equilibrium behavior when there are competing projects, form
+different entrepreneurs. As competition may limit the rent of each entrepreneur, parallel r
+for an identical objective might be an arrangement that improves efficiency despite the in
+duplication of R&D efforts. In a winner-takes-all competition, the threat of preemptio
+competitor will limit the intertemporal rent of each entrepreneur. Similarly, launching com
+research teams may increase the ex ante value for an organization despite the multiplicat
+research efforts.
+    Second, it is conceivable that the entrepreneur may initially own some, perhaps sma
+vestment funds. We then might ask how inside and outside funds are optimally mixed ove
+We are confident that a delayed use of the entrepreneur's equity can be shown to be opt
+some cases. This should notably be the case if the entrepreneur's funds help alleviate fin
+constraints when the promise of the project deteriorates, as is typically the case under relati
+financing. The open-horizon principal-agent model developed here should allow us to an
+the relative merits of these different incentive tools and their role in mitigating the con
+problems of compounded information rents.
+
+
+Appendix
+
+W Proofs of Theorems 2-4 and Corollary 2 follow.
+
+Lemma Al. In every subgame-perfect equilibrium no funding occurs for at < as.
+
+
+Proof. The proof is by contradiction. Suppose there exists a subgame-perfect equilibrium with funding in period t, or
+
+
+                                    atytstR + (1 - atY t)cVE(ht+l) > cyt + 8VE(ht+l),
+
+or
+
+
+
+                                    atytstR - Ytc + (1 - atyt)SVE(ht+l) > SVE(ht+l), (Al)
+and
+
+
+
+c RAND 2005.                     attyt(l - st)R - Ytc + (1 - tatyt)SVl(ht+l) 2 8Vl(hl+l), (A2
+
+
+                                             This content downloaded from
+                           193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                     All use subject to https://about.jstor.org/terms
+                                                                                        BERGEMANN AND HEGE / 745
+
+
+
+yet
+
+                                                           ct yt R - 2cyt < 0. (A3)
+
+ As entrepreneur and investor can always guarantee them
+ funding (i.e., yt = 0) and by refusing all other cont
+ histories ht and all periods t. A necessary condition fo
+
+
+                                            oattystR - ytc +(1 - at yt)8VE(ht+l) > 0, (A4)
+
+and
+
+
+                                         atryt(l - st)R - ytc + (1 - ottyt)8Vl(ht+l) > 0. (A5)
+Under the hypothesis of (A3), it follows that at least one of the agents, entrepreneur or investor, must incu
+t in exchange to a strictly positive continuation utility in period t + 1, and from (A4) and (A5) we can i
+
+
+
+                                             VE(ht+l) 2cyt
+                                                       + -Vl(ht+l)
+                                                           ott t R 2c > 0. (A6)
+                                                                        8(1 - OctYt)
+
+It follows that entrepreneur and investor jointly expect to be compensated for the current loss in the future. Yet due to
+discounting and the possibility of a positive realization, the current loss translates to higher present value gains starting
+from tomorrow. But future gains can only be generated from the value of the project, yet since at is decreasing over time,
+(A3) implies that act+l Yt+l R - 2cyt+l < 0, and a repetition of the same argument allows us to infer that by forwarding
+(A6) by one period, we obtain the condition
+
+
+
+                    VE(ht+2) + Vl(ht+2) 2cyt - R+R + 2cy - a y R 0,
+                                  O8 (1 -at+1yt+1) 8(1 -uat yt))
+
+and by induction on t, we then come to the conclusion that the value functions of the entrepreneur an
+without bounds as t -+ oo, which delivers the desired contradiction because the sum of the value
+finite because the value of the project is finite. QE.D.
+
+Lemma A2. In every subgame-perfect equilibrium only break-even contracts have a positive probabil
+
+Proof. Suppose in equilibrium a contract (st, yt) is offered and accepted. Then it has to satisfy
+
+
+                                        at yrtstR + (1 - at yt)8VE(ht+l) ? cyt + 8VE(ht+i)
+
+and
+
+
+
+                                    ottyt(1 - st)R - Ytc + (1 - atYt)SVI(ht+l) > 8VI(h"+1). (A7)
+Denote for the purpose of this proof a break-even contract by It, where It is given by It = (at R - c)/at R. We first show
+that in every equilibrium and at every t, st ? It . The proof is by contradiction. Suppose that the equilibrium contract is
+given by st < rt . It then follows that every other contract s' with st < s' that is more advantageous for the entrepreneur
+
+must be rejected by the investor. It follows that his outside option, which is given by V, (h"'+1), must satisfy
+
+
+
+
+                                                        0 - V(ht+),
+                                                    atyr(1 - st)R - ytc < V
+
+
+as the value function along the equilibrium path satisfies VI (ht+1) > 0. Consider then the continuation equilibrium starting
+at h1Wl. It follows that starting at t + 1, the investor must be offered some contracts with strictly positive net value to him to
+generate the strictly positive continuation payoff. Yet, again for him to reject all lower offers by the entrepreneur, it must
+be that his outside option, represented by a decision to reject a lower offer, must be sufficiently high, and in fact since
+
+
+
+                        tV(hl) = at+l Yt+l(1 - st+l)R - yt+lc + (1 - cr,+1yl+l)8Vl(ht+2) = 8Vl(ht+2),
+
+it follows that
+
+                                                    0atyt(1 - st)R - ytC
+                                                    0< 2 V(ht+),
+                                                               t$2 Vl t
+and thus by induction we find a sequence of continuation games in which the equilibrium value of the investor grows
+without bound, which leads to the desired contradiction because the value of the game is finite and the value of the
+entrepreneur is guaranteed to be nonnegative.
+? RAND 2005.
+
+
+
+
+                                               This content downloaded from
+                             193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                       All use subject to https://about.jstor.org/terms
+746 / THE RAND JOURNAL OF ECONOMICS
+
+
+      It remains to discuss the case of st ? It. As st > It for all t, it follows that V1(ht) = 0 for all hr. In this cas
+intertemporal participation constraint (A7) of the investor becomes at yt(1 - st)R - ytc > 0, which can only be
+with st = It for all t, which is the desired conclusion. QEJD.
+
+Proof of Theorem 2, parts (i) and (ii). The incentive constraint for the entrepreneur in period t is given by at
+8(1 - at yt)V(at+1) cyt + 8 V(at). The participation constraint for the investor is given by
+
+
+                                                        at (I - st) Yt R > cyt. (A8)
+
+The participation constraint is always binding, and the sharing rule is
+for the entrepreneur becomes at Yt R - cyt + 8(1 - at yt) V(at+l) ? cyt
+incentive constraint is binding with
+
+
+                                       atytR - cyt + 8(1 - atyt)V(at+l) = cyt + 8V(at). (A9)
+
+The equilibrium value for the entrepreneur can then be expressed by V(at) = cyt /(1 - 8), and the indi
+leads to a difference equation determining the equilibrium funding yt:
+
+
+                                                                        cyt+l cyt
+                                          at ytR - cyt + 8(1 - atyt
+       Suppose initially that yt = X and Yt+1 < X. Then it must b
+
+and in consequence V(at) ? cX./(1 - 8), whereas V(at+l) = cyt+1/(l - 8) < cX/(l - 8). It follows that a necessary
+and sufficient condition for maximal funding is given by atXR - Xc + (1 - atX)8[cX/(l - 8)] > Xc + 8[cX/(l - 8)],
+or at >2 = 2c/[R - [8cX/(l - 8)]]. As the critical posterior belief a is a probability, i = 2c/[R - [cX8/(1 - 8)]] <
+1 ?* 2c + [cX8/(1 - 8)] < R, we obtain the distinction between low-return and high-return projects. It follows that for
+all at < U, t < X, as the funding volume has to be lowered. By the same argument, there is maximal funding for at ? U.
+       Part (iii). We proceed by contradiction in two steps. We first show that if y(a) were to be decreasing in a on some
+segment, then it can only occur for
+
+                                                                       cX8
+                                                              R          <        2c             +         .      (All)
+                                                                       1-8
+
+
+We then argue by contradiction that even if R satisfies inequality (All11), y(a) has to be inc
+the difference equation (A10), using the fact that at = at+1/(1 - yt + at+lYt) to get
+
+
+
+                                  1-yt
+                            (Yt+i - Yt)    ((2-8_
+                                        = at+ t        (1--8)R
+                                                (1 - S)R +2          1-8
+                                                            (1- yt). (A12)
+                                              Yt                     Sc                  c
+  For           an        arbitrary                         and           fixed               Yt+l             and           at+1,   we
+  equality                     (A12)              is      linear               in        yt        .The             left-hand         si
+  a     minimum                              at       yt          =     @Vy-,                   and            remaining              ne
+
+
+
+                                                     +      (1
+                                                            8         c )
+                                                                      -   0.
+                                                                         8-                  (A3)
+                                          at+l                                (A(2-_                                           (1     -
+    By                  a         previous                                           part                         of          the         t
+
+
+                                                   2_ (I - S)R +2 (1 - ') > 0,
+                                          cX8                   -       c        8
+                                       1-8
+
+
+
+ and after cancelling the obvious terms, we have 2c[(l - 8)/8] - R[(l - 8)/8] + c > O0.
+ Yt+l > Yt requires
+                                                                        cX8
+                                                             R         <       2c           +        l     .     (A14)
+                                                                       1-8
+
+      We proceed by contradiction using again the difference equation (A10), which is now
+ the earlier argument. Consider first the right-hand side of (A10). We first show that f
+ values yt E [0, X],
+
+                                      (ft
+                                        1-8R) 1-81- R) 1-
+                                          Yt 8 c + < c 8 '
+? RAND 2005.
+
+
+
+
+                                               This content downloaded from
+                             193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                       All use subject to https://about.jstor.org/terms
+                                                                                BERGEMANN AND HEGE / 747
+
+
+or
+
+
+                                                             1- SR
+                                                        Yt <s -
+                                                              c
+
+ which has to hold as cyts/(l - 8) < R, as the agent cannot receive mor
+ suppose there is an increasing segment, or Yt yt+l. Then it follows fro
+ of the difference equation that Yt+1 < Yt+2. It follows that if funding is
+ t + 1, it will be strictly increasing thereafter. Further, if we view the differ
+ dependence of yt , then for a fixed at it is a convex function and hence Y
+ time, this makes the difference equation even more increasing. It follows tha
+ then it must be increasing at an increasing rate, but this leads to the desired
+ than X < 1 everywhere by virtue of (A14). QE.D.
+
+ Proof of Theorem 3. (=>) It is a direct implication of the definition of the Ma
+ value functions of the players depend only on the payoff-relevant state
+ any a is therefore a singleton for every player, and it follows that any
+ renegotiation-proof equilibrium.
+      (+=) We first show that every weakly renegotiation-proof equilibriu
+ The uniqueness of the weakly renegotiation-proof equilibrium then follow
+ equilibrium. We first observe that every weakly renegotiation-proof equ
+ Lemma A2, it is then sufficient to consider break-even contracts. This im
+ equal to zero along every continuation path, or V1(ht) = 0 for all ht. By
+ equilibrium, it then follows that the equilibrium value function of the ent
+ two histories, ht and hs, which generate the same posterior belief. In othe
+
+
+
+                                             a(ht) = a(hs) := VE(ht) = VE(hs). (A15)
+Consider then the incentive constraint of the entrepreneur in any subgame-perfect equilibrium in period t: at ytst R + (1 -
+attyt)8VE(ht+1) ? cyt + 8VE(h'+1). By Lemma A2, we can restrict our attention to break-even contracts, which leads to
+at YtR - ytc + (1 - at yr)8VE(ht+1) ? cyt + 8VE(h',+). By the earlier argument, represented by the implication (A15),
+the posterior belief a has to be a sufficient statistic for the history ht with respect to the value function of the entrepreneur,
+and hence
+
+
+                                   atytR - ytc +(1 - atYt)sVE(at+1) ? cYt + SVE(at). (A16)
+It is immediate from here that every weakly renegotiation-proof equilibrium must also be a Markov-perfect equilib
+as it satisfies the equilibrium conditions of the Markov-perfect equilibrium. But since by Theorem 2 the Markov-pe
+equilibrium is unique, it follows that the weakly renegotiation-proof equilibrium is unique as well. QED.
+
+Proof of Theorem 4. We characterize the equilibrium funding through a sequence of lemmas. Lemma A3 estab
+necessary and sufficient conditions for restricted and unrestricted funding at aT = as. Lemma A4 establishes the swi
+point from restricted to unrestricted funding and establishes the difference equation that governs the equilibrium fund
+as it is restricted. Lemma A5 establishes properties of the fixed point and thereby the areas where funding is restr
+and unrestricted. Lemma A6 establishes the monotonicity of the funding volume as a function of time.
+
+Lemma A3. The equilibrium funding volume at aT = as is given by
+
+                                                                    2-A
+                                                     YT          = A             +      8     >      -     (A17)
+                                                                 2- 2-2X
+
+and
+
+                                                                    2-A
+                                                    YT             <      A         8       <      .     (A18)
+                                                                   2- 2X
+Proof. We consider the ultimate at and penultimate prior beliefs arT_1 with aT = as. We begin with (A17). Consider
+the incentive constraint (26) evaluated at the penultimate period, T - 1:
+
+
+
+                                           aT_1AR - cXaT 2 cX + T-1 8VE(aT). (A19)
+
+We can express aT-l in terms of A and aT, aT-1 = aT/[1 - A(1 - aT)], and rewrite (A19) as
+
+
+
+                                         AaTXR > 2cX +1 ) 1 8VE(aT). (A20)
+                                   1 - X(1 - a) - 1 - X(1 - aT)
+
+? RAND 2005.
+
+
+
+
+                                             This content downloaded from
+                           193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                     All use subject to https://about.jstor.org/terms
+748 / THE RAND JOURNAL OF ECONOMICS
+
+
+By hypothesis aT = as, and hence
+
+
+                                                     VE(aT) = oTYTR - cYT = cyT. (A21)
+Inserting the value (A21) into the incentive constraint (A20), we obtain, after rewriting,
+
+
+                                                           S(1 - aT) 2c > ScyT. (A22)
+
+The incentive constraint (A22) is the most difficult to satisfy if YT is ch
+aT = as = 2c/R, we get X(R - 2c)2 > 8RX, which can be written as
+
+
+                                                                R (2 - 8) > 4c. (A23)
+
+ Using the fact that we distinguish between low- and h
+ 8 and I exclusively. For suppose that R < 2c + cX8/(1
+ 4c/(2 - 8) or 8 > (2 - X)/(2 - 2X). On the other ha
+ have 4c/(2 - 8) > 2c + c`8/(1 - 8) or 8 < (2 - ))/(2 -
+ R < 2c + [c8S/(1 - 8)] that 8 > (2 - k)/(2 - 2)) is a nece
+ period. It further follows that if
+
+                                                                      2-,X
+
+                                                                      2- 2'
+then for (A22) to hold, yT < A. Q.ED.
+
+Lemma A4. The equilibrium switching point is given by
+
+
+                                                             2c- 2 +c-
+                                                        =    1-8 1-8
+
+                                                          = R-2 c1
+                                                                           1-8
+Proof. We first derive the difference equation for the investor's funding decision, provided that the incentive constraint
+of the entrepreneur is binding. The beliefs of entrepreneur and investor are symmetric along the equilibrium path. In
+consequence, the contracts on the equilibrium path are the break-even contracts and satisfy
+
+
+                                                          atytstR = aott ytR - cyt. (A24)
+The value of the entrepreneur along the equilibrium path can then be represented
+
+                                            VE(aot) = t yt R - cyt + 8(1 - ot yt)VE(ott+l). (A25)
+We can now directly consider the recursive incentive problem of the entrepreneur. The incentive constraint of th
+trepreneur changes to reflect the divergence of the beliefs off the equilibrium path. It is given by
+
+
+                                   atytR - cyt +8(1 - otyt)VE(ott+l) tt+l
+                                                                      2 CYt +8t VE(at+1).
+
+
+Since 1 - attYt = (att/at+l)(1 - yt), the incentive constraint may be rewritten as
+                                                                             at
+
+
+
+                                                   atytR - 2cyt >_ 8yt VE(aSt+1). (A26)
+                                                                           at+l
+
+
+When funding is restricted, (A26) must hold with equality, and hence it can be written as
+
+
+
+                                                    VE(04t+1) = - t+ t+ 2c) . (A27)  Ott
+
+
+
+
+Substituting (A27) back into (A25) and using at+1/at = (1 - Yt)/(1 - atyt), we get
+
+
+                                                        VE(at) = (at R - 2c) + cyt. (A28)
+
+Forwarding (A28) for one period and equating to (A27) yields
+
+
+
+                                                                          1 at+l12
+                                            (at+l R - 2c) + cYt+lOtt = " att+ ' 2cR
+@RAND 2005.
+
+
+
+
+                                                This content downloaded from
+                              193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                        All use subject to https://about.jstor.org/terms
+                                                                                        BERGEMANN AND HEGE / 749
+
+
+
+Solving, substituting for ar+1l/at leads to the difference equation
+
+
+
+                                               Yr+1 = 2 +( Yt .Rc 33(1 Ot
+                                                          (1 - atyr) c 6 8 1 - altYt
+Making use of the backward expression of the belief ratios, at/at+1 = 1/(at+1 Yt + (1 - yt)), and solvi
+backward difference equation of the form yt = f(Yt+l, at+1),
+
+
+
+                                                 Yt(1= --yt+18
+                                                         at+\)(2(-2c
+                                                                   (1 - 8) -- 1 , (A29)
+                                                      Y 1 (1 - +tl)-1 - (att+liR ')
+where we observe that yt is a linear increasing function of yt+l.
+   The equilibrium switching point a is given by the unique ao that results in a fixed point of the difference equat
+X = f (X, a) at full funding level,
+                                                                     cX cX3
+                                                              2c     - 2 +
+                                                               = 1-8 1-8
+                                                                          cX
+                                                                  R-2
+                                                                         1-3
+
+ which completes this lemma. Q.E.D.
+Lemma A5.
+
+
+         (i) The switching point a satisfies i E (as, 1) if either
+
+               (a) R > 2c + [cX8/(1 - 3)] and 8 < (2 - 2k)/(2 - X), or
+
+               (b) R < 2c + [cX8/(1 - 8)] and 8 > (2 - 2)k)/(2 - X).
+        (ii) The switching point satisfies =a (as, 1) otherwise.
+
+Proof. The proof is omitted, as it simply requires the algebraic verification of the conditions stated in Lemma A5 applied
+to the switching point =. Q.ED.
+Lemma A6.
+
+
+         (i) If 8 < (2 - X)/(2 - 2k), the funding volume Yt is decreasing over time.
+
+        (ii) If 8 2 (2 - X)/(2 - 2X), the funding volume Yt is increasing in time.
+
+       (iii) The monotonicity is strict in either case provided that yt < X.
+
+Proof. To describe the monotonicity properties of the difference equation, it is useful to analyze the fixed point of the
+mapping, y = f(y, a) for all y < X. It is given by
+
+                                                                               1-8
+                                                                 (aR - 2c)
+                                                                     a)-8
+
+
+The fixed point y(a) has a derivative that leads to
+                                                             ( 2a - 2 (1 - a)_lc
+                                                                                2-A
+                                                             y'(a) >2-02)<2 8 < (A30)
+and
+
+                                                                               2-A
+
+                                                             y'(a) < 0 =b 8 > . (A31)
+                                                                               2- 22X
+
+We start with 3 < (2 - k)/(2 - 2k) and show that the difference equation Yt must be strictly decreasing in time t.
+argument is by contradiction. Suppose then there exists t and t + 1 such that yt 5 Yt+1. Then it follows by the pro
+of the fixed point as a function of a, as displayed in (A30), and the fact that Yt is linear increasing in Yt+1, as displa
+(A29), that Ys-1 < Ys for all s < t. The funding flow in the period t = 0 is then determined, again using (A29), by
+
+
+                                                             1       (1               (oR        (A32)
+                                                         I   -ao      2        2c
+
+
+? RAND 2005.
+
+
+
+
+                                                      This content downloaded from
+                                    193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                              All use subject to https://about.jstor.org/terms
+ 750 / THE RAND JOURNAL OF ECONOMICS
+
+
+ Consider then the limit ao -+ 1. Since
+                                                                      1
+                                                            lim = c00,
+                                                           ao-.l 1 - ao
+
+ and yA is bounded by y0 E [0, k], it follows that the expression in brackets in (A32) has to go to zero
+
+
+                                                          S 8
+                                                            =22c I-- -R-l1 . (A33)
+
+
+ Because yt is supposed to be a local maximum, it follows from (A29
+Yt+i = Yt, or
+
+                                                                               1-8
+                                                              (Rat+l - 2c)
+
+
+                                                       (2at+l - -- 2 --'(1 -- t+i) - 1C
+Yet we find that                                  yt( I 21- )
+                                                               1-8
+                                              (Rat+l - 2c) 1 - R
+                                                                     ) < 2-2- - 1
+                                      (2at+l - 2 (1 - at+l) - 1) c
+ provided that 8 < (2 - k)/(2 - 2k), which leads to the desired contradiction. Thu
+ and hence, yt 2 Yt+l for all t.
+    Consider next the case of 8 2 (2 - ))/(2 - 2X). We argue as above by contradic
+ and t + 1 such that Yt > yt+1. Then it follows again from the fixed-point property
+ As 1 E (as, 1), it further follows that there must be at least one local minimum, sa
+ we obtain a lower bound by setting as above Yt+l = Yt,
+
+                                                                               1-8
+                                                              (Rat+1 - 2c)
+                                                 Yt                           >      8          (A34)
+                                                           -at+1-2
+                                                          2t1-  2 (- t+l)-
+                                                                   (1-  a+)c
+
+
+ The right-hand side presents the value of the fixed point y(a), which is decreasing by (A30).
+ lowest for at+l = 1, from which it follows that the local minimum Yt must satisfy
+
+                                                                              1-8
+                                                                   (R - 2c)
+
+                                                              Yt
+                                                               (2 - 1)c             >     ,         (A35)
+yet because it is a local minimum, it has to satisfy
+
+
+
+                                                        y l 8=2c21 - ( 1 , (A36)
+
+  where yl was computed earlier at (A33). But for 8 > (2 - X)/
+ contradiction. QED.
+
+Proof of Corollary 2. It is immediately verified that the derivation of the Markov sequential equilibrium above relied
+ on a backward-induction argument. In the construction of the equilibrium the belief at merely served to summarize
+ information of the players but never to restrict the history contingency of the strategies employed by the agents.
+
+Proof of Theorem 5. Denote by yts and ya the funding volume in the symmetric and asymmetric case, respectively
+ Consider first the case of 8 > (2 - X)/(2 - 2X). If, in addition, R > 2c + [.c8/(1 - 8)], then yta = X everywhere, a
+thus the condition yta ? ys for all at, with strict inequality in the final periods, is satisfied. For R < 2c + [XcS/(1 -
+we know by Theorem 2 that the funding volume yts is increasing in a and by Theorem 4 that the funding volume y
+
+(weakly) decreasing in a. A necessary and sufficient condition for yta _ yts is therefore given by
+                                                             lim (yta - yvs) > 0. (A37)
+                                                          ao--+l
+
+
+For the symmetric-information case, condition (A10) in the proof of Theorem 2 can be solved as the following difference
+
+0 RAND 2005.
+
+
+
+
+                                               This content downloaded from
+                             193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                       All use subject to https://about.jstor.org/terms
+                                                                                        BERGEMANN AND HEGE / 751
+
+
+
+equation:
+
+                                                  ( 1-8R
+                                             Yt+l - Yt at1-8
+                                                          Yt+l1 + 2(A38)
+                                               Yt     c  8
+   As               we                 solve                         the                  respective                               di
+
+
+                                                                          1-8 R
+                                                lim y = lim yo =- 2 ,
+                                              ao0-4+1 cO0-- l
+
+
+ which establishes the validity of (A37).
+     Consider next the case of
+
+                                                                     2-X
+                                                                8<2 -2 2- 2X'
+
+
+where by Theorems 2 and 4 yta and ytS are both increasing in a. We proceed by establishing a lower bound on yta and an
+
+upper bound on yf, denoted by ya and V7, respectively. We then show that yt?a > , completing the result. As yt 5 yta
+in this case, a lower bound yais established by looking for the fixed point yta1 = Yta in the difference equation (A29),
+
+
+
+
+                                                                1_ (atR - 1)
+                                                            t I "2c (A39)
+ Considering then the difference equation of the symmetric environ
+ ytS_l > ys in (A38), we obtain an upper bound:
+
+                                                              1-8 /R 2\
+                                                          t=     (---.
+                                                           8 \c at/                                       (A40)
+
+Comparing (A39) and (A40) and requiring that ya > F'7 leads to, after multipl
+
+
+                                    (R 1+ R 21-8
+                                          _ (1 - t) R
+                                                    .at1i
+                                                        -
+                                    2c at c Ott 32c at
+
+  which                        holds                     for                all         at         ?       as.             QE.D.
+
+References
+
+BARRY, C.B. "New Directions in Research on Venture Capital Finance." Financial Management, Vol. 23 (1994), pp. 3-15.
+BERGEMANN, D. AND HEGE, U. "Venture Capital Financing, Moral Hazard and Learning." Journal ofBanking and Finance,
+      Vol. 22 (1998), pp. 703-735.
+BERGER, A.N. AND UDELL, G. "Relationship Lending and Lines of Credit in Small Firm Finance." Journal of Business,
+      Vol. 68 (1995), pp. 351-382.
+        AND -- . "The Economics of Small Business Finance: The Roles of Private Equity and Debt Markets in the
+      Financial Growth Cycle." Journal of Banking and Finance, Vol. 22 (1998), pp. 613-673.
+BOLTON, P. AND SCHARFSTEIN, D. "Optimal Debt Structure and the Number of Creditors." Journal of Political Economy,
+      Vol. 104 (1996), pp. 1-25.
+CASAMATTA, C. "Financing and Advising: Optimal Financial Contracts with Venture Capitalists." Journal of Finance,
+      Vol. 58 (2003), pp. 2058-2086.
+CHEMMANUR, T. AND CHEN, Z. "Angels, Venture Capitalists, and Entrepreneurs: A Dynamic Model of Private Equity
+      Financing." Mimeo, Carroll School of Management, Boston College, 2003.
+CORNELLI, F. AND YOSHA, O. "Stage Financing and the Role of Convertible Securities'" Review of Economic Studies, Vol.
+      70 (2003), pp. 1-32.
+CREMER, J. "Arm's Length Relationships." Quarterly Journal of Economics, Vol. 110 (1995), pp. 275-295.
+DEGRYSE, H. AND ONGENA, S. "Distance, Lending Relationships, and Competition." Journal of Finance, Vol. 60 (2005),
+      pp. 231-266.
+DEMARZO, P. AND FISHMAN, M.J. "Optimal Long-Term Financial Contracting with Privately Observed Cash-Flows."
+      Mimeo, Stanford University Graduate School of Business, and Northwestern University Kellogg Graduate School
+      of Management, 2000.
+DEWATRIPONT, M. AND MASKIN, E. "Credit and Efficiency in Centralized and Decentralized Economies." Review of
+      Economic Studies, Vol. 62 (1995), pp. 541-555.
+FARRELL, J. AND MASKIN, E. "Renegotiation in Repeated Games." Games and Economic Behavior, Vol. 1 (1989), pp.
+      327-360.
+0 RAND 2005.
+
+
+
+
+                                               This content downloaded from
+                             193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                       All use subject to https://about.jstor.org/terms
+752 / THE RAND JOURNAL OF ECONOMICS
+
+
+FLUCK, Z. "Optimal Financial Contracting: Debt Versus Outside Equity." Review of Financial Studies, Vol.
+     383-418.
+
+FUDENBERG, D. AND TIROLE, J. "Moral Hazard and Renegotiation in Agency Contracts." Econometrica, Vol. 58
+     pp. 1279-1319.
+GOMPERS, P. AND LERNER, J. The Venture Capital Cycle. Cambridge, Mass.: MIT Press, 1999.
+GROMB, D. "Renegotiation in Debt Contracts." Mimeo, MIT, 1994.
+HART, O.D. AND MOORE, J.H. "A Theory of Debt Based on the Inalienability of Human Capital." Quarterly Journal of
+     Economics, Vol. 109 (1994), pp. 841-879.
+- AND -. "Default and Renegotiation: A Dynamic Model of Debt'." Quarterly Journal of Economics, Vol. 113
+    (1998), pp. 1-41.
+HEGE, U., PALOMINO, F., AND SCHWIENBACHER, A. "The Determinants of Venture Capital Performance: Europe and
+     United States." Mimeo, HEC School of Management, 2003.
+HELLMANN, T. "The Allocation of Control Rights in Venture Capital Contracts." RAND Journal of Economics, Vol. 29
+     (1998), pp. 57-76.
+HERMALIN, B. AND KATZ, M. "Moral Hazard and Verifiability: The Effects of Renegotiation in Agency." Econometrica,
+     Vol. 59 (1991), pp. 1735-1753.
+KAPLAN, S. AND STROMBERG, P. "Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture
+     Capital Contracts." Review of Economic Studies, Vol. 70 (2003), pp. 281-315.
+LESHCHINSKII, D. "Project Externalities and Moral Hazard." Mimeo, HEC School of Management, 2003.
+MARQUEZ, R. "Competition and the Choice Between Informed and Uninformed Finance." Mimeo, R.H. Smith School of
+     Business, University of Maryland, 1998.
+MASKIN, E. AND TIROLE, J. "Markov Perfect Equilibrium." Journal of Economic Theory, Vol. 100 (2001), pp. 191-219.
+NEHER, D. "Stage Financing: An Agency Perspective." Review of Economic Studies, Vol. 66 (1999), pp. 255-274.
+ONGENA, S. AND SMITH, D.C. "The Duration of Bank Relationships?'." Journal of Financial Economics, Vol. 61 (2001),
+     pp. 449-475.
+PETERSEN, M.A. AND RAJAN, R.G. "The Benefits of Lending Relationships: Evidence from Small Business Data"' Journal
+     of Finance, Vol. 49 (1994), pp. 3-37.
+QIAN, Y. AND XU, C. "Innovation and Bureaucracy Under Soft and Hard Budget Constraints." Review ofEconomic Studies,
+     Vol. 65 (1998), pp. 151-164.
+RAJAN, R. "Insiders and Outsiders: The Choice Between Informed and Arm's Length Debt." Journal of Finance, Vol. 47
+     (1992), pp. 1367-1400.
+REPULLO, R. AND SUAREZ, J. "Venture Capital Finance: A Security Design Approach." Mimeo, CEMFI, 1998.
+SAHLMAN, W.A. "The Structure and Governance of Venture-Capital Organizations?'." Journal of Financial Economics,
+     Vol. 27 (1990), pp. 473-521.
+STEVENS, G. AND BURLEY, J. "3000 Raw Ideas = 1 Commercial Success." Research-Technology Management, Vol. 40
+     (1997), pp. 16-27.
+
+
+
+
+? RAND 2005.
+
+
+
+
+                                            This content downloaded from
+                          193.205.21.160 on Mon, 16 Nov 2026 13:30:57 UTC
+                                    All use subject to https://about.jstor.org/terms
+
