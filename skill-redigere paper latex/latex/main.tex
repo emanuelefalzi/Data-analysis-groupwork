@@ -1,0 +1,27 @@
+% main.tex — del gruppo: titolo, autori, ordine delle parti. Gli script non lo toccano.
+% Il contenuto sta in gen/ (generato da tools/assemble.py dai DRAFT delle sezioni).
+\documentclass[11pt,a4paper]{article}
+\input{preambolo}
+
+\title{Time between venture rounds, market hype and startup exit:\\ evidence from US startups, 2012--2019}
+\author{Group 21\\ \small 21072 Data Analysis (Data Lab for Entrepreneurship), Bocconi University 2026/27}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{gen/abstract}
+\end{abstract}
+
+% ------------------------------------------------------------------ corpo (max 20 pagine)
+\input{gen/corpo}
+\FloatBarrier
+\label{corpo-fine}% compila.py conta le pagine del corpo fino a qui
+% ------------------------------------------------------------------ fuori conteggio
+\clearpage
+\printbibliography[title=References]
+
+\clearpage
+\appendix
+\input{gen/appendice}
+\end{document}

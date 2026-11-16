@@ -1,0 +1,5 @@
+# derivati: si rigenerano con gli script, non si correggono a mano
+build/
+latex/gen/
+latex/figures/
+__pycache__/

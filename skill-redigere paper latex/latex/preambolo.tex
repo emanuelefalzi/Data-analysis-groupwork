@@ -1,0 +1,24 @@
+% preambolo.tex — del gruppo: si modifica a mano. Gli script non lo toccano.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}\setstretch{1.15}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{caption}\captionsetup{font=small,labelfont=bf}
+\usepackage[section]{placeins}     % i floats non scavalcano la sezione successiva
+\usepackage{flafter}               % ...e non salgono sopra il punto in cui sono richiamati
+\usepackage{xcolor}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{gen/fonti.bib}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\setlength{\parskip}{0.3em}
+% \buco{...}: segnaposto di un buco dichiarato (solo nelle bozze: il PDF finale non ne ha)
+\newcommand{\buco}[1]{\fcolorbox{red}{red!8}{\parbox{0.9\linewidth}{\small\textbf{BUCO} #1}}}
