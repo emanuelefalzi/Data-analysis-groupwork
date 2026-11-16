@@ -1,0 +1,35 @@
+{
+  "id_fonte": "hoenen2014",
+  "tipo_studio": "empirical",
+  "dati_metodo": "586 US dedicated biotechnology firms with VC round 1 (494 with round 2), 2001-2011; regressions of amount raised in each of the first two rounds on patent applications and granted patents",
+  "righe": [
+    {
+      "riga": "2.1__hoenen2014",
+      "firma": "1abd9daea5",
+      "esito": "da riformulare",
+      "estrazione": "In US biotech firms, patent applications filed before round 1 go with substantially larger round-1 funding, while patent applications and granted patents between rounds have no effect on round-2 funding. Granted patents show no signalling effect even in round 1, so the signal is about patent applications, not patents in general. The authors read the pattern as a signal that diminishes once the investors' information asymmetries lessen; the result is on amount raised, not on whether a round happens.",
+      "citazione": "biotechnology ﬁrms that have submitted patent applications substantially increase the level of funding they receive for their ﬁrst round of ﬁnancing. In line with a reduction of information asymmetries once the initial investment has materialized, patent applications and granted patents have no effect on the growth of venture capital funds raised during the second round of ﬁnancing.",
+      "posizione": "Abstract",
+      "frase_paper": "Hoenen et al. (2014) find that, among US biotechnology firms funded 2001-2011, patent applications raise the amount of venture capital in the first round but have no effect on funds raised in the second round.",
+      "frase_slide": "Patent applications boost round-1 funding but not round-2 funding in US biotech (Hoenen et al., 2014)",
+      "forza": "shows",
+      "numero_chiave": "586 biotech firms in round 1; 494 in round 2 (observations in the regressions)",
+      "limiti_vs_noi": "Only biotechnology, 2001-2011, outcome is the amount raised per round (not exit or timing); patents are the signal, not sector hype or gap length.",
+      "note": "The tesi says 'patents' in general; granted patents have no effect in either round, so only patent applications carry the round-1 signal. 'Largely gone' is fine for the round-2 result (no effect)."
+    },
+    {
+      "riga": "5.5__hoenen2014",
+      "firma": "7a9482c050",
+      "esito": "da riformulare",
+      "estrazione": "The paper does not speak of prices or of information being priced. It argues that by round 2 investors have gathered information on the firm through monitoring, so information asymmetries are smaller and a patent signal no longer raises the amount raised. This supports only a narrower statement: information asymmetries fall after round 1, and a signal that mattered at round 1 stops mattering at round 2.",
+      "citazione": "In line with a reduction of information asymmetries once the initial investment has materialized, patent applications and granted patents have no effect on the growth of venture capital funds raised during the second round of ﬁnancing.",
+      "posizione": "Abstract",
+      "frase_paper": "Hoenen et al. (2014) argue that after the first round investors know the firm better, so information asymmetries shrink and a patent signal no longer raises second-round funding in US biotech.",
+      "frase_slide": "After round 1 investors know the firm better and patent signals stop raising funding (Hoenen et al., 2014)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Biotech only, outcome is the amount of capital raised, not exit; no test of valuation or pricing. Reduced asymmetry is the authors' interpretation, not measured directly.",
+      "note": "'Largely priced' is not in the txt; the txt supports only reduced information asymmetry after round 1. The reference to Table 14, H1 row, is about our results and was not judged."
+    }
+  ]
+}

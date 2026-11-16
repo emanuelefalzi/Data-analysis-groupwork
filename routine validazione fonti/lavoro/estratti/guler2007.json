@@ -1,0 +1,35 @@
+{
+ "id_fonte": "guler2007",
+ "tipo_studio": "empirical",
+ "dati_metodo": "Qualitative interviews with VC investors plus a hazard model of VC termination of sequential investments, US ventures founded 1989-1993 tracked to 2004 (VentureXpert, 796 ventures, 364 VC firms)",
+ "righe": [
+  {
+   "riga": "2.2__guler2007",
+   "firma": "47c2dfad6c",
+   "esito": "da riformulare",
+   "estrazione": "The txt finds that VC firms become less likely to terminate their investment in a venture as the number of financing rounds rises, even though the likelihood and size of successful outcomes decline with rounds. It argues that intraorganizational politics, co-investor pressures and industry norms may contribute to this reluctance to terminate. The wording is hedged (may, in part, the results suggest); the tesi turns it into a flat statement about funding under-performing ventures and about reasons.",
+   "citazione": "The political and institutional features of the VC investment process may create perverse incentives to continue investment, even as the likelihood of success declines.",
+   "posizione": "Discussion",
+   "frase_paper": "Guler (2007) finds that VC firms become less likely to terminate an investment as the number of financing rounds grows, despite declining expected returns, and argues that political and institutional pressures may contribute to this.",
+   "frase_slide": "VCs terminate less as rounds accumulate, despite falling returns; political and institutional pressures may play a part (Guler, 2007)",
+   "forza": "shows",
+   "numero_chiave": "796 ventures funded by 364 VC firms, ventures founded 1989-1993, tracked to 2004",
+   "limiti_vs_noi": "Ventures founded 1989-1993 (VentureXpert), not 2012-2019 PitchBook; outcome is the VC firm's termination of its own investment, not startup exit within five years.",
+   "note": "Tesi overstates: 'keep funding under-performing ventures' is not shown at venture level (the txt shows termination declines with rounds while success likelihood declines); 'for political and institutional reasons' is supported only as 'may', in part. The mechanisms are tested through hypotheses on firm size, co-investment and status."
+  },
+  {
+   "riga": "5.5__guler2007",
+   "firma": "2b52f2ab04",
+   "esito": "da riformulare",
+   "estrazione": "The txt does not study tolerance for startup failure. It studies VC firms' reluctance to terminate sequential investments: the likelihood of termination declines with the number of rounds despite declining expected returns. The tesi is a bare label; only a reading as 'VCs are slow to cut off unsuccessful ventures' is in the txt.",
+   "citazione": "In contrast, the likelihood of VC firms terminating investment in a venture declines with the number of rounds of financing.",
+   "posizione": "Discussion",
+   "frase_paper": "Guler (2007) finds that VC firms become less likely to terminate investment in a venture as it goes through more financing rounds, despite declining expected returns.",
+   "frase_slide": "VCs become less likely to terminate a venture as rounds accumulate (Guler, 2007)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Outcome is VC termination of its investment (not appearing in later rounds), not startup failure; US ventures founded 1989-1993.",
+   "note": "The tesi ('tolerance for failure') is not Guler's wording or finding; it can only be used as a link to reluctance to terminate. It does not say anything about the gap between rounds or about failure rates."
+  }
+ ]
+}

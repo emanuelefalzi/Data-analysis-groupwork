@@ -1,0 +1,21 @@
+{
+  "id_fonte": "hallen2020",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Mixed methods: proprietary data on ventures accepted vs 'almost accepted' to top US accelerators (2011-2012 cohorts, inverse probability of treatment weights), an auxiliary public dataset of VC-raising ventures, and 70 interviews in eight accelerators.",
+  "righe": [
+    {
+      "riga": "2.5__hallen2020",
+      "firma": "dfcb984385",
+      "esito": "da riformulare",
+      "estrazione": "The paper finds that some, but not all, of the early accelerators studied aid and accelerate venture development (more funds raised, faster funding milestones), and that learning is a likely key mechanism, with a complementary sorting mechanism. Qualitative fieldwork says participants shifted beliefs about the payoff and risks of planned activities, and that accelerators offer substantial learning benefits early in a venture's life. The txt never frames this as 'resolving uncertainty'; it speaks of learning, consultation and faster funding, and the effect is not universal.",
+      "citazione": "revealing that accelerators offer substantial learning",
+      "posizione": "Discussion",
+      "frase_paper": "Hallen et al. (2020) find that some, but not all, of the early US accelerators they study aid and accelerate venture development, and argue that learning through consultation is a likely key mechanism.",
+      "frase_slide": "Some, but not all, early accelerators speed up venture development, likely through learning (Hallen et al., 2020)",
+      "forza": "shows",
+      "numero_chiave": "47%-171% more funds raised in the following two to three years by accelerator participants than almost-accepted applicants, in three of four cohorts",
+      "limiti_vs_noi": "Early US accelerators (cohorts around 2011-2012), small sample of top programs, almost-accepted comparison; not all VC-backed startups and not exit outcomes.",
+      "note": "Tesi 'resolve uncertainty early' is not stated in the txt: only learning benefits early in a venture's life and belief shifts about payoff and risk (qualitative, descriptive). Shared tesi with yu2020 and gonzalezuribe2018: judged only on Hallen. Effects not universal; authors also find sorting."
+    }
+  ]
+}

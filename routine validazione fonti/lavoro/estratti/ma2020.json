@@ -1,0 +1,21 @@
+{
+  "id_fonte": "ma2020",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US public non-financial firms with CVC divisions (SDC VentureXpert/Compustat), CVC entry, investment and termination decisions; panel regressions with an instrument for internal innovation (technological obsolescence); patent-based innovation measures",
+  "righe": [
+    {
+      "riga": "2.5__ma2020",
+      "firma": "9a0e218fb4",
+      "esito": "da riformulare",
+      "estrazione": "The paper finds that CVC entry concentrates in firms whose internal innovation has deteriorated, and that CVCs invest in startups with similar technological focus but non-overlapping knowledge base, then integrate those technologies (parent firms cite the startups' patents after investing). It concludes that the strategic motive is to fix innovation weaknesses after adverse shocks, and it rejects the alternative 'build on strengths' view. The tesi is broadly in line but omits the condition (deteriorating internal innovation) and the evidence is on parent-firm innovation, not on startup outcomes.",
+      "citazione": "CVCs are used by firms experiencing deteriorating internal innovation to expose themselves to new technologies and regain their innovation edge.",
+      "posizione": "Introduction (p. 359-360)",
+      "frase_paper": "Ma (2020) finds that corporate venture capital divisions are created mainly by firms whose internal innovation has deteriorated, and that they use investments in startups to access new technologies and recover their innovation edge.",
+      "frase_slide": "CVCs are set up when internal innovation weakens, to access startup technologies (Ma, 2020)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Studies CVC parent firms (entry, investment, termination), not startup exit or round timing; sample of US public parents over a long period, not 2012-2019 first-round startups.",
+      "note": "Narrower than the tesi: the motive is conditional on a decline in the parent's internal innovation, not a general motive."
+    }
+  ]
+}

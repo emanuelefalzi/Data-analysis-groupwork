@@ -1,0 +1,21 @@
+{
+  "id_fonte": "manso2011",
+  "tipo_studio": "theory",
+  "dati_metodo": "Principal-agent model with a two-armed bandit (exploration vs exploitation), two periods, optimal contract derived analytically; no data.",
+  "righe": [
+    {
+      "riga": "2.2__manso2011",
+      "firma": "e09a763e24",
+      "esito": "usabile",
+      "estrazione": "In a principal-agent model with a bandit problem, the optimal contract that motivates exploration (innovation) exhibits substantial tolerance, or even reward, for early failure, together with reward for long-term success. Standard pay-for-performance schemes that punish early failure may hurt innovation. The result is derived in the model (Proposition 2), not tested on data.",
+      "citazione": "the optimal incentive scheme that motivates innovation exhibits substantial tolerance (or even reward) for early failure and reward for long-term success",
+      "posizione": "Introduction",
+      "frase_paper": "Manso (2011) models an agent who can explore new actions or exploit known ones and shows that the optimal contract to motivate innovation tolerates, or even rewards, early failure and rewards long-term success.",
+      "frase_slide": "Optimal contracts to motivate innovation tolerate, even reward, early failure (Manso, 2011)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory of managerial or employee incentive contracts, not VC financing, startups or exit; no data. It supports the logic that early failure is tolerated, not a result about funding gaps.",
+      "note": "Tesi omits that tolerance comes with reward for long-term success; this does not contradict it. The result is in the model, so it is a theoretical optimality claim."
+    }
+  ]
+}

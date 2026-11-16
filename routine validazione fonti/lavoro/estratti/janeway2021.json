@@ -1,0 +1,21 @@
+{
+ "id_fonte": "janeway2021",
+ "tipo_studio": "review",
+ "dati_metodo": "Literature review (Annual Review of Financial Economics, 2021) of VC booms and start-up financing; no own data.",
+ "righe": [
+  {
+   "riga": "2.3__janeway2021",
+   "firma": "9a49a8c386",
+   "esito": "usabile",
+   "estrazione": "The paper is a review of the literature on VC booms and start-up financing. It covers three areas: drivers of VC inflows, real effects of booms on which firms are funded and on what terms, and concentration of VC by industry and geography, plus government policy.",
+   "citazione": "In this article, we review the nascent but growing literature that seeks to understand the relationship between VC booms and start-up financing.",
+   "posizione": "1. Introduction",
+   "frase_paper": "Janeway et al. (2021) review the literature on venture capital booms and start-up financing, covering the drivers of VC inflows, the real effects of booms and the concentration of VC by industry and geography.",
+   "frase_slide": "Review of the VC boom literature: inflows, real effects, concentration (Janeway et al., 2021)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Review without own data; not specific to our 2012-2019 US PitchBook sample or to the gap between rounds.",
+   "note": "The tesi is a descriptive label (what the source is), which the txt supports as worded."
+  }
+ ]
+}

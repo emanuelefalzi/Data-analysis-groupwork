@@ -1,0 +1,35 @@
+{
+  "id_fonte": "lerner1994",
+  "tipo_studio": "empirical",
+  "dati_metodo": "350 privately held VC-backed US biotechnology firms, 1978-1992; IPO and private-financing timing against a biotech equity index (logit-type regressions on index level and returns).",
+  "righe": [
+    {
+      "riga": "2.5__lerner1994",
+      "firma": "7a7e63e866",
+      "esito": "da riformulare",
+      "estrazione": "Lerner shows that, in a sample of biotechnology firms, VC-backed companies go public when equity valuations are high and use private financings when valuations are lower; IPO activity coincides with peaks in the biotech index. The txt does not describe IPO windows opening and closing as a market-wide phenomenon; it is a biotech-only result, and the author warns that in other industries capital demand and oversight needs may matter more than market conditions.",
+      "citazione": "these companies go public when equity valuations are high and employ private financings when values are lower",
+      "posizione": "Abstract",
+      "frase_paper": "Lerner (1994) finds that VC-backed biotechnology firms tend to go public when equity valuations are high and rely on private financing when valuations are lower.",
+      "frase_slide": "VC-backed biotech firms go public when valuations are high (Lerner, 1994)",
+      "forza": "shows",
+      "numero_chiave": "350 privately held VC-backed biotechnology firms, 1978-1992",
+      "limiti_vs_noi": "Biotech only, 1978-1992, IPO exits only; the author says other industries may be driven more by capital needs than by market conditions. Ours is all US sectors, 2012-2019, all exit types.",
+      "note": "The 'window opens and closes' wording is not in the txt; shared tesi with pastor2005, judged only for Lerner. Association with valuations, not a claim about windows."
+    },
+    {
+      "riga": "5.5__lerner1994",
+      "firma": "6302c2b116",
+      "esito": "da riformulare",
+      "estrazione": "Lerner shows that IPOs of VC-backed biotech firms cluster at peaks of equity valuations (e.g. 1983, 1986, 1991-92), while private financing activity changed little. This supports timing of IPOs with market conditions only in that sample; the tesi as worded is general and does not mention the biotech scope or the other exit routes.",
+      "citazione": "venture capitalists successfully time IPOs by being more likely to take companies public when their valuations are at their absolute and short-run peaks",
+      "posizione": "Introduction",
+      "frase_paper": "Lerner (1994) finds that, among VC-backed biotechnology firms in 1978-1992, IPOs are more likely when industry equity valuations are at their peaks.",
+      "frase_slide": "Biotech IPOs cluster at valuation peaks (Lerner, 1994)",
+      "forza": "shows",
+      "numero_chiave": "350 firms, 1978-1992",
+      "limiti_vs_noi": "Biotech only and IPOs only; the author notes other industries may depend more on capital needs than on market conditions. Our sample covers all US sectors, 2012-2019.",
+      "note": "Generality of the tesi is the issue, not the direction."
+    }
+  ]
+}

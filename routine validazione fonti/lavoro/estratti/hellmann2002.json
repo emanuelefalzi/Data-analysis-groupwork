@@ -1,0 +1,21 @@
+{
+  "id_fonte": "hellmann2002",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Hand-collected data on over 170 young high-technology firms in Silicon Valley (VC-backed and non-VC-backed, survey from 1994 on); hazard models and cross-tabulations of professionalization milestones and CEO turnover.",
+  "righe": [
+    {
+      "riga": "2.5__hellmann2002",
+      "firma": "e59c1304dc",
+      "esito": "usabile",
+      "estrazione": "The paper finds that obtaining venture capital is related to organizational milestones of professionalization: human resource policies, stock option plans, hiring of a VP of sales and marketing. VC-backed firms are also more likely and faster to replace the founder with an outside CEO. The authors discuss selection and endogeneity and frame the result as a relation, with the effect most pronounced in early stages.",
+      "citazione": "Obtaining venture capital is related to a variety of organizational milestones, such as the formulation of human resource policies, the adoption of stock option plans, or the hiring of a VP of sales and marketing.",
+      "posizione": "VII. Conclusion",
+      "frase_paper": "Hellmann and Puri (2002) find that venture capital backing is related to professionalization of start-ups, such as human resource policies, stock option plans and the hiring of a marketing VP, in a hand-collected sample of Silicon Valley firms.",
+      "frase_slide": "VC backing goes with start-up professionalisation: HR policies, option plans, outside CEOs (Hellmann & Puri, 2002)",
+      "forza": "shows",
+      "numero_chiave": "over 170 young high-technology Silicon Valley firms in the sample",
+      "limiti_vs_noi": "Silicon Valley high-tech firms only, data from the 1990s (survey from 1994), small hand-collected sample, not PitchBook and not a US-wide 2012-2019 sample; outcomes are organizational milestones, not exit.",
+      "note": "The tesi is worded as an association, which matches the paper's 'related to'. The paper also argues for a role of VCs, but the tesi stays within what is shown."
+    }
+  ]
+}

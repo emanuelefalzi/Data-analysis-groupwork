@@ -1,0 +1,49 @@
+{
+ "id_fonte": "kerrlerner2014",
+ "tipo_studio": "empirical",
+ "dati_metodo": "Confidential deal records of two US angel groups (Tech Coast Angels, CommonAngels), ventures pitched 2001-2006, outcomes to Dec 2010; OLS comparisons plus a fuzzy regression discontinuity around the angels' interest threshold (130 deals).",
+ "righe": [
+  {
+   "riga": "2.5__kerrlerner2014",
+   "firma": "64e7b2b4a4",
+   "esito": "da riformulare",
+   "estrazione": "In the regression discontinuity, ventures just above the funding threshold are more likely to be alive in Dec 2010 (Table 6a: 0.222, s.e. 0.081; 0.247, s.e. 0.095 with fixed effects, N = 130) and show better employment, patenting and Web traffic growth. Exit (IPO or acquisition) is only qualitatively higher and not statistically significant. The funding discontinuity is fuzzy (about a 32 percentage point jump in funding probability), so the authors use the border design only to confirm the qualitative direction; the tesi's causal verb 'improves' and the general word 'growth' go beyond this.",
+   "citazione": "Ventures just above the threshold are more likely to survive, and they have superior operations in terms of employee counts, patenting, and Web traffic growth.",
+   "posizione": "Introduction (third set of findings)",
+   "frase_paper": "Kerr et al. (2014) find, using a regression discontinuity around the interest threshold of two US angel groups, that ventures just above the funding threshold are more likely to survive and show better employment, patenting and Web traffic growth, while the higher exit rate is not statistically significant.",
+   "frase_slide": "Ventures just above angel funding threshold survive more and grow faster; exit effect not significant (Kerr et al., 2014)",
+   "forza": "shows",
+   "numero_chiave": "0.222 (s.e. 0.081): difference in probability of being alive in Dec 2010, above vs below the border, linear regression, N = 130 (Table 6a, Panel A)",
+   "limiti_vs_noi": "Two large, professionally managed US angel groups (Tech Coast Angels, CommonAngels), 130 deals pitched 2001-2006, outcomes to Dec 2010; angels, not VC; the authors say effects are likely at the upper end of the angel population. Not a VC setting and not a gap or hype design.",
+   "note": "Decided by the causal verb and by 'growth' covering exit: the txt says exit is only qualitative, not significant. Fuzzy RD, so the coefficients are not directly comparable with the OLS ones (footnote 22)."
+  },
+  {
+   "riga": "5.5__kerrlerner2014",
+   "firma": "edb42a1714",
+   "esito": "non usabile",
+   "estrazione": "The txt does not compare the signs of control variables (such as age, round size or stage) with those of other studies. It uses stage, employment, year, industry and angel-group fixed effects only as controls in the funding and outcome regressions, and reports the coefficient of interest, not the control coefficients. Nothing in the txt supports a control-sign comparison.",
+   "citazione": "Column 4 repeats the regression controlling for deal characteristics like firm size and number of employees at the time of the pitch.",
+   "posizione": "4.3 Border discontinuities and angel funding",
+   "frase_paper": "",
+   "frase_slide": "",
+   "forza": "",
+   "numero_chiave": "",
+   "limiti_vs_noi": "",
+   "note": "Shared tesi (co-cited with chemmanur2014, hochberg2007, yu2020, haltiwanger2013); judged only for this source. The tesi is also very vague ('control-sign comparisons'); if the scaletta means something else, it should be restated."
+  },
+  {
+   "riga": "6.4__kerrlerner2014",
+   "firma": "79026b0686",
+   "esito": "usabile",
+   "estrazione": "The paper's third set of findings uses a regression discontinuity design on ventures just above and below the funding threshold of two US angel groups, to remove the endogeneity of funding. It finds more survival and better operations above the threshold, qualitative but non-significant support for exit, and no difference in follow-on financing.",
+   "citazione": "Our third set of findings considers ventures just above and below the funding threshold by using the regression discontinuity methodology",
+   "posizione": "Introduction (third set of findings); Section 4.3-4.4",
+   "frase_paper": "Kerr et al. (2014) use a regression discontinuity around the funding threshold of two US angel groups to study the outcomes of funded versus rejected ventures.",
+   "frase_slide": "Regression discontinuity around angel funding threshold gives quasi-experimental evidence on funding (Kerr et al., 2014)",
+   "forza": "shows",
+   "numero_chiave": "About a 32 percentage point jump in the probability of angel funding above the border (Table 5, 0.316-0.328, N = 130)",
+   "limiti_vs_noi": "Two large, professionally managed US angel groups (Tech Coast Angels, CommonAngels), 130 deals pitched 2001-2006, outcomes to Dec 2010; angels, not VC; the authors say effects are likely at the upper end of the angel population. Not a VC setting and not a gap or hype design.",
+   "note": "The parenthetical 'a model of point 3' is about the repo's own design, not something the txt can confirm; only the RD evidence on angel funding is judged. The design is fuzzy."
+  }
+ ]
+}

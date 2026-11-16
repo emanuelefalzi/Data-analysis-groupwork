@@ -1,0 +1,35 @@
+{
+  "id_fonte": "ewens2018",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US startups with Seed or Series A financing in VentureSource, 2002–2010; differences-in-differences around the 2006 launch of Amazon Web Services (treated vs untreated industries), plus a simple theory framework on abandonment options",
+  "righe": [
+    {
+      "riga": "2.1__ewens2018",
+      "firma": "f5f89ebcf0",
+      "esito": "da riformulare",
+      "estrazione": "The paper treats each staged VC round as an experiment that generates information on a startup's value, with abandonment as a real option. It argues and shows (difference-in-differences around AWS, 2006) that lower costs of starting firms led VCs to a 'spray and pray' approach: little funding and limited governance to more startups, most abandoned after the first round. The experiment is the VC round, not entrepreneurship in general, and the evidence is for software and service sectors.",
+      "citazione": "We study how technological shocks to the cost of starting new businesses have led the",
+      "posizione": "Abstract",
+      "frase_paper": "Ewens et al. (2018) model each VC round as an experiment that informs beliefs about a startup's value and show that, after cloud computing lowered start-up costs, VCs in affected US software and service sectors shifted to funding more startups with smaller initial cheques.",
+      "frase_slide": "Cheaper initial experiments pushed VCs toward 'spray and pray' early funding (Ewens et al., 2018)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Software and service sectors hit by the AWS shock, US, 2002–2010, Seed/Series A in VentureSource; ours is all US sectors, round 1 in 2012–2019, PitchBook.",
+      "note": "Tesi says 'entrepreneurship as experimentation'; the txt frames VC investment rounds as experiments (it cites staging literature), so that part must narrow to VC rounds. co_citate kerrnanda2014: only this source's part judged. Design is DiD, so 'changes' should be read as an association with the shock."
+    },
+    {
+      "riga": "2.5__ewens2018",
+      "firma": "1df2cc0998",
+      "esito": "usabile",
+      "estrazione": "After AWS, startups in treated sectors raised significantly smaller first VC rounds (average fall of 20%, across the size distribution), while the number of initial investments per year by VCs in treated sectors nearly doubled, without a commensurate rise in follow-ons. Total capital raised by survivors after three or more years was unchanged.",
+      "citazione": "of AWS raised signiﬁcantly smaller amounts in their ﬁrst",
+      "posizione": "1. Introduction",
+      "frase_paper": "Ewens et al. (2018) find that after the introduction of AWS, startups in treated US sectors raised initial VC rounds about 20% smaller on average, while the number of initial investments per year nearly doubled.",
+      "frase_slide": "Cheaper experiments: first rounds about 20% smaller, initial investments nearly doubled (Ewens et al., 2018)",
+      "forza": "shows",
+      "numero_chiave": "20%: average fall in initial funding size in treated sectors after AWS; number of initial investments per year in treated sectors nearly doubled",
+      "limiti_vs_noi": "Software and service sectors, 2002–2010, VentureSource Seed/Series A; the effect is a differences-in-differences result around one technology shock, not a general law.",
+      "note": "The quote covers the smaller-cheque part; the 'more ventures' part is in the same introduction (number of initial investments nearly doubled) but sits on a two-column line and could not be quoted as one contiguous passage. 'Means' is read as the paper's DiD finding, not a mechanical rule."
+    }
+  ]
+}

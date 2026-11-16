@@ -1,0 +1,77 @@
+{
+ "id_fonte": "korteweg2010",
+ "tipo_studio": "empirical",
+ "dati_metodo": "VentureXpert and VentureSource VC rounds in the US 1987-2005 (61,356 rounds, 18,237 companies in full data; 5,501 rounds for 1,934 companies in final sample); Bayesian (MCMC) dynamic sample selection model of valuation paths with CAPM/Fama-French factors.",
+ "righe": [
+  {
+   "riga": "1__korteweg2010",
+   "firma": "f685521eaf",
+   "esito": "usabile",
+   "estrazione": "The paper argues and shows (model plus estimation) that valuations of VC-backed companies are observed only at financing or exit events, and that these events are more frequent for well-performing companies, so observed valuations and returns are overrepresented on the upside (E[eps|data]>0). Correcting for this lowers the estimated alpha by about 40%.",
+   "citazione": "Valuations are observed only when a company has a refinancing or an exit event, and the endogeneity of these events is captured by the selection process.",
+   "posizione": "2.2 Selection process",
+   "frase_paper": "Korteweg & Sorensen (2010) argue and show that valuations of VC-backed companies are observed only at financing or exit events, which are more frequent for well-performing companies, so observed returns are selected upward.",
+   "frase_slide": "Valuations are seen only at financing or exit events, which favour winners, so observed returns skew upward (Korteweg & Sorensen, 2010)",
+   "forza": "shows",
+   "numero_chiave": "Estimated alpha falls by about 40% and market beta rises by about 20% after correcting for selection (vs GLS)",
+   "limiti_vs_noi": "Studies returns (alpha, beta) of VC-backed companies, VentureXpert and VentureSource data 1987-2005, not exit probability; 1,934 companies in final sample; selection is on valuations/returns, not on exit outcomes.",
+   "note": "Shared with cochrane2005; judged only on this source. Tesi worded 'only at financing events'; the paper also includes exit events."
+  },
+  {
+   "riga": "2.2__korteweg2010",
+   "firma": "990a4ede08",
+   "esito": "usabile",
+   "estrazione": "The paper develops a dynamic sample-selection model and estimates it on VC data to correct risk and return for selection of observed valuations. The correction gives markedly lower intercepts and higher risk estimates than previous studies.",
+   "citazione": "Our selection correction leads to markedly lower inter- cepts and higher estimates of risks compared to previous studies.",
+   "posizione": "Abstract",
+   "frase_paper": "Korteweg & Sorensen (2010) develop a dynamic sample-selection model and show that correcting for selection in observed VC valuations lowers estimated alphas and raises estimated risk.",
+   "frase_slide": "Selection-corrected VC returns have lower alpha and higher risk (Korteweg & Sorensen, 2010)",
+   "forza": "shows",
+   "numero_chiave": "Alpha down about 40%, market beta up about 20% vs conventional GLS estimates",
+   "limiti_vs_noi": "Studies returns (alpha, beta) of VC-backed companies, VentureXpert and VentureSource data 1987-2005, not exit probability; 1,934 companies in final sample; selection is on valuations/returns, not on exit outcomes.",
+   "note": ""
+  },
+  {
+   "riga": "2.4__korteweg2010",
+   "firma": "e8b2dbef45",
+   "esito": "usabile",
+   "estrazione": "The paper says companies with higher valuations are more likely to be refinanced, so companies with higher shocks are overrepresented and the conditional mean of the shock in the observed data is positive. It also compares with Cochrane's (2005) round-to-round estimates, which do not correct for selection.",
+   "citazione": "Intuitively, the problem arises whenever the probability of observing a valuation is related to the valuation itself.",
+   "posizione": "1. The Dynamic Selection Problem",
+   "frase_paper": "Korteweg & Sorensen (2010) argue and show that valuations of VC-backed companies are observed only at financing or exit events, which are more frequent for well-performing companies, so observed round-to-round valuations and returns are overrepresented on the upside.",
+   "frase_slide": "Observed round-to-round returns are selected upward because better firms refinance more (Korteweg & Sorensen, 2010)",
+   "forza": "shows",
+   "numero_chiave": "Cochrane's (2005) average round-to-round beta 0.6 vs 2.8 in this paper after correction",
+   "limiti_vs_noi": "Studies returns (alpha, beta) of VC-backed companies, VentureXpert and VentureSource data 1987-2005, not exit probability; 1,934 companies in final sample; selection is on valuations/returns, not on exit outcomes.",
+   "note": "Shared with cochrane2005; the upward selection claim here is Korteweg & Sorensen's own, via model and estimates. The tesi's selection of observed returns is on valuation-return, not exit."
+  },
+  {
+   "riga": "5.5__korteweg2010",
+   "firma": "309d014f21",
+   "esito": "da riformulare",
+   "estrazione": "The tesi 'selection at refinancing' is a fragment. The paper does model selection at refinancing/exit events: observation of valuations depends on a refinancing or exit event, with time since the previous round as the driver of selection. It says nothing on the exit probability of startups.",
+   "citazione": "Valuations are observed only when a company has a refinancing or an exit event, and the endogeneity of these events is captured by the selection process.",
+   "posizione": "2.2 Selection process",
+   "frase_paper": "Korteweg & Sorensen (2010) model the observation of a VC valuation as depending on a refinancing or exit event, whose probability is related to the valuation itself.",
+   "frase_slide": "Refinancing events select which valuations are observed (Korteweg & Sorensen, 2010)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Studies returns (alpha, beta) of VC-backed companies, VentureXpert and VentureSource data 1987-2005, not exit probability; 1,934 companies in final sample; selection is on valuations/returns, not on exit outcomes.",
+   "note": "Shared with cochrane2005. Tesi is too short to judge fully; narrower wording proposed. Direction of selection (upward) is not stated in the tesi."
+  },
+  {
+   "riga": "6.3__korteweg2010",
+   "firma": "8ca05f15bd",
+   "esito": "da riformulare",
+   "estrazione": "The paper supports that valuations are observed only at refinancing or exit events and that this selects the sample. It concerns valuations and returns, not other outcomes in general. 'Outcomes' is broader than what the paper covers.",
+   "citazione": "Valuations are observed only when a company has a refinancing or an exit event, and the endogeneity of these events is captured by the selection process.",
+   "posizione": "2.2 Selection process",
+   "frase_paper": "Korteweg & Sorensen (2010) show that VC valuations are observed only at refinancing or exit events, so observed valuations form a selected sample.",
+   "frase_slide": "VC valuations are observed only at refinancing or exit, a selected sample (Korteweg & Sorensen, 2010)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Studies returns (alpha, beta) of VC-backed companies, VentureXpert and VentureSource data 1987-2005, not exit probability; 1,934 companies in final sample; selection is on valuations/returns, not on exit outcomes.",
+   "note": "Shared with cochrane2005. Tesi says 'outcomes'; source supports it only for valuations/returns."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "id_fonte": "haltiwanger2013",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Census Bureau Longitudinal Business Database, all US nonfarm private-sector firms and establishments, 1976-2005; net growth rates by firm size and firm age classes (DHS method), regressions with and without age/size controls",
+  "righe": [
+    {
+      "riga": "2.5__haltiwanger2013",
+      "firma": "f277cbbd0c",
+      "esito": "usabile",
+      "estrazione": "The paper documents an up-or-out dynamic of young US firms: conditional on survival, young firms grow faster than mature ones, but they also have much higher exit rates. The pattern is shown in figures 4 and 5 and is robust to controlling for firm size and to the size-class method; it is also found across sectors (figure 7).",
+      "citazione": "Taken together, figures 4 and 5 describe an up-or-out pat",
+      "posizione": "Section IV (firm age results, around figures 4 and 5)",
+      "frase_paper": "Haltiwanger et al. (2013) show that young US firms follow an up-or-out pattern: conditional on survival they grow faster than mature firms, but they also exit at much higher rates.",
+      "frase_slide": "Young firms grow faster if they survive but exit far more often: up-or-out (Haltiwanger et al., 2013)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "All US firms (LBD, 1976-2005), not VC-backed startups; outcome is employment growth and firm exit, not VC exit; young means under 5 years in the exit analysis.",
+      "note": "The tesi is not worded as a VC finding; the source is about employer firms in general."
+    },
+    {
+      "riga": "5.5__haltiwanger2013",
+      "firma": "edb42a1714",
+      "esito": "da riformulare",
+      "estrazione": "The txt is about size-growth, not about control-sign comparisons in general. It finds that without a firm-age control there is an inverse relationship between firm size and net growth, and that once firm age is controlled for there is no systematic relationship. It is thus an example of a result changing when a key control (age) is added, but the txt does not speak of signs of controls or of comparing them across studies.",
+      "citazione": "we control for firm age, there is no systematic relationship between firm",
+      "posizione": "Abstract",
+      "frase_paper": "Haltiwanger et al. (2013) find that the inverse relationship between firm size and net employment growth disappears once firm age is controlled for, in US firm-level data.",
+      "frase_slide": "Omitting firm age yields an inverse size-growth link that vanishes with age controls (Haltiwanger et al., 2013)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Employment growth of all US firms (LBD, 1976-2005), not VC exit or startups; the control is firm age, not our round-1 controls.",
+      "note": "The tesi is vague; only the narrower omitted-age-control point is supported. Co-cited with chemmanur2014, hochberg2007, yu2020, kerrlerner2014: this source supports only the age-control example."
+    }
+  ]
+}

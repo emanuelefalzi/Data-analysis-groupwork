@@ -1,0 +1,21 @@
+{
+  "id_fonte": "hellmann2015",
+  "tipo_studio": "theory",
+  "dati_metodo": "Costly search model (Diamond-Mortensen-Pissarides type) of two sequential, interconnected markets, angel then VC; no data, equilibrium deal flows, valuations and exit rates derived analytically.",
+  "righe": [
+    {
+      "riga": "2.5__hellmann2015",
+      "firma": "1fa1f4397b",
+      "esito": "da riformulare",
+      "estrazione": "The paper models angels and VCs as sequential investors: entrepreneurs first get angel funding, then VC funding. It calls them 'friends' because they rely on each other's investments (angels' successful deals feed VC deal flow) and 'foes' because at the VC stage the VCs no longer need the angels, who may be offered low valuations. The txt does not frame the relation as substitutes versus complements; the only mention of that framing is a cited working paper title in the references.",
+      "citazione": "Entrepreneurs first receive angel then venture capital funding. The two investor types",
+      "posizione": "Abstract",
+      "frase_paper": "Hellmann and Thiele (2015) model angels and VCs as sequential investors in a search model, who are 'friends' because they rely on each other's investments and 'foes' because VCs no longer need the angels at the later stage.",
+      "frase_slide": "Angels and VCs invest in sequence: friends via deal flow, foes via VC bargaining power (Hellmann & Thiele, 2015)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Pure theory, no data; about angel then VC stages, not about the gap between VC rounds or exit; no US 2012-2019 evidence.",
+      "note": "Tesi 'substitutes or complements' is not the paper's framing: it finds complementarity in sequence (friends) plus a hold-up conflict (foes), and never tests substitution. co_citate hellmann2021: judged only for this source. 'shows' means the model derives it, not that it is empirical."
+    }
+  ]
+}

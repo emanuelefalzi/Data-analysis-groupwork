@@ -1,0 +1,49 @@
+{
+  "id_fonte": "li2008",
+  "tipo_studio": "empirical",
+  "dati_metodo": "46,976 portfolio company-round pairs, 15,786 US VC-backed companies, VentureXpert, 1975-2005; Weibull accelerated-failure-time model of the duration between adjacent financing rounds, with right-censoring and SEs clustered by company; Cox, exponential and log-normal give unaltered results",
+  "righe": [
+    {
+      "riga": "1__li2008",
+      "firma": "ec5548d71d",
+      "esito": "usabile",
+      "estrazione": "Li frames the staging decision as a choice between holding the current option to invest and investing now. In the empirical results, higher market uncertainty goes with longer durations to the next round, while competition, project-specific uncertainty and agency concerns go with shorter ones. This supports the tesi that round durations respond to uncertainty in the direction a real-options view predicts.",
+      "citazione": "The empirical results suggest that market uncertainty encourages venture capital firms to delay investing at each round of financing, whereas competition, project-specific uncertainty and agency concerns prompt venture capital firms to invest sooner.",
+      "posizione": "Abstract",
+      "frase_paper": "Li (2008) finds, in a sample of US VC-backed companies, that round durations lengthen with market uncertainty and shorten with competition and project-specific uncertainty, as a real-options view predicts.",
+      "frase_slide": "Higher market uncertainty goes with longer waits to the next round (Li, 2008)",
+      "forza": "shows",
+      "numero_chiave": "46,976 company-round pairs, 15,786 portfolio companies, US, 1975-2005 (sample size)",
+      "limiti_vs_noi": "Sample 1975-2005 from VentureXpert, not 2012-2019 PitchBook; the outcome is the duration between rounds, not exit; market uncertainty is measured as industry price volatility (GARCH), not our heat. The paper speaks of VC firms' decisions, our design is about startup-level associations.",
+      "note": "The tesi says only 'respond to uncertainty'; the txt is more specific (market uncertainty delays, project-specific uncertainty and competition accelerate). Direction is consistent with the tesi."
+    },
+    {
+      "riga": "2.1__li2008",
+      "firma": "68db3cd97b",
+      "esito": "da riformulare",
+      "estrazione": "Li models the time between two adjacent rounds with a Weibull accelerated-failure-time model, ln T = Xb + e, whose coefficients are read as effects on log duration. The hazard function of the Weibull is stated, and a Cox model and other parametric models are mentioned as giving unaltered results. The framework is real options. So the study is a duration analysis, but the main model is an AFT specification rather than a hazard regression.",
+      "citazione": "To estimate the effects of the real options and agency factors on the funding duration, we consider an accelerated- failure-time (AFT) model:",
+      "posizione": "4.2. Model specification and estimation procedures",
+      "frase_paper": "Li (2008) models the duration between financing rounds with a Weibull accelerated-failure-time model, with right-censoring, in a real-options framework.",
+      "frase_slide": "Round duration modelled with a Weibull duration model in a real-options frame (Li, 2008)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Duration of spells between rounds is the dependent variable; we use the gap only as a regressor for exit in a logit.",
+      "note": "'Hazard models' is imprecise: the main model is an AFT Weibull on log duration (it defines a hazard function; the Cox model is only a robustness check reported as unaltered)."
+    },
+    {
+      "riga": "6.4__li2008",
+      "firma": "eb6c595ad9",
+      "esito": "da riformulare",
+      "estrazione": "Same point as the other methods row: Li studies the time between adjacent financing rounds with a Weibull accelerated-failure-time model on the log of duration, accounting for right-censoring. A semi-parametric Cox model and exponential or log-normal models give unaltered results, but they are not the main specification.",
+      "citazione": "The empirical analysis focuses on the funding duration, i.e., the time elapsed between two adjacent rounds of financing for a portfolio company.",
+      "posizione": "4.2. Model specification and estimation procedures",
+      "frase_paper": "Li (2008) analyses the time elapsed between adjacent financing rounds with a Weibull duration model that accounts for right-censoring.",
+      "frase_slide": "Time between rounds analysed with a duration model (Li, 2008)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Round duration is the outcome in Li; in our design the gap is an explanatory variable for exit.",
+      "note": "The tesi 'hazard models of round duration' is narrowed to the Weibull AFT specification; the tesi also adds '(a model of point 1)', not checkable in the txt."
+    }
+  ]
+}

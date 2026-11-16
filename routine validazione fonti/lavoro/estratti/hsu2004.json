@@ -1,0 +1,21 @@
+{
+  "id_fonte": "hsu2004",
+  "tipo_studio": "empirical",
+  "dati_metodo": "Hand-collected 148 financing offers (accepted and declined) made to 51 early-stage high-tech start-ups from the MIT E-Lab program (program began 1995, applicants up to summer 2000), first professional round; regressions of offer acceptance and offered valuation on VC reputation proxies, holding the start-up fixed.",
+  "righe": [
+    {
+      "riga": "2.4__hsu2004",
+      "firma": "f1392b4704",
+      "esito": "usabile",
+      "estrazione": "Among competing offers made to the same start-up at its first professional round, offers from high-reputation VCs come with lower valuations: the VCs acquire start-up equity at a 10-14% discount. The author concludes that entrepreneurs are willing to accept a valuation discount to access the capital of better-reputed VCs. The evidence is a within-start-up comparison of offers, in a small sample of high-tech start-ups.",
+      "citazione": "entrepreneurs are willing to accept a discount on the valuation of their start-up in order to access the capital of VCs with better reputations",
+      "posizione": "IV. Conclusion and Discussion",
+      "frase_paper": "Hsu (2004) finds that entrepreneurs accept lower valuations from more reputable VCs: high-reputation VCs acquire start-up equity at a 10-14% discount, in a sample of 148 offers to 51 early-stage high-tech start-ups.",
+      "frase_slide": "Entrepreneurs accept a 10-14% valuation discount to get a more reputable VC (Hsu, 2004)",
+      "forza": "shows",
+      "numero_chiave": "10-14% discount in start-up equity price paid by high-reputation VCs (148 offers, 51 start-ups)",
+      "limiti_vs_noi": "Small hand-collected sample of 51 MIT E-Lab high-tech start-ups, offers around 1995-2000, first professional round only; our data are all US PitchBook startups with a first VC round in 2012-2019. It concerns VC reputation, not the timing of rounds.",
+      "note": "Wording is close to the txt's own conclusion. Hsu's evidence is offers to the same start-up, so the term 'accept' reflects entrepreneurs' choices among offers; association-level finding, not a general market-wide estimate."
+    }
+  ]
+}

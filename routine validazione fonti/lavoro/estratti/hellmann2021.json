@@ -1,0 +1,21 @@
+{
+  "id_fonte": "hellmann2021",
+  "tipo_studio": "empirical",
+  "dati_metodo": "469 start-ups funded 1995-2009 in British Columbia, Canada (BC Investment Capital Program data); company-round regressions on prior investor types, with instrumental variables based on investor tax credits",
+  "righe": [
+    {
+      "riga": "2.5__hellmann2021",
+      "firma": "1fa1f4397b",
+      "esito": "usabile",
+      "estrazione": "The paper tests whether angels and VCs are substitutes or complements across a start-up's financing rounds. It finds that they are dynamic substitutes: companies funded by one investor type tend to keep raising from that type, with fewer transitions between angel and VC streams than is traditionally assumed. The substitutes pattern is attributed to company characteristics (selection), not to investor treatment.",
+      "citazione": "fewer transitions between streams than is traditionally assumed",
+      "posizione": "Abstract",
+      "frase_paper": "Hellmann et al. (2021) find that angels and venture capitalists are dynamic substitutes across financing rounds, with fewer transitions between the angel and VC streams than is traditionally assumed, in a sample of start-ups from British Columbia.",
+      "frase_slide": "Angels and VCs are dynamic substitutes: few start-ups move between the two streams (Hellmann et al., 2021)",
+      "forza": "shows",
+      "numero_chiave": "469 start-ups funded in British Columbia, 1995-2009 (sample size)",
+      "limiti_vs_noi": "Canadian (British Columbia) sample, 1995-2009, small N, with government tax credits for angels; not US PitchBook startups of 2012-2019. The authors flag that results may not carry over to other ecosystems such as Silicon Valley.",
+      "note": "The tesi frames the question (substitutes or complements); the txt answers it with substitutes. The txt covers financing across rounds in general, not only the earliest stage. Co-cited with hellmann2015: judged only on this source."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id_fonte": "mize2019",
+  "tipo_studio": "methods",
+  "dati_metodo": "Methodological synthesis with worked examples (GSS-type survey data) on nonlinear interaction effects in linear and binary logit/probit models; recommends marginal effects and second differences.",
+  "righe": [
+    {
+      "riga": "4.1__mize2019",
+      "firma": "1b526b4427",
+      "esito": "usabile",
+      "estrazione": "Mize advises that, for nonlinear models such as logit, the size and significance of interaction effects be judged with marginal effects and tests of second differences, plotting predictions, and ignoring the product-term coefficient. Absent specific values of interest, average marginal effects summarise whether an interaction is present on average. This matches the tesi that nonlinear interactions are best estimated and shown with marginal effects.",
+      "citazione": "Determine the size and significance of the effects of interest using marginal effects, not regression coefficients.",
+      "posizione": "Summary of Recommendations, item 4 (p. 112)",
+      "frase_paper": "Mize (2019) recommends that, in nonlinear models such as logit, interaction effects be assessed and presented through marginal effects and tests of second differences rather than through the product-term coefficient.",
+      "frase_slide": "In logit models, judge interactions with marginal effects, not the product-term coefficient (Mize, 2019)",
+      "forza": "shows",
+      "numero_chiave": "50 of 53 ASR articles (2004-2016) on nonlinear interactions relied only on the product-term coefficient",
+      "limiti_vs_noi": "Sociology-oriented guidance with survey examples; not specific to startup/VC data or to exit outcomes. It is a methods recommendation, not a finding about our data.",
+      "note": "Tesi is a methods recommendation; the txt states it explicitly as best practice (also: plot predictions, second differences, average marginal effects)."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id_fonte": "inderst2004",
+  "tipo_studio": "theory",
+  "dati_metodo": "Equilibrium model of contracting, Nash bargaining and search between entrepreneurs and venture capitalists; short- and long-run comparative statics in capital market competition; no own data.",
+  "righe": [
+    {
+      "riga": "2.3__inderst2004",
+      "firma": "9e650128fb",
+      "esito": "da riformulare",
+      "estrazione": "In the model, more capital market competition (more venture capitalists relative to entrepreneurs) raises the entrepreneur's outside option and shifts bargaining in favour of the entrepreneur, lowering the VC's equity share. Pre-money and post-money valuations are therefore increasing in competition (Proposition 2). The total value created in the start-up is first increasing and then decreasing in competition, so 'start-up values' in general do not rise monotonically. The result is a theoretical prediction, not an empirical finding.",
+      "citazione": "Both the pre-money valuation and the post-money valuation are increasing in the level of capital market competition",
+      "posizione": "Section 3.2, Proposition 2",
+      "frase_paper": "Inderst and Mueller (2004) model that greater capital market competition shifts bargaining power towards entrepreneurs, lowers the VC's equity share and raises pre- and post-money valuations.",
+      "frase_slide": "In theory, more competition for deals shifts bargaining to entrepreneurs and raises valuations (Inderst & Mueller, 2004)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Theory without data; the prediction concerns valuations (pre- and post-money), not total start-up value, which is non-monotonic in competition. Not about exit or round timing.",
+      "note": "Tesi says 'raises start-up values': the txt supports valuations (Prop. 2), while total value created is first increasing then decreasing in competition. 'Abundant capital' is modelled as the ratio of VCs to entrepreneurs; the first part (lower investor bargaining power) is supported. Wording must shrink to valuations."
+    }
+  ]
+}

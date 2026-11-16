@@ -1,0 +1,63 @@
+{
+  "id_fonte": "kaplan2003",
+  "tipo_studio": "empirical",
+  "dati_metodo": "213 VC financing rounds in 119 portfolio companies from 14 VC partnerships (US, rounds Dec 1986 to Apr 1999); descriptive analysis and regressions on contract terms (cash flow, control, liquidation rights, staging), compared with financial contracting theory",
+  "righe": [
+    {
+      "riga": "2.1__kaplan2003",
+      "firma": "cc33ecc4bf",
+      "esito": "usabile",
+      "estrazione": "The paper finds that cash flow rights and control rights in VC contracts can be separated and made contingent on observable and verifiable measures of performance. It also reports that VC-controlled ventures are more likely to make the entrepreneur's equity claim and the release of committed funds contingent on performance milestones. The contingency is on performance measures and milestones, in a sample of 213 rounds.",
+      "citazione": "cash flow rights and control rights can be separated and made contingent on observable and verifiable measures of performance",
+      "posizione": "Introduction (p. 282)",
+      "frase_paper": "Kaplan and Strömberg (2003) show, in 213 VC financing rounds, that cash flow and control rights can be separated and made contingent on observable and verifiable measures of performance, including milestones.",
+      "frase_slide": "VC contracts make cash-flow and control rights contingent on observable performance (Kaplan & Strömberg, 2003)",
+      "forza": "shows",
+      "numero_chiave": "213 VC financing rounds in 119 portfolio companies, 14 VC partnerships",
+      "limiti_vs_noi": "Contracts of 14 VC firms, rounds 1986-1999, not our PitchBook 2012-2019 sample; contract terms are not observed in our data.",
+      "note": "The txt speaks mainly of performance measures; the word milestones appears for equity claims and release of funds. Wording 'observable milestones' is slightly narrower than the txt."
+    },
+    {
+      "riga": "2.4__kaplan2003",
+      "firma": "a1ffe1e85b",
+      "esito": "da riformulare",
+      "estrazione": "The txt says that within a round (ex ante staging) part of the committed funding is contingent on financial or non-financial performance milestones. Between-round staging is analysed through the time until the next round, explained by repeat entrepreneur and industry variables, not by milestones. A new financing round is defined as differing from the contingent release of funds, because its price and terms are not set in advance.",
+      "citazione": "In an ex ante staged deal, part of the VC's committed funding is contingent on financial or non-financial performance milestones.",
+      "posizione": "Section on liquidation rights and staging (p. ~300), text before footnote 24",
+      "frase_paper": "Kaplan and Strömberg (2003) show that within a financing round part of the VC's committed funding, and some contract rights, are contingent on performance milestones, whereas the timing of the next round is not shown to depend on milestones.",
+      "frase_slide": "Within a round, part of committed VC funds is released on milestones (Kaplan & Strömberg, 2003)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Milestone contingency is within the round contract; our data observe whole rounds and the gap between them, not contract milestones.",
+      "note": "The tesi says rounds themselves are tied to milestones. The txt ties the release of funds within a round to milestones, and explicitly distinguishes a new round from the contingent release of funds (footnote 4)."
+    },
+    {
+      "riga": "5.3__kaplan2003",
+      "firma": "9de25a9e20",
+      "esito": "da riformulare",
+      "estrazione": "The tesi is a pointer to the milestone view of section 2.4, not a full claim. The txt supports a narrower version: within-round release of committed funds is contingent on milestones. It does not link the time between rounds or the timing of a second round to milestones; between-round timing is explained by repeat-entrepreneur and industry variables.",
+      "citazione": "In an ex ante staged deal, part of the VC's committed funding is contingent on financial or non-financial performance milestones.",
+      "posizione": "Section on liquidation rights and staging (p. ~300), text before footnote 24",
+      "frase_paper": "Kaplan and Strömberg (2003) show that within a round part of the committed funding is contingent on performance milestones; they do not tie the time between rounds to milestones.",
+      "frase_slide": "Funds within a round are released on milestones; round timing is not tied to them (Kaplan & Strömberg, 2003)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Contract-level evidence on 213 rounds of 14 VCs, 1986-1999; says nothing on the gap between rounds as a signal.",
+      "note": "Judged as the milestone view of 2.4 (rounds tied to milestones). It holds only in the narrower within-round form."
+    },
+    {
+      "riga": "5.5__kaplan2003",
+      "firma": "c57f282da5",
+      "esito": "usabile",
+      "estrazione": "The txt describes ex ante staging, where part of the VC's committed funding in a round is contingent on financial or non-financial performance milestones, giving the VC the right to liquidate in the bad state. It also shows that VC control goes with commitments with a large fraction contingent on milestones.",
+      "citazione": "In an ex ante staged deal, part of the VC's committed funding is contingent on financial or non-financial performance milestones.",
+      "posizione": "Section on liquidation rights and staging (p. ~300), text before footnote 24",
+      "frase_paper": "Kaplan and Strömberg (2003) describe ex ante staging, in which part of the committed VC funding within a round is contingent on performance milestones.",
+      "frase_slide": "Part of committed VC funding is contingent on performance milestones (Kaplan & Strömberg, 2003)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Contract data on 213 rounds, 1986-1999; milestone staging is not observed in PitchBook.",
+      "note": "Judged only for Kaplan and Strömberg; the co-cited Gompers (1995) is not assessed here. The txt itself reports Gompers (1995) on ex post staging only as others' work."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id_fonte": "kerrnanda2014",
+  "tipo_studio": "review",
+  "dati_metodo": "Conceptual essay (Journal of Economic Perspectives) with a numerical example, anecdotes (Google, Airbnb, Terrapower) and summaries of other studies; no original estimation on a sample.",
+  "righe": [
+    {
+      "riga": "2.1__kerrnanda2014",
+      "firma": "f5f89ebcf0",
+      "esito": "usabile",
+      "estrazione": "The paper argues that entrepreneurship is fundamentally about experimentation because the knowledge needed to succeed cannot be known in advance. It also argues that technological change has sharply lowered the cost of running experiments, especially in software and internet firms. This widens the funding sources beyond traditional VCs and lets startups that would not have been funded before (for example young, first-time founders) receive financing. Staged VC financing is described as the way investors respond to this uncertainty.",
+      "citazione": "The lower costs associated with initial experiments implies that those with pools of capital smaller than typical venture capitalists can more easily become involved in these financing decisions.",
+      "posizione": "Frictions for the Process of Experimentation: Costs of Experiments",
+      "frase_paper": "Kerr et al. (2014) argue that entrepreneurship is a process of experimentation and that lower costs of running experiments widen who finances early-stage startups, including startups that would previously not have been funded.",
+      "frase_slide": "Cheaper experiments widen who funds early startups and which ones get funded (Kerr et al., 2014)",
+      "forza": "shows",
+      "numero_chiave": "Firms that would have cost $5 million to set up a decade ago can be done for under $50,000 today (industry observers cited by the authors).",
+      "limiti_vs_noi": "Conceptual essay with anecdotes, no estimation; the cost decline is described mainly for software and internet firms; the figure is attributed to industry observers, not measured; it does not study the time between rounds or exit.",
+      "note": "Shared tesi with ewens2018: this source supports both parts (experimentation framing; cheaper experimentation changes early funding), but the evidence is argument and examples. The claim on startups previously unfunded rests partly on Ewens, Nanda and Rhodes-Kropf (2014), reported by the authors."
+    }
+  ]
+}

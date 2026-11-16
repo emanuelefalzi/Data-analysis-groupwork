@@ -1,0 +1,21 @@
+{
+  "id_fonte": "lerner2020",
+  "tipo_studio": "review",
+  "dati_metodo": "Journal of Economic Perspectives overview of the US venture capital industry, 1985-2019, using NVCA yearbook aggregates, patent data 2008-2017 and prior literature; no own model or regression on exits.",
+  "righe": [
+    {
+      "riga": "2.5__lerner2020",
+      "firma": "04b9c8db16",
+      "esito": "non usabile",
+      "estrazione": "The txt does not report exit rates by industry and does not say that industries differ permanently in exits or specialisation. It only remarks in passing that firms in different industries mature at very different speeds, which is why fixed fund lives are puzzling. Its sector evidence shows VC dollar shares shifting over time (hardware to software), i.e. the sector mix changes, not that it is permanent.",
+      "citazione": "there is tremendous variation in the maturation of firms in different industries.",
+      "posizione": "Section on fund structure (ten-year fund life)",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "mentions",
+      "numero_chiave": "",
+      "limiti_vs_noi": "",
+      "note": "Compound tesi (exit rates; specialisation): neither part is supported; the exit-rate part has no support at all and the specialisation part is only about shifting sector shares and VC firms' focus. Co-cited with gompers2009, which is not judged here."
+    }
+  ]
+}

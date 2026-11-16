@@ -1,0 +1,49 @@
+{
+  "id_fonte": "howell2020",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US VC deals 1976-2017 (Refinitiv VentureXpert) matched to all US patents; panel regressions of deal volume and patent quality on NBER recession months; plus COVID-19 early look with PitchBook and CB Insights deal counts (March-April 2020)",
+  "righe": [
+    {
+      "riga": "2.3__howell2020",
+      "firma": "7b2dde0502",
+      "esito": "usabile",
+      "estrazione": "Using monthly Refinitiv data on US VC deals, the paper shows that early-stage investment falls sharply in NBER recessions, far more than later-stage investment, for dollar volume, number of deals and deal size. Early-stage dollars fall by 39% and deal counts by 33%, while later-stage activity shows no measurable relationship with recessions. The COVID-19 episode shows the same pattern (early-stage deals down about 38%).",
+      "citazione": "Investments in early-stage transactions fall off sharply in recessions, far more so than later-stage ones.",
+      "posizione": "4.1 The impact of earlier recessions on venture investment",
+      "frase_paper": "Howell et al. (2020) find that early-stage VC investment falls sharply in NBER recessions between 1976 and 2017, far more than later-stage investment, which shows no measurable relationship with recessions.",
+      "frase_slide": "Early-stage VC drops sharply in recessions, later-stage barely moves (Howell et al., 2020)",
+      "forza": "shows",
+      "numero_chiave": "In recessions early-stage VC dollars fall by 39% and the number of early-stage deals by 33% (Table 1, Panel A, columns 1 and 4)",
+      "limiti_vs_noi": "Recessions (NBER peak to trough) over 1976-2017, deal-level volume not startup outcomes; our sample is 2012-2019 with no recession and hype is a sector share of VC dollars, not a downturn indicator.",
+      "note": "'Falls most' is read as relative to later-stage; the txt states the difference is statistically significant. Association, not causal."
+    },
+    {
+      "riga": "5.5__howell2020",
+      "firma": "485e4cb1e9",
+      "esito": "non usabile",
+      "estrazione": "The paper does not study follow-on funding of individual startups. Its capital-supply evidence is about patent quality: startups that raised their latest round just before a recession (more runway) are less affected, which the authors say supports a capital-supply story. Capital supply is also one of several mechanisms said to be at play; the follow-on funding logic is attributed to Nanda and Rhodes-Kropf (2017) and Townsend (2015), not shown here.",
+      "citazione": "In sum, this exercise supports the capital supply story.",
+      "posizione": "4.4.2 Supply of capital vs. demand",
+      "frase_paper": "",
+      "frase_slide": "",
+      "forza": "mentions",
+      "numero_chiave": "",
+      "limiti_vs_noi": "Outcome is patent quality of VC-backed firms, not probability of a second round or exit.",
+      "note": "Closest supportable claim: timing of the last round matters for patent quality in recessions, consistent with capital supply (Table 11). Follow-on funding itself is only theorised via others' work."
+    },
+    {
+      "riga": "6.4__howell2020",
+      "firma": "8ff531073e",
+      "esito": "da riformulare",
+      "estrazione": "The paper shows that VC deal activity is strongly pro-cyclical: it falls in recessions, especially early-stage. On whether the cause is supply, it is more cautious: all forces (investment opportunities, entrepreneurs' human capital, supply frictions) are likely at play, and the early-stage concentration and the fundraising-timing test are said to suggest or support a capital-supply friction. In the COVID-19 episode the authors argue supply was not constrained.",
+      "citazione": "All of these forces are likely at play, to a greater or lesser extent, in recessions.",
+      "posizione": "1 Introduction",
+      "frase_paper": "Howell et al. (2020) show that VC deal activity falls in recessions, especially at the early stage, and argue that frictions in the supply of capital are a likely, though not the only, mechanism.",
+      "frase_slide": "VC activity falls in recessions; supply frictions are a likely, not sole, channel (Howell et al., 2020)",
+      "forza": "shows",
+      "numero_chiave": "Early-stage VC deals down about 38% in the two months from 4 March 2020 vs the previous four months",
+      "limiti_vs_noi": "Recession and COVID-19 shocks, not within-sector hype variation in a boom period; patent-quality tests, no startup exit outcomes.",
+      "note": "Compound tesi: 'follows the economy down' is shown; 'supply-side variation' is only suggestive and one of several mechanisms, which decided the esito."
+    }
+  ]
+}

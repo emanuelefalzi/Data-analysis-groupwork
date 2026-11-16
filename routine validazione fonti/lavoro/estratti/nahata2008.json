@@ -1,0 +1,21 @@
+{
+  "id_fonte": "nahata2008",
+  "tipo_studio": "empirical",
+  "dati_metodo": "VC-backed US companies first funded 1991-2001, exits tracked to 2005/2006; probit/logit, multinomial logit and Cox hazard models comparing several VC reputation measures, with a Heckman-type selection correction.",
+  "righe": [
+    {
+      "riga": "2.5__nahata2008",
+      "firma": "3548f2e9bb",
+      "esito": "da riformulare",
+      "estrazione": "The paper proposes a new reputation measure, the VC's cumulative IPO market capitalization share, and finds that companies backed by VCs ranking high on it are more likely to exit successfully, reach public markets faster and have higher asset productivity at IPO. Other reputation or experience measures (age, cumulative investment, number of rounds, connectedness) do not emerge as consistent predictors of company performance. So the support is for one specific measure and for specific outcomes, not for reputation in general.",
+      "citazione": "successfully, access public markets faster, and have higher asset productivity at IPOs.",
+      "posizione": "Abstract",
+      "frase_paper": "Nahata (2008) finds that, in US VC-backed companies first funded in 1991-2001, those backed by VCs with a higher cumulative IPO capitalization share are more likely to exit successfully, reach public markets faster and have higher asset productivity at IPO, while other measures of VC reputation or experience are not consistent predictors.",
+      "frase_slide": "Companies backed by VCs with high IPO capitalization share exit more often and faster (Nahata, 2008)",
+      "forza": "shows",
+      "numero_chiave": "",
+      "limiti_vs_noi": "US VC-backed companies first funded 1991-2001, not 2012-2019; reputation is measured by IPO market capitalization share of the lead VC, and performance centres on IPO exits and IPO asset productivity; our outcome is any exit within five years and we do not measure VC reputation.",
+      "note": "The tesi says generic VC reputation goes with better performance; the paper says only its IPO-capitalization-share measure is a consistent predictor and the other candidate measures are not. 'Better investment performance' is also wider than the outcomes tested (exit, time to IPO, asset productivity). Association wording is fine; the paper itself discusses selection plus value-added."
+    }
+  ]
+}

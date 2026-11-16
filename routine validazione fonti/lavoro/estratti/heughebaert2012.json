@@ -1,0 +1,21 @@
+{
+  "id_fonte": "heughebaert2012",
+  "tipo_studio": "empirical",
+  "dati_metodo": "362 VC investment rounds in 180 Belgian investee firms, first rounds 1988-2009; log-linear OLS of premoney valuations on VC firm type with controls, plus Heckman selection correction and probit checks",
+  "righe": [
+    {
+      "riga": "2.4__heughebaert2012",
+      "firma": "d69c18c041",
+      "esito": "da riformulare",
+      "estrazione": "The paper hypothesises that VC firm types with more bargaining power vis-a-vis the entrepreneur negotiate lower valuations than types with less. In its Belgian sample, university and government VC firms (classed as higher bargaining power) value firms lower than independent VC firms, while captive VC firms do not differ. Bargaining power is attributed by VC type, not measured directly, and the lower valuations are read as consistent with the bargaining power argument. The result covers specific types, not investors with more bargaining power in general.",
+      "citazione": "Consistent with this hypothesis, university and government VC firms, which have comparatively greater bargaining power, negotiate lower valuations compared with independent VC firms.",
+      "posizione": "Abstract",
+      "frase_paper": "Heughebaert and Manigart (2012) find that, in a sample of Belgian VC investment rounds, university and government VC firms, which they classify as having greater bargaining power, negotiate lower valuations than independent VC firms, while captive VC firms do not differ.",
+      "frase_slide": "University and government VCs, seen as stronger bargainers, negotiate lower valuations than independent VCs (Heughebaert & Manigart, 2012)",
+      "forza": "shows",
+      "numero_chiave": "362 investment rounds in 180 Belgian investee firms",
+      "limiti_vs_noi": "Belgian firms, first rounds 1988-2009, only 362 rounds; compares VC firm types (university, government, captive vs independent), not US PitchBook startups in 2012-2019; the outcome is premoney valuation, not exit.",
+      "note": "The tesi is stated as a general rule; the txt supports it only for university and government VC firms versus independent ones. Captive VC firms, also hypothesised to have more bargaining power in part, show no difference. Bargaining power is inferred from type, so the finding is consistent with, not a direct test of, the mechanism."
+    }
+  ]
+}

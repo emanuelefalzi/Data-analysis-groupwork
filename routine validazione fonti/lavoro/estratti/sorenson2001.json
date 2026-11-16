@@ -1,0 +1,21 @@
+{
+  "id_fonte": "sorenson2001",
+  "tipo_studio": "empirical",
+  "dati_metodo": "US VC investments 1986-1998; matched sample of realized and potential VC-target ties (80,406 cases, 1,025 VC firms); rare-events logit of tie formation on geographic and industry distance",
+  "righe": [
+    {
+      "riga": "2.5__sorenson2001",
+      "firma": "1c6662cd81",
+      "esito": "usabile",
+      "estrazione": "In US VC data for 1986-1998, the likelihood that a VC invests in a target declines sharply with the geographic distance between them, so VC investing is local. For example, VCs invest in companies 10 miles from their offices at twice the rate of companies 100 miles away.",
+      "citazione": "venture capitalists invest in companies 10 miles from their offices at twice the rate of ones situated 100 miles away",
+      "posizione": "Results, discussion of Figure 5 (after the rare event logit models)",
+      "frase_paper": "Sorenson and Stuart (2001) show that the likelihood that a venture capitalist invests in a new venture declines sharply with the distance between them, in US VC data for 1986-1998.",
+      "frase_slide": "VC investing is local: likelihood falls sharply with distance (Sorenson & Stuart, 2001)",
+      "forza": "shows",
+      "numero_chiave": "About 2x: VCs invest at twice the rate in companies 10 miles away vs 100 miles away",
+      "limiti_vs_noi": "Period 1986-1998, not 2012-2019; matched sample of ties, not a startup-level exit outcome; tests investment location, not exit or round timing.",
+      "note": "Co-cited with chen2010; this row judges only Sorenson & Stuart. The matched-sample design warrants caution on magnitudes (the paper says so), but the direction is shown."
+    }
+  ]
+}

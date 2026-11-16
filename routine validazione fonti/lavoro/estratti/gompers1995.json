@@ -1,0 +1,77 @@
+{
+ "id_fonte": "gompers1995",
+ "tipo_studio": "empirical",
+ "dati_metodo": "Random sample of 794 US venture capital-backed firms, 1961-1992 (Venture Economics); Weibull duration regressions, Poisson regressions for number of rounds, agency-cost theory predictions.",
+ "righe": [
+  {
+   "riga": "1__gompers1995",
+   "firma": "6048da2022",
+   "esito": "usabile",
+   "estrazione": "Gompers derives from agency theory that funding duration, and hence monitoring intensity, should fall as expected agency costs rise, and tests this with industry proxies (tangibility, market-to-book, R&D) in Weibull duration regressions. Poisson regressions show that firms that go public receive more rounds than firms that remain private, while acquired or bankrupt firms do not receive more rounds than private ones. Results are associations in a sample of 794 firms.",
+   "citazione": "Firms that go public receive more financing rounds than those that remain private, while firms that are acquired or go bankrupt do not receive more rounds on average than those that remain private.",
+   "posizione": "III.B. Total Venture Financing and Number of Rounds (Table VII)",
+   "frase_paper": "Gompers (1995) finds that financing rounds are shorter where proxies for expected agency costs are higher, and that firms that go public receive more rounds than firms that stay private, in a sample of 794 US venture-backed firms (1961-1992).",
+   "frase_slide": "Rounds are shorter when agency costs are higher; IPO firms get more rounds (Gompers, 1995)",
+   "forza": "shows",
+   "numero_chiave": "794 venture capital-backed firms, 1961-1992 (sample size)",
+   "limiti_vs_noi": "US-only 1961-1992 (Venture Economics), not 2012-2019; duration measured with industry-level proxies, not firm risk; outcomes include IPO, merger, bankruptcy; no exit-within-five-years window.",
+   "note": "Compound tesi; both parts supported. Expected agency costs are proxied at industry level, not measured per venture. The 'more rounds' result is relative to firms still private, not to acquired or bankrupt firms."
+  },
+  {
+   "riga": "2.1__gompers1995",
+   "firma": "b2dbc6ffe5",
+   "esito": "usabile",
+   "estrazione": "Gompers argues that staged financing lets the VC gather information, monitor and keep the option to abandon the project. In Weibull regressions, duration falls as the industry tangible-assets ratio falls, as market-to-book rises and as R&D intensity rises, each significant between the 7% and 1% levels. When all three are included together, tangibility stays most significant, market-to-book drops out completely and R&D is weaker.",
+   "citazione": "In Panel A, financing duration declines with decreases in the industry ratio of tangible assets to total assets, increases in the market-to-book ratio, and greater R&D intensity.",
+   "posizione": "III.A. The Duration and Size of Financing Rounds (Table VI)",
+   "frase_paper": "Gompers (1995) finds that staged financing works as a monitoring device: round duration is shorter in industries with less tangible assets, higher market-to-book ratios and higher R&D intensity, although market-to-book loses significance when all three are entered together.",
+   "frase_slide": "Staging as monitoring: rounds shorter with intangible assets, high R&D, high market-to-book (Gompers, 1995)",
+   "forza": "shows",
+   "numero_chiave": "coefficients significant between the 7% and 1% levels (Table VI, Panel A)",
+   "limiti_vs_noi": "US-only 1961-1992 (Venture Economics), not 2012-2019; duration measured with industry-level proxies, not firm risk; outcomes include IPO, merger, bankruptcy; no exit-within-five-years window.",
+   "note": "Supported as worded in single-proxy regressions; in the joint regression market-to-book drops out and R&D weakens. Proxies are industry-level."
+  },
+  {
+   "riga": "5.5__gompers1995",
+   "firma": "0479ae6c08",
+   "esito": "da riformulare",
+   "estrazione": "The txt shows shorter rounds where expected agency costs are higher, proxied by less tangible assets, higher market-to-book and higher R&D intensity at industry level. It does not test venture risk as such, nor monitoring difficulty: Section IV says the cost of monitoring may matter and leaves it to future work. The word 'high-risk' appears only in general description of VC projects.",
+   "citazione": "The duration of funding and hence the intensity of monitoring should be negatively related to expected agency costs.",
+   "posizione": "Introduction",
+   "frase_paper": "Gompers (1995) finds that financing rounds are shorter in industries where proxies for expected agency costs are higher (less tangible assets, higher market-to-book, higher R&D intensity).",
+   "frase_slide": "Rounds are shorter where expected agency costs are higher (Gompers, 1995)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "US-only 1961-1992 (Venture Economics), not 2012-2019; duration measured with industry-level proxies, not firm risk; outcomes include IPO, merger, bankruptcy; no exit-within-five-years window.",
+   "note": "Shared tesi with tian2011: judged only for this source. 'Riskier' and 'harder to monitor' go beyond what the txt tests; only expected agency costs are supported."
+  },
+  {
+   "riga": "5.5__gompers1995__2",
+   "firma": "c57f282da5",
+   "esito": "non usabile",
+   "estrazione": "Milestones appear only as an alternative explanation: high-technology firms may pass through more milestones, which would make short durations a technology effect rather than agency-driven monitoring. Gompers reruns the regressions within high and low technology groups and finds the asset-measure coefficients surprisingly similar, so the milestone alternative is not supported as the explanation. The paper's own account is agency and monitoring, not milestone staging.",
+   "citazione": "It is impossible to reject the hypothesis that the coefficients for the tangibility of assets, market-to-book ratio, and the R&D intensity are equal across types of industries.",
+   "posizione": "IV. Alternative Explanations",
+   "frase_paper": "",
+   "frase_slide": "",
+   "forza": "",
+   "numero_chiave": "",
+   "limiti_vs_noi": "US-only 1961-1992 (Venture Economics), not 2012-2019; duration measured with industry-level proxies, not firm risk; outcomes include IPO, merger, bankruptcy; no exit-within-five-years window.",
+   "note": "Shared tesi with kaplan2003. The tesi 'milestone staging' is not what this txt argues; it treats technology-driven milestones as a rival hypothesis that its tests do not favour."
+  },
+  {
+   "riga": "6.1__gompers1995",
+   "firma": "c173ddaeef",
+   "esito": "da riformulare",
+   "estrazione": "The txt argues that VCs weigh potential agency and monitoring costs when deciding how often to re-evaluate a project and supply capital, so duration should fall with expected agency costs. Empirically it supports the agency-cost side through industry proxies. Monitoring costs are not measured, and venture risk is not a variable; the paper leaves the importance of monitoring costs to future work.",
+   "citazione": "Venture capitalists weigh potential agency and monitoring costs when determining how frequently they should reevaluate projects and supply capital.",
+   "posizione": "Introduction",
+   "frase_paper": "Gompers (1995) argues that venture capitalists set how often they re-evaluate and refinance a project by weighing expected agency and monitoring costs, and finds shorter rounds where proxies for agency costs are higher.",
+   "frase_slide": "VCs choose round timing by weighing agency and monitoring costs (Gompers, 1995)",
+   "forza": "assumes",
+   "numero_chiave": "",
+   "limiti_vs_noi": "US-only 1961-1992 (Venture Economics), not 2012-2019; duration measured with industry-level proxies, not firm risk; outcomes include IPO, merger, bankruptcy; no exit-within-five-years window.",
+   "note": "Shared tesi with tian2011: judged only for this source. 'Risk' is not a stated determinant in the txt; the monitoring-cost part is theory only, not tested."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id_fonte": "ewens2022",
+ "tipo_studio": "empirical",
+ "dati_metodo": "About 1,695-2,581 first-round US VC contracts (2002-2015 sample), dynamic search-and-matching structural model estimated with selection correction",
+ "righe": [
+  {
+   "riga": "2.4__ewens2022",
+   "firma": "99d254ba6a",
+   "esito": "non usabile",
+   "estrazione": "The txt does not model or show investors trading valuation against contract terms. It shows (structural search-and-matching model) that higher-quality VCs offer more investor-friendly terms, which lower firm value, but the entrepreneur accepts them because VC quality raises startup value: the trade is terms versus VC quality. On valuation, it only says post-money valuation is a poor metric of firm value because it ignores terms other than the equity share, and proposes a term-adjusted valuation (about 15.7% lower in one example).",
+   "citazione": "startup’s value increases with VC quality, and this value",
+   "posizione": "5.2.5 Deviations from common equity split",
+   "frase_paper": "",
+   "frase_slide": "",
+   "forza": "",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Seed/first-round contracts 2002-2015, structural model; no round-to-round valuation step.",
+   "note": "The tesi is not contradicted but not supported: no passage says valuation is traded against terms. Closest points: terms traded against VC quality; post-money valuation ignores terms (Metrick and Yasuda 2010 and Gornall and Strebulaev 2020 are cited for this, the txt reuses it). A possible narrower tesi: post-money valuation is a poor measure of firm value when contract terms differ."
+  },
+  {
+   "riga": "5.6__ewens2022",
+   "firma": "19bf371b38",
+   "esito": "non usabile",
+   "estrazione": "The txt does not model or show investors trading valuation against contract terms. It shows (structural search-and-matching model) that higher-quality VCs offer more investor-friendly terms, which lower firm value, but the entrepreneur accepts them because VC quality raises startup value: the trade is terms versus VC quality. On valuation, it only says post-money valuation is a poor metric of firm value because it ignores terms other than the equity share, and proposes a term-adjusted valuation (about 15.7% lower in one example).",
+   "citazione": "startup’s value increases with VC quality, and this value",
+   "posizione": "5.2.5 Deviations from common equity split",
+   "frase_paper": "",
+   "frase_slide": "",
+   "forza": "",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Seed/first-round contracts 2002-2015, structural model; no round-to-round valuation step.",
+   "note": "The tesi is not contradicted but not supported: no passage says valuation is traded against terms. Closest points: terms traded against VC quality; post-money valuation ignores terms (Metrick and Yasuda 2010 and Gornall and Strebulaev 2020 are cited for this, the txt reuses it). A possible narrower tesi: post-money valuation is a poor measure of firm value when contract terms differ."
+  }
+ ]
+}
