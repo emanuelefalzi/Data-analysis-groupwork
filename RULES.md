@@ -26,6 +26,13 @@ Research question: *is the time between the first and the second VC round associ
 - **Long texts.** For long documents (the paper, the log, literature PDFs) use NotebookLM or scripts that write their output to files, instead of loading the whole text into Claude's context.
 - **Subagents** run on the Sonnet model unless the user says otherwise. Pass `model: "sonnet"` explicitly in every subagent call, even when an agent definition with `model: sonnet` exists: definitions in a subfolder's `.claude/agents/` (e.g. `skill-redigere essay/`) are not loaded when the session starts from the repo root, and a generic subagent inherits the session's model.
 
+## Changes to `scaletta.md` (decided by Lele, 16/11/2026)
+- `scaletta.md` is the group's reference document. **Anyone may edit it**, members and their Claudes.
+- **Every change is logged** as one row in `registers/changelog.md`, in the same commit as the change: date, who (the member's name; "Claude for X" if an AI made it), section, what changed (old → new, or a short summary for long edits), why (decision, open point or result it rests on).
+- The commit message names the member and the section, e.g. `scaletta 2.3: rewrite point 3 (Lele)`.
+- A change that touches a decision in *Decisions already taken* still needs group agreement first (see above); the changelog does not replace it.
+- The same rule applies to `glossary.md` and to the registers.
+
 ## Git
 - Everyone works **on `main`**: no branches or worktrees. Commit and push straight to `main`. GitHub is only the shared source between people and AIs.
 - Several people push to the same branch, so: `git pull --rebase` **before starting** and **before every push**; make small commits with clear messages; push right after committing.
@@ -45,7 +52,9 @@ Research question: *is the time between the first and the second VC round associ
 | `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
 | `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |
 | `5. paper e documentazione di percorso/main_important_stuff_ig.docx` | Early notes on cleaning, variables and literature for the pitch | Partly outdated |
-| `registers/` | Results register, inferences register, open points | Kept up to date |
+| `scaletta.md` | Reference outline (v1, 16/11/2026): content, sources and numbers for paper v5 and the slide outline | **Single source of truth.** Every edit logged in `registers/changelog.md` |
+| `glossary.md` | One canonical term per concept | Current (16/11/2026) |
+| `registers/` | Results register, inferences register, open points, changelog | Kept up to date |
 | `slide outline.md` | The deck outline (to be created) | Next task |
 
 **Known inconsistencies.** Do not "fix" them silently; ask before changing code or documents.

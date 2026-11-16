@@ -1,10 +1,12 @@
 # Scaletta — paper (final version) and deck
 
-**Group 21 · 21072 Data Analysis · Bocconi 2026/27 · draft v0, 16/11/2026 (Lele + Claude)**
+**Group 21 · 21072 Data Analysis · Bocconi 2026/27 · v1, 16/11/2026 (Lele + Claude)**
 
 Base: `paper_group21.pdf` v4 (15/11/2026). Sources: the keys of `fonti/fonti.bib` (53 entries, built from `fonti/txt`). Numbers: `regression_analysis.txt` with line number where checked (`log L…`); otherwise "paper Table/Fig. x, to verify".
 
-> **Status: DRAFT for group discussion.** Nothing here is approved. The section titles are the ones in paper v4, plus a new Section 6 *Limitations to causality*, so the old Section 6 becomes Section 7. Everything under **Claude's additions** is a proposal. The group accepts or rejects it.
+> **Status: reference document (v1).** This file is the single source of truth for content, sources and numbers. It serves two uses: the paper v5 and the slide outline (`slide outline.md`), which is derived from it. Anyone in the group may edit it, but **every change must be logged in `registers/changelog.md`** (who, date, what, how, why; see `RULES.md`). Open items are in `registers/open points.md`.
+>
+> Decisions applied in v1 are listed below (D1–D4). Points still marked as Claude's proposals are not approved. The section titles are the ones in paper v4, plus a new Section 6 *Limitations to causality*, so the old Section 6 becomes Section 7. Everything under **Claude's additions** is a proposal. The group accepts or rejects it.
 
 ## How to read this file
 
@@ -33,13 +35,14 @@ Rules that hold throughout (from `RULES.md`):
 | **6** | **Limitations to causality (6.1–6.4)** | **new**, subsections proposed by Claude |
 | 7 | Conclusions and discussion | was 6. Causal extensions move to 6.4 |
 | — | References | generated from `fonti.bib` |
-| — | Glossary | next step (candidate terms at the end of this file) |
+| — | Glossary | `glossary.md` (16/11) |
 
-**Decisions the group has to take before drafting** (they are also in the relevant sections):
-- **D1.** Split between 5.6 and the new 6 (Claude's proposal below), or remove 5.6 and put every limitation in 6.
-- **D2.** Title wording: "Limitations to causality" (as asked) or "Limits to a causal reading". The first is fine as English, the second says more exactly what the section does. [Guessing] on which the prof prefers.
-- **D3.** The home of the valuation-measurement caveats (post-money overstatement, disclosure for about half the sample). They appear three times in v4 (2.4, 5.3, 5.6). Proposal: home in 5.6, one-line pointer in 5.3, mechanism only in 2.4.
-- **D4.** `nanda2017` and `townsend2015` are cited in v4 but are **not** in `fonti/txt`, so they are not in `fonti.bib`. Download them, or rewrite the sentences that rest on them (2.3, 2.5, 5.5, 7).
+**Structural decisions** (decided by Lele on 16/11/2026 unless marked open):
+- **D1. Decided: split.** 5.6 keeps the limits of measurement and inference; Section 6 holds the limits to a causal reading.
+- **D2. Decided:** the title is "Limitations to causality".
+- **D3. Open** (open point 13). The home of the valuation-measurement caveats (post-money overstatement, disclosure for about half the sample). They appear three times in v4 (2.4, 5.3, 5.6). Proposal: home in 5.6, one-line pointer in 5.3, mechanism only in 2.4.
+- **D4. Decided: rewrite.** `nanda2017` and `townsend2015` are not cited. The sentences that rested on them (2.3 points 2–3, 2.5 point 2, 6.4 point 2) now rest on sources in `fonti.bib` or are stated as our own argument.
+- **Sources (16/11).** All 53 "da riformulare" proposals of the source validation are applied. The 11 "non usabile" verdicts were confirmed by a second reader (Sonnet), and each tesi was replaced with a narrower one that the txt supports. `yu2020` is removed.
 
 ---
 
@@ -61,12 +64,11 @@ Rules that hold throughout (from `RULES.md`):
 
 ### Sources
 - `gompers1995`: round duration falls as expected agency costs rise; ventures that go public get more rounds.
-- `tian2011`: more and shorter rounds when the VC is far from the venture; more staging goes with better outcomes.
+- `tian2011`: more and shorter rounds when the VC is far; more rounds go with better IPO outcomes only for distant firms.
 - `gompers2000`: inflows into VC funds raise the prices of private deals.
-- `nanda2013`: startups first funded in hot markets fail more often but are more innovative when they succeed.
+- `nanda2013`: hot-market startups go bankrupt more often; those that IPO are valued higher and patent more.
 - `li2008`: VC round durations respond to uncertainty, as a real-options view predicts.
 - `cochrane2005`, `korteweg2010`: private-firm returns are observed only at financing events, so they are selected upward.
-- ⚠ `nanda2017`, `townsend2015`: cited in v4, not in `fonti.bib` (D4).
 
 ### Guardrails
 - No coefficients, p-values or odds ratios. They belong to 5.1–5.3. Directions only.
@@ -99,7 +101,7 @@ Rules that hold throughout (from `RULES.md`):
 2. **Learning and experimentation**: *Bayesian learning, belief decline, positive signals, experimentation, faster refinancing*
    In learning models each period without good news lowers the investor's belief, so good projects are refinanced sooner. Experimentation accounts agree: early rounds buy information, and fast positive signals bring fast refinancing. A short gap reads as good news.
 3. **Staging as a leash**: *agency costs, monitoring, moral hazard, distance, shorter rounds, risk*
-   A second strand treats round length as the investor's governance choice. Rounds get shorter when agency costs, moral hazard or monitoring costs are higher. Here a short gap marks a risky venture, not a good one: the competing prediction.
+   A second strand treats round length as the investor's governance choice. Rounds get shorter when agency or monitoring costs are higher. Here a short gap marks a risky venture, not a good one: the competing prediction.
 4. **Evidence and the gap we fill**: *number and size of rounds, patents' signalling, information priced by round 2, untested link*
    Evidence links outcomes to the number and size of rounds, rarely to time. Patent signals fade by round 2 because investors already know more. No study we know relates gap to exit while keeping firms that never raised again.
 5. **H1 stated**: *β1 < 0, longer gap, lower exit probability, two-round startups, competing β1 ≥ 0*
@@ -108,15 +110,15 @@ Rules that hold throughout (from `RULES.md`):
 #### Sources
 - `gompers1995`: staging as monitoring; duration falls with intangibility, R&D and market-to-book.
 - `neher1999`: staging solves an agency problem between founder and investor.
-- `cornelli2003`: staging with convertible securities keeps the option to stop.
+- `cornelli2003`: staging gives the VC the option to abandon; convertibles deter window dressing of interim results.
 - `kaplan2003`: VC contracts make cash-flow and control rights depend on observable milestones.
 - `dahiya2012`: staging as a screen that cuts ventures with poor early results.
-- `bergemann2005`: each period without good news lowers the investor's belief.
-- `kerrnanda2014`, `ewens2018`: entrepreneurship as experimentation; cheaper experimentation changes how VC funds early bets.
-- `li2008`: hazard models of round duration in a real-options framework.
-- `wang2004`: staging is worth more when moral hazard and risk are high.
+- `bergemann2005`: each period without success lowers the investor's belief that the project is good (theory).
+- `kerrnanda2014`, `ewens2018`: VC rounds as experiments; cheaper start-up costs led VCs to fund more startups with smaller first cheques.
+- `li2008`: duration model (Weibull AFT, right-censored) of the time between rounds, in a real-options framework.
+- `wang2004`: staging gives the VC an option to quit, worth more the riskier the project (introductory remark, not a model result).
 - `tian2011`: more and shorter rounds when the VC is distant.
-- `hoenen2014`: the signalling value of patents is strong at round 1 and largely gone by round 2.
+- `hoenen2014`: patent *applications* raise round-1 funding but not round-2 funding (US biotech, 2001–2011).
 
 #### Guardrails
 - Failure and survivorship go in 2.2. Hype goes in 2.3.
@@ -147,8 +149,8 @@ Rules that hold throughout (from `RULES.md`):
    H1b: a longer gap is associated with a higher probability of failure within five years among two-round startups. The competing prediction, from survivorship and tolerance for failure, is a negative coefficient on the gap in the failure model.
 
 #### Sources
-- `bergemann2005`, `dahiya2012`: abandonment of stalled ventures.
-- `guler2007`: VC firms keep funding under-performing ventures for political and institutional reasons.
+- `bergemann2005`, `dahiya2012`: abandonment of ventures whose early returns fall short (theory).
+- `guler2007`: VCs become less likely to terminate as rounds accumulate, despite falling expected returns; politics may contribute.
 - `manso2011`: contracts that tolerate early failure are optimal to motivate innovation.
 - `cochrane2005`: VC returns are observed only at financing events, with selection bias.
 - `korteweg2010`: corrects VC risk and return for the selection of observed valuations.
@@ -172,9 +174,9 @@ Rules that hold throughout (from `RULES.md`):
 1. **VC supply moves in cycles**: *fund inflows, deal prices, public-market signals, IPO waves, bargaining power*
    Fund inflows raise private-deal prices. Investment follows public-market signals for an industry. IPOs come in waves. When capital is abundant, competition lowers investors' bargaining power and raises valuations. Hype is therefore a supply condition.
 2. **Hot markets fund different ventures**: *hot-market cohorts, more failure, more innovation, experimental projects, financing risk*
-   Startups first funded in hot markets fail more often but are more innovative and better valued when they succeed. In booms the risk that follow-on money dries up is low, so investors back more experimental projects.
-3. **Cold markets ration follow-on money**: *crash, downturns, early-stage VC falls, supply-driven follow-on, not venture quality*
-   When investors are hit by a crash, their ventures raise less follow-on funding, and early-stage VC falls most in downturns. Follow-on funding depends on capital supply, not only on the venture.
+   Startups first funded in hot markets go bankrupt more often, but those that go public are valued higher and patent more. In hot markets investors fund riskier startups and worry less about follow-on funding.
+3. **Cold markets ration early-stage money**: *recessions, early-stage VC falls, capital supply, our argument on follow-on, not venture quality*
+   Early-stage VC deals fall sharply in recessions. We argue that follow-on funding then depends partly on capital supply, not only on the venture. This last step is our reading, not a literature result.
 4. **H2 (key): speed is cheap in hot markets**: *market component, venture component, gap less informative, β3 > 0*
    The gap mixes a market component with a venture component. If rounds close fast for everyone in hot markets, a slow round warns less there. H2: the negative gap–exit association is weaker in hot markets (β3 > 0).
 5. **Our alternative: signal extraction**: *cold market waits, hot market easy money, gap more informative, β3 < 0, caution*
@@ -182,16 +184,16 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `gompers2000`: fund inflows raise private-equity deal valuations.
-- `gompers2008`: VC investment responds to public-market signals; experienced VCs expand most in hot markets without lower success.
+- `gompers2008`: VC investment responds to industry Q; experienced VCs expand most, with no significant drop in success.
 - `pastor2005`: IPO waves follow market conditions.
-- `inderst2004`: abundant capital lowers investors' bargaining power and raises start-up values.
-- `nanda2013`: hot-market cohorts fail more but innovate more.
+- `inderst2004`: more VC competition shifts bargaining to entrepreneurs and raises valuations (theory).
+- `nanda2013`: pointer to Section 1 (same tesi); in hot markets investors fund riskier startups, worrying less about follow-on.
 - `janeway2021`: review of VC booms and start-up financing.
-- `howell2020`: early-stage VC falls most in downturns.
-- ⚠ `nanda2017` (financing risk), `townsend2015` (2000 crash cut follow-on funding): not in `fonti.bib` (D4). Points 2, 3 and 5 rest partly on them.
+- `howell2020`: early-stage VC deals fall sharply in recessions.
+- D4 (16/11, Lele): `nanda2017` and `townsend2015` are not cited. Points 2 and 3 were rewritten so that they rest only on `nanda2013` and `howell2020` plus our own argument.
 
 #### Guardrails
-- Point 5 is **our argument, not a literature result**. Every sentence must say so ("we argue"). Do not attribute it to Townsend or Howell.
+- Point 5 is **our argument, not a literature result**. Every sentence must say so ("we argue"). Do not attribute it to Howell or to any source.
 - Do not explain the β3 result here. That is 5.5 ("Why hype does not soften the penalty"). Here the alternative is only stated as a prediction, with the same mechanism. 5.5 points back to it.
 - The measurement of hype goes in 3.2.
 
@@ -213,18 +215,18 @@ Rules that hold throughout (from `RULES.md`):
    H3: among two-round startups, a longer gap is associated with a smaller log valuation step, measured as the post-money valuation at round 2 over the post-money valuation at round 1 (θ1 < 0), as the good-news reading predicts.
 3. **Milestones take time and are priced**: *milestone contracts, total progress, longer gap, larger total step, θ1 > 0*
    Rounds are priced on what the venture has achieved. A longer gap leaves more time to achieve it, so the total step can rise with the gap even if value grows more slowly per month (θ1 > 0).
-4. **Prices also reflect terms and bargaining**: *senior preferred, post-money overstates, price–terms trade-off, reputation discount, bargaining power*
-   Post-money valuations overstate fair value because later investors hold senior shares, and investors trade price against terms. Entrepreneurs accept lower prices from reputable VCs. Measured steps mix value with contract and bargaining terms.
+4. **Prices also reflect terms and bargaining**: *senior preferred, post-money overstates, terms ignored, reputation discount, bargaining power*
+   Post-money valuations overstate fair value because later investors hold senior shares, and they ignore contract terms other than the equity share. Entrepreneurs accept lower prices from reputable VCs. Measured steps mix value with contract and bargaining terms.
 5. **Hype enters the valuation model too**: *capital inflows, prices rise, moderation, θ3*
    Prices rise with capital inflows, so hype could move the step directly and change its slope in the gap. This is why the H3 model also includes hype and its interaction with the gap.
 
 #### Sources
 - `cochrane2005`, `korteweg2010`: observed round-to-round returns are selected upward.
-- `kaplan2003`: rounds and contract rights are tied to milestones.
-- `gornall2020`: post-money valuations overstate fair value (by about half on average for unicorns, per v4).
-- `ewens2022`: investors trade valuation against contract terms.
+- `kaplan2003`: within a round, release of committed funds and some rights are contingent on milestones.
+- `gornall2020`: post-money overstates fair value by 48% on average for 135 US unicorns.
+- `ewens2022`: post-money valuation is a poor measure of firm value because it ignores contract terms other than the equity share.
 - `hsu2004`: entrepreneurs accept lower valuations from more reputable VCs.
-- `heughebaert2012`: investor types with more bargaining power negotiate lower prices.
+- `heughebaert2012`: university and government VCs value firms lower than independent VCs (Belgium).
 - `gompers2000`: prices rise with fund inflows.
 
 #### Guardrails
@@ -232,7 +234,7 @@ Rules that hold throughout (from `RULES.md`):
 - No numbers on the step. They are in 5.3.
 
 #### Editorial notes
-- The "about half on average for unicorns" figure is attributed to `gornall2020`. Check it in the txt before keeping it.
+- `gornall2020` figure checked by the source validation: 48% on average for 135 US unicorns. Use this, not "about half".
 
 #### Claude's additions
 - [Likely] Add a sentence that the step is measured in total, not per month. This sets up Figure 19 in 5.3, the result that decides between points 1 and 3.
@@ -244,35 +246,37 @@ Rules that hold throughout (from `RULES.md`):
 #### Content
 1. **Common causes and selection**: *team, deal selection, sorting, investor influence, quality, round-1 timing*
    VCs select mainly on the team, and sorting of better ventures to better investors explains more of outcomes than investor influence. Anything correlated with quality looks predictive, so we control only for variables fixed at round 1.
-2. **Round-1 size**: *runway, financing risk, investor conviction, syndicate quality, smaller experimental cheques*
-   A larger first round buys runway, lowers financing risk and reflects investor conviction and syndicate quality. Cheaper experimentation means small first rounds are often experimental bets. Expected: more exit, less failure, a smaller step.
+2. **Round-1 size**: *runway (our argument), investor conviction, syndicate quality, smaller experimental cheques*
+   We argue that a larger first round buys runway and reflects investor conviction and syndicate quality. Cheaper experimentation means small first rounds are often experimental bets. Expected: more exit, less failure, a smaller step.
 3. **Age and earlier deals at round 1**: *up-or-out, young firms, track record, angel and seed financing, experimentation already funded*
    Young firms grow fast but exit the market often. Older firms at round 1 have survived and have a track record. Earlier deals capture how much experimentation angels or others already financed. Expected: less failure, a smaller step.
 4. **Lead-investor type**: *professionalisation, networks, reputation, monitoring, CVC as acquirer, angel groups, accelerators, grandstanding*
-   Investor types select and add differently. VCs professionalise. Networked and reputable VCs see more exits. CVCs back innovative firms and buy them. Angel groups improve survival. Accelerators resolve uncertainty early. Coefficients mix selection and influence.
+   Investor types select and add differently. VCs professionalise. Networked and reputable VCs see more exits. CVCs back innovative firms and buy them. Angel-funded ventures are more likely to survive. Some accelerators speed up development. Coefficients mix selection and influence.
 5. **Fixed effects and clustering**: *HQ state, sector, year-quarter, geography, industry exit rates, exit windows, sector × year clusters*
-   State FE absorb the local concentration of VC. Sector FE absorb permanent industry differences. Year-quarter FE absorb exit-market windows. SEs are clustered by sector × year of round 1, the level at which hype is assigned.
+   State FE absorb the geographic concentration of VC. Sector FE absorb industry differences in success rates and in how fast firms mature. Year-quarter FE absorb exit-market windows. SEs are clustered by sector × year of round 1, the level at which hype is assigned.
 
 #### Sources
-- `gompers2020`: VCs select deals mainly on the team; selection matters more than value added.
-- `sorensen2007`: sorting explains about twice as much of the outcome difference as influence (per v4).
+- `gompers2020`: VCs rank the team as the top selection factor and see selection as more important than value-add (survey).
+- `sorensen2007`: sorting is almost twice as important as influence for IPO rates (CA and MA, 1982–95).
 - `hochberg2007`: better-networked VCs perform better; their ventures survive to later rounds.
 - `ewens2018`: cheaper experimentation means smaller first cheques to more ventures.
 - `haltiwanger2013`: young firms show an up-or-out pattern.
-- `hellmann2015`, `hellmann2021`: angels and VCs as substitutes or complements in early financing.
+- `hellmann2015`, `hellmann2021`: angels and VCs as sequential investors: friends and foes (theory; dynamic substitutes in BC data).
 - `hellmann2002`: VC backing goes with professionalisation of start-ups.
-- `nahata2008`: VC reputation goes with better investment performance.
+- `nahata2008`: VCs with a higher IPO-capitalisation share go with more successful exits and faster IPOs.
 - `bernstein2016`: closer VC monitoring raises innovation and IPO rates.
 - `chemmanur2014`: CVC-backed firms are more innovative.
-- `ma2020`: CVC invests to source external innovation.
-- `kerrlerner2014`: angel-group funding improves survival and growth (regression discontinuity).
-- `yu2020`, `hallen2020`, `gonzalezuribe2018`: accelerators help ventures resolve uncertainty early.
-- `gompers1996`: young VC firms push for early exits to build reputation (grandstanding).
-- `sorenson2001`, `chen2010`: VC investment is local and falls with distance.
-- `gompers2009`, `lerner2020`: industries differ permanently in exit rates and specialisation.
-- `lerner1994`, `pastor2005`: IPO windows open and close with market conditions.
-- `abadie2023`: cluster at the level at which the regressor is assigned.
-- ⚠ `nanda2017` (runway and financing risk): not in `fonti.bib` (D4).
+- `ma2020`: firms whose internal innovation has declined set up CVC to access startup technology.
+- `kerrlerner2014`: angel funding goes with higher survival and growth just above the threshold (RD); exit is not significant.
+- `hallen2020`: some accelerators speed up venture development. (`yu2020` removed 16/11, Lele; `gonzalezuribe2018` removed: it only reports this idea from others.)
+- `gompers1996`: young VCs take firms public earlier, consistent with grandstanding (IPOs only).
+- `sorenson2001`: VC investment is local and falls with distance.
+- `chen2010`: VC firms and VC-backed companies are heavily concentrated in three metro areas.
+- `gompers2009`: success rates differ across industries, so industry controls are needed.
+- `lerner2020`: firms in different industries mature at very different speeds.
+- `lerner1994`, `pastor2005`: IPOs cluster when market valuations are high (Lerner: biotech; Pástor & Veronesi: theory of IPO waves).
+- `abadie2023`: cluster at the level of treatment assignment, when sampling is not clustered. Applying this to `heat` is our extension (hype is not an assigned treatment); say so.
+- D4 (16/11, Lele): `nanda2017` not cited; point 2 now states runway as our argument.
 
 #### Guardrails
 - Expected signs only, no estimates. Estimates are in 5.1–5.3, and the comparison with the literature is in 5.5 (Table 14).
@@ -408,8 +412,8 @@ Rules that hold throughout (from `RULES.md`):
 #### Sources
 - `ai2003`: in logit and probit the interaction effect is not the interaction coefficient.
 - `mize2019`: best practice is to estimate and show nonlinear interactions with marginal effects.
-- `cameron2008`: with few clusters, cluster-robust p-values are too small; the wild cluster bootstrap fixes this.
-- `abadie2023`: cluster at the level of treatment assignment.
+- `cameron2008`: with few clusters (5–30) cluster-robust tests over-reject; the wild cluster bootstrap-t brings size near 5% (linear models).
+- `abadie2023`: as in 2.5.
 - Course: Hill, Griffiths and Lim (2018) for logit, LPM, interactions and clustered SEs. Not in `fonti.bib`, and the course-brain folder for 21072 does not exist yet (open point 7).
 
 #### Guardrails
@@ -470,7 +474,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `gompers1996`: young lead investors and grandstanding (motivates the young-lead control).
-- `cameron2008`: the reason robust vs clustered SEs is a relevant check.
+- `cameron2008`: SEs that ignore within-cluster correlation can greatly understate the true SEs.
 
 #### Guardrails
 - **No results here.** Every number is in 5.4. This subsection says only *why* each check exists.
@@ -608,7 +612,7 @@ Rules that hold throughout (from `RULES.md`):
 - ⚠ Figure 19 (and its 1.89 / 0.36 medians) is **not produced by the do-file**: no export for it in `rq1_two_group_analysis_v2.do`. Mark it "not in log".
 
 #### Sources
-- `kaplan2003` (pointer only: the milestone view of 2.4).
+- `kaplan2003`: milestones govern release of funds within a round, not the timing of the next round.
 
 #### Guardrails
 - The post-money and disclosure caveats: one-line pointer to 5.6 (D3). Do not repeat `gornall2020` and `ewens2022` here.
@@ -644,8 +648,8 @@ Rules that hold throughout (from `RULES.md`):
 - ⚠ Point 5: "paper §5.4, not in log" (open point 5).
 
 #### Sources
-- `gompers1996`: grandstanding, the prediction our young-lead coefficient contradicts.
-- `cameron2008`: why robust vs clustered SEs matters.
+- `gompers1996`: grandstanding predicts young VCs bring firms to IPO earlier. That our young-lead coefficient goes the other way is our result (R-xx), not the source's claim.
+- `cameron2008`: as in 4.3.
 
 #### Guardrails
 - **"Robust SEs give the same p-value, so the few clusters do not matter" is not a substitute for the wild bootstrap.** That limitation is in 5.6. Here state only the check.
@@ -676,19 +680,22 @@ Rules that hold throughout (from `RULES.md`):
    The strongest exit predictors are visible at round 1: size, age and lead type. Their signs match the literature (Table 14). Following the selection literature, these coefficients mix the selection of better startups with what investors add.
 
 #### Sources
-- `gompers1995`, `tian2011`: short rounds for riskier or harder-to-monitor ventures.
-- `bergemann2005`: uncertainty falls over time; refinancing only after good-enough news.
-- `cochrane2005`, `korteweg2010`: selection at refinancing.
-- `kaplan2003`, `gompers1995`: milestone staging.
-- `gompers2000`, `nanda2013`: the hot-market reading behind H2.
-- `howell2020`: follow-on funding in downturns depends on capital supply.
-- `gompers2008`: hot-market investment by experienced VCs is not less successful; exit depends on public markets.
-- `lerner1994`: IPO timing follows market conditions.
-- `chemmanur2014`, `hochberg2007`, `yu2020`, `kerrlerner2014`, `haltiwanger2013`: control-sign comparisons.
-- `sorensen2007`, `gompers2020`: selection vs influence.
-- `hoenen2014`: information at round 2 is largely priced (Table 14, H1 row).
-- `guler2007`: tolerance for failure (Table 14, H1b row).
-- ⚠ `townsend2015`, `nanda2017`: not in `fonti.bib` (D4).
+- `gompers1995`, `tian2011`: shorter rounds where agency costs are higher (Gompers) or the VC is far, so monitoring is costlier (Tian).
+- `bergemann2005`: uncertainty about the project resolves over time; funding slows as the investor's belief falls (theory).
+- `cochrane2005`, `korteweg2010`: valuations are observed only at refinancing or exit, so observed valuations are a selected sample.
+- `kaplan2003`: as in 5.3.
+- `gompers1995`: VCs stage capital infusions to gather information (milestones appear only as a rival explanation he rejects).
+- `gompers2000`, `nanda2013`: in hot markets capital chases deals, so prices rise (G&L) and investors fund riskier startups, worrying less about follow-on (N&RK).
+- `howell2020`: early-stage VC deals fall sharply in recessions (no claim on follow-on funding).
+- `gompers2008`: experienced VCs' hot-market deals show no significant drop in success.
+- `lerner1994`: biotech IPOs cluster at peaks in equity valuations (1978–92).
+- Control-sign comparisons, one source per line:
+  - `hochberg2007`: first rounds led by corporate VCs are less likely to survive to the next round.
+  - `haltiwanger2013`: the size–growth relationship vanishes once firm age is controlled for.
+  - (`chemmanur2014`, `kerrlerner2014`, `yu2020` removed here: they report no control signs we can compare.)
+- `sorensen2007`, `gompers2020`: VCs see selection as more important than value-add (survey); Sørensen estimates sorting ≈ 2× influence.
+- `hoenen2014`: information asymmetries fall after round 1, so the patent signal stops mattering at round 2 (Table 14, H1 row).
+- `guler2007`: VCs are reluctant to terminate as rounds accumulate (Table 14, H1b row).
 
 #### Guardrails
 - **Explanations, not limits.** "The negative failure coefficient is in part survivorship … not the effect of waiting" (v4) is a causal limitation, so it moves to 6.3. Here: "consistent with survivorship".
@@ -712,8 +719,8 @@ Rules that hold throughout (from `RULES.md`):
    Inference in the main exit models rests on 41 clusters. Robust SEs give almost the same p-values, but a wild cluster bootstrap would be the safer test and is not in our do-file.
 2. **Competing outcomes modelled separately**: *exit, failure, still private, multinomial, competing risks*
    Exit and failure are competing outcomes, with a third state, still private, absorbing the rest. Separate logits do not use the three states jointly. A multinomial or competing-risks model would.
-3. **Valuation measurement**: *post-money, fair value, price–terms trade-off, disclosure, selected sample*
-   The step uses post-money valuations, which overstate fair value and mix price with terms, and it is observed for about half of two-round startups. If disclosure follows good rounds, the sample is selected towards high steps.
+3. **Valuation measurement**: *post-money, fair value, terms ignored, disclosure, selected sample*
+   The step uses post-money valuations, which overstate fair value and ignore contract terms other than the equity share, and it is observed for about half of two-round startups. If disclosure follows good rounds, the sample is selected towards high steps.
 4. **What the sample represents**: *course cohort, hype from cohort's own deals, ageing cohort, disclosed round 1 only*
    Hype is built from deals of the course cohort (founded 2012–2019), so annual shares partly reflect its ageing. Dropping undisclosed round-1 amounts keeps only startups that disclosed. Both limit how far results generalise.
 5. **Traceability**: *checks outside the do-file, Python, Table 12, not in log*
@@ -721,8 +728,8 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `cameron2008`: wild cluster bootstrap for few clusters.
-- `gornall2020`: post-money overstates fair value.
-- `ewens2022`: price traded against terms.
+- `gornall2020`: post-money overstates fair value for US unicorns (48% on average).
+- `ewens2022`: as in 2.4.
 - `cochrane2005`: selection in observed valuations.
 
 #### Guardrails
@@ -730,15 +737,15 @@ Rules that hold throughout (from `RULES.md`):
 - Do not list fixes in detail. One clause each ("a wild bootstrap would…"). Design extensions go in 6.4 and 7.
 
 #### Editorial notes
-- **D1.** If the group prefers one place for every limitation, merge this into 6 as 6.5 "Measurement and inference" and drop 5.6. Claude's view: keep the split, because 6 then has one clear message (why this is not causal) and 5.6 stays a short checklist. [Likely]
+- **D1 decided (16/11): split kept.**
 - **D2/D3** as in the section map.
 
 #### Claude's additions
-- [Likely] Point 1 can be closed rather than listed: running `boottest` (wild cluster bootstrap) in Stata on the H2 model is a small addition to the do-file. That is new code and needs a group decision.
+- [Likely] Point 1 can be closed rather than listed: running `boottest` (wild cluster bootstrap) in Stata on the H2 model is a small addition to the do-file. That is new code and needs a group decision (open point 15).
 
 ---
 
-## 6 Limitations to causality (NEW)
+## 6 Limitations to causality (NEW, title decided D2)
 
 **Role:** explain precisely why every estimate is an association, which coefficients each problem affects, and what design would be needed for a causal claim. All four subsections are **Claude's proposal**. The group decides.
 
@@ -760,8 +767,8 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `sorensen2007`: sorting of better ventures to better investors outweighs influence.
-- `gompers2020`: VCs select mainly on the team.
-- `gompers1995`, `tian2011`: round length chosen by the investor according to risk and monitoring costs.
+- `gompers2020`: VCs rank the team as the top selection factor, somewhat ahead of business factors.
+- `gompers1995`, `tian2011`: VCs set round length weighing agency and monitoring costs.
 - `wang2004`: staging responds to moral hazard and risk.
 
 #### Guardrails
@@ -813,7 +820,7 @@ Rules that hold throughout (from `RULES.md`):
    The raw three-way split in Figure 8 fits this reading: across gap quintiles, slow raisers fail less and stay private more, without exiting more. Survivorship predicts exactly this pattern; a pure distress story does not.
 
 #### Sources
-- `cochrane2005`, `korteweg2010`: outcomes observed only at refinancing are selected.
+- `cochrane2005`, `korteweg2010`: valuations observed only at refinancing or exit are a selected sample.
 - `puri2012`: timing of failure over the life cycle.
 
 #### Guardrails
@@ -832,7 +839,7 @@ Rules that hold throughout (from `RULES.md`):
 1. **Survival model from round 1**: *hazard model, round 2 as time-varying covariate, all at risk from round 1, removes look-ahead*
    A survival model with round 2 as a time-varying covariate would treat all startups as at risk from round 1 and remove the look-ahead in R. It still estimates associations but fixes 6.2.
 2. **Exogenous variation in the gap**: *supply shock, investor capital, natural experiment, quality-unrelated delay*
-   A causal gap effect needs variation in the gap unrelated to venture quality, such as shocks to investors' capital that delay rounds for reasons outside the venture. The literature uses such investor-side shocks.
+   A causal gap effect needs variation in the gap unrelated to venture quality, such as shocks to investors' capital that delay rounds for reasons outside the venture. We have no such shock in our data.
 3. **Discontinuity designs**: *regression discontinuity, funding threshold, comparable startups, financing effect*
    Discontinuity designs compare startups just above and just below a funding threshold, which isolates the effect of financing itself. Nothing in our data provides such a threshold for the gap between rounds, so this route is closed here.
 4. **What we can honestly claim**: *conditional associations, investor at round 2, founder choice, descriptive claim*
@@ -840,9 +847,8 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `kerrlerner2014`: regression-discontinuity evidence on angel-group funding (a model of point 3).
-- `li2008`: hazard models of round duration (a model of point 1).
-- `howell2020`: VC follows the economy down (supply-side variation).
-- ⚠ `townsend2015` (the 2000 crash as a shock to investors, the natural model of point 2): not in `fonti.bib` (D4).
+- `li2008`: Weibull duration model of time between rounds, with right-censoring (a model of point 1).
+- `howell2020`: VC activity falls in recessions, mostly early-stage; capital-supply frictions are one likely mechanism.
 
 #### Guardrails
 - Section 7 must not list these extensions again in full. One sentence pointing back to 6.4.
@@ -874,7 +880,6 @@ Rules that hold throughout (from `RULES.md`):
 
 ### Sources
 - `cochrane2005`, `korteweg2010`, `kaplan2003`: pointers to the views the results fit.
-- ⚠ `townsend2015` (supply-driven follow-on): not in `fonti.bib` (D4).
 
 ### Guardrails
 - No numbers beyond the sample size. Every estimate has its home in 5.x.
@@ -892,7 +897,7 @@ Rules that hold throughout (from `RULES.md`):
 
 ## Claude's additions: for the next steps
 
-### A. Glossary: candidate terms (next step, skill `/essay-glossario`)
+### A. Glossary: done, see `glossary.md` (16/11). Candidate list kept for history
 Terms that drift in v4 or across documents, which the glossary must fix:
 - **gap** / time between rounds / refinancing speed / months between rounds: one canonical term in prose ("gap"), defined once.
 - **two-round / one-round startups** vs R = 1 / R = 0 vs "startups that raised again". Pick one.
@@ -906,7 +911,7 @@ Terms that drift in v4 or across documents, which the glossary must fix:
 - **odds ratio**, **AME (pp)**, LPM, clustered SEs, interaction effect.
 - Forbidden variants (RULES): *effect / impact / causes / leads to / reduces* (about the gap or hype) → *is associated with / goes with*.
 
-### B. Points to add to `registers/open points.md` (not added yet: tell me if you want them)
+### B. Points added to `registers/open points.md` on 16/11 (items 9–12, 14)
 1. Table 12 (team and lead-age controls) is not in the Stata log: Python run, and the add-on log is not in the repo.
 2. "Estimation sample" means 28,478 in `construction.pdf` and 9,263 in the paper.
 3. `nanda2017` and `townsend2015` are cited but not downloaded (D4).
