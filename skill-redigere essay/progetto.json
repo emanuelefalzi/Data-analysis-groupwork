@@ -1,0 +1,25 @@
+{
+  "titolo": "",
+  "autore": "",
+  "corso": "",
+  "lingua": "en",
+  "stile_citazionale": "apa7",
+  "parole_totali": 3000,
+  "tolleranza_parole": 0.15,
+  "nomi_fissi": {},
+  "convenzioni": [
+    "Mai la prima persona, né singolare né plurale.",
+    "Presente semplice per la teoria e per ciò che le fonti sostengono; passato semplice per il disegno e i risultati dei singoli studi e per i fatti del caso.",
+    "Metadiscorso al minimo: 'This essay…' solo in introduzione e conclusione. Altrove il soggetto è il meccanismo, l'attore, la fonte. Non sostituirlo col passivo impersonale.",
+    "Niente citazioni testuali: solo parafrasi attribuita.",
+    "Niente elenchi puntati nel testo: prosa continua."
+  ],
+  "doppio_auditor": false,
+  "secondo_lettore_nlm": false,
+  "notebook_nlm": "",
+  "email_contatto": "",
+  "template_docx": "input/template.docx",
+  "output_docx": "out/essay.docx",
+  "stile_corpo": "Normal",
+  "titolo_bibliografia": "References"
+}
