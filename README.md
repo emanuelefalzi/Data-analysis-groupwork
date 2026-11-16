@@ -13,28 +13,33 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 ## Repository map
 
 ```
-dataset.py                      raw PitchBook files -> dataset (v2)
-dataset.dta                     the dataset: 28,478 startups x 57 variables
-rq1_two_group_analysis_v2.do    main Stata analysis (descriptives, models, figures, tables)
-rq1_addon_extra_controls.do     robustness: team and lead-investor-age controls
-regression_analysis.txt         Stata log of the do-file (15/11/2026): source of every number
-RQ1_tables.doc                  Word/RTF tables from the do-file
-paper_group21.pdf               group paper v4 (15/11/2026): the base for the deck
-construction.pdf                how the dataset is built, plus every variable with its role
-main_important_stuff_ig.docx    early notes on cleaning and literature (partly outdated)
+0. dati iniziali/               raw PitchBook files, zipped: pitchbook_course.dta, Deal.csv,
+                                DealInvestorRelation.csv, Investor.csv
+1. python/dataset.py            raw PitchBook files -> dataset (v2)
+2. dataset/dataset.dta          the dataset: 28,478 startups x 57 variables
+2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
+3. stata/rq1_two_group_analysis_v2.do   main Stata analysis (descriptives, models, figures, tables)
+3. stata/rq1_addon_extra_controls.do    robustness: team and lead-investor-age controls
+4. risultati/regression_analysis.txt    Stata log of the do-file (15/11/2026): source of every number
+4. risultati/RQ1_tables.doc     Word/RTF tables from the do-file
+4. risultati/figures.zip        figures exported by the do-file
+5. paper/paper_group21.pdf      group paper v4 (15/11/2026): the base for the deck
+5. paper/main_important_stuff_ig.docx   early notes on cleaning and literature (partly outdated)
+fonti/                          literature: PDFs, txt, fonti.bib, download fonti.md
 registers/                      results (R-xx), inferences (I-xx), open points
+scaletta.md                     draft outline of the deck
 RULES.md                        rules for members and their AIs
 CLAUDE.md, .claude/             Claude Code configuration
 ```
 
 ## Pipeline
 
-1. **Build the dataset (Python, pandas).** Put the raw PitchBook files from Blackboard in `data/`: `pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv` and `Investor.csv`. Then run:
+1. **Build the dataset (Python, pandas).** The raw PitchBook files are zipped in `0. dati iniziali/` (`pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv`). The script still reads them from `data/`, so unzip them into a `data/` folder next to where you run it. Then run:
    ```bash
-   python dataset.py
+   python "1. python/dataset.py"
    ```
-   It writes `output/rq1_two_group_dataset_v2.dta` and `.csv`, which is the file in this repo as `dataset.dta`.
-2. **Run the analysis (Stata 17).** The do-file opens `group_21_dataset.dta`, so first copy `dataset.dta` under that name into the Stata working directory. It needs `esttab` (estout) and `coefplot`. The add-on also needs `pitchbook_course.dta` in the same folder. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png`.
+   It writes `output/rq1_two_group_dataset_v2.dta` and `.csv`, which is the file in this repo as `2. dataset/dataset.dta`.
+2. **Run the analysis (Stata 17).** The do-file opens `group_21_dataset.dta`, so first copy `2. dataset/dataset.dta` under that name into the Stata working directory. It needs `esttab` (estout) and `coefplot`. The add-on also needs `pitchbook_course.dta` in the same folder. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png` (in the repo: `4. risultati/`).
 
 ## Design in short
 

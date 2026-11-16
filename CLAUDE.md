@@ -16,4 +16,4 @@ Also look at:
 - `README.md`: what is in the repo and how to run the pipeline.
 - `registers/`: results (R-xx), inferences (I-xx) and open points. Check them before proposing anything and update them when slides change.
 
-Current task: **build the slide outline** (`slide outline.md`) from `paper_group21.pdf` v4, one section at a time: brainstorm, then the group decides, then write.
+Current task: **build the slide outline** (`slide outline.md`) from `5. paper/paper_group21.pdf` v4, one section at a time: brainstorm, then the group decides, then write.

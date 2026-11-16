@@ -11,4 +11,4 @@ Things we could not establish, inconsistencies to fix and proposals to change a 
 | 5 | Paper §5.4 checks are not in the Stata log | Their numbers cannot be traced to `regression_analysis.txt` (paper §5.6). Add them to the do-file, or mark them on the slides? | open |
 | 6 | Accelerator control in the early notes | `main_important_stuff_ig.docx` cites `Accelerator_pre_r1` and Yu (2020); not in the v2 dataset | open |
 | 7 | No course brain for 21072 | `Emanuele-Notes/backup-brain-I_sem_2026` has no 21072 folder; methods are cited from Hill, Griffiths and Lim (2018) for now | open |
-| 8 | Raw PitchBook files not in the repo | `dataset.py` reads `data/pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv`. The group agreed they may be uploaded; files above 100 MB need zip or Git LFS | open |
+| 8 | Raw PitchBook files not in the repo | `dataset.py` reads `data/pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv`. The group agreed they may be uploaded; files above 100 MB need zip or Git LFS. **16/11: uploaded zipped in `0. dati iniziali/`** (all zips < 50 MB); `dataset.py` still reads `data/`, so unzip there | done |

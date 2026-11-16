@@ -30,20 +30,21 @@ Research question: *is the time between the first and the second VC round associ
 - Everyone works **on `main`**: no branches or worktrees. Commit and push straight to `main`. GitHub is only the shared source between people and AIs.
 - Several people push to the same branch, so: `git pull --rebase` **before starting** and **before every push**; make small commits with clear messages; push right after committing.
 - Binary files (`.dta`, `.docx`, `.doc`, `.pdf`, `.pptx`) cannot be merged. Before editing one, tell the group; if a pull brings a conflict on a binary file, stop and ask, never overwrite someone else's version.
-- GitHub rejects files above 100 MB. PitchBook raw files can go in `data/` (the group agreed they may be uploaded), but a file above that limit needs to be zipped or tracked with Git LFS.
+- GitHub rejects files above 100 MB. PitchBook raw files are in `0. dati iniziali/` (the group agreed they may be uploaded), zipped because `Deal.csv` and `pitchbook_course.dta` are above that limit.
 
 ## Files and their role
 | File | What it is | Status |
 |---|---|---|
-| `dataset.py` | Builds the dataset from the raw PitchBook files in `data/`; writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
-| `dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
-| `rq1_two_group_analysis_v2.do` | Main Stata analysis: descriptives, logit models, figures, Word tables | Current |
-| `rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | Current |
-| `regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
-| `RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
-| `paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
-| `construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |
-| `main_important_stuff_ig.docx` | Early notes on cleaning, variables and literature for the pitch | Partly outdated |
+| `0. dati iniziali/` | Raw PitchBook files, zipped: `pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv` | Current |
+| `1. python/dataset.py` | Builds the dataset from the raw PitchBook files in `data/` (unzip them there); writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
+| `2. dataset/dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
+| `3. stata/rq1_two_group_analysis_v2.do` | Main Stata analysis: descriptives, logit models, figures, Word tables | Current |
+| `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | Current |
+| `4. risultati/regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
+| `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
+| `5. paper/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
+| `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |
+| `5. paper/main_important_stuff_ig.docx` | Early notes on cleaning, variables and literature for the pitch | Partly outdated |
 | `registers/` | Results register, inferences register, open points | Kept up to date |
 | `slide outline.md` | The deck outline (to be created) | Next task |
 
