@@ -24,7 +24,7 @@ Research question: *is the time between the first and the second VC round associ
 - **Explain every reference.** Every citation of a paper, a method or a course concept comes with what it says, in a few words, before the reference: not "see Tian (2011)" but "staging goes with more IPOs when the VC is far from the firm (Tian, 2011)"; not "cluster at sector-year" but "errors are allowed to be correlated among startups funded in the same sector and year (clustered SEs)".
 - **Step by step.** Work one section or one slide at a time: first brainstorm, then the group decides, then write. Do not change the slide outline until asked.
 - **Long texts.** For long documents (the paper, the log, literature PDFs) use NotebookLM or scripts that write their output to files, instead of loading the whole text into Claude's context.
-- **Subagents** run on the Sonnet model unless the user says otherwise.
+- **Subagents** run on the Sonnet model unless the user says otherwise. Pass `model: "sonnet"` explicitly in every subagent call, even when an agent definition with `model: sonnet` exists: definitions in a subfolder's `.claude/agents/` (e.g. `skill-redigere essay/`) are not loaded when the session starts from the repo root, and a generic subagent inherits the session's model.
 
 ## Git
 - Everyone works **on `main`**: no branches or worktrees. Commit and push straight to `main`. GitHub is only the shared source between people and AIs.

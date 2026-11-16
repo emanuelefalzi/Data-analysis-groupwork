@@ -82,7 +82,11 @@ rimandi interni in coda a un elenco.
 
 ## Modelli e controlli
 
-**Tutti gli agenti girano su Sonnet** (come nella tesi, decisione dell'autore). La capacità di
+**Tutti gli agenti girano su Sonnet** (come nella tesi, decisione dell'autore).
+**Ogni subagent si lancia con `model: "sonnet"` esplicito nella chiamata**, anche quando esiste
+un agente con quel nome in `.claude/agents/`: se la sessione parte dalla radice della repo e non
+da questa cartella, quegli agenti non vengono caricati e un subagent generico erediterebbe il
+modello della sessione. La capacità di
 controllo si compra con **più letture indipendenti in contesto pulito**, non con un modello più
 grande. In questa versione ridotta: un solo `claim-auditor` di default, due istanze indipendenti
 se `doppio_auditor` è `true`; un secondo lettore NotebookLM se `secondo_lettore_nlm` è `true`.
