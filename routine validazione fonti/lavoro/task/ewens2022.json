@@ -1,0 +1,20 @@
+{
+ "id_fonte": "ewens2022",
+ "file_txt": "fonti/txt/Ewens et al. (2022). Venture capital contracts.txt",
+ "righe": [
+  {
+   "riga": "2.4__ewens2022",
+   "firma": "99d254ba6a",
+   "sezione": "2.4",
+   "tesi": "investors trade valuation against contract terms.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.6__ewens2022",
+   "firma": "19bf371b38",
+   "sezione": "5.6",
+   "tesi": "price traded against terms.",
+   "co_citate": ""
+  }
+ ]
+}

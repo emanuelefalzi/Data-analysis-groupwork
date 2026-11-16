@@ -1,0 +1,27 @@
+{
+ "id_fonte": "sorensen2007",
+ "file_txt": "fonti/txt/Sørensen (2007). How smart is smart money A two-sided matching model of venture capital.txt",
+ "righe": [
+  {
+   "riga": "2.5__sorensen2007",
+   "firma": "10ec54c629",
+   "sezione": "2.5",
+   "tesi": "sorting explains about twice as much of the outcome difference as influence (per v4).",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__sorensen2007",
+   "firma": "257eac56e3",
+   "sezione": "5.5",
+   "tesi": "selection vs influence.",
+   "co_citate": "gompers2020"
+  },
+  {
+   "riga": "6.1__sorensen2007",
+   "firma": "9663cc9674",
+   "sezione": "6.1",
+   "tesi": "sorting of better ventures to better investors outweighs influence.",
+   "co_citate": ""
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id_fonte": "haltiwanger2013",
+ "file_txt": "fonti/txt/Haltiwanger et al. (2013). Who creates jobs Small versus large versus young.txt",
+ "righe": [
+  {
+   "riga": "2.5__haltiwanger2013",
+   "firma": "f277cbbd0c",
+   "sezione": "2.5",
+   "tesi": "young firms show an up-or-out pattern.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__haltiwanger2013",
+   "firma": "edb42a1714",
+   "sezione": "5.5",
+   "tesi": "control-sign comparisons.",
+   "co_citate": "chemmanur2014 hochberg2007 yu2020 kerrlerner2014"
+  }
+ ]
+}

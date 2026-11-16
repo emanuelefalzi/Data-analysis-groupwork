@@ -1,0 +1,27 @@
+{
+ "id_fonte": "li2008",
+ "file_txt": "fonti/txt/Li (2008). Duration analysis of venture capital staging - A real options perspective.txt",
+ "righe": [
+  {
+   "riga": "1__li2008",
+   "firma": "ec5548d71d",
+   "sezione": "1",
+   "tesi": "VC round durations respond to uncertainty, as a real-options view predicts.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.1__li2008",
+   "firma": "68db3cd97b",
+   "sezione": "2.1",
+   "tesi": "hazard models of round duration in a real-options framework.",
+   "co_citate": ""
+  },
+  {
+   "riga": "6.4__li2008",
+   "firma": "eb6c595ad9",
+   "sezione": "6.4",
+   "tesi": "hazard models of round duration (a model of point 1).",
+   "co_citate": ""
+  }
+ ]
+}

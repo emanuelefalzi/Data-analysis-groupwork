@@ -1,0 +1,27 @@
+{
+ "id_fonte": "gompers2020",
+ "file_txt": "fonti/txt/Gompers et al. (2020). How do venture capitalists make decisions.txt",
+ "righe": [
+  {
+   "riga": "2.5__gompers2020",
+   "firma": "0889672616",
+   "sezione": "2.5",
+   "tesi": "VCs select deals mainly on the team; selection matters more than value added.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__gompers2020",
+   "firma": "257eac56e3",
+   "sezione": "5.5",
+   "tesi": "selection vs influence.",
+   "co_citate": "sorensen2007"
+  },
+  {
+   "riga": "6.1__gompers2020",
+   "firma": "a4d0039837",
+   "sezione": "6.1",
+   "tesi": "VCs select mainly on the team.",
+   "co_citate": ""
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id_fonte": "abadie2023",
+ "file_txt": "fonti/txt/Abadie et al. (2023). When should you adjust standard errors for clustering.txt",
+ "righe": [
+  {
+   "riga": "2.5__abadie2023",
+   "firma": "638b8ab98e",
+   "sezione": "2.5",
+   "tesi": "cluster at the level at which the regressor is assigned.",
+   "co_citate": ""
+  },
+  {
+   "riga": "4.1__abadie2023",
+   "firma": "3de2b3de6a",
+   "sezione": "4.1",
+   "tesi": "cluster at the level of treatment assignment.",
+   "co_citate": ""
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id_fonte": "gompers2000",
+ "file_txt": "fonti/txt/Gompers & Lerner (2000). Money chasing deals The impact of fund inflows on private equity valuations.txt",
+ "righe": [
+  {
+   "riga": "1__gompers2000",
+   "firma": "e63f42c22f",
+   "sezione": "1",
+   "tesi": "inflows into VC funds raise the prices of private deals.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.3__gompers2000",
+   "firma": "1fcb613c08",
+   "sezione": "2.3",
+   "tesi": "fund inflows raise private-equity deal valuations.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.4__gompers2000",
+   "firma": "ab4534e141",
+   "sezione": "2.4",
+   "tesi": "prices rise with fund inflows.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__gompers2000",
+   "firma": "3d1e5cd7cf",
+   "sezione": "5.5",
+   "tesi": "the hot-market reading behind H2.",
+   "co_citate": "nanda2013"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id_fonte": "gompers1995",
+ "file_txt": "fonti/txt/Gompers (1995). Optimal investment, monitoring, and the staging of venture capital.txt",
+ "righe": [
+  {
+   "riga": "1__gompers1995",
+   "firma": "6048da2022",
+   "sezione": "1",
+   "tesi": "round duration falls as expected agency costs rise; ventures that go public get more rounds.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.1__gompers1995",
+   "firma": "b2dbc6ffe5",
+   "sezione": "2.1",
+   "tesi": "staging as monitoring; duration falls with intangibility, R&D and market-to-book.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__gompers1995",
+   "firma": "0479ae6c08",
+   "sezione": "5.5",
+   "tesi": "short rounds for riskier or harder-to-monitor ventures.",
+   "co_citate": "tian2011"
+  },
+  {
+   "riga": "5.5__gompers1995__2",
+   "firma": "c57f282da5",
+   "sezione": "5.5",
+   "tesi": "milestone staging.",
+   "co_citate": "kaplan2003"
+  },
+  {
+   "riga": "6.1__gompers1995",
+   "firma": "c173ddaeef",
+   "sezione": "6.1",
+   "tesi": "round length chosen by the investor according to risk and monitoring costs.",
+   "co_citate": "tian2011"
+  }
+ ]
+}

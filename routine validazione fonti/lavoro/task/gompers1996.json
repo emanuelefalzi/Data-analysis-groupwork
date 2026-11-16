@@ -1,0 +1,27 @@
+{
+ "id_fonte": "gompers1996",
+ "file_txt": "fonti/txt/Gompers (1996). Grandstanding in the venture capital industry.txt",
+ "righe": [
+  {
+   "riga": "2.5__gompers1996",
+   "firma": "ae9d87ac59",
+   "sezione": "2.5",
+   "tesi": "young VC firms push for early exits to build reputation (grandstanding).",
+   "co_citate": ""
+  },
+  {
+   "riga": "4.3__gompers1996",
+   "firma": "878906d540",
+   "sezione": "4.3",
+   "tesi": "young lead investors and grandstanding (motivates the young-lead control).",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.4__gompers1996",
+   "firma": "e29f85a343",
+   "sezione": "5.4",
+   "tesi": "grandstanding, the prediction our young-lead coefficient contradicts.",
+   "co_citate": ""
+  }
+ ]
+}

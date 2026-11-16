@@ -1,0 +1,27 @@
+{
+ "id_fonte": "kerrlerner2014",
+ "file_txt": "fonti/txt/Kerr, Lerner, & Schoar (2014). The consequences of entrepreneurial finance - Evidence from angel financings.txt",
+ "righe": [
+  {
+   "riga": "2.5__kerrlerner2014",
+   "firma": "64e7b2b4a4",
+   "sezione": "2.5",
+   "tesi": "angel-group funding improves survival and growth (regression discontinuity).",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__kerrlerner2014",
+   "firma": "edb42a1714",
+   "sezione": "5.5",
+   "tesi": "control-sign comparisons.",
+   "co_citate": "chemmanur2014 hochberg2007 yu2020 haltiwanger2013"
+  },
+  {
+   "riga": "6.4__kerrlerner2014",
+   "firma": "79026b0686",
+   "sezione": "6.4",
+   "tesi": "regression-discontinuity evidence on angel-group funding (a model of point 3).",
+   "co_citate": ""
+  }
+ ]
+}

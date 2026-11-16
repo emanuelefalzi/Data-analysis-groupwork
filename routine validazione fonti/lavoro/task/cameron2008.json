@@ -1,0 +1,34 @@
+{
+ "id_fonte": "cameron2008",
+ "file_txt": "fonti/txt/Cameron et al. (2008). Bootstrap-based improvements for inference with clustered errors.txt",
+ "righe": [
+  {
+   "riga": "4.1__cameron2008",
+   "firma": "7d0432c58e",
+   "sezione": "4.1",
+   "tesi": "with few clusters, cluster-robust p-values are too small; the wild cluster bootstrap fixes this.",
+   "co_citate": ""
+  },
+  {
+   "riga": "4.3__cameron2008",
+   "firma": "3fb30fd0c8",
+   "sezione": "4.3",
+   "tesi": "the reason robust vs clustered SEs is a relevant check.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.4__cameron2008",
+   "firma": "6617153fac",
+   "sezione": "5.4",
+   "tesi": "why robust vs clustered SEs matters.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.6__cameron2008",
+   "firma": "4c6e611c0e",
+   "sezione": "5.6",
+   "tesi": "wild cluster bootstrap for few clusters.",
+   "co_citate": ""
+  }
+ ]
+}

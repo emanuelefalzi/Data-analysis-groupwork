@@ -1,0 +1,34 @@
+{
+ "id_fonte": "kaplan2003",
+ "file_txt": "fonti/txt/Kaplan & Strömberg (2003). Financial contracting theory meets the real world - An empirical analysis of venture capital contracts.txt",
+ "righe": [
+  {
+   "riga": "2.1__kaplan2003",
+   "firma": "cc33ecc4bf",
+   "sezione": "2.1",
+   "tesi": "VC contracts make cash-flow and control rights depend on observable milestones.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.4__kaplan2003",
+   "firma": "a1ffe1e85b",
+   "sezione": "2.4",
+   "tesi": "rounds and contract rights are tied to milestones.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.3__kaplan2003",
+   "firma": "9de25a9e20",
+   "sezione": "5.3",
+   "tesi": "the milestone view of 2.4).",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__kaplan2003",
+   "firma": "c57f282da5",
+   "sezione": "5.5",
+   "tesi": "milestone staging.",
+   "co_citate": "gompers1995"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id_fonte": "bergemann2005",
+ "file_txt": "fonti/txt/Bergemann & Hege (2005). The financing of innovation - Learning and stopping.txt",
+ "righe": [
+  {
+   "riga": "2.1__bergemann2005",
+   "firma": "3e6e94f6a5",
+   "sezione": "2.1",
+   "tesi": "each period without good news lowers the investor's belief.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.2__bergemann2005",
+   "firma": "3b1577f6ea",
+   "sezione": "2.2",
+   "tesi": "abandonment of stalled ventures.",
+   "co_citate": "dahiya2012"
+  },
+  {
+   "riga": "5.5__bergemann2005",
+   "firma": "9fbbb3e862",
+   "sezione": "5.5",
+   "tesi": "uncertainty falls over time; refinancing only after good-enough news.",
+   "co_citate": ""
+  }
+ ]
+}

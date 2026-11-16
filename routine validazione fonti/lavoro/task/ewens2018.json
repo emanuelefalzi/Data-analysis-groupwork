@@ -1,0 +1,20 @@
+{
+ "id_fonte": "ewens2018",
+ "file_txt": "fonti/txt/Ewens et al. (2018). Cost of experimentation and the evolution of venture capital.txt",
+ "righe": [
+  {
+   "riga": "2.1__ewens2018",
+   "firma": "f5f89ebcf0",
+   "sezione": "2.1",
+   "tesi": "entrepreneurship as experimentation; cheaper experimentation changes how VC funds early bets.",
+   "co_citate": "kerrnanda2014"
+  },
+  {
+   "riga": "2.5__ewens2018",
+   "firma": "1df2cc0998",
+   "sezione": "2.5",
+   "tesi": "cheaper experimentation means smaller first cheques to more ventures.",
+   "co_citate": ""
+  }
+ ]
+}

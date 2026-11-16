@@ -1,0 +1,20 @@
+{
+ "id_fonte": "lerner1994",
+ "file_txt": "fonti/txt/Lerner (1994). Venture capitalists and the decision to go public.txt",
+ "righe": [
+  {
+   "riga": "2.5__lerner1994",
+   "firma": "7a7e63e866",
+   "sezione": "2.5",
+   "tesi": "IPO windows open and close with market conditions.",
+   "co_citate": "pastor2005"
+  },
+  {
+   "riga": "5.5__lerner1994",
+   "firma": "6302c2b116",
+   "sezione": "5.5",
+   "tesi": "IPO timing follows market conditions.",
+   "co_citate": ""
+  }
+ ]
+}

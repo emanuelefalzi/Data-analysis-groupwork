@@ -1,0 +1,13 @@
+{
+ "id_fonte": "chen2010",
+ "file_txt": "fonti/txt/Chen et al. (2010). Buy local The geography of venture capital.txt",
+ "righe": [
+  {
+   "riga": "2.5__chen2010",
+   "firma": "1c6662cd81",
+   "sezione": "2.5",
+   "tesi": "VC investment is local and falls with distance.",
+   "co_citate": "sorenson2001"
+  }
+ ]
+}

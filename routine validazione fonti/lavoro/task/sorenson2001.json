@@ -1,0 +1,13 @@
+{
+ "id_fonte": "sorenson2001",
+ "file_txt": "fonti/txt/Sorenson & Stuart (2001). Syndication networks and the spatial distribution of venture capital investments.txt",
+ "righe": [
+  {
+   "riga": "2.5__sorenson2001",
+   "firma": "1c6662cd81",
+   "sezione": "2.5",
+   "tesi": "VC investment is local and falls with distance.",
+   "co_citate": "chen2010"
+  }
+ ]
+}

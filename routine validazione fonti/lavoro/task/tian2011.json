@@ -1,0 +1,34 @@
+{
+ "id_fonte": "tian2011",
+ "file_txt": "fonti/txt/Tian (2011). The causes and consequences of venture capital stage financing.txt",
+ "righe": [
+  {
+   "riga": "1__tian2011",
+   "firma": "cd86701455",
+   "sezione": "1",
+   "tesi": "more and shorter rounds when the VC is far from the venture; more staging goes with better outcomes.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.1__tian2011",
+   "firma": "abb69d7bcd",
+   "sezione": "2.1",
+   "tesi": "more and shorter rounds when the VC is distant.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__tian2011",
+   "firma": "0479ae6c08",
+   "sezione": "5.5",
+   "tesi": "short rounds for riskier or harder-to-monitor ventures.",
+   "co_citate": "gompers1995"
+  },
+  {
+   "riga": "6.1__tian2011",
+   "firma": "c173ddaeef",
+   "sezione": "6.1",
+   "tesi": "round length chosen by the investor according to risk and monitoring costs.",
+   "co_citate": "gompers1995"
+  }
+ ]
+}

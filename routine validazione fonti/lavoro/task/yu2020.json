@@ -1,0 +1,20 @@
+{
+ "id_fonte": "yu2020",
+ "file_txt": "fonti/txt/Yu (2020). How do accelerators impact the performance of high-technology ventures.txt",
+ "righe": [
+  {
+   "riga": "2.5__yu2020",
+   "firma": "dfcb984385",
+   "sezione": "2.5",
+   "tesi": "accelerators help ventures resolve uncertainty early.",
+   "co_citate": "hallen2020 gonzalezuribe2018"
+  },
+  {
+   "riga": "5.5__yu2020",
+   "firma": "edb42a1714",
+   "sezione": "5.5",
+   "tesi": "control-sign comparisons.",
+   "co_citate": "chemmanur2014 hochberg2007 kerrlerner2014 haltiwanger2013"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id_fonte": "hoenen2014",
+ "file_txt": "fonti/txt/Hoenen et al. (2014). The diminishing signaling value of patents between early rounds of venture capital financing.txt",
+ "righe": [
+  {
+   "riga": "2.1__hoenen2014",
+   "firma": "1abd9daea5",
+   "sezione": "2.1",
+   "tesi": "the signalling value of patents is strong at round 1 and largely gone by round 2.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__hoenen2014",
+   "firma": "7a9482c050",
+   "sezione": "5.5",
+   "tesi": "information at round 2 is largely priced (Table 14, H1 row).",
+   "co_citate": ""
+  }
+ ]
+}

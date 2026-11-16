@@ -1,0 +1,27 @@
+{
+ "id_fonte": "nanda2013",
+ "file_txt": "fonti/txt/Nanda & Rhodes-Kropf (2013). Investment cycles and startup innovation.txt",
+ "righe": [
+  {
+   "riga": "1__nanda2013",
+   "firma": "323386869b",
+   "sezione": "1",
+   "tesi": "startups first funded in hot markets fail more often but are more innovative when they succeed.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.3__nanda2013",
+   "firma": "57ff7baa2e",
+   "sezione": "2.3",
+   "tesi": "hot-market cohorts fail more but innovate more.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__nanda2013",
+   "firma": "3d1e5cd7cf",
+   "sezione": "5.5",
+   "tesi": "the hot-market reading behind H2.",
+   "co_citate": "gompers2000"
+  }
+ ]
+}

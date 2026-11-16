@@ -1,0 +1,20 @@
+{
+ "id_fonte": "gornall2020",
+ "file_txt": "fonti/txt/Gornall & Strebulaev (2020). Squaring venture capital valuations with reality.txt",
+ "righe": [
+  {
+   "riga": "2.4__gornall2020",
+   "firma": "1e138902bc",
+   "sezione": "2.4",
+   "tesi": "post-money valuations overstate fair value (by about half on average for unicorns, per v4).",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.6__gornall2020",
+   "firma": "61e3e30f6d",
+   "sezione": "5.6",
+   "tesi": "post-money overstates fair value.",
+   "co_citate": ""
+  }
+ ]
+}

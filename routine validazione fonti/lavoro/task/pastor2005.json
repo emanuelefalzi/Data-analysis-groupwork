@@ -1,0 +1,20 @@
+{
+ "id_fonte": "pastor2005",
+ "file_txt": "fonti/txt/Pástor & Veronesi (2005). Rational IPO waves.txt",
+ "righe": [
+  {
+   "riga": "2.3__pastor2005",
+   "firma": "16f87f4571",
+   "sezione": "2.3",
+   "tesi": "IPO waves follow market conditions.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.5__pastor2005",
+   "firma": "7a7e63e866",
+   "sezione": "2.5",
+   "tesi": "IPO windows open and close with market conditions.",
+   "co_citate": "lerner1994"
+  }
+ ]
+}

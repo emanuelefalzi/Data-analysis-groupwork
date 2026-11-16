@@ -1,0 +1,20 @@
+{
+ "id_fonte": "wang2004",
+ "file_txt": "fonti/txt/Wang & Zhou (2004). Staged financing in venture capital - Moral hazard and risks.txt",
+ "righe": [
+  {
+   "riga": "2.1__wang2004",
+   "firma": "9d9609493e",
+   "sezione": "2.1",
+   "tesi": "staging is worth more when moral hazard and risk are high.",
+   "co_citate": ""
+  },
+  {
+   "riga": "6.1__wang2004",
+   "firma": "39f900f0ea",
+   "sezione": "6.1",
+   "tesi": "staging responds to moral hazard and risk.",
+   "co_citate": ""
+  }
+ ]
+}

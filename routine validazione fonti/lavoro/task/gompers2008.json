@@ -1,0 +1,20 @@
+{
+ "id_fonte": "gompers2008",
+ "file_txt": "fonti/txt/Gompers et al. (2008). Venture capital investment cycles - The impact of public markets.txt",
+ "righe": [
+  {
+   "riga": "2.3__gompers2008",
+   "firma": "bde6e1e44d",
+   "sezione": "2.3",
+   "tesi": "VC investment responds to public-market signals; experienced VCs expand most in hot markets without lower success.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__gompers2008",
+   "firma": "dc906ecd58",
+   "sezione": "5.5",
+   "tesi": "hot-market investment by experienced VCs is not less successful; exit depends on public markets.",
+   "co_citate": ""
+  }
+ ]
+}

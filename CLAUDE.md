@@ -17,3 +17,6 @@ Also look at:
 - `registers/`: results (R-xx), inferences (I-xx) and open points. Check them before proposing anything and update them when slides change.
 
 Current task: **build the slide outline** (`slide outline.md`) from `5. paper e documentazione di percorso/paper_group21.pdf` v4, one section at a time: brainstorm, then the group decides, then write.
+
+## Routine validazione fonti
+When a member says «lancia routine validazione fonti» (or «valida le fonti», «run the source validation»), read `routine validazione fonti/CLAUDE.md` and run it from start to end without asking again. It checks every source cited in `scaletta.md` against its txt in `fonti/txt/` and writes `routine validazione fonti/tabella.csv` and `referto.md`.

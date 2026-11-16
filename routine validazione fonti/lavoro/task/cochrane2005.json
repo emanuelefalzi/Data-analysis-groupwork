@@ -1,0 +1,48 @@
+{
+ "id_fonte": "cochrane2005",
+ "file_txt": "fonti/txt/Cochrane (2005). The risk and return of venture capital.txt",
+ "righe": [
+  {
+   "riga": "1__cochrane2005",
+   "firma": "f685521eaf",
+   "sezione": "1",
+   "tesi": "private-firm returns are observed only at financing events, so they are selected upward.",
+   "co_citate": "korteweg2010"
+  },
+  {
+   "riga": "2.2__cochrane2005",
+   "firma": "752cfa8c7d",
+   "sezione": "2.2",
+   "tesi": "VC returns are observed only at financing events, with selection bias.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.4__cochrane2005",
+   "firma": "e8b2dbef45",
+   "sezione": "2.4",
+   "tesi": "observed round-to-round returns are selected upward.",
+   "co_citate": "korteweg2010"
+  },
+  {
+   "riga": "5.5__cochrane2005",
+   "firma": "309d014f21",
+   "sezione": "5.5",
+   "tesi": "selection at refinancing.",
+   "co_citate": "korteweg2010"
+  },
+  {
+   "riga": "5.6__cochrane2005",
+   "firma": "8e6917538f",
+   "sezione": "5.6",
+   "tesi": "selection in observed valuations.",
+   "co_citate": ""
+  },
+  {
+   "riga": "6.3__cochrane2005",
+   "firma": "8ca05f15bd",
+   "sezione": "6.3",
+   "tesi": "outcomes observed only at refinancing are selected.",
+   "co_citate": "korteweg2010"
+  }
+ ]
+}

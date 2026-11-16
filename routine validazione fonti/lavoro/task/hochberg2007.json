@@ -1,0 +1,20 @@
+{
+ "id_fonte": "hochberg2007",
+ "file_txt": "fonti/txt/Hochberg et al. (2007). Whom you know matters - Venture capital networks and investment performance.txt",
+ "righe": [
+  {
+   "riga": "2.5__hochberg2007",
+   "firma": "6fb5836531",
+   "sezione": "2.5",
+   "tesi": "better-networked VCs perform better; their ventures survive to later rounds.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__hochberg2007",
+   "firma": "edb42a1714",
+   "sezione": "5.5",
+   "tesi": "control-sign comparisons.",
+   "co_citate": "chemmanur2014 yu2020 kerrlerner2014 haltiwanger2013"
+  }
+ ]
+}

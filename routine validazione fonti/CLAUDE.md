@@ -1,91 +1,85 @@
-# Routine di validazione fonti — doppio lettore indipendente
+# Routine validazione fonti (source validation)
 
-Questa cartella contiene la routine con cui Lele ha verificato le fonti della tesi (loop 2:
-108 coppie, lettore locale + NotebookLM + validatore meccanico), adattata a **fonti che sono
-siti web**. Quando Lele dice «valida le fonti», «fai il giro sulle fonti», «loop fonti» o
-simili, intende questa procedura. Va seguita così com'è.
+**Trigger.** When a member says «lancia routine validazione fonti», «valida le fonti», «run the
+source validation» or similar, run this procedure as it is, from start to end, without asking
+again. It needs nothing from the member. Repo-wide rules (`RULES.md`: name in the first three
+words, advisor mode, Git on `main`) still apply.
 
-## La regola sovrana
+## What it does
 
-La domanda non è «il claim è vero?» ma **«questa pagina, così come l'abbiamo salvata, sostiene
-questo claim, così come è formulato?»**. Nessun agente inventa, ammorbidisce o allarga. Un
-`non usabile` dichiarato vale più di un `usabile` sbagliato: nel dubbio vince l'esito più
-conservativo.
+It checks every source cited in `scaletta.md` against the text of that source in `fonti/txt/`.
+One row per pair **(x.y section of the scaletta × bib key)**:
 
-## Cosa c'è
+| column | filled by | what it is |
+|---|---|---|
+| `riga` | `costruisci.py` | row id, `<sezione>__<id_fonte>` (`__2` if the same pair appears twice) |
+| `sezione`, `id_fonte` | `costruisci.py` | the x.y and the `fonti.bib` key |
+| `co_citate` | `costruisci.py` | other keys cited in the same bullet |
+| `tesi` | `costruisci.py` | what the scaletta says the source says (text after the key in the **Sources** block) |
+| `estrazione` | reader | what the txt really says on that point |
+| `citazione` | reader | one contiguous passage, word for word |
+| `posizione` | reader | section or page of the passage |
+| `esito` | reader / scripts | `usabile` · `da riformulare` · `non usabile` · `non verificabile` · `fonte assente` (no txt) · `solo rimando` (bullet is a pointer, no claim) · `da leggere` · `SCARTO` |
+| `citazione_trovata` | `verifica.py` | `sì` if the quote is in the txt |
+| `note` | reader / `verifica.py` | caveats, or why the row was discarded |
+| `file_txt` | `costruisci.py` | path of the txt used |
 
-| Percorso | Cos'è |
+**The rule above all:** the question is not "is the tesi true?" but "does this txt, as it is,
+support this tesi, as it is worded?". When in doubt, the more conservative esito wins.
+
+## Files
+
+| Path | What it is |
 |---|---|
-| `coppie.csv` | **L'input.** Una riga per ogni coppia (sezione del lavoro × pagina citata). Da compilare. |
-| `prompt/A - lettore sito.md` | Prompt del lettore A (subagent Sonnet, uno per coppia) |
-| `prompt/B - secondo lettore notebooklm sito.md` | Prompt del secondo lettore su NotebookLM |
-| `strumenti/salva_pagine.py` | Fase 0: congela ogni URL in `lavoro/testi/<id>.txt` + data di accesso |
-| `strumenti/prepara.py` | Fase 1: un task JSON per coppia in `lavoro/task/` |
-| `strumenti/valida.py` | Fase 3: valida i due lettori, verifica i verbatim, scrive `esiti.csv` e `referto.md` |
-| `originali tesi/` | I file **originali** della tesi, per riferimento. Non si eseguono: puntano all'Excel della tesi. `prompt/A - lettore fonti.md` è la metodologia completa e va letta dal lettore A. |
+| `strumenti/costruisci.py` | Step 1: parses `scaletta.md` + `fonti/fonti.bib`, writes `lavoro/task/<id_fonte>.json` and an empty `tabella.csv` |
+| `prompt/lettore.md` | The reader prompt (one Sonnet subagent per source) |
+| `strumenti/verifica.py` | Step 3: checks every reader JSON, fills `tabella.csv`, writes `referto.md` |
+| `tabella.csv` | **The table** (UTF-8 with BOM, opens in Excel). Output, never edited by hand |
+| `referto.md` | The report, ordered by severity |
+| `lavoro/` | Tasks and reader outputs (`estratti/`). Kept in Git so another member can resume |
 
-Usa `/usr/bin/python3` (gli script usano solo la libreria standard). Lancia gli script con
-percorso assoluto.
+Scripts use only the Python standard library. Run them from the repo root:
+`python3 "routine validazione fonti/strumenti/<script>.py"`.
 
-## `coppie.csv` — colonne
+## Procedure
 
-`sezione, id_fonte, url, citazione, tipo_fonte, ruolo, claim`
+0. `git pull --rebase` (RULES).
+1. **Build.** `costruisci.py`. It prints how many rows and sources there are to read. If
+   `lavoro/estratti/` already has outputs from an earlier run, keep them: `verifica.py` accepts
+   them only if the tesi has not changed (`firma`), so only changed or new rows need reading.
+   To start from zero, delete `lavoro/estratti/` first.
+2. **Read.** Run `verifica.py` once to see which sources have rows `da leggere` or `SCARTO`. For
+   each of those sources, launch **one subagent on Sonnet** (`model: "sonnet"`), in parallel in
+   batches of about 10, with this prompt:
+   > Read and follow `routine validazione fonti/prompt/lettore.md`. Your task is
+   > `routine validazione fonti/lavoro/task/<id_fonte>.json`. Write only your output JSON.
 
-- `id_fonte`: breve, senza spazi (`acme_chi_siamo`). Una pagina = un id: se due URL dello stesso
-  sito sostengono cose diverse, sono due fonti.
-- `tipo_fonte`: `sito dell'oggetto` (il sito dell'azienda di cui si parla), `istituzionale`,
-  `stampa`, `accademico`, `altro`. Conta: il sito dell'oggetto prova solo cosa l'azienda dichiara.
-- `ruolo`: `mattone stretto` se l'argomento crolla senza quella fonte, altrimenti `sfondo`.
-- `claim`: la frase che il lavoro attribuisce alla pagina, il più possibile uguale a come è scritta.
+   If a source already has an output but some rows are SCARTO, give its reader the errors that
+   `verifica.py` printed and ask it to rewrite the whole JSON for that source.
+3. **Check.** `verifica.py`. Repeat step 2 for the SCARTO rows until there are none (at most
+   3 rounds; after that, leave them as SCARTO and list them in the report to the member).
+4. **Commit** on `main`: `tabella.csv`, `referto.md`, `lavoro/`. Message e.g.
+   "Source validation: N rows read". Pull with rebase before pushing.
+5. **Report to the member** in chat, short: counts per esito, then every `non usabile`,
+   `non verificabile` and `fonte assente` row in one line each, then the `da riformulare` rows
+   with a proposed narrower wording taken from `estrazione` (the tesi shrinks, never widens).
 
-Se Lele dà un documento (Word, PDF) invece del CSV, **il primo lavoro è costruire `coppie.csv`**
-estraendo ogni citazione e la frase che regge, e farglielo approvare prima di partire.
+## What the orchestrator does not do
 
-## La procedura
+- It does not write verdicts or fix a reader's JSON to make it pass: wrong rows are redone by
+  the reader.
+- It does not edit `scaletta.md`, the paper or the slide outline. The report proposes, the
+  group decides (RULES: decisions are the group's).
+- It does not read the PDFs or the web: only the txt in `fonti/txt/` counts.
+- One reader per source, no second reader: the group chose this to keep it simple (16/11/2026).
+  The report says so, so nobody reads a single reading as a double check.
 
-1. **Fase 0 — congelare.** `salva_pagine.py`. Ogni pagina sotto ~1.500 caratteri è sospetta (sito in
-   JavaScript, cookie wall): prendila col browser integrato (`get_page_text`), salvala nello stesso
-   `.txt` e scrivi `"estrazione": "browser"` nel `.meta.json`. Da qui in poi **nessuno legge il sito
-   dal vivo**: tutti leggono il testo congelato, altrimenti i due lettori leggono pagine diverse.
-2. **Fase 1 — task.** `prepara.py`.
-3. **Fase 2a — lettore A.** Un subagent **Sonnet** per coppia, in parallelo, contesto pulito. Gli si
-   passa: il percorso del suo task, il prompt A, e la metodologia `originali tesi/prompt/A - lettore
-   fonti.md` (ignorando la sua sezione «CONTRATTO DI OUTPUT»). Scrive solo il suo JSON.
-4. **Fase 2b — NotebookLM**, solo dopo che A ha finito. Segui il prompt B: carica i `.txt` congelati
-   come sorgenti (se `source_type="file"` non accetta il `.txt`, usa `source_type="text"` col
-   contenuto del file e il titolo uguale all'`id_fonte`), mappa gli id, una query per coppia **con
-   `source_ids` ristretto a quella sola fonte**. Può farlo un subagent per blocchi di coppie, che
-   non deve leggere `lavoro/estratti/`.
-5. **Fase 3 — validare.** `valida.py`. Gli output scartati vanno **rifatti** dal lettore
-   corrispondente con l'errore in mano, non corretti a mano. Ripeti finché non ci sono scarti.
-6. **Fase 4 — referto a Lele.** `referto.md` ordina per gravità: convergenza negativa →
-   divergenze → entrambi non verificabile → da riformulare → positive. Le **divergenze** e i
-   `non usabile` li decide il gruppo, non l'agente. Per i `da riformulare` proponi la frase
-   ristretta (vince `cosa_dice_davvero`: il claim si restringe, mai si allarga).
+## Known limits
 
-## Regole che si rompono più spesso (imparate sulla tesi)
-
-- **Verbatim concatenati.** Il lettore incolla due frasi da punti diversi: la stringa non esiste e
-  `valida.py` la scarta. Un solo passaggio contiguo.
-- **Involucro intorno al verbatim di NotebookLM** («Dalla sezione X: "…"»): fa fallire il match e
-  declassa verdetti giusti. Solo le parole esatte.
-- **`source_ids` dimenticato**: NotebookLM risponde da un'altra pagina e il confronto è nullo.
-- **Conoscenza pregressa**: su aziende note il modello «ricorda» cose che la pagina non dice.
-  Vale solo il testo congelato.
-- **Il sito dell'azienda come prova di un fatto**: «X è leader» diventa «X si presenta come
-  leader». Questo è il rischio tipico delle fonti web, e nella tesi non c'era.
-- **Ciò che la pagina riporta di altri** (un cliente citato, uno studio ripreso) non è della pagina.
-- **Citazioni dal boilerplate** (cookie, footer, P. IVA): presenti nel testo, prive di contenuto.
-
-## Modelli e controllo
-
-Subagent su **Sonnet**. La sicurezza viene dai **due lettori indipendenti** che non si vedono e
-dal validatore meccanico, non da un modello più grande. L'orchestratore non scrive verdetti: lancia,
-valida, arbitra le divergenze solo presentandole a Lele.
-
-## Cosa non fare
-
-- Non correggere a mano i JSON dei lettori per farli passare.
-- Non riscaricare le pagine a metà giro (`--rifai` cambia la data di accesso e il testo).
-- Non far leggere a NotebookLM gli esiti di A.
-- Non modificare il lavoro di gruppo: il referto propone, decide il gruppo.
+- The `tesi` is the short summary in the **Sources** block, not the sentences of the Content
+  block. A source can be fine for its summary and still be stretched in the prose.
+- `nanda2017` and `townsend2015` have no txt (`fonti/non scaricati.md`): their rows are
+  `fonte assente` until the txt is added to `fonti/txt/` and to `fonti.bib` with a `file` field.
+- The parser reads bullets that start with `` `key` `` (optionally after ⚠) inside a
+  `#### Sources` / `### Sources` block. A different format in `scaletta.md` is skipped silently:
+  check the row count that `costruisci.py` prints.

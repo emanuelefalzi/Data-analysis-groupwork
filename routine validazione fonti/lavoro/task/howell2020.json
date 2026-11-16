@@ -1,0 +1,27 @@
+{
+ "id_fonte": "howell2020",
+ "file_txt": "fonti/txt/Howell et al. (2020). Financial distancing - How venture capital follows the economy down and curtails innovation.txt",
+ "righe": [
+  {
+   "riga": "2.3__howell2020",
+   "firma": "7b2dde0502",
+   "sezione": "2.3",
+   "tesi": "early-stage VC falls most in downturns.",
+   "co_citate": ""
+  },
+  {
+   "riga": "5.5__howell2020",
+   "firma": "485e4cb1e9",
+   "sezione": "5.5",
+   "tesi": "follow-on funding in downturns depends on capital supply.",
+   "co_citate": ""
+  },
+  {
+   "riga": "6.4__howell2020",
+   "firma": "8ff531073e",
+   "sezione": "6.4",
+   "tesi": "VC follows the economy down (supply-side variation).",
+   "co_citate": ""
+  }
+ ]
+}

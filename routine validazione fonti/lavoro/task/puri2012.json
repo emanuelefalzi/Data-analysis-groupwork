@@ -1,0 +1,20 @@
+{
+ "id_fonte": "puri2012",
+ "file_txt": "fonti/txt/Puri & Zarutskie (2012). On the life cycle dynamics of venture-capital- and non-venture-capital-financed firms.txt",
+ "righe": [
+  {
+   "riga": "2.2__puri2012",
+   "firma": "1a0c8a07bb",
+   "sezione": "2.2",
+   "tesi": "VC-backed and non-VC firms differ in the timing of failure and acquisition.",
+   "co_citate": ""
+  },
+  {
+   "riga": "6.3__puri2012",
+   "firma": "6868d64f91",
+   "sezione": "6.3",
+   "tesi": "timing of failure over the life cycle.",
+   "co_citate": ""
+  }
+ ]
+}

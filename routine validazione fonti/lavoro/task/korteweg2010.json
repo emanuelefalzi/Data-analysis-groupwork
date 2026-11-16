@@ -1,0 +1,41 @@
+{
+ "id_fonte": "korteweg2010",
+ "file_txt": "fonti/txt/Korteweg & Sorensen (2010). Risk and return characteristics of venture capital-backed entrepreneurial companies.txt",
+ "righe": [
+  {
+   "riga": "1__korteweg2010",
+   "firma": "f685521eaf",
+   "sezione": "1",
+   "tesi": "private-firm returns are observed only at financing events, so they are selected upward.",
+   "co_citate": "cochrane2005"
+  },
+  {
+   "riga": "2.2__korteweg2010",
+   "firma": "990a4ede08",
+   "sezione": "2.2",
+   "tesi": "corrects VC risk and return for the selection of observed valuations.",
+   "co_citate": ""
+  },
+  {
+   "riga": "2.4__korteweg2010",
+   "firma": "e8b2dbef45",
+   "sezione": "2.4",
+   "tesi": "observed round-to-round returns are selected upward.",
+   "co_citate": "cochrane2005"
+  },
+  {
+   "riga": "5.5__korteweg2010",
+   "firma": "309d014f21",
+   "sezione": "5.5",
+   "tesi": "selection at refinancing.",
+   "co_citate": "cochrane2005"
+  },
+  {
+   "riga": "6.3__korteweg2010",
+   "firma": "8ca05f15bd",
+   "sezione": "6.3",
+   "tesi": "outcomes observed only at refinancing are selected.",
+   "co_citate": "cochrane2005"
+  }
+ ]
+}
