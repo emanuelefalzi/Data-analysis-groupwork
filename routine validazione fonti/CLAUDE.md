@@ -14,15 +14,28 @@ One row per pair **(x.y section of the scaletta × bib key)**:
 |---|---|---|
 | `riga` | `costruisci.py` | row id, `<sezione>__<id_fonte>` (`__2` if the same pair appears twice) |
 | `sezione`, `id_fonte` | `costruisci.py` | the x.y and the `fonti.bib` key |
+| `autore_anno` | `costruisci.py` | in-text citation from `fonti.bib` ("Gompers & Lerner (2000)") |
 | `co_citate` | `costruisci.py` | other keys cited in the same bullet |
 | `tesi` | `costruisci.py` | what the scaletta says the source says (text after the key in the **Sources** block) |
+| `esito` | reader / scripts | `usabile` · `da riformulare` · `non usabile` · `non verificabile` · `fonte assente` (no txt) · `solo rimando` (bullet is a pointer, no claim) · `da leggere` · `SCARTO` |
 | `estrazione` | reader | what the txt really says on that point |
 | `citazione` | reader | one contiguous passage, word for word |
 | `posizione` | reader | section or page of the passage |
-| `esito` | reader / scripts | `usabile` · `da riformulare` · `non usabile` · `non verificabile` · `fonte assente` (no txt) · `solo rimando` (bullet is a pointer, no claim) · `da leggere` · `SCARTO` |
 | `citazione_trovata` | `verifica.py` | `sì` if the quote is in the txt |
+| **Writing columns** | | *used to draft the paper and the deck; never wider than `estrazione`* |
+| `frase_paper` | reader | one sentence ready for the paper ("Author (year) finds…"); for `da riformulare` it is the proposed narrower wording |
+| `frase_slide` | reader | ≤ 20 words for a slide bullet, short citation at the end |
+| `forza` | reader | `shows` · `mentions` · `assumes`: how strongly the source makes the point |
+| `tipo_studio` | reader (per source) | `empirical` · `theory` · `review` · `methods` · `survey of practitioners` |
+| `dati_metodo` | reader (per source) | data, sample, period, method in one line: to explain the reference in a few words |
+| `numero_chiave` | reader | a number from the source usable on a slide, with what it is (checked against the txt) |
+| `limiti_vs_noi` | reader | how the source's setting differs from ours (US, round 1 in 2012–2019, 5-year exit): feeds limits and critical thinking |
 | `note` | reader / `verifica.py` | caveats, or why the row was discarded |
 | `file_txt` | `costruisci.py` | path of the txt used |
+
+To draft a section x.y: filter `tabella.csv` on `sezione` and `esito` ∈ {`usabile`,
+`da riformulare`}, and use `frase_paper` (paper) or `frase_slide` (deck). Rows in the other
+esiti are not citable until the group decides.
 
 **The rule above all:** the question is not "is the tesi true?" but "does this txt, as it is,
 support this tesi, as it is worded?". When in doubt, the more conservative esito wins.

@@ -11,7 +11,10 @@ what the reader was only asked to do:
     passage (comparison on letters and digits only, so line breaks,
     hyphenation, ligatures and the publishers' "Downloaded from..." lines do
     not matter);
-  - 'non verificabile' says what was read and searched (>= 150 characters).
+  - 'non verificabile' says what was read and searched (>= 150 characters);
+  - writing columns: for 'usabile' / 'da riformulare', frase_paper names the
+    author and frase_slide is short (<= 20 words); forza and tipo_studio use
+    the allowed values; every number in numero_chiave appears in the txt.
 A row that fails is a SCARTO: its columns stay empty in tabella.csv and the
 reader of that source has to redo it. Never fix a reader's JSON by hand.
 
@@ -29,7 +32,11 @@ TABELLA = os.path.join(ROUTINE, "tabella.csv")
 REFERTO = os.path.join(ROUTINE, "referto.md")
 
 ESITI = ["usabile", "da riformulare", "non usabile", "non verificabile"]
-CAMPI = ["riga", "firma", "estrazione", "citazione", "posizione", "esito", "note"]
+FORZA = ["shows", "mentions", "assumes"]
+TIPI = ["empirical", "theory", "review", "methods", "survey of practitioners"]
+PER_RIGA = ["estrazione", "citazione", "posizione", "esito", "frase_paper", "frase_slide",
+            "forza", "numero_chiave", "limiti_vs_noi", "note"]
+PER_FONTE = ["tipo_studio", "dati_metodo"]
 
 # publisher stamps that pdftotext puts in the middle of the text
 TIMBRI = [
@@ -56,7 +63,16 @@ def testo(path):
     return _cache[path]
 
 
-def controlla(r, task_riga, file_txt):
+def controlla_fonte(d):
+    err = []
+    if d.get("tipo_studio") not in TIPI:
+        err.append(f"tipo_studio not allowed: {d.get('tipo_studio')!r} (use one of {TIPI})")
+    if len((d.get("dati_metodo") or "").strip()) < 20:
+        err.append("dati_metodo empty or too short")
+    return err
+
+
+def controlla(r, task_riga, file_txt, autore):
     err = []
     if task_riga is None:
         return ["row not in the task (scaletta changed? rerun costruisci.py and re-read)"]
@@ -77,6 +93,23 @@ def controlla(r, task_riga, file_txt):
         err.append("estrazione empty")
     if r.get("esito") == "non verificabile" and len(est) < 150:
         err.append("'non verificabile' must say what was read and searched (>= 150 characters)")
+    if r.get("esito") in ("usabile", "da riformulare"):
+        fp = (r.get("frase_paper") or "").strip()
+        cognome = autore.split()[0] if autore else ""
+        if not fp:
+            err.append("frase_paper empty")
+        elif cognome and cognome.lower() not in fp.lower():
+            err.append(f"frase_paper must name the source ({autore})")
+        fs = (r.get("frase_slide") or "").strip()
+        if not fs:
+            err.append("frase_slide empty")
+        elif len(fs.split()) > 20:
+            err.append("frase_slide longer than 20 words")
+        if r.get("forza") not in FORZA:
+            err.append(f"forza not allowed: {r.get('forza')!r} (use one of {FORZA})")
+    for n in re.findall(r"\d+(?:[.,]\d+)?", r.get("numero_chiave") or ""):
+        if alnum(n) not in testo(file_txt):
+            err.append(f"numero_chiave: {n} not found in the txt")
     return err
 
 
@@ -106,19 +139,23 @@ def main():
                 illeggibili.append(f"{f}: id_fonte {d.get('id_fonte')!r} has no task")
                 continue
             per_riga = {x["riga"]: x for x in t["righe"]}
+            e_fonte = controlla_fonte(d)
             for r in d.get("righe", []):
-                e = controlla(r, per_riga.get(r.get("riga")), t["file_txt"])
+                e = e_fonte + controlla(r, per_riga.get(r.get("riga")), t["file_txt"],
+                                        t.get("autore_anno", ""))
+                for c in PER_FONTE:
+                    r[c] = d.get(c, "")
                 (scarti if e else esiti)[r.get("riga")] = e or r
 
     for r in righe:
         # rows without a reader (fonte assente / solo rimando) keep their esito
         if r["esito"] in ("fonte assente", "solo rimando"):
             continue
-        for c in ("estrazione", "citazione", "posizione", "esito", "citazione_trovata", "note"):
+        for c in PER_RIGA + PER_FONTE + ["citazione_trovata"]:
             r[c] = ""
         x = esiti.get(r["riga"])
         if x:
-            for c in ("estrazione", "citazione", "posizione", "esito", "note"):
+            for c in PER_RIGA + PER_FONTE:
                 r[c] = (x.get(c) or "").strip()
             r["citazione_trovata"] = "sì" if r["citazione"] else ""
         elif r["riga"] in scarti:
@@ -149,20 +186,24 @@ def main():
                 continue
             fh.write(f"## {o} ({len(conta[o])})\n\n")
             for r in conta[o]:
-                fh.write(f"### {r['sezione']} · `{r['id_fonte']}`\n")
+                fh.write(f"### {r['sezione']} · {r['autore_anno'] or r['id_fonte']} (`{r['id_fonte']}`)\n")
                 fh.write(f"- **Tesi (scaletta):** {r['tesi']}\n")
                 if r["estrazione"]:
                     fh.write(f"- **What the source says:** {r['estrazione']}\n")
                 if r["citazione"]:
                     pos = f" ({r['posizione']})" if r["posizione"] else ""
                     fh.write(f"- **Quote{pos}:** \"{r['citazione']}\"\n")
+                if r["esito"] == "da riformulare" and r["frase_paper"]:
+                    fh.write(f"- **Proposed wording:** {r['frase_paper']}\n")
+                if r["limiti_vs_noi"]:
+                    fh.write(f"- **Limits vs our setting:** {r['limiti_vs_noi']}\n")
                 if r["note"]:
                     fh.write(f"- **Note:** {r['note']}\n")
                 fh.write("\n")
         if conta["usabile"]:
             fh.write(f"## usabile ({len(conta['usabile'])})\n\n")
             for r in conta["usabile"]:
-                fh.write(f"- {r['sezione']} · `{r['id_fonte']}`: {r['tesi']}\n")
+                fh.write(f"- {r['sezione']} · {r['autore_anno']} ({r['forza']}): {r['frase_paper']}\n")
 
     print("  ".join(f"{o}: {len(conta[o])}" for o in ordine))
     for x in illeggibili:

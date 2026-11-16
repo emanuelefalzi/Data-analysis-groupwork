@@ -3,7 +3,7 @@
 You are the reader of **one** source. The orchestrator gives you the path of your task,
 `routine validazione fonti/lavoro/task/<id_fonte>.json`. It holds:
 
-- `id_fonte`: the bib key of the source;
+- `id_fonte`: the bib key of the source; `autore_anno`: how to cite it in text (e.g. "Gompers (1995)");
 - `file_txt`: the text of the source (a PDF turned into txt, relative to the repo root);
 - `righe`: every place where `scaletta.md` cites this source. Each row has `riga` (its id),
   `firma` (copy it back unchanged), `sezione` (the x.y of the scaletta), `tesi` (what the
@@ -64,19 +64,55 @@ of the task:
 ```json
 {
   "id_fonte": "gompers1995",
+  "tipo_studio": "empirical | theory | review | methods | survey of practitioners",
+  "dati_metodo": "one line: data, sample, country, period and method (e.g. 'N VC-backed US firms, 1961–1992, hazard model of round duration'); for theory: the model in a few words",
   "righe": [
     {
       "riga": "2.1__gompers1995",
       "firma": "copied from the task",
+      "esito": "usabile | da riformulare | non usabile | non verificabile",
       "estrazione": "2–4 sentences in English: what the txt really says on this point.",
       "citazione": "ONE contiguous passage, copied word for word from the txt",
       "posizione": "section title or page where the passage is, as written in the txt",
-      "esito": "usabile | da riformulare | non usabile | non verificabile",
+      "frase_paper": "one sentence ready for the paper, see below",
+      "frase_slide": "at most 20 words, ready for a slide, see below",
+      "forza": "shows | mentions | assumes",
+      "numero_chiave": "the source's key number on this point with what it is, or empty",
+      "limiti_vs_noi": "how the source's setting differs from ours, or empty",
       "note": "edge cases, which part of a compound tesi decided, shared-tesi caveats"
     }
   ]
 }
 ```
+
+### The writing columns
+
+The table is used to **write the paper and the deck** (the deck follows the scaletta). These
+columns turn your reading into text the group can use directly. They must never say more than
+`estrazione`: if the tesi was too wide, they carry the narrower version.
+
+- **`frase_paper`**: one sentence in academic English, in the form the repo rules ask for: the
+  source named as `autore_anno` from the task, then what it finds/argues/models, then the
+  condition or sample if it matters. E.g. "Gompers (1995) finds that round duration falls as
+  expected agency costs rise, in a sample of US VC-backed firms." Use the verb that matches
+  `forza` and `tipo_studio`: "finds/shows" for empirical results, "argues/models" for theory,
+  "reviews" for reviews, "notes" for a mention. Required for `usabile` and `da riformulare`;
+  for `da riformulare` it **is** the proposed narrower wording. Empty for the other esiti.
+- **`frase_slide`**: the same content in at most 20 words, for a slide bullet, with the short
+  citation in brackets at the end, e.g. "Rounds get shorter when agency costs are high
+  (Gompers, 1995)". Required for `usabile` and `da riformulare`.
+- **`forza`**: whether the source shows the point (data, model, argument), only mentions it, or
+  only assumes it. Required for `usabile` and `da riformulare`.
+- **`tipo_studio`**, **`dati_metodo`** (once per source, top level): what kind of study it is and
+  on what data. They let the group explain every reference in a few words, as `RULES.md` asks.
+- **`numero_chiave`**: a number from the txt that the group could put on a slide (a share, an
+  effect size, a sample size), with what it is, e.g. "about 2x: sorting vs influence in
+  explaining outcomes". Same figure as in the txt: every number you write is checked against
+  it. Empty if the source has no number on this point.
+- **`limiti_vs_noi`**: our setting is US startups with a first VC round in 2012–2019 (PitchBook),
+  exit within five years. Write how the source differs where it matters (other period, country,
+  only IPOs, only VC-backed survivors, theory without data). Empty if nothing relevant. This feeds
+  the limits and the "critical thinking" part of the deck.
 
 - **`citazione`**: ONE contiguous passage, at least 25 characters, copied word for word: the one
   the verdict rests on. Never join two passages with "…". Never take it from the title page,

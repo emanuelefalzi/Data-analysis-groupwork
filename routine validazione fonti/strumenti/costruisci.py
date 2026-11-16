@@ -28,8 +28,31 @@ BIB = os.path.join(REPO, "fonti", "fonti.bib")
 TASK = os.path.join(ROUTINE, "lavoro", "task")
 TABELLA = os.path.join(ROUTINE, "tabella.csv")
 
-COLONNE = ["riga", "sezione", "id_fonte", "co_citate", "tesi", "estrazione", "citazione",
-           "posizione", "esito", "citazione_trovata", "note", "file_txt"]
+COLONNE = [
+    # identification (costruisci.py)
+    "riga", "sezione", "id_fonte", "autore_anno", "co_citate", "tesi",
+    # verification (reader, checked by verifica.py)
+    "esito", "estrazione", "citazione", "posizione", "citazione_trovata",
+    # for writing the paper and the deck (reader)
+    "frase_paper", "frase_slide", "forza", "tipo_studio", "dati_metodo", "numero_chiave",
+    "limiti_vs_noi",
+    # housekeeping
+    "note", "file_txt"]
+
+
+def autore_anno(autori, anno):
+    """APA-style in-text citation from a bib author field: Smith (2001), Smith & Lee (2001),
+    Smith et al. (2001)."""
+    cognomi = [a.split(",")[0].strip() for a in re.split(r"\s+and\s+", autori) if a.strip()]
+    if not cognomi:
+        return ""
+    if len(cognomi) == 1:
+        testa = cognomi[0]
+    elif len(cognomi) == 2:
+        testa = f"{cognomi[0]} & {cognomi[1]}"
+    else:
+        testa = f"{cognomi[0]} et al."
+    return f"{testa} ({anno})"
 
 KEY = r"`([a-z][a-z]*\d{4}[a-z]?)`"
 SEZ = re.compile(r"^#{2,3} (\d+(?:\.\d+)?) ")
@@ -40,16 +63,21 @@ def firma(testo):
     return hashlib.sha1(testo.encode("utf-8")).hexdigest()[:10]
 
 
-def file_bib():
-    """bibkey -> absolute path of its txt (only entries with a `file` field)."""
+def leggi_bib():
+    """bibkey -> {'file': absolute txt path, 'autore_anno': 'Smith et al. (2001)'}."""
     out, chiave = {}, None
     for l in open(BIB, encoding="utf-8"):
         m = re.match(r"^@\w+\{([^,]+),", l)
         if m:
             chiave = m.group(1).strip()
-        m = re.match(r"^\s*file\s*=\s*\{(.+)\}", l)
+            out[chiave] = {}
+            continue
+        m = re.match(r"^\s*(file|author|year)\s*=\s*\{(.+)\},?\s*$", l)
         if m and chiave:
-            out[chiave] = os.path.join(REPO, m.group(1).strip())
+            out[chiave][m.group(1)] = m.group(2).strip()
+    for k, v in out.items():
+        v["file"] = os.path.join(REPO, v["file"]) if v.get("file") else ""
+        v["autore_anno"] = autore_anno(v.get("author", ""), v.get("year", ""))
     return out
 
 
@@ -82,13 +110,15 @@ def coppie():
 
 
 def main():
-    bib = file_bib()
+    bib = leggi_bib()
     righe, visti = [], {}
     for r in coppie():
         base = f"{r['sezione']}__{r['id_fonte']}"
         visti[base] = visti.get(base, 0) + 1
         r["riga"] = base if visti[base] == 1 else f"{base}__{visti[base]}"
-        txt = bib.get(r["id_fonte"], "")
+        b = bib.get(r["id_fonte"], {})
+        txt = b.get("file", "")
+        r["autore_anno"] = b.get("autore_anno", "")
         r["file_txt"] = os.path.relpath(txt, REPO) if txt and os.path.exists(txt) else ""
         if not r["file_txt"]:
             r["esito"] = "fonte assente"
@@ -108,7 +138,7 @@ def main():
         if not r["esito"]:
             per_fonte.setdefault(r["id_fonte"], []).append(r)
     for k, rr in per_fonte.items():
-        task = {"id_fonte": k, "file_txt": rr[0]["file_txt"],
+        task = {"id_fonte": k, "autore_anno": rr[0]["autore_anno"], "file_txt": rr[0]["file_txt"],
                 "righe": [{"riga": r["riga"], "firma": firma(r["tesi"]), "sezione": r["sezione"],
                            "tesi": r["tesi"], "co_citate": r["co_citate"]} for r in rr]}
         with open(os.path.join(TASK, k + ".json"), "w", encoding="utf-8") as fh:
