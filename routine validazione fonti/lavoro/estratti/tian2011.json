@@ -1,0 +1,63 @@
+{
+ "id_fonte": "tian2011",
+ "tipo_studio": "empirical",
+ "dati_metodo": "US VC-backed entrepreneurial firms with first VC round 1980-Oct 2006 (VentureXpert); OLS/2SLS regressions of number of rounds, inter-round duration and round size on VC-firm distance; IPO-firm sample 1980-2005 for outcomes",
+ "righe": [
+  {
+   "riga": "1__tian2011",
+   "firma": "cd86701455",
+   "esito": "da riformulare",
+   "estrazione": "Tian finds that VCs located farther from the firm use more rounds, shorter durations between rounds and smaller rounds. For outcomes, more rounds go with a higher IPO propensity, better IPO-year operating performance and post-IPO survival only if the firm is far from the VC; for close firms the number of rounds is negatively related to these outcomes. So the link between more staging and better outcomes is conditional on distance, not general.",
+   "citazione": "only if the ﬁrm is located far away from the VC investor",
+   "posizione": "Abstract",
+   "frase_paper": "Tian (2011) finds that VC investors located farther from a firm finance it with more rounds and shorter intervals between rounds, and that more rounds go with better outcomes (IPO, IPO-year performance, post-IPO survival) only when the firm is far from the VC.",
+   "frase_slide": "Distant VCs stage more, with shorter gaps; more rounds go with better outcomes only for distant firms (Tian, 2011)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "US VC-backed firms 1980-2006 from VentureXpert; outcomes studied on IPO firms (IPO, IPO-year ROA, post-IPO survival), not on exit within five years of a 2012-2019 first round; number of rounds, not gap, is the staging measure in the outcome tests.",
+   "note": "Compound tesi: the first part (more and shorter rounds when far) is supported; the second part (more staging goes with better outcomes) is unconditional in the tesi but conditional in the txt, and negative for close firms. That part decided the esito."
+  },
+  {
+   "riga": "2.1__tian2011",
+   "firma": "abb69d7bcd",
+   "esito": "usabile",
+   "estrazione": "Tian finds that a larger distance between VC and firm goes with a larger number of rounds and a shorter duration between successive rounds. Table 7 reports that being within 25 miles of the lead VC goes with receiving successive rounds 4.4 months later than firms outside 25 miles. Distance is used as a proxy for the VC's monitoring costs.",
+   "citazione": "VC investor implies a shorter ﬁnancing duration between",
+   "posizione": "4.3. Results on round duration, round size, and total financing",
+   "frase_paper": "Tian (2011) finds that VC investors located farther from a firm finance it with more rounds and shorter durations between successive rounds, in US VentureXpert data for first rounds in 1980-2006.",
+   "frase_slide": "Distant VCs fund startups in more rounds with shorter gaps (Tian, 2011)",
+   "forza": "shows",
+   "numero_chiave": "4.4 months: firms within 25 miles of the lead VC receive successive rounds this much later than firms outside 25 miles (Table 7, col. 2)",
+   "limiti_vs_noi": "US VentureXpert sample, first rounds 1980-2006, distance is the regressor; the duration regression uses only firms that already exited (to limit right-censoring); no 2012-2019 PitchBook data.",
+   "note": "The txt uses causal-sounding wording ('implies'); the design is regression with IV checks, so the paper sentence keeps 'finds'."
+  },
+  {
+   "riga": "5.5__tian2011",
+   "firma": "0479ae6c08",
+   "esito": "da riformulare",
+   "estrazione": "Tian links shorter rounds to higher monitoring costs of the VC, proxied by distance (the monitoring hypothesis). The txt does not test riskier ventures as such; risk and information asymmetry appear only as background for why monitoring matters. Only the harder-to-monitor half of the tesi is supported.",
+   "citazione": "VC investor implies a shorter ﬁnancing duration between",
+   "posizione": "4.3. Results on round duration, round size, and total financing",
+   "frase_paper": "Tian (2011) finds that VC investors tend to shorten the interval between rounds when the firm is far away and so costlier to monitor.",
+   "frase_slide": "Shorter gaps when monitoring is costlier, proxied by distance (Tian, 2011)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Monitoring cost is proxied by geographic distance in US VentureXpert data 1980-2006; riskiness of the venture is not the variable tested.",
+   "note": "Shared tesi with gompers1995: judged only on Tian. The 'riskier' part is not supported by this txt. The hypothesis sentence in 2.1 is a prediction; the support from data is in 4.3 (Table 7): 'a greater distance ... implies a shorter financing duration between successive rounds'."
+  },
+  {
+   "riga": "6.1__tian2011",
+   "firma": "c173ddaeef",
+   "esito": "da riformulare",
+   "estrazione": "Tian argues that the VC balances the costs of monitoring against the costs of staging and uses staging (more, shorter rounds) as a substitute for monitoring when monitoring is costly. Data show shorter durations with greater distance. The txt does not model or test risk as a driver of round length, so 'according to risk' is not supported.",
+   "citazione": "VC investor will balance the costs of intensively monitor-",
+   "posizione": "2.1. The causes of VC stage financing",
+   "frase_paper": "Tian (2011) argues that VC investors balance the costs of monitoring against the costs of staging, and finds shorter intervals between rounds when monitoring is costlier because the firm is far away.",
+   "frase_slide": "VCs trade off monitoring costs against staging costs; shorter gaps when far (Tian, 2011)",
+   "forza": "shows",
+   "numero_chiave": "",
+   "limiti_vs_noi": "Monitoring costs proxied by distance; US VentureXpert 1980-2006; risk is not a tested driver; the txt does not distinguish round length chosen by the VC from other forces.",
+   "note": "Shared tesi with gompers1995: judged only on Tian. Monitoring-cost part supported; risk part not in this txt, which decided the esito."
+  }
+ ]
+}
