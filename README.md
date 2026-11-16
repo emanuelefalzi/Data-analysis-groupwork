@@ -23,8 +23,8 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 4. risultati/regression_analysis.txt    Stata log of the do-file (15/11/2026): source of every number
 4. risultati/RQ1_tables.doc     Word/RTF tables from the do-file
 4. risultati/figures.zip        figures exported by the do-file
-5. paper/paper_group21.pdf      group paper v4 (15/11/2026): the base for the deck
-5. paper/main_important_stuff_ig.docx   early notes on cleaning and literature (partly outdated)
+5. paper e documentazione di percorso/paper_group21.pdf   group paper v4 (15/11/2026): the base for the deck
+5. paper e documentazione di percorso/main_important_stuff_ig.docx   early notes on cleaning and literature (partly outdated)
 fonti/                          literature: PDFs, txt, fonti.bib, download fonti.md
 registers/                      results (R-xx), inferences (I-xx), open points
 scaletta.md                     draft outline of the deck

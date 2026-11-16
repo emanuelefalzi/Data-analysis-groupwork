@@ -42,9 +42,9 @@ Research question: *is the time between the first and the second VC round associ
 | `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | Current |
 | `4. risultati/regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
 | `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
-| `5. paper/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
+| `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
 | `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |
-| `5. paper/main_important_stuff_ig.docx` | Early notes on cleaning, variables and literature for the pitch | Partly outdated |
+| `5. paper e documentazione di percorso/main_important_stuff_ig.docx` | Early notes on cleaning, variables and literature for the pitch | Partly outdated |
 | `registers/` | Results register, inferences register, open points | Kept up to date |
 | `slide outline.md` | The deck outline (to be created) | Next task |
 
