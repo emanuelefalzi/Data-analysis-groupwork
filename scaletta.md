@@ -670,9 +670,9 @@ Rules that hold throughout (from `RULES.md`):
 #### Content
 1. **Verdicts and the overall reading**: *Table 13, a slow second round is not a distress signal, less failure, larger step, flat exit*
    The four verdicts together: once a startup reaches round 2, a longer wait goes with lower failure, a larger valuation step and at most a slightly lower chance of exit. A slow second round is not a distress signal here.
-2. **Staging intensity as a measure of risk**: *leash, short rounds for hard-to-monitor ventures, our step to risk, both tails*
+2. **Staging intensity as a measure of risk (home of I-04)**: *leash, short rounds for hard-to-monitor ventures, our step to risk, both tails*
    Investors keep ventures with high agency or monitoring costs on short rounds. We argue that these ventures are also riskier, so fast raisers are on average riskier (I-04). That predicts their higher failure and a weak exit link, because risk fattens both tails.
-3. **Learning before refinancing and priced progress**: *longer test passed, survivors, priced progress (our argument), elasticity far below one*
+3. **Learning before refinancing and priced progress (home of I-03)**: *longer test passed, survivors, priced progress (our argument), elasticity far below one*
    We argue that slow raisers have passed a longer test before round 2 and accumulated more progress, which round 2 prices. The elasticity far below one means they grow more slowly per month: more in total, less per unit of time.
 4. **Why hype does not soften the penalty**: *signal extraction (see 2.3), past-only hype, exit-market timing, attenuation*
    The negative β3 fits the signal-extraction alternative of 2.3: in hot markets a slow round is more informative. A second reason is timing: hype at round 1 is a poor proxy for exit-market conditions years later, biasing β3 towards zero.
@@ -708,7 +708,7 @@ Rules that hold throughout (from `RULES.md`):
 - Table 14 is long. In the paper keep it. In the deck, a 4-row version (H1, H1b, H2, H3) with "prediction / estimate / reading".
 
 #### Claude's additions
-- [Likely] Explanations 2 and 3 make **opposite** assumptions about who the fast raisers are: risky (leash) vs good (learning). Say which result discriminates between them, if any. Figure 19 (per-year growth faster for fast raisers) leans against "fast = worse". Put it to the group as an inference to register (I-xx, ⏳ proposed).
+- [Likely] Explanations 2 and 3 make **opposite** assumptions about who the fast raisers are: risky (leash) vs good (learning). Say which result discriminates between them, if any. Figure 19 is now read in 6.1 point 6 (I-01, decided 17/11), not as evidence against the leash: per-year growth faster for fast raisers is also compatible with I-04 (riskier ventures, fatter tails).
 
 ### 5.6 Limitations (narrowed: measurement and inference)
 
@@ -756,14 +756,16 @@ Rules that hold throughout (from `RULES.md`):
 #### Content
 1. **Unobserved quality drives both**: *omitted variable, venture quality, team, speed and outcome, selection on unobservables*
    Startups choose, and are chosen for, their refinancing pace. Unobserved quality, such as team or traction, can shorten the gap and change exit or failure at the same time, so β1 mixes any gap effect with quality.
-2. **The investor chooses the gap**: *staging as a leash, round length set for risk, reverse logic, endogenous treatment*
-   Round length is partly the investor's choice, set according to the risk the investor expects. A short gap can then reflect expected risk rather than cause anything, so the gap is endogenous to the outcome's determinants.
+2. **The investor chooses the gap**: *staging as a leash, round length set for monitoring costs, reverse logic, endogenous treatment*
+   Round length is partly the investor's choice, set according to agency and monitoring costs (and, we argue, risk: I-04, 5.5). A short gap can then reflect what the investor expects rather than cause anything, so the gap is endogenous to the outcome's determinants.
 3. **Round-1 controls help, but only so far**: *fixed at round 1, no bad controls, round-2 mediators excluded, observables only*
    Controls are fixed at round 1, so they cannot be outcomes of the gap, and round-2 variables are excluded as mediators. This avoids bad controls but adjusts only for observables.
 4. **Extra controls do not move β1, which is not proof**: *team controls, β1 unchanged, coefficient stability, residual bias*
    Adding founder, MBA, AI and young-lead controls leaves β1 and β3 unchanged. That is reassuring about these observables but does not rule out other unobserved quality. Stability is not identification.
 5. **Hype is not exogenous either**: *sector-year shares, cohort composition, demand shocks, common shocks*
    Hype is a sector-year share of VC dollars. It moves with sector demand and opportunity shocks that can also affect exits, so β3 describes how the gap–exit association varies with hype, not what hype does.
+6. **A larger total step is not value created by waiting (I-01)**: *total vs per-year step, time accumulates, θ1 > 0, Figure 19*
+   We read the positive θ1 as a statement about elapsed time, not about waiting as a strategy: the total step is slightly larger after a long gap, but the step per year falls sharply with the gap (Figure 19). Waiting longer is not shown to create value.
 
 #### Sources
 - `sorensen2007`: sorting of better ventures to better investors outweighs influence.
@@ -818,6 +820,8 @@ Rules that hold throughout (from `RULES.md`):
    The negative failure coefficient is partly this survivorship. It is a real association, and it is exactly what an investor observing round 2 sees, but it is not the effect of waiting longer before raising again.
 4. **Raw evidence that fits**: *still private rises, failure falls, exit flat, Figure 8*
    The raw three-way split in Figure 8 fits this reading: across gap quintiles, slow raisers fail less and stay private more, without exiting more. Survivorship predicts exactly this pattern; a pure distress story does not.
+5. **What the gap measures (I-02)**: *survived and achieved, not how it is doing, state not lever, founder vs investor*
+   We read the gap as a measure of how much a startup has already survived and achieved before round 2, not of how it is doing: less failure, a larger total step and a flat exit link. It describes a state an investor observes, not a lever a founder can pull.
 
 #### Sources
 - `cochrane2005`, `korteweg2010`: valuations observed only at refinancing or exit are a selected sample.
@@ -874,7 +878,7 @@ Rules that hold throughout (from `RULES.md`):
 3. **For founders and investors**: *slow round not a bad sign, round-1 information, round size, lead type*
    For founders, a slower second round is not in itself a bad sign. For investors, the pace of refinancing seems to carry little information about exit beyond what is visible at round 1, such as size and lead type.
 4. **For the staging literature**: *accumulated progress and survival, not distress, selection view, our progress reading, hype makes slowness informative*
-   The findings fit a view in which time between rounds measures accumulated progress and survival rather than distress, which fits the selection account and our accumulated-progress reading (I-03) better than the good-news reading. Hype, if anything, makes a slow round more informative.
+   The findings fit the selection account and our accumulated-progress reading (I-03, 5.5) better than the good-news reading; what the gap measures, and what it does not, is in 6.3 (I-02). Hype, if anything, makes a slow round more informative.
 5. **What remains open**: *exit-market conditions, timing account of H2, growth per year, pointer to 6.4*
    Two extensions sharpen the descriptive picture: exit-market conditions measured at the time of exit, to test the timing account of H2, and growth per year rather than the total step. Causal extensions are in 6.4.
 
@@ -891,7 +895,7 @@ Rules that hold throughout (from `RULES.md`):
 - The deck's last slide = points 1, 3 and the 6.4 point-4 sentence.
 
 ### Claude's additions
-- [Likely] End on the reframing: "time between rounds measures how much a startup has survived and achieved, not how it is doing". It is memorable and supported (5.2, 5.3). Register it as an inference (I-xx ⏳).
+- ~~End on the reframing (I-02).~~ Superseded 17/11 (Lele): I-02 has its home in 6.3. The closing line of the deck is still to choose (open point 21).
 
 ---
 
