@@ -682,7 +682,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Sources
 - `gompers1995`, `tian2011`: shorter rounds where agency costs are higher (Gompers) or the VC is far, so monitoring is costlier (Tian).
-- `bergemann2005`: uncertainty about the project resolves over time; funding slows as the investor's belief falls (theory).
+- `bergemann2005`: funding slows as the investor's belief that the project is good falls, in every period without success (theory).
 - `cochrane2005`, `korteweg2010`: valuations are observed only at refinancing or exit, so observed valuations are a selected sample.
 - `kaplan2003`: as in 5.3.
 - `gompers1995`: VCs stage capital infusions to gather information (milestones appear only as a rival explanation he rejects).
