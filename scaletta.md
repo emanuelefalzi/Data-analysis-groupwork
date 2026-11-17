@@ -40,7 +40,7 @@ Rules that hold throughout (from `RULES.md`):
 **Structural decisions** (decided by Lele on 16/11/2026 unless marked open):
 - **D1. Decided: split.** 5.6 keeps the limits of measurement and inference; Section 6 holds the limits to a causal reading.
 - **D2. Decided:** the title is "Limitations to causality".
-- **D3. Open** (open point 13). The home of the valuation-measurement caveats (post-money overstatement, disclosure for about half the sample). They appear three times in v4 (2.4, 5.3, 5.6). Proposal: home in 5.6, one-line pointer in 5.3, mechanism only in 2.4.
+- **D3. Decided 17/11 (Lele, open point 13).** The valuation-measurement caveats (post-money overstatement, disclosure for about half the sample) are said in full only in 5.6 (point 3); 5.3 has a one-line pointer; 2.4 keeps only the mechanism (point 4). In v4 they appeared three times.
 - **D4. Decided: rewrite.** `nanda2017` and `townsend2015` are not cited. The sentences that rested on them (2.3 points 2–3, 2.5 point 2, 6.4 point 2) now rest on sources in `fonti.bib` or are stated as our own argument.
 - **Sources (16/11).** All 53 "da riformulare" proposals of the source validation are applied. The 11 "non usabile" verdicts were confirmed by a second reader (Sonnet), and each tesi was replaced with a narrower one that the txt supports. `yu2020` is removed.
 
