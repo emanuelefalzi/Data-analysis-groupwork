@@ -39,5 +39,7 @@
   "doppio_auditor": false,
   "appendice_testo": "../5. paper e documentazione di percorso/appendix A - dataset construction.md",
   "sottotitolo": "Group 21, 21072 Data Analysis Module I, Bocconi University",
-  "glossario": "../glossary.md"
+  "glossario": "../glossary.md",
+  "tabelle_testo": "../4. risultati/tables testuali",
+  "construction_txt": "../2. dataset/construction.txt"
 }

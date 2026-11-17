@@ -73,7 +73,8 @@ si usa un subagent generico e gli si passa il testo del file dell'agente come is
 | Contesto del lettore delle fonti | `../routine validazione fonti/tabella.csv` |
 | Bibliografia | `../fonti/fonti.bib` |
 | Figure, tabelle del do-file | `../4. risultati/figures.zip`, `RQ1_tables.doc`, `RQ1_tables_not_in_log_checks.rtf` → `build/` |
-| Tabelle e figura di testo (T1–T4, T7, T13, T14, F1) | `latex/testo/<id>.tex` |
+| Tabelle testuali (T1–T4, T7, T13, T14), una fonte per cella | `../4. risultati/tables testuali/<id>.md` → `tools/tabelle_testo.py` → `<id>.tex` + `tracciabilita.md` |
+| Figura 1 (schema TikZ) | `latex/testo/F1.tex` |
 | Sezioni scritte (DRAFT + LEDGER) | `sezioni/<id>.md` |
 | Report dei controlli | `reports/` |
 | Sorgente LaTeX | `latex/main.tex`, `latex/preambolo.tex` (del gruppo), `latex/gen/` (generato) |

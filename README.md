@@ -18,6 +18,7 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 1. python/dataset.py            raw PitchBook files -> dataset (v2)
 2. dataset/dataset.dta          the dataset: 28,478 startups x 57 variables
 2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
+2. dataset/construction.txt     text of construction.pdf (pdftotext -layout), so tables can cite its lines
 3. stata/rq1_two_group_analysis_v2.do   main Stata analysis (descriptives, models, figures, tables)
 3. stata/rq1_addon_extra_controls.do    robustness: team and lead-investor-age controls
 3. stata/rq1_addon_not_in_log_checks.do  paper v4 numbers computed outside Stata, rerun in Stata
@@ -25,6 +26,8 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 4. risultati/regression_analysis.txt    Stata log of the do-file (15/11/2026): source of every number
 4. risultati/RQ1_tables.doc     Word/RTF tables from the do-file
 4. risultati/figures.zip        figures exported by the do-file
+4. risultati/tables testuali/   paper Tables 1, 2, 3, 4, 7, 13, 14: one source per cell, checked by
+                                skill-redigere paper latex/tools/tabelle_testo.py (tracciabilita.md)
 5. paper e documentazione di percorso/paper_group21.pdf   group paper v4 (15/11/2026): the base for the deck
 5. paper e documentazione di percorso/main_important_stuff_ig.docx   early notes on cleaning and literature (partly outdated)
 fonti/                          literature: PDFs, txt, fonti.bib, download fonti.md

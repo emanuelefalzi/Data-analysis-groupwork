@@ -52,11 +52,11 @@ di lead-investor type da mostrare (le altre diventano una riga «Yes»), separat
 
 | id | tipo | file | dove | sezione | altezza | affianca | tieni | didascalia | paper v4 |
 |---|---|---|---|---|---|---|---|---|---|
-| T1 | tabella-testo | latex/testo/T1.tex | corpo | 2 | 0.47 |  |  | The hypotheses and the competing predictions | Table 1 |
-| T2 | tabella-testo | latex/testo/T2.tex | corpo | 2.5 | 0.53 |  |  | Round-1 controls, the mechanism behind each, and the expected sign | Table 2 |
-| T3 | tabella-testo | latex/testo/T3.tex | corpo | 3.1 | 0.37 |  |  | Sample construction | Table 3 |
+| T1 | tabella-testo | ../4. risultati/tables testuali/T1.tex | corpo | 2 | 0.47 |  |  | The hypotheses and the competing predictions | Table 1 |
+| T2 | tabella-testo | ../4. risultati/tables testuali/T2.tex | corpo | 2.5 | 0.53 |  |  | Round-1 controls, the mechanism behind each, and the expected sign | Table 2 |
+| T3 | tabella-testo | ../4. risultati/tables testuali/T3.tex | corpo | 3.1 | 0.37 |  |  | Sample construction | Table 3 |
 | F1 | figura-testo | latex/testo/F1.tex | corpo | 3.2 | 0.37 |  |  | The two-group design and the timing of each variable | Fig. 1 |
-| T4 | tabella-testo | latex/testo/T4.tex | corpo | 3.2 | 0.47 |  |  | Variable definitions | Table 4 |
+| T4 | tabella-testo | ../4. risultati/tables testuali/T4.tex | corpo | 3.2 | 0.47 |  |  | Variable definitions | Table 4 |
 | T5 | tabella | main:1 | corpo | 3.3 | 0.29 |  |  | Descriptive statistics by group, estimation sample (5-year window) | Table 5 |
 | F2 | figura | d1_gap_histogram.png | corpo | 3.3 | 0.40 | A |  | Months between rounds 1 and 2 | Fig. 2 |
 | F3 | figura | d2_startups_by_year.png | corpo | 3.3 | 0.40 | A |  | Startups by year of round 1 and group | Fig. 3 |
@@ -68,7 +68,7 @@ di lead-investor type da mostrare (le altre diventano una riga «Yes»), separat
 | F9 | figura | d7_round1_size.png | corpo | 3.3 | 0.40 | D |  | Distribution of the round-1 amount by group | Fig. 9 |
 | F10 | figura | d8_exit_by_lead_type.png | corpo | 3.3 | 0.40 | D |  | Exit within 5 years by lead-investor type | Fig. 10 |
 | T6 | tabella | main:2 | corpo | 5.1 | 0.60 |  | Accelerator/Incubator; Angel Group; Corporate Venture Capital; Venture Capital | Time between rounds, hype and exit within 5 years | Table 6 |
-| T7 | tabella-testo | latex/testo/T7.tex | corpo | 5.1 | 0.21 |  |  | Average marginal effect of ln gap on the probability of exit and failure (two-round startups) | Table 7 |
+| T7 | tabella-testo | ../4. risultati/tables testuali/T7.tex | corpo | 5.1 | 0.21 |  |  | Average marginal effect of ln gap on the probability of exit and failure (two-round startups) | Table 7 |
 | F11 | figura | m1_exit_effect_by_hype.png | corpo | 5.1 | 0.40 | E |  | Marginal effect of ln gap on exit, by market hype | Fig. 11 |
 | F12 | figura | m2_exit_by_gap.png | corpo | 5.1 | 0.40 | E |  | Predicted probability of exit by months between rounds, cold and hot markets | Fig. 12 |
 | F13 | figura | m3_exit_by_group.png | corpo | 5.1 | 0.40 | G |  | Predicted probability of exit for one-round and two-round startups, by market hype | Fig. 13 |
@@ -85,5 +85,5 @@ di lead-investor type da mostrare (le altre diventano una riga «Yes»), separat
 | T12 | tabella | checks:12 | corpo | 5.4 | 0.60 |  |  | Adding team and lead-investor-age controls (logit, H2 specification) | Table 12 |
 | F20 | figura | m7_windows_exit.png | corpo | 5.4 | 0.40 | L |  | β1 and β3 across outcome windows: exit | Fig. 20 |
 | F21 | figura | m8_windows_failure.png | corpo | 5.4 | 0.40 | L |  | β1 and β3 across outcome windows: failure | Fig. 21 |
-| T13 | tabella-testo | latex/testo/T13.tex | corpo | 5.5 | 0.29 |  |  | Summary of the hypotheses | Table 13 |
-| T14 | tabella-testo | latex/testo/T14.tex | corpo | 5.5 | 0.60 |  |  | Our estimates against the literature | Table 14 |
+| T13 | tabella-testo | ../4. risultati/tables testuali/T13.tex | corpo | 5.5 | 0.29 |  |  | Summary of the hypotheses | Table 13 |
+| T14 | tabella-testo | ../4. risultati/tables testuali/T14.tex | corpo | 5.5 | 0.60 |  |  | Our estimates against the literature | Table 14 |

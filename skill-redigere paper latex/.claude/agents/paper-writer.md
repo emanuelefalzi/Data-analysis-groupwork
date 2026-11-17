@@ -76,7 +76,9 @@ nominano nemmeno a parole. Il token dichiara il buco, la prosa non lo commenta.
 - **Un numero gia' in una tabella o figura non si ripete tutto nel testo**: richiami il float e
   citi le due o tre celle che reggono il messaggio. Il resto lo legge il lettore.
 - Ogni float della sezione va richiamato almeno una volta; il float entra nel PDF subito dopo
-  il paragrafo del primo richiamo, quindi richiamalo dove serve al lettore.
+  il paragrafo del primo richiamo, quindi richiamalo dove serve al lettore. **Il primo richiamo
+  dei floats segue l'ordine in cui il contesto li elenca** (es. Table 6 prima di Table 7): cosi'
+  tabelle e figure tengono i numeri del paper v4.
 - Simboli: scrivi β1, β3, ρ1, θ1, ×, −, χ² in Unicode; l'assemblaggio li converte.
 
 ## Lingua e regole della repo

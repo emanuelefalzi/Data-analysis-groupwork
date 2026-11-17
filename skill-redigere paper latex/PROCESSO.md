@@ -57,8 +57,10 @@ compilazione `compila.py` misura le parole per pagina vere e si ricalibra.
 `floats.py` legge gli RTF del do-file in Python puro (`rtf_tabelle.py`) e converte le 7 tabelle
 in booktabs compatte (i dummy del lead investor diventano una riga «Yes», salvo quelli nominati
 dalla colonna `tieni`; i coefficienti omessi spariscono) **senza toccare una cella**. Le figure
-vanno a coppie nello stesso float, ognuna con il suo numero, come nel paper v4. Le 7 tabelle e la
-figura «di testo» del paper v4 stanno in `latex/testo/`, ricostruite dalla scaletta e dal log.
+vanno a coppie nello stesso float, ognuna con il suo numero, come nel paper v4. Le 7 tabelle testuali del paper v4 stanno in `4. risultati/tables testuali/`: ogni cella dichiara
+la sua fonte (riga del log, cella del do-file, riga di `construction.txt`, sezione della scaletta)
+e `tabelle_testo.py` la controlla prima di scrivere il `.tex`. La Figura 1 (schema) è in
+`latex/testo/F1.tex`.
 
 **Perché compatte e a coppie.** 35 floats in 20 pagine: su un PDF di prova con testo finto
 della lunghezza obiettivo i floats prendono circa 11,6 pagine e la prosa sta in circa 4.800

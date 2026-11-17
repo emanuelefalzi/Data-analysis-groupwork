@@ -25,8 +25,9 @@ corregge, compila e mette il PDF in
 ## Cosa è già deciso (17/11/2026)
 
 - Pagine per sezione e posizione dei floats: `input/piano.md` (Claude, su mandato di Lele).
-- Tabelle e figura «di testo» (T1–T4, T7, T13, T14, Figura 1): `latex/testo/`, ricostruite dalla
-  scaletta aggiornata e dal log.
+- Tabelle testuali (Tables 1, 2, 3, 4, 7, 13, 14): `4. risultati/tables testuali/`, una fonte per
+  cella, controllate da `tools/tabelle_testo.py` (vedi il README della cartella). Figura 1:
+  `latex/testo/F1.tex`.
 - Appendix A: `5. paper e documentazione di percorso/appendix A - dataset construction.md`.
 - Titolo e sottotitolo: `progetto.json` (`titolo`, `sottotitolo`).
 

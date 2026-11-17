@@ -1,0 +1,320 @@
+                   RQ1 two-group dataset: how it is built
+           Construction of rq1_two_group_dataset_v2.dta (28,478 startups, 57 variables)
+                                       14 November 2026
+
+This dataset keeps every course startup with a first VC round and splits it into two groups:
+startups with a second VC round (R = 1) and startups with only one round (R = 0). It replaces
+the round-2-only sample of rq1_core_dataset.dta, which conditions on reaching round 2. The
+script, rq1_two_group_dataset_v2.py, is a copy of the core script with the changes described here.
+Version 2 follows the feedback of the 13 November pitch: startups with an undisclosed round-1
+amount are dropped instead of imputed, the HQ state Unknown stays a category, the fixed
+outcome windows start at round 2 (round 1 for one-round startups), and 4- and 6-year windows
+are added next to the 5-year one for a sensitivity check. Section 1 lists the inputs, Section 2 goes
+through the script step by step, Section 3 shows how the variables enter the regressions, Section 4
+lists what to keep in mind and Section 5 lists every variable. Each variable is tagged Main if the
+main specification uses it (12 variables), Robustness if only checks and extensions use it (24), or
+Not used if it only builds other variables or describes the sample (21).
+
+
+1 Inputs
+                                         Table 1: Input files
+File                       Level        Fields used
+pitchbook_course.dta       startup      CompanyID, YearFounded, PrimaryIndustrySector, HQState_Province,
+                                        IPODate, AcquiredDate, FailedDate
+Deal.csv                   deal         DealID, CompanyID, DealDate, DealType, DealStatus, DealSize,
+                                        PremoneyValuation, PostValuation
+DealInvestorRelation.csv   deal ×       DealID, InvestorID, IsLeadInvestor
+                           investor
+Investor.csv               investor     InvestorID, PrimaryInvestorType, YearFounded
+
+Deals are kept only for course startups, with a valid date and status Completed. A VC deal is a
+deal of type Seed Round, Early Stage VC or Later Stage VC. Settings: DATA_END = 30 June
+2022, WINDOW_YEARS = 5 and CHECK_WINDOWS = 4, 6 (counted from the window start
+w0), MAX_GAP_DAYS = 3,653 (10 years), one month = 30.44 days.
+
+
+2 Construction, step by step
+Step 1. Load
+The course file gives one row per startup (57,751 startups, all in the US, founded 2012 to 2019).
+Blank sector and state are set to missing. 52,277 startups have at least one completed deal with a
+valid date.
+
+Step 2. Rounds, the two groups and the gap
+Deals of one company on the same day are merged into one round, as in the core dataset. The
+change is the join with round 2: it is now a left join, so every startup with a first VC round stays
+in (34,822 startups), whether or not it ever raised a second one.
+       roundk = k-th distinct date with a VC deal;
+       sizek = Σ DealSize on that date;
+       prek, postk = max valuation on that date
+A round 2 dated after DATA_END is outside the observed period and is treated as no round 2
+(828 startups). The group variable is
+
+
+                                                      1
+      two_rounds = R = 1[t2 exists and t2 ≤ 30 June 2022]
+The gap exists only for R = 1. It enters the regression multiplied by R, so one-round startups stay
+in the sample and the gap slope is estimated among two-round startups only:
+      gap_months = (t2 − t1) / 30.44;
+      log_gap = ln(1 + gap_months);
+      log_gap_r2 = R · log_gap (0 if R = 0)
+One startup with a gap above 10 years is dropped as a data error. Rounds are merged by date, so
+a gap of 0 days cannot occur.
+
+Step 3. Outcomes
+Exit is an IPO or an acquisition, whichever comes first; failure uses the failure date of the course
+file. An exit or failure dated before round 1 is a data error (58 startups dropped, leaving 34,763).
+An exit or failure before round 2 is legitimate: a startup can be acquired, or close, without raising
+a second round. The fixed windows start at round 2 for two-round startups, as in the pitch, and at
+round 1 for one-round startups, which have no round 2:
+      window_start = w0 = t2 if R = 1, t1 if R = 0
+      exit = 1[exit date exists] (no window, no drops);
+      exit_wy = 1[w0 ≤ exit ≤ w0 + w years];
+      failure_wy = 1[w0 ≤ failure ≤ w0 + w years];
+      full_window_wy = 1[w0 + w years ≤ 30 June 2022], w = 4, 5, 6
+exit is the main outcome. It uses every exit recorded in the data, including the July to December
+2022 exits after DATA_END. An exit or failure between round 1 and round 2 of a two-round
+startup is outside its window and counts as 0 in exit_wy and failure_wy (26 startups whose first
+recorded event comes before round 2, a likely dating error). For the 5-year window the variables
+keep their v1 names (exit_5y, failure_5y, full_window). full_window marks the 9,263 startups
+whose 5 years are fully observed (12,184 for 4 years, 6,769 for 6). These are flags, not filters: no
+startup is dropped for an incomplete window. The survival clock below still starts at round 1.
+      months_to_outcome = (min(exit, failure, DATA_END) − t1) / 30.44;
+      outcome_is_exit, outcome_is_failure = which event stopped the clock (exit wins a tie);
+      missing when t1 is after 30 June 2022 (661 startups)
+
+Step 4. Controls, missing data, round-2 variables and keys
+Controls are measured at round 1, as in the core dataset. Missing values are handled as asked at
+the pitch:
+      state = \Unknown" if HQ state is blank (19 startups), so i.state_id has an Unknown
+      category;
+      log_round1_size = ln(1 + size1): the 6,285 startups with an undisclosed round-1 amount are
+      dropped (v1 imputed them by hot-deck; a random draw assumes the amount is missing at
+      random).
+      startup_age_at_round1 = year(t1) − year_founded;
+      round1_number = #{completed non-exit deals with date ≤ t1}
+Lead     investor   (lead_type,    lead_investor_age),   round-2    variables    (log_round2_size,
+valuation_step_up, up_round, and delta_v = post-money r2 / post-money r1) and round-3
+variables (Step 4b) follow the core rules. Round-2 and round-3 variables are missing for R = 0.
+
+
+
+
+                                                 2
+   Because R = 0 startups have no round 2, all timing keys move to round 1: round1_yq =
+10·year + quarter of t1 (time FE); sector_year_id and sector_quarter_id number the sector × year
+and sector × quarter cells of round 1, the levels at which heat varies.
+
+Step 5. Sector hype
+The hype measures are built exactly as in the core dataset (sector share of VC money, z-scored
+within sector), but they are attached by the sector and year (or quarter) of round 1, because
+one-round startups have no round-2 year.
+          shares,t = VC$s,t / Σs' VC$s',t;
+          heats,t = (shares,t − means) / SDs, 2012 to 2022
+
+Step 6. Save
+The 57 variables are written to output/rq1_two_group_dataset_v2.dta (Stata 14+, with labels)
+and .csv, one row per startup sorted by company_id.
+   Table 2 reports how many startups are left after each step, and Table 3 the outcomes by
+group.
+
+                                             Table 2: Sample at each step
+Step        Rule                                                                          Startups
+1           course extract                                                                57,751
+1           ≥ 1 completed deal with a valid date                                          52,277
+2           ≥ 1 VC round                                                                  34,822
+2           gap ≤ 10 years (1 dropped)                                                    34,821
+3           no exit or failure before round 1 (58 dropped)                                34,763
+4           round-1 amount disclosed (6,285 dropped): estimation sample                   28,478
+            two or more rounds (R = 1)                                                    15,518
+            one round (R = 0)                                                             12,960
+4           missing HQ state kept as Unknown (10 startups)                                28,478
+
+                                       Table 3: Outcomes by group, full sample
+    Group                                    Startups            exit       exit_5y   failure_5y
+    Two or more rounds (R = 1)               15,518              16.7%      13.9%     5.9%
+    One round (R = 0)                        12,960              11.7%      10.7%     16.4%
+    All                                      28,478              14.4%      12.4%     10.7%
+
+
+3 How the variables enter the regressions
+    The main specification is a logit on all startups:
+       logit exit i.two_rounds##c.heat c.log_gap_r2##c.heat ///
+           log_round1_size round1_number startup_age_at_round1 i.lead_cat ///
+           i.round1_yq i.sector_id i.state_id, vce(cluster sector_year_id)
+
+Pr(exit = 1) = Λ(α + ρ1R + β1R·log_gap + β2heat + ρ2R·heat + β3R·log_gap×heat + γ'X(t1) +
+                                   δyq + μsector + πstate)
+ρ1 compares two-round with one-round startups; β1 and β3 keep their meaning from the core
+design (speed, and speed × hype, among two-round startups). Before the regression, set the two
+negative startup ages to missing (replace            startup_age_at_round1         =    .   if
+startup_age_at_round1 < 0) and create lead_cat with encode lead_type.
+
+
+
+
+                                                             3
+                                                Table 4: Other models
+Model                    What changes                                  Variables involved
+Failure logit            replace exit                                  failure_5y
+Fixed window             replace exit; add if full_window == 1         exit_5y, full_window
+Window sensitivity       rerun the fixed-window and failure            exit_4y, failure_4y if full_window_4y == 1; exit_6y,
+                         models with w = 4 and 6                       failure_6y if full_window_6y == 1
+Valuation OLS            R = 1 only; gap without R                     delta_v on log_gap
+Heat definition          replace heat                                  heat_past, heat_quarter (sector_quarter_id),
+                                                                       entry_z_l1, hype_index_l
+Survival                 Cox and discrete-time hazard from             months_to_outcome, outcome_is_exit,
+                         round 1                                       outcome_is_failure
+
+
+4 Points to keep in mind
+Follow-up time. exit has no window, so a startup with round 1 in 2012 has had ten years to exit
+and one with round 1 in 2021 about one. The year-quarter FE absorb the average difference
+between cohorts. Recent cohorts have also had less time to raise round 2, so the one-round share
+rises from about 41% for 2012 to 2019 to 54% (2020), 78% (2021) and 99% (2022), as Table 5
+shows. The fixed-window model (exit_5y if full_window == 1) is the check.
+
+                            Table 5: One-round share and exit rate by year of round 1
+                     Round-1 year         Startups               One round            exit
+                     2012                 784                    39%                  33.0%
+                     2013                 1,849                  39%                  28.4%
+                     2014                 2,485                  39%                  25.2%
+                     2015                 2,922                  39%                  21.0%
+                     2016                 2,850                  37%                  19.6%
+                     2017                 3,305                  35%                  16.3%
+                     2018                 3,468                  36%                  12.8%
+                     2019                 3,752                  40%                  8.3%
+                     2020                 3,012                  49%                  5.7%
+                     2021                 2,656                  75%                  2.2%
+                     2022                 1,394                  99%                  0.3%
+
+Exits before round 2. A startup acquired before it could raise a second round is in the one-round
+group by construction.
+   Dropped round-1 amounts. Dropping undisclosed amounts keeps only startups that disclosed
+round 1. If disclosure is related to quality or to the market, the sample is selected; the dropped
+share by group and year can be compared in the descriptives.
+   Windows from round 2. A two-round startup starts its window later than a one-round startup
+with the same round-1 date, so it needs round 2 by 30 June 2017 to enter the 5-year sample.
+Faster startups are therefore more likely to have a full window. The 4- and 6-year windows show
+how much the results depend on this cut.
+   Lead investor. When a round has several leads, the first in file order is kept.
+DealInvestorRelation.csv and Investor.csv are needed to run the script.
+
+
+5 Variable register
+Table 6 lists all the variables in the order of the output file. The Step column refers to Section 2.
+Interaction terms are not stored: Stata builds them with ##.
+
+                                             Table 6: Variable register
+Variable                      Formula                         Step        Use in the regressions             Status
+company_id                    PitchBook CompanyID             1           row identifier                     Not used
+
+
+
+
+                                                          4
+Variable                Formula                             Step   Use in the regressions             Status
+sector                  PrimaryIndustrySector (7            1      label of sector_id                 Not used
+                        sectors)
+sector_id               code of sector                      4      i.sector_id: sector FE             Main
+state                   HQState_Province; blank →           1      label of state_id                  Not used
+                        \Unknown"
+state_id                code of state (Unknown is a         4      i.state_id: state FE               Main
+                        category)
+year_founded            YearFounded                         1      i.year_founded: founding-year      Robustness
+                                                                   FE
+round1_date             t1 = first date with a              2      builds outcomes, ages, years,      Not used
+                        completed VC deal                          hype timing
+round2_date             t2 = second such date;              2      builds two_rounds and the gap      Not used
+                        missing if none or after 30
+                        Jun 2022
+window_start            w0 = t2 if R = 1, t1 if R = 0       3      start of the 4/5/6-year outcome    Not used
+                                                                   windows
+round1_year             year(t1)                            4      key of heat and of                 Not used
+                                                                   sector_year_id
+round2_year             year(t2)                            4      descriptive                        Not used
+round1_yq               10·year(t1) + quarter(t1)           4      i.round1_yq: time FE               Main
+sector_year_id          group(sector, round1_year)          4      vce(cluster sector_year_id)        Main
+sector_quarter_id       group(sector, round1_yq)            4      cluster for the quarterly-heat     Robustness
+                                                                   models
+two_rounds              R = 1[t2 exists]                    2      i.two_rounds: group, ρ1, ρ2        Main
+gap_months              (t2 − t1) / 30.44; R = 1 only       2      readable version of log_gap        Not used
+log_gap                 ln(1 + gap_months); R = 1           2      regressor of the valuation OLS     Robustness
+                        only                                       (R = 1)
+log_gap_r2              R × log_gap, 0 if R = 0             2      c.log_gap_r2: treatment β1,        Main
+                                                                   interacted with heat
+exit_5y                 1[w0 ≤ exit ≤ w0 + 5y]              3      alternative dependent variable     Robustness
+failure_5y              1[w0 ≤ failure ≤ w0 + 5y]           3      dependent variable of the          Robustness
+                                                                   failure logit
+exit                    1[exit date exists], no             3      dependent variable                 Main
+                        window
+full_window             1[w0 + 5y ≤ 30 Jun 2022]            3      flag only: optional if-condition   Robustness
+exit_4y                 1[w0 ≤ exit ≤ w0 + 4y]              3      window sensitivity                 Robustness
+failure_4y              1[w0 ≤ failure ≤ w0 + 4y]           3      window sensitivity                 Robustness
+full_window_4y          1[w0 + 4y ≤ 30 Jun 2022]            3      if-condition of the 4-year         Robustness
+                                                                   models
+exit_6y                 1[w0 ≤ exit ≤ w0 + 6y]              3      window sensitivity                 Robustness
+failure_6y              1[w0 ≤ failure ≤ w0 + 6y]           3      window sensitivity                 Robustness
+full_window_6y          1[w0 + 6y ≤ 30 Jun 2022]            3      if-condition of the 6-year         Robustness
+                                                                   models
+months_to_outcome       (min(exit, failure, 30 Jun          3      stset time (Cox, discrete-time     Robustness
+                        2022) − t1) / 30.44; missing               hazard)
+                        if t1 after 30 Jun 2022
+outcome_is_exit         1 if the clock ends with an         3      stset failure() for exit hazards   Robustness
+                        exit
+outcome_is_failure      1 if the clock ends with a          3      failure() for failure hazards      Robustness
+                        failure (not an exit)
+log_round1_size         ln(1 + Σ round-1 amounts,           4      control X(t1)                      Main
+                        $M); undisclosed dropped
+round1_number           # completed financing deals         4      control X(t1)                      Main
+                        dated ≤ t1
+startup_age_at_round1   round1_year − year_founded          4      control X(t1)                      Main
+lead_type               type of the round-1 lead            4      i.lead_cat control                 Main
+                        investor; < 50 startups →
+                        Other
+
+
+
+
+                                                        5
+Variable                   Formula                              Step   Use in the regressions           Status
+lead_investor_age          round1_year − lead                   4      added control (grandstanding)    Robustness
+                           investor's founding year (≥
+                           0)
+log_round2_size            ln(1 + Σ round-2 amounts,            4      added control (mediator check)   Robustness
+                           $M); R = 1 only
+valuation_step_up          pre-money r2 / post-money            4      builds up_round and its log      Not used
+                           r1 (> 0)
+delta_v                    post-money r2 / post-money           4      dependent variable of the        Robustness
+                           r1 (> 0)                                    valuation OLS (H3, R = 1)
+log_valuation_step_up      ln(valuation_step_up)                4      valuation analysis (R = 1)       Robustness
+up_round                   1[valuation_step_up > 1]             4      split sample (R = 1)             Robustness
+round3_date                t3 = third VC round date             4b     builds round-3 variables         Not used
+has_round3                 1[t3 exists]                         4b     descriptive                      Not used
+gap_23_months              (t3 − t2) / 30.44                    4b     descriptive                      Not used
+log_gap_23                 ln(1 + gap_23_months)                4b     descriptive                      Not used
+gap_13_months              (t3 − t1) / 30.44                    4b     descriptive                      Not used
+log_gap_13                 ln(1 + gap_13_months)                4b     descriptive                      Not used
+valuation_step_up_23       pre-money r3 / post-money            4b     descriptive                      Not used
+                           r2
+log_valuation_step_up_23   ln(valuation_step_up_23)             4b     descriptive                      Not used
+valuation_step_up_13       pre-money r3 / post-money            4b     descriptive                      Not used
+                           r1
+log_valuation_step_up_13   ln(valuation_step_up_13)             4b     descriptive                      Not used
+sector_vc_share            VC$s,t / Σs' VC$s',t, t = year       5      input to heat                    Not used
+                           of round 1
+heat                       z of sector_vc_share within          5      c.heat: moderator β2, β3         Main
+                           sector, 2012 to 2022
+heat_quarter               z of the quarterly share             5      replaces heat, clustered by      Robustness
+                           within sector, 2013Q1 to                    sector_quarter_id
+                           2019Q4
+heat_past                  z using only the sector's past       5      replaces heat                    Robustness
+                           years
+entry_z_l1                 z of startups founded in s in        5      replaces heat                    Robustness
+                           t−1
+hype_index_l               (heat + entry_z_l1) / 2              5      replaces heat                    Robustness
+
+
+
+
+                                                            6
+

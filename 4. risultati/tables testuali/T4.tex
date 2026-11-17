@@ -1,4 +1,5 @@
-% Tabella di testo: paper v4 Table 4 (coerente con glossary.md e construction.pdf, Table 6).
+% Generato da tools/tabelle_testo.py da «T4.md». Non modificare a mano:
+% si corregge il .md e si rilancia lo script. Fonti di ogni cella: tracciabilita.md.
 \begin{table}[tbp]
 \centering\footnotesize
 \caption{Variable definitions}
@@ -7,20 +8,21 @@
 \toprule
 Variable & Definition & Role \\
 \midrule
-\texttt{two\_rounds} ($R$) & 1 if a second VC round closed by 30 June 2022 & Group \\
-\texttt{log\_gap\_r2} & $R\times\ln(1+\text{months between rounds 1 and 2})$ & Gap \\
+\texttt{two\_rounds} (R) & 1 if a second VC round closed by 30 June 2022 & Group \\
+\texttt{log\_gap\_r2} & R $\times$ ln(1 + months between rounds 1 and 2) & Gap \\
 \texttt{heat} (hype) & Sector share of VC dollars in the year of round 1, z-scored within sector & Moderator \\
 \texttt{exit\_5y} & IPO or acquisition within 5 years of the window start & Main outcome \\
 \texttt{failure\_5y} & Failure within 5 years of the window start & Outcome (H1b) \\
-\texttt{exit\_4y}, \texttt{exit\_6y}, \dots & Same with 4- and 6-year windows & Sensitivity \\
+\texttt{exit\_4y}, \texttt{exit\_6y} & Same with 4- and 6-year windows & Sensitivity \\
 \texttt{exit} & IPO or acquisition at any time & Robustness \\
-ln valuation step & $\ln(\text{post-money r2}/\text{post-money r1})$, $R=1$ only & Outcome (H3) \\
-\texttt{log\_round1\_size} & $\ln(1+\text{round-1 amount, \$M})$ & Control \\
+ln valuation step & ln(post-money r2 / post-money r1), R = 1 only & Outcome (H3) \\
+\texttt{log\_round1\_size} & ln(1 + round-1 amount, \$M) & Control \\
 \texttt{round1\_number} & Financing deals up to and including round 1 & Control \\
 \texttt{startup\_age\_at\_round1} & Year of round 1 minus founding year & Control \\
 \texttt{lead\_cat} & Type of the round-1 lead investor (16 categories) & Control \\
-\texttt{round1\_yq}, sector, state & Year-quarter of round 1, sector, HQ state & Fixed effects \\
+\texttt{round1\_yq}, \texttt{sector\_id}, \texttt{state\_id} & Year-quarter of round 1, sector, HQ state & Fixed effects \\
 \texttt{heat\_past} & Hype z-scored on the sector's past years only & Robustness \\
 \bottomrule
 \end{tabular}
+
 \end{table}

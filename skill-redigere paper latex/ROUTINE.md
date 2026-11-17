@@ -46,10 +46,17 @@ e chiedi (RULES.md): è l'unico caso in cui la routine si interrompe per una dom
 ## 2. Preparazione (deterministica)
 
 ```
+py "<R>/tools/tabelle_testo.py"
 py "<R>/tools/leggi_scaletta.py"
 py "<R>/tools/floats.py"
 py "<R>/tools/piano.py"
 ```
+
+- `tabelle_testo.py` costruisce e controlla le 7 tabelle testuali (`4. risultati/tables testuali/`,
+  vedi il suo README) e scrive `tracciabilita.md`. **Deve uscire senza errori.** Se una riga del
+  log citata non contiene più il numero (do-file rilanciato), cerca il numero nel log nuovo e
+  aggiorna il riferimento nel `.md`; se il numero è cambiato, il numero nuovo vince (RULES.md),
+  aggiorna la cella e segnalalo nel report finale. Mai togliere una fonte per far passare il controllo.
 
 - `leggi_scaletta.py` → `build/sezioni.json`. Segnala fonti non in `fonti.bib` e sezioni corte:
   annotali per il report finale, non fermarti.

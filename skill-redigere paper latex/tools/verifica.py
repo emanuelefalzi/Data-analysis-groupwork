@@ -139,6 +139,15 @@ def verifica_sezione(s: dict, tutte: dict, inv: dict, bib: dict) -> list[tuple[s
     np_, nl = len(paragrafi(d)), len(ledger_di(sid))
     if np_ != nl:
         r.append(("HIGH", f"LEDGER con {nl} righe per {np_} paragrafi"))
+    # ordine dei primi richiami = ordine del piano (cosi' la numerazione resta quella del paper v4)
+    visti = []
+    for m in re.finditer(r"\[\[(?:FIG|TAB):([^\]]+)\]\]", d):
+        if m.group(1) in s["floats"] and m.group(1) not in visti:
+            visti.append(m.group(1))
+    attesi = [x for x in s["floats"] if x in visti]
+    if visti != attesi:
+        r.append(("HIGH", f"floats richiamati nell'ordine {', '.join(visti)}: il primo richiamo deve seguire "
+                          f"l'ordine del piano ({', '.join(attesi)}), o la numerazione cambia rispetto al paper"))
     # floats della sezione richiamati
     for fid in s["floats"]:
         if not re.search(rf"\[\[(FIG|TAB):{re.escape(fid)}\]\]", d):

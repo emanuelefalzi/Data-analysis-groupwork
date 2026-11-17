@@ -76,6 +76,9 @@ def main():
                                   (wd / blg).read_text(errors="ignore"))
             if mancanti:
                 problemi.append("chiavi assenti dal .bib: " + ", ".join(sorted(set(mancanti))))
+    for tipo, fid, num in re.findall(r"\\newlabel\{(tab|fig):[TF](\d+)\}\{\{(\d+)\}", aux):
+        if fid != num:                    # T7 deve uscire come Table 7, come nel paper v4
+            problemi.append(f"{tipo} {fid} del paper v4 esce con il numero {num}: controllare l'ordine dei richiami")
     overfull = [float(x) for x in re.findall(r"Overfull \\hbox \((\d+\.?\d*)pt too wide\)", log)]
     grossi = [x for x in overfull if x > 10]
 
