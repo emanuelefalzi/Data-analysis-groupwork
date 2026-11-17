@@ -893,7 +893,7 @@ Rules that hold throughout (from `RULES.md`):
 - The deck's last slide = points 1, 3 and the 6.4 point-4 sentence.
 
 ### Claude's additions
-- ~~End on the reframing (I-02).~~ Superseded 17/11 (Lele): I-02 has its home in 6.3. The closing line of the deck is still to choose (open point 21).
+- ~~End on the reframing (I-02).~~ Superseded 17/11 (Lele): I-02 has its home in 6.3. The closing line of the deck is still to choose (open point 23).
 
 ---
 
