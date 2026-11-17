@@ -15,3 +15,5 @@ Every change to the reference documents gets one row here, in the same commit (r
 | 17/11/2026 | Claude for Lele | `scaletta.md` · 5.6 Claude's additions | `boottest` proposal marked rejected | Lele, 17/11 (open point 15 closed) |
 | 17/11/2026 | Claude for Lele | `registers/open points.md` | Item 15 closed; item 17 decided (add to do-file); item 20 added (argument holes after the source narrowing) | Lele, 17/11 |
 | 17/11/2026 | Claude for Lele | `prompts/do-file numeri non in log.md` | Created: prompt for the chat that adds Table 12, Figures 8, 17, 19, the §5.4 checks and the AME N check to the do-file | Lele, 17/11 (open point 17) |
+| 17/11/2026 | Claude for Lele | `scaletta.md` · 2.1 pt 3, 2.4 role + pt 3, 5.3 pt 5, 5.5 pts 2, 3, 5, 7 pt 4 | Milestone account → "our accumulated-progress reading" (we argue, I-03); leash step to "risky" stated as our argument (I-04); "signs match the literature" → comparison with Hochberg et al. (2007) | Open point 20, approved by Lele 17/11 |
+| 17/11/2026 | Claude for Lele | `registers/inferences register.md` | I-03 and I-04 added (⏳ proposed) | Open point 20 |

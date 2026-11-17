@@ -100,8 +100,8 @@ Rules that hold throughout (from `RULES.md`):
    VC is staged so investors can abandon after new information. Contracts tie rights to milestones, and staging screens out ventures with poor early results. On this reading the gap is the time a venture needs to produce investable news.
 2. **Learning and experimentation**: *Bayesian learning, belief decline, positive signals, experimentation, faster refinancing*
    In learning models each period without good news lowers the investor's belief, so good projects are refinanced sooner. Experimentation accounts agree: early rounds buy information, and fast positive signals bring fast refinancing. A short gap reads as good news.
-3. **Staging as a leash**: *agency costs, monitoring, moral hazard, distance, shorter rounds, risk*
-   A second strand treats round length as the investor's governance choice. Rounds get shorter when agency or monitoring costs are higher. Here a short gap marks a risky venture, not a good one: the competing prediction.
+3. **Staging as a leash**: *agency costs, monitoring, distance, shorter rounds, our step to risk*
+   A second strand treats round length as the investor's governance choice. Rounds get shorter when agency or monitoring costs are higher. We argue that a short gap may then mark a venture that is hard to monitor and riskier, not a good one: the competing prediction (I-04).
 4. **Evidence and the gap we fill**: *number and size of rounds, patents' signalling, information priced by round 2, untested link*
    Evidence links outcomes to the number and size of rounds, rarely to time. Patent signals fade by round 2 because investors already know more. No study we know relates gap to exit while keeping firms that never raised again.
 5. **H1 stated**: *β1 < 0, longer gap, lower exit probability, two-round startups, competing β1 ≥ 0*
@@ -206,15 +206,15 @@ Rules that hold throughout (from `RULES.md`):
 
 ### 2.4 Valuation steps
 
-**Role:** state H3 and its milestone counter-prediction.
+**Role:** state H3 and its accumulated-progress counter-prediction (our argument, I-03).
 
 #### Content
 1. **Fast rounds should come with larger steps**: *refinancing after value increases, upward selection, good news, step-up*
    Refinancing is more likely after value has risen, so observed round-to-round returns are selected upward. If fast rounds follow good news, they should carry larger valuation steps from round 1 to round 2.
 2. **H3 stated**: *θ1 < 0, longer gap, smaller valuation step, two-round startups*
    H3: among two-round startups, a longer gap is associated with a smaller log valuation step, measured as the post-money valuation at round 2 over the post-money valuation at round 1 (θ1 < 0), as the good-news reading predicts.
-3. **Milestones take time and are priced**: *milestone contracts, total progress, longer gap, larger total step, θ1 > 0*
-   Rounds are priced on what the venture has achieved. A longer gap leaves more time to achieve it, so the total step can rise with the gap even if value grows more slowly per month (θ1 > 0).
+3. **Progress takes time and is priced (our argument)**: *total progress, longer gap, larger total step, θ1 > 0, not from the literature*
+   We argue that rounds are priced on what the venture has achieved. A longer gap leaves more time to achieve it, so the total step can rise with the gap even if value grows more slowly per month (θ1 > 0). This is our reading (I-03): the literature ties milestones to the release of funds within a round, not to the timing of the next one.
 4. **Prices also reflect terms and bargaining**: *senior preferred, post-money overstates, terms ignored, reputation discount, bargaining power*
    Post-money valuations overstate fair value because later investors hold senior shares, and they ignore contract terms other than the equity share. Entrepreneurs accept lower prices from reputable VCs. Measured steps mix value with contract and bargaining terms.
 5. **Hype enters the valuation model too**: *capital inflows, prices rise, moderation, θ3*
@@ -604,8 +604,8 @@ Rules that hold throughout (from `RULES.md`):
    Larger first rounds, older startups and more earlier deals all go with smaller steps, as expected when part of the growth is priced at round 1. Accelerator-led first rounds are followed by much larger steps.
 4. **Total vs per-year step**: *Figure 19, total flat then 1.18, per-year median 1.89 → 0.36, five times faster*
    The total step is flat across the first four gap quintiles and higher for the slowest. Per year, the median step falls from 1.89 to 0.36 log points. Fast raisers gain value about five times faster per year.
-5. **The milestone reading**: *total progress, milestones, speed of value creation, competing prediction of 2.4*
-   The positive θ1 is a statement about total progress accumulated before round 2, not about how fast value is created. It matches the competing prediction of 2.4. Speed of value creation favours fast raisers.
+5. **The accumulated-progress reading**: *total progress, speed of value creation, competing prediction of 2.4, our argument*
+   We read the positive θ1 as a statement about total progress accumulated before round 2, not about how fast value is created. It matches the competing prediction of 2.4. Speed of value creation favours fast raisers.
 
 #### Numbers (log)
 - θ1 0.1088, p < 0.001, N = 7,574: **L2899** (baseline) / 0.1086 **L3043**. θ3 −0.0163, p 0.381: **L3046**.
@@ -670,14 +670,14 @@ Rules that hold throughout (from `RULES.md`):
 #### Content
 1. **Verdicts and the overall reading**: *Table 13, a slow second round is not a distress signal, less failure, larger step, flat exit*
    The four verdicts together: once a startup reaches round 2, a longer wait goes with lower failure, a larger valuation step and at most a slightly lower chance of exit. A slow second round is not a distress signal here.
-2. **Staging intensity as a measure of risk**: *leash, investors choose short rounds for risky ventures, fast raisers riskier, both tails*
-   If investors keep risky or hard-to-monitor ventures on short rounds, fast raisers are on average riskier. That predicts their higher failure and a weak exit link, because risk fattens both tails.
-3. **Learning before refinancing and priced progress**: *longer test passed, survivors, milestone pricing, elasticity far below one*
-   Slow raisers have passed a longer test before round 2 and accumulated more progress, which round 2 prices. The elasticity far below one means they grow more slowly per month: more in total, less per unit of time.
+2. **Staging intensity as a measure of risk**: *leash, short rounds for hard-to-monitor ventures, our step to risk, both tails*
+   Investors keep ventures with high agency or monitoring costs on short rounds. We argue that these ventures are also riskier, so fast raisers are on average riskier (I-04). That predicts their higher failure and a weak exit link, because risk fattens both tails.
+3. **Learning before refinancing and priced progress**: *longer test passed, survivors, priced progress (our argument), elasticity far below one*
+   We argue that slow raisers have passed a longer test before round 2 and accumulated more progress, which round 2 prices. The elasticity far below one means they grow more slowly per month: more in total, less per unit of time.
 4. **Why hype does not soften the penalty**: *signal extraction (see 2.3), past-only hype, exit-market timing, attenuation*
    The negative β3 fits the signal-extraction alternative of 2.3: in hot markets a slow round is more informative. A second reason is timing: hype at round 1 is a poor proxy for exit-market conditions years later, biasing β3 towards zero.
 5. **What the controls add**: *round-1 size, CVC as acquirer, VC networks, angel groups, accelerators, selection vs influence*
-   The strongest exit predictors are visible at round 1: size, age and lead type. Their signs match the literature (Table 14). Following the selection literature, these coefficients mix the selection of better startups with what investors add.
+   The strongest exit predictors are visible at round 1: size, age and lead type. We compare them with the literature (Table 14) rather than claim a match: the closest source finds that CVC-led first rounds are less likely to reach round 2 (Hochberg et al., 2007), a different outcome from our exit models. Following the selection literature, these coefficients mix the selection of better startups with what investors add.
 
 #### Sources
 - `gompers1995`, `tian2011`: shorter rounds where agency costs are higher (Gompers) or the VC is far, so monitoring is costlier (Tian).
@@ -873,8 +873,8 @@ Rules that hold throughout (from `RULES.md`):
    The pattern holds across four- to six-year windows, logit, probit and linear probability models, and hype measured at several levels, at least in sign: with past-only hype, β3 becomes significant and stays negative.
 3. **For founders and investors**: *slow round not a bad sign, round-1 information, round size, lead type*
    For founders, a slower second round is not in itself a bad sign. For investors, the pace of refinancing seems to carry little information about exit beyond what is visible at round 1, such as size and lead type.
-4. **For the staging literature**: *accumulated progress and survival, not distress, selection and milestone views, hype makes slowness informative*
-   The findings fit a view in which time between rounds measures accumulated progress and survival rather than distress, matching the selection and milestone accounts better than the good-news reading. Hype, if anything, makes a slow round more informative.
+4. **For the staging literature**: *accumulated progress and survival, not distress, selection view, our progress reading, hype makes slowness informative*
+   The findings fit a view in which time between rounds measures accumulated progress and survival rather than distress, which fits the selection account and our accumulated-progress reading (I-03) better than the good-news reading. Hype, if anything, makes a slow round more informative.
 5. **What remains open**: *exit-market conditions, timing account of H2, growth per year, pointer to 6.4*
    Two extensions sharpen the descriptive picture: exit-market conditions measured at the time of exit, to test the timing account of H2, and growth per year rather than the total step. Causal extensions are in 6.4.
 
