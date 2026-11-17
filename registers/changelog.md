@@ -12,3 +12,6 @@ Every change to the reference documents gets one row here, in the same commit (r
 | 16/11/2026 | Claude for Lele | `glossary.md` | Created | Lele, 16/11 (point 6) |
 | 16/11/2026 | Claude for Lele | `registers/` | Results register R-01–R-49 (checked on the log), inferences I-01–I-02 (⏳ proposed), open points 9–19 | Lele, 16/11 (point 4) |
 | 16/11/2026 | Claude for Lele | `RULES.md` | Rule on logging changes to `scaletta.md`; files table updated | Lele, 16/11 (point 7) |
+| 17/11/2026 | Claude for Lele | `scaletta.md` · 5.6 Claude's additions | `boottest` proposal marked rejected | Lele, 17/11 (open point 15 closed) |
+| 17/11/2026 | Claude for Lele | `registers/open points.md` | Item 15 closed; item 17 decided (add to do-file); item 20 added (argument holes after the source narrowing) | Lele, 17/11 |
+| 17/11/2026 | Claude for Lele | `prompts/do-file numeri non in log.md` | Created: prompt for the chat that adds Table 12, Figures 8, 17, 19, the §5.4 checks and the AME N check to the do-file | Lele, 17/11 (open point 17) |

@@ -741,7 +741,7 @@ Rules that hold throughout (from `RULES.md`):
 - **D2/D3** as in the section map.
 
 #### Claude's additions
-- [Likely] Point 1 can be closed rather than listed: running `boottest` (wild cluster bootstrap) in Stata on the H2 model is a small addition to the do-file. That is new code and needs a group decision (open point 15).
+- [Likely] Point 1 can be closed rather than listed: running `boottest` (wild cluster bootstrap) in Stata on the H2 model is a small addition to the do-file. That is new code and needs a group decision (open point 15). **Rejected 17/11 (Lele): not done.** Point 1 stays as a stated limitation.
 
 ---
 
