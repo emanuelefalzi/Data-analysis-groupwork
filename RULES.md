@@ -48,6 +48,8 @@ Research question: *is the time between the first and the second VC round associ
 | `3. stata/rq1_two_group_analysis_v2.do` | Main Stata analysis: descriptives, logit models, figures, Word tables | Current |
 | `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | Current |
 | `4. risultati/regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
+| `3. stata/rq1_addon_not_in_log_checks.do` | Add-on: reruns in Stata the paper v4 analyses computed outside the do-file (Table 12, Figures 8, 17, 19, the §5.4 checks, the N of the AMEs); absorbs `rq1_addon_extra_controls.do` | Written 17/11/2026, to be run |
+| `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do`: primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | To be run |
 | `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
 | `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
 | `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |

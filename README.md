@@ -20,6 +20,8 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
 3. stata/rq1_two_group_analysis_v2.do   main Stata analysis (descriptives, models, figures, tables)
 3. stata/rq1_addon_extra_controls.do    robustness: team and lead-investor-age controls
+3. stata/rq1_addon_not_in_log_checks.do  paper v4 numbers computed outside Stata, rerun in Stata
+                                (Table 12, Figures 8, 17, 19, Section 5.4 checks, N of the AMEs)
 4. risultati/regression_analysis.txt    Stata log of the do-file (15/11/2026): source of every number
 4. risultati/RQ1_tables.doc     Word/RTF tables from the do-file
 4. risultati/figures.zip        figures exported by the do-file
@@ -40,6 +42,7 @@ CLAUDE.md, .claude/             Claude Code configuration
    ```
    It writes `output/rq1_two_group_dataset_v2.dta` and `.csv`, which is the file in this repo as `2. dataset/dataset.dta`.
 2. **Run the analysis (Stata 17).** The do-file opens `group_21_dataset.dta`, so first copy `2. dataset/dataset.dta` under that name into the Stata working directory. It needs `esttab` (estout) and `coefplot`. The add-on also needs `pitchbook_course.dta` in the same folder. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png` (in the repo: `4. risultati/`).
+3. **Run the checks not in the main log (Stata 17).** In the same working directory, with `group_21_dataset.dta`, `pitchbook_course.dta` and `Deal.csv` (both unzipped from `0. dati iniziali/`), run `do rq1_addon_not_in_log_checks.do`. It replaces `rq1_addon_extra_controls.do` and does not touch the main outputs. Outputs: `not_in_log_checks.log` (repo: `4. risultati/not_in_log_checks.txt`), `RQ1_tables_not_in_log_checks.rtf` and `figures/x1…x3_*.png`.
 
 ## Design in short
 
