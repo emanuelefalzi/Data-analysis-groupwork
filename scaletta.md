@@ -465,8 +465,8 @@ Rules that hold throughout (from `RULES.md`):
    The main equation is re-estimated as a linear probability model, where β3 reads directly in probability units, and as a probit. Agreement across estimators shows that the logit's nonlinearity is not driving the interaction result.
 2. **Window length**: *4, 5 and 6 years, fully observed windows, stability of β1 and β3*
    Exit and failure models are re-run with four- and six-year windows, each on startups whose window of that length is fully observed. Large movement in β1 or β3 would make the five-year choice unsafe.
-3. **No window**: *exit at any time, all 28,478, follow-up time*
-   Exit at any time is estimated on all startups without a window. This tests what happens when the window is dropped, at the cost of mixing the gap with remaining follow-up time.
+3. **No window**: *exit at any time, 28,478 startups, 27,944 used, follow-up time*
+   Exit at any time is estimated on all startups without a window: 28,478 enter, 27,944 are used (Stata drops categories that predict the outcome perfectly), 77 clusters (log L2353, L2358). This tests what happens when the window is dropped, at the cost of mixing the gap with remaining follow-up time.
 4. **Hype without look-ahead**: *past-only z-score, look-ahead, information at round 1, smaller sample*
    Hype is recomputed using only the sector's past years, so the measure uses only information available at round 1. This removes the concern that the z-score uses future years of the same sector.
 5. **Further checks and extra controls**: *finer hype, robust SEs, early exits removed, VIF, team and lead-age controls*
@@ -528,8 +528,8 @@ Rules that hold throughout (from `RULES.md`):
 3. **The same in probabilities**: *AME cold −0.3 pp, hot −2.1 pp (p = 0.07), hot − cold −1.9 pp (p = 0.33), LPM*
    AMEs per unit of ln gap: about zero in cold markets, −2.1 pp in hot ones (p = 0.07). The hot-minus-cold difference, −1.9 pp, is not significant (p = 0.33). The LPM gives the same reading.
 4. **Predicted probabilities**: *Figure 12, cold flat about 22%, hot 26% → 20%, overlapping bands*
-   Predicted exit is flat at about 22% in cold markets. In hot markets it falls from about 26% at three months to about 20% at four years, but the bands overlap everywhere (Figures 11–12).
-5. **Controls are larger than the gap**: *round-1 size OR 1.64, age +10%, angel group +94%, CVC +56%, VC +39%*
+   Predicted exit is flat at about 22% in cold markets. In hot markets it falls from about 26% at a gap of about 2 months to about 20% at about 4½ years, but the bands overlap everywhere (Figures 11–12). (Grid ln(1 + months) = 1 to 4, i.e. 1.7 to 54 months; cold 0.220 → 0.213, hot 0.264 → 0.200: log L835–860.)
+5. **Controls are larger than the gap**: *round-1 size OR 1.64, age +10%, angel group +94%, CVC +55%, VC +39%*
    Round-1 size and age at round 1 go with much higher exit odds, and angel-group, CVC and VC leads with higher odds than no identified lead. Moving across the gap IQR changes exit by less than one point.
 
 #### Numbers (log)
@@ -560,12 +560,12 @@ Rules that hold throughout (from `RULES.md`):
 **Role:** report the failure result, the largest and most stable gap association.
 
 #### Content
-1. **H1b rejected, opposite sign**: *β1 = −0.241 (p = 0.001), β1 = −0.231 (p = 0.005), odds ratio 0.794, 21% lower odds, opposite sign*
-   The gap coefficient in the failure logit is negative and significant: −0.241 in the baseline, −0.231 with interactions. A 2.7-fold longer gap goes with 21% lower failure odds, the opposite of H1b.
+1. **H1b rejected, opposite sign**: *β1 = −0.241 (p = 0.001) baseline, β1 = −0.231 (p = 0.005) with interactions, odds ratio 0.794 (of −0.231), 21% lower odds, opposite sign*
+   The gap coefficient in the failure logit is negative and significant: −0.241 in the baseline, −0.231 with interactions (log L1151, L1305). In the interaction model the odds ratio is exp(−0.231) = 0.794: a 2.7-fold longer gap goes with 21% lower failure odds, the opposite of H1b. (The baseline −0.241 would give 0.786.)
 2. **Magnitude in probability**: *AME −2.4 pp per unit, −1.9 pp over IQR, mean 12.4%, about −15% relative*
    One unit of ln gap goes with 2.4 points less failure at average hype. Over the gap's interquartile range that is −1.9 points against a mean of 12.4%, a relative fall of about 15%.
 3. **Hype does not change it**: *β3 = −0.030, p = 0.681, AME −2.1 to −2.8 pp, cold and hot markets*
-   Hype does not moderate the failure slope (β3 = −0.030, p = 0.681). Predicted failure falls from about 15–17% at three months to about 9% at four years in both cold and hot markets (Figures 15–16).
+   Hype does not moderate the failure slope (β3 = −0.030, p = 0.681). Predicted failure falls from about 15–18% at a gap of about 2 months to about 9% at about 4½ years in both cold and hot markets (Figures 15–16). (Cold 0.155 → 0.093, hot 0.177 → 0.091: log L1551–1576.)
 4. **Controls mirror exit, lead type does not**: *round-1 size −37% odds, age −8% odds, lead type not predictive, upside vs downside*
    Larger first rounds and older startups fail less, mirroring the exit model with opposite signs. Lead-investor type does not predict failure, so the lead type relates to the chance of a good outcome, not of a bad one.
 5. **Functional form check**: *Frisch–Waugh–Lovell, binned residuals, linear in ln gap, slope −0.030*
@@ -596,8 +596,8 @@ Rules that hold throughout (from `RULES.md`):
 **Role:** report H3 and show that the result concerns total progress, not speed of value creation.
 
 #### Content
-1. **H3 rejected, opposite sign**: *θ1 = 0.109 (p < 0.001), elasticity, +1.1% per 10% gap, +8.9% over IQR*
-   θ1 = 0.109 is an elasticity: a 10% longer gap goes with a step about 1.1% larger, and moving from 8 to 19 months with a step about 8.9% larger. This is the opposite of H3.
+1. **H3 rejected, opposite sign**: *θ1 = 0.109 (p < 0.001), elasticity, about +1% per 10% gap, +8.9% over IQR*
+   θ1 = 0.109 (log L2899) is an elasticity: a 10% longer gap goes with a step about 1% larger (exactly 1.1^0.109 − 1 = 1.04%; 1.1% is the 0.109 × 10% shortcut), and moving from 8 to 19 months with a step about 8.9% larger. This is the opposite of H3.
 2. **No moderation by hype**: *θ3 = −0.016, p = 0.381, Figure 18, cold and hot markets*
    Hype does not change the gap–step slope (θ3 = −0.016, p = 0.381). The predicted log step rises from about 0.9–1.0 for very short gaps to about 1.2 at four years in both markets (Figure 18).
 3. **Controls priced at round 1**: *size −0.139, age −6.1%, earlier deals −4.2%, accelerator +33%*
