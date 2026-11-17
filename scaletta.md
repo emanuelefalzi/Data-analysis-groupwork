@@ -708,7 +708,7 @@ Rules that hold throughout (from `RULES.md`):
 - Table 14 is long. In the paper keep it. In the deck, a 4-row version (H1, H1b, H2, H3) with "prediction / estimate / reading".
 
 #### Claude's additions
-- [Likely] Explanations 2 and 3 make **opposite** assumptions about who the fast raisers are: risky (leash) vs good (learning). Say which result discriminates between them, if any. Figure 19 is now read in 6.1 point 6 (I-01, decided 17/11), not as evidence against the leash: per-year growth faster for fast raisers is also compatible with I-04 (riskier ventures, fatter tails).
+- [Likely] Explanations 2 and 3 make **opposite** assumptions about who the fast raisers are: risky (leash) vs good (learning). Say which result discriminates between them, if any. Figure 19 is now read in 6.1 point 5 (I-01, decided 17/11), not as evidence against the leash: per-year growth faster for fast raisers is also compatible with I-04 (riskier ventures, fatter tails).
 
 ### 5.6 Limitations (narrowed: measurement and inference)
 
@@ -758,13 +758,11 @@ Rules that hold throughout (from `RULES.md`):
    Startups choose, and are chosen for, their refinancing pace. Unobserved quality, such as team or traction, can shorten the gap and change exit or failure at the same time, so β1 mixes any gap effect with quality.
 2. **The investor chooses the gap**: *staging as a leash, round length set for monitoring costs, reverse logic, endogenous treatment*
    Round length is partly the investor's choice, set according to agency and monitoring costs (and, we argue, risk: I-04, 5.5). A short gap can then reflect what the investor expects rather than cause anything, so the gap is endogenous to the outcome's determinants.
-3. **Round-1 controls help, but only so far**: *fixed at round 1, no bad controls, round-2 mediators excluded, observables only*
-   Controls are fixed at round 1, so they cannot be outcomes of the gap, and round-2 variables are excluded as mediators. This avoids bad controls but adjusts only for observables.
-4. **Extra controls do not move β1, which is not proof**: *team controls, β1 unchanged, coefficient stability, residual bias*
-   Adding founder, MBA, AI and young-lead controls leaves β1 and β3 unchanged. That is reassuring about these observables but does not rule out other unobserved quality. Stability is not identification.
-5. **Hype is not exogenous either**: *sector-year shares, cohort composition, demand shocks, common shocks*
+3. **Controls help, but only for what we observe**: *fixed at round 1, no bad controls, round-2 mediators excluded, team controls, β1 unchanged, stability is not identification*
+   Controls are fixed at round 1, so they cannot be outcomes of the gap, and round-2 variables are excluded as mediators. Adding founder, MBA, AI and young-lead controls leaves β1 and β3 unchanged. Both steps adjust only for observables: stability is not identification.
+4. **Hype is not exogenous either**: *sector-year shares, cohort composition, demand shocks, common shocks*
    Hype is a sector-year share of VC dollars. It moves with sector demand and opportunity shocks that can also affect exits, so β3 describes how the gap–exit association varies with hype, not what hype does.
-6. **A larger total step is not value created by waiting (I-01)**: *total vs per-year step, time accumulates, θ1 > 0, Figure 19*
+5. **A larger total step is not value created by waiting (I-01)**: *total vs per-year step, time accumulates, θ1 > 0, Figure 19*
    We read the positive θ1 as a statement about elapsed time, not about waiting as a strategy: the total step is slightly larger after a long gap, but the step per year falls sharply with the gap (Figure 19). Waiting longer is not shown to create value.
 
 #### Sources
@@ -774,7 +772,7 @@ Rules that hold throughout (from `RULES.md`):
 - `wang2004`: staging responds to moral hazard and risk.
 
 #### Guardrails
-- Point 4 only **points** to the numbers in 5.4. Do not repeat them.
+- Point 3 only **points** to the numbers in 5.4. Do not repeat them.
 - Do not repeat the leash mechanism (2.1). One sentence explaining why it makes the gap endogenous.
 - Never write "we cannot rule out that the gap causes…". Write "β1 is an association that can mix…".
 
