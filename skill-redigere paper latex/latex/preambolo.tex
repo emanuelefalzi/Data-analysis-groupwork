@@ -4,19 +4,27 @@
 \usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{csquotes}
-\usepackage[a4paper,margin=2.5cm]{geometry}
-\usepackage{setspace}\setstretch{1.15}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{setspace}\setstretch{1.05}
 \usepackage{microtype}
+\usepackage{newunicodechar}         % simboli Unicode nel testo e nelle didascalie
+\newunicodechar{β}{\ensuremath{\beta}}\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{θ}{\ensuremath{\theta}}\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{×}{\ensuremath{\times}}\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{≈}{\ensuremath{\approx}}\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{±}{\ensuremath{\pm}}\newunicodechar{′}{\ensuremath{'}}
+\newunicodechar{²}{\ensuremath{^2}}\newunicodechar{Σ}{\ensuremath{\Sigma}}\newunicodechar{≠}{\ensuremath{\neq}}\newunicodechar{–}{--}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
-\usepackage{subcaption}
+\usepackage{tikz}\usetikzlibrary{decorations.pathreplacing}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{caption}\captionsetup{font=small,labelfont=bf}
 \usepackage[section]{placeins}     % i floats non scavalcano la sezione successiva
 \usepackage{flafter}               % ...e non salgono sopra il punto in cui sono richiamati
 \usepackage{xcolor}
-\usepackage[style=apa,backend=biber]{biblatex}
-\addbibresource{gen/fonti.bib}
+\input{gen/bib}                     % biblatex-apa se c'e', altrimenti natbib (scritto da assemble.py)
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{figures/}}
 \setlength{\parskip}{0.3em}

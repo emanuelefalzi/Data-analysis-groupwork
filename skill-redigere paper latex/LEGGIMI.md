@@ -1,42 +1,34 @@
 # Redigere paper LaTeX — come si usa
 
-Trasforma `scaletta.md` nel paper finale in LaTeX: corpo ≤ 20 pagine con figure e tabelle,
-poi References e Appendix A (dataset). Regole per Claude in `CLAUDE.md`, perché di ogni pezzo in
-`PROCESSO.md`.
+Trasforma `scaletta.md` nel paper finale in LaTeX: corpo ≤ 20 pagine con tutte le 21 figure e
+le 14 tabelle del paper v4, poi References e Appendix A (dataset). Regole per Claude in
+`CLAUDE.md`, il perché di ogni pezzo in `PROCESSO.md`, i passi esatti in `ROUTINE.md`.
 
-**Stato (16/11/2026): prima versione della skill.** Script e skill funzionano su una prova; non
-è stata ancora scritta nessuna sezione. `input/piano.md` e `input/appendice-A.md` sono proposte.
+## Un prompt solo
 
-## Prima di partire, il gruppo decide
+Da qualunque computer, apri Claude Code nella **radice della repo** e scrivi:
 
-1. **La scaletta** (`../scaletta.md`, oggi draft v0) e le riformulazioni proposte dalla routine
-   di validazione (`../routine validazione fonti/proposte riformulazione.md`).
-2. **Il piano** (`input/piano.md`): pagine per sezione e quali figure/tabelle entrano nel corpo.
-   Il paper v4 ha 34 pagine, 21 figure e 14 tabelle: in 20 pagine ne entrano circa 14.
-3. **Titolo e autori** in `latex/main.tex`.
+> lancia redigere paper
 
-## Poi, in ordine
+Claude aggiorna la repo, installa LaTeX se manca (su Mac può chiederti di incollare un comando
+con `sudo` nel Terminale), scrive le sezioni una alla volta con un agente Sonnet, le controlla,
+corregge, compila e mette il PDF in
+`5. paper e documentazione di percorso/paper_group21_v5.pdf`, poi fa commit su `main`.
 
-Apri Claude Code **in questa cartella** (così gli agenti e le skill si caricano) e:
+## Cosa serve sul computer
 
-| Comando | Cosa fa | Il gruppo cosa fa |
-|---|---|---|
-| `/paper-avvio` | controlla requisiti, legge scaletta e piano, elenca fonti non citabili e sezioni corte | decide i buchi |
-| `/paper-floats` | figure e tabelle in LaTeX; scrive le tabelle di testo | approva tabelle di testo e didascalie |
-| `/paper-appendice` | contratto di Appendix A da `construction.pdf` | approva il contratto |
-| `/paper-scrivi` | una sezione alla volta, controllata (pilota 5.1) | **approva il pilota** |
-| `/paper-controlla` | auditor, correzioni, escalation | decide le escalation |
-| `/paper-latex` | assembla, compila, conta le pagine | rilegge il PDF |
+- **Python 3** (nessun pacchetto in più).
+- **LaTeX con `pdflatex`**: TeX Live (Linux), MacTeX o BasicTeX (Mac), MiKTeX (Windows). biber e
+  biblatex-apa sono facoltativi: senza, la bibliografia esce con natbib (author–year).
+- Se LaTeX non si può installare, la cartella `latex/` si carica su Overleaf così com'è.
 
-`/paper-stato` in qualunque momento. `/paper-latex --bozza` dà un PDF di lavoro con i buchi in rosso.
+## Cosa è già deciso (17/11/2026)
 
-## Requisiti
+- Pagine per sezione e posizione dei floats: `input/piano.md` (Claude, su mandato di Lele).
+- Tabelle e figura «di testo» (T1–T4, T7, T13, T14, Figura 1): `latex/testo/`, ricostruite dalla
+  scaletta aggiornata e dal log.
+- Appendix A: `5. paper e documentazione di percorso/appendix A - dataset construction.md`.
+- Titolo e sottotitolo: `progetto.json` (`titolo`, `sottotitolo`).
 
-`python3`, LibreOffice (`soffice`), `pdftotext`, e LaTeX con biber:
-
-```bash
-apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-bibtex-extra biber latexmk lmodern
-```
-
-Su Mac: MacTeX (ha già tutto) e LibreOffice. La cartella `latex/` dopo `/paper-latex` si può
-caricare su Overleaf così com'è.
+Le skill `/paper-*` funzionano solo se Claude Code parte da questa cartella; dalla radice vale
+il prompt sopra.

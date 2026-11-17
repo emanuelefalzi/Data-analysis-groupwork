@@ -6,15 +6,14 @@
 Legge il formato di `scaletta.md` cosi' com'e' (Role / Content / Sources / Numbers (log) /
 Guardrails / Editorial notes / Claude's additions) e lo incrocia con:
 - `input/piano.md` (pagine → parole obiettivo, floats della sezione);
-- `routine validazione fonti/tabella.csv` (quali fonti sono citabili in quale sezione e con
-  quale formulazione).
+- `routine validazione fonti/tabella.csv` (contesto sulle fonti: limiti, verbatim).
 
 Cosa diventa materiale citabile (regola sovrana):
 - `contenuto` = blocco Content (+ paragrafo d'apertura per le sezioni-cappello);
 - `numeri_log` = blocco Numbers (log);
-- `fonti` = solo le chiavi del blocco Sources che la routine ha giudicato con un esito in
-  `esiti_citabili`. Per ognuna il writer riceve `frase_paper` ed `estrazione` del lettore:
-  **e' quella la formulazione vincolante**, non la tesi della scaletta (il claim si restringe).
+- `fonti` = le righe «`chiave`: tesi» del blocco Sources con la chiave in `fonti.bib`. La tesi
+  della scaletta e' vincolante (ristretta sul txt dal gruppo il 16/11); l'estrazione del lettore
+  della routine di validazione arriva al writer solo come contesto.
 - `Claude's additions` resta fuori, a meno che `includi_aggiunte_claude` sia true.
 - `Editorial notes` e `Guardrails` sono istruzioni per il writer, non materiale da affermare.
 """
@@ -36,7 +35,7 @@ BLOCCHI = {
     "editorial notes": "note_editoriali",
     "claude's additions": "aggiunte_claude",
 }
-SEZ_RE = re.compile(r"^(##|###)\s+((?:\d+|A)(?:\.\d+)?)\b\s*(.*)$")
+SEZ_RE = re.compile(r"^(##|###)\s+(\d+(?:\.\d+)?)\b\s*(.*)$")
 BLK_RE = re.compile(r"^#{3,4}\s+(.+?)\s*$")
 
 
@@ -45,7 +44,7 @@ def _pulisci_titolo(sid: str, resto: str) -> tuple[str, str]:
     if t.lower().startswith("(opening"):
         # «### 5 (opening, no x.y): How to read the coefficients»
         return sid, t.split(":", 1)[1].strip() if ":" in t else ""
-    t = re.sub(r"\s*\((?:NEW|new|narrowed[^)]*|was \d+)\)\s*", " ", t).strip()
+    t = re.sub(r"\s*\((?:[^)]*\b(?:NEW|new|narrowed|was \d+|decided)\b[^)]*)\)\s*", " ", t).strip()
     return sid, t
 
 
@@ -103,8 +102,15 @@ def parse_scaletta(testo: str) -> list[dict]:
     return sezioni
 
 
-def chiavi_sources(blocco: str) -> list[str]:
-    return list(dict.fromkeys(re.findall(r"`([a-z][a-z0-9]+\d{4}[a-z]?)`", blocco)))
+def sources(blocco: str) -> list[tuple[list[str], str]]:
+    """Righe «- `chiave`, `chiave2`: tesi» del blocco Sources. Le righe che non iniziano con
+    una chiave (note, «None…», «(… removed)», decisioni D4) non sono fonti."""
+    out = []
+    for riga in blocco.splitlines():
+        m = re.match(r"^\s*-\s+((?:`[a-z][a-z0-9]+\d{4}[a-z]?`(?:\s*,\s*|\s+and\s+)?)+)\s*:\s*(.+)$", riga)
+        if m:
+            out.append((re.findall(r"`([^`]+)`", m.group(1)), m.group(2).strip()))
+    return out
 
 
 def main():
@@ -113,16 +119,10 @@ def main():
     if not path.exists():
         die(f"scaletta non trovata: {path}")
     sezioni = parse_scaletta(path.read_text(encoding="utf-8"))
-    app = p("appendice")
-    appendice = parse_scaletta(app.read_text(encoding="utf-8")) if app.exists() else []
-    for s in appendice:
-        s["appendice"] = True
-    sezioni += appendice
     piano = leggi_piano()
     bud = budget(piano)
     bib = chiavi_bib()
     val = validazione()
-    citabili = set(c["esiti_citabili"])
     problemi = []
 
     for s in sezioni:
@@ -134,8 +134,6 @@ def main():
         if not c.get("includi_aggiunte_claude"):
             s.pop("aggiunte_claude", None)
         b = bud.get(sid)
-        if s.get("appendice"):
-            b = {"parole": s.get("parole_appendice", 0), "pagine": 0}
         if b is None and s["ha_figli"] and not s["contenuto"]:
             b = {"parole": 0, "pagine": 0}             # cappello senza apertura: solo titolo
         if b is None:
@@ -144,26 +142,25 @@ def main():
         s["pagine"] = b["pagine"] if b else 0
         s["floats"] = [f["id"] for f in piano["floats"] if f["dove"] == "corpo" and f["sezione"] == sid]
 
-        # fonti: chiavi nominate dalla scaletta × esito della routine
+        # fonti: la tesi della scaletta e' VINCOLANTE (dal 16/11 tutte le tesi sono state
+        # ristrette sul txt: scaletta, «Structural decisions» → Sources). La riga della
+        # routine di validazione, se c'e', da' solo contesto (limiti, verbatim).
         fonti, scartate = [], []
-        for k in chiavi_sources(s.pop("sources")):
-            righe = [r for r in val if r["id_fonte"] == k and r["sezione"] == sid]
-            if k not in bib:
-                scartate.append(f"{k} (non in fonti.bib)")
-                continue
-            if not righe:
-                scartate.append(f"{k} (nessuna riga di validazione per la sezione {sid})")
-                continue
-            buone = [r for r in righe if r["esito"] in citabili]
-            if not buone:
-                scartate.append(f"{k} (esito: {', '.join(sorted({r['esito'] for r in righe}))})")
-                continue
-            for r in buone:
+        for chiavi, tesi in sources(s.pop("sources")):
+            for k in chiavi:
+                if k not in bib:
+                    scartate.append(f"{k} (non in fonti.bib)")
+                    continue
+                righe = [r for r in val if r["id_fonte"] == k and r["sezione"] == sid] or \
+                        [r for r in val if r["id_fonte"] == k]
+                r = righe[0] if righe else {}
                 fonti.append({
-                    "chiave": k, "esito": r["esito"], "tesi_scaletta": r["tesi"],
-                    "estrazione": r["estrazione"], "frase_paper": r["frase_paper"],
-                    "forza": r["forza"], "limiti_vs_noi": r["limiti_vs_noi"],
-                    "citazione_verbatim": r["citazione"], "riga": r["riga"],
+                    "chiave": k, "tesi": tesi, "co_citate": [x for x in chiavi if x != k],
+                    "solo_rimando": bool(re.search(r"\b(pointer|as in \d|same tesi)", tesi, re.I)),
+                    "estrazione_lettore": r.get("estrazione", ""), "forza": r.get("forza", ""),
+                    "limiti_vs_noi": r.get("limiti_vs_noi", ""),
+                    "citazione_verbatim": r.get("citazione", ""),
+                    "esito_routine_16_11": r.get("esito", "nessuna riga"),
                 })
         s["fonti"] = fonti
         s["fonti_ammesse"] = sorted({f["chiave"] for f in fonti})
@@ -171,7 +168,7 @@ def main():
         if scartate:
             problemi.append(f"[{sid}] fonti non citabili: {'; '.join(scartate)}")
         materiale = len((s["contenuto"] + " " + s["numeri_log"]).split()) + sum(
-            len(f["estrazione"].split()) for f in fonti)
+            len(f["tesi"].split()) for f in fonti)
         s["parole_materiale"] = materiale
         if s["parole"] and not s["ha_figli"] and materiale / s["parole"] < 0.66:
             problemi.append(f"[{sid}] materiale {materiale} parole per {s['parole']} obiettivo: "
@@ -179,7 +176,7 @@ def main():
         if not s["contenuto"] and not s["ha_figli"]:
             problemi.append(f"[{sid}] nessun contenuto: la sezione non si puo' scrivere")
 
-    # abstract e appendice: contratti propri
+    # l'abstract ha un contratto proprio (i DRAFT); l'appendice e' gia' scritta
     ids = {s["id"] for s in sezioni}
     for sid in piano["sezioni"]:
         if sid not in ids and sid != "abstract":

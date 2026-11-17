@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-"""compila.py — compila latex/main.tex e controlla il limite di pagine del corpo.
+"""compila.py — compila il paper e controlla il limite di pagine del corpo.
 
     python3 tools/compila.py
 
-latexmk (pdflatex + biber) in build/latex/, PDF copiato in out/paper.pdf. Poi:
+Portabile: non usa latexmk ne' pdfinfo. Copia `latex/` in `build/latex/` e lancia
+pdflatex → biber (o bibtex, secondo `latex/gen/bib.tex`) → pdflatex → pdflatex. Funziona con
+TeX Live (Linux), MacTeX/BasicTeX (Mac) e MiKTeX (Windows), purche' `pdflatex` sia nel PATH.
+Poi:
 - pagine del corpo = pagina della label `corpo-fine` (il corpo parte da pagina 1, con titolo e
   abstract); deve essere <= pagine_corpo_max;
 - riferimenti o citazioni non risolti, chiavi bib mancanti, overfull box > 10pt;
 - parole per pagina misurate (per ricalibrare `parole_per_pagina` in progetto.json).
-Esce con 1 se il corpo supera il limite o restano riferimenti non risolti.
+Il PDF va dove dice progetto.json (latex.pdf). Esce con 1 se il corpo sfora o restano errori.
 """
 from __future__ import annotations
 
@@ -19,62 +22,73 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from comune import BUILD, LATEX, OUT, cfg, conta_parole, die, draft_di, leggi_json  # noqa: E402
+from comune import BUILD, LATEX, ROOT, cfg, conta_parole, die, draft_di, leggi_json  # noqa: E402
+
+
+def run(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
+    return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, errors="ignore", timeout=600)
 
 
 def main():
-    if not shutil.which("latexmk"):
-        die("latexmk non trovato. Su Debian/Ubuntu: apt-get install texlive-latex-extra "
-            "texlive-bibtex-extra biber latexmk")
+    if not shutil.which("pdflatex"):
+        die("pdflatex non trovato: installa una distribuzione LaTeX (vedi LEGGIMI.md, Requisiti)")
     c = cfg()
     if not (LATEX / "gen" / "corpo.tex").exists():
         die("manca latex/gen/corpo.tex: lancia prima tools/assemble.py")
-    outdir = BUILD / "latex"
-    outdir.mkdir(parents=True, exist_ok=True)
-    cmd = ["latexmk", "-pdf", "-g", "-interaction=nonstopmode", "-halt-on-error",
-           f"-outdir={outdir}", "main.tex"]
-    r = subprocess.run(cmd, cwd=LATEX, capture_output=True, text=True, timeout=600)
-    log = (outdir / "main.log").read_text(encoding="utf-8", errors="ignore") if (outdir / "main.log").exists() else ""
-    if r.returncode != 0:
-        err = re.findall(r"^! .*(?:\n.*){0,3}", log, re.M)
-        print("\n".join(err[:5]) or r.stdout[-2000:])
-        die("compilazione fallita (log completo: build/latex/main.log)")
-    pdf = outdir / "main.pdf"
-    OUT.mkdir(exist_ok=True)
-    dest = OUT / Path(c["latex"]["pdf"]).name
-    shutil.copy(pdf, dest)
+    wd = BUILD / "latex"
+    if wd.exists():
+        shutil.rmtree(wd)
+    shutil.copytree(LATEX, wd)
+    backend = "biber" if "backend: biber" in (wd / "gen" / "bib.tex").read_text() else "bibtex"
+    if not shutil.which(backend):
+        die(f"{backend} non trovato nel PATH")
+    pdflatex = ["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"]
+    for passo in (pdflatex, [backend, "main"], pdflatex, pdflatex):
+        r = run(passo, wd)
+        if r.returncode != 0 and passo is pdflatex:
+            log = (wd / "main.log").read_text(errors="ignore") if (wd / "main.log").exists() else r.stdout
+            err = re.findall(r"^! .*(?:\n.*){0,3}", log, re.M)
+            print("\n".join(err[:5]) or log[-2000:])
+            die("compilazione fallita (log completo: build/latex/main.log)")
+        if r.returncode != 0:
+            print(f"⚠ {backend} ha segnalato errori:\n{r.stdout[-1500:]}")
+    log = (wd / "main.log").read_text(errors="ignore")
+    dest = (ROOT / c["latex"]["pdf"]).resolve()
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(wd / "main.pdf", dest)
 
-    aux = (outdir / "main.aux").read_text(encoding="utf-8", errors="ignore")
+    aux = (wd / "main.aux").read_text(errors="ignore")
     m = re.search(r"\\newlabel\{corpo-fine\}\{\{[^}]*\}\{(\d+)\}", aux)
     corpo = int(m.group(1)) if m else None
-    tot = None
-    info = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True)
-    mt = re.search(r"Pages:\s+(\d+)", info.stdout)
-    if mt:
-        tot = int(mt.group(1))
+    mt = re.search(r"Output written on main\.pdf \((\d+) page", log)
+    tot = int(mt.group(1)) if mt else None
 
     problemi = []
-    if re.search(r"There were undefined references|Reference `[^']+' on page \d+ undefined", log):
-        problemi.append("riferimenti non risolti: " + ", ".join(sorted(set(re.findall(r"Reference `([^']+)'", log)))))
-    blg = outdir / "main.blg"
-    if blg.exists():
-        mancanti = re.findall(r"I didn't find a database entry for '([^']+)'", blg.read_text(errors="ignore"))
-        if mancanti:
-            problemi.append("chiavi assenti dal .bib: " + ", ".join(sorted(set(mancanti))))
-    if re.search(r"Citation '[^']+' .*undefined", log):
-        problemi.append("citazioni non risolte")
+    nonris = sorted(set(re.findall(r"Reference `([^']+)' on page \d+ undefined", log)))
+    if nonris:
+        problemi.append("riferimenti non risolti: " + ", ".join(nonris))
+    cit = sorted(set(re.findall(r"Citation `?'?([^'` ]+)'? (?:on page \d+ )?undefined", log)))
+    if cit:
+        problemi.append("citazioni non risolte: " + ", ".join(cit))
+    for blg in ("main.blg",):
+        if (wd / blg).exists():
+            mancanti = re.findall(r"(?:I didn't find a database entry for|entry) ['\"]([^'\"]+)['\"]",
+                                  (wd / blg).read_text(errors="ignore"))
+            if mancanti:
+                problemi.append("chiavi assenti dal .bib: " + ", ".join(sorted(set(mancanti))))
     overfull = [float(x) for x in re.findall(r"Overfull \\hbox \((\d+\.?\d*)pt too wide\)", log)]
     grossi = [x for x in overfull if x > 10]
 
     sezioni = leggi_json(BUILD / "sezioni.json") or []
-    parole = sum(conta_parole(draft_di(s["id"]) or "") for s in sezioni if not s.get("appendice"))
+    parole = sum(conta_parole(draft_di(s["id"]) or "") for s in sezioni)
     print(f"PDF: {dest}")
     print(f"Pagine del corpo: {corpo} (max {c['pagine_corpo_max']}); totale con references e appendice: {tot}")
-    if corpo:
-        print(f"Prosa del corpo: {parole} parole, {parole / corpo:.0f} per pagina floats compresi "
-              f"(piano: {c['parole_per_pagina']} di sola prosa)")
+    print(f"Bibliografia: {backend}")
+    if corpo and parole:
+        print(f"Prosa del corpo: {parole} parole su {corpo} pagine floats compresi "
+              f"(piano: {c['parole_per_pagina']} parole per pagina di sola prosa)")
     if grossi:
-        print(f"⚠ {len(grossi)} overfull hbox oltre 10pt (il piu' largo {max(grossi):.0f}pt): tabelle o URL da sistemare")
+        print(f"⚠ {len(grossi)} overfull hbox oltre 10pt (il piu' largo {max(grossi):.0f}pt)")
     for x in problemi:
         print("⚠", x)
     fallito = bool(problemi)
@@ -82,8 +96,8 @@ def main():
         print("⚠ label corpo-fine non trovata: main.tex e' stato modificato?")
         fallito = True
     elif corpo > c["pagine_corpo_max"]:
-        print(f"✗ Il corpo supera il limite di {corpo - c['pagine_corpo_max']} pagine: si taglia "
-              "(floats o parole), e i tagli di affermazioni li decide il gruppo.")
+        print(f"✗ Il corpo supera il limite di {corpo - c['pagine_corpo_max']} pagine: si riduce la "
+              "prosa nel piano (input/piano.md), i floats restano tutti.")
         fallito = True
     sys.exit(1 if fallito else 0)
 

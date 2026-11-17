@@ -3,30 +3,23 @@
   "autore": "Group 21",
   "corso": "21072 Data Analysis (Data Lab for Entrepreneurship), Bocconi 2026/27",
   "lingua": "en",
-
   "scaletta": "../scaletta.md",
   "piano": "input/piano.md",
-  "appendice": "input/appendice-A.md",
   "bib": "../fonti/fonti.bib",
   "validazione_fonti": "../routine validazione fonti/tabella.csv",
-  "esiti_citabili": ["usabile", "da riformulare"],
   "includi_aggiunte_claude": false,
   "figure_zip": "../4. risultati/figures.zip",
-  "tabelle_rtf": "../4. risultati/RQ1_tables.doc",
-  "log_stata": "../4. risultati/regression_analysis.txt",
-
-  "pagine_corpo_max": 20,
-  "parole_per_pagina": 500,
-  "tolleranza_parole": 0.15,
-
-  "nomi_fissi": {
-    "gap": "time between round 1 and round 2 (\"the gap\" in prose)",
-    "hype": "market hype (\"hype\" in prose; `heat` only in variable names)",
-    "two-round startups": "startups with R = 1; never \"second-round firms\"",
-    "one-round startups": "startups with R = 0",
-    "estimation sample": "the 9,263 startups with a fully observed 5-year window (full_window == 1)",
-    "full sample": "the 28,478 startups with a disclosed round-1 amount"
+  "tabelle_rtf": {
+    "main": "../4. risultati/RQ1_tables.doc",
+    "checks": "../4. risultati/RQ1_tables_not_in_log_checks.rtf"
   },
+  "log_stata": [
+    "../4. risultati/regression_analysis.txt",
+    "../4. risultati/not_in_log_checks.txt"
+  ],
+  "pagine_corpo_max": 20,
+  "parole_per_pagina": 640,
+  "tolleranza_parole": 0.15,
   "convenzioni": [
     "First person plural (we) is allowed for the design and our reading of the results; never first person singular.",
     "Present tense for theory and for what sources argue; past tense for the design and results of single studies; present tense for our own results as they appear in the tables.",
@@ -36,16 +29,15 @@
     "No verbatim quotes from sources: attributed paraphrase only.",
     "No bullet lists in the body: continuous prose. Tables and figures carry the numbers; the text points to them and does not repeat every cell."
   ],
-
   "latex": {
     "classe": "article",
     "opzioni_classe": "11pt,a4paper",
-    "motore": "pdflatex",
-    "stile_bib": "apa",
     "cartella": "latex",
     "main": "latex/main.tex",
-    "pdf": "out/paper.pdf"
+    "pdf": "../5. paper e documentazione di percorso/paper_group21_v5.pdf"
   },
-
-  "doppio_auditor": false
+  "doppio_auditor": false,
+  "appendice_testo": "../5. paper e documentazione di percorso/appendix A - dataset construction.md",
+  "sottotitolo": "Group 21, 21072 Data Analysis Module I, Bocconi University",
+  "glossario": "../glossary.md"
 }

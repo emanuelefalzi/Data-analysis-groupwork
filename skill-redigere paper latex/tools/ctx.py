@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from comune import BUILD, cfg, die, draft_di, leggi_json  # noqa: E402
+from comune import BUILD, cfg, die, draft_di, leggi_json, p  # noqa: E402
 
 
 def sezioni_ordinate() -> list[dict]:
@@ -35,16 +35,23 @@ def blocco_fonti(s: dict) -> str:
         return "_Nessuna fonte citabile in questa sezione: niente token CIT-N/CIT-P._\n"
     out = []
     for f in s["fonti"]:
-        restr = (" — **da riformulare**: la tesi della scaletta e' troppo larga; vale SOLO "
-                 "`estrazione`." if f["esito"] == "da riformulare" else "")
+        co = f" (citata insieme a {', '.join(f['co_citate'])})" if f["co_citate"] else ""
+        rim = (" — **solo rimando**: la fonte e' gia' presentata altrove; qui la citi con la "
+               "stessa tesi, in poche parole." if f["solo_rimando"] else "")
         out.append(
-            f"### `{f['chiave']}` (esito: {f['esito']}, forza: {f['forza']}){restr}\n"
-            f"- **Cosa dice la fonte (vincolante)**: {f['estrazione']}\n"
-            f"- **Frase pronta del lettore**: {f['frase_paper']}\n"
-            f"- **Limiti rispetto al nostro setting**: {f['limiti_vs_noi']}\n"
-            f"- **Verbatim (solo per vedere dove finisce la fonte, MAI da copiare)**: "
-            f"\"{f['citazione_verbatim']}\"\n")
+            f"### `{f['chiave']}`{co}{rim}\n"
+            f"- **Tesi (vincolante, l'unica cosa che puoi attribuirle)**: {f['tesi']}\n"
+            + (f"- *Contesto dal lettore della routine (NON materiale: nulla che stia solo qui va "
+               f"nel testo)*: {f['estrazione_lettore']}\n" if f["estrazione_lettore"] else "")
+            + (f"- *Limiti rispetto al nostro setting*: {f['limiti_vs_noi']}\n" if f["limiti_vs_noi"] else "")
+            + (f"- *Verbatim (solo per vedere dove finisce la fonte, MAI da copiare)*: "
+               f"\"{f['citazione_verbatim']}\"\n" if f["citazione_verbatim"] else ""))
     return "\n".join(out)
+
+
+def glossario() -> str:
+    g = p("glossario")
+    return g.read_text(encoding="utf-8") if g.exists() else "_glossario non trovato_"
 
 
 def blocco_floats(s: dict) -> str:
@@ -84,7 +91,6 @@ def rendi(sid: str) -> str:
     prec = ordine[idx - 1] if idx > 0 else None
     succ = ordine[idx + 1] if 0 <= idx < len(ordine) - 1 else None
     tol = int(c["tolleranza_parole"] * 100)
-    nomi = "\n".join(f"- **{k}**: {v}" for k, v in c["nomi_fissi"].items())
     conv = "\n".join(f"- {x}" for x in c["convenzioni"])
     parti = [
         f"# Contesto — {sid} {s['titolo']}\n",
@@ -92,7 +98,7 @@ def rendi(sid: str) -> str:
         f"Pagine di piano: {s['pagine']}.\n",
         f"**Ruolo**: {s['ruolo'] or '(non dichiarato)'}\n",
         "## Convenzioni\n" + conv + "\n",
-        "## Nomi fissi\n" + nomi + "\n",
+        "## Glossario del gruppo (termini vincolanti: usa la colonna Use, mai Do not use)\n" + glossario() + "\n",
         "## Contenuto (l'unico materiale tuo, insieme ai numeri e alle fonti qui sotto)\n"
         + s["contenuto"] + "\n",
         "## Numeri dal log Stata (citabili cosi' come sono)\n"

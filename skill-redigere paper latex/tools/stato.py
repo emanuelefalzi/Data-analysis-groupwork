@@ -16,26 +16,22 @@ from comune import BUILD, OUT, REPORTS, ROOT, cfg, conta_parole, draft_di, leggi
 def main():
     c = cfg()
     print(f"# {c['titolo']}\n")
-    for k in ("scaletta", "piano", "appendice", "bib", "validazione_fonti", "figure_zip", "tabelle_rtf"):
+    for k in ("scaletta", "piano", "appendice_testo", "glossario", "bib", "figure_zip"):
         print(f"{'✓' if p(k).exists() else '✗'} {k}: {c[k]}")
-    piano_txt = p("piano").read_text(encoding="utf-8") if p("piano").exists() else ""
-    if "PROPOSTA" in piano_txt[:600]:
-        print("⚠ input/piano.md e' ancora una PROPOSTA: pagine e floats non approvati dal gruppo")
+    for alias, path in c["tabelle_rtf"].items():
+        print(f"{'✓' if (ROOT / path).exists() else '✗'} tabelle_rtf[{alias}]: {path}")
     sez = leggi_json(BUILD / "sezioni.json")
     inv = leggi_json(BUILD / "floats.json")
     print()
     if sez is None:
-        print("Prossimo passo: python3 tools/leggi_scaletta.py  (/paper-avvio)")
+        print("Prossimo passo: ROUTINE.md, passo 2")
         return
     if inv is None:
-        print("Prossimo passo: python3 tools/floats.py  (/paper-floats)")
+        print("Prossimo passo: python3 tools/floats.py  (tools/floats.py)")
         return
     senza = [f["id"] for f in inv if f["dove"] == "corpo" and f["tipo"] == "tabella-testo" and not f.get("tex")]
     if senza:
-        print(f"⚠ tabelle di testo da scrivere: {', '.join(senza)}  (/paper-floats)")
-    app_vuota = [s["id"] for s in sez if s.get("appendice") and not s["contenuto"] and "." in s["id"]]
-    if app_vuota:
-        print(f"⚠ appendice senza contenuto: {', '.join(app_vuota)}  (/paper-appendice)")
+        print(f"⚠ tabelle di testo da scrivere: {', '.join(senza)}  (tools/floats.py)")
     scrivibili = [s for s in sez if s["contenuto"]]
     fatte = [s for s in scrivibili if draft_di(s["id"]) is not None]
     buchi = 0
@@ -49,17 +45,17 @@ def main():
         print(f"  {s['id']:<6} {conta_parole(d):>5}/{s['parole']:<5} parole" + (f"  {b} buchi" if b else ""))
     report = sorted(x.name for x in REPORTS.glob("*.md")) if REPORTS.exists() else []
     print(f"\nBuchi aperti: {buchi}. Report: {', '.join(report) or 'nessuno'}")
-    pdf = OUT / Path(c["latex"]["pdf"]).name
-    print(f"PDF: {'out/' + pdf.name if pdf.exists() else 'non ancora compilato'}")
+    pdf = (ROOT / c["latex"]["pdf"]).resolve()
+    print(f"PDF: {pdf if pdf.exists() else 'non ancora compilato'}")
     if len(fatte) < len(scrivibili):
         nxt = next(s for s in scrivibili if draft_di(s["id"]) is None)
-        print(f"\nProssimo passo: /paper-scrivi {nxt['id']}")
+        print(f"\nProssimo passo: stesura dalla sezione {nxt['id']} (ROUTINE.md, passo 3)")
     elif not draft_di("abstract"):
-        print("\nProssimo passo: /paper-scrivi abstract")
+        print("\nProssimo passo: abstract (ROUTINE.md, passo 3)")
     elif not report:
-        print("\nProssimo passo: /paper-controlla")
+        print("\nProssimo passo: controlli (ROUTINE.md, passo 4)")
     else:
-        print("\nProssimo passo: /paper-latex")
+        print("\nProssimo passo: LaTeX (ROUTINE.md, passo 5)")
 
 
 if __name__ == "__main__":

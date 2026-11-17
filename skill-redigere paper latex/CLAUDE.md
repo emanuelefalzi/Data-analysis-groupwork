@@ -7,11 +7,14 @@ solo associazioni, decisioni del gruppo). Il processo fase per fase sta in `PROC
 ## Cos'è
 
 La pipeline che trasforma `../scaletta.md` nel **paper finale del Group 21 in LaTeX**: corpo di
-**massimo 20 pagine** con figure e tabelle dentro, poi References (da `../fonti/fonti.bib`) e
-Appendix A (costruzione di `dataset.dta`), fuori conteggio. Deriva da `../skill-redigere essay/`
-(la pipeline della tesi di Lele, ridotta), con tre differenze: l'uscita è LaTeX e non Word;
-la verifica delle fonti è già fatta dalla `../routine validazione fonti/`; c'è un **budget di
-pagine** che comprende i floats.
+**massimo 20 pagine** con **tutte le 21 figure e le 14 tabelle del paper v4**, poi References (da
+`../fonti/fonti.bib`) e Appendix A (già scritta in `../5. paper e documentazione di percorso/`),
+fuori conteggio. PDF: `../5. paper e documentazione di percorso/paper_group21_v5.pdf`.
+Deriva da `../skill-redigere essay/` (la pipeline della tesi di Lele, ridotta), con tre
+differenze: l'uscita è LaTeX e non Word; le fonti sono già state ristrette e verificate (le tesi
+della scaletta sono vincolanti); c'è un **budget di pagine** che comprende i floats.
+
+**Si lancia con un prompt solo, da qualunque computer: «lancia redigere paper» → `ROUTINE.md`.**
 
 ## La regola sovrana
 
@@ -23,11 +26,10 @@ buco riempito bene.** Nessun agente inventa fonti, numeri, date o fatti.
 
 ## Le regole che si rompono più spesso
 
-1. **Si cita solo una fonte validata per quella sezione**: chiave nel blocco Sources della
-   sezione, presente in `fonti.bib`, con esito `usabile` o `da riformulare` in
-   `routine validazione fonti/tabella.csv` per quella stessa sezione.
-2. **Per «da riformulare» vale l'estrazione del lettore, non la tesi della scaletta.** Il claim
-   si restringe, mai si allarga.
+1. **Si cita solo una fonte del blocco Sources della sezione**, presente in `fonti.bib`.
+2. **Alla fonte si attribuisce solo la sua tesi nella scaletta** (dal 16/11 tutte ristrette sul
+   txt). L'estrazione del lettore in `routine validazione fonti/tabella.csv` è contesto, non
+   materiale. Il claim si restringe, mai si allarga.
 3. **I numeri vengono dal log o dalle tabelle del do-file** (RULES.md). Un numero che non sta nel
    materiale della sezione è un HIGH di `verifica.py`.
 4. **Solo associazioni**, verdetti con le parole del paper, ρ1 non è un effetto (RULES.md).
@@ -40,8 +42,8 @@ buco riempito bene.** Nessun agente inventa fonti, numeri, date o fatti.
 
 ## Decisioni da non prendere da soli
 
-`input/piano.md` (pagine per sezione e quali floats entrano) e `input/appendice-A.md` sono
-**proposte** finché il gruppo non le approva. `latex/main.tex` e `latex/preambolo.tex` sono del
+`input/piano.md` (pagine per sezione; floats = tutti quelli del paper v4) l'ha deciso Claude su
+mandato di Lele (17/11) e si cambia solo per stare nelle 20 pagine, riducendo la prosa. `latex/main.tex` e `latex/preambolo.tex` sono del
 gruppo. Le scelte di contenuto restano in `scaletta.md`, che questa pipeline legge e non modifica.
 
 ## Modelli
@@ -55,8 +57,9 @@ si usa un subagent generico e gli si passa il testo del file dell'agente come is
 - Script con `python3` e percorsi assoluti, mai `cd` nella cartella. La radice la trovano da soli.
 - `build/`, `latex/gen/`, `latex/figures/` sono **derivati**: si rigenerano, non si correggono a
   mano. Le correzioni vanno alla fonte (scaletta, piano, DRAFT della sezione, do-file).
-- Serve LaTeX con biber (`texlive-latex-extra`, `texlive-bibtex-extra`, `biber`, `latexmk`,
-  `lmodern`) e LibreOffice (`soffice`) per leggere `RQ1_tables.doc`.
+- Serve solo Python 3 (libreria standard) e una distribuzione LaTeX con `pdflatex`. biber e
+  biblatex-apa sono facoltativi (senza, natbib + bibtex). Niente LibreOffice, niente latexmk:
+  gli RTF si leggono in Python (`tools/rtf_tabelle.py`). Installazione per sistema: `ROUTINE.md`.
 - Il DRAFT è testo semplice con token: niente comandi LaTeX. Le conversioni le fa `assemble.py`.
 
 ## Dove sta cosa
@@ -65,16 +68,17 @@ si usa un subagent generico e gli si passa il testo del file dell'agente come is
 |---|---|
 | Scaletta (contratto del testo) | `../scaletta.md` → `build/sezioni.json` |
 | Piano pagine e floats | `input/piano.md` (`tools/piano.py`) |
-| Contratto dell'appendice | `input/appendice-A.md` |
-| Fonti validate | `../routine validazione fonti/tabella.csv` |
+| Appendix A (già scritta) | `../5. paper e documentazione di percorso/appendix A - dataset construction.md` |
+| Glossario (termini vincolanti) | `../glossary.md` |
+| Contesto del lettore delle fonti | `../routine validazione fonti/tabella.csv` |
 | Bibliografia | `../fonti/fonti.bib` |
-| Figure, tabelle del do-file | `../4. risultati/figures.zip`, `../4. risultati/RQ1_tables.doc` → `build/` |
-| Tabelle di testo | `latex/tabelle-testo/<id>.tex` |
+| Figure, tabelle del do-file | `../4. risultati/figures.zip`, `RQ1_tables.doc`, `RQ1_tables_not_in_log_checks.rtf` → `build/` |
+| Tabelle e figura di testo (T1–T4, T7, T13, T14, F1) | `latex/testo/<id>.tex` |
 | Sezioni scritte (DRAFT + LEDGER) | `sezioni/<id>.md` |
 | Report dei controlli | `reports/` |
 | Sorgente LaTeX | `latex/main.tex`, `latex/preambolo.tex` (del gruppo), `latex/gen/` (generato) |
-| PDF | `out/paper.pdf` |
+| PDF | `../5. paper e documentazione di percorso/paper_group21_v5.pdf` |
 
-Skill: `/paper-avvio`, `/paper-floats`, `/paper-appendice`, `/paper-scrivi`, `/paper-controlla`,
+Routine a un prompt: `ROUTINE.md`. Skill (solo se la sessione parte da questa cartella): `/paper-avvio`, `/paper-floats`, `/paper-appendice`, `/paper-scrivi`, `/paper-controlla`,
 `/paper-latex`, `/paper-stato`. Agenti: `paper-writer`, `paper-claim-auditor` (più `fix-applier` e
 `prose-auditor` di `../skill-redigere essay/`).

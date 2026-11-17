@@ -52,7 +52,7 @@ def frasi(testo: str) -> list[str]:
 def materiale(s: dict, inv: dict) -> str:
     pezzi = [s["contenuto"], s["numeri_log"], s.get("trappole", ""), s.get("note_editoriali", "")]
     for f in s["fonti"]:
-        pezzi += [f["estrazione"], f["frase_paper"]]
+        pezzi.append(f["tesi"])
     for fid in s["floats"]:
         f = inv.get(fid, {})
         pezzi += f.get("celle", []) + [f.get("didascalia", "")]
@@ -126,7 +126,7 @@ def verifica_sezione(s: dict, tutte: dict, inv: dict, bib: dict) -> list[tuple[s
     # antiplagio sui verbatim
     gram_d = ngrammi(TOKEN_RE.sub(" ", d))
     for f in s["fonti"]:
-        if gram_d & ngrammi(f["citazione_verbatim"]):
+        if f["citazione_verbatim"] and gram_d & ngrammi(f["citazione_verbatim"]):
             r.append(("HIGH", f"8 parole consecutive copiate dal verbatim di {f['chiave']}"))
     # parole
     if s["parole"]:

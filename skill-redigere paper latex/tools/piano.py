@@ -60,7 +60,7 @@ def spazio_floats(floats: list[dict], sid: str) -> float:
         else:
             tot += f["altezza"]
     for alt in coppie.values():
-        tot += max(alt) * (0.6 if len(alt) > 1 else 1)
+        tot += max(alt)          # le figure affiancate stanno in una riga sola
     return tot
 
 

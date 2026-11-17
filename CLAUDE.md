@@ -20,3 +20,6 @@ Current task: **build the slide outline** (`slide outline.md`) from `5. paper e 
 
 ## Routine validazione fonti
 When a member says «lancia routine validazione fonti» (or «valida le fonti», «run the source validation»), read `routine validazione fonti/CLAUDE.md` and run it from start to end without asking again. It checks every source cited in `scaletta.md` against its txt in `fonti/txt/` and writes `routine validazione fonti/tabella.csv` and `referto.md`.
+
+## Routine redigere paper
+When a member says «lancia redigere paper» (or «scrivi il paper», «run the paper pipeline»), read `skill-redigere paper latex/ROUTINE.md` and run it from start to end without asking again, on any computer (it installs what is missing or says exactly what to install). It turns `scaletta.md` into the final LaTeX paper (body ≤ 20 pages with all 21 figures and 14 tables of paper v4, then References and Appendix A) and writes `5. paper e documentazione di percorso/paper_group21_v5.pdf`.

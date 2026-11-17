@@ -8,8 +8,8 @@ Lele (`../skill-redigere essay/PROCESSO.md`, sezione «Lezioni della tesi») e d
 | | Essay | Paper LaTeX |
 |---|---|---|
 | scaletta | `scaletta/scaletta.md` con sintassi propria | `../scaletta.md` della repo, letta così com'è |
-| verifica delle fonti | `/essay-estrai` (lettori + `valida.py`) | già fatta: `../routine validazione fonti/tabella.csv` |
-| unità citabile | punto validato `fonte#n` | riga sezione × fonte con esito `usabile` / `da riformulare` |
+| verifica delle fonti | `/essay-estrai` (lettori + `valida.py`) | già fatta: tesi della scaletta ristrette sul txt (16/11) |
+| unità citabile | punto validato `fonte#n` | riga «`chiave`: tesi» del blocco Sources della sezione |
 | numeri | dal materiale | dal materiale **e** dalle celle delle tabelle del do-file |
 | lunghezza | parole per sezione | **pagine** per sezione, floats compresi; limite 20 sul corpo |
 | floats | nessuno | figure (`figures.zip`) e tabelle (`RQ1_tables.doc`) convertite in LaTeX |
@@ -26,13 +26,13 @@ nessun pavimento di parole, la sezione pilota, i derivati che non si toccano a m
  input/piano.md ─┼─► leggi_scaletta.py ─► build/sezioni.json  (contenuto, numeri, fonti validate, parole, floats)
  tabella.csv ────┘                              │
  figures.zip, RQ1_tables.doc ─► floats.py ─► build/figures, build/tabelle/*.tex, build/floats.json
- construction.pdf ─► /paper-appendice ─► input/appendice-A.md (approvato dal gruppo)
+ construction.pdf ─► Appendix A già scritta (5. paper e documentazione di percorso/)
                                                 │
  per sezione, in ordine: ctx.py ─► paper-writer ─► verifica.py      (pilota: 5.1)
                                                 │
  verifica.py --tutte ─► paper-claim-auditor ─► fix / riscrittura / escalation ─► prose-auditor
                                                 │
- assemble.py ─► latex/gen/*.tex ─► compila.py (latexmk + biber) ─► out/paper.pdf, pagine del corpo ≤ 20
+ assemble.py ─► latex/gen/*.tex ─► compila.py (pdflatex + biber|bibtex) ─► paper_group21_v5.pdf, pagine del corpo ≤ 20
 ```
 
 ## Fase 0–1 — avvio (`/paper-avvio`)
@@ -42,11 +42,10 @@ materiale; **Guardrails** diventano trappole; **Editorial notes** istruzioni; **
 additions** restano fuori (non sono approvate). Le chiavi del blocco **Sources** diventano citabili
 solo se la routine di validazione le ha giudicate citabili *per quella sezione*.
 
-**Perché la routine e non un nuovo loop di lettura.** La routine ha già letto ogni fonte contro
-la tesi che la scaletta le attribuisce, con verifica meccanica del verbatim. Rifarlo sarebbe
-doppio lavoro; usarne gli esiti è la cosa che la scaletta promette («la skill li controlla»).
-Il prezzo: è una lettura singola per fonte. Se il gruppo vuole il secondo lettore, si fa nella
-routine, non qui.
+**Perché la tesi della scaletta e non l'esito della routine.** La routine di validazione
+(16/11) ha letto ogni fonte contro la tesi di allora; il gruppo ha poi ristretto tutte le tesi
+«da riformulare» e «non usabile» sul txt, con un secondo lettore per le seconde. `tabella.csv`
+non è stata aggiornata dopo: i suoi esiti sono superati, la sua estrazione resta come contesto.
 
 `piano.py` traduce le pagine in parole: (pagine − spazio dei floats) × `parole_per_pagina`.
 **Perché le pagine e non le parole.** Il vincolo del corso è sulle pagine, e figure e tabelle
@@ -55,13 +54,15 @@ compilazione `compila.py` misura le parole per pagina vere e si ricalibra.
 
 ## Fase 2 — floats (`/paper-floats`)
 
-`floats.py` converte le 6 tabelle del do-file in booktabs compatte (i 15 dummy del lead investor
-diventano una riga «Yes», i coefficienti omessi spariscono) **senza toccare una cella**, e
-prepara le figure, affiancando le coppie marcate nel piano. Le tabelle di testo del paper v4
-(ipotesi, campione, verdetti) si scrivono dal materiale della scaletta e le approva il gruppo.
+`floats.py` legge gli RTF del do-file in Python puro (`rtf_tabelle.py`) e converte le 7 tabelle
+in booktabs compatte (i dummy del lead investor diventano una riga «Yes», salvo quelli nominati
+dalla colonna `tieni`; i coefficienti omessi spariscono) **senza toccare una cella**. Le figure
+vanno a coppie nello stesso float, ognuna con il suo numero, come nel paper v4. Le 7 tabelle e la
+figura «di testo» del paper v4 stanno in `latex/testo/`, ricostruite dalla scaletta e dal log.
 
-**Perché compatte.** Le tabelle del do-file hanno 75–100 righe ciascuna: sei così sono già
-metà del budget. Le righe che servono ai risultati sono 6–10 per tabella.
+**Perché compatte e a coppie.** 35 floats in 20 pagine: su un PDF di prova con testo finto
+della lunghezza obiettivo i floats prendono circa 11,6 pagine e la prosa sta in circa 4.800
+parole. Le tabelle del do-file hanno 75–200 righe; quelle che servono sono 10–20.
 
 ## Fase 3 — stesura (`/paper-scrivi`)
 
