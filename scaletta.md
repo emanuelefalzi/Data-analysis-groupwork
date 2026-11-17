@@ -724,10 +724,6 @@ Rules that hold throughout (from `RULES.md`):
    The step uses post-money valuations, which overstate fair value and ignore contract terms other than the equity share, and it is observed for about half of two-round startups. If disclosure follows good rounds, the sample is selected towards high steps.
 4. **What the sample represents**: *course cohort, hype from cohort's own deals, ageing cohort, disclosed round 1 only*
    Hype is built from deals of the course cohort (founded 2012–2019), so annual shares partly reflect its ageing. Dropping undisclosed round-1 amounts keeps only startups that disclosed. Both limit how far results generalise.
-5. **Traceability**: *checks outside the do-file, Python, Table 12, not in log*
-   The further checks in 5.4 and the team-control table were run outside the Stata do-file, partly in Python, so their numbers are not in the log that produces every other number in the paper and cannot be traced.
-   ⚠ **Superseded 17/11:** every one of these numbers is now in the new log `not_in_log_checks.txt` (open point 17 closed). Proposal: drop this point; at most one clause that the exit-share control uses our own definition (open point 21d). Group decides.
-
 #### Sources
 - `cameron2008`: wild cluster bootstrap for few clusters.
 - `gornall2020`: post-money overstates fair value for US unicorns (48% on average).
@@ -895,7 +891,8 @@ Rules that hold throughout (from `RULES.md`):
 - The deck's last slide = points 1, 3 and the 6.4 point-4 sentence.
 
 ### Claude's additions
-- ~~End on the reframing (I-02).~~ Superseded 17/11 (Lele): I-02 has its home in 6.3. The closing line of the deck is still to choose (open point 23).
+- ~~End on the reframing (I-02).~~ Superseded 17/11 (Lele): I-02 has its home in 6.3.
+- **Closing line decided 17/11 (Lele, open point 23, option A):** the deck and Section 7 close on the answer to the research question (point 1), not on the founder implication.
 
 ---
 

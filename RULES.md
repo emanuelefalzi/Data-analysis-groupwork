@@ -5,7 +5,7 @@ These rules apply to every member of the group and to every Claude (or other AI)
 ## The assignment
 - **Course:** 21072 Data Analysis Module I (Data Lab for Entrepreneurship), Bocconi 2026/27, Stefano Breschi and Luisa Gagliardi; TA Rujuta Shirish Bhagwat. The brief is in the intro slides (*Intro2026.pdf*, slides 11–16); it is not in the repo.
 - **Task:** a research question on startups and VC that can be tested with **PitchBook data** (US companies, 2012–2019 sample from Blackboard). Other data may be added.
-- **Deliverable:** a **slide deck only**, no written report; code submission is optional. Presentation of **about 25 minutes**. Final presentations run 27/11, 30/11 and 04/12/2026; submission is "around the end of November", with the exact date to be announced (still open, see `registers/open points.md`).
+- **Deliverable:** a **slide deck only**, no written report; code submission is optional. Presentation of **about 25 minutes**. Final presentations run 27/11, 30/11 and 04/12/2026; **the deck is due 27/11/2026** (Lele, 17/11). We are Group 21. The slide count does not matter, the talk length does.
 - **Grading:** the project is 40% of the grade for attending students. Criteria: **clarity and organization, depth of analysis, use of data, originality and critical thinking, delivery and visual communication.**
 - **AI policy:** AI is allowed for the project work and is not allowed in the final written exam.
 
@@ -46,10 +46,10 @@ Research question: *is the time between the first and the second VC round associ
 | `1. python/dataset.py` | Builds the dataset from the raw PitchBook files in `data/` (unzip them there); writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
 | `2. dataset/dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
 | `3. stata/rq1_two_group_analysis_v2.do` | Main Stata analysis: descriptives, logit models, figures, Word tables | Current |
-| `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | Current |
+| `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | **Superseded** by `rq1_addon_not_in_log_checks.do` (block A, same code; checked 17/11). Do not run |
 | `4. risultati/regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
-| `3. stata/rq1_addon_not_in_log_checks.do` | Add-on: reruns in Stata the paper v4 analyses computed outside the do-file (Table 12, Figures 8, 17, 19, the §5.4 checks, the N of the AMEs); absorbs `rq1_addon_extra_controls.do` | Written 17/11/2026, to be run |
-| `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do`: primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | To be run |
+| `3. stata/rq1_addon_not_in_log_checks.do` | Add-on: reruns in Stata the paper v4 analyses computed outside the do-file (Table 12, Figures 8, 17, 19, the §5.4 checks, the N of the AMEs); absorbs `rq1_addon_extra_controls.do` | Current (run 17/11/2026) |
+| `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do`: primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | Current (17/11/2026) |
 | `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
 | `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
 | `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |
