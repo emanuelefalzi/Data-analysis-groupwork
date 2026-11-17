@@ -375,7 +375,7 @@ Rules that hold throughout (from `RULES.md`):
    Across gap quintiles the exit share barely moves, failure falls and the share still private rises (Figure 8). A slow round is followed more by staying private than by exit. Raw shares, no controls.
 
 #### Sources
-- None (descriptive). Source: log L120–200 (tabstat, t-tests) for Table 5. Figures 2–7 and 9–10 come from the do-file (`figures/d1…d8`). ⚠ **Figure 8 (exit / failure / still private) is not exported by the do-file**, so it is "not in log".
+- None (descriptive). Source: log L120–200 (tabstat, t-tests) for Table 5. Figures 2–7 and 9–10 come from the do-file (`figures/d1…d8`). Figure 8 (exit / failure / still private): new log `not_in_log_checks.txt` **L1029–1053** (shares by quintile: exit 0.211–0.237, failure 0.141 → 0.094, still private 0.637 → 0.692; one round 0.156 / 0.315 / 0.529), **L997** (14 startups with both outcomes, counted as exits); figure `figures/x1_outcomes_by_gap_quintile.png`.
 
 #### Guardrails
 - Figures 7 and 8 are **descriptive**. Do not call them evidence for or against H1/H2. The tests are in 5.1–5.2.
@@ -481,7 +481,7 @@ Rules that hold throughout (from `RULES.md`):
 - Team and lead-age controls are mentioned in v4 only in 5.4. Proposal: list them here too, so 4.3 is complete.
 
 #### Editorial notes
-- Flag here, in one clause, which checks are **outside the do-file**: point 5 (finer hype, robust SEs, early exits, VIF; Table 12 run in Python). RULES requires them to be marked "not in log".
+- Since 17/11 point 5 and Table 12 are in a Stata log (new log `not_in_log_checks.txt`, from `3. stata/rq1_addon_not_in_log_checks.do`), so no "not in log" flag is needed. The exit-share control uses our own definition (open point 21d).
 
 #### Claude's additions
 - [Likely] Number the checks (i)–(vi) and reuse the numbering in 5.4, so the reader can match design to result without the text repeating itself.
@@ -547,7 +547,7 @@ Rules that hold throughout (from `RULES.md`):
 - Do not mention past-only hype here. It is in 5.4.
 
 #### Editorial notes
-- ⚠ The AMEs use **N = 4,444** two-round startups (log L659), not 4,483. Mention it in the Table 7 note.
+- ⚠ The AMEs use **N = 4,444** two-round startups (log L659), not 4,483. Mention it in the Table 7 note. Why: 4,483 − 1 startup with missing age − 38 in lead types or states that predict no exit perfectly (new log `not_in_log_checks.txt` **L4396–4440**).
 - Figures 11, 12, 13 and 14 make four figures. Proposal: keep 11 or 12 in the text (the deck needs only one: Figure 12 is more intuitive), and move 13 and 14 to the appendix.
 - The deck's main results slide: Figure 12 plus one sentence. The coefficient table goes in a backup slide.
 
@@ -574,6 +574,7 @@ Rules that hold throughout (from `RULES.md`):
 #### Numbers (log)
 - β1 −0.2409, p 0.001: **L1151**. β1 −0.2309, p 0.005: **L1305**. β3 −0.0301, p 0.681: **L1308**. N = 9,235 (**L1139, L1288**).
 - AMEs for failure: from the grid at **L1424** onwards. Values at hype −1/0/+1 still to read in the log.
+- Figure 17 (FWL binned check), new log `not_in_log_checks.txt`: slope failure −0.0304 (SE 0.0092, p 0.002) **L1140**; exit −0.0112 (p 0.322) **L1121**; N = 4,482 **L1087** (paper says 4,483: open point 21c); 20 bins **L1424**; figure `figures/x2_fwl_outcomes_by_gap.png`. The −0.030 of point 5 is the binned slope; it equals β3 (L1308) only by coincidence.
 
 #### Sources
 - None new (literature in 5.5).
@@ -584,7 +585,6 @@ Rules that hold throughout (from `RULES.md`):
 - ρ1 for failure (−0.716): report only, with a pointer to 6.2.
 
 #### Editorial notes
-- ⚠ Figure 17 (FWL binned scatter) is **not exported by the do-file**, so it is "not in log".
 - Figure 17 (FWL) is "the course's way" of checking functional form. If it is a course concept, cite it from the course (Hill et al. 2018 / lessons). [Guessing] which lesson. Ask Lele.
 - Deck: this is the strongest result and deserves its own slide (Figure 16 or 17).
 
@@ -609,7 +609,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Numbers (log)
 - θ1 0.1088, p < 0.001, N = 7,574: **L2899** (baseline) / 0.1086 **L3043**. θ3 −0.0163, p 0.381: **L3046**.
-- ⚠ Figure 19 (and its 1.89 / 0.36 medians) is **not produced by the do-file**: no export for it in `rq1_two_group_analysis_v2.do`. Mark it "not in log".
+- Figure 19, new log `not_in_log_checks.txt`: N = 7,514 **L1521**; mean total step 1.063 / 1.083 / 1.075 / 1.063 / 1.183 **L1552–1564**; median step per year 1.885 → 1.047 → 0.735 → 0.541 → 0.363 **L1568–1580** (ratio about 5.2); median gap 6.8 → 35.0 months **L1536–1548**; figure `figures/x3_valuation_step_by_gap_quintile.png`.
 
 #### Sources
 - `kaplan2003`: milestones govern release of funds within a round, not the timing of the next round.
@@ -638,17 +638,18 @@ Rules that hold throughout (from `RULES.md`):
    With hype computed from past years only, β3 becomes significant but stays negative: the gap penalty on exit is about 5% larger in odds per SD of past hype. It does not support H2 either. Smaller sample.
 4. **Team and lead-age controls**: *founders, MBA, AI term, young lead < 6 years, β1 and β3 unchanged*
    Adding founders, an MBA founder, an AI term and a young lead investor leaves the gap coefficients unchanged, so omitted team quality of this kind does not explain the null. A young lead goes with lower exit odds.
-5. **Further checks (not in log)**: *finer hype, exit-market share, robust SEs, early exits removed, VIF < 2*
-   Finer hype measures give β3 between −0.033 and −0.071, not significant. Robust SEs barely change p-values. Removing early one-round exits leaves β1 and β3 unchanged. VIFs are fine once the gap is centred.
+5. **Further checks**: *finer hype, exit-market share, robust SEs, early exits removed, VIF < 2*
+   Finer hype measures give β3 between −0.033 and −0.071, not significant. ⚠ The new log gives −0.036 to −0.078, with p = 0.090 for industry group × quarter: wording waits for the group (open point 21a). Robust SEs barely change p-values. Removing early one-round exits leaves β1 and β3 unchanged. VIFs are fine once the gap is centred.
 
 #### Numbers (log)
 - Windows: exit 4y β1 −0.0277 / β3 −0.0712 (**L1666, L1669**); exit 6y −0.0140 / −0.0650 (**L1864, L1867**); fail 4y −0.2851 / 0.0108 (**L2014, L2017**); fail 6y −0.1898 / 0.0234 (**L2173, L2176**).
 - Exit ever β1 −0.4581 (**L2370**). Past-only hype β3 −0.0498, p 0.039 (**L2584**). Probit β3 −0.0284, p 0.390 (**L2758**).
-- ⚠ **Table 12 (team and lead-age controls) is not in `regression_analysis.txt`**: it was run in Python (statsmodels). `rq1_addon_extra_controls.do` reruns it, but its log is not in the repo. Mark it "not in log" (RULES) and add it to open points.
-- ⚠ Point 5: "paper §5.4, not in log" (open point 5).
+- Table 12 (point 4), new log `not_in_log_checks.txt`: exit β1 −0.100 (p 0.163) → −0.100 (p 0.160), β3 −0.035 (p 0.597 → 0.602) **L287, L290, L472, L475**; failure β1 −0.231 → −0.229 **L643, L809**; young lead on exit −0.334, OR 0.716, p 0.009 **L587, L975**; AI term on failure −0.607 **L923**; N 7,591 (exit) / 7,685 (failure), 41 clusters **L270, L626, L275**. Word table `RQ1_tables_not_in_log_checks.rtf`.
+- Further checks (point 5), new log `not_in_log_checks.txt`, β3 (gap × hype) and p: sector × quarter −0.036, 0.405 **L1960** (149 clusters); industry group × year −0.070, 0.280 **L2368** (190 clusters); industry group × quarter −0.078, 0.090 **L2554** (570 clusters), all-quarter base −0.057, 0.368 **L2740**; + sector exit share −0.031, 0.656 **L3082**; robust SEs p 0.358 vs 0.344 clustered **L3267, L1774**; 367 early one-round exits **L3389**, then β1 −0.065, β3 −0.056 (p 0.339) **L3460, L3463**; VIFs uncentred 10.1–18.7 for R, gap and interactions **L3774–3782**, round-1 controls 1.01–1.52, centred all ≤ 2.44 **L4041 ff.**
+- ⚠ Differences between paper v4 and the new log (clusters 190 and 570 vs 191 and 575, p 0.090, VIF wording, exit-share definition): open point 21. The log wins.
 
 #### Sources
-- `gompers1996`: grandstanding predicts young VCs bring firms to IPO earlier. That our young-lead coefficient goes the other way is our result (R-xx), not the source's claim.
+- `gompers1996`: grandstanding predicts young VCs bring firms to IPO earlier. That our young-lead coefficient goes the other way is our result (R-45), not the source's claim.
 - `cameron2008`: as in 4.3.
 
 #### Guardrails
@@ -725,6 +726,7 @@ Rules that hold throughout (from `RULES.md`):
    Hype is built from deals of the course cohort (founded 2012–2019), so annual shares partly reflect its ageing. Dropping undisclosed round-1 amounts keeps only startups that disclosed. Both limit how far results generalise.
 5. **Traceability**: *checks outside the do-file, Python, Table 12, not in log*
    The further checks in 5.4 and the team-control table were run outside the Stata do-file, partly in Python, so their numbers are not in the log that produces every other number in the paper and cannot be traced.
+   ⚠ **Superseded 17/11:** every one of these numbers is now in the new log `not_in_log_checks.txt` (open point 17 closed). Proposal: drop this point; at most one clause that the exit-share control uses our own definition (open point 21d). Group decides.
 
 #### Sources
 - `cameron2008`: wild cluster bootstrap for few clusters.
@@ -914,12 +916,12 @@ Terms that drift in v4 or across documents, which the glossary must fix:
 - Forbidden variants (RULES): *effect / impact / causes / leads to / reduces* (about the gap or hype) → *is associated with / goes with*.
 
 ### B. Points added to `registers/open points.md` on 16/11 (items 9–12, 14)
-1. Table 12 (team and lead-age controls) is not in the Stata log: Python run, and the add-on log is not in the repo.
+1. Table 12 (team and lead-age controls) is not in the Stata log: Python run, and the add-on log is not in the repo. **Closed 17/11** (new log `not_in_log_checks.txt`).
 2. "Estimation sample" means 28,478 in `construction.pdf` and 9,263 in the paper.
 3. `nanda2017` and `townsend2015` are cited but not downloaded (D4).
 4. Abstract/conclusion "stable across hype measures" vs the significant past-only β3.
 5. AMEs use N = 4,444 two-round startups, not 4,483 (log L659).
-6. Figures 8, 17 and 19 (and Figure 1, a schematic) are not exported by `rq1_two_group_analysis_v2.do`: their numbers cannot be traced to the log.
+6. Figures 8, 17 and 19 (and Figure 1, a schematic) are not exported by `rq1_two_group_analysis_v2.do`: their numbers cannot be traced to the log. **Closed 17/11** (new log `not_in_log_checks.txt`, figures `x1…x3`).
 
 ### C. Deck (kept in mind only)
 - [Guessing] About 14–16 slides for 25 minutes: 1 hook/RQ, 1 literature + hypotheses (Table 1 slim), 1 design (Figure 1), 1 sample funnel, 1 hype measure (Figure 4), 1 raw picture (Figure 8), 1 model "how to read", 3 results (H2/H1 Figure 12, H1b Figure 16/17, H3 Figure 19), 1 robustness, 1 discussion (Table 14 slim), 1 limits to causality, 1 conclusion, plus backup.
