@@ -12,6 +12,14 @@ You are working in the repository of **Group 21, 21072 Data Analysis (Data Lab f
 
 @RULES.md
 
+## Commit authors (decided by Lele, 17/11/2026)
+Every commit is authored by the member you work for, never by Claude.
+- Before the first commit of the session, check `git config user.name` and `git config user.email`. If they say `Claude` or `noreply@anthropic.com` (the default in Claude Code on the web), set them to the member's GitHub identity, for this repo only:
+  - Lele: `git config user.name "emanuelefalzi"` and `git config user.email "47462473+emanuelefalzi@users.noreply.github.com"`.
+  - Any other member: ask for their GitHub username and noreply email, then set them the same way.
+- No AI attribution in commit messages: no `Co-Authored-By: Claude …`, no `Claude-Session: …`, no "Generated with Claude Code". In the message, name only the member, e.g. `(Lele)`, never `(Claude for Lele)`.
+- Push to `main` only. Never create `claude/…` branches; if the environment starts you on one, switch to `main` before committing.
+
 Also look at:
 - `README.md`: what is in the repo and how to run the pipeline.
 - `registers/`: results (R-xx), inferences (I-xx) and open points. Check them before proposing anything and update them when slides change.
