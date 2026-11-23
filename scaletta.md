@@ -573,7 +573,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Numbers (log)
 - β1 −0.2409, p 0.001: **L1176**. β1 −0.2309, p 0.005: **L1330**. β3 −0.0301, p 0.681: **L1333**. N = 9,235 (**L1164, L1313**).
-- AMEs for failure: from the grid at **L1449** onwards. Values at hype −1/0/+1 still to read in the log.
+- AMEs for failure (per unit of ln gap, two-round startups, N = 4,469 **L1451**): hype −1 −0.0205 (p 0.115) **L1484**; hype 0 −0.0242 (p 0.003) **L1488**; hype +1 −0.0280 (p 0.001) **L1492** (grid from **L1449**; same cells as Table 7).
 - Figure 17 (FWL binned check), new log `not_in_log_checks.txt`: slope failure −0.0304 (SE 0.0092, p 0.002) **L1140**; exit −0.0112 (p 0.322) **L1121**; N = 4,482 **L1087** (paper says 4,483: open point 21c); 20 bins **L1424**; figure `figures/x2_fwl_outcomes_by_gap.png`. The −0.030 of point 5 is the binned slope; it equals β3 (L1333) only by coincidence.
 
 #### Sources
