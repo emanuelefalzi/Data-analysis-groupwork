@@ -89,7 +89,7 @@ def verifica_sezione(s: dict, tutte: dict, inv: dict, bib: dict) -> list[tuple[s
                 r.append(("HIGH", f"{tipo}:{arg} e' un float di appendice di un'altra sezione"))
             elif not f or f["dove"] not in ("corpo", "appendice"):
                 r.append(("HIGH", f"{tipo}:{arg} non e' un float del corpo"))
-            elif (tipo == "FIG") != (f["tipo"] == "figura"):
+            elif (tipo == "FIG") != f["tipo"].startswith("figura"):
                 r.append(("HIGH", f"{tipo}:{arg} ha il tipo sbagliato ({f['tipo']})"))
         elif tipo == "SEC" and arg not in tutte:
             r.append(("HIGH", f"SEC:{arg} non esiste"))

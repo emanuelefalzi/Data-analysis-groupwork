@@ -30,8 +30,11 @@ def run(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
 
 
 def main():
-    if not shutil.which("pdflatex"):
+    tectonic = not shutil.which("pdflatex") and shutil.which("tectonic")
+    if not shutil.which("pdflatex") and not tectonic:
         die("pdflatex non trovato: installa una distribuzione LaTeX (vedi LEGGIMI.md, Requisiti)")
+    if tectonic:
+        print("pdflatex assente: compilo con tectonic (bibtex incluso)")
     c = cfg()
     if not (LATEX / "gen" / "corpo.tex").exists():
         die("manca latex/gen/corpo.tex: lancia prima tools/assemble.py")
@@ -40,10 +43,12 @@ def main():
         shutil.rmtree(wd)
     shutil.copytree(LATEX, wd)
     backend = "biber" if "backend: biber" in (wd / "gen" / "bib.tex").read_text() else "bibtex"
-    if not shutil.which(backend):
+    if not tectonic and not shutil.which(backend):
         die(f"{backend} non trovato nel PATH")
-    pdflatex = ["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"]
-    for passo in (pdflatex, [backend, "main"], pdflatex, pdflatex):
+    pdflatex = (["tectonic", "--keep-logs", "--keep-intermediates", "main.tex"] if tectonic
+                else ["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"])
+    passi = (pdflatex,) if tectonic else (pdflatex, [backend, "main"], pdflatex, pdflatex)
+    for passo in passi:
         r = run(passo, wd)
         if r.returncode != 0 and passo is pdflatex:
             log = (wd / "main.log").read_text(errors="ignore") if (wd / "main.log").exists() else r.stdout
@@ -62,6 +67,9 @@ def main():
     corpo = int(m.group(1)) if m else None
     mt = re.search(r"Output written on main\.pdf \((\d+) page", log)
     tot = int(mt.group(1)) if mt else None
+    if tot is None and shutil.which("pdfinfo"):
+        mi = re.search(r"Pages:\s+(\d+)", run(["pdfinfo", "main.pdf"], wd).stdout)
+        tot = int(mi.group(1)) if mi else None
 
     problemi = []
     nonris = sorted(set(re.findall(r"Reference `([^']+)' on page \d+ undefined", log)))

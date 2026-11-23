@@ -167,7 +167,7 @@ def main():
 
     posti: set[str] = set()
 
-    def float_tex(fid: str) -> str:
+    def float_tex(fid: str, coda: bool = True) -> str:
         f = inv[fid]
         if f.get("tex") is None:
             for g in inv.values():
@@ -180,10 +180,20 @@ def main():
         if chiave in posti:
             return ""
         posti.add(chiave)
-        return (ROOT / f["tex"]).read_text(encoding="utf-8")
+        tex = (ROOT / f["tex"]).read_text(encoding="utf-8")
+        return in_coda(tex) if coda else tex
+
+    def in_coda(tex: str) -> str:
+        """Float del corpo -> box in coda (preambolo: codafloat, \\tentafloats): mai dentro un
+        paragrafo, messo dopo il primo paragrafo che lascia abbastanza spazio (Lele 23/11)."""
+        tex = re.sub(r"\\begin\{(figure|table)\}\[[^\]]*\]", r"\\begin{codafloat}{\1}", tex)
+        tex = re.sub(r"\\end\{(figure|table)\}", r"\\end{codafloat}", tex)
+        return tex + "\\tentafloats\n"
 
     def blocco(s: dict) -> str:
         out = []
+        if s["livello"] == 1:
+            out.append(r"\svuotafloats")
         comando = r"\section" if s["livello"] == 1 else r"\subsection"
         out.append(f"{comando}{{{tex_testo(s['titolo'])}}}\\label{{sec:{s['id']}}}\n")
         d = draft_di(s["id"])
@@ -193,7 +203,7 @@ def main():
             return "\n".join(out)
         home = set(s["floats"])
         for par in paragrafi(d):
-            out.append(converti(par, bozza, buchi) + "\n")
+            out.append(converti(par, bozza, buchi) + "\n\\tentafloats\n")
             for m in re.finditer(r"\[\[(FIG|TAB):([^\]]+)\]\]", par):
                 if m.group(2) in home:
                     out.append(float_tex(m.group(2)))
@@ -203,7 +213,7 @@ def main():
                 out.append("% ⚠ float non richiamato nel testo\n" + t)
         return "\n".join(out)
 
-    corpo = [blocco(s) for s in sezioni]
+    corpo = [blocco(s) for s in sezioni] + [r"\svuotafloats"]
     app = appendice(bozza, buchi)
     app_b = [fid for fid, f in inv.items() if f["dove"] == "appendice"]
     if app_b:                                        # Appendix B: floats di appendice (Lele 23/11)
@@ -215,7 +225,7 @@ def main():
             r"\setcounter{figure}{0}\renewcommand{\thefigure}{B\arabic{figure}}",
             "The tables and figures below come from the do-file and are discussed in Section"
             + ("s " if len(da) > 1 else " ") + ", ".join(rf"\ref{{sec:{x}}}" for x in da) + ".",
-            ""] + [float_tex(x) for x in app_b] + [r"\FloatBarrier", ""])
+            ""] + [float_tex(x, False) for x in app_b] + [r"\FloatBarrier", ""])
     bt = bib_tex()
     (GEN / "bib.tex").write_text(bt, encoding="utf-8")
     if "backend: bibtex" in bt:                      # bibtex e' a 8 bit: accenti in forma LaTeX

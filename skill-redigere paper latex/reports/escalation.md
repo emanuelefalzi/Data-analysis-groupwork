@@ -1,5 +1,13 @@
 # Escalation al gruppo — paper v5 (23/11/2026)
 
+**Aggiornamento (Lele, 23/11 sera):** i punti 1, 2 e 4 sono risolti.
+- Il corpo sta in 20 pagine con tutti i floats. Nel preambolo c'è ora una coda dei floats: una figura o una tabella non spezza mai un paragrafo e va dopo il primo paragrafo che lascia spazio. Margini a 2,0 cm.
+- I 4 GAP sono chiusi: le frasi senza fonte sono state tolte, oppure riscritte come nostro argomento (2.1).
+- F1 usa il token FIG, con `verifica.py` corretto. `compila.py` usa tectonic se manca pdflatex.
+
+PDF: `paper_group21_v5.pdf`. Resta il punto 3.
+
+
 Stato: tutte le 28 sezioni e l'abstract sono scritti. Le bozze di 6.2, 6.3, 6.4, 7, l'abstract e le riscritture di 2.1, 2.2, 2.4, 2.5, 4.1, 5.1, 5.2, 5.4, 5.5 e 5.6 vengono da ChatGPT (manuale), con correzioni locali di Claude. `verifica.py --tutte` non dà nessun HIGH.
 PDF di bozza: `5. paper e documentazione di percorso/paper_group21_v5_bozza.pdf`, compilato con tectonic perché pdflatex non è installato. I GAP sono evidenziati.
 

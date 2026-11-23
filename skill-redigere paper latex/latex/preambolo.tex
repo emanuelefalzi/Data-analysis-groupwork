@@ -4,7 +4,7 @@
 \usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{csquotes}
-\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage[a4paper,margin=2.0cm]{geometry}
 \usepackage{setspace}\setstretch{1.05}
 \usepackage{microtype}
 \usepackage{newunicodechar}         % simboli Unicode nel testo e nelle didascalie
@@ -30,3 +30,37 @@
 \setlength{\parskip}{0.3em}
 % \buco{...}: segnaposto di un buco dichiarato (solo nelle bozze: il PDF finale non ne ha)
 \newcommand{\buco}[1]{\fcolorbox{red}{red!8}{\parbox{0.9\linewidth}{\small\textbf{BUCO} #1}}}
+% --- Floats fra i paragrafi (Lele, 23/11): nessuna figura o tabella spezza un paragrafo.
+% Ogni float del corpo e' composto in un box e messo in coda; dopo ogni paragrafo
+% \tentafloats lo inserisce se ci sta nello spazio rimasto nella pagina, altrimenti il testo
+% continua e il float aspetta la fine del paragrafo successivo. \svuotafloats li mette tutti
+% (a inizio sezione e a fine corpo).
+\makeatletter
+\newcount\fq@coda \newcount\fq@testa
+\newdimen\fq@spazio
+\newenvironment{codafloat}[1]{%
+  \global\advance\fq@coda\@ne
+  \expandafter\newbox\csname fq@box\the\fq@coda\endcsname
+  \global\setbox\csname fq@box\the\fq@coda\endcsname\vbox\bgroup
+    \hsize\linewidth \@parboxrestore \captionsetup{type=#1}\centering}%
+  {\egroup}
+\def\fq@metti{\global\advance\fq@testa\@ne
+  \par\addvspace{\intextsep}%
+  \nointerlineskip\box\csname fq@box\the\fq@testa\endcsname
+  \par\addvspace{\intextsep}}
+\def\fq@altezza{\dimexpr\ht\csname fq@box\the\numexpr\fq@testa+1\endcsname
+  +\dp\csname fq@box\the\numexpr\fq@testa+1\endcsname+2\intextsep\relax}
+\newif\iffq@ancora
+\def\tentafloats{\par\fq@ancoratrue
+  \loop
+    \ifnum\fq@testa<\fq@coda
+      \ifdim\pagegoal=\maxdimen \fq@metti
+      \else
+        \fq@spazio=\dimexpr\pagegoal-\pagetotal\relax
+        \ifdim\fq@altezza<\fq@spazio \fq@metti\else\fq@ancorafalse\fi
+      \fi
+    \else\fq@ancorafalse\fi
+  \iffq@ancora\repeat}
+\def\svuotafloats{\par
+  \ifnum\fq@testa<\fq@coda \fq@metti\expandafter\svuotafloats\fi}
+\makeatother
