@@ -16,16 +16,20 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 0. dati iniziali/               raw PitchBook files, zipped: pitchbook_course.dta, Deal.csv,
                                 DealInvestorRelation.csv, Investor.csv
 1. python/dataset.py            raw PitchBook files -> dataset (v2)
-2. dataset/dataset.dta          the dataset: 28,478 startups x 57 variables
+1. python/dataset_v4.py         v2 + 7 team and lead-age variables -> dataset v4 (used by the do-file)
+2. dataset/dataset.dta          the dataset v2: 28,478 startups x 57 variables
+2. dataset/dataset_v4.dta       dataset v4: the same 57 columns + 7 new (28,478 x 64); construction_v4.pdf
 2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
 2. dataset/construction.txt     text of construction.pdf (pdftotext -layout), so tables can cite its lines
-3. stata/rq1_two_group_analysis_v2.do   main Stata analysis (descriptives, models, figures, tables)
-3. stata/rq1_addon_extra_controls.do    robustness: team and lead-investor-age controls
+3. stata/group_21_regressions.do   main Stata analysis, one file (20/11/2026): sections 1-9 as v2,
+                                10 extra controls, 11 figures n2-n4, 12 hype as raw VC share (TA),
+                                13 non-linear gap (ln and months, squared), 14 correlation heatmap
 3. stata/rq1_addon_not_in_log_checks.do  paper v4 numbers computed outside Stata, rerun in Stata
                                 (Table 12, Figures 8, 17, 19, Section 5.4 checks, N of the AMEs)
-4. risultati/regression_analysis.txt    Stata log of the do-file (15/11/2026): source of every number
-4. risultati/RQ1_tables.doc     Word/RTF tables from the do-file
-4. risultati/figures.zip        figures exported by the do-file
+4. risultati/regression_analysis.txt    Stata log of group_21_regressions.do (20/11/2026): source of every number
+                                (main-model numbers unchanged; line numbers shifted vs the 15/11 log)
+4. risultati/RQ1_tables.doc     Word/RTF Tables 1-12 from the do-file (9-12 new: raw VC share, squared gap)
+4. risultati/figures.zip        figures of both do-files (new: c1 heatmap, q1-q2 non-linear gap, n2-n4)
 4. risultati/tables testuali/   paper Tables 1, 2, 3, 4, 7, 13, 14: one source per cell, checked by
                                 skill-redigere paper latex/tools/tabelle_testo.py (tracciabilita.md)
 5. paper e documentazione di percorso/paper_group21.pdf   group paper v4 (15/11/2026): the base for the deck
@@ -44,8 +48,8 @@ CLAUDE.md, .claude/             Claude Code configuration
    python "1. python/dataset.py"
    ```
    It writes `output/rq1_two_group_dataset_v2.dta` and `.csv`, which is the file in this repo as `2. dataset/dataset.dta`.
-2. **Run the analysis (Stata 17).** The do-file opens `group_21_dataset.dta`, so first copy `2. dataset/dataset.dta` under that name into the Stata working directory. It needs `esttab` (estout) and `coefplot`. The add-on also needs `pitchbook_course.dta` in the same folder. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png` (in the repo: `4. risultati/`).
-3. **Run the checks not in the main log (Stata 17).** In the same working directory, with `group_21_dataset.dta`, `pitchbook_course.dta` and `Deal.csv` (both unzipped from `0. dati iniziali/`), run `do rq1_addon_not_in_log_checks.do`. It replaces `rq1_addon_extra_controls.do` and does not touch the main outputs. Outputs: `not_in_log_checks.log` (repo: `4. risultati/not_in_log_checks.txt`), `RQ1_tables_not_in_log_checks.rtf` and `figures/x1…x3_*.png`.
+2. **Run the analysis (Stata 17).** `group_21_regressions.do` opens `group_21_dataset.dta`, so first copy `2. dataset/dataset_v4.dta` under that name into the Stata working directory (section 10 needs the v4 team variables). It needs `esttab` (estout) and `coefplot`; section 14 installs `heatplot`, `palettes` and `colrspace` if missing. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png` (in the repo: `4. risultati/`).
+3. **Run the checks not in the main log (Stata 17).** In the same working directory, with `group_21_dataset.dta`, `pitchbook_course.dta` and `Deal.csv` (both unzipped from `0. dati iniziali/`), run `do rq1_addon_not_in_log_checks.do`. It does not touch the main outputs. Outputs: `not_in_log_checks.log` (repo: `4. risultati/not_in_log_checks.txt`), `RQ1_tables_not_in_log_checks.rtf` and `figures/x1…x3_*.png`.
 
 ## Design in short
 
@@ -62,7 +66,8 @@ CLAUDE.md, .claude/             Claude Code configuration
 
 Hypotheses: **H1** a longer gap goes with less exit; **H1b** a longer gap goes with more failure; **H2** (key) the gap penalty is weaker in hot markets; **H3** a longer gap goes with a smaller valuation step. The verdicts are in paper v4, Table 13. All results are associations, not causal effects.
 
-## Status (16/11/2026)
+## Status (23/11/2026)
 
-- Dataset v2, do-file, log and paper v4 are done.
-- **Next:** the slide outline (`slide outline.md`), built from paper v4. See `registers/open points.md` for what is still unresolved.
+- Dataset v4, do-file (sections 12-14 added on 20/11 after the TA's comments), log and paper v4 are done.
+- `6. Presentazione/group21_deck_v9.pptx`: first full draft of the deck, new structure asked by the TA (per hypothesis: theory, model, main findings, robustness; then limitations to causality).
+- **Next:** the deck outline `6. Presentazione/scalettaprese.md` and paper v5 (`skill-redigere paper latex/`). See `registers/open points.md` for what is still unresolved.

@@ -42,6 +42,25 @@ label variable failure_5y "Failure within 5 years"
 label variable gap_months "Months between rounds 1 and 2"
 label variable log_delta_v "ln(post-money r2 / post-money r1)"
 
+* New variables (19-20 Nov): raw VC-share hype, gap in months, failure with no window.
+* vc_share = sector % of all VC $ in the year of round 1 (no z-score, as the TA suggested).
+generate vc_share = 100 * sector_vc_share
+label variable vc_share "Hype: sector % of VC $ (raw share)"
+* Same share minus the sector's own average (raw units, only the movement over time).
+bysort sector_id round1_year: generate byte tag_sy = _n == 1 & !missing(vc_share)
+bysort sector_id: egen vc_share_mean = mean(cond(tag_sy == 1, vc_share, .))
+generate vc_share_dm = vc_share - vc_share_mean
+label variable vc_share_dm "Hype: VC share minus sector mean (pp)"
+drop tag_sy vc_share_mean
+* Gap in months (0 for one-round startups, like log_gap_r2).
+generate gap_r2 = two_rounds * gap_months
+replace gap_r2 = 0 if two_rounds == 0
+label variable gap_r2 "R x months between rounds"
+* Failure with no window: failure before any exit by the end of the data.
+generate failure_ever = outcome_is_failure
+label variable failure_ever "Failure (no window)"
+label variable exit "Exit (no window)"
+
 * Hype terciles (cold, middle, hot) and gap quintiles, for the descriptive graphs.
 xtile heat_t = heat if full_window == 1, nq(3)
 label define heat_lbl 1 "Cold" 2 "Middle" 3 "Hot"
@@ -499,5 +518,177 @@ graph export figures/n2_step_total_vs_per_year.png, replace width(2000)
 restore
 
 
-log close
+********************************************************************************
+* 12. HYPE AS THE RAW VC SHARE (TA's suggestion)
+********************************************************************************
 
+* Main H2 models with vc_share instead of heat, for 4, 5, 6 years and no window.
+* w = 0 means no window (all startups, outcome by the end of the data).
+foreach w in 4 5 6 0 {
+    if `w' == 5      local cnd "full_window == 1"
+    else if `w' == 0 local cnd "!missing(two_rounds)"
+    else             local cnd "full_window_`w'y == 1"
+    local ex = cond(`w' == 0, "exit", "exit_`w'y")
+    local fa = cond(`w' == 0, "failure_ever", "failure_`w'y")
+
+    logit `ex' i.two_rounds##c.vc_share c.log_gap_r2##c.vc_share $X $FE ///
+        if `cnd', vce(cluster sector_year_id)
+    estimates store vcs_exit_`w'
+
+    logit `fa' i.two_rounds##c.vc_share c.log_gap_r2##c.vc_share $X $FE ///
+        if `cnd', vce(cluster sector_year_id)
+    estimates store vcs_fail_`w'
+}
+
+* Hot minus cold effect of the gap (mean +/- 1 SD of vc_share), 5-year exit.
+summarize vc_share if full_window == 1
+local lo = r(mean) - r(sd)
+local hi = r(mean) + r(sd)
+estimates restore vcs_exit_5
+margins if two_rounds == 1, dydx(log_gap_r2) at(vc_share = (`lo' `hi')) contrast(atcontrast(r))
+
+* Check: VC share minus the sector mean (only the movement within each sector), 5 years.
+logit exit_5y i.two_rounds##c.vc_share_dm c.log_gap_r2##c.vc_share_dm $X $FE ///
+    if full_window == 1, vce(cluster sector_year_id)
+estimates store vcs_exit_dm
+
+* Table 9: hype as the raw VC share.
+esttab exit_h2 vcs_exit_4 vcs_exit_5 vcs_exit_6 vcs_exit_0 vcs_exit_dm using "RQ1_tables.rtf", append $TAB ///
+    mtitles("Exit 5y, z-score" "Exit 4y" "Exit 5y" "Exit 6y" "Exit, no window" "Exit 5y, share - mean") ///
+    stats(N r2_p, labels("Observations" "Pseudo R2")) ///
+    title("Table 9. Exit with hype as the raw VC share")
+esttab fail_h2 vcs_fail_4 vcs_fail_5 vcs_fail_6 vcs_fail_0 using "RQ1_tables.rtf", append $TAB ///
+    mtitles("Failure 5y, z-score" "Failure 4y" "Failure 5y" "Failure 6y" "Failure, no window") ///
+    stats(N r2_p, labels("Observations" "Pseudo R2")) ///
+    title("Table 10. Failure with hype as the raw VC share")
+
+********************************************************************************
+* 13. NON-LINEAR GAP: ln(gap) + ln(gap)^2 AND months + months^2
+********************************************************************************
+global LOG "i.two_rounds##c.vc_share c.log_gap_r2##c.vc_share c.log_gap_r2#c.log_gap_r2 $X $FE"
+global MO  "i.two_rounds##c.vc_share c.gap_r2##c.vc_share c.gap_r2#c.gap_r2 $X $FE"
+
+* (a) Exit
+logit exit_4y $LOG if full_window_4y == 1, vce(cluster sector_year_id)
+estimates store sq_exit_log_4
+logit exit_5y $LOG if full_window == 1, vce(cluster sector_year_id)
+estimates store sq_exit_log_5
+logit exit_6y $LOG if full_window_6y == 1, vce(cluster sector_year_id)
+estimates store sq_exit_log_6
+logit exit $LOG, vce(cluster sector_year_id)
+estimates store sq_exit_log_0
+
+logit exit_4y $MO if full_window_4y == 1, vce(cluster sector_year_id)
+estimates store sq_exit_mo_4
+logit exit_5y $MO if full_window == 1, vce(cluster sector_year_id)
+estimates store sq_exit_mo_5
+logit exit_6y $MO if full_window_6y == 1, vce(cluster sector_year_id)
+estimates store sq_exit_mo_6
+logit exit $MO, vce(cluster sector_year_id)
+estimates store sq_exit_mo_0
+
+* (b) Failure
+logit failure_4y $LOG if full_window_4y == 1, vce(cluster sector_year_id)
+estimates store sq_fail_log_4
+logit failure_5y $LOG if full_window == 1, vce(cluster sector_year_id)
+estimates store sq_fail_log_5
+logit failure_6y $LOG if full_window_6y == 1, vce(cluster sector_year_id)
+estimates store sq_fail_log_6
+logit failure_ever $LOG, vce(cluster sector_year_id)
+estimates store sq_fail_log_0
+
+logit failure_4y $MO if full_window_4y == 1, vce(cluster sector_year_id)
+estimates store sq_fail_mo_4
+logit failure_5y $MO if full_window == 1, vce(cluster sector_year_id)
+estimates store sq_fail_mo_5
+logit failure_6y $MO if full_window_6y == 1, vce(cluster sector_year_id)
+estimates store sq_fail_mo_6
+logit failure_ever $MO, vce(cluster sector_year_id)
+estimates store sq_fail_mo_0
+
+* Is the gap needed at all (linear + squared jointly)? Main 5-year models.
+estimates restore sq_exit_log_5
+testparm c.log_gap_r2 c.log_gap_r2#c.log_gap_r2
+estimates restore sq_exit_mo_5
+testparm c.gap_r2 c.gap_r2#c.gap_r2
+estimates restore sq_fail_log_5
+testparm c.log_gap_r2 c.log_gap_r2#c.log_gap_r2
+estimates restore sq_fail_mo_5
+testparm c.gap_r2 c.gap_r2#c.gap_r2
+
+* Graphs: predicted probability for two-round startups along the gap.
+* (a) ln(gap) + ln(gap)^2, no window (all startups, outcome by the end of the data) (axis ticks in months)
+estimates restore sq_exit_log_0
+margins if two_rounds == 1, at(log_gap_r2 = (1(0.25)4))
+marginsplot, recast(line) recastci(rarea) title("Exit (no window)") ///
+    plotopts(lcolor(navy)) ciopts(color(navy%20) lwidth(none)) ///
+    xlabel(1.39 "3" 1.95 "6" 2.56 "12" 3.22 "24" 3.61 "36" 3.89 "48") ///
+    xtitle("Months between rounds") ytitle("Predicted probability") name(g1, replace) nodraw $LOOK
+
+estimates restore sq_fail_log_0
+margins if two_rounds == 1, at(log_gap_r2 = (1(0.25)4))
+marginsplot, recast(line) recastci(rarea) title("Failure (no window)") ///
+    plotopts(lcolor(cranberry)) ciopts(color(cranberry%20) lwidth(none)) ///
+    xlabel(1.39 "3" 1.95 "6" 2.56 "12" 3.22 "24" 3.61 "36" 3.89 "48") ///
+    xtitle("Months between rounds") ytitle("Predicted probability") name(g2, replace) nodraw $LOOK
+
+graph combine g1 g2, cols(2) graphregion(color(white))
+graph export figures/q1_nonlinear_ln_gap.png, replace width(2400)
+
+* (b) months + months^2, no window (all startups, outcome by the end of the data)
+estimates restore sq_exit_mo_0
+margins if two_rounds == 1, at(gap_r2 = (0(3)48))
+marginsplot, recast(line) recastci(rarea) title("Exit (no window)") ///
+    plotopts(lcolor(navy)) ciopts(color(navy%20) lwidth(none)) ///
+    xtitle("Months between rounds") ytitle("Predicted probability") name(g3, replace) nodraw $LOOK
+
+estimates restore sq_fail_mo_0
+margins if two_rounds == 1, at(gap_r2 = (0(3)48))
+marginsplot, recast(line) recastci(rarea) title("Failure (no window)") ///
+    plotopts(lcolor(cranberry)) ciopts(color(cranberry%20) lwidth(none)) ///
+    xtitle("Months between rounds") ytitle("Predicted probability") name(g4, replace) nodraw $LOOK
+
+graph combine g3 g4, cols(2) graphregion(color(white))
+graph export figures/q2_nonlinear_months.png, replace width(2400)
+
+* Note: with no window, a longer gap leaves less time after round 2 to exit or fail,
+* so part of the gap effect there is time at risk, not speed.
+
+* Tables 11-12: non-linear gap.
+esttab sq_exit_log_4 sq_exit_log_5 sq_exit_log_6 sq_exit_log_0 sq_exit_mo_4 sq_exit_mo_5 sq_exit_mo_6 sq_exit_mo_0 ///
+    using "RQ1_tables.rtf", append $TAB ///
+    mtitles("ln 4y" "ln 5y" "ln 6y" "ln no window" "months 4y" "months 5y" "months 6y" "months no window") ///
+    stats(N r2_p, labels("Observations" "Pseudo R2")) ///
+    title("Table 11. Exit with a squared gap: ln(gap) + ln(gap)^2 and months + months^2")
+esttab sq_fail_log_4 sq_fail_log_5 sq_fail_log_6 sq_fail_log_0 sq_fail_mo_4 sq_fail_mo_5 sq_fail_mo_6 sq_fail_mo_0 ///
+    using "RQ1_tables.rtf", append $TAB ///
+    mtitles("ln 4y" "ln 5y" "ln 6y" "ln no window" "months 4y" "months 5y" "months 6y" "months no window") ///
+    stats(N r2_p, labels("Observations" "Pseudo R2")) ///
+    title("Table 12. Failure with a squared gap: ln(gap) + ln(gap)^2 and months + months^2")
+
+
+********************************************************************************
+* 14. CORRELATION HEATMAP OF THE MAIN REGRESSORS AND CONTROLS
+********************************************************************************
+generate vc_lead = lead_type == "Venture Capital"
+label variable vc_lead "VC lead"
+capture which heatplot
+if _rc != 0 {
+    capture ssc install heatplot, replace
+    capture ssc install palettes, replace
+    capture ssc install colrspace, replace
+}
+correlate two_rounds log_gap_r2 gap_r2 heat vc_share log_round1_size round1_number ///
+    startup_age_at_round1 vc_lead if full_window == 1
+matrix C = r(C)
+matrix rownames C = R R_x_ln_gap R_x_gap_months hype_z hype_vc_share ln_size_r1 deal_no_r1 age_r1 vc_lead
+matrix colnames C = R R_x_ln_gap R_x_gap_months hype_z hype_vc_share ln_size_r1 deal_no_r1 age_r1 vc_lead
+matrix list C, format(%5.2f)
+
+heatplot C, values(format(%4.2f) size(vsmall)) color(hcl diverging, intensity(.8)) ///
+    cuts(-1(0.1)1) lower nodiagonal aspectratio(1) legend(off) ///
+    xlabel(, angle(45) labsize(small)) ylabel(, labsize(small)) graphregion(color(white))
+graph export figures/c1_correlation_heatmap.png, replace width(2000)
+
+
+log close
