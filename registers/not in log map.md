@@ -1,5 +1,7 @@
 # Paper numbers not in the main log → block of `rq1_addon_not_in_log_checks.do`
 
+> **23/11/2026:** the do-file `3. stata/rq1_addon_not_in_log_checks.do` was removed from the repo (still in git history, commit `732d21b~1`). Its log `4. risultati/not_in_log_checks.txt` stays and remains the source for the blocks below.
+
 Created 17/11/2026 (Claude for Lele). Log lines filled 17/11 from `4. risultati/not_in_log_checks.txt` (run by Lele 17/11); numbers moved to `registers/results register.md` (rule: the log wins over the paper; any difference goes to `registers/open points.md`).
 
 The **Python check** column comes from a pandas/statsmodels rerun on `dataset.dta` and the raw PitchBook files, done on 17/11 to test the code's logic before the Stata run. **It is not a source** and must not be cited: it only says what the Stata log should show. If Stata gives something else, stop and look for the reason.

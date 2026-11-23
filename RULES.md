@@ -45,11 +45,11 @@ Research question: *is the time between the first and the second VC round associ
 | `0. dati iniziali/` | Raw PitchBook files, zipped: `pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv` | Current |
 | `1. python/dataset.py` | Builds the dataset from the raw PitchBook files in `data/` (unzip them there); writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
 | `2. dataset/dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
-| `3. stata/rq1_two_group_analysis_v2.do` | Main Stata analysis: descriptives, logit models, figures, Word tables | Current |
-| `3. stata/rq1_addon_extra_controls.do` | Robustness add-on: team and lead-investor-age controls | **Superseded** by `rq1_addon_not_in_log_checks.do` (block A, same code; checked 17/11). Do not run |
-| `4. risultati/regression_analysis.txt` | Stata log of the do-file (run 15/11/2026). **Primary source for every number** | Current |
-| `3. stata/rq1_addon_not_in_log_checks.do` | Add-on: reruns in Stata the paper v4 analyses computed outside the do-file (Table 12, Figures 8, 17, 19, the §5.4 checks, the N of the AMEs); absorbs `rq1_addon_extra_controls.do` | Current (run 17/11/2026) |
-| `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do`: primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | Current (17/11/2026) |
+| `3. stata/group_21_regressions.do` | Main Stata analysis, one file (Owen, 23/11/2026): sections 1-14 as the 20/11 version, plus 15 lagged hype (sector hype in year t-1). Replaces `rq1_two_group_analysis_v2.do` and `rq1_addon_extra_controls.do` | Current |
+| `3. stata/regression_analysis.log` | Stata log of `group_21_regressions.do`, run 23/11/2026 (12,304 lines). Sections 1-14 have the same numbers as `4. risultati/regression_analysis.txt`, but line numbers shift by +1 to +20 (one extra line "file ... not found" before each figure export) | Current |
+| `3. stata/RQ1_tables.rtf` | RTF tables produced by `group_21_regressions.do` (23/11/2026) | Current |
+| `4. risultati/regression_analysis.txt` | Stata log of the 20/11 do-file (10,702 lines). **Primary source for every number**: the line numbers in the registers point here | Current |
+| `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do` (run 17/11/2026; the do-file was removed from the repo on 23/11): primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | Current (17/11/2026) |
 | `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
 | `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
 | `2. dataset/construction.pdf` | How the v2 dataset is built, with sample steps and a list of every variable (14/11/2026) | Current, except where noted below |

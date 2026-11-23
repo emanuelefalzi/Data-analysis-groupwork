@@ -481,7 +481,7 @@ Rules that hold throughout (from `RULES.md`):
 - Team and lead-age controls are mentioned in v4 only in 5.4. Proposal: list them here too, so 4.3 is complete.
 
 #### Editorial notes
-- Since 17/11 point 5 and Table 12 are in a Stata log (new log `not_in_log_checks.txt`, from `3. stata/rq1_addon_not_in_log_checks.do`), so no "not in log" flag is needed. The exit-share control uses our own definition (open point 21d).
+- Since 17/11 point 5 and Table 12 are in a Stata log (new log `not_in_log_checks.txt`, from `3. stata/rq1_addon_not_in_log_checks.do`, removed from the repo on 23/11/2026; the log stays), so no "not in log" flag is needed. The exit-share control uses our own definition (open point 21d).
 
 #### Claude's additions
 - [Likely] Number the checks (i)–(vi) and reuse the numbering in 5.4, so the reader can match design to result without the text repeating itself.

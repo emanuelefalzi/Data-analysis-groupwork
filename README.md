@@ -21,13 +21,17 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 2. dataset/dataset_v4.dta       dataset v4: the same 57 columns + 7 new (28,478 x 64); construction_v4.pdf
 2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
 2. dataset/construction.txt     text of construction.pdf (pdftotext -layout), so tables can cite its lines
-3. stata/group_21_regressions.do   main Stata analysis, one file (20/11/2026): sections 1-9 as v2,
+3. stata/group_21_regressions.do   main Stata analysis, one file (23/11/2026): sections 1-9 as v2,
                                 10 extra controls, 11 figures n2-n4, 12 hype as raw VC share (TA),
-                                13 non-linear gap (ln and months, squared), 14 correlation heatmap
-3. stata/rq1_addon_not_in_log_checks.do  paper v4 numbers computed outside Stata, rerun in Stata
-                                (Table 12, Figures 8, 17, 19, Section 5.4 checks, N of the AMEs)
-4. risultati/regression_analysis.txt    Stata log of group_21_regressions.do (20/11/2026): source of every number
-                                (main-model numbers unchanged; line numbers shifted vs the 15/11 log)
+                                13 non-linear gap (ln and months, squared), 14 correlation heatmap,
+                                15 lagged hype (sector hype in year t-1)
+3. stata/regression_analysis.log   its Stata log (23/11/2026): sections 1-14 same numbers as the 20/11 log,
+                                line numbers shifted by +1 to +20
+3. stata/RQ1_tables.rtf         its RTF tables (23/11/2026)
+4. risultati/regression_analysis.txt    Stata log of the 20/11 do-file: source of every number
+                                (line numbers in the registers point here)
+4. risultati/not_in_log_checks.txt      log of rq1_addon_not_in_log_checks.do (17/11; do-file removed 23/11):
+                                Table 12, Figures 8, 17, 19, Section 5.4 checks, N of the AMEs
 4. risultati/RQ1_tables.doc     Word/RTF Tables 1-12 from the do-file (9-12 new: raw VC share, squared gap)
 4. risultati/figures.zip        figures of both do-files (new: c1 heatmap, q1-q2 non-linear gap, n2-n4)
 4. risultati/tables testuali/   paper Tables 1, 2, 3, 4, 7, 13, 14: one source per cell, checked by
@@ -48,8 +52,8 @@ CLAUDE.md, .claude/             Claude Code configuration
    python "1. python/dataset.py"
    ```
    It writes `output/rq1_two_group_dataset_v2.dta` and `.csv`, which is the file in this repo as `2. dataset/dataset.dta`.
-2. **Run the analysis (Stata 17).** `group_21_regressions.do` opens `group_21_dataset.dta`, so first copy `2. dataset/dataset_v4.dta` under that name into the Stata working directory (section 10 needs the v4 team variables). It needs `esttab` (estout) and `coefplot`; section 14 installs `heatplot`, `palettes` and `colrspace` if missing. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` and `figures/*.png` (in the repo: `4. risultati/`).
-3. **Run the checks not in the main log (Stata 17).** In the same working directory, with `group_21_dataset.dta`, `pitchbook_course.dta` and `Deal.csv` (both unzipped from `0. dati iniziali/`), run `do rq1_addon_not_in_log_checks.do`. It does not touch the main outputs. Outputs: `not_in_log_checks.log` (repo: `4. risultati/not_in_log_checks.txt`), `RQ1_tables_not_in_log_checks.rtf` and `figures/x1…x3_*.png`.
+2. **Run the analysis (Stata 17).** `group_21_regressions.do` opens `group_21_dataset.dta`, so first copy `2. dataset/dataset_v4.dta` under that name into the Stata working directory (section 10 needs the v4 team variables). It needs `esttab` (estout) and `coefplot`; section 14 installs `heatplot`, `palettes` and `colrspace` if missing. Outputs: `regression_analysis.log`, `RQ1_tables.rtf` (in the repo: `3. stata/`) and `figures/*.png` (in the repo: `4. risultati/figures.zip`).
+3. **Checks not in the main log.** `rq1_addon_not_in_log_checks.do` was removed from the repo on 23/11/2026 and cannot be rerun from here (it is still in the git history, commit `732d21b~1`). Its outputs stay: `4. risultati/not_in_log_checks.txt`, `4. risultati/RQ1_tables_not_in_log_checks.rtf` and `figures/x1…x3_*.png`.
 
 ## Design in short
 
