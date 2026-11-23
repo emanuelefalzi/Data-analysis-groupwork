@@ -7,10 +7,10 @@ Le 7 tabelle del paper che il do-file non produce: Tables 1, 2, 3, 4, 7, 13 e 14
 |---|---|---|
 | `T1.md` | 1 · Hypotheses and competing predictions | scaletta 2.1–2.4 |
 | `T2.md` | 2 · Round-1 controls and expected signs | scaletta 2.5; paper v4 Table 2 per i segni che la scaletta non dice |
-| `T3.md` | 3 · Sample construction | `2. dataset/construction.txt` (Table 2), log righe 113–116 |
+| `T3.md` | 3 · Sample construction | `2. dataset/construction.txt` (Table 2), log righe 150–153 |
 | `T4.md` | 4 · Variable definitions | `construction.txt` (Table 6), `glossary.md` |
-| `T7.md` | 7 · Average marginal effects | log righe 659–703 (exit), 1426–1467 (failure) |
-| `T13.md` | 13 · Summary of the hypotheses | log righe 538, 541, 1305, 2899; formule dei verdetti di RULES.md |
+| `T7.md` | 7 · Average marginal effects | log righe 688–732 (exit), 1451–1492 (failure) |
+| `T13.md` | 13 · Summary of the hypotheses | log righe 567, 570, 1330, 2920; formule dei verdetti di RULES.md |
 | `T14.md` | 14 · Estimates against the literature | log, tabelle del do-file 2, 3, 6, scaletta 5.5 |
 
 ## Come funziona la tracciabilità

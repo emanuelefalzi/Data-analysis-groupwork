@@ -53,7 +53,7 @@ def materiale(s: dict, inv: dict) -> str:
     pezzi = [s["contenuto"], s["numeri_log"], s.get("trappole", ""), s.get("note_editoriali", "")]
     for f in s["fonti"]:
         pezzi.append(f["tesi"])
-    for fid in s["floats"]:
+    for fid in s["floats"] + s.get("floats_appendice", []):
         f = inv.get(fid, {})
         pezzi += f.get("celle", []) + [f.get("didascalia", "")]
     return "\n".join(pezzi)
@@ -85,7 +85,9 @@ def verifica_sezione(s: dict, tutte: dict, inv: dict, bib: dict) -> list[tuple[s
                     r.append(("HIGH", f"chiave {k} non ammessa in {sid} (ammesse: {', '.join(s['fonti_ammesse']) or 'nessuna'})"))
         elif tipo in ("FIG", "TAB"):
             f = inv.get(arg)
-            if not f or f["dove"] != "corpo":
+            if f and f["dove"] == "appendice" and arg not in s.get("floats_appendice", []):
+                r.append(("HIGH", f"{tipo}:{arg} e' un float di appendice di un'altra sezione"))
+            elif not f or f["dove"] not in ("corpo", "appendice"):
                 r.append(("HIGH", f"{tipo}:{arg} non e' un float del corpo"))
             elif (tipo == "FIG") != (f["tipo"] == "figura"):
                 r.append(("HIGH", f"{tipo}:{arg} ha il tipo sbagliato ({f['tipo']})"))

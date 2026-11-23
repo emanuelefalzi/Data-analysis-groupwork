@@ -205,6 +205,17 @@ def main():
 
     corpo = [blocco(s) for s in sezioni]
     app = appendice(bozza, buchi)
+    app_b = [fid for fid, f in inv.items() if f["dove"] == "appendice"]
+    if app_b:                                        # Appendix B: floats di appendice (Lele 23/11)
+        da = sorted({inv[x]["sezione"] for x in app_b})
+        app += "\n".join([
+            "", r"\clearpage",
+            r"\section{Further robustness tables and figures}\label{sec:B}",
+            r"\setcounter{table}{0}\renewcommand{\thetable}{B\arabic{table}}",
+            r"\setcounter{figure}{0}\renewcommand{\thefigure}{B\arabic{figure}}",
+            "The tables and figures below come from the do-file and are discussed in Section"
+            + ("s " if len(da) > 1 else " ") + ", ".join(rf"\ref{{sec:{x}}}" for x in da) + ".",
+            ""] + [float_tex(x) for x in app_b] + [r"\FloatBarrier", ""])
     bt = bib_tex()
     (GEN / "bib.tex").write_text(bt, encoding="utf-8")
     if "backend: bibtex" in bt:                      # bibtex e' a 8 bit: accenti in forma LaTeX

@@ -141,6 +141,8 @@ def main():
         s["parole"] = b["parole"] if b else 0
         s["pagine"] = b["pagine"] if b else 0
         s["floats"] = [f["id"] for f in piano["floats"] if f["dove"] == "corpo" and f["sezione"] == sid]
+        s["floats_appendice"] = [f["id"] for f in piano["floats"]
+                                 if f["dove"] == "appendice" and f["sezione"] == sid]
 
         # fonti: la tesi della scaletta e' VINCOLANTE (dal 16/11 tutte le tesi sono state
         # ristrette sul txt: scaletta, «Structural decisions» → Sources). La riga della

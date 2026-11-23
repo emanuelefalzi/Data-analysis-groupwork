@@ -204,7 +204,7 @@ def main():
         if f["tipo"] == "figura":
             if f["file"] not in figure:
                 problemi.append(f"{f['id']}: {f['file']} non e' in figures.zip")
-            elif f["dove"] == "corpo" and f["id"] not in fatte:
+            elif f["dove"] in ("corpo", "appendice") and f["id"] not in fatte:
                 g = gruppi.get(f.get("affianca") or "", [f])
                 ids = [x["id"] for x in g]
                 out = TAB_DIR / f"fig-{'-'.join(ids)}.tex"
@@ -242,6 +242,12 @@ def main():
     corpo = [x["id"] for x in inventario if x["dove"] == "corpo"]
     nfig = sum(1 for x in inventario if x["dove"] == "corpo" and x["tipo"].startswith("figura"))
     print(f"Floats nel corpo: {len(corpo)} ({nfig} figure, {len(corpo) - nfig} tabelle)")
+    app = [x for x in inventario if x["dove"] == "appendice"]
+    afig = sum(1 for x in app if x["tipo"].startswith("figura"))
+    print(f"Floats in appendice B: {len(app)} ({afig} figure, {len(app) - afig} tabelle)")
+    for x in app:
+        if not x.get("tex"):
+            problemi.append(f"{x['id']}: float di appendice senza .tex")
     for x in problemi:
         print("  ⚠", x)
 

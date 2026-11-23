@@ -10,7 +10,7 @@
 ## Sezioni
 
 `pagine` = parole di prosa / `parole_per_pagina` + spazio dei floats della sezione.
-Totale pianificato: 19.38 pagine (stima; la misura vera la da' compila.py).
+Totale pianificato: 19.55 pagine (stima; la misura vera la da' compila.py).
 
 | id | pagine | note |
 |---|---|---|
@@ -32,7 +32,7 @@ Totale pianificato: 19.38 pagine (stima; la misura vera la da' compila.py).
 | 5.1 | 2.08 | 300 parole + floats 1.61 |
 | 5.2 | 1.71 | 200 parole + floats 1.40 |
 | 5.3 | 1.14 | 170 parole + floats 0.87 |
-| 5.4 | 2.47 | 170 parole + floats 2.20 |
+| 5.4 | 2.64 | 280 parole + floats 2.20 (+110 parole per il punto 6, Lele 23/11) |
 | 5.5 | 1.34 | 290 parole + floats 0.89 |
 | 5.6 | 0.27 | 170 parole + floats 0.00 |
 | 6 | 0.06 | 40 parole + floats 0.00 |
@@ -46,7 +46,7 @@ Totale pianificato: 19.38 pagine (stima; la misura vera la da' compila.py).
 
 `tipo`: `tabella` (dal do-file: `<alias>:<numero>`, alias in `progetto.json` → `tabelle_rtf`),
 `figura` (PNG di `figures.zip`), `tabella-testo` / `figura-testo` (LaTeX scritto a mano in
-`latex/testo/`, dalla scaletta e dal log). `dove`: `corpo` | `escluso`. `affianca`: figure con
+`latex/testo/`, dalla scaletta e dal log). `dove`: `corpo` | `appendice` (Appendix B, fuori dal conteggio delle pagine; numerati B1, B2…; richiamati dalla loro `sezione`, Lele 23/11) | `escluso`. `affianca`: figure con
 la stessa lettera nello stesso float, mezza larghezza, ognuna con il suo numero. `tieni`: righe
 di lead-investor type da mostrare (le altre diventano una riga «Yes»), separate da `;`.
 
@@ -87,3 +87,13 @@ di lead-investor type da mostrare (le altre diventano una riga «Yes»), separat
 | F21 | figura | m8_windows_failure.png | corpo | 5.4 | 0.40 | L |  | β1 and β3 across outcome windows: failure | Fig. 21 |
 | T13 | tabella-testo | ../4. risultati/tables testuali/T13.tex | corpo | 5.5 | 0.29 |  |  | Summary of the hypotheses | Table 13 |
 | T14 | tabella-testo | ../4. risultati/tables testuali/T14.tex | corpo | 5.5 | 0.60 |  |  | Our estimates against the literature | Table 14 |
+| BT1 | tabella | main:9 | appendice | 5.4 | 0.60 |  |  | Exit with hype as the raw VC share (logit, H2 specification) | new (do-file §12) |
+| BT2 | tabella | main:10 | appendice | 5.4 | 0.60 |  |  | Failure with hype as the raw VC share (logit, H2 specification) | new (do-file §12) |
+| BT3 | tabella | main:11 | appendice | 5.4 | 0.60 |  |  | Exit with a squared gap: ln gap and months between rounds | new (do-file §13) |
+| BT4 | tabella | main:12 | appendice | 5.4 | 0.60 |  |  | Failure with a squared gap: ln gap and months between rounds | new (do-file §13) |
+| BF1 | figura | q1_nonlinear_ln_gap.png | appendice | 5.4 | 0.40 |  |  | Predicted exit and failure along the gap, ln gap and its square, no window (two-round startups) | new (do-file §13) |
+| BF2 | figura | q2_nonlinear_months.png | appendice | 5.4 | 0.40 |  |  | Predicted exit and failure along the gap, months and their square, no window (two-round startups) | new (do-file §13) |
+| BF3 | figura | c1_correlation_heatmap.png | appendice | 5.4 | 0.53 |  |  | Correlations among the main regressors and controls, estimation sample | new (do-file §14) |
+| X1 | figura | n2_step_total_vs_per_year.png | escluso | 5.3 | 0.40 |  |  | v4 pipeline (18/11), not used in the paper | — |
+| X2 | figura | n3_outcomes_by_gap_quintile.png | escluso | 3.3 | 0.40 |  |  | v4 pipeline (18/11), not used in the paper | — |
+| X3 | figura | n4_binscatter_exit_failure.png | escluso | 5.2 | 0.40 |  |  | v4 pipeline (18/11), not used in the paper | — |

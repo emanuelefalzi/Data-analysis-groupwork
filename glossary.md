@@ -53,4 +53,4 @@ One canonical term per concept, for the paper, the slides and the speaker notes.
 
 - Hypothesis verdicts use the paper's Table 13 wording only: **right sign, not significant** · **rejected, opposite sign** · **not supported**. Never "no effect" or "confirmed".
 - About the gap or hype, never write *effect, impact, causes, leads to, reduces, increases, drives*. Write **is associated with**, **goes with**.
-- "Stable in sign" across hype measures, not "stable": with past-only hype β3 is significant (log L2584).
+- "Stable in sign" across hype measures, not "stable": with past-only hype β3 is significant (log L2605).

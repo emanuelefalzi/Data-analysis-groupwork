@@ -60,7 +60,7 @@ py "<R>/tools/piano.py"
 
 - `leggi_scaletta.py` → `build/sezioni.json`. Segnala fonti non in `fonti.bib` e sezioni corte:
   annotali per il report finale, non fermarti.
-- `floats.py` → deve dire **35 floats nel corpo (21 figure, 14 tabelle)** e nessun «⚠ … da
+- `floats.py` → deve dire **35 floats nel corpo (21 figure, 14 tabelle)** e **7 in appendice B (3 figure, 4 tabelle)**: Tables 9–12 del do-file e figure q1, q2, c1, richiamate da 5.4 punto 6 (Lele, 23/11) e nessun «⚠ … da
   scrivere» o «assente». Se un file manca (es. `figures.zip` cambiato), correggi il piano solo se
   è un nome di file cambiato; se un float non esiste più, segnalalo nel report e vai avanti.
 - Se uno script fallisce con un errore di codice: leggi il traceback, correggi lo script in

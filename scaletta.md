@@ -79,7 +79,7 @@ Rules that hold throughout (from `RULES.md`):
 ### Editorial notes
 - v4 ends with "The paper proceeds as follows. Section 2…". The skill bans announcement sentences ("niente frasi-cerniera di annuncio dell'ordine", `skill-redigere essay/CLAUDE.md`), and the section numbers change anyway. Drop it, or rewrite it as a statement of what each part shows.
 - v4 says "Three results stand out". Keep the count at three, so it matches the conclusion.
-- The abstract claims findings are "stable across … alternative hype measures". The past-only hype β3 is significant (log L2584), so "stable in sign" is the accurate wording.
+- The abstract claims findings are "stable across … alternative hype measures". The past-only hype β3 is significant (log L2605), so "stable in sign" is the accurate wording.
 
 ### Claude's additions
 - [Likely] Open with a concrete founder-side hook (two startups, same round 1, one refinances at 6 months and one at 24) before the literature. This works for the paper and for slide 1 of the deck.
@@ -375,7 +375,7 @@ Rules that hold throughout (from `RULES.md`):
    Across gap quintiles the exit share barely moves, failure falls and the share still private rises (Figure 8). A slow round is followed more by staying private than by exit. Raw shares, no controls.
 
 #### Sources
-- None (descriptive). Source: log L120–200 (tabstat, t-tests) for Table 5. Figures 2–7 and 9–10 come from the do-file (`figures/d1…d8`). Figure 8 (exit / failure / still private): new log `not_in_log_checks.txt` **L1029–1053** (shares by quintile: exit 0.211–0.237, failure 0.141 → 0.094, still private 0.637 → 0.692; one round 0.156 / 0.315 / 0.529), **L997** (14 startups with both outcomes, counted as exits); figure `figures/x1_outcomes_by_gap_quintile.png`.
+- None (descriptive). Source: log L157–237 (tabstat, t-tests) for Table 5. Figures 2–7 and 9–10 come from the do-file (`figures/d1…d8`). Figure 8 (exit / failure / still private): new log `not_in_log_checks.txt` **L1029–1053** (shares by quintile: exit 0.211–0.237, failure 0.141 → 0.094, still private 0.637 → 0.692; one round 0.156 / 0.315 / 0.529), **L997** (14 startups with both outcomes, counted as exits); figure `figures/x1_outcomes_by_gap_quintile.png`.
 
 #### Guardrails
 - Figures 7 and 8 are **descriptive**. Do not call them evidence for or against H1/H2. The tests are in 5.1–5.2.
@@ -384,7 +384,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Editorial notes
 - **Ten figures in one subsection** (Figs 2–10). Proposal: keep 2, 3, 4 and 8 in the text. Move 5, 6, 7, 9 and 10 to an appendix. Figure 8 is the most informative and should get a deck slide.
-- Check the Table 5 values against log L120–200 (still to do line by line).
+- Check the Table 5 values against log L157–237 (still to do line by line).
 
 #### Claude's additions
 - [Likely] Figure 8 (exit / failure / still private) is the single best bridge to 6.3: slow raisers are not exiting more, they stay private more. Keep it in the main text.
@@ -422,7 +422,7 @@ Rules that hold throughout (from `RULES.md`):
 - Do not interpret ρ1. Say only that 6.2 explains why.
 
 #### Editorial notes
-- Check N = 9,124 (log L346, L521), LPM N = 9,262 (log L971) and the 41 clusters in the log header.
+- Check N = 9,124 (log L375, L550), LPM N = 9,262 (log L996) and the 41 clusters in the log header.
 - The equation stays in the paper. In the deck it becomes a simplified version with three highlighted terms (β1, β3, ρ1).
 
 #### Claude's additions
@@ -450,7 +450,7 @@ Rules that hold throughout (from `RULES.md`):
 - The disclosure-selection caveat goes in 5.6 (D3).
 
 #### Editorial notes
-- Check 7,574 / 73 clusters (log L2885 onwards).
+- Check 7,574 / 73 clusters (log L2906 onwards).
 - 4.2 can be short (about 150 words). Points 3 and 4 can merge if space is tight.
 
 #### Claude's additions
@@ -466,7 +466,7 @@ Rules that hold throughout (from `RULES.md`):
 2. **Window length**: *4, 5 and 6 years, fully observed windows, stability of β1 and β3*
    Exit and failure models are re-run with four- and six-year windows, each on startups whose window of that length is fully observed. Large movement in β1 or β3 would make the five-year choice unsafe.
 3. **No window**: *exit at any time, 28,478 startups, 27,944 used, follow-up time*
-   Exit at any time is estimated on all startups without a window: 28,478 enter, 27,944 are used (Stata drops categories that predict the outcome perfectly), 77 clusters (log L2353, L2358). This tests what happens when the window is dropped, at the cost of mixing the gap with remaining follow-up time.
+   Exit at any time is estimated on all startups without a window: 28,478 enter, 27,944 are used (Stata drops categories that predict the outcome perfectly), 77 clusters (log L2374, L2379). This tests what happens when the window is dropped, at the cost of mixing the gap with remaining follow-up time.
 4. **Hype without look-ahead**: *past-only z-score, look-ahead, information at round 1, smaller sample*
    Hype is recomputed using only the sector's past years, so the measure uses only information available at round 1. This removes the concern that the z-score uses future years of the same sector.
 5. **Further checks and extra controls**: *finer hype, robust SEs, early exits removed, VIF, team and lead-age controls*
@@ -528,14 +528,14 @@ Rules that hold throughout (from `RULES.md`):
 3. **The same in probabilities**: *AME cold −0.3 pp, hot −2.1 pp (p = 0.07), hot − cold −1.9 pp (p = 0.33), LPM*
    AMEs per unit of ln gap: about zero in cold markets, −2.1 pp in hot ones (p = 0.07). The hot-minus-cold difference, −1.9 pp, is not significant (p = 0.33). The LPM gives the same reading.
 4. **Predicted probabilities**: *Figure 12, cold flat about 22%, hot 26% → 20%, overlapping bands*
-   Predicted exit is flat at about 22% in cold markets. In hot markets it falls from about 26% at a gap of about 2 months to about 20% at about 4½ years, but the bands overlap everywhere (Figures 11–12). (Grid ln(1 + months) = 1 to 4, i.e. 1.7 to 54 months; cold 0.220 → 0.213, hot 0.264 → 0.200: log L835–860.)
+   Predicted exit is flat at about 22% in cold markets. In hot markets it falls from about 26% at a gap of about 2 months to about 20% at about 4½ years, but the bands overlap everywhere (Figures 11–12). (Grid ln(1 + months) = 1 to 4, i.e. 1.7 to 54 months; cold 0.220 → 0.213, hot 0.264 → 0.200: log L863–888.)
 5. **Controls are larger than the gap**: *round-1 size OR 1.64, age +10%, angel group +94%, CVC +55%, VC +39%*
    Round-1 size and age at round 1 go with much higher exit odds, and angel-group, CVC and VC leads with higher odds than no identified lead. Moving across the gap IQR changes exit by less than one point.
 
 #### Numbers (log)
-- H1 β1 −0.0889, p 0.188: **log L358**. H2 β1 −0.0714, p 0.294: **L538**. β3 −0.0557, p 0.344: **L541**.
-- AMEs −0.0025 (p 0.883) / −0.0116 (p 0.293) / −0.0211 (p 0.068): **L672–676** (N = 4,444 two-round startups). Hot − cold −0.0186, χ²(1) = 0.96, p = 0.327: **L693–703**.
-- LPM β1 −0.0121 (p 0.271), β3 −0.0083 (p 0.385): **L989, L992**.
+- H1 β1 −0.0889, p 0.188: **log L387**. H2 β1 −0.0714, p 0.294: **L567**. β3 −0.0557, p 0.344: **L570**.
+- AMEs −0.0025 (p 0.883) / −0.0116 (p 0.293) / −0.0211 (p 0.068): **L701–705** (N = 4,444 two-round startups). Hot − cold −0.0186, χ²(1) = 0.96, p = 0.327: **L722–732**.
+- LPM β1 −0.0121 (p 0.271), β3 −0.0083 (p 0.385): **L1014, L1017**.
 
 #### Sources
 - None new. Results are ours; literature comparisons go in 5.5.
@@ -547,7 +547,7 @@ Rules that hold throughout (from `RULES.md`):
 - Do not mention past-only hype here. It is in 5.4.
 
 #### Editorial notes
-- ⚠ The AMEs use **N = 4,444** two-round startups (log L659), not 4,483. Mention it in the Table 7 note. Why: 4,483 − 1 startup with missing age − 38 in lead types or states that predict no exit perfectly (new log `not_in_log_checks.txt` **L4396–4440**).
+- ⚠ The AMEs use **N = 4,444** two-round startups (log L688), not 4,483. Mention it in the Table 7 note. Why: 4,483 − 1 startup with missing age − 38 in lead types or states that predict no exit perfectly (new log `not_in_log_checks.txt` **L4396–4440**).
 - Figures 11, 12, 13 and 14 make four figures. Proposal: keep 11 or 12 in the text (the deck needs only one: Figure 12 is more intuitive), and move 13 and 14 to the appendix.
 - The deck's main results slide: Figure 12 plus one sentence. The coefficient table goes in a backup slide.
 
@@ -561,20 +561,20 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Content
 1. **H1b rejected, opposite sign**: *β1 = −0.241 (p = 0.001) baseline, β1 = −0.231 (p = 0.005) with interactions, odds ratio 0.794 (of −0.231), 21% lower odds, opposite sign*
-   The gap coefficient in the failure logit is negative and significant: −0.241 in the baseline, −0.231 with interactions (log L1151, L1305). In the interaction model the odds ratio is exp(−0.231) = 0.794: a 2.7-fold longer gap goes with 21% lower failure odds, the opposite of H1b. (The baseline −0.241 would give 0.786.)
+   The gap coefficient in the failure logit is negative and significant: −0.241 in the baseline, −0.231 with interactions (log L1176, L1330). In the interaction model the odds ratio is exp(−0.231) = 0.794: a 2.7-fold longer gap goes with 21% lower failure odds, the opposite of H1b. (The baseline −0.241 would give 0.786.)
 2. **Magnitude in probability**: *AME −2.4 pp per unit, −1.9 pp over IQR, mean 12.4%, about −15% relative*
    One unit of ln gap goes with 2.4 points less failure at average hype. Over the gap's interquartile range that is −1.9 points against a mean of 12.4%, a relative fall of about 15%.
 3. **Hype does not change it**: *β3 = −0.030, p = 0.681, AME −2.1 to −2.8 pp, cold and hot markets*
-   Hype does not moderate the failure slope (β3 = −0.030, p = 0.681). Predicted failure falls from about 15–18% at a gap of about 2 months to about 9% at about 4½ years in both cold and hot markets (Figures 15–16). (Cold 0.155 → 0.093, hot 0.177 → 0.091: log L1551–1576.)
+   Hype does not moderate the failure slope (β3 = −0.030, p = 0.681). Predicted failure falls from about 15–18% at a gap of about 2 months to about 9% at about 4½ years in both cold and hot markets (Figures 15–16). (Cold 0.155 → 0.093, hot 0.177 → 0.091: log L1575–1600.)
 4. **Controls mirror exit, lead type does not**: *round-1 size −37% odds, age −8% odds, lead type not predictive, upside vs downside*
    Larger first rounds and older startups fail less, mirroring the exit model with opposite signs. Lead-investor type does not predict failure, so the lead type relates to the chance of a good outcome, not of a bad one.
 5. **Functional form check**: *Frisch–Waugh–Lovell, binned residuals, linear in ln gap, slope −0.030*
    After partialling out controls and fixed effects, failure falls steadily across the whole range of ln gap (Figure 17). The log form fits, and no few extreme gaps drive the result. For exit the bins are flat.
 
 #### Numbers (log)
-- β1 −0.2409, p 0.001: **L1151**. β1 −0.2309, p 0.005: **L1305**. β3 −0.0301, p 0.681: **L1308**. N = 9,235 (**L1139, L1288**).
-- AMEs for failure: from the grid at **L1424** onwards. Values at hype −1/0/+1 still to read in the log.
-- Figure 17 (FWL binned check), new log `not_in_log_checks.txt`: slope failure −0.0304 (SE 0.0092, p 0.002) **L1140**; exit −0.0112 (p 0.322) **L1121**; N = 4,482 **L1087** (paper says 4,483: open point 21c); 20 bins **L1424**; figure `figures/x2_fwl_outcomes_by_gap.png`. The −0.030 of point 5 is the binned slope; it equals β3 (L1308) only by coincidence.
+- β1 −0.2409, p 0.001: **L1176**. β1 −0.2309, p 0.005: **L1330**. β3 −0.0301, p 0.681: **L1333**. N = 9,235 (**L1164, L1313**).
+- AMEs for failure: from the grid at **L1449** onwards. Values at hype −1/0/+1 still to read in the log.
+- Figure 17 (FWL binned check), new log `not_in_log_checks.txt`: slope failure −0.0304 (SE 0.0092, p 0.002) **L1140**; exit −0.0112 (p 0.322) **L1121**; N = 4,482 **L1087** (paper says 4,483: open point 21c); 20 bins **L1424**; figure `figures/x2_fwl_outcomes_by_gap.png`. The −0.030 of point 5 is the binned slope; it equals β3 (L1333) only by coincidence.
 
 #### Sources
 - None new (literature in 5.5).
@@ -597,7 +597,7 @@ Rules that hold throughout (from `RULES.md`):
 
 #### Content
 1. **H3 rejected, opposite sign**: *θ1 = 0.109 (p < 0.001), elasticity, about +1% per 10% gap, +8.9% over IQR*
-   θ1 = 0.109 (log L2899) is an elasticity: a 10% longer gap goes with a step about 1% larger (exactly 1.1^0.109 − 1 = 1.04%; 1.1% is the 0.109 × 10% shortcut), and moving from 8 to 19 months with a step about 8.9% larger. This is the opposite of H3.
+   θ1 = 0.109 (log L2920) is an elasticity: a 10% longer gap goes with a step about 1% larger (exactly 1.1^0.109 − 1 = 1.04%; 1.1% is the 0.109 × 10% shortcut), and moving from 8 to 19 months with a step about 8.9% larger. This is the opposite of H3.
 2. **No moderation by hype**: *θ3 = −0.016, p = 0.381, Figure 18, cold and hot markets*
    Hype does not change the gap–step slope (θ3 = −0.016, p = 0.381). The predicted log step rises from about 0.9–1.0 for very short gaps to about 1.2 at four years in both markets (Figure 18).
 3. **Controls priced at round 1**: *size −0.139, age −6.1%, earlier deals −4.2%, accelerator +33%*
@@ -608,7 +608,7 @@ Rules that hold throughout (from `RULES.md`):
    We read the positive θ1 as a statement about total progress accumulated before round 2, not about how fast value is created. It matches the competing prediction of 2.4. Speed of value creation favours fast raisers.
 
 #### Numbers (log)
-- θ1 0.1088, p < 0.001, N = 7,574: **L2899** (baseline) / 0.1086 **L3043**. θ3 −0.0163, p 0.381: **L3046**.
+- θ1 0.1088, p < 0.001, N = 7,574: **L2920** (baseline) / 0.1086 **L3064**. θ3 −0.0163, p 0.381: **L3067**.
 - Figure 19, new log `not_in_log_checks.txt`: N = 7,514 **L1521**; mean total step 1.063 / 1.083 / 1.075 / 1.063 / 1.183 **L1552–1564**; median step per year 1.885 → 1.047 → 0.735 → 0.541 → 0.363 **L1568–1580** (ratio about 5.2); median gap 6.8 → 35.0 months **L1536–1548**; figure `figures/x3_valuation_step_by_gap_quintile.png`.
 
 #### Sources
@@ -640,13 +640,18 @@ Rules that hold throughout (from `RULES.md`):
    Adding founders, an MBA founder, an AI term and a young lead investor leaves the gap coefficients unchanged, so omitted team quality of this kind does not explain the null. A young lead goes with lower exit odds.
 5. **Further checks**: *finer hype, exit-market share, robust SEs, early exits removed, VIF < 2*
    Finer hype measures give β3 between −0.033 and −0.071, not significant. ⚠ The new log gives −0.036 to −0.078, with p = 0.090 for industry group × quarter: wording waits for the group (open point 21a). Robust SEs barely change p-values. Removing early one-round exits leaves β1 and β3 unchanged. VIFs are fine once the gap is centred.
+6. **Hype as the raw VC share and a non-linear gap**: *raw share, β3 ≈ 0 in every window; hot − cold −0.9 pp (p = 0.650); squared gap not significant inside the windows; curved only with no window, where it mixes gap and follow-up time; Appendix B*
+   Two checks added to the do-file on 20/11 (sections 12–13), with their tables and figures in Appendix B. First, hype as the **raw VC share** (the sector's percentage of all VC dollars in the year of round 1, not z-scored; the TA's suggestion) in place of `heat`. The gap × hype coefficient β3 is close to zero and not significant with 4-, 5- and 6-year windows and with no window, for exit and for failure (Tables B1–B2). At the mean ± 1 SD of the share (14.3% and 40.4%), the hot − cold difference in the AME of ln gap on exit is −0.9 pp (p = 0.650). With the share minus its sector mean, which keeps only the movement within each sector, β3 is −0.010 (p = 0.596). H2 is not supported with this measure either. Second, a **squared gap**, in ln(1 + months) and in months. Inside the 4-, 5- and 6-year windows no squared term is significant at 5% (at 10% only ln gap squared with the 6-year window: exit p = 0.070, failure p = 0.065; Tables B3–B4). In the 5-year models the linear and squared gap terms are not jointly significant (exit: χ²(2) = 0.32, p = 0.851 in ln and 1.85, p = 0.396 in months; failure: 2.42, p = 0.299 and 0.95, p = 0.622), but these tests are evaluated at a raw share of zero (see Guardrails). Only with no window does ln gap bend: the squared term is negative and significant for exit (−0.227) and for failure (−0.210), both p < 0.001, and the predicted probabilities of both fall at long gaps (Figures B1–B2). With no window part of this is time at risk: a longer gap leaves less time after round 2 to exit or to fail, the same lesson as point 2. The correlation heatmap (Figure B3) shows R and R × ln gap correlated at 0.94, in line with the high uncentred VIFs of point 5, while hype (`heat`) correlates at most 0.08 in absolute value with the group, the gap and the round-1 controls, and 0.31 with the raw share.
 
 #### Numbers (log)
-- Windows: exit 4y β1 −0.0277 / β3 −0.0712 (**L1666, L1669**); exit 6y −0.0140 / −0.0650 (**L1864, L1867**); fail 4y −0.2851 / 0.0108 (**L2014, L2017**); fail 6y −0.1898 / 0.0234 (**L2173, L2176**).
-- Exit ever β1 −0.4581 (**L2370**). Past-only hype β3 −0.0498, p 0.039 (**L2584**). Probit β3 −0.0284, p 0.390 (**L2758**).
+- Windows: exit 4y β1 −0.0277 / β3 −0.0712 (**L1689, L1692**); exit 6y −0.0140 / −0.0650 (**L1887, L1890**); fail 4y −0.2851 / 0.0108 (**L2037, L2040**); fail 6y −0.1898 / 0.0234 (**L2196, L2199**).
+- Exit ever β1 −0.4581 (**L2391**). Past-only hype β3 −0.0498, p 0.039 (**L2605**). Probit β3 −0.0284, p 0.390 (**L2779**).
 - Table 12 (point 4), new log `not_in_log_checks.txt`: exit β1 −0.100 (p 0.163) → −0.100 (p 0.160), β3 −0.035 (p 0.597 → 0.602) **L287, L290, L472, L475**; failure β1 −0.231 → −0.229 **L643, L809**; young lead on exit −0.334, OR 0.716, p 0.009 **L587, L975**; AI term on failure −0.607 **L923**; N 7,591 (exit) / 7,685 (failure), 41 clusters **L270, L626, L275**. Word table `RQ1_tables_not_in_log_checks.rtf`.
 - Further checks (point 5), new log `not_in_log_checks.txt`, β3 (gap × hype) and p: sector × quarter −0.036, 0.405 **L1960** (149 clusters); industry group × year −0.070, 0.280 **L2368** (190 clusters); industry group × quarter −0.078, 0.090 **L2554** (570 clusters), all-quarter base −0.057, 0.368 **L2740**; + sector exit share −0.031, 0.656 **L3082**; robust SEs p 0.358 vs 0.344 clustered **L3267, L1774**; 367 early one-round exits **L3389**, then β1 −0.065, β3 −0.056 (p 0.339) **L3460, L3463**; VIFs uncentred 10.1–18.7 for R, gap and interactions **L3774–3782**, round-1 controls 1.01–1.52, centred all ≤ 2.44 **L4041 ff.**
 - ⚠ Differences between paper v4 and the new log (clusters 190 and 570 vs 191 and 575, p 0.090, VIF wording, exit-share definition): open point 21. The log wins.
+- Raw VC share (point 6, main log `regression_analysis.txt`, do-file section 12; logit coefficients, SEs clustered by sector × year of round 1): share mean 27.38, SD 13.05, N 9,262 (**L7261**). Exit 5y β1 −0.0238 (p 0.877), β3 −0.0020 (p 0.670) **L6310, L6313**, N 9,124, 41 clusters **L6293, L6298**; exit 4y β3 −0.0035 (p 0.505) **L5981**; exit 6y β3 −0.0002 (p 0.961) **L6652**; exit no window β1 −0.4867 (p < 0.001), β3 0.0009 (p 0.753) **L6945, L6948**, N 27,944, 77 clusters **L6928, L6933**. Failure 5y β1 −0.1467 (p 0.384), β3 −0.0031 (p 0.542) **L6461, L6464**, N 9,235 **L6444**; failure 4y β3 −0.0040 (p 0.334) **L6133**; 6y β3 0.0051 (p 0.292) **L6796**; ever β1 −0.5829 (p < 0.001), β3 0.0008 (p 0.847) **L7120, L7123**, N 26,349 **L7103**. Hot − cold AME of ln gap on exit at share 14.33 vs 40.44: −0.0094 (SE 0.0208), χ²(1) 0.21, p 0.650, N 4,444 two-round startups (**L7272–7293**). Share minus sector mean: β1 −0.0808 (p 0.234), β3 −0.0096 (p 0.596), N 9,124 (**L7345, L7362, L7365**). Tables B1–B2 = `RQ1_tables.doc` Tables 9–10.
+- Squared gap (point 6, do-file section 13; hype = raw VC share in these models): ln gap squared, exit 4y −0.0055 (p 0.922) **L7568**, 5y −0.0338 (p 0.580) **L7754**, 6y −0.1309 (p 0.070) **L7948**, no window −0.2273 (p < 0.001) with linear 0.6349 (p 0.004) **L8106, L8101**; failure 4y −0.0665 (p 0.284) **L9024**, 5y −0.0592 (p 0.267) **L9185**, 6y −0.0876 (p 0.065) **L9339**, ever −0.2098 (p < 0.001) with linear 0.4316 (p 0.096) **L9494, L9489**. Months squared, p: exit 4y 0.431 **L8308**, 5y 0.185 **L8494**, 6y 0.250 **L8688**, no window 0.907 (linear −0.0335, p 0.001) **L8846, L8841**; failure 4y 0.663 **L9669**, 5y 0.583 **L9830**, 6y 0.933 **L9984**, ever 0.147 (linear −0.0464, p < 0.001) **L10139, L10134**. Joint tests, 5-year models: exit ln χ²(2) 0.32, p 0.851 **L10283–10284**; exit months 1.85, p 0.396 **L10294–10295**; failure ln 2.42, p 0.299 **L10305–10306**; failure months 0.95, p 0.622 **L10316–10317**. Figure B1 (`q1_nonlinear_ln_gap.png`), no window, two-round startups: predicted exit 0.228 at ln gap 1, 0.237 at 1.5, 0.077 at 4 (**L10350, L10352, L10362**; N 15,495 **L10327**); failure 0.111 → 0.022 (**L10401, L10413**; N 15,294 **L10378**). Figure B2 (`q2_nonlinear_months.png`): exit 0.251 at 0 months → 0.082 at 48 (**L10464, L10480**); failure 0.119 → 0.023 (**L10522, L10538**). Tables B3–B4 = `RQ1_tables.doc` Tables 11–12.
+- Heatmap (point 6, do-file section 14; Figure B3 `c1_correlation_heatmap.png`), `full_window == 1`, obs 9,262 (**L10585**): R with R × ln gap 0.94, with R × months 0.76; `heat` with the other regressors −0.076 to 0.031, with the raw share 0.31 (**L10588–10596**).
 
 #### Sources
 - `gompers1996`: grandstanding predicts young VCs bring firms to IPO earlier. That our young-lead coefficient goes the other way is our result (R-45), not the source's claim.
@@ -656,6 +661,9 @@ Rules that hold throughout (from `RULES.md`):
 - **"Robust SEs give the same p-value, so the few clusters do not matter" is not a substitute for the wild bootstrap.** That limitation is in 5.6. Here state only the check.
 - The past-only hype result is evidence about H2's sign. Its *interpretation* (signal extraction) is in 5.5.
 - Do not call the exit-ever coefficient a result for H1. It is a lesson on why the window is needed.
+- **Point 6, raw VC share.** The share is not centred (mean 27.4%, minimum 0.4%), so in these models β1 is the gap slope at a share of zero and the joint tests of the linear and squared gap terms are evaluated there too. Do not compare them with β1 of Tables 6 and 8, and do not write that the failure association "disappears" with the raw share or with a squared gap. β3 is per percentage point of share, not per SD: compare signs and p-values, not sizes.
+- **Point 6, squared gap.** The models of do-file section 13 use the raw VC share as hype, not `heat`. The no-window curvature is not a result for H1: with no window part of it is time at risk (point 2). Do not describe Figures B1–B2 as an inverted U for exit in the windows: there the squared terms are not significant.
+- **Point 6, floats.** Tables B1–B4 and Figures B1–B3 are in Appendix B, outside the 20 pages: the body keeps its 21 figures and 14 tables. Cite in the text only the two or three numbers that carry the point. The table row "R × ln(1 + months) × R × ln(1 + months)" is the squared term (do-file label).
 
 #### Editorial notes
 - The abstract and conclusion say "stable across … hype measures". The past-only β3 becomes significant (same sign), so "stable in sign" is the honest wording.
@@ -917,7 +925,7 @@ Terms that drift in v4 or across documents, which the glossary must fix:
 2. "Estimation sample" means 28,478 in `construction.pdf` and 9,263 in the paper.
 3. `nanda2017` and `townsend2015` are cited but not downloaded (D4).
 4. Abstract/conclusion "stable across hype measures" vs the significant past-only β3.
-5. AMEs use N = 4,444 two-round startups, not 4,483 (log L659).
+5. AMEs use N = 4,444 two-round startups, not 4,483 (log L688).
 6. Figures 8, 17 and 19 (and Figure 1, a schematic) are not exported by `rq1_two_group_analysis_v2.do`: their numbers cannot be traced to the log. **Closed 17/11** (new log `not_in_log_checks.txt`, figures `x1…x3`).
 
 ### C. Deck (kept in mind only)

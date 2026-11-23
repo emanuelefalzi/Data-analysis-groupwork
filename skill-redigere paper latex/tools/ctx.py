@@ -56,16 +56,20 @@ def glossario() -> str:
 
 def blocco_floats(s: dict) -> str:
     inv = {f["id"]: f for f in (leggi_json(BUILD / "floats.json") or [])}
-    if not s["floats"]:
+    if not s["floats"] and not s.get("floats_appendice"):
         return "_Nessun float in questa sezione._\n"
     out = []
-    for fid in s["floats"]:
+    app = set(s.get("floats_appendice", []))
+    for fid in s["floats"] + s.get("floats_appendice", []):
         f = inv.get(fid)
         if not f:
             out.append(f"- `{fid}`: ⚠ non in build/floats.json (lancia tools/floats.py)")
             continue
         tok = "[[FIG:%s]]" % fid if f["tipo"] == "figura" else "[[TAB:%s]]" % fid
         riga = f"- `{tok}` {f['tipo']}: *{f['didascalia']}*"
+        if fid in app:
+            riga += (" — **in Appendix B** (fuori dal corpo): richiamalo con il suo token, "
+                     "es. «[[TAB:BT1]] in Appendix B» (diventa «Table B1»), e cita nel testo solo i numeri che reggono il punto")
         if f.get("celle"):
             riga += ("\n  Celle della tabella (gia' visibili al lettore: nel testo ne citi al "
                      "massimo le due o tre che reggono il messaggio): " + ", ".join(f["celle"][:80]))

@@ -8,8 +8,8 @@ solo associazioni, decisioni del gruppo). Il processo fase per fase sta in `PROC
 
 La pipeline che trasforma `../scaletta.md` nel **paper finale del Group 21 in LaTeX**: corpo di
 **massimo 20 pagine** con **tutte le 21 figure e le 14 tabelle del paper v4**, poi References (da
-`../fonti/fonti.bib`) e Appendix A (già scritta in `../5. paper e documentazione di percorso/`),
-fuori conteggio. PDF: `../5. paper e documentazione di percorso/paper_group21_v5.pdf`.
+`../fonti/fonti.bib`), Appendix A (già scritta in `../5. paper e documentazione di percorso/`) e
+Appendix B (floats `appendice` di `input/piano.md`: Tables B1–B4, Figures B1–B3, dal 23/11), fuori conteggio. PDF: `../5. paper e documentazione di percorso/paper_group21_v5.pdf`.
 Deriva da `../skill-redigere essay/` (la pipeline della tesi di Lele, ridotta), con tre
 differenze: l'uscita è LaTeX e non Word; le fonti sono già state ristrette e verificate (le tesi
 della scaletta sono vincolanti); c'è un **budget di pagine** che comprende i floats.
