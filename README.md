@@ -23,8 +23,8 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 2. dataset/construction.txt     text of construction.pdf (pdftotext -layout), so tables can cite its lines
 3. stata/group_21_regressions.do   main Stata analysis, one file (23/11/2026): sections 1-9 as v2,
                                 10 extra controls, 11 figures n2-n4, 12 hype as raw VC share (TA),
-                                13 non-linear gap (ln and months, squared), 14 correlation heatmap,
-                                15 lagged hype (sector hype in year t-1)
+                                13 non-linear gap (ln and months, squared), 14 correlation heatmap
+                                (section 15, lagged hype, removed 24/11: group decision, not used)
 3. stata/regression_analysis.log   its Stata log (23/11/2026): source of every number (every "log L…" points here)
 3. stata/RQ1_tables.rtf         its RTF tables (23/11/2026)
 4. risultati/regression_analysis.txt    Stata log of the 20/11 do-file: superseded 24/11 (same numbers,
