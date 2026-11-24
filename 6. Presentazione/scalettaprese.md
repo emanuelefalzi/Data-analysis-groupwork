@@ -10,7 +10,7 @@ Cos'è: la scaletta di `6. Presentazione/group21_deck_v9.pptx` (44 slide), slide
 
 Come si legge:
 - le citazioni `[@chiave]` rimandano a `fonti/fonti.bib` (si risolvono con pandoc, `--citeproc`);
-- "log Lxxx" = riga di `4. risultati/regression_analysis.txt` (log del 20/11, in repo dal 23/11); "add-on Lxxx" = riga di `4. risultati/not_in_log_checks.txt`. Le righe sono quelle citate nel deck, controllate a campione sul log attuale;
+- "log Lxxx" = riga di `3. stata/regression_analysis.log` (log del 23/11; rinumerate dal log del 20/11 il 24/11); "add-on Lxxx" = riga di `4. risultati/not_in_log_checks.txt`. Le righe sono quelle citate nel deck, controllate a campione sul log attuale;
 - le figure nel pptx sono immagini senza nome di file: il nome (d1, m2, n3...) è quello scritto nella fonte a piè di slide.
 
 Sezioni del deck (barra in alto): 1 Question › 2 Data › 3 Descriptives › 4 Hypotheses › 5 Robustness › 6 Causality.
@@ -93,7 +93,7 @@ Fonti: log L157 (medie, SD); log L201, L220 (t-test a due campioni, varianze ugu
 - Destra, figura d2: startup per anno del round 1, per gruppo, full sample.
 - Range interquartile del gap: circa 8–19 mesi (ln(1+gap) 2.24–3.02).
 
-Fonti: figure d1, d2; IQR di ln(1+gap) log L3315.
+Fonti: figure d1, d2; IQR di ln(1+gap) log L3332.
 
 ## Slide 9: Hype moves within each sector over time; two-round startups exit more in cold and hot markets alike
 
@@ -116,7 +116,7 @@ Fonti: figure d7, d8.
 - Lettura: R e R × ln gap 0.94, per costruzione (termine del gap = 0 quando R = 0); hype quasi non correlato con il gap (0.03) e con i controlli; coppia di controlli più correlata: deal number ed età (0.31).
 - Variance inflation (LPM del modello principale), non centrato / centrato: R 10.07 / 1.23; R × ln gap 10.38 / 1.13; R × ln gap × hype 17.86 / 1.10.
 
-Fonti: correlazioni log L10606 (figura c1); VIF log L4645 (non centrati) e L4773 (gap centrato alla media delle two-round).
+Fonti: correlazioni log L10633 (figura c1); VIF log L4662 (non centrati) e L4790 (gap centrato alla media delle two-round).
 
 ## Slide 12: H1: a slow second round should be bad news for exit, but theory also allows the opposite
 
@@ -166,30 +166,30 @@ Fonti: [@li2008; @gompers2000; @ewens2018; @kerrlerner2014; @haltiwanger2013; @c
 - Quanto è grande β1: odds ratio 0.931 (modello 2): gap 2.7 volte più lungo, odds di exit più basse del 7% (p = 0.294); LPM: da 8 a 19 mesi (IQR del gap) −0.94 pp, p = 0.271; AME di ln gap a hype medio −1.2 pp (p = 0.293).
 - Verdetto: right sign, not significant.
 
-Fonti: Tabella 2, `4. risultati/RQ1_tables.doc`; log L387, L567, L1014 (β1), L3382 (odds ratio), L3704–3709 (LPM sull'IQR), L703–705 (AME, exit_h2, N = 4,444).
+Fonti: Tabella 2, `4. risultati/RQ1_tables.doc`; log L395, L575, L1026 (β1), L3399 (odds ratio), L3721–3726 (LPM sull'IQR), L711–713 (AME, exit_h2, N = 4,444).
 
 ## Slide 15: The raw picture agrees: exit is flat across gap quintiles
 
 - Sinistra, figura n3: quote di exit entro 5 anni dall'inizio finestra per quintile di gap, estimation sample: 22.2 · 22.7 · 21.1 · 23.7 · 21.5%, contro 15.6% per le one-round.
 - Destra, figura n4: two-round startups, outcome e ln gap al netto dei controlli round-1 e FE, 20 bin; pendenza dai micro-dati, SE OLS. Pendenza netta dell'exit su ln gap: −0.011 (p = 0.277). Pannello failure: vedi H1b.
 
-Fonti: figura n3 (log L5711 ss.); figura n4 (log L5787).
+Fonti: figura n3 (log L5728 ss.); figura n4 (log L5805).
 
 ## Slide 16: β1 stays small and insignificant across windows, models and controls
 
 - Tabella check / N / β1 / p / log:
-  - Main model (5 years): 9,124 / −0.071 / 0.294 / L567
-  - 4-year window: 12,030 / −0.028 / 0.627 / L1689
-  - 6-year window: 6,613 / −0.014 / 0.740 / L1887
-  - Probit: 9,124 / −0.042 / 0.279 / L2776
-  - LPM: 9,262 / −0.012 / 0.271 / L1014
-  - + team & young-lead controls: 7,591 / −0.100 / 0.160 / L5202
-  - Hype as raw VC share: 9,124 / −0.024 / 0.877 / L6310
+  - Main model (5 years): 9,124 / −0.071 / 0.294 / L575
+  - 4-year window: 12,030 / −0.028 / 0.627 / L1703
+  - 6-year window: 6,613 / −0.014 / 0.740 / L1901
+  - Probit: 9,124 / −0.042 / 0.279 / L2792
+  - LPM: 9,262 / −0.012 / 0.271 / L1026
+  - + team & young-lead controls: 7,591 / −0.100 / 0.160 / L5219
+  - Hype as raw VC share: 9,124 / −0.024 / 0.877 / L6330
 - Grafico: righe di β1 per finestra (le righe di β3 sono di H2).
 - Tutti i p-value sopra 0.15: nessuna specificazione rende il gap un predittore significativo dell'exit.
 - β1 = coefficiente di R × ln(1+gap) nell'equazione dell'exit (coefficiente probit per il probit); modelli con quota grezza e gap al quadrato: termine lineare a vc_share = 0; gap al quadrato, check di disegno e outcome senza finestra: sezione 5.
 
-Fonti: log L567, L1689, L1887, L2776, L1014, L5202, L6310.
+Fonti: log L575, L1703, L1901, L2792, L1026, L5219, L6330.
 
 ## Slide 17: H1b: a slow second round should go with more failure, unless slow raisers are the survivors
 
@@ -216,7 +216,7 @@ Fonti: [@puri2012; @manso2011; @hochberg2007]; `scaletta.md` 2.2 (L148–149); t
   - Deal no., FE, cluster: come in H1.
 - Logit N = 9,235: 28 oss. eliminate dove uno stato predice perfettamente la failure.
 
-Fonti: [@haltiwanger2013; @hochberg2007; @ewens2018]; do-file sezione 4 (fail_h1); log L1146–1160.
+Fonti: [@haltiwanger2013; @hochberg2007; @ewens2018]; do-file sezione 4 (fail_h1); log L1158–1172.
 
 ## Slide 19: H1b rejected, opposite sign: a 2.7-fold longer gap goes with 21% lower failure odds
 
@@ -231,7 +231,7 @@ Fonti: [@haltiwanger2013; @hochberg2007; @ewens2018]; do-file sezione 4 (fail_h1
 - Verdetto: rejected, opposite sign.
 - Pseudo R² 0.101; controlli round-1 e FE in entrambi; termini di interazione sotto H2.
 
-Fonti: Tabella 3, `4. risultati/RQ1_tables.doc`; log L1176 (β1, modello 1), L1330 (β1, modello 2), L3530 (odds ratio).
+Fonti: Tabella 3, `4. risultati/RQ1_tables.doc`; log L1188 (β1, modello 1), L1342 (β1, modello 2), L3547 (odds ratio).
 
 ## Slide 20: H1b in probabilities: a 2.7-fold longer gap goes with 2.4 points less failure
 
@@ -240,23 +240,23 @@ Fonti: Tabella 3, `4. risultati/RQ1_tables.doc`; log L1176 (β1, modello 1), L13
 - AME per hype al round 1 (pp, 95% CI, p): cold (−1 SD) −2.05 [−4.6, 0.5] 0.115; average (0) −2.42 [−4.0, −0.8] 0.003; hot (+1 SD) −2.80 [−4.4, −1.2] 0.001; hot minus cold −0.75 [−3.5, 2.0] 0.600.
 - Figura m5: effetto di ln gap su Pr(failure) lungo l'hype (−2…+2 SD), 95% CI: negativo a ogni livello, significativo da hype medio in su; nessuna differenza significativa tra cold e hot.
 
-Fonti: AME dopo fail_h2, two-round startups, N = 4,469: log L3668–3670 (hype −1, 0, +1 SD), L3687–3696 (contrasto, χ²(1) = 0.28); figura m5, log L1449–1506; tasso base log L157.
+Fonti: AME dopo fail_h2, two-round startups, N = 4,469: log L3685–3687 (hype −1, 0, +1 SD), L3704–3713 (contrasto, χ²(1) = 0.28); figura m5, log L1461–1518; tasso base log L157.
 
 ## Slide 21: The negative gap–failure link survives every fixed window and the team controls
 
 - Tabella check / N / β1 / p / log:
-  - Main model (5 years): 9,235 / −0.231 / 0.005 / L1330
-  - 4-year window: 12,156 / −0.285 / <0.001 / L2037
-  - 6-year window: 6,757 / −0.190 / 0.026 / L2196
-  - Founder sample, same model: 7,685 / −0.231 / 0.014 / L5381
-  - + team & young-lead controls: 7,685 / −0.229 / 0.013 / L5553
-  - Hype as raw VC share: 9,235 / −0.147 / 0.384 / L6461
+  - Main model (5 years): 9,235 / −0.231 / 0.005 / L1342
+  - 4-year window: 12,156 / −0.285 / <0.001 / L2051
+  - 6-year window: 6,757 / −0.190 / 0.026 / L2210
+  - Founder sample, same model: 7,685 / −0.231 / 0.014 / L5398
+  - + team & young-lead controls: 7,685 / −0.229 / 0.013 / L5570
+  - Hype as raw VC share: 9,235 / −0.147 / 0.384 / L6481
 - Controlli di team: team fondatori più grandi (−0.160, p = 0.001) e un termine AI (−0.607, p < 0.001) vanno con meno failure; β1 non si muove.
 - Grafico: righe di β1 per finestra (le righe di β3 sono di H2).
 - Modello con quota grezza: β1 è la pendenza a quota di settore 0%, fuori dai dati (media 27%): non confrontabile.
 - Nessun probit o LPM per la failure nel log; gap al quadrato, check di disegno e outcome senza finestra: sezione 5.
 
-Fonti: log L1330, L2037, L2196, L5381, L5553, L6461; controlli di team log L5579–5583.
+Fonti: log L1342, L2051, L2210, L5398, L5570, L6481; controlli di team log L5596–5600.
 
 ## Slide 22: H2: when capital is abundant, raising speed should be a weaker signal of quality
 
@@ -290,7 +290,7 @@ Fonti: [@ai2003; @mize2019]; do-file sezione 3 (exit_h2).
 - Verdetto: not supported.
 - Logit N = 9,124, 41 cluster.
 
-Fonti: Tabella 2, `4. risultati/RQ1_tables.doc`; log L570 (β3 logit), L3385 (odds ratio), L1017 (β3 LPM), L703–705 (AME, exit_h2, N = 4,444), L709–733 (contrasto).
+Fonti: Tabella 2, `4. risultati/RQ1_tables.doc`; log L578 (β3 logit), L3402 (odds ratio), L1029 (β3 LPM), L711–713 (AME, exit_h2, N = 4,444), L717–741 (contrasto).
 
 ## Slide 25: Predicted exit by gap barely differs between cold and hot markets, in the model and in the raw data
 
@@ -302,21 +302,21 @@ Fonti: figure m2, d6.
 ## Slide 26: β3 is negative in every hype measure; only past-only hype turns significant, against H2
 
 - Tabella misura di hype / check, N, β3, p, log:
-  - Main: sector × year (41 cl.): 9,124 / −0.056 / 0.344 / L570
-  - 4-year window: 12,030 / −0.071 / 0.208 / L1692
-  - 6-year window: 6,613 / −0.065 / 0.156 / L1890
-  - Probit: 9,124 / −0.028 / 0.390 / L2779
-  - Sector × quarter (149 cl.): 9,124 / −0.036 / 0.405 / L3787
+  - Main: sector × year (41 cl.): 9,124 / −0.056 / 0.344 / L578
+  - 4-year window: 12,030 / −0.071 / 0.208 / L1706
+  - 6-year window: 6,613 / −0.065 / 0.156 / L1904
+  - Probit: 9,124 / −0.028 / 0.390 / L2795
+  - Sector × quarter (149 cl.): 9,124 / −0.036 / 0.405 / L3804
   - Industry group × year (190 cl.): 9,123 / −0.070 / 0.280 / add-on L2368
   - Industry group × quarter (570 cl.): 9,124 / −0.057 / 0.368 / add-on L2740
-  - Raw VC share (per pp): 9,124 / −0.002 / 0.670 / L6313
-  - + team & young-lead controls: 7,591 / −0.035 / 0.602 / L5205
-  - Past-only hype (27 cl.): 6,593 / −0.050** / 0.039 / L2605
-  - Past-only hype, robust SEs: 6,593 / −0.050 / 0.176 / L4155
-  - Main hype, past-hype sample: 6,593 / −0.062 / 0.303 / L4337
+  - Raw VC share (per pp): 9,124 / −0.002 / 0.670 / L6333
+  - + team & young-lead controls: 7,591 / −0.035 / 0.602 / L5222
+  - Past-only hype (27 cl.): 6,593 / −0.050** / 0.039 / L2621
+  - Past-only hype, robust SEs: 6,593 / −0.050 / 0.176 / L4172
+  - Main hype, past-hype sample: 6,593 / −0.062 / 0.303 / L4354
 - L'unico check significativo: past-only hype, β3 = −0.050, p = 0.039, opposto a H2; campione più piccolo (6,593 startup, 27 cluster); stessa dimensione dell'hype principale su quel campione (−0.062, p = 0.303); p = 0.176 con SE robusti; con pochi cluster i test cluster-robust possono rifiutare troppo spesso [@cameron2008].
 
-Fonti: [@cameron2008]; log L570, L1692, L1890, L2779, L3787, L6313, L5205, L2605, L4155, L4337; add-on (`not_in_log_checks.txt`) L2368, L2740, cluster L2353, L2539.
+Fonti: [@cameron2008]; log L578, L1706, L1904, L2795, L3804, L6333, L5222, L2621, L4172, L4354; add-on (`not_in_log_checks.txt`) L2368, L2740, cluster L2353, L2539.
 
 ## Slide 27: H3: if speed is good news, faster second rounds should be priced at a bigger step-up
 
@@ -342,7 +342,7 @@ Fonti: [@kaplan2003; @korteweg2010; @cochrane2005]; `scaletta.md` 2.4 (L215–21
 - Cosa misura lo step, e cosa no: la post-money sopravvaluta il fair value in media del 48% per 135 unicorni US [@gornall2020]; gli step mescolano valore e potere negoziale per tipo di VC [@heughebaert2012]; osservato per il 49% delle two-round: campione selezionato (lettura nostra).
 - N = 7,574 delle 15,518 two-round startups (entrambe le post-money dichiarate), 73 cluster.
 
-Fonti: [@hsu2004; @gompers2000; @gornall2020; @heughebaert2012]; do-file sezione 7 (val_h1, val_h2); log L3053–3057.
+Fonti: [@hsu2004; @gompers2000; @gornall2020; @heughebaert2012]; do-file sezione 7 (val_h1, val_h2); log L3069–3073.
 
 ## Slide 29: H3 rejected, opposite sign: a 2.7-fold longer gap goes with an 11% larger step-up
 
@@ -358,7 +358,7 @@ Fonti: [@hsu2004; @gompers2000; @gornall2020; @heughebaert2012]; do-file sezione
 - Figura m9: ln step predetto per mesi tra i round, cold vs hot (margins di val_h2 a heat = −1 e +1).
 - Verdetto: rejected, opposite sign.
 
-Fonti: Tabella 6, `4. risultati/RQ1_tables.doc`; log L3064 (θ1, modello 2), L3069–3071 (controlli), L3053–3057 (N, R², cluster).
+Fonti: Tabella 6, `4. risultati/RQ1_tables.doc`; log L3080 (θ1, modello 2), L3085–3087 (controlli), L3069–3073 (N, R², cluster).
 
 ## Slide 30: Per year, fast raisers gain value faster; in total, slow raisers end slightly higher
 
@@ -366,7 +366,7 @@ Fonti: Tabella 6, `4. risultati/RQ1_tables.doc`; log L3064 (θ1, modello 2), L30
 - Step totale da piatto a crescente, step per anno cinque volte più piccolo. Lettura nostra (I-03, proposta): θ1 > 0 riflette tempo per costruire, non crescita più rapida.
 - Termini di hype (OLS 2), coef / p: hype al round 1 θ2 0.052 / 0.340; ln gap × hype θ3 −0.016 / 0.381. L'hype non cambia lo step né la sua relazione con il gap.
 
-Fonti: figura n2, log L5846–5874; θ2, θ3 di val_h2, log L3065–3067.
+Fonti: figura n2, log L5865–5893; θ2, θ3 di val_h2, log L3081–3083.
 
 ## Slide 31: Design-wide checks: neither inference, sample composition nor market exit conditions move β1 or β3
 
@@ -380,7 +380,7 @@ Fonti: figura n2, log L5846–5874; θ2, θ3 di val_h2, log L3065–3067.
 - Condizioni di exit del mercato: le exit si concentrano nel tempo; la quota del settore su tutte le exit nella finestra (coef 2.41, p = 0.203) lascia β1 e β3 invariati.
 - Cali di N nei logit per predizione perfetta: 139 (exit), 28 (failure).
 
-Fonti: [@cameron2008]; log L567/L570 (main), L3966/L3969 (SE robusti), L4524/L4527 (senza uscite precoci; 367 startup, L4448); add-on L3079–3084 (controllo exit-share, definizione nostra: open point 21).
+Fonti: [@cameron2008]; log L575/L578 (main), L3983/L3986 (SE robusti), L4541/L4544 (senza uscite precoci; 367 startup, L4465); add-on L3079–3084 (controllo exit-share, definizione nostra: open point 21).
 
 ## Slide 32: Non-linearity: adding the squared gap, in logs or in months, does not change any fixed-window result
 
@@ -394,7 +394,7 @@ Fonti: [@cameron2008]; log L567/L570 (main), L3966/L3969 (SE robusti), L4524/L45
 - N = 12,030 / 9,124 / 6,613 per l'exit e 12,156 / 9,235 / 6,757 per la failure (4 / 5 / 6 anni).
 - Nessun termine al quadrato è significativo al 5% in nessuna finestra o forma. I test congiunti non rifiutano che i termini del gap siano zero: in questa specificazione (hype come quota grezza) anche il legame con la failure perde significatività, come nel check con quota grezza di H1b.
 
-Fonti: do-file sezione 13; log L7568–7948 (exit, ln), L8308–8688 (exit, months), L9024–9339 (failure, ln), L9669–9984 (failure, months); test congiunti (testparm) L10275–10317.
+Fonti: do-file sezione 13; log L7588–7968 (exit, ln), L8328–8708 (exit, months), L9044–9359 (failure, ln), L9689–10004 (failure, months); test congiunti (testparm) L10295–10337.
 
 ## Slide 33: Without a fixed window the gap looks strongly protective and curved, but that is exposure time
 
@@ -404,7 +404,7 @@ Fonti: do-file sezione 13; log L7568–7948 (exit, ln), L8308–8688 (exit, mont
 - La curvatura compare solo in log e solo senza finestra: non c'è in nessun modello a finestra fissa (slide precedente). Per questo ogni ipotesi si testa su una finestra fissa di 5 anni. *Failure senza finestra: solo specificazione con quota grezza.
 - Modelli senza finestra: ogni startup, outcome fino alla fine dei dati.
 
-Fonti: log L2391 (exit, specificazione heat, N = 27,944, 77 cluster), L7120 (failure, specificazione quota grezza, N = 26,349); modelli al quadrato L8101–8106, L9489–9494 (ln), L8841–8846, L10134–10139 (months); do-file, nota della sezione 13.
+Fonti: log L2407 (exit, specificazione heat, N = 27,944, 77 cluster), L7140 (failure, specificazione quota grezza, N = 26,349); modelli al quadrato L8121–8126, L9509–9514 (ln), L8861–8866, L10154–10159 (months); do-file, nota della sezione 13.
 
 ## Slide 34: Robustness at a glance: the four verdicts hold, with two explained exceptions
 
@@ -445,18 +445,18 @@ Fonti: DAG dal Causal Workbench.
 - Percorsi da T a Y: causale Gap → ln ΔV; causale Gap → Progress between rounds → ln ΔV; bias aperto Gap ← Unobserved quality → ln ΔV; bias aperto Gap → Valuation disclosed ← ln ΔV. Altri 2 percorsi non causali bloccati.
 - Valutazione dichiarata per 7,574 delle 15,518 two-round startups; condizionare sulla disclosure, figlia dell'outcome, può distorcere θ1 in entrambe le direzioni. La selezione sulla disclosure è la minaccia più grande per H3; la sua direzione è ignota.
 
-Fonti: DAG dal Causal Workbench; N log L3053–3057 (vedi slide 28).
+Fonti: DAG dal Causal Workbench; N log L3069–3073 (vedi slide 28).
 
 ## Slide 38: Selection and confounding: what we did about them, and what is left
 
 - Tabella minaccia / cosa abbiamo fatto / cosa resta / rischio:
-  - La qualità non osservata guida sia velocità sia exit: controlli round-1 (dimensione, deal number, età, tipo di lead), FE year-quarter, settore e stato; i controlli di team e young-lead lasciano β1 invariato (−0.100 in entrambe le colonne, log L5011/L5202) / la qualità dopo il round 1 (traction, prodotto) non è in PitchBook; riportiamo solo associazioni / High.
-  - Il gap esiste solo per chi ha raggiunto il round 2: le one-round restano nel campione con R = 1/0; togliendo 367 one-round uscite o fallite entro 13 mesi β1 resta −0.065 (L4524) / i risultati non dicono cosa farebbe un'attesa più lunga a una startup che non ha mai raccolto di nuovo / Medium.
+  - La qualità non osservata guida sia velocità sia exit: controlli round-1 (dimensione, deal number, età, tipo di lead), FE year-quarter, settore e stato; i controlli di team e young-lead lasciano β1 invariato (−0.100 in entrambe le colonne, log L5028/L5219) / la qualità dopo il round 1 (traction, prodotto) non è in PitchBook; riportiamo solo associazioni / High.
+  - Il gap esiste solo per chi ha raggiunto il round 2: le one-round restano nel campione con R = 1/0; togliendo 367 one-round uscite o fallite entro 13 mesi β1 resta −0.065 (L4541) / i risultati non dicono cosa farebbe un'attesa più lunga a una startup che non ha mai raccolto di nuovo / Medium.
   - Condizionare sul round 2 lega qualità e condizioni di mercato: controlli round-1 e FE nel modello (e hype, in H2) bloccano questi percorsi nel DAG / i percorsi attraverso la qualità non osservata restano aperti / Medium.
   - Shock specifici di settore muovono insieme hype ed exit: FE di settore e year-quarter; quattro misure di hype alternative e un controllo exit-share lasciano β3 tra −0.002 e −0.071, mai significativo tranne l'hype solo-passato / gli shock settore × anno non sono assorbiti / Medium.
 - Limitazioni scritte nel Causal Workbench; stato: proposte, da concordare con il gruppo.
 
-Fonti: log L5011, L5202, L4524; per gli altri numeri le righe sono nelle slide delle ipotesi e di robustness (26, 31).
+Fonti: log L5028, L5219, L4541; per gli altri numeri le righe sono nelle slide delle ipotesi e di robustness (26, 31).
 
 ## Slide 39: Timing, measurement and scope: smaller threats, each with a design answer
 

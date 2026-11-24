@@ -14,7 +14,7 @@
     "checks": "../4. risultati/RQ1_tables_not_in_log_checks.rtf"
   },
   "log_stata": [
-    "../4. risultati/regression_analysis.txt",
+    "../3. stata/regression_analysis.log",
     "../4. risultati/not_in_log_checks.txt"
   ],
   "pagine_corpo_max": 20,

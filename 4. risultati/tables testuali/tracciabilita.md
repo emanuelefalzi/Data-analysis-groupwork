@@ -155,15 +155,15 @@ Generato da `skill-redigere paper latex/tools/tabelle_testo.py`. Una riga per ce
 | Cella | Fonte | Esito |
 |---|---|---|
 | Exit within 5 years | glossary | ✓ |
-| −0.003 (0.88) | log L703 | ✓ |
-| −0.012 (0.29) | log L704 | ✓ |
-| −0.021* (0.07) | log L705 | ✓ |
-| −0.019 (0.33) | log L732; log L723 | ✓ |
+| −0.003 (0.88) | log L711 | ✓ |
+| −0.012 (0.29) | log L712 | ✓ |
+| −0.021* (0.07) | log L713 | ✓ |
+| −0.019 (0.33) | log L740; log L731 | ✓ |
 | Failure within 5 years | glossary | ✓ |
-| −0.021 (0.12) | log L1484 | ✓ |
-| −0.024*** (0.003) | log L1488 | ✓ |
-| −0.028*** (0.001) | log L1492 | ✓ |
-| *(nota)* | log L688; log L1451; log L723 | ✓ |
+| −0.021 (0.12) | log L1496 | ✓ |
+| −0.024*** (0.003) | log L1500 | ✓ |
+| −0.028*** (0.001) | log L1504 | ✓ |
+| *(nota)* | log L696; log L1463; log L731 | ✓ |
 
 ## T13 · Summary of the hypotheses
 
@@ -171,19 +171,19 @@ Generato da `skill-redigere paper latex/tools/tabelle_testo.py`. Una riga per ce
 |---|---|---|
 | H1: longer gap, less exit | scaletta 2.1 | ✓ |
 | $\beta_1<0$ | scaletta 2.1 | ✓ |
-| −0.071 (p = 0.29) | log L567 | ✓ |
+| −0.071 (p = 0.29) | log L575 | ✓ |
 | Right sign, not significant | rules | ✓ |
 | H1b: longer gap, more failure | scaletta 2.2 | ✓ |
 | $\beta_1>0$ | scaletta 2.2 | ✓ |
-| −0.231 (p = 0.005) | log L1330 | ✓ |
+| −0.231 (p = 0.005) | log L1342 | ✓ |
 | Rejected, opposite sign | rules | ✓ |
 | H2: gap penalty weaker in hot markets | scaletta 2.3 | ✓ |
 | $\beta_3>0$ | scaletta 2.3 | ✓ |
-| −0.056 (p = 0.34) | log L570 | ✓ |
+| −0.056 (p = 0.34) | log L578 | ✓ |
 | Not supported | rules | ✓ |
 | H3: longer gap, smaller valuation step | scaletta 2.4 | ✓ |
 | $\theta_1<0$ | scaletta 2.4 | ✓ |
-| +0.109 (p < 0.001) | log L2920 | ✓ |
+| +0.109 (p < 0.001) | log L2936 | ✓ |
 | Rejected, opposite sign | rules | ✓ |
 
 ## T14 · Our estimates against the literature
@@ -192,19 +192,19 @@ Generato da `skill-redigere paper latex/tools/tabelle_testo.py`. Una riga per ce
 |---|---|---|
 | H1 gap → exit | scaletta 2.1 | ✓ |
 | $\beta_1<0$ (staging as real option) | scaletta 2.1 | ✓ |
-| −0.071, p = 0.29 | log L567 | ✓ |
+| −0.071, p = 0.29 | log L575 | ✓ |
 | Right sign, no power to reject zero; information asymmetries fall after round 1 [cite: hoenen2014] | scaletta 5.5 | ✓ |
 | H1b gap → failure | scaletta 2.2 | ✓ |
 | + (abandonment) or − (survivorship) | scaletta 2.2 | ✓ |
-| −0.231, p = 0.005 | log L1330 | ✓ |
+| −0.231, p = 0.005 | log L1342 | ✓ |
 | Consistent with survivorship [cite: cochrane2005, korteweg2010] and reluctance to terminate [cite: guler2007] | scaletta 5.5 | ✓ |
 | H2 gap × hype | scaletta 2.3 | ✓ |
 | $\beta_3>0$ (speed cheap in hot markets) | scaletta 2.3 | ✓ |
-| −0.056, p = 0.34; past-only hype −0.050, p = 0.039 | log L570; log L2605 | ✓ |
+| −0.056, p = 0.34; past-only hype −0.050, p = 0.039 | log L578; log L2621 | ✓ |
 | Opposite sign; fits the signal-extraction alternative (our argument) | scaletta 5.5 | ✓ |
 | H3 gap → step | scaletta 2.4 | ✓ |
 | $\theta_1<0$ (fast rounds follow good news) | scaletta 2.4 | ✓ |
-| +0.109, p < 0.001 | log L2920 | ✓ |
+| +0.109, p < 0.001 | log L2936 | ✓ |
 | Opposite sign; fits priced progress (our argument) | scaletta 5.5 | ✓ |
 | Round-1 size | scaletta 2.5 | ✓ |
 | + exit, − failure, − step | scaletta 2.5 | ✓ |

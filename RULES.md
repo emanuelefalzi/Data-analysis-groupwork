@@ -46,9 +46,9 @@ Research question: *is the time between the first and the second VC round associ
 | `1. python/dataset.py` | Builds the dataset from the raw PitchBook files in `data/` (unzip them there); writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
 | `2. dataset/dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
 | `3. stata/group_21_regressions.do` | Main Stata analysis, one file (Owen, 23/11/2026): sections 1-14 as the 20/11 version, plus 15 lagged hype (sector hype in year t-1). Replaces `rq1_two_group_analysis_v2.do` and `rq1_addon_extra_controls.do` | Current |
-| `3. stata/regression_analysis.log` | Stata log of `group_21_regressions.do`, run 23/11/2026 (12,304 lines). Sections 1-14 have the same numbers as `4. risultati/regression_analysis.txt`, but line numbers shift by +1 to +20 (one extra line "file ... not found" before each figure export) | Current |
+| `3. stata/regression_analysis.log` | Stata log of `group_21_regressions.do`, run 23/11/2026 (12,304 lines). **Primary source for every number** (since 24/11, Lele): every `log L…` in the registers, scaletta, tables and deck outline points here | Current |
 | `3. stata/RQ1_tables.rtf` | RTF tables produced by `group_21_regressions.do` (23/11/2026) | Current |
-| `4. risultati/regression_analysis.txt` | Stata log of the 20/11 do-file (10,702 lines). **Primary source for every number**: the line numbers in the registers point here | Current |
+| `4. risultati/regression_analysis.txt` | Stata log of the 20/11 do-file (10,702 lines). Same numbers as sections 1-14 of the new log; line numbers differ by +1 to +20. Kept for history | **Superseded** 24/11/2026 |
 | `4. risultati/not_in_log_checks.txt` | Stata log of `rq1_addon_not_in_log_checks.do` (run 17/11/2026; the do-file was removed from the repo on 23/11): primary source for the numbers of Table 12, Figures 8, 17, 19 and the §5.4 checks | Current (17/11/2026) |
 | `4. risultati/RQ1_tables.doc` | Word/RTF tables produced by the do-file | Current |
 | `5. paper e documentazione di percorso/paper_group21.pdf` | Group paper v4 (15/11/2026): theory, hypotheses, results, robustness, limits. Source for the deck | Current |
@@ -64,10 +64,10 @@ Research question: *is the time between the first and the second VC round associ
 - **Main outcome.** The main outcome is **`exit_5y`** (exit within 5 years of the window start), as in the paper and the do-file. `construction.pdf` says "exit is the main outcome": on this point it is **superseded**. `exit` (exit at any time, no window) is a robustness check.
 - **Accelerator control.** `main_important_stuff_ig.docx` lists an `Accelerator_pre_r1` control and Yu (2020). The v2 dataset has no such variable. Do not cite it as a control.
 - **Script name.** `construction.pdf` calls the script `rq1_two_group_dataset_v2.py`; in the repo it is `dataset.py`.
-- **Checks outside the log.** The further checks in Section 5.4 of the paper were run outside the do-file (paper §5.6), so their numbers are not in `regression_analysis.txt`. In the register they must be marked "not in log".
+- **Checks outside the log.** The further checks in Section 5.4 of the paper were run outside the do-file (paper §5.6), so their numbers are not in `regression_analysis.log`. In the register they must be marked "not in log".
 
 ## Sources and citations
-- **Numbers about our results** (coefficients, p-values, N, rates) come from the **Stata log** (`regression_analysis.txt`, with line number) or from a table produced by the do-file. The paper is a secondary source for numbers: if paper and log disagree, the log wins and the mismatch goes in the open points.
+- **Numbers about our results** (coefficients, p-values, N, rates) come from the **Stata log** (`3. stata/regression_analysis.log`, with line number) or from a table produced by the do-file. The paper is a secondary source for numbers: if paper and log disagree, the log wins and the mismatch goes in the open points.
 - **Every number states what it is:** a logit coefficient, an odds ratio or an average marginal effect (in percentage points); its p-value; the sample (e.g. `full_window == 1`, N = 9,263); the standard errors (clustered by sector × year of round 1, 41 clusters in the main exit models).
 - **Descriptive facts about the data** (sample sizes, shares, sector counts) come from `construction.pdf` tables or from code run on `dataset.dta`. Say which.
 - **Econometric methods and terms** come from the course: the intro slides and the textbook Hill, Griffiths and Lim (2018), *Principles of Econometrics*. The course brain repo `Emanuele-Notes/backup-brain-I_sem_2026` has **no 21072 folder yet**. When one is added, methods are cited from it (lesson + §). Never cite a method or a framework that is not in the course or the paper without telling the user.

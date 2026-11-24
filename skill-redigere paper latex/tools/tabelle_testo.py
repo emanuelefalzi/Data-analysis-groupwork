@@ -7,10 +7,10 @@ non produce: Tables 1, 2, 3, 4, 7, 13, 14 del paper v4).
 I sorgenti stanno in `4. risultati/tables testuali/<id>.md` (progetto.json → `tabelle_testo`).
 Ogni cella del corpo della tabella dichiara la sua fonte fra graffe; le intestazioni no.
 
-    | H1: longer gap, less exit {scaletta 2.1} | −0.071 (p = 0.29) {log L538} |
+    | H1: longer gap, less exit {scaletta 2.1} | −0.071 (p = 0.29) {log L546} |
 
 Fonti ammesse e cosa controlla lo script:
-- `{log L538}`        riga di `4. risultati/regression_analysis.txt`: ogni numero della cella deve
+- `{log L546}`        riga di `3. stata/regression_analysis.log`: ogni numero della cella deve
                       esserci, arrotondato allo stesso numero di decimali (`< 0.001` vale 0.000);
 - `{checks L123}`     stessa cosa su `4. risultati/not_in_log_checks.txt`;
 - `{rtf main:2}`      tabella del do-file (alias in progetto.json → `tabelle_rtf`): ogni numero

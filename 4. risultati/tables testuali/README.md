@@ -17,7 +17,7 @@ Le 7 tabelle del paper che il do-file non produce: Tables 1, 2, 3, 4, 7, 13 e 14
 
 **Si modifica solo il `.md`.** Ogni cella del corpo dichiara la sua fonte fra graffe:
 
-    | H1: longer gap, less exit {scaletta 2.1} | −0.071 (p = 0.29) {log L538} | Right sign, not significant {rules} |
+    | H1: longer gap, less exit {scaletta 2.1} | −0.071 (p = 0.29) {log L546} | Right sign, not significant {rules} |
 
 `skill-redigere paper latex/tools/tabelle_testo.py` legge i `.md`, controlla ogni cella e scrive
 `<id>.tex` (usato dal paper) e `tracciabilita.md` (una riga per cella: valore, fonte, esito).
@@ -25,7 +25,7 @@ Se un controllo fallisce esce con errore e il paper non si compila.
 
 | Fonte | Controllo |
 |---|---|
-| `{log L538}` | la riga 538 di `regression_analysis.txt` contiene ogni numero della cella, con lo stesso arrotondamento |
+| `{log L546}` | la riga 546 di `3. stata/regression_analysis.log` contiene ogni numero della cella, con lo stesso arrotondamento |
 | `{checks L123}` | idem su `not_in_log_checks.txt` |
 | `{rtf main:2}`, `{rtf checks:12}` | ogni numero è una cella di quella tabella del do-file |
 | `{construction L127}` | la riga di `2. dataset/construction.txt` contiene numeri e nomi `in_codice` |

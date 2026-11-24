@@ -25,11 +25,10 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
                                 10 extra controls, 11 figures n2-n4, 12 hype as raw VC share (TA),
                                 13 non-linear gap (ln and months, squared), 14 correlation heatmap,
                                 15 lagged hype (sector hype in year t-1)
-3. stata/regression_analysis.log   its Stata log (23/11/2026): sections 1-14 same numbers as the 20/11 log,
-                                line numbers shifted by +1 to +20
+3. stata/regression_analysis.log   its Stata log (23/11/2026): source of every number (every "log L…" points here)
 3. stata/RQ1_tables.rtf         its RTF tables (23/11/2026)
-4. risultati/regression_analysis.txt    Stata log of the 20/11 do-file: source of every number
-                                (line numbers in the registers point here)
+4. risultati/regression_analysis.txt    Stata log of the 20/11 do-file: superseded 24/11 (same numbers,
+                                line numbers 1 to 20 lower), kept for history
 4. risultati/not_in_log_checks.txt      log of rq1_addon_not_in_log_checks.do (17/11; do-file removed 23/11):
                                 Table 12, Figures 8, 17, 19, Section 5.4 checks, N of the AMEs
 4. risultati/RQ1_tables.doc     Word/RTF Tables 1-12 from the do-file (9-12 new: raw VC share, squared gap)

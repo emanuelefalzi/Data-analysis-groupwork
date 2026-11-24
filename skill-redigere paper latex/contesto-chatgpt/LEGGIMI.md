@@ -9,6 +9,6 @@ Cartella di partenza per i prompt manuali della routine «redigere paper» (Lele
 | `rilievi/<id>.md` | Rilievi degli audit dei claim da correggere nelle riscritture |
 | `../.claude/agents/paper-writer.md` | Istruzioni complete del writer |
 | `../sezioni/<id>.md` | Versioni attuali delle sezioni (DRAFT + LEDGER) |
-| `../../scaletta.md`, `../../4. risultati/regression_analysis.txt`, `../../fonti/fonti.bib`, `../input/piano.md` | Fonti a monte del contesto (scaletta, log Stata, bibliografia, piano): servono solo per controllare, il materiale vincolante è `ctx/` |
+| `../../scaletta.md`, `../../3. stata/regression_analysis.log`, `../../fonti/fonti.bib`, `../input/piano.md` | Fonti a monte del contesto (scaletta, log Stata, bibliografia, piano): servono solo per controllare, il materiale vincolante è `ctx/` |
 
 Ordine dei prompt: 01 (6.2) → 02 (6.3) → 03 (6.4) → 04 (7) → 15 (abstract) nella stessa chat; 05–14 riscritture indipendenti (10–14 facoltative).
