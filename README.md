@@ -21,7 +21,7 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 2. dataset/dataset_v4.dta       dataset v4: the same 57 columns + 7 new (28,478 x 64); construction_v4.pdf
 2. dataset/construction.pdf     how the dataset is built, plus every variable with its role
 2. dataset/construction.txt     text of construction.pdf (pdftotext -layout), so tables can cite its lines
-3. stata/group_21_regressions.do   main Stata analysis, one file (23/11/2026): sections 1-9 as v2,
+3. stata/group_21_regressions.do   main Stata analysis, one file (20/11/2026): sections 1-9 as v2,
                                 10 extra controls, 11 figures n2-n4, 12 hype as raw VC share (TA),
                                 13 non-linear gap (ln and months, squared), 14 correlation heatmap
                                 (section 15, lagged hype, removed 24/11: group decision, not used)
