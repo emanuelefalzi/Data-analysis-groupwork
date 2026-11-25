@@ -170,11 +170,12 @@ margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-1 0 1))
 margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-1 1)) contrast(atcontrast(r))
 
 * Effect of the gap along hype. H2 holds if the line is not flat.
-margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-2(0.25)2))
+* AMEs in percentage points (100 x probability units), to match the text and the notes.
+margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-2(0.25)2)) expression(100*predict(pr))
 marginsplot, recast(line) recastci(rarea) title("") ///
     plotopts(lcolor(navy) lwidth(medthick)) ciopts(color(navy%20) lwidth(none)) ///
     yline(0, lcolor(gs8) lpattern(dash)) ///
-    ytitle("Effect of ln(gap) on Pr(exit)") xtitle("Market hype at round 1 (SD)") $LOOK
+    ytitle("AME of ln(1+gap) on Pr(exit), pp") xtitle("Market hype at round 1 (SD)") $LOOK
 graph export figures/m1_exit_effect_by_hype.png, replace width(2000)
 
 * Predicted exit by months between rounds, cold vs hot market.
@@ -225,11 +226,12 @@ logit failure_5y i.two_rounds##c.heat c.log_gap_r2##c.heat $X $FE ///
 estimates store fail_h2
 
 * Effect of the gap on failure along hype.
-margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-2(0.25)2))
+* AMEs in percentage points (100 x probability units), to match the text and the notes.
+margins if two_rounds == 1, dydx(log_gap_r2) at(heat = (-2(0.25)2)) expression(100*predict(pr))
 marginsplot, recast(line) recastci(rarea) title("") ///
     plotopts(lcolor(cranberry) lwidth(medthick)) ciopts(color(cranberry%20) lwidth(none)) ///
     yline(0, lcolor(gs8) lpattern(dash)) ///
-    ytitle("Effect of ln(gap) on Pr(failure)") xtitle("Market hype at round 1 (SD)") $LOOK
+    ytitle("AME of ln(1+gap) on Pr(failure), pp") xtitle("Market hype at round 1 (SD)") $LOOK
 graph export figures/m5_failure_effect_by_hype.png, replace width(2000)
 
 * Predicted failure by months between rounds, cold vs hot market.
