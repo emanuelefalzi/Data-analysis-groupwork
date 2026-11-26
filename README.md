@@ -3,7 +3,7 @@
 Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)**, Bocconi University, 2026/27.
 
 > ## ⭐ Final files: [`Cartella_con_file_finali/`](Cartella_con_file_finali/)
-> The final dataset, do-file and additional material are there. **Upload the final PowerPoint deck in that folder** (`group21_final_deck.pptx`), not in `6. Presentazione/`.
+> The final dataset, do-file and additional material are there. **Upload the final PowerPoint deck in that folder** (`group21_presentation.pptx`).
 
 **Research question.** Is the time between a startup's first and second VC round associated with its probability of exit, and does this association differ between hot and cold funding markets?
 
