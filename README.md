@@ -2,6 +2,9 @@
 
 Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)**, Bocconi University, 2026/27.
 
+> ## ⭐ Final files: [`Cartella_con_file_finali/`](Cartella_con_file_finali/)
+> The final dataset, do-file and additional material are there. **Upload the final PowerPoint deck in that folder** (`group21_final_deck.pptx`), not in `6. Presentazione/`.
+
 **Research question.** Is the time between a startup's first and second VC round associated with its probability of exit, and does this association differ between hot and cold funding markets?
 
 **Data.** PitchBook course sample: US startups founded 2012–2019. We keep 28,478 startups with a disclosed first VC round. 15,518 raised a second round; 12,960 did not.
@@ -13,6 +16,7 @@ Group project for **21072 Data Analysis Module I (Data Lab for Entrepreneurship)
 ## Repository map
 
 ```
+Cartella_con_file_finali/        ⭐ FINAL files: dataset, do-file, additional material; the final deck goes here
 0. dati iniziali/               raw PitchBook files, zipped: pitchbook_course.dta, Deal.csv,
                                 DealInvestorRelation.csv, Investor.csv
 1. python/dataset.py            raw PitchBook files -> dataset (v2)

@@ -31,3 +31,6 @@ When a member says «lancia routine validazione fonti» (or «valida le fonti»,
 
 ## Routine redigere paper
 When a member says «lancia redigere paper» (or «scrivi il paper», «run the paper pipeline»), read `skill-redigere paper latex/ROUTINE.md` and run it from start to end without asking again, on any computer (it installs what is missing or says exactly what to install). It turns `scaletta.md` into the final LaTeX paper (body ≤ 20 pages with all 21 figures and 14 tables of paper v4, then References and Appendix A) and writes `5. paper e documentazione di percorso/paper_group21_v5.pdf`.
+
+## Final files (Owen, 26/11/2026)
+`Cartella_con_file_finali/` is the final submission folder: the final dataset, do-file and additional material are there, and **the final PowerPoint deck must be uploaded there** (`group21_final_deck.pptx`). When a member works on the final deck, remind them of this folder.

@@ -42,6 +42,7 @@ Research question: *is the time between the first and the second VC round associ
 ## Files and their role
 | File | What it is | Status |
 |---|---|---|
+| `Cartella_con_file_finali/` | ⭐ **Final submission folder** (Owen, 26/11/2026): final dataset `group21_dataset.dta`, final do-file `group21_DoFile.do`, `Additional_material.zip` (notebook, log, result tables, figures, paper). **The final PowerPoint deck is uploaded here** as `group21_final_deck.pptx` | Final |
 | `0. dati iniziali/` | Raw PitchBook files, zipped: `pitchbook_course.dta`, `Deal.csv`, `DealInvestorRelation.csv`, `Investor.csv` | Current |
 | `1. python/dataset.py` | Builds the dataset from the raw PitchBook files in `data/` (unzip them there); writes `output/rq1_two_group_dataset_v2.dta` and `.csv` | Current (v2) |
 | `2. dataset/dataset.dta` | Output of `dataset.py`: 28,478 startups × 57 variables | Current |
